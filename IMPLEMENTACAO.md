@@ -187,18 +187,26 @@ Para cada laboratório:
 
 ## Fases de Implementação
 
-### Fase 1 — Setup e Template ✅ Em andamento
+### Fase 1 — Setup e Template ✅ Concluída
 **Duração estimada: 2 semanas**
 
 - [x] Fork do `pgeam_dev` → `aer_dev`
 - [x] Criar plano de implementação (`IMPLEMENTACAO.md`)
-- [ ] Configuração base: `config.yaml`, `params.yaml`, menus
-- [ ] Substituir logo e favicon por identidade AER/ITA
-- [ ] Definir paleta de cores (sugestão: azul espacial + dourado ITA)
-- [ ] Remover seções específicas do EAM (regulamento, processo seletivo, teses, dissertações)
-- [ ] Renomear seção `docentes/` → `pessoal/`
-- [ ] Renomear seção `areas/` → `linhas/` (linhas de pesquisa)
-- [ ] Deploy de ambiente de desenvolvimento local
+- [x] Configuração base: `config.yaml`, `params.yaml`, menus
+- [ ] Substituir logo e favicon por identidade AER/ITA (aguarda asset)
+- [ ] Definir paleta de cores oficial (aguarda identidade visual)
+- [x] Remover seções específicas do EAM (regulamento, processo seletivo, teses, dissertações)
+- [x] Renomear seção `docentes/` → `pessoal/`
+- [x] Renomear seção `areas/` → `linhas/` (linhas de pesquisa)
+- [x] Criar seções novas: `departamentos/`, `espaco/`, `graduacao/`
+- [x] Reescrever homepage (`index.html`) para identidade AER
+- [x] Criar `data/departamentos.yaml` (ALA, ALB, ALC, ALD, ALE)
+- [x] Criar `data/linhas_pesquisa.yaml` (11 linhas: aeronáutica + espacial)
+- [x] Adicionar campo `tema` (aeronautica/espacial/ambos) em labs e projetos
+- [x] Criar layouts `departamentos/list.html` e `espaco/list.html`
+- [x] Adaptar `pessoal/list.html` para agrupamento por departamento
+- [x] Adaptar partials `header.html` e `footer.html` para AER
+- [x] Build Hugo sem erros (2718 páginas geradas)
 
 ### Fase 2 — Estrutura de Conteúdo
 **Duração estimada: 3 semanas**
