@@ -1,0 +1,8 @@
+---
+title: "ANALYSIS OF THE STABILITY OF MULTIPLE HELICAL VORTICES USING COMPLEX-STEP LINEARIZATION"
+date: 2022-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85159570534"
+---

@@ -1,0 +1,8 @@
+---
+title: "GAS TURBINE DESIGN POINT DEFINITION USING ECONOMICS, ENVIRONMENTAL AND OPTIMIZATION ASPECTS"
+date: 2024-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85204392642"
+---

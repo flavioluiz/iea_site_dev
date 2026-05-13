@@ -1,0 +1,8 @@
+---
+title: "INTERACTIVE LEARNING PLATFORM FOR THE PRELIMINARY DESIGN OF AXIAL TURBINES AND ITS USE FOR GRADUATE COURSES"
+date: 2022-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85141675343"
+---

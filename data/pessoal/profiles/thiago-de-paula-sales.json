@@ -1,0 +1,225 @@
+{
+  "id": "thiago-de-paula-sales",
+  "nome": "Thiago de Paula Sales",
+  "nome_destaque": "Thiago",
+  "slug": "thiago-de-paula-sales",
+  "area": "eam1",
+  "foto": "thiago-de-paula-sales.jpg",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/1009252776618684",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57193124025",
+    "google_scholar": "",
+    "researchgate": "",
+    "site": "",
+    "orcid": "https://orcid.org/0000-0002-5988-167X"
+  },
+  "metrics": {
+    "h_index": 8,
+    "citacoes": 303,
+    "cited_by_count": 293,
+    "artigos": 18,
+    "coauthor_count": 31,
+    "publication_range": [
+      2013,
+      2025
+    ],
+    "ultima_atualizacao": "2026-05-06",
+    "data_source": "scopus"
+  },
+  "linhas_pesquisa": {
+    "pt": [
+      "Dinâmica de sistemas multicorpos",
+      "Modelagem probabilística",
+      "Simulação numérica"
+    ],
+    "en": []
+  },
+  "publicacoes": [
+    {
+      "publication_id": "2-s2.0-85216308994",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85219180628",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85208496066",
+      "author_position": 4,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85212183679",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85164796519",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85092226713",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85087906281",
+      "author_position": 3,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85117471601",
+      "author_position": 2,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85079572512",
+      "author_position": 1,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85050457253",
+      "author_position": 1,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85051823195",
+      "author_position": 1,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85046513854",
+      "author_position": 1,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85026406455",
+      "author_position": 4,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85051391454",
+      "author_position": 3,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-85010931126",
+      "author_position": 5,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-84933511412",
+      "author_position": 3,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-84896919346",
+      "author_position": 3,
+      "is_corresponding_author": false
+    },
+    {
+      "publication_id": "2-s2.0-84880917256",
+      "author_position": 1,
+      "is_corresponding_author": false
+    }
+  ],
+  "scopus_ids": {
+    "author_id": "57193124025",
+    "eid": "9-s2.0-57193124025",
+    "orcid": "0000-0002-5988-167X"
+  },
+  "scopus_metadata": {
+    "subject_areas": [
+      {
+        "id": 2210,
+        "document_count": 11
+      },
+      {
+        "id": 2202,
+        "document_count": 10
+      },
+      {
+        "id": 2205,
+        "document_count": 8
+      },
+      {
+        "id": 2211,
+        "document_count": 7
+      },
+      {
+        "id": 2212,
+        "document_count": 4
+      }
+    ],
+    "affiliation_current": {
+      "name": null,
+      "city": "Sao Jose dos Campos",
+      "country": "Brazil"
+    },
+    "affiliation_history": [
+      {
+        "id": 113591119,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 60021657,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 113194341,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 113805669,
+        "nome": null,
+        "cidade": "Uberlandia",
+        "pais": "Brazil"
+      },
+      {
+        "id": 60015104,
+        "nome": null,
+        "cidade": "Uberlandia",
+        "pais": "Brazil"
+      }
+    ],
+    "link_scopus": "http://api.elsevier.com/content/author/author_id/57193124025"
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2012 - 2017",
+      "instituicao": "Engenharia Mecânica",
+      "titulo": "Simultaneous use of shape memory alloys and permanent magnets in multistable smart structures for morphing aircraft applications O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações",
+      "ano_obtencao": null
+    }
+  ],
+  "resumo": {
+    "pt": "Possui graduação em Bacharelado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2010), mestrado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2012) e doutorado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2017), com período sanduíche no Departamento de Engenharia Aeronáutica da Universidade de Michigan (2015). Atualmente é Professor Ajunto (Classe B) do Instituto Tecnológico de Aeronáutica. Tem experiência na área de Engenharia Mecânica, com ênfase em Dinâmica dos Corpos Rígidos, Elásticos e Plásticos, atuando principalmente nos seguintes temas: viscoelasticidade, materiais inteligentes, elementos finitos, propagação de incertezas, sistemas com múltiplos corpos, máquinas/sistemas rotativos, estruturas periódicas, vibrações e propagação de ondas em estruturas.",
+    "en": "Possui graduação em Bacharelado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2010), mestrado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2012) e doutorado em Engenharia Mecânica pela Universidade Federal de Uberlândia (2017), com período sanduíche no Departamento de Engenharia Aeronáutica da Universidade de Michigan (2015). Atualmente é Professor Ajunto (Classe B) do Instituto Tecnológico de Aeronáutica. Tem experiência na área de Engenharia Mecânica, com ênfase em Dinâmica dos Corpos Rígidos, Elásticos e Plásticos, atuando principalmente nos seguintes temas: viscoelasticidade, materiais inteligentes, elementos finitos, propagação de incertezas, sistemas com múltiplos corpos, máquinas/sistemas rotativos, estruturas periódicas, vibrações e propagação de ondas em estruturas."
+  },
+  "premios_titulos": [
+    {
+      "ano": 2022,
+      "titulo": "Professor homenageado, Turma de formandos em Engenharia Mecânica-Aeronáutica do ITA - MEC-22."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "metadata": {
+    "lattes_updated": "2025-12-05T17:49:08.516682",
+    "lattes_extraction_date": "2025-12-05T17:48:45.374027"
+  }
+}

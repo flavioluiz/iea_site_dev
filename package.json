@@ -1,0 +1,20 @@
+{
+  "name": "pgeam-site",
+  "version": "1.0.0",
+  "description": "Site do Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica do ITA",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify",
+    "clean": "rm -rf public resources"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "pgeam",
+    "ita",
+    "aerospace",
+    "engineering"
+  ],
+  "author": "ITA",
+  "license": "MIT"
+}

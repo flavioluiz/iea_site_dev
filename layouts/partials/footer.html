@@ -1,0 +1,74 @@
+<footer class="bg-gray-900 text-white mt-12">
+  <div class="container mx-auto px-4 py-8 max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Sobre -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">{{ .Site.Params.division_name }}</h3>
+        <p class="text-gray-300 text-sm">
+          {{ if eq .Site.Language.Lang "pt" }}
+            {{ .Site.Params.division_full_name_pt }}
+          {{ else }}
+            {{ .Site.Params.division_full_name_en }}
+          {{ end }}
+        </p>
+        <p class="text-gray-300 text-sm mt-2">
+          {{ .Site.Params.organization }}
+        </p>
+      </div>
+
+      <!-- Contato -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">{{ i18n "contact" }}</h3>
+        <div class="text-gray-300 text-sm space-y-2">
+          <p>{{ .Site.Params.address.street }}</p>
+          <p>{{ .Site.Params.address.district }}</p>
+          <p>{{ .Site.Params.address.city }} - {{ .Site.Params.address.state }}</p>
+          <p>CEP: {{ .Site.Params.address.zip }}</p>
+          <p class="mt-4">
+            <strong>{{ i18n "email" }}:</strong>
+            <a href="mailto:{{ .Site.Params.email }}" class="text-blue-400 hover:text-blue-300">
+              {{ .Site.Params.email }}
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Links Rápidos -->
+      <div>
+        <h3 class="text-lg font-bold mb-4">Links</h3>
+        <ul class="text-gray-300 text-sm space-y-2">
+          <li>
+            <a href="http://www.ita.br" target="_blank" rel="noopener"
+               class="hover:text-blue-400 transition-colors">
+              ITA
+            </a>
+          </li>
+          {{ if .Site.Params.show_dcta_link }}
+          <li>
+            <a href="{{ .Site.Params.dcta_url }}" target="_blank" rel="noopener"
+               class="hover:text-blue-400 transition-colors">
+              DCTA
+            </a>
+          </li>
+          {{ end }}
+          <li>
+            <a href="https://www.gov.br/aeb/" target="_blank" rel="noopener"
+               class="hover:text-blue-400 transition-colors">
+              AEB
+            </a>
+          </li>
+          <li>
+            <a href="https://www.inpe.br/" target="_blank" rel="noopener"
+               class="hover:text-blue-400 transition-colors">
+              INPE
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+      <p>{{ .Site.Params.footer_text }}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 py-8">
+
+  {{/* Page Header */}}
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg mx-auto text-gray-700">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Load departments data */}}
+  {{ $departamentos := .Site.Data.departamentos.departamentos }}
+
+  {{/* Group professors by department */}}
+  {{ $professorsByDept := dict }}
+  {{ range $deptId, $_ := $departamentos }}
+    {{ $professorsByDept = merge $professorsByDept (dict $deptId slice) }}
+  {{ end }}
+
+  {{ range $profId, $profData := .Site.Data.pessoal.profiles }}
+    {{ $dept := $profData.departamento }}
+    {{ if $dept }}
+      {{ $profs := index $professorsByDept $dept }}
+      {{ $profWithId := merge $profData (dict "id" $profId) }}
+      {{ $profs = $profs | append $profWithId }}
+      {{ $professorsByDept = merge $professorsByDept (dict $dept $profs) }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Display professors by department */}}
+  {{ range $deptId, $deptData := $departamentos }}
+    {{ $professors := index $professorsByDept $deptId }}
+
+    {{ if $professors }}
+      <div class="mb-16">
+        {{/* Department Header */}}
+        <div class="mb-8 pb-4 border-b-4" style="border-color: {{ $deptData.cor }}">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="text-sm font-bold px-2 py-1 rounded text-white" style="background-color: {{ $deptData.cor }}">
+              {{ $deptData.sigla }}
+            </span>
+            <h2 class="text-3xl font-bold text-gray-800">
+              {{ if eq $.Language.Lang "pt" }}
+                {{ $deptData.nome_pt }}
+              {{ else }}
+                {{ $deptData.nome_en }}
+              {{ end }}
+            </h2>
+          </div>
+          <p class="text-gray-600 italic">
+            {{ if eq $.Language.Lang "pt" }}
+              {{ $deptData.descricao_pt }}
+            {{ else }}
+              {{ $deptData.descricao_en }}
+            {{ end }}
+          </p>
+        </div>
+
+        {{/* Professor Cards Grid */}}
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {{ range $professors }}
+            {{ partial "professor-card.html" (dict "professor" . "page" $) }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+
+</div>
+{{ end }}

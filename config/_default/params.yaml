@@ -1,0 +1,55 @@
+# Site info
+organization: "Instituto Tecnológico de Aeronáutica"
+division_name: "AER"
+division_full_name_pt: "Divisão de Engenharia Aeronáutica e Aeroespacial"
+division_full_name_en: "Division of Aeronautical and Aerospace Engineering"
+
+# Division head
+chefe:
+  nome: ""
+  email: ""
+  lattes: ""
+
+# Contact
+email: "aer@ita.br"
+address:
+  street: "Praça Marechal Eduardo Gomes, 50"
+  district: "Vila das Acácias"
+  city: "São José dos Campos"
+  state: "SP"
+  zip: "12228-900"
+  country: "Brasil"
+
+# Social links
+social:
+  - name: "email"
+    url: "mailto:aer@ita.br"
+    icon: "envelope"
+
+# Theme settings
+logo: "/images/ita_logo.png"
+favicon: "/images/favicon.svg"
+
+# Features
+show_breadcrumbs: true
+show_reading_time: false
+show_last_updated: true
+enable_search: false
+enable_dark_mode: false
+
+# Preliminary deployment warning
+preliminary_notice:
+  enabled: true
+  message_pt: >-
+    Este site está em versão preliminar (draft). Informações, contatos
+    e documentos devem ser conferidos em fontes oficiais da AER/ITA.
+    Os e-mails exibidos nesta fase são ilustrativos e podem não estar ativos.
+  message_en: >-
+    This website is a preliminary (draft) version. Information, contacts,
+    and documents must be verified with official AER/ITA sources.
+    Emails shown at this stage are illustrative and may not be active.
+
+# Footer
+footer_text: "© 2026 Instituto Tecnológico de Aeronáutica - ITA"
+show_dcta_link: true
+dcta_url: "http://www.dcta.mil.br/"

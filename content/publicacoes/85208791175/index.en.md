@@ -1,0 +1,8 @@
+---
+title: "ASSESSING MENTAL WORKLOAD AND INTERFACE USABILITY IN MILITARY PILOTS: AN ADVANCED EYE-TRACKING METHODOLOGY"
+date: 2024-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85208791175"
+---

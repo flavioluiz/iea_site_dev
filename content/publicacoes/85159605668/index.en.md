@@ -1,0 +1,8 @@
+---
+title: "STUDY OF EFFECTS ON THE WING’S AERODYNAMIC CHARACTERISTICS DUE TO DISTRIBUTED PROPULSION OVER WINGSPAN"
+date: 2022-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85159605668"
+---

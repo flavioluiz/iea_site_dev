@@ -1,0 +1,301 @@
+projetos:
+  cpe-flymov:
+    id: "cpe-flymov"
+    titulo_pt: "CPE - Centro de Pesquisa em Engenharia para Mobilidade Aérea do Futuro"
+    titulo_en: "CPE - Research Center in Engineering for Future Air Mobility"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "FAPESP/EMBRAER"
+    valor: 6235967.37
+    moeda: "BRL"
+    periodo: "2021-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      O Centro de Pesquisa em Engenharia para Mobilidade Aérea do Futuro (FlyMov) é um centro de
+      inovação localizado no ITA, focado no desenvolvimento de tecnologias para a mobilidade aérea
+      sustentável e avançada. O projeto abrange pesquisas em novos conceitos de aeronaves, propulsão
+      elétrica, materiais avançados e sistemas autônomos.
+    descricao_en: |
+      The Research Center in Engineering for Future Air Mobility (FlyMov) is an innovation center
+      located at ITA, focused on developing technologies for sustainable and advanced air mobility.
+      The project covers research in new aircraft concepts, electric propulsion, advanced materials,
+      and autonomous systems.
+
+  rota-2030-estampagem:
+    id: "rota-2030-estampagem"
+    titulo_pt: "ROTA 2030 - Demonstrador de Estampagem de Superfícies Classe A em Alumínio"
+    titulo_en: "ROTA 2030 - Class A Aluminum Surface Stamping Demonstrator"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "FUNDEP/ROTA 2030"
+    valor: 4847870.38
+    moeda: "BRL"
+    periodo: "2021-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto dentro do programa ROTA 2030 Linha IV, focado no desenvolvimento de competências para
+      estampagem de superfícies Classe A em alumínio para a indústria automotiva. O projeto envolve
+      pesquisa em conformação mecânica, simulação de processos e caracterização de materiais.
+    descricao_en: |
+      Project within the ROTA 2030 Line IV program, focused on developing competencies for Class A
+      aluminum surface stamping for the automotive industry. The project involves research in
+      mechanical forming, process simulation, and materials characterization.
+
+  fisica-voo-ii:
+    id: "fisica-voo-ii"
+    titulo_pt: "Estudos Avançados em Física do Voo II"
+    titulo_en: "Advanced Studies in Flight Physics II"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "EMBRAER/FINEP"
+    valor: 3245000.00
+    moeda: "BRL"
+    periodo: "2022-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto de pesquisa colaborativo entre ITA, EMBRAER e FINEP focado em estudos avançados
+      de física do voo, incluindo aerodinâmica, aeroelasticidade, dinâmica de voo e otimização
+      multidisciplinar para aeronaves de nova geração.
+    descricao_en: |
+      Collaborative research project between ITA, EMBRAER, and FINEP focused on advanced flight
+      physics studies, including aerodynamics, aeroelasticity, flight dynamics, and multidisciplinary
+      optimization for next-generation aircraft.
+
+  cteds:
+    id: "cteds"
+    titulo_pt: "CTEDS - Cooperação Brasil-Suécia em Aeronáutica"
+    titulo_en: "CTEDS - Brazil-Sweden Cooperation in Aeronautics"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "FINEP"
+    valor: 3950000.00
+    moeda: "BRL"
+    periodo: "2021-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto Future Air Domain Study (CTEDS) de cooperação bilateral Brasil-Suécia em aeronáutica,
+      envolvendo pesquisas colaborativas em sistemas aeronáuticos avançados, tecnologias de defesa
+      e desenvolvimento de capacidades conjuntas.
+    descricao_en: |
+      Future Air Domain Study (CTEDS) project of bilateral Brazil-Sweden cooperation in aeronautics,
+      involving collaborative research in advanced aeronautical systems, defense technologies, and
+      joint capability development.
+
+  veiculos-eletricos-sefac:
+    id: "veiculos-eletricos-sefac"
+    titulo_pt: "Desenvolvimento de Veículos de Passeio Elétrico a Bateria"
+    titulo_en: "Development of Battery Electric Passenger Vehicles"
+    departamento: "alc"
+    tema: "aeronautica"
+    financiador: "SEFAC"
+    valor: 7500000.00
+    moeda: "BRL"
+    periodo: "2022-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto para desenvolvimento de veículos de passeio elétrico a bateria com módulo para
+      extensão de autonomia a partir do uso de etanol com um pequeno motor de combustão interna.
+      Pesquisa em propulsão híbrida, sistemas de energia e eficiência veicular.
+    descricao_en: |
+      Project for development of battery electric passenger vehicles with a range extension module
+      using ethanol with a small internal combustion engine. Research in hybrid propulsion, energy
+      systems, and vehicle efficiency.
+
+  monitoramento-compositos:
+    id: "monitoramento-compositos"
+    titulo_pt: "Sistema de Monitoramento de Reparos em Materiais Compósitos"
+    titulo_en: "Composite Materials Repair Monitoring System"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "PETROBRAS"
+    valor: 4019517.96
+    moeda: "BRL"
+    periodo: "2022-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Desenvolvimento de sistema de monitoramento de reparos constituídos de materiais compósitos
+      empregando fibras de nanotubos de carbono. Pesquisa em sensores integrados, monitoramento
+      de integridade estrutural e materiais inteligentes.
+    descricao_en: |
+      Development of a monitoring system for repairs made of composite materials using carbon
+      nanotube fibers. Research in integrated sensors, structural health monitoring, and smart
+      materials.
+
+  simulador-exotermico:
+    id: "simulador-exotermico"
+    titulo_pt: "Simulador de Reação Exotérmica para Remoção de Coluna"
+    titulo_en: "Exothermic Reaction Simulator for Column Removal"
+    departamento: "alc"
+    tema: "aeronautica"
+    financiador: "PETROBRAS"
+    valor: 5554102.13
+    moeda: "BRL"
+    periodo: "2022-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto para desenvolvimento de simulador de reação exotérmica aplicado à remoção de colunas
+      em operações de descomissionamento. Envolve modelagem térmica, dinâmica de fluidos e
+      processos químicos controlados.
+    descricao_en: |
+      Project for development of an exothermic reaction simulator applied to column removal in
+      decommissioning operations. Involves thermal modeling, fluid dynamics, and controlled
+      chemical processes.
+
+  plasma-termico:
+    id: "plasma-termico"
+    titulo_pt: "Sistema Protótipo de Plasma Térmico para Tratamento de Hidrocarbonetos"
+    titulo_en: "Thermal Plasma Prototype System for Hydrocarbon Treatment"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "ENEVA"
+    valor: 2878473.15
+    moeda: "BRL"
+    periodo: "2021-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Desenvolvimento de sistema protótipo baseado em plasma térmico para tratamento de
+      hidrocarbonetos pesados oriundos da produção de energia. Pesquisa em tecnologias de plasma,
+      tratamento de resíduos e sustentabilidade energética.
+    descricao_en: |
+      Development of a prototype system based on thermal plasma for treating heavy hydrocarbons
+      from energy production. Research in plasma technologies, waste treatment, and energy
+      sustainability.
+
+  capes-print:
+    id: "capes-print"
+    titulo_pt: "CAPES PrInt - Aviação Verde e Mobilidade Sustentável"
+    titulo_en: "CAPES PrInt - Green Aviation and Sustainable Mobility"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "CAPES"
+    valor: 1890000.00
+    moeda: "BRL"
+    periodo: "2019-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Programa Institucional de Internacionalização focado em Aviação Verde (Manufatura, Materiais,
+      Novos Conceitos em Aeronáutica, Propulsão) e Mobilidade e Sustentabilidade (Energia
+      Sustentável). Promove intercâmbio internacional e pesquisas colaborativas.
+    descricao_en: |
+      Institutional Internationalization Program focused on Green Aviation (Manufacturing, Materials,
+      New Concepts in Aeronautics, Propulsion) and Mobility and Sustainability (Sustainable Energy).
+      Promotes international exchange and collaborative research.
+
+  asa-composito:
+    id: "asa-composito"
+    titulo_pt: "Comportamento Dinâmico de Asa em Compósito em Pós-Flambagem"
+    titulo_en: "Dynamic Behavior of Composite Wing in Post-Buckling"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "EMBRAER"
+    valor: 1582374.80
+    moeda: "BRL"
+    periodo: "2022-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Estudo numérico-experimental do comportamento dinâmico de uma asa típica em compósito no
+      regime de pós-flambagem. Pesquisa em estruturas leves, análise aeroelástica e otimização
+      estrutural para aeronaves de nova geração.
+    descricao_en: |
+      Numerical-experimental study of the dynamic behavior of a typical composite wing in the
+      post-buckling regime. Research in lightweight structures, aeroelastic analysis, and structural
+      optimization for next-generation aircraft.
+
+  pegasus:
+    id: "pegasus"
+    titulo_pt: "PEGASUS - Metalurgia do Pó para Engrenagens de e-Mobilidade"
+    titulo_en: "PEGASUS - Powder Metallurgy for E-Mobility Gears"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "EMBRAPII/EATON/Johnson Electrics"
+    valor: 839041.10
+    moeda: "BRL"
+    periodo: "2023-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto PEGASUS (Powder Metallurgy for E-Mobility Gears Through Augmented Surface Integrity
+      State) focado no desenvolvimento de engrenagens por metalurgia do pó com integridade
+      superficial otimizada para aplicações em mobilidade elétrica.
+    descricao_en: |
+      PEGASUS project (Powder Metallurgy for E-Mobility Gears Through Augmented Surface Integrity
+      State) focused on developing powder metallurgy gears with optimized surface integrity for
+      electric mobility applications.
+
+  engrenagens-embrapii:
+    id: "engrenagens-embrapii"
+    titulo_pt: "Superacabamento e Engrenagens Aditivas para Mobilidade Elétrica"
+    titulo_en: "Superfinishing and Additive Gears for Electric Mobility"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "EMBRAPII/AGCO/EATON"
+    valor: 3564880.96
+    moeda: "BRL"
+    periodo: "2022-2026"
+    status: "em_andamento"
+    descricao_pt: |
+      Projetos combinados de superacabamento de engrenagens para aumento da capacidade de carga
+      de engrenagens agrícolas e desenvolvimento de engrenagens aditivas com infiltração para
+      mobilidade elétrica de baixo peso.
+    descricao_en: |
+      Combined projects on gear superfinishing for increasing load capacity of agricultural gears
+      and development of additive gears with infiltration for lightweight electric mobility.
+
+  mera-net:
+    id: "mera-net"
+    titulo_pt: "M-ERA.NET - Estruturas e Junções Compósitas sob Incertezas"
+    titulo_en: "M-ERA.NET - Composite Structures and Joints under Uncertainties"
+    departamento: "ala"
+    tema: "aeronautica"
+    financiador: "FAPESP/M-ERA.NET"
+    valor: 450000.00
+    moeda: "BRL"
+    periodo: "2021-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto de cooperação internacional M-ERA.NET focado na aplicação de modelos mistos para
+      análise de estruturas e junções compósitas sob efeito de incertezas de projeto e processo.
+      Pesquisa em materiais compósitos, métodos numéricos e confiabilidade estrutural.
+    descricao_en: |
+      M-ERA.NET international cooperation project focused on the application of mixed models for
+      analysis of composite structures and joints under the effect of design and process
+      uncertainties. Research in composite materials, numerical methods, and structural reliability.
+
+  rota-2030-ferramentais:
+    id: "rota-2030-ferramentais"
+    titulo_pt: "ROTA 2030 - Competências para Ferramentais de Compósitos"
+    titulo_en: "ROTA 2030 - Competencies for Composite Tooling"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "IPT/ROTA 2030"
+    valor: 2300000.00
+    moeda: "BRL"
+    periodo: "2021-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto ROTA 2030-IPT para desenvolvimento de competências para projeto e manufatura de
+      ferramentais para peças em compósitos. Envolve pesquisa em processos de fabricação,
+      materiais para moldes e otimização de ciclos produtivos.
+    descricao_en: |
+      ROTA 2030-IPT project for developing competencies for design and manufacturing of tooling
+      for composite parts. Involves research in manufacturing processes, mold materials, and
+      production cycle optimization.
+
+  finep-ame:
+    id: "finep-ame"
+    titulo_pt: "AME - Automação da Montagem Estrutural de Aeronaves"
+    titulo_en: "AME - Automation of Aircraft Structural Assembly"
+    departamento: "ale"
+    tema: "aeronautica"
+    financiador: "FINEP/EMBRAER"
+    valor: 5000000.00
+    moeda: "BRL"
+    periodo: "2020-2025"
+    status: "em_andamento"
+    descricao_pt: |
+      Projeto de automação da montagem estrutural de aeronaves (AME-ASA) desenvolvendo tecnologias
+      de robótica industrial, metrologia de grande volume e compensação de erros de posicionamento
+      para processos de montagem aeronáutica.
+    descricao_en: |
+      Aircraft structural assembly automation project (AME-ASA) developing industrial robotics
+      technologies, large volume metrology, and positioning error compensation for aeronautical
+      assembly processes.

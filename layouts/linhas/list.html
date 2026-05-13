@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="mb-8">
+  <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+  {{ if .Content }}
+    <div class="prose prose-lg max-w-none mb-8">
+      {{ .Content }}
+    </div>
+  {{ end }}
+</div>
+
+{{/*
+  Página de lista de áreas - mostra apenas cards com descrição e link
+  NÃO mostra o conteúdo completo (professores) de cada área
+*/}}
+{{ if .Pages }}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range .Pages }}
+      <article class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden border border-gray-200">
+        <div class="p-6">
+          <h2 class="text-xl font-semibold text-gray-900 mb-3">
+            <a href="{{ .Permalink }}" class="hover:text-blue-600">
+              {{ .Title }}
+            </a>
+          </h2>
+
+          {{/* Mostra apenas a descrição do frontmatter, não o Summary do conteúdo */}}
+          {{ if .Description }}
+            <p class="text-gray-600 text-sm mb-4">{{ .Description }}</p>
+          {{ end }}
+
+          {{/* Mostra o representante se disponível no Params */}}
+          {{ if .Params.representative }}
+            <p class="text-sm text-gray-700 mb-4">
+              <strong>{{ i18n "area_representative" }}:</strong> {{ .Params.representative }}
+            </p>
+          {{ end }}
+
+          <a href="{{ .Permalink }}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm group">
+            {{ i18n "view_area" }}
+            <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,107 @@
+main:
+  - identifier: "home"
+    name: "Início"
+    url: "/"
+    weight: 1
+
+  # Menu "A Divisão" - Informações institucionais
+  - identifier: "divisao"
+    name: "A Divisão"
+    url: "#"
+    weight: 2
+
+  - identifier: "sobre"
+    name: "Sobre"
+    parent: "divisao"
+    url: "/sobre/"
+    weight: 1
+
+  - identifier: "departamentos"
+    name: "Departamentos"
+    parent: "divisao"
+    url: "/departamentos/"
+    weight: 2
+
+  - identifier: "espaco"
+    name: "Área Espacial"
+    parent: "divisao"
+    url: "/espaco/"
+    weight: 3
+
+  # Pessoal - Link direto
+  - identifier: "pessoal"
+    name: "Pessoal"
+    url: "/pessoal/"
+    weight: 3
+
+  # Menu "Pesquisa" - Produção científica e laboratorial
+  - identifier: "pesquisa"
+    name: "Pesquisa"
+    url: "#"
+    weight: 4
+
+  - identifier: "linhas"
+    name: "Linhas de Pesquisa"
+    parent: "pesquisa"
+    url: "/linhas/"
+    weight: 1
+
+  - identifier: "projetos"
+    name: "Projetos"
+    parent: "pesquisa"
+    url: "/projetos/"
+    weight: 2
+
+  - identifier: "publicacoes"
+    name: "Publicações"
+    parent: "pesquisa"
+    url: "/publicacoes/"
+    weight: 3
+
+  # Laboratórios - Link direto
+  - identifier: "laboratorios"
+    name: "Laboratórios"
+    url: "/laboratorios/"
+    weight: 5
+
+  # Menu "Graduação"
+  - identifier: "graduacao"
+    name: "Graduação"
+    url: "#"
+    weight: 6
+
+  - identifier: "cursos"
+    name: "Cursos"
+    parent: "graduacao"
+    url: "/graduacao/"
+    weight: 1
+
+  - identifier: "disciplinas"
+    name: "Disciplinas"
+    parent: "graduacao"
+    url: "/disciplinas/"
+    weight: 2
+
+  # Menu "Pós-Graduação" - links externos
+  - identifier: "posgraduacao"
+    name: "Pós-Graduação"
+    url: "#"
+    weight: 7
+
+  - identifier: "pgeam"
+    name: "PG-EAM"
+    parent: "posgraduacao"
+    url: "https://www.ita.br/posgraduacao/pgeam"
+    weight: 1
+
+  - identifier: "pgcea"
+    name: "PG-CEA"
+    parent: "posgraduacao"
+    url: "https://www.ita.br/posgraduacao/pgcea"
+    weight: 2
+
+  # Contato - Link direto
+  - identifier: "contato"
+    name: "Contato"
+    url: "/contato/"
+    weight: 8

@@ -1,0 +1,88 @@
+departamentos:
+  ala:
+    id: "ala"
+    sigla: "ALA"
+    nome_pt: "Aerodinâmica"
+    nome_en: "Aerodynamics"
+    descricao_pt: "Departamento responsável pelas disciplinas e pesquisas em aerodinâmica, mecânica dos fluidos, aeroelasticidade e aeroacústica."
+    descricao_en: "Department responsible for courses and research in aerodynamics, fluid mechanics, aeroelasticity, and aeroacoustics."
+    chefe: ""
+    email: ""
+    cor: "#1e40af"
+    icon: "wind"
+    temas:
+      - aeronautica
+    laboratorios:
+      - "lab-aerodinamica"
+      - "lab-aeroelasticidade"
+
+  alb:
+    id: "alb"
+    sigla: "ALB"
+    nome_pt: "Estruturas"
+    nome_en: "Structures"
+    descricao_pt: "Departamento responsável pelas disciplinas e pesquisas em estruturas aeronáuticas, compósitos e mecânica dos sólidos."
+    descricao_en: "Department responsible for courses and research in aeronautical structures, composites, and solid mechanics."
+    chefe: ""
+    email: ""
+    cor: "#16a34a"
+    icon: "cube"
+    temas:
+      - aeronautica
+      - espacial
+    laboratorios:
+      - "lab-estruturas"
+
+  alc:
+    id: "alc"
+    sigla: "ALC"
+    nome_pt: "Propulsão"
+    nome_en: "Propulsion"
+    descricao_pt: "Departamento responsável pelas disciplinas e pesquisas em propulsão aeronáutica e espacial, combustão, turbinas e sistemas de energia."
+    descricao_en: "Department responsible for courses and research in aeronautical and space propulsion, combustion, turbines, and energy systems."
+    chefe: ""
+    email: ""
+    cor: "#dc2626"
+    icon: "fire"
+    temas:
+      - aeronautica
+      - espacial
+    laboratorios:
+      - "lab-propulsao"
+      - "lab-combustao"
+
+  ald:
+    id: "ald"
+    sigla: "ALD"
+    nome_pt: "Sistemas Aeroespaciais e Mecânica do Voo"
+    nome_en: "Aerospace Systems and Flight Mechanics"
+    descricao_pt: "Departamento responsável por sistemas de aeronaves e espaçonaves, mecânica e controle de voo, aviónica e GNC."
+    descricao_en: "Department responsible for aircraft and spacecraft systems, flight mechanics and control, avionics, and GNC."
+    chefe: ""
+    email: ""
+    cor: "#7c3aed"
+    icon: "satellite"
+    temas:
+      - aeronautica
+      - espacial
+    laboratorios:
+      - "lab-gnc"
+      - "lab-sistemas"
+
+  ale:
+    id: "ale"
+    sigla: "ALE"
+    nome_pt: "Materiais e Manufatura"
+    nome_en: "Materials and Manufacturing"
+    descricao_pt: "Departamento responsável por ciência dos materiais, processos de fabricação, materiais avançados e manufatura aeroespacial."
+    descricao_en: "Department responsible for materials science, manufacturing processes, advanced materials, and aerospace manufacturing."
+    chefe: ""
+    email: ""
+    cor: "#d97706"
+    icon: "beaker"
+    temas:
+      - aeronautica
+      - espacial
+    laboratorios:
+      - "lab-materiais"
+      - "lab-manufatura"

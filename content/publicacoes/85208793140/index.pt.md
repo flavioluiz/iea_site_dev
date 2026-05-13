@@ -1,0 +1,8 @@
+---
+title: "INSTRUMENTATION OF A SUBESCALE GROUND EFFECT VEHICLE, VOLITAN, TO MEASURE FLIGHT PROPULSION EFFICIENCY"
+date: 2024-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "85208793140"
+---

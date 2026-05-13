@@ -1,0 +1,8 @@
+---
+title: "APPLICATION OF SHAPE MEMORY ALLOYS FOR FLUTTER SUPPRESSION IN A PROPELLER-DRIVEN TYPICAL SECTION"
+date: 2024-01-01
+draft: false
+type: publicacoes
+layout: single
+eid: "105019507221"
+---

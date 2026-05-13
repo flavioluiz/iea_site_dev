@@ -1,0 +1,44 @@
+{{ define "main" }}
+<article class="prose prose-lg max-w-none">
+  <header class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    {{ if .Description }}
+      <p class="text-xl text-gray-600">{{ .Description }}</p>
+    {{ end }}
+    {{ if .Params.show_last_updated }}
+      <div class="text-sm text-gray-500 mt-2">
+        {{ i18n "last_updated" }}: {{ .Lastmod.Format "02/01/2006" }}
+      </div>
+    {{ end }}
+  </header>
+
+  <div class="content">
+    {{ .Content }}
+  </div>
+
+  {{ if .Params.show_related }}
+    <div class="mt-12 pt-8 border-t border-gray-200">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        {{ if eq .Site.Language.Lang "pt" }}
+          Páginas Relacionadas
+        {{ else }}
+          Related Pages
+        {{ end }}
+      </h2>
+      {{ $related := .Site.RegularPages.Related . | first 3 }}
+      {{ with $related }}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {{ range . }}
+            <a href="{{ .Permalink }}" class="block p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+              <h3 class="font-semibold text-gray-900 mb-2">{{ .Title }}</h3>
+              {{ if .Description }}
+                <p class="text-sm text-gray-600">{{ .Description }}</p>
+              {{ end }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</article>
+{{ end }}

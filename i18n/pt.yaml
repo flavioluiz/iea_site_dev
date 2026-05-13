@@ -1,0 +1,198 @@
+# Navegação
+home: "Início"
+about: "Sobre"
+research_areas: "Áreas de Concentração"
+faculty: "Corpo Docente"
+admission: "Admissão"
+academic: "Acadêmico"
+courses: "Disciplinas"
+documents: "Documentos"
+research: "Pesquisa"
+contact: "Contato"
+
+# Corpo Docente
+permanent_faculty: "Docentes Permanentes"
+collaborating_faculty: "Docentes Colaboradores"
+research_lines: "Linhas de Pesquisa"
+lattes_cv: "Currículo Lattes"
+personal_website: "Site Pessoal"
+area_representative: "Representante de Área"
+
+# Áreas
+view_area: "Ver Área"
+professors_in_area: "Professores da Área"
+
+# Documentos
+download: "Download"
+file_size: "Tamanho"
+last_update: "Última atualização"
+view_document: "Ver Documento"
+external_link: "Link Externo"
+
+# Gerais
+read_more: "Leia mais"
+back_to_top: "Voltar ao topo"
+last_updated: "Última atualização"
+learn_more: "Saiba mais"
+view_all: "Ver todos"
+
+# Homepage
+welcome_message: "Bem-vindo ao PG-EAM"
+program_description: "Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica do ITA"
+coordinator: "Coordenador"
+
+# Admissão
+master: "Mestrado"
+phd: "Doutorado"
+requirements: "Requisitos"
+selection_process: "Processo Seletivo"
+deadlines: "Prazos"
+
+# Contato
+address: "Endereço"
+phone: "Telefone"
+email: "E-mail"
+office_hours: "Horário de Atendimento"
+
+# Footer
+all_rights_reserved: "Todos os direitos reservados"
+developed_by: "Desenvolvido por"
+
+# Breadcrumbs
+you_are_here: "Você está aqui"
+
+# SEO
+program_name: "Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica"
+institution: "Instituto Tecnológico de Aeronáutica"
+
+# Perfil de Professor
+professor_profile: "Perfil do Professor"
+publications: "Publicações"
+citations: "Citações"
+h_index: "Índice h"
+articles: "Artigos"
+show_abstract: "Mostrar resumo"
+hide_abstract: "Ocultar resumo"
+research_metrics: "Métricas de Pesquisa"
+no_research_lines: "Nenhuma linha de pesquisa cadastrada"
+professor_not_found: "Professor não encontrado"
+error: "Erro"
+
+# Publicações
+publication: "Publicação"
+all_publications: "Todas as Publicações"
+search_publications: "Buscar publicações..."
+search_placeholder: "Digite título, autor ou palavra-chave..."
+search_title_author: "Buscar por título ou autor..."
+filter_publications: "Filtrar Publicações"
+year: "Ano"
+all_years: "Todos os anos"
+publication_type: "Tipo de Publicação"
+all_types: "Todos os tipos"
+author: "Autor"
+authors: "Autores"
+all_authors: "Todos os autores"
+all_professors: "Todos os professores"
+clear_filters: "Limpar filtros"
+publications_found: "publicações encontradas"
+results_found: "resultados encontrados"
+no_publications_found: "Nenhuma publicação encontrada"
+try_different_filters: "Tente usar filtros diferentes ou limpe os filtros para ver mais resultados"
+no_publications_yet: "Nenhuma publicação cadastrada ainda"
+publications_will_be_added: "As publicações serão adicionadas em breve"
+
+# Tipos de Publicação
+article: "Artigo"
+review: "Revisão"
+conference_paper: "Artigo de Conferência"
+book_chapter: "Capítulo de Livro"
+
+# Links Acadêmicos
+scopus_profile: "Perfil no Scopus"
+google_scholar_profile: "Perfil no Google Scholar"
+researchgate_profile: "Perfil no ResearchGate"
+
+# Navegação
+back_to_faculty: "Voltar para Corpo Docente"
+view_all_publications: "Ver todas as publicações"
+
+# Teses e Dissertações
+theses: "Teses e Dissertações"
+thesis: "Tese"
+dissertation: "Dissertação"
+total_theses: "Total de Trabalhos"
+master_theses: "Dissertações de Mestrado"
+phd_theses: "Teses de Doutorado"
+master_thesis: "Dissertação de Mestrado"
+phd_thesis: "Tese de Doutorado"
+filter_theses: "Filtrar Teses"
+search_theses: "Buscar"
+search_thesis_placeholder: "Digite título, autor ou palavra-chave..."
+course_type: "Tipo"
+all_courses: "Todos"
+concentration_area: "Área de Concentração"
+all_areas: "Todas as áreas"
+advisor: "Orientador"
+advisors: "Orientadores"
+advisor_main: "Orientador"
+coadvisor: "Coorientador"
+all_advisors: "Todos os orientadores"
+theses_found: "trabalhos encontrados"
+no_theses_found: "Nenhum trabalho encontrado"
+thesis_not_found: "Tese não encontrada"
+abstract: "Resumo"
+keywords: "Palavras-chave"
+defense_date: "Data de Defesa"
+thesis_number: "Número da Tese"
+program: "Programa"
+download_pdf: "Baixar PDF"
+view_in_bdita: "Ver na BDITA"
+back_to_theses: "Voltar para Teses"
+
+# Orientações (seção do perfil do professor)
+supervisions: "Orientações"
+supervised_theses: "Teses Orientadas"
+supervised_dissertations: "Dissertações Orientadas"
+as_advisor: "Como Orientador"
+as_coadvisor: "Como Coorientador"
+no_supervisions: "Nenhuma orientação registrada"
+view_all_supervisions: "Ver todas as orientações"
+
+# Paginação / Show More
+show_more: "Mostrar mais"
+remaining: "restantes"
+show_less: "Mostrar menos"
+
+# Laboratórios
+laboratories: "Laboratórios"
+lab_infrastructure: "Infraestrutura"
+lab_equipment: "Equipamentos"
+associated_projects: "Projetos Associados"
+lab_responsible: "Responsável"
+view_lab: "Ver Laboratório"
+view_details: "Ver detalhes"
+hide_details: "Ocultar detalhes"
+view_on_pnipe: "Ver no PNIPE"
+filter_by_area: "Filtrar por área"
+search_labs: "Buscar laboratórios..."
+labs_found: "laboratórios encontrados"
+no_labs_found: "Nenhum laboratório encontrado"
+lab_description: "Descrição"
+
+# Projetos de Pesquisa
+research_projects: "Projetos de Pesquisa"
+funding_agency: "Financiador"
+funding_value: "Valor do Financiamento"
+project_period: "Período"
+project_status: "Status"
+status_ongoing: "Em Andamento"
+status_completed: "Concluído"
+involved_faculty: "Docentes Envolvidos"
+search_projects: "Buscar projetos..."
+projects_found: "projetos encontrados"
+no_projects_found: "Nenhum projeto encontrado"
+filter_by_funder: "Filtrar por financiador"
+total_funding: "Total de Investimentos"
+active_projects: "Projetos Ativos"
+project_description: "Descrição do Projeto"
+all_funders: "Todos os financiadores"

@@ -1,0 +1,185 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto">
+  {{/* Page header */}}
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg max-w-none text-gray-700">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Load laboratories data */}}
+  {{ $labs := .Site.Data.laboratorios.laboratorios }}
+  {{ $areas := .Site.Data.areas.areas }}
+
+  {{/* Count labs total and by area */}}
+  {{ $labCount := len $labs }}
+  {{ $eam1Count := 0 }}
+  {{ $eam2Count := 0 }}
+  {{ $eam3Count := 0 }}
+  {{ range $id, $lab := $labs }}
+    {{ if eq $lab.area "eam1" }}{{ $eam1Count = add $eam1Count 1 }}{{ end }}
+    {{ if eq $lab.area "eam2" }}{{ $eam2Count = add $eam2Count 1 }}{{ end }}
+    {{ if eq $lab.area "eam3" }}{{ $eam3Count = add $eam3Count 1 }}{{ end }}
+  {{ end }}
+
+  {{/* Statistics Cards */}}
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg shadow p-6 text-center">
+      <div class="text-4xl font-bold text-gray-700">{{ $labCount }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ i18n "laboratories" }}</div>
+    </div>
+    {{ with index $areas "eam1" }}
+    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
+      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam1Count }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
+    </div>
+    {{ end }}
+    {{ with index $areas "eam2" }}
+    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
+      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam2Count }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
+    </div>
+    {{ end }}
+    {{ with index $areas "eam3" }}
+    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
+      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam3Count }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
+    </div>
+    {{ end }}
+  </div>
+
+  {{/* Filter controls */}}
+  <div class="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
+    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+      <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+      </svg>
+      {{ i18n "filter_by_area" }}
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {{/* Search input */}}
+      <div>
+        <label for="lab-search" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "search_labs" }}
+        </label>
+        <input type="text" id="lab-search"
+               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+               placeholder="{{ i18n "search_labs" }}">
+      </div>
+
+      {{/* Area filter */}}
+      <div>
+        <label for="lab-area-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "concentration_area" }}
+        </label>
+        <select id="lab-area-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ i18n "all_areas" }}</option>
+          {{ range $areaId, $area := $areas }}
+            <option value="{{ $areaId }}">{{ $area.codigo }} - {{ if eq $.Language.Lang "en" }}{{ $area.nome_en }}{{ else }}{{ $area.nome_pt }}{{ end }}</option>
+          {{ end }}
+        </select>
+      </div>
+    </div>
+
+    {{/* Clear filters button */}}
+    <div class="mt-4">
+      <button id="clear-lab-filters"
+              class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors font-medium text-sm">
+        {{ i18n "clear_filters" }}
+      </button>
+    </div>
+  </div>
+
+  {{/* Results counter */}}
+  <div class="mb-4">
+    <p class="text-gray-600">
+      <span id="lab-results-count" class="font-bold text-gray-900">{{ $labCount }}</span>
+      {{ i18n "labs_found" }}
+    </p>
+  </div>
+
+  {{/* EAM-1 Section */}}
+  {{ $area1 := index $areas "eam1" }}
+  {{ if gt $eam1Count 0 }}
+  <section class="lab-area-section mb-10" data-area="eam1">
+    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area1.cor }};">
+      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
+           style="background-color: {{ $area1.cor }};">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+      </div>
+      <h2 class="text-2xl font-bold text-gray-900">
+        {{ $area1.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area1.nome_en }}{{ else }}{{ $area1.nome_pt }}{{ end }}
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      {{ range $id, $lab := $labs }}
+        {{ if eq $lab.area "eam1" }}
+          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* EAM-2 Section */}}
+  {{ $area2 := index $areas "eam2" }}
+  {{ if gt $eam2Count 0 }}
+  <section class="lab-area-section mb-10" data-area="eam2">
+    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area2.cor }};">
+      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
+           style="background-color: {{ $area2.cor }};">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.9 2.1c-.1-.1-.3-.1-.5 0-.5.5-4 4.1-4.9 9.1l-2.9 2.9c-.1.1-.1.2-.1.3v3.1c0 .2.1.3.3.3h3.1c.1 0 .2 0 .3-.1l2.9-2.9c5-1 8.6-4.5 9.1-5 .1-.1.1-.3 0-.5l-7.3-7.2zM9 16.5L6.5 14l1.2-1.2 2.5 2.5L9 16.5zM4.9 20.9c-.2-.5-.2-2.2.4-3.8L7.5 19c-1.3.6-2.1.6-2.6.9z"/></svg>
+      </div>
+      <h2 class="text-2xl font-bold text-gray-900">
+        {{ $area2.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area2.nome_en }}{{ else }}{{ $area2.nome_pt }}{{ end }}
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      {{ range $id, $lab := $labs }}
+        {{ if eq $lab.area "eam2" }}
+          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* EAM-3 Section */}}
+  {{ $area3 := index $areas "eam3" }}
+  {{ if gt $eam3Count 0 }}
+  <section class="lab-area-section mb-10" data-area="eam3">
+    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area3.cor }};">
+      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
+           style="background-color: {{ $area3.cor }};">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+      </div>
+      <h2 class="text-2xl font-bold text-gray-900">
+        {{ $area3.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area3.nome_en }}{{ else }}{{ $area3.nome_pt }}{{ end }}
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      {{ range $id, $lab := $labs }}
+        {{ if eq $lab.area "eam3" }}
+          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* No results message */}}
+  <div id="no-lab-results" class="hidden text-center py-12">
+    <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <p class="text-xl text-gray-600">{{ i18n "no_labs_found" }}</p>
+    <p class="text-sm text-gray-500 mt-2">{{ i18n "try_different_filters" }}</p>
+  </div>
+</div>
+
+{{/* Load lab filter and expand JavaScript */}}
+<script src="{{ "js/lab-expand.js" | relURL }}"></script>
+{{ end }}

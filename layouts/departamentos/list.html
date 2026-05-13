@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 py-8">
+
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg mx-auto text-gray-700">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{ $departamentos := .Site.Data.departamentos.departamentos }}
+  {{ $lang := .Language.Lang }}
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {{ range $deptId, $dept := $departamentos }}
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden border border-gray-200">
+        {{/* Color bar */}}
+        <div class="h-2" style="background-color: {{ $dept.cor }}"></div>
+
+        <div class="p-6">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="text-xs font-bold px-2 py-1 rounded text-white" style="background-color: {{ $dept.cor }}">
+              {{ $dept.sigla }}
+            </span>
+            {{ range $dept.temas }}
+              {{ if eq . "espacial" }}
+                <span class="text-xs px-2 py-1 rounded bg-indigo-100 text-indigo-700 font-medium">
+                  🛸 {{ if eq $lang "pt" }}Espacial{{ else }}Space{{ end }}
+                </span>
+              {{ end }}
+            {{ end }}
+          </div>
+
+          <h2 class="text-xl font-bold text-gray-900 mb-3">
+            {{ if eq $lang "pt" }}{{ $dept.nome_pt }}{{ else }}{{ $dept.nome_en }}{{ end }}
+          </h2>
+
+          <p class="text-gray-600 text-sm mb-4">
+            {{ if eq $lang "pt" }}{{ $dept.descricao_pt }}{{ else }}{{ $dept.descricao_en }}{{ end }}
+          </p>
+
+          {{ if $dept.chefe }}
+            <p class="text-sm text-gray-500 mb-4">
+              <span class="font-medium">{{ if eq $lang "pt" }}Chefe:{{ else }}Head:{{ end }}</span>
+              {{ $dept.chefe }}
+            </p>
+          {{ end }}
+
+          {{ if $dept.laboratorios }}
+            <p class="text-xs text-gray-400">
+              {{ len $dept.laboratorios }}
+              {{ if eq $lang "pt" }}laboratório(s){{ else }}lab(s){{ end }}
+            </p>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

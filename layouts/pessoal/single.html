@@ -1,0 +1,493 @@
+{{ define "main" }}
+{{ $professorId := .Params.professor_id }}
+{{ $professorData := index .Site.Data.professores.profiles $professorId }}
+
+{{ if not $professorData }}
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+      <p class="font-bold">{{ i18n "error" }}</p>
+      <p>{{ i18n "professor_not_found" }}: {{ $professorId }}</p>
+    </div>
+  </div>
+{{ else }}
+
+{{/* Pre-calculate counts for summary */}}
+{{ $pubs := $professorData.publicacoes }}
+{{ $pubCount := 0 }}
+{{ if $pubs }}{{ $pubCount = len $pubs }}{{ end }}
+
+{{ $byProfessor := .Site.Data.teses.by_professor }}
+{{ $profSupervisions := index $byProfessor $professorId }}
+{{ $supervisionCount := 0 }}
+{{ $mestradoCount := 0 }}
+{{ $doutoradoCount := 0 }}
+{{ if $profSupervisions }}
+  {{ $asAdvisor := $profSupervisions.as_advisor }}
+  {{ $asCoadvisor := $profSupervisions.as_coadvisor }}
+  {{ if $asAdvisor }}{{ $supervisionCount = add $supervisionCount (len $asAdvisor) }}{{ end }}
+  {{ if $asCoadvisor }}{{ $supervisionCount = add $supervisionCount (len $asCoadvisor) }}{{ end }}
+  {{ $mestradoCount = $profSupervisions.mestrado_count }}
+  {{ $doutoradoCount = $profSupervisions.doutorado_count }}
+{{ end }}
+
+<article class="professor-profile max-w-7xl mx-auto px-4 py-8">
+
+  <!-- Header Section -->
+  <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+    <div class="flex flex-col md:flex-row gap-8">
+
+      <!-- Photo Column -->
+      <div class="w-full md:w-1/4 flex-shrink-0">
+        {{ $photoPath := printf "/images/professores/%s" $professorData.foto }}
+        {{ if (fileExists (printf "static%s" $photoPath)) }}
+          <img src="{{ $photoPath }}"
+               alt="{{ $professorData.nome }}"
+               class="rounded-lg shadow-lg w-full object-cover aspect-square">
+        {{ else }}
+          <!-- Placeholder with initials -->
+          <div class="bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg shadow-lg w-full aspect-square flex items-center justify-center">
+            <span class="text-white text-6xl font-bold">
+              {{ substr $professorData.nome_destaque 0 1 }}
+            </span>
+          </div>
+        {{ end }}
+      </div>
+
+      <!-- Info Column -->
+      <div class="flex-1">
+        <!-- Name -->
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ $professorData.nome }}</h1>
+
+        <!-- Area Badge -->
+        {{ $areas := .Site.Data.areas.areas }}
+        {{ $areaId := $professorData.area }}
+        {{ $areaData := "" }}
+        {{ if eq $areaId "eam1" }}
+          {{ $areaData = $areas.eam1 }}
+        {{ else if eq $areaId "eam2" }}
+          {{ $areaData = $areas.eam2 }}
+        {{ else if eq $areaId "eam3" }}
+          {{ $areaData = $areas.eam3 }}
+        {{ end }}
+        {{ if $areaData }}
+          <div class="mb-4">
+            <a href="{{ $.Site.BaseURL }}{{ $.Site.Language.Lang }}/areas/{{ $professorData.area }}/"
+               class="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-200 transition-colors">
+              {{ if eq $.Site.Language.Lang "pt" }}
+                {{ $areaData.nome_pt }}
+              {{ else }}
+                {{ $areaData.nome_en }}
+              {{ end }}
+            </a>
+          </div>
+        {{ end }}
+
+        <!-- CNPq Fellowship Badge -->
+        {{ with $professorData.bolsista_cnpq }}
+          {{ if ne . "Não" }}
+            <div class="mb-4">
+              <span class="inline-flex items-center gap-1.5 bg-gray-100 text-gray-700 px-3 py-1 rounded-md text-sm border border-gray-300">
+                <svg class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                <span>
+                  {{ if eq $.Site.Language.Lang "pt" }}
+                    Bolsista CNPq {{ if ne . "Sim" }}{{ . | replaceRE "^Sim - " "" }}{{ end }}
+                  {{ else }}
+                    CNPq Fellow {{ if ne . "Sim" }}{{ . | replaceRE "^Sim - " "" }}{{ end }}
+                  {{ end }}
+                </span>
+              </span>
+            </div>
+          {{ end }}
+        {{ end }}
+
+        <!-- Quick Summary Links -->
+        {{ if or (gt $pubCount 0) (gt $supervisionCount 0) }}
+          <div class="flex flex-wrap gap-3 mb-6 p-4 bg-gray-50 rounded-lg">
+            {{ if gt $pubCount 0 }}
+              <a href="#publicacoes"
+                 class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+                {{ i18n "publications" }} ({{ $pubCount }})
+              </a>
+            {{ end }}
+            {{ if gt $supervisionCount 0 }}
+              <a href="#orientacoes"
+                 class="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg text-sm font-medium transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                </svg>
+                {{ i18n "supervisions" }} ({{ $mestradoCount }} M, {{ $doutoradoCount }} D)
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <!-- Links Row -->
+        <div class="flex flex-wrap gap-3 mb-6">
+          {{ with $professorData.links.lattes }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium text-gray-700 transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+              </svg>
+              Lattes
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.scopus }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 hover:bg-orange-200 rounded-lg text-sm font-medium text-orange-700 transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10"/>
+              </svg>
+              Scopus
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.google_scholar }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 hover:bg-blue-200 rounded-lg text-sm font-medium text-blue-700 transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+              Google Scholar
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.researchgate }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-green-100 hover:bg-green-200 rounded-lg text-sm font-medium text-green-700 transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
+              </svg>
+              ResearchGate
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.site }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 hover:bg-purple-200 rounded-lg text-sm font-medium text-purple-700 transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+              </svg>
+              {{ i18n "personal_website" }}
+            </a>
+          {{ end }}
+        </div>
+
+        <!-- Metrics Cards -->
+        <div class="grid grid-cols-3 gap-4 mb-6">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg shadow p-4 text-center">
+            <div class="text-3xl font-bold text-blue-600">{{ $professorData.metrics.h_index }}</div>
+            <div class="text-sm text-gray-600 mt-1">{{ i18n "h_index" }}</div>
+          </div>
+
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg shadow p-4 text-center">
+            <div class="text-3xl font-bold text-green-600">{{ $professorData.metrics.citacoes }}</div>
+            <div class="text-sm text-gray-600 mt-1">{{ i18n "citations" }}</div>
+          </div>
+
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg shadow p-4 text-center">
+            <div class="text-3xl font-bold text-purple-600">{{ $professorData.metrics.artigos }}</div>
+            <div class="text-sm text-gray-600 mt-1">{{ i18n "articles" }}</div>
+          </div>
+        </div>
+
+        <!-- Research Lines -->
+        <div>
+          <h2 class="text-xl font-semibold text-gray-900 mb-3">{{ i18n "research_lines" }}</h2>
+          {{ $lines := index $professorData.linhas_pesquisa $.Site.Language.Lang }}
+          {{ if $lines }}
+            <ul class="space-y-2">
+              {{ range $lines }}
+                <li class="flex items-start">
+                  <span class="text-blue-500 mr-2 mt-1">•</span>
+                  <span class="text-gray-700">{{ . }}</span>
+                </li>
+              {{ end }}
+            </ul>
+          {{ else }}
+            <p class="text-gray-500 italic">{{ i18n "no_research_lines" }}</p>
+          {{ end }}
+        </div>
+
+        <!-- Last Update -->
+        {{ with $professorData.metrics.ultima_atualizacao }}
+          <div class="mt-4 text-xs text-gray-500">
+            {{ i18n "last_update" }}: {{ . }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <!-- Publications Section -->
+  {{ if $pubs }}
+    <div id="publicacoes" class="mt-12 scroll-mt-20">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-3xl font-bold text-gray-900">{{ i18n "publications" }} ({{ len $pubs }})</h2>
+      </div>
+
+      <!-- Search/Filter Controls -->
+      <div class="bg-white rounded-lg shadow-md p-4 mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <input type="text"
+                 id="pub-search"
+                 placeholder="{{ i18n "search_publications" }}"
+                 class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+
+          <select id="pub-year-filter"
+                  class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            <option value="">{{ i18n "all_years" }}</option>
+          </select>
+
+          <select id="pub-type-filter"
+                  class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            <option value="">{{ i18n "all_types" }}</option>
+            <option value="article">{{ i18n "article" }}</option>
+            <option value="review">{{ i18n "review" }}</option>
+            <option value="conference">{{ i18n "conference_paper" }}</option>
+            <option value="book_chapter">{{ i18n "book_chapter" }}</option>
+          </select>
+        </div>
+
+        <div class="mt-3 text-sm text-gray-600">
+          <span id="pub-count">{{ len $pubs }}</span> {{ i18n "publications" | lower }}
+        </div>
+      </div>
+
+      <!-- Publications List -->
+      <div id="publications-list" class="space-y-6">
+        {{ range $idx, $pub := $pubs }}
+          <div class="publication-item {{ if ge $idx 10 }}hidden{{ end }}" data-index="{{ $idx }}">
+            {{ partial "publication-card.html" (dict "pub" $pub "page" $) }}
+          </div>
+        {{ end }}
+      </div>
+
+      <!-- Show More Button for Publications -->
+      {{ if gt (len $pubs) 10 }}
+        <div id="pub-show-more-container" class="mt-6 text-center">
+          <button id="pub-show-more"
+                  class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
+                  data-total="{{ len $pubs }}"
+                  data-showing="10">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+            {{ i18n "show_more" }} (<span id="pub-remaining">{{ sub (len $pubs) 10 }}</span> {{ i18n "remaining" }})
+          </button>
+        </div>
+      {{ end }}
+
+      <!-- No Results Message -->
+      <div id="no-results" class="hidden text-center py-12">
+        <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <p class="mt-4 text-lg text-gray-600">{{ i18n "no_publications_found" }}</p>
+      </div>
+    </div>
+
+    <!-- Load Publications Filter JavaScript -->
+    <script src="{{ "js/publications-filter.js" | relURL }}"></script>
+    <script>
+      // Show more publications functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const showMoreBtn = document.getElementById('pub-show-more');
+        if (showMoreBtn) {
+          const container = document.getElementById('pub-show-more-container');
+          const items = document.querySelectorAll('.publication-item');
+          const total = parseInt(showMoreBtn.dataset.total);
+          let showing = parseInt(showMoreBtn.dataset.showing);
+          const increment = 10;
+
+          showMoreBtn.addEventListener('click', function() {
+            const newShowing = Math.min(showing + increment, total);
+
+            items.forEach((item, idx) => {
+              if (idx < newShowing) {
+                item.classList.remove('hidden');
+              }
+            });
+
+            showing = newShowing;
+            showMoreBtn.dataset.showing = showing;
+
+            const remaining = total - showing;
+            document.getElementById('pub-remaining').textContent = remaining;
+
+            if (remaining <= 0) {
+              container.classList.add('hidden');
+            }
+          });
+        }
+      });
+    </script>
+
+  {{ else }}
+    <!-- No Publications Yet -->
+    <div id="publicacoes" class="mt-12 bg-gray-50 rounded-lg p-12 text-center scroll-mt-20">
+      <svg class="mx-auto h-16 w-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+      </svg>
+      <p class="mt-4 text-lg text-gray-600">{{ i18n "no_publications_yet" }}</p>
+      <p class="mt-2 text-sm text-gray-500">{{ i18n "publications_will_be_added" }}</p>
+    </div>
+  {{ end }}
+
+  <!-- Supervisions Section -->
+  {{ if $profSupervisions }}
+    {{ $asAdvisor := $profSupervisions.as_advisor }}
+    {{ $asCoadvisor := $profSupervisions.as_coadvisor }}
+    {{ $totalSupervisions := add (len $asAdvisor) (len $asCoadvisor) }}
+
+    {{ if gt $totalSupervisions 0 }}
+      {{/* Combine and sort all supervisions by year (most recent first) */}}
+      {{ $allSupervisions := slice }}
+      {{ range $asAdvisor }}
+        {{ $thesisData := index $.Site.Data.teses.by_id . }}
+        {{ if $thesisData }}
+          {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "advisor" "year" $thesisData.year) }}
+        {{ end }}
+      {{ end }}
+      {{ range $asCoadvisor }}
+        {{ $thesisData := index $.Site.Data.teses.by_id . }}
+        {{ if $thesisData }}
+          {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "coadvisor" "year" $thesisData.year) }}
+        {{ end }}
+      {{ end }}
+      {{ $allSupervisions = sort $allSupervisions "year" "desc" }}
+
+      <div id="orientacoes" class="mt-12 scroll-mt-20">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="text-3xl font-bold text-gray-900">
+            {{ i18n "supervisions" }}
+            ({{ $profSupervisions.mestrado_count }} {{ i18n "master" | lower }}, {{ $profSupervisions.doutorado_count }} {{ i18n "phd" | lower }})
+          </h2>
+        </div>
+
+        <!-- Supervision Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg shadow p-4 text-center">
+            <div class="text-2xl font-bold text-green-600">{{ $profSupervisions.mestrado_count }}</div>
+            <div class="text-xs text-gray-600 mt-1">{{ i18n "master_theses" }}</div>
+          </div>
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg shadow p-4 text-center">
+            <div class="text-2xl font-bold text-purple-600">{{ $profSupervisions.doutorado_count }}</div>
+            <div class="text-xs text-gray-600 mt-1">{{ i18n "phd_theses" }}</div>
+          </div>
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg shadow p-4 text-center">
+            <div class="text-2xl font-bold text-blue-600">{{ len $asAdvisor }}</div>
+            <div class="text-xs text-gray-600 mt-1">{{ i18n "as_advisor" }}</div>
+          </div>
+          <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg shadow p-4 text-center">
+            <div class="text-2xl font-bold text-gray-600">{{ len $asCoadvisor }}</div>
+            <div class="text-xs text-gray-600 mt-1">{{ i18n "as_coadvisor" }}</div>
+          </div>
+        </div>
+
+        <!-- Supervisions List -->
+        <div id="supervisions-list" class="bg-white rounded-lg shadow-md p-6">
+          <div class="space-y-3">
+            {{ range $idx, $sup := $allSupervisions }}
+              {{ $thesisData := $sup.data }}
+              <div class="supervision-item {{ if ge $idx 10 }}hidden{{ end }}" data-index="{{ $idx }}">
+                <div class="border-l-4 {{ if eq (index (split $thesisData.course " ") 0) "Doutorado" }}border-purple-400{{ else }}border-green-400{{ end }} pl-4 py-2">
+                  <div class="flex items-start justify-between gap-2">
+                    <a href="/{{ $.Site.Language.Lang }}/teses/{{ $sup.id }}/"
+                       class="text-blue-600 hover:text-blue-800 hover:underline font-medium flex-1">
+                      {{ $thesisData.title | truncate 120 }}
+                    </a>
+                    {{ if eq $sup.role "coadvisor" }}
+                      <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded whitespace-nowrap">{{ i18n "coadvisor" }}</span>
+                    {{ end }}
+                  </div>
+                  <p class="text-sm text-gray-600 mt-1">
+                    {{ $thesisData.author }} ({{ $thesisData.year }})
+                    {{ if eq (index (split $thesisData.course " ") 0) "Doutorado" }}
+                      <span class="ml-1 text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">{{ i18n "phd" }}</span>
+                    {{ else }}
+                      <span class="ml-1 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">{{ i18n "master" }}</span>
+                    {{ end }}
+                  </p>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+
+          <!-- Show More Button for Supervisions -->
+          {{ if gt (len $allSupervisions) 10 }}
+            <div id="sup-show-more-container" class="mt-6 text-center border-t border-gray-200 pt-6">
+              <button id="sup-show-more"
+                      class="inline-flex items-center gap-2 px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium transition-colors"
+                      data-total="{{ len $allSupervisions }}"
+                      data-showing="10">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                </svg>
+                {{ i18n "show_more" }} (<span id="sup-remaining">{{ sub (len $allSupervisions) 10 }}</span> {{ i18n "remaining" }})
+              </button>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <script>
+        // Show more supervisions functionality
+        document.addEventListener('DOMContentLoaded', function() {
+          const showMoreBtn = document.getElementById('sup-show-more');
+          if (showMoreBtn) {
+            const container = document.getElementById('sup-show-more-container');
+            const items = document.querySelectorAll('.supervision-item');
+            const total = parseInt(showMoreBtn.dataset.total);
+            let showing = parseInt(showMoreBtn.dataset.showing);
+            const increment = 10;
+
+            showMoreBtn.addEventListener('click', function() {
+              const newShowing = Math.min(showing + increment, total);
+
+              items.forEach((item, idx) => {
+                if (idx < newShowing) {
+                  item.classList.remove('hidden');
+                }
+              });
+
+              showing = newShowing;
+              showMoreBtn.dataset.showing = showing;
+
+              const remaining = total - showing;
+              document.getElementById('sup-remaining').textContent = remaining;
+
+              if (remaining <= 0) {
+                container.classList.add('hidden');
+              }
+            });
+          }
+        });
+      </script>
+    {{ end }}
+  {{ end }}
+
+</article>
+
+{{ end }}
+{{ end }}

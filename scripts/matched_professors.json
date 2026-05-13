@@ -1,0 +1,834 @@
+{
+  "matched": [
+    {
+      "professor_id": "alfredo-r-de-faria",
+      "professor_name": "Alfredo R. de Faria",
+      "scopus_author_id": "7003781294",
+      "orcid": "0000-0001-7453-8039",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Alfredo Rocha De Faria",
+        "document_count": "77",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "cristiane-aparecida-martins",
+      "professor_name": "Cristiane Aparecida Martins",
+      "scopus_author_id": "8931969000",
+      "orcid": "0000-0001-8449-2126",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "C. A. Martins",
+        "document_count": "35",
+        "subject_areas": [
+          "Chemistry (all)",
+          "Energy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "flavio-luiz-da-s-bussamra",
+      "professor_name": "Flávio Luiz da S. Bussamra",
+      "scopus_author_id": "7801411676",
+      "orcid": "0000-0003-2507-4404",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Flávio Luiz de Silva Bussamra",
+        "document_count": "37",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "emilia-villani",
+      "professor_name": "Emilia Villani",
+      "scopus_author_id": "6603155037",
+      "orcid": "0000-0002-6804-1453",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Emília Villani",
+        "document_count": "92",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "cleverson-bringhenti",
+      "professor_name": "Cleverson Bringhenti",
+      "scopus_author_id": "7801357927",
+      "orcid": "0000-0001-7634-1352",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "C. Bringhenti",
+        "document_count": "89",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "guilherme-borges-ribeiro",
+      "professor_name": "Guilherme Borges Ribeiro",
+      "scopus_author_id": "36905262800",
+      "orcid": "0000-0002-2232-276X",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Guilherme B. Ribeiro",
+        "document_count": "34",
+        "subject_areas": [
+          "Chemical Engineering (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "ana-m-gomez-marin",
+      "professor_name": "Ana M. Gómez-Marín",
+      "scopus_author_id": "36129399700",
+      "orcid": "0000-0001-5975-4657",
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Ana María Gómez-Marín",
+        "document_count": "1",
+        "subject_areas": [
+          "Materials Science (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "antonio-b-guimaraes-neto",
+      "professor_name": "Antônio B. Guimarães Neto",
+      "scopus_author_id": "55996695500",
+      "orcid": "0000-0002-5201-3757",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Antônio Bernardo Guimarães Neto",
+        "document_count": "41",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "douglas-marcel-g-leite",
+      "professor_name": "Douglas Marcel G. Leite",
+      "scopus_author_id": "6603854648",
+      "orcid": "0000-0002-1792-6171",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "D. M.G. Leite",
+        "document_count": "49",
+        "subject_areas": [
+          "Materials Science (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "argemiro-s-silva-sobrinho",
+      "professor_name": "Argemiro S. Silva Sobrinho",
+      "scopus_author_id": "6602001816",
+      "orcid": "0000-0001-7227-9176",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "Argemiro Soares Da Silva Sobrinho",
+        "document_count": "111",
+        "subject_areas": [
+          "Materials Science (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "gilberto-petraconi-filho",
+      "professor_name": "Gilberto Petraconi Filho",
+      "scopus_author_id": "7801435334",
+      "orcid": "0000-0001-9961-4237",
+      "match_method": "orcid",
+      "confidence": 100,
+      "author_details": {
+        "name": "G. Petraconi",
+        "document_count": "83",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "flavio-luiz-c-ribeiro",
+      "professor_name": "Flávio Luiz Cardoso-Ribeiro",
+      "scopus_author_id": "46461159000",
+      "orcid": "0000-0002-6454-9671",
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Flávio Luiz Cardoso-Ribeiro",
+        "document_count": "1",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "rafael-thiago-luiz-ferreira",
+      "professor_name": "Rafael Thiago Luiz Ferreira",
+      "scopus_author_id": "55690843400",
+      "orcid": "0000-0002-4745-3539",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Rafael Thiago Luiz Ferreira",
+        "document_count": "20",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "thiago-de-paula-sales",
+      "professor_name": "Thiago de Paula Sales",
+      "scopus_author_id": "57193124025",
+      "orcid": "0000-0002-5988-167X",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Thiago de Paula Sales",
+        "document_count": "18",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "leila-ribeiro-dos-santos",
+      "professor_name": "Leila Ribeiro dos Santos",
+      "scopus_author_id": "57956590900",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Leila Ribeiro Dos Santos",
+        "document_count": "3",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "roberto-gil-annes-da-silva",
+      "professor_name": "Roberto Gil Annes da Silva",
+      "scopus_author_id": "35451481500",
+      "orcid": "0000-0003-0995-9915",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Roberto Gil Annes Da Silva",
+        "document_count": "113",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "maisa-de-oliveira-terra",
+      "professor_name": "Maisa de Oliveira Terra",
+      "scopus_author_id": "7003287545",
+      "orcid": "0000-0002-7382-0953",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Maisa O. Terra",
+        "document_count": "33",
+        "subject_areas": [
+          "Earth and Planetary Sciences (all)",
+          "Engineering (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "rodrigo-costa-moura",
+      "professor_name": "Rodrigo Costa Moura",
+      "scopus_author_id": "56660427200",
+      "orcid": "0000-0002-8565-6468",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "R. C. Moura",
+        "document_count": "33",
+        "subject_areas": [
+          "Computer Science (all)",
+          "Mathematics (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "andre-fernando-c-silva",
+      "professor_name": "André Fernando C. Silva",
+      "scopus_author_id": "57201349267",
+      "orcid": "0000-0002-8125-6010",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "André Fernando de Castro da Silva",
+        "document_count": "21",
+        "subject_areas": [
+          "Engineering (all)",
+          "Mathematics (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "jorge-otubo",
+      "professor_name": "Jorge Otubo",
+      "scopus_author_id": "6602263303",
+      "orcid": "0000-0002-0369-4365",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Jorge Otubo",
+        "document_count": "71",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "vinicius-malatesta",
+      "professor_name": "Vinicius Malatesta",
+      "scopus_author_id": "55789261500",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Vinicius Malatesta",
+        "document_count": "17",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "mariano-andres-arbelo",
+      "professor_name": "Mariano Andrés Arbelo",
+      "scopus_author_id": "57211220623",
+      "orcid": "0000-0001-5541-6773",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Mariano Andrés Arbelo",
+        "document_count": "52",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "luiz-carlos-sandoval-goes",
+      "professor_name": "Luiz Carlos Sandoval Góes",
+      "scopus_author_id": "8613267100",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Luiz Carlos Sandoval Góes",
+        "document_count": "3",
+        "subject_areas": [
+          "Earth and Planetary Sciences (all)",
+          "Energy (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "vitor-gabriel-kleine",
+      "professor_name": "Vitor Gabriel Kleine",
+      "scopus_author_id": "57193867121",
+      "orcid": "0000-0001-9360-7300",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Vitor Gabriel Kleine",
+        "document_count": "17",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "ronnie-rodrigo-rego",
+      "professor_name": "Ronnie Rodrigo Rego",
+      "scopus_author_id": "55692679300",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Ronnie Rodrigo Rego",
+        "document_count": "33",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "sandro-da-silva-fernandes",
+      "professor_name": "Sandro da Silva Fernandes",
+      "scopus_author_id": "6603155077",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Sandro da Silva Fernandes",
+        "document_count": "48",
+        "subject_areas": [
+          "Earth and Planetary Sciences (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "jesuino-takachi-tomita",
+      "professor_name": "Jesuíno Takachi Tomita",
+      "scopus_author_id": "15058420800",
+      "orcid": "0000-0001-9528-201X",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "J. T. Tomita",
+        "document_count": "85",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "andre-da-silva-antunes",
+      "professor_name": "André da Silva Antunes",
+      "scopus_author_id": "35796957900",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Antunes Andre da Silva",
+        "document_count": "1",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "ney-rafael-secco",
+      "professor_name": "Ney Rafael Sêcco",
+      "scopus_author_id": "55595457400",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Ney Rafael Sêcco",
+        "document_count": "22",
+        "subject_areas": [
+          "Energy (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "amauri-de-paula",
+      "professor_name": "Amauri de Paula",
+      "scopus_author_id": "57162621700",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Adson Agrico de Paula",
+        "document_count": "32",
+        "subject_areas": [
+          "Energy (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "izabela-batista-henriques",
+      "professor_name": "Izabela Batista Henriques",
+      "scopus_author_id": "56242811600",
+      "orcid": "0000-0002-0004-8958",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Izabela Batista Henriques",
+        "document_count": "26",
+        "subject_areas": [
+          "Energy (all)",
+          "Engineering (all)",
+          "Environmental Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "domingos-a-rade",
+      "professor_name": "Domingos A. Rade",
+      "scopus_author_id": "6701889091",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Domingos A Rade",
+        "document_count": "1",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "elisan-dos-santos-magalhaes",
+      "professor_name": "Elisan dos Santos Magalhães",
+      "scopus_author_id": "56673863600",
+      "orcid": "0000-0002-0572-4943",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Elisan S. Magalhães",
+        "document_count": "45",
+        "subject_areas": [
+          "Chemical Engineering (all)",
+          "Engineering (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "maria-margareth-da-silva",
+      "professor_name": "Maria Margareth da Silva",
+      "scopus_author_id": "55467620200",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Maria Margareth da Silva",
+        "document_count": "1",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "joao-henrique-lopes",
+      "professor_name": "João Henrique Lopes",
+      "scopus_author_id": "25959640900",
+      "orcid": "0000-0001-6872-0299",
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "João Henrique Lopes",
+        "document_count": "40",
+        "subject_areas": [
+          "Materials Science (all)",
+          "Medicine (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "davi-a-dos-santos",
+      "professor_name": "Davi A. dos Santos",
+      "scopus_author_id": "57214178632",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Lara Santos Diniz",
+        "document_count": "2",
+        "subject_areas": [
+          "Computer Science (all)",
+          "Decision Sciences (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "kahl-d-zilnyk",
+      "professor_name": "Kahl D. Zilnyk",
+      "scopus_author_id": "55816533700",
+      "orcid": "0000-0002-3933-9883",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "K. D. Zilnyk",
+        "document_count": "34",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "andre-v-g-cavalieri",
+      "professor_name": "André V. G. Cavalieri",
+      "scopus_author_id": "22949935300",
+      "orcid": "0000-0003-4283-0232",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "André V.G. Cavalieri",
+        "document_count": "228",
+        "subject_areas": [
+          "Engineering (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "gilmar-patrocinio-thim",
+      "professor_name": "Gilmar Patrocínio Thim",
+      "scopus_author_id": "6602627592",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Gilmar Patrocínio Thim",
+        "document_count": "2",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "marcelo-jose-s-de-lemos",
+      "professor_name": "Marcelo José S. de Lemos",
+      "scopus_author_id": "7004984975",
+      "orcid": "0000-0001-8810-1938",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "M. J. S. De Lemos",
+        "document_count": "245",
+        "subject_areas": [
+          "Chemical Engineering (all)",
+          "Engineering (all)",
+          "Physics and Astronomy (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "anderson-v-borille",
+      "professor_name": "Anderson V. Borille",
+      "scopus_author_id": "26032521600",
+      "orcid": "0000-0003-1788-0588",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Anderson Vicente Borille",
+        "document_count": "18",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "jefferson-de-o-gomes",
+      "professor_name": "Jefferson de O. Gomes",
+      "scopus_author_id": "57918140800",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Jefferson De Oliveira Gomes",
+        "document_count": "4",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "wesley-rodrigues-de-oliveira",
+      "professor_name": "Wesley Rodrigues de Oliveira",
+      "scopus_author_id": "57203013208",
+      "orcid": "0000-0002-7470-4188",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Wesley R. De Oliveira",
+        "document_count": "21",
+        "subject_areas": [
+          "Computer Science (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "rene-f-b-goncalves",
+      "professor_name": "Rene F. B. Gonçalves",
+      "scopus_author_id": "35172892400",
+      "orcid": "0000-0001-7731-3847",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Rene Francisco Boschi Francisco Boschi Gonçalves",
+        "document_count": "46",
+        "subject_areas": [
+          "Chemistry (all)",
+          "Earth and Planetary Sciences (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "tiago-barbosa-de-araujo",
+      "professor_name": "Tiago Barbosa de Araújo",
+      "scopus_author_id": "57221818131",
+      "orcid": "0000-0001-5749-2921",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Tiago B. de Araújo",
+        "document_count": "17",
+        "subject_areas": [
+          "Energy (all)",
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "luiz-arthur-gagg-filho",
+      "professor_name": "Luiz Arthur Gagg Filho",
+      "scopus_author_id": "57202607218",
+      "orcid": null,
+      "match_method": "name",
+      "confidence": 100,
+      "author_details": {
+        "name": "Luiz Arthur Gagg Filho",
+        "document_count": "15",
+        "subject_areas": [
+          "Engineering (all)",
+          "Mathematics (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "willer-gomes-dos-santos",
+      "professor_name": "Willer Gomes dos Santos",
+      "scopus_author_id": "55819853400",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Willer Gomes",
+        "document_count": "1",
+        "subject_areas": [
+          "Medicine (all)",
+          "Multidisciplinary"
+        ]
+      }
+    },
+    {
+      "professor_id": "pedro-teixeira-lacava",
+      "professor_name": "Pedro Teixeira Lacava",
+      "scopus_author_id": "57212239606",
+      "orcid": null,
+      "match_method": "manual_correction",
+      "confidence": 100,
+      "author_details": {
+        "name": "Pedro Teixeira Lacava",
+        "document_count": "1",
+        "subject_areas": [
+          "Engineering (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "mauricio-v-donadon",
+      "professor_name": "Mauricio V. Donadon",
+      "scopus_author_id": "57211220634",
+      "orcid": "0000-0001-9016-5340",
+      "match_method": "name",
+      "confidence": 89,
+      "author_details": {
+        "name": "Mauŕicio Vicente Donadon",
+        "document_count": "130",
+        "subject_areas": [
+          "Engineering (all)",
+          "Materials Science (all)"
+        ]
+      }
+    },
+    {
+      "professor_id": "airton-nabarrete",
+      "professor_name": "Airton Nabarrete",
+      "scopus_author_id": "6508307482",
+      "orcid": "0000-0002-1617-9063",
+      "match_method": "manual",
+      "confidence": 100,
+      "author_details": {
+        "name": "Airton Nabarrete",
+        "document_count": "Unknown",
+        "subject_areas": []
+      }
+    },
+    {
+      "professor_id": "luis-gonzaga-trabasso",
+      "professor_name": "Luís Gonzaga Trabasso",
+      "scopus_author_id": "6507256443",
+      "orcid": null,
+      "match_method": "manual",
+      "confidence": 100,
+      "author_details": {
+        "name": "Luís Gonzaga Trabasso",
+        "document_count": "Unknown",
+        "subject_areas": []
+      }
+    },
+    {
+      "professor_id": "jose-atilio-fritz-fidel-rocco",
+      "professor_name": "José Atílio Fritz Fidel Rocco",
+      "scopus_author_id": "6701784233",
+      "orcid": null,
+      "match_method": "manual",
+      "confidence": 100,
+      "author_details": {
+        "name": "José Atílio Fritz Fidel Rocco",
+        "document_count": "Unknown",
+        "subject_areas": []
+      }
+    }
+  ],
+  "unmatched": [],
+  "statistics": {
+    "total": 52,
+    "matched": 52,
+    "unmatched": 0,
+    "orcid_matches": 11,
+    "name_matches": 38,
+    "llm_matches": 0,
+    "coverage_pct": 100.0,
+    "manual_matches": 3
+  }
+}

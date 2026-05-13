@@ -1,0 +1,71 @@
+<nav class="text-sm text-gray-600 mb-6" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center space-x-2">
+    {{/* Home link */}}
+    <li>
+      <a href="{{ relLangURL "/" }}" class="hover:text-blue-600">{{ i18n "home" }}</a>
+    </li>
+
+    {{/* Function to get friendly section names */}}
+    {{ $sectionNames := dict
+      "areas" (cond (eq $.Site.Language.Lang "pt") "Áreas de Concentração" "Research Areas")
+      "docentes" (cond (eq $.Site.Language.Lang "pt") "Docentes" "Faculty")
+      "publicacoes" (cond (eq $.Site.Language.Lang "pt") "Publicações" "Publications")
+      "disciplinas" (cond (eq $.Site.Language.Lang "pt") "Disciplinas" "Courses")
+      "estatisticas" (cond (eq $.Site.Language.Lang "pt") "Estatísticas" "Statistics")
+      "documentos" (cond (eq $.Site.Language.Lang "pt") "Documentos" "Documents")
+      "processo-seletivo" (cond (eq $.Site.Language.Lang "pt") "Processo Seletivo" "Admission Process")
+      "pesquisa" (cond (eq $.Site.Language.Lang "pt") "Pesquisa" "Research")
+      "contato" (cond (eq $.Site.Language.Lang "pt") "Contato" "Contact")
+    }}
+
+    {{/* Use Ancestors which is already in correct order */}}
+    {{ $currentPage := . }}
+
+    {{/* Check if ancestors include the section */}}
+    {{ $ancestorCount := len .Ancestors }}
+
+    {{ with .Ancestors }}
+      {{ range . }}
+        {{/* Skip the home page and language-specific home */}}
+        {{ if and (ne .Kind "home") (ne .RelPermalink "/") }}
+          <li class="flex items-center">
+            <svg class="w-4 h-4 mx-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <a href="{{ .RelPermalink }}" class="hover:text-blue-600">
+              {{ if .Title }}
+                {{ .Title }}
+              {{ else if .Section }}
+                {{ index $sectionNames .Section | default .Section }}
+              {{ else }}
+                {{ .Name }}
+              {{ end }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* If page has a section but no relevant ancestors, add section manually */}}
+    {{ if and (eq $ancestorCount 0) $currentPage.Section (ne $currentPage.Kind "section") }}
+      <li class="flex items-center">
+        <svg class="w-4 h-4 mx-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+        </svg>
+        <a href="{{ relLangURL (printf "/%s/" $currentPage.Section) }}" class="hover:text-blue-600">
+          {{ index $sectionNames $currentPage.Section | default $currentPage.Section }}
+        </a>
+      </li>
+    {{ end }}
+
+    {{/* Current page (not a link) */}}
+    {{ if ne $currentPage.Kind "home" }}
+      <li class="flex items-center">
+        <svg class="w-4 h-4 mx-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-gray-900 font-medium">{{ $currentPage.Title }}</span>
+      </li>
+    {{ end }}
+  </ol>
+</nav>

@@ -1,0 +1,9 @@
+# Configuracao de producao para hospedagem ITA (SFTP)
+baseURL: "https://www.pgeam.ita.br/"
+buildFuture: true
+enableRobotsTXT: true
+canonifyURLs: true
+relativeURLs: false
+
+params:
+  temporary_noindex: true

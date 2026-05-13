@@ -1,0 +1,75 @@
+{{ $categoriaId := .categoria }}
+{{ $docs := index .Site.Data.documentos.categorias }}
+{{ range $docs }}
+  {{ if eq .id $categoriaId }}
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h3 class="text-xl font-bold mb-4 text-gray-900">
+        {{ if eq $.Site.Language.Lang "pt" }}
+          {{ .nome_pt }}
+        {{ else }}
+          {{ .nome_en }}
+        {{ end }}
+      </h3>
+
+      <ul class="space-y-3">
+        {{ range .documentos }}
+          <li class="flex items-center justify-between p-4 hover:bg-gray-50 rounded-lg border border-gray-200 transition-colors">
+            <div class="flex items-center space-x-4 flex-1">
+              <svg class="w-8 h-8 text-red-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/>
+              </svg>
+              <div class="flex-1">
+                <p class="font-medium text-gray-900">
+                  {{ if eq $.Site.Language.Lang "pt" }}
+                    {{ .nome_pt }}
+                  {{ else }}
+                    {{ .nome_en }}
+                  {{ end }}
+                </p>
+                {{ if .descricao_pt }}
+                  <p class="text-sm text-gray-600 mt-1">
+                    {{ if eq $.Site.Language.Lang "pt" }}
+                      {{ .descricao_pt }}
+                    {{ else }}
+                      {{ .descricao_en }}
+                    {{ end }}
+                  </p>
+                {{ end }}
+                {{ if .tamanho }}
+                  <p class="text-xs text-gray-500 mt-1">
+                    {{ .tamanho }}
+                    {{ if .data }}
+                      • {{ dateFormat "02/01/2006" .data }}
+                    {{ end }}
+                  </p>
+                {{ end }}
+              </div>
+            </div>
+            <div class="flex-shrink-0 ml-4">
+              {{ if .arquivo }}
+                <a href="/documents/{{ .arquivo }}"
+                   class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                   download>
+                  {{ i18n "download" }}
+                  <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                  </svg>
+                </a>
+              {{ else if .link_externo }}
+                <a href="{{ .link_externo }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                  {{ i18n "external_link" }}
+                  <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                  </svg>
+                </a>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}

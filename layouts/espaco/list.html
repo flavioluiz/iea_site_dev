@@ -1,0 +1,115 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto px-4 py-8">
+
+  {{/* Hero */}}
+  <div class="mb-16 text-center">
+    <div class="inline-flex items-center gap-2 bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
+      🛸 {{ if eq .Language.Lang "pt" }}Área Estratégica{{ else }}Strategic Area{{ end }}
+    </div>
+    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">{{ .Title }}</h1>
+    <div class="prose prose-lg mx-auto text-gray-700 max-w-3xl">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Linhas de pesquisa espaciais */}}
+  {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
+  {{ $lang := .Language.Lang }}
+
+  {{ $linhasEspaciais := slice }}
+  {{ range $id, $linha := $linhas }}
+    {{ if eq $linha.tema "espacial" }}
+      {{ $linhasEspaciais = $linhasEspaciais | append (merge $linha (dict "id" $id)) }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $linhasEspaciais }}
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 pb-3 border-b-4 border-indigo-600">
+        {{ if eq $lang "pt" }}Linhas de Pesquisa Espacial{{ else }}Space Research Lines{{ end }}
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{ range $linhasEspaciais }}
+          <div class="bg-white rounded-xl shadow-md p-6 border-l-4 hover:shadow-lg transition-shadow" style="border-color: {{ .cor }}">
+            <h3 class="text-lg font-bold text-gray-900 mb-2">
+              {{ if eq $lang "pt" }}{{ .nome_pt }}{{ else }}{{ .nome_en }}{{ end }}
+            </h3>
+            <p class="text-gray-600 text-sm">
+              {{ if eq $lang "pt" }}{{ .descricao_pt }}{{ else }}{{ .descricao_en }}{{ end }}
+            </p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{/* Laboratórios espaciais */}}
+  {{ $labs := .Site.Data.laboratorios.laboratorios }}
+  {{ $labsEspaciais := slice }}
+  {{ range $id, $lab := $labs }}
+    {{ if or (eq $lab.tema "espacial") (eq $lab.tema "ambos") }}
+      {{ $labsEspaciais = $labsEspaciais | append (merge $lab (dict "id" $id)) }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $labsEspaciais }}
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 pb-3 border-b-4 border-indigo-600">
+        {{ if eq $lang "pt" }}Laboratórios Espaciais{{ else }}Space Laboratories{{ end }}
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ range $labsEspaciais }}
+          {{ partial "lab-card.html" (dict "lab" . "page" $) }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{/* Projetos espaciais */}}
+  {{ $projetos := .Site.Data.projetos.projetos }}
+  {{ $projetosEspaciais := slice }}
+  {{ range $id, $proj := $projetos }}
+    {{ if or (eq $proj.tema "espacial") (eq $proj.tema "ambos") }}
+      {{ $projetosEspaciais = $projetosEspaciais | append (merge $proj (dict "id" $id)) }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $projetosEspaciais }}
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 pb-3 border-b-4 border-indigo-600">
+        {{ if eq $lang "pt" }}Projetos Espaciais{{ else }}Space Projects{{ end }}
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ range $projetosEspaciais }}
+          {{ partial "project-card.html" (dict "project" . "page" $) }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{/* Parceiros */}}
+  <div class="mb-16">
+    <h2 class="text-3xl font-bold text-gray-900 mb-8 pb-3 border-b-4 border-indigo-600">
+      {{ if eq $lang "pt" }}Parceiros Institucionais{{ else }}Institutional Partners{{ end }}
+    </h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+      {{ $parceiros := slice
+        (dict "sigla" "AEB" "nome" "Agência Espacial Brasileira" "url" "https://www.gov.br/aeb/")
+        (dict "sigla" "IAE" "nome" "Instituto de Aeronáutica e Espaço" "url" "https://www.fab.mil.br/iae/")
+        (dict "sigla" "INPE" "nome" "Instituto Nacional de Pesquisas Espaciais" "url" "https://www.inpe.br/")
+        (dict "sigla" "ESA" "nome" "European Space Agency" "url" "https://www.esa.int/")
+        (dict "sigla" "NASA" "nome" "National Aeronautics and Space Administration" "url" "https://www.nasa.gov/")
+        (dict "sigla" "FAB" "nome" "Força Aérea Brasileira" "url" "https://www.fab.mil.br/")
+      }}
+      {{ range $parceiros }}
+        <a href="{{ .url }}" target="_blank" rel="noopener"
+           class="flex flex-col items-center justify-center p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow border border-gray-200 text-center group">
+          <span class="text-2xl font-bold text-indigo-700 group-hover:text-indigo-900 mb-1">{{ .sigla }}</span>
+          <span class="text-xs text-gray-500">{{ .nome }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+
+</div>
+{{ end }}

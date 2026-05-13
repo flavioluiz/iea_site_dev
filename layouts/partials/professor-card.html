@@ -1,0 +1,67 @@
+{{/* Professor Card Partial */}}
+{{ $prof := .professor }}
+{{ $page := .page }}
+{{ $profId := $prof.id }}
+
+<div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200">
+  <a href="/{{ $page.Language.Lang }}/docentes/{{ $profId }}/" class="block">
+    {{/* Photo Section */}}
+    <div class="relative bg-gradient-to-br from-gray-100 to-gray-200 aspect-square">
+      {{ $photoPath := printf "/images/professores/%s" $prof.foto }}
+      {{ if (fileExists (printf "static%s" $photoPath)) }}
+        <img src="{{ $photoPath }}"
+             alt="{{ $prof.nome }}"
+             class="w-full h-full object-cover">
+      {{ else }}
+        {{/* Placeholder with initials */}}
+        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br
+                    {{ if eq $prof.area "eam1" }}from-blue-500 to-blue-700
+                    {{ else if eq $prof.area "eam2" }}from-red-500 to-red-700
+                    {{ else }}from-green-500 to-green-700{{ end }}">
+          <span class="text-white text-6xl font-bold">
+            {{ substr $prof.nome_destaque 0 1 }}
+          </span>
+        </div>
+      {{ end }}
+    </div>
+
+    {{/* Info Section */}}
+    <div class="p-5">
+      {{/* Name */}}
+      <h3 class="text-lg font-bold text-gray-900 mb-2 line-clamp-2 hover:text-blue-600 transition-colors">
+        {{ $prof.nome }}
+      </h3>
+
+
+      {{/* Research Lines Preview */}}
+      {{ $lines := index $prof.linhas_pesquisa $page.Language.Lang }}
+      {{ if $lines }}
+        <div class="text-xs text-gray-600 mb-3 mt-3">
+          <span class="font-semibold text-gray-700">{{ i18n "research_lines" }}:</span>
+          <ul class="mt-1 space-y-1">
+            {{ range first 2 $lines }}
+              <li class="flex items-start">
+                <span class="text-blue-500 mr-1">•</span>
+                <span class="line-clamp-1">{{ . }}</span>
+              </li>
+            {{ end }}
+            {{ if gt (len $lines) 2 }}
+              <li class="text-gray-500 italic">+ {{ sub (len $lines) 2 }} {{ i18n "more" }}...</li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+
+      {{/* View Profile Button */}}
+      <div class="mt-4">
+        <span class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800 group-hover:underline">
+          {{ i18n "view_profile" }}
+          <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform"
+               fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
