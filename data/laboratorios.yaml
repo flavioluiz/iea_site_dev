@@ -4,7 +4,7 @@ laboratorios:
     sigla: "LAB-ESP"
     nome_pt: "Laboratório de Estruturas Aeroespaciais"
     nome_en: "Aerospace Structures Laboratory"
-    departamento: "alb"
+    departamento: "iea-e"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Estruturas Aeroespaciais (LAB-ESP) sedia prioritariamente atividades de pesquisa
@@ -47,7 +47,7 @@ laboratorios:
     sigla: "LDV"
     nome_pt: "Laboratório de Dinâmica e Vibrações"
     nome_en: "Dynamics and Vibrations Laboratory"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Dinâmica e Vibrações da Divisão de Engenharia Mecânica do ITA foi fundado em 2015.
@@ -82,7 +82,7 @@ laboratorios:
     sigla: "LSCTR"
     nome_pt: "Laboratório de Simulação e Controle de Sistemas Dinâmicos"
     nome_en: "Simulation and Control of Dynamic Systems Laboratory"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Sistemas e Controle em Tempo Real busca atender a uma metodologia mecatrônica
@@ -117,7 +117,7 @@ laboratorios:
     sigla: "LAB-FENG"
     nome_pt: "Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng"
     nome_en: "Prof. Kwei Lien Feng Aeronautical Engineering Laboratory"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng reúne as instalações experimentais
@@ -150,7 +150,7 @@ laboratorios:
     sigla: "LCFT"
     nome_pt: "Laboratório de Computação em Fenômenos de Transporte"
     nome_en: "Computational Transport Phenomena Laboratory"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     descricao_pt: |
       A infraestrutura de informática para suporte à área de Mecânica dos Fluidos e Transferência de
@@ -187,7 +187,7 @@ laboratorios:
     sigla: "LCPE"
     nome_pt: "Laboratório de Combustão, Propulsão e Energia"
     nome_en: "Combustion, Propulsion and Energy Laboratory"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     descricao_pt: |
       Inaugurado em 2008, o Laboratório de Combustão, Propulsão e Energia (LCPE) foi criado com o
@@ -220,7 +220,7 @@ laboratorios:
     sigla: "LTM"
     nome_pt: "Laboratório de Turbomáquinas"
     nome_en: "Turbomachinery Laboratory"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Turbomáquinas do Departamento de Turbomáquinas possui instalações para ensino
@@ -248,7 +248,7 @@ laboratorios:
     sigla: "LMH"
     nome_pt: "Laboratório de Máquinas Hidráulicas e Cavitação"
     nome_en: "Hydraulic Machines and Cavitation Laboratory"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Máquinas Hidráulicas possui bancadas de turbinas hidráulicas dos tipos Pelton,
@@ -282,7 +282,7 @@ laboratorios:
     sigla: "CCM"
     nome_pt: "Centro de Competência em Manufatura"
     nome_en: "Manufacturing Competence Center"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     descricao_pt: |
       O Centro de Competência em Manufatura do ITA (CCM/ITA) é um ambiente de ensino e pesquisa do
@@ -323,7 +323,7 @@ laboratorios:
     sigla: "LPM/LACAM"
     nome_pt: "Laboratórios de Processamento e Caracterização de Materiais"
     nome_en: "Materials Processing and Characterization Laboratories"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     descricao_pt: |
       Na área de materiais, existem dois laboratórios multiusuários: os Laboratórios de Processamento
@@ -359,7 +359,7 @@ laboratorios:
     sigla: "LETA"
     nome_pt: "Laboratório de Engenharia Térmica Aplicada"
     nome_en: "Applied Thermal Engineering Laboratory"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Engenharia Térmica Aplicada (LETA) foi formalmente criado em 2022, realizando
@@ -387,7 +387,7 @@ laboratorios:
     sigla: "LPP"
     nome_pt: "Laboratório de Plasmas e Processos"
     nome_en: "Plasmas and Processes Laboratory"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Plasmas e Processos (LPP) do Instituto Tecnológico de Aeronáutica vem se
@@ -419,7 +419,7 @@ laboratorios:
     sigla: "CDPA"
     nome_pt: "Centro de Desenvolvimento de Projetos Aeronáuticos"
     nome_en: "Aeronautical Projects Development Center"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Centro de Desenvolvimento de Projetos Aeronáuticos (CDPA) é dedicado ao desenvolvimento de
@@ -450,7 +450,7 @@ laboratorios:
     sigla: "LNCA"
     nome_pt: "Laboratório de Novos Conceitos Aeronáuticos"
     nome_en: "New Aeronautical Concepts Laboratory"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Novos Conceitos Aeronáuticos é um laboratório transversal do ITA, desenvolvido
@@ -484,7 +484,7 @@ laboratorios:
     sigla: "LASCA"
     nome_pt: "Laboratório Avançado de Simulação Computacional em Aerodinâmica"
     nome_en: "Advanced Computational Simulation Laboratory in Aerodynamics"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório Avançado de Simulação Computacional em Aerodinâmica (LASCA) possui atualmente
@@ -521,7 +521,7 @@ laboratorios:
     sigla: "LQT"
     nome_pt: "Laboratório de Química Teórica"
     nome_en: "Theoretical Chemistry Laboratory"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     descricao_pt: |
       O Laboratório de Química Teórica possui cluster de computadores, nobreak e códigos computacionais

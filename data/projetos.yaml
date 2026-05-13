@@ -3,7 +3,7 @@ projetos:
     id: "cpe-flymov"
     titulo_pt: "CPE - Centro de Pesquisa em Engenharia para Mobilidade Aérea do Futuro"
     titulo_en: "CPE - Research Center in Engineering for Future Air Mobility"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "FAPESP/EMBRAER"
     valor: 6235967.37
@@ -25,7 +25,7 @@ projetos:
     id: "rota-2030-estampagem"
     titulo_pt: "ROTA 2030 - Demonstrador de Estampagem de Superfícies Classe A em Alumínio"
     titulo_en: "ROTA 2030 - Class A Aluminum Surface Stamping Demonstrator"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "FUNDEP/ROTA 2030"
     valor: 4847870.38
@@ -45,7 +45,7 @@ projetos:
     id: "fisica-voo-ii"
     titulo_pt: "Estudos Avançados em Física do Voo II"
     titulo_en: "Advanced Studies in Flight Physics II"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "EMBRAER/FINEP"
     valor: 3245000.00
@@ -65,7 +65,7 @@ projetos:
     id: "cteds"
     titulo_pt: "CTEDS - Cooperação Brasil-Suécia em Aeronáutica"
     titulo_en: "CTEDS - Brazil-Sweden Cooperation in Aeronautics"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "FINEP"
     valor: 3950000.00
@@ -85,7 +85,7 @@ projetos:
     id: "veiculos-eletricos-sefac"
     titulo_pt: "Desenvolvimento de Veículos de Passeio Elétrico a Bateria"
     titulo_en: "Development of Battery Electric Passenger Vehicles"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     financiador: "SEFAC"
     valor: 7500000.00
@@ -105,7 +105,7 @@ projetos:
     id: "monitoramento-compositos"
     titulo_pt: "Sistema de Monitoramento de Reparos em Materiais Compósitos"
     titulo_en: "Composite Materials Repair Monitoring System"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "PETROBRAS"
     valor: 4019517.96
@@ -125,7 +125,7 @@ projetos:
     id: "simulador-exotermico"
     titulo_pt: "Simulador de Reação Exotérmica para Remoção de Coluna"
     titulo_en: "Exothermic Reaction Simulator for Column Removal"
-    departamento: "alc"
+    departamento: "iea-c"
     tema: "aeronautica"
     financiador: "PETROBRAS"
     valor: 5554102.13
@@ -145,7 +145,7 @@ projetos:
     id: "plasma-termico"
     titulo_pt: "Sistema Protótipo de Plasma Térmico para Tratamento de Hidrocarbonetos"
     titulo_en: "Thermal Plasma Prototype System for Hydrocarbon Treatment"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "ENEVA"
     valor: 2878473.15
@@ -165,7 +165,7 @@ projetos:
     id: "capes-print"
     titulo_pt: "CAPES PrInt - Aviação Verde e Mobilidade Sustentável"
     titulo_en: "CAPES PrInt - Green Aviation and Sustainable Mobility"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "CAPES"
     valor: 1890000.00
@@ -185,7 +185,7 @@ projetos:
     id: "asa-composito"
     titulo_pt: "Comportamento Dinâmico de Asa em Compósito em Pós-Flambagem"
     titulo_en: "Dynamic Behavior of Composite Wing in Post-Buckling"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "EMBRAER"
     valor: 1582374.80
@@ -205,7 +205,7 @@ projetos:
     id: "pegasus"
     titulo_pt: "PEGASUS - Metalurgia do Pó para Engrenagens de e-Mobilidade"
     titulo_en: "PEGASUS - Powder Metallurgy for E-Mobility Gears"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "EMBRAPII/EATON/Johnson Electrics"
     valor: 839041.10
@@ -225,7 +225,7 @@ projetos:
     id: "engrenagens-embrapii"
     titulo_pt: "Superacabamento e Engrenagens Aditivas para Mobilidade Elétrica"
     titulo_en: "Superfinishing and Additive Gears for Electric Mobility"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "EMBRAPII/AGCO/EATON"
     valor: 3564880.96
@@ -244,7 +244,7 @@ projetos:
     id: "mera-net"
     titulo_pt: "M-ERA.NET - Estruturas e Junções Compósitas sob Incertezas"
     titulo_en: "M-ERA.NET - Composite Structures and Joints under Uncertainties"
-    departamento: "ala"
+    departamento: "iea-a"
     tema: "aeronautica"
     financiador: "FAPESP/M-ERA.NET"
     valor: 450000.00
@@ -264,7 +264,7 @@ projetos:
     id: "rota-2030-ferramentais"
     titulo_pt: "ROTA 2030 - Competências para Ferramentais de Compósitos"
     titulo_en: "ROTA 2030 - Competencies for Composite Tooling"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "IPT/ROTA 2030"
     valor: 2300000.00
@@ -284,7 +284,7 @@ projetos:
     id: "finep-ame"
     titulo_pt: "AME - Automação da Montagem Estrutural de Aeronaves"
     titulo_en: "AME - Automation of Aircraft Structural Assembly"
-    departamento: "ale"
+    departamento: "iea-e"
     tema: "aeronautica"
     financiador: "FINEP/EMBRAER"
     valor: 5000000.00
