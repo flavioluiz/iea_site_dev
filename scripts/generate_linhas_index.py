@@ -69,6 +69,26 @@ TITLE_TERMS = {
         "libration point", "halo orbit", "swing-by", "flyby",
         "asteroid orbit", "orbital resonance",
     ],
+    "veiculo-lancador": [
+        "launch vehicle", "multistage launch vehicle", "launch vehicle design",
+        "ascent trajectory", "ascent guidance", "launch trajectory",
+        "stage separation", "rocket staging", "staging optimization",
+        "thrust vector control", "VLS", "VLM-1", "VLM1",
+        "nanolaunch", "nano-launcher", "microlauncher", "smallsat launcher",
+        "Brazilian launch vehicle", "satellite launch vehicle",
+        "multistage rocket", "launch vehicle propulsion",
+    ],
+    "operacoes-sistemas-espaciais": [
+        "range safety", "launch operations", "launch site operations",
+        "space surveillance", "space situational awareness",
+        "space debris mitigation", "active debris removal",
+        "ground station", "ground segment", "telemetry tracking and command",
+        "Alcântara", "Alcantara Space Center", "Centro de Lançamento de Alcântara",
+        "space operations", "satellite operations",
+        "concept of operations", "space system lifecycle",
+        "mission operational concept", "multidisciplinary satellite simulator",
+        "life cycle of space systems", "STPA", "space product lifecycle",
+    ],
 }
 
 

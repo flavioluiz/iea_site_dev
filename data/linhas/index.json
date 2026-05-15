@@ -4328,5 +4328,57 @@
         "title": "Optimal design of a high-altitude solar-powered unmanned airplane"
       }
     ]
+  },
+  "veiculo-lancador": {
+    "id": "veiculo-lancador",
+    "total_publicacoes": 3,
+    "total_docentes": 2,
+    "docentes": [
+      "mariano-andres-arbelo",
+      "vinicius-malatesta"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85169547611",
+        "eid": "85169547611",
+        "year": "2023",
+        "title": "Wing’s aerodynamic characteristics due to distributed propulsion over the wingspan"
+      },
+      {
+        "publication_id": "2-s2.0-85159605668",
+        "eid": "85159605668",
+        "year": "2022",
+        "title": "STUDY OF EFFECTS ON THE WING’S AERODYNAMIC CHARACTERISTICS DUE TO DISTRIBUTED PROPULSION OVER WINGSPAN"
+      },
+      {
+        "publication_id": "2-s2.0-85065341604",
+        "eid": "85065341604",
+        "year": "2018",
+        "title": "Analytical, numerical, and experimental predictions for free vibrations and buckling of pressurized orthotropic cylindrical shells"
+      }
+    ]
+  },
+  "operacoes-sistemas-espaciais": {
+    "id": "operacoes-sistemas-espaciais",
+    "total_publicacoes": 2,
+    "total_docentes": 2,
+    "docentes": [
+      "maisa-de-oliveira-terra",
+      "willer-gomes-dos-santos"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85076561248",
+        "eid": "85076561248",
+        "year": "2019",
+        "title": "Extending Geostationary Orbit Missions for Lunar Observations"
+      },
+      {
+        "publication_id": "2-s2.0-85059073269",
+        "eid": "85059073269",
+        "year": "2019",
+        "title": "Modeling and design of a multidisciplinary simulator of the concept of operations for space mission pre-phase A studies"
+      }
+    ]
   }
 }
