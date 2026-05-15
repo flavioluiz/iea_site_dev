@@ -21,8 +21,8 @@
 {{ $supervisionCount := 0 }}
 {{ $mestradoCount := 0 }}
 {{ $doutoradoCount := 0 }}
-{{ if .Site.Data.teses }}
-  {{ $byProfessor := .Site.Data.teses.by_professor }}
+{{ if .Site.Data.bdita.teses }}
+  {{ $byProfessor := .Site.Data.bdita.teses.by_professor }}
   {{ $profSupervisions = index $byProfessor $professorId }}
   {{ if $profSupervisions }}
     {{ $asAdvisor := $profSupervisions.as_advisor }}
@@ -387,13 +387,13 @@
       {{/* Combine and sort all supervisions by year (most recent first) */}}
       {{ $allSupervisions := slice }}
       {{ range $asAdvisor }}
-        {{ $thesisData := index $.Site.Data.teses.by_id . }}
+        {{ $thesisData := index $.Site.Data.bdita.teses.by_id . }}
         {{ if $thesisData }}
           {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "advisor" "year" $thesisData.year) }}
         {{ end }}
       {{ end }}
       {{ range $asCoadvisor }}
-        {{ $thesisData := index $.Site.Data.teses.by_id . }}
+        {{ $thesisData := index $.Site.Data.bdita.teses.by_id . }}
         {{ if $thesisData }}
           {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "coadvisor" "year" $thesisData.year) }}
         {{ end }}

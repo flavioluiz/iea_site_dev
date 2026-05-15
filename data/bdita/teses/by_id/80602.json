@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Flávio Luiz Cardoso Ribeiro",
-      "professor_slug": null
+      "professor_slug": "flavio-luiz-c-ribeiro"
     }
   ],
   "abstract": "The present study proposes a combination of active and passive controllers to increase the flutter speed in a bar. The case study considers an aluminum bar with a tip mass in a simple clamped-free configuration. The passive controller is based on a multimodal shunt circuit that acts by damping the vertical deflection of the beam, extracting mechanical energy, converting it into electrical energy, and dissipating it into a circuit. The circuit elements are optimized to enhance the flutter speed. An active controller based on a piezoelectric actuator subjected to electrical voltage is proposed, employing two techniques to design the control loop via a Linear Quadratic Regulator. Finally, the initial flutter speed and the modified flutter speed resulting from the controller are compared to highlight the effectiveness of each applied method, achieving significant increases of 30% in flutter speed for the passive controller case, 192% in the case of the passive controller combined with the first active control method, and a scenario where flutter speed is not reached in the case of the passive controller with the second active control method.",

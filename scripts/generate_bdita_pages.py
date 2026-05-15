@@ -62,6 +62,7 @@ PREPOSITIONS = {"de", "da", "do", "dos", "das", "e"}
 def normalize(name: str) -> str:
     n = unicodedata.normalize("NFKD", name)
     n = "".join(c for c in n if not unicodedata.combining(c))
+    n = n.replace("-", " ")  # treat hyphens as spaces (e.g. Cardoso-Ribeiro == Cardoso Ribeiro)
     return re.sub(r"\s+", " ", n.lower().strip())
 
 
