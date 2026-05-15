@@ -3,7 +3,7 @@ title: "Courses"
 description: "Courses offered by the graduate programs of the Division of Aeronautical and Aerospace Engineering"
 ---
 
-The Division of Aeronautical and Aerospace Engineering (IEA) offers courses in the PG-EAM and PG-CEA graduate programs. Students may also take courses from other *stricto sensu* programs at ITA.
+The Division of Aeronautical and Aerospace Engineering (IEA) offers courses in the PG-EAM and PG-CTE graduate programs. Students may also take courses from other *stricto sensu* programs at ITA.
 
 > **Note:** Some courses may be taught in English, depending on demand and availability.
 

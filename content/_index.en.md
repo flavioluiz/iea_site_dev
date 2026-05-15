@@ -45,7 +45,7 @@ Space propulsion, launch vehicles, satellites, CubeSats, GNC (Guidance, Navigati
 The Division hosts two graduate programs:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Aeronautical and Mechanical Engineering (CAPES grade 6)
-- **[PG-CEA](https://www.ita.br/posgraduacao)** — Space Sciences and Engineering
+- **[PG-CTE](https://www.ita.br/posgraduacao)** — Space Sciences and Technologies
 
 ---
 

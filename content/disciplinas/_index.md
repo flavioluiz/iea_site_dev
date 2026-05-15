@@ -3,7 +3,7 @@ title: "Disciplinas"
 description: "Disciplinas oferecidas pelos programas de pós-graduação da Divisão de Engenharia Aeronáutica e Aeroespacial"
 ---
 
-A Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) oferece disciplinas nos programas de pós-graduação PG-EAM e PG-CEA. Os alunos também podem cursar disciplinas dos demais programas *stricto sensu* do ITA.
+A Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) oferece disciplinas nos programas de pós-graduação PG-EAM e PG-CTE. Os alunos também podem cursar disciplinas dos demais programas *stricto sensu* do ITA.
 
 > **Nota:** Algumas disciplinas podem ser ministradas em inglês, conforme demanda e disponibilidade.
 

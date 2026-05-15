@@ -217,18 +217,18 @@
       {{ end }}
     </p>
     <div class="flex flex-wrap justify-center gap-4">
-      <a href="https://www.ita.br/posgraduacao/pgeam" target="_blank" rel="noopener"
+      <a href="{{ relLangURL "/posgraduacao/" }}"
          class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
         PG-EAM
         <span class="text-blue-200 text-sm ml-1">
           {{ if eq .Site.Language.Lang "pt" }}(Nota CAPES 6){{ else }}(CAPES Grade 6){{ end }}
         </span>
       </a>
-      <a href="https://www.ita.br/posgraduacao" target="_blank" rel="noopener"
+      <a href="{{ relLangURL "/posgraduacao/" }}"
          class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
-        PG-CEA
+        PG-CTE
         <span class="text-indigo-200 text-sm ml-1">
-          {{ if eq .Site.Language.Lang "pt" }}Ciências e Eng. Espaciais{{ else }}Space Sciences & Eng.{{ end }}
+          {{ if eq .Site.Language.Lang "pt" }}Ciências e Tec. Espaciais{{ else }}Space Sciences & Tech.{{ end }}
         </span>
       </a>
     </div>

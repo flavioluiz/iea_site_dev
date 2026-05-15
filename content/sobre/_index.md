@@ -55,7 +55,7 @@ A Divisão dispõe de mais de **15 laboratórios** equipados com tecnologia de p
 A divisão abriga dois programas de pós-graduação:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Engenharia Aeronáutica e Mecânica (nota CAPES 6)
-- **[PG-CEA](https://www.ita.br/posgraduacao)** — Ciências e Engenharia Espaciais
+- **[PG-CTE](https://www.ita.br/posgraduacao)** — Ciências e Tecnologias Espaciais
 
 ---
 
