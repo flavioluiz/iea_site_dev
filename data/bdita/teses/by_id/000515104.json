@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Cláudia Regina de Andrade",
-      "professor_slug": null
+      "professor_slug": "claudia-regina-andrade"
     }
   ],
   "abstract": "The intent of this work is to analyse by means of numerical experiments the characteristics in terms of performance when the penalty method and the pressure Poisson equation formulation are combined to solve convective problems. Besides that, the penalty method and the pressure Poisson equation formulation are applied independently and compared with the coupled formulation. The three methodologies have been applied on four numerical examples: natural convection in a square cavity with Boussinesq and non-Boussinesq hypothesis, forced convection in a square cavity and flow over a backward step. The attention has been focused on the CPU time consumption, mass conservation and solution's accuracy in comparison with benchmark results. The coupled formulation has shown to be efficient for three problems studied, while the pressure Poisson equation formulation has shown convergence problems for the backward facing step flow. For the penalty method applied on the natural convection problem, the solution has diverged for both, Boussinesq and non-Boussinesq approaches. It has been verified that the penalty parameter affects much more the solution than the pressure weight. The CPU time curve against the penalty parameter variation has shown to have bathtub curve comportment, while the mass conservation error is significantly reduced as the penalty parameter is increased. However, for high penalty parameter values spurious solutions have been found. Additionally to mass conservation error, it is necessary to define an error criterion to check the reliability of the solution.",
