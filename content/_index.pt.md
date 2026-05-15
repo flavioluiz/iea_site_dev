@@ -45,7 +45,7 @@ Propulsão espacial, veículos lançadores, satélites, CubeSats, GNC (Guiagem, 
 A Divisão abriga dois programas de pós-graduação:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Engenharia Aeronáutica e Mecânica (nota CAPES 6)
-- **[PG-CEA](https://www.ita.br/posgraduacao/pgcea)** — Ciências e Engenharia Espaciais
+- **[PG-CEA](https://www.ita.br/posgraduacao)** — Ciências e Engenharia Espaciais
 
 ---
 

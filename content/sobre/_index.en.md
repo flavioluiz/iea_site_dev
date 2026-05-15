@@ -55,7 +55,7 @@ The Division has more than **15 laboratories** equipped with state-of-the-art te
 The division hosts two graduate programs:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Aeronautical and Mechanical Engineering (CAPES grade 6)
-- **[PG-CEA](https://www.ita.br/posgraduacao/pgcea)** — Space Sciences and Engineering
+- **[PG-CEA](https://www.ita.br/posgraduacao)** — Space Sciences and Engineering
 
 ---
 
