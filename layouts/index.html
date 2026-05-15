@@ -39,7 +39,7 @@
            class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
           {{ if eq .Site.Language.Lang "pt" }}Nosso Pessoal{{ else }}Our People{{ end }}
         </a>
-        <a href="{{ relLangURL "/pesquisa/" }}"
+        <a href="{{ relLangURL "/linhas/" }}"
            class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-500 transition-colors border-2 border-white">
           {{ if eq .Site.Language.Lang "pt" }}Pesquisa{{ else }}Research{{ end }}
         </a>
@@ -181,14 +181,15 @@
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
     {{ range $id, $linha := $linhas }}
-      <div class="bg-white rounded-lg shadow-md p-5 border-l-4 hover:shadow-lg transition-shadow" style="border-color: {{ $linha.cor }}">
-        <h3 class="font-semibold text-gray-900 mb-2 text-sm">
+      <a href="{{ printf "/linhas/%s/" $id | relLangURL }}"
+         class="block bg-white rounded-lg shadow-md p-5 border-l-4 hover:shadow-lg hover:scale-[1.02] transition-all" style="border-color: {{ $linha.cor }}">
+        <h3 class="font-semibold text-gray-900 mb-2 text-sm group-hover:text-blue-600">
           {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.nome_pt }}{{ else }}{{ $linha.nome_en }}{{ end }}
         </h3>
         <p class="text-xs text-gray-500">
           {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.descricao_pt | truncate 100 }}{{ else }}{{ $linha.descricao_en | truncate 100 }}{{ end }}
         </p>
-      </div>
+      </a>
     {{ end }}
   </div>
   <div class="text-center mt-6">

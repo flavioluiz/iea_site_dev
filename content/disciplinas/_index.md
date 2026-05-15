@@ -1,9 +1,9 @@
 ---
 title: "Disciplinas"
-description: "Disciplinas oferecidas pelo Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica"
+description: "Disciplinas oferecidas pelos programas de pós-graduação da Divisão de Engenharia Aeronáutica e Aeroespacial"
 ---
 
-O Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica oferece uma ampla gama de disciplinas organizadas em três áreas de concentração. Além das disciplinas oferecidas pelo PG-EAM, o aluno pode cursar disciplinas dos demais programas stricto sensu do ITA.
+A Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) oferece disciplinas nos programas de pós-graduação PG-EAM e PG-CEA. Os alunos também podem cursar disciplinas dos demais programas *stricto sensu* do ITA.
 
 > **Nota:** Algumas disciplinas podem ser ministradas em inglês, conforme demanda e disponibilidade.
 
@@ -15,11 +15,10 @@ O catálogo completo com ementas, pré-requisitos e demais detalhes das discipli
 Para saber as disciplinas oferecidas em cada semestre letivo, com informações de horários e locais, acesse:
 - 🔗 **[Disciplinas da Pós-Graduação do ITA](http://www.ita.br/posgrad/disciplinas)**
 
-## Disciplinas por Área de Concentração
+## Disciplinas por Departamento
 
-As disciplinas estão organizadas de acordo com as três áreas de concentração do programa. Clique em cada área para ver a lista de disciplinas disponíveis.
+As disciplinas estão organizadas por departamento da divisão:
 
-- [**EAM-1: Projeto Aeronáutico, Estruturas e Sistemas Aeroespaciais**](/disciplinas/eam1)
-- [**EAM-2: Propulsão Aeroespacial e Energia**](/disciplinas/eam2)
-- [**EAM-3: Materiais, Manufatura e Automação**](/disciplinas/eam3)
-
+- [**IEA-A: Aerodinâmica**](/disciplinas/eam1)
+- [**IEA-C: Propulsão**](/disciplinas/eam2)
+- [**IEA-E: Estruturas**](/disciplinas/eam3)
