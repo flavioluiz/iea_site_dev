@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Christopher Shneider Cerqueira",
-      "professor_slug": null
+      "professor_slug": "christopher-shneider-cerqueira"
     }
   ],
   "abstract": "O trabalho tem por finalidade o estudo de caso de um satélite CubeSat, o RaInCube, visando validar um modelo que conecte duas metodologias distintas de engenharia de sistemas, buscando, para isso, extrair suas principais informaçőes técnicas, de forma que seja possível replicar parcial ou completamente sua estrutura funcional e operacional.. O RaInCube é um satélite experimental do tipo CubeSat, satélite miniatura aplicado em pesquisas espaciais, que foi desenvolvido pelo Jet Propulsion Laboratory(JPL), um laboratório de pesquisa da NASA, em 2018. Esse protótipo teve por finalidade a validaçăo de novas tecnologias que pudessem expandir a aplicabilidade de radares em pequenos satélites, com aplicaçőes meteorológicas. A aplicaçăo de radares meteorológicos em satélites do tipo CubeSat se mostrou potencialmente atraente porque esse tipo de sat ?elite tem custo e complexidade consideravelmente menores em relaçăo a modelos tradicionais.A engenharia de sistemas do RainCube foi desenvolvida com a teoria de Wertz, a metodologia Arcadia e depois aplicada com a ferramenta Capella. Foi realizada uma integraçăo entre a teoria SMAD e a metodologia Arcadia, que permitiu a implementaçăo na ferramenta Capella, pois esta é baseada em Arcadia. Os resultados obtidos em Capella poderăo ser utilizados como referęncia para modelagem de engenharia de sistemas de futuros projetos aeroespaciais desenvolvidos pelo CEI, Centro Espacial do ITA.",

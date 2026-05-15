@@ -182,13 +182,6 @@
     {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
     {{ range $id, $linha := $linhas }}
       <div class="bg-white rounded-lg shadow-md p-5 border-l-4 hover:shadow-lg transition-shadow" style="border-color: {{ $linha.cor }}">
-        <div class="flex items-center gap-2 mb-2">
-          <span class="text-xs font-bold px-2 py-0.5 rounded text-white"
-                style="background-color: {{ $linha.cor }}">
-            {{ if eq $linha.tema "espacial" }}🛸{{ else }}✈️{{ end }}
-            {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.tema | title }}{{ else }}{{ $linha.tema | title }}{{ end }}
-          </span>
-        </div>
         <h3 class="font-semibold text-gray-900 mb-2 text-sm">
           {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.nome_pt }}{{ else }}{{ $linha.nome_en }}{{ end }}
         </h3>

@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Christopher Shneider Cerqueira",
-      "professor_slug": null
+      "professor_slug": "christopher-shneider-cerqueira"
     }
   ],
   "abstract": "O presente trabalho propőe uma arquitetura distribuída para o gerenciamento de tráfego aéreo de drones (UTM - Unmanned Traffic Management), com foco em operaçőes abaixo de 400 pés (aproximadamente 120 metros) em espaço aéreo de baixa altitude. A motivaçăo central é atender ŕ crescente demanda por voos năo tripulados, garantindo segurança, eficięncia e integraçăo com o ecossistema aeronáutico nacional. A metodologia baseia-se na modelagem de um sistema modular composto por operadores, provedores de serviço e autoridade aeronáutica simulada, que interagem por meio do protocolo MQTT e banco de dados PostgreSQL/PostGIS. O sistema realiza verificaçőes automáticas e hierárquicas, compreendendo análises estáticas, resoluçăo de conflito espacial e temporal, com aplicaçăo de buffers, segmentaçăo de rotas 4D e simulaçăo de Priority Volume Reservation (PVR). Foram conduzidos dez cenários de simulaçăo para avaliar o desempenho da arquitetura, abrangendo casos de rotas fora do limite de controle, áreas restritas, reservas ativas e múltiplas missőes simultâneas. Os resultados confirmaram que o sistema é capaz de detectar conflitos, ajustar rotas e reagendar janelas temporais automaticamente, reproduzindo a lógica de um ambiente UTM federado e escalável. Conclui-se que a arquitetura proposta representa um passo significativo rumo ŕ implementaçăo de um UTM nacional compatível com as diretrizes do DECEA e da FAA, promovendo um modelo de cooperaçăo, interoperabilidade e segurança operacional para integraçăo de drones no espaço aéreo brasileiro.",
