@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85169547611",
+  "eid": "2-s2.0-85169547611",
+  "doi": "10.1007/s40430-023-04413-5",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Wing’s aerodynamic characteristics due to distributed propulsion over the wingspan",
+  "abstract": "© 2023, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.Distributed propulsion (DP) is not a new concept but recent advances in electric motors and batteries, along with the need for more environmentally friendly products, brought this concept back to the spotlight. This paper addresses two types of DP: wingtip-mounted propellers and distributed propellers along the wingspan. The benchmark of the analysis is NASA’s X-57 “Maxwell” demonstrator. Another goal of this paper is to evaluate how good is the VSPAERO code to modeling aerodynamic flows, from a simple case of the isolated wing to a more complex 14 rotors case. The overall results show that VSPAERO provides consistent estimations for most cases scenarios, becoming a powerful tool for the pre-design of aircraft with distributed propulsion.",
+  "authkeywords": [
+    "Distributed-propulsion",
+    "High-lift propellers",
+    "VLM",
+    "VSPAERO"
+  ],
+  "year": "2023",
+  "date": "2023-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "45",
+    "issue": "9",
+    "pages": null,
+    "article_number": "495"
+  },
+  "authors": [
+    {
+      "name": "Resende, Gustavo Jorge",
+      "scopus_id": "57230339500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinicius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Savio, Marcos César",
+      "scopus_id": "57415010900",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Breno Moura",
+      "scopus_id": "58257597700",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85169547611&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.073086",
+    "data_quality_score": 100
+  }
+}

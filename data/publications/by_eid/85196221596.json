@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85196221596",
+  "eid": "2-s2.0-85196221596",
+  "doi": "10.1016/j.apm.2024.06.011",
+  "pii": "S0307904X24002889",
+  "pubmed_id": null,
+  "title": "Analytic solution for two dimensional beam problems: Pure displacement boundary conditions",
+  "abstract": "© 2024 Elsevier Inc.The present manuscript delineates the derivation of strong solutions for the linear elasticity problem in a two dimensional rectangular beam. The materials under consideration can exhibit either isotropic or orthotropic properties. Additionally, the analysis is not restricted to slender beams because the ratio between the length and the height of the beam can be arbitrary. The boundary conditions fall into the Dirichlet category, implying that both horizontal and vertical displacements are specified on all four surfaces. The sole requirement is that these surface displacements are continuous functions, although they may not necessarily be smooth. Since the displacements at the surfaces can be arbitrary, there is no need to consider approximations, such as those concerning local (small) boundaries in slender beams. Nonetheless, it is demonstrated that an equivalent principle to the Saint-Venant principle exists for pure displacement boundary conditions. The partial differential equations are solved through the separation of variables method, leading to the identification of two solution types, encompassing both cosine and sine Fourier series. Particular emphasis is placed on evaluating the convergence of these solutions. For two distinct and general examples, it is confirmed that the solutions indeed exist.",
+  "authkeywords": [
+    "Analytic solutions",
+    "Beam",
+    "Two dimensions"
+  ],
+  "year": "2024",
+  "date": "2024-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Mathematical Modelling",
+    "issn": "0307904X",
+    "eissn": null,
+    "volume": "134",
+    "issue": null,
+    "pages": "349-391",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Baier-Saip, J. A.",
+      "scopus_id": "8521896400",
+      "affiliation": "60009462",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Baier, P. A.",
+      "scopus_id": "55550540000",
+      "affiliation": "60111728",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Baier, H.",
+      "scopus_id": "7007107059",
+      "affiliation": "60012689",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85196221596&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044128",
+    "data_quality_score": 90
+  }
+}

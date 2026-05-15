@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85035811827",
+  "eid": "2-s2.0-85035811827",
+  "doi": "10.1016/j.finel.2017.11.004",
+  "pii": "S0168874X16301238",
+  "pubmed_id": null,
+  "title": "Three-dimensional hybrid-mixed stress elements for free vibration analysis",
+  "abstract": "© 2017 Elsevier B.V.Hexahedral hybrid-mixed finite elements are proposed for free vibration analysis of three-dimensional solids. The element formulation relies on the simultaneous and independent approximations of stress and displacement in the element domain as well as the displacement on their boundary. Sets of complete and linearly independent non-nodal Legendre polynomials used for the field variables lead to symmetric, highly sparse and well conditioned solving systems. Numerical tests show that the elements yield accurate results, even in the presence of high stress gradients, and they seem to be free of shear and volumetric locking and have low sensitivity to mesh distortion. The hierarchical p-refinement strategy is exploited.",
+  "authkeywords": [
+    "Free vibration",
+    "Hexahedral element",
+    "Hybrid-mixed element",
+    "p-refinement"
+  ],
+  "year": "2018",
+  "date": "2018-02-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Finite Elements in Analysis and Design",
+    "issn": "0168874X",
+    "eissn": null,
+    "volume": "140",
+    "issue": null,
+    "pages": "50-58",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bussamra, F. L.S.",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Lucena Neto, E.",
+      "scopus_id": "6505611114",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso, F. R.",
+      "scopus_id": "57197874452",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Graphics and Computer-Aided Design",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85035811827&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047313",
+    "data_quality_score": 100
+  }
+}

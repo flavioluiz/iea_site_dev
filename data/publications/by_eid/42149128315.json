@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-42149128315",
+  "eid": "2-s2.0-42149128315",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Prebuckling enhancement of beams and plates under uncertain loadings and arbitrary initial imperfections",
+  "abstract": "Crooked beams and plates with arbitrary initial geometric imperfections are optimized in order to improve their prebuckling response in the presence of uncertain loadings. A novel optimization approach is presented to simultaneously handle the two types of uncertainties: arbitrary initial imperfection patterns and arbitrary loadings. A remarkable improvement in the prebuckling response of optimal designs is achieved by reducing the level of prebuckling displacements measured in some appropriate norm, irrespective of the uncertain imperfection pattern or loading. Two different norms are proposed, each one applicable to the beam or to the plate problem. The definitions of appropriate norms allow for the use of a minimax optimization approach that can consider the arbitrariness of both geometric imperfections and loadings. It is shown that the minimax procedure leads to optimum structural designs, in terms of optimal stiffness distribution, that are at the same time insensitive to perturbations in the loading space and to the pattern of initial imperfections in structure. Copyright © 2007 by ABCM.",
+  "authkeywords": [
+    "Convex modeling",
+    "Optimization",
+    "Uncertainty"
+  ],
+  "year": "2007",
+  "date": "2007-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "29",
+    "issue": "4",
+    "pages": "388-395",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=42149128315&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044603",
+    "data_quality_score": 80
+  }
+}

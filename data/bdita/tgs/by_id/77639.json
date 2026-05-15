@@ -1,0 +1,31 @@
+{
+  "num_tg": "77639",
+  "type": "tg",
+  "title": "Análise de falha em casca cilíndrica de materiais compósitos manufaturados via bobinagem filamentar",
+  "author": "Bruna Caroline Pimentel Gonçalves",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcelo Silveira Pereira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho analisa computacionalmente a falha estrutural em cascas cilíndricas de material compósito, manufaturadas via bobinagem filamentar, submetidas ŕ esforços axiais de compressăo e ŕ pressăo interna. A modelagem do problema foi constituída a partir do Método dos Elementos Finitos, de modo a possibilitar o estudo das distribuiçőes de tensăo, de deformaçăo e de deslocamento por toda a extensăo da peça. Ressalta-se que além dos efeitos puramente mecânicos, o modelo considera efeitos termoquímicos residuais do mecanismo de cura da resina que foram acumulados ao longo do processo de fabricaçăo. O objetivo desse projeto é agregar capacidade tática ao Instituto de Aeronáutica e Espaço (IAE) para a análise de envelopes motores de veículos aeroespaciais. Nessa perspectiva, tendo em vista verificar a funcionalidade da ferramenta proposta, elaboram-se analises comparativas entre resultados obtidos pelo algoritmo desenvolvido e dados de ensaios, realizados pelo IAE em parceira com a Avibras.",
+  "subjects": [
+    "Cascas cilíndricas",
+    "Método de elementos finitos",
+    "Materiais compósitos",
+    "Bobinagem filamentar",
+    "Estruturas",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77639",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77639&origem=BDITA"
+}

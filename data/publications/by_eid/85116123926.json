@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85116123926",
+  "eid": "2-s2.0-85116123926",
+  "doi": "10.1017/jfm.2021.764",
+  "pii": "S0022112021007643",
+  "pubmed_id": null,
+  "title": "Resolvent-based estimation of turbulent channel flow using wall measurements",
+  "abstract": "© Authors 2021We employ a resolvent-based methodology to estimate velocity and pressure fluctuations within turbulent channel flows at friction Reynolds numbers of approximately 180, 550 and 1000 using measurements of shear stress and pressure at the walls, taken from direct numerical simulation (DNS) databases. Martini et al. (J. Fluid Mech., vol. 900, 2021, p. A2) showed that the resolvent-based estimator is optimal when the true space-Time forcing statistics are utilised, thus providing an upper bound for the accuracy of any linear estimator. We use this framework to determine the flow structures that can be linearly estimated from wall measurements, and we characterise these structures and the estimation errors in both physical and wavenumber space. We also compare these results to those obtained using approximate forcing models-an eddy-viscosity model and white-noise forcing-and demonstrate the significant benefit of using true forcing statistics. All models lead to accurate results up to the buffer layer, but only using the true forcing statistics allows accurate estimation of large-scale logarithmic-layer structures, with significant correlation between the estimates and DNS results throughout the channel. The eddy-viscosity model displays an intermediate behaviour, which may be related to its ability to partially capture the forcing colour. Our results show that structures that leave a footprint on the channel walls can be accurately estimated using the linear resolvent-based methodology, and the presence of large-scale wall-Attached structures enables accurate estimations through the logarithmic layer.",
+  "authkeywords": [
+    "channel flow"
+  ],
+  "year": "2021",
+  "date": "2021-11-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "927",
+    "issue": null,
+    "pages": null,
+    "article_number": "A17"
+  },
+  "authors": [
+    {
+      "name": "Amaral, Filipe R.",
+      "scopus_id": "57188717193",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 34,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85116123926&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100742",
+    "data_quality_score": 100
+  }
+}

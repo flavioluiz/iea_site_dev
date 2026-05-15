@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-84959272900",
+  "eid": "2-s2.0-84959272900",
+  "doi": "10.3233/978-1-61499-544-9-71",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Kinematic model of project scheduling with resource constrained under uncertainties",
+  "abstract": "© 2015 The authors and IOS Press.Projects represent the principal means of materialization of products. The inherent complexity of product projects is treated through the techniques and approaches project management. Throughout products life cycle the techniques and approaches project management are mainly involved in the planning, programming and control of project activities conducted in context of resource constrained under uncertainties. In addition of scenarios the complexity of the projects, there are some classes of products, typical of industries of the defense, aerospace, telecommunication, software, and biomedicine, which are problematic for current methods of resource constrained project planning and scheduling under uncertainty. The existing methods fail because they suffer from one or more of the following limitations: focused mainly on the basic RCPSP (Resource Constrained Project Scheduling Problem) model; dealing with only one source of uncertainty, mostly in duration of activities; and do not model uncertainties. This paper presents the kinematic model of projects scheduling which considering the inherent restrictions in nature of the projects: precedence among project activities; uncertainties of the duration of project activities; and uncertainties in availability of resources for execution of project activities. The kinematic model of projects scheduling provides a graph and mathematical model with the advantages: estimation of the project duration and resources due to uncertainties; estimation of the uncertainties due to project duration and resources; improvement of the outcomes of planning and scheduling of project activities; and assists the dynamics of projects providing information for collaboration policy of the durations and resources between project activities and between different projects. This article describes the Resource Constrained Project Scheduling Problem under uncertainties, discuss previous work on planning under uncertainty, and presentation of the kinematic model of projects scheduling with resource constrained under uncertainties along with a small example of implementation.",
+  "authkeywords": [
+    "Kinematic model",
+    "Product project",
+    "Project management",
+    "Project scheduling",
+    "Resource constrained under uncertainties"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Advances in Transdisciplinary Engineering",
+    "issn": "2352751X",
+    "eissn": "23527528",
+    "volume": "2",
+    "issue": null,
+    "pages": "71-80",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Garbi, Giuliani Paulineli",
+      "scopus_id": "55504070100",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Loureiro, Geilson",
+      "scopus_id": "6506312634",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "De Freitas Chagas, Milton",
+      "scopus_id": "57235453400",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Algebra and Number Theory",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Strategy and Management",
+        "abbrev": "BUSI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84959272900&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125322",
+    "data_quality_score": 100
+  }
+}

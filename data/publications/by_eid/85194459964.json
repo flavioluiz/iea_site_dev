@@ -1,0 +1,213 @@
+{
+  "publication_id": "2-s2.0-85194459964",
+  "eid": "2-s2.0-85194459964",
+  "doi": "10.2514/6.2024-0419",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Collaborative Pazy Wing Analyses for the Third Aeroelastic Prediction Workshop",
+  "abstract": "© 2024 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.In this paper, collaborative aeroelastic analyses of the Pazy Wing are presented, which support the activities of the Large Deflection Working Group, a sub-group of the 3rd Aeroelastic Prediction Workshop (AePW3). The Pazy Wing is a benchmark for the investigation of nonlinear aeroelastic effects at very large structural deflections. Tip deformations on the order of 50% semi-span were measured in wind tunnel tests at the Technion - Israel Institute of Technology. This feature renders the model highly attractive for the validation of numerical aeroelastic methods for geometrically nonlinear, large deflection analyses. A distinguishing feature of the Pazy Wing is that its flutter speed is a function of the static deformation, and capturing this effect requires a nonlinear aeroelastic framework which allows for stability (flutter) analyses about steady states of large deformations. In particular, the flutter characteristics of the model are dominated by a hump mode which develops due to the coupling of the first torsion and the second out-of-plane bending mode; this hump mode moves towards lower airspeeds as the steady structural deformation increases. Different nonlinear aeroelastic solvers were applied by the authors to obtain static coupling and flutter results for a series of airspeeds and angles of attack. The results reveal that the decisive nonlinear effects were captured very well by the applied methods and computational tools.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech Forum and Exposition 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ritter, Markus",
+      "scopus_id": "55587584000",
+      "affiliation": "131431715",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hilger, Jonathan",
+      "scopus_id": "57221778416",
+      "affiliation": "131431715",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, André F.P.",
+      "scopus_id": "55848623500",
+      "affiliation": "60006288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Öngüt, Emre",
+      "scopus_id": "58262408200",
+      "affiliation": "60107481",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Righi, Marcello",
+      "scopus_id": "55574776600",
+      "affiliation": "60015769",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Riso, Cristina",
+      "scopus_id": "57140790900",
+      "affiliation": "60019647",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Luiz G.P.",
+      "scopus_id": "57222142701",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Raveh, Daniella",
+      "scopus_id": "7006309915",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Drachinsky, Arik",
+      "scopus_id": "56786390700",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Stanford, Bret",
+      "scopus_id": "10244122000",
+      "affiliation": "60022403-60000854",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Chwalowski, Pawel",
+      "scopus_id": "18041641100",
+      "affiliation": "60022403-60000854",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kovvali, Ravi Kumar",
+      "scopus_id": "55257700100",
+      "affiliation": "100551021",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Singh, Beerinder",
+      "scopus_id": "57218582224",
+      "affiliation": "100551021",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Düssler, Stefanie",
+      "scopus_id": "57436484500",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Chi-Wing Cheng, Kelvin",
+      "scopus_id": "59208233600",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Palacios, Rafael",
+      "scopus_id": "35971234700",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, João P.T.P.",
+      "scopus_id": "59208399200",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marques, Flávio D.",
+      "scopus_id": "7102759984",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Begnini, Guilherme R.",
+      "scopus_id": "56418734600",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Verri, Angelo A.",
+      "scopus_id": "57205545553",
+      "affiliation": "131431328",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lima, João F.B.O.",
+      "scopus_id": "59209262200",
+      "affiliation": "131431328",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Melo, Felipe B.C.",
+      "scopus_id": "58243127600",
+      "affiliation": "131431328",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bussamra, Flávio L.S.",
+      "scopus_id": "7801411676",
+      "affiliation": "131431328",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85194459964&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047139",
+    "data_quality_score": 90
+  }
+}

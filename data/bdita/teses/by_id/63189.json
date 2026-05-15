@@ -1,0 +1,36 @@
+{
+  "num_tese": "63189",
+  "type": "tese",
+  "title": "Caracterizaçăo, dinâmica năo linear e modelagem de atuadores com memória de forma para aplicaçőes em aeroservoelasticidade",
+  "author": "Vinícius Piccirillo",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Manoel Balthazar",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta tese apresenta a caracterizaçăo de um atuador com Liga de Memória de Forma (LMF) para a deflexăo e controle de vibraçăo da superfície de controle de uma estrutura aeroelástica levando em conta as propriedades da liga. Para descrever essas propriedades, utilizou-se um modelo constitutivo que é capaz de prever o comportamento da liga sujeita a cargas termomecânicas complexas. Neste contexto, as LMF săo usadas na forma de atuadores que auxiliam no controle ativo da estrutura aeroelástica devido ŕ sua capacidade de variaçăo de amortecimento e rigidez. Neste trabalho descreve-se a modelagem matemática do sistema aeroelástico com o atuador LMF incorporado, levando em conta as forças aerodinâmicas năo estacionárias que săo modeladas seguindo a metodologia de Theodorsen e Wagner. Nos primeiros capítulos desta tese desenvolveu-se um estudo numérico que permite analisar o comportamento estático e dinâmico da estrutura aeroelástica na presença do atuador com memória de forma incorporado na seçăo típica. Em seguida, desenvolveu-se um sistema de controle de posicionamento da superfície de controle baseado na teoria de estrutura variável (CEV), estrutura variável baseada na temperatura (TCEV) e modos deslizantes (SMC). É necessário aos controladores o conhecimento das variáveis de estado, portanto, para a estimaçăo das variáveis de estado do atuador LMF (tensăo mecânica e temperatura) é empregado o filtro de Kalman estendido. Tais estimativas serăo utilizadas no controlador TCEV. Resultados de simulaçăo computacional demonstram a viabilidade do uso de atuadores leves de ligas com memória de forma tanto para controlar o movimento da superfície de controle de uma seçăo típica quanto para a supressăo do fenômeno de flutter.",
+  "subjects": [
+    "Aeroservoelasticidade",
+    "Atuadores",
+    "Ligas de memória de forma",
+    "Asas adaptáveis ŕ missăo",
+    "Vibraçăo aeroelástica",
+    "Superfícies de controle",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/06/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63189",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63189&origem=BDITA"
+}

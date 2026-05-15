@@ -1,0 +1,34 @@
+{
+  "num_tese": "80393",
+  "type": "tese",
+  "title": "Desenvolvimento e ensaios em voo de aeronave em subescala por similaridade dinâmica",
+  "author": "Clécio Fischer",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "Esta tese investiga o uso de aeronaves em subescala como ferramentas para a análise do comportamento dinâmico de aeronaves reais, abordando os desafios, as técnicas e as metodologias associadas ao escalonamento dinâmico. Historicamente, os ensaios em subescala enfrentaram limitaçőes devido ao custo e ao peso dos sistemas eletrônicos embarcados. Contudo, avanços na miniaturizaçăo e nas tecnologias de pilotos automáticos possibilitaram o desenvolvimento de modelos leves, acessíveis e precisos, expandindo as aplicaçőes desses testes. A pesquisa se concentra na aplicaçăo da metodologia M4V (Manobras, Medidas, Modelo, Método e Validaçăo) para obter parâmetros aerodinâmicos e dinâmicos em ensaios de voo livre, com ęnfase na similaridade dinâmica. Para isso, foi desenvolvido um modelo em subescala da aeronave Cessna 177B, testado no Laboratório de Sistemas Aeronáuticos (LSA) do Instituto Tecnológico de Aeronáutica (ITA), utilizando dados de voo da NASA (National Aeronautics and Space Administration) como referęncia para validaçăo. A metodologia incluiu a realizaçăo de ensaios em túnel de vento, mediçőes em voo livre com sistemas embarcados de registro de dados e análises computacionais para correlaçăo dos resultados. Os experimentos foram conduzidos em diferentes condiçőes de teste, tanto em túnel de vento quanto em voo livre, utilizando manobras controladas pelo computador de bordo, o que possibilitou a identificaçăo de parâmetros de estabilidade e controle. Os resultados demonstraram que o modelo em subescala foi capaz de replicar, com boa precisăo, o comportamento de voo da aeronave em escala real, especialmente no que diz respeito ŕs respostas dinâmicas em condiçőes de voo controlado. No entanto, algumas discrepâncias foram observadas devido a limitaçőes inerentes ao escalonamento dinâmico, como o ajuste preciso dos momentos de inércia e as condiçőes de ensaio em voo. Essas limitaçőes foram abordadas com ajustes nas técnicas de escalonamento e na calibraçăo dos sistemas embarcados, resultando em melhorias significativas na precisăo dos dados obtidos. A pesquisa revelou, ainda, que métodos clássicos de identificaçăo de sistemas podem ser eficazes para modelos em subescala, mas exigem adaptaçőes para alcançar maior fidelidade nos resultados. Por fim, a tese contribui para o entendimento e desenvolvimento de metodologias robustas que potencializam o uso de aeronaves em subescala, oferecendo uma abordagem mais econômica e segura para a validaçăo de modelos aeronáuticos.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Ensaios em voo",
+    "Ensaios em túnel de vento",
+    "Controle de aeronaves",
+    "Aquisiçăo de dados",
+    "Controle"
+  ],
+  "defense_date": "12/02/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80393",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80393&origem=BDITA"
+}

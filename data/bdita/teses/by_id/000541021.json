@@ -1,0 +1,30 @@
+{
+  "num_tese": "000541021",
+  "type": "tese",
+  "title": "Modelagem e simulaçăo térmica do processo da pultrusăo.",
+  "author": "Gylles Ricardo Ströher",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A pultrusăo é um processo de manufatura que é usado para fabricaçăo de materiais compósitos de secçăo constante. Este processo consiste de um sistema de tracionamento da fibra por um puxador contínuo, em que os filamentos de fibra săo impregnados em um banho de resina, posteriormente, a fibra impregnada com a resina passa por um molde aquecido, em que neste, as altas temperaturas induzem a ocorręncia de reaçőes químicas exotérmicas, provocando a polimerizaçăo, que é a cura do material compósito. Nos últimos anos a demanda destes materiais tem aumentado bastante nos mais diversos segmentos como na indústria automobilística e aeroespacial uma vez que estes materiais apresentam características importantes como: alta resistęncia ŕ ambientes corrosivos, baixo peso, baixa condutividade elétrica. O processo da pultrusăo pode ser entendido como um problema de difusăo-reaçăo-advecçăo modelado por duas equaçőes diferenciais parciais: energia e grau de cura. Estas equaçőes săo acopladas por um termo fonte proveniente da reaçăo de cinética de cura. Neste trabalho, procurou-se analisar os diferentes modelos (abordagens elíptica e parabólica) existentes para o processo de pultrusăo, a fim de avaliar os fenômenos efetivos deste processo, adicionalmente obteve -se vários resultados no que dizem respeito ŕs condiçőes de operaçăo deste processo com vistas a sua otimizaçăo, como a influęncia da fraçăo de fibra, temperatura da parede do molde, temperatura de entrada no molde, velocidade de traçăo, diâmetro do molde e propriedades térmicas do compósito variáveis com a temperatura e com o grau de cura, procurando quantificar os efeitos destas variáveis. Os resultados revelaram que as modelagens elípticas e parabólicas apresentam previsőes dos perfis de temperatura e grau de cura similares para velocidades de traçăo mais elevada (Pe >70). As variáveis como: fraçăo de fibra e o diâmetro do material pultrudado bem como a temperatura da parede do molde e propriedades térmicas do compósito apresentaram forte influęncia no processo da pultrusăo, ao contrário da temperatura de entrada do molde que, na faixa de condiçőes de operaçăo estudadas, năo apresentou efeito significativo.",
+  "subjects": [
+    "Pultrusăo",
+    "Modelos matemáticos",
+    "Análise térmica",
+    "Simulaçăo",
+    "Método de elementos finitos",
+    "Materiais compósitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/12/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541021",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541021&origem=BDITA"
+}

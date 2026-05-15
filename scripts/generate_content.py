@@ -135,7 +135,7 @@ def main():
     parser.add_argument('--execute', action='store_true',
                         help='Execute the content generation')
     parser.add_argument('--profiles-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Directory containing JSON profile files')
     parser.add_argument('--output-dir', type=str,
                         default='../content/professores',

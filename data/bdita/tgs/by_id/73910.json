@@ -1,0 +1,25 @@
+{
+  "num_tg": "73910",
+  "type": "tg",
+  "title": "Algoritmo de identificaçăo e determinaçăo de atitude para sensor de estrelas aplicável a pequenos satélites",
+  "author": "Pedro Kukulka de Albuquerque",
+  "year": "2017",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Valdemir Carrara",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo de satélites, cada vez menores, exige que alguns componentes passem por miniaturizaçőes de forma a permitir a mesma funcionalidade que as plataformas maiores possuem. Isso ocorre, principalmente, em equipamentos essenciais como os Sensores de Estrela. Assim, neste trabalho foi desenvolvido um algoritmo de identificaçăo estelar e determinaçăo de atitude aplicável a pequenos satélites. Para isso, foi realizado um estudo através dos principais métodos e técnicas existentes na literatura de forma a moldar uma soluçăo para o problema em questăo. Neste sentido, a parte de identificaçăo consiste de dois modos distintos que diferem, basicamente, na necessidade ou năo de informaçăo da atitude e velocidade angular para identificar as estrelas da imagem. Já na determinaçăo de atitude, o método projetado é capaz de absorver ruídos devidos a identificaçőes errôneas e de posicionamento na matriz do sensor óptico. Na sequęncia, essas soluçőes săo testadas, utilizando o software MATLAB, com o objetivo de avaliar se o desempenho apresentado condiz com o âmbito de aplicaçăo.",
+  "subjects": [
+    "Rastreadores de estrelas",
+    "Controle de atitude de satélites",
+    "Instrumentos de mediçăo óptica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73910",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73910&origem=BDITA"
+}

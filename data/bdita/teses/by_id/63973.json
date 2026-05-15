@@ -1,0 +1,35 @@
+{
+  "num_tese": "63973",
+  "type": "tese",
+  "title": "Trajetórias táticas para veículos aéreos năo tripulados : uma abordagem por otimizaçăo multiobjetivo e evoluçăo diferencial",
+  "author": "Diego Geraldo",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mônica Maria De Marchi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neste trabalho, o problema de geraçăo de trajetórias para Veículos Aéreos Năo Tripulados em missőes militares é modelado como um problema de otimizaçăo multiobjetivo que busca obter diferentes relaçőes de compromisso entre comprimento total do percurso e exposiçăo ŕs ameaças de solo (e.g, radares e unidades de defesa antiaérea). A implementaçăo computacional do modelo utiliza-se da Plataforma AEROGRAF, que permite a construçăo de cenários de otimizaçăo e a visualizaçăo dos resultados em ambiente georreferenciado. Ferramentas do campo da Otimizaçăo Evolutiva Multiobjetivo săo utilizadas na abordagem, especificamente, os algoritmos denominados Generalized Differential Evolution 3 (GDE3), e Multiobjective Evolutionary Algorithm based on Decomposition (MOEA/D), que representam dois paradigmas de estruturaçăo algorítmica distintos e vigentes na área. Os desempenhos dos algoritmos săo mensurados e comparados a partir de quatro instâncias do problema, sob diferentes aspectos: esforço computacional, robustez ao ajuste de parâmetros, efetividade em lidar com restriçőes, e indicadores de qualidade. Os resultados experimentais fornecem parâmetros para subsidiar a opçăo por um ou outro método em funçăo do tipo de cenário para o qual as trajetórias serăo geradas. A abordagem multiobjetivo e o uso de ambiente georreferenciado permitem que o decisor tenha conhecimento de diferentes possibilidades antes de fazer a escolha da trajetória mais adequada ao cenário vigente.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Otimizaçăo",
+    "Operaçőes militares",
+    "Defesa aérea",
+    "Robustez (Matemática)",
+    "Engenharia militar",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "23/11/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63973",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63973&origem=BDITA"
+}

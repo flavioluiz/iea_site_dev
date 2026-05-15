@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-84941140204",
+  "eid": "2-s2.0-84941140204",
+  "doi": "10.1109/ICUAS.2015.7152359",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Formation flight control of multirotor helicopters with collision avoidance",
+  "abstract": "© 2015 IEEE.Among the main sub-areas covering the cooperative control problem of Unmanned Aerial Vehicles (UAVs), formation flight has attracted great interest and has been widely investigated. The main purpose of the formation flight control is to establish a desired shape of formation for a group of vehicles by controlling the positions of each vehicle. The present paper deals with the problem of position formation flight control of a group of three multirotor helicopters with collision avoidance. In order to solve the problem, we propose a decentralized scheme based on model predictive controllers (MPC) for formation according to a virtual structure approach. For collision avoidance, a set of convex constraints on the vehicle's positions are included. The proposed method is evaluated on the basis of computational simulations considering that the vehicles are subject to disturbance forces. Simulation results show the effectiveness of the method with primary focus on treatment of anti-collision constraints.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-07-07",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2015 International Conference on Unmanned Aircraft Systems Icuas 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "757-764",
+    "article_number": "7152359"
+  },
+  "authors": [
+    {
+      "name": "Viana, Icaro Bezerra",
+      "scopus_id": "55946242000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Prado, Igor Afonso Acampora",
+      "scopus_id": "56444078500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Davi Antonio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Goes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Transportation",
+        "abbrev": "SOCI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84941140204&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077430",
+    "data_quality_score": 90
+  }
+}

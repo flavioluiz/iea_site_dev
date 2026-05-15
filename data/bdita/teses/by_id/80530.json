@@ -1,0 +1,29 @@
+{
+  "num_tese": "80530",
+  "type": "tese",
+  "title": "Design of lattice-structured gears for vibration attenuation",
+  "author": "Matheus Fernandes Vieira",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The growing demand for improved Noise, Vibration, and Harshness (NVH) performance and reduced weight in electrified gearboxes is driving the adoption of new strategies for gear design. In electric vehicles, the quieter motor operation makes gearbox noise, especially gear whine caused by elastic deflections and manufacturing deviations, more noticeable. Lattice structures, known for their high strength-to-weight ratio and ability to block wave propagation through local resonance mechanisms, have been emerging as a promising solution. Enabled by Additive Manufacturing (AM), they can be engineered to introduce frequency-specific vibration attenuation bands. This study presents a design method for lattice-structured gears oriented to vibration attenuation. The process began with a simplified specimen replicating the gear body's behavior, allowing detailed analysis of the attenuation mechanism. A finite element model was developed to simulate the harmonic response of different lattice geometries under excitation at gear meshing frequencies (GMF) and harmonics. A numerical Design of Experiments (DoE) was conducted to assess the influence of unit cell parameters and to guide experimental validation through experimental modal analysis using a shaker. The most effective lattice designs were fabricated using Laser Powder Bed Fusion (L-PBF) and tested. The numerical results showed strong agreement with the experimental data, validating the capacity of the numerical model in calculating the attenuation behavior. Manufacturing deviations, typical of the L-PBF process, were mapped, and a geometric compensation strategy was applied to ensure better performance of the lattice. Once verified, the lattice developed for the specimen was transferred to the gear body, and the model was adapted accordingly. The final gear design achieved up to 20 dB attenuation over a frequency bandwidth of around 1000 Hz and 35 dB at point frequencies. These findings confirm that lattice structures, when properly designed and manufactured, can significantly reduce vibration transmission. However, manufacturing tolerances must be carefully accounted for during design phase to ensure performance. This study demonstrates the feasibility of using lattices to enhance gear NVH performance and confirms the reliability of numerical models in capturing dynamic behavior. Future work should aim to balance attenuation with structural strength, apply AI techniques to accelerate unit cell design, and perform gear test rig validations to quantify practical benefits.",
+  "subjects": [
+    "Engrenagens",
+    "Vibraçăo",
+    "Controle de vibraçăo",
+    "Análise numérica",
+    "Fadiga (materiais)",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80530",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80530&origem=BDITA"
+}

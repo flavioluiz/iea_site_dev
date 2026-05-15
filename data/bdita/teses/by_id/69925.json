@@ -1,0 +1,28 @@
+{
+  "num_tese": "69925",
+  "type": "tese",
+  "title": "Lateral and directional control law design for business jet employing LQR with adjust of transmission zeros and gain scheduling techniques",
+  "author": "Juliano Augusto de Bonfim Gripp",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents a methodology for roll and yaw control design of an aircraft. This methodology is developed using feedback techniques with stability augmentation, based on best practices of aeronautical industry, and compatible with the fly-by-wire technology. The systematic design follows a configuration with a two-degrees-of-freedom controller, in which the first one is responsible for the stabilization, disturbance rejection and robustness to modeling uncertainty, while the second sets characteristics for the input-to-output system response. Considering a business jet for case study, the following linear design process is performed: plant modeling, identification of requirements, purpose of control structure, linearization of the system in equilibrium points (trimming), feedback gains calculation using a modified version of the Linear Quadratic Regulator (LQR) with adjust of transmission zeros, command path gains calculation, analysis of performance and system robustness. In order for the aircraft to operate at different flight conditions, the parameters of controller are adjusted to each condition using gain scheduling technique. Four different techniques are evaluated with novel applications in order to identify the most appropriate to the case study. Finally, the satisfactory results of linear design are discussed in accordance with criteria for flight controls adopted in industry.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Sistema de controle",
+    "Regulador linear quadrático",
+    "Estabilidade de aeronaves",
+    "Controle"
+  ],
+  "defense_date": "22/12/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69925",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69925&origem=BDITA"
+}

@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85050769509",
+  "eid": "2-s2.0-85050769509",
+  "doi": "10.1007/s40430-018-1322-2",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The virtual commissioning technology applied in the design process of a flexible automation system",
+  "abstract": "© 2018, The Brazilian Society of Mechanical Sciences and Engineering.This paper describes an application of the virtual commissioning technology applied to the design of a robotized manufacturing cell. Virtual commissioning requires the integration of different technologies, such as PLC (programmable logic controller) programming, device communication with OPC (OLE for process control), off-line robot programming, HIL (hardware-in-the-loop), as well as the design of devices and tools using computer-aided design (CAD) applications. Within this application, the virtual commissioning resource evaluates the operation of an assembly line, simulates several processes in a digital environment, tests real equipment and tools and integrates a system that shares the signals of the sensors and actuators with the simulation environment in the computer. The case study described herein compares a conventional design process of a car floor spot welding station to the design approach using virtual commissioning. The robotic welding cell is controlled by a PLC integrated in a simulation environment that uses two industrial robots created in the Process Simulate Robotics application of Siemens Tecnomatix®.",
+  "authkeywords": [
+    "Automation",
+    "PLC",
+    "Robotics",
+    "Simulation",
+    "System integration",
+    "Virtual commissioning"
+  ],
+  "year": "2018",
+  "date": "2018-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "8",
+    "pages": null,
+    "article_number": "396"
+  },
+  "authors": [
+    {
+      "name": "Eguti, Carlos Cesar Aparecido",
+      "scopus_id": "55677356400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85050769509&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125064",
+    "data_quality_score": 100
+  }
+}

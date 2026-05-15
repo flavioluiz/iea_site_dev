@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-85198420467",
+  "eid": "2-s2.0-85198420467",
+  "doi": "10.1088/1742-6596/2647/19/192025",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "System identification in time domain of flexible aircraft using panel methods",
+  "abstract": "© Published under licence by IOP Publishing Ltd.The motivation to accurately model the dynamics of flexible aircraft grew with the development of energy-efficient aircraft, consequently, great aspect ratio aircraft. The development of an accurate model that represents the flight dynamics of a flexible aircraft has been pursued by industry and aeronautical research organizations during the last decades. One of these approaches is to find a flexible aircraft model using systems identification methods. This research aims to apply an integrated model containing longitudinal and lateral directional rigid body dynamics, coupled to the first four flexible body modes, for identification and validation from flight test data. The Unmanned Aerial Vehicle (UAV) Eolo with the flexible wing is used during the experiments. Initially, a finite element structural model (FEM) based on beam elements, concentrated masses, and rigid bars was used. The quasi-stationary panel model based on the Vortex Lattice Method (VLM) was adopted for the aerodynamic model. Two diagonal matrices were used to correct the aerodynamic influence coefficients (AIC) matrix obtained via VLM before and post-multiplication for aircraft identification. The estimation of the main diagonal elements of each matrix was obtained through the Output Error Method in the time domain. A model validation analysis was carried out, which shows a good correlation between the model and measurement data. In conclusion, getting correction matrices instead of stability derivatives is beneficial because matrices can be used more directly during the aeronautical design and observe the behavior concerning loads.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Journal of Physics Conference Series",
+    "issn": "17426588",
+    "eissn": "17426596",
+    "volume": "2647",
+    "issue": "19",
+    "pages": null,
+    "article_number": "192025"
+  },
+  "authors": [
+    {
+      "name": "Paula, Thiago Rosado De",
+      "scopus_id": "58262083700",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sarmento, Andrew Gomes Pereira",
+      "scopus_id": "57448915500",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fernandes, Vitor Paixao",
+      "scopus_id": "58262083800",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fisher, Clécio",
+      "scopus_id": "57201471456",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Machado, Raphaela Carvalho",
+      "scopus_id": "37104519500",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Roberto Gil Annes Da",
+      "scopus_id": "35451481500",
+      "affiliation": "106796251",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Sandoval Góes, Luiz Carlos",
+      "scopus_id": "59217531900",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85198420467&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066673",
+    "data_quality_score": 90
+  }
+}

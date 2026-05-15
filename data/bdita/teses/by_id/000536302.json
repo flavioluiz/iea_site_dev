@@ -1,0 +1,30 @@
+{
+  "num_tese": "000536302",
+  "type": "tese",
+  "title": "Projeto de um sistema de controle de uma aeronave de estabilidade variável usando o método do modelo de referęncia.",
+  "author": "Marcelo Santiago Sousa",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o projeto de um sistema de controle baseado no método do modelo de referęncia que pode ser usado em aeronaves de estabilidade variável. Sistemas de controle deste tipo săo um dos pré-requisitos para se fazer simulaçőes em vôo. Foram projetados um controlador a malha aberta baseado no método de Erzberger e um controlador a malha fechada baseado no método de Wu. Com relaçăo ao método de Wu foram propostas duas modificaçőes descritas na tese. É verificado que a lei de controle a malha aberta faz a maior parte da açăo de controle, enquanto a lei de controle a malha fechada é usada para compensar efeitos de incertezas na dinâmica da aeronave hospedeira e de distúrbios externos. A metodologia de projeto de leis de controle utilizada em que há a atuaçăo conjunta de leis de controle em malha aberta e de leis de controle em malha fechada gerou resultados satisfatórios no rastreamento da resposta de um modelo de referęncia e é considerada eficiente para o projeto de leis de controle de aeronaves de estabilidade variável.",
+  "subjects": [
+    "Estabilidade de aeronaves",
+    "Controle adaptativo por modelo de referęncia",
+    "Controle automático de vôo",
+    "Simulaçăo de vôo",
+    "Controladores",
+    "Engenharia aeronáutica",
+    "Controle"
+  ],
+  "defense_date": "29/06/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000536302",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000536302&origem=BDITA"
+}

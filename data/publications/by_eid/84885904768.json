@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-84885904768",
+  "eid": "2-s2.0-84885904768",
+  "doi": "10.1016/j.icheatmasstransfer.2013.08.007",
+  "pii": "S0735193313001656",
+  "pubmed_id": null,
+  "title": "Turbulence modeling in a parallel flow moving porous bed",
+  "abstract": "This paper deals with numerical simulation of turbulence in a parallel flow moving bed, in which turbulence is considered in the void spaces occupied by the fluid phase. Volume averaging techniques are applied to both time-mean and statistical flow fields. The set of resulting governing equations is discretized via the control-volume method and the resulting algebraic equation set is solved via the SIMPLE method. Results indicate that for lower values of slip ratio, Darcy number and bed porosity, higher levels of turbulence kinetic energy are computed. © 2013 Elsevier Ltd.",
+  "authkeywords": [
+    "Heat transfer",
+    "Moving bed",
+    "Parallel flow",
+    "Porous media",
+    "Turbulence"
+  ],
+  "year": "2013",
+  "date": "2013-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "48",
+    "issue": null,
+    "pages": "1-7",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Pivem, Ana C.",
+      "scopus_id": "54420884000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84885904768&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110792",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "61779",
+  "type": "tese",
+  "title": "Eulerian-lagrangian simulation of a turbulent evaporating spray",
+  "author": "Rodrigo Badia Piccinini",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work consists in a numerical simulation of a spray jet: a two-phase flow composed by a gaseous and a liquid phase. The gaseous phase is treated as a continuous medium, and the liquid phase is treated as a dispersed phase. An asymptotic approximation of zero Mach number was applied to the gaseous phase in order to account for density variations due to temperature gradients without dealing with extra complexities of the fully compressible flow formulation. The effects of turbulence on the gas flow were modeled using the concept of turbulent viscosity determined by a system of two partial differential equations, the so called k-epsilon model. The liquid dispersed phase was modeled as point-particles, to whom thermodynamic properties and 0-d models for momentum, heat and mass transfers were assigned. The gaseous phase was discretized and numerically solved using the finite volume method. The numerical results were compared to measurements and a reasonable prediction was found. It was verified, though, underestimations of droplet velocity and evaporation rate.",
+  "subjects": [
+    "Pulverizadores",
+    "Escoamento multifásico",
+    "Combustăo",
+    "Método de volumes finitos",
+    "Análise numérica",
+    "Simulaçăo do escoamento",
+    "Física"
+  ],
+  "defense_date": "25/11/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61779",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61779&origem=BDITA"
+}

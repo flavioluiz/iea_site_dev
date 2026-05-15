@@ -1,9 +1,9 @@
 ---
-title: "AER/ITA - Divisão de Engenharia Aeronáutica e Aeroespacial"
+title: "IEA/ITA — Divisão de Engenharia Aeronáutica e Aeroespacial"
 description: "Divisão de Engenharia Aeronáutica e Aeroespacial do Instituto Tecnológico de Aeronáutica"
 ---
 
-A **Divisão de Engenharia Aeronáutica e Aeroespacial (AER)** do ITA reúne pesquisa, ensino e infraestrutura de excelência nas áreas aeronáutica e espacial. Com décadas de contribuição ao desenvolvimento do setor aeroespacial brasileiro, a AER é referência nacional em aerodinâmica, propulsão, estruturas, sistemas espaciais e tecnologias emergentes.
+A **Divisão de Engenharia Aeronáutica e Aeroespacial (IEA)** do ITA reúne pesquisa, ensino e infraestrutura de excelência nas áreas aeronáutica e espacial. Com décadas de contribuição ao desenvolvimento do setor aeroespacial brasileiro, a Divisão é referência nacional em aerodinâmica, propulsão, estruturas, sistemas espaciais e tecnologias emergentes.
 
 ---
 
@@ -42,7 +42,7 @@ Propulsão espacial, veículos lançadores, satélites, CubeSats, GNC (Guiagem, 
 
 ## Pós-Graduação
 
-A AER abriga dois programas de pós-graduação:
+A Divisão abriga dois programas de pós-graduação:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Engenharia Aeronáutica e Mecânica (nota CAPES 6)
 - **[PG-CEA](https://www.ita.br/posgraduacao/pgcea)** — Ciências e Engenharia Espaciais
@@ -51,4 +51,4 @@ A AER abriga dois programas de pós-graduação:
 
 ## Contato
 
-Dúvidas sobre a divisão? [Entre em contato](/contato/) com a secretaria da AER.
+Dúvidas sobre a divisão? [Entre em contato](/contato/) com a secretaria da Divisão.

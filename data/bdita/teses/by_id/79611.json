@@ -1,0 +1,35 @@
+{
+  "num_tese": "79611",
+  "type": "tese",
+  "title": "Transferęncia Terra-Terra mediante swing-by lunar propulsado",
+  "author": "Artur Robson Cutolo",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Arthur Gagg Filho",
+      "professor_slug": "luiz-arthur-gagg-filho"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem como objetivo resolver o problema de transferęncia de um veículo espacial de uma órbita LEO (Low Earth Orbit) para uma HEO (High Earth Orbit), ambas circulares e coplanares em torno da Terra, realizando um swing-by propulsado com a Lua. O processo inicia-se com um primeiro incremento de velocidade impulsivo, inserindo o veículo espacial em uma trajetória de transferęncia com apogeu suficientemente elevado para alcançar a esfera de influęncia da Lua. A partir desse ponto, uma manobra de swing-by, é executada com a Lua, visando colocar o veículo espacial em uma trajetória de retorno ŕs proximidades da Terra. O segundo incremento de velocidade impulsivo é aplicado no ponto de maior aproximaçăo com a Lua, caracterizando a manobra de swing-by propulsado. O terceiro incremento de velocidade desacelera o veículo nas proximidades da Terra, inserindo-o na órbita final. Para resolver esse problema de transferęncia, săo empregados dois modelos distintos. O primeiro modelo é a aproximaçăo patched-conic. Nesse método, partes de cônicas săo conectadas para aproximar a trajetória, e em cada parte de cônica, considera-se apenas o campo gravitacional da Terra ou da Lua. O segundo modelo é baseado no problema circular restrito de tręs corpos planar (PCR3CP), onde săo considerados simultaneamente os campos gravitacionais da Terra e da Lua. A soluçăo desse problema de transferęncia envolve a formulaçăo de problemas de valor de contorno em dois pontos, que săo resolvidos pelo algoritmo de Newton-Raphson. Além disso, propőe-se a soluçăo de um problema de otimizaçăo, fundamentado nos resultados dos problemas de valor de contorno. Para resolver esse problema de otimizaçăo, é empregado o algoritmo de gradiente com restauraçăo. Por fim, realiza-se um estudo do consumo de combustível para algumas órbitas finais (HEO). Esse estudo relaciona o modelo baseado no problema de tręs corpos e a aproximaçăo patched-conic com as transferęncias clássicas, como a manobra de Hohmann e a transferęncia bi-parabólica. Como resultado foi observado que a soluçăo otimizada da aproximaçăo patched-conic tem uma boa concordância em relaçăo ao PCR3CP principalmente ao considerar diversos valores de altitude de órbita de chegada na Terra e variaçăo do impulso aplicado no swing-by. Além disso, é observado que, para altitude de chegada na Terra superiores a 47 mil km, a aplicaçăo estratégica de um impulso desacelerativo durante o swing-by lunar, resulta em bom desempenho em relaçăo ao consumo de combustível se comparado com a transferęncia clássica de Hohmann.",
+  "subjects": [
+    "Trajetórias de espaçonaves",
+    "Problema de tręs corpos",
+    "Manobras assistidas por gravidade",
+    "Órbita de transferęncia",
+    "Lua",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "08/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79611",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79611&origem=BDITA"
+}

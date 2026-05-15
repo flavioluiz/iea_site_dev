@@ -1,0 +1,33 @@
+{
+  "num_tese": "000420848",
+  "type": "tese",
+  "title": "Cálculo de ablaçăo com uma abordagem entálpica para a mudança de fase.",
+  "author": "Rosângela Meireles Gomes Leite",
+  "year": "1999",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho foi analisado o problema de uma proteçăo térmica por ablaçăo utilizando-se um modelo transiente unidimensional. Neste estudo o material de proteçăo térmica se desgasta devido ŕ sublimaçăo na sua superfície, consequęncia da absorçăo de calor do aquecimento aerodinâmico. Para se evitar o problema de fronteira móvel das abordagens apresentadas na literatura, adotou-se para cálculo da ablaçăo, uma abordagem entálpica para a mudança de fase, onde se considerou um \"calor específico efetivo\"que leva em conta (captura) o efeito do calor latente na transiçăo de fase. As dimensőes do domínio permanecem inalteradas, pois o material ŕ medida que sofre ablaçăo é substituído por um material fictício, com um calor específico igual ao calor específico do material virgem e com uma condutividade térmica suficientemente grande, resultando em um alto valor de difusidade térmica, de maneira que a temperatura do material permaneça constante e igual a temperatura de sublimaçăo. Deste modo, todo o calor incidente na superfície original é conduzido até a superfície de ablaçăo. Para a soluçăo do problema foi adotada a técnica de elementos finitos pela flexibilidade no modelamento de regiőes complexas, pela facilidade de introduçăo das condiçőes de contorno e pela estrutura adequada de programaçăo, pois um código unidimensional de elementos finitos pode ser estendido para se resolver problemas tridimensionais de ablaçăo.",
+  "subjects": [
+    "Proteçăo térmica",
+    "Ablaçăo",
+    "Transferęncia de calor por conduçăo",
+    "Entalpia",
+    "Fases",
+    "Método de elementos finitos",
+    "Problemas de valores no contorno",
+    "Engenharia aeroespacial",
+    "Física",
+    "Matemática"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000420848",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000420848&origem=BDITA"
+}

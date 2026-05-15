@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-3142669175",
+  "eid": "2-s2.0-3142669175",
+  "doi": "10.1016/j.tws.2004.03.012",
+  "pii": "S0263823104000540",
+  "pubmed_id": null,
+  "title": "Finite element analysis of the dynamic response of plates under traversing loads using adaptive meshes",
+  "abstract": "The vibration of Mindlin plates with moving concentrated load is investigated using the finite element method (FEM). The use of Mindlin elements may, depending on the refinement of the mesh, yield poor results if the loads are located at off-nodal positions. A new strategy that is based on an adaptive mesh scheme and on the use of perturbation technique in the structural vibration simulation is proposed in this paper to overcome this problem. The strategy supports the use of the traditional finite elements and arbitrary geometry and boundary conditions for both plates and shells. © 2004 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Adaptive mesh",
+    "FEM",
+    "Mindlin elements",
+    "Moving load",
+    "Traversing load"
+  ],
+  "year": "2004",
+  "date": "2004-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thin Walled Structures",
+    "issn": "02638231",
+    "eissn": null,
+    "volume": "42",
+    "issue": "10",
+    "pages": "1481-1493",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Oguamanam, D. C.D.",
+      "scopus_id": "57211220629",
+      "affiliation": "60030838",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 30,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=3142669175&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044658",
+    "data_quality_score": 100
+  }
+}

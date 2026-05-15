@@ -1,0 +1,5884 @@
+{
+  "aerodinamica-e-aeroacustica": [
+    {
+      "num_tg": "80759",
+      "title": "Mediçăo de ruído interno para determinaçăo de parâmetros operacionais em aviőes comerciais",
+      "author": "Enzo Bittencourt",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "airton-nabarrete",
+      "advisors": [
+        "Airton Nabarrete"
+      ]
+    },
+    {
+      "num_tg": "80693",
+      "title": "Estudo experimental de ruído de hélices",
+      "author": "Rafaela Myla Couto da Silva",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "80080",
+      "title": "Caracterizaçăo e validaçăo de modelo de interaçăo de esteiras de vórtices",
+      "author": "Daniel Molina Rodrigues",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "80056",
+      "title": "Simulaçăo numérica do ruído emitido por aerofólios",
+      "author": "Matheus Henrique Rodrigues Lima",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "78805",
+      "title": "Estimaçăo de parâmetros da aeronave T-27 utilizando dados de túnel de vento e de ensaios em voo",
+      "author": "Felipe André Alves de Padua",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "78822",
+      "title": "Integral boundary layer methods for optimization of airfoils and wings using 3D panel method codes",
+      "author": "Pedro de Almeida Secchi",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "78113",
+      "title": "Reduçăo de ruído aerodinâmico através de mecanismos viscoelásticos",
+      "author": "Rodrigo Monteiro Paschoarelli Veiga",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "76398",
+      "title": "Assessment of the brooks pope and marcoline (BPM) airfoil noise prediction model",
+      "author": "Afonso André Ribeiro",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "75243",
+      "title": "Análise de sensibilidade de parâmetros geométricos de pontas de asa em coeficientes aerodinâmicos",
+      "author": "Victor Maurício Mattos de Andrade",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "75270",
+      "title": "Ensaio em túnel de vento de modelo realista de caminhăo pesado e medida da influęncia de acessórios aerodinâmicos no arrasto do veículo",
+      "author": "Caio de Souza Moura",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "75201",
+      "title": "Estudo experimental da hidroacústica de bordos de fuga flexíveis",
+      "author": "Paulo Jorge Duda de Morais",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "75313",
+      "title": "Validaçăo para ensaios de modelos de caminhőes no túnel de vento de ensino e pesquisa do ITA",
+      "author": "Roberto Miguel Rezende",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ekkehard Carlos Fernando Schubert"
+      ]
+    },
+    {
+      "num_tg": "73794",
+      "title": "UCAV conceptual design and sub-scale, 3D printed wind tunnel testing",
+      "author": "Joăo Antônio Dantas de Jesus Ferreira",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "72535",
+      "title": "Otimizaçăo do pouso do caça F-16 utilizando um método direto",
+      "author": "Daniel Caueh Dunaiski Figueira Leal",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "69416",
+      "title": "A model problem for sound radiation by an installed jet",
+      "author": "Petrônio Augusto Santos Nogueira",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "69677",
+      "title": "Application of a binary pressure sensitive paint for airfoils in subsonic flow",
+      "author": "Henrique Fanini Leite",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva",
+        "Ana Cristina Avelar"
+      ]
+    },
+    {
+      "num_tg": "67437",
+      "title": "Didatic acquisition system implementation for aeroelastic tests in wind tunnels",
+      "author": "Joyce Carolynne de Melo Silvestre",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "67507",
+      "title": "Identificaçăo de vibraçőes acústicas de pequenos motores foguetes",
+      "author": "Dante Ricardo Ambrosio",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "65377",
+      "title": "Teoria aeroacústica aplicada ŕ aerodinâmica incompressível",
+      "author": "Paulo Augusto Tostes Júnior",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Pazini Brandăo"
+      ]
+    },
+    {
+      "num_tg": "61599",
+      "title": "Analysis of the implementation of \"riblets structures\" in a commercial airliner",
+      "author": "Thiago Fernandes de Freitas",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000554392",
+      "title": "Projeto e modelagem aeroelástica de uma asa para testes de flutter em túnel de vento subsônico.",
+      "author": "Joăo Otávio Falcăo Arantes Filho",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "000550320",
+      "title": "Drag reduction by flexibility in natural structures.",
+      "author": "Bruno Alexandre Machado Almeida",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Emmanuel De Langre",
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000550409",
+      "title": "Influence of trailing-edge thickness on flow-induced airfoil noise investigated by DNS.",
+      "author": "Vitor Gabriel Kleine",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Marcos Aurélio Ortega",
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000544368",
+      "title": "Conception of a device for crosswind gust simulation in wind tunnel.",
+      "author": "Francisco Clézio de Souza Júnior",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri",
+        "Valérie Ferrand"
+      ]
+    },
+    {
+      "num_tg": "000544139",
+      "title": "Continuous visualization of nearfield acoustic holography: a LabVIEW approach.",
+      "author": "Rafael Santos Iwamura",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000539860",
+      "title": "Estudo teórico e experimental de perfis em baixo Reynolds.",
+      "author": "Daniel de Melo Prudente",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "000527154",
+      "title": "An analytical formulation with iterative solution for the structure-aerodynamic interaction of a variable-camber airfoil.",
+      "author": "Camilo Jacob Tenório de Mello Contreras",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000499047",
+      "title": "Bidimensionalizaçăo de ensaios em túnel de vento de baixa velocidade.",
+      "author": "Giuliana Arruda Pessoa",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000498937",
+      "title": "Desenvolvimento de uma metodologia para a integraçăo do conjunto motopropulsor em asas de aeronaves de transporte transônico utilizando técnicas de aerodinâmica computacional e projeto inverso.",
+      "author": "Joăo Francisco Alves Borges",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000561041",
+      "title": "Estudos sobre medidas de vibraçőes e balanceamento do grupo motor-hélice do túnel aerodinâmico de 2,1 x 3,0 m2 do CTA.",
+      "author": "Walter de Castro Barros",
+      "year": "1963",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    },
+    {
+      "num_tg": "000560687",
+      "title": "Projeto e contruçăo de um túnel aerodinâmico especial.",
+      "author": "Carlos Alberto da Silva Tumang",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    },
+    {
+      "num_tg": "000560196",
+      "title": "Construçăo de um banco de prova de modelos de câmaras aero-termo-acústicas.",
+      "author": "Luiz Alberto Rabi",
+      "year": "1960",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Verdi de Carvalho Leite"
+      ]
+    },
+    {
+      "num_tg": "000566000",
+      "title": "Estudo aerodinâmico sobre a instalaçăo dos propulsores do aviăo ITAPS-A2.",
+      "author": "Antonio Nogueira de Almeida",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Oskar Schrenk"
+      ]
+    },
+    {
+      "num_tg": "000566128",
+      "title": "Projeto de elementos de um modęlo de carro voador para ensaio no tunel aerodinâmico.",
+      "author": "Frederico Sattelmayer",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Urbano Ernesto Stumpf"
+      ]
+    }
+  ],
+  "estabilidade-escoamentos": [
+    {
+      "num_tg": "80064",
+      "title": "Análise de estruturas coerentes em camadas limite turbulentas",
+      "author": "Ana Beatriz da Silva Machado",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "78824",
+      "title": "Evaluation of passive control systems for shock wave boundary layer interaction (SWBLI) within a supersonic air inlet",
+      "author": "Ana Flávia da Silva Tuan",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "vinicius-malatesta",
+      "advisors": [
+        "Vinicius Malatesta"
+      ]
+    },
+    {
+      "num_tg": "78033",
+      "title": "Detecçăo de instabilidades na camada limite de placa plana",
+      "author": "Eduardo de Albuquerque Cavalcanti Filho",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva"
+      ]
+    },
+    {
+      "num_tg": "73928",
+      "title": "Estudo experimental da transiçăo de camadas limite para a turbulęncia",
+      "author": "Amós Gonçalves e Silva",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "000554615",
+      "title": "Estudo qualitativo da transiçăo ŕ turbulęncia na camada de mistura homogęnea.",
+      "author": "Rafael Cipriano Torres",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jean-Marc Chomaz",
+        "Nide Geraldo do Couto Ramos Fico Júnior"
+      ]
+    }
+  ],
+  "aeroelasticidade": [
+    {
+      "num_tg": "78109",
+      "title": "Active and passive controllers for flutter suppression based on multimodal shunt circuits",
+      "author": "Francisco Arthur Bonfim Azevedo",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "78110",
+      "title": "Projeto de sistema de controle para atenuaçăo de deformaçőes estruturais em uma aeronave flexível",
+      "author": "Gabriel Henrique Fonseca Miranda",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "antonio-b-guimaraes-neto",
+      "advisors": [
+        "Antônio Bernardo Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "77564",
+      "title": "Dinâmica de veículos flexíveis no domínio do tempo e da frequęncia",
+      "author": "Daniel Diogenes Sousa",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "77570",
+      "title": "Análise de qualidade de pilotagem de aeronave flexível no simulador de ensaios em voo",
+      "author": "Joăo de Barro Monteiro Cavalcanti",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "75314",
+      "title": "Modelling of an aerosevoelastic system for active flutter suppression in highly elongated wings",
+      "author": "Daniel Custódio",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "72456",
+      "title": "Estudo do acoplamento entre modos flexíveis e de corpo rígido através de uma asa flexível",
+      "author": "Guilherme Hoffmann da Silva",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "69586",
+      "title": "Projeto conceitual de uma asa com controle aeroelástico ativo.",
+      "author": "Felipe Rodrigo Evangelista Matilde",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Pazini Brandăo"
+      ]
+    },
+    {
+      "num_tg": "67437",
+      "title": "Didatic acquisition system implementation for aeroelastic tests in wind tunnels",
+      "author": "Joyce Carolynne de Melo Silvestre",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "65201",
+      "title": "Projeto de modelos em escala aeroelástica",
+      "author": "Carlos Monteiro Barbosa Filho",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "61757",
+      "title": "Análise do comportamento aeroelástico de asas em material compósito",
+      "author": "Guilherme Ribeiro dos Santos",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "000554536",
+      "title": "Estudo de modelo aerodinâmico năo estacionário aplicado ŕ aeroelasticidade.",
+      "author": "Guilherme Rodrigues de Queiroz",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "000554392",
+      "title": "Projeto e modelagem aeroelástica de uma asa para testes de flutter em túnel de vento subsônico.",
+      "author": "Joăo Otávio Falcăo Arantes Filho",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "000550383",
+      "title": "Dinâmica e controle de aeronaves flexíveis com modelagem aerodinâmica pelo método Doublet-Lattice.",
+      "author": "Antônio Bernardo Guimarăes Neto",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000544042",
+      "title": "Aeroelastic modeling and flutter calculations for a motorglider.",
+      "author": "Antonio Costa Barreto Júnior",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000539878",
+      "title": "Efeito das cargas externas sobre as velocidades críticas aeroelásticas de uma aeronave na fase de projeto conceitual.",
+      "author": "Sandro Rondon Rett",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000527090",
+      "title": "Adaptaçăo de distribuiçőes aerodinâmicas para uso em cargas e aeroelasticidade.",
+      "author": "William Vaz Alencar",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luciano Magno Frágola Barbosa",
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000527265",
+      "title": "Aeroelasticidade da seçăo típica com quatro graus de liberdade.",
+      "author": "Marcelo Luiz de Oliveira Portela",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000527154",
+      "title": "An analytical formulation with iterative solution for the structure-aerodynamic interaction of a variable-camber airfoil.",
+      "author": "Camilo Jacob Tenório de Mello Contreras",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000499119",
+      "title": "Desenvolvimento de um modelo computacional para cálculo da velocidade de flutter de asas com tręs graus de liberdade.",
+      "author": "André Fonseca Ventura",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000499022",
+      "title": "Estudo da seçăo típica aeroelástica (bidimensional).",
+      "author": "Fábio Emanuel de Souza Morais",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000562742",
+      "title": "Determinaçăo da velocidade de \"flutter\" em programaçăo Afit.",
+      "author": "Luiz Carlos Miguez Urbano",
+      "year": "1966",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Padraic Cathal Dunne"
+      ]
+    },
+    {
+      "num_tg": "000561041",
+      "title": "Estudos sobre medidas de vibraçőes e balanceamento do grupo motor-hélice do túnel aerodinâmico de 2,1 x 3,0 m2 do CTA.",
+      "author": "Walter de Castro Barros",
+      "year": "1963",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    }
+  ],
+  "mecanica-voo-controle": [
+    {
+      "num_tg": "80760",
+      "title": "Suborbital vehicle simulator for brazilian territory monitoring",
+      "author": "Breno Felipe Penido Morato",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Lucas Oliveira Barbacovi"
+      ]
+    },
+    {
+      "num_tg": "80740",
+      "title": "Levantamento de modelo aerodinâmico de uma Aeronave Cessna 150",
+      "author": "Bruno dos Santos Arruda",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "80756",
+      "title": "Metodologia de otimizaçăo para sistemas de comandos de voo em aeronaves de asas rotativas",
+      "author": "Rafael Duarte Rocha",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "80080",
+      "title": "Caracterizaçăo e validaçăo de modelo de interaçăo de esteiras de vórtices",
+      "author": "Daniel Molina Rodrigues",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "79987",
+      "title": "Estudo de compromisso entre risco e desempenho de aeronaves rádio controladas",
+      "author": "Iann Sá de Medeiros e Silva",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "79382",
+      "title": "Estimativa simultânea da curva de traçăo de um motor turbofan e da polar de arrasto ŕ partir de ensaios em voo",
+      "author": "Fernando Alves Domingos",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "79360",
+      "title": "Modelagem e simulaçăo de aeronaves EVTOL",
+      "author": "Anna Karenina Pereira Arantes de Arruda Câmara",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "antonio-b-guimaraes-neto",
+      "advisors": [
+        "Antônio Bernardo Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "78723",
+      "title": "Projeto de um sistema de controle de voo baseado em energia",
+      "author": "Marcelo Júnio Assunçăo Bandeira",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "78010",
+      "title": "A control approach to non-powered aircraft flight under the mechanism of dynamic soaring",
+      "author": "Marcus Vinícius Rodrigues de Lima",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "77638",
+      "title": "Desenvolvimento de modelo, ajuste de ganhos e software-in-the-loop para testes de piloto automático para uma aeronave remotamente pilotada",
+      "author": "Lucas Garcia de Sampaio Lobianco",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "77576",
+      "title": "Estudo comparativo entre os modelos linear e semi-linear na representaçăo da dinâmica de voo de helicópteros",
+      "author": "Mateus de Paula Ribeiro",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ronaldo Vieira Cruz"
+      ]
+    },
+    {
+      "num_tg": "77641",
+      "title": "Estudo da transiçăo de estados ŕ partir das derivas de estabilidade e controle para uma aeronave de asas rotativas",
+      "author": "Erlano Guimarăes Cordeiro",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ronaldo Vieira Cruz"
+      ]
+    },
+    {
+      "num_tg": "77634",
+      "title": "Implementaçăo de simulador de dinâmica de voo para otimizaçăo multidisciplinar",
+      "author": "Douglas Vasconcelos Barros",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "77534",
+      "title": "Simulaçăo do efeito solo para uma aeronave convencional em condiçăo de pouso",
+      "author": "Rennan Assis Matos",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva"
+      ]
+    },
+    {
+      "num_tg": "76454",
+      "title": "Análise do gradiente de vento em subida de aeronaves de asa fixa de baixo desempenho",
+      "author": "Edson Hítalo Almeida Sales",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Guilherme Soares e Silva"
+      ]
+    },
+    {
+      "num_tg": "76407",
+      "title": "Busca de soluçăo ótima para formaçăo de helicópteros de ataque contra posiçăo defendida por artilharia antiaérea de cano",
+      "author": "Gieser Augusto Rauber Duarte",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rodrigo Arnaldo Scarpel"
+      ]
+    },
+    {
+      "num_tg": "76422",
+      "title": "Desenvolvimento de sistemas de aumento de estabilidade e controle para modelos de simulaçăo de uma aeronave de asa rotativa",
+      "author": "Cássio Bezerra de Oliveira",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "76450",
+      "title": "Pilotagem remota de aeromodelo para o ensino de mecânica do voo",
+      "author": "Gabriela Diniz da Silva",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "75266",
+      "title": "Metodologia de projeto de foguetes de sondagem no contexto da equipe ITA rocket design",
+      "author": "Luís Fernando Gonçalinho Antonio",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "75225",
+      "title": "A study of airliner power and control system architectures",
+      "author": "Arthur Andrades Covatti",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Pazini Brandăo"
+      ]
+    },
+    {
+      "num_tg": "75202",
+      "title": "Análise de desempenho operacional de mísseis ar-ar de curto alcance para aeronaves de asas rotativas",
+      "author": "Luiz Alberto Peixoto da Silva Junior",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "75278",
+      "title": "Determinaçăo de coeficientes aerodinâmicos usando redes neurais e adaptive neuro-fuzzy inference system (ANFIS)",
+      "author": "Rodrigo Gomes de Amorim Fernandes",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Piterson Lisboa"
+      ]
+    },
+    {
+      "num_tg": "72456",
+      "title": "Estudo do acoplamento entre modos flexíveis e de corpo rígido através de uma asa flexível",
+      "author": "Guilherme Hoffmann da Silva",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "69504",
+      "title": "Remotely operated flight immersion laboratory",
+      "author": "Joăo Paulo Amorim Torres",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "67404",
+      "title": "Análise e otimizaçăo de desempenho de missőes pré-programadas para aeronaves a pistăo",
+      "author": "Bruno Henrique Flores dos Santos Mattos",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "67390",
+      "title": "Estudo de configuraçőes de propulsăo híbrida aplicadas a aeronaves comerciais",
+      "author": "Luiz Eduardo Castanheira de Alencar Bion",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "65269",
+      "title": "Guiamento para veículos aéreos năo-tripulados utilizando curvas de Dubins",
+      "author": "Ricardo Maia Senna Delgado",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales",
+        "Fabio Andrade de Almeida"
+      ]
+    },
+    {
+      "num_tg": "65279",
+      "title": "Rastreamento de um alvo terrestre através de um veículo aéreo năo tripulado",
+      "author": "Lucas Meluzzi dos Reis",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "65224",
+      "title": "Simulador de voo para parafoil",
+      "author": "Bruna Amorim de Barros Lima",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "63846",
+      "title": "Determinaçăo da VMCA pelo método contemporâneo",
+      "author": "Fernando de Castro Assis",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "63868",
+      "title": "Guiamento e controle para voo em formaçăo de aeronaves năo tripuladas",
+      "author": "Tiago Pinheiro Rodrigues de Freitas",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "63769",
+      "title": "Identificaçăo de parâmetros de modelo dinâmico adaptado ao voo de um parapente",
+      "author": "Luiz Soranço de Paula Sarchis",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "61599",
+      "title": "Analysis of the implementation of \"riblets structures\" in a commercial airliner",
+      "author": "Thiago Fernandes de Freitas",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "61600",
+      "title": "Conceptual design of a small electric general aviation aircraft",
+      "author": "Itamar Edson Leite Lessa",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "61744",
+      "title": "Estudo das ferramentas de pré-voo para cálculo de desempenho de aeronaves executivas EMBRAER",
+      "author": "Michelle Corręa Terra",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "61658",
+      "title": "Software para otimizaçăo de rota em funçăo da distribuiçăo espacial de ventos",
+      "author": "Carlos Eduardo de Aguiar Nogueira Gomes",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro",
+        "Mailema Celestino dos Santos",
+        "Roberval Antonio Mesquiari"
+      ]
+    },
+    {
+      "num_tg": "000564213",
+      "title": "Análise do desempenho de planadores em voo cross-country.",
+      "author": "Eduardo Brilhante de Sica",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Grégori Pogorzelski"
+      ]
+    },
+    {
+      "num_tg": "000564016",
+      "title": "Dimensioning of the horizontal tailplane of a HALE research aircraft.",
+      "author": "Vinícius Vilhena Duarte",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "59050",
+      "title": "Ferramenta de otimizaçăo da trajetória da aeronave em regiőes montanhosas",
+      "author": "Bruno Masayoshi Matsumoto",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "000554504",
+      "title": "Estudo de casos sobre otimizaçăo de veículo suborbitial VS-40.",
+      "author": "Leandro Farias Nogueira",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luis Eduardo Vergueiro Loures da Costa",
+        "Rodrigo Arnaldo Scarpel"
+      ]
+    },
+    {
+      "num_tg": "000550462",
+      "title": "Stability and control of a vortex in a time-dependent strain field.",
+      "author": "Rodrigo Badia Piccinini",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Peter J. Schmid",
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000544114",
+      "title": "4D trajectories prediction for ATM applications using the base of aircraft data (BADA).",
+      "author": "José Rui Simons Godoy",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Gerhard Hütting",
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000544225",
+      "title": "Theoretical and experimental study of counter-rotating shrouded rotors.",
+      "author": "Davi Miranda Quixadá",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "Roger Barčnes",
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "000542138",
+      "title": "A theoretical study for aircraft handling qualities on unsteady flight conditions.",
+      "author": "Felipe Bastos Gurgel Silva",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rudrapatna V. Ramnath"
+      ]
+    },
+    {
+      "num_tg": "000539918",
+      "title": "Definiçăo dos requisitos de traçăo do motor para uma aeronave durante a fase de anteprojeto.",
+      "author": "Luigi Spacino Scarminio",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000540610",
+      "title": "Projeto de uma aeronave rádio controlada.",
+      "author": "José Artur Ribeiro Guimarăes Neto",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000539799",
+      "title": "Study of a VTOL air vehicle based on ducted contra-rotating propellers.",
+      "author": "Marcelo Romano Berger",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "000527297",
+      "title": "Identificaçăo de parâmetros e avaliaçăo de QDP.",
+      "author": "Fernando de Araújo Silva",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000527130",
+      "title": "Metodologia para análise de estabilidade e controle de uma aeronave por meio de simulaçăo baseada em requisito.",
+      "author": "Tomaz Schmidt Cavalcante",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000527147",
+      "title": "Métodos de previsăo do desempenho em pouso de aeronaves: distância no ar.",
+      "author": "André Valdetaro Gomes Cavalieri",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000527201",
+      "title": "Projeto conceitual de aeronave năo-tripulada para vigilância de reservas florestais.",
+      "author": "Rafael Rodrigues Lopes",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000498983",
+      "title": "Aplicaçăo e comparaçăo de critérios modernos de qualidades de pilotagem.",
+      "author": "Rafael de Abreu Gonzalez",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000498937",
+      "title": "Desenvolvimento de uma metodologia para a integraçăo do conjunto motopropulsor em asas de aeronaves de transporte transônico utilizando técnicas de aerodinâmica computacional e projeto inverso.",
+      "author": "Joăo Francisco Alves Borges",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000498920",
+      "title": "Determinaçăo do ponto neutro e do ponto de manobra a partir da análise do período curto.",
+      "author": "Saulo Nilson Pimentel Bastos",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000498897",
+      "title": "Guiamento de míssil empregando realimentaçăo visual: projeto de autopiloto.",
+      "author": "Carlos Eduardo Lopes de Almeida",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacques Waldmann"
+      ]
+    },
+    {
+      "num_tg": "000498976",
+      "title": "Projeto preliminar de um alvo aéreo manobrável de alto desempenho.",
+      "author": "Alexandre Luiz Reder Furtado",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000499101",
+      "title": "Reduçăo de ordem de sistemas lineares complexos.",
+      "author": "Alan Fonseca Uehara",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Karl Heinz Kienitz"
+      ]
+    },
+    {
+      "num_tg": "000491312",
+      "title": "Estudo de desempenho de um helicóptero com motor de 100 HP para transportar duas pessoas.",
+      "author": "Eron Bezerra",
+      "year": "1967",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Kwei Lien Feng"
+      ]
+    },
+    {
+      "num_tg": "000491320",
+      "title": "Estudo sobre desempenho aerodinâmico de um foguete de sonda.",
+      "author": "Elcio Junya Hyodo",
+      "year": "1967",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Kwei Lien Feng"
+      ]
+    },
+    {
+      "num_tg": "000561288",
+      "title": "Estudo e ante-projeto de flutuadores para o aviăo Neiva - Regente.",
+      "author": "Irajá Buch Ribas",
+      "year": "1963",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    },
+    {
+      "num_tg": "000561002",
+      "title": "Seleçăo de equipamento e programaçăo de vôo para a linha Rio de Janeiro - Porto Alegre.",
+      "author": "Reginaldo Nepomuceno Teixeira",
+      "year": "1962",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Luiz Filgueiras de Azevedo"
+      ]
+    },
+    {
+      "num_tg": "000560741",
+      "title": "Simulador para estudo da estabilidade dinâmica longitudinal de aviőes utilizando computador analógico.",
+      "author": "Celso Pascoli Bottura",
+      "year": "1962",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    },
+    {
+      "num_tg": "000560537",
+      "title": "Estudo da estabilidade estática e efeito de solo de um automóvel voador.",
+      "author": "Joăo Augusto Pereira Carneiro Mac Dowell",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    },
+    {
+      "num_tg": "000560426",
+      "title": "Programaçăo dos ensaios em vôo do aviăo Panelinha.",
+      "author": "Michel Cury",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Clarense C. Flora"
+      ]
+    },
+    {
+      "num_tg": "000559074",
+      "title": "Estudo sôbre amortecedores.",
+      "author": "Hugo Rudolf Kreil",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Octávio Gaspar de Souza Ricardo"
+      ]
+    },
+    {
+      "num_tg": "000566468",
+      "title": "Estudo sobre amortecedores de alta eficięncia.",
+      "author": "Hiroshi Kameyama",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Octávio Gaspar de Souza Ricardo"
+      ]
+    },
+    {
+      "num_tg": "000566103",
+      "title": "Medidor de velocidade de aterragem de aviőes.",
+      "author": "Temístocles Servilheira de Lissandre",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Hanns J. Maier"
+      ]
+    },
+    {
+      "num_tg": "000566181",
+      "title": "Régua de cálculo para distribuiçăo de carga em aviőes.",
+      "author": "Sadi Mauricio Vieira",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bradley Hobbard Young"
+      ]
+    },
+    {
+      "num_tg": "000565541",
+      "title": "Analise da rota Rio de Janeiro-Belem.",
+      "author": "Frederico Fernandes de Magalhăes",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bradley Hobbard Young"
+      ]
+    },
+    {
+      "num_tg": "000565677",
+      "title": "Estudo das possibilidades de utilizaçăo de aviőes em serviço misto em Minas e Goiás.",
+      "author": "Joăo Guilherme Chaves Rosas",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Harold Paul Hemke"
+      ]
+    },
+    {
+      "num_tg": "000565749",
+      "title": "Operaçăo do aviăo curtiss wright C-46-E.",
+      "author": "Geraldo Antonio da Silva",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bradley Hobbard Young",
+        "Dole Abel Anderson"
+      ]
+    }
+  ],
+  "solidos-e-materiais": [
+    {
+      "num_tg": "80065",
+      "title": "Estudo das propriedades mecânicas e de combustăo de propelentes sólidos contendo óleo de mamona como aglomerante",
+      "author": "José Eduardo Teixeira Araújo",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Rene Francisco Boschi Gonçalves"
+      ]
+    },
+    {
+      "num_tg": "80004",
+      "title": "Topology optimisation of composites with variable material orientation for compliance and failure load",
+      "author": "Gustavo Jun Asai",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rafael Thiago Luiz Ferreira"
+      ]
+    },
+    {
+      "num_tg": "79397",
+      "title": "Estudo experimental de cintas compósitas para uso em equipamentos de lançamentos de cargas e paraquedistas",
+      "author": "Pedro Braz Iplinsky",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mariano-andres-arbelo",
+      "advisors": [
+        "Mariano Andrés Arbelo"
+      ]
+    },
+    {
+      "num_tg": "79391",
+      "title": "Projeto conceitual estrutural de um casulo fotográfico para ensaios em voo",
+      "author": "Bruna Fernandes Vertemati",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rafael Marques Lins"
+      ]
+    },
+    {
+      "num_tg": "78806",
+      "title": "Análise de corrosăo em amostras fraturadas de alumínio",
+      "author": "Hugo Felipe Menezes Amaral",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Kahl Dick Zilnyk"
+      ]
+    },
+    {
+      "num_tg": "78808",
+      "title": "Structural analysis of tailored fiber placement composite bolted joints",
+      "author": "Leonardo Gonçalves Chiquita",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "77989",
+      "title": "Experimental study of fasteners as a delamination arrest mechanism in composite laminates under mode I loading",
+      "author": "Giovanni Bastiani",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mariano-andres-arbelo",
+      "advisors": [
+        "Mariano Andrés Arbelo"
+      ]
+    },
+    {
+      "num_tg": "77976",
+      "title": "O efeito de retardo devido a sobrecargas na propagaçăo de trinca por fadiga",
+      "author": "Rodrigo Mendes Cordeiro",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mariano-andres-arbelo",
+      "advisors": [
+        "Mariano Andrés Arbelo"
+      ]
+    },
+    {
+      "num_tg": "78029",
+      "title": "Reprojeto e otimizaçăo de asa em materiais compósitos para veículo aéreo năo tripulado com aplicaçăo militar",
+      "author": "Jairo da Cunha Bastos Sobrinho",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mariano-andres-arbelo",
+      "advisors": [
+        "Mariano Andrés Arbelo"
+      ]
+    },
+    {
+      "num_tg": "77600",
+      "title": "Influęncia do sistema de concessőes brasileiro na dinâmica de alocaçăo de slots em aeroportos",
+      "author": "José Guilherme Rezende Vaz de Mello",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Cassia Helena Marchon"
+      ]
+    },
+    {
+      "num_tg": "77639",
+      "title": "Análise de falha em casca cilíndrica de materiais compósitos manufaturados via bobinagem filamentar",
+      "author": "Bruna Caroline Pimentel Gonçalves",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "76455",
+      "title": "Análise estrutural de cascas cilíndricas de material compósito manufaturadas via bobinagem filamentar",
+      "author": "Pedro Vinícius Justo Andrade",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "75276",
+      "title": "Caracterizaçăo da liga NiTi obtida por metalurgia do pó após tratamento superficial por IIIP-N",
+      "author": "Patrícia Ręgo Milităo",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maria Margareth da Silva"
+      ]
+    },
+    {
+      "num_tg": "75270",
+      "title": "Ensaio em túnel de vento de modelo realista de caminhăo pesado e medida da influęncia de acessórios aerodinâmicos no arrasto do veículo",
+      "author": "Caio de Souza Moura",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "75268",
+      "title": "Estudo sobre a influęncia do gradiente de vento no desempenho em subida e descida de aeronaves asa fixa",
+      "author": "Adriano Lariguet Taques Bittencourt",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Guilherme Soares e Silva"
+      ]
+    },
+    {
+      "num_tg": "75221",
+      "title": "Obtençăo do espectro de cargas para ensaio de vida em fadiga do conjunto de trens de pouso de uma aeronave de treinamento leve",
+      "author": "Ítalo Bruno de Oliveira Ximenes",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "72462",
+      "title": "A composite wing weight estimation method",
+      "author": "Jônatas Rafael Rodrigues Hernandes",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "69639",
+      "title": "Estudo da influęncia da pós câmara na combustăo e desempenho de um motor híbrido",
+      "author": "Iago Dalmaso Brasil Dias",
+      "year": "2015",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "67526",
+      "title": "Avaliaçăo da influęncia da folga de topo em uma turbina axial projetada para operaçăo em booster de motor foguete a propelente líquido utilizando cálculos de escoamento 1D e 3D",
+      "author": "Luiz Henrique Lindquist Whitacker",
+      "year": "2014",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Jesuino Takachi Tomita"
+      ]
+    },
+    {
+      "num_tg": "67437",
+      "title": "Didatic acquisition system implementation for aeroelastic tests in wind tunnels",
+      "author": "Joyce Carolynne de Melo Silvestre",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "67430",
+      "title": "Estudo de corrosăo das ligas 4340 e 300M tratadas por implantaçăo iônica por imersăo em plasma (3IP) e nitretaçăo a plasma (NP) a diferentes temperaturas",
+      "author": "Thais Campos de Almeida",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maria Margareth da Silva"
+      ]
+    },
+    {
+      "num_tg": "65154",
+      "title": "Caracterizaçăo da distância crítica de fadiga",
+      "author": "Diego Siebra de Brito",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "63770",
+      "title": "Mediçőes experimentais de condutividades térmicas de compósitos estruturais",
+      "author": "Norton Demeterco Veras de Assis",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Ezio Castejon Garcia"
+      ]
+    },
+    {
+      "num_tg": "63892",
+      "title": "Metodologia de modelagem de sistema de comando e sua influęncia na robustez de um sistema de controle",
+      "author": "Pedro Henrique Teixeira Freitas",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "61645",
+      "title": "Análise de propagaçăo de trincas em materiais híbridos",
+      "author": "Francisco Ailton Silva de Oliveira",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Carlos Miguel Montestruque Vilchez",
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "61757",
+      "title": "Análise do comportamento aeroelástico de asas em material compósito",
+      "author": "Guilherme Ribeiro dos Santos",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "61767",
+      "title": "Determinaçăo da recuperaçăo elástica na fabricaçăo de painéis de dupla curvatura em laminado fibra metal",
+      "author": "Pedro Gonçalves de Moura Jorge",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "60210",
+      "title": "Estudo numérico e experimental de fenômenos de relaxaçăo em juntas compósitas aparafusadas",
+      "author": "Leonardo Augusto da Rosa e Oliveira",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564048",
+      "title": "Análise de risco estrutural e confiabilidade de aeronaves.",
+      "author": "Laura Velloso Leal",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000563984",
+      "title": "Densificaçăo rápida de compósitos carbono-carbono através do processo de CLVI.",
+      "author": "Rodolfo Ramos de Carvalho",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Inácio Regiani"
+      ]
+    },
+    {
+      "num_tg": "000564030",
+      "title": "Desenvolvimento de quadro para MTB empregando materiais compostos.",
+      "author": "Diogo Ponte Lauda",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "000564141",
+      "title": "Finite elemente modeling of the crushing of carbon composite plates using implicit and explicit integration schemes.",
+      "author": "Alexandre Muniz Neves",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564055",
+      "title": "Infiltraçăo química de líquido vaporizado com TEOS.",
+      "author": "Francisco Fábio Teixeira Lima",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Inácio Regiani"
+      ]
+    },
+    {
+      "num_tg": "000564070",
+      "title": "Metodologia de obtençăo de dados para análise de risco.",
+      "author": "Robson Vieira Magalhăes",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000557485",
+      "title": "Shape control of structures using piezoelectric components.",
+      "author": "Caio dos Santos Guimarăes",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000554590",
+      "title": "Metalizaçăo de materiais compostos na prevençăo contra raios.",
+      "author": "Antonio Akira Terada Junior",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Carlos de Moura Neto"
+      ]
+    },
+    {
+      "num_tg": "62918",
+      "title": "Análise dos dados de voo das aeronaves F-5M para determinaçăo de vida em fadiga",
+      "author": "Daniel Ferreira Vieira de Mattos",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000544160",
+      "title": "Densificaçăo rápida de compostos carbono-carbono pela técnica de CLVI.",
+      "author": "Isaque Gonçalves de Melo",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Inácio Regiani"
+      ]
+    },
+    {
+      "num_tg": "000544218",
+      "title": "Effective parameters identification of 2D orthotropic structures from structural intensity measurements.",
+      "author": "Pedro Lins Meira Quintăo",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jean-Claude Pascal",
+        "Jean-Hugh Thomas"
+      ]
+    },
+    {
+      "num_tg": "000544311",
+      "title": "Espectroscopia de luminescęncia em matrizes poliméricas.",
+      "author": "Breno Gramacho Seixas Santos",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Deborah Dibbern Brunelli"
+      ]
+    },
+    {
+      "num_tg": "000544067",
+      "title": "Estudo de fatores de influęncia sobre o mercado de aeronaves regionais.",
+      "author": "Gustavo Freitas de Carvalho",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Farhad Firoozmand"
+      ]
+    },
+    {
+      "num_tg": "000544408",
+      "title": "Estudo paramétrico de iniciaçăo de trincas por fadiga em juntas metálicas de fuselagem.",
+      "author": "Átila Silva Zanone",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Abílio Neves Garcia",
+        "Carlos de Moura Neto"
+      ]
+    },
+    {
+      "num_tg": "000544289",
+      "title": "Fabrication and characterization of aligned carbon nanotubes/epoxy composites.",
+      "author": "Diego Sadao Saito",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jorge Otubo",
+        "Brian L. Wardle"
+      ]
+    },
+    {
+      "num_tg": "000542184",
+      "title": "Confiabilidade estrutural aplicada ŕ análise de tolerância ao dano.",
+      "author": "Marcus Vinicius Preisighe Viana",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior",
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000539853",
+      "title": "Calibraçăo de modelo de crescimento de trinca para aeronave leve de treinamento.",
+      "author": "Stephanie Christini Gomes Pereira",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Sérgio Henrique da Silva Carneiro"
+      ]
+    },
+    {
+      "num_tg": "000527305",
+      "title": "Análise de vulnerabilidade de aeronaves de asas rotativas.",
+      "author": "Kleber Pereira de Araújo Silva",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ary Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "000498912",
+      "title": "Analysis of crack retardation and acceleration in structures under variable loading.",
+      "author": "René Wingeter Bartar",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "César Demétrio Santos",
+        "Sérgio Henrique da Silva Carneiro"
+      ]
+    },
+    {
+      "num_tg": "000498951",
+      "title": "Melhoramento das propriedades da superfície de materiais através da técnica de implantaçăo iônica por imersăo em plasma.",
+      "author": "Fabio Garcia Dias",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Mário Ueda"
+      ]
+    },
+    {
+      "num_tg": "000491337",
+      "title": "Influęncia do efeito de solo sobre as características do aviăo bimotor IPD/PAR 6504.",
+      "author": "Sérgio Guimarăes Cavalcanti",
+      "year": "1967",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Kwei Lien Feng"
+      ]
+    },
+    {
+      "num_tg": "000561786",
+      "title": "Ensaios de fadiga em flexăo de estruturas de colméia madeira papel.",
+      "author": "Mauro Gomes de Paiva Lins de Barros",
+      "year": "1965",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Décio Barbosa Marreco"
+      ]
+    },
+    {
+      "num_tg": "000560616",
+      "title": "Ante-projeto de uma máquina para testes de pavimentaçăo.",
+      "author": "Carlos Alfredo Antonio Reopell",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luiz Cantanhede de Carvalho Almeida Filho"
+      ]
+    },
+    {
+      "num_tg": "000560379",
+      "title": "Influęncia da mistura gasolina-álcool no desgaste de motores pelo método dos traçadores radiotivos.",
+      "author": "Helio de Azevedo",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Fernando Pessôa Rebello",
+        "Mario Alves Guimarăes"
+      ]
+    },
+    {
+      "num_tg": "000559984",
+      "title": "Iluminaçăo de interiores fabris e sua influęncia sobre a produtividade.",
+      "author": "Pedro José Blatkauskas",
+      "year": "1960",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jeremias Chrispim"
+      ]
+    },
+    {
+      "num_tg": "000559920",
+      "title": "Ante-projeto de uma indústria de semi-eixos.",
+      "author": "David Waitman",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Oswaldo Fadigas Fontes Torres"
+      ]
+    },
+    {
+      "num_tg": "000559669",
+      "title": "Ensaio mecânico de resistęncia.",
+      "author": "Olete Maia",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000532980",
+      "title": "Usinagem de metais por erosăo elétrica.",
+      "author": "Paulo Kodaira",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Augusto Benchimol"
+      ]
+    },
+    {
+      "num_tg": "000558925",
+      "title": "Determinaçăo das tensőes residuais devidas a tratamento térmico.",
+      "author": "Luiz Antonio Bartelle",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Júlio Vicente de Souza"
+      ]
+    },
+    {
+      "num_tg": "000559304",
+      "title": "Dilatometria no estudo do fenômeno do crescimento do ferro fundido.",
+      "author": "José de Sá",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000559035",
+      "title": "Influęncia de tratamentos térmicos superficiais sôbre a fadiga.",
+      "author": "Nilson Guiguer",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000559343",
+      "title": "Pesquisa e ensaios em traçăo com fiberglas.",
+      "author": "Carlos Augusto de Azevedo Schinner",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Keith Leonard Charles Legg"
+      ]
+    },
+    {
+      "num_tg": "000566404",
+      "title": "Determinaçăo experimental do fator de concentraçăo de tensőes nas concordâncias de um eixo perfurado em flexăo pura e carregamento exial excęntrico.",
+      "author": "Newton Senre Pereira",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jessen Vidal"
+      ]
+    },
+    {
+      "num_tg": "000566515",
+      "title": "Máquina para ensaio de fadiga de feixe de molas.",
+      "author": "Paulo Lopes Gallindo",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Armando Torloni"
+      ]
+    },
+    {
+      "num_tg": "000566680",
+      "title": "Utilizaçăo de extensômetro de resistęncia elétrica na análise de fraturas por traçăo dinâmica.",
+      "author": "Roberto Brun",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jessen Vidal"
+      ]
+    },
+    {
+      "num_tg": "000565985",
+      "title": "Ensaios de resistęncia do aço da mineraçăo geral do Brasil (Mogí das Cruzes, Săo Paulo, Brasil)",
+      "author": "Waldyr Minchillo",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000566095",
+      "title": "Influęncia do tratamento térmico sobre o comportamento de fadiga de um aço carbono (aço SAE 1040)",
+      "author": "Alexandre Borusiewicz",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000565606",
+      "title": "Efeito da concentaçăo de tensăo nos ensaios de fadiga por flexăo rotativa.",
+      "author": "Antonio Hideto Kobayashi",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Richard Martin Otto Weinbaum"
+      ]
+    },
+    {
+      "num_tg": "000565613",
+      "title": "Ensaio de fadiga com alma em campo de traçăo.",
+      "author": "Helcio Neves Marins",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Hanns J. Maier"
+      ]
+    },
+    {
+      "num_tg": "000565763",
+      "title": "Projeto de um dispositivo universal de fixaçăo para testar estruturas gerais na krouse.",
+      "author": "Délio de Oliveira Araújo",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Hanns J. Maier"
+      ]
+    },
+    {
+      "num_tg": "000565448",
+      "title": "Método redux.",
+      "author": "Mario Corręa da Silva Netto",
+      "year": "1954",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ano de Publicaçăo :"
+      ]
+    }
+  ],
+  "estruturas-aeroespaciais": [
+    {
+      "num_tg": "80670",
+      "title": "Transferęncia de vela solar com múltiplos disparos entre pontos lagrangianos no sistema Sol-Terra do PRTC",
+      "author": "Miguel Henrique Morais dos Santos",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "80062",
+      "title": "Melhorias na distribuiçăo de massas em modelos estruturais de foguetes com base em dados de ensaios",
+      "author": "Gabriel Andrusaitis de Souza",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "airton-nabarrete",
+      "advisors": [
+        "Airton Nabarrete"
+      ]
+    },
+    {
+      "num_tg": "79363",
+      "title": "Ajuste de modelos estruturais dinâmicos com base em dados experimentais de ensaios",
+      "author": "Samuel Cruz Fernandes",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "78808",
+      "title": "Structural analysis of tailored fiber placement composite bolted joints",
+      "author": "Leonardo Gonçalves Chiquita",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "78036",
+      "title": "Estimaçăo de coeficientes aerodinâmicos de uma configuraçăo asa-fuselagem-empenagem de aeronave por redes neurais artificiais",
+      "author": "Lívia Fragoso Pimentel",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "78029",
+      "title": "Reprojeto e otimizaçăo de asa em materiais compósitos para veículo aéreo năo tripulado com aplicaçăo militar",
+      "author": "Jairo da Cunha Bastos Sobrinho",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mariano-andres-arbelo",
+      "advisors": [
+        "Mariano Andrés Arbelo"
+      ]
+    },
+    {
+      "num_tg": "77564",
+      "title": "Dinâmica de veículos flexíveis no domínio do tempo e da frequęncia",
+      "author": "Daniel Diogenes Sousa",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "76455",
+      "title": "Análise estrutural de cascas cilíndricas de material compósito manufaturadas via bobinagem filamentar",
+      "author": "Pedro Vinícius Justo Andrade",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "75204",
+      "title": "Preliminary structural sizing tool: development and integration to an aircraft multidisciplinary design optimization process",
+      "author": "Gabriel Max de Mendonça Abrantes",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "72281",
+      "title": "Abaqus prototyping of a global/local iterative non intrusive coupling: towards real aeronautical applications",
+      "author": "Mateus Toniolli",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "67493",
+      "title": "Optimization method for a crashworthiness finite element model",
+      "author": "Rodrigo Castellari Affonso",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "65201",
+      "title": "Projeto de modelos em escala aeroelástica",
+      "author": "Carlos Monteiro Barbosa Filho",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "63770",
+      "title": "Mediçőes experimentais de condutividades térmicas de compósitos estruturais",
+      "author": "Norton Demeterco Veras de Assis",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Ezio Castejon Garcia"
+      ]
+    },
+    {
+      "num_tg": "63841",
+      "title": "Desenvolvimento de metodologia de identificaçăo de missőes para análise de integridade estrutural de aeronaves",
+      "author": "Danilo de Camargo Branco",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Pazini Brandăo",
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "63830",
+      "title": "Otimizaçăo aero-estrutural na fase de projeto de uma aeronave",
+      "author": "Pedro Langenegger Videiro",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "61757",
+      "title": "Análise do comportamento aeroelástico de asas em material compósito",
+      "author": "Guilherme Ribeiro dos Santos",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "61767",
+      "title": "Determinaçăo da recuperaçăo elástica na fabricaçăo de painéis de dupla curvatura em laminado fibra metal",
+      "author": "Pedro Gonçalves de Moura Jorge",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "61677",
+      "title": "Estudo da técnica de excitaçăo MIMO sine sweep para análise modal experimental",
+      "author": "Tatiane Gonçalves Ramos",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "airton-nabarrete",
+      "advisors": [
+        "Airton Nabarrete"
+      ]
+    },
+    {
+      "num_tg": "60210",
+      "title": "Estudo numérico e experimental de fenômenos de relaxaçăo em juntas compósitas aparafusadas",
+      "author": "Leonardo Augusto da Rosa e Oliveira",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "61690",
+      "title": "Modelagem de elementos finitos para análise estrutural de estruturas soldadas",
+      "author": "Raphael Rodrigues Mata",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564048",
+      "title": "Análise de risco estrutural e confiabilidade de aeronaves.",
+      "author": "Laura Velloso Leal",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000564245",
+      "title": "Desenvolvimento de um trem de pouso principal para a aeronave XIMANGO AMT-100.",
+      "author": "Igor Machado de Souza",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Carlos Miguel Montestruque Vilchez"
+      ]
+    },
+    {
+      "num_tg": "000564134",
+      "title": "Estudo numérico do comportamento estrutural em pós-flambagem de painéis aeronáuticos rebitados e fabricados por tecnologia FSW.",
+      "author": "Isabella Cavallante Franco do Nascimento",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Rizzi"
+      ]
+    },
+    {
+      "num_tg": "000564141",
+      "title": "Finite elemente modeling of the crushing of carbon composite plates using implicit and explicit integration schemes.",
+      "author": "Alexandre Muniz Neves",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000558079",
+      "title": "Mechanical model of the inner ear vestibular apparatus",
+      "author": "Rony Tjioe Chung",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564070",
+      "title": "Metodologia de obtençăo de dados para análise de risco.",
+      "author": "Robson Vieira Magalhăes",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000557485",
+      "title": "Shape control of structures using piezoelectric components.",
+      "author": "Caio dos Santos Guimarăes",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000554511",
+      "title": "Análise dinâmica de estrutura aeronáutica utilizando subestruturaçăo.",
+      "author": "Ednardo Dantas de Oliveira",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "airton-nabarrete",
+      "advisors": [
+        "Airton Nabarrete"
+      ]
+    },
+    {
+      "num_tg": "000554529",
+      "title": "Software para análise estrutural de caixa de torçăo de asa de VANT.",
+      "author": "Gustavo Bonfim Oliveira",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000554575",
+      "title": "Technology evaluation of adaptive wing structures on long range aircraft.",
+      "author": "Thiago Costas Casal Monteiro Silva",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "62918",
+      "title": "Análise dos dados de voo das aeronaves F-5M para determinaçăo de vida em fadiga",
+      "author": "Daniel Ferreira Vieira de Mattos",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior"
+      ]
+    },
+    {
+      "num_tg": "000550510",
+      "title": "Análise estrutural de torres de emergęncia aplicadas em transmissăo de energia elétrica.",
+      "author": "Taryn Cherobim Basilio Silvestre",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000550351",
+      "title": "Aplicaçăo do método de Rayleigh-Ritz na flambagem de placas submetidas ŕ compressăo e flexăo no plano.",
+      "author": "Alex Sandro Maia Fernandes",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Rizzi"
+      ]
+    },
+    {
+      "num_tg": "000550430",
+      "title": "Modelagem do comportamento pós-flambagem de vigas de alma fina, utilizando o programa MSC/NASTRAN.",
+      "author": "José Airton Menezes Filho",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000544042",
+      "title": "Aeroelastic modeling and flutter calculations for a motorglider.",
+      "author": "Antonio Costa Barreto Júnior",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000544218",
+      "title": "Effective parameters identification of 2D orthotropic structures from structural intensity measurements.",
+      "author": "Pedro Lins Meira Quintăo",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jean-Claude Pascal",
+        "Jean-Hugh Thomas"
+      ]
+    },
+    {
+      "num_tg": "000544121",
+      "title": "Elaboraçăo de uma metodologia de cálculo de coeficientes e derivadas estáticas aerodinâmicas de aeronaves baseado em método dos painéis.",
+      "author": "Jaques Saraiva Guerra",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Guilherme Lara Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000544408",
+      "title": "Estudo paramétrico de iniciaçăo de trincas por fadiga em juntas metálicas de fuselagem.",
+      "author": "Átila Silva Zanone",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Abílio Neves Garcia",
+        "Carlos de Moura Neto"
+      ]
+    },
+    {
+      "num_tg": "000544232",
+      "title": "Otimizaçăo topológica de estruturas via método das assíntotas móveis e simulated annealing.",
+      "author": "Gilberto Rebouças Neto",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "José Antônio Hernandes"
+      ]
+    },
+    {
+      "num_tg": "000544081",
+      "title": "Preliminary structural design and analysis of a high altitude hybrid airship.",
+      "author": "Juliano de Oliveira Faria",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000544107",
+      "title": "Projeto de berço de motor para aeronave AMT-100.",
+      "author": "Salvador de Oliveira Ferreira Neto",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ekkehard Carlos Fernando Schubert"
+      ]
+    },
+    {
+      "num_tg": "000542002",
+      "title": "Análise estática e dinâmica, em elementos finitos da empena da bomba BINC-300.",
+      "author": "Thiago Braido Nogueira de Melo",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000542184",
+      "title": "Confiabilidade estrutural aplicada ŕ análise de tolerância ao dano.",
+      "author": "Marcus Vinicius Preisighe Viana",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Alberto Walter da Silva Mello Júnior",
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000539781",
+      "title": "Análise dinâmica da fuselagem posterior de uma aeronave de asa rotativa.",
+      "author": "Alex Evangelista de Almeida",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000539853",
+      "title": "Calibraçăo de modelo de crescimento de trinca para aeronave leve de treinamento.",
+      "author": "Stephanie Christini Gomes Pereira",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Sérgio Henrique da Silva Carneiro"
+      ]
+    },
+    {
+      "num_tg": "000539878",
+      "title": "Efeito das cargas externas sobre as velocidades críticas aeroelásticas de uma aeronave na fase de projeto conceitual.",
+      "author": "Sandro Rondon Rett",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr"
+      ]
+    },
+    {
+      "num_tg": "000527090",
+      "title": "Adaptaçăo de distribuiçőes aerodinâmicas para uso em cargas e aeroelasticidade.",
+      "author": "William Vaz Alencar",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luciano Magno Frágola Barbosa",
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000499079",
+      "title": "Análise teórico-experimental de um painel de alumínio com reforçadores.",
+      "author": "Gennaro Romano",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000562989",
+      "title": "Programa em Afit para cálculo de cavernas.",
+      "author": "Fernando Leme Franco",
+      "year": "1967",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Fernando Venâncio Filho"
+      ]
+    },
+    {
+      "num_tg": "000560480",
+      "title": "Estudo da distribuiçăo de tensőes em vigas vazadas.",
+      "author": "Joăo Gomes",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Fernando Venâncio Filho"
+      ]
+    },
+    {
+      "num_tg": "000559493",
+      "title": "Ante-projeto de um aviăo agrícola e estudo da modificaçăo da estrutura da fuselagem de tubos de aço para uma estrutura de madeira.",
+      "author": "Rubem Damiani Carreirăo",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000559042",
+      "title": "Cálculos sôbre o carregamento em vôo na asa do Bandeirante.",
+      "author": "Levi Henrique",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Keith Leonard Charles Legg"
+      ]
+    },
+    {
+      "num_tg": "000558925",
+      "title": "Determinaçăo das tensőes residuais devidas a tratamento térmico.",
+      "author": "Luiz Antonio Bartelle",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Júlio Vicente de Souza"
+      ]
+    },
+    {
+      "num_tg": "000565953",
+      "title": "Determinaçăo das cargas para o ensaio estático da asa do planador \"IPD-2\"",
+      "author": "Manuel Diogenes de Paula",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Oswaldo Fadigas Fontes Torres"
+      ]
+    },
+    {
+      "num_tg": "000565645",
+      "title": "Ensaio estático da longarina do planador neiva BN-1.",
+      "author": "Joăo Francisco Guerreiro de Castro M. Barbosa",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Hanns J. Maier"
+      ]
+    },
+    {
+      "num_tg": "000565795",
+      "title": "Projeto de uma viga em caixa (box beam)",
+      "author": "Luiz Sapucahy Cavalcanti Lins",
+      "year": "1955",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Octávio Gaspar de Souza Ricardo"
+      ]
+    }
+  ],
+  "metodos-numericos": [
+    {
+      "num_tg": "80780",
+      "title": "Emprego de cubesats em missőes de espaço profundo",
+      "author": "Walter Melhado Arbiol Forne",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Márcio Martins da Silva Costa"
+      ]
+    },
+    {
+      "num_tg": "80778",
+      "title": "Optimizind SAR RAW DATA compression through transform coding and polar quantization",
+      "author": "Rafael Bueno Cardoso",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Felix Dieter Antreich"
+      ]
+    },
+    {
+      "num_tg": "80777",
+      "title": "Primer vector analysis of optimal impulsive orbital maneuvers under conservative and non-conservative perturbations",
+      "author": "Pedro Kuntz Puglia",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80074",
+      "title": "Reynolds averaged navier-stokes simulation of a supersonic mixing chamber",
+      "author": "Joăo Aguiar Moreira Gomes",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva"
+      ]
+    },
+    {
+      "num_tg": "80056",
+      "title": "Simulaçăo numérica do ruído emitido por aerofólios",
+      "author": "Matheus Henrique Rodrigues Lima",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "78827",
+      "title": "Utilizaçăo de redes neurais hamiltonianas para modelagem de problemas mecânicos",
+      "author": "Carlos Eduardo Espírito Santo Magalhăes",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "78751",
+      "title": "Modelagem de mangueira flexível para simulaçăo de reabastecimento em voo",
+      "author": "Égon de Castro Couto",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "67507",
+      "title": "Identificaçăo de vibraçőes acústicas de pequenos motores foguetes",
+      "author": "Dante Ricardo Ambrosio",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "63835",
+      "title": "Estudo da pulverizaçăo e dos jatos sub-expandidos : aplicaçăo ŕ propulsăo espacial",
+      "author": "Marco Batista Xandó de Oliveira",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "63781",
+      "title": "High-speed camera visualization of the flame acceleration in a tube with and without obstacles",
+      "author": "Guilherme Lourenço Mejia",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Ratiba Zitoun",
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "63775",
+      "title": "Desenvolvimento de um método de simulaçăo numérica para um acoplamento fluido - estrutura",
+      "author": "Filipe Rafael Tavares Pereira",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "61549",
+      "title": "Numerical simulation of explosions inside aircraft tanks",
+      "author": "Rafael Guimbra Dias Neves",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "000554496",
+      "title": "Estudo da modelagem utilizada para a simulaçăo numérica de fornos industriais .",
+      "author": "Eduardo Vila Real Mendes",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Nide Geraldo do Couto Ramos Fico Júnior"
+      ]
+    },
+    {
+      "num_tg": "000554615",
+      "title": "Estudo qualitativo da transiçăo ŕ turbulęncia na camada de mistura homogęnea.",
+      "author": "Rafael Cipriano Torres",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jean-Marc Chomaz",
+        "Nide Geraldo do Couto Ramos Fico Júnior"
+      ]
+    },
+    {
+      "num_tg": "000554418",
+      "title": "Simulaçăo numérica da dinâmica de um turboreator com controle e regulaçăo de combustível.",
+      "author": "Otavio Caniçali",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta",
+        "Bogdan Ponizy"
+      ]
+    },
+    {
+      "num_tg": "000550409",
+      "title": "Influence of trailing-edge thickness on flow-induced airfoil noise investigated by DNS.",
+      "author": "Vitor Gabriel Kleine",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Marcos Aurélio Ortega",
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000542073",
+      "title": "Development of a numerical method for a study into the aerobraking of hypersonic vehicles.",
+      "author": "Grégori Pogorzelski",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Jean-Marc Moschetta"
+      ]
+    },
+    {
+      "num_tg": "000499079",
+      "title": "Análise teórico-experimental de um painel de alumínio com reforçadores.",
+      "author": "Gennaro Romano",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000560433",
+      "title": "Tęmpera por induçăo e por chama.",
+      "author": "Jorge Dabori",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Clóvis Bradaschia"
+      ]
+    },
+    {
+      "num_tg": "000566300",
+      "title": "Aplicaçăo do dispositivo lança chamas em motores de alta rotaçăo.",
+      "author": "Gandhi Furtado Marcondes",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000566364",
+      "title": "Contribuiçăo ao estudo do lança chamas.",
+      "author": "Ivan Tenorio Cordeiro",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000566389",
+      "title": "Desenvolvimento do dispositivo lança chamas.",
+      "author": "Manoel Carlos Coelho Godinho de Souza",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000566554",
+      "title": "Pesquisa e desenvolvimento do lança chamas.",
+      "author": "Gabriel Canabarro",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000565881",
+      "title": "Aplicaçăo do dispositivo lança chamas num motor studebaker.",
+      "author": "Fortunato Rino Tomaso Piscetta",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000565899",
+      "title": "Aplicaçăo do lança chamas em motores de alta rotaçăo.",
+      "author": "José Joăo Sokolnik",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Arthur P. Simonds",
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000565921",
+      "title": "Desenvolvimento de tipo de lança chamas.",
+      "author": "Altino dos Santos Magalhăes",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Rogério Gomes de Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000565409",
+      "title": "Distribuiçăo das cargas nas juntas excentricas.",
+      "author": "Nilson Marques de Almeida",
+      "year": "1954",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ano de Publicaçăo :"
+      ]
+    }
+  ],
+  "propulsao-foguetes": [
+    {
+      "num_tg": "80758",
+      "title": "Projeto e otimizaçăo de motor-foguete a propelente híbrido para uso em lançadores multiestágio",
+      "author": "Artur Gorlach Lira",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luiz Gustavo Muniz do Nascimento"
+      ]
+    },
+    {
+      "num_tg": "80043",
+      "title": "Proposta e implementaçăo de modelos matemáticos para partida e desligamento de câmaras de empuxo de motores-foguete a propelente líquido",
+      "author": "Lucas Ramalho Rocha",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Leonardo Henrique Gouvęa"
+      ]
+    },
+    {
+      "num_tg": "79983",
+      "title": "Projeto de bancada de ensaio de setor de câmara de combustăo de turbinas a gás",
+      "author": "Pedro Felipe Silva Batista",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "cristiane-aparecida-martins",
+      "advisors": [
+        "Cristiane Aparecida Martins"
+      ]
+    },
+    {
+      "num_tg": "79263",
+      "title": "Análise de modelos de queima erosiva em motores foguete a propelente sólido",
+      "author": "Milon de Castro Alves",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Rene Francisco Boschi Gonçalves"
+      ]
+    },
+    {
+      "num_tg": "79220",
+      "title": "Desenvolvimento de software para cálculo preliminar de motor foguete híbrido",
+      "author": "Artur Noronha Albuquerque Cunha",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Rene Francisco Boschi Gonçalves"
+      ]
+    },
+    {
+      "num_tg": "79395",
+      "title": "Análise térmica de formulaçőes de combustíveis aditivados com boro empregados em motores aspirados com propelente sólido",
+      "author": "Felipe Artur Ramos",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jose Atilio Fritz Fidel Rocco"
+      ]
+    },
+    {
+      "num_tg": "78834",
+      "title": "Estudo da propagaçăo de trincas no aço maraging para aplicaçăo aeroespacial",
+      "author": "Lucas Soares Rodrigues",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maria Margareth da Silva"
+      ]
+    },
+    {
+      "num_tg": "78837",
+      "title": "Investigaçăo analítica e experimental de diferentes sistemas de injeçăo para motores-foguete a propelente líquido",
+      "author": "Matheus Rodrigues Gotelip",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Leonardo Henrique Gouvęa"
+      ]
+    },
+    {
+      "num_tg": "78835",
+      "title": "Pré-dimensionamento de um motor foguete a propelente sólido em python",
+      "author": "Matheus Bernini Romanha",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Rene Francisco Boschi Gonçalves"
+      ]
+    },
+    {
+      "num_tg": "79100",
+      "title": "Projeto de motor foguete monopropelente com sistema de controle de empuxo",
+      "author": "Davi Silva Nogueira Gomes",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Leonardo Henrique Gouvęa"
+      ]
+    },
+    {
+      "num_tg": "78098",
+      "title": "Estudos de melhorias da taxa de regressăo do combustível sólido em motores-foguete híbridos",
+      "author": "Renan Bispo Salvador",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Jose Atilio Fritz Fidel Rocco"
+      ]
+    },
+    {
+      "num_tg": "78028",
+      "title": "Solid rocket motor internal ballistics simulation considering a 3D propellant grain geometry",
+      "author": "Arthur Amaral Cavalcanti",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Rene Francisco Boschi Gonçalves"
+      ]
+    },
+    {
+      "num_tg": "77596",
+      "title": "Análise da quantidade ideal de agente de ligaçăo em um propelente sólido compósito",
+      "author": "Daniel Chin",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Koshun Iha"
+      ]
+    },
+    {
+      "num_tg": "76439",
+      "title": "Estudo de motor foguete a propelente líquido alimentado por bombas elétricas",
+      "author": "Nicolas Seoane Miquelin",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Cleverson Bringhenti"
+      ]
+    },
+    {
+      "num_tg": "76485",
+      "title": "Projeto de câmara de combustăo de motor foguete a propelente líquido de 25 kN considerando uso de bomba.",
+      "author": "Davi Mendes Tenorio",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "tiago-barbosa-de-araujo",
+      "advisors": [
+        "Tiago Barbosa de Araújo"
+      ]
+    },
+    {
+      "num_tg": "76410",
+      "title": "Projeto de câmara de combustăo de motor foguete ŕ propulsăo líquida de 25kN pressurizado por tanque",
+      "author": "Arthur Durigan Bahdur",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "tiago-barbosa-de-araujo",
+      "advisors": [
+        "Tiago Barbosa de Araújo"
+      ]
+    },
+    {
+      "num_tg": "76491",
+      "title": "Estudo numérico de escoamento hipersônico 2D em modelo scramjet",
+      "author": "Rafael José Cândido de Saboya",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Dermeval Carinhana Junior",
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "75315",
+      "title": "Estudo de queima erosiva em motores foguete a propelente sólido",
+      "author": "Felipe Yoody Naruki",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Susane Ribeiro Gomes"
+      ]
+    },
+    {
+      "num_tg": "73843",
+      "title": "Estudo de motor sólido para foguetes de sondagem baseado em epóxi e nitrato de potássio como oxidante",
+      "author": "Márcio Fernando da Justa Sena",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jose Atilio Fritz Fidel Rocco"
+      ]
+    },
+    {
+      "num_tg": "72540",
+      "title": "Análise visual de instabilidade de combustăo",
+      "author": "Ronaldo Chaves Reis",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "72534",
+      "title": "Especificaçăo e projeto da câmara calorimétrica para o motor foguete L75",
+      "author": "Bruno Vianna de Ferreira Bandeira",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Koshun Iha"
+      ]
+    },
+    {
+      "num_tg": "72455",
+      "title": "Abordagem de engenharia de sistemas na análise da tubeira do motor L75",
+      "author": "Guilherme Ferreira Lima Fernandez",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "69625",
+      "title": "Simulaçăo e sistema de navegaçăo integrados para projeto de foguete de sondagem",
+      "author": "Dalton Felipe de Menezes",
+      "year": "2015",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "69678",
+      "title": "Projeto de câmara de combustăo flameless para turbinas a gás de aplicaçăo aeronáutica",
+      "author": "Henrique Katsuhiro Fugimoto",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "67526",
+      "title": "Avaliaçăo da influęncia da folga de topo em uma turbina axial projetada para operaçăo em booster de motor foguete a propelente líquido utilizando cálculos de escoamento 1D e 3D",
+      "author": "Luiz Henrique Lindquist Whitacker",
+      "year": "2014",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Jesuino Takachi Tomita"
+      ]
+    },
+    {
+      "num_tg": "67488",
+      "title": "Modelagem alternativa para projeto de gerador de gás de MFPL de ciclo aberto",
+      "author": "Antonio Vinicius Diniz Merladet",
+      "year": "2014",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava",
+        "Cristiane Aparecida Martins"
+      ]
+    },
+    {
+      "num_tg": "63897",
+      "title": "Estudo de concepçăo do 3ş estágio do VLM a propelente líquido",
+      "author": "Daniel Ferreira Viotti",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "63825",
+      "title": "Projeto Preliminar do motor foguete a propelente sólido S54 para terceiro estágio do VLM-1",
+      "author": "Rodrigo de Melo Silveira",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "61603",
+      "title": "Estudos de CFD de um veículo hipersônico com motor SCRAMJET",
+      "author": "Marco Antônio Barros da Silva Bezerra",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Nide Geraldo do Couto Ramos Fico Júnior",
+        "Maurício Antoniazzi Pinheiro Rosa"
+      ]
+    },
+    {
+      "num_tg": "61809",
+      "title": "Simulaçăo computacional da queima do hidrogęnio em uma câmara de combustăo de turbina a gás aeronáutica",
+      "author": "Rodrigo Barbalat Viana",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jose Atilio Fritz Fidel Rocco"
+      ]
+    },
+    {
+      "num_tg": "000554464",
+      "title": "Projeto preliminar de um motor-foguete híbrido.",
+      "author": "Susane Ribeiro Gomes",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jose Atilio Fritz Fidel Rocco"
+      ]
+    },
+    {
+      "num_tg": "000539846",
+      "title": "Projeto preliminar de câmara de empuxo de motor-foguete a propelente líquido otimizada.",
+      "author": "Leonardo Bartholomeu do Nascimento",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Fausto Ivan Barbosa",
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "000527122",
+      "title": "Projeto preliminar de injetor helicoidal para motor foguete a propelente líquido.",
+      "author": "Ricardo de Paula Carvalhal",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "000527226",
+      "title": "Simulaçăo do processo de evaporaçăo e reaçăo em câmara de combustăo a propelente líquido.",
+      "author": "André Batista Menezes",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava",
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "000499054",
+      "title": "Projeto de câmara de combustăo de uma micro-turbina a gás.",
+      "author": "Alan Gimenez Ribeiro",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "000498969",
+      "title": "Simulaçăo de escoamentos monofásicos em tubeiras axissimétricas de motores-foguete.",
+      "author": "Henrique Lemos de Faria",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava",
+        "Joăo Luiz Filgueiras de Azevedo",
+        "Fausto Ivan Barbosa"
+      ]
+    }
+  ],
+  "propulsao-aeronautica": [
+    {
+      "num_tg": "79382",
+      "title": "Estimativa simultânea da curva de traçăo de um motor turbofan e da polar de arrasto ŕ partir de ensaios em voo",
+      "author": "Fernando Alves Domingos",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio Luiz Cardoso Ribeiro"
+      ]
+    },
+    {
+      "num_tg": "76485",
+      "title": "Projeto de câmara de combustăo de motor foguete a propelente líquido de 25 kN considerando uso de bomba.",
+      "author": "Davi Mendes Tenorio",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "tiago-barbosa-de-araujo",
+      "advisors": [
+        "Tiago Barbosa de Araújo"
+      ]
+    },
+    {
+      "num_tg": "76410",
+      "title": "Projeto de câmara de combustăo de motor foguete ŕ propulsăo líquida de 25kN pressurizado por tanque",
+      "author": "Arthur Durigan Bahdur",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "tiago-barbosa-de-araujo",
+      "advisors": [
+        "Tiago Barbosa de Araújo"
+      ]
+    },
+    {
+      "num_tg": "73899",
+      "title": "Análise de emissőes de poluentes em motores turbofan em funçăo do aumento da razăo de passagem.",
+      "author": "Miguel Augusto de Bortoli Saggin",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "69678",
+      "title": "Projeto de câmara de combustăo flameless para turbinas a gás de aplicaçăo aeronáutica",
+      "author": "Henrique Katsuhiro Fugimoto",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "61790",
+      "title": "Intelligent mode shape recognition : an application to turbine blades",
+      "author": "Mauricio Maués Bergh",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra",
+        "Joseph Morlier"
+      ]
+    },
+    {
+      "num_tg": "000544257",
+      "title": "Development and design of a pneumatic device for short duration throttling of the compressor of the LARZAC 04 turbojet engine.",
+      "author": "Ricardo Pedroso Ricci",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Dieter Peitsch",
+        "Pedro Teixeira Lacava"
+      ]
+    },
+    {
+      "num_tg": "000539940",
+      "title": "Turbofan preliminary design for regional aircraft case study.",
+      "author": "Rafael dos Santos Silva",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Roberto Barbosa"
+      ]
+    },
+    {
+      "num_tg": "000498937",
+      "title": "Desenvolvimento de uma metodologia para a integraçăo do conjunto motopropulsor em asas de aeronaves de transporte transônico utilizando técnicas de aerodinâmica computacional e projeto inverso.",
+      "author": "Joăo Francisco Alves Borges",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000499054",
+      "title": "Projeto de câmara de combustăo de uma micro-turbina a gás.",
+      "author": "Alan Gimenez Ribeiro",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "pedro-teixeira-lacava",
+      "advisors": [
+        "Pedro Teixeira Lacava"
+      ]
+    }
+  ],
+  "propulsao-eletrica": [
+    {
+      "num_tg": "80082",
+      "title": "Análise dos desafios regulatórios brasileiros das aeronaves eVTOL",
+      "author": "Jhonny Kenji Arashiro",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Natália Jodas"
+      ]
+    },
+    {
+      "num_tg": "79360",
+      "title": "Modelagem e simulaçăo de aeronaves EVTOL",
+      "author": "Anna Karenina Pereira Arantes de Arruda Câmara",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "antonio-b-guimaraes-neto",
+      "advisors": [
+        "Antônio Bernardo Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "79379",
+      "title": "Revisăo de arquiteturas aero propulsivas visando a aplicaçăo em transporte aéreo urbano elétrico",
+      "author": "Gustavo Novakoski Schuch Ortiz",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    }
+  ],
+  "hipersonico-reentrada": [
+    {
+      "num_tg": "80757",
+      "title": "Estimaçăo do fluxo de calor na superfície externa de veículos espaciais de reentrada na atmosfera",
+      "author": "Vinícius Bonavides de Castro Campos",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Elisan dos Santos Magalhăes"
+      ]
+    },
+    {
+      "num_tg": "80723",
+      "title": "Operational envelope characterization of the T5 shock tunnel operating as a shock tube",
+      "author": "Luigi Galvan Peceguini",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva"
+      ]
+    },
+    {
+      "num_tg": "79971",
+      "title": "Design e análise aerodinâmica de um veículo planador hipersônico com geometria waverider nas fases subsônica e supersônica do voo",
+      "author": "Natan Campistano de Mello",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "vinicius-malatesta",
+      "advisors": [
+        "Vinicius Malatesta"
+      ]
+    },
+    {
+      "num_tg": "78824",
+      "title": "Evaluation of passive control systems for shock wave boundary layer interaction (SWBLI) within a supersonic air inlet",
+      "author": "Ana Flávia da Silva Tuan",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "vinicius-malatesta",
+      "advisors": [
+        "Vinicius Malatesta"
+      ]
+    },
+    {
+      "num_tg": "78115",
+      "title": "Estruturaçăo da arquitetura conceitual de um veículo hipersônico utilizando engenharia de sistemas baseada em modelos",
+      "author": "Walter Diniz da Silva Henriques",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "77597",
+      "title": "Modelo de impacto de corpo cilíndrico com a água",
+      "author": "Gabriel de Oliveira Castellőes",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "76448",
+      "title": "Estudo das condiçőes críticas do escoamento na parte frontal e nas rampas de compressăo do veículo hipersônico 14-X",
+      "author": "William Veber Moisés da Silva",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Valéria Serrano Faillace Oliveira Leite"
+      ]
+    },
+    {
+      "num_tg": "76491",
+      "title": "Estudo numérico de escoamento hipersônico 2D em modelo scramjet",
+      "author": "Rafael José Cândido de Saboya",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Dermeval Carinhana Junior",
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "73793",
+      "title": "Estimativa de aquecimento aerodinâmico de veículos orbitais e sub-orbitais com ângulo de ataque năo-nulo",
+      "author": "Caio Victor Lima da Silva",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Cláudia Regina de Andrade"
+      ]
+    },
+    {
+      "num_tg": "67574",
+      "title": "Estudos aerodinâmicos para caracterizaçăo de ambiente térmico em veículos espaciais e suborbitais",
+      "author": "Ruan Ramon Penha dos Passos Pereira",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva"
+      ]
+    },
+    {
+      "num_tg": "67438",
+      "title": "Projeto conceitual do sistema de proteçăo térmica integrada do satélite SARA",
+      "author": "Rogério Miguez Ribas Junior",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "61603",
+      "title": "Estudos de CFD de um veículo hipersônico com motor SCRAMJET",
+      "author": "Marco Antônio Barros da Silva Bezerra",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Nide Geraldo do Couto Ramos Fico Júnior",
+        "Maurício Antoniazzi Pinheiro Rosa"
+      ]
+    },
+    {
+      "num_tg": "000554543",
+      "title": "Escoamento externo de um corpo de reentrada dinamicamente estável : estudo preliminar de trajetória e cálculo dos coeficientes aerodinâmicos.",
+      "author": "Paulo Santos Rigoli",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "000550369",
+      "title": "Integraçăo de lasers TEA de CO2 ao túnel de vento hipersônico T3 para o ensaio de veículos propulsionados por laser.",
+      "author": "André Carlos Fraile Júnior",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Koshun Iha",
+        "Marco Antonio Sala Minucci"
+      ]
+    },
+    {
+      "num_tg": "000544178",
+      "title": "Computation of damping aerodynamic coefficients about a 3D hypersonic vehicle.",
+      "author": "Danilo Mayer Oliveira",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000544099",
+      "title": "Distribution of pressure over the forebody of a reentry vehicle using non-local methods.",
+      "author": "José Augusto Mazzoni Martins Ferreira",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000542073",
+      "title": "Development of a numerical method for a study into the aerobraking of hypersonic vehicles.",
+      "author": "Grégori Pogorzelski",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Jean-Marc Moschetta"
+      ]
+    },
+    {
+      "num_tg": "000539932",
+      "title": "Design of a TPS re-entry experiment with active cooled sharp edge and its integration into the vehicle structure.",
+      "author": "Mariana de Sousa Silva",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000527233",
+      "title": "Aerodynamic analysis of a re-entry capsule.",
+      "author": "Rodrigo Vieira Miranda",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Nide Geraldo do Couto Ramos Fico Júnior",
+        "Thino Eggers"
+      ]
+    },
+    {
+      "num_tg": "000527186",
+      "title": "Desenvolvimento de sensores de fluxo de calor de filme fino de platina para aplicaçăo em escoamentos hipersônicos de alta entalpia.",
+      "author": "Roberto da Cunha Follador",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero"
+      ]
+    },
+    {
+      "num_tg": "000527312",
+      "title": "Development and analysis of a ground impact attenuator for the re-entry capsule SARA.",
+      "author": "Flávio José Silvestre",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Thermann Hald",
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000498990",
+      "title": "Análise e simulaçăo de escoamentos hipersônicos em condiçăo de năo equilíbrio químico.",
+      "author": "Fábio Rodrigues Guzzo",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Luiz Filgueiras de Azevedo",
+        "Marisa Roberto"
+      ]
+    },
+    {
+      "num_tg": "000499015",
+      "title": "Suporte para modelo a ser ensaiado no túnel de choque hipersônico do IEAv.",
+      "author": "Diego Buzetti Milano",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Marco Antonio Sala Minucci"
+      ]
+    },
+    {
+      "num_tg": "000560551",
+      "title": "Projeto e construçăo de um tubo de choque.",
+      "author": "Amaury Torres de Miranda",
+      "year": "1961",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jacek Piotr Gorecki"
+      ]
+    }
+  ],
+  "mecanica-orbital": [
+    {
+      "num_tg": "80702",
+      "title": "Educational orbit simulation with generative AI agentic workflow and virtual reality visualisation",
+      "author": "Eduardo Moura Zindani",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Lucas Oliveira Barbacovi"
+      ]
+    },
+    {
+      "num_tg": "80762",
+      "title": "Estudo de manobras orbitais impulsivas para mitigaçăo de colisőes entre satélites em órbita baixa",
+      "author": "Fernanda Helena Lobato Santos",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80777",
+      "title": "Primer vector analysis of optimal impulsive orbital maneuvers under conservative and non-conservative perturbations",
+      "author": "Pedro Kuntz Puglia",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80670",
+      "title": "Transferęncia de vela solar com múltiplos disparos entre pontos lagrangianos no sistema Sol-Terra do PRTC",
+      "author": "Miguel Henrique Morais dos Santos",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "79996",
+      "title": "Álgebra diferencial no problema restrito de tręs corpos : análise de pontos de equilíbrio e órbitas periódicas DRO",
+      "author": "Gustavo Diniz Misk",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "80073",
+      "title": "Implementaçăo do método de colocaçăo direta para otimizaçăo de trajetória usando o software MATLAB",
+      "author": "Henrique Silva Simplicio",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "79981",
+      "title": "Métodos clássicos de determinaçăo preliminar de órbita e aplicaçőes",
+      "author": "Arthur Queiroz Ramos",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "luiz-arthur-gagg-filho",
+      "advisors": [
+        "Luiz Arthur Gagg Filho"
+      ]
+    },
+    {
+      "num_tg": "80455",
+      "title": "Perilune Poincaré Maps as a station-keeping approach for NRHOs",
+      "author": "Caio Jansen Accioly",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "79356",
+      "title": "Análise de comunicaçőes entre satélites para formaçőes em voo",
+      "author": "Pedro Henrique Saliba Pereira Ramalho",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "78842",
+      "title": "Quantum algorithm based on the truncated taylor series for solving linearized equations of the relative motion",
+      "author": "Rodrigo Pires Ferreira",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "André Jorge Carvalho Chaves"
+      ]
+    },
+    {
+      "num_tg": "78825",
+      "title": "Study of multiple-stage trajectories from the SL1 to SL4 points using solar sails",
+      "author": "Ana Letícia de Lima dos Santos",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "78102",
+      "title": "Exploraçăo da diversidade de soluçőes do problema de Lambert estendido e metodologias de obtençăo de soluçőes",
+      "author": "Leonardo Domingos e Luna Silva",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "78038",
+      "title": "Use of solar sails for transfer trajectories between equilibrium points in the restricted three-body problem",
+      "author": "Gustavo de Souza Medeiros",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "77601",
+      "title": "Otimizaçăo de parâmetros em transferęncias Terra-Marte com swing-by propulsado por Vęnus",
+      "author": "Francisco Matheus Moreira de Castro",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "maisa-de-oliveira-terra",
+      "advisors": [
+        "Maisa de Oliveira Terra"
+      ]
+    },
+    {
+      "num_tg": "76482",
+      "title": "Multiobjective optimization based on metaheuristic methods applied to satellite orbit project",
+      "author": "Lucas Lupepsa Latyki",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "75200",
+      "title": "Aproximaçăo patched-conic lunar com manobra de swing-by propulsado",
+      "author": "Francisco Rebouﻝas de Azevedo Jﻲnior",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "72538",
+      "title": "Análise orbital de um cubesat - 27U",
+      "author": "Lucas Galembeck",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "72535",
+      "title": "Otimizaçăo do pouso do caça F-16 utilizando um método direto",
+      "author": "Daniel Caueh Dunaiski Figueira Leal",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "69625",
+      "title": "Simulaçăo e sistema de navegaçăo integrados para projeto de foguete de sondagem",
+      "author": "Dalton Felipe de Menezes",
+      "year": "2015",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "67459",
+      "title": "Estudo de constelaçőes de satélites para sistemas de coleta de dados.",
+      "author": "Eduardo Rodrigues Silva Filho",
+      "year": "2014",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "67517",
+      "title": "Projeto aerodinâmico de mísseis com ęnfase em otimizaçăo de desempenho",
+      "author": "Eduardo Jourdan de Araújo Jorge Filho",
+      "year": "2014",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Adson Agrico de Paula"
+      ]
+    },
+    {
+      "num_tg": "67404",
+      "title": "Análise e otimizaçăo de desempenho de missőes pré-programadas para aeronaves a pistăo",
+      "author": "Bruno Henrique Flores dos Santos Mattos",
+      "year": "2014",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "63809",
+      "title": "Otimizaçăo de trajetória de um veículo lançador de satélites empregando métodos pseudo-espectrais",
+      "author": "Danilo José Franzim Miranda",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto Kawakami Harrop Galvăo"
+      ]
+    },
+    {
+      "num_tg": "61712",
+      "title": "Análise comparativa de métodos de ajuste de lançamento de foguetes de sondagem",
+      "author": "Jardel Pereira Correa Peres",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "59050",
+      "title": "Ferramenta de otimizaçăo da trajetória da aeronave em regiőes montanhosas",
+      "author": "Bruno Masayoshi Matsumoto",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "000542073",
+      "title": "Development of a numerical method for a study into the aerobraking of hypersonic vehicles.",
+      "author": "Grégori Pogorzelski",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Jean-Marc Moschetta"
+      ]
+    },
+    {
+      "num_tg": "000541891",
+      "title": "Low-thrust transfers from the earth to libration points orbits with a constrain in the thrust direction.",
+      "author": "Pedro Fernando Almeida Di Donato",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000527179",
+      "title": "Projeto de sistema de controle para a decolagem de alvo aéreo manobrável.",
+      "author": "José Renato de Araujo Costa",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000499086",
+      "title": "Estudo numérico de órbitas ressonantes no movimento de satélites artificiais.",
+      "author": "Artur Gomes da Silva Neto",
+      "year": "2003",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes",
+        "Donizeti de Andrade"
+      ]
+    }
+  ],
+  "satelites": [
+    {
+      "num_tg": "80779",
+      "title": "Controle de atitude de satélite em campo magnético năo uniforme",
+      "author": "Raphael Batista Rosendo",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "luiz-arthur-gagg-filho",
+      "advisors": [
+        "Luiz Arthur Gagg Filho"
+      ]
+    },
+    {
+      "num_tg": "80780",
+      "title": "Emprego de cubesats em missőes de espaço profundo",
+      "author": "Walter Melhado Arbiol Forne",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Márcio Martins da Silva Costa"
+      ]
+    },
+    {
+      "num_tg": "80774",
+      "title": "Projeto conceitual de missăo espacial para vigilância subaquática e monitoramento da costa litornânea brasileira",
+      "author": "Maria Beatriz Fiorin Sousa Barros",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80076",
+      "title": "O uso de balőes estratosféricos para o lançamento de microssatélites",
+      "author": "Juan Marco de Jesus Libonatti",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Inﻕcio Malmonge Martin"
+      ]
+    },
+    {
+      "num_tg": "79310",
+      "title": "Um mapeamento de literatura e de fundamentaçăo teórica para o segmento solo de lançamentos de microssatélites",
+      "author": "Matheus Silva Martins Mota",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Adilson Marques da Cunha"
+      ]
+    },
+    {
+      "num_tg": "78829",
+      "title": "Estruturaçăo do conceito de operaçăo de um nanossatélite de observaçăo aplicado ao combate de incęndios florestais baseado no ANSI/AIAA G-043B-2018",
+      "author": "Israel dos Anjos Godinho",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78030",
+      "title": "Sistema de controle de atitude para um veículo de sondagem",
+      "author": "Wallace Ferreira Teﮩfilo",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "77599",
+      "title": "Constelaçőes de pequenos satélites para monitoramento da fronteira terrestre brasileira",
+      "author": "Mateus de Castro Silva",
+      "year": "2020",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "77620",
+      "title": "Proposta de framework SMAD-capella utilizando como estudo de caso o cubesat raincube",
+      "author": "Fernando Oliveira Lisboa",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "76458",
+      "title": "Estudo de lógica fuzzy aplicada ao projeto de controle de atitude da missăo SPORT",
+      "author": "Vítor Andrade dos Santos",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "76539",
+      "title": "Stakeholder categorization and analysis applied to an aerospace mission",
+      "author": "Filipe José Oliveira Saboia",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "75265",
+      "title": "Modelamento e projeto térmico de CubeSats: missăo SPORT",
+      "author": "Kauę Felipe Neves",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Kukulka de Albuquerque"
+      ]
+    },
+    {
+      "num_tg": "75271",
+      "title": "Análise funcional de uma constelaçăo de pequenos satélites de comunicaçőes para o exército brasileiro",
+      "author": "Douglas Estevam Casale",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "73910",
+      "title": "Algoritmo de identificaçăo e determinaçăo de atitude para sensor de estrelas aplicável a pequenos satélites",
+      "author": "Pedro Kukulka de Albuquerque",
+      "year": "2017",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Valdemir Carrara"
+      ]
+    },
+    {
+      "num_tg": "72538",
+      "title": "Análise orbital de um cubesat - 27U",
+      "author": "Lucas Galembeck",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "72537",
+      "title": "Cubesat hazard analysis using STPA",
+      "author": "Leandro Scopel Campagnaro",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "65340",
+      "title": "Análise e identificaçăo de requisitos oriundos do mercado de microssatélites - o caso VLM-1",
+      "author": "Luiz Gustavo Muniz do Nascimento",
+      "year": "2013",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Gonzaga Trabasso"
+      ]
+    },
+    {
+      "num_tg": "65338",
+      "title": "Procedimento experimental para análise aerodinâmica do Veículo Lançador de Microssatélites VLM-1",
+      "author": "Henrique Oliveira da Mata",
+      "year": "2013",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva",
+        "Joăo Batista Pessoa Falcăo Filho"
+      ]
+    },
+    {
+      "num_tg": "63842",
+      "title": "Desenvolvimento de algoritmo de controle para o Veículo Lançador de Microssatélites (VLM)",
+      "author": "Henrique da Silva Daitx",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Karl Heinz Kienitz",
+        "Fausto de Oliveira Ramos"
+      ]
+    },
+    {
+      "num_tg": "63798",
+      "title": "Desenvolvimento de ferramenta computacional para o uso na concepçăo de veículos lançadores e aplicaçăo ao veículo lançador de microssatélites",
+      "author": "Carlos Henrique Melo Souza",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "63897",
+      "title": "Estudo de concepçăo do 3ş estágio do VLM a propelente líquido",
+      "author": "Daniel Ferreira Viotti",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "63896",
+      "title": "Projeto de um sistema de determinaçăo de atitude de baixo custo para o satélite ITASAT-1",
+      "author": "Levi Maia Araújo",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Davi Antônio dos Santos"
+      ]
+    },
+    {
+      "num_tg": "63797",
+      "title": "Seleçăo de propulsores elétricos para uso em CubeSats",
+      "author": "Humberto Consolo Holanda",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "André Luiz Pierre Matei"
+      ]
+    },
+    {
+      "num_tg": "63825",
+      "title": "Projeto Preliminar do motor foguete a propelente sólido S54 para terceiro estágio do VLM-1",
+      "author": "Rodrigo de Melo Silveira",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "61618",
+      "title": "Estimaçăo de atitude utilizando sistemas embarcados de baixo custo : estudo de caso do ArduPilot Mega",
+      "author": "André Ferreira da Silva",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    }
+  ],
+  "projeto-aeroespacial": [
+    {
+      "num_tg": "80671",
+      "title": "Análise de risco de projetos espaciais utilizando Redes Bayesianas",
+      "author": "Thyago Leal Silva",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Moacyr Machado Cardoso Junior"
+      ]
+    },
+    {
+      "num_tg": "80780",
+      "title": "Emprego de cubesats em missőes de espaço profundo",
+      "author": "Walter Melhado Arbiol Forne",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Márcio Martins da Silva Costa"
+      ]
+    },
+    {
+      "num_tg": "80762",
+      "title": "Estudo de manobras orbitais impulsivas para mitigaçăo de colisőes entre satélites em órbita baixa",
+      "author": "Fernanda Helena Lobato Santos",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80763",
+      "title": "Uso de LLMs para análise de riscos em projetos aeroespaciais através de um método híbrido Delphi-DEMATEL",
+      "author": "Joăo Pedro Couto Vieira",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Moacyr Machado Cardoso Junior"
+      ]
+    },
+    {
+      "num_tg": "80706",
+      "title": "Construction of a metaverse integrated with digital twins and physical sensors",
+      "author": "Marlon Wendrer Jacinto",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Lucas Oliveira Barbacovi"
+      ]
+    },
+    {
+      "num_tg": "80707",
+      "title": "Desenvolvimento de uma ferramenta de trimagem para compensaçăo de assimetria de incidęncia nas asas de aeronaves",
+      "author": "Mathias Cauet Martins de Sousa Damasceno",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Adson Agrico de Paula"
+      ]
+    },
+    {
+      "num_tg": "80756",
+      "title": "Metodologia de otimizaçăo para sistemas de comandos de voo em aeronaves de asas rotativas",
+      "author": "Rafael Duarte Rocha",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "80705",
+      "title": "Plugin for analysis and monitoring of simulation in the Arena Concept.IO",
+      "author": "Marcus Gabriel de Almeida Nunes",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Lucas Oliveira Barbacovi"
+      ]
+    },
+    {
+      "num_tg": "80753",
+      "title": "Projeto de elementos de rugosidade para aumento de sustentaçăo máxima de aerofólios",
+      "author": "Henrique Campos Silva",
+      "year": "2025",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "80072",
+      "title": "Projeto de um foguete para estudos de dinâmica e controle",
+      "author": "Henrique Rasia Montenegro",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Guilherme Soares e Silva"
+      ]
+    },
+    {
+      "num_tg": "79987",
+      "title": "Estudo de compromisso entre risco e desempenho de aeronaves rádio controladas",
+      "author": "Iann Sá de Medeiros e Silva",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "80092",
+      "title": "Métodos computacionais de resoluçăo de problemas de controle ótimo aplicados ŕ determinaçăo de trajetórias aeroespaciais",
+      "author": "Rodrigo Araújo Holanda",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Tiara Martini dos Santos"
+      ]
+    },
+    {
+      "num_tg": "80084",
+      "title": "Modelagem de gęmeo digital de recursos de emprego aéreo em ambiente de simulaçăo",
+      "author": "Leonardo Vásques Sailer",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "80091",
+      "title": "Using simulink® modelling for auto code generation complying with airborne software certification standards",
+      "author": "Rafael Modesto de Sousa Moura",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Johnny Cardoso Marques"
+      ]
+    },
+    {
+      "num_tg": "80079",
+      "title": "Validaçăo de software para projeto conceitual de aeronaves de transporte",
+      "author": "Beatriz Feitoza Paulo",
+      "year": "2024",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "79082",
+      "title": "Estruturaçăo de gęmeos digitais do CEI para criaçăo de metaverso com realidade cruzada",
+      "author": "Matheus Martins Godinho",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "79385",
+      "title": "Projeto sistęmico de foguete de treinamento com propulsăo líquida para o Centro de Lançamento de Alcântara",
+      "author": "Lúcio Martins de Souza Ramos",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "79079",
+      "title": "Vantagens e desafios tecnológicos para a viabilizaçăo de um elevador espacial",
+      "author": "Luciano Jacob de Araujo Filho",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "79393",
+      "title": "Ferramenta de projeto conceitual de aeronaves de ataque năo tripuladas",
+      "author": "Diego Rabelo Mendes Gonçalves",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "79379",
+      "title": "Revisăo de arquiteturas aero propulsivas visando a aplicaçăo em transporte aéreo urbano elétrico",
+      "author": "Gustavo Novakoski Schuch Ortiz",
+      "year": "2023",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "78843",
+      "title": "Adding simulation capability to systemic models",
+      "author": "Rubens Miguel Gomes Aguiar",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78841",
+      "title": "Análise de métricas para validaçăo de simulaçăo sistęmica",
+      "author": "Rafael Purim de Azevedo",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78826",
+      "title": "Conceptual project of a space surveillance and tracking system (SST) : a case study for the ITA space center",
+      "author": "Carlos Eduardo de Sá Amaral Oliveira",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "78829",
+      "title": "Estruturaçăo do conceito de operaçăo de um nanossatélite de observaçăo aplicado ao combate de incęndios florestais baseado no ANSI/AIAA G-043B-2018",
+      "author": "Israel dos Anjos Godinho",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78752",
+      "title": "Estudo da ferramenta SOLIS/STK® para validaçăo de leis de controle dos satélites do Centro Espacial ITA",
+      "author": "Gustavo Azolin",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "78821",
+      "title": "Concepçăo de um framework de integraçăo e validaçăo entre as ferramentas de projeto aeronáutico Design Tools e SUAVE",
+      "author": "Nuno Alvares de Paula Monteiro",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Antônio Dantas de Jesus Ferreira"
+      ]
+    },
+    {
+      "num_tg": "78718",
+      "title": "Estudo da otimizaçăo do plano de manutençăo de sistemas críticos, sujeito a restriçőes de segurança",
+      "author": "Brunno Campos Martins Barbosa",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Guilherme Conceiçăo Rocha"
+      ]
+    },
+    {
+      "num_tg": "78822",
+      "title": "Integral boundary layer methods for optimization of airfoils and wings using 3D panel method codes",
+      "author": "Pedro de Almeida Secchi",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "78099",
+      "title": "Acoplamento da análise de árvore de falhas em uma arquitetura sistęmica",
+      "author": "Geune Vieira Quintino",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78106",
+      "title": "Engenharia de sistemas baseada em modelos (MBSE) aplicado a adaptador do projeto IFFM4BR",
+      "author": "Yuri Dias Ferreira",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78103",
+      "title": "Transformaçăo de modelos sistęmicos para simulaçăo discreta",
+      "author": "Lucas Lenzi Alves",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78115",
+      "title": "Estruturaçăo da arquitetura conceitual de um veículo hipersônico utilizando engenharia de sistemas baseada em modelos",
+      "author": "Walter Diniz da Silva Henriques",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78035",
+      "title": "Módulo de otimizaçăo estrutural para projeto de aeronaves : ferramenta para dimensionamento de caixăo de asa",
+      "author": "Juliana Cristina Cortez Baraúna",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "78112",
+      "title": "Otimizaçăo multidisciplinar de aeronaves năo tripuladas",
+      "author": "Matheus Ribeiro Sampaio",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "78114",
+      "title": "Projeto conceitual e preliminar de um aviăo leve de baixo custo",
+      "author": "Róger Ghedin Pereira",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ekkehard Carlos Fernando Schubert"
+      ]
+    },
+    {
+      "num_tg": "78110",
+      "title": "Projeto de sistema de controle para atenuaçăo de deformaçőes estruturais em uma aeronave flexível",
+      "author": "Gabriel Henrique Fonseca Miranda",
+      "year": "2021",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "antonio-b-guimaraes-neto",
+      "advisors": [
+        "Antônio Bernardo Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "77634",
+      "title": "Implementaçăo de simulador de dinâmica de voo para otimizaçăo multidisciplinar",
+      "author": "Douglas Vasconcelos Barros",
+      "year": "2020",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "76393",
+      "title": "Implementation of a 3D visualization environment for aircraft subsystem architectures and components during conceptual design",
+      "author": "Pedro Henrique Ribeiro Bernini",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "76437",
+      "title": "MGO : a python interface for aircraft-based multidisciplinary design optimization",
+      "author": "Thales Delmiro de Sousa",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "76539",
+      "title": "Stakeholder categorization and analysis applied to an aerospace mission",
+      "author": "Filipe José Oliveira Saboia",
+      "year": "2019",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "75266",
+      "title": "Metodologia de projeto de foguetes de sondagem no contexto da equipe ITA rocket design",
+      "author": "Luís Fernando Gonçalinho Antonio",
+      "year": "2018",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Maurício Andrés Varela Morales"
+      ]
+    },
+    {
+      "num_tg": "75214",
+      "title": "Abordagem de sistemas na integraçăo de armamento inteligente em aeronave",
+      "author": "Joăo Gabriel Henriques Leite",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "75271",
+      "title": "Análise funcional de uma constelaçăo de pequenos satélites de comunicaçőes para o exército brasileiro",
+      "author": "Douglas Estevam Casale",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "75279",
+      "title": "Desenvolvimento de ferramenta para geraçăo de polar de arrasto de aeronaves em fase conceitual de projeto",
+      "author": "Thales Galvăo Costa",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Adson Agrico de Paula"
+      ]
+    },
+    {
+      "num_tg": "75204",
+      "title": "Preliminary structural sizing tool: development and integration to an aircraft multidisciplinary design optimization process",
+      "author": "Gabriel Max de Mendonça Abrantes",
+      "year": "2018",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "73794",
+      "title": "UCAV conceptual design and sub-scale, 3D printed wind tunnel testing",
+      "author": "Joăo Antônio Dantas de Jesus Ferreira",
+      "year": "2017",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "72531",
+      "title": "A systems approach for the development of the SPORT mission",
+      "author": "Alexandre de Oliveira Ferraz",
+      "year": "2016",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "72462",
+      "title": "A composite wing weight estimation method",
+      "author": "Jônatas Rafael Rodrigues Hernandes",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    },
+    {
+      "num_tg": "72455",
+      "title": "Abordagem de engenharia de sistemas na análise da tubeira do motor L75",
+      "author": "Guilherme Ferreira Lima Fernandez",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Eduardo Vergueiro Loures da Costa"
+      ]
+    },
+    {
+      "num_tg": "72456",
+      "title": "Estudo do acoplamento entre modos flexíveis e de corpo rígido através de uma asa flexível",
+      "author": "Guilherme Hoffmann da Silva",
+      "year": "2016",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Flávio José Silvestre"
+      ]
+    },
+    {
+      "num_tg": "69588",
+      "title": "Projeto conceitual de uma aeronave năo tripulada para ensaios em voo",
+      "author": "Eduardo Lopes Pinho",
+      "year": "2015",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "65340",
+      "title": "Análise e identificaçăo de requisitos oriundos do mercado de microssatélites - o caso VLM-1",
+      "author": "Luiz Gustavo Muniz do Nascimento",
+      "year": "2013",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Gonzaga Trabasso"
+      ]
+    },
+    {
+      "num_tg": "65201",
+      "title": "Projeto de modelos em escala aeroelástica",
+      "author": "Carlos Monteiro Barbosa Filho",
+      "year": "2013",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "ney-rafael-secco",
+      "advisors": [
+        "Ney Rafael Sęcco"
+      ]
+    },
+    {
+      "num_tg": "63840",
+      "title": "Projeto do ponto de instalaçăo para uma nova galley nas aeronaves Airbus 340-600",
+      "author": "Louise Rodrigues Martins Dantas",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "61600",
+      "title": "Conceptual design of a small electric general aviation aircraft",
+      "author": "Itamar Edson Leite Lessa",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "61601",
+      "title": "Structural optimization of a flexible wing : parametric model approach",
+      "author": "Francisco Habib Issa Mattos",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra",
+        "Joseph Morlier"
+      ]
+    },
+    {
+      "num_tg": "61592",
+      "title": "Structural optimization of a flexible wing : reduced model approach",
+      "author": "Erick Assis Lima",
+      "year": "2011",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564009",
+      "title": "Aerodinâmica e projeto de um VANT com configuraçăo asa voadora.",
+      "author": "Alexandre Guilger Despontin",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000563991",
+      "title": "Definition of a tool for centralization of test results on alerts and indications in the A350 XWB.",
+      "author": "Renan da Silva Costa",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "David Fernandes"
+      ]
+    },
+    {
+      "num_tg": "000563977",
+      "title": "Design of lighter than air vehicles for planetary exploration.",
+      "author": "Bruno Avena de Azevedo",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "flavio-luiz-da-s-bussamra",
+      "advisors": [
+        "Alberto Elfes",
+        "Flávio Luiz de Silva Bussamra"
+      ]
+    },
+    {
+      "num_tg": "000564159",
+      "title": "Development of a concept for the undercarriage of a jet propelled high altitude research aircraft.",
+      "author": "Leonardo Mendes Nogueira",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ekkehard Carlos Fernando Schubert",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000564016",
+      "title": "Dimensioning of the horizontal tailplane of a HALE research aircraft.",
+      "author": "Vinícius Vilhena Duarte",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000564062",
+      "title": "Estudo de variaçőes de algoritmo genético na confecçăo de aerofólios.",
+      "author": "Leo Moreira Lima",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Takashi Yoneyama"
+      ]
+    },
+    {
+      "num_tg": "000564180",
+      "title": "Projeto integrado de aeronaves - modulo de alocaçăo de aeronaves e otimizaçăo de rotas.",
+      "author": "Bruno Costa Pontes",
+      "year": "2010",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000554608",
+      "title": "Estabilidade, controle e ensaios em vôo do planador P1.",
+      "author": "Eduardo Antonio Fonseca de Torrecillas",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ekkehard Carlos Fernando Schubert"
+      ]
+    },
+    {
+      "num_tg": "000554504",
+      "title": "Estudo de casos sobre otimizaçăo de veículo suborbitial VS-40.",
+      "author": "Leandro Farias Nogueira",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Luis Eduardo Vergueiro Loures da Costa",
+        "Rodrigo Arnaldo Scarpel"
+      ]
+    },
+    {
+      "num_tg": "000554385",
+      "title": "Preliminary analysis of a lower deck galley for commercial aircrafts.",
+      "author": "Marcelo Vieira Abritta",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000554392",
+      "title": "Projeto e modelagem aeroelástica de uma asa para testes de flutter em túnel de vento subsônico.",
+      "author": "Joăo Otávio Falcăo Arantes Filho",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "roberto-gil-annes-da-silva",
+      "advisors": [
+        "Roberto Gil Annes da Silva"
+      ]
+    },
+    {
+      "num_tg": "000554575",
+      "title": "Technology evaluation of adaptive wing structures on long range aircraft.",
+      "author": "Thiago Costas Casal Monteiro Silva",
+      "year": "2009",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000550487",
+      "title": "Projeto conceitual de aeronave movida a energia solar na alta atmosfera utilizando otimizaçăo multidisciplinar.",
+      "author": "Eduardo Francisco Xavier Salles",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000550416",
+      "title": "Projeto de aeronave de transporte com inclusăo do motor no processo de otimizaçăo.",
+      "author": "Vitor Gonçalves da Silva Caldeira Loureiro",
+      "year": "2008",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos"
+      ]
+    },
+    {
+      "num_tg": "000544121",
+      "title": "Elaboraçăo de uma metodologia de cálculo de coeficientes e derivadas estáticas aerodinâmicas de aeronaves baseado em método dos painéis.",
+      "author": "Jaques Saraiva Guerra",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Paulo Afonso de Oliveira Soviero",
+        "Guilherme Lara Oliveira"
+      ]
+    },
+    {
+      "num_tg": "000544081",
+      "title": "Preliminary structural design and analysis of a high altitude hybrid airship.",
+      "author": "Juliano de Oliveira Faria",
+      "year": "2007",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000541900",
+      "title": "Analysis of robotic lunar lander architecture and design options.",
+      "author": "Alexandre Herkenhoff Gama",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Donizeti de Andrade"
+      ]
+    },
+    {
+      "num_tg": "000542080",
+      "title": "Projeto conceptual de casulo supersônico multifuncional.",
+      "author": "Fabrício Nascimento Ribeiro",
+      "year": "2006",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Maher Nasr Bismarck-Nasr",
+        "Valter Casellato"
+      ]
+    },
+    {
+      "num_tg": "000539918",
+      "title": "Definiçăo dos requisitos de traçăo do motor para uma aeronave durante a fase de anteprojeto.",
+      "author": "Luigi Spacino Scarminio",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000539860",
+      "title": "Estudo teórico e experimental de perfis em baixo Reynolds.",
+      "author": "Daniel de Melo Prudente",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "andre-v-g-cavalieri",
+      "advisors": [
+        "André Valdetaro Gomes Cavalieri"
+      ]
+    },
+    {
+      "num_tg": "000540610",
+      "title": "Projeto de uma aeronave rádio controlada.",
+      "author": "José Artur Ribeiro Guimarăes Neto",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000539940",
+      "title": "Turbofan preliminary design for regional aircraft case study.",
+      "author": "Rafael dos Santos Silva",
+      "year": "2005",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Roberto Barbosa"
+      ]
+    },
+    {
+      "num_tg": "000527258",
+      "title": "Identificaçăo de parâmetros de aeronaves via método de filtragem estocástica recursiva.",
+      "author": "Rafael Alves Pereira",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione",
+        "Marcelo Curvo"
+      ]
+    },
+    {
+      "num_tg": "000527130",
+      "title": "Metodologia para análise de estabilidade e controle de uma aeronave por meio de simulaçăo baseada em requisito.",
+      "author": "Tomaz Schmidt Cavalcante",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Pedro Paglione"
+      ]
+    },
+    {
+      "num_tg": "000527193",
+      "title": "Modernizaçăo de aeronaves militares e o processo de certificaçăo aeronáutica.",
+      "author": "Josmar Carreiro Freitas",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ary Guimarăes Neto"
+      ]
+    },
+    {
+      "num_tg": "000527108",
+      "title": "Otimizaçăo multidisciplinar de uma aeronave de transporte regional em configuraçăo de asas com montantes.",
+      "author": "Audir Mendes de Assunçăo Filho",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bento Silva de Mattos",
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000527280",
+      "title": "Passenger evacuation process simulation for a wide-body-aircraft with a lower deck seating compartment.",
+      "author": "Mailema Celestino dos Santos",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi",
+        "Jürgen Thorbeck"
+      ]
+    },
+    {
+      "num_tg": "000527201",
+      "title": "Projeto conceitual de aeronave năo-tripulada para vigilância de reservas florestais.",
+      "author": "Rafael Rodrigues Lopes",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto da Mota Girardi"
+      ]
+    },
+    {
+      "num_tg": "000560988",
+      "title": "Projeto de tanques de ponta de asa para o aviăo North American T6-D da Fôrça Aérea Brasileira.",
+      "author": "Ozires Silva",
+      "year": "1962",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000560196",
+      "title": "Construçăo de um banco de prova de modelos de câmaras aero-termo-acústicas.",
+      "author": "Luiz Alberto Rabi",
+      "year": "1960",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Joăo Verdi de Carvalho Leite"
+      ]
+    },
+    {
+      "num_tg": "000560046",
+      "title": "Projeto, construçăo e ensaios dos comandos aerodinâmicos do aviăo rebocador Panelinha.",
+      "author": "Aloysio Gerson Ferrette Garcia de Figueiredo",
+      "year": "1960",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000559493",
+      "title": "Ante-projeto de um aviăo agrícola e estudo da modificaçăo da estrutura da fuselagem de tubos de aço para uma estrutura de madeira.",
+      "author": "Rubem Damiani Carreirăo",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000559415",
+      "title": "Ante-projeto de um aviăo de turismo: projeto de secçăo da asa para ensaio.",
+      "author": "Fernando Luiz Machado de Almeida",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000559519",
+      "title": "Manutençăo do sistema de pressurizaçăo e ar condicionado do Super-H.",
+      "author": "Wilson Marques Carvalho",
+      "year": "1959",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Carlos Ivo da Costa Mendes"
+      ]
+    },
+    {
+      "num_tg": "000559081",
+      "title": "Ante-projeto de um alvo aéreo Rádio-Telecomandado.",
+      "author": "Edgard Lehmann",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "René Marie Vandaele"
+      ]
+    },
+    {
+      "num_tg": "000559178",
+      "title": "Aspectos aerodinâmicos do ante-projeto do aviăo Bandeirante.",
+      "author": "José Francisco Lopes",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Jonh de Young"
+      ]
+    },
+    {
+      "num_tg": "000559153",
+      "title": "Estudo e ante-projeto de um banco de provas para reguladores de oxigęnio.",
+      "author": "Paulo Roberto Chaves Cirne Lima",
+      "year": "1958",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Bradley Hobbard Young"
+      ]
+    },
+    {
+      "num_tg": "000566443",
+      "title": "Estudo de vigas de madeira para a confecçăo de rotores de helicoptero.",
+      "author": "Paulo Marcial de Moura Alcantara",
+      "year": "1957",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Urbano Ernesto Stumpf"
+      ]
+    },
+    {
+      "num_tg": "000565946",
+      "title": "Determinaçăo da estabilidade hidrostática de um moto-planador aquático arraia.",
+      "author": "Lamartine Ribeiro Guimarăes",
+      "year": "1956",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "K.M. Tomaszewski"
+      ]
+    },
+    {
+      "num_tg": "000565494",
+      "title": "Sistema de pressurizaçăo e ar condicionado do convair-340 e sua manutençăo.",
+      "author": "Antonio Marins",
+      "year": "1954",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Harold Paul Hemke"
+      ]
+    }
+  ],
+  "veiculo-lancador": [
+    {
+      "num_tg": "78027",
+      "title": "Análise de viabilidade preliminar de um veículo nanolançador brasileiro",
+      "author": "Rafael Bruno Cardoso Facchin",
+      "year": "2021",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "76410",
+      "title": "Projeto de câmara de combustăo de motor foguete ŕ propulsăo líquida de 25kN pressurizado por tanque",
+      "author": "Arthur Durigan Bahdur",
+      "year": "2019",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "tiago-barbosa-de-araujo",
+      "advisors": [
+        "Tiago Barbosa de Araújo"
+      ]
+    },
+    {
+      "num_tg": "65340",
+      "title": "Análise e identificaçăo de requisitos oriundos do mercado de microssatélites - o caso VLM-1",
+      "author": "Luiz Gustavo Muniz do Nascimento",
+      "year": "2013",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Luís Gonzaga Trabasso"
+      ]
+    },
+    {
+      "num_tg": "65338",
+      "title": "Procedimento experimental para análise aerodinâmica do Veículo Lançador de Microssatélites VLM-1",
+      "author": "Henrique Oliveira da Mata",
+      "year": "2013",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "André Fernando de Castro da Silva",
+        "Joăo Batista Pessoa Falcăo Filho"
+      ]
+    },
+    {
+      "num_tg": "63842",
+      "title": "Desenvolvimento de algoritmo de controle para o Veículo Lançador de Microssatélites (VLM)",
+      "author": "Henrique da Silva Daitx",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Karl Heinz Kienitz",
+        "Fausto de Oliveira Ramos"
+      ]
+    },
+    {
+      "num_tg": "63798",
+      "title": "Desenvolvimento de ferramenta computacional para o uso na concepçăo de veículos lançadores e aplicaçăo ao veículo lançador de microssatélites",
+      "author": "Carlos Henrique Melo Souza",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Sandro da Silva Fernandes"
+      ]
+    },
+    {
+      "num_tg": "63897",
+      "title": "Estudo de concepçăo do 3ş estágio do VLM a propelente líquido",
+      "author": "Daniel Ferreira Viotti",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Amilcar Porto Pimenta"
+      ]
+    },
+    {
+      "num_tg": "63809",
+      "title": "Otimizaçăo de trajetória de um veículo lançador de satélites empregando métodos pseudo-espectrais",
+      "author": "Danilo José Franzim Miranda",
+      "year": "2012",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Roberto Kawakami Harrop Galvăo"
+      ]
+    },
+    {
+      "num_tg": "63825",
+      "title": "Projeto Preliminar do motor foguete a propelente sólido S54 para terceiro estágio do VLM-1",
+      "author": "Rodrigo de Melo Silveira",
+      "year": "2012",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": "mauricio-v-donadon",
+      "advisors": [
+        "Maurício Vicente Donadon"
+      ]
+    }
+  ],
+  "operacoes-sistemas-espaciais": [
+    {
+      "num_tg": "80776",
+      "title": "Proposta de cálculo de probabilidade de impacto em operaçőes de lançamento de foguetes",
+      "author": "Nathan Tavares da Silva",
+      "year": "2025",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Moacyr Machado Cardoso Junior"
+      ]
+    },
+    {
+      "num_tg": "80037",
+      "title": "Projeto de um sistema de controle de antena para rastreio de sonda estratosférica",
+      "author": "Chrystian Jones Maia Campos",
+      "year": "2024",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "79388",
+      "title": "Modelagem e simulaçăo de missőes aeroespaciais em ambientes de realidade virtual",
+      "author": "Vítor Batista Biciati",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "79385",
+      "title": "Projeto sistęmico de foguete de treinamento com propulsăo líquida para o Centro de Lançamento de Alcântara",
+      "author": "Lúcio Martins de Souza Ramos",
+      "year": "2023",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": null,
+      "advisors": [
+        "Christopher Shneider Cerqueira"
+      ]
+    },
+    {
+      "num_tg": "78826",
+      "title": "Conceptual project of a space surveillance and tracking system (SST) : a case study for the ITA space center",
+      "author": "Carlos Eduardo de Sá Amaral Oliveira",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "78752",
+      "title": "Estudo da ferramenta SOLIS/STK® para validaçăo de leis de controle dos satélites do Centro Espacial ITA",
+      "author": "Gustavo Azolin",
+      "year": "2022",
+      "curso": "Engenharia Aeroespacial",
+      "advisor_slug": "willer-gomes-dos-santos",
+      "advisors": [
+        "Willer Gomes dos Santos"
+      ]
+    },
+    {
+      "num_tg": "78733",
+      "title": "Conceitos de engenharia logística aplicados ŕ operaçăo de lançamento de veículos suborbitais",
+      "author": "Guilherme Sousa de Morais",
+      "year": "2022",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Fernando Teixeira Mendes Abrahăo"
+      ]
+    },
+    {
+      "num_tg": "000527320",
+      "title": "Cálculo de probabilidade de impacto em alvos pré-determinados e de risco ŕ vida no lançamento de foguetes.",
+      "author": "Marcos Antonio Valle Junior",
+      "year": "2004",
+      "curso": "Engenharia Aeronáutica",
+      "advisor_slug": null,
+      "advisors": [
+        "Ernesto Cordeiro Marujo",
+        "Raul de Magalhăes Gomes"
+      ]
+    }
+  ]
+}

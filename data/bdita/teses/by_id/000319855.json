@@ -1,0 +1,31 @@
+{
+  "num_tese": "000319855",
+  "type": "tese",
+  "title": "Desenvolvimento e teste de soluçăo numérica para problemas de controle ótimo pelo método de quasilinearizaçăo",
+  "author": "Marcelo Curvo",
+  "year": "1994",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Atair Rios Neto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata do desenvolvimento e teste da rotina QUASILIN, utilizada na obtencao de solucoes numericas de problemas de condicao de contorno em dois ou mais pontos. Essa rotina foi elaborada tendo como base o metodo da quasilinearizacao, que e um metodo numerico do tipo indireto, onde o problema original nao linear e transformado em uma serie de problemas lineares. Um algoritmo auxiliar que, a partir dos valores iniciais das variaveis de estado, faz a escolha otima dos valores iniciais das variaveis adjuntas, tambem e apresentado. A funcionalidade da rotina e demonstrada atraves de solucoes de problemas tipicos da area aeroespacial, tais como: calculo de trajetoria de reentrada atmosferica, de minimo aquecimento, para um veiculo espacial do tipo \"space shuttle\"; minimizacao de energia de operacao de um braco manipulador e a maximizacao de altitute para um foguete de sondagem de estagio unico.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Análise numérica",
+    "Năo-linearidade",
+    "Aerodinâmica",
+    "Física",
+    "Controle"
+  ],
+  "defense_date": "01/12/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000319855",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000319855&origem=BDITA"
+}

@@ -22,13 +22,6 @@
             <span class="text-xs font-bold px-2 py-1 rounded text-white" style="background-color: {{ $dept.cor }}">
               {{ $dept.sigla }}
             </span>
-            {{ range $dept.temas }}
-              {{ if eq . "espacial" }}
-                <span class="text-xs px-2 py-1 rounded bg-indigo-100 text-indigo-700 font-medium">
-                  🛸 {{ if eq $lang "pt" }}Espacial{{ else }}Space{{ end }}
-                </span>
-              {{ end }}
-            {{ end }}
           </div>
 
           <h2 class="text-xl font-bold text-gray-900 mb-3">

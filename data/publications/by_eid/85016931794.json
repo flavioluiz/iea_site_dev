@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85016931794",
+  "eid": "2-s2.0-85016931794",
+  "doi": "10.1007/s00170-017-0336-8",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A method to improve the use of 6-dof robots as machine tools",
+  "abstract": "© 2017, Springer-Verlag London.Since the introduction of robots in the automotive industry for pick and place tasks, new technologies have been developed in order to adapt robots to different manufacturing processes. Among them, the use of robots as machine tools is a technological trend that demands further investigation. Industrial robots with 6 DOF (degrees of freedom) in a serial kinematic chain have larger workspace and more flexibility, when compared with CNC machines. However, robots’ stiffness is lower than that of CNC machines. Consequently, vibration problems are expected, which can have a direct impact on the quality of the machined workpieces. This work proposes a method to evaluate and customize the use of a COTS (commercial off-the-shelf) robot equipped with a spindle for machining processes. It aims at improving the machining processes based on the measurement of the workpiece waviness and explores the fact that the accuracy and rigidity of industrial robots with serial kinematic chains behave in an anisotropic way, according to the robot pose and the cutting force direction. The method is composed of a set of five experiments and is applied to the evaluation of a robot machining aluminium workpieces. The results allow the identification of the relevant factors that affect the surface quality of the workpiece and recommend the best robot configuration for meeting the waviness requirements of the workpiece. Even though the application case describes the machining of aluminium workpiece, the proposed method is generic enough to be applied to different workpiece geometries and materials.",
+  "authkeywords": [
+    "Industrial manipulators",
+    "Manufacturing",
+    "Robot machining",
+    "Robotics"
+  ],
+  "year": "2017",
+  "date": "2017-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Advanced Manufacturing Technology",
+    "issn": "02683768",
+    "eissn": "14333015",
+    "volume": "92",
+    "issue": "5-8",
+    "pages": "2487-2502",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Furtado, L. F.F.",
+      "scopus_id": "36930408300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Trabasso, L. G.",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Sutério, R.",
+      "scopus_id": "6506328164",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani",
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 26,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85016931794&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049464",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-105014495754",
+  "eid": "2-s2.0-105014495754",
+  "doi": "10.1007/978-3-031-84449-2_5",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Movement of Autonomous Space Robots by Using Artificial Intelligence",
+  "abstract": "© The Author(s), under exclusive license to Springer Nature Switzerland AG 2025.This paper approach the frontiers of autonomous space robots powered by an onboard computer containing artificial intelligence algorithms. Autonomous space robot systems are designed for performing tasks in space, such as on-orbit servicing, space assembly of large space structures, vehicle modules replacing, satellite orbit elevation/decay, cleaning orbit to prevent collisions with space debris, autonomous rendezvous docking/berthing as well as tasks for planetary exploration missions. Space robot manipulator type spacecraft or manipulator mounted on a space structure are capable of performing various tasks, such as grasping objects, manipulating tools, or interacting with the environment. Its capability extends from orbit environment to surface of planets, their moons and other celestial bodies as comets and asteroids. The frontier of the space robotics development, mainly those for planetary explorations relies in designing them to perform tasks autonomously. The term “autonomous” refers to the ability of the robot manipulator system to operate and make decisions without direct human intervention. Due to the long time delay to receive signal at planetary distances, autonomous robots are critical for effectively operates in Mars. Autonomous ability relies on onboard sensors, artificial intelligence algorithms, and control mechanisms. A branch of artificial intelligence, computer vision, plays a crucial role in autonomous space robot systems by enabling them to perceive and understand their environment, identify object patterns, and make informed decisions. Automatic manipulator operating nowadays differs from the near future autonomous robotic systems. While the automatic robots typically follow pre-programmed instructions or commands to perform a specific set of actions, an autonomous robot system powered by onboard computer vision possesses decision-making capabilities and can dynamically respond to its environment, allowing for greater flexibility and autonomy in its operations. The field continues to evolve, and researchers are exploring new architectures, techniques, and applications to advance computer vision systems capabilities.",
+  "authkeywords": [
+    "Autonomous docking",
+    "Computer vision",
+    "In-orbit assembly",
+    "Objects detection and identification",
+    "On-orbit servicing",
+    "Robot system"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Mechanisms and Machine Science",
+    "issn": "22110984",
+    "eissn": "22110992",
+    "volume": "142 MMS",
+    "issue": null,
+    "pages": "79-94",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Fonseca, Ijar M.",
+      "scopus_id": "15922451500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Rogerio R.",
+      "scopus_id": "56067217200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014495754&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088625",
+    "data_quality_score": 90
+  }
+}

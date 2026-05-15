@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-85097770387",
+  "eid": "2-s2.0-85097770387",
+  "doi": "10.1109/TAES.2020.2988836",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Fast Nonsingular Terminal Sliding Mode Flight Control for Multirotor Aerial Vehicles",
+  "abstract": "© 1965-2011 IEEE.This article is concerned with the robust flight control of multirotor aerial vehicles (MAVs) subject to bounded force and torque disturbances. The focus is on the entire class of MAVs containing an arbitrary even number (${\\geq}4$) of fixed (not vectoring) rotors. To deal with this problem, first, a ubiquitous hierarchical control architecture in which the attitude control loop is nested inside the position control loop is adopted and augmented with a control allocator which makes the design of the control laws themselves independent of the rotor arrangement. Specially, the control allocation problem is formulated as a quadratic program that minimizes the thrust commands and accounts for the thrust range and rate bounds. Second, geometric attitude and position control laws are designed separately using a multi-input fast nonsingular terminal sliding mode control (FNTSMC) strategy, which guarantees singularity-free finite-time stability and robustness. The main contributions are, first, the augmentation of the hierarchical control scheme for extending its applicability to any fixed-rotor MAV and, second, a detailed geometric design and finite-time stability analysis of the position and attitude control loops using the FNTSMC theory. The system is evaluated on computational simulations as well as on a hardware-in-the-loop experiment, showing that it is effective, simple to implement and adjust, and reliable to operate in nonlinear regimes as well as under bounded disturbances.",
+  "authkeywords": [
+    "Control allocation",
+    "flight control",
+    "hardware-in-the-loop simulation",
+    "multirotor aerial vehicle (MAV)",
+    "quadrotor",
+    "terminal sliding mode control (TSMC)"
+  ],
+  "year": "2020",
+  "date": "2020-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "IEEE Transactions on Aerospace and Electronic Systems",
+    "issn": "00189251",
+    "eissn": "15579603",
+    "volume": "56",
+    "issue": "6",
+    "pages": "4288-4299",
+    "article_number": "9076067"
+  },
+  "authors": [
+    {
+      "name": "Silva, Arioberto L.",
+      "scopus_id": "57220874188",
+      "affiliation": "125544835",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 58,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85097770387&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094979",
+    "data_quality_score": 100
+  }
+}

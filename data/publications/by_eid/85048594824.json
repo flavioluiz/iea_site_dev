@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-85048594824",
+  "eid": "2-s2.0-85048594824",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Delayed des in su2: Test case 3 from the second aiaa aeroelastic prediction workshop",
+  "abstract": "Copyright 2018, IADC/SPE Drilling Conference and Exhibition.An extension of Delayed Detached-Eddy Simulation (DDES) capabilities developed in SU2 to unsteady transonic buffet flow is present. An assessment of Spalart-Allmaras turbulence model variants with the 2D OAT15 airfoil reveals that the mixing layer compressibility correction plus the quadratic constitutive relation (SA-Comp-QCR) was the combination able to capture shock buffet accurately. Refined Roe scheme was also implemented, including adaptive dissipation function with Ducros shock sensor and Travin’s blending. The SU2 DDES implementation is tested in the Benchmark Supercritical Wing, analyzing the case 3 of the Second AIAA Aeroelastic Prediction Workshop. The results obtained are encouraging, showing good agreement for mean pressure coefficient and coherent fluid flow structures behind the shock.",
+  "authkeywords": [
+    "BSCW",
+    "DDES",
+    "Shock Buffet"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": "2017-June",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Molina, Eduardo S.",
+      "scopus_id": "57193884363",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Spode, Cleber",
+      "scopus_id": "55346591600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Roberto Gil A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Righi, Marcello",
+      "scopus_id": "55574776600",
+      "affiliation": "60015769",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Economon, Thomas D.",
+      "scopus_id": "36620850700",
+      "affiliation": "60012708",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Alonso, Juan J.",
+      "scopus_id": "55456949900",
+      "affiliation": "60012708",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048594824&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067307",
+    "data_quality_score": 80
+  }
+}

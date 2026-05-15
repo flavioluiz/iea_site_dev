@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85051490359",
+  "eid": "2-s2.0-85051490359",
+  "doi": "10.1007/s40430-018-1332-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Use of LMS Amesim® model and a bond graph support to predict behavior impacts of typical failures in an aircraft hydraulic brake system",
+  "abstract": "© 2018, The Brazilian Society of Mechanical Sciences and Engineering.Due to the increase in aircraft systems complexity along the decades and the continuous certification requirement improvements for safer operations, the safety assessment accomplished by systems engineers has been demanding more effort from the specialists to make a complete evaluation of the system and respective interfaces. The capability of predicting the real effects of components failures in the system behavior to make better assessments of their severities and to support troubleshooting processes during aircraft operation has also represented a challenging activity. In that context, the development of computational models and simulation has become a common practice in the industry. Therefore, the aim of the present work was to demonstrate the benefits of working in a cohesive manner with two particular modeling techniques: a physical modeling based computational software and the bond graph concepts, to enhance the specialist’s comprehension about the impacts of particular failures in system performance. As a case study, an aircraft hydraulic brake system has been chosen since it performs important, safety-related functions in aircraft operation. For that purpose, a computational model parameterized in LMS Amesim® software is used, after a deep validation process, to assess the behavior of system relevant variables in normal and faulty operating conditions. In parallel, a bond graph diagram representative of a system component is applied as a support tool to assess typical failure modes and help selection of relevant ones for simulation.",
+  "authkeywords": [
+    "Amesim",
+    "Bond graph",
+    "Brake system",
+    "Failure condition",
+    "Systems modeling"
+  ],
+  "year": "2018",
+  "date": "2018-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "9",
+    "pages": null,
+    "article_number": "414"
+  },
+  "authors": [
+    {
+      "name": "Maia Neto, Mário",
+      "scopus_id": "57195547955",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85051490359&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077092",
+    "data_quality_score": 100
+  }
+}

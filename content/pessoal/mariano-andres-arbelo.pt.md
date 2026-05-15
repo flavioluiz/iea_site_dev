@@ -2,7 +2,6 @@
 title: "Mariano Andrés Arbelo"
 layout: professor
 professor_id: "mariano-andres-arbelo"
-type: docentes
+departamento: "iea-e"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

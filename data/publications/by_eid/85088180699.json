@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85088180699",
+  "eid": "2-s2.0-85088180699",
+  "doi": "10.2514/6.2014-3061",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Just enough jitter for jet noise?",
+  "abstract": "We use model problems to explore the mechanisms that underpin jitter and coherence decay-related phenomena, both of which are important for wavepacket sound generation from subsonic jets. The inquiry is motivated by the incapacity of linear models to capture these important dynamic traits explicitly, and the need to understand how to distill a non-linear system down to some simplified form in which they are preserved. We first consider solutions of the non-linear Burgers' equation subject to periodic and stochastic upstream forcing; from these we obtain time-invariant and time-varying base flows about which linearisation is performed. The linearised systems are driven with up- stream conditions similar to the non-linear case and the solutions analysed in terms of jitter and coherence decay; both can be preserved when linearisation is performed about a time-varying base flow. A similar investigation is then undertaken using the Linearised Euler Equations (LEE). Solutions are obtained using a previously studied, experimentally obtained, base flow, on which low-frequency, deterministic and stochastic, time variations are imposed. This intro- duction of time variations in the base flow amounts to a constrained permission of non-linear dynamics and additional, associated, degrees of freedom in what remains a linear model. The axial and radial hydrodynamic structures and radiated sound fields of the resulting wavepackets are compared with those obtained using a steady base flow. It is shown that many of the discrepancies observed between classical linear models (stability theory or LEE for instance) and experiment can be reduced: the wavepackets jitter, their axial coherence decays, the axial evolution of their uctuation energy downstream of the end of the po- tential core shows qualitative agreement with experiment; and, most importantly, sound levels are boosted by many orders of magnitude. © 2012 by P. Jordan.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "20th AIAA Ceas Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Zhang, Mengqi",
+      "scopus_id": "57205493993",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lehnasch, Guillaume",
+      "scopus_id": "24069278400",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Agarwal, Anurag",
+      "scopus_id": "7401480906",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088180699&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101999",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-85045552434",
+  "eid": "2-s2.0-85045552434",
+  "doi": "10.1016/j.isatra.2018.04.003",
+  "pii": "S0019057818301496",
+  "pubmed_id": "29678277",
+  "title": "Experimental evaluation of HJB optimal controllers for the attitude dynamics of a multirotor aerial vehicle",
+  "abstract": "© 2018 ISAThe present paper is concerned with the design and experimental evaluation of optimal control laws for the nonlinear attitude dynamics of a multirotor aerial vehicle. Three design methods based on Hamilton-Jacobi-Bellman equation are taken into account. The first one is a linear control with guarantee of stability for nonlinear systems. The second and third are a nonlinear suboptimal control techniques. These techniques are based on an optimal control design approach that takes into account the nonlinearities present in the vehicle dynamics. The stability Proof of the closed-loop system is presented. The performance of the control system designed is evaluated via simulations and also via an experimental scheme using the Quanser 3-DOF Hover. The experiments show the effectiveness of the linear control method over the nonlinear strategy.",
+  "authkeywords": [
+    "Attitude control",
+    "Hamilton-Jacobi-Bellman equation",
+    "Multirotor Aerial Vehicles",
+    "Optimal control"
+  ],
+  "year": "2018",
+  "date": "2018-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "ISA Transactions",
+    "issn": "00190578",
+    "eissn": null,
+    "volume": "77",
+    "issue": null,
+    "pages": "188-200",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Prado, Igor Afonso Acampora",
+      "scopus_id": "56444078500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Mateus de Freitas Virgílio",
+      "scopus_id": "57191042135",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Castro, Davi Ferreira",
+      "scopus_id": "57191592787",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Balthazar, Jose Manoel",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85045552434&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095008",
+    "data_quality_score": 100
+  }
+}

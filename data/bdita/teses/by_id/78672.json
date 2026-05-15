@@ -1,0 +1,34 @@
+{
+  "num_tese": "78672",
+  "type": "tese",
+  "title": "Design for additive manufacturing and residual stress for 20MnCr5 gears",
+  "author": "Lucas Barreiros Robatto",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Additive manufacturing (AM), especially the Laser Powder Bed Fusion (L-PBF) technique, has the potential of bringing disruption to gear technology. The strict gear requirements in the scenario of electric vehicles transition act as a driver for the innovations that additive manufacturing can bring. However, residual stress (RS) heterogeneity challenges are associated to L-PBF, which can have a negative effect in terms of fatigue behavior of high-performance AM gears. Since the RS in a manufacturing chain is a result of interactions between processes, the challenge is extended to L-PBF post-processing. The Thesis' objective was then to provide knowledge for the Design for RS of L-PBF gear manufacturing chains. For such, two questions guided the research. The first question was on how L-PBF affects RS intensity and distribution, and the second focused on the RS interaction along a gear post-processing chain. The research methods were based on X-ray diffraction experiments for the RS heterogeneity assessment on L-PBF specimens produced with a 20MnCr5 gear carburizing steel alloy. Other surface integrity features, such as microstructure, topography and microhardness, were investigated to complement the analyses. For the first research question, L-PBF specimens were produced following a hierarchical approach in which the surface integrity of single-tracks, single-layers and 3D specimens was analyzed. It was verified that the RS intensity presents a primary association with single-tracks stability and that the scan speed was the dominant factor for RS in single-tracks and layers. Besides, the RS at the lateral surfaces of 3D specimens was found to be dependent on the baseplate position in the L-PBF batch and specimen geometry, which was explained by different heat transfer conditions and thermal histories in the process. For the second research question, the manufacturing chain was analyzed according to a convergent approach in which L-PBF specimens with different RS states were submitted to the same post-processing. Through the investigation of RS after stress relief, machining and case hardening, it was confirmed that the final RS state depends on the initial L-PBF RS. The RS heterogeneity propagated along the manufacturing chain, as verified in a case study with post-processed L-PBF gears. The answers to the research questions established the fundamental knowledge for RS optimization along L PBF gear manufacturing chains, for the consequent improvement of their surface integrity. The research findings then benefit the mobility of the future and any other industrial application in which RS in L-PBF components is relevant.",
+  "subjects": [
+    "Manufaturas",
+    "Engrenagens",
+    "Tensăo residual",
+    "Raios X",
+    "Estudo de casos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "08/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78672",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78672&origem=BDITA"
+}

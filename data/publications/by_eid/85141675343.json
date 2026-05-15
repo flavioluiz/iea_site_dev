@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85141675343",
+  "eid": "2-s2.0-85141675343",
+  "doi": "10.1115/GT2022-82814",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "INTERACTIVE LEARNING PLATFORM FOR THE PRELIMINARY DESIGN OF AXIAL TURBINES AND ITS USE FOR GRADUATE COURSES",
+  "abstract": "Copyright © 2022 by ASME.The gas turbine industry requires extensive knowledge in several areas of engineering, and since both industry and academy continuously develop new approaches, technologies, and models, usually, there is not enough time to cover all the relevant subjects in one or two-semester courses for undergraduate or graduate students. In previous work, the authors have presented an interactive platform for the preliminary design of single-stage axial turbines with uncooled blades, for use at the undergraduate courses offered by the Turbomachine Department at Aeronautics Institute of Technology to accelerate the learning process. The present work aims to present an expansion of this interactive learning platform, with the inclusion of a module for the thermodynamic cycle study, a module for off-design calculations, and the generation of a PDF file containing the step-by-step solution memorial with all the equations and values used in the design. The work also presents a structure for the conduction of a graduate course in turbomachines focused on the design of axial turbines. It comprehends theory and exercise classes, oriented study with the interactive learning platform, and a project in which the students have to implement some of the modules and run test cases. The authors observed more interest of the students and higher quality questions in the classes while using the interactive platform or programming, developing a better understanding of the design process until the end of the course. Also, while, in previous semesters, the preliminary design occupied almost half of the 48-hour course, it took only 12-hour to cover the same subject, granting time to more advanced topics, such as blade cooling, off-design performance and computational fluid dynamics simulations.",
+  "authkeywords": [
+    "Active Learning",
+    "Preliminary Design",
+    "Turbines"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "5",
+    "issue": null,
+    "pages": null,
+    "article_number": "V005T08A005"
+  },
+  "authors": [
+    {
+      "name": "De Oliveira Silva, George Patton",
+      "scopus_id": "57961514600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Whitacker, Luiz Henrique Lindquist",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva Tonon, Daniel",
+      "scopus_id": "57221682357",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141675343&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051698",
+    "data_quality_score": 100
+  }
+}

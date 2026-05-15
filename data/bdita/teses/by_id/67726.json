@@ -1,0 +1,30 @@
+{
+  "num_tese": "67726",
+  "type": "tese",
+  "title": "Abordagem para verificaçăo de sistemas de controle para automaçăo flexível",
+  "author": "Guilherme Kisseloff Coracini",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A verificaçăo de software é uma etapa essencial do ciclo de desenvolvimento de sistemas de automaçăo industrial. O objetivo da verificaçăo é a identificaçăo de defeitos ainda na fase de projeto, tendo em vista que o custo de correçăo na fase final de desenvolvimento ou após a implementaçăo do sistema é significativamente mais elevado do que nas fases iniciais do projeto. Neste contexto, este trabalho tem por objetivo propor uma abordagem para verificaçăo de sistemas de automaçăo que combina duas técnicas de verificaçăo distintas: model checking e model based testing. Para análise da proposta, a abordagem é aplicada ao projeto do programa supervisório de uma célula robótica. A célula robótica utilizada como estudo de caso foi desenvolvida no Centro de Competęncia em Manufatura (CCM) com o objetivo de automatizar o processo de acondicionamento de tampas de alumínio para transporte. Em particular, o programa supervisório desta célula foi desenvolvido em LabVIEW™. Os resultados obtidos com o estudo de caso indicam que a abordagem proposta contribui para a robustez do sistema. Além, o estudo de caso permitiu identificar pontos para melhoria e detalhamento na abordagem proposta",
+  "subjects": [
+    "Projeto auxiliado por computador",
+    "Robótica",
+    "Manufatura auxiliada por computador",
+    "Inteligęncia artificial",
+    "Automaçăo",
+    "Controle",
+    "Computaçăo"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67726",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67726&origem=BDITA"
+}

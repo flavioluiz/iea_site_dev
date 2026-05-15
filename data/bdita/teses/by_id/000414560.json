@@ -1,0 +1,37 @@
+{
+  "num_tese": "000414560",
+  "type": "tese",
+  "title": "Projeto conceitual de aeronaves objetivando otimizaçăo do desempenho.",
+  "author": "Paulo Martins Ferreira Diniz",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Atair Rios Neto",
+      "professor_slug": null
+    },
+    {
+      "name": "Paulo Tadeu de Mello Lourençăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é aplicar e testar um procedimento para determinar um conjunto de parâmetros de projeto de uma aeronave de transporte concebida para vôo subsônico, otimizados com relaçăo a um dado critério de desempenho. A fase de projeto conceitual é, em muitos casos, realizada essencialmente de forma \"manual\" e a qualidade da configuraçăo resultante depende, de maneira acentuada, da experięncia da equipe de projeto. É proposto um procedimento de otimizaçăo que auxilie a equipe de projeto a obter a melhor configuraçăo através da minimizaçăo de uma combinaçăo linear de medidas de desempenho da aeronave associadas á etapa origem-destino dentro de uma missăo típica. Paraisso, foram selecionados e implementados modelos para estimar o desempenho da aeronave. Os modelos de desempenho com dois graus de liberdade, empregados para simular as fases de subida, cruzeiro e descida, foram utilizados para determinar o consumo de combustível e o tempo gasto para realizar uma missăo típica. Modelos empíricos, utilizados para calcular os comprimentos de pista de decolagem e de pouso, foram considerados como vínculos de otimizaçăo. Visando a calcular o arrasto da aeronave com precisăo, um modelo detalhado foi escolhido devido ŕ sua capacidade de lidar com variaçőes de parâmetros geométricos e aerodinâmicos. Métodos empíricos săo urilizados a fim de corrigir o peso vazio da aeronave devido ŕ mudanças nas variáveis de projeto. Os seguintes perâmetros relacionados ŕ asa foram selecionados como variáveis de decisăo no processo de otimizaçăo: área, alongamento, afilamento, espessura relativa e ângulo de enflechamento. Um fator de escala foi usado como variável de projeto a fim de levar em conta mudanças de traçăo máxima do motor. O problema de otimizaçăo matemática resultante é resolvido por um código comercial que utiliza um método gradiente. Os resultados apresentados evidenciam uma reduçăo apreciável da funçăo objetivo através da otimizaçăo dos parâmetros de projeto e trajetória. Além disso, săo apresentadas algumas comparaçőes entre configuraçőes óptimas obtidas utilizando diferentes critérios.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Desempenho de aeronaves",
+    "Controle óptimo",
+    "Projeto de aeronaves",
+    "Modelos matemáticos",
+    "Controle de vôo",
+    "Otimizaçăo",
+    "Aerodinâmica",
+    "Física",
+    "Controle"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000414560",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000414560&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "78113",
+  "type": "tg",
+  "title": "Reduçăo de ruído aerodinâmico através de mecanismos viscoelásticos",
+  "author": "Rodrigo Monteiro Paschoarelli Veiga",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício de Moura Nilton",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tratou-se de um estudo em aeroacústica cujo objetivo é a reduçăo de ruído provocado por efeitos aerodinâmicos. Para isso, o estudo baseou-se em simulaçőes que envolvessem materiais viscoelásticos. O trabalho foi baseado nos estudos já feitos pelo Dr. Maurício de Moura Nilton; porém, restrito apenas ŕ implementaçăo da impedância acústica. Para isso, as simulaçőes feitas basearam-se no método dos elementos de contorno (BEM, Boundary Element Method) para a equaçăo de onda; além disso os materiais foram modelados através da teoria dos laminados. O modelo utilizou uma placa plana engastada em seu bordo de ataque, mas livre em seu bordo de fuga e, para simular os efeitos da turbulęncia, foi considerado um quadrupolo sobre o bordo de fuga. Além disso, neste trabalho năo foram considerados fenômenos oriundos de ondas de flexăo ou de porosidade na placa considerada no modelo. Portanto, a única fonte de espalhamento acústico está sobre o bordo de fuga da placa.",
+  "subjects": [
+    "Aeroacústica",
+    "Reduçăo de ruído",
+    "Viscoelasticidade",
+    "Método de elementos de contorno",
+    "Impedância",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78113",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78113&origem=BDITA"
+}

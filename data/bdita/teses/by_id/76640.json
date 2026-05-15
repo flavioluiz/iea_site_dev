@@ -1,0 +1,29 @@
+{
+  "num_tese": "76640",
+  "type": "tese",
+  "title": "High-cycle fatigue-driven delamination modelling using interface elements",
+  "author": "Lucas Amaro de Oliveira",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A cohesive zone model is proposed to analyse composite delamination propagation under high-cycle fatigue loading. The cohesive zone model formulation concept is discussed and the degradation of interlaminar mechanical properties is analysed from a physical point of view. Firstly, the damage evolution is evaluated according to the traction-separation law and it is demonstrated that if a linear elastic unloading/reloading curve is assumed, the softening function must also be linear. Secondly, issues regarding damage onset and fracture criteria in mixed-mode loading are critically addressed and commented. A new set of criteria is proposed, and the limitations of existing criteria are discussed. Furthermore, a new method to compute the strain energy release rate at any point within the element fatigue life cycle range is presented. The proposed scheme is based on the J-integral method evaluated at an estimated position of the crack-tip within the element, instead of the element integration points. Furthermore, a new fatigue damage evolution law is proposed to account for the unwanted quasi-static damage during the element fatigue degradation process. The model prediction capabilities were verified against experimental data available in the literature and theoretical solutions using a double cantilever beam configuration for mode I loading, four-point end-notched flexure configuration for mode II loading, and mixed-mode bending configuration for mixed-mode loading. The simulations were performed at both constant and variable amplitude loading.The numerical predictions obtained using the proposed model correlated very well with literature's experimental data.",
+  "subjects": [
+    "Fadiga (materiais)",
+    "Delaminaçăo",
+    "Modelagem (processos)",
+    "Propriedades mecânicas",
+    "Mecânica de fratura",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "09/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76640",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76640&origem=BDITA"
+}

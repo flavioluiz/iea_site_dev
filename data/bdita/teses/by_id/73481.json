@@ -1,0 +1,30 @@
+{
+  "num_tese": "73481",
+  "type": "tese",
+  "title": "Modelo de delaminaçăo induzida por fadiga de alto ciclo",
+  "author": "Douglas Santos Alves",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um modelo de dano baseado em energia com método de soluçăo explícita no tempo utilizando o método dos elementos finitos é proposto para a simulaçăo de delaminaçăo induzida por fadiga de alto ciclo em compósito laminado de carbono/epoxi. Dois modelos utilizando zona coesiva para unir a mecânica do dano e mecânica da fratura săo propostos, sendo que um é dependente de uma estimativa de comprimento da zona coesiva e outro é completamente independente deste comprimento. Ambos os modelos necessitam de parâmetros determinados experimentalmente, mais precisamente os coeficientes da equaçăo que descreve a taxa de crescimento de trinca, comumente conhecida como equaçăo de Paris. É mostrado que os modelos constitutivos apresentam resposta ligeiramente diferente entre si dependendo da condiçăo de carregamento, evidenciando a utilizaçăo do comprimento da zona coesiva, mas quando utilizados para modelar ensaios estruturais reproduzem com qualidade a propagaçăo para delaminaçăo em modo puro e misto sem a necessidade de ajuste de dados.",
+  "subjects": [
+    "Compósitos de matriz epóxi",
+    "Delaminaçăo",
+    "Fadiga (materiais)",
+    "Método de elementos finitos",
+    "Materiais compósitos",
+    "Mecânica de fratura",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "06/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73481",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73481&origem=BDITA"
+}

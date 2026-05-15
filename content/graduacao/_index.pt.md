@@ -1,26 +1,54 @@
 ---
 title: "Graduação"
-description: "Cursos e disciplinas de graduação oferecidos pela Divisão AER do ITA"
+description: "Cursos de graduação em Engenharia Aeronáutica e Engenharia Aeroespacial — IEA/ITA"
 ---
 
-A Divisão AER é responsável por parte das disciplinas e atividades de graduação do ITA, com foco em formação sólida em engenharia aeronáutica e aeroespacial.
+A Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) do ITA é responsável por dois cursos de graduação em engenharia de 5 anos, reconhecidos internacionalmente pela excelência em formação técnico-científica.
 
-## Cursos
+## Cursos Oferecidos
 
-O ITA oferece graduação em **Engenharia Aeronáutica** e **Engenharia Civil-Aeronáutica**, com duração de 5 anos. A AER é responsável pela maior parte das disciplinas de especialidade aeronáutica e aeroespacial.
+### Engenharia Aeronáutica
+Formação centrada no projeto e desenvolvimento de aeronaves e sistemas aeronáuticos. Abrange aerodinâmica, estruturas, propulsão a gás, mecânica do voo, sistemas de aeronaves e projeto integrado.
 
-[Site do ITA — Graduação](http://www.ita.br/graduacao)
+**Coordenador:** Rafael Marques Lins
 
-## Disciplinas
+[Ver currículo completo →](/graduacao/aeronautica/)
 
-As disciplinas oferecidas pela AER cobrem as principais áreas da engenharia aeronáutica e aeroespacial:
+---
+
+### Engenharia Aeroespacial
+Formação abrangente para o projeto e operação de sistemas espaciais complexos: satélites, foguetes, veículos lançadores e sondas. Criado em 2010, é o único curso de Engenharia Aeroespacial das Forças Armadas brasileiras.
+
+**Coordenador:** Maísa de Oliveira Terra
+
+[Ver currículo completo →](/graduacao/aeroespacial/)
+
+---
+
+## Estrutura dos Cursos
+
+Ambos os cursos têm duração de **5 anos**, divididos em:
+
+- **Curso Fundamental (2 anos):** Base comum em matemática, física, química, humanidades e computação, compartilhada com os demais cursos do ITA.
+- **Curso Profissional (3 anos):** Disciplinas de especialidade, projetos integradores e trabalho de graduação (TG-1 e TG-2).
+
+## Disciplinas de Especialidade da Divisão
+
+As disciplinas oferecidas pela Divisão cobrem as principais áreas:
 
 - Aerodinâmica e Mecânica dos Fluidos
 - Mecânica e Controle de Voo
-- Estruturas Aeronáuticas
+- Mecânica Orbital e Dinâmica de Veículos Espaciais
+- Estruturas Aeronáuticas e Aeroespaciais
 - Propulsão Aeronáutica e Espacial
 - Sistemas de Aeronaves e Espaçonaves
-- Instrumentação e Aviónica
-- Projeto Integrado de Aeronaves
+- GNC — Guiagem, Navegação e Controle
+- Projeto Integrado de Aeronaves e Sistemas Espaciais
 
-[Ver catálogo de disciplinas →](/disciplinas/)
+## Pós-Graduação
+
+A Divisão também contribui para os programas de pós-graduação:
+
+- **PG-EAM** — Pós-Graduação em Engenharia Aeronáutica e Mecânica
+- **PG-CTE** — Pós-Graduação em Ciências e Tecnologias Espaciais
+- **MP-PEE** — Mestrado Profissional em Engenharia Aeronáutica (parceria Embraer)

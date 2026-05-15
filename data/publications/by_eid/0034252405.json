@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-0034252405",
+  "eid": "2-s2.0-0034252405",
+  "doi": "10.1016/S0735-1933(00)00163-9",
+  "pii": "S0735193300001639",
+  "pubmed_id": null,
+  "title": "Analysis of convective heat transfer for turbulent flow in saturated porous media",
+  "abstract": "The literature documents two procedures for modeling turbulent heat transport in incompressible flows through homogeneous rigid porous media. The first method considers time averaging of the energy equation before the volume average operator is applied. The second methodology also employs both averaging operators, but in the reverse order. Resulting equations in both cases are different, leading to controversies and interesting discussions in the literature. This work is intended to demonstrate that both approaches lead to equivalent equations when one takes into account both time fluctuations and spatial deviations of velocity and temperature. (C) 2000 Elsevier Science Ltd.The literature documents two procedures for modeling turbulent heat transport in incompressible flows through homogeneous rigid porous media. The first method considers time averaging of the energy equation before the volume average operator is applied. The second methodology also employs both averaging operators, but in the reverse order. Resulting equations in both cases are different, leading to controversies and interesting discussions in the literature. This work is intended to demonstrate that both approaches lead to equivalent equations when one takes into account both time fluctuations and spatial deviations of velocity and temperature.",
+  "authkeywords": null,
+  "year": "2000",
+  "date": "2000-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "27",
+    "issue": "6",
+    "pages": "825-834",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rocamora, Francisco D.",
+      "scopus_id": "6507457556",
+      "affiliation": "60025385-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60025385-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 94,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0034252405&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112212",
+    "data_quality_score": 90
+  }
+}

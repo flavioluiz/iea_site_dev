@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85140292482",
+  "eid": "2-s2.0-85140292482",
+  "doi": "10.1109/VSS57184.2022.9902088",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Predefined-time sliding mode attitude control for a quadrotor aerial vehicle",
+  "abstract": "© 2022 IEEE.This paper is concerned with the design of a predefined-time sliding mode control law suitable for the attitude control of a quadrotor aerial vehicle. Using the Newton-Euler approach, the modeling of the rotation kinematics and dynamics of the quadrotor is formulated in terms of the control errors and put in the regular state-space form. Then, a multi-input predefined-time first-order sliding mode control law is designed so that, under reasonable conditions, the settling-time bound of the tracking error can be directly specified by a unique parameter independently of the initial conditions. The proposed control law is evaluated through numerical simulations where the results have confirmed that the tracking errors in fact converge to zero within the predefined time.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of IEEE International Workshop on Variable Structure Systems",
+    "issn": "21654816",
+    "eissn": "21654824",
+    "volume": "2022-September",
+    "issue": null,
+    "pages": "59-64",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Trentin, João F.S.",
+      "scopus_id": "57215486892",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140292482&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094952",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-0042322938",
+  "eid": "2-s2.0-0042322938",
+  "doi": "10.1016/S0307-904X(03)00077-5",
+  "pii": "S0307904X03000775",
+  "pubmed_id": null,
+  "title": "Multigrid correction-storage formulation applied to the numerical solution of incompressible laminar recirculating flows",
+  "abstract": "Multigrid methods are known to reduce computational time of iterative solutions. In this paper, a multigrid technique is implemented following a correction storage (CS) formulation and a V-cycle strategy to numerically solve steady-state two-dimensional incompressible laminar recirculating flows. Structured, orthogonal and irregular meshes are employed to perform a finite volume discretization. Pressure-velocity is accomplished through the SIMPLE method and the TDMA and Gauss-Seidel algorithms are used to relax the resulting algebraic equations. The solution method is tested against the laminar flow between parallel plates and recirculating flow patterns are qualitatively presented. The advantages of using more than one grid level and the CS approach are discussed upon. © 2003 Elsevier Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Mathematical Modelling",
+    "issn": "0307904X",
+    "eissn": null,
+    "volume": "27",
+    "issue": "9",
+    "pages": "717-732",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rabi, José A.",
+      "scopus_id": "8577939100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0042322938&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111683",
+    "data_quality_score": 90
+  }
+}

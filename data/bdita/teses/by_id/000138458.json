@@ -1,0 +1,27 @@
+{
+  "num_tese": "000138458",
+  "type": "tese",
+  "title": "Síntese de redes de trocadores de calor",
+  "author": "Adalid López Vallecillo",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Carlos Augusto L. Perlingeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho é feito o estudo de uma técnica algorítmica baseada em várias versőes do modelo de transbordo da Pesquisa Operacional para a síntese de redes de trocadores de calor, convencionais e flexíveis para operaçăo multiperiódica, que apresentam máxima integraçăo de calor e o menor número possível de trocadores. Com as versőes de programaçăo linear é calculado o custo e o consumo mínino de utilidades. Estas também podem considerar os casos de trocas proibidas e utilidades múltiplas. Para as redes convencionais, as versőes de programaçăo linear mista com inteiros permitem deduzir redes com consumo mínimo de utilidades em que o número de trocadores de calor é minimizado, permitindo ainda, a divisăo de correntes e a seleçăo das trocas preferidas. Para as redes flexíveis, é prevista a operaçăo em uma sequęncia finita de períodos de tempo em que as vazőes e temperaturas das correntes podem mudar. A versăo multiperiódica de programaçăo linear mista com inteiros, leva em conta mudanças nos pontos de estrangulamento e no consumo de utilidades em cada período. A técnica estudada permite a formulaçăo e soluçăo automática de todas estas versőes. Para cada uma destas versőes săo sugeridas algumas modificaçőes que visam facilitar a sua formulaçăo em casos especiais e principalmente, no caso das versőes de programaçăo linear mista com inteiros, reduzir o esforço computacional para a sua formulaçăo e soluçăo. Para verificar a eficięncia e validade das diferentes versőes apresentadas e das modificaçőes sugeridas, săo apresentados vărios exemplos numéricos mostrando alguns detalhes da sua formulaçăo e soluçăo. Finalmente, é feita uma comparaçăo com os resultados com o método heurístico de Ponton e Donaldson.",
+  "subjects": [
+    "Trocadores de calor",
+    "Síntese de redes",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/11/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000138458",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000138458&origem=BDITA"
+}

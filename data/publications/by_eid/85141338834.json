@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85141338834",
+  "eid": "2-s2.0-85141338834",
+  "doi": "10.1017/jfm.2022.790",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Improved convergence of the spectral proper orthogonal decomposition through time shifting",
+  "abstract": "© Spectral proper orthogonal decomposition (SPOD) is an increasingly popular modal analysis method in the field of fluid dynamics due to its specific properties: a linear system forced with white noise should have SPOD modes identical to response modes from resolvent analysis. The SPOD, coupled with the Welch method for spectral estimation, may require long time-resolved datasets. In this work, a linearised Ginzburg-Landau model is considered in order to study the method's convergence. Spectral proper orthogonal decomposition modes of the white-noise forced equation are computed and compared with corresponding response resolvent modes. The quantified error is shown to be related to the time length of Welch blocks (spectral window size) normalised by a convective time. Subsequently, an algorithm based on a temporal data shift is devised to further improve SPOD convergence and is applied to the Ginzburg-Landau system. Next, its efficacy is demonstrated in a numerical database of a boundary layer subject to bypass transition. The proposed approach achieves substantial improvement in mode convergence with smaller spectral window sizes with respect to the standard method. Furthermore, SPOD modes display growing wall-normal and spanwise velocity components along the streamwise direction, a feature which had not yet been observed and is also predicted by a global resolvent calculation. The shifting algorithm for the SPOD opens the possibility for using the method on datasets with time series of moderate duration, often produced by large simulations.",
+  "authkeywords": [
+    "Key words low-dimensional models",
+    "turbulence modelling"
+  ],
+  "year": "2022",
+  "date": "2022-11-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "950",
+    "issue": null,
+    "pages": null,
+    "article_number": "A9"
+  },
+  "authors": [
+    {
+      "name": "Blanco, Diego C.P.",
+      "scopus_id": "57219167878",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 63,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141338834&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100546",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-56349135790",
+  "eid": "2-s2.0-56349135790",
+  "doi": "10.1016/j.icheatmasstransfer.2008.08.014",
+  "pii": "S0735193308001954",
+  "pubmed_id": null,
+  "title": "Computation of turbulent heat transfer in a moving porous bed using a macroscopic two-energy equation model",
+  "abstract": "Heat transfer between phases in a moving porous bed is analyzed. This work proposes a set of transport equations for solving problems involving turbulent flow and heat transfer in a moving bed equipment. The device is modeled as a saturated porous matrix in which the solid phase moves with a steady imposed velocity. Additional drag terms appearing the momentum equation, as well as interfacial heat transfer between phases, are assumed to be a function of the relative velocity between the fluid and solid phases. Turbulence transport equations are here also dependent on the speed of the solid material. Results indicate that, as the phases attain velocities of equal order, turbulence in damped and heat transfer between solid and fluid occurs mainly by conduction mechanism. © 2008 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Modeling",
+    "Moving bed",
+    "Porous bed",
+    "Turbulence"
+  ],
+  "year": "2008",
+  "date": "2008-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "35",
+    "issue": "10",
+    "pages": "1262-1266",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Saito, Marcelo B.",
+      "scopus_id": "8523459800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 22,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 32,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=56349135790&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111174",
+    "data_quality_score": 100
+  }
+}

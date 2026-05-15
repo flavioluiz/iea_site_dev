@@ -1,0 +1,35 @@
+{
+  "num_tese": "79229",
+  "type": "tese",
+  "title": "Application of the stable generalized finite element method (SGFEM) for analyais of crack propagation due to fatigue",
+  "author": "Felipe Justino de Lima Lopes",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rafael Marques Lins",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work presents and discuss the application of the Displacements Correlation Method (DCM) coupled to the Stable Generalized Finite Elements Method (SGFEM), at plane problems, aiming to calculate Stress Intensity Factors. The DCM was chosen due to its low computational cost when compared to more complex techniques. The choose of the SGFEM was made due its known capacity in fracture mechanic problems solution associated to numerical conditioning control. Moreover, it should be noted that the results obtained applying the standard Generalized Finite Elements Method (GFEM) will also be investigated aiming to highlight the benefits introduced by the SGFEM chosen. With the verification of the accuracy of the proposed combination of the methods, their applicability was expanded to study crack propagation problems due to fatigue effects caused by cyclic loads. To accomplish this goal, the maximum circumferential tension criterion coupled with well-known propagation laws available in literature was considered for crack propagation. Practical examples with known results from literature were used in order to verify the efficiency and accuracy of the combination proposed for static loads cases. For cyclic fatigue loads cases, were used results extracted from known examples using a commercial software widely adopted in the aeronautic industry were used with a good agreement.",
+  "subjects": [
+    "Método de elementos finitos",
+    "Propagaçăo de trincas",
+    "Mecânica de fratura",
+    "Fadiga (materiais)",
+    "Cargas cíclicas",
+    "Cargas estáticas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "04/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79229",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79229&origem=BDITA"
+}

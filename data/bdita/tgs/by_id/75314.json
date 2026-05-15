@@ -1,0 +1,32 @@
+{
+  "num_tg": "75314",
+  "type": "tg",
+  "title": "Modelling of an aerosevoelastic system for active flutter suppression in highly elongated wings",
+  "author": "Daniel Custódio",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work presents the formulation and numerical implementation of a beam finite element that incorporates the direct and inverse piezoelectric effects, aiming at applying them on the aeroelastic modeling and control of a typical plate like wing seeking active suppression of flutter. Consistent variational formulation was employed in order to obtain the beam finite element dynamic equations representing a laminate plate with rectangular section equipped with pairs of piezoelectric transducers fixed on opposing faces in coinciding position along the length and that can be used as actuator or sensor. A model for the proposed aeroservoelastic structure was discretized using Finite Element Method, implemented in MATLAB, and its properties were verified via analytical solutions, literature data and test bench experiments carried out in ITA's Aerospace Structures Laboratory Wind Tunnel. Lastly, a proportional-derivative controller was numerically implemented in order to illustrate the flutter suppression with cost function analysis to estimate stabilizing gains for the controller.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Aeroelasticidade",
+    "Atuadores piezoelétricos",
+    "Método de elementos finitos",
+    "Análise de estabilidade",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75314",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75314&origem=BDITA"
+}

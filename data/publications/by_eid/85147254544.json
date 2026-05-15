@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85147254544",
+  "eid": "2-s2.0-85147254544",
+  "doi": "10.1016/j.compind.2022.103850",
+  "pii": "S0166361522002469",
+  "pubmed_id": null,
+  "title": "3D scanning method for robotized inspection of industrial sealed parts",
+  "abstract": "© 2023 Elsevier B.V.This work presents a novel approach for 3D scanning inspection of industrial sealed parts based on data fusion from a 2D-laser beam sensor and the motion pattern of a robotic arm. The method provides as output the 3D geometrical shape and volume of the inspected part in order to allow for automatic compliance check according to process requirements. The solution is implemented and tested in sealed riveted fasteners, which are common in the automotive and aerospace industry. The effectiveness and robustness of the method is evaluated through the comparison of the obtained results with those from a 3D laser scanner system. The evaluation campaign was performed in a noisy environment (i.e., without illumination and temperature control), representative of an industrial shop floor. Statistical analyses show the system can perform geometry prediction with an overall error of 0.340 mm and is able to reject non-compliant sealed structures with a reliability of 96.6%, confirming that the proposed method is suitable to modern collaborative robotized aerospace and automotive assembly cells.",
+  "authkeywords": [
+    "3D scanning",
+    "Laser sensors",
+    "Robotized inspection",
+    "Sealed structures"
+  ],
+  "year": "2023",
+  "date": "2023-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computers in Industry",
+    "issn": "01663615",
+    "eissn": null,
+    "volume": "147",
+    "issue": null,
+    "pages": null,
+    "article_number": "103850"
+  },
+  "authors": [
+    {
+      "name": "da Silva Santos, Kleber Roberto",
+      "scopus_id": "58087599100",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, Wesley Rodrigues",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    },
+    {
+      "name": "Villani, Emília",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Dttmann, Augusto",
+      "scopus_id": "57222543310",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "wesley-rodrigues-de-oliveira",
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Computer Science (all)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 21,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85147254544&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049036",
+    "data_quality_score": 100
+  }
+}

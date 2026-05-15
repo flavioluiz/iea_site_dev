@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85181551579",
+  "eid": "2-s2.0-85181551579",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent heat tranfer in an axisymmetric channel with a sinusoidal contraction and a layer of porous material",
+  "abstract": "© 2017 Begell House Inc.. All rights reserved.Channels with contractions and obstructions are configurations that can model a number of flows in living bodies and in pipes, in general, and their investigation is of importance in medicine and engineering. Blood obstruction in arteries and clogged flows in ducts due to fouling are examples were such study might be useful. This article deals with flow in a channel having a sinusoidal contraction, which is covered from inside with a layer of porous material. Heat Transfer and turbulence flow are investigated by four distinct models, namely linear high Reynolds, linear low Reynolds, non-linear high Reynolds and non-linear low Reynolds. The equations of motion and mass continuity are discretized by means of the control volume method. The system of algebraic equations is relaxed via the SIMPLE method and the SIP Strong implicit procedure. Results for the size of the recirculating bubble past the contraction indicated that its value seems to be a function of the model used as well as the thickness and properties of the porous material covering the internal walls. The structure of the turbulent thermal field along the channel is also shown to be a function of the turbulence model used as well as the porosity, and permeability of the porous layer.",
+  "authkeywords": [
+    "Axisymmetric channel",
+    "Heat transfer",
+    "Porous layer",
+    "Recirculating bubble",
+    "Sinusoidal contraction",
+    "Turbulent flow simulation"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the Thermal and Fluids Engineering Summer Conference",
+    "issn": null,
+    "eissn": "23791748",
+    "volume": "2017-April",
+    "issue": null,
+    "pages": "2325-2340",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85181551579&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110537",
+    "data_quality_score": 70
+  }
+}

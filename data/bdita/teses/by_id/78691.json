@@ -1,0 +1,35 @@
+{
+  "num_tese": "78691",
+  "type": "tese",
+  "title": "Modelo termodinâmico de um sistema de ar-condicionado de duplo estágio com economizador",
+  "author": "Leonardo Henrique Grous Franco",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Guilherme Borges Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Izabela Batista Henriques",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Uma temperatura ambiente externa extremamente elevada traz vários problemas para um funcionamento adequado de um sistema de refrigeraçăo por compressăo de vapor. A diminuiçăo da viscosidade do óleo lubrificante, que reduz a vida útil do compressor, a reduçăo da capacidade de refrigeraçăo e o aumento do consumo de energia săo efeitos negativos encontrados em um sistema de refrigeraçăo quando sujeito a altas temperaturas ambientes. Com foco nestes aspectos, este trabalho descreve uma modelagem termodinâmica e um estudo comparativo entre um sistema de refrigeraçăo de um único estágio e um sistema de refrigeraçăo de duplo estágio com um economizador, operando a altas temperaturas ambientes. A comparaçăo do coeficiente de desempenho (COP), da capacidade de refrigeraçăo (Q?evap), da temperatura de descarga T2 e análise de segunda lei entre estes dois ciclos, alterando as temperaturas ambientes externas e os fluidos refrigerantes, fazem parte da análise desse trabalho. Como base para este estudo, é analisado uma unidade de ar-condicionado para fins militares com uma capacidade de refrigeraçăo de 1,5 TR (toneladas de refrigeraçăo), e utilizando o R-407c como fluido refrigerante. Além disso, săo avaliados outros refrigerantes com baixo impacto ambiental, como o R-32, R-1234yf, R-410a, e R-1234ze(E). Os modelos consideram a condutância térmica global dos trocadores de calor e a área total do trocador de calor é dividida em fases de fluido correspondentes. A previsăo da taxa de transferęncia de calor latente é realizada utilizando a analogia de Lewis. Um compressor scroll de duas fases é modelado com base na regressăo da curva apresentada na literatura. Através do método de substituiçăo sucessiva e do método de bisseçăo é alcançada uma soluçăo para a operaçăo do ciclo sob várias condiçőes internas e externas. Com a análise dos dados de saída, é possível encontrar um COP mais elevado para o sistema de duplo estágio com economizador, independentemente do fluido refrigerante, devido ŕ presença da pressăo intermediária, produzindo uma reduçăo da potęncia de entrada do compressor, e um aumento do COP e da capacidade de refrigeraçăo. Estes resultados destinam-se a ser utilizados como ferramenta para a concepçăo de sistemas de ar-condicionado eficientes sob temperaturas ambientes extremamente elevadas, reduzindo a emissăo de carbono e o impacto do aquecimento global causado pelo sistema de ar-condicionado.",
+  "subjects": [
+    "Ar condicionado",
+    "Termodinâmica",
+    "Refrigeradores",
+    "Temperatura Ambiente",
+    "Resfriamento",
+    "Transferęncia de calor",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "09/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78691",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78691&origem=BDITA"
+}

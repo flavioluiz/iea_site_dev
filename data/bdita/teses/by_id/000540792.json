@@ -1,0 +1,31 @@
+{
+  "num_tese": "000540792",
+  "type": "tese",
+  "title": "Escoamento turbulento em contraçăo súbita com inserto poroso.",
+  "author": "Reinaldo Marcondes Orselli",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A presente proposta tem como objetivo investigar numericamente a influęncia de uma inserçăo porosa em um tubo com contraçăo súbita, no qual duas contraçőes abruptas diferentes foram empregadas com razăo entre as seçőes de 0,285 e 0,10. Casos com escoamento em regime laminar e turbulento săo estudados. Na simulaçăo numérica, săo empregadas as equaçőes macroscópicas de conservaçăo de massa, quantidade de movimento e de grandezas turbulentas baseadas no conceito da dupla decomposiçăo, as quais săo válidas em todo o domínio computacional. Para o fechamento das equaçőes, modelos de turbulęncia macroscópico k-e lineares de Alto e Baixo Reynolds e năo linear de Alto Reynolds săo empregados. Primeiramente, os resultados da simulaçăo, sem a inserçăo porosa, săo comparados com dados obtidos de experimentos existentes na literatura, onde o principal parâmetro de comparaçăo é o coeficiente de perda de carga localizada (kc) devido ŕs súbitas mudanças de seçăo. Em seguida, o escoamento no duto é simulado numericamente com uma inserçăo porosa. Parâmetros como porosidade, permeabilidade e espessura săo variados, onde, para cada caso, as perdas de carga no duto e o comportamento do escoamento na regiăo de contraçăo săo analisados e comparados com os respectivos casos sem inserçăo porosa. No escoamento em dutos com contraçăo súbita, observa-se uma bolha de recirculaçăo logo após a contraçăo que causa uma diminuiçăo da área útil de passagem de fluido, fenômeno conhecido como vena contracta. A contraçăo adicional (vena contracta) gera uma perda de carga ainda mais elevada, assim uma inserçăo porosa colocada logo após a contraçăo pode diminuir ou eliminar essa recirculaçăo reduzindo seu efeito no aumento da perda de carga. Porém, por outro lado, a própria inserçăo porosa gera uma perda de carga adicional. Além disso, em muitas situaçőes na engenharia é desejável eliminar ou reduzir a recirculaçăo, bem como uniformizar o escoamento ŕ jusante da contraçăo no duto. No entanto, dependendo de certos parâmetros, tais como porosidade, espessura e permeabilidade da inserçăo porosa, a perda de carga gerada pode ser muito elevada. Logo, este trabalho visa investigar o problema de forma a obter um melhor entendimento da interdependęncia dos parâmetros que compőem o meio poroso no comportamento global do escoamento. No cálculo da perda de carga localizada no duto para os casos sem inserçăo porosa em escoamento turbulento, os resultados obtidos utilizando o modelo de turbulęncia năo linear apresentam uma melhor concordância com os resultados experimentais encontrados na literatura se comparados aos obtidos através dos modelos lineares. Para os casos com inserçăo porosa, os resultados mostram que apesar da reduçăo ou eliminaçăo da recirculaçăo, as perdas de carga săo sempre mais elevadas se comparadas aos casos sem inserçăo porosa. Além disso, este trabalho mostra o quanto a bolha de recirculaçăo é amortecida e, ao mesmo tempo, o quanto de perda de carga adicional é gerada dependendo de cada inserçăo porosa considerada, o que pode ser de extrema utilidade em muitos projetos termo-mecânicos, onde, por exemplo, se deseja reduzir ou eliminar a bolha de recirculaçăo e aumentar a troca de calor.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Simulaçăo",
+    "Contraçăo",
+    "Materiais porosos",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "14/10/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540792",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540792&origem=BDITA"
+}

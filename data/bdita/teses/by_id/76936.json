@@ -1,0 +1,28 @@
+{
+  "num_tese": "76936",
+  "type": "tese",
+  "title": "Structural dynamic analysis using three dimensional hybrid-mixed stress element",
+  "author": "Giorgio Paciarotti",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this work forced vibrations are applied to a three-dimensional hybrid-mixed finite element and a new formulation of dynamic analysis has been developed. Stress and displacement fields on the domain combined to the displacement field occuring on its boundary are independently and concomitantly approximated and subsequently integrated on time. Legendre polynomials are contemplated for a non-nodal element, which orthogonality property implies a highly sparsity. Newmark and Wilson time integration methods are highlighted and dumping factor is proposed as a linear relation between the stiffness and mass square matrix. Accuracy of the dynamic analysis is demonstrated by numerical examples guaranteeing adequate results, substantiated by an appropriate refine of the HMS model through h and p methods.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Estruturas tridimensionais",
+    "Método de elementos finitos",
+    "Análise de tensăo",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "30/06/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76936",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76936&origem=BDITA"
+}

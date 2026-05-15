@@ -1,0 +1,122 @@
+{
+  "publication_id": "2-s2.0-85118879328",
+  "eid": "2-s2.0-85118879328",
+  "doi": "10.1137/20M1345359",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Industry-Relevant Implicit Large-Eddy Simulation of a High-Performance Road Car via Spectral/hp Element Methods",
+  "abstract": "\\bigcirc c 2021 Society for Industrial and Applied MathematicsWe present a successful deployment of high-fidelity large-eddy simulation (LES) technologies based on spectral/hp element methods to industrial flow problems, which are characterized by high Reynolds numbers and complex geometries. In particular, we describe the numerical methods, software development, and steps that were required to perform the implicit LES of a real automotive car, namely, the Elemental Rp1 model. To the best of the authors' knowledge, this simulation represents the first high-order accurate transient LES of an entire real car geometry. Moreover, it constitutes a key milestone toward considerably expanding the computational design envelope currently allowed in industry, where steady-state modeling remains the standard. A number of novel developments had to be made in order to overcome obstacles in mesh generation and solver technology to achieve this simulation, which we detail in this paper. The main objective is to present to the industrial and applied mathematics community a viable pathway to translating academic developments into industrial tools that can substantially advance the analysis and design capabilities of high-end engineering stakeholders. The novel developments and results were achieved using the academic-driven open-source framework Nektar++.",
+  "authkeywords": [
+    "automotive design",
+    "CAD integration",
+    "high Reynolds number flows",
+    "high-fidelity simulations",
+    "high-order CFD",
+    "high-order mesh generation",
+    "implicit LES",
+    "industrial applications",
+    "spectral/hp element methods",
+    "underresolved DNS"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "SIAM Review",
+    "issn": "00361445",
+    "eissn": null,
+    "volume": "63",
+    "issue": "4",
+    "pages": "723-755",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mengaldo, Gianmarco",
+      "scopus_id": "56270246000",
+      "affiliation": "60017161",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moxey, David",
+      "scopus_id": "23467381200",
+      "affiliation": "60026479",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Turner, Michael",
+      "scopus_id": "57191966410",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo Costa",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Jassim, Ayad",
+      "scopus_id": "57219589330",
+      "affiliation": "60107956",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Taylor, Mark",
+      "scopus_id": "57188711388",
+      "affiliation": "125605454",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peiró, Joaquim",
+      "scopus_id": "7005874042",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sherwin, Spencer",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 36,
+    "subject_areas": [
+      {
+        "code": "Theoretical Computer Science",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 87,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85118879328&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069523",
+    "data_quality_score": 100
+  }
+}

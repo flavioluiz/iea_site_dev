@@ -1,0 +1,30 @@
+{
+  "num_tese": "78379",
+  "type": "tese",
+  "title": "Orientaçőes ótimas de material através de sub-regiőes e curvas de Bézier para impressăo 3D de placas laminadas",
+  "author": "Paulo Arthur Costa de Freitas",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Técnicas de manufatura aditiva permitem, por natureza, fabricar estruturas concebidas com liberdades de projeto ótimo, materializando ganhos antes apenas conceituais. O projeto de estruturas com materiais de orientaçăo variável é um exemplo de campo de otimizaçăo que tem potencial para se beneficiar cada vez mais dos processos de manufatura aditiva. O presente trabalho consiste em obter conjuntos de curvas paralelas, manufaturáveis por impressăo 3D, que melhor representem as orientaçőes ótimas de fibras que minimizam a flexibilidade de uma estrutura. A metodologia consiste de um processo de otimizaçăo em dois níveis. No primeiro nível, se faz o projeto pontual de orientaçőes elemento a elemento finito da malha que representa a estrutura. No segundo nível, se faz um ajuste ótimo de curvas ao projeto ponto a ponto obtido no primeiro nível. Observa-se a seguinte sequęncia: as orientaçőes ótimas de fibras săo obtidas através do alinhamento das direçőes das fibras com as direçőes das tensőes principais, a estrutura é dividida em sub-regiőes que agrupam orientaçőes de fibras com características semelhantes e, para cada sub-regiăo, săo obtidos, via ajuste ótimo, uma curva de Bézier base e um conjunto de curvas paralelas que melhor representa cada uma dessas sub-regiőes. Antes do ajuste, um filtro de orientaçőes também é utilizado no processo para suavizar variaçőes de orientaçőes no domínio da estrutura otimizada. Exemplos de ganhos de projeto com a metodologia proposta podem ser vistos em resultados para placas retangulares constituídas de seis camadas: comparou-se o valor da flexibilidade média de uma placa em que foi aplicada a metodologia em relaçăo ŕ uma placa otimizada considerando orientaçőes de fibra constantes por camada. No melhor caso em que a metodologia proposta neste trabalho foi aplicada, obteve-se um projeto ótimo que é 8.76 % melhor em termos dos valores de flexibilidade média e com aumento 176.6 % da carga de falha segundo critérios de Hashin. Alguns projetos ótimos foram manufaturados via processo de impressăo 3D para demonstrar a viabilidade de fabricaçăo dos resultados da metodologia de otimizaçăo aqui apresentada.",
+  "subjects": [
+    "Impressăo tridimensional",
+    "Laminados",
+    "Placas (membros estruturais)",
+    "Manufaturas",
+    "Otimizaçăo",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "18/03/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78379",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78379&origem=BDITA"
+}

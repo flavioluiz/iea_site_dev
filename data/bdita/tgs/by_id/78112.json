@@ -1,0 +1,30 @@
+{
+  "num_tg": "78112",
+  "type": "tg",
+  "title": "Otimizaçăo multidisciplinar de aeronaves năo tripuladas",
+  "author": "Matheus Ribeiro Sampaio",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Henrique Patusco Gomes da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O projeto de uma aeronave é caracterizado por diversas áreas e sistemas distintos acoplados entre si. Devido a essa complexidade, adotar uma abordagem de otimizaçăo de projeto convencional torna o processo lento e muitas vezes incapaz de entregar um resultado ótimo. Assim, técnicas de otimizaçăo multidisciplinar (MDO) devem ser empregadas possibilitando uma análise sistęmica de diversas áreas com um menor custo computacional. Este trabalho consiste na elaboraçăo de uma ferramenta de otimizaçăo de projeto conceitual de aeronaves năo tripuladas (UAVs). Para isso, săo desenvolvidos os módulos de análise aerodinâmica, propulsiva, de estabilidade, de peso e de balanço da aeronave, assim como, também é realizado uma revisăo teórica sobre os métodos de otimizaçăo de sistemas e os principais conceitos de projeto aeronáutico. Para a validaçăo da ferramenta os resultados obtidos săo comparados com os dados de aeronaves UAVs encontradas na literatura. A análise de otimizaçăo é iniciada com a determinaçăo dos objetivos a serem atingidos, seguida da construçăo do Design of experiments do problema. Por fim, a otimizaçăo multidisciplinar é realizada com o método estocástico de algoritmo genético e o projeto ótimo é apresentado como possível UAV tático para missőes aéreas no Brasil.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Projeto de aeronaves",
+    "Otimizaçăo",
+    "Algoritmos genéticos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78112",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78112&origem=BDITA"
+}

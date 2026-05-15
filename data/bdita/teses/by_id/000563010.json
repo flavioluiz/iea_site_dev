@@ -1,0 +1,31 @@
+{
+  "num_tese": "000563010",
+  "type": "tese",
+  "title": "Simulaçăo numérica da convecçăo forçada turbulenta acoplada ŕ conduçăo de calor em dutos retangulares.",
+  "author": "Gustavo Adolfo Ronceros Rivas",
+  "year": "2010",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, uma simulaçăo numérica foi adotada para resolver o problema da convecçăo forçada turbulenta acoplada ŕ conduçăo de calor em um duto de seçőes transversais quadradas e retangulares. As equaçőes utilizadas para a convecçăo turbulenta săo as equaçőes da conservaçăo de massa, quantidade de movimento e energia (equaçőes médias de Navier Stokes, RANS). Estas equaçőes săo acopladas ŕ equaçăo da conduçăo de calor aplicada a quatro placas situadas ao redor do canal. Estas placas săo acopladas entre si sem resistęncia térmica. Assunçőes foram feitas principalmente no escoamento, tais como condiçăo do escoamento turbulento completamente desenvolvido, incompressível e propriedades constantes. A título de comparaçăo, dois modelos de turbulęncia foram utilizados para resolver as equaçőes da quantidade de movimento e outros dois modelos para resolver a equaçăo da energia. Isto é, para determinar o campo de velocidade, os modelos de turbulęncia, k-? năo linear (NLEVM) e tensăo de Reynolds (RSM) (este último simulado em um código comercial) foram adotados e estudados. O campo de temperatura foi determinado a partir de outros dois modelos: Simple Eddy Diffusivity (SED), baseado na hipótese de Prandtl turbulento constante; e Generalized Gradient Diffusion Hypothesis (GGDH). Neste último, como a transferęncia de calor turbulenta depende das tensőes cisalhantes, a anisotropia foi considerada. Cabe ressaltar que estes dois últimos modelos da equaçăo de energia para o fluido, assim como a equaçăo da conduçăo de calor com incorporaçăo da geraçăo de calor para a parte sólida foram adimensionadas e desenvolvidas no código de programaçăo FORTRAN. Os modelos foram validados baseados nos resultados experimentais e numéricos da literatura. Finalmente, os resultados desta investigaçăo permitem avaliar o campo de temperatura do fluido para diferentes seçőes da seçăo transversal ao longo da direçăo principal do escoamento, o qual é influenciado principalmente pela distribuiçăo da temperatura na parede.",
+  "subjects": [
+    "Interaçőes fluido-sólido",
+    "Convecçăo forçada",
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Simulaçăo",
+    "Termodinâmica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "13/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000563010",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000563010&origem=BDITA"
+}

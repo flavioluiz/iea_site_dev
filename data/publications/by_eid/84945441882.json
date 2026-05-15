@@ -1,0 +1,67 @@
+{
+  "publication_id": "2-s2.0-84945441882",
+  "eid": "2-s2.0-84945441882",
+  "doi": "10.1002/nme.4941",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Optimization of composite structures under multiple load cases using a discrete approach based on lamination parameters",
+  "abstract": "& Sons, Ltd.This paper presents a new optimization technique applicable to optimization of composite structures subjected to multiple objectives. The composite structures may be composed of an arbitrary number of laminates. The technique is especially suited for the case where the layers of the laminates may assume a discrete number of orientations. However, given the efficiency of the technique, it is readily extendable to situations where the ply orientations vary quasi-continuously, for instance, by one degree in one degree. The high efficiency is obtained through application of lamination parameters, which, in the case of symmetric laminates, consist of only 10 parameters per laminate. Three traditional structures, a rectangular composite plate, a cantilever composite beam, and a stiffened composite panel, are optimized against buckling when subjected to multiple load cases. © 2015 John Wiley",
+  "authkeywords": [
+    "Buckling",
+    "Composite panels",
+    "Lamination parameters",
+    "Optimization"
+  ],
+  "year": "2015",
+  "date": "2015-11-30",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Engineering",
+    "issn": "00295981",
+    "eissn": "10970207",
+    "volume": "104",
+    "issue": "9",
+    "pages": "827-843",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84945441882&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044499",
+    "data_quality_score": 100
+  }
+}

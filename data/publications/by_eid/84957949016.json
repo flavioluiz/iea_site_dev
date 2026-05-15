@@ -1,0 +1,102 @@
+{
+  "publication_id": "2-s2.0-84957949016",
+  "eid": "2-s2.0-84957949016",
+  "doi": "10.1007/s40430-014-0300-6",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental approach for analysis of vibration sources in a gear hobbing machining process",
+  "abstract": "© 2014, The Brazilian Society of Mechanical Sciences and Engineering.Vibration analysis of cutting processes has been shown to be an effective method of increasing productivity. Significant improvements can be achieved in terms of quality of machined surfaces, cutting tool wear, and cutting parameters. Literature is widely based on end-milling processes, where stable cutting may be obtained under resonance, as long as the cutting tool is restricted to vibrate only along the feed direction. Thus, the occurrence of instability depends not only on the frequencies involved, but also on the contact conditions between the tool and the workpiece. This paper concerns the analysis of an industrial gear hobbing machining process in regards to its vibrational behavior. The supposition that the cutting tool (hob) presents some similarities to the full immersion end-milling case due to the contact conditions was investigated. Two similar machines which showed high discrepancy regarding productivity were analyzed. It was discovered that minor differences between the two machines changed their modal behavior considerably, implicating in lower productivity. Additionally, besides the tooth passing frequency, a second excitation frequency was found due to the cutting tool geometry. Modal analysis was used to determine new possible parameters and tests were conducted to determine stability limits. New parameters allowed for a reduction of over 18 % in process time under stable conditions. Also, it was concluded that one should avoid resonance conditions when machining gear’s teeth through hobbing.",
+  "authkeywords": [
+    "Chatter",
+    "Gear hobbing",
+    "Machining vibrations"
+  ],
+  "year": "2016",
+  "date": "2016-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "38",
+    "issue": "3",
+    "pages": "789-797",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sant’Anna, D. R.",
+      "scopus_id": "56671422200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mundim, R. B.",
+      "scopus_id": "57113620900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Borille, A. V.",
+      "scopus_id": "26032521600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "anderson-v-borille"
+    },
+    {
+      "name": "Gomes, J. O.",
+      "scopus_id": "14524306400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "anderson-v-borille"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84957949016&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.113005",
+    "data_quality_score": 100
+  }
+}

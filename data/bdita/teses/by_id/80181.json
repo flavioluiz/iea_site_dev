@@ -1,0 +1,35 @@
+{
+  "num_tese": "80181",
+  "type": "tese",
+  "title": "Exploiting cosmic microwave background radiation : a novel approach to spacecraft velocity measurement",
+  "author": "Pedro Kukulka de Albuquerque",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Paulo Cesar Guerreiro da Costa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work presents an innovative study using the Cosmic Microwave Background Radiation (CMBR) as a navigational signal for spacecraft in deep space missions. The main objective was to develop methods for measuring spacecraft velocity during the cruise phase in autonomous deep-space missions, addressing the limitations of traditional navigation techniques. Preliminary simulations were conducted using analytical and nonlinear model approaches, focusing on understanding the use of CMBR measurements for velocity determination. The analytical solution required smoothing filters and solving nonlinear systems. More comprehensive simulations were implemented in the next phase using the Unscented Kalman Filter (UKF) and machine learning (ML) models, allowing for a deeper system performance analysis. The study concludes that the UKF presented smaller velocity errors, and the use of ML models for velocity estimation demonstrated great potential, with significant advantages in simplicity and robustness.",
+  "subjects": [
+    "Missőes espaciais",
+    "Radiaçăo cósmica",
+    "Espaços profundos",
+    "Estimativas",
+    "Filtros de Kalman",
+    "Navegaçăo espacial",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "11/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80181",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80181&origem=BDITA"
+}

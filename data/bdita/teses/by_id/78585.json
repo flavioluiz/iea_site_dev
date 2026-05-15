@@ -1,0 +1,35 @@
+{
+  "num_tese": "78585",
+  "type": "tese",
+  "title": "Proposiçăo de estratégias de usinagem no alumínio 6351-T6 para fabricaçăo de propulsores com geometrias complexas",
+  "author": "Leandro Henrique Aio",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Milena Chanes de Souza",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O hélice naval é um dos principais componentes das embarcaçőes que possuem formas complexas, apresentando oportunidades de melhoria em sua fabricaçăo. Em submarinos, ele deve ser silencioso e por este motivo, diminuir a cavitaçăo para resultar em ruídos mais baixos e velocidades maiores em seus testes săo extremamente importantes. Muitos processos de fabricaçăo, ainda săo por fresamento em 3-eixos e uma etapa adicional de polimento manual, porém isso gera inflexőes e descontinuidades nas superfícies das pás do hélice. Atualmente, a tecnologia consegue fabricar hélices usando máquinas CNC com 5-eixos simultâneos, e ainda podem melhorar a qualidade e desempenho do hélice, sem dizer que pode ser capaz de excluir a etapa de polimento manual. Seu planejamento pode ser por meio de programa CAM, pelo motivo de sua forma complexa. Neste trabalho serăo estudados os efeitos de velocidade de corte (Vc) e avanço por dente (fz) na precisăo geométrica e rugosidade média (Ra) superficial na fabricaçăo de pás de hélice, e também a nível de comparaçăo, serăo testadas duas estratégias diferentes. Os experimentos foram realizados utilizando duas variaçőes de velocidade de corte (Vc), sendo elas 141.2 e 176.5 m/min e duas variaçőes de avanço por dente (fz), sendo elas 0.13 e 0.195 mm/dente. As estratégias se dividiram em zigzag 3D e contorno 3D. Os resultados mostraram que quanto menor o valor de avanço por dente (fz) aplicado, maior será a resultante da superfície e que alguns recursos disponíveis como ferramenta de corte, geometria da peça e tempo de usinagem podem ser avaliados para a escolha da estratégia de usinagem.",
+  "subjects": [
+    "Usinagem",
+    "Pás de hélices",
+    "Ferramentas de corte",
+    "Rugosidade de superfície",
+    "Fabricaçăo",
+    "Fresagem (usinagem)",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "20/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78585",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78585&origem=BDITA"
+}

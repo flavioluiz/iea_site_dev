@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85057294109",
+  "eid": "2-s2.0-85057294109",
+  "doi": "10.2514/6.2016-2866",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Jet noise reduction through filtering small-scale structures",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.It is well known that large-scale coherent structures play a crucial role in sound radiation from jets. Their acoustic efficiency is believed to be associated with their interaction with smaller-scale structures. This study conducts numerical experiments on a low Reynolds number jet where smaller-scale structures are artificially suppressed by increasing the eddy viscosity in a subgrid model. It is found that when the smaller-scale structures are sup- pressed, the fluctuation energy of the large-scale structures around the most unstable Strouhal numbers (0.25 < St < 0.4, based on jet exit velocity and nozzle diameter) remains at almost the same level as the original. The coherence length scales of the large-scale structures (at 0.3 < St < 0.6) generally increase after the flow transitions into turbulence. A proper orthogonal decomposition (POD) shows that the first POD mode at low Strouhal numbers have wavelike patterns, and that the peak energy and convection speed of these wavepackets are not influenced much by the increasing eddy viscosity. The radiated sound is shown to decrease significantly at high Strouhal numbers at various polar angles, but to remain approximately the same at low Strouhal numbers (St < 0.4). It is suggested that the instability waves at the most unstable Strouhal numbers (St ≈ 0.35) are not significantly affected by the structures at high Strouhal numbers (St > 0.6), and that the sound radiation at low Strouhal numbers (0.25 < St < 0.35) at various polar angles possibly comes from the large-scale structures in the similar Strouhal number range.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Ceas Aeroacoustics Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fu, Zhidong",
+      "scopus_id": "55543345200",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Agarwal, Anurag",
+      "scopus_id": "7401480906",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lehnasch, Guillaume",
+      "scopus_id": "24069278400",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Daviller, Guillaume",
+      "scopus_id": "36645872600",
+      "affiliation": "60030119",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057294109&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101812",
+    "data_quality_score": 90
+  }
+}

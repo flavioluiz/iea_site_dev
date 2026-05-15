@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85129292894",
+  "eid": "2-s2.0-85129292894",
+  "doi": "10.1007/s00170-022-09247-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Riveting process simulation to predict induced deformations in aeronautical structures",
+  "abstract": "© 2022, The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature.In aeronautical manufacturing, the assembly of large structures like wings and fuselages usually uses riveting to join the primary parts. The riveting process induces deformations between parts that affect aircraft performance and increase manufacturing costs. In this work, a finite element analysis of a rivet installation is developed to predict the induce deformations as a tool for the design of the assembly process in aeronautical industry. Different from the existing literature, which focuses mainly on fatigue analysis, the method presented in this paper focuses on finding a solution for determining induced deformations that can be applicable, from an industrial perspective, to aircraft production lines. A 2D axisymmetric model represents the installation of a single rivet joining two metal sheets with a force-controlled squeezing. The simplified model is proposed to reduce computational costs. An adaptive meshing scheme is adopted to better describe the forming of the driven head and improve the accuracy of the model. When comparing with existing methods, this attribute allows to better predict the profile of the radial expansion along the thickness of the sheets because the mesh is recalculated at each iteration to prevent distorted elements. Up to 18% relative difference was observed between the mesh with and without adaptive scheme. The results indicate that the radial expansion in the rivet hole is directly related to the squeeze force. An uneven expansion occurs through the thickness of the sheets indicating bending of the material. The mean radial expansion at half-pitch of 4 diameters was used to estimate the radial expansion of a rivet line composed of two or more rivets. The obtained results show that, for a rivet line composed of 50 rivets with a 4-diameter pitch (a panel with 952.5-mm length) the mean radial expansion for a 27.4-kN squeeze force is of 0.5 mm. It was also observed that the inner sheet (closest to the driven head) expands at least three times more than the outer sheet, indicating a bending mechanism is present in the panel.",
+  "authkeywords": [
+    "Rivet installation",
+    "Riveting induced deformations",
+    "Riveting process simulation",
+    "Wing panel assembly"
+  ],
+  "year": "2022",
+  "date": "2022-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Advanced Manufacturing Technology",
+    "issn": "02683768",
+    "eissn": "14333015",
+    "volume": "120",
+    "issue": "11-12",
+    "pages": "7673-7687",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Zanatta, Carla Verônica",
+      "scopus_id": "57660699900",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emília",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "de Mello, João Marcos Gomes",
+      "scopus_id": "57540418100",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Figueira, José Augusto Nunes",
+      "scopus_id": "57000079500",
+      "affiliation": "60021657-128064857",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129292894&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049080",
+    "data_quality_score": 100
+  }
+}

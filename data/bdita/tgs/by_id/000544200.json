@@ -1,0 +1,31 @@
+{
+  "num_tg": "000544200",
+  "type": "tg",
+  "title": "Análise de modelo numérico que simula escoamento em circuito de circulaçăo natural.",
+  "author": "Rafael Radé Pacheco",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Alex Guimarăes Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Francisco Antonio Braz Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A resoluçăo analítica de equaçőes, em muitos problemas, se mostra um método inviável de soluçăo. Desta forma, métodos numéricos surgiram com objetivo de cobrir as lacunas de conhecimento decorrentes da falta de soluçăo analítica para diversos tipos de problema. O problema da circulaçăo natural em circuito fechado é um problema que pertence ŕ classe acima mencionada, onde um conjunto de equaçőes diferenciais, oriundos de algumas simplificaçőes das equaçőes de Navier-Stokes, năo tęm soluçăo analítica. Vários programas computacionais foram criados para resolver numericamente este problema, dentre os quais destacam-se o já consagrado RELAP e o ANCINA. O foco deste trabalho esteve voltado para a criaçăo de programa computacional que forneceu subsídios suficientes para a análise gráfica dos resultados do programa ANCINA, e para a avaliaçăo gráfica destes resultados a fim de que a coeręncia fosse comprovada.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento bifásico",
+    "Circulaçăo natural",
+    "Métodos computacionais",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544200",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544200&origem=BDITA"
+}

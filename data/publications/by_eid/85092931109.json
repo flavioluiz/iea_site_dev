@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-85092931109",
+  "eid": "2-s2.0-85092931109",
+  "doi": "10.1016/j.jfluidstructs.2020.103137",
+  "pii": "S088997462030606X",
+  "pubmed_id": null,
+  "title": "Coupled framework for limit-cycle oscillations modeling based on leading-edge vortex shedding",
+  "abstract": "© 2020 Elsevier LtdCurrent trends in the aircraft industry involve higher aspect-ratio wings made of lighter materials. These trends seek to reduce fuel emissions and increase flight efficiency by reducing drag to lift ratio and overall weight, respectively, of the aircraft. This results in reduced structural stiffness and coupling between the aeroelastic modes and flight dynamics. The flutter phenomenon is of particular interest for aeroelastic studies, and modeling post-flutter limit-cycle oscillations (LCO) is a challenging problem. Several studies have been developed to allow fast simulations of the highly non-linear aerodynamic situations, with leading-edge vortex modulation been a proved solution for modeling some forms of LCOs in airfoils. This article proposes a framework based on the 3D expansion of this method using strip theory and coupling with modal structural model for simulations of aerodynamic based non-linear phenomenon. A cantilevered flat plate is used for testing and validating the framework against wind-tunnel experiments and the industry standard approach. The results show that the proposed model is able to capture the main behavior of the LCO observed in the experiments and is directly comparable with the current approaches used at the industry. The framework allows for scalability and is also fast enough to provide time-based results in under two days for a desktop simulation, reducing the need of expensive cluster computations. Finally, since it is completely physics-based it allows for the engineer to get insights on the aerodynamic flow at a fraction of the cost of more detailed CFD models.",
+  "authkeywords": [
+    "Aerodynamics",
+    "Aeroelasticity",
+    "Flutter",
+    "Limit-cycle oscillations",
+    "Vortex-based methods"
+  ],
+  "year": "2020",
+  "date": "2020-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids and Structures",
+    "issn": "08899746",
+    "eissn": "10958622",
+    "volume": "99",
+    "issue": null,
+    "pages": null,
+    "article_number": "103137"
+  },
+  "authors": [
+    {
+      "name": "Monteiro, T. P.",
+      "scopus_id": "57192906820",
+      "affiliation": "60021657-60001490-60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ramesh, K.",
+      "scopus_id": "25825468400",
+      "affiliation": "60021657-60001490-60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, F.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657-60001490-60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, R. G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657-60001490-60011604",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092931109&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066942",
+    "data_quality_score": 100
+  }
+}

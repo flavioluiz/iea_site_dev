@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85019204198",
+  "eid": "2-s2.0-85019204198",
+  "doi": "10.4271/2015-36-0448",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modal Analysis of a Power-Recirculating Gear Test Rig",
+  "abstract": "Copyright © 2015 SAE International.This work is developed under the context of determining a suitable power-recirculation gear test design. Its operation parameters are determined by the usual speed values to what the Brazilian automotive transmission systems are submitted. The operating parameters generate forces that act as a frequency source, inducing mechanical vibrations to the structure. The level of the vibrations must be supervised so it does not reach values which correspond to the structure natural frequency. In such cases, resonance zones and noise at the measurement devices occur, causing wrong measurement data and, even further, structural failures. This paper analyzes the application of a method to investigate operational conditions and, eventually, redesign the rig's main elements, to escape from resonance and noise zones. The modal analysis appears as a suitable tool for this purpose, giving as an output the description of structure natural vibration response. Because of the rig's recirculating characteristics, separated components of the bench influence the natural frequency of the entire structure. Therefore, the method developed must be applied at each of these components. The study starts with a modal analysis of the rig's rotary components, within the recirculating power concept. Additionally, the analysis is performed on two main bench's components: the gearboxes and the supporting structure. By means of a FEM analysis, the natural frequencies are determined and compared to the rig's operating frequencies. The study is concluded with the recommendations over the boundary conditions of different gear test procedures.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": null,
+    "eissn": "01487191",
+    "volume": "2015-September",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Oliveira Teixeira, Patrícia Helena",
+      "scopus_id": "56550039200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rego, Ronnie Rodrigo",
+      "scopus_id": "55692679300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ronnie-rodrigo-rego"
+    },
+    {
+      "name": "Borille, Anderson Vicente",
+      "scopus_id": "26032521600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "anderson-v-borille"
+    },
+    {
+      "name": "Salzgeber, Jonny",
+      "scopus_id": "57194204987",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ronnie-rodrigo-rego",
+    "anderson-v-borille"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 6,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85019204198&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.080536",
+    "data_quality_score": 80
+  }
+}

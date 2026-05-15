@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-84990964610",
+  "eid": "2-s2.0-84990964610",
+  "doi": "10.1007/s40295-016-0094-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Hardware-in-the-Loop Rendezvous Tests of a Novel Actuators Command Concept",
+  "abstract": "© 2016, American Astronautical Society.Integration, test and validation results, in a real-time environment, of a novel concept for spacecraft control are presented in this paper. The proposed method commands simultaneously a group of actuators optimizing a given set of objective functions based on a multiobjective optimization technique. Since close proximity maneuvers play an important role in orbital servicing missions, the entire GNC system has been integrated and tested at a hardware-in-the-loop (HIL) rendezvous and docking simulator known as European Proximity Operations Simulator (EPOS). During the test campaign at EPOS facility, a visual camera has been used to provide the necessary measurements for calculating the relative position with respect to the target satellite during closed-loop simulations. In addition, two different configurations of spacecraft control have been considered in this paper: a thruster reaction control system and a mixed actuators mode which includes thrusters, reaction wheels, and magnetic torqrods. At EPOS, results of HIL closed-loop tests have demonstrated that a safe and stable rendezvous approach can be achieved with the proposed GNC loop.",
+  "authkeywords": [
+    "Hardware-in-the-loop simulation",
+    "Multiobjective optimization",
+    "On-orbit servicing mission",
+    "Spacecraft control system"
+  ],
+  "year": "2016",
+  "date": "2016-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Astronautical Sciences",
+    "issn": "00219142",
+    "eissn": "21950571",
+    "volume": "63",
+    "issue": "4",
+    "pages": "287-307",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gomes dos Santos, Willer",
+      "scopus_id": "55819853400",
+      "affiliation": "60012729",
+      "is_eam_professor": true,
+      "eam_professor_id": "willer-gomes-dos-santos"
+    },
+    {
+      "name": "Marconi Rocco, Evandro",
+      "scopus_id": "8613263600",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Boge, Toralf",
+      "scopus_id": "41261052200",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Benninghoff, Heike",
+      "scopus_id": "55627939500",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rems, Florian",
+      "scopus_id": "56200146000",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "willer-gomes-dos-santos"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84990964610&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.116856",
+    "data_quality_score": 100
+  }
+}

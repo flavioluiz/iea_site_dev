@@ -1,0 +1,26 @@
+{
+  "num_tg": "77566",
+  "type": "tg",
+  "title": "Strapdown inertial navigation simulation and observability analysis",
+  "author": "Nícholas Lima Soares",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Jacques Waldmann",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Inertial navigation systems (INS) are widely used in aircrafts, missiles, spacecrafts and marine vehicles with the purpose of determining the position, velocity and attitude of its host vehicle. The INS has the advantage of not relying on external sources for computing the navigation, however, the sensors that compose the INS have intrinsic errors that cause residual build up in the solution of the navigation equations and, thus, decrease its accuracy over time. In the context of navigation, accuracy is a key parameter for the vehicles mentioned above either for civil or military use. Although there have been technological improvements in terms of sensor accuracy, a method must be developed to bound error propagation. The understanding of these uncompensated errors for adequate modeling and an eventual fusion with other sensors such as a Global Navigation Satellite System (GNSS) or an altimeter, aims to increase the accuracy of navigation. Thus, this research develops and simulates an inertial navigation system algorithm and proposes an initial study for an eventual fusion between a GNSS and an altimeter to reduce error propagation in navigation systems. The fusion method aimed, is a complementary filter, commonly used to bound error propagation in the vertical channel. The simulation of the algorithm is carried out using the software Matlab. Initially, a description of the navigation equations is developed and simulated. Subsequently, a fundamental analysis of the error sources is made and the error propagation of a commercial inertial sensor is simulated with the initially implemented algorithm. This aims to validate the model, analyze how each type of error behaves in a simulated environment and corroborate the need for sensory fusion. Then, a description and simulation of a complementary filter is made in order to limit the propagation of errors in the vertical channel. The resulting performance of the algorithm with the complementary filter is based on a known solution of the navigation equation to verify the viability of the model. Next, a description of sculling and coning errors is made in order to simulate and test a discrete inertial navigation system. Lastly, an observability analysis of the inertial system is made for the stationary case and at the poles. A simplified analysis of observability is also done by adding a magnetometer to the IMU. This will allow an analysis of system errors aiming at a sensory fusion with Kalman filtering to improve the accuracy of navigation.",
+  "subjects": [
+    "Navegaçăo inercial",
+    "Guiamento inercial",
+    "Giroscópios",
+    "Sistemas de navegaçăo por satélite",
+    "Sensores inerciais",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77566",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77566&origem=BDITA"
+}

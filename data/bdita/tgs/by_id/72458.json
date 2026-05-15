@@ -1,0 +1,31 @@
+{
+  "num_tg": "72458",
+  "type": "tg",
+  "title": "Controle para aumento de estabilidade longitudinal e látero direcional de aeronave rádio controlada com estabilidade relaxada",
+  "author": "Sergio Salzedas Vilela",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Gustavo Toledo de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Visando melhorar as características dinâmicas de um aeromodelo radiocontrolado foi projetado e implementado dois sistemas, um de deslocamento de CG e outro de aumento de estabilidade artificial. O primeiro tem como objetivo modificar a localizaçăo do CG para que assim se possa estudar o efeito da instabilidade estática gerada por este deslocamento. O segundo tem como objetivo estabilizar a aeronave para uma dada condiçăo de CG. A implementaçăo do sistema de aumento de estabilidade possibilita para o aeromodelo menor arrasto devido a menores deflexőes de superfícies de comando, ou seja, menor consumo de combustível além de maior agilidade na resposta ao comando fornecido. Tais características săo importantes para VANTs de aplicaçăo militar. Tendo em vista a importância de se reduzir a estabilidade estática de uma aeronave este trabalho vislumbra o processo de desenvolvimento bem como de ensaios em voo para validar um sistema de aumento de estabilidade em uma aeronave radiocontrolada com estabilidade relaxada.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Estabilidade de aeronaves",
+    "Ensaios em voo",
+    "Controle de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72458",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72458&origem=BDITA"
+}

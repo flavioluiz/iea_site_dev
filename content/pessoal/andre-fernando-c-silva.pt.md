@@ -1,8 +1,7 @@
 ---
-title: "André Fernando C. Silva"
+title: "André Fernando de Castro da Silva"
 layout: professor
 professor_id: "andre-fernando-c-silva"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

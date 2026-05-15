@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85194244061",
+  "eid": "2-s2.0-85194244061",
+  "doi": "10.3390/computation12050092",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical Estimation of Nonlinear Thermal Conductivity of SAE 1020 Steel",
+  "abstract": "© 2024 by the authors.Thermally characterizing high-thermal conductivity materials is challenging, especially considering high temperatures. However, the modeling of heat transfer processes requires specific material information. The present study addresses an inverse approach to estimate the thermal conductivity of SAE 1020 relative to temperature during an autogenous LASER Beam Welding (LBW) experiment. The temperature profile during LBW is computed with the aid of an in-house CUDA-C algorithm. Here, the governing three-dimensional heat diffusion equation is discretized through the Finite Volume Method (FVM) and solved using the Successive Over-Relaxation (SOR) parallelized iterative solver. With temperature information, one may employ a minimization procedure to assess thermal properties or process parameters. In this work, the Quadrilateral Optimization Method (QOM) is applied to perform estimations because it allows for the simultaneous optimization of variables with no quantity restriction and renders the assessment of parameters in unsteady states valid, thereby preventing the requirement for steady-state experiments. We extended QOM’s prior applicability to account for more parameters concurrently. In Case I, the optimization of the three parameters that compose the second-degree polynomial function model of thermal conductivity is performed. In Case II, the heat distribution model’s gross heat rate (Ω) is also estimated in addition to the previous parameters. Ω [W] quantifies the power the sample receives and is related to the process’s efficiency. The method’s suitability for estimating the parameters was confirmed by investigating the reduced sensitivity coefficients, while the method’s stability was corroborated by performing the estimates with noisy data. There is a good agreement between the reference and estimated values. Hence, this study introduces a proper methodology for estimating a temperature-dependent thermal property and an LBW parameter. As the performance of the present algorithm is increased using parallel computation, a pondered solution between estimation reliability and computational cost is achieved.",
+  "authkeywords": [
+    "CUDA-C",
+    "GPU processing",
+    "inverse heat conduction problem (IHCP)",
+    "numerical estimation",
+    "quadrilateral optimization method (QOM)",
+    "simultaneous assessment",
+    "thermal conductivity"
+  ],
+  "year": "2024",
+  "date": "2024-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computation",
+    "issn": null,
+    "eissn": "20793197",
+    "volume": "12",
+    "issue": "5",
+    "pages": null,
+    "article_number": "92"
+  },
+  "authors": [
+    {
+      "name": "de Oliveira, Ariel Flores Monteiro",
+      "scopus_id": "58513347300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Zilnyk, Kahl Dick",
+      "scopus_id": "55816533700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "kahl-d-zilnyk"
+    },
+    {
+      "name": "Le Masson, Philippe",
+      "scopus_id": "7003955533",
+      "affiliation": "60004130",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nascimento, Ernandes José Gonçalves do",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes",
+    "kahl-d-zilnyk"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Theoretical Computer Science",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science (all)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85194244061&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090952",
+    "data_quality_score": 100
+  }
+}

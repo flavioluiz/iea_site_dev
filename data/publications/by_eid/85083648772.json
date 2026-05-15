@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85083648772",
+  "eid": "2-s2.0-85083648772",
+  "doi": "10.1016/j.compstruct.2020.112305",
+  "pii": "S0263822319340656",
+  "pubmed_id": null,
+  "title": "A complete implementation methodology for Asymptotic Homogenization using a finite element commercial software: preprocessing and postprocessing",
+  "abstract": "© 2020 Elsevier LtdHomogenization techniques are very important in describing the mechanical behavior of high performance composite materials. Among the different techniques applied to this modeling, the RVE (Representative Volume Element) and AH (Asymptotic Homogenization) play an important role. In this context, the present work aims to present a complete implementation methodology for Asymptotic Homogenization using ABAQUS® software. Although recent work have provided proper methodologies to describe the mechanical behavior of composite materials based on their constituents, the authors verified that gaps still exist. In contrast, this paper presents all the required steps in details. The application of periodic boundary conditions, which is not straightforward on ABAQUS® software, is described for all the load cases to be solved. The computation of required data from software output files as well as the calculation of the homogenized matrix are also described. The expanded equations to obtain the stresses at microscopic level using finite element commercial software, which could not be seen in recent literature, are detailed and the required emphasis is given. This paper also presents examples to validate and evaluate the obtained results.",
+  "authkeywords": [
+    "ABAQUS® software",
+    "Asymptotic Homogenization",
+    "Numerical implementation",
+    "Periodic boundary conditions"
+  ],
+  "year": "2020",
+  "date": "2020-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "245",
+    "issue": null,
+    "pages": null,
+    "article_number": "112305"
+  },
+  "authors": [
+    {
+      "name": "Dutra, Thiago Assis",
+      "scopus_id": "57211220639",
+      "affiliation": "60021657-60022487",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, Rafael Thiago Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Resende, Hugo Borelli",
+      "scopus_id": "57196403328",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães, Alessandro",
+      "scopus_id": "16636364500",
+      "affiliation": "60022487",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guedes, José Miranda",
+      "scopus_id": "7003775475",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 47,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 57,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083648772&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063734",
+    "data_quality_score": 100
+  }
+}

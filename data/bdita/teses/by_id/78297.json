@@ -1,0 +1,36 @@
+{
+  "num_tese": "78297",
+  "type": "tese",
+  "title": "A fast numerical pollutant dispersion algorithm using GPU",
+  "author": "Daniel Botezelli",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The advances of graphics processing units (GPU) technology have granted a recent enhancement in the parallel programming field. However, the use of GPU devices in fluid flow simulations is still in the development phase. The majority of the currently available high-precision fluid-flow simulation codes are targeted to CPU-based clusters. The present dissertation proposes a CUDA-C-based simulation algorithm to demonstrate GPU devices' potential precision and fastness in coping with the numerical solution of the Navier-Stokes and pollutant dispersion equations. The main objective is to develop a high accelerated algorithm, providing real-time simulation. This may improve the computational fluid dynamics (CFD) investigations since it allows for real-time valuable data visualization. Early identification of a possible hazard is crucial for corrective and thwarting measures. Thus, an implicit finite volume method is applied to solve those equations based on a total variation diminishing (TVD) discretization scheme. The proposed methodology is exemplified on a classical approach of the lid-driven cavity, channel-flow, and street canyon problems. This dissertation uses different grid resolutions and Reynolds numbers to investigate the performance of the proposed method against state-of-the-art techniques. The results show that the SOR-M procedure has contributed to the enhancement of the convergence rate. In particular, a time reduction of about 22.5% is achieved when the SOR-M algorithm is applied. Moreover, the overall method has shown to be 13-70 times faster than CPU-based codes. In conclusion, parallel CFD can significantly increase the performance in solving fluid flow and pollutant dispersion problems. Therefore, GPU-based codes are a promising way for real-time engineering and solutions.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento de fluidos",
+    "Algoritmos",
+    "Análise numérica",
+    "Número de Reynolds",
+    "Dispersăo",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "03/03/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78297",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78297&origem=BDITA"
+}

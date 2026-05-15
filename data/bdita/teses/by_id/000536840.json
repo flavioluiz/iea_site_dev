@@ -1,0 +1,32 @@
+{
+  "num_tese": "000536840",
+  "type": "tese",
+  "title": "Desenvolvimento e otimizaçăo de manobras de ensaios em vôo para estimaçăo de derivadas de estabilidade e controle de aeronaves.",
+  "author": "Nei Salis Brasil Neto",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata da aplicaçăo de técnicas de otimizaçăo via algoritmos genéticos para o desenvolvimento de manobras de ensaios em vôo para estimaçăo de parâmetros aerodinâmicos de aeronaves. As manobras otimizadas săo necessárias para aumentar a eficięncia dos algoritmos de estimaçăo paramétrica, respeitando o envelope operacional das aeronaves quanto ŕ segurança de vôo e quanto ŕs limitaçőes matemáticas dos modelos assumidos. Neste trabalho é feita a comparaçăo entre a eficięncia do procedimento de estimaçăo com a aplicaçăo de manobras convencionais e a eficięncia do procedimento de estimaçăo com a aplicaçăo das manobras otimizadas. Em ambos os casos, o aumento da eficięncia do algoritmo de estimaçăo busca a maximizaçăo da sensitividade das variáveis de saída aos parâmetros do modelo. Para as manobras convencionais, os sinais săo especificados de maneira indireta, através da maximizaçăo de suas densidades espectrais de potęncia nas freqüęncias próximas dos modos naturais do sistema dinâmico. A técnica de otimizaçăo, entretanto, baseada no conteúdo de informaçăo dos dados de ensaios em vôo, diretamente utiliza-se dos conceitos de matriz de informaçăo e limitantes de Cramer-Rao para compor os critérios de otimizaçăo e gerar sinais globalmente ótimos através de algoritmos genéticos que minimizem as incertezas relacionadas com as estimativas dos parâmetros aerodinâmicos. A presente abordagem considera problemas com multi-objetivos, multi-entradas e para o mínimo tempo, tratando os resíduos coloridos nas variáveis de medida. Vários estudos de caso săo discutidos com a utilizaçăo dos modelos dinâmicos de período curto e oscilatório em derrapagem, incluindo resultados de ensaios em vôo de uma aeronave de pequeno porte. As vantagens e desvantagens das técnicas propostas săo apresentadas, enfatizando a facilidade de implementaçăo dos sinais ótimos resultantes. Por fim, consideraçőes e recomendaçőes a respeito da importância das manobras de ensaios em vôo para os procedimentos de estimaçăo de derivadas de estabilidade e controle de aeronaves săo feitas.",
+  "subjects": [
+    "Manobras de aeronaves",
+    "Ensaios em vôo",
+    "Estimaçăo de sistemas",
+    "Identificaçăo de parâmetros",
+    "Derivadas de estabilidade",
+    "Controle de aeronaves",
+    "Algoritmos genéticos",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/08/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000536840",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000536840&origem=BDITA"
+}

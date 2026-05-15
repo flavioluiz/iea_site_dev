@@ -1,0 +1,29 @@
+{
+  "num_tese": "79072",
+  "type": "tese",
+  "title": "Numerical investigation of a dual fuel diesel-ethanol engine to reduce emissions and improve efficiency for power generation",
+  "author": "Raphael Marinho Lomonaco Neto",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents the analysis of a dual-fuel, Diesel-ethanol engine operating under RCCI (Reactivity Controlled Compression Ignition) applied to electric power generator. Modeling was performed based on a real power generation application with data collected in a Cummins Brazil test cell, and developed using GT-Power® and ANSYS Chemkin® independently in order to study the application with respect to its performance and exhaust emissions when subjected to port fuel injection of ethanol, varying injected quantity to obtain the best trade-off between pollutant's reduction and increase of thermal efficiency. A system-based approach was used for the technical analysis of the emissions and performance results, as well as feasibility to implement this experiment as a solution for power-generation applications that eventually will be pollutant-controlled and will require hardware updates to meet stricter legislations. Results show the possibility of increasing the overall global efficiency of the engine by 2.4 pp, even though the combustion efficiency decrease by 1.6 pp, most likely due to the unaltered design of the traditional Diesel engine leading to mixture development difficulties and slightly in-cylinder burn. An optimal substitution rate of 20%, or 5.3 g/s was found limited to quantitative and qualitative results, and steady smoke was reduced by 26.7%, whereas and NOx and THC emissions increased (28.9% and 13.7%, respectively) as expected once ethanol burns in higher temperatures. This study indicates a good trade-off between emissions and thermal efficiency vs modifications and total cost of ownership required to implement the solution.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Motores bi-combustível",
+    "Combustíveis diesel",
+    "Geraçăo de energia",
+    "Injeçăo de combustível",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "27/03/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79072",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79072&origem=BDITA"
+}

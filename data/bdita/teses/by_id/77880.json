@@ -1,0 +1,29 @@
+{
+  "num_tese": "77880",
+  "type": "tese",
+  "title": "Hybrid-trefftz stress element applied to J-integral and stress intensity factor prediction with coarse meshes",
+  "author": "Felipe Alvarez Businaro",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A new application of the Hybrid-Trefftz finite element is introduced for the computation of J-integral and stress intensity factors of three-dimensional planar cracks using coarse meshes, in particular in the crack vicinity. By using a nodeless framework, stresses in the domain of elements can be approximated by using high degree polynomial functions of simple and hierarchical construction, namely the Homogeneous Harmonic Polynomials, with no specific terms added for singular stress modelling. This set of harmonic functions derived from Pascal's pyramid is complete for any approximation degree, a desired attribute for this finite element formulation. Since the hybrid-Trefftz formulation constraints the displacements in the domain to satisfy all field equations locally, both stress and displacement field quantities are directly related in the element domain, being ready to be used to calculate the J-integral and stress intensity factors. An extensive comparison is presented using two- and three-dimensional predictions for stress intensity factors, along with h- and p- refinement of the models. Results for single and mixed-mode crack opening cases are compared with benchmark solutions present in the literature, showing accurate results in the mid surface and through the thickness of the models.",
+  "subjects": [
+    "Análise de tensăo",
+    "Método de Trefftz",
+    "Método de elementos finitos",
+    "Estruturas tridimensionais",
+    "Polinômios",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "29/06/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77880",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77880&origem=BDITA"
+}

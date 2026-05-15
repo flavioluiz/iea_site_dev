@@ -1,0 +1,32 @@
+{
+  "num_tese": "000551389",
+  "type": "tese",
+  "title": "Three-dimensional flow calculations of axial compressors and turbines using CFD techniques.",
+  "author": "Jesuino Takachi Tomita",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "With the advent of powerful computer hardware, Computational Fluid Dynamics (CFD) has been vastly used by researches and scientists to investigate flow behavior and its properties. The cost of CFD simulation is very small compared to the experimental arsenal as test facilities and wind-tunnels. In the last years many CFD commercial packages were developed and some of them possess prominence in industry and academia. However, some specific CFD calculations are particular cases and sometimes need special attention due to the complexity of the flow. In these cases, meticulous research becomes necessary. This is the case of turbomachinery flow calculations. The development of CFD codes applied to turbomachinery flow simulations and its implementation issues are not available. A few institutions have this type of knowledge. Each CFD code has its particularities. Developing a CFD code is very interest subject in academia. In this work, a computational code, written in FORTRAN, was developed to calculate internal flows in turbomachines using CFD techniques. The solver is capable of calculating the three-dimensional flows not only for turbomachines. For instance, internal and external flows of nozzles and airfoils can be calculated. The approach used allows the use of unstructured meshes of hexahedral elements. Euler, Navier-Stokes and turbulent equations can be calculated depending on the user settings. Diferent numerical schemes were implemented for time and space integration. Numerical tools to improve the stability and to increase the time-step (local time-step and implicit residual smoothing) were also implemented and all details are described in this work. The origin of this solver is to simulate flows in compressors and turbines. Therefore, both rotating and nonrotating frames of reference are calculated simultaneously. Hence, the verification and validation processes were run for both inertial and non-inertial systems. A step-by-step design procedure is presented in this work. It is very important to mention that to have a complete understanding of the flow physics in compressors and turbines the designer must have a solid knowledge of the operation of gas turbine components.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Turbinas a gás",
+    "Turbocompressores",
+    "Análise numérica",
+    "Fluxo tridimensional",
+    "Escoamento turbulento",
+    "Turbomáquinas",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "07/01/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551389",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551389&origem=BDITA"
+}

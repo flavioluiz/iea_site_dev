@@ -1,0 +1,40 @@
+{
+  "num_tese": "000385741",
+  "type": "tese",
+  "title": "Dynamics, control and simulation of elastic space servomechanisms and manipulators.",
+  "author": "Raphael de Almeida da Fonseca",
+  "year": "1997",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bern Schäfer",
+      "professor_slug": null
+    },
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    },
+    {
+      "name": "Rodolpho Vilhena de Moraes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This research results from a cooperation program between research institutes of Brazil (ITA - Săo José dos Campos) and Germany (DLR - Oberpfaffenhofen). The global goal consists of three tasks: 1st) Analysisng the dynamics of elastic manipulators with emphasis for space applications. 2nd) Designing new adaptive control schemes for improving the manipulator performance. 3rd) Imprinting flight behaviour of space manipulators on ground using testbeds and simulation tools. Space manipulators, such as the European Robotic Arm (ERA), are light weight structures with elasticity in arms and joints, and with payload mass varying in a large range. DLR in Germany has set up a testbed, the Servicing Test Facility (STF), with a gravity-compatible replica of the ERA with counterbalancing weights. A 1:5 scaled prototype is ready and is called STF-P. These manipulators are modelled and simulated for testing new adaptive control schemes that have been developed for efficient reduction of settling time in space operation. The control design law supposes knowledge of damping (identified), mass moment of inertia (known) and the lowest eigenfrequencies, that depend also on the relative angle between upper and lower arms (links). Simplified models with exact solutions and more complex models with approximated solutions are discussed and compared for estimating these lowest eigenfrequencies with good agreement with experimental results (own and published by others). The controller has a feedforward part, that aims to make the arm to follow a given trajectory and a complementary feedback part actuates correcting the perturbations. The cases of a PI conroller for a motor velocity feedback enclosed by a P controller for load position feedback and PID controller for load position feedback only are specially studied. The design criterion is maximal distance between the imaginary axis of the system's root locus and the closest pole to it, but conceptions of relative stability are included. The poles are not strictly allocated, but their relative positions to each other are determined looking for fast step response with minimal overshoot. Numerical simulations and experiments with the STF-P and systems at the laboratories of ITA and INPE validate the results.",
+  "subjects": [
+    "Robótica",
+    "Manipuladores",
+    "Simulaçăo",
+    "Controle adaptativo",
+    "Servomecanismos",
+    "Elasticidade",
+    "Controladores",
+    "Engenharia mecânica",
+    "Computaçăo"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000385741",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000385741&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "000146671",
+  "type": "tese",
+  "title": "Efeito de um campo năo uniforme na estabilidade em \"whirl-flutter\" de um conjunto motor-hélice",
+  "author": "Eduardo Alves Rodrigues",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fred Nitzsche",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nas configuraçőes de aeronaves que possuem sistemas propulsivos com hélices \"pusher\", o motor e a estrutura de fixaçăo do mesmo encontram-se ŕ frente da hélice. A presença desses componentes provocará o aparecimento de perturbaçőes no escoamento incidente sobre o plano da hélice. Além de diminuir o rendimento do grupo motopropulsor, essas perturbaçőes podem afetar, de alguma maneira, as características da estabilidade em \"whirl-flutter\" do sistema dinâmico formado pelo conjunto motor-hélice. Neste trabalho objetivamos o desenvolvimento e implementaçăo computacional de uma formulaçăo teória qu incluisse um campo de velocidades perturbadas nas equaçőes de movimento do conjunto motor-hélice. Adotando a teoria aerodinâmica de faixas para o cálculo dos esforços aerodinâmicos produzidos pela hélica, chegamos a um sistema de equaçőes diferenciais lineares periódicos. Utilizando a teoria de Floquet-Liapunov para o estudo da estabilidade de sistemas lineares desse tipo, pudemos quantificar o efeito das perturbaçoes sobre as fronteiras em \"whirl-flutter\" de um sistema propulsivo com hélices \"pusher\".",
+  "subjects": [
+    "Aeroelasticidade",
+    "Hélices",
+    "Vibraçăo aeroelástica",
+    "Estabilidade aerodinâmica",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/07/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146671",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146671&origem=BDITA"
+}

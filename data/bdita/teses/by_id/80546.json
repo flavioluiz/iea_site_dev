@@ -1,0 +1,31 @@
+{
+  "num_tese": "80546",
+  "type": "tese",
+  "title": "Comportamento vibratório de vigas coladas considerando incertezas : uso de subestruturaçăo dinâmica e análise experimental",
+  "author": "Vinícius Ramos Israel Santos",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Thiago de Paula Sales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de juntas coladas ou adesivadas aplicadas em montagem de estruturas tem aumentado consistentemen-te nas últimas décadas devido aos avanços nas propriedades de materiais adesivos e desenvolvimentos relaci-onados. Em diversos casos, as juntas coladas apresentam algum grau de variabilidade, impactando o compor-tamento dinâmico do sistema montado. Neste contexto, o objetivo principal desta dissertaçăo consiste em investigar o comportamento dinâmico de estruturas acopladas por meio de juntas adesivadas, levando em consideraçăo variabilidades nestas juntas. Em particular, adota-se para estudo uma estrutura formada por duas vigas, acopladas por meio de uma junta colada. Para tanto, um modelo numérico deste sistema mecâni-co é construído empregando o método dos elementos finitos em conjunto com síntese modal de componentes, via método de Hurty/Craig-Bampton, para cada viga ou subestrutura. A interface de acoplamento é modelada utilizando molas discretas, as quais săo consideradas como variáveis aleatórias na versăo estocástica do mo-delo. Usando simulaçőes de Monte Carlo, funçőes de resposta em frequęncia (FRFs) săo obtidas para amos-tras do modelo numérico. Também é realizada análise modal, para facilitar interpretaçăo do comportamento dinâmico do sistema. Ademais, para validaçăo da modelagem, e buscando comprovar variabilidade em juntas coladas, foram também realizados ensaios experimentais com a estrutura analisada. A junta adesivada fora desfeita e refeita seis vezes para permitir levantar influęncia do processo de colagem no comportamento estru-tural, por meio de FRFs estimadas experimentalmente. Os resultados obtidos a partir das análises realizadas evidenciam a importância de considerar variabilidades em estruturas acopladas por meio de juntas coladas adesivamente. Verificou-se que a estratégia de modelagem utilizada é capaz de capturar razoavelmente varia-çőes experimentais, com frequęncias naturais correspondentes diferindo menos que 4,5%. Também é mostra-do que alguns modos de vibraçăo săo mais influenciados pelos parâmetros incertos da junta colada, o que é uma funçăo de sua forma e de condiçőes de contorno.",
+  "subjects": [
+    "Vibraçăo",
+    "Estruturas coladas",
+    "Vigas (suportes)",
+    "Método de elementos finitos",
+    "Análise modal",
+    "Simulaçăo numérica direta",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80546",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80546&origem=BDITA"
+}

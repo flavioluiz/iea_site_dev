@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85085848489",
+  "eid": "2-s2.0-85085848489",
+  "doi": "10.2514/6.2017-4693",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Multiperforated solid rocket motor burn simulation",
+  "abstract": "Solid rocket motors (SRM) are extensively employed in satellite launchers, missiles and gas generators. The design takes into account propulsive parameters with dimensional, manufacture, thermal and structural constraints. Gas generators and booster SRM frequently employ multiperforation in propellant grain geometries for rapid combustion. A computational tool for tracking the propagation of tridimensional interfaces and shapes is necessary for this task. In this sense, the objective of this paper is to present results using the developed computational tool (named RSIM) to simulate the burning surface regression during the combustion process of a solid propellant. This tool handles complex grain geometry for versatility, including multiple separate surfaces. The SRM internal ballistics simulation is based on 3D propagation, using the level set method approach. Geometrical and thermodynamic data are used as input for the computation, while simulation results of chamber pressure versus time are presented for multiperforated grains.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "53rd AIAA SAE ASEE Joint Propulsion Conference 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mejia, G. L.",
+      "scopus_id": "57190857632",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha, R. J.",
+      "scopus_id": "23390550900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Iha, K.",
+      "scopus_id": "7003624393",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, J. A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    }
+  ],
+  "eam_coauthors": [
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085848489&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.127170",
+    "data_quality_score": 90
+  }
+}

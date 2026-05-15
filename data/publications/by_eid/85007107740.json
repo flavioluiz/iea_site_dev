@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85007107740",
+  "eid": "2-s2.0-85007107740",
+  "doi": "10.1016/j.ast.2016.12.009",
+  "pii": "S1270963816312391",
+  "pubmed_id": null,
+  "title": "Numerical investigation of a HPT with different rotor tip configurations in terms of pressure ratio and efficiency",
+  "abstract": "© 2016 Elsevier Masson SASThe choice of the most appropriate rotor tip configuration is important, because it helps to avoid high blade tip losses due to the leakage flow that are responsible for efficiency and pressure ratio drops, mainly in High Pressure Turbine (HPT). This subject has been investigated to improve the axial turbines performance. The HPT used in this work is the turbine designed during the Energy Efficient Engine Program (E3 Program). This HPT was evaluated with different rotor tip geometry configurations: without tip clearance (hypothetical condition), with standard tip clearance geometry (flat-tip), with squealer, with winglet and squealer with winglet. Results were obtained based on the three-dimensional turbulent flow calculations making the use of a commercial CFD RANS equation-based solver with the addition of a two-equation turbulence model, in which the numerical solutions were compared with data available in the open literature for a HPT design-point operation. It was determined that for the HPT studied in this work, the machine efficiency can be improved using the rotor tip geometry equipped with winglet tip configuration. However, the rotor tip geometry equipped with squealer–winglet tip configuration presented a better pressure ratio compromise.",
+  "authkeywords": [
+    "CFD",
+    "Gas turbine",
+    "High pressure turbine",
+    "Tip clearance",
+    "Tip desensitization"
+  ],
+  "year": "2017",
+  "date": "2017-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace Science and Technology",
+    "issn": "12709638",
+    "eissn": null,
+    "volume": "63",
+    "issue": null,
+    "pages": "33-40",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva, Lucilene Moraes",
+      "scopus_id": "55814401800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 25,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85007107740&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052025",
+    "data_quality_score": 100
+  }
+}

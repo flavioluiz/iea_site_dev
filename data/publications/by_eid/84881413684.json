@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-84881413684",
+  "eid": "2-s2.0-84881413684",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear aeroelastic framework based on vortex-lattice method and corotational shell finite element",
+  "abstract": "This paper presents a study on aeroelastic analyses of composite laminated wings subject to large displacements through the coupling of a nonlinear corotational shell finite element (FE) with an unsteady vortex-lattice method (UVLM) formulation. A FE implemented for the analysis of flat plates has been extended to model laminated composites with different lamina orientations. An UVLM formulation that is capable of coupling with this large displacement structural model is implemented. An explicit partitioned method is evaluated for the coupling of both models, using spline functions to interpolate information from the structural operator to the aerodynamic one, inside a Generalized-a time-marching solution. The resulting aeroelastic formulation provides a framework for the nonlinear aeroelastic analyses of structures made of composite material allowing the characterization of their nonlinear behavior and simulation of the limit-cycle oscillation response. Flat plate laminated wings designed for high flexibility and low flutter speed onset are used as investigation models. Effects of nonlinearities are easily observed in the numerical results, which are promising for expansion of the work and application to the analysis of more refined and complex composite flexible wings. ©2012 AIAA.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers AIAA ASME ASCE AHS ASC Structures Structural Dynamics and Materials Conference",
+    "issn": "02734508",
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2012-1976"
+  },
+  "authors": [
+    {
+      "name": "Souza, Carlos Eduardo De",
+      "scopus_id": "55507900700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Roberto Gil Annes Da",
+      "scopus_id": "35451481500",
+      "affiliation": "60025778",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 23,
+    "subject_areas": [
+      {
+        "code": "Architecture",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881413684&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067517",
+    "data_quality_score": 70
+  }
+}

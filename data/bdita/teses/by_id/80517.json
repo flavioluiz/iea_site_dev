@@ -1,0 +1,37 @@
+{
+  "num_tese": "80517",
+  "type": "tese",
+  "title": "A multiscale numerical model to predict the structural behavior of fiber-reinforced rubber composites for aeronautical seal applications",
+  "author": "Julia Pitanga Carvalho",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "abstract": "The increasing demand for quantitative methodologies for the design of aeronautical seals has driven the use of numerical simulations, given that the development of these components still relies heavily on extensive experimental tests and the manufacture of multiple prototypes, often unnecessarily, due to the lack of consolidated simulation methodologies. In this context, this dissertation proposes a multiscale methodology for the numerical modeling of fabric-reinforced rubber composites, with a focus on their application in aeronautical seals. The methodology starts with the micromechanical characterization of a representative unit cell, which incorporates parameters obtained through experimental tests, analysis of scanning electron microscopy (SEM) images, and analytical estimates of the unit cell's dimensions. An adaptive threshold algorithm was developed to estimate the volume fraction of fibers, enabling the integration of the unit cell's morphology-extracted from SEM image analysis-into the numerical model. This was followed by the calibration and validation of an anisotropic hyperelastic subroutine used in the Abaqus software, based on the uniaxial tensile results of pure rubber and composite coupons. As a study case, the micromechanical methodology was applied to simulate the bending behavior of an aeronautical seal (at subcomponent level). Using the stress-strain curve obtained on the unit cell scale as input, the simulation was able to reproduce the experimental Seal's stiffness value with a relative error of less than 2%. The results demonstrate the potential of the proposed methodology as an effective predictive tool for the design of aeronautical seal components.",
+  "subjects": [
+    "Modelo numérico",
+    "Modelos multiescalas",
+    "Materiais compósitos",
+    "Micromecânica",
+    "Microscopia eletrônica",
+    "Simulaçăo numérica direta",
+    "Vedaçăo",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80517",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80517&origem=BDITA"
+}

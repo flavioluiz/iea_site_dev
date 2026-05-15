@@ -1,0 +1,27 @@
+{
+  "num_tese": "000194294",
+  "type": "tese",
+  "title": "Trajetórias de lançamento de um veículo multicorpo, configuraçăo \"strap-on\", e simulaçăo bidimensional",
+  "author": "Valério Weber",
+  "year": "1988",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodolpho Vilhena de Moraes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho refere-se ŕs consideraçőes gerais sobre o cálculo numérico de trajetórias bidimensionais de um veículo lançador de satélites, multicorpo, em que quatro propulsores auxiliares (boosters), constituintes do primeiro estágio, săo enfeixados em torno de um corpo central, o segundo estágio, cuja configuraçăo é denominada \"STRAP-ON\". Os demais estágios, contituintes do corpo central, estăo dispostos em tandem, como foguetes. Săo introduzidas transformaçőes nas equaçőes de movimento usuais a fim de possibilitar a inclusăo de um tipo de perturbaçăo caracterizada por desalinhamentos angulares e de assimetrias provenientes de imprecisőes de fabricaçăo e de montagens de conjuntos de cada corpo do primeiro estágio. Vantagens surgiram com essas transformaçőes, pois permitem facilitar a maneira de se considerar o sistema de forças sobre cada propulsor bem como discutir problemas outros associados com a simulaçăo de trajetórias com essa configuraçăo. Foram considerados Terra plana e irrotacional, gravidade constante, e inclusăo de termos devidos ao amortecimento do jato. O quatérnion foi utilizado para obtençăo das coordenadas da atitude angular do veículo, com significante diminuiçăo no tempo de computador. Um programa de computador foi escrito em FORTRAN, em que o sistema de equaçőes diferenciais é integrado pelo método numérico devido a Runge-Kutta-Verner (RKV56) utilizado pela sub-rotina DVERK da IMSLib (International Mathematical and Statistical Library) e implementada no sistema Cyber 170/750 da Control Data Corporation. Resultados obtidos de simulaçőes indicaram a significância da inclusăo desses desalinhamentos e assimetrias no modelo do veículo na configuraçăo \"strap-on\", particularmente para a determinaçăo da capacidade do sistema de controle e para visar a um melhor desempenho do veículo quando for possível estimar a magnitude dessas anomalias.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Trajetórias de foguetes",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/10/1988",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194294",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194294&origem=BDITA"
+}

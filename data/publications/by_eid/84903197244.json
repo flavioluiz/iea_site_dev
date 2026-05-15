@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-84903197244",
+  "eid": "2-s2.0-84903197244",
+  "doi": "10.1016/j.ast.2014.05.007",
+  "pii": "S1270963814001023",
+  "pubmed_id": null,
+  "title": "Control-point-placement method for the aerodynamic correction of the vortex- and the doublet-lattice methods",
+  "abstract": "The use of correction factors to improve the accuracy of the aerodynamic influence coefficient (AIC) matrices produced by the vortex-lattice and the doublet-lattice methods has been an engineering practice in the field of aeroelasticity. In order to account for either viscous or transonic flow effects not considered in the linearized formulation of such methods, the most frequent correction techniques have been to pre-multiply or to post-multiply the AIC matrices by diagonal matrices comprising semi-empirical weighting factors. This paper proposes a different correction approach: the control-point-placement method (CPPM), based on the idea of displacing the control point of each panel - the point where the boundary condition of flow tangency must be satisfied. Both the vortex- and the doublet-lattice methods have been developed with the singularities placed at the quarter-chord line of the panels and the control points at three quarters of their mean chords. With the calculation of modified control point positions, the CPPM intrinsically changes the mutual aerodynamic influence between the panels and allows the lifting surface methods to predict steady-state pressure distributions that match or approximate with minimum error those derived from wind tunnel measurements or higher-fidelity CFD solutions. Different approaches to extend the aerodynamic correction for application at non-zero reduced frequencies in the doublet-lattice method are then studied. Results are presented that are in acceptable agreement with benchmark wind tunnel data and comparisons are made between the proposed methodology and the traditional diagonal matrix corrections. © 2014 Published by Elsevier Masson SAS.",
+  "authkeywords": [
+    "Aerodynamic correction",
+    "Lifting surface methods",
+    "Transonic flow",
+    "Transonic flutter dip",
+    "Unsteady aerodynamics"
+  ],
+  "year": "2014",
+  "date": "2014-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace Science and Technology",
+    "issn": "12709638",
+    "eissn": null,
+    "volume": "37",
+    "issue": null,
+    "pages": "117-129",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Silva, Roberto Gil Annes Da",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Paglione, Pedro",
+      "scopus_id": "23973700300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84903197244&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055428",
+    "data_quality_score": 100
+  }
+}

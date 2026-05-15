@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85192671697",
+  "eid": "2-s2.0-85192671697",
+  "doi": "10.1017/jfm.2024.314",
+  "pii": "S0022112024003148",
+  "pubmed_id": null,
+  "title": "Direct numerical simulations of an airfoil undergoing dynamic stall at different background disturbance levels",
+  "abstract": "© The Author(s), 2024. Published by Cambridge University Press.Thin airfoil dynamic stall at moderate Reynolds numbers is typically linked to the sudden bursting of a small laminar separation bubble close to the leading edge. Given the strong sensitivity of laminar separation bubbles to external disturbances, the onset of dynamic stall on a NACA0009 airfoil section subject to different levels of low-amplitude free stream disturbances is investigated using direct numerical simulations. The flow is practically indistinguishable from clean inflow simulations in the literature for turbulence intensities at the leading edge of. At slightly higher turbulence intensities of, the bursting process is found to be considerably less smooth and strong coherent vortex shedding from the laminar separation bubble is observed prior to the formation of the dynamic stall vortex (DSV). This phenomenon is considered in more detail by analysing its appearance in an ensemble of simulations comprising statistically independent realisations of the flow, thus proving its statistical relevance. In order to extract the transient dynamics of the vortex shedding, the classical proper orthogonal decomposition method is generalised to include time in the energy measure and applied to the time-resolved simulation data of incipient dynamic stall. Using this technique, the dominant transient spatiotemporally correlated features are distilled and the wave train of the vortex shedding prior to the emergence of the main DSV is reconstructed from the flow data exhibiting dynamics of large-scale coherent growth and decay within the turbulent boundary layer.",
+  "authkeywords": [
+    "boundary layer separation"
+  ],
+  "year": "2024",
+  "date": "2024-04-30",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "986",
+    "issue": null,
+    "pages": null,
+    "article_number": "A3"
+  },
+  "authors": [
+    {
+      "name": "Kern, J. S.",
+      "scopus_id": "57275489100",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Blanco, D. C.P.",
+      "scopus_id": "57219167878",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Negi, P. S.",
+      "scopus_id": "56514917700",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, A.",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, D. S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 73,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192671697&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100260",
+    "data_quality_score": 100
+  }
+}

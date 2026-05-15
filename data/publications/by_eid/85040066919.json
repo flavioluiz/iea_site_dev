@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85040066919",
+  "eid": "2-s2.0-85040066919",
+  "doi": "10.1103/PhysRevFluids.2.124601",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental study of turbulent-jet wave packets and their acoustic efficiency",
+  "abstract": "© 2017 American Physical Society.This paper details the statistical and time-resolved analysis of the relationship between the near-field pressure fluctuations of unforced, subsonic free jets (0.4≤M≤0.6) and their far-field sound emissions. Near-field and far-field microphone measurements were taken on a conical array close to the jets and an azimuthal ring at 20 to the jet axis, respectively. Recent velocity and pressure measurements indicate the presence of linear wave packets in the near field by closely matching predictions from the linear homogenous parabolized stability equations, but the agreement breaks down both beyond the end of the potential core and when considering higher order statistical moments, such as the two-point coherence. Proper orthogonal decomposition (POD), interpreted in terms of inhomogeneous linear models using the resolvent framework allows us to understand these discrepancies. A new technique is developed for projecting time-domain pressure measurements onto a statistically obtained POD basis, yielding the time-resolved activity of each POD mode and its correlation with the far field. A single POD mode, interpreted as an optimal high-gain structure that arises due to turbulent forcing, captures the salient near-field-far-field correlation signature; further, the signatures of the next two modes, understood as suboptimally forced structures, suggest that these POD modes represent higher order, acoustically important near-field behavior. An existing Green's-function-based technique is used to make far-field predictions, and results are interpreted in terms of POD/resolvent modes, indicating the acoustic importance of this higher order behavior. The technique is extended to provide time-domain far-field predictions.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "2",
+    "issue": "12",
+    "pages": null,
+    "article_number": "124601"
+  },
+  "authors": [
+    {
+      "name": "Breakey, David E.S.",
+      "scopus_id": "55638088500",
+      "affiliation": "60011149-60030835",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Nogueira, Petrônio A.",
+      "scopus_id": "57188716050",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Léon, Olivier",
+      "scopus_id": "55837629300",
+      "affiliation": "60017355",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodríguez, Daniel",
+      "scopus_id": "55255594800",
+      "affiliation": "60001865",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 24,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85040066919&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101460",
+    "data_quality_score": 90
+  }
+}

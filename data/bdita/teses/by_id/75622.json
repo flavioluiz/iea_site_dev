@@ -1,0 +1,33 @@
+{
+  "num_tese": "75622",
+  "type": "tese",
+  "title": "Reduced-order models for flow control applications",
+  "author": "Kenzo Sasaki",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Dan Stefan Henningson",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Frequency and time-domain reduced-order models (ROMs) are developed for the estimation (in laminar/transitional and turbulent) and control (in laminar/transitional) of fluid flows. The central idea is on the development of transfer functions for the estimation of the flow state by means of localized measurements of the fluctuations and the effect of an actuation, given in terms of a forcing. Such transfer functions are developed in the frequency-domain by means of signal processing tools or linearized methods. In order to do so, we start by applying linear parabolized stability equations (PSE) to a turbulent high-Reynolds jet where compelling comparisons are obtained with the spectral proper orthogonal decomposition modes of the velocity fluctuations; we here extend the validity of such models up to Strouhal and azimuthal numbers of 4.0. We then demonstrate how to obtain time-domain predictors with such models which lead to high correlations with the actual measured field in a turbulent jet, similar performances being obtained when more empirically dependent approaches are used. The previously developed ROMs are then applied to the development of control laws to a two-dimensional mixing layer, a model problem for sound radiation, where significant attenuation of the the velocity fluctuations and an accompanying delay in the vortex pairing and roll-up are observed. This simpler problem is also used to test different sensor/actuator positions and to evaluate the differences between feedback and feedforward control laws to problems with convective nature. We then extend the PSE and empirical models to two- and three-dimensional boundary layers for the control of Tollmien-Schlichting waves, where application of the aforementioned approaches was compared to the more usual linear quadratic gaussian regulator, with similar performances. Such results shed a light into the transition control approaches, allowing the interpretation of the actuation signal as leading to a destructive interference of the open-loop wavepacket. The developed methodologies were then applied to the control of streaky structures induced by free-stream turbulence where difficulties such as the unavailability of the impulse responses of the disturbances had to be overcome in order to design the control laws. For such problem it was also demonstrated that the control performance is highly dependent on the characteristic of the actuator generated streaks, where different optimization techniques were developed for actuator design, all of which led to significant delays in the transition to turbulence. Finally, the attention was turned to zero-pressure gradient turbulent boundary layers, where different linear and nonlinear, single- and multiple-input data driven approaches were developed for the prediction of the flow fluctuations. The objective here was the quantification of the innerouter interactions, the understanding of physical properties, such as the tilting angle of the large-scale structures and the development of models for experimental applications. All in all, the methodology proposed in this work, i.e. development of estimation and actuation transfer functions in the frequency-domain, control law design and test in a linearized simulation and final application in a nonlinear simulation or experiment was demonstrated to be applicable to wide class of fluid flows and could be considered one of the main contributions of the current work.",
+  "subjects": [
+    "Turbulęncia",
+    "Aeroacústica",
+    "Transiçăo de fase",
+    "Teoria de controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/03/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75622",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75622&origem=BDITA"
+}

@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85134261569",
+  "eid": "2-s2.0-85134261569",
+  "doi": "10.1007/s40430-022-03634-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Dynamic modeling and control of a spherical pendulum with a VSCMG",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.The study of inverted pendulum configurations has attracted the attention of researchers during many decades. One of the main reasons is that inverted-pendulum models have the feature of approximating the dynamics of many real-world mechanisms. Therefore, this paper presents the detailed dynamic modeling and control of a novel spherical pendulum with a variable speed control moment gyroscope. The dynamic model is obtained from the generic 3D pendulum, and the necessary assumptions to model the spherical pendulum are conducted in order to avoid singularities. Furthermore, a proportional-derivative nonlinear controller based on Lyapunov theory is designed to use favorably the features of the variable speed control moment gyroscope to control the spherical pendulum combining the gyroscopic torque and the torque provided by the reaction wheel. The proposed dynamic model and nonlinear controller are evaluated through numerical simulations for two different scenarios, driving the pendulum to a sequence of attitude commands including the upright position and tracking a desired trajectory. The results have shown that the proposed model is nonsingular and that the control law has provided adequate rates controlling the pendulum in both scenarios.",
+  "authkeywords": [
+    "Control",
+    "Nonlinear dynamics",
+    "Spherical pendulum",
+    "Variable speed control moment gyroscope (VSCMG)"
+  ],
+  "year": "2022",
+  "date": "2022-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "8",
+    "pages": null,
+    "article_number": "335"
+  },
+  "authors": [
+    {
+      "name": "Trentin, João Francisco Silva",
+      "scopus_id": "57215486892",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "da Silva, Samuel",
+      "scopus_id": "26639275400",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Schaub, Hanspeter",
+      "scopus_id": "57203055695",
+      "affiliation": "60154476",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85134261569&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094890",
+    "data_quality_score": 100
+  }
+}

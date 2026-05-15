@@ -1,0 +1,31 @@
+{
+  "num_tg": "63802",
+  "type": "tg",
+  "title": "Identificaçăo de parâmetros no regime pós-estol utilizando técnicas de ensaios em vôo",
+  "author": "José Aires da Costa Neto",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    },
+    {
+      "name": "Joaquim Neto Dias",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esse trabalho propőe uma nova metodologia para determinaçăo de máximo coeficiente de sustentaçăo de aeronaves. O método clássico para determinaçăo de máximo coeficiente de sustentaçăo requer diferentes gradientes de reduçăo de velocidade para determinaçăo do máximo coeficiente de sustentaçăo a -1nó/s por interpolaçăo. No entanto, esse método apresenta uma grande desvantagem: ele requer gradientes de reduçăo de velocidade constante durante a aproximaçăo do estol, o que significa que alguns pontos de ensaio săo invalidados devido a variaçőes năo intencionais na taxa de reduçăo de velocidade. A nova metodologia propőe a utilizaçăo de um modelo de estol quasi-estacionário adequado para identificaçăo de parâmetros para prediçăo o comportamento da aeronave durante o estol, inclusive os efeitos da histerese do estol. Os parâmetros foram identificados utilizando-se dados de ensaios em voo e o modelo foi utilizado para determinaçăo do coeficiente de sustentaçăo máximo associado a qualquer taxa de reduçăo de velocidade, inclusive o associado ŕ taxa de -1 nó/s. Os resultados foram comparados com os do método tradicional e mostraram boa concordância, com a vantagem de que pontos de ensaio com taxas de reduçăo de velocidade năo constantes continuam válidos e úteis para a identificaçăo paramétrica.",
+  "subjects": [
+    "Sustentaçăo aerodinâmica",
+    "Ensaios em voo",
+    "Aerodinâmica năo-estacionária",
+    "Coeficientes aerodinâmicos",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63802",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63802&origem=BDITA"
+}

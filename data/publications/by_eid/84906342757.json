@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-84906342757",
+  "eid": "2-s2.0-84906342757",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Structure-borne energy transmission analysis including aircraft fuselage dampers",
+  "abstract": "One of the existing challengers on the aircraft design is the cabin internal noise reduction. In this direction, this work emphasizes the transmission path problem taking into consideration vibration dampers for the structure-borne energy isolation between the fuselage and the aircraft interior. In general, simplified models are not able to predict the damper performance at mid and high frequencies, since they do not take into account the damper internal resonances. A finite element model is employed to assess a typical aeronautic damper dynamic behavior. Different approaches and complexity of the damper are modeled, resulting in distinct responses depending on the frequency of concern. In the high frequency range where the solid rubber modes are concentrated, the great number of plate modes causes difficulties in identifying the damper internal dynamic influence in whole system response. At high frequency it is difficult to apply the finite element method, due to its deterministic response, and since it points out the presence of local modes. © (2012) by the Katholieke Universiteit Leuven Department of Mechanical Engineering All rights reserved.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Conference on Noise and Vibration Engineering 2012 ISMA 2012 Including Usd 2012 International Conference on Uncertainty in Structure Dynamics",
+    "issn": null,
+    "eissn": null,
+    "volume": "2",
+    "issue": null,
+    "pages": "921-932",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Hidalgo, I. L.",
+      "scopus_id": "54412416500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, A.",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84906342757&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123392",
+    "data_quality_score": 70
+  }
+}

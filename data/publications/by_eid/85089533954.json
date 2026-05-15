@@ -1,0 +1,95 @@
+{
+  "publication_id": "2-s2.0-85089533954",
+  "eid": "2-s2.0-85089533954",
+  "doi": "10.1016/j.ijheatfluidflow.2020.108662",
+  "pii": "S0142727X20305580",
+  "pubmed_id": null,
+  "title": "Resolvent modelling of near-wall coherent structures in turbulent channel flow",
+  "abstract": "© 2020 Elsevier Inc.Turbulent channel flow was analysed using direct numerical simulations at friction Reynolds numbers Reτ=180 and 550. The databases were studied using spectral proper orthogonal decomposition (SPOD) to identify dominant near-wall coherent structures, most of which turn out to be streaks and streamwise vortices. Resolvent analysis was used as a theoretical approach to model such structures, as it allows the identification of the optimal forcing and most amplified flow response; the latter may be related to the observed relevant structures obtained by SPOD, especially if the gain between forcing and response is much larger than what is found for suboptimal forcings or if the non-linear forcing is white noise. Results from SPOD and resolvent analysis were compared for several combinations of frequencies and wavenumbers. For both Reynolds numbers, the best agreement between SPOD and resolvent modes was observed for the cases where the lift-up mechanism from resolvent analysis is present, which are also the cases where the optimal resolvent gain is dominant. These results confirm the outcomes in our previous studies (Abreu et al., 2019; Abreu et al., 2020), where we used a DNS database of a pipe flow for the same Reynolds numbers.",
+  "authkeywords": [
+    "Coherent structures",
+    "Resolvent analysis",
+    "SPOD",
+    "Wall-bounded turbulence"
+  ],
+  "year": "2020",
+  "date": "2020-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Fluid Flow",
+    "issn": "0142727X",
+    "eissn": null,
+    "volume": "85",
+    "issue": null,
+    "pages": null,
+    "article_number": "108662"
+  },
+  "authors": [
+    {
+      "name": "Abreu, Leandra I.",
+      "scopus_id": "57194852515",
+      "affiliation": "60006028-60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60006028-60021657-60002014",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Schlatter, Philipp",
+      "scopus_id": "57203088235",
+      "affiliation": "60006028-60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vinuesa, Ricardo",
+      "scopus_id": "55553485100",
+      "affiliation": "60006028-60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60006028-60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 33,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089533954&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100886",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85083941351",
+  "eid": "2-s2.0-85083941351",
+  "doi": "10.2514/6.2019-0713",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Evaluation of the pilot perception in a robotic flight simulator with and without a linear unit",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper presents the SIVOR project, an anthropomorphic-robotic flight simulator under development at the Aeronautics Institute of Technology (ITA), discussing the contribution of an additional 7th degree of freedom (DOF) provided by a linear unit to improve the pilot perception inside the flight simulator. In this context, starting from a canonical washout filter (CWF) implementation, a model-based comparative evaluation – regarding the pilot sensation – is performed considering (i) models of the robotic system with and without the linear unit, (ii) modified versions of the motion-cue algorithm (MCA), (iii) and perception models of the human vestibular system. Such integrated model is used also as the first verification for a predefined flight mission. The results obtained so far suggest an improvement on the representation of the linear acceleration as a larger workspace is provided, though also highlighting the need for further developments on the MCA structure for a better usage of the near feature.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Oliveira, W. R.",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    },
+    {
+      "name": "Matheus, A.",
+      "scopus_id": "57205543905",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodamillans, G.",
+      "scopus_id": "57209881677",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nicola, R. M.",
+      "scopus_id": "57209878924",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Arjoni, D. H.",
+      "scopus_id": "57202199479",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, L. G.",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Silva, E. T.",
+      "scopus_id": "57209883668",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "wesley-rodrigues-de-oliveira",
+    "luis-gonzaga-trabasso",
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083941351&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049333",
+    "data_quality_score": 90
+  }
+}

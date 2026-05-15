@@ -1,0 +1,32 @@
+{
+  "num_tese": "000515680",
+  "type": "tese",
+  "title": "Aplicaçăo dos elementos finitos singulares híbridos na mecânica da fratura linear elástica bidimensional.",
+  "author": "Jorge Luiz Cerqueira Fernandes",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata da aplicaçăo do conceito de elemento singular híbrido na determinaçăo dos fatores de intensidade de tensăo e da tensăo T em sólidos isotrópicos, sujeitos a um estado plano de tensőes ou a um estado plano de deformaçőes. Inicialmente é feita uma breve revisăo da aplicaçăo do método de elementos finitos na mecânica da fratura, ressaltando a necessidade da utilizaçăo dos elementos finitos singulares. Todas as etapas envolvidas na formulaçăo do superelemento singular híbrido de equilíbrio, introduzido por Tong et al. (85), săo detalhadamente desenvolvidas. A formulaçăo abrange superelementos com funçőes de interpolaçăo lineares, bilineares e quadráticas, possibilitando a sua utilizaçăo com vários elementos convencionais formulados pelo método dos deslocamentos. Um código computacional foi implementado e o método aplicado na análise de várias configuraçőes típicas de placas retangulares com trincas, inclusive um painel com reforçadores. Os resultados obtidos apresentam boa concordância com dados da literatura. Por último, é realizada uma comparaçăo com métodos que utilizam os elementos finitos distorcidos (\"quarter-point elements\"), confirmando a maior precisăo dos resultados obtidos com o uso dos elementos singulares híbridos.",
+  "subjects": [
+    "Mecânica de fratura",
+    "Método de elementos finitos",
+    "Fatores de intensidade de tensăo",
+    "Análise numérica",
+    "Fraturas (materiais)",
+    "Estrutura de aeronaves",
+    "Propriedades mecânicas",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515680",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515680&origem=BDITA"
+}

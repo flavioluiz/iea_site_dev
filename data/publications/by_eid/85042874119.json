@@ -1,0 +1,110 @@
+{
+  "publication_id": "2-s2.0-85042874119",
+  "eid": "2-s2.0-85042874119",
+  "doi": "10.3390/en11030507",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Time traveling regularization for inverse heat transfer problems",
+  "abstract": "© 2018 by the authors. Licensee MDPI, Basel, Switzerland.This work presents a technique called Time Traveling Regularization (TTR) applied to an optimization technique in order to solve ill-posed problems. This new methodology does not interfere in the minimization technique process. The Golden Section method together with TTR are applied only to the objective function which will be minimized. It consists of finding an ideal timeline that minimizes an objective function in a defined future time step. In order to apply the proposed methodology, inverse heat conduction problems were studied. Controlled experiments were performed on 5052 aluminum and AISI 304 stainless steel samples to validate the proposed technique. One-dimensional and three-dimensional heat input experiments were carried out for the 5052 aluminum and AISI 304 stainless steel samples, respectively. The Sequential Function Specification Method (SFSM) was also used to be compared with the results of heat flux obtained by TTR. The estimated heat flux presented a good agreement when compared with experimental values and those estimated by SFSM. Moreover, TTR presented lower residuals than the SFSM.",
+  "authkeywords": [
+    "Golden Section technique",
+    "Heat flux",
+    "Inverse problems",
+    "Sequential function specification method",
+    "Temperature estimation",
+    "Time-Traveling"
+  ],
+  "year": "2018",
+  "date": "2018-02-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Energies",
+    "issn": null,
+    "eissn": "19961073",
+    "volume": "11",
+    "issue": "3",
+    "pages": null,
+    "article_number": "507"
+  },
+  "authors": [
+    {
+      "name": "Dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "121485623",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "De Campos Salles Anselmo, Bruno",
+      "scopus_id": "57204317612",
+      "affiliation": "121485623",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lima E Silva, Ana Lúcia Fernandes",
+      "scopus_id": "6504248113",
+      "affiliation": "121485623",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Sandro Metrevelle Marcondes Lima E.",
+      "scopus_id": "8431332200",
+      "affiliation": "121485623",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Fuel Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Engineering (miscellaneous)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Energy (miscellaneous)",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85042874119&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091249",
+    "data_quality_score": 100
+  }
+}

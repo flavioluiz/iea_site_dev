@@ -1,0 +1,31 @@
+{
+  "num_tese": "000394953",
+  "type": "tese",
+  "title": "Um compensador neural ao controle por torque computado do robô ITA-IEMP.",
+  "author": "Areolino de Almeida Neto",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho apresenta um compensador neural ao controle por torque computado do robô ITA-IEMP. A compensaçăo implementada consiste na correçăo do modelo dinâmico deste robô, usado no controlador por torque computado. Para isto foram utilizadas redes neurais para alterar o sinal de erro de posiçăo injetado no controlador por torque computado, de tal forma que para cada sinal de erro de posiçăo existe uma rede neural associada alterando este sinal. A implementaçăo computacional realizada foi em linguagem de comandos do MATLAB, com execuçăo deste programa de dentro do próprio ambiente MATLAB para WINDOWS 95.",
+  "subjects": [
+    "Controle automático",
+    "Robôs",
+    "Redes neurais",
+    "Controladores",
+    "Robótica",
+    "Inteligęncia artificial",
+    "Computaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000394953",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000394953&origem=BDITA"
+}

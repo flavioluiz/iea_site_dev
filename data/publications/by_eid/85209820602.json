@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85209820602",
+  "eid": "2-s2.0-85209820602",
+  "doi": "10.1007/s40430-024-05272-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Evaluation of passive control systems for shock wave boundary layer interaction within a supersonic air inlet",
+  "abstract": "© The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering 2024.This study focuses on 2D RANS (Reynolds Averaged Navier-Stokes) simulations using Spalart-Allmaras and k- ω SST turbulence models for a supersonic air inlet featuring two different passive control systems: an air bleed system in the external ramp of the inlet and a two-dimensional bump. The supersonic inlet serving to capture and decelerate the high-speed incoming flows is aerodynamically indispensable to an airbreathing supersonic aircraft. Sometimes, depending on the conditions of the entry flow, the shock wave boundary layer interaction (SWBLI) can lead to inlet unstart if not controlled, due to thickened boundary layer. To verify the impact of the passive control systems, the inlet was tested at freestream Mach number of 2.0 and 2.03 as the geometry is very sensitive to Mach number change. Results indicate that the air bleed system is more effective for Mach 2.0 and reduces the bubble size of approximately 80.0%. In the case of the two-dimensional bump, it was noticed that the bump should be placed after the impinging shock on the geometry. Even though the bubble size does not reduce as much as for the air bleed system, for the two-dimensional bump, the SWBLI is weakened.",
+  "authkeywords": [
+    "Passive flow control",
+    "Ramjet",
+    "Shock-boundary layer interaction",
+    "Supersonic flows"
+  ],
+  "year": "2024",
+  "date": "2024-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "46",
+    "issue": "12",
+    "pages": null,
+    "article_number": "693"
+  },
+  "authors": [
+    {
+      "name": "da Silva Tuan, Ana Flávia",
+      "scopus_id": "59419330600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinicius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Silva, André Fernando de Castro da",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Jamme, Stéphane",
+      "scopus_id": "6507398322",
+      "affiliation": "60027245",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209820602&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.070572",
+    "data_quality_score": 90
+  }
+}

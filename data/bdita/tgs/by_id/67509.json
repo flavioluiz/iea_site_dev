@@ -1,0 +1,25 @@
+{
+  "num_tg": "67509",
+  "type": "tg",
+  "title": "Estudo do método de modelamento de incertezas relativas ŕ estimaçăo do recurso eólico de uma regiăo",
+  "author": "Paulo Henrique Valente Campos",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem por objetivo a análise das incertezas na estimativa de velocidade média anual do vento em áreas potenciais para instalaçăo de parques eólicos, segundo a metodologia utilizada pelo software OpenWind®, da empresa espanhola AWS Trupower. Para tal, utilizou-se o software para modelar o recurso eólico em uma área do território brasileiro, onde a empresa Casa dos Ventos Energias Renováveis S.A. possui projetos em desenvolvimento, sendo calibrado com dados de mediçőes de torres anemométricas que a empresa possui no local. Ao final, desejava-se encontrar os valores dos parâmetros utilizados pelo programa que fossem os mais adequados ŕ área estudada, uma vez que os valores padrőes do software foram obtidos de um experimento realizado com dados de mediçőes anemométricas de parques eólicos localizados nos Estados Unidos. A importância deste trabalho se deve ao fato de as incertezas relativas ŕ estimativa do recurso eólico de uma regiăo representarem o maior risco ao qual os empreendedores estăo sujeitos ao investir em nesses projetos. Assim, dado que as incertezas tęm impacto direto na produtividade de um parque eólico, é importante o conhecimento prévio das mesmas com precisăo para se estudar a viabilidade técnico-econômica de um projeto. Os resultados obtidos para a incerteza em funçăo do desvio da magnitude da velocidade média do vento e da sua direçăo indicam que o projeto está contido em uma área consideravelmente complexa, dado que năo foram observados pequenos valores para esse desvio. Assim, como o experimento previa uma maior variaçăo da incerteza para pequenos valores dos desvios, os resultados obtidos se apresentaram em uma zona em que a variaçăo da incerteza é menos acentuada, dificultando a análise estatística dos mesmos. Mesmo assim, efetuou-se o procedimento estudado, propondo-se valores para os parâmetros desejados. Contudo, recomendou-se que o experimento fosse repetido quando mais dados estiverem disponíveis a fim de englobar as faixas mais importantes dos desvios na obtençăo dos valores desses parâmetros.",
+  "subjects": [
+    "Mediçăo do vento",
+    "Fontes alternativas de energia",
+    "Identificaçăo de parâmetros",
+    "Energia éolica",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67509",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67509&origem=BDITA"
+}

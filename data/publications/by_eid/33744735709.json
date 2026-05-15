@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-33744735709",
+  "eid": "2-s2.0-33744735709",
+  "doi": "10.1115/1.2175150",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A correlation for interfacial heat transfer coefficient for turbulent flow over an array of square rods",
+  "abstract": "Interfacial heat transfer coefficients in a porous medium modeled as a staggered array of square rods are numerically determined. High and low Reynolds k-ε turbulence models are used in conjunction of a two-energy equation model, which includes distinct transport equations for the fluid and the solid phases. The literature has documented proposals for macroscopic energy equation modeling for porous media considering the local thermal equilibrium hypothesis and laminar flow. In addition, two-energy equation models have been proposed for conduction and laminar convection in packed beds. With the aim of contributing to new developments, this work treats turbulent heat transport modeling in porous media under the local thermal nonequilibrium assumption. Macroscopic time-average equations for continuity, momentum, and energy are presented based on the recently established double decomposition concept (spatial deviations and temporal fluctuations of flow properties). The numerical technique employed for discretizing the governing equations is the control volume method Turbulent flow results for the macroscopic heat transef coefficient, between the fluid and solid phase in a, periodic cell, are presented. Copyright © 2006 by ASME.",
+  "authkeywords": [
+    "Heat transfer coefficient",
+    "Porous media",
+    "Turbulence modeling"
+  ],
+  "year": "2006",
+  "date": "2006-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Heat Transfer",
+    "issn": "00221481",
+    "eissn": null,
+    "volume": "128",
+    "issue": "5",
+    "pages": "444-452",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Saito, Marcelo B.",
+      "scopus_id": "8523459800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 114,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33744735709&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111327",
+    "data_quality_score": 100
+  }
+}

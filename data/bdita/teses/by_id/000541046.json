@@ -1,0 +1,32 @@
+{
+  "num_tese": "000541046",
+  "type": "tese",
+  "title": "Modelagem e identificaçăo de uma máquina de extrusăo através de bond-graphs.",
+  "author": "Itamar Pífano Silva",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo a modelagem por grafo de ligaçăo (Bond Graph) de uma máquina de extrusăo de borracha para pneumáticos e a identificaçăo experimental dos parâmetros do modelo BG. Esta modelagem possibilita modelos contínuos no espaço de estados que podem ser convertidos para modelos contínuos em funçăo de transferęncia. A metodologia de identificaçăo de sistemas fornece modelos discretos de funçăo de transferęncia que podem ser convertidos, apropriadamente, em modelos contínuos em funçăo de transferęncia, sendo esses comparados com os modelos contínuos em funçăo de transferęncia da modelagem BG com o objetivo de validar e melhorar a realidade do modelo teórico. O processo decorre a quente, faz-se necessário um controle da velocidade do parafuso de extrusăo com referęncia ao tapete de resfriamento para obter o perfil de material dentro das especificaçőes de tamanho e peso determinadas pelo departamento de qualidade do produto. Para o processo de identificaçăo foi desenvolvido um sistema de aquisiçăo de dados via microcomputador PC com condicionamento de sinais AD/DA e um programa de computador, em linguagem LabVIEW®, o qual controla o sistema de aquisiçăo de dados e armazena as leituras para a identificaçăo off-line. Para o processo de identificaçăo e validaçăo dos modelos foram utilizadas as ferramentas de identificaçăo de sistemas do programa de computador MATLAB®.",
+  "subjects": [
+    "Extrusăo (materiais)",
+    "Modelos matemáticos",
+    "Identificaçăo de sistemas",
+    "Polímeros",
+    "Gráficos de ligaçăo",
+    "Controle de processos",
+    "Técnicas de conformaçăo",
+    "Engenharia de materiais",
+    "Engenharia de sistemas"
+  ],
+  "defense_date": "27/12/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541046",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541046&origem=BDITA"
+}

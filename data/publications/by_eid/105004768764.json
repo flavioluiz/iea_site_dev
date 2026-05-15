@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-105004768764",
+  "eid": "2-s2.0-105004768764",
+  "doi": "10.1002/prep.12071",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Constant Trinitrotoluene Equivalence Fit for Blast Wave Position Versus Time Data",
+  "abstract": "© 2025 The Author(s). Propellants, Explosives, Pyrotechnics published by Wiley-VCH GmbH.Accurately evaluating accidental or intentional detonation scenarios is essential to ensure their intended effectiveness and/or protect personnel and structures. These evaluations often rely on estimating critical blast effect parameters through reference models, which adapt to different scenarios via key constants. The incident peak overpressure, the sudden pressure increase upon blast wave arrival, is a crucial parameter directly associated with wave-induced damage and demands precise calculation. An effective experimental approach involves tracking shock wave positions over time via calibrated high-speed footage. Processing these recordings and fitting parametric models to the data enables low-uncertainty peak overpressure estimation. This study presents a novel method utilizing constant trinitrotoluene (TNT) equivalence, a key parameter that quantifies the mass conversion of an explosive into its TNT equivalent on the basis of blast effects. The new model was compared with existing models in the literature in terms of peak overpressure and time of arrival estimation. These comparisons were made against direct measurements obtained from pressure sensors and high-speed recordings of open-air detonation tests involving center-initiated spherical Composition B explosions. The results indicate that the new model aligns more closely with experimental data than previously established models.",
+  "authkeywords": [
+    "blast wave",
+    "footage",
+    "peak overpressure",
+    "time of arrival",
+    "TNT equivalence"
+  ],
+  "year": "2025",
+  "date": "2025-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Propellants Explosives Pyrotechnics",
+    "issn": "07213115",
+    "eissn": "15214087",
+    "volume": "50",
+    "issue": "7",
+    "pages": "44-54",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Amorim, Caio Barbosa",
+      "scopus_id": "59831149000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Augusto, Anselmo da Silva",
+      "scopus_id": "59832822600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gonçalves, Rene Francisco Boschi",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Chemistry (all)",
+        "abbrev": "CHEM",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004768764&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114792",
+    "data_quality_score": 90
+  }
+}

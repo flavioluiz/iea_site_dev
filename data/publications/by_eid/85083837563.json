@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85083837563",
+  "eid": "2-s2.0-85083837563",
+  "doi": "10.4271/2020-01-1078",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Material Model Selection for Crankshaft Deep Rolling Process Numerical Simulation",
+  "abstract": "© 2020 SAE International. All Rights Reserved.Residual stress prediction arising from manufacturing processes provides paramount information for the fatigue performance assessment of components subjected to cyclic loading. The determination of the material model to be applied in the numerical model should be taken carefully. This study focuses on the estimation of residual stresses generated after deep rolling of cast iron crankshafts. The researched literature on the field employs the available commercial material codes without closer consideration on their reverse loading capacities. To mitigate this gap, a single element model was used to compare potential material models with tensile-compression experiments. The best fit model was then applied to a previously developed crankshaft deep rolling numerical model. In order to confront the simulation outcomes, residual stresses were measured in two directions on real crankshaft specimens that passed through the same modeled deep rolling process. Electrolytic polishing was used to etch the region of interest and enable in-depth residual stress analysis through X-ray diffraction method. The comparison revealed the model's ability to follow the residual stress state tendency, predicting compressive stresses at the surface, a subsurface peak and eventual transition to the tractive state. Magnitude discrepancies were discussed and hypotheses related to the specimen preparation procedure were raised. Overall, the activities described in this study yielded in a model confidence increase, which further enables its usage into the crankshaft design stage.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-04-14",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": null,
+    "eissn": "01487191",
+    "volume": "2020-April",
+    "issue": "April",
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fonseca, Luiz Aun",
+      "scopus_id": "57200879842",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Faria, Alfredo Rocha",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Jahed, Hamid",
+      "scopus_id": "6603861490",
+      "affiliation": "60014171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Montesano, John",
+      "scopus_id": "23470188700",
+      "affiliation": "60014171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083837563&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044325",
+    "data_quality_score": 80
+  }
+}

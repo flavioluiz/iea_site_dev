@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-85040907640",
+  "eid": "2-s2.0-85040907640",
+  "doi": "10.1007/s40430-018-1012-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "In-flight thrust determination for high-bypass-ratio turbofan using residual error methodology",
+  "abstract": "© 2018, The Brazilian Society of Mechanical Sciences and Engineering.Advances in turbofan engine technology have led to engines with growing bypass ratios and lower fan pressure ratios, increasing the complexity of the in-flight thrust determination. Thrust values cannot be directly measured in flight; therefore, ground-level test are carried out, and the results calculated from thermodynamic properties of the gas are compared to the force exerted by the engine on the test bench. The result of this comparison is a scalar that is applied to the fan pressure ratio, fan pressure correlation, which attempts to minimize the error between the measured and calculated values. After the thermodynamic properties of the gas are measured during in-flight tests and together with the fan pressure correlation are used to calculate the in-flight thrust. The calculation procedure is implemented through VISUAL BASIC scripts, in the MICROSOFT EXCEL® environment. These scripts are used to calculate the generated thrust and the mass flow that go through the engine from the thermodynamic properties of the gas obtained from a high-fidelity numerical simulation of this engine. These results are then validated against the thrust and mass flow values calculated by this model. An analysis of the free-stream suppression effects on thrust is carried making use of these scripts.",
+  "authkeywords": [
+    "Gas turbine",
+    "IFTD",
+    "Propulsion",
+    "Thrust determination",
+    "Turbofan"
+  ],
+  "year": "2018",
+  "date": "2018-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "2",
+    "pages": null,
+    "article_number": "74"
+  },
+  "authors": [
+    {
+      "name": "Del Mônaco Monteiro, Pedro",
+      "scopus_id": "57200338888",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Machiaverni, Rafael Mattar",
+      "scopus_id": "57200331721",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Tomita, Jesuino T.",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85040907640&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051933",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85060462577",
+  "eid": "2-s2.0-85060462577",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Increased flutter velocity with use of a passive control system",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.This paper evaluates a mathematical model of 3 degrees of freedom (DOF), with different coupling factors between flaps (leading and trailing edges), to increase flutter velocity, known as the LAMBIE model [1]. This passive control airfoil concept with mechanical coupling factor between flaps, decreases camber when loading increases and increases camber when loads are smaller. To determine the structural matrices, the Lagrange equation is used and the aerodynamic matrices are determined by the Theodorsen model. This study contemplates simulation results of aeroelastic stability in the frequency domain. The method employed for the calculation of flutter is V-g [4]. In these simulations performed in MATLAB® software, it is possible to increase the velocity at which the flutter phenomenon occurs in 24.41%.",
+  "authkeywords": [
+    "Aeroelastic",
+    "Camber",
+    "Coupling",
+    "Flutter",
+    "Theodorsen",
+    "Velocity"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Carvalho, Fabio Itamar",
+      "scopus_id": "57205542941",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060462577&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067174",
+    "data_quality_score": 80
+  }
+}

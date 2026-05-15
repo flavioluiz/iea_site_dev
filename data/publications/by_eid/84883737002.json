@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-84883737002",
+  "eid": "2-s2.0-84883737002",
+  "doi": "10.2514/6.2013-2087",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear and linear noise source mechanisms in subsonic jets",
+  "abstract": "Noise source mechanisms are studied for a numerical dataset of a low Reynolds number laminar jet with a Mach 0.9 jet exit velocity (Suponitsky et al., J. Fluid Mech., Vol. 658, 2010) and two experimentally obtained datasets of high Reynolds number, Mach 0.4 and 0.6 turbulent jets (Cavalieri et al., AIAA Vol. 2011-2743, 2012). The objective of the study is to discern the source mechanism, linear or non-linear, by which acoustic radiation is obtained from wave-packets in the context of laminar and turbulent jets. For the laminar jet, it is shown numerically using a Linearized Euler Equation (LEE) solver that the sources of sound stem from a non-linear coupling of hydrodynamic waves. The nonlinear nature of the source mechanism explains why Linear Parabolized Stability Equation (LPSE) formulations are unable to reproduce the relevant near field dynamics at low Reynolds numbers. For the turbulent jets however, experimental evidence indicates that linear wavepackets are likely to be the source mechanism for acoustic radiation. To verify this, a fluctuating boundary condition is incorporated into the LEE solver such that a single frequency hydrodynamic wave is set up. This is used to investigate how the results from linear wavepackets compare with those found from LPSE and experiments. It is found that the power spectral density of the axial velocity fluctuations obtained by LEE shows a close match with those obtained from the LPSE and experiments, and it is also observed that downstream of the potential core, LEE results match more closely with experiments in this regard than do LPSE results. However, although the linear wavepackets formed using a fluctuating boundary condition do radiate sound, a comparison of the far-field directivity results show that the amplitude of the sound produced is significantly lower than those observed in experiments. Based on these results, LEE with a fluctuating boundary condition proves to be more useful in reproducing the near flow field of a turbulent jet but does not appear to be accurate in directly predicting the radiated far-field sound.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "19th AIAA Ceas Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "85",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Baqui, Yamin B.",
+      "scopus_id": "57217972463",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Agarwal, Anurag",
+      "scopus_id": "7401480906",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Sinayoko, Samuel",
+      "scopus_id": "36191326300",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84883737002&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102077",
+    "data_quality_score": 90
+  }
+}

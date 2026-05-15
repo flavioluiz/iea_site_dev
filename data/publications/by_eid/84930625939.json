@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-84930625939",
+  "eid": "2-s2.0-84930625939",
+  "doi": "10.1007/s00158-014-1216-6",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Advanced approximations for sequential optimization with discrete material interpolations",
+  "abstract": "© 2015, Springer-Verlag Berlin Heidelberg.The DMO (discrete material optimization) technique is employed in structural synthesis dealing with the selection of a material belonging to a group of candidate materials. It has mainly been employed in the optimization for orientation of layers of composite laminates. The DMO is based on an interpolation in the form of a weighted sum of candidate materials. The weights are nonlinear functions of penalized design variables that are solved by continuous optimization, leading to proper material selection. The preferred way of solution has been by sequential approximate optimization (SAO), based on Taylor series approximations (TSA) as surrogate functions of the structural responses. However, due to the complexity of the DMO formulation the classical local surrogate techniques become of questionable efficiency in adequately capturing structural response behavior. To improve the quality of the surrogate models, it is here proposed the use of the weighting functions to form intermediate design variables in terms of which a higher quality TSA is created. Improvements in the convergence characteristics of the SAO is observed, opening new perspectives to the efficient application of the DMO concept.",
+  "authkeywords": [
+    "Composite materials",
+    "Discrete material optimization",
+    "Explicit surrogate approximations",
+    "Sequential approximate optimization"
+  ],
+  "year": "2015",
+  "date": "2015-06-09",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Structural and Multidisciplinary Optimization",
+    "issn": "1615147X",
+    "eissn": "16151488",
+    "volume": "51",
+    "issue": "6",
+    "pages": "1305-1320",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Rafael T.L.",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Hernandes, José A.",
+      "scopus_id": "57211220631",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Graphics and Computer-Aided Design",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84930625939&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063819",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85080921835",
+  "eid": "2-s2.0-85080921835",
+  "doi": "10.1007/s00162-020-00519-x",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Resolvent analysis in unbounded flows: role of free-stream modes",
+  "abstract": "© 2020, Springer-Verlag GmbH Germany, part of Springer Nature.The problem of finding optimal forcing and response for unbounded base flows, exemplified by the Blasius boundary layer, is assessed by means of a locally parallel resolvent analysis. A new analysis of previous results in the literature, which stated that a maximum resolvent gain occurs for spanwise wavenumber kz≈ 0.2 , revealed that this result was not domain converged, and larger domains lead to peak amplification for kz→ 0 ; this result is seen to depend strongly on domain size. It is seen that forcing and response modes for low frequency and wavenumber tend to be extended throughout the computational domain, with substantial support in the free stream. Free-stream modes and their gains are found analytically by considering the resolvent operator for uniform flow, and it is seen that low frequencies and wavenumbers lead to a dominance of such free-stream modes in the resolvent analysis of boundary layers. The lack of domain convergence is explained by the analysis, as gains scale with the square of the domain height. We then propose a new approach to evaluate the resolvent gains for this kind of unbounded flows, by means of a weighting function for the chosen norm that neglects response modes above a cut-off height yp, typically placed outside the boundary layer thickness; this ensures that relevant responses will only be sought in a region of interest, which here corresponds to the boundary layer. The method proved to solve the problem raised by the presence of free-stream modes, resulting in domain-converged forcing and response modes with the shape of streamwise vortices and streaks, respectively. The results were also shown to be independent of the choice of the filter parameters, leading to converged gains for the whole spectrum.",
+  "authkeywords": [
+    "Boundary layers",
+    "Transition to turbulence",
+    "Turbulence modelling"
+  ],
+  "year": "2020",
+  "date": "2020-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Theoretical and Computational Fluid Dynamics",
+    "issn": "09354964",
+    "eissn": "14322250",
+    "volume": "34",
+    "issue": "1-2",
+    "pages": "163-176",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Hanifi, Ardeshir",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 21,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85080921835&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100906",
+    "data_quality_score": 100
+  }
+}

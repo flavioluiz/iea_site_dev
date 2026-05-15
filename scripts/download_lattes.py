@@ -265,7 +265,7 @@ Exemplos:
     )
 
     parser.add_argument('--profiles-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Diretório com arquivos JSON dos professores')
 
     parser.add_argument('--output-dir', type=str,

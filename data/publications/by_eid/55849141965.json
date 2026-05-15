@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-55849141965",
+  "eid": "2-s2.0-55849141965",
+  "doi": "10.1155/2008/525930",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A first-order analytical theory for optimal low-thrust limited-power transfers between arbitrary elliptical coplanar orbits",
+  "abstract": "A complete first-order analytical solution, which includes the short periodic terms, for the problem of optimal low-thrust limited-power transfers between arbitrary elliptic coplanar orbits in a Newtonian central gravity field is obtained through canonical transformation theory. The optimization problem is formulated as a Mayer problem of optimal control theory with Cartesian elementsposition and velocity vectorsas state variables. After applying the Pontryagin maximum principle and determining the maximum Hamiltonian, classical orbital elements are introduced through a Mathieu transformation. The short periodic terms are then eliminated from the maximum Hamiltonian through an infinitesimal canonical transformation built through Hori method. Closed-form analytical solutions are obtained for the average canonical system by solving the Hamilton-Jacobi equation through separation of variables technique. For transfers between close orbits a simplified solution is straightforwardly derived by linearizing the new Hamiltonian and the generating function obtained through Hori method.",
+  "authkeywords": null,
+  "year": "2008",
+  "date": "2008-11-17",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematical Problems in Engineering",
+    "issn": "1024123X",
+    "eissn": "15635147",
+    "volume": "2008",
+    "issue": null,
+    "pages": null,
+    "article_number": "525930"
+  },
+  "authors": [
+    {
+      "name": "Da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "Carvalho, Francisco Das Chagas",
+      "scopus_id": "57191413125",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=55849141965&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081863",
+    "data_quality_score": 90
+  }
+}

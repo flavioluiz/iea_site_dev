@@ -1,0 +1,32 @@
+{
+  "num_tese": "000146141",
+  "type": "tese",
+  "title": "Modelo para análise de transferęncia de calor entre gases de combustăo e palhetas de turbina a gás",
+  "author": "Márcio Teixeira de Mendonça",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Euclides Carvalho Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "É analisado o problema de transferęncia de calor em palhetas de turbina a gás, resolvendo-se numericamente as equaçőes que descrevem o desenvolvimento da camada limite bidimensional sobre uma superf´cie curva. Săo consideradas as coordenadas intrínsecas e um método implícito de diferenças finitas para a soluçăo das equaçőes. O modelo utilizado considera as equaçőes que representam o escoamento (continuidade, quantidade de movimento e energia) no regime laminar e turbulento, sendo empregado para o fechamento o modelo k/';épsilon';. Assim, as flutuaçőes turbulentas săo expressas em termos do produto do gradiente da variável média associada (velocidade ou entalpia) por um parâmetro de difusăo turbulenta (viscosidade turbulenta ou condutibilidade térmica turbulenta), conforme hipótese de Boussinesq. O equacionamento foi feito de modo a permitir o cálculo de escoamentos compressíveis e com gradientes de temperatura da ordem dos encontrados em turbinas axiais. Ressalta-se, porém, que năo é prevista a ocorręncia de choque. Empregando-se o método dos volumes de controle, apresentado por Patankar [9], o sistema de equaçőes diferenciais năo lineares e acopladas é transformado em um sistema de equaçőes algébricas lineares. Com o objetivo de testar o modelo foram feitas comparaçőes com resultados obtidos para escoamento sobre uma placa plana e com resultados experimentais de escoamento sobre palhetas de turbina.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Turbinas a gás",
+    "Calor",
+    "Física"
+  ],
+  "defense_date": "01/03/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146141",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146141&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "61854",
+  "type": "tese",
+  "title": "Consideraçőes acerca da instalaçăo de detectores de gelo em aeronaves comerciais de transporte",
+  "author": "Rafael Henrique Gonzalez Leonardi",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda um estudo voltado a integraçăo de sistema de detecçăo de gelo na fuselagem dianteira de aeronaves comerciais. Detectores de gelo săo essenciais ŕ segurança do voo, pois a formaçăo de gelo em superfícies de aviőes tem uma contribuiçăo estatística significativa aos acidentes fatais na aviaçăo. Năo apenas as características dos sistemas de detecçăo săo importantes para uma operaçăo segura, mas deve-se proceder a sua instalaçăo na aeronave com cuidado especial. Além das gotículas de água superesfriada serem capazes de atingir o detector, deve-se considerar aspectos aerodinâmicos, pois instalaçőes inadequadas podem levar a arrasto adicional, ruído e vibraçőes. O presente trabalho tem como objetivo analisar a instalaçăo de detectores de gelo na fuselagem dianteira de aeronaves comerciais de transporte. Foi considerada uma aeronave de transporte de passageiros de médio porte e tręs posiçőes diferentes para o detector de gelo. A primeira posiçăo está próxima ao nariz da aeronave; a segunda a uma distancia intermediária; e o terceiro a uma distancia que se identifica com a posiçăo mais comumente adotada para este dispositivo. O domínio computacional é composto de uma malha com aproximadamente 7.740.000 tetraedros, após algumas adaptaçőes, e os detectores foram instalados apenas em um lado da fuselagem dianteira, para efeitos de comparaçăo. Duas condiçőes de operaçăo para a simulaçăo e cálculos foram definidas. Inicialmente, considerou uma condiçăo de cruzeiro (número de Mach de 0,76 e ângulo de ataque 1,5?); a outra condiçăo de descida e/ou subida (número de Mach = 0.40 e ângulo de ataque 3?). Em ambas as condiçőes foram realizados cálculos relativos ŕ velocidade de escoamento, tamanho de partícula, linhas de corrente e ruído branco. Os resultados mostram, que um detector de gelo em ambas as condiçőes, estará mais bem posicionado quando estiver mais próximo do nariz da aeronave, caso contrário o detector pode năo ser capaz de detectar gelo composto por partículas de maior diâmetro, situaçăo de risco e năo desejada para a aeronave.",
+  "subjects": [
+    "Formaçăo de gelo em aeronaves",
+    "Sistema anti-gelo",
+    "Detectores",
+    "Instalaçăo",
+    "Segurança do vôo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61854",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61854&origem=BDITA"
+}

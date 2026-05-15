@@ -1,8 +1,7 @@
 ---
-title: "Flávio Luiz C. Ribeiro"
+title: "Flávio Luiz Cardoso Ribeiro"
 layout: professor
 professor_id: "flavio-luiz-c-ribeiro"
-type: docentes
+departamento: "iea-b"
+type: pessoal
 ---
-
-<!-- Additional content can be added here if needed -->

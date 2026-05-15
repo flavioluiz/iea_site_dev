@@ -1,0 +1,116 @@
+{
+  "publication_id": "2-s2.0-85179706214",
+  "eid": "2-s2.0-85179706214",
+  "doi": "10.1177/14680874231214010",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Electrically heated catalyst enabling pollutants reduction in hybrid vehicles fueled with ethanol",
+  "abstract": "© IMechE 2023.Plug-in hybrid electric vehicles (PHEV) have the potential of combining the benefits of a renewable electric mix with biofuels. More recently, PHEV have been designed to be equipped with a small combustion engine known as range extender (RE), thus allowing an improvement in vehicle’s range while converting fuel energy through a highly efficient path. Despite being a convenient strategy for decarbonizing light vehicles, the intermittent operation of the engine may create issues regarding the catalytic conversion of pollutants, yielding an increase in local harmful emissions. This drawback may be intensified depending on the used fuel. Hydrous ethanol is a promising alternative for gasoline and is already available in some countries, such as Brazil. However, ethanol has a great enthalpy of vaporization and it results in a charge cooling, affecting the catalyst warm-up and making the intermittent operation with ethanol more challenging. Hence, this study was motivated by the need of improving the catalytic efficiency of flexfuel RE operating with both gasoline and hydrous ethanol. Thus, a calibration was firstly performed to shorten the warm-up phase with ethanol. Then, an electrical heater was employed for accelerated catalyst heating, further improving emissions from ethanol operation, aiming at attaining future emissions regulations. Experimental tests were conducted in a vehicle under FTP72 cycle using a chassis dynamometer. The calibration adjustments resulted in a warm-up phase for ethanol <10 s longer than that for gasoline. The stable operation phase resulted in similar emissions for both fuels. On the cycle average, a reduction in CO for ethanol was observed, and although the methane and NOx emissions were slightly increased due to colder catalyst operation, significant improvements were obtained on a well-to-wheel (WTW) analysis. The use of an electrically heated catalyst (EHC) improved the emissions during the warm-up phase, significantly reducing the emission of NOx and non-methane organic compounds.",
+  "authkeywords": [
+    "bio-electrification",
+    "emission cycle",
+    "flexfuel",
+    "nonmethane organic gases",
+    "Plug-in hybrid vehicles",
+    "proconve L7"
+  ],
+  "year": "2024",
+  "date": "2024-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Engine Research",
+    "issn": "14680874",
+    "eissn": "20413149",
+    "volume": "25",
+    "issue": "5",
+    "pages": "850-863",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Falcão Weissinger, Frederico",
+      "scopus_id": "58135562700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henrique Rufino, Caio",
+      "scopus_id": "57203867228",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mendoza, Alexander Peñaranda",
+      "scopus_id": "57224159560",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martelli, André Luiz",
+      "scopus_id": "56597519100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Coelho, Eugênio",
+      "scopus_id": "58710995100",
+      "affiliation": "60020795",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bigliardi, Vincent",
+      "scopus_id": "58762165000",
+      "affiliation": "60020795",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Teixeira Lacava, Pedro",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85179706214&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118573",
+    "data_quality_score": 100
+  }
+}

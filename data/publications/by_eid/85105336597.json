@@ -1,0 +1,108 @@
+{
+  "publication_id": "2-s2.0-85105336597",
+  "eid": "2-s2.0-85105336597",
+  "doi": "10.1590/1980-5373-MR-2020-0431",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modeling and numerical validation of stress-strain curves of maraging steels, grades 300 and 350 under hydrogen embrittlement",
+  "abstract": "© 2021 Universidade Federal de Sao Carlos. All rights reserved.Maraging steels are ferrous alloys with Ni, Co, Mo, and Ti additions. These materials are a special class of ultra high mechanical strength steels with wide and special applications in strategic areas, which makes their knowledge very valuable. Computational advances allowed to analyze the behavior of these materials numerically, using the finite element method and developing mathematical models that can represent numerically its mechanical behavior. The present work has the objective of surveying the mechanical properties of maraging steels 300 and 350 by slow strain rate tensile (SSRT) tests, after the solution treatment at 1183K for 1h. Additionally, it was evaluated the hydrogen embrittlement in samples tested by SSRT under cathodic protection with a potential -1.2 VSCE in 3.5% NaCl solution. The study was complemented with detailed fractographic analysis. This work also presents the analysis of representative models by use of Hollomon, Swift, Voce and coupled Swift-Voce equations to describe the strain-hardening behavior. Compared to the others, the Voce's model was the one which best fitted the experimental results, with values of R2 higher than 0.992. Through the variation of the chemical composition found in the different grades of maraging steels, this work contemplates the creation of a generalized Voce model based on the variation of the Ti content. The work concludes presenting the generalized Voce model proposed and a numerical analysis of the SSRT results with a good accuracy of the strain-hardening response.",
+  "authkeywords": [
+    "Embrittlement effect",
+    "Finite element analysis",
+    "Maraging steel",
+    "Modelling",
+    "Slow strain rate test"
+  ],
+  "year": "2021",
+  "date": "2021-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Materials Research",
+    "issn": "15161439",
+    "eissn": "19805373",
+    "volume": "24",
+    "issue": "3",
+    "pages": null,
+    "article_number": "e20200431"
+  },
+  "authors": [
+    {
+      "name": "Chales, R.",
+      "scopus_id": "57223245198",
+      "affiliation": "60001865",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso, A. S.M.",
+      "scopus_id": "57218297520",
+      "affiliation": "60001865",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pardal, J. M.",
+      "scopus_id": "6701404520",
+      "affiliation": "60001865-107163094",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tavares, S. S.M.",
+      "scopus_id": "7007128379",
+      "affiliation": "60001865-107163094",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, M. M.",
+      "scopus_id": "55467620200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "maria-margareth-da-silva"
+    },
+    {
+      "name": "Reis, D. A.P.",
+      "scopus_id": "8673306300",
+      "affiliation": "60014992",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "maria-margareth-da-silva"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85105336597&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.092213",
+    "data_quality_score": 100
+  }
+}

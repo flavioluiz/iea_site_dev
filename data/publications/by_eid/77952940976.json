@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-77952940976",
+  "eid": "2-s2.0-77952940976",
+  "doi": "10.1115/POWER2009-81215",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Use of foam-like materials to enhance heat transfer from surfaces subjected to impinging jets",
+  "abstract": "In this paper, numerical simulation of a jet impinging against a flat plane covered with a layer of a porous material is presented. The plate is kept at a temperature higher than that of the incoming fluid. Macroscopic transport equations are obtained based on a volume average concept. Discretization of such governing equations is accomplished by means of the control volume method applied with a boundary-fitted non-orthogonal coordinate system. Pressure-velocity coupling is treated with the use of the SIMPLE algorithm. Parameters such as permeability, thickness of the porous layer and thermal conductivity ratio are varied in order to analyze their effects on the local distribution of Nu. Results indicate that inclusion of a porous layer decreases the peak in Nu avoiding excessive heating or cooling at the stagnation point. Also found was that the integral heat flux from the wall is enhanced for certain range of values of layer thickness, porosity, and thermal conductivity ratio. Copyright © 2009 by ASME.",
+  "authkeywords": null,
+  "year": "2009",
+  "date": "2009-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Power Division Publication PWR",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "89-95",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "DeLemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Fischer, Cleges",
+      "scopus_id": "56218732000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=77952940976&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111050",
+    "data_quality_score": 90
+  }
+}

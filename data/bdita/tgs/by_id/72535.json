@@ -1,0 +1,27 @@
+{
+  "num_tg": "72535",
+  "type": "tg",
+  "title": "Otimizaçăo do pouso do caça F-16 utilizando um método direto",
+  "author": "Daniel Caueh Dunaiski Figueira Leal",
+  "year": "2016",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Otimizaçăo de trajetória é uma subárea do controle ótimo. O objetivo é encontrar a trajetória que melhor atenda uma determinada medida de performance, ao mesmo tempo que obedece um conjunto de restriçőes. O método direto é um bom início para a soluçăo pois năo necessita de uma estimativa inicial muito precisa. A simplicidade também é um ponto positivo. Ao contrário do método indireto, o método direto năo precisa de um estudo profundo das equaçőes que regem o problema, afinal este transforma um problema de dimensăo infinita em um problema de dimensăo finita com restriçőes algébricas, enquanto aquele emprega cálculo variacional para obter as condiçőes necessárias de otimizaçăo. Para o uso com aeronaves a otimizaçăo de trajetória resulta principalmente em uma melhor utilizaçăo de tempo e combustível, o que para aeronaves militares de caça pode significar um maior tempo de operaçăo ou um aumento na quantidade de carga paga levada pela aeronave. Para a questăo do pouso existem várias situaçőes que se possam imaginar que uma trajetória otimizada seja benéfica. Uma aeronave com problemas tentará pousar o mais rápido possível, um piloto que veio após uma longa missăo estará cansado e procurará usar o mínimo possível de comandos, uma pista que foi atacada e possui buracos năo pode ser utilizada totalmente e isso diminui sua extensăo utilizável. O seguinte Trabalho de Graduaçăo se focará na minimizaçăo dos comandos utilizados, focando năo apenas na melhoria da carga de trabalho do piloto, mas também na diminuiçăo do arrasto gerado pelas superfícies de comando e, consequentemente, de um melhor consumo de combustível pela aeronave.",
+  "subjects": [
+    "Aterrissagem",
+    "Otimizaçăo de trajetória",
+    "Controle de aeronaves",
+    "Reduçăo de arrasto",
+    "Aeronaves militares",
+    "Controle ótimo",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72535",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72535&origem=BDITA"
+}

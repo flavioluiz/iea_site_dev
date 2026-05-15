@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-105014506765",
+  "eid": "2-s2.0-105014506765",
+  "doi": "10.1115/GT2025-151905",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Propeller design methods: An overview, from classic theories to modern propeller design techniques",
+  "abstract": "Copyright © 2025 by ASME.Due to the growing relevance of mitigating climate change, and the race to improve the energy efficiency of aircrafts, aiming a goal of net-zero emissions of CO2 by 2050, the aircraft propellers have been receiving more attention, as they could represent the next innovation towards the efficiency improvements, especially due to the possibility of hybrid/electrical propulsion. In this context, this article consists of a critical overview of propeller design methods, depicting some relevant classical methods of designing propellers, such as the Blade Element Momentum Theory by Glauert, Vortex Theories, developed by Betz, Goldstein, and Theodorsen, as well as methods to design propellers that are intended to increase the lift on the wings. The straightforward Propeller Design procedures by Larrabee, Adkins Liebeck, and Wald, which are based on these theories, are also covered and compared. In addition, this paper also covers the final design and optimization, showing how computational methods, such as VLM and CFD, are being used in the literature to improve preliminary designs and model the interaction between the propellers and the wing/body. The objective of this paper is to provide a comprehensive reference for researchers and students, summarizing the state-of-Art of propeller design and optimization, for those who intend to work with propellers for green aviation.",
+  "authkeywords": [
+    "Aircraft Propeller",
+    "Blade Element Momentum Theory",
+    "Propeller",
+    "Propeller Design",
+    "Propeller Optimization",
+    "Vortex Theory"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": null,
+    "article_number": "V001T01A019"
+  },
+  "authors": [
+    {
+      "name": "Dias, Marcelo Marques Gomes",
+      "scopus_id": "60076890500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657-100849386",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Silva, Franco Jefferds Santos",
+      "scopus_id": "60200605700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 51,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014506765&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051423",
+    "data_quality_score": 90
+  }
+}

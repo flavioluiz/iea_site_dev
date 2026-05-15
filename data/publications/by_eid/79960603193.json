@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-79960603193",
+  "eid": "2-s2.0-79960603193",
+  "doi": "10.1002/fld.2321",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A novel implicit numerical treatment for non-linear turbulence models using high and low Reynolds number formulations",
+  "abstract": "Non-linear turbulence models can be seen as an improvement of the classical eddy-viscosity concept due to their better capacity to simulate characteristics of important flows. However, application of non-linear models demand robustness of the numerical method applied, requiring a stable discretization scheme for convergence of all variables involved. Usually, non-linear terms are handled in an explicit manner leading to possible numerical instabilities. Thus, the present work shows the steps taken to adapt a general non-linear constitutive equation using a new semi-implicit numerical treatment for the non-linear diffusion terms. The objective is to increase the degree of implicitness of the solution algorithm to enhance convergence characteristics. Flow over a backward-facing step was computed using the control volume method applied to a boundary-fitted coordinate system. The SIMPLE algorithm was used to relax the algebraic equations. Classical wall function and a low Reynolds number model were employed to describe the flow near the wall. The results showed that for certain combination of relaxation parameters, the semi-implicit treatment proposed here was the sole successful treatment in order to achieve solution convergence. Also, application of the implicit method described here shows that the stability of the solution either increases (high Reynolds with non-orthogonal mesh) or preserves the same (low Reynolds number applications). Additional advantages of the procedure proposed here lie in the possibility of testing different non-linear expressions if one considers the enhanced robustness and stability obtained for the entire numerical algorithm. © 2010 John Wiley & Sons, Ltd.",
+  "authkeywords": [
+    "Control volume method",
+    "Non-linear models",
+    "Turbulence modelling"
+  ],
+  "year": "2011",
+  "date": "2011-08-30",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Fluids",
+    "issn": "02712091",
+    "eissn": "10970363",
+    "volume": "66",
+    "issue": "12",
+    "pages": "1475-1494",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79960603193&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110951",
+    "data_quality_score": 100
+  }
+}

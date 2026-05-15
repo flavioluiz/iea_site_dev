@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-85183526033",
+  "eid": "2-s2.0-85183526033",
+  "doi": "10.1017/jfm.2020.839",
+  "pii": "S0022112020008393",
+  "pubmed_id": null,
+  "title": "Dynamics of shear-layer coherent structures in a forced wall-bounded flow",
+  "abstract": "© The Author(s), 2020. Published by Cambridge University Press.A model problem for analysing the interaction between coherent structures in shear flows with the presence of a convective instability is proposed in this work. Starting from Couette flow, a permanent forcing in the shape of a hyperbolic tangent is introduced in the laminar equations, leading to a wall-bounded flow with an inflection point, which triggers a hydrodynamic instability. Temporal linear stability analysis applied to this new flow model shows that this flow is unstable at low Reynolds numbers, giving rise to Kelvin-Helmholtz-like vortices. Due to the presence of shear, streaks and rolls (streamwise vortices), predicted by resolvent analysis, are also present in the flow, and these structures will interact with vortices via oblique waves. Results of locally parallel analysis inspired the design of a computational box for a direct numerical simulation of such flow and the numerical results exhibit a limit cycle involving streaks, vortices, rolls, oblique waves and the mean flow, so that the flow becomes periodically unstable for the present case. The flow dynamics is shown to reproduce some of the features of jets and mixing layers, such as jitter and translational instability, showing that the present model can potentially clarify some of the phenomena involved in the turbulent dynamics of such flows.",
+  "authkeywords": [
+    "absolute/convective instability",
+    "low-dimensional models",
+    "shear layers"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "907",
+    "issue": null,
+    "pages": null,
+    "article_number": "A32"
+  },
+  "authors": [
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 64,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183526033&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100931",
+    "data_quality_score": 100
+  }
+}

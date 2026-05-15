@@ -1,0 +1,27 @@
+{
+  "num_tese": "000136661",
+  "type": "tese",
+  "title": "Estudo de modelos quase-lineares baseados na teoria de vórtices para o cálculo de velocidades induzidas em rotores de helicóptero em vôo com simetria axial",
+  "author": "Donizeti de Andrade",
+  "year": "1987",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Entre os diversos aspectos aerodinâmicos de interesse para aplicaçăo em asas rotativas, no presente trabalho săo estados e implementados numericamente os modelos quase-lineares para o cálculo de velocidades induzidas, através da Teoria de Vórtices, em rotores de helicópteros em vôo com simetria axial. Estes modelos foram propostos por Vozhdayev em \"Theory of the Lifting Airscrew\". Inicialmente faz-se uma caracterizaçăo do ambiente aerodinâmico em rotores de helicóptero, sendo apresentadas as teorias que estudam o assunto. Săo apresentados e discutidos os métodos de modelamento da esteira de vórtices sob o rotor em vôo pairado, para fins dos cálculos de carregamentos aerodinâmicos e previsăo de desempenho. A seguir săo apresentados os modelos da Teoria da Linha de Sustentaçăo, da Teoria do Disco e da Teoria da Superfície de Sustentaçăo para o estudo do rotor de helicóptero em vôo axial. Os modelos utilizam esteira helicoidal de vórtices, prescrita e sem contraçăo, sendo a velocidade média de deslocamento dos vórtices livres na esteira calculada pela Teoria da Quantidade de Movimento. O cálculo das velocidades induzidas nas pás do rotor é feito por meio da Lei de Biot-Savart. Săo apresentados e analisados os resultados da implementaçăo numérica dos referidos modelos para as previsőes de carregamento aerodinâmico e desempenho de rotores em vôo pairado. Finalmente, é discutido o emprego da Teoria de Vórtices em modelos teóricos nos quais a esteira desempenha papel importante (como é o caso do helicóptero em vôo pairado), săo ressaltadas as limitaçőes dos modelos e dos resultados aqui apresentados, estabelecidas conclusőes gerais e apontadas sugestőes para futuros trabalhos.",
+  "subjects": [
+    "Helicópteros",
+    "Aerodinâmica",
+    "Aerodinâmica de rotores",
+    "Física"
+  ],
+  "defense_date": "01/01/1987",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000136661",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000136661&origem=BDITA"
+}

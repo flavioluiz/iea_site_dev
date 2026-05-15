@@ -22,9 +22,11 @@
     {{ end }}
   </div>
 
-  {{/* Aggregate all publications from all professors by resolving references */}}
+  {{/* Aggregate publications from IEA faculty only */}}
+  {{ $ieaSlugs := .Site.Data.pessoal.iea_profiles.slugs }}
   {{ $allPublications := slice }}
-  {{ range $profId, $profData := .Site.Data.professores.profiles }}
+  {{ range $profId := $ieaSlugs }}
+  {{ $profData := index $.Site.Data.pessoal.profiles $profId }}
     {{ $publications := $profData.publicacoes }}
     {{ range $publications }}
       {{/* Resolve publication reference to full data */}}

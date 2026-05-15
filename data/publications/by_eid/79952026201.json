@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-79952026201",
+  "eid": "2-s2.0-79952026201",
+  "doi": "10.1109/ISSRE.2010.30",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Errors on space software requirements: A field study and application scenarios",
+  "abstract": "This paper presents a field study on real errors found in space software requirements documents. The goal is to understand and characterize the most frequent types of requirement problems in this critical application domain. To classify the software requirement errors analyzed we initially used a well-known existing taxonomy that was later extended in order to allow a more thorough analysis. The results of the study show a high rate of requirement errors (9.5 errors per each 100 requirements), which is surprising if we consider that the focus of the work is critical embedded software. Besides the characterization of the most frequent types of errors, the paper also proposes a set of operators that define how to inject realistic errors in requirement documents. This may be used in several scenarios, including: evaluating and training reviewers, estimating the number of requirement errors in real specifications, defining checklists for quick requirement verification, and defining benchmarks for requirements specifications. © 2010 IEEE.",
+  "authkeywords": [
+    "Field study",
+    "Requirements",
+    "Space software requirements quality",
+    "Space systems"
+  ],
+  "year": "2010",
+  "date": "2010-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings International Symposium on Software Reliability Engineering ISSRE",
+    "issn": "10719458",
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "61-70",
+    "article_number": "5635117"
+  },
+  "authors": [
+    {
+      "name": "Véras, Paulo C.",
+      "scopus_id": "36473963800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Ambrosio, Ana Maria",
+      "scopus_id": "36803922400",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Nuno",
+      "scopus_id": "8612824800",
+      "affiliation": "110041165",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vieira, Marco",
+      "scopus_id": "7202140748",
+      "affiliation": "60020985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Madeira, Henrique",
+      "scopus_id": "7004929011",
+      "affiliation": "60020985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 21,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79952026201&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049702",
+    "data_quality_score": 100
+  }
+}

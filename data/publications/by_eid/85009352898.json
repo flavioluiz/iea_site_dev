@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85009352898",
+  "eid": "2-s2.0-85009352898",
+  "doi": "10.1016/j.actaastro.2016.12.020",
+  "pii": "S0094576516301527",
+  "pubmed_id": null,
+  "title": "Attitude dynamics and control of a spacecraft like a robotic manipulator when implementing on-orbit servicing",
+  "abstract": "© 2017 IAAIn space the manipulators working space is characterized by the microgravity environment. In this environment the spacecraft floats and its rotational/translational motion may be excited by any internal and external disturbances. The complete system, i.e., the spacecraft and the associated robotic manipulator, floats and is sensitive to any reaction force and torque related to the manipulator's operation. In this sense the effort done by the robot may result in torque about the system center of mass and also in forces changing its translational motion. This paper analyzes the impact of the robot manipulator dynamics on the attitude motion and the associated control effort to keep the attitude stable during the manipulator's operation. The dynamics analysis is performed in the close proximity phase of rendezvous docking/berthing operation. In such scenario the linear system equations for the translation and attitude relative motions are appropriate. The computer simulations are implemented for the relative translational and rotational motion. The equations of motion have been simulated through computer by using the MatLab software. The LQR and the PID control laws are used for linear and nonlinear control, respectively, aiming to keep the attitude stable while the robot is in and out of service. The gravity-gradient and the residual magnetic torque are considered as external disturbances. The control efforts are analyzed for the manipulator in and out of service. The control laws allow the system stabilization and good performance when the manipulator is in service.",
+  "authkeywords": [
+    "Attitude control",
+    "Docking/berthing",
+    "Relative motion",
+    "Space robotic manipulator"
+  ],
+  "year": "2017",
+  "date": "2017-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Acta Astronautica",
+    "issn": "00945765",
+    "eissn": null,
+    "volume": "137",
+    "issue": null,
+    "pages": "490-497",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Fonseca, Ijar M.",
+      "scopus_id": "15922451500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Seito, Narumi",
+      "scopus_id": "56997501500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva Duarte, Mayara K.",
+      "scopus_id": "57191869543",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, Élcio Jeronimo",
+      "scopus_id": "55217443800",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 25,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85009352898&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077217",
+    "data_quality_score": 100
+  }
+}

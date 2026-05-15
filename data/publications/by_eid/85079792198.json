@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85079792198",
+  "eid": "2-s2.0-85079792198",
+  "doi": "10.1007/s00158-019-02462-w",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Optimal orientation of fibre composites for strength based on Hashin’s criteria optimality conditions",
+  "abstract": "© 2020, The Author(s).The Hashin’s strength criteria are usually employed in first ply failure and damage-onset analysis of fibre-reinforced composites. This work presents optimality conditions of local material orientations for these criteria, in terms of principal stresses and material strength parameters. Each criterion (matrix tensile/compressive, fibre tensile/compressive modes) has its conditions separately derived, analytically, based on a fixed stress field assumption. The conditions found show that orientations which coincide and do not coincide with principal stress directions may minimise local failure indices. These solutions are employed in a proposed algorithm, named HA-OCM (Hashin Optimality Criteria Method), which selectively satisfies the matrix failure modes (either tensile or compressive), iteratively and finite element-wise in composites. It is demonstrated that the HA-OCM is able to design single-layer plane structures with improved failure loads in comparison with designs following only maximum (in absolute) principal stress orientations. Results show that the material orientations have a trend to end up either aligned or at 90° with maximum in absolute principal stress directions. Global optima for compliance are, however, not guaranteed. To give an idea of gains in terms of failure loads, some HA-OCM designs show improvements of 71% and 140%, for example, in comparison with principal stress design.",
+  "authkeywords": [
+    "Fibre composites orientation for strength",
+    "Hashin’s strength criteria",
+    "Optimality conditions",
+    "Optimisation algorithm"
+  ],
+  "year": "2020",
+  "date": "2020-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Structural and Multidisciplinary Optimization",
+    "issn": "1615147X",
+    "eissn": "16151488",
+    "volume": "61",
+    "issue": "5",
+    "pages": "2155-2176",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Rafael T.L.",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Ashcroft, Ian A.",
+      "scopus_id": "7003672565",
+      "affiliation": "60015138",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 22,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Graphics and Computer-Aided Design",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 86,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079792198&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063743",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-0038007851",
+  "eid": "2-s2.0-0038007851",
+  "doi": "10.1016/S0020-7683(03)00177-X",
+  "pii": "S002076830300177X",
+  "pubmed_id": null,
+  "title": "Buckling optimization of plates with variable thickness subjected to nonuniform uncertain loads",
+  "abstract": "The problem of optimizing buckling loads of plates with variable thickness is addressed within the scope of a novel approach where the variability or uncertainty of the loading distribution is taken into account. The loading distribution is not uniform as traditionally assumed but is of a linear piecewise nature otherwise arbitrary. The importance of this investigation lies in the fact that the actual loading distributions acting upon structural components are rarely perfectly uniform although they are usually treated as so in traditional design approaches. A min-max strategy is used to handle the loading variability such that the resulting optimal design is able to withstand an entire class of linear piecewise loadings. © 2003 Elsevier Science Ltd. All rights reserved.",
+  "authkeywords": [
+    "Nonuniform loads",
+    "Optimization",
+    "Variable thickness plate"
+  ],
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Solids and Structures",
+    "issn": "00207683",
+    "eissn": null,
+    "volume": "40",
+    "issue": "15",
+    "pages": "3955-3966",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "de Almeida, S. F.M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 19,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0038007851&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044707",
+    "data_quality_score": 100
+  }
+}

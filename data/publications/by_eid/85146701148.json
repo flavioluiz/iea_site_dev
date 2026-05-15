@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85146701148",
+  "eid": "2-s2.0-85146701148",
+  "doi": "10.1109/LARS/SBR/WRE56824.2022.9995876",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Thermal Modeling of Electric Motors Used in Very Small Size Soccer Robots",
+  "abstract": "© 2022 IEEE.This paper presents a study of the thermophysical properties of electric motors and of the structure of the robots used by ITAndroids' Very Small Size (VSS) team. To perform the modeling of the robot structure, the General Lumped Capacitance Analysis was used, assuming that the motor's internal temperature can be considered approximately uniform. This hypothesis was validated by means of Biot's Number, and the heat source term was evaluated in order to define which energy dissipation sources would be considered in the modeling. The obtained model was evaluated through numerical simulations to analyze the motors' temperature profile for different current values. We compared the obtained results with similar experiments found in the literature, concluding that the model could predict the system's behavior in a satisfactory manner. Therefore, this work contributes to the research area by providing a model able to predict the temperature of the electric motor under different workloads, thus, allowing the team to anticipate its overheating and prevent its premature burnout.",
+  "authkeywords": [
+    "Electric motors",
+    "heat transfer",
+    "overheating",
+    "robotics",
+    "thermal modeling"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2022 19th Latin American Robotics Symposium 2022 14th Brazilian Symposium on Robotics and 2022 13th Workshop on Robotics in Education LARS Sbr Wre 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "270-275",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Miguel, Guilherme Reis",
+      "scopus_id": "58073675300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maximo, Marcos R.O.A.",
+      "scopus_id": "57192438548",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henriques, Izabela Batista",
+      "scopus_id": "56242811600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "izabela-batista-henriques"
+    }
+  ],
+  "eam_coauthors": [
+    "izabela-batista-henriques"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Education",
+        "abbrev": "SOCI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146701148&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.086453",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85114301950",
+  "eid": "2-s2.0-85114301950",
+  "doi": "10.1002/nme.6811",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A geometrically nonlinear structural formulation for analysis of beams with a new set of generalized displacements considering piezoelectric effects",
+  "abstract": "© 2021 John Wiley & Sons Ltd.In this article, a nonlinear structural formulation that uses a new dimensionless set of generalized displacements is proposed for solving geometrically nonlinear beam problems, being validated by several applications given in literature where a cantilever beam is likely to undergo large displacements. By this approach, useful simplifications and insights are achievable in the analysis process, as the system matrices becoming linear and the reduction of required interpolation continuity degree. The formulation is firstly developed—in a Lagrangian perspective—and the equilibrium equations are then derived using Hamilton's principle. In the sequence, using finite element method, it is substantiated by comparison to examples given in literature in static, dynamic, and finally in an application where piezoelectric effects intervene, in order to assess its multiframework capabilities and deliver a convenient approach whereby beams constituted of smart or conventional materials can be efficiently studied.",
+  "authkeywords": [
+    "elasticity",
+    "nonlinear solvers",
+    "piezoelectric",
+    "smart materials",
+    "structures"
+  ],
+  "year": "2021",
+  "date": "2021-11-30",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Engineering",
+    "issn": "00295981",
+    "eissn": "10970207",
+    "volume": "122",
+    "issue": "22",
+    "pages": "6777-6799",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva, Felipe Miranda",
+      "scopus_id": "57247476100",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Cabral, Pedro Higino Alonso",
+      "scopus_id": "56719325500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85114301950&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121545",
+    "data_quality_score": 100
+  }
+}

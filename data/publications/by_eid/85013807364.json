@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85013807364",
+  "eid": "2-s2.0-85013807364",
+  "doi": "10.3390/app7020122",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A GTA welding cooling rate analysis on stainless steel and aluminum using inverse problems",
+  "abstract": "© 2017 by the authors.This work presents an analysis of the thermal influence of the heat transfer by convection and radiation during GTA (gas tungsten arc) welding process. The authors' in-house C++ previously-developed code was modified to calculate the amount of heat transfer by convection and radiation. In this software, an iterative Broydon-Fletcher-Goldfarb-Shanno (BFGS) inverse method was applied to estimate the amount of heat delivered to the plate when the appropriate sensitivity criteria were defined. The methodology was validated by accomplishing lab-controlled experiments on stainless steel AISI 304L and aluminum 6065 T5 plates. Due to some experimental singularities, the forced thermal convection induced by the electromagnetic field and thermal-capillary force were disregarded. Significant examples of these singularities are the relatively small weld bead when compared to the sample size and the reduced time of the welding process. In order to evaluate the local Nusselt number, empirical correlations for flat plates were used. The thermal emission was a dominant cooling effect on the aluminum cooling. However, it did not present the same behavior as the stainless steel samples. The study found that the heat losses by convection and radiation of the weld pool do not affect the cooling process significantly.",
+  "authkeywords": [
+    "Cooling and heating rate",
+    "Heat flux estimation",
+    "Inverse problems",
+    "Radiation",
+    "Thermal analysis"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Sciences Switzerland",
+    "issn": null,
+    "eissn": "20763417",
+    "volume": "7",
+    "issue": "2",
+    "pages": null,
+    "article_number": "122"
+  },
+  "authors": [
+    {
+      "name": "Magalhaes, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60025299",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "de Lima e Silva, Ana Lúcia Fernandes",
+      "scopus_id": "6504248113",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lima e Silva, Sandro Metrevelle Marcondes",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Process Chemistry and Technology",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85013807364&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091265",
+    "data_quality_score": 100
+  }
+}

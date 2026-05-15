@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85218345589",
+  "eid": "2-s2.0-85218345589",
+  "doi": "10.1007/s40430-025-05405-3",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical investigation of automotive porous-media radiators through the second-law analysis",
+  "abstract": "© The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering 2025.Cooling systems play a critical role in maintaining operational efficiency and reducing emissions from automotive vehicles. Given the increasing demand for more efficient and environmentally friendly vehicles, optimization of radiators, which are the central components of these systems, is essential. This study proposes the prediction of the thermo-hydraulic performance and second-law analysis of porous-media radiators through CFD modeling. The flow was solved using the finite-volume method for various geometries and inlet mass flow rates, followed by further thermodynamic analysis. The findings revealed that increases in both the coolant mass flow and the radiator’s frontal area significantly enhanced heat transfer. However, these improvements also result in increased entropy generation, highlighting the complex balance between the thermal efficiency and thermodynamic irreversibility. Also, higher PPI improves heat transfer by increasing surface area but causes greater thermodynamic inefficiencies due to higher flow resistance and pressure gradients. In contrast, higher porosity reduces flow resistance, enabling smoother fluid flow and lowering entropy generation. This study emphasizes the significance of entropy generation analysis, demonstrating that modifications in radiator geometry and operational conditions can profoundly affect both the energy efficiency and operational sustainability of automotive systems. The database that emerges from this procedure is then used to search for the best geometry and mass flow rate, based on the entropy generation number and heat exchanger effectiveness.",
+  "authkeywords": [
+    "CFD",
+    "Heat exchanger",
+    "Porous media",
+    "Second-law analysis"
+  ],
+  "year": "2025",
+  "date": "2025-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "47",
+    "issue": "2",
+    "pages": null,
+    "article_number": "88"
+  },
+  "authors": [
+    {
+      "name": "de Castro, Thaís Piva",
+      "scopus_id": "56237790000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218345589&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053007",
+    "data_quality_score": 100
+  }
+}

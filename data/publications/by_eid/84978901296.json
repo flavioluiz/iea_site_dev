@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-84978901296",
+  "eid": "2-s2.0-84978901296",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Exergy model of human heart",
+  "abstract": "In the past few years, exergy analysis has been applied to human body in order to understand its exergy behavior aiming at, ultimately, collaborating with medical area, by means of diagnosis and treatment of pathologies. Exergy behavior of human body as a whole has already been determined by few authors for standard and healthy subjects. A first attempt to study the effects of obesity on life expectancy by the light of exergy concepts has also been performed. However, this work came to the conclusion that higher body fat per se does not lead to higher mortality among obese people; the focus must be turned to obesity-related diseases, which are mostly related to impaired cardiovascular functions. Thus, the next step towards the comprehension of the effects of pathologies on exergy behavior of human body is to understand human heart by the exergy point of view. In the present work, an exergy model of human heart is developed. The heart is divided into two control volumes: left heart, which pumps arterial blood from the lungs to the organs, and right heart, which pumps venous blood from the organs to the lungs. In both left and right hearts, exergy metabolism, exergy transfer associated to heat of metabolism, difference of exergy of blood flows and performed work are taken into account. Exergy metabolism is determined from values of oxygen consumed and carbon dioxide produced by heart tissues available from thermal model of human body, which also provides the temperature of the heart, utilized to determine Carnot factor and, then, exergy transfer associated to heat metabolism, and partial pressures of oxygen and carbon dioxide in arterial and blood flows. Work performed by the heart is determined by means of pressure-volume diagrams. Then, it is possible to determine destroyed exergy and exergy efficiency of the heart at rest and also for walking and running. Moreover, these values can be confronted to those obtained for the whole body, estimating the percentage of destroyed exergy of the body that is attributed to the heart. The model can be applied to healthy subjects and also to individuals with hypertension or any other pathology that affects some input of the model.",
+  "authkeywords": [
+    "Destroyed exergy",
+    "Exergy analysis",
+    "Exergy efficiency",
+    "Human heart"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ECOS 2015 28th International Conference on Efficiency Cost Optimization Simulation and Environmental Impact of Energy Systems",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Henriques, Izabela Batista",
+      "scopus_id": "56242811600",
+      "affiliation": "60008088",
+      "is_eam_professor": true,
+      "eam_professor_id": "izabela-batista-henriques"
+    },
+    {
+      "name": "Mady, Carlos Eduardo Keutenedjian",
+      "scopus_id": "57202939950",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Oliveira, Silvio",
+      "scopus_id": "57209236771",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "izabela-batista-henriques"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Environmental Science (all)",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Energy (all)",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84978901296&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.086568",
+    "data_quality_score": 80
+  }
+}

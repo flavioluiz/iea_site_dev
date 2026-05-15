@@ -1,0 +1,34 @@
+{
+  "num_tese": "71829",
+  "type": "tese",
+  "title": "Utilizaçăo de técnicas 1D no projeto e análise de desempenho de uma turbina axial considerando técnicas de resfriamento de pás",
+  "author": "Vitor Alexandre Carlesse Martins",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Tendo por base a teoria de turbinas axiais, este trabalho inicialmente apresenta uma proposta de projeto preliminar de estágio de turbina axial de motor tipo turbina a gás voltado para a aplicaçăo aeronáutica. A ferramenta utilizada com vistas a desenvolver tal projeto é um programa comercial que se utiliza de métodos unidimensionais para cálculos do escoamento em diferentes alturas da pá. Uma vez elaborado este projeto, por meio desta ferramenta, é realizada uma análise inicial da turbomáquina no ponto de projeto e fora do ponto de projeto. A mesma turbina projetada é analisada, de forma similar, utilizando-se uma ferramenta computacional, in-house, de projeto e cálculo de desempenho de turbinas axiais escrita em linguagem FORTRAN no Departamento de Turbomáquinas do ITA. Com o intuito de aumentar a temperatura de entrada da turbina (TET), utilizando no projeto inicial tecnologias de resfriamento de pás, foram implementadas novas sub-rotinas no programa in-house de modo a tornar possível uma melhor prediçăo no cálculo das características de operaçăo da turbina devido a inclusăo do resfriamento. A metodologia utilizada é baseada no método denominado TOTLOS, incialmente proposto por HARTSEL (1972), que é bastante adequado para cálculos computacionais de perdas por resfriamento por filme, além dos métodos de perdas já programados sem o caso de resfriamento como o proposto por KACKER e OKAPUU (1982). Dessa maneira, para se atingir TET de 1425K no projeto, săo incorporadas técnicas de resfriamento por filme tanto na grade do estator quando na grade rotora. O mapa de operaçăo para esta temperatura é gerado, considerando resfriamento, e o mesmo é incorporado como uma biblioteca em um programa de cálculo de desempenho do motor em software computacional, in-house, desenvolvido no Departamento de Turbomáquinas do ITA, (BRINGHENTI, 1999). Este estudo permite analisar o desempenho do motor em uma ampla faixa de operaçăo. Por fim, um aumento quantitativo de empuxo no motor e potęncia do estágio é apresentado para este novo caso de simulaçăo.",
+  "subjects": [
+    "Turbinas axiais",
+    "Turbinas a gás",
+    "Propulsăo",
+    "Escoamento",
+    "Turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/06/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71829",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71829&origem=BDITA"
+}

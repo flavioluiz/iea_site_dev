@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85082659631",
+  "eid": "2-s2.0-85082659631",
+  "doi": "10.11159/htff19.189",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Preliminary design of axial flow turbine for a small jet engine",
+  "abstract": "© 2019, Avestia Publishing.A computational program used to calculate the preliminary design of axial turbines which uses the Kacker and Okapuu's loss model was modified to improve the losses predictions implementing Tournier and El-Genk's loss model. The in-house program was written in FORTRAN 90 and is based on the meanline technique to calculate the axial turbine. As the losses interfere in the geometrical calculations applying more accurate loss models, the predictions of the preliminary design are more reliable. The program was applied to design a single-stage turbine and the results are compared with the commercial turbomachine design software AXIALTM®. The improvements obtained by applying a more recent loss model have been discussed as the future works to improve the in-house program.",
+  "authkeywords": [
+    "Gas turbines",
+    "Loss model",
+    "Preliminary design",
+    "Turbomachines"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the World Congress on Mechanical Chemical and Material Engineering",
+    "issn": null,
+    "eissn": "23698136",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "189"
+  },
+  "authors": [
+    {
+      "name": "Maia, Ana A.G.",
+      "scopus_id": "57216152270",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Janaina F.",
+      "scopus_id": "57216152587",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesui´no T.",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85082659631&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051877",
+    "data_quality_score": 100
+  }
+}

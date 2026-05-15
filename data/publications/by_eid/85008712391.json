@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85008712391",
+  "eid": "2-s2.0-85008712391",
+  "doi": "10.1051/matecconf/20168303001",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modeling and position control of tethered octocopters",
+  "abstract": "© The Authors, published by EDP Sciences, 2016.This work presents the modeling and control of a multirotor aerial vehicle with tethered configuration. It is considered an octocopter with a saturated proportional-plus-derivative position control. A viscoelastic model is considered for the tether, which has a tension control. Numerical simulations are carried out to compare the performance of the tethred configuration with the vehicle in free flight.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-11-16",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Matec Web of Conferences",
+    "issn": null,
+    "eissn": "2261236X",
+    "volume": "83",
+    "issue": null,
+    "pages": null,
+    "article_number": "03001"
+  },
+  "authors": [
+    {
+      "name": "De Castro, Davi Ferreira",
+      "scopus_id": "57191592787",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Prado, Igor Afonso Acampora",
+      "scopus_id": "56444078500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Mateus De Freitas Virgílio",
+      "scopus_id": "57191042135",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Balthazar, José Manoel",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Chemistry (all)",
+        "abbrev": "CHEM",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85008712391&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095053",
+    "data_quality_score": 90
+  }
+}

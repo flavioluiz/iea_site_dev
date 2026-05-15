@@ -1,0 +1,34 @@
+{
+  "num_tese": "71265",
+  "type": "tese",
+  "title": "Desenvolvimento de asa mórfica usando como atuadores fios de NiTi com efeito memória de forma bidirecional",
+  "author": "Thais Campos de Almeida",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jorge Otubo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osmar de Sousa Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Devido ŕs suas possíveis vantagens, asas mórficas vęm ganhando visibilidade na indústria aeronáutica. Um dos motivos é a capacidade de reduçăo do arrasto devido a uma mudança suave na curvatura, diferente de asas com flap, nas quais tal mudança ocorre de forma brusca. Se associada a um atuador leve, simples e confiável, como os feitos de liga com Efeito de Memória de Forma (LEMF), tais vantagens podem ser ampliadas: diminuiçăo no peso total devido ŕ substituiçăo de atuadores mecânicos e hidráulicos, simplificaçăo do projeto e reduçăo da necessidade de manutençăo. Assim, o principal objetivo deste trabalho é analisar a viabilidade de construir uma asa mórfica, cujo arqueamento é variável, a partir de nervuras com mecanismo flexível no bordo de fuga atuadas por fios de NiTi apresentando o Efeito de Memória de Forma. Para atingir tal fim, a nervura mórfica com mecanismo flexível foi proposta e desenvolvida sendo submetida a testes estruturais para garantir sua flexibilidade. Depois de definida, a mesma foi manufaturada por impressăo 3D. O fio de NiTi usado como atuador foi treinado por um procedimento termomecânico baseado num processo cíclico com aplicaçăo constante de carga para adquirir o Efeito de Memória de Forma Bidirecional (EMFB). Após o treinamento, o fio apresenta um determinado comprimento quando na fase martensita (baixa temperatura) e outro menor na fase austenita (alta temperatura). A construçăo da asa é feita intercalando-se fios de NiTi e nervuras para que a atuaçăo seja realizada de forma distribuída ao longo de sua envergadura. Após a construçăo, a mesma foi testada em túnel de vento para a análise de seu comportamento a diferentes velocidades de escoamento. Os testes no túnel de vento mostram que o carregamento aerodinâmico faz com que a deflexăo do bordo de fuga diminua devido ŕ flexibilidade da asa. Além disso, o perfil da asa mórfica foi comparado aos perfis com flaps individuais, duplos e triplos sugerindo que, a pequenas deflexőes do bordo de fuga, a asa mórfica apresenta um bom comportamento aerodinâmico: considerável sustentaçăo associada a um pequeno arrasto. Por outro lado, para grandes deflexőes, a asa mórfica apresenta grande sustentaçăo associada a um grande arrasto, o que diminui sua eficięncia, sendo mais indicado, para essa condiçăo, o uso de flaps. Por fim, analisou-se a possibilidade de substituir os fios de NiTi com EMFB por fios apenas com EMF e observou-se que é possível obter resultado semelhante de deflexăo para a nervura mórfica construída.",
+  "subjects": [
+    "Asas mórficas",
+    "Atuadores inteligentes",
+    "Ligas de memória de forma",
+    "Transformaçăo martensítica",
+    "Ligas nitinol",
+    "Metalurgia"
+  ],
+  "defense_date": "14/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71265",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71265&origem=BDITA"
+}

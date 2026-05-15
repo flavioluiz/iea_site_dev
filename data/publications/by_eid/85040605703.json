@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-85040605703",
+  "eid": "2-s2.0-85040605703",
+  "doi": "10.1109/SBMicro.2017.8113001",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The influence of aluminum incorporation on the structural and electrical properties of ZnO thin films for applications in piezoresistive sensors",
+  "abstract": "© 2017 IEEE.Zinc oxide thin films have high resistivity, plus thermal and chemical stability. Such properties make this material suitable for fabrication of piezo-electric sensors and surface acoustic wave devices that are used in Microelectromechanical systems (MEMS). The addition of metallic nanoparticles into the film matrix can reduce the value of resistivity, and, thus, qualify the material to be used in piezoresistive devices. In this work, a dc magnetron co-sputtering was used to grow Al doped ZnO (AZO) films with different applied voltages in the Al target, deposited on Si (100) p-type substrates with a layer of 1 micron of SiO2 by thermal oxidation. The microstructure and chemical composition of the films were characterized by X-ray diffraction and Rutterford-Backscattering techniques, respectively. The RBS results indicate the presence of aluminum, zinc, and oxygen in the films, which was confirmed by the XRD peaks of ZnO (002) at 2θ=34.4° Four probe technique confirmed a gradual reduction of resistivity up to 8.10-3 Ω.cm as the applied power on the Al-target increased.",
+  "authkeywords": [
+    "Al-ZnO",
+    "DC magnetron sputtering",
+    "thin films"
+  ],
+  "year": "2017",
+  "date": "2017-11-15",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Sbmicro 2017 32nd Symposium on Microelectronics Technology and Devices Chip on the Sands Co Located Symposia 30th Sbcci Circuits and Systems Design 2nd Inscit Electronic Instrumentation 7th Wcas IC Design Cases and 17th Sforum Undergraduate Student Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "8113001"
+  },
+  "authors": [
+    {
+      "name": "Cardoso, G. W.A.",
+      "scopus_id": "39862578500",
+      "affiliation": "60014992",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Leal, G.",
+      "scopus_id": "55641808300",
+      "affiliation": "60014992-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Massi, M.",
+      "scopus_id": "7102368847",
+      "affiliation": "60014992-120088219",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva Sobrinho, A. S.",
+      "scopus_id": "6602001816",
+      "affiliation": "60011644",
+      "is_eam_professor": true,
+      "eam_professor_id": "argemiro-s-silva-sobrinho"
+    },
+    {
+      "name": "Libardi, J.",
+      "scopus_id": "7801481340",
+      "affiliation": "60011644",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "argemiro-s-silva-sobrinho"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85040605703&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.059251",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-0003024529",
+  "eid": "2-s2.0-0003024529",
+  "doi": "10.1115/IMECE2000-1567",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of turbulent flow through hybrid porous medium clear fluid domains",
+  "abstract": "Copyright © 2000 by ASMETurbulent flow in a channel, totally and partially filled with a porous medium, is simulated with a proposed turbulence model. Two cases are analyzed, namely clear flow past a porous obstacle and flow through a porous medium having a cavity with a higher porosity. Mean and turbulence quantities were solved within both computational domains using a single numerical technique. The control volume approach was used to discretize the governing equations. In the first case analyzed, the flow penetration into the porous substrate is accompanied by generation of turbulence kinetic energy within the obstacle. In the second geometry, the flow is pushed towards the cavity as porosity increases.",
+  "authkeywords": null,
+  "year": "2000",
+  "date": "2000-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings Imece",
+    "issn": null,
+    "eissn": null,
+    "volume": "2000-W",
+    "issue": null,
+    "pages": "113-122",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Pedras, Marcos H.J.",
+      "scopus_id": "7006693230",
+      "affiliation": "60012642",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0003024529&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112242",
+    "data_quality_score": 90
+  }
+}

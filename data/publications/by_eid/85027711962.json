@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85027711962",
+  "eid": "2-s2.0-85027711962",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Design-based model of a closed brayton cycle for space power systems",
+  "abstract": "Nuclear power systems turned to space electric propulsion differs strongly from usual ground-based power systems regarding the importance of overall size and weight. For propulsion power systems, size/weight are essential drivers that should be minimized during conception processes. Considering that, this paper aims the development of a design-based model of a closed Brayton cycle that applies the thermal conductance of the main components in order to predict the energy conversion performance, allowing its use as preliminary tool for the heat exchangers and the radiator panel sizing. The centrifugal-flow turbine and compressor characterization were achieved using algebraic equations from literature data. The binary mixture of He-Xe with molecular weight of 40 g/mole is applied and the impact of the components sizing in the energy efficiency is evaluated in this paper, including the radiator panel area. Moreover, an optimization analysis based on the final area/size of these components is performed.",
+  "authkeywords": [
+    "Brayton",
+    "Optimization",
+    "Simulation"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Nuclear and Emerging Technologies for Space Nets 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "110-119",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "101373846",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    },
+    {
+      "name": "Guimarães, Lamartine N.F.",
+      "scopus_id": "12645126800",
+      "affiliation": "101373846-111775072",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Filho, Francisco A.Braz",
+      "scopus_id": "8906523100",
+      "affiliation": "101373846",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85027711962&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053268",
+    "data_quality_score": 70
+  }
+}

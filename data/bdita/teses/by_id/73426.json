@@ -1,0 +1,29 @@
+{
+  "num_tese": "73426",
+  "type": "tese",
+  "title": "Performance investigation of radial burning rocket motors with initial thermal gradient in the propellant grain",
+  "author": "Raul Primon de Araújo",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The effect of thermal gradient on radial burning propellant grains are investigated in this work by performing bench firing tests in four star shaped rocket motors (Lg/Dg ? 3.2 and 10 kg of propellant mass) casted with the same HTPB/AP/Al solid propellant. The motors were subjected to temperature conditionings of 20 şC, 50 şC and 72 şC, in order to induce different temperatures between the central portions and peripheral portions of the grain. The thermal gradient appearance is obtained by reducing the conditioning time of each motor, which are instrumented with thermocouples placed over the case, nozzle and on the bottom surface of the propellant spoke. Thermal gradients of 2.9 şC and 11.1 şC were observed, leading to important variations on its pressure and thrust profiles with augmentation of the progressive shape of the curves and the Isp of the motors. Experimental results are compared to a numerical model developed in Labview and Matlab that simulates the pressure and thrust profiles and calculates the internal ballistic parameters. The model proposes a mathematical approach to capture the phenomena of thermal gradient formation for estimation of pressure and thrust performances. It was noticed for the 72 şC conditioning case thrust excursions of 4.45 % when compared to those at homogeneous temperatures due to variations on the burning area regression of the propellant grain. Also, the model's input parameters were subjected to optimizations based on Genetic Algorithm to obtain a better fitting on the curves and reduce mean square error. The variations of temperature in the nozzle and over the motor case are presented in graphics during the combustion of the propellant and 120 s after its firing.",
+  "subjects": [
+    "Sistemas de propulsăo",
+    "Grăos de propelentes",
+    "Motores foguetes a propelente sólido",
+    "Velocidade de queima",
+    "Sistemas de refrigeraçăo",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "19/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73426",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73426&origem=BDITA"
+}

@@ -1,0 +1,37 @@
+{
+  "num_tese": "80177",
+  "type": "tese",
+  "title": "Exergy assessment of aircraft conventional and hybrid-electric propulsion systems",
+  "author": "Walter Affonso Junior",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Silvio de Oliveira Junior",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Environmental concerns have posed major challenges to the aviation industry. Incremental improvements over conventional propulsion system architectures will certainly not meet the international emissions requirements that will be effective in the next decades. Therefore, innovative, or even disruptive technologies are required to overcome the gap in aircraft technologies, particularly in propulsion technologies, in order to comply with the new emission's regulatory goals. Hybrid Electric Propulsion Systems (HEPS) stand out as promising technological alternatives to address this challenge. In this sense, the exergy analysis can assist the preliminary design engineer to compare distinct propulsion architectures based on their respective exergy efficiencies. The purpose of this work is to develop an innovative exergy-based method to diagnose and compare different HEPS architectures with the ones based on conventional thermal engines. The application of the method is illustrated by the development and discussion of two \"case studies\". Firstly, a 90 passenger regional aircraft powered by a HEPS system is compared to the baseline aircraft powered by a conventional gas turbine. Afterwards, to broaden the application potential of the method, a second case study is developed, this time addressing a small aircraft based on the Embraer-203 Ipanema crop duster, powered by batteries hybridized with Fuel Cells, which is compared to the baseline aircraft powered by an Internal Combustion Engine (piston engine). For the first case study, the highest exergy efficiency of 33.5% was obtained for a configuration that presented a 5% Degree of Hybridization (DOH), defined as \"power coming from batteries divided by total power\", and 800Wh/kg battery energy density. This corresponds to an increase of 0.7% when compared to the 32.8% efficiency of the baseline gas turbine. On the other hand, the aircraft's total weight increased 7.1% as compared to the baseline. On top of that, the HEPS configuration saves 1.3% of fuel burn along the mission, in comparison to the baseline. CO2 emissions follow the same proportion, therefore savings of 1.3% were found. For the small aircraft based on the Ipanema, the best exergy efficiency was obtained by the battery-only version (64,1%), followed by the battery hybridized with Fuel Cells version (varying from 50,7% to 29,7% depending on DOH). The ICE was the worse version from an exergy efficiency standpoint (14,9%). However, as indicated in the literature, this ranking is inverted when an aerodynamic performance criterion such as the energy specific air range (ESAR) is adopted to compare the propulsion architectures at aircraft level. Also, in this work, the exergy-based emission costs and the exergy destroyed in the oil refinery plant and in the electric power generation plants are evaluated for the two case studies. Finally, some possible means to re-use the exergy lost in the regional aircraft propulsion system are presented and discussed.",
+  "subjects": [
+    "Análise exergética",
+    "Concersăo de energia",
+    "Propulsăo híbrida",
+    "Eletrificaçăo",
+    "Projeto de aeronaves",
+    "Geraçăo de energia elétrica",
+    "Termodinâmica",
+    "Estudo de casos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80177",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80177&origem=BDITA"
+}

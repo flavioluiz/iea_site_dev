@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-84937681172",
+  "eid": "2-s2.0-84937681172",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A survey of different classes of Earth-to-Moon trajectories in the patched three-body approach",
+  "abstract": "Copyright © 2014 by the authors.This paper deals with Earth-to-Moon transfers in the patched three-body approach, in which the Sun-Earth-Moon-Spacecraft four-body system is approximated by two coupled Circular Restricted Three-Body Problems (CR3BP). This approach provides preliminary solutions that can be be numerically refined into full four-body solutions. The standard transfers in this approach are low-energy manifold guided solutions with long transfer time which connect transit and non-transit orbits of each three-body system. Besides the standard transit-non-transit connections, there are alternative solutions involving a bi-parametric family of quasi-periodic orbits around the Earth. These solutions connect quasi-periodic orbits on two-dimensional tori of the Sun-Earth-Spacecraft system with L<inf>1</inf> or L<inf>2</inf> transit solutions of the Earth-Moon-Spacecraft system to provide transfers with lunar ballistic capture and short flight time. We review the dynamical elements employed to obtain the different classes of transfers and give examples of solutions obtained from sets of initial conditions around the Earth consistent with current infrastructure for space exploration.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "7",
+    "issue": null,
+    "pages": "5242-5248",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Sousa-Silva, Priscilla A.",
+      "scopus_id": "36761402700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, Maisa O.",
+      "scopus_id": "7003287545",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84937681172&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068509",
+    "data_quality_score": 60
+  }
+}

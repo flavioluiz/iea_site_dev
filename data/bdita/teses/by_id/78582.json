@@ -1,0 +1,37 @@
+{
+  "num_tese": "78582",
+  "type": "tese",
+  "title": "Simulaçăo e controle de pontas de asa dobráveis com abordagem de multicorpos flexíveis",
+  "author": "Leonardo Barros da Luz",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Com crescimento da aviaçăo comercial o desenvolvimento de tecnologias para aumento da eficięncia das aeronaves se tornou cada vez mais necessário. Neste trabalho é apresentado um estudo sobre a utilizaçăo de asas com pontas dobráveis com o objetivo de aumentar a eficięncia aerodinâmica. Para realizar as análises necessárias foi apresentada uma modelagem dinâmica através da teoria de multicorpos flexíveis, considerando diferentes tipos de restriçőes entre os corpos, modelagem estrutural capaz de descrever os deslocamentos flexíveis da asa através do método de Rayleigh-Ritz e modelagem aerodinâmica através do método Vortex-Lattice, considerando os deslocamentos flexíveis calculados pelo método estrutural. Além disso, foi apresentado um projeto de controle por Regulador Linear Quadrático capaz de fornecer a posiçăo angular da ponta de asa de maneira a cumprir com seu objetivo. Diversas simulaçőes foram realizadas, a primeira delas foi a simulaçăo do comportamento dinâmico de um pęndulo duplo flexível com o objetivo de validar o modelo dinâmico-estrutural. Foram realizadas comparaçőes entre os resultados obtidos pelo modelo apresentado e pelo software Simscape Multibody. Para verificar o modelo aeroestrutural foi realizada uma simulaçăo de uma asa retangular engastada na raiz, e seus resultados, para diferentes configuraçőes de escoamento, foram comparados com dados experimentais. Utilizando a mesma asa retangular engastada na raiz, foi realizada uma simulaçăo com a ponta de asa dobrável, aplicando o projeto de controle proposto. Por fim, o projeto de controle foi aplicado em um simulaçăo de uma aeronave flexível. Os resultados demonstraram que o dispositivo estudado pode atuar como um sistema de alívio de carga e como um sistema de aumento de eficięncia aerodinâmica de maneira conjunta.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Corpos flexíveis",
+    "Método de malha turbilhonar",
+    "Asas flexíveis",
+    "Vórtices",
+    "Método de Rayleigh-Ritz",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78582",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78582&origem=BDITA"
+}

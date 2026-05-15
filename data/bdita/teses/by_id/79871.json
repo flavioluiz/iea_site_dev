@@ -1,0 +1,35 @@
+{
+  "num_tese": "79871",
+  "type": "tese",
+  "title": "A simple semi-strong solution for the integral boundary layer equations using high-order galerkin method",
+  "author": "Gerben Johannes Siegersma",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Hüseyin Özdemir",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In this study, laminar and turbulent boundary layers over curved surfaces and airfoils are solved while using simple modeling approaches coupled with spectral element methods. A linear vortex panel method has been designed that can obtain reliable pressure distribution results in an inviscid setting. This pressure distribution is used as input for the integral boundary layer equations, which are spatially discretized using higher-order Galerkin method. A simple interaction law between inviscid region and boundary layer model is implemented as a semi-strong solution that predicts the changes that the displacement thickness exerts on the edge velocity. The semi-strong solution enables circumvention of Goldstein's singularity of separated flow. The equations are solved using an implicit Euler based point-implicit scheme, and spectral vanishing viscosity is applied to stabilize the numerics. The resulting boundary layer parameters are used as input for the panel method, such that an iterative scheme is obtained that proceeds until convergence has been reached. A wake is added to ensure smooth outflow at the trailing edge, such that the Kutta condition is fully satisfied. Validation of the boundary layer parameters as well as the pressure distributions is done using XFOIL and experimental results.",
+  "subjects": [
+    "Método de Galerkin",
+    "Equaçőes integrais",
+    "Camada limite laminar",
+    "Camada limite turbulenta",
+    "Métodos espectrais",
+    "Estudo numérico",
+    "Física"
+  ],
+  "defense_date": "29/08/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79871",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79871&origem=BDITA"
+}

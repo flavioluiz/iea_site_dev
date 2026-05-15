@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-20544448611",
+  "eid": "2-s2.0-20544448611",
+  "doi": "10.2514/6.2004-5375",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A sensitivity study of downwash weighting methods for transonic aeroelastic stability analysis",
+  "abstract": "The aeroelastic behavior of an aircraft is typically more critical in the transonic flight regime. The linearized potential based equations of the fluid flow do not allow accurate predictions of transonic flutter. Downwash weighting methods are adequate tools for approximating the nonlinear behavior of unsteady transonic flows, as far as aeroelastic applications are concerned. The purpose of downwash weighting methods is to correct unsteady pressures computed from linear aerodynamic models, to take into account nonlinear effects. Such methodology is less expensive than time domain computational aeroelasticity simulations. The reduced frequency to be considered in those methods is associated to specific conditions to be investigated for aeroelastic stability. This implies in a less expensive computational simulation, since it may be performed on a single harmonic motion simulation at the specific reduced frequency. The objective of the present work is to perform a sensitivity study with regard to the variation of the dynamic amplitude of the prescribed mode shape. A set of amplitudes of the disturbance in angle of attack is used to generate the non-linear unsteady pressure data. Therefore, it is possible to understand the variation of the computed flutter speeds with respect to the nature of the non-linear unsteady pressures. The flutter speed computation presents significant variations with respect to the nature of the unsteady pressure data. The results presented herein regarding the dependence of the flutter speeds on the amplitude of the motion indicate that the downwash correction method is closely related to the magnitude of such displacements.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers AIAA Applied Aerodynamics Conference",
+    "issn": "10485953",
+    "eissn": null,
+    "volume": "2",
+    "issue": null,
+    "pages": "1098-1115",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60069347-106792715",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Mello, Olympio A.F.",
+      "scopus_id": "55945788000",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347-100738456",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=20544448611&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067617",
+    "data_quality_score": 90
+  }
+}

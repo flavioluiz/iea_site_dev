@@ -1,0 +1,110 @@
+{
+  "publication_id": "2-s2.0-85129450480",
+  "eid": "2-s2.0-85129450480",
+  "doi": "10.1016/j.mtchem.2022.100929",
+  "pii": "S2468519422001586",
+  "pubmed_id": null,
+  "title": "Unveiling the mechanism of the triethyl phosphate hydrolysis reaction in the synthesis of the sol-gel-derived 58S bioactive glass",
+  "abstract": "© 2022 Elsevier LtdThe sol-gel method is one of the most used methods due to its outstanding capacity to obtain alkaline-earth phosphosilicate bioactive glass with high bioactivity. This efficient synthesis method involves several stages constituted by intermediate chemical reactions, which are governed by mechanisms and kinetic parameters that lead to the formation of the precursor gel of the vitreous matrix. Although the sol-gel method has been widely used for the preparation of materials, some steps are still not completely understood and that affect the final properties of the synthesized materials. For instance, the hydrolysis reaction of triethyl phosphate (TEP) which, similarly to tetraethyl orthosilicate (TEOS), is assumed to be complete in the stage of formation of the precursor gel of the glass matrix. Furthermore, the SN2-type mechanism for the hydrolysis of TEP is widely assumed. However, the absence of studies that support these presumptions fully justifies the use of theoretical methods to gain information about the hydrolysis of TEP within the sol-gel synthesis of 58S bioactive glass. Density functional theory (DFT) and molecular dynamics (MD) simulations were used to study the reaction mechanisms and kinetic behavior of TEP hydrolysis. Our results show that the TEP hydrolysis reaction is very slow in its three stages, occurring not only via the SN2 mechanism with configuration inversion (SN2–I), as is commonly reported in the literature, but also via SN2 with configuration retention (SN2–R). Furthermore, it was found that the hydrolysis reaction via SN2–I occurs with faster kinetics than SN2–R. This behavior was observed for the three stages of TEP hydrolysis, both in protonated and non-protonated solutions. Based on our findings on the mechanisms and kinetics of triethyl phosphate hydrolysis reactions, a simple chemical model for the formation of calcium pyrophosphate crystalline domains in 58S sol-gel bioactive glass was proposed. In our model, TEOS undergoes rapid hydrolysis, followed by immediate condensation leading to the formation of three-dimensional silica gels, that permeate non-hydrolyzed TEP molecules due to their slow kinetic rate. This mismatch between the reactions of precursor alkoxides in acidic medium, results in a strong tendency in the formation of a glassy microstructure with low structural homogeneity characterized by crystalline domains of calcium pyrophosphate permeated by a silica-rich glass matrix.",
+  "authkeywords": [
+    "DFT",
+    "Molecular dynamics",
+    "SN2-mechanisms",
+    "TEP hydrolysis"
+  ],
+  "year": "2022",
+  "date": "2022-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Materials Today Chemistry",
+    "issn": null,
+    "eissn": "24685194",
+    "volume": "24",
+    "issue": null,
+    "pages": null,
+    "article_number": "100929"
+  },
+  "authors": [
+    {
+      "name": "Vargas Machuca Bueno, O. M.",
+      "scopus_id": "57666693100",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "San-Miguel, M. A.",
+      "scopus_id": "7007180997",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bertran, C. A.",
+      "scopus_id": "7004199959",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zacarias da Silva, E.",
+      "scopus_id": "57667000800",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lopes, J. H.",
+      "scopus_id": "25959640900",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "joao-henrique-lopes"
+    }
+  ],
+  "eam_coauthors": [
+    "joao-henrique-lopes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Catalysis",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Electronic, Optical and Magnetic Materials",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Biomaterials",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Polymers and Plastics",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Colloid and Surface Chemistry",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Materials Chemistry",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 65,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129450480&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.093465",
+    "data_quality_score": 100
+  }
+}

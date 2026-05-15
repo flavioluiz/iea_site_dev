@@ -1,0 +1,29 @@
+{
+  "num_tese": "67724",
+  "type": "tese",
+  "title": "Cálculo de escoamento em grades de turbomáquinas utilizando a dinâmica dos fluidos computacional com o uso de pré-condicionadores",
+  "author": "Ana Adalgiza Garcia Maia",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nas últimas décadas, as melhorias na tecnologia de \\textit{hardware} principalmente no que diz respeito a unidade de processamento central, memória e capacidade de armazenamento, diversas ferramentas numéricas aplicadas na engenharia foram desenvolvidas com o intuito de se obter respostas rápidas e mais baratas do que ensaios, experimentos e testes laboratoriais. A Dinâmica dos Fluidos Computacional (DFC) faz uma aproximaçăo numérica como um meio de simular escoamentos. Um dos grandes desafios em soluçőes numéricas na DFC é a garantia da consistęncia, estabilidade e convergęncia garantindo com isso, a confiabilidade do código numérico. As turbomáquinas operam em uma ampla faixa de velocidades no campo do escoamento, podendo ter regiőes com baixos números de Mach. Nesse ponto, surge um problema, pois códigos da DFC para o cálculo de escoamento compressível geralmente săo programados seguindo formulaçőes matemáticas baseadas no vetor de variáveis conservadas, podendo ter problemas numéricos e apresentar soluçőes inconsistentes devido a pequena variaçăo da densidade do fluido. Chorin através de alguns estudos constatou que os códigos de DFC possuem uma diminuiçăo de sua convergęncia e estabilidade quando o número de Mach do escoamento torna-se menor do que o limite de compressibilidade. Com o objetivo de solucionar este problema, Chorin criou a técnica de compressibilidade artificial. Choi e Merkle; Turkel e outros pesquisadores modificaram a técnica de compressibilidade artificial e desenvolveram a técnica de pré-condicionamento para diversas aplicaçőes para garantir a convergęncia, estabilidade e melhorias na soluçőes numéricas dos códigos DFC para uma ampla faixa de velocidades do escoamento. No presente trabalho, foi realizada a implementaçăo do método de pré-condicionamento de Turkel, Vatsa e Radaspiel em um programa de DFC desenvolvido por Tomita para calcular escoamentos compressíveis, internos e externos. A fim de melhorar a robustez do código numérico o pré-condicionador foi modificado seguindo o proposto no trabalho de Damorfal e Siu. O pré-condicionamento foi implementado primeiramente para as Equaçőes de Euler e depois para escoamentos viscosos e turbulentos. Diversas experięncias numéricas foram realizadas e resultados interessantes utilizando o código de DFC compressível e o código de DFC compressível com o pré-condicionador original e modificado foram obtidos. Todos estes casos estăo apresentados e comentados no presente trabalho. A implementaçăo do pré-condicionador em um código de DFC desenvolvido para o cálculo de escoamento tipicamente compressível resultou em uma ferramenta numérica com maior potencial para o cálculo do escoamento numa ampla faixa de número de Mach.",
+  "subjects": [
+    "Códigos computacionais",
+    "Escoamento de fluidos",
+    "Robustez (Matemática)",
+    "Turbomáquinas",
+    "Dinâmica dos fluidos computacional",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67724",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67724&origem=BDITA"
+}

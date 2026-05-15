@@ -1,0 +1,29 @@
+{
+  "num_tese": "000361619",
+  "type": "tese",
+  "title": "Projeto e análise de um servo atuador hidromecânico para aplicaçăo aeronáutica",
+  "author": "Hímero Emílio Küster",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo principal o projeto de um servo atuador hidromecânico para aplicaçăo aeronáutica. O servo atuador proposto foi baseado em uma especificaçăo técnica de um servoatuador de aileron da aeronave EMB 145. A partir de um servo atuador proposto foi efetuada a modelagem dinâmica via grafos de ligaçăo (grafos de ligaçăo) e montadas as matrizes da descriçăo no espaço de estado para posterior análise dinâmica linear. A partir do grafo de ligaçăo também obteve-se as equaçőes necessárias para análise dinâmica năo linear. Com o dimensionamento estático das partes principais obteve-se os dados necessários para simulaçăo linear e năo linear. Quando da simulaçăo năo linear, incorporou-se no modelo várias năo linearidades tais como: variaçăo dos diâmetro dos orifícios de controle, atrito de Coulomb, efeito de travamento hidráulico e folgas devido ao desgaste ou de ajuste de peças (“backlash”). Finalmente os itens principais (servo válvula, atuador, alavanca de comando/realimentaçăo) e seus acessórios (válvula by-pass, válvula solenóide, válvula unidirecional, válvula anti-cavitaçăo, filtro) foram desenhados utilizando-se CAD. Um esquema completo do servo atuador com seus componentes também é mostrado.",
+  "subjects": [
+    "Servomecanismos",
+    "Controle automático",
+    "Gráficos de ligaçăo",
+    "Hidrodinâmica",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/02/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000361619",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000361619&origem=BDITA"
+}

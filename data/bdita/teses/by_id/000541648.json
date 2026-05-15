@@ -1,0 +1,29 @@
+{
+  "num_tese": "000541648",
+  "type": "tese",
+  "title": "Desenvolvimento integrado CAD/CAM de componentes para turbinas a gás.",
+  "author": "Alex Sandro de Araújo Silva",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho aqui apresentado propőe um método para a utilizaçăo da cadeia CAD/CAM no fresamento 5-eixos de componentes de turbinas a gás. O método procura integrar as etapas CAD, CAM do processo de fabricaçăo de componentes de turbinas a gás. O método aborda desde a modelagem dos componentes, evitando algumas características impróprias ao fresamento 5-eixos, passando pela simulaçăo das trajetórias e pós-processamento e por fim fabricaçăo dos componentes. A partir desse trabalho algumas informaçőes importantes referentes ŕ cadeia CAD/CAM puderam ser levantadas. De maneira geral, a abordagem da cadeia CAD/CAM para o fresamento 5-eixos deve considerar etapas anteriores ao da programaçăo CAM, como a etapa CAD da cadeia, onde as geometrias săo definidas, e posteriores, neste caso, simulaçăo das trajetórias de ferramenta programadas e pós-processamento de código NC. Foram feitas ainda análises relacionadas aos tipos de interpolaçăo que estăo disponíveis para o fresamento de geometrias complexas. Essa a análise é também apresentada no trabalho fazendo parte das contribuiçőes que esse trabalho se propőe a dar. Os resultados por serem extremamente práticos se propőem a serem utilizados de imediato na indústria. Eles văo desde restriçőes a modelagem de geometrias para o fresamento 5-eixos até informaçőes referentes a uso de interpolaçőes complexas no âmbito de fresamento de superfícies complexas. Procurou-se dar informaçőes pertinentes ao fresamento 5-eixos em todas as etapas da cadeia CAD/CAM para esse processo de fabricaçăo.",
+  "subjects": [
+    "Computer aided design",
+    "Computer aided manufacturing",
+    "Fresagem (usinagem)",
+    "Componentes",
+    "Turbinas a gás",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "22/02/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541648",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541648&origem=BDITA"
+}

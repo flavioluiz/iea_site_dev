@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85095978351",
+  "eid": "2-s2.0-85095978351",
+  "doi": "10.2514/6.2019-2567",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Dynamics of turbulent boundary layers exciting wavepackets in subsonic jets",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Azimuthally coherent low-energy structures in the form of wavepackets are documented to play dominant role in sound radiation by subsonic turbulent jets. In earlier work, we have shown evidence of a coupling between the turbulent nozzle boundary-layer (NBL) disturbances and wavepackets in a M=0.9 turbulent jet, by means of two point statistics.1 The purpose of this study is to characterise the structures within the NBL using a high-fidelity large-eddy simulation of a M=0.4 turbulent jet. We first employ Spectral Proper Orthogonal Decomposition (SPOD) to the axisymmetric component of the flow in order to distill a low-rank approximation of the flow dynamics. This reveals the existence of coherent structures within the NBL and shows that these are correlated with wavepackets in the jet. We then model the NBL structures via a mean-flow stability analysis. Projection of the leading SPOD modes on the stability eigenmodes shows that the organised boundary layer structures can be modelled using a small number of stable eigenmodes. Finally local resolvent analysis of the mean-flow is performed. It is shown that the most-energetic nozzle structures can be succesfully modelled with optimal resolvent response modes.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "25th AIAA Ceas Aeroacoustics Conference 2019",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kaplan, Oğuzhan",
+      "scopus_id": "57194859157",
+      "affiliation": "60032653-60104665",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85095978351&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101114",
+    "data_quality_score": 80
+  }
+}

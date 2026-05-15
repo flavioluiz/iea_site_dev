@@ -1,0 +1,30 @@
+{
+  "num_tese": "000541078",
+  "type": "tese",
+  "title": "Otimizaçăo na formaçăo de agrupamentos em problemas de composiçăo de especialistas.",
+  "author": "Rodrigo Arnaldo Scarpel",
+  "year": "2006",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A estimaçăo de funçőes a partir de um conjunto limitado de amostras é um problema central em estatística aplicada. Um grande número de abordagens para tratar esse problema foi proposto como os métodos dos mínimos quadrados por Gauss e de mínimo módulo por Laplace, no século XIX e, mais recentemente, o uso de redes neurais, de support vector machines e de composiçăo de especialistas, dentre outros. Neste trabalho abordou-se os assuntos composiçăo de especialistas locais e otimizaçăo na formaçăo de agrupamentos, que engloba análise exploratória, mineraçăo de dados e modelagem em uma única técnica, útil, por exemplo, na criaçăo de modelos de previsăo. A idéia básica da composiçăo de especialistas locais é particionar o espaço de entrada em diferentes regiőes e em cada regiăo săo feitos testes de desempenho, com diferentes especialistas, denominados especialistas locais, com o intuito de selecionar o especialista mais adequado. Propôs-se, entăo, a otimizaçăo na formaçăo dos agrupamentos, que consiste na integraçăo das etapas de formaçăo de agrupamentos e de designaçăo dos especialistas, como uma forma de melhorar a qualidade dos ajustes dos modelos e das previsőes realizadas. Apresentou-se, posteriormente, dois estudos de caso da abordagem de composiçăo de especialistas e da otimizaçăo na formaçăo dos agrupamentos para a previsăo de receita líquida, das empresas de transporte aéreo e para a previsăo da taxa de inflaçăo anual (IPC) apurada pela FIPE (Fundaçăo Instituto de Pesquisas Econômicas).",
+  "subjects": [
+    "Otimizaçăo",
+    "Análise de aglomerados",
+    "Previsăo",
+    "Análise estatística",
+    "Modelos matemáticos",
+    "Inteligęncia artificial",
+    "Matemática"
+  ],
+  "defense_date": "07/04/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541078",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541078&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "79595",
+  "type": "tese",
+  "title": "Estudo do comportamento da dinâmica de voo de um VANT flexível",
+  "author": "Thiago Rosado de Paula",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O efeito da flexibilidade em aeronaves apresentam ônus e bônus, em especial quando forças aerodinâmicas aumentam devido ŕs deformaçőes por emergirem os efeitos aeroelásticos. A partir da melhor compreensăo da aeroelasticidade, foi possível obter modelos cada vez mais sofisticados ŕ medida que o poder computacional aumentou. No ramo da identificaçăo de sistemas, há diversos trabalhos sobre a identificaçăo de aeronaves rígidas, entretanto, para aeronaves flexíveis, as técnicas estăo ganhando mais confiabilidade nas últimas décadas. Com base nisso, o objetivo deste trabalho é o estudo do comportamento da dinâmica de uma aeronave remotamente pilotada de asa flexível através da modelagem e simulaçăo da dinâmica de voo e a identificaçăo dos parâmetros com dados de voo. Para a modelagem da dinâmica de voo, desenvolveram-se as equaçőes do movimento baseados no princípio de Hamilton. As equaçőes foram reduzidas utilizando as restriçőes impostas pelos eixos médios, de tal forma que foi possível separar as equaçőes do movimento de corpo rígido e flexível. Para os cálculos das cargas aerodinâmicas, utilizou-se do método Vortex-Lattice, o qual foi utilizado de base para gerar matrizes de correçăo durante o processo de identificaçăo. Foi utilizada a aeronave EOLO, do Laboratório de Sistemas Aeronáuticos, para as simulaçőes computacionais e também os ensaios em voo. Para a modelagem, inicialmente, gerou-se o modelo estrutural da aeronave e se realizou a correlaçăo com os dados do Ground Vibration Test através do processo de sensibilidade das variáveis em estudo do modelo estrutural. Foram obtidos resultados satisfatórios para a diferença de frequęncia natural e as formas modais dos primeiros modos de vibraçăo. Utilizando o modelo estrutural e o modelo aerodinâmico, foi possível verificar os modos dinâmicos de voo do EOLO e projetar as manobras para serem executadas em voo. Foram executados alguns voos considerando as manobras projetadas no intuito de adquirir dados para a identificaçăo. Para a identificaçăo, foi realizado, primeiramente, a reconstruçăo dos dados de voo, utilizando o Output-Error Method no domínio do tempo. Além disso, identificou-se o arrasto parasita e os polinômios para corrigir as matrizes do VLM. A parir da validaçăo dos dados, viu-se que, para algumas variáveis, o método proposto conseguiu resultados satisfatórios. Baseado na modelagem e na identificaçăo, notou-se que é benéfico obter matrizes de correçăo durante a identificaçăo para observar o comportamento da aeronave em relaçăo ŕs cargas descritas no espaço, como cargas de rajadas.",
+  "subjects": [
+    "Dinâmica E Aeronaves",
+    "Aeroelasticidade",
+    "Forças aerodinâmicas",
+    "Asas flexíveis",
+    "Ensaios em voo",
+    "Controle de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79595",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79595&origem=BDITA"
+}

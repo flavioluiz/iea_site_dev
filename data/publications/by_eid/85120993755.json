@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85120993755",
+  "eid": "2-s2.0-85120993755",
+  "doi": "10.2514/1.J060294",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Performance comparison between piezoelectrically induced stresses and active control for aeroelastic stability augmentation",
+  "abstract": "© 2021, AIAA International. All rights reserved.Recent works have addressed piezoelectrically induced stresses as a potential technique for aeroelastic stability augmentation of biclamped structures. Because active-control-based techniques are conventionally used for aeroelastic stabilization, this paper presents a comparative study on the effectiveness of piezoelectrically induced stresses and active control for aeroelastic stability augmentation. A finite-element-method-based piezoaeroelastic model is proposed employing two-node, eight-degree-of-freedom smart beam elements and an unsteady, strip-theory-based aerodynamic approach involving vertical gust components. A stability augmentation system was designed for stiffness control and used for comparison in a particular wing configuration. Analyses involving the stability margins, input signal energy, and the response to vertical gust were performed and discussed. The results showed that piezoelectrically induced stresses and active control can provide equivalent flutter speed increase for the two cases of gain margin considered. However, the system can become unstable due to control signal saturation when submitted to high-amplitude gusts, which was not observed when piezoelectrically induced stresses is used. On the other hand, it was observed that the active control required a much smaller amount of energy for stabilization. In general, it was noticed that the piezoelectrically induced stresses technique was not as effective as active control to increase the flight envelope of biclamped structures, because active control can provide equivalent aeroelastic stability improvement with smaller amount of energy. However, it is found to be a promising strategy to be used on emergency devices, where the aeroelastic stability of biclamped structures needs to be guaranteed in critical aerodynamic disturbance conditions.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "59",
+    "issue": "12",
+    "pages": "5049-5065",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Siqueira Versiani, Thiago de Souza",
+      "scopus_id": "57369192800",
+      "affiliation": "60021657-122017267",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bertolin, Rafael Mendes",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Silvestre, Flávio José",
+      "scopus_id": "56368533200",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120993755&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121526",
+    "data_quality_score": 80
+  }
+}

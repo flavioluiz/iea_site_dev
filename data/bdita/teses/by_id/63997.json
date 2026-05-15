@@ -1,0 +1,32 @@
+{
+  "num_tese": "63997",
+  "type": "tese",
+  "title": "Design and analysis of a multivariable robust control system for aircraft gas turbines",
+  "author": "Douglas Felipe Rodrigues da Silva",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Gas turbine engines are important thermal machines used in industrial and transportation fields. They convert fuel energy into mechanical power or thrust for aerial and maritime vehicles, as well as generate pneumatic and electrical energy that could be used for a large variety of applications. The constant search for fuel burn savings and low pollutant emissions in aviation demands, along with new hardware and material technologies, highly complex engine control systems to optimize fuel consumption throughout the engine operating envelope, and consequently generate more efficient aircraft, in addition to meet the regulatory requirements in terms of safety and performance. These conflicting objectives normally lead to trade-off solutions which are difficult to precisely estimate given the large number of variables involved, including altitude, Mach number, ambient temperature, power and bleed extraction, among others. Therefore, some decisions to characterize the engine controller still reside on experience from previous designs and, as a result, add subjectivity and increase the potential for wrong parameter selection. These control systems significantly contribute to gas turbine performance increase. In this sense, this work proposes the study, design and analysis of multivariable robust controllers for a particular gas turbine engine. Firstly, an algorithmic approach is applied to design an aircraft gas turbine engine controller in a two-degree-of-freedom configuration, obtaining H-infinity robust stabilization. It introduces an optimized loop shape design procedure, with the use of the Genetic Algorithm (GA), to further improve the control system performance, as well as bring the experience applied by controller designers and engineers to an automated process, when setting the parameters to shape the frequency response of the engine control loops. Secondly, a Linear Quadratic Gaussian (LQG) controller, with the Loop Transfer Recovery (LTR) is developed to allow a comparative analysis. The resulting controllers are evaluated by computer simulations under typical operating conditions and compared against each other. Noise immunity is also verified. The complete system is also evaluated against requirements from the aviation industry for commercial aircraft engines. Finally, robustness is evaluated in a similar engine model by generating uncertain state space models based on the boundaries of its nominal model at extreme operating conditions.",
+  "subjects": [
+    "Turbinas a gás",
+    "Motores",
+    "Turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "04/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63997",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63997&origem=BDITA"
+}

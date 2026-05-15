@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85126136315",
+  "eid": "2-s2.0-85126136315",
+  "doi": "10.1016/j.ast.2022.107426",
+  "pii": "S1270963822001006",
+  "pubmed_id": null,
+  "title": "A parametric study of squealer tip geometries applied in a hydraulic axial turbine used in a rocket engine turbopump",
+  "abstract": "© 2022 Elsevier Masson SASAxial turbines are machines widely used in different engineering applications. Due to their constructive characteristics, they must have a space between the rotor blades and the turbine casing, called tip clearance. Unfortunately, this gap allows a part of the fluid to leak from the pressure side to the suction side of the rotor blades. This leakage is undesirable and represents an energy loss. A way to avoid part of this loss is through the use of desensitization techniques. Although the use of these techniques is widely known, no studies in the open literature have evaluated these techniques in hydraulic turbines. This work presents a numerical analysis of squealer desensitization techniques applied in a hydraulic axial turbine. The turbomachine under study is the first stage of the hydraulic axial turbine used in the Low Pressure Oxidizer Turbopump (LPOTP) of the Space Shuttle Main Engine (SSME). Numerical simulations were performed using CFX v.19.2 software, and computational meshes were generated in ICEM v.19.2 software. Initially, the computational model was validated, using the experimental results published by the National Aeronautics and Space Administration (NASA). A parametric analysis was performed considering the variation in squealer cavity depth and rim thickness. The study found that the squealer cavity depth has a greater influence on the stage performance than its rim thickness. The tendency is that the greater the cavity depth, the greater the stage efficiency. One of the squealer geometries analyzed allowed an average increased efficiency of 1.43%, over the entire turbine operational range. The results obtained also show that the application of the proposed geometries would enable the reduction in cavitation close to the trailing edge of the rotor blades. This result is extremely valuable, as it can impact the life cycle of the turbine.",
+  "authkeywords": [
+    "CFD",
+    "Desensitization techniques",
+    "Hydraulic axial turbine",
+    "Squealer",
+    "Tip clearance"
+  ],
+  "year": "2022",
+  "date": "2022-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace Science and Technology",
+    "issn": "12709638",
+    "eissn": null,
+    "volume": "122",
+    "issue": null,
+    "pages": null,
+    "article_number": "107426"
+  },
+  "authors": [
+    {
+      "name": "Tonon, Daniel da Silva",
+      "scopus_id": "57221682357",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Garcia, Ezio Castejon",
+      "scopus_id": "57223612043",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Almeida, Luiz Eduardo Nunes",
+      "scopus_id": "55849430800",
+      "affiliation": "121941362",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 19,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 71,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126136315&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051652",
+    "data_quality_score": 100
+  }
+}

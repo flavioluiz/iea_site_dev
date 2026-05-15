@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-84980378660",
+  "eid": "2-s2.0-84980378660",
+  "doi": "10.2514/6.2016-4224",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stability augmentation system for a tethered airship",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper presents the dynamic analysis of an unmanned tethered airship in hovering flight using a stability augmentation system. A comparison between tethered aerostats and airships is made, and the benefits and issues related to a tethered airship are highlighted. Since airships are not designed to be stable as tethered aerostats, a stability augmentation system is implemented in the flight control system. The dynamic equations of motion and the controller for the tethered airship are described. A linearized model is obtained by finite difference approach and the gains are obtained using LQR technique. The details of the flight control system and experimental set up are provided. Outdoor flight testing of the tethered airship was conducted and the stability of natural dynamics and active control response was analyzed in the time domain using flight test data. The results obtained validated the closed-loop system for the range of wind condition tested once the stability augmentation is achieved.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "16th AIAA Aviation Technology Integration and Operations Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1-15",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Jônatas Sant’Anna",
+      "scopus_id": "57674870500",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Stevanović, Stojan",
+      "scopus_id": "56086300200",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kondak, Konstantin",
+      "scopus_id": "6602371383",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Holzapfel, Florian",
+      "scopus_id": "10641256100",
+      "affiliation": "60019722-117092270",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657-117092270",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Pant, Rajkumar S.",
+      "scopus_id": "23091319400",
+      "affiliation": "60014153-60005510",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy (all)",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84980378660&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077369",
+    "data_quality_score": 90
+  }
+}

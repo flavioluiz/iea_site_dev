@@ -1,0 +1,35 @@
+{
+  "num_tese": "62010",
+  "type": "tese",
+  "title": "Segmentaçăo de áreas urbanas em imagens aéreas para uso em navegaçăo",
+  "author": "Mateus Habermann",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Elcio Hideiti Shiguemori",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No que tange ao emprego militar, é recomendável que veículos aéreos năo tripulados efetuem sua navegaçăo de maneira autônoma e independente do GPS, pois os sinais deste podem ser bloqueados ou ser alvo de interferęncia. Dessa forma, uma boa alternativa é pautar a navegaçăo desses veículos em visăo computacional. Este trabalho vai ao encontro com as reais necessidades do projeto PITER, na busca de se segmentar imagens aéreas em porçőes urbanas e năo urbanas, fazendo uso dos algoritmos năo supervisionados Fuzzy C-Médias, Mistura de Gaussianas, Distância Euclidiana e K-Médias, além de ser utilizado o algoritmo de classificaçăo por contexto após a classificaçăo. Por fim, é mostrada qual combinaçăo de algoritmos gera os melhores resultados.",
+  "subjects": [
+    "Imagens",
+    "Processamento de imagens",
+    "Algoritmos",
+    "Aeronave năo-tripulada",
+    "Navegaçăo autônoma",
+    "Reconhecimento de padrőes",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "06/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62010",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62010&origem=BDITA"
+}

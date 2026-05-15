@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85101839037",
+  "eid": "2-s2.0-85101839037",
+  "doi": "10.1016/j.ijthermalsci.2021.106844",
+  "pii": "S1290072921000144",
+  "pubmed_id": null,
+  "title": "Turbulent flow and heat transfer in a partially filled ventilated cavity using the local thermal non-equilibrium method",
+  "abstract": "© 2021 Elsevier Masson SASIn this study, a thermal energy storage system is modeled as an axisymmetric ventilated cavity partially filled with a porous medium that is subject to turbulent flow. Local thermal non-equilibrium is considered to analyze the heat transport and the turbulent k−ε model is used to account for the high inlet flow velocities. Finite volume method is employed for discretization of the equations that are relaxed with the SIMPLE method. The investigation is concerned with the turbulence field, heat fluxes and pressure drop in the system relative to variations in Reynolds number (from 8.3 × 103 to 5 × 104), porosity (ϕ from 0.6 to 0.8) and Da number (from 4x10−5 to 4x10−7). Results indicate that porosity effects slight changes in the turbulence field while the temperatures increase significantly faster for higher porosity cases. Turbulence in higher porosity cases was lower, accompanying the increase in thermal efficiencies. Variations in Da number with fixed porosity showed that, for lower Da number, recirculation in the clear region increased while for higher Da number porous region turbulence increased. Also, higher Da decreased heat exchange between fluid and solid phases. Finally, an increase in thermal efficiency for lower Da number flows was followed by increased average turbulent kinetic energy and relative pressure drop.",
+  "authkeywords": [
+    "Heat transfer",
+    "Hybrid media",
+    "Thermal energy storage",
+    "Turbulent flow"
+  ],
+  "year": "2021",
+  "date": "2021-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermal Sciences",
+    "issn": "12900729",
+    "eissn": null,
+    "volume": "164",
+    "issue": null,
+    "pages": null,
+    "article_number": "106844"
+  },
+  "authors": [
+    {
+      "name": "Rodrigues, Fernando A.",
+      "scopus_id": "57214067762",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 47,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101839037&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110364",
+    "data_quality_score": 100
+  }
+}

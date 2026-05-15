@@ -1,0 +1,28 @@
+{
+  "num_tese": "75624",
+  "type": "tese",
+  "title": "Amplitude scaling of wavepackets in turbulent jet and installed jet noise",
+  "author": "Luigi Albieri Antonialli",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Large-scale coherent wavepacket structures have been well observed and studied in turbulent flows. For the turbulent subsonic jet flow case, the wavepacket structure in the hydrodynamic field has been related to the peak noise radiation. The wavepacket models are usually derived from a linearization of the Navier-Stokes equations, and by solving them using an appropriate Ansatz, a free amplitude appears. This amplitude is traditionally retrieved separately for each Strouhal number St by comparison with experimentsor simulations. In this thesis a comparison between the large eddy simulation (LES) from (BRES et al., 2018) and the fluctuation fields retrieved from the parabolized stabilityequations (PSE) is done to obtain the amplitudes of the wavepackets and its behaviour. This amplitude was found by minimizing the difference between the leading mode from the spectral proper orthogonal decomposition (SPOD) of the LES data and the PSE wavepacket model in different regions of the flow. Finding the minimization relation for each St, it is possible to obtain the behavior of the wavepacket amplitude. This was done for two different flows with Mach numbers 0.4 and 0.9, and azimuthal wavenumbers m= 0, 1 and 2 for each case. The resulting amplitude expression was multiplied by the original PSE results to compare simulation and experimental spectra. Wavepacket amplitude is seen to be an exponential function of Strouhal number. This knowledge isused to obtain spectra of flow fluctuations in the jet using PSE with good accuracy. Jets installed under wings can lead to a significantly boost in far-field noise radiation, becoming an important aspect of aircraft design. To obtain this raise of sound pressurelevel, a kinematic wavepacket model was defined to be applied in Lighthill's acousticanalogy. However, some properties need to be defined to describe correctly the wavepacket, like amplitude, position, wavenumber and envelope length. Therefore, the LES data was also used to retrieve the position, wavenumber and length of a kinematic wavepacket model. With this characteristics defined, a more physically realistic and efficient prediction of radiated sound was obtained for the installed jet case, for a range of St, which is useful for general aircraft design.",
+  "subjects": [
+    "Jatos turbulentos",
+    "Aeroacústica",
+    "Pacote de ondas",
+    "Ruído aerodinâmico",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/03/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75624",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75624&origem=BDITA"
+}

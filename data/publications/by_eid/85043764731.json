@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85043764731",
+  "eid": "2-s2.0-85043764731",
+  "doi": "10.1590/1679-78253932",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Adaptation of the Lanczos algorithm for the solution of buckling eigenvalue problems",
+  "abstract": "© 2018, Brazilian Association of Computational Mechanics. All rights reserved.An adaptation of the conventional Lanczos algorithm is proposed to solve the general symmetric eigenvalue problem Kϕ = λKGϕ in the case when the geometric stiffness matrix KG is not necessarily positive-definite. The only requirement for the new algorithm to work is that matrix K must be positive-definite. Firstly, the algorithm is presented for the standard situation where no shifting is assumed. Secondly, the algorithm is extended to include shifting since this procedure may be important for enhanced precision or acceleration of convergence rates. Neither version of the algorithm requires matrix inversion, but more resources in terms of memory allocation are needed by the version with shifting.",
+  "authkeywords": [
+    "General eigenproblem",
+    "Lanczos algorithm",
+    "Shear buckling"
+  ],
+  "year": "2018",
+  "date": "2018-02-28",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Latin American Journal of Solids and Structures",
+    "issn": "16797817",
+    "eissn": "16797825",
+    "volume": "15",
+    "issue": "1",
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85043764731&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044461",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "num_tg": "69612",
+  "type": "tg",
+  "title": "Desenvolvimento de ferramenta para análise de problemas térmicos utilizando o método de parâmetros concentrados",
+  "author": "Carlos Rafaello de Oliveira Silva",
+  "year": "2015",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Humberto Araujo Machado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta o desenvolvimento de uma ferramenta computacional que faz uso do Método de Parâmetros Concentrados para realizar uma análise preliminar da resposta transiente de sistemas térmicos. A proposta é, por meio desta ferramenta, reduzir os custos computacionais empregados na resoluçăo de problemas térmicos (como no caso da abordagem de parâmetros distribuídos), bem como minimizar o número de análises complexas subsequentes. Para validaçăo e aplicaçăo da ferramenta, foram resolvidos dois problemas de engenharia, sendo o primeiro focado na prediçăo do tempo necessário para a que a junta de um termopar atinja um grau abaixo de sua temperatura de estagnaçăo e na análise de sensibilidade do coeficiente de convecçăo da junta. Os resultados da curva de temperatura em funçăo do tempo para tręs valores do coeficiente de convecçăo mostraram concordância com a soluçăo numérica clássica. Já o segundo exemplo, descreve um sistema de componentes eletrônicos embarcados em um veículo espacial, no qual foi analisada a evoluçăo temporal da temperatura de cada componente, com intuito de verificar a adequaçăo aos limites de operaçăo térmicos. Obtiveram-se como resultados as curvas de temperatura em funçăo do tempo para cada componente, sendo estas comparadas com os dados de telemetria fornecidos. Por fim, destacou-se a praticidade e precisăo do programa desenvolvido, apresentando-se sugestőes para a realizaçăo de trabalhos futuros.",
+  "subjects": [
+    "Análise térmica",
+    "Transferęncia de calor",
+    "Coeficientes de transferęncia de calor",
+    "Sistemas embarcados",
+    "Termodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=69612",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=69612&origem=BDITA"
+}

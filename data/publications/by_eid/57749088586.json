@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-57749088586",
+  "eid": "2-s2.0-57749088586",
+  "doi": "10.1016/j.ijheatmasstransfer.2008.07.044",
+  "pii": "S0017931008004766",
+  "pubmed_id": null,
+  "title": "Simulation of turbulent impinging jet into a cylindrical chamber with and without a porous layer at the bottom",
+  "abstract": "Turbulent impinging jets on heated surfaces are widely used in industry to modify local heat transfer coefficients. The addition of a porous substrate covering the surface contributes to a better flow distribution, which favors many engineering applications. Motivated by this, this work shows numerical results for a turbulent impinging jet into a cylindrical enclosure with and without a porous layer at the bottom. The macroscopic time-averaged equations for mass and momentum are obtained based on a concept called double decomposition, which considers spatial deviations and temporal fluctuations of flow properties. Turbulence is handled with a macroscopic k-ε model, which uses the same set of equations for both the fluid layer and the porous matrix. The numerical technique employed is the control volume method in conjunction with a boundary-fitted coordinate system. One unique computational grid is used to compute the entire heterogeneous medium. The SIMPLE algorithm is applied to relax the system of algebraic equations. Results indicate that the permeability of the porous layer and the height of the fluid layer significantly affect the flow pattern. The effect of the porous layer thickness was less pronounced in affecting the flow behavior in the fluid layer. © 2008 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Impinging jet",
+    "Modeling",
+    "Numerical methods",
+    "Porous media",
+    "Turbulent flow"
+  ],
+  "year": "2009",
+  "date": "2009-01-31",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "52",
+    "issue": "3-4",
+    "pages": "680-693",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Graminho, Daniel R.",
+      "scopus_id": "13006619900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 23,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 52,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=57749088586&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111116",
+    "data_quality_score": 100
+  }
+}

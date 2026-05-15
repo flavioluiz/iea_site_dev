@@ -1,0 +1,32 @@
+{
+  "num_tg": "78751",
+  "type": "tg",
+  "title": "Modelagem de mangueira flexível para simulaçăo de reabastecimento em voo",
+  "author": "Égon de Castro Couto",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Márcio Pereira Figueira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem como propósito desenvolver uma modelagem matemática para representar um sistema de reabastecimento em voo composto por uma mangueira flexível com um paraquedas em sua extremidade. Durante o desenvolvimento do trabalho optou-se pela utilizaçăo de um método de elementos concentrados para a modelagem do problema, e a partir dessa abordagem foram definidos modelos para as cargas dinâmicas as quais o nosso sistema está sujeito. Optou-se por uma abordagem na qual parâmetros dessas cargas do modelo săo obtidos via ajuste de curvas, foi utilizado um processo de otimizaçăo no qual se compara as posiçőes da mangueira do modelo com as posiçőes de dados históricos dessa mangueira, o objetivo da otimizaçăo é minimizar o erro quadrático entre os valores do modelo e os dados históricos. Com os valores dos parâmetros já definidos, foram feitas simulaçőes para a verificaçăo do comportamento do modelo em diferentes condiçőes, foi observado que o ajuste de parâmetros foi capaz de representar outras condiçőes de operaçăo as quais também se tinha dados históricos e que portanto foi possível realizar a comparaçăo. Os demais resultados obtidos das simulaçőes permitem por enquanto apenas uma análise qualitativa, feita essa análise, vemos que os resultados obtidos através da simulaçăo apresentam comportamentos qualitativamente condizentes.",
+  "subjects": [
+    "Reabastecimento em voo",
+    "Mangueiras",
+    "Operaçőes de voo",
+    "Simulaçăo numérica direta",
+    "Otimizaçăo",
+    "Sistemas de combustíveis",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78751",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78751&origem=BDITA"
+}

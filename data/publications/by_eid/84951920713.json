@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-84951920713",
+  "eid": "2-s2.0-84951920713",
+  "doi": "10.1007/978-3-319-19800-2_34",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modified equation analysis for the discontinuous galerkin formulation",
+  "abstract": "© Springer International Publishing Switzerland 2015.In this paper we present an assessment of the discontinuous Galerkin (DG) formulation through modified equation analysis (MEA). When applied to linear advection, MEA can help to clarify wave-propagation properties previously observed in DG. In particular, a connection between MEA and dispersion-diffusion (eigensolution) analysis is highlighted. To the authors’ knowledge this is the first application of MEA to DG schemes, and as such this study focuses only on element-wise constant and linear discretizations in one dimension. For the linear discretization, we found that the physical mode’s accuracy can be increased via upwinding. MEA’s application to higher order solutions and non-linear problems is also briefly discussed. In special, we point out that MEA’s applicability in the analysis of DG-based implicit large eddy simulations seems infeasible due to convergence issues.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Computational Science and Engineering",
+    "issn": "14397358",
+    "eissn": null,
+    "volume": "106",
+    "issue": null,
+    "pages": "375-383",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Moura, Rodrigo Costa",
+      "scopus_id": "56660427200",
+      "affiliation": "60015150",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Sherwin, Spencer",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peiró, Joaquim",
+      "scopus_id": "7005874042",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Discrete Mathematics and Combinatorics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 7,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84951920713&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069718",
+    "data_quality_score": 90
+  }
+}

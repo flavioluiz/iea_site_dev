@@ -1,0 +1,30 @@
+{
+  "num_tese": "71852",
+  "type": "tese",
+  "title": "Homotopy analysis of strongly nonlinear beam models",
+  "author": "Shahram Shahlaei-Far",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This thesis is concerned with the analytical investigations of free and forced nonlinear beam models with different boundary conditions, design parameters and nonlinearity constraints. The application of the homotopy analysis method (HAM) as a nonperturbative analytical technique for solving strongly nonlinear differential equations is a central topic and all studies include comparison to computational results or those from other theoretical approaches. Two cases will be considered expanding the scope of HAM for investigating mechanical structures with geometric nonlinearities, namely free higher-order nonlinear vibratory systems and harmonically forced nonlinear vibration models. The technical complexities in terms of nonlinear and damping coefficients as well as external excitations involved with these problems pose a greater challenge with respect to finding accurate analytical solutions. The first part of the thesis deals with high-order large-amplitude free vibrations of Timoshenko beams with clamped-free and clamped-clamped boundary conditions. Applying HAM to the spatially discretized governing equation by the Galerkin method, novel analytical solutions for the nonlinear natural frequency and displacement are presented for an investigation of the effects of rotary inertia, shear deformation, pretensile loads and slenderness ratios on the beam. As the obtained results are in close agreement with those from the literature, the analysis demonstrates that a first-order approximation of HAM offers a suitable methodology for solving high-order strongly nonlinear problems. The second part focuses on the development of a homotopy analysis approach for solving the important case of harmonically forced vibrations of a damped beam model. To this end, closed-form solutions of a simply supported Euler Bernoulli beam resting on a nonlinear elastic foundation with distributed quadratic and cubic nonlinearities are presented by means of a novel application of HAM to an externally excited vibratory system in order to investigate dynamic nonlinear responses. Frequency response functions of the primary resonance and subharmonic resonance of order one-half demonstrate jump phenomena which are achieved in a very straightforward and elegant manner by HAM but would be very difficult to obtain numerically. Moreover, to contrast the impact of the nonlinearity coefficients, the nonlinear time responses and phase planes are compared to results from linear beam theory. The final part uses HAM for the first time for the problem of piezoelectric energy harvesting considering a vertical geometrically nonlinear cantilever beam with a tip mass and subject to horizontal harmonic base excitations. One piezoelectric patch is placed on the slender beam to convert the tension and compression into electrical voltage. Applying the homotopy analysis method to the coupled electromechanical governing equations, we derive analytical solutions for the horizontal displacement of the tip mass and consequently the output voltage from the piezoelectric patch. Analytical approximation for the frequency response and phase of the geometrically forced nonlinear vibration system are also obtained. The research aims at a rigorous analytical perspective on a nonlinear problem which has previously been investigated by numerical and experimental methods.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Teoria de homotopia",
+    "Vibraçăo estrutural",
+    "Năo-linearidade",
+    "Materiais piezoelétricos",
+    "Modelos matemáticos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "28/06/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71852",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71852&origem=BDITA"
+}

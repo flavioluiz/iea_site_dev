@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-85200216221",
+  "eid": "2-s2.0-85200216221",
+  "doi": "10.1017/jfm.2024.797",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Guided-jet waves",
+  "abstract": "© The Author(s), 2024.Guided-jet waves have been shown to close resonance loops in a myriad of problems such as screech and impingement tones in jets. These discrete, upstream-travelling waves have long been identified in linear-stability models of jet flows, but in this work they are instead considered in the context of an acoustic-scattering problem. It is shown that the guided-jet mode results from total internal reflection and transmission of acoustic waves, arising from the shear layer behaving like a duct with some given wall impedance. After total reflection, only discrete streamwise wavenumbers may be supported by the flow, with these wavenumbers dictated by the fact that the standing wave formed inside of the jet must fit between the two shear layers. Close to the sonic line, the transmission of this mode to the outside is maximum, leading to a net-energy flux directed upstream, which dictates the direction of propagation of this mode, providing a clear connection to the better understood soft-duct mode (Towne et al., J. Fluid Mech., vol. 825, 2017, pp. 1113-1152). The model also indicates that these waves are generated in the core of the flow and can only be efficiently transmitted to the quiescent region under certain conditions, providing an explanation as to why screech is only observed at conditions where the discrete mode is supported by the flow. The present results explain, for the first time, the nature and characteristics of the guided-jet waves.",
+  "authkeywords": [
+    "aeroacoustics",
+    "jet noise"
+  ],
+  "year": "2024",
+  "date": "2024-11-14",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "999",
+    "issue": null,
+    "pages": null,
+    "article_number": "A47"
+  },
+  "authors": [
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60155336",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Edgington-Mitchell, Daniel",
+      "scopus_id": "57882108200",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 85,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200216221&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100193",
+    "data_quality_score": 100
+  }
+}

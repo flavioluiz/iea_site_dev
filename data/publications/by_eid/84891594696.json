@@ -1,0 +1,95 @@
+{
+  "publication_id": "2-s2.0-84891594696",
+  "eid": "2-s2.0-84891594696",
+  "doi": "10.4271/2013-36-0460",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Impact modal analysis of UAV vector-P's wing using LabVIEW",
+  "abstract": "This paper proposes the study of the first bending mode of the wing's UAV Vector-P using impact methodology. The data acquisition and signal processing was implemented using LabView. The analysis provides frequency response, but needs an algorithm which was made in MATLAB®. This algorithm, called Model Identification, also provide eigenvalues and eigenvectors. MEMS accelerometers were used for input measurement and an impact hammer for output. In this work, the accelerometers were calibrated based on ISO 16063-21 as reference. After this, one notch filter equation is provided for the bending mode frequency using MATLAB®. It was used the DIAMOND software that owns the capability of the modal identification, allowing directly explore the effects of test conditions on the identified modal parameters. © 2013 SAE INTERNATIONAL.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": "01487191",
+    "eissn": "26883627",
+    "volume": "13",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Pedreira, Shirley Mota",
+      "scopus_id": "55920887800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zuñiga, David Fernando Castillo",
+      "scopus_id": "57188145100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lima, Jany Freire",
+      "scopus_id": "55984519200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Alencar, Waldo Acioli Falcão",
+      "scopus_id": "55984956800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martins, Cristiane Aparecida",
+      "scopus_id": "8931969000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cristiane-aparecida-martins"
+    }
+  ],
+  "eam_coauthors": [
+    "cristiane-aparecida-martins"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84891594696&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.046267",
+    "data_quality_score": 90
+  }
+}

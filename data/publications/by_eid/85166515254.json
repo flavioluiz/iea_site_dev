@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85166515254",
+  "eid": "2-s2.0-85166515254",
+  "doi": "10.3390/eng4010023",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental and Numerical Analysis of a Low-Cost Solar Still",
+  "abstract": "© 2023 by the authors.The ability to treat saltwater to make it suitable for human consumption has long been sought by mankind. More than three-quarters of the earth’s surface is covered with saltwater. Although this water is important for some forms of transportation and fishing, it contains too much salt to sustain human life or agricultural activities. The current work consists of building a low-cost solar still and numerically modeling this device to predict the performance of the solar still without using any experimental measurements. The simulated results were compared with the best experimental values obtained from the water-covering temperatures and desalinated water yield under Brazilian climatic conditions (coordinates: 23°26′31.344″ S and 46°27′27.468″ W). The simulation results were in acceptable agreement with the experimental data. The main results obtained indicate that the solar still has greater efficiency when the volume of water is smaller inside the equipment owing to the lower height of the water and when the global radiation has greater intensity. In addition, numerical modeling allows the analysis of the behavior of the volume fraction over time for water and vapor and indicates better performance in water production after 30 min.",
+  "authkeywords": [
+    "CFD simulation",
+    "low-cost solar stills",
+    "renewable energy",
+    "solar desalination"
+  ],
+  "year": "2023",
+  "date": "2023-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Eng",
+    "issn": null,
+    "eissn": "26734117",
+    "volume": "4",
+    "issue": "1",
+    "pages": "380-403",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva Junior, Luis Gonçalves",
+      "scopus_id": "58520753500",
+      "affiliation": "60006028-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, João Pedro Jenson",
+      "scopus_id": "57214183996",
+      "affiliation": "60006028-60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme Borges",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    },
+    {
+      "name": "Ferreira Pinto, Leandro",
+      "scopus_id": "55855770800",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Chemical Engineering (miscellaneous)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Engineering (miscellaneous)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 47,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85166515254&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053054",
+    "data_quality_score": 100
+  }
+}

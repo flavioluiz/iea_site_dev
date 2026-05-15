@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85060434030",
+  "eid": "2-s2.0-85060434030",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Acoustic modes and global instabilities in wakes and jets",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.Unstable flows can be classified as absolutely unstable, when perturbations grow throughout the domain, and convectively unstable, where amplified perturbations are convected downstream, the flow locally returning to its equilibrium position. Absolute instabilities can be understood as a feedback loop, which can be long-ranged, as in impinging jets, or local, as in wakes and hot jets. Local feed-back mechanism involves an upstream- and a downstream-traveling mode. It is well know in the literature that in sheared flows the latter is typically a Kelvin-Helmholtz mode; however little is found on the former. Inspired by recent findings in high Mach subsonic jets, that identified trapped acoustic waves in the jet core, we examine the role of such acoustic modes on the stability of jets and wakes. Using a Double Vortex-Sheet (DVS) model, we derive conditions for which these flows behave as wave-guides, emulating acoustic ducts. We show that the upstream-traveling mode that leads to absolute instability is acoustic in essence, explaining differences in hot jets (symmetric) and cold wakes (antisymmetric) instabilities. Moreover, to evaluate the occurrence of such acoustic modes in turbulent flows, two-point correlations for a 0.4 Mach jet LES are constructed, highlighting that upstream influence in the flow is due to an acoustic mode. This novel way to understand jet and wake instabilities can lead to novel control methods which can be used, for instance, to reduce aircraft noise and drag, and minimize cyclic loads in civil and maritime structures, and might be expanded as to explain other jet/wake behaviors, as instability trends with compressibility and with instability modes other then than Kelvin-Helmoltz.",
+  "authkeywords": [
+    "Aeroacoustics",
+    "Flow instability",
+    "Jet noise"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060434030&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101372",
+    "data_quality_score": 70
+  }
+}

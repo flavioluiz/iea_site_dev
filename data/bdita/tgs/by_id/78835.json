@@ -1,0 +1,25 @@
+{
+  "num_tg": "78835",
+  "type": "tg",
+  "title": "Pré-dimensionamento de um motor foguete a propelente sólido em python",
+  "author": "Matheus Bernini Romanha",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho visa a definiçăo de diversos parâmetros utilizados no dimensionamento prévio de um foguete a partir de alguns inputs a serem definidos pelo usuário. Para isso, um script em Python foi desenvolvido de modo a realizar a integraçăo com o software Chemical Equilibrium Application a fim de obter informaçőes relevantes a cerca da combustăo, bem como realizar um processo iterativo a fim de encontrar valores condizentes com aqueles já encontrados no setor aeroespacial. O algoritmo desenvolvido utiliza-se de um método de otimizaçăo por mínimos locais, a fim de encontrar um incremento de velocidade compatível com o desejado pelo usuário para determinado valor de carga útil. Além disso, o algoritmo sofre um processo de iteraçăo até que o tempo de queima utilizado também seja compatível com os demais parâmetros da simulaçăo. Como resultado, săo fornecidas as curvas de pressăo na câmara de combustăo, empuxo e aceleraçăo (todas em funçăo do tempo). Além disso, săo fornecidos o incremento de velocidade, tempo de queima, dimensőes principais (como comprimento e diâmetro), informaçőes sobre o grăo propelente e demais parâmetros de relevância nos projetos aeroespaciais.",
+  "subjects": [
+    "Motores foguetes",
+    "Propelentes sólidos",
+    "Propulsăo de foguetes",
+    "Simulaçăo computadorizada",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78835",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78835&origem=BDITA"
+}

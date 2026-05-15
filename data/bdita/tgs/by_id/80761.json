@@ -1,0 +1,26 @@
+{
+  "num_tg": "80761",
+  "type": "tg",
+  "title": "Utilizaçăo de integradores numéricos universais em problemas dinâmicos de engenharia aeroespacial",
+  "author": "Felipe Braga Alves",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Paulo Marcelo Tasinaffo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho explora a aplicaﻝﻙo de Integradores Numﻠricos Universais (UNIs) em problemas dinﻗmicos na engenharia aeroespacial, motivado pela complexidade crescente e pelas limitaﻝﺀes dos mﻠtodos tradicionais. Os UNIs, que combinam Inteligﻡncia Artificial, como redes neurais artificiais, com mﻠtodos clﻕssicos de integraﻝﻙo numﻠrica, sﻙo apresentados como ferramentas adaptativas eficazes para sistemas complexos, mesmo na ausﻡncia de modelos analﻥticos explﻥcitos ou com dados ruidosos. A fundamentaﻝﻙo teﮩrica dos UNIs reside na propriedade de aproximaﻝﻙo universal das redes neurais, como as arquiteturas Multilayer Perceptron (MLP). O documento detalha as estruturas das Redes Neurais Artificiais (RNAs), incluindo camadas e funﻝﺀes de ativaﻝﻙo, e discute tres metodologias de UNIs: NARMAX, que modela sistemas nﻙo lineares e atua como um integrador embutido; E-TUNI, uma modificacﺕao do integrador de Euler que utiliza derivadas mﻠdias em vez de instantaneas, facilitando a extraﻝﻙo de dados empﻥricos; e RKNN (Runge-Kutta Neural Network), que permite a variaﻝﻙo do passo de integraﻝﻙo e infere funﻝﺀes de derivadas instantﻗneas, essencial para sistemas \"caixa-preta\". A pesquisa destaca o potencial dos UNIs para aprimorar a simulaﻝﻙo de sistemas dinﻗmicos aeroespaciais e aplicaﻝﺀes com dados reais.",
+  "subjects": [
+    "Redes neurais",
+    "Integraﻝﻙo numﻠrica",
+    "Sistemas dinﻗmicos",
+    "Inteligﻡncia artificial",
+    "Engenharia aeroespacial",
+    "Computaﻝﻙo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80761",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80761&origem=BDITA"
+}

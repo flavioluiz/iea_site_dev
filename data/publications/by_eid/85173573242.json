@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85173573242",
+  "eid": "2-s2.0-85173573242",
+  "doi": "10.1016/j.icheatmasstransfer.2023.107071",
+  "pii": "S0735193323004608",
+  "pubmed_id": null,
+  "title": "Estimation of thermal input in thermite reaction for innovative wellbore plugging & abandonment techniques",
+  "abstract": "© 2023In this work, a methodology is presented to simulate heat transfer in wellbores for plugging & abandonment operations, where the thermal input is provided by a thermite reaction. The operation of burning a thermite column inside the well's production tubing to form a metal plug is studied. The objective is to eliminate the need to simulate the thermite domain and chemical reaction during the process, simplifying the physical model and reducing computational cost. In this model, it is assumed that the thermal input from the thermite reaction is provided to the model through multiple heat flux boundary conditions along the inner wall of the production tubing. The unknown heat flux from the thermite to the inner wall of the tube is estimated by solving an inverse heat conduction problem (IHCP). The Adaptive Function Specification Method is used to estimate multiple heat flux functions at the boundary through information from multiple temperature sensors located on the outer surface along the tube's height. A characteristic behavior of the heat flux curve was verified in all segments of the tube, and the average heat flux curve was used to simulate heat transfer during a 15 m thermite burning process inside a well.",
+  "authkeywords": [
+    "Adaptive SFSM",
+    "Heat flux estimation",
+    "Inverse heat conduction problem",
+    "Plugging & abandonment",
+    "Thermite reaction"
+  ],
+  "year": "2023",
+  "date": "2023-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "148",
+    "issue": null,
+    "pages": null,
+    "article_number": "107071"
+  },
+  "authors": [
+    {
+      "name": "Dourado da Silva, Rodrigo G.",
+      "scopus_id": "57220927003",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan S.",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Pires, Luis Carlos M.",
+      "scopus_id": "58477404400",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85173573242&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091054",
+    "data_quality_score": 100
+  }
+}

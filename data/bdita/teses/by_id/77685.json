@@ -1,0 +1,28 @@
+{
+  "num_tese": "77685",
+  "type": "tese",
+  "title": "System identification of rotorcraft based platform in hovered flight",
+  "author": "Igor do Nascimento Drago",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Rotary-wing aircraft are very versatile, they can take off and land vertically, hover and fly forward, backward and laterally, can be deployed in congested or isolated areas where the fixed-wing cannot. Because of these impressive characteristics, the use of rotary-wing aircraft as an unmanned aerial platform has grown significantly in recent years. Such applications demand that the aircraft be able to carry out mission planning automatically or with minimal operator intervention. Hence, the interfaces with the rotorcraft controls are replaced by an electronic flight control system. The design of such control system starts from the plant model knowledge. Rotorcrafts are highly non-linear, coupled, unstable and presents fast dynamics. Because of the high complexity of the helicopter flight dynamics, obtaining a complete model by the first principle involving all flight dynamics phenomena can be a very difficult task, even so it results in uncertainties. In addition there is a very large number of different types of rotorcrafts, different categories and configurations, available on the market that can be transformed into unmanned aerial platforms, increasing the number of different dynamic models and the effort to obtain them. To overcome these issues, this research addresses the System Identification technique in order to obtain the dynamic model of any rotorcraft based on flight test data. Therefore, to evaluate the technique, a single main rotor helicopter was assembled and equipped with a customized avionics system. Flight tests were conducted in the hovered flight. The data recorded on-board enabled the system identification process. For the purpose of comparison, this research used three different systems identification methods, Output Error Method (OEM), Filter Error Method (FEM) and Extended Kalman Filter (EKF), covering two different approaches. The application of all methods resulted in an adequate curve fitting and convergence of estimated parameter values. The stability and control derivatives for the lateral, longitudinal, directional and heave control responses were obtained. The results of the System Identification techniques applied in the test-bed aerial platform, enables the development of the Guidance, Navigation and Control system that is the heart of an unmanned aerial system. The avionic system designed for the research is easily portable to other aerial platforms. Future work related to this research involves continuity in the development of aerial systems towards autonomous systems.",
+  "subjects": [
+    "Helicópteros",
+    "Identificaçăo de sistemas",
+    "Aeronave năo-tripulada",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77685",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77685&origem=BDITA"
+}

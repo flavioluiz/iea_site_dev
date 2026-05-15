@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-84879933697",
+  "eid": "2-s2.0-84879933697",
+  "doi": "10.1590/S1679-78252014000200005",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A new metamodel for reinforced panels under compressive loads and its application to the fuselage conception",
+  "abstract": "This work presents a new metamodel for reinforced panels under compressive loads, typically used in light-weight aircraft structures. The metamodel represents a replicable cell structure of integrally machined panels. The presented formulation for conception is based on the synthesis of four stability criteria: section crippling, web buckling, flange buckling and column collapse. The aluminum alloy, a typical choice in modern aircraft industry, is selected and the structure is expected to work in the linear elastic domain. In order to evaluate the accuracy and to validate the analytical tool, the procedure is applied in the pre-sizing of the fuselage basic structural components of a 9-passenger executive aircraft. The pull-up maneuver, one of the critical load conditions in most of aircrafts, causes the maximum compressive stresses in lower fuselage panels. Finite element models are presented to the resulting fuselage configuration. The optimal configuration achieved through the application of the analytical tool yields to an innovative structure from those usually adopted in the aeronautical industry. This structural configuration is presented and discussed. The developed metamodel proved to be effective, presenting satisfactory results with adequate accuracy for the initial stages of light-weight aircraft structure.",
+  "authkeywords": [
+    "Reinforced panels",
+    "Structural optimization",
+    "Structural stability"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Latin American Journal of Solids and Structures",
+    "issn": "16797817",
+    "eissn": "16797825",
+    "volume": "11",
+    "issue": "2",
+    "pages": "223-244",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Neto, Alessandro Teixeira",
+      "scopus_id": "55787967800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bussamra, Flávio Luiz de Silva",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "e Silva, Henrique Araújo de Castro",
+      "scopus_id": "55787784900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84879933697&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047427",
+    "data_quality_score": 100
+  }
+}

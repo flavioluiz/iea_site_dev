@@ -1,0 +1,34 @@
+{
+  "num_tese": "71558",
+  "type": "tese",
+  "title": "A method for mesh generation optimization using surrogate models applied to D-bay anti-icing systems",
+  "author": "Marcelo Pustelnik",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The Aerospace industry has been relying, for most of its history, on anti-ice protection systems based on hot air bleed from the engines. The hot air bleed has been the better solution in terms of installation, robustness, reliability and weight. A proper anti-icing system design demands a computation of Heat Transfer Coefficient (HTC). Several Heat Transfer Coefficient empirical correlations have been used along the years. The exactly geometry (the D-bay) has not had an empirical correlation and therefore numerical tool like Computational Fluid Dynamics (CFD) has been used for the computation of the HTC. Mesh generation have been a concern in CFD to produce high qualities results. Hexahedral meshes avoid this kind of problem but hexahedral mesh generation demands a lot of work done by the user. One possible strategy to get the accuracy of the hexahedral mesh is to build a hybrid tetrahedral mesh. To generate the hybrid tetrahedral mesh is necessary adjust the mesh parameters (like element size and number of prism layers) to find an equivalent hexahedral mesh. Surrogate model, Response Surface Model (RSM) or metamodels can be used to reduce computing time through interpolation of data, for parametric analysis in the model and mainly for optimization purposes. A optimal hybrid tetrahedral mesh was generated through the metamodelling techniques. The mesh parameters set for generate the optimal hybrid tetrahedral mesh was verified in others D-bay geometric configurations to confirm the methodology adopted. Also, there was a comparison between the optimal hybrid tetrahedral mesh and experimental data from the literature. The main objective of this work, that was to generate a hybrid tetrahedral mesh, in order to produce equivalent hexahedral accurate heat transfer coefficients was achieved.",
+  "subjects": [
+    "Sistema anti-gelo",
+    "Otimizaçăo",
+    "Transferęncia de calor",
+    "Dinâmica dos fluidos computacional",
+    "Indústria aeroespacial",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/05/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71558",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71558&origem=BDITA"
+}

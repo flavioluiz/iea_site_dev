@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-85014756204",
+  "eid": "2-s2.0-85014756204",
+  "doi": "10.1108/AEAT-05-2014-0069",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Artificial neural networks to predict aerodynamic coefficients of transport airplanes",
+  "abstract": "© 2017 Emerald Publishing Limited.Purpose - Multidisciplinary design frameworks elaborated for aeronautical applications require considerable computational power that grows enormously with the utilization of higher fidelity tools to model aeronautical disciplines like aerodynamics, loads, flight dynamics, performance, structural analysis and others. Surrogate models are a good alternative to address properly and elegantly this issue. With regard to this issue, the purpose of this paper is the design and application of an artificial neural network to predict aerodynamic coefficients of transport airplanes. The neural network must be fed with calculations from computational fluid dynamic codes. The artificial neural network system that was then developed can predict lift and drag coefficients for wing-fuselage configurations with high accuracy. The input parameters for the neural network are the wing planform, airfoil geometry and flight condition. An aerodynamic database consisting of approximately 100,000 cases calculated with a full-potential code with computation of viscous effects was used for the neural network training, which is carried out with the back-propagation algorithm, the scaled gradient algorithm and the Nguyen-Wridow weight initialization. Networks with different numbers of neurons were evaluated to minimize the regression error. The neural network featuring the lowest regression error is able to reduce the computation time of the aerodynamic coefficients 4,000 times when compared with the computing time required by the full potential code. Regarding the drag coefficient, the average error of the neural network is of five drag counts only. The computation of the gradients of the neural network outputs in a scalable manner is possible by an adaptation of back-propagation algorithm. This enabled its use in an adjoint method, elaborated by the authors and used for an airplane optimization task. The results from that optimization were compared with similar tasks performed by calling the full potential code in another optimization application. The resulting geometry obtained with the aerodynamic coefficient predicted by the neural network is practically the same of that designed directly by the call of the full potential code. Design/methodology/approach - The aerodynamic database required for the neural network training was generated with a full-potential multiblock-structured code. The training process used the back-propagation algorithm, the scaled-conjugate gradient algorithm and the Nguyen-Wridow weight initialization. Networks with different numbers of neurons were evaluated to minimize the regression error. Findings - A suitable and efficient methodology to model aerodynamic coefficients based on artificial neural networks was obtained. This work also suggests appropriate sizes of artificial neural networks for this specific application. We demonstrated that these metamodels for airplane optimization tasks can be used without loss of fidelity and with great accuracy, as their local minima might be relatively close to the minima of the original design space defined by the call of computational fluid dynamics codes. Research limitations/implications - The present work demonstrated the ability of a metamodel with artificial neural networks to capture the physics of transonic and subsonic flow over a wing-fuselage combination. The formulation that was used was the full potential equation. However, the present methodology can be extended to model more complex formulations such as the Euler and Navier-Stokes ones. Practical implications - Optimum networks reduced the computation time for aerodynamic coefficient calculations by 4,000 times when compared with the full-potential code. The average absolute errors obtained were of 0.004 and 0.0005 for lift and drag coefficient prediction, respectively. Airplane configurations can be evaluated more quickly. Social implications - If multidisciplinary optimization tasks for airplane design become more efficient, this means that more efficient airplanes (for instance less polluting airplanes) can be designed. This leads to a more sustainable aviation. Originality/value - This research started in 2005 with a master thesis. It was steadily improved with more efficient artificial neural networks able to handle more complex airplane geometries. There is a single work using similar techniques found in a conference paper published in 2007. However, that paper focused on the application, i.e. providing very few details of the methodology to model aerodynamic coefficients.",
+  "authkeywords": [
+    "Aircraft design",
+    "Applied aerodynamics",
+    "Artificial neural network",
+    "Computational fluid dynamics",
+    "Full potential codes",
+    "Multi-disciplinary design and optimization"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aircraft Engineering and Aerospace Technology",
+    "issn": "17488842",
+    "eissn": "17584213",
+    "volume": "89",
+    "issue": "2",
+    "pages": "211-230",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Secco, Ney Rafael",
+      "scopus_id": "55595457400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ney-rafael-secco"
+    },
+    {
+      "name": "De Mattos, Bento Silva",
+      "scopus_id": "55944541200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ney-rafael-secco"
+  ],
+  "scopus": {
+    "citations": 64,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85014756204&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.084669",
+    "data_quality_score": 100
+  }
+}

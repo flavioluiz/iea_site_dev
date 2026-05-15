@@ -1,0 +1,36 @@
+{
+  "num_tese": "78609",
+  "type": "tese",
+  "title": "Post-flutter analysis of aeroelastic systems",
+  "author": "Michelle Fernandino Westin",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Manoel Balthazar",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The contribution of this research is to show the importance of classifying the chaotic or quasi-periodic nonlinear behavior of a dynamic system and verifying the possibility of applying nonlinear system tools to perform this classification. With this, what is intended is a better understanding of nonlinear phenomena in aeroelastic systems. For this, two objects of study are used: a flat plate, which allows modifying the dynamics through changes in the center of gravity, and a high aspect ratio wing with NACA 0012 airfoil and great flexibility. Both objects are subjected to computational analysis and wind tunnel testing under similar boundary conditions. In the case of computational results, the aerodynamic coefficients were corrected for dynamic stall, also for comparison with the experimental results. In this case, two semi-empirical methods were used: Boeing-Vertol and Gangwani. After obtaining corrected and without correction time series, two forms of classification are applied concerning the non-linearities of a dynamic system, these methodologies being the 0-1 test and the attractor reconstruction using Takens' theory, with the calculation of the Lyapunov exponent. Similar results are obtained with both methodologies, showing that it is possible to use the 0-1 test for a quick understanding of whether a system presents chaotic or quasi-periodic dynamic behavior.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Sistemas năo-lineares",
+    "Placas planas",
+    "Asas",
+    "Ensaios em túneis de vento",
+    "Caos",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78609",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78609&origem=BDITA"
+}

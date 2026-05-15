@@ -1,0 +1,29 @@
+{
+  "num_tg": "65269",
+  "type": "tg",
+  "title": "Guiamento para veículos aéreos năo-tripulados utilizando curvas de Dubins",
+  "author": "Ricardo Maia Senna Delgado",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    },
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho foi proposto um método de geraçăo de trajetória tridimensional para Veículos Aéreos Năo-Tripulados baseado na teoria das Curvas de Dubins. As curvas de Dubins tęm como característica fornecer a menor distância entre dois pontos respeitando-se a sua orientaçăo espacial e a restriçăo física de raios de curvatura mínimos. Em seguida, é feito o guiamento da trajetória gerada através de uma metodologia năo-linear conhecida como inversăo dinâmica. O guiamento fornece demandas de taxa de guinada e de taxa de arfagem calculados a partir dos parâmetros geométricos curvatura e torçăo da curva, além da posiçăo espacial da trajetória e da aeronave. Por fim as demandas do guiamento săo rastreadas por pilotos automáticos, os quais tiveram seus ganhos computados através da técnica LQR (Linear Quadratic Regulator). As simulaçőes foram feitas em ambiente Simulink® integradas com rotinas do programa Matlab®.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Guiamento (movimento)",
+    "Trajetórias",
+    "Controle de voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65269",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65269&origem=BDITA"
+}

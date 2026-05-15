@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-55149087721",
+  "eid": "2-s2.0-55149087721",
+  "doi": "10.1080/10407780802473590",
+  "pii": "904901732",
+  "pubmed_id": null,
+  "title": "Thermal analysis of an impinging jet on a plate with and without a porous layer",
+  "abstract": "This work shows numerical results for a jet impinging against a flat plane covered with a layer of a porous material, which is maintained at a higher temperature than the incoming fluid. Parameters such as permeability and thickness of the porous layer and thermal conductivity ration are varied in order to analyze their effects on the local distribution of Nu. The macroscopic equations for mass, momentum, and energy are obtained based on a volume-average concept. The numerical technique employed for discretizing the governing equations was the control volume method with a boundary-fitted nonorthogonal coordinate system. The SIMPLE algorithm was used to handle the pressure-velocity coupling. Results indicate that inclusion of a porous layer decreases the peak in Nu avoiding excessive heating or cooling at the stagnation point. Also found was that the integral heat flux from the wall is enhanced for certain range of values of layer thickness, porosity, and thermal conductivity ratio.",
+  "authkeywords": null,
+  "year": "2008",
+  "date": "2008-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": "15210634",
+    "volume": "54",
+    "issue": "11",
+    "pages": "1022-1041",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Fischer, Cleges",
+      "scopus_id": "56218732000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 72,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=55149087721&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111237",
+    "data_quality_score": 90
+  }
+}

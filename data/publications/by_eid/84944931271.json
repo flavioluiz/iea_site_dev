@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-84944931271",
+  "eid": "2-s2.0-84944931271",
+  "doi": "10.1016/j.ijthermalsci.2015.09.019",
+  "pii": "S129007291500280X",
+  "pubmed_id": null,
+  "title": "Mathematical modeling and numerical results of power-law fluid flow over a finite porous medium",
+  "abstract": "© 2015 Elsevier Masson SAS.This paper presents a mathematical model and corresponding numerical results for a power-law fluid flowing in a channel partially filled with a homogeneous and isotropic porous medium. At the interface between the clear fluid and the porous material, a model for the stress jump condition takes into consideration the behavior of a power-law fluid. This study shows that the use of a modified permeability, K∗, satisfactorily describes the friction factor of the flow for Reη∗ ≤ 1 (Darcy regime). The mathematical modeling presented, supported by comparisons with analytical and numerical results, also shows that the form drag must be taken into account in the momentum equation, even for a power-law fluid. The mathematical modeling presented has been used to simulate Newtonian as well as power-law fluids flowing in both porous and unobstructed media. For a channel partially filled with porous material and under a fixed mass flow rate, results indicated that the pressure drop is a function of porosity, Darcy number, shear jump coefficient, β, and flow behavior index, n.",
+  "authkeywords": [
+    "Interface",
+    "Numerical results",
+    "Porous medium",
+    "Power-law fluid",
+    "Shear stress jump"
+  ],
+  "year": "2016",
+  "date": "2016-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermal Sciences",
+    "issn": "12900729",
+    "eissn": null,
+    "volume": "100",
+    "issue": null,
+    "pages": "126-137",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Renato A.",
+      "scopus_id": "35578549800",
+      "affiliation": "60082715",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 57,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84944931271&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110570",
+    "data_quality_score": 100
+  }
+}

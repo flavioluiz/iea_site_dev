@@ -1,0 +1,26 @@
+{
+  "num_tg": "000550337",
+  "type": "tg",
+  "title": "Implementaçăo de uma ferramenta de busca e compartilhamento de arquivos via protocolo IRC.",
+  "author": "Maykel Alex Christmann",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Fábio Carneiro Mokarzel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O programa desenvolvido tem por objetivo proporcionar ao usuário uma eficiente e alternativa ferramenta de busca e compartilhamento de arquivos, através de conexőes em servidores distribuídos em árvores. Construída em um ambiente de comunicaçăo proporcionado pelo protocolo IRC (internet relay chat), a ferramenta utiliza uma linguagem de programaçăo específica conhecida por IRC scripting, de estrutura semelhante ŕ C. Como todo programa, este possui um nome, e na época de sua concepçăo foi batizado por Holonapster, por ter sido inicialmente inspirado no software NAPSTER®, conhecido por ser um dos precursores dos programas de busca. A ferramenta ainda possui uma interface amplamente configurável e um help file, o que facilita a sua utilizaçăo por usuários dos mais inexperientes aos avançados.",
+  "subjects": [
+    "Programas de aplicaçăo (computadores)",
+    "Computaçăo ponto-a-ponto",
+    "Sistemas de recuperaçăo da informaçăo",
+    "Arquivos (computadores)",
+    "Protocolos de comunicaçăo",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550337",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550337&origem=BDITA"
+}

@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-84913609309",
+  "eid": "2-s2.0-84913609309",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Reliability analysis of structures incorporating shunted piezoelectric transducers for the purpose of passive vibration mitigation",
+  "abstract": "Among the passive techniques of vibration control, the use of piezoelectric transducers connected to electric circuits has been intensively investigated lately. However, as is the case of any engineering system, uncertainties affecting the physical and geometrical characteristics of the control device are unavoidable and prone to jeopardize the control performance. In this context, this paper is devoted to the numerical procedures intended for the evaluation of the reliability of structures containing shunted piezoelectric transducers. Reliability here is meant as the probability of complying with pre-defined control goals, given the probability distributions ascribed to the uncertain variables, which are modeled as continuous random variables. The performance goals are accounted for by the proper choice of the so-called limit state functions (LSF), which are computed from the structural responses. The reliability indices are computed by using First Order Reliability Method (FORM) and the results are compared to Monte Carlo Simulation (MCS) associated to Latin Hypercube Sampling (LHS). Numerical simulations are presented for a truss structure modeled by finite elements, containing a piezoelectric stack transducer connected to a resistive-inductive (resonant) shunt circuit. The comparison between FORM and MCS results enables to evaluate the accuracy and computational effort involved in the use of both methods.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of ISMA 2014 International Conference on Noise and Vibration Engineering and Usd 2014 International Conference on Uncertainty in Structural Dynamics",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "4453-4466",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cunha, L. R.",
+      "scopus_id": "36643506200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Saad, N. S.",
+      "scopus_id": "56434010300",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84913609309&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089131",
+    "data_quality_score": 60
+  }
+}

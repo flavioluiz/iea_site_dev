@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-84883714251",
+  "eid": "2-s2.0-84883714251",
+  "doi": "10.4028/www.scientific.net/KEM.569-570.457",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modal strain energy based damage detection applied to a full scale composite helicopter blade",
+  "abstract": "The use of composites in the aircraft industry has generated a great need for structural health monitoring (SHM) and damage detection systems, to allow for safer use of complex materials. Such is the case with helicopter blades - these components nowadays are mostly composed of carbon fiber or glass fiber reinforced plastics laminates, epoxy and honeycomb filled core structures. The use of composite materials on the main rotor blade (MRB) also allows for more complex and efficient shapes to be designed, but at the same time, their use requires an additional effort when it comes to structural monitoring, since damage can occur and go unnoticed. This work presents experimental results for structural health monitoring method based on strain energy. The test subject is a full-scale composite helicopter main rotor blade, which is a highly flexible, slender beam that can display unusual dynamic behavior with orthotropic behavior. This damage detection method is based on the modal strain properties, and a damage detection index is used to identify and quantify damage. A test setup was built to carry out an experimental modal analysis on the main rotor blade. For that purpose, a total of 55 uniaxial accelerometers were used on the helicopter blade to measure the displacement modes of the structure. To compute the strain modes from the displacement modes, central differences approximation is used. Damage is introduced on the blade by attaching a small mass to two different locations. Experimental results show the possibility of locating damage in this case. © (2013) Trans Tech Publications.",
+  "authkeywords": [
+    "Helicopter blade",
+    "Strain energy damage index",
+    "Structural health monitoring",
+    "Vibration based damage detection"
+  ],
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Key Engineering Materials",
+    "issn": "10139826",
+    "eissn": "16629795",
+    "volume": "569-570",
+    "issue": null,
+    "pages": "457-464",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dos Santos, Fábio Luis Marques",
+      "scopus_id": "55212979900",
+      "affiliation": "60069982",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peeters, Bart",
+      "scopus_id": "7101854096",
+      "affiliation": "60069982",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Van Der Auweraer, Herman",
+      "scopus_id": "7005384415",
+      "affiliation": "60069982",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "106796251",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84883714251&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077669",
+    "data_quality_score": 100
+  }
+}

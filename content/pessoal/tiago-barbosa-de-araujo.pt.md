@@ -1,8 +1,7 @@
 ---
-title: "Tiago Barbosa de Araújo"
+title: "Tiago Barbosa de Araujo"
 layout: professor
 professor_id: "tiago-barbosa-de-araujo"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

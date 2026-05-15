@@ -1,0 +1,35 @@
+{
+  "num_tese": "000473658",
+  "type": "tese",
+  "title": "Modelagem e estudo do controle de um manipulador robótico híbrido com tręs juntas revolutas.",
+  "author": "Guilherme Conceiçăo Rocha",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve o projeto, a modelagem dinâmica, a simulaçăo computacional em malha aberta e fechada e a identificaçăo experimental dos modos de vibraçăo de um manipulador robótico híbrido com tręs juntas revolutas, dois elos rígidos e um flexível. O modelo dinâmico do sistema foi obtido via aplicativo MATHEMATICA, utilizando as equaçőes de Lagrange e método dos modos assumidos. O algoritmo para obtençăo do modelo foi validado através do estudo de caso de um pęndulo móvel flexível. As simulaçőes computacionais foram feitas no ambiente MatLab / Simulink. A estratégia Torque Computado Generalizado foi utilizada em simulaçăo para o controle de posiçăo da manípula. Finalmente, foram realizados experimentos de identificaçăo dos modos de vibraçăo da planta física e os resultados obtidos comparados com aqueles previstos teoricamente.",
+  "subjects": [
+    "Robôs",
+    "Manipuladores",
+    "Modelos matemáticos",
+    "Controle automático",
+    "Vibraçăo",
+    "Corpos flexíveis",
+    "Estruturas rígidas",
+    "Análise estrutural dinâmica",
+    "Robótica",
+    "Simulaçăo computadorizada",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000473658",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000473658&origem=BDITA"
+}

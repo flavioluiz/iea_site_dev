@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-84948757365",
+  "eid": "2-s2.0-84948757365",
+  "doi": "10.1088/0964-1726/24/12/125017",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An adaptive piezoelectric vibration absorber enhanced by a negative capacitance applied to a shell structure",
+  "abstract": "© 2015 IOP Publishing Ltd.Piezoelectric shunt damping is a well-known technique to damp mechanical vibrations of a structure, using a piezoelectric transducer to convert mechanical vibration energy into electrical energy, which is dissipated in an electrical resistance. Resonant shunts consisting of a resistance and an inductance connected to a piezoelectric transducer are used to damp structural vibrations in narrow frequency bands, but their performance is very sensitive to variations in structural modal frequencies and transducer capacitance. In order to overcome this drawback, a piezoelectric shunt damping technique with improved performance and robustness is presented in this paper. The design of the adaptive circuit considers the variation of the host structure's natural frequency as a project parameter. This paper describes an adaptive resonant piezoelectric vibration absorber enhanced by a synthetic negative capacitance applied to a shell structure. The resonant shunt circuit autonomously adapts its inductance value by comparing the phase difference of the vibration velocity and the current flowing through the shunt circuit. Moreover, a synthetic negative capacitance is added to the shunt circuit to enhance the vibration attenuation provided by the piezoelectric absorber. The circuitry is implemented using analog components. Validation of the proposed method is done by bonding the piezoelectric absorber on a free-formed metallic shell.",
+  "authkeywords": [
+    "frequency tuning",
+    "negative capacitance",
+    "piezoelectric shunt damping",
+    "shell structure",
+    "vibration control"
+  ],
+  "year": "2015",
+  "date": "2015-11-03",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Smart Materials and Structures",
+    "issn": "09641726",
+    "eissn": "1361665X",
+    "volume": "24",
+    "issue": "12",
+    "pages": null,
+    "article_number": "125017"
+  },
+  "authors": [
+    {
+      "name": "Gripp, J. A.B.",
+      "scopus_id": "56432843600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, L. C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Heuss, O.",
+      "scopus_id": "55023828400",
+      "affiliation": "60007323",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Scinocca, F.",
+      "scopus_id": "56535377900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 33,
+    "subject_areas": [
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84948757365&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077398",
+    "data_quality_score": 100
+  }
+}

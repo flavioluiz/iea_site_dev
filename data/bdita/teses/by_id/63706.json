@@ -1,0 +1,30 @@
+{
+  "num_tese": "63706",
+  "type": "tese",
+  "title": "Study of heat transfer in a porous moving bed using a thermal non-equilibrium model",
+  "author": "Ana Cristina Pivem",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The influence of physical properties on heat transfer between solid and fluid phases is investigated for laminar and turbulent flows in a channel filled with a moving porous material. Concurrent, counterflow and crossflow configurations are analyzed. To simulate flow and heat transfer between phases, a two-energy equation model using a thermal non-equilibrium condition is applied. Transport equations are discretized using the control volume method and the system of algebraic equations is relaxed via the SIMPLE algorithm. Validations are made for laminar model under concurrent and counterflow configurations. Effects of thermal and hydrodynamic properties on heat transfer for several conditions are analyzed and compared with analytical results in the literature. For concurrent laminar flow, simulations indicate that, when the speed of the solid approaches that of the fluid, the strong axial convection of the solid phase, as well as the reduction of the relative velocity, cause an increase in the axial length needed for thermal equilibrium between phases to occur. Longer thermal developing lengths are also found for higher permeability and porosity. Results for a counterflow moving bed indicate that motion of the solid material, contrary to the direction of the fluid, enhances heat transfer between phases. The same effect is observed for smaller Darcy number and porosity, as well as for higher solid-to-fluid thermal capacity and thermal conductivity ratios. In the case of crossflow, where there are two fluid inlets, more energy is convected into the system in both longitudinal and transversal directions .The fluid temperature reaches the highest values in the symmetry region of the channel. This occurs mainly for high velocity, high thermal capacity and high thermal conductivity ratios between fluid and solid phases. These behaviors were observed for laminar and turbulent flows, in both fully filled and half filled channels. The studies presented here might have applications to problems involving engineering equipment in which a moving porous bed is identified.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Materiais porosos",
+    "Turbulęncia atmosférica",
+    "Mecânica dos fluidos",
+    "Escoamento turbulento",
+    "Equilibrio termodinâmico",
+    "Física"
+  ],
+  "defense_date": "08/08/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63706",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63706&origem=BDITA"
+}

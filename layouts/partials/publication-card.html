@@ -79,7 +79,7 @@
       {{ range $index, $author := . }}
         {{ if $index }}, {{ end }}
         {{ if $author.is_eam_professor }}
-          <a href="/{{ $page.Language.Lang }}/docentes/{{ $author.eam_professor_id }}/"
+          <a href="/{{ $page.Language.Lang }}/pessoal/{{ $author.eam_professor_id }}/"
              class="text-blue-600 hover:text-blue-800 hover:underline font-medium">
             {{ $author.name }}
           </a>
@@ -166,7 +166,7 @@
       </svg>
       <strong>{{ i18n "author" }}:</strong>
       {{ if $pubRef.professor_id }}
-        <a href="/{{ $page.Language.Lang }}/docentes/{{ $pubRef.professor_id }}/"
+        <a href="/{{ $page.Language.Lang }}/pessoal/{{ $pubRef.professor_id }}/"
            class="text-blue-600 hover:text-blue-800 hover:underline">
           {{ . }}
         </a>

@@ -1,0 +1,36 @@
+{
+  "num_tese": "75607",
+  "type": "tese",
+  "title": "Calibraçăo de sistemas anemométricos de helicópteros com uso de GPS diferencial",
+  "author": "Fernando Lucas Soares Corręa",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho e analisa a adequabilidade da utilizaçăo de equipamento GPS diferencial (DGPS) para a determinaçăo de erros do sistema anemométrico de helicópteros por meio de ensaios em voo. Os experimentos săo conduzidos utilizando a aeronave H-50 (AS 350). Uma vez que o erro associado ao tubo de Pitot năo pode ser desprezado em helicópteros, duas metodologias já conhecidas que utilizam o DGPS como ferramenta de obtençăo de dados foram adaptadas. Resultados de Ensaios em voo com a utilizaçăo de técnica clássica validada e conhecida săo apresentados para fins de comparaçăo com os dados obtidos por meio das técnicas propostas. Os dados săo reduzidos por meio de equacionamentos matemáticos e programas computacionais em plataforma MatLab®, adaptados especialmente para a pesquisa. A primeira metodologia proposta utiliza tręs passagens estabilizadas para cada velocidade requerida dentro do envelope de velocidades desejado; a trajetória descrita assemelha-se a uma folha de trevo, o que sugere o nome do método: \"trevo\". A segunda metodologia utiliza-se de uma manobra de aceleraçăo e desaceleraçăo em proas defasadas de 90°, formando um desenho semelhante a um quadrado (windbox), sem a necessidade de realizar estabilizaçőes. A reduçăo de dados é realizada por iteraçőes de parâmetros estimados com a utilizaçăo de análise das saídas (output-error) até a convergęncia dos resultados para diferenças mínimas entre o parâmetro estimado e o obtido em voo. Os resultados permitem verificar a adequabilidade de ambos os métodos propostos do ponto de vista quantitativo, com resultados similares dentro das incertezas calculadas de 0,3 mbar a 0,5 mbar e intervalo de confiança de 95%. Qualitativamente, a manobra windbox com estimaçăo de parâmetros (output-error), apresentou melhores resultados quanto ŕ economia de recursos materiais e humanos sem degradaçăo da qualidade da calibraçăo. Os resultados obtidos com a metodologia DGPS mostram-se satisfatórios, demonstrando que o método windbox com estimaçăo de parâmetros pode ser utilizado na determinaçăo dos erros de posiçăo de helicópteros com economia de recursos em comparaçăo com os métodos clássicos.",
+  "subjects": [
+    "Ensaios em voo",
+    "Calibraçăo",
+    "Anemômetros",
+    "Sistema de posicionamento global",
+    "Instrumentos de mediçăo",
+    "Medidas de velocidade",
+    "Helicópteros",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/03/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75607",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75607&origem=BDITA"
+}

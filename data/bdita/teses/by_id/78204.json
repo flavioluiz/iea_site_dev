@@ -1,0 +1,29 @@
+{
+  "num_tese": "78204",
+  "type": "tese",
+  "title": "Mesh-free method based on artificial neural networks to solve partial differential equations",
+  "author": "Filipi Teixeira Kunz",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "There are well-established methods to numerically solve partial differential equations (PDEs), such as Finite Difference Method (FDM), Finite Element Method (FEM), and Finite Volume Method (FVM), which usually require the discretization of the domain in meshes. However, the generation of high-quality meshes for complex domains is a time-consuming task that demands skilled specialists. This dissertation presents a mesh-free approach to solve PDEs using feedforward artificial neural networks (ANNs). This methodology involves a training procedure that adjusts neural network outputs and their derivatives to match PDEs and their associated boundary conditions at a given set of points. The procedure is evaluated in solving canonical PDEs problems of linear advection, steady and unsteady heat transfer, and Burgers' equation. The study of these canonical problems served as the basis for the analysis of the influence of several parameters in the configuration of the neural network problem solution. Parameters related to the optimizer, aggregation metric, number and distribution of training points, number of layers, and number of neurons in the neural network are analyzed in terms of accuracy and training time. The potential flow around a cylinder is also evaluated at a later stage to understand the ANN capabilities to solve an aerospace-related problem. This method shows versatility, as the same numerical solver works with hyperbolic, elliptic, and parabolic PDEs. Even though the application of ANN-based solution is computationally more expensive than traditional mesh-based approaches, it considerably reduces the need for user experience and time spent in terms of discretization and mesh generation.",
+  "subjects": [
+    "Equaçőes diferenciais parciais",
+    "Redes neurais",
+    "Equaçőes diferenciais",
+    "Modelos matemáticos",
+    "Matemática",
+    "Computaçăo"
+  ],
+  "defense_date": "10/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78204",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78204&origem=BDITA"
+}

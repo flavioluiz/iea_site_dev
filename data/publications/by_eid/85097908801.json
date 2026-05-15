@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85097908801",
+  "eid": "2-s2.0-85097908801",
+  "doi": "10.1016/j.ijthermalsci.2020.106780",
+  "pii": "S1290072920312230",
+  "pubmed_id": null,
+  "title": "Modified nonlinear function specification and temperature moving sensor to estimate the heat supply in a welding process",
+  "abstract": "© 2020The estimation of the imposed heat rate in welding processes has always been an obstacle to improve the thermal efficiency of these processes. Thus, the use of inverse problem techniques is an alternative procedure to estimate the heat rate. In this study, the problem is highly nonlinear; therefore, the heat flux provided by the welding process is estimated by the iterative Function Specification method. This method was modified to estimate the heat supply based on the heat rate sensitivity coefficient, which represents the influence of the welding power in the temperatures of 304 stainless steel plates. In order to avoid the problem of low thermal sensitivity due to the movement of the welding source on the upper face of the plate, this methodology is based on the concept of temperature moving sensor. The software COMSOL was used to solve the three-dimensional heat diffusion equation with enthalpy function to model the phase change problem. 10 type K thermocouples, equally spaced, were attached by capacitive discharge on the opposite heated surface to measure the temperature. The efficiency of the process was calculated with the estimated net heat rate which ranged from 63% to 87%. The average efficiency obtained was 75% for this welding process. A relation between the energy rate given by the power supply and the estimated efficiency was also observed. The thermal efficiency of the arc decreases as the power increases. Thus, an analysis using the Taguchi method was performed in order to better understand the influence of the welding parameters on the efficiency of the process. It was concluded that with a significance level of 10%, the welding current and arc length have a strong correlation with thermal efficiency. These results are discussed and compared with results obtained experimentally by other researchers. Besides, an uncertainty analysis in the estimated heat rate is also presented.",
+  "authkeywords": [
+    "COMSOL",
+    "Heat rate estimation",
+    "Inverse problems",
+    "Nonlinear function specification method",
+    "TIG welding Process"
+  ],
+  "year": "2021",
+  "date": "2021-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermal Sciences",
+    "issn": "12900729",
+    "eissn": null,
+    "volume": "162",
+    "issue": null,
+    "pages": null,
+    "article_number": "106780"
+  },
+  "authors": [
+    {
+      "name": "Dourado da Silva, Rodrigo Gustavo",
+      "scopus_id": "57220927003",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Marcondes Lima e Silva, Sandro Metrevelle",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85097908801&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091182",
+    "data_quality_score": 100
+  }
+}

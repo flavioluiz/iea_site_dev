@@ -1,0 +1,32 @@
+{
+  "num_tese": "000557708",
+  "type": "tese",
+  "title": "Instrumentaçăo e operacionalizaçăo de um sistema de ensaios em voo para VANTs (VECTOR-P).",
+  "author": "Glęvson Diniz Franco",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Para o desenvolvimento de algoritmos de controle que permitam o bom desempenho e a estabilidade em voo de Veículos Aéreos Năo Tripulados (VANT) é necessário que se disponha de modelos de atuadores (servo atuadores) e modelos da dinâmica de voo validados dessas aeronaves. Os servo atuadores săo dispositivos de grande importância no controle de VANTs onde săo usados para comandar as superfícies de controles aerodinâmicos. O desempenho e a estabilidade do controlador para estes veículos dependem da modelagem adequada dos servo atuadores, bem como, da identificaçăo dos parâmetros físicos experimentais. Neste trabalho é desenvolvido um ambiente integrado para modelar, simular e controlar os servo atuadores. O software LabVIEW foi usado para desenvolver um sistema automático que gera um sinal de controle PWM e também monitora a resposta dos servo atuadores. O ambiente integrado incorpora muitas opçőes de sinais de controle usando para isto uma placa de aquisiçăo de dados NI. Os sinais de entrada e saída săo usados para identificar possíveis modelos do atuador, săo analisados em tempo e frequęncia, e entăo processados por um sistema de identificaçăo e estimaçăo de parâmetros no ambiente MATLAB. Os parâmetros dos modelos da dinâmica de voo săo as derivadas aerodinâmicas de estabilidade e controle, na qual estes parâmetros săo estimados através de diversas técnicas de identificaçăo de parâmetros, dentre elas destaca-se principalmente a modelagem aerodinâmica baseada em ensaio em voo. Para que seja possível realizar essas tarefas de identificaçăo, é necessário que sejam monitorados diversos parâmetros de voo da aeronave. Este trabalho também apresenta a integraçăo e a operacionalizaçăo de um sistema de aquisiçăo de dados de ensaio em voo (Icasim) que possui incorporado ao seu sistema sensores de atitude (crossbow), ponta de prova anemométrica (a, b, altitude, temperatura) e outros subsistemas que permitem o monitoramento da deflexăo das superfícies de controle e da rotaçăo do motor para ensaios em voo do Vector-P (VANT de médio porte).",
+  "subjects": [
+    "Ensaios em vôo",
+    "Aeronave năo-tripulada",
+    "Identificaçăo de parâmetros",
+    "Controle de aeronaves",
+    "Modelos matemáticos",
+    "Servomecanismos",
+    "Atuadores",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557708",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557708&origem=BDITA"
+}

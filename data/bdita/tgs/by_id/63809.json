@@ -1,0 +1,27 @@
+{
+  "num_tg": "63809",
+  "type": "tg",
+  "title": "Otimizaçăo de trajetória de um veículo lançador de satélites empregando métodos pseudo-espectrais",
+  "author": "Danilo José Franzim Miranda",
+  "year": "2012",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Roberto Kawakami Harrop Galvăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho consiste em um estudo preliminar de otimizaçăo da trajetória de veículos lançadores de múltiplos estágios, propulsăo sólida e controle por empuxo vetorado, com ęnfase nas características particulares dos veículos nacionais VLS e VLM. O problema de controle ótimo original é discretizado pelo método pseudo-espectral de Legendre, de forma a convertę-lo em um problema de programaçăo năo-linear (PPNL). O pacote computacional de código aberto escrito em C++ chamado PSOPT é usado tanto na discretizaçăo do problema ótimo quanto para resolver o PPNL. O uso de tal software é particularmente interessante em problemas de controle de múltiplas fases e grande número de restriçőes, que é o caso dos veículos lançadores. Os resultados săo avaliados de forma a se propor alternativas de missăo aos veículos lançadores sob análise.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "VLS (Brasil)",
+    "Mecânica de voo",
+    "Controle",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63809",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63809&origem=BDITA"
+}

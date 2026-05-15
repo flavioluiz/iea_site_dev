@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85135063966",
+  "eid": "2-s2.0-85135063966",
+  "doi": "10.2514/6.2022-3089",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Coupled unsteady RANS and FW-H methodology for aeroacoustics prediction of high-speed propellers",
+  "abstract": "© 2022, American Institute of Aeronautics and Astronautics Inc, AIAA., All rights reserved.This work investigates the use of solid and permeable surfaces in the Ffowcs WilliamsHawkings (FW-H) analogy for predicting high-speed propeller noise. The CFD/CAA methodology encompasses unsteady Reynolds-Averaged Navier-Stokes simulations to compute the flowfield on the acoustic surface applied in the FWH analogy to obtain the noise signatures in the far-field. Furthermore, this manuscript also investigates the effects of the downstream end-cap position, on the propeller noise prediction, by using two permeable surfaces with different lengths to assess the propeller noise levels in each case. The former is a short SFW-H surface placed near the rotor, and the latter, namely the LFW-H, is a surface larger in length where the end-cap grid is placed farther downstream from the rotor. The results showed the capability of the permeable surface technique for predicting the noise with higher accuracy than the solid formulation, especially at the first blade passing frequency. Also, the larger LFW-H surface performed better than the SFW-H surface. A reason that could justify this is that the LFW-H end-cap surface is placed at a suitable distance downstream from the propeller. Therefore, the LFW-H surface can include more of the contributions of the non-linear effects or quadrupole sources enclosed within the permeable source surface region.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "28th AIAA Ceas Aeroacoustics Conference 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2022-3089"
+  },
+  "authors": [
+    {
+      "name": "Costa, F. P.",
+      "scopus_id": "57205548661",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Andersson, N.",
+      "scopus_id": "57193856620",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Takachi, J. T.",
+      "scopus_id": "57821259200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, C.",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85135063966&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051718",
+    "data_quality_score": 90
+  }
+}

@@ -3,13 +3,15 @@
 {{ $page := .page | default $ }}
 {{ $lang := $page.Language.Lang }}
 
-{{/* Get area info for color */}}
-{{ $areaData := index .page.Site.Data.areas.areas $project.area }}
-{{ $areaColor := "#6b7280" }}
+{{/* Area color — use neutral if no areas data */}}
+{{ $areaColor := "#1e40af" }}
 {{ $areaCodigo := "" }}
-{{ if $areaData }}
-  {{ $areaColor = $areaData.cor }}
-  {{ $areaCodigo = $areaData.codigo }}
+{{ if .page.Site.Data.areas }}
+  {{ $areaData := index .page.Site.Data.areas.areas $project.area }}
+  {{ if $areaData }}
+    {{ $areaColor = $areaData.cor }}
+    {{ $areaCodigo = $areaData.codigo }}
+  {{ end }}
 {{ end }}
 
 {{/* Get localized content */}}
@@ -115,6 +117,13 @@
 
       {{/* Collapsed Preview */}}
       <div class="project-preview">
+        {{ if $project.docentes_iea }}
+        <div class="flex flex-wrap gap-1 mb-3">
+          {{ range $project.docentes_iea }}
+          <span class="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
         <p class="text-sm text-gray-600 leading-relaxed">
           {{ $descPreview }}
         </p>
@@ -192,6 +201,22 @@
             </div>
           </div>
         </div>
+
+        {{/* IEA Faculty */}}
+        {{ if $project.docentes_iea }}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">
+            {{ if eq $lang "pt" }}Docentes IEA{{ else }}IEA Faculty{{ end }}
+          </h4>
+          <div class="flex flex-wrap gap-2">
+            {{ range $project.docentes_iea }}
+            <span class="inline-block px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded-full font-medium border border-blue-100">
+              {{ . }}
+            </span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
 
         {{/* Collapse Button */}}
         <button class="project-collapse-btn mt-2 flex items-center gap-1 text-sm font-medium transition-colors"

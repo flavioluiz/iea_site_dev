@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85200200502",
+  "eid": "2-s2.0-85200200502",
+  "doi": "10.2514/6.2023-4068",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Probabilistic Methodology for Analysis of Secondary Cracks in Riveted Structures",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Aeronautical structures are subjected to damages such as fatigue cracks due to their inherently cyclic loading. Therefore, it is important to understand the process of nucleation and propagation of cracks for application in modern aeronautical projects that use the damage tolerant approach. In this context, there are situations in which components or structural details may present the nucleation and propagation of an initial or primary crack, and after a determined number of load cycles, it may occur the nucleation and propagation of a secondary crack, in the proximities of the primary crack, due to the load redistribution caused by the primary crack. The nucleation and interaction of primary and secondary cracks in structural aeronautical components is relevant to the design of damage tolerant structures. This work proposes an analysis methodology for the characterization of the nucleation, propagation and interaction of primary cracks (or leader cracks) and secondary cracks in aeronautical components, considering probabilistic aspects and the current practices employed for the treatment of riveted structures. The methodology developed considers a random distribution of stress by fatigue life curves (S-N), that results in cases in which secondary cracks initiate, and cases in which they do not initiate (in consequence of the catastrophic failure of the component occurring beforehand due the propagation of the primary crack). From the cases in which the initiation of secondary cracks occurs, the simultaneous propagation of leader and secondary cracks is analyzed to quantify how the cracks influence each other or interact during their propagation. The results obtained indicate that the distributions of leader crack lengths at the moment the secondary initiates tend to be normal, while the distributions of secondary crack lengths tend to be lognormal, in coherence with the Equivalent Initial Flaw Size methodology, currently employed in the industry. From the propagation analysis, it was identified that secondary cracks tend to grow faster than the leader cracks, and the relative sizes between secondaries and leader cracks followed the general behavior found in data from detailed fleet inspections. With this, the present work offers a contribution to improve the design of aeronautical structures with a probabilistic approach for evaluation of primary and secondary cracks, both in terms of initiation and simultaneous propagation of fatigue cracks.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Paes Lemes, Carlos Augusto",
+      "scopus_id": "59243616900",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fernando Barbosa, Antônio",
+      "scopus_id": "59244024200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Chaves, Carlos Eduardo",
+      "scopus_id": "53864568200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Andrés Arbelo, Mariano",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200200502&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074160",
+    "data_quality_score": 80
+  }
+}

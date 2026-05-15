@@ -1,0 +1,30 @@
+{
+  "num_tg": "000544257",
+  "type": "tg",
+  "title": "Development and design of a pneumatic device for short duration throttling of the compressor of the LARZAC 04 turbojet engine.",
+  "author": "Ricardo Pedroso Ricci",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Dieter Peitsch",
+      "professor_slug": null
+    },
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Increasing the overall efficiency while improving engine handling is a desired but a very challenging task for any control unit since safe operation of the engine has to be guaranteed for all flight and engine conditions as well. These demands affect particularly the choice of the steady-state compressor working line with a sufficient surge margin. It is common knowledge that operating axial compressors in surge can have detrimental effects on the mechanical integrity of parts, such as blades, bearings, seals and other rotating components. The violent nature of surge events makes it necessary to install sophisticated control systems to prevent compressors from operating in surge. Compressor flow instabilities and operation characteristics have been subject of numerous investigations during the paste decade. While most of this research work was done on isolated test-rig compressors, the Department of Aeroengines at the Technical University of Berlin projects measurements and control in the compressor system of a two-spool turbofan engine at various power settings. In order to put the compressor working line closer to its stability limit, a future control system has to be capable to detect the incipient flow instability by parameter identification of any in-flight control system, the pre-stall an stall formation process is of particular interest, as any stabilizing action has to take place during these periods to be effective. For future in-depth investigation devoted to control systems a throttling device is needed, which is capable to force the compressor fast, reliable and reproducible into surge and visa versa on dethrottling. One common way to throttle a compressor in an engine installation is either overfuelling (\"fuel-spikes\") or rapid and repeated power setting changes, thereby evoking none-equilibrium conditions (heat transfer, tip clearances). While the first method also leads to turbine overheating, both methods cause compressor flow separation during transients, in a manner that is very hard to reproduce and that is unfavourable for stall inception investigations. At this point an external pneumatic throttling device seems to be promising in order to overcome these limitations. Using a throttling device, overpressure air can be blown into the HPC exit plane, thus increasing air mass flow rate through the combustion chamber and the turbines. This allows HPC throttling also at high speeds causing HPC surging.",
+  "subjects": [
+    "Turbocompressores",
+    "Controle pneumático",
+    "Pulsaçőes",
+    "Variaçăo de impulso por estrangulamento",
+    "Motores de turbinas",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544257",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544257&origem=BDITA"
+}

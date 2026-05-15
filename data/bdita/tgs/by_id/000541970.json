@@ -1,0 +1,31 @@
+{
+  "num_tg": "000541970",
+  "type": "tg",
+  "title": "Experimental and numerical study of the wake of a simplified automobile model with a variable rear slant angle.",
+  "author": "Claudia Vergueiro Massei",
+  "year": "2006",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Valérie Ferrand",
+      "professor_slug": null
+    },
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Among the objectives of subsonic aerodynamics research is the determination of overall pressure forces, mainly lift and drag. For streamlined bodies, the major interest is generally in lift. On the other hand, in the bluff-body case there are always regions of separation generating pressure drag. In this situation, drag, rather than lift, is the major unknown and there's no general theoretical model to predict it, as there are the non-viscous flow models used for streamlined bodies. The existence of 'critical geometries' is one of the reasons for systematic experiments. This concept is related to the drag exhibiting a local maximum with respect to some geometrical parameter of a body shape. Usually, the critical geometries are found by chance with no prior expectation of their behavior. As drag overshoots are often unsuspected and tend to involve complex types of flow, one has to rely on systematic experimental studies to identify critical geometries and analyze them. One case of critical geometry concerning road vehicles was reported by Janssen and Hucho (1974). Changing the angle of the rear slanted portion of the roof of a car, they observed that, for a small range of angles (25-35), overall drag exhibited a large overshoot. There was also an effect on the after body flow separation: the separation line was either at the top of the slanted surface, or at its bottom, depending on the angle. This case of critical geometry inspired this work. Nevertheless, when studying flows around vehicles in wind tunnels, it should be considered the use of a moving floor, in order to carry out the simulations in a more realistic way. Measurements show that floor movement reduces drag and lift and computational fluid dynamics can predict differences in the flow fields. This work studies the critical geometry case mentioned above together with the influence of the moving floor. Initially, the literature results concerning the drag of the critical geometry were experimentally validated. Next, the same experiments were carried out in the presence of a moving ground. To better understand the flow around the model and how the moving ground affects it, it was used the technique known as PIV, Particle Image Velocimetry. Last, the assembly was modeled on a CFD software and the same tests were simulated, so that it would be possible to compare experimental and numerical results.",
+  "subjects": [
+    "Configuraçőes aerodinâmicas",
+    "Automóveis",
+    "Estruturas de geometria variável",
+    "Arrasto aerodinâmico",
+    "Dinâmica dos fluidos computacional",
+    "Velocimetria por imagem de partículas",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000541970",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000541970&origem=BDITA"
+}

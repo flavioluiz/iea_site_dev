@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-84943819608",
+  "eid": "2-s2.0-84943819608",
+  "doi": "10.1002/fld.4050",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Higher-order surface treatment for discontinuous Galerkin methods with applications to aerodynamics",
+  "abstract": "© 2015John Wiley & Sons, Ltd.When dealing with high-order numerical methods, an adequate treatment of curved surfaces is required not only to guarantee that the expected high-order is maintained in the vicinity of surfaces but also to avoid steady-state convergence issues. Among the variety of high-order surface treatment techniques that have been proposed, the ones employing NURBS (non-uniform rational B-splines) to describe curved surfaces can be considered superior both in terms of accuracy and compatibility with computer-aided design softwares. The current study describes in detail the integration of NURBS-based geometry description in a high-order solver based on the discontinuous Galerkin formulation. Particularly, this work also discusses how and why NURBS curves of very high order can be employed within standard NURBS-based boundary treatment techniques to yield reduced implementation complexity and computational overhead. Theoretical estimates are provided along with numerical experiments in order to support the proposed approach. Minding engineering applications in the context of compressible aerodynamics, additional simulations are addressed as numerical examples to illustrate the advantages of using higher-order NURBS in practical situations.",
+  "authkeywords": [
+    "Aerodynamics",
+    "Curved boundaries",
+    "Discontinuous Galerkin",
+    "NURBS",
+    "Quadratures"
+  ],
+  "year": "2015",
+  "date": "2015-11-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Fluids",
+    "issn": "02712091",
+    "eissn": "10970363",
+    "volume": "79",
+    "issue": "7",
+    "pages": "323-342",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silveira, A. S.",
+      "scopus_id": "57206163941",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, R. C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Silva, A. F.C.",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Ortega, M. A.",
+      "scopus_id": "7102617017",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84943819608&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069700",
+    "data_quality_score": 100
+  }
+}

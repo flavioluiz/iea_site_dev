@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-85164260072",
+  "eid": "2-s2.0-85164260072",
+  "doi": "10.1017/jfm.2023.442",
+  "pii": "S0022112023004421",
+  "pubmed_id": null,
+  "title": "On the emergence of secondary tones in airfoil noise",
+  "abstract": "© The Author(s), 2023. Published by Cambridge University Press.We present the results of direct numerical simulations of a NACA 0012 airfoil, with Mach number 0.3 and angle of attack of, examining the dynamics of the flow with increasing Reynolds numbers. Two-dimensional simulation results are obtained with chord-based Reynolds numbers in the range, where each simulation uses the last time step of the previous one as a starting point, to capture the evolution of dynamics as a function of. The development of the pressure fluctuations with time shows a transition from periodic to quasi-periodic attractor for, leading to the emergence of secondary tones in the wall and acoustic field pressure spectra, different from peaks related to the fundamental frequency and the respective harmonics; a second, incommensurate frequency appears, leading to several secondary tones with frequency, with and integers. Further increase of the Reynolds number leads to the emergence of a tertiary frequency, indicating a route to chaos of the Ruelle-Takens-Newhouse type. Such a mechanism is related to the ladder-type characteristic structure of the tones, indicating that dynamic systems theory is an important tool for understanding airfoil tonal noise.",
+  "authkeywords": [
+    "aeroacoustics",
+    "bifurcation",
+    "chaos"
+  ],
+  "year": "2023",
+  "date": "2023-06-27",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "966",
+    "issue": null,
+    "pages": null,
+    "article_number": "A8"
+  },
+  "authors": [
+    {
+      "name": "Sano, Alex",
+      "scopus_id": "57188722979",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Da Silva, André F.C.",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Wolf, William R.",
+      "scopus_id": "36621377400",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164260072&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.070589",
+    "data_quality_score": 100
+  }
+}

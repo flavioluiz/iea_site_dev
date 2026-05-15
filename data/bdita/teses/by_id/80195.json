@@ -1,0 +1,30 @@
+{
+  "num_tese": "80195",
+  "type": "tese",
+  "title": "Otimizaçăo de topologia sob restriçăo de tensăo para aplicaçăo em subestruturas de submarino",
+  "author": "Ivan Issamu Nakamura",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Devido ŕ evoluçăo no desenvolvimento do projeto do primeiro Submarino Nuclear Convencionalmente Armado (SNCA) brasileiro, a demanda de conhecimento de áreas específicas e cada vez mais críticas tem aumentado, como é o caso do projeto de estruturas submarinas. Nesse contexto, a otimizaçăo topológica sob restriçőes de tensăo com aplicaçőes em subestruturas destaca-se pela relevância e pela natureza desafiadora dos problemas de projeto associados. A finalidade deste trabalho foi desenvolver um código computacional para análise por elementos finitos e otimizaçăo topológica visando a reduçăo de massa estrutural, sem comprometer a resistęncia avaliada por limites máximos de tensăo do material. A metodologia desenvolvida é baseada em minimizaçőes de funçăo objetivo de massa com a incorporaçăo de restriçőes de tensăo de von Mises em todos os elementos finitos que representam uma estrutura, por meio do método numérico de Lagrangiano Aumentado. As soluçőes foram obtidas por meio das rotinas de otimizaçăo do pacote fmincon do MATLAB. Estratégias de relaxaçăo de restriçőes de tensăo săo aplicadas para permitir alcançar soluçőes em regiőes degeneradas do domínio de projeto. Os resultados alcançados indicam uma minimizaçăo de massa, respeitando adequadamente as restriçőes de tensăo estabelecidas. Estas soluçőes apresentam consistęncia com a literatura, com uma diferença média de apenas 0,11% em relaçăo a massa dos modelos comparados. Além disso, os resultados demonstraram sensibilidade ŕs magnitudes de carga aplicada e aos limites de tensăo do material. Comparaçőes entre topologias otimizadas considerando restriçőes de tensăo e aquelas voltadas para flexibilidade média em problemas clássicos também foram realizadas, confirmando que a metodologia desenvolvida respeita os limites de tensăo estabelecidos. Desta maneira, concluiu-se que a aplicaçăo conjunta do método dos elementos finitos com a otimizaçăo topológica tem pleno potencial para o bom desenvolvimento de estruturas mais leves e eficientes, contribuindo para a viabilidade e competitividade do projeto do submarino no cenário global.",
+  "subjects": [
+    "Otimizaçăo",
+    "Topologia",
+    "Método de elementos finitos",
+    "Análise estrutural",
+    "Subestruturas",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "04/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80195",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80195&origem=BDITA"
+}

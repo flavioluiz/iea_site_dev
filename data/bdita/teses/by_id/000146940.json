@@ -1,0 +1,31 @@
+{
+  "num_tese": "000146940",
+  "type": "tese",
+  "title": "Projeto ótimo de painel reforçado multicamada",
+  "author": "Carlos Eduardo Stolf Cesnik",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Rizzi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, implementamos a metodologia de programaçăo ótima no ante-projeto de painel multicamada reforçado para aplicaçăo em estruturas aeronáuticas através da criaçăo do sistema PNOPT - \"Otimizaçăo de Painéis\". O painel reforçado poderá estar submetido a carregamentos de compressăo e cisalhamento no plano, alem de carregamento uniforme distribuído sobre a superfície do revestimento. O sistema é capaz de manipular um grande numero de variáveis, sendo ao mesmo tempo portátil (compatível com microcomputadores), modular e de simples manutençăo. O procedimento de projeto ótimo de painel é baseado em técnicas de programaçăo matemática năo-linear nas quais requisitos de flambagem, resistęncia, flexăo e características geometrias săo levados em consideraçăo através de restriçőes de desigualdade. As variáveis de projeto săo a largura e a espessura das camadas do laminado de cada membro da seçăo transversal do painel. O objetivo é obter projetos de peso mínimo para um dado conjunto de carregamentos, dimensőes em planta do painel de deflexăo máxima fora do plano do painel. Como otimizador, utilizamos o \"ADS\" - \"Automated Design Synthesis\" [15] - com a opçăo de Aproximaçăo Convexa Seqüencial.",
+  "subjects": [
+    "Materiais compósitos",
+    "Painéis",
+    "Otimizaçăo",
+    "Projeto estrutural",
+    "Estruturas",
+    "Programas de computadores",
+    "Materiais",
+    "Teses de Mestrado-1989"
+  ],
+  "defense_date": "01/07/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146940",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146940&origem=BDITA"
+}

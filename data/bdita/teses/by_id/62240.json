@@ -1,0 +1,30 @@
+{
+  "num_tese": "62240",
+  "type": "tese",
+  "title": "Estudo paramétrico das curvas de propagaçăo de trinca da aeronave F-5M",
+  "author": "Pedro Ivo Pinto Oliveira",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Walter da Silva Mello Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma abordagem paramétrica de monitoramento do acúmulo de dano em pontos críticos em fadiga da estrutura de aeronaves, considerando, individualmente, o seu perfil de operaçăo. Para isso, săo utilizadas Curvas de Crescimento de Trinca Normalizadas (CCTN), uma vez que elas relacionam o dano causado pelo crescimento de trinca ŕ vida em fadiga, independentemente de como a aeronave é operada. A teoria foi apresentada sequencialmente, abordando conceitos de Mecânica da Fratura Linear Elástica (MFLE), Propagaçăo de Trinca por Fadiga e a elaboraçăo da metodologia proposta. Antes de aplicar a teoria proposta, foram utilizados programas de computador, desenvolvidos pela Subdivisăo de Integridade Estrutural (ASA-I) do Instituto de Aeronáutica e Espaço (IAE), para determinar os ciclos de tensăo aplicados em cada ponto crítico, considerando os diferentes tipos de missăo realizados pelas aeronaves F-5M, e simular o crescimento de trinca nos pontos críticos, utilizando os ciclos de tensăo aos quais eles săo submetidos durante a realizaçăo de cada tipo de missăo. Os dados de crescimento de trinca de crescimento de trinca gerados durante as simulaçőes săo tratados conforme a norma ASTM E 647 e ajustados da forma integral das equaçőes de taxa de crescimento de trinca de Paris e Forman, gerando as curvas de crescimento de trinca por meio das quais săo geradas as CCTN. A metodologia proposta mostra-se mais apropriada, para aeronaves multimissăo, que o DTA tradicional por garantir a integridade estrutural independentemente do perfil de operaçăo da aeronave.",
+  "subjects": [
+    "Propagaçăo de trincas",
+    "Aeronave F-5M",
+    "Vida em fadiga",
+    "Normalizaçăo",
+    "Tolerâncias (mecânica)",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/03/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62240",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62240&origem=BDITA"
+}

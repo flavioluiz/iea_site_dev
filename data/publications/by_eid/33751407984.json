@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-33751407984",
+  "eid": "2-s2.0-33751407984",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aircraft parameter estimation experiment design considering measurement colored residuals",
+  "abstract": "This work deals with the optimization of flight test maneuvers for aerodynamic parameter estimation considering that the measurements are contaminated with colored residuals. The colored residuals consideration is important to give the direct and realistic assessment of the parameter estimation uncertainty levels prior to flight tests. The optimization technique is based on the concept of flight test data information content and Cramer-Rao lower bound. The discrete autocorrelation matrix of the measurement noise is used in order to compose the optimization criteria considering colored residuals. Some results of a flight test campaign of the CEA-205 CB.9 Curumim aircraft are discussed. The advantages of the proposed maneuvers optimization technique are presented, stressing the easiness of implementation of the signals and the strong improvement in the estimation procedures made possible with the application of the optimized maneuver signals.",
+  "authkeywords": null,
+  "year": "2006",
+  "date": "2006-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers 2006 Atmospheric Flight Mechanics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": "702-713",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Neto, Nei Salis Brasil",
+      "scopus_id": "15077365700",
+      "affiliation": "100919683-60025385-60010401",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hemerly, Elder Moreira",
+      "scopus_id": "6603075914",
+      "affiliation": "60021657-114035726",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657-114034982",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33751407984&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077882",
+    "data_quality_score": 60
+  }
+}

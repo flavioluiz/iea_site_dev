@@ -1,0 +1,28 @@
+{
+  "num_tese": "76904",
+  "type": "tese",
+  "title": "Use of decision tree classifiers for unmanned aircraft configuration selection",
+  "author": "Joăo Antônio Dantas de Jesus Ferreira",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Over the last decades, Unmanned Aerial Vehicles are being developed to attend specific mission requirements due to the lower production and operating costs, smaller frame, and absence of crew members aboard. The common practices of aircraft design, however, are outdated as the underlying assumption of pilots being on the aircraft extends the design cycle to meet regulatory requirements. Machine Learning algorithms can shorten the aircraft design cycle, especially considering the wider range of possibilities for the configuration selection on unmanned aircraft. This work presents a Decision Tree Classifier based approach to handle the configuration selection phase on the aircraft design cycle for Unmanned Aerial Vehicles. The framework created is capable of classifying the aircraft configuration based on the mission types and the operational requirements for the aircraft with reasonable accuracy. For the framework training, a database of 118 aircraft was created containing over 50 different aircraft characteristics. The framework consists of 10 Decision Tree Classifiers arranged to use the natural dependencies between the design characteristics to better classify the aircraft. The framework presented a 77.3% accuracy on the database, with 6 of the classifiers achieving over 80% accuracy.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Aprendizagem (inteligęncia artificial)",
+    "Projeto de aeronaves",
+    "Árvores de decisăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/07/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76904",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76904&origem=BDITA"
+}

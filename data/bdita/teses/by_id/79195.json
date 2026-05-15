@@ -1,0 +1,30 @@
+{
+  "num_tese": "79195",
+  "type": "tese",
+  "title": "Metodologia de deep learning aplicada ŕ inspeçăo de pontos de solda em carrocerias automotivas e fabricadas com chapas de aço",
+  "author": "Fábio do Monte Sena",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A soldagem a ponto por resistęncia é o processo de uniăo de chapas mais utilizado no contexto de fabricaçăo de carrocerias automotivas. A inspeçăo das soldas é dependente de métodos manuais para verificaçăo da qualidade, em sua maioria conduzidos por meio de martelo e talhadeira ou por ultrassom. Na prática, esses métodos săo muito trabalhosos e demorados, inviabilizando elevadas amostragens da produçăo, o que traz ŕ indústria fontes de ineficięncia. Dentre elas, destaca-se a detecçăo tardia de falhas, que se propagaram em carrocerias ŕ jusante da linha de produçăo. Conhecendo as limitaçőes do controle da qualidade, as fabricantes adotam medidas para elevar o fator de segurança do processo e do produto. Na soldagem, săo utilizados parâmetros excessivos, com o intuito de reduzir a probabilidade de inexistęncia de fusăo ou lentilhas pequenas. Nas carrocerias, alocam-se de 30 a 40% de pontos de solda além do necessário para assegurar a integridade estrutural do veículo e a segurança dos usuários. Este trabalho visa conceber uma metodologia que permita a automatizaçăo da inspeçăo de pontos de solda em escala, fazendo uso de deep learning. Existem iniciativas na literatura que procuram utilizar dados monitorados do processo a diferentes modelos de aprendizado de máquina. Porém, essas desconsideram aspectos operacionais do processo e carecem de avaliaçőes quanto ŕ capacidade de generalizaçăo do problema. Nesse contexto, propőe-se a construçăo de bancos de dados para o treinamento de redes neurais convolucionais, que levem em conta a complexidade da soldagem a ponto. Utilizam-se como dados de entrada as curvas de resistęncia dinâmica ou imagens das superfícies dos pontos de solda, rotulando as soldas a partir do diâmetro da lentilha. O estudo apresenta uma forma de se construir um banco de dados de treinamento capaz de retornar soldas boas ou ruins para os principais parâmetros de máquina, como para as fontes de variabilidade na soldagem a ponto. Os resultados săo avaliados quanto ŕs precisőes crítica e geral dos modelos, assim como por uma funçăo objetivo que deriva dessas duas informaçőes. A arquitetura de redes convolucionais híbridas, que contam com a resistęncia dinâmica e a imagem como dados de entrada, foi aquela que melhor se adequou ao problema, visto que resultados para a funçăo objetivo acima de 96% foram obtidos. Esses desempenhos podem ainda ser aprimorados pela composiçăo de um sistema de votaçăo, que faz uso de mais de uma rede convolucional para inferir a classe de qualidade da solda. Mostra-se que aprimoramentos na ordem de 0,9% e 1,1% podem ser atingidos, mesmo que os modelos individuais já atinjam desempenhos muito bons.",
+  "subjects": [
+    "Soldagem por resistęncia",
+    "Inspeçăo",
+    "Aprendizagem (inteligęncia artificial)",
+    "Redes neurais",
+    "Indústria automobilística",
+    "Metalurgia",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "14/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79195",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79195&origem=BDITA"
+}

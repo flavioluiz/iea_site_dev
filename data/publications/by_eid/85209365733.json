@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85209365733",
+  "eid": "2-s2.0-85209365733",
+  "doi": "10.1109/TITS.2024.3442973",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Safety-Oriented Motion Cueing Algorithm for a Serial Robotic Flight Simulator Using a Predictive Neural Network Reference Governor",
+  "abstract": "© 2024 IEEE.High fidelity flight simulators use motion platforms to reproduce the feeling of motion from a real flight. While most of the published works for both aircraft and vehicle simulators are related to parallel motion platforms, this work approaches the problem of designing the motion cueing algorithm of a flight simulator based on a serial manipulator. The simulator presents a large cockpit with an embedded visual system and dimensions that resemble those of an aircraft flight deck. Motion cueing in this context should be able to minimize false cues while ensuring safe operation, coping not only with the dynamic and kinematic constraints of the robot but also avoiding crash events that might happen between the cockpit and the serial arm. While there have been several contributions regarding classical filtering, tuning optimization, and model-based predictive control approaches to cope with constraints of parallel platforms, they result in the inefficient utilization of the robot workspace or even the inability to handle collisions of the cockpit with the robot. This work presents a novel motion cueing algorithm for a serial robotic flight simulator, which focuses on ensuring safety regarding the physical boundaries of the cockpit while enhancing motion fidelity. The approach is based on a hybrid model-based predictor that uses a neural network to infer workspace collisions in real-time (including crash events of the cockpit with the robotic arm), releasing a non-linear deterministic control action that acts as a feedforward reference governor. Simulation and experimental results evince improved workspace usage while ensuring safe operation.",
+  "authkeywords": [
+    "collision-avoidance",
+    "Motion cueing algorithm",
+    "neural networks",
+    "serial robotic flight simulator"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "IEEE Transactions on Intelligent Transportation Systems",
+    "issn": "15249050",
+    "eissn": "15580016",
+    "volume": "25",
+    "issue": "11",
+    "pages": "15718-15731",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da C. Matheus, Aline",
+      "scopus_id": "59414500500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Oliveira, Wesley R.",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "wesley-rodrigues-de-oliveira",
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 45,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209365733&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.048991",
+    "data_quality_score": 100
+  }
+}

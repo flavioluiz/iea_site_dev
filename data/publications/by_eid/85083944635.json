@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-85083944635",
+  "eid": "2-s2.0-85083944635",
+  "doi": "10.2514/6.2019-0986",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Machine learning fdi approach to aircraft failures using SIVOR simulator",
+  "abstract": "© 2019 by Xin Ning. Published by the American Institute of Aeronautics and Astronautics, Inc.This paper aims to analyze and compare different machine learning FDI techniques to detect and identify aircraft failures using offline analysis of FDR data. We use a motion-based flight simulator (SIVOR) to perform human-in-the-loop experiments. We performed 2 experiments of a take-off maneuvre under different conditions: normal flights and flights with aircraft failures (flap, engine, aileron and elevator failures). We applied and compared different supervised machine leaning techniques to detect and identify aircraft failures: Decision Trees, Ensemble Classifiers, Support Vector Machines (SVM) and k-Nearest Neighbors (kNN). Boosted Trees algorithm, an Ensemble Classifier, presents the best result regarding overall accuracy for both flight experiments (99.5% and 97.7%).",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kraemer, Aline D.",
+      "scopus_id": "57205546853",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083944635&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049299",
+    "data_quality_score": 90
+  }
+}

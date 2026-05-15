@@ -1,0 +1,31 @@
+{
+  "num_tese": "66866",
+  "type": "tese",
+  "title": "Modelo computacional para análise de radiadores de calor espaciais : plano e aletado",
+  "author": "Rafael Dias Vilela",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho apresenta a comparaçăo numérica entre dois tipos de radiadores de calor para aplicaçőes espaciais: o radiador plano (convencional) e o radiador aletado. Projetados para atuar no controle térmico passivo de satélites, estes dispositivos rejeitam o calor gerado pelos componentes eletrônicos e minimizam a absorçăo de calor proveniente de fontes externas (especialmente do Sol) com o objetivo de manter a temperatura dos componentes do satélite dentro de suas respectivas faixas de operaçăo. Com esta finalidade, foram desenvolvidos dois algoritmos em FORTRAN® para a soluçăo do sistema de equaçőes năo lineares que governam o acoplamento condutivo-radiativo presente em cada radiador. Estas equaçőes foram discretizadas bidimensionalmente pelo Método dos Volumes Finitos e o sistema resultante foi resolvido com a aplicaçăo do Tri-Diagonal Matrix Algorithm combinado com um processo iterativo. Os resultados numéricos obtidos demonstram que o radiador aletado possui maior capacidade de rejeiçăo de calor em comparaçăo com o radiador plano para as configuraçőes dimensionais adotadas. As simulaçőes realizadas também mostram que a degradaçăo das propriedades termoópticas acentua o aumento das temperaturas no radiador. Por fim, săo apresentados os perfis de temperaturas de ambos os radiadores estudados em condiçőes críticas de operaçăo.",
+  "subjects": [
+    "Radiadores de espaçonaves",
+    "Termodinâmica",
+    "Satélites",
+    "Controle de temperatura",
+    "Transferęncia de calor",
+    "Análise numérica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "27/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66866",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66866&origem=BDITA"
+}

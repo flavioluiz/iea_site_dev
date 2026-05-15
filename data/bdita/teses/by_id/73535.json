@@ -1,0 +1,34 @@
+{
+  "num_tese": "73535",
+  "type": "tese",
+  "title": "Bayesian model updating in structural dynamics using a Markov chain Monte Carlo method",
+  "author": "Rafael Beal Macedo",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "abstract": "Finite element models are used in a wide range of engineering problems, having become a standard practice for the aerospace industry, among others. However, the correlation between numeric and experimental data is not always satisfactory, especially when complex systems are being modeled. The reasons for the discrepancy between finite-element model data and measured data include the difficulty to model certain geometries and boundary conditions, as well as variations of material properties, among others. In order to overcome those difficulties, model updating techniques were developed and have been successfully applied. Recent works have shown the advantages of the Bayesian framework over the former. Particularly, the Markov Chain Monte Carlo (MCMC) method and its variations have gained great importance recently. The objective of this work is to study the application of these methods in structural dynamics finite element models. The Bayesian framework is presented along with the concept of model identifiability. Then, an implementation of the adaptive MCMC proposed by Beck and Au was used to update the dynamic model of a beam with constrained-layer damping, correlating experimental data to the model. First, modal data was used to determine an approximation of the frequency-dependent equivalent elastic modulus parameters of the model. This was followed by a second stage of updating, where the beam equivalent elastic modulus and damping loss factor values are updating simultaneously using frequency-domain data.",
+  "subjects": [
+    "Cadeias de Markov",
+    "Método de Monte Carlo",
+    "Análise estrutural dinâmica",
+    "Método de elementos finitos",
+    "Indústria aeronáutica",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "06/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73535",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73535&origem=BDITA"
+}

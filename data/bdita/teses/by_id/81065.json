@@ -1,0 +1,32 @@
+{
+  "num_tese": "81065",
+  "type": "tese",
+  "title": "Numerical method for fracture onset calculation of composite structures with holes",
+  "author": "Lucas Fernando Colloca",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The methodology developed in this dissertation allows for the determination of the residual strength of a composite laminate with multiple holes. This is achieved by using simplified finite element models based on the value of the stress concentration factor, eliminating the need for complex damage and degradation models. A comprehensive state-of-the-art literature review is conducted, focusing on the effect of holes on stress concentration factors and the determination of the residual strength of laminated composite materials. Next, Open-Hole Tension (OHT) tests on composite laminates are used as a reference to validate the developed numerical models. Using the results of these tests, 3D FEA models are made considering a single hole. Satisfactory correlations were obtained by comparing the strength results from the tests with those provided numerically. Subsequently, the effect of the interaction between two holes on stress concentration factors is studied. Pairs of holes are positioned symmetrically with respect to the laminate's longitudinal centerline, with different spacings between their centers (referred to as pitches), to analyze the stress concentration factor values for each configuration. After that, the behavior of the residual strength is studied for different multiple hole configurations, using the respective stress concentration factor values provided by 2D FEA models. Additionally, satisfactory correlations were found between the stress concentration factors given by the 2D and 3D FEA models. Finally, a methodology is proposed to validate the 2D FEA models considering the presence of two holes. Satisfactory correlations are obtained for mode I fracture toughness values when comparing the results provided by the models with the theoretical results. The methodology can also be used to define the minimum acceptable pitch distances between holes, which minimize the interaction effect between them and the loss of the assembly's residual strength.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Concentraçăo de tensăo",
+    "Resistęncia residual",
+    "Furos (Mecânica)",
+    "Análise numérica",
+    "Fraturas (materiais)",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "28/10/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81065",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81065&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "000556164",
+  "type": "tese",
+  "title": "Desenvolvimento de um método para determinaçăo de condutividade térmica anisotrópica.",
+  "author": "Alfredo Carlos do Prado",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A conduçăo de calor em sólidos é estudada geralmente em materiais isotrópicos onde a condutividade térmica năo é dependente da direçăo. Porém, muitos materiais (naturais ou năo) săo ditos anisotrópicos. Destes podemos citar cristais, madeiras, rochas, forjados a frio, laminados, estruturas reforçadas com fibras (de vidro, de carbono, etc). Matematicamente, a condutividade térmica de isotrópico é um escalar. Já em um material anisotrópico, esta se apresenta como um tensor de segunda ordem (nove componentes). Desta forma, o estudo de trocas de calor torna-se muito dificultoso. Uma maneira adequada de tratar tais dificuldades é transformar este tensor de nove componentes, funçăo de tręs coordenadas de direçăo, em tręs únicas componentes (ditas principais) com suas respectivas (e novas) direçőes (ditas também principais). Esta abordagem é semelhante ao estudo de tensor de tensőes mecânicas em sólidos. Mesmo reduzindo o número de componentes ainda, logicamente, é necessário conhecer estas \"ditas principais\" para que haja soluçăo do problema de troca de calor. Para tanto, este projeto propőe o desenvolvimento de um modelo matemático-experimental para determinaçăo destas condutividades principais e de suas direçőes, que săo obtidas pela determinaçăo dos seus respectivos autovalores e cossenos diretores.",
+  "subjects": [
+    "Condutividade térmica",
+    "Meios anisotrópicos",
+    "Anisotropia",
+    "Modelos matemáticos",
+    "Transferęncia de calor",
+    "Física"
+  ],
+  "defense_date": "09/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000556164",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000556164&origem=BDITA"
+}

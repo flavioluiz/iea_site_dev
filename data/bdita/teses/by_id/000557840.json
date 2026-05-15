@@ -1,0 +1,29 @@
+{
+  "num_tese": "000557840",
+  "type": "tese",
+  "title": "Experimental setup for air traffic control cognitive complexity analysis.",
+  "author": "Emilio Alverne Falcăo de Albuquerque Filho",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In many parts of the world, future air traffic demands are expected to exceed air traffic capabilities and, at times, the system does already become overloaded. In this context, in the United States, the Next Generation Air Transportation System (NGATS) vision arises, which calls for a set of system modifications, with the increase and addition of capabilities that are expected to allow a proper response to the future needs of the American air transportation system. As a consequence of these modifications, the controller's tasks and roles are going to change, but it is anticipated that the cognitive complexity is going to remain a limiting factor to the system capacity. Therefore it is necessary to understand the complexity's mechanisms and how it might behave under current and future operations. This work deals with the identification of the key factors that drive complexity and the development of cognitive complexity metrics for the current and future operations. It is presented the experimental setup designed for measuring effects of four-dimensional trajectories and different schedules on air traffic controller perceived complexity. A complexity measure indicator based on the implemented complexity subjective metrics has been derived. This indicator has shown higher sensibility to complexity behavior compared to any of the other metrics alone. Nonetheless, it was found that this complexity indicator has to be used together with metrics that capture aircraft individual complexity, in order to fully describe the underlying cognitive complexity. It is found that Time-Based control induces lower perceived complexity than Position-Based control. Optimized schedules prove to be proner to higher cognitive complexity levels, due to the difficulty of conforming to a tight throughput and executing aircraft swaps. Nevertheless, if optimized schedules are used under Time-Based control, the least complexity measures are detected. This suggests how automation tools and optimized schedules must be considered in the design of future air traffic control operations.",
+  "subjects": [
+    "Psicologia cognitiva",
+    "Controle de tráfego aéreo",
+    "Métodos estatísticos",
+    "Capacidade do sistema de guiamento",
+    "Engenharia de fatores humanos",
+    "Transportes"
+  ],
+  "defense_date": "15/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557840",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557840&origem=BDITA"
+}

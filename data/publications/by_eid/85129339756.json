@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85129339756",
+  "eid": "2-s2.0-85129339756",
+  "doi": "10.1007/s42417-022-00511-1",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Kriging/FORM Reliability Analysis of Rotor-Bearing Systems",
+  "abstract": "© 2022, Krishtel eMaging Solutions Private Limited.This paper is devoted to the reliability analysis of rotor-bearing systems, based on the combination of Kriging metamodels and the First-Order Reliability Method (FORM). The main motivation arises from the fact that high-fidelity structural models generally lead to high computation costs, which can be strongly alleviated using surrogate models. Since applications to rotating machines have not been sufficiently explored so far, the contribution of the present paper consists in the evaluation of the performance, both in terms of accuracy and computational effort, of a numerical strategy based on the combination of Kriging metamodels and FORM to this type of machines, accounting for their typical frequency domain responses and applicable limit-states. Such an evaluation is made by confronting four different strategies, combining: (i) full finite element models and Monte Carlo simulations; (ii) full finite element models and FORM; (iii) Kriging metamodels and Monte Carlo simulations; (iv) Kriging metamodels and FORM. Results show that the Kriging/FORM strategy provides substantial decrease of computation effort, while keeping satisfactory accuracy of reliability estimations. In addition, a procedure is proposed for improvement of the accuracy of Kriging/FORM reliability estimates, by enriching the Kriging design of experiments in the vicinity of the Most Probable Failure Point.",
+  "authkeywords": [
+    "First-order reliability method",
+    "Kriging",
+    "Rotor-bearing systems",
+    "Structural reliability",
+    "Uncertainty quantification"
+  ],
+  "year": "2022",
+  "date": "2022-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Vibration Engineering and Technologies",
+    "issn": "25233920",
+    "eissn": "25233939",
+    "volume": "10",
+    "issue": "6",
+    "pages": "2179-2201",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barbosa, M. P.F.",
+      "scopus_id": "57203456027",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 52,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129339756&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088693",
+    "data_quality_score": 100
+  }
+}

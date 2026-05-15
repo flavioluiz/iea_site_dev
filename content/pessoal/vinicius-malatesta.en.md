@@ -2,7 +2,6 @@
 title: "Vinicius Malatesta"
 layout: professor
 professor_id: "vinicius-malatesta"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Additional content can be added here if needed -->

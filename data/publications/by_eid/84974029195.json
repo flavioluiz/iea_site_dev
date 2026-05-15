@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-84974029195",
+  "eid": "2-s2.0-84974029195",
+  "doi": "10.1017/S0263574700008134",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Semi-automatic calibration procedure for the vision-robot interface applied to scale model decoration",
+  "abstract": "A semi-automatic method for calibrating a robot-vision interface is presented. It puts a small work-load on the operator, requires a simple calibration jig and a solution of a very simple system of equations. It has been extensively used in an experimental robotic cell set up at Loughborough University of Technology, where various aspects of the manufacturing and the decoration of scale models are being investigated. As an extension of the calibration procedure, the paper also shows practical solutions for the problem of dealing with three dimensional objects using a single camera. © 1992, Cambridge University Press. All rights reserved.",
+  "authkeywords": [
+    "Calibration",
+    "Decoration",
+    "Models",
+    "Vision"
+  ],
+  "year": "1992",
+  "date": "1992-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Robotica",
+    "issn": "02635747",
+    "eissn": "14698668",
+    "volume": "10",
+    "issue": "4",
+    "pages": "303-308",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Trabasso, Luis Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60000891",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Zielinski, Cezary",
+      "scopus_id": "7102986341",
+      "affiliation": "60000891",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 5,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84974029195&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125543",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-84864747574",
+  "eid": "2-s2.0-84864747574",
+  "doi": "10.1016/j.compstruct.2012.06.008",
+  "pii": "S0263822312002905",
+  "pubmed_id": null,
+  "title": "The effect of piezoelectrically induced stress stiffening on the aeroelastic stability of curved composite panels",
+  "abstract": "This work investigates the aeroelastic stability boundary of flutter in aircraft composite panels, curved or flat, subject to the effect of stress stiffening caused by the piezoelectric actuator (PZT). Hamilton's principle is used for the formulation of the energy functional and to obtain the equilibrium equations and boundary conditions of the problem. The finite element method is employed to numerically solve the equations. The aeroelastic behavior of panels manufactured in composite material (boron-epoxy) or conventional material (aluminum 2024-T3) are assessed. Two layers of piezoelectric material (ACX QP10N) are attached to the panels: one on the top surface one on the bottom surface of the panels. Prescribed voltages are statically applied to the piezoelectric actuators, inducing a prestress field which is responsible for the stress stiffening effects when coupled with the nonlinear strain components. Different geometric configuration, laminate stacking sequence, boundary conditions and curvatures are investigated. The study shows that mechanically strain-induced piezoelectric effect increases the rate of occurrence of flutter, stabilizing the plate. This stiffening of the structure is related to the voltage applied on the actuators and the geometrical parameters of the plate. Thus, one can control the occurrence of flutter speed by controlling the voltage applied and the proper design of the geometric properties of the panel and tailoring of the composite laminate. © 2012 Elsevier Ltd.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Composite panels",
+    "Flutter"
+  ],
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "94",
+    "issue": "12",
+    "pages": "3601-3611",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Almeida, A.",
+      "scopus_id": "57211220616",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, M. V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "de Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "de Almeida, S. F.M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 30,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84864747574&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044517",
+    "data_quality_score": 100
+  }
+}

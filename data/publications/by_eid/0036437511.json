@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-0036437511",
+  "eid": "2-s2.0-0036437511",
+  "doi": "10.1115/FEDSM2002-31126",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical treatment of the stress jump interface condition for laminar flow in a channel partially filled with a porous material",
+  "abstract": "A number of natural and engineering systems can be characterized by some sort of porous structure through which a working fluid permeates. Boundary layers over tropical forests the spreading of chemical contaminants through underground water reservoirs are examples of important environmental flows that can benefit form appropriate mathematical treatment. For hybrid media, involving both a porous structure and a clear flow region, difficulties arise due to the proper mathematical treatment given at the interface. The literature proposes a jump condition in which stresses at both sides of the interface are not of the same value. The objective of this paper is to present a numerical implementation for solving such hybrid medium, considering here a channel partially filled with a porous layer through which fluid flows in laminar regime. One unique set of transport equations is applied to both regions. Numerical results are compared with available analytical solutions in the literature for two cases, namely, with and without the non-linear Forchheimer term. Results are presented for the mean velocity across both the porous structure and the clear region. The influence of medium properties, such as porosity and permeability, is discussed.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-12-11",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Fluids Engineering Division Publication FED",
+    "issn": null,
+    "eissn": null,
+    "volume": "257",
+    "issue": "1 B",
+    "pages": "715-722",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Da Silva, Renato Alves",
+      "scopus_id": "35578549800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0036437511&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111706",
+    "data_quality_score": 90
+  }
+}

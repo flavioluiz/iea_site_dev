@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-105012578481",
+  "eid": "2-s2.0-105012578481",
+  "doi": "10.1016/j.icheatmasstransfer.2025.109412",
+  "pii": "S0735193325008383",
+  "pubmed_id": null,
+  "title": "A finite element model of thermite reaction for wellbore plugging & abandonment operation using moving mesh",
+  "abstract": "© 2025 Elsevier LtdFor the petroleum industry, one of the most critical and expensive stages of offshore platform decommissioning is the wellbore plugging and abandonment (P&A) operation. Decommissioning standards require that, at the end of its lifespan, the wellbore be permanently sealed to impede the spill of contaminating hydrocarbons into marine ecosystems or aquifers. The current decommissioning operation comprises removing the production tubing, machining the borehole casing, and cementing the machined section to seal the wellbore. Such an operation has a relatively high cost and several risks. An alternative technology is replacing cement with a metallic plug created by the thermite reaction. This technology still needs improvements to be successfully employed in offshore oil fields, and numerical simulation is a useful tool to optimize critical parameters. We developed an axisymmetric, finite-element-based heat conduction model to simulate the thermite reaction and the temperature evolution inside a typical wellbore. The phase change of both thermite and wellbore components is calculated using the apparent heat capacity method, and a moving mesh scheme is proposed to capture the reaction fronts. We perform numerical simulations to verify and validate the model, and we run different P&A scenarios while discussing risks and opportunities for this new technology.",
+  "authkeywords": [
+    "Finite element method",
+    "Moving mesh",
+    "Plug and abandonment operation",
+    "Thermal model",
+    "Thermite reaction"
+  ],
+  "year": "2025",
+  "date": "2025-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "168",
+    "issue": null,
+    "pages": null,
+    "article_number": "109412"
+  },
+  "authors": [
+    {
+      "name": "dos Santos, Thiago Dias",
+      "scopus_id": "57189518612",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Rodrigo G.Dourado",
+      "scopus_id": "60030391500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Pires, Luis Carlos Marques",
+      "scopus_id": "60030534700",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 86,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012578481&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090808",
+    "data_quality_score": 90
+  }
+}

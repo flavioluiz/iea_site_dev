@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-84880842065",
+  "eid": "2-s2.0-84880842065",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Detailed study of hydrogen combustion in homogeneous reactor",
+  "abstract": "The burning simulation of hydrogen was carried on in the reactor model Aurora, present in the software Chemkin, with three different experimental data sets and one calculated set, by quantum chemistry methods (MP2). The analysis of the calculated parameters for each reaction was made and compared to the experimental ones through burning simulations. A detailed study of the mechanism was realized, while setting specific time inputs, showing the concentrations of chemical species and the rates of production/consumption of reactants, intermediates and products. The ignition step of the combustion was simulated, when varying the time from 0 to 3 nanoseconds. All the mechanisms showed different results in this step. More refinement is needed in the theoretical data in order to successfully simulate the ignition phase. This methodology allows the insertion of new reactions in several mechanisms and also the calculation of parameters for reactions which cannot be determined experimentally. © 2012 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "48th AIAA ASME SAE ASEE Joint Propulsion Conference and Exhibit 2012",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, R. F.B.",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Iha, K.",
+      "scopus_id": "7003624393",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, J. A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves",
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880842065&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.115214",
+    "data_quality_score": 60
+  }
+}

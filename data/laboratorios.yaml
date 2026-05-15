@@ -546,3 +546,79 @@ laboratorios:
     projetos_associados:
       - "Materiais Energéticos"
       - "Proteção Térmica de Reentrada"
+
+  ltf:
+    id: "ltf"
+    sigla: "LTF"
+    nome_pt: "Laboratório de Tecnologias de Foguetes"
+    nome_en: "Rocket Technologies Laboratory"
+    tema: "espacial"
+    cor: "#7c3aed"
+    descricao_pt: |
+      O Laboratório de Tecnologias de Foguetes (LTF) é dedicado ao desenvolvimento e pesquisa em sistemas de propulsão de foguetes, motores-foguete a propelente sólido e híbrido, bancadas de teste de propulsores e tecnologias associadas a veículos lançadores. Apoia projetos de pesquisa e desenvolvimento com ênfase em propulsão espacial e sondagem atmosférica.
+    descricao_en: |
+      The Rocket Technologies Laboratory (LTF) is dedicated to research and development in rocket propulsion systems, solid and hybrid propellant rocket motors, thruster test benches, and technologies associated with launch vehicles. It supports R&D projects with emphasis on space propulsion and atmospheric sounding.
+    infraestrutura:
+      - "Bancadas de teste de motores-foguete"
+      - "Sistemas de aquisição de dados para propulsão"
+      - "Equipamentos para propelentes sólidos e híbridos"
+      - "Instrumentação de diagnóstico de chama"
+    infraestrutura_en:
+      - "Rocket motor test benches"
+      - "Propulsion data acquisition systems"
+      - "Solid and hybrid propellant equipment"
+      - "Flame diagnostic instrumentation"
+    tags: ["foguetes", "propulsão espacial", "VLS", "sondagem"]
+    website_url: ""
+
+  cei:
+    id: "cei"
+    sigla: "CEI"
+    nome_pt: "Centro Espacial ITA"
+    nome_en: "ITA Space Center"
+    tema: "espacial"
+    cor: "#0f766e"
+    descricao_pt: |
+      O Centro Espacial ITA (CEI) é o núcleo de atividades espaciais do Instituto Tecnológico de Aeronáutica. Integra pesquisa, ensino e desenvolvimento tecnológico nas áreas de satélites, veículos lançadores, operações espaciais e sistemas de rastreio. Abriga o programa ITASAT e projetos em parceria com a Força Aérea Brasileira e agências espaciais internacionais.
+    descricao_en: |
+      The ITA Space Center (CEI) is the hub for space activities at the Technological Institute of Aeronautics. It integrates research, teaching, and technological development in satellites, launch vehicles, space operations, and tracking systems. It houses the ITASAT program and projects in partnership with the Brazilian Air Force and international space agencies.
+    infraestrutura:
+      - "Sala limpa para integração de satélites"
+      - "Sistemas de rastreio e TT&C"
+      - "Simuladores de operações espaciais (SOLIS/STK)"
+      - "Laboratório de sistemas embarcados espaciais"
+      - "Ambiente de testes de subsistemas de satélite"
+    infraestrutura_en:
+      - "Clean room for satellite integration"
+      - "Tracking and TT&C systems"
+      - "Space operations simulators (SOLIS/STK)"
+      - "Space embedded systems laboratory"
+      - "Satellite subsystem test environment"
+    tags: ["satélites", "ITASAT", "operações espaciais", "rastreio", "veículos lançadores"]
+    website_url: "https://cei.ita.br"
+
+  conceptio:
+    id: "conceptio"
+    sigla: "CONCEPTIO"
+    nome_pt: "Laboratório de Pesquisa em Concepção de Sistemas Complexos"
+    nome_en: "Complex Systems Design Research Laboratory"
+    tema: "aeronautica"
+    cor: "#0f172a"
+    descricao_pt: |
+      O CONCEPTIO é o laboratório de pesquisa do ITA dedicado à concepção de sistemas complexos, com foco em Engenharia de Sistemas, Modelagem e Simulação, Tecnologias de Jogos e Interfaces Naturais. Hospeda a Arena CONCEPT.IO, ambiente físico para desenvolvimento de estratégias de projeto, hackathons, artefatos tangíveis e simulações, com orientação a aplicações de defesa e sistemas aeroespaciais.
+    descricao_en: |
+      CONCEPTIO is ITA's research laboratory dedicated to complex systems design, focusing on Systems Engineering, Modeling and Simulation, Game Technologies, and Natural Interfaces. It hosts the Arena CONCEPT.IO, a physical facility for design strategies, hackathons, tangible artifacts, and simulations, oriented toward defense and aerospace systems applications.
+    infraestrutura:
+      - "Arena CONCEPT.IO (ambiente imersivo)"
+      - "Ferramentas de modelagem e simulação"
+      - "Tecnologias de jogos aplicados a sistemas"
+      - "Interfaces naturais e realidade aumentada"
+      - "Ambiente para hackathons e design sprints"
+    infraestrutura_en:
+      - "Arena CONCEPT.IO (immersive environment)"
+      - "Modeling and simulation tools"
+      - "Game technologies for systems design"
+      - "Natural interfaces and augmented reality"
+      - "Hackathon and design sprint environment"
+    tags: ["engenharia de sistemas", "modelagem", "simulação", "defesa", "concepção"]
+    website_url: "https://www.conceptio.ita.br"

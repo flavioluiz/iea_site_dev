@@ -1,0 +1,28 @@
+{
+  "num_tese": "000395031",
+  "type": "tese",
+  "title": "Modelo de crescimento de trinca para estruturas sujeitas a cargas de amplitude variável.",
+  "author": "Alberto Walter da Silva Mello Júnior",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Pazini Brandăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho incorpora um modelo de múltiplos parâmetros de retardamento, aceleraçăo, múltiplas sobrecargas e subcarga ao modelo de crescimento de trinca de Forman (1993), para cobrir os efeitos que influenciam o crescimento de trinca na análise pela Mecânica da Fratura Linear Elástica (MFLE), quando as cargas năo possuem amplitude constante. A teoria é descrita de forma seqüencial, incluindo os conceitos da Mecânica da Fratura e a elaboraçăo do modelo proposto. O retardamento é baseado no modelo de Willenborg (1971), modificado por Gallagher (1974). A calibraçăo do fator de intensidade de tensăo relativo ŕ sobrecarga é baseado na proposiçăo de Elber (1971) e nas equaçőes de Newman (1984). Os efeitos de múltiplas sobrecargas, aceleraçăo e subcarga săo incorporadas ao modelo conforme proposto por Johnson (1981). A intensidade do efeito da subcarga é ajustada de acordo com as observaçőes de Stephens (1976) para sobrecargas seguidas de compressăo. O modelo desenvolvido foi implementado a um software de crescimento de trinca já disponível no mercado, de forma a facilitar a execuçăo dos exemplos apresentados. O modelo mostrou-se extremamente satisfatório diante dos dados de laboratório disponíveis do Projeto \"F-5 FMS Durability and Damage Tolerance Analysis Update\" e em relaçăo ao exemplo acadęmico proposto por Wheeler (1972).",
+  "subjects": [
+    "Mecânica de fratura",
+    "Propagaçăo de trincas",
+    "Análise de tensăo",
+    "Análise estrutural",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000395031",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000395031&origem=BDITA"
+}

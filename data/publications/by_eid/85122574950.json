@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85122574950",
+  "eid": "2-s2.0-85122574950",
+  "doi": "10.1017/jfm.2021.1029",
+  "pii": "S0022112021010296",
+  "pubmed_id": null,
+  "title": "Transition to chaos in a reduced-order model of a shear layer",
+  "abstract": "© 2021 The Author(s). Published by Cambridge University Press.The present work studies the nonlinear dynamics of a shear layer, driven by a body force and confined between parallel walls, a simplified setting to study transitional and turbulent shear layers. It was introduced by Nogueira & Cavalieri (J. Fluid Mech., vol. 907, 2021, A32), and is here studied using a reduced-order model based on a Galerkin projection of the Navier-Stokes system. By considering a confined shear layer with free-slip boundary conditions on the walls, periodic boundary conditions in streamwise and spanwise directions may be used, simplifying the system and enabling the use of methods of dynamical systems theory. A basis of eight modes is used in the Galerkin projection, representing the mean flow, Kelvin-Helmholtz vortices, rolls, streaks and oblique waves, structures observed in the cited work, and also present in shear layers and jets. A dynamical system is obtained, and its transition to chaos is studied. Increasing Reynolds number leads to pitchfork and Hopf bifurcations, and the latter leads to a limit cycle with amplitude modulation of vortices, as in the direct numerical simulations by Nogueira & Cavalieri. Further increase of leads to the appearance of a chaotic saddle, followed by the emergence of quasi-periodic and chaotic attractors. The chaotic attractors suffer a merging crisis for higher, leading to a chaotic dynamics with amplitude modulation and phase jumps of vortices. This is reminiscent of observations of coherent structures in turbulent jets, suggesting that the model represents a dynamics consistent with features of shear layers and jets.",
+  "authkeywords": [
+    "chaos",
+    "jet noise",
+    "low-dimensional models"
+  ],
+  "year": "2022",
+  "date": "2022-02-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "932",
+    "issue": null,
+    "pages": null,
+    "article_number": "A43"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Rempel, Erico L.",
+      "scopus_id": "6701553759",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 85,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85122574950&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100619",
+    "data_quality_score": 100
+  }
+}

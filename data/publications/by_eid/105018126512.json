@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-105018126512",
+  "eid": "2-s2.0-105018126512",
+  "doi": "10.2514/6.2025-3551",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear Control Laws Design for Generic Fighter Jet in Transonic Regime",
+  "abstract": "© 2025, American Institute of Aeronautics and Astronautics, Inc. All rights reserved.This paper explores control alternatives for a generic fighter jet focusing on handling qualities enhancement in the transonic flight regime. The aerodynamic coefficients of the aircraft exhibit abrupt variations due to shock wave interference, so nonlinear control strategies are suggested. MATLAB simulations are employed to analyze the influence of these control laws on aircraft dynamics, including automated routines for equilibrium calculations, linearization, and the design of a conventional gain-scheduled Stability Augmentation System (SAS). Preliminary results demonstrate the SAS’s lack of effectiveness in mitigating transonic nonlinearities when sensor measurement errors occur. Therefore, the application of two nonlinear control techniques is proposed and investigated: Nonlinear Dynamic Inversion (NDI) and an output based Incremental Nonlinear Dynamic Inversion (INDI). The controlled variable of the flight control system is selected based on analysis of the Zero Dynamics Matrix calculated for load factor at the pilot’s station, the C-star parameter, and a combination of C-star, true airspeed, and altitude. Whereas NDI and INDI techniques result in adequate performance and stability characteristics in nominal conditions, the INDI controller is confirmed to be more robust to sensor measurement errors.",
+  "authkeywords": [
+    "Aerodynamic Coefficients",
+    "Computer Programs",
+    "Control Law Design",
+    "Flight Control System",
+    "Incremental Nonlinear Dynamic Inversion",
+    "Longitudinal Controller",
+    "Longitudinal Flying Qualities",
+    "Sensors",
+    "Shock Waves",
+    "Stability Augmentation Systems"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Alves, Júlia M.D.",
+      "scopus_id": "60131229200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Moreira, Marco A.G.",
+      "scopus_id": "57852342300",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 49,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018126512&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055111",
+    "data_quality_score": 90
+  }
+}

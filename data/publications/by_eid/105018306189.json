@@ -1,0 +1,142 @@
+{
+  "publication_id": "2-s2.0-105018306189",
+  "eid": "2-s2.0-105018306189",
+  "doi": "10.2514/6.2025-3380",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "ITA and Embraer Aeroelasticity Cooperation in Preparation for the AEPW-4",
+  "abstract": "© 2025, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper showcases the collaborative efforts between ITA (academic) and Embraer (aircraft manufacturer) in developing advanced methods to address the upcoming challenges of the 4th Aeroelastic Prediction Workshop. For predicting static wing loads, a rapid conceptual design method that accounts for structural geometric nonlinearity is introduced. A matched flutter solution is proposed for control surface flutter in geometrically nonlinear wings. For predicting limit cycle oscillations, the approach combining an unsteady vortex lattice with a transient structural geometric nonlinear solver is presented. Furthermore, a framework that integrates an open-source Reynolds-Averaged Navier-Stokes solver with a geometric nonlinear structural solver is developed to handle transonic static deflections.",
+  "authkeywords": [
+    "Aerodynamic Analysis",
+    "Aeroelastic System",
+    "Common Research Model",
+    "Control Surfaces",
+    "Fluid Structure Interaction Methodology",
+    "Geometric Nonlinearity",
+    "Nastran",
+    "Reynolds Averaged Navier Stokes",
+    "Vortices",
+    "Wing Loading"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Verri, Angelo Antonio",
+      "scopus_id": "57205545553",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Silva Bussamra, Flávio Luiz",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Kleine, Vitor Gabriel",
+      "scopus_id": "57193867121",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vitor-gabriel-kleine"
+    },
+    {
+      "name": "de Lima Almeida, Orlando G.",
+      "scopus_id": "60133972200",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gomes, Arthur Barbosa",
+      "scopus_id": "60133809500",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Schleetz, Henrique Stacheski",
+      "scopus_id": "60133908400",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, Bruno Kronbauer",
+      "scopus_id": "60133844700",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Carvalho Menezes, Withor F.",
+      "scopus_id": "60133938300",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Melo, Felipe Buarque C.",
+      "scopus_id": "58243127600",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fernandes, Julio Cesar Santana",
+      "scopus_id": "60133972300",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra",
+    "vitor-gabriel-kleine"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018306189&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047090",
+    "data_quality_score": 90
+  }
+}

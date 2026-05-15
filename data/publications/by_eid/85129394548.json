@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85129394548",
+  "eid": "2-s2.0-85129394548",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "FIRST APPROXIMATION FOR SPACECRAFT MOTION RELATIVE TO (99942) APOPHIS",
+  "abstract": "© 2021, Publishing House of the Romanian Academy. All rights reserved.We aim at providing a preliminary approach on the dynamics of a spacecraft in orbit about the asteroid (99942) Apophis during its Earth close approach. The physical properties from the polyhedral shape of the target are derived by assigning each tetrahedron to a point mass in its center. That considerably reduces the computation processing time compared to previous methods to evaluate the gravitational potential. The surfaces of section close to Apophis are build considering or not the gravitational perturbations of the Sun, the planets, and the SRP. The Earth is the one that most affects the investigated region making the vast majority of the orbits collide or escape from the system. Moreover, from numerical analysis of orbits started on March 1, 2029, the less perturbed region is characterized by the variation of the semimajor axis of 40-day orbits, which do not exceed 2 km very close to the central body (a < 4 km, e < 0.4). However, no regions investigated could be a possible option for inserting a spacecraft into natural orbits around Apophis during the close approach with our planet. Finally, to solve the stabilization problem in the system, we apply a robust path following control law to control the orbital geometry of a spacecraft. At last, we present an example of a successful operation of our orbit control with a total △v of 0.495 m/s for 60 days. All our results are gathered in the CPM-ASTEROID database, which will be regularly updated by considering other asteroids.",
+  "authkeywords": [
+    "asteroids: individual (Apophis)",
+    "Celestial Mechanics",
+    "Dynamical astronomy",
+    "Minor planets"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Romanian Astronomical Journal",
+    "issn": "12205168",
+    "eissn": "22853758",
+    "volume": "31",
+    "issue": "3",
+    "pages": "241-263",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Aljbaae, Safwan",
+      "scopus_id": "56330905000",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sanchez, Diogo M.",
+      "scopus_id": "24473236100",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Prado, Antonio F.B.A.",
+      "scopus_id": "7006625726",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Souchay, Jean",
+      "scopus_id": "6603337092",
+      "affiliation": "60003674",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, Maisa O.",
+      "scopus_id": "7003287545",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    },
+    {
+      "name": "Negri, Rodolfo B.",
+      "scopus_id": "57195243655",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marchi, Luis O.",
+      "scopus_id": "57197774214",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85129394548&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068375",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "num_tg": "78830",
+  "type": "tg",
+  "title": "Projeto de sistema de telemetria para balőes meteorológicos",
+  "author": "Joliver de Souza Lisboa Kozlowski",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rogério Moreira Cazo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho descreve o projeto de um Sistema de Telemetria para Balőes Meteorológicos. O sistema projetado faz a transmissăo por telemetria dos dados e medidas provenientes da carga útil embarcada em um balăo estratosférico, além das coordenadas da posiçăo do balăo, para uma estaçăo de solo. Ademais, o sistema fornece ŕ carga útil embarcada a infraestrutura necessária para o bom funcionamento da mesma durante o voo do balăo, como, por exemplo, potęncia elétrica e isolamento térmico. O projeto apresentado abrange tanto a concepçăo do sistema - parte teórica - quanto a construçăo de um protótipo - parte prática - a partir de componentes comerciais de prateleira (ou commercial off-the-shelf - COTS). O protótipo construído teve como payload base um contador geiger para mediçăo de radiaçăo. A obtençăo de uma série histórica atualizada e do monitoramento dos níveis de radiaçăo atmosférica ionizante no Brasil faz-se necessária tendo em vista possíveis agravamentos de tensőes internacionais envolvendo grandes potęncias nucleares, o que é ressaltado pelo recente conflito envolvendo a Rússia e a Ucrânia, e uma consequente contaminaçăo do ar em território brasileiro por radiaçăo transportada através dos ventos da alta atmosfera.",
+  "subjects": [
+    "Telemetria",
+    "Balőes meteorológicos",
+    "Projeto",
+    "Processamento digital de sinais",
+    "Sincronizaçăo",
+    "Telecomunicaçőes",
+    "Computaçăo",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78830",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78830&origem=BDITA"
+}

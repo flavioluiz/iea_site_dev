@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85042928105",
+  "eid": "2-s2.0-85042928105",
+  "doi": "10.1016/j.icheatmasstransfer.2018.02.014",
+  "pii": "S0735193318300228",
+  "pubmed_id": null,
+  "title": "A thermal analysis in laser welding using inverse problems",
+  "abstract": "© 2018 Elsevier LtdThe heat flux inverse analysis is significantly affected by the heat flux distribution in laser welding simulation. This work proposed a different approach for the heat distribution which predicts the temperature and the weld bead in laser welding. The influence of the heat flux distribution in an inverse heat conduction problem applied on laser welding simulation is studied by comparing different heat distribution models. An inverse heat conduction algorithm based on the three-dimensional (3D) heat diffusion equation and the enthalpy function to model the phase change problem are used to estimate the heat flux under different heat distributions. The Time Traveling Regularization is applied with the Golden Section method to estimate the heat flux in the studied cases. The proposed cubic root and square root of the volumetric heat distribution presented a good agreement between the weld profile and the experimental temperatures. The heat rate estimation proves to be dependent on the heat distribution. The proposed methodology is an alternative to predict the weld bead profile and the thermal efficiency in low penetration laser welding.",
+  "authkeywords": [
+    "Heat flux",
+    "Inverse problems",
+    "Laser welding",
+    "Thermal efficiency",
+    "Time traveling regularization"
+  ],
+  "year": "2018",
+  "date": "2018-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "92",
+    "issue": null,
+    "pages": "112-119",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60025299",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Paes, Luiz Eduardo dos Santos",
+      "scopus_id": "57201031681",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Milton",
+      "scopus_id": "14060800000",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silveira, Claudio Abilio da",
+      "scopus_id": "57200437005",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Adriano de Souza Pinto",
+      "scopus_id": "57199275914",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lima e Silva, Sandro Metrevelle Marcondes",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 28,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85042928105&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091240",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "publication_id": "2-s2.0-105011990711",
+  "eid": "2-s2.0-105011990711",
+  "doi": "10.1016/j.jmrt.2025.04.318",
+  "pii": "S2238785425011391",
+  "pubmed_id": null,
+  "title": "Comprehensive experimental and numerical characterization of microstructural and mechanical anisotropy in wire arc additive manufactured carbon steel",
+  "abstract": "© 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).Additively manufactured components often exhibit microstructural heterogeneity, leading to anisotropy. Most works are dedicated to a specific feature, and a full characterization has not been addressed yet. This study characterizes these heterogeneities in a carbon steel part made by wire arc additive manufacturing (WAAM) and correlate them numerically with physical phenomena A deep microstructural, mechanical, and surface analysis was carried out for three main regions of the wall: top, middle and bottom. The cooling rate and the number of subsequent passes are the main factors influencing microstructure variation on the layers, steady-state regime was reached at layer 30. Electron backscatter diffraction (EBSD) analysis showed uniform grain orientation and similar size, with ferrite increasing from the top to the bottom, while the amount of retained austenite and cementite, decreased. The top region showed diverse microconstituents due to the absence of reheating cycles in the last layers. Microhardness values varied with average of 223.3, 176.3 and 187.6 HV0.1 for top, middle and bottom regions, respectively, the same trend was found in the simulation. Tensile tests indicated minor anisotropy in yield strength (YS) and ultimate tensile strength (UTS), but significant anisotropy in elongation. The anisotropic percentages of YS, UTS, and elongation come to 0.9 %, 0.4 %, and 10.9 %, respectively. Scanning electron microscopy (SEM) analysis presented ductile failure in both vertical and horizontal orientations. Surface characterization indicated similar topography on both sides of the wall. Overall, it exhibited homogeneous microstructural characteristics and surface topography, but heterogeneous mechanical properties, particularly in elongation.",
+  "authkeywords": [
+    "Metallurgy",
+    "Modeling",
+    "Simulation",
+    "Surface analysis",
+    "WAAM"
+  ],
+  "year": "2025",
+  "date": "2025-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Materials Research and Technology",
+    "issn": "22387854",
+    "eissn": "22140697",
+    "volume": "36",
+    "issue": null,
+    "pages": "7244-7260",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "dos Santos Paes, Luiz Eduardo",
+      "scopus_id": "57201031681",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dias, João Marcos Souza",
+      "scopus_id": "58260893000",
+      "affiliation": "60027663",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Andrade, João Rodrigo",
+      "scopus_id": "57201737899",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Filho, Edmundo Benedetti",
+      "scopus_id": "58962284500",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferraresi, Henrique Nardon",
+      "scopus_id": "58536767500",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Leonardo Rosa Ribeiro",
+      "scopus_id": "57194565457",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Jesus Silva, Carolina Xavier",
+      "scopus_id": "60018533700",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Borges, Valério Luiz",
+      "scopus_id": "14027947400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Riffel, Kaue Correa",
+      "scopus_id": "57194323193",
+      "affiliation": "60149838",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hereñú, Silvina",
+      "scopus_id": "6508164243",
+      "affiliation": "60018002",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Francia, Pablo",
+      "scopus_id": "60019720900",
+      "affiliation": "60018002",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Lagares, Moisés Luiz",
+      "scopus_id": "57205544481",
+      "affiliation": "60000590",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Duarte, Carlos Antonio Ribeiro",
+      "scopus_id": "56704431200",
+      "affiliation": "60281070",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Cunha, Tiago Vieira",
+      "scopus_id": "56422021400",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Saad, Núbia",
+      "scopus_id": "60019554700",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vilarinho, Louriel Oliveira",
+      "scopus_id": "7003402876",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Biomaterials",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Surfaces, Coatings and Films",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Metals and Alloys",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 66,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011990711&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090830",
+    "data_quality_score": 100
+  }
+}

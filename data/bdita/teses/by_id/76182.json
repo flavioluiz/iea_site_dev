@@ -1,0 +1,33 @@
+{
+  "num_tese": "76182",
+  "type": "tese",
+  "title": "Influence of aircraft flexibility upon handling qualities and pilot modeling",
+  "author": "Daniel Drewiacki",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "abstract": "This work is placed on the edge of the handling qualities and aeroelasticity disciplines. The analysis based upon pilot models and handling qualities criteria focused on the Pilot-Induced Oscillations (PIO) phenomenon assume the aircraft as a rigid body. As aircraft become more flexible due to the continuous demmand for more efficient aircraft, the frequency separation between rigid and elastic modes becomes smaller and therefore those rigid body approximations may no longer be valid. Moreover, another phenomenon may become more evident with increasing flexibility, which is the biodynamic feedthrough. This effect is originated by structural vibrations of the aircraft, especially those at the cockpit, that is responsible for the involuntary inceptor commands made by the pilot. In this case, an instability in the closed-loop system formed by the aircraft and the pilot may cause a different phenomenon, called Pilot-Assisted (or Augmented) Oscillations (PAO). In the present work, the importance of considering the influence of airframe flexibility in the study of handling qualities (especially PIO) by the application of frequency and time-domain criteria using a flexible aircraft dynamic model is addressed. The analysis herein presented are focused on the longitudinal axis for a matter of scope. It is also proposed a mixed pilot model that considers an active channel responsible for the cognitive pilot actions for aircraft maneuvering, and a passive channel that models the effects of the involuntary responses due to structural vibration. As a result, not only the aeroelastic effects upon handling qualities are explored, but also the validity of handling qualities criteria for more flexible aircraftl. Finally, based on pilot simulations results varying the three basic elements of PAO, a new handling qualities criterion is proposed address the PAO problem.",
+  "subjects": [
+    "Oscilaçăo induzida pelo piloto",
+    "Características de voo",
+    "Manobrabilidade",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "24/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76182",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76182&origem=BDITA"
+}

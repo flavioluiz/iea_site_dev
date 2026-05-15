@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-85067922480",
+  "eid": "2-s2.0-85067922480",
+  "doi": "10.1115/1.4042736",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Wave-packet models for jet dynamics and sound radiation",
+  "abstract": "Copyright © 2019 by ASME.Organized structures in turbulent jets can be modeled as wavepackets. These are characterized by spatial amplification and decay, both of which are related to stability mechanisms, and they are coherent over several jet diameters, thereby constituting a noncompact acoustic source that produces a distinctive directivity in the acoustic field. In this review, we use simplified model problems to discuss the salient features of turbulentjet wavepackets and their modeling frameworks. Two classes of model are considered. The first, that we refer to as kinematic, is based on Lighthill's acoustic analogy, and allows an evaluation of the radiation properties of sound-source functions postulated following observation of jets. The second, referred to as dynamic, is based on the linearized, inhomogeneous Ginzburg-Landau equation, which we use as a surrogate for the linearized, inhomogeneous Navier-Stokes system. Both models are elaborated in the framework of resolvent analysis, which allows the dynamics to be viewed in terms of an input-ouput system, the input being either sound-source or nonlinear forcing term, and the output, correspondingly, either farfield acoustic pressure fluctuations or nearfield flow fluctuations. Emphasis is placed on the extension of resolvent analysis to stochastic systems, which allows for the treatment of wavepacket jitter, a feature known to be relevant for subsonic jet noise. Despite the simplicity of the models, they are found to qualitatively reproduce many of the features of turbulent jets observed in experiment and simulation. Sample scripts are provided and allow calculation of most of the presented results.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-03-01",
+  "type": "article",
+  "subtype": "re",
+  "journal": {
+    "name": "Applied Mechanics Reviews",
+    "issn": "00036900",
+    "eissn": null,
+    "volume": "71",
+    "issue": "2",
+    "pages": null,
+    "article_number": "020802"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lesshafft, Lutz",
+      "scopus_id": "10142919200",
+      "affiliation": "60013425",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 132,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 138,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85067922480&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101084",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "publication_id": "2-s2.0-105022240324",
+  "eid": "2-s2.0-105022240324",
+  "doi": "10.52202/078371-0134",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "RMD simulations applied to the study of energetic materials like HMX smokeless solid propellant: a case study of HMX molecular vacancies",
+  "abstract": "Copyright ©2024 by the International Astronautical Federation (IAF). All rights reserved.Nitramines, like RDX and HMX, are also alternatives to AP as main components in smokeless propellants. They have high specific impulse but are moderately sensitive and have a slightly negative oxygen balance and are therefore unable to contribute positively to the oxygen balance of the propellant. Crystal defects are a constant in applied energetic materials (EMs) and play a crucial role in thermal degradation, combustion and ignition mechanisms, and subsequent aging. Defect engineering is the process of studying how defects affect an EM’s qualities and performances in order to design new EMs that meet the required specifications. An emerging field of study in energetic materials is crystal-defect engineering, which offers previously unheard-of opportunities for regulating physical, chemical, and electrical properties as well as propellants, explosives, and pyrotechnics compositions. There are numerous types of crystal defects, including line defects (dislocation), planar defects (twin, shear band, crack, and surface defect), and volume defects (void). Point defects also include orientational defects and element doping. In this study, ReaxFF molecular dynamics simulations were used to examine the effects of molecule vacancies on the reaction kinetics and thermal decomposition mechanisms of condensed-phase - HMX at different temperatures. The thermal decomposition of HMX is the primary event in the combustion process of solid rocket smokeless propellants, directly affecting the related performance of propellants and even rocket engines. Results showed that three primary initial decomposition mechanisms, namely, NNO2 bond dissociation, HONO elimination, and concerted ring fission, exist at both high and lower temperatures. Molecular vacancies affect how much each of the three pathways contributes to the initial breakdown of HMX, and these effects change with temperature. Molecular vacancies significantly enhance N-N bond cleavage and coordinated ring breaking at high temperatures (3200 K), while impeding the production of HONO bonds. The two main competing reaction pathways are N-N bond dissociation and HONO elimination, with the former being more prevalent during the first breakdown. Additionally, we calculated the first decomposition’s reaction rate constant and activation barriers for various vacancy concentrations. This RMD study showed that molecular vacancies accelerate the decomposition of condensed-phase HMX by increasing the reaction rate constant and reducing activation barriers.",
+  "authkeywords": [
+    "cyclotetramethylene-tetranitramine (HMX)",
+    "reactive molecular dynamics",
+    "vacancies"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "2",
+    "issue": null,
+    "pages": "1248-1252",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kirchhof, Edemar",
+      "scopus_id": "57190658410",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gonçalves, Rene F.B.",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Domingues, Marcela G.",
+      "scopus_id": "57195510382",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Leopoldo",
+      "scopus_id": "36490283900",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Bruno T.",
+      "scopus_id": "57218417430",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, José A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves",
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022240324&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114909",
+    "data_quality_score": 90
+  }
+}

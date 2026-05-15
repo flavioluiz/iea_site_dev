@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85048600810",
+  "eid": "2-s2.0-85048600810",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Response and stability of the remotely-piloted, constrained x-hale aircraft in wind tunnel",
+  "abstract": "© 2017 International Forum on Aeroelasticity and Structural Dynamics (IFASD). All Rights Reserved.Formulations for the flight dynamics of flexible aircraft have been commonly applied to aircraft free to fly in the three-dimensional space, having all six rigid-body degrees of freedom. For risk reduction in the future flight operations of the X-HALE testbed at ITA, however, wind-tunnel tests of the remotely-piloted, four-meter-span configuration of the aircraft were performed. In the wind tunnel, the rigid-body translations were completely constrained, but the same was not valid for the rigid-body rotations, which could be conveniently left free or not with a proper selection of the connection between the aircraft and the wind-tunnel mount. In the present paper, in order to computationally assess the response and stability characteristics of the aircraft in the wind tunnel, we derive equations of motion for a constrained flexible aircraft with up to three rigid-body rotational degrees of freedom, mounted on an also flexible wind-tunnel strut. The numerical model has its value confirmed by the wind-tunnel tests in the predicted and observed roll-control reversal for anti-symmetrical deflections of the all-moving tails, and absence of reversal for aileron deflections.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Flexible aircraft",
+    "Flight dynamics",
+    "Wind tunnel"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": "2017-June",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Antônio, B. Guimarães Neto",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bussamra, Flávio L.S.",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "flavio-luiz-da-s-bussamra",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048600810&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047374",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "num_tese": "80997",
+  "type": "tese",
+  "title": "Contributions to the uncertainty quantification of aircraft composite structures under space-dependent environmental and material influences",
+  "author": "Henrique Estevăo Araujo Almada dos Santos",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The application of uncertainty quantification (UQ) techniques in the analysis of industrialscale engineering structures presents significant challenges, which are amplified in the case of composite structures. In addition to the typical geometry complexity, the multiple sources of uncertainty, and the high dimensionality of structural models, the complexity of the composite manufacturing processes and the physical mechanisms determining the environmental conditions makes the variations throughout a structure be more adequately modeled as space-distributed random uncertainties. In this context, this Thesis is intended to bring contributions to UQ methodologies for the stochastic assessment of composite aeronautic structures, under the combined effects of space-dependent material and environmental fluctuations. Variations in temperature, laminate thickness, fiber volume fraction, and fiber angles are identified as the fundamental sources of uncertainty and jointly considered in the proposed approach, where the Karhunen-Lo'eve Expansion is used to discretize the random fields. Both Gaussian and non-Gaussian probability distributions are considered within a methodology readily employed to different arbitrary geometries and based on the method KL-ITAM. The combined influences of environmental effects on the degradation of material properties and hygrothermally-induced stresses are taken into account in a multiscale approach, where the introduction of the stochastic variations is performed in a non-intrusive manner for the finite element models. For performing the UQ, the Monte Carlo Simulation is used to generate sampling-based statistics for the buckling factors and natural frequencies of composite structures. Additionally, the sensitivity analyses based on sigma-normalized derivatives and Sobol' indices are conducted, where for the latter, the structural responses are approximated using artificial neural network-based surrogate models. Across simulations scenarios of different types of geometries and values of standard deviation and correlation length assigned to random fields, the influence of the random input variables on the structural responses is assessed and the efficiency of the methodology is demonstrated. Also, the necessity of accounting for random environmental and material uncertainties in the analysis and design of reliable and robust aerospace composite structures is highlighted.",
+  "subjects": [
+    "Materiais compósitos",
+    "Expansăo de Karhunen-Loeve",
+    "Análise de confiabilidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80997",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80997&origem=BDITA"
+}

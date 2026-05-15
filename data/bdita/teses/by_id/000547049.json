@@ -1,0 +1,32 @@
+{
+  "num_tese": "000547049",
+  "type": "tese",
+  "title": "Estimaçăo paramétrica de derivadas de estabilidade e controle da aeronave AT-26 Xavante usando modelo global năo-linear.",
+  "author": "Marcelo Fernandes de Oliveira",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é desenvolvida a estimaçăo paramétrica de derivadas de estabilidade e controle para a aeronave AT-26 4509 do GEEV através da aplicaçăo do método do erro de saída com otimizaçăo por Levenberg-Marquardt a dados reais de ensaios em vôo. O modelo adotado para a dinâmica da aeronave, denominado neste trabalho de global, possui 6 graus de liberdade e emprega equacionamento năo-linear, compreendendo o conjunto de equaçőes de estado. Como equaçőes de saída, săo apresentadas as expressőes que modelam as medidas esperadas nos sensores. Săo selecionados os sensores das grandezas físicas mais relevantes para as manobras. A partir das equaçőes de estado e saída e dos valores medidos pelos sensores, săo definidos os parâmetros a serem estimados e é aplicada a metodologia de estimaçăo. O processo é operacionalizado através de um programa de computador em ambiente MATLAB 6.5, que apresenta versăo com interface gráfica e integrada a um pacote de estimaçăo pré-existente. Utilizando-se como plataforma uma aeronave AT-26 instrumentada, săo executadas manobras definidas com base na necessidade do modelo dinâmico empregado e no envelope da aeronave, levantado-se os dados necessários para o programa de estimaçăo. Após processo iterativo de ajustes das estimativas iniciais e de combinaçăo de modelos dinâmicos, chega-se aos resultados da estimaçăo com modelo global, que săo analisados e validados com base em programa de referęncia, comprovando-se a adequaçăo de todo o processo de estimaçăo apresentado.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Estimaçăo de sistemas",
+    "Derivadas de estabilidade",
+    "Controle de aeronaves",
+    "Aeronave Xavante",
+    "Modelos matemáticos",
+    "Simulaçăo computadorizada",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/12/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000547049",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000547049&origem=BDITA"
+}

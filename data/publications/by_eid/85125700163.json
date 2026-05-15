@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85125700163",
+  "eid": "2-s2.0-85125700163",
+  "doi": "10.1016/j.applthermaleng.2022.118232",
+  "pii": "S1359431122001946",
+  "pubmed_id": null,
+  "title": "Discharge effectiveness of thermal energy storage systems",
+  "abstract": "© 2022 Elsevier LtdThe use of air as heat transfer fluid and a packed bed of rocks as storage medium for a thermal energy system (TES) can be a cost-effective alternative for thermal applications. Here, a porous media turbulent flow (standard k-ε) and heat transfer (local thermal non-equilibrium) model is used to simulate the discharge cycle of such system. Temperature fields of corresponding charging cycles are used as initial conditions. Effects of varying mass flow rates (Re number), porosity, permeability (Da number), thermal conductivity ratio and thermal capacity ratio on the effectiveness of the discharge are compared. The examination of these effects indicated that increasing the mass flow rate improved the effectiveness of the discharge, which was not seen for the charging cycle. Also, increasing porosity improved discharge efficiency more significantly than it did in the charging cycle. In both charge and discharge cycles the effect of permeability is significant and reducing Da number improved temperature stratification and efficiencies. The effect of the thermal conductivity ratio was mostly seen on the outlet temperatures, where lower ratios allowed for higher temperature values. Increasing the thermal capacity ratio improved charging effectiveness but, on the discharge cycle, cycle this effect was reduced. Moreover, for lower Re number flows, increasing this ratio reduced efficiency indicating that the mass flow rate should be matched carefully with the thermal capacity of the system. All these effects have important implications which should be taken into consideration when designing an effective thermal energy storage system.",
+  "authkeywords": [
+    "High temperature thermal energy storage",
+    "Packed bed",
+    "Porous media",
+    "Thermocline",
+    "Turbulent flow"
+  ],
+  "year": "2022",
+  "date": "2022-06-05",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "209",
+    "issue": null,
+    "pages": null,
+    "article_number": "118232"
+  },
+  "authors": [
+    {
+      "name": "Rodrigues, Fernando A.",
+      "scopus_id": "57214067762",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85125700163&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110317",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "73532",
+  "type": "tese",
+  "title": "A model predictive approach to the guidance of a multirotor aerial vehicle in an environment with obstacles",
+  "author": "José Agnelo Bezerra Guilherme Silva",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This dissertation deals with the problem of waypoint-based guidance of a Multirotor Aerial Vehicle (MAV) with avoidance of static polytopic obstacles. In order to solve the problem, a formulation of a Model Predictive Controller (MPC) is proposed. The command inputs to the controller are a sequence of tridimensional waypoints. A waypoint is detected as soon as the vehicle enters inside a specified Euclidean ball centered on it. At the same moment, the next waypoint of the sequence is switched on. The position controller considers inequality constraints on states and control signals, as well as equality terminal constraint on states, which assures asymptotic stability to the guidance strategy. Obstacle constraints are also considered only when some obstacle is close to the vehicle. In order to verify this situation, it is used the obstacle perception region, which is a virtual ellipsoid that jointly moves with the quadrotor. The obstacle constraints are derived by a method that considers each obstacle shape and the reference waypoints. The proposed control system is evaluated by computational simulations, verifying its effectiveness to perform a waypoint tracking of a multirotor vehicle among multiple obstacles, while respecting several constraints.",
+  "subjects": [
+    "Controle preditivo",
+    "Guiamento (movimento)",
+    "Aeronave năo-tripulada",
+    "Controle de aeronaves",
+    "Sistema de controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/08/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73532",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73532&origem=BDITA"
+}

@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-84880632718",
+  "eid": "2-s2.0-84880632718",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Inlet conditions and wave-packets in subsonic jet noise",
+  "abstract": "© 2011 CURRAN-CONFERENCE. All rights reserved.The acoustic field of Mach 0.4, 0.5 and 0.6 jets, measured using an azimuthal ring array and then decomposed into azimuthal Fourier modes, is found to comprise a superdirective axisymmetric component (exponential decay with radiation angle) for low Strouhal numbers. This is shown to be consistent with an axially non-compact, wave-like source, the marked directivity being a result of axial interference over a source extent that spans several jet diameters. The source is then modelled using parabolised stability equations (PSE) for the axisymmetric mode, the experimental mean velocity field (obtained from measurements with a traversing Pitot) being used as a base flow. The PSE results closely match the velocity data on the jet centerline. Calculation of the axisymmetric mode of the acoustic field using a source term constructed from the PSE modes leads to agreement to within 3dB of the experimental values at low axial angles for Strouhal numbers between 0.3 and 0.9, and for all threeMach numbers, suggesting that linear instability waves constitute the flowmechanism responsible for the said radiation, and that PSE is thus a pertinent reduced-order model that connects fluctuations at the nozzle inlet, via a wave-packet sound-source mechanism, to low-angle sound emission.",
+  "authkeywords": null,
+  "year": "2011",
+  "date": "2011-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "7th International Symposium on Turbulence and Shear Flow Phenomena Tsfp 2011",
+    "issn": null,
+    "eissn": null,
+    "volume": "2011-July",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60032653",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodríguez, Daniel",
+      "scopus_id": "55255594800",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880632718&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102220",
+    "data_quality_score": 70
+  }
+}

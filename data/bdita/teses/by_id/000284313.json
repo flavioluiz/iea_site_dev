@@ -1,0 +1,31 @@
+{
+  "num_tese": "000284313",
+  "type": "tese",
+  "title": "Análise numérica de escoamentos transonicos turbulentos em torno de aerofólios",
+  "author": "José Carlos Lobo de Menezes",
+  "year": "1994",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O conhecimento fisico e a possibilidade de calculo do escoamento transonico turbulento em torno de aerofólios é de grandeimportancia para projetos aeronauticos. O trabalho aqui representadoe uma proposta de ferramenta numerica para analise desse tipo de escoamento. A modelagem matematica do problema fisico corresponde a versao tipo camada fina das equacoes de Navier-Stokes com media de Reynolds. A integracao numerica e implementada por meio do algoritmode Beam e Warming, o qual incorpora um esquema centrado de diferencas finitas, com aplicacao de fatoracao aproximada. A marcha no tempo e efetuada segundo o metodo de Euler implicito, com passo no tempo variavel para acelerar a convergencia ate o estado estacionario. Cuidados especiais sao dedicados a implementacao numerica das condicoes de contorno. A malha de calculo e obtida atraves de geradores algebricos. Os efeitos de turbulencia sao simulados atraves da aplicacao de dois modelos tipo viscosidade de vortice: um modelo algebrico devido a Baldwin-Lomax e outro de transporte devido a Johnson-King. Esses dois modelos sao os mais utilizados atualmente em Dinamica dos Fluidos Computacional. Inicialmente, o codigo desenvolvido e validado, utilizando-se para isso escoamentos tipicos de referencia. Posteriormente sao apresentados resultados para escoamentos sobre perfis, comparando-seos valores obtidos entre si e com resultados experimentais e numericos conhecidos. Os desempenhos dos dois modelos sao analisdos e é estudada a influencia de fatores numericos e fisicos sobre as solucoes obtidas.",
+  "subjects": [
+    "Escoamento transônico",
+    "Aerofólios",
+    "Análise numérica",
+    "Turbulęncia",
+    "Vórtices",
+    "Dinâmica dos fluidos computacional",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/07/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000284313",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000284313&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tg": "80752",
+  "type": "tg",
+  "title": "Implementaçăo de modelo de forças no pedal da Aeronave T27M",
+  "author": "Gustavo Gomes Santiago",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Gustavo Moro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho implementou um modelo de forças no comando direcional reversível da aeronave T-27M no Simulador de Ensaios em Voo (SEV) do IPEV. Inicialmente, desenvolveu-se um modelo matemático capaz de representar as forças mecânicas e aerodinâmicas atuantes no sistema de leme, utilizando como base os coeficientes e parâmetros identificados em estudos anteriores. Em seguida, integrou-se esse modelo ao ambiente MATLAB/Simulink, permitindo calcular em tempo real tanto a força total aplicada ao pedal quanto a posiçăo de equilíbrio correspondente ŕs condiçőes de voo simuladas. A nova modelagem comunicou-se com o pedal mecânico ativo CLS-P, recém-adquirido pelo IPEV, possibilitando a reproduçăo física das forças calculadas pelo modelo. Por fim, realizou-se uma avaliaçăo qualitativa com um piloto da aeronave T-27M, que verificou que o comportamento do pedal implementado representou de forma fiel e coerente as sensaçőes experimentadas no voo real. O trabalho, assim, contribuiu para o aumento da fidelidade do SEV e estabeleceu as bases para futuras expansőes da metodologia para os demais eixos da aeronave.",
+  "subjects": [
+    "Ensaios em voo",
+    "Simuladores de voo",
+    "Controle direcional",
+    "Aerodinâmica",
+    "Controle de aeronaves",
+    "Modelos matemáticos",
+    "Atuadores",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80752",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80752&origem=BDITA"
+}

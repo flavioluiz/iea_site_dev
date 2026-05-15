@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-33845729920",
+  "eid": "2-s2.0-33845729920",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent impinging jets into permeable media",
+  "abstract": "Impinging jets are widely used in industry to modify local heat transfer coefficients. The addition of a porous substrate covering the surface contributes to better flow distribution, which favors many engineering applications. Motivated by that, this work shows numerical results for a turbulent jet impinging against a cylindrical enclosure with a porous substrate at the bottom. Macroscopic time-averaged equations for mass and momentum are obtained based on a concept called double decomposition, which considers spatial deviations and temporal fluctuations of flow properties. The numerical technique employed for discretizing the governing equations is the control volume method in conjunction with a boundary-fitted coordinate system. The SIMPLE algorithm is used to handle the pressure-velocity coupling. The influence of the cylinder height on the mean and statistical flow fields within the entire cavity is presented. Copyright © 2006 by ASME.",
+  "authkeywords": null,
+  "year": "2006",
+  "date": "2006-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2006 ASME Joint U S European Fluids Engineering Summer Meeting Fedsm 2006",
+    "issn": null,
+    "eissn": null,
+    "volume": "2006",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657-60016464",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Graminho, Daniel R.",
+      "scopus_id": "13006619900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33845729920&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111294",
+    "data_quality_score": 60
+  }
+}

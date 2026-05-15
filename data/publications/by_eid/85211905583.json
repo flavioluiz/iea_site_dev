@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-85211905583",
+  "eid": "2-s2.0-85211905583",
+  "doi": "10.1109/ANDESCON61840.2024.10755719",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Control Allocation for an One-DOF Thrust-Vectored Quadcopter",
+  "abstract": "© 2024 IEEE.The control allocation of a quad copter with I-DOF vectoring thrust, respecting the rotors and actuators' physical bounds, is the subject of this paper. We start by assuming a hierarchical control architecture, where the control law gen-erates resultant force and torque commands to be distributed by the control allocation algorithm among the spinning and thrust vectoring motors. We define the control allocation as an optimization problem with the thrust vector components of each rotor being the design variables. By doing so, we obtain a set of constraints that depend linearly on the thrust vector magnitudes. The magnitude constraints can lead to a non-convex set when the rotors' minimum speed command is greater than zero. We tackle this issue by defining a conservative inferior limit to one of the thrust components in a way that the non-convexity is excluded from the resulting constraint set. To ensure the feasibility of the method, we state that the control effort commands outputted by the vehicle control law must lie within an admissible set of that optimization problem. Simulation results compared the proposed method with other control allocation strategies and showed that it is more effective in preventing violations of rotor constraints while achieving the required command of resulting force and torque.",
+  "authkeywords": [
+    "control allocation",
+    "Flight control",
+    "multi rotor aerial vehicle",
+    "quadcopter",
+    "unmanned aerial vehicle"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IEEE Andescon Andescon 2024 Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nery, Flavia P.",
+      "scopus_id": "59470385600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bezerra, Jose A.",
+      "scopus_id": "57226783609",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Media Technology",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85211905583&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094793",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "76633",
+  "type": "tese",
+  "title": "Modelagem matemática das curvas de traçăo de aços maraging submetidos a ambiente fragilizante",
+  "author": "Rodrigo Chales",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maria Margareth da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Andréia de Souza Martins Cardoso",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os aços maraging săo ligas ferrosas a base de Ni-Co-Mo-Ti com baixo teor de carbono e pertencem a uma classe especial de aços de ultra alta resistęncia mecânica. Sua aplicaçăo é estratégica devido ŕs suas características, possuindo vasta aplicaçăo em diversos setores, notadamente no setor militar. Com o apoio de elementos finitos (com malha respectiva), modelos matemáticos podem ser utilizados para obter soluçőes confiáveis a diferentes análises de engenharia, utilizando modelos que determinam o comportamento destes materiais em suas diferentes condiçőes de aplicaçăo. Diante disto, faz-se necessário desenvolver modelos matemáticos que possam representar numericamente o comportamento destes materiais por meio de suas propriedades mecânicas. O presente trabalho tem como objetivo o levantamento dos modelos matemáticos dos aços maraging 300 e 350 submetidos a tratamentos de solubilizaçăo, envelhecimento e oxidaçăo em atmosfera de vapor d'agua superaquecido e sob condiçőes de fragilizaçăo por hidrogęnio. As propriedades mecânicas foram obtidas por ensaios de traçăo empregando uma baixa taxa de deformaçăo ao ar e em meio salino sob açăo de um potencial catódico. Cada condiçăo possuiu amostras em triplicata e seus resultados foram trabalhados utilizando técnicas de tratamento de dados e de mitigaçăo de erros. Os modelos matemáticos de Hollomon, Swift, Voce e Swift-Voce foram determinados para cada condiçăo ensaiada e comparados seus respectivos desvios. Dentre os resultados apresentados, o modelo Voce mostra-se o melhor empregado por sua boa relaçăo entre precisăo obtida e simplicidade de implementaçăo. Diferenças de concentraçăo de determinados elementos químicos, tal como o titânio, apresentam alteraçőes significativas na resistęncia mecânica e na plasticidade total dos aços maraging. Utilizando-se das diferenças em sua concentraçăo para as classes 300 e 350, através do modelo Voce foi desenvolvido novos modelos generalizados que estimam linearmente o comportamento mecânico do material frente ŕ concentraçăo do teor de titânio presente em sua composiçăo química. Através do software de elementos finitos Ansys Workbench, foi reproduzido numericamente os mesmos ensaios de bancada realizados e comprovado que o comportamento do material numericamente representado é similar com os resultados de bancada obtidos, validando os modelos presentes neste trabalho. Conclui-se que os modelos matemáticos e os resultados tabelados no presente trabalho apresentam boa confiabilidade e o conjunto de técnicas e procedimentos desenvolvidos e empregados para obtę-los săo satisfatórios e podem ser efetivamente extrapolados para caracterizaçăo de outros materiais metálicos disponíveis no mercado.",
+  "subjects": [
+    "Aços maraging",
+    "Modelos matemáticos",
+    "Propriedades de deformaçăo",
+    "Método de elementos finitos",
+    "Metalurgia",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76633",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76633&origem=BDITA"
+}

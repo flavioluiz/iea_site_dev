@@ -1,0 +1,30 @@
+{
+  "num_tese": "000483801",
+  "type": "tese",
+  "title": "Three-dimensional turbulent flow simulations over aerospace configurations.",
+  "author": "Enda Dimitri Vieira Bigarella",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The main objective of the present research work consists of studying turbulent flows over typical aerospace configurations. In order to accomplish such goal, a numerical tool to simulate 3-D compressible flows is validated and improved. A finite difference method for structured grids, written for general curvilinear coordinates, is used. A centred spatial discretisation, which requires explicit addition of artificial dissipation terms, is chosen, and the time marching procedure is explicit. In the validation process, comparative analysis of systematic mesh refinement and grid topology is considered. Subsequently, adequate turbulence models for the applications of interest are implemented. This implementation must be carefully performed in order to robustly and consistently include the turbulence model subroutines into the numerical code. Convergence acceleration techniques such as multigrid and implicit residual smoothing are required in order to avoid the slower convergence rates associated with the more refined and stretched grids that are necessary for turbulent simulations. The validation of these new implementations, for the applications of interest, is done by comparison of numerical results with experimental or theoretical data. Thereafter, flows about the VLS central body configuration are simulated in order to obtain aerodynamic results necessary for the development phase of the vehicle. In general, good agreement between numerical and experimental results are obtained within engineering error margins. Some limitations of the turbulence models could be observed. These limitations could be addressed with a careful study of the numerical results and previous knowledge of the capabilities of these models. Nevertheless, the conclusions that could be drawn are very positive for this initial effort on advanced turbulence modelling, and these conclusions are important for future development of the numerical code.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento turbulento",
+    "Configuraçőes aerodinâmicas",
+    "Simulaçăo do escoamento",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000483801",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000483801&origem=BDITA"
+}

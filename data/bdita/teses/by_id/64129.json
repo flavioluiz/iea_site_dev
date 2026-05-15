@@ -1,0 +1,30 @@
+{
+  "num_tese": "64129",
+  "type": "tese",
+  "title": "Critérios de similaridade para a avaliaçăo do desempenho de turbinas eólicas em escala reduzida",
+  "author": "Willmari Dayana Suarez Hernandez",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo avaliar o desempenho aerodinâmico de geradores eólicos em escala reduzida. Inicialmente é desenvolvido o projeto do rotor eólico com base na aplicaçăo da Teoria de Elemento de Pá, onde săo definidas as dimensőes características com base na velocidade nominal e a razăo de velocidade na ponta da pá. Para o calculo do escoamento é gerado um domínio periódico representando apenas uma pá. A discretizaçăo do domínio computacional foi realizada com uma malha hibrida com camadas prismáticas na parede da pá. Para a obtençăo da soluçăo numérica 3D é utilizado o software CFX®. Resultados como: potencia de eixo, torque, e coeficiente de potencia tanto do modelo como do protótipo foram reportados. Finalmente foi avaliado o desempenho do protótipo e do modelo, com a presença de pequenas diferenças que deram origem ŕ determinaçăo de uma funçăo de transposiçăo mediante a utilizaçăo do ajuste de curvas no software Matlab®, com a qual é possível obter correlaçőes entre protótipo e modelo em situaçőes de Reynolds diferentes. Esta contribuiçăo permitira auxiliar no projeto de rotores eólicos na determinaçăo do coeficiente de potencia. Entre tanto, esta lei de transposiçăo devera ser validada experimentalmente.",
+  "subjects": [
+    "Turbinas eólicas",
+    "Energia éolica",
+    "Rotores",
+    "Geradores de energia eólica",
+    "Vento (meteorologia)",
+    "Engenharia elétrica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64129",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64129&origem=BDITA"
+}

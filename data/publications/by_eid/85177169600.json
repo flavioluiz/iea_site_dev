@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85177169600",
+  "eid": "2-s2.0-85177169600",
+  "doi": "10.1115/GT2023-103802",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "TURBULENCE MODEL INFLUENCE ON TURBOPUMP INDUCER PERFORMANCE",
+  "abstract": "Copyright © 2023 by ASME.The use of inducers in turbopumps for liquid propellant rocket engines allowed operation at high rotational speeds, contributing to global vehicle performance improvement. Methods for designing inducers have been explored using analytical methods, experimental data and numerical solutions. The use of CFD for simulating and designing rocket turbopump inducers is a relevant practice because it can rapidly explore scenarios untested in the experimental endeavors for determining empirical functions. This technique also captures more problem details than reduced order analytical solutions. Turbomachines have a different accuracy in terms of solution prediction for different turbulence models and application. The flow specificity of the turbomachinery changes the adequate turbulence model to obtain a more accurate solution. For this reason, it is of interest to investigate how different turbulence modeling predicts the fluid flow behavior and their accuracy to calculate the inducers' performance. The present work aims to investigate the capability of different turbulence models on the performance and flowfield obtained via CFD simulations of an inducer pump. The CFD simulations were performed using a commercial software for k-ε, RNG k-ε and Shear Stress Transport turbulence models. The simulations were performed on a known inducer geometry for which published experimental performance data as a function of operational conditions is available in literature. The present paper discusses the differences in the performance prediction and the flow field calculated for the turbulence models simulated. For the cases studied, the k-ε standard model shows better predictions for the efficiency and head coefficient compared with the experimental data demonstrating their accuracy in solving rotational flows.",
+  "authkeywords": [
+    "Inducer",
+    "Propulsion",
+    "Turbopump"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "13C",
+    "issue": null,
+    "pages": null,
+    "article_number": "v13ct32a038"
+  },
+  "authors": [
+    {
+      "name": "de Oliveira, Igor",
+      "scopus_id": "58701381200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Takachi, Jesuino",
+      "scopus_id": "57821259200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maia, Ana A.G.",
+      "scopus_id": "57216152270",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kapat, Jayanta",
+      "scopus_id": "7003375376",
+      "affiliation": "60022144",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fernandez, Erik",
+      "scopus_id": "55713505400",
+      "affiliation": "60022144",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177169600&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051597",
+    "data_quality_score": 90
+  }
+}

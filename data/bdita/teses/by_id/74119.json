@@ -1,0 +1,28 @@
+{
+  "num_tese": "74119",
+  "type": "tese",
+  "title": "Spray analysis in direct spark ignition engine using PIV technique",
+  "author": "Saulo Alvarez Lima de Oliveira",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The increasingly search for more efficient and less pollutant internal combustion engines demands precision studies aiming the optimization of the combustion process. The engines market consists mostly of spark ignition engines, and it is necessary to refine the studies of fuel injection and physicochemical phenomena, which are extremely relevant for optimization of combustion processes. The fuel spray has a very important role in the air/fuel mixture quality. Direct injection systems are an increasing tendency on market, aiming the reduction of emission. Over the last 15 years many works have been performed applying PIV technique to analyze the direct injection spray profile with many configurations. However, there is a lack of information about the application of PIV processing algorithms, making it difficult to evaluate the reliability of many works and to compare them. The focus of this work is to develop the methodology to use the PIV technique to analyze the spray droplets velocity field and movement in a direct injection operation mode of a research spark ignition engine with optical access. The methodology consists to set the PIV system to obtain a sufficient number of images and evaluate the image processing and vectors processing algorithms that allow suitable physical analysis of the spray velocity field in a real operational condition. A very important procedure is the adequate choice of the time interval between laser pulses. The correct selection of this parameter is crucial to provide reliable results. Different regions of the spray velocity field require different time intervals between laser pulses due to the velocities gradient. Hence, a particular study was performed to find this parameter adequately for each region of the spray. The established methodology also provides data for different experimental conditions regarding DI sprays. The tests were performed with ethanol and gasoline due to the interests of the national and global industry in renewable sources of energy, and the great amount of flex-fuel engines in Brazil, which work with gasoline and/or ethanol. The influence of injection pressure regarding the best compromise PIV evaluation was tested. A comparison of fuels spray was performed verifying the influence of viscosity. Later, a post-injection evaluation was performed, also comparing the different fuels and different droplets number density. The influence of tumble motion was evaluated both during injection and after injection.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Injeçăo de combustível",
+    "Velocimetria por imagem de partículas",
+    "Igniçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "18/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74119",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74119&origem=BDITA"
+}

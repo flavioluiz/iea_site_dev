@@ -1,0 +1,30 @@
+{
+  "num_tese": "000559257",
+  "type": "tese",
+  "title": "Estudo do escoamento em artéria parcialmente obstruída utilizando técnicas de CFD.",
+  "author": "Thiago Felipe Calafati",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo tem por objetivo simular o escoamento pulsátil de sangue em artéria humana variando-se o grau de estenose (obstruçăo) e a freqüęncia do pulso de entrada. O escoamento será modelado resolvendo-se o sistema de equaçőes de continuidade e Navier-Stokes, em regime laminar, com um sistema de coordenadas axisimétrico. O método de volumes finitos é utilizado para a discretizaçăo do domínio, com uma formulaçăo acoplada para o cálculo dos campos de pressăo e velocidade. Săo desenvolvidas subrotinas em linguagem C para incorporar a condiçăo de contorno de velocidade oscilatória na entrada da artéria, e compiladas no programa Fluent como UDFs (User Defined Function). Para a simulaçăo com o modelo de viscosidade de Casson, será implementada uma UDF, enquanto o modelo Newtoniano utiliza um valor de viscosidade constante. Serăo testados tręs números de Womersley: baixo (Wo = 4), moderado (Wo = 8) e alto (Wo = 12), o que implica em reduçăo dos períodos, com rápidas aceleraçőes e desaceleraçőes ŕ medida que o número de Womersley cresce. Além disso, varia-se o grau de obstruçăo da artéria (25%, 50% e 75%), com o objetivo de verificar em que condiçőes os modelos de viscosidade Newtoniano e Casson produzem respostas similares. Săo obtidos resultados para (i) as linhas de corrente no interior do domínio, (ii) contornos e distribuiçăo de velocidade axial bem como (iii) perfis da tensăo de cisalhamento ao longo da parede da artéria. Os resultados permitem concluir que a aproximaçăo entre os modelos de viscosidade Newtoniano e Casson ocorre para alto valor de número de Womersley (Wo = 12) e obstruçăo de 75%.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Pressăo sanguínea",
+    "Escoamento incompressível",
+    "Viscosidade",
+    "Bioengenharia",
+    "Física",
+    "Medicina"
+  ],
+  "defense_date": "03/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000559257",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000559257&origem=BDITA"
+}

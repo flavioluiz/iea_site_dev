@@ -1,0 +1,29 @@
+{
+  "num_tese": "80150",
+  "type": "tese",
+  "title": "Experimental control of instability mechanisms in transitional and turbulent flows",
+  "author": "Diego Bonkowski de la Sierra Audiffred",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this document, it is presented a doctorate research developed in the specific area of experimental flow control. Such a topic has become increasingly important in the last few years in the aeronautical field, with the possibility of providing safer and more efficient aircraft and also contributing to the aviation industry to reach sustainable goals defined by governmental and non-governmental institutions. Besides exploring different applications for flow control, it is also important to look for more effective control strategies, especially because it also requires to be advantageous in terms of economical perspectives. In this regard, a Wiener-Hopf-based control approach was used for experimental control of two-dimensional instability waves in a boundary layer over a wing profile. This method allows to enforce causality when obtaining the control kernel, providing an optimal causal solution, and with this, avoiding the drop in performance that may be observed in flow control strategies that use a truncated solution. Since non-causality is observed in several flow control problems solved in the frequency domain, and considering the positive results first obtained for the boundary layer control with the application of such approach, the Wiener-Hopf technique is also considered in this work for flow control problems related to turbulent jet and installed jet noise. Research regarding the application of flow control in jets and installed jet noise is still scarce in literature, and the few available works present simplifications that are not representative of real applications. The obtained results validate the effectiveness of the Wiener-Hopf method for flow control applications, where previous results found in the literature were improved. Furthermore, with the Wiener-Hopf technique, it was possible to provide a significant reduction of the main component responsible for noise generation in jets, and also reduce jet installation noise. Results obtained with the Wiener-Hopf technique were compared with the inverse feed-forward control method, which requires the truncation of the kernel to enforce causality. Higher attenuation levels were obtained via the Wiener-Hopf approach for all experiments here evaluated. Such a method also allows some changes in sensors/actuators configuration, without significantly affecting the control performance, as observed with a typical wave-cancelling approach.",
+  "subjects": [
+    "Controle de escoamento",
+    "Escoamento de jato",
+    "Ondas de Tollmien-Schilichting",
+    "Aerofólios",
+    "Camadas limite",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/08/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80150",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80150&origem=BDITA"
+}

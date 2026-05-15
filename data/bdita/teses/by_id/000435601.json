@@ -1,0 +1,31 @@
+{
+  "num_tese": "000435601",
+  "type": "tese",
+  "title": "Modelagem dinâmica e simulaçăo computacional de motores-foguete a propelente líquido.",
+  "author": "Fausto Ivan Barbosa",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo apresenta um conjunto de equaçőes que modelam a dinâmica dos seguintes elementos básicos de um motor-foguete a propelente líquido (MFPL): câmara de empuxo (cabeçote de injeçăo e câmara de combustăo); linha de alimentaçăo (duto de seçăo transversal circular ou geometricamente equivalente); constritor (orifício calibrado ou válvula); regulador (regulador de pressăo ou regulador de empuxo) e turbobomba (bomba centrífuga e turbina de impulso com um estágio). A abordagem usada neste trabalho é adequada para estudar variaçőes temporais durante a fase de operaçăo normal do motor, isto é, excluindo-se as fases de partida e de corte do mesmo. Adicionalmente, podem ser investigados problemas relacionados a instabilidades de baixa freqüęncia no sistema hidropneumático, as quais podem degenerar a eficięncia do motor ou causar danos ao mesmo. As equaçőes finais, relativas a cada um dos elementos básicos, săo implementadas como diagramas de blocos encapsulados usando-se o software Matlab-Simulink e, com eles, é criada uma biblioteca de blocos para aplicaçőes específicas em MFPL. Tal recurso dá a possiblidade de se fazer simulaçőes computacionais de diferentes configuraçőes de motor através de simples modificaçőes na interaçăo entre os blocos, além de permitir se verificar os efeitos causados pela modificaçăo de quaisquer parâmetros do motor. Para ilustrar algumas possíveis aplicaçőes, săo estudadas duas configuraçőes distintas: um MFPL pressurizado por gás e um por bomba. Em ambos os casos, respostas a degrau e respostas em freqüęncia săo determinadas e usadas para analisar os efeitos do tempo de preparaçăo da mistura (necessário para injetar, pulverizar, misturar e evaporar os propelentes) sobre a pressăo da câmara de combustăo.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Dinâmica dos fluidos computacional",
+    "Simulaçăo computadorizada",
+    "Propulsăo",
+    "Motores foguetes",
+    "Estudo de casos",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000435601",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000435601&origem=BDITA"
+}

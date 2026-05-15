@@ -1,0 +1,30 @@
+{
+  "num_tg": "76437",
+  "type": "tg",
+  "title": "MGO : a python interface for aircraft-based multidisciplinary design optimization",
+  "author": "Thales Delmiro de Sousa",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "François Gallard",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The escalation of air traffic and environmental awareness has led to increased complexity of aircraft especially in commercial air transport. From this, the technological demand as well as the design effort for disruptive architectures have been accentuated regarding the market/industry trends. Researchers and engineers engaged in this endeavor are seeking a platform that can profit from the high computational power available to better handle the aircraft design optimization process from a generic and efficient approach. In order to make this tool feasible, an interface is proposed to push forward the boundaries of multidisciplinary optimization applied to a conventional or even a disruptive aircraft design by joining two state-of-the-art Python libraries: GEMS and MARILib. These platforms provide efficient multidisciplinary design optimization (MDO) and Overall Aircraft Design (OAD) processes respectively. From a prior version intended to support MARILib's release paper, the MGO (MARILib+GEMS optimization) interface was developed by adding some valuable features such as the automatic derivation integration, improving the post-treatment, providing scenarios with gradient-based and gradient-free algorithms, and adopting both monolithic and multilevel implementations. It also contributed with improvements in GEMS and MARILib and, more importantly, with analysis of more reliable test cases comparing with those usually adopted to evaluate these kinds of libraries individually. The assessment of the MGO's synergistic performance to optimize a typical short-/medium-range commercial aircraft was based on iteration progress diagrams related to objective function, constraint variables, design variables and memory consumption profile for three case scenarios: (i) N1 performing a full aircraft design from tail-planes statistical sizing; (ii) N2 adopting handling-qualities based on tail-plane sizing treated as a constraint satisfaction problem; and (iii) N3, a bilevel implementation case derived from N2 to also optimize the aircraft design regarding cruise altitude at nominal mission and Mach number at one engine inoperative (OEI) situation.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Interfaces",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Avaliaçăo de desempenho",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76437",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76437&origem=BDITA"
+}

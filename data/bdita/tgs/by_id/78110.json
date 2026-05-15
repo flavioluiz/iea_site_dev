@@ -1,0 +1,28 @@
+{
+  "num_tg": "78110",
+  "type": "tg",
+  "title": "Projeto de sistema de controle para atenuaçăo de deformaçőes estruturais em uma aeronave flexível",
+  "author": "Gabriel Henrique Fonseca Miranda",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Modelos de corpo rígido para aeronaves săo frequentemente empregados para lidar com sistemas de controle dedicados a melhorias na qualidade de voo. De fato, os sistemas de controle săo empregados em vários domínios da cięncia e engenharia com inúmeras aplicaçőes, e as técnicas de projeto tęm se desenvolvido de forma a permitir sistemas mais eficientes e robustos. Entretanto, quando é considerada a hipótese de corpo rígido, trata-se de uma abstraçăo que simplifica o modelo físico da planta que deseja-se controlar. Portanto, tal consideraçăo esconde efeitos aeroelásticos e modos de vibraçăo da estrutura que em geral apresentam mais alta frequęncia. O quăo justificável é essa abordagem depende da flexibilidade estrutural da aeronave, pois esses efeitos podem influenciar substancialmente no comportamento dinâmico da aeronave real em determinada condiçăo de operaçăo. Mas um fato importante é que se faz cada vez mais recorrente o emprego de materiais leves que visam aliviar carga estrutural para melhorar o desempenho da aeronave, e com isso há uma tendęncia de aumentar a flexibilidade da estrutura, aproximando os modos de vibraçăo elásticos dos de corpo rígido. Portanto, torna-se imprescindível a modelagem da aeronave como flexível para contemplar efeitos importantes, o que torna o modelo mais próximo da realidade, agregando maior robustez ao projeto e melhores características. Este trabalho visa desenvolver um sistema de controle para atenuaçăo de deformaçőes estruturais na aeronave. Busca-se investigar os benefícios que podem ser gerados com esse sistema. Serăo apresentados aspectos da modelagem da aeronave flexível e do projeto de controle em si, desde a concepçăo, mesclando técnicas de controle clássico e moderno para projetar e realizar inferęncias nas etapas de projeto sobre as variáveis relevantes envolvidas. No final, foi possível realizar a atenuaçăo das deformaçőes devido ŕ flexăo vertical simétrica e antissimétrica nas asas e ŕ flexăo vertical e lateral na fuselagem, baseando-se nos modos aeroelásticos de menor energia associados.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Projeto estrutural",
+    "Controle robusto",
+    "Corpos flexíveis",
+    "Mecânica de voo",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78110",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78110&origem=BDITA"
+}

@@ -1,0 +1,26 @@
+{
+  "num_tg": "76483",
+  "type": "tg",
+  "title": "Multilevel Monte Carlo Method for error covariance estimation within data assimilation",
+  "author": "Gustavo Soares Vila Lima",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this project, we examine the estimation of the background error covariance matrix (B) in data assimilation using the Multilevel Monte Carlo (MLMC) method. We begin showing the superiority of the convergence rate of the computational cost to evaluate multilevel estimators against the standard Monte Carlo solving both a scalar initial value problem and the Lorenz system considering a vectorial state. Finally we investigate the performance of an adapted MLMC method to estimate the B matrix implemented in OOPS (Object Oriented Prediction System) platform with Lorenz model considering the number of ensembles and the model resolution to be used as limited.",
+  "subjects": [
+    "Método de Monte Carlo",
+    "Discretizaçăo (Matemática)",
+    "Covariância",
+    "Programaçăo orientada para objetos",
+    "Matemática computacional",
+    "Matemática"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76483",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76483&origem=BDITA"
+}

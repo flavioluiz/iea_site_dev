@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-105001337820",
+  "eid": "2-s2.0-105001337820",
+  "doi": "10.3390/mining5010018",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Enhancing Particle Breakage and Energy Utilization in Ball Mills: An Integrated DEM and SPH Approach",
+  "abstract": "© 2025 by the authors.Featured Application: This research directly contributes to designing more sustainable and efficient milling processes within the mineral processing industry. It provides a detailed guide for converting ball mills from conventional overflow systems to more energy-efficient grate discharge systems by optimizing breakage rates and material transport. These enhancements deliver substantial benefits, such as increased throughput, reduced power consumption, and steeper particle size distribution. This study examines the conversion of an overflow ball mill into a new discharge system via Discrete Element Method (DEM) and Smoothed Particle Hydrodynamics (SPH) simulations, demonstrating significant performance improvements. The methodology integrates SPH to assess the effects of the slurry on energy dissipation, power loss, breakage rates, and material transport. The findings highlight significant operational inefficiencies in the overflow setup, extensive dead zones, and excessive charge volume that hinder milling efficiency by limiting grinding media interaction with the ore and reducing energy for comminution. Additionally, slurry pooling shifts the center of gravity, causing torque losses and direct material bypass to the discharge zone. Our simulations replicate these challenges and benchmark them against industrial-scale operations, identifying critical charge excesses that constrain throughput and elevate power consumption. The new proposed discharge system decouples the filling charge from the evacuation mechanism, releasing the effective volume in the mill, in addition to tackling common issues in the traditional grate discharge setups like backflow and carry-over. This arrangement substantially improved grinding efficiency, as demonstrated by enhanced breakage rates and diminished specific energy consumption. The results provide a robust framework for mill design and operational optimization, underscoring the value of integrated slurry behavior analysis in mill performance enhancement.",
+  "authkeywords": [
+    "DEM-SPH coupling",
+    "grate discharge",
+    "grinding efficiency",
+    "overflow ball mill",
+    "slurry pooling"
+  ],
+  "year": "2025",
+  "date": "2025-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mining",
+    "issn": null,
+    "eissn": "26736489",
+    "volume": "5",
+    "issue": "1",
+    "pages": null,
+    "article_number": "18"
+  },
+  "authors": [
+    {
+      "name": "Soares, Wallace Santos",
+      "scopus_id": "59712969800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Govender, Nicolin",
+      "scopus_id": "56681913300",
+      "affiliation": "132413209-60000717",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Earth and Planetary Sciences (miscellaneous)",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Geology",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Engineering (miscellaneous)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Environmental Science (miscellaneous)",
+        "abbrev": "ENVI",
+        "name": null
+      }
+    ],
+    "references_count": 32,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001337820&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090840",
+    "data_quality_score": 90
+  }
+}

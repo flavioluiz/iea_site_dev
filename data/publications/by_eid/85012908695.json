@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85012908695",
+  "eid": "2-s2.0-85012908695",
+  "doi": "10.1002/spe.2477",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Applying agile methods to aircraft embedded software: an experimental analysis",
+  "abstract": "Copyright © 2017 John Wiley & Sons, Ltd.This paper discusses the applicability of agile methods to aircraft embedded software development. It presents the main results of an experiment that combines agile practices from Scrum with model-based development and distributed development. The experiment consists of the development of an aircraft cockpit display system divided in five distributed teams. Three features are analysed and quantified, using the output artefacts of each team: the artefacts' quality, the adherence to agile methods, and the adherence to standard DO-178C. The main conclusion of the experiment is that there is a high correlation between the adherence to agile methods and the artefacts' quality, motivating the use of agile methods in aircraft industry. Also, the experiment evinced that agile methods does not specifically address the integration of distributed teams and the hardware/software integration. This lacuna affects the artefacts' quality. The results of the experiment emphasize the importance of concentrating future work in the proposal of specific agile practices for these activities. Copyright © 2017 John Wiley & Sons, Ltd.",
+  "authkeywords": [
+    "agile methods",
+    "aircraft software",
+    "DO-178C",
+    "embedded system",
+    "model-based development"
+  ],
+  "year": "2017",
+  "date": "2017-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Software Practice and Experience",
+    "issn": "00380644",
+    "eissn": "1097024X",
+    "volume": "47",
+    "issue": "11",
+    "pages": "1465-1484",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mirachi, Samoel",
+      "scopus_id": "55315256600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Costa Guerra, Valdir",
+      "scopus_id": "56237198000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Cunha, Adilson Marques",
+      "scopus_id": "16038527100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dias, Luiz Alberto Vieira",
+      "scopus_id": "36011475700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85012908695&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049453",
+    "data_quality_score": 100
+  }
+}

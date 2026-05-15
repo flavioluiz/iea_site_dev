@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-84988683797",
+  "eid": "2-s2.0-84988683797",
+  "doi": "10.1007/s10846-016-0418-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Attitude Determination of Multirotor Aerial Vehicles Using Camera Vector Measurements",
+  "abstract": "© 2016, Springer Science+Business Media Dordrecht.The employment of embedded cameras in navigation and guidance of Unmanned Aerial Vehicles (UAV) has attracted the focus of many academic researches. In particular, for the multirotor UAV, the camera is widely employed for applications performed in indoor environments, where the GNSS signal is often unreliable and electromagnetic interference can be a concern. In the literature, images are mostly adopted for position and velocity estimation, rather than attitude estimation. This paper proposes an attitude determination method for multirotor aerial vehicles using pairs of vector measurements taken from a downward-facing strapdown camera. The method is composed of three modules. The first one detects and identifies the visible landmarks by processing the images. The second module computes the vector measurements related to the direction from the camera to the landmarks. The third module estimates attitude from the vector measurements. In the last module, a version of the Multiplicative Extended Kalman Filter (MEKF) with sequential update is proposed as estimation method. The overall method is evaluated via Monte Carlo simulations, showing that it is effective in determining the vehicle’s attitude and revealing its properties.",
+  "authkeywords": [
+    "Attitude determination",
+    "Computer vision",
+    "Multiplicative extended Kalman filter",
+    "Multirotor aerial vehicle"
+  ],
+  "year": "2017",
+  "date": "2017-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Intelligent and Robotic Systems Theory and Applications",
+    "issn": "09210296",
+    "eissn": "15730409",
+    "volume": "86",
+    "issue": "1",
+    "pages": "139-149",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Gonçalves, Pedro F.S.M.",
+      "scopus_id": "57191289588",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84988683797&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095019",
+    "data_quality_score": 100
+  }
+}

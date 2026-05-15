@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85173609038",
+  "eid": "2-s2.0-85173609038",
+  "doi": "10.1007/s40430-023-04488-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Assessment of RANS-type turbulence models for CFD simulations of horizontal axis wind turbines at moderate Reynolds numbers",
+  "abstract": "© 2023, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.Nowadays, numerical simulations of wind turbines based on the Reynolds-averaged Navier–Stokes (RANS) formulation are becoming, in terms of computational cost, increasingly more viable tools for geometry optimization and design. Nevertheless, a judicious use of RANS-type methods is still required to guarantee acceptable accuracy at manageable computational cost. Here, we assess the accuracy and cost of several well-known turbulence models (Spalart–Allmaras, k- ε , k- ω SST, along with transitional modelling) with and without a zigzag tape modelling for a representative horizontal axis wind turbine within a range of moderate Reynolds numbers (Re ≈ 3 × 10 5 to 8 × 10 5). This range allowed for the assessment of turbulence models under various complex flow conditions. Significant differences in performance have been found and, for a notable portion of the test cases, the k- ε model was able to deliver good results (similar to k- ω SST results) with a considerably coarser mesh. This suggests that k- ε , although often recognized as less accurate than k- ω SST, might actually be more efficient for wind turbine simulations. Also, although the best results came only with a coupled transition model which required a higher computational cost, this increase in cost is not exceedingly high and might allow for this model’s usage in later design stages. Accordingly, the present study is a valuable source for future wind turbine simulations and design and we hope that it fosters further developments in the field.",
+  "authkeywords": [
+    "CFD",
+    "Horizontal axis wind turbine",
+    "New Mexico wind turbine",
+    "RANS modelling"
+  ],
+  "year": "2023",
+  "date": "2023-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "45",
+    "issue": "11",
+    "pages": null,
+    "article_number": "566"
+  },
+  "authors": [
+    {
+      "name": "Garcia-Ribeiro, Daniel",
+      "scopus_id": "57226454664",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinícius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Cerón-Muñoz, Hernán D.",
+      "scopus_id": "11440621400",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta",
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 92,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85173609038&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069433",
+    "data_quality_score": 100
+  }
+}

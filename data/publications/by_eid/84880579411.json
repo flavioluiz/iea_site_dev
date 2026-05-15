@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-84880579411",
+  "eid": "2-s2.0-84880579411",
+  "doi": "10.2514/6.2012-4637",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Cabin temperature control model for commercial aircraft",
+  "abstract": "This paper presents a model to simulate the dynamic behavior of cabin temperature in an aircraft in the airline market. The model includes the most important components in Environmental Control System (ECS) mainly the air conditioning packs and packs bypass valves. The model predicts the cabin temperature in the aircraft which may fly in several operating conditions. Some case studies are presented and the results are compared to experimental data collected in a similar aircraft. It was found a good agreement between results predicted by the model and the experimental data. The simulation model may be used to evaluate the cabin temperature control and to improve the components design and the performance of ECS under transient conditions. Based on this analysis the ECS controller may be designed to improve the response time and the cabin temperature control stability. © 2012 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Modeling and Simulation Technologies Conference 2012",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Romani, Rubens",
+      "scopus_id": "55801745000",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Góes, Luiz Carlos",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880579411&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077677",
+    "data_quality_score": 90
+  }
+}

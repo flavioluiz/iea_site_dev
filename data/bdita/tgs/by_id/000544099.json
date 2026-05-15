@@ -1,0 +1,37 @@
+{
+  "num_tg": "000544099",
+  "type": "tg",
+  "title": "Distribution of pressure over the forebody of a reentry vehicle using non-local methods.",
+  "author": "José Augusto Mazzoni Martins Ferreira",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jean-Marc Moschetta",
+      "professor_slug": null
+    },
+    {
+      "name": "Jean-Luc Verant",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "FAST is a computational tool developed by SUPAERO and ONERA with the objective of being capable of calculating aerothermodynamic properties for hypersonic 3D vehicles in a quick way, for preliminary analysis do design. During the years, the code was improved, in a way to achieve more accurate results and to expand the application of the code for atmospheric re-entry and aeroassisted vehicles. Concerning pressure distribution, the results found applying just the modified Newton method were not in sufficient good agreement with experimental and CFD results for blunt bodies with a great subsonic region. This work presents an alternative method to calculate the pressure distribution over the forebody of vehicles where the modified Newton method is not enough accurate.",
+  "subjects": [
+    "Aerotermodinâmica",
+    "Escoamento hipersônico",
+    "Distribuiçăo de pressăo",
+    "Ondas de choque",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Reentrada",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544099",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544099&origem=BDITA"
+}

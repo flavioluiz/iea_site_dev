@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-3042687883",
+  "eid": "2-s2.0-3042687883",
+  "doi": "10.1080/10407780490440372",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical simulation of turbulent flow in small-angle diffusers and contractions using a new wall treatment and a linear high Reynolds k-ε Model",
+  "abstract": "This work presents numerical prediction for the turbulent flow field confined in a circular duct past a segment of gradually varying cross section. Both expanding and contracting sections are investigated. Equations of boundary-layer type are used and the linear k-ε model, in its high Reynolds form, is applied. A new correlation for treating the grid point closest to the wall is proposed. A marching-forward method is employed for sweeping the computational domain. Computations are first performed for developing and fully developed constant-area ducts in order to assess the reliability of the code. Results are then presented for contractions and diffusers, where comparisons with experimental data for air and water are carried out. Turbulence damping in contractions and its enhancement in diffusers are calculated correctly. Further, for contractions with angles of up to 21°, the use of a parabolic solver shows good agreement with experimental values for the mean and statistical quantities. For diffusers, adverse pressure gradient along the flow limits the quality of the predictions as the angle and length of diffuser increase past 5° and 10 duct radii, respectively.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-06-04",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": null,
+    "volume": "45",
+    "issue": "9",
+    "pages": "911-933",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=3042687883&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111477",
+    "data_quality_score": 90
+  }
+}

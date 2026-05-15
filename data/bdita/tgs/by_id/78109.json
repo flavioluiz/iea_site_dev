@@ -1,0 +1,30 @@
+{
+  "num_tg": "78109",
+  "type": "tg",
+  "title": "Active and passive controllers for flutter suppression based on multimodal shunt circuits",
+  "author": "Francisco Arthur Bonfim Azevedo",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "abstract": "The present work proposes a controller to suppress wing vibration, using the concepts of active and passive controllers in aeroservoelasticity. The first object of study is a typical section, considering its plunge and pitch modes. The passive controller is based on a multimodal resonant shunt circuit combining a PZT, inductors, capacitors and resistors, acting in pitch and plunge modes. The piezoelectric transducer extracts energy from the circuit that is dissipated in the other elements of the circuit. The active controller will still be studied, but the idea is to study control techniques based on circuit physics and energy, but first, a controller will be designed based on well-known classical control techniques. The actuator is another piezoelectric controlled by means of its voltage. Finally, the two controllers can be combined to improve overall system efficiency and reduce the control effort of the active controller.",
+  "subjects": [
+    "Aeroservoelasticidade",
+    "Atuadores piezoelétricos",
+    "Controle",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78109",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78109&origem=BDITA"
+}

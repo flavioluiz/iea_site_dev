@@ -1,0 +1,38 @@
+{
+  "num_tese": "000479342",
+  "type": "tese",
+  "title": "Otimizaçăo de placas laminadas com tensőes residuais térmicas em problemas de estabilidade elástica e de freqüęncias naturais.",
+  "author": "Luis Henrique de Andrade",
+  "year": "2002",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    },
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é otimizar placas de materiais compósitos laminados com reforçadores, aproveitando-se do efeito de tensőes residuais térmicas em problemas de estabilidade elástica e de freqüęncias naturais năo amortecidas. Na maioria dos casos, a complexidade do problema năo permite que somente o bom senso de engenharia seja suficiente para identificar configuraçőes favoráveis ao enrijecimento elástico e geométrico. Técnicas de otimizaçăo săo necessárias, portanto, para determinar projetos que tirem o melhor proveito da presença das tensőes térmicas. A placa é modelada por elementos finitos lagrangianos isoparamétricos bi-cúbicos, baseados na formulaçăo de Reissner-Mindlin. Aproximaçőes dos autovalores via quociente de Rayleigh (RQA) săo utilizadas para otimizar o desempenho da placa que opera em determinada faixa de temperatura. Expressőes analíticas de sensibilidade das matrizes geométricas térmicas e de pré-carga săo deduzidas para o cálculo da sensibilidade dos autovalores com relaçăo ŕs alturas das lâminas. Uma estratégia é proposta para reduzir o número de análises. Problemas de maximizaçăo de autovalor sujeitos a restriçőes de massa e/ou modos e de minimizaçăo da massa, com restriçőes de autovalor, săo resolvidos. Abordagens para definir um projeto que deva atuar em diferentes temperaturas de operaçăo săo apresentadas. Os resultados numéricos mostram que os projetos ótimos săo fortemente influenciados pelas tensőes residuais térmicas, especialmente se as estruturas forem mais delgadas.",
+  "subjects": [
+    "Placas (membros estruturais)",
+    "Laminados",
+    "Tensőes térmicas",
+    "Tensăo residual",
+    "Otimizaçăo",
+    "Análise estrutural",
+    "Estabilidade",
+    "Propriedades elásticas",
+    "Método de elementos finitos",
+    "Engenharia mecânica",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000479342",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000479342&origem=BDITA"
+}

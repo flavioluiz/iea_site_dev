@@ -1,0 +1,116 @@
+{
+  "publication_id": "2-s2.0-84861337073",
+  "eid": "2-s2.0-84861337073",
+  "doi": "10.1016/j.rcim.2012.03.004",
+  "pii": "S0736584512000373",
+  "pubmed_id": null,
+  "title": "Analysis of the indoor GPS system as feedback for the robotic alignment of fuselages using laser radar measurements as comparison",
+  "abstract": "The alignment of aircraft fuselages in the aerospace sector is currently done either manually or by complex, expensive automated systems. The manual process introduces a significant production delay and the automated systems are purpose-built and have limited flexibility, apart from its financial drawback. This work proposes a low-cost, high-flexibility system and, as part of it, evaluates the performance of a Rotary-Laser Automatic Theodolite (R-LAT) as a feedback source for the adaptive robot control of an anthropomorphic manipulator. In the proposed solution the robot carries a fuselage barrel and aligns it with respect to a second barrel. A high accuracy, frequency-modulated laser equipment is used to generate the reference system for the procedure. The measurements of the R-LAT are then verified with the frequency-modulated laser equipment in order to determine the linear and angular alignment tolerances achieved by the robot/R-LAT closed loop in a predefined work envelope. A throughout, step-by-step analysis of the measuring procedure is carried out to allow the recognition of error sources and thus the determination of an optimized method. These results identify the operation boundaries of the R-LAT within the process and yield its best configuration for the intended purpose. Using the EN ISO 9283 robot evaluation standard, the closed loop system was found to attain the nominal position with an average accuracy of 0.38 mm and 0.01°, contrasting with an average accuracy of 4.53 mm and 0.21° when the robot was operating in an open loop configuration. © 2012 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Adaptive robot control",
+    "EN ISO 9283",
+    "Fuselage alignment",
+    "iGPS",
+    "Industrial manipulators",
+    "Laser radar",
+    "R-LAT"
+  ],
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Robotics and Computer Integrated Manufacturing",
+    "issn": "07365845",
+    "eissn": null,
+    "volume": "28",
+    "issue": "6",
+    "pages": "700-709",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mosqueira, G.",
+      "scopus_id": "57190092881",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Apetz, J.",
+      "scopus_id": "55224585800",
+      "affiliation": "60016653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, K. M.",
+      "scopus_id": "60174064100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Suterio, R.",
+      "scopus_id": "6506328164",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, L. G.",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani",
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 65,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84861337073&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049658",
+    "data_quality_score": 100
+  }
+}

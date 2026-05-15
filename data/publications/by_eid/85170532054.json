@@ -1,0 +1,128 @@
+{
+  "publication_id": "2-s2.0-85170532054",
+  "eid": "2-s2.0-85170532054",
+  "doi": "10.1016/j.applthermaleng.2023.121399",
+  "pii": "S135943112301428X",
+  "pubmed_id": null,
+  "title": "Extended Coherent Flame Model applied to an optical single-cylinder engine fueled with ethanol",
+  "abstract": "© 2023 Elsevier LtdOne way to achieve a fast track for the decarbonization of the transportation sector is through the usage of biofuels. Among the many biofuels available for transportation, ethanol is one of the most promising, especially when combined with direct-injection spark-ignited engine technologies. The present work aims to validate 3D Computation Fluid Dynamics (CFD) ethanol spray and combustion models with the calibration of specific model parameters using experimental data obtained with optical measurements. Focus is given on the investigation and determination of the Extended Coherent Flame Model parameters for hydrous ethanol turbulent spray combustion. To characterize the spray produced by the injector, measurements obtained with a Phase Doppler Interferometer system are used. Natural luminosity and in-cylinder pressure are acquired on a single-cylinder research engine with optical access. The work also considers results obtained from 1D and 3D CFD models to supplement the acquired experimental setup. From the comparison between experimental and numerical results, it comes out that a correction of the Extended Coherent Flame Model turbulence stretch parameter can be done according to a ratio of flow and combustion length scales obtained at the spark time. In this sense, an expression is proposed to allow the correction of such a parameter in different engine operating conditions. Accordingly, in-cylinder mean effective pressure calculated with 3D CFD simulations show a good agreement with the experimental data for all studied cases.",
+  "authkeywords": [
+    "ECFM combustion model",
+    "Ethanol DISI engine",
+    "Ethanol spray",
+    "Optical single-cylinder engine"
+  ],
+  "year": "2024",
+  "date": "2024-01-05",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "236",
+    "issue": null,
+    "pages": null,
+    "article_number": "121399"
+  },
+  "authors": [
+    {
+      "name": "Krieger Filho, Guenther C.",
+      "scopus_id": "7006079338",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Filipi M.Fernandes",
+      "scopus_id": "57215013528",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pacífico, Antônio L.",
+      "scopus_id": "57197342820",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sacomano Filho, Fernando L.",
+      "scopus_id": "58571375400",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zabeu, Clayton B.",
+      "scopus_id": "52264815500",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nigro, Francisco B.",
+      "scopus_id": "7004760511",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "França, Oswaldo M.",
+      "scopus_id": "55692871000",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Penaranda, Alexander",
+      "scopus_id": "57201271363",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro T.",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85170532054&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118605",
+    "data_quality_score": 100
+  }
+}

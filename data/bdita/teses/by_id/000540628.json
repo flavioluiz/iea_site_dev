@@ -1,0 +1,30 @@
+{
+  "num_tese": "000540628",
+  "type": "tese",
+  "title": "Aplicaçăo de um elemento finito híbrido tridimensional ŕ análise de placas laminadas.",
+  "author": "Domingos Sávio Raimundo Júnior",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo de mestrado apresenta a avaliaçăo do comportamento de um modelo de elementos finitos híbrido tridimensional quando aplicado ao problema de flexăo de placas laminadas. Flexăo de placas compőe a análise de estruturas utilizadas em diversos campos da engenharia. Materiais laminados vem sendo cada vez mais empregados em equipamentos esportivos, construçăo civil, automóveis e aeronaves. A complexidade da distribuiçăo de tensőes pela espessura da placa laminada exigiu a aplicaçăo de novos métodos numéricos para sua determinaçăo, entre eles, o método de elementos finitos com formulaçăo híbrida tridimensional. A formulaçăo de elementos finitos utilizada é híbrida de tensőes: os campos de tensőes e deslocamentos săo aproximados de forma direta e independente no interior do elemento e em seu contorno, respectivamente. As funçőes de aproximaçăo de tensőes escolhidas atendem ŕ restriçăo de Trefftz para materiais isotrópicos e o sistema de equaçőes é obtido através das condiçőes de equilíbrio, para o contorno do elemento, e de compatibilidade, em seu domínio, impostas de forma ponderada. Elementos hexaédricos de oito nós com mapeamento de elemento mestre foram empregados nas análises. Dois tipos de refinamentos săo permitidos pela formulaçăo: uma maior discretizacăo da malha de elementos e um aumento dos graus dos polinômios utilizados como funçăo de aproximaçăo. As placas analisadas săo quadradas, modeladas com tręs dimensőes, de bordos idealizados como simplesmente apoiados e carregamentos distribuídos senoidalmente. Os lados das placas assumem as dimensőes iguais a 10, 20, 50 e 100 vezes maiores do que a espessura e o material alterna entre isotrópico, ortotrópico e compósito laminado. Nas análises săo avaliadas a convergęncia do deslocamento vertical máximo, as distribuiçőes das tensőes pela superfície das placas homogęneas e distribuiçőes das tensőes pela espessura de placas compósitas laminadas. Os resultados obtidos săo comparados com as soluçőes analíticas dadas pela utilizaçăo da teoria de placas de segunda ordem e por uma soluçăo tridimensional exata.",
+  "subjects": [
+    "Análise estrutural",
+    "Placas (membros estruturais)",
+    "Método de elementos finitos",
+    "Laminados",
+    "Flexăo",
+    "Análise de tensăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "19/12/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540628",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540628&origem=BDITA"
+}

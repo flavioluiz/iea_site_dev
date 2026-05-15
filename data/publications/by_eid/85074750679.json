@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-85074750679",
+  "eid": "2-s2.0-85074750679",
+  "doi": "10.1098/rspa.2019.0285",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of structural damping on acoustic scattering by flexible plates",
+  "abstract": "© 2019 The Author(s) Published by the Royal Society. All rights reserved.We investigate the effects of structural damping on the interaction of a turbulent eddy with flexible plates with respect to the efficiency of aerodynamic noise generation. Potential benefits are studied using a model based on a point-reacting compliant semiinfinite plate on a spring-damper foundation. This scattering problem is solved using the Wiener- Hopf technique. We compare results for semi-infinite compliant plates with finite ones. In both cases, plate vibration lead to reductions of sound radiation, especially at resonance; damping tends to reduce such acoustic benefits. We also present a formulation that considers the effect of structural damping on the acoustic properties of finite elastic plates. Numerical results are obtained by applying a boundary element method to solve the Helmholtz equation subject to the boundary conditions imposed by the plate vibration. Under specific conditions, such as high fluid loading factor and low bending-wave Mach number, the acoustic power scattered by an edge tends to be smaller than that which propagates over the plate as bending waves. Results show that structural damping attenuates these waves and may modify the far-field acoustic pressure, mostly by reducing the scattered sound at structural resonances. All models show that large damping coefficients lead to locally overdamped responses. There is thus an ideal range of structural damping to reduce both plate vibration and acoustic scattering.",
+  "authkeywords": [
+    "Acoustic scattering",
+    "Aeroacoustics",
+    "Fluid-structure interaction",
+    "Structural damping"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+    "issn": "13645021",
+    "eissn": "14712946",
+    "volume": "475",
+    "issue": "2230",
+    "pages": null,
+    "article_number": "20190285"
+  },
+  "authors": [
+    {
+      "name": "Nilton, M. M.",
+      "scopus_id": "57194858098",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Montesquieu, A. S.",
+      "scopus_id": "57211664100",
+      "affiliation": "60106017",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Donadon, M. V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Wolf, W. R.",
+      "scopus_id": "36621377400",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074750679&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101222",
+    "data_quality_score": 100
+  }
+}

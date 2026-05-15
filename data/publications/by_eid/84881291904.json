@@ -1,0 +1,72 @@
+{
+  "publication_id": "2-s2.0-84881291904",
+  "eid": "2-s2.0-84881291904",
+  "doi": "10.1115/GT2012-69836",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Gas turbine transients with controlled variable geometry",
+  "abstract": "A small 5-kN thrust gas turbine, designed and manufactured having in mind a thorough source of validation data, serves as basis for the study. The engine is an uncooled turbine, 5:1 pressure ratio axial flow compressor, delivering 8.1 kg/s air mass flow, whose control is made by a FADEC. Cold runs of the jet engine version have already been completed. The engine characteristics are being developed using the technology indicated in the paper. Accelerations and decelerations from idle to full power in a prescribed time interval and positive surge margin are the limitations imposed to the control system. In order to accomplish such requirements, a proportional, integral and derivative (PID) has been implemented to control the variable geometry transients, which proved to drive the engine to the required operating points. Compressor surge is avoided during accelerations or decelerations, imposing operation limits to the surge margin. In order to simulate a jet engine under transient operation, use was made of high-fidelity in-house developed software. The results presented in the paper are related to the compressor inlet guide vane (VIGV) transients. The engine transient calculations were predicted with the IGV settings varying with time, and the results are being used for the initial calibration of the transfer functions for the real time control. Copyright © 2012 by ASME.",
+  "authkeywords": [
+    "Gas Turbine",
+    "Numerical simulation",
+    "Transient",
+    "Variable geometry"
+  ],
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "415-421",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barbosa, João Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Tomita, Jesuíno Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881291904&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052214",
+    "data_quality_score": 100
+  }
+}

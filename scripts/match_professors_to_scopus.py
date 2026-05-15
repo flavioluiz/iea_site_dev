@@ -40,7 +40,7 @@ class ProfessorMatcher:
 
     def __init__(self, base_path: Path):
         self.base_path = base_path
-        self.profiles_path = base_path / "data" / "professores" / "profiles"
+        self.profiles_path = base_path / "data" / "pessoal" / "profiles"
         self.scripts_path = base_path / "scripts"
 
         # Load data

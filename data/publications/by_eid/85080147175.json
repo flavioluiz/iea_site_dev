@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85080147175",
+  "eid": "2-s2.0-85080147175",
+  "doi": "10.2514/6.2019-2978",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Sizing methodology of the airship fins taking into account a tethered flight condition",
+  "abstract": "© 2019 American Institute of Aeronautics and Astronautics. All rights reserved.This paper proposes a methodology based on multidisciplinary optimization for sizing the fins of a Lighter-Than-Air (LTA) vehicle that merges the airship and tethered aerostat functionalities. The purpose of this design is to improve the airship’s stability in a tethered flight condition by expanding fin dimensions. Therefore, an optimum sizing of the fins that meets the minimum stability requirements of both free and tethered flight conditions is approached. This study integrates in a concurrent way the mathematical modeling of the tethered airship and the methodology for fins sizing. A design vector containing initial geometric parameters of the airship with different fins size is optimized with respect to the aerodynamic stability of the tethered airship. The parameters related to the empennage is varied restricted to parameterized equations that describe the airship dynamics in free and tethered flight condition. The stop criterion of the optimization processes is obtained when the airship dynamics meets the minimum requirements used to compose the cost function based on the aerodynamic mode damping, resulting in the optimized dimension of the airship fins. This design enables to expand the airship flight envelope, ensuring a stable flight when hovering in a tethered flight condition and ensuring maneuverability to the airship for performing a free flight.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1-13",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Jonatas S.",
+      "scopus_id": "54685142700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mendonça Junior, Jefferson L.",
+      "scopus_id": "57221335722",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morales, Maurício A.V.",
+      "scopus_id": "57191905807",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Stevanovic, Stojan",
+      "scopus_id": "56086300200",
+      "affiliation": "125607125",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santana, Rodrigo",
+      "scopus_id": "57221325992",
+      "affiliation": "60025701",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85080147175&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077071",
+    "data_quality_score": 90
+  }
+}

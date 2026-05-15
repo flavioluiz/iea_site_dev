@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-85055253804",
+  "eid": "2-s2.0-85055253804",
+  "doi": "10.1115/1.4039915",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modified Lewis Number and Buoyancy Ratio Effects on Turbulent Double-Diffusive Convection in Porous Media Using the Thermal Nonequilibrium Model",
+  "abstract": "© 2019 by ASME.This work presents a study of double-diffusive free convection in a porous square cavity under turbulent flow regime and with aiding drive. The thermal nonequilibrium model was employed to analyze the energy and mass transport across the enclosure. Governing equations were time- and volume-averaged according to the double-decomposition concept. Analysis of a modified Lewis number, Lem, showed that for porous media, this parameter presents opposite behavior when varying the thermal conductivity ratio or the Schmidt number, while maintaining the same value for Lem. Differently form free flow, the existence of the porous matrix contributes to the overall thermal diffusivity of the medium, whereas mass diffusivity is only effective within the fluid phase for an inert medium. Results indicated that increasing Lem through an increase in Sc reduces flow circulation inside porous cavities, reducing Nuw and increasing Shw. Results further indicate that increasing the buoyancy ratio N promotes circulation within the porous cavity, leading to an increase in turbulence levels within the boundary layers. Partial contributionsof each phase of the porous cavity (solid and fluid) to the overall average Nusselt number become independent of n for higher values of the thermal conductivity ratio, ks/ kf. Further, for high values of ks/kf, the average Nusselt number drops as N increases.",
+  "authkeywords": [
+    "double diffusion",
+    "porous media",
+    "thermal nonequilibrium model",
+    "turbulence modeling"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Heat Transfer",
+    "issn": "00221481",
+    "eissn": "15288943",
+    "volume": "141",
+    "issue": "1",
+    "pages": null,
+    "article_number": "012502"
+  },
+  "authors": [
+    {
+      "name": "Lemos, Marcelo J.S.De",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Carvalho, Paulo H.S.",
+      "scopus_id": "55922067000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 63,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85055253804&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110471",
+    "data_quality_score": 100
+  }
+}

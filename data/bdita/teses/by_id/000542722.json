@@ -1,0 +1,31 @@
+{
+  "num_tese": "000542722",
+  "type": "tese",
+  "title": "Proposta de modelo de previsăo aplicado aos custos de manutençăo de aeronaves militares.",
+  "author": "Fábio de Souza Nascimento",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Ribeiro Correia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe um modelo de previsăo dos custos de manutençăo de aeronaves, especificamente aplicado ŕ realidade da Força Aérea Brasileira - FAB. A revisăo da literatura realizada proporcionou uma ampla visăo dos métodos mais utilizados e a dificuldade de obtençăo de modelos úteis, dadas as características das frotas, compostas por uma diversidade muito grande de aeronaves, variando desde grandes e pesados cargueiros a pequenas e velozes aeronaves de combate. Na elaboraçăo do modelo proposto, procurou-se desde o início estabelecer relaçőes de estimativas de custo particularizadas para cada tipo de aeronave empregada pela FAB, empregando uma metodologia que permite gerar modelos de previsăo de custos adequadas a cada aeronave, com suas características históricas de gastos com material de manutençăo e horas voadas. A metodologia empregada consiste na elaboraçăo de modelos do tipo Multivariado Auto-Regressivo Integrado Média Móvel (MARIMA), o qual permite modelagem das séries temporais compostas pelos custos de manutençăo de cada aeronave, e a adiçăo da variável Hora de Vôo, proxy utilizada pela FAB no planejamento da manutençăo. A metodologia é demonstrada através de um estudo de caso em uma aeronave da FAB, e os resultados obtidos atestam a eficácia do modelo, permitindo o seu emprego no planejamento das atividades logísticas da Aeronáutica.",
+  "subjects": [
+    "Estimativas de custos",
+    "Manutençăo de aeronaves",
+    "Análise estatística multivariada",
+    "Análise de séries temporais",
+    "Aeronaves militares",
+    "Logística (administraçăo)",
+    "Matemática aplicada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/11/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542722",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542722&origem=BDITA"
+}

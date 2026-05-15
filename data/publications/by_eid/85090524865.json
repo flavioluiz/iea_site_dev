@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85090524865",
+  "eid": "2-s2.0-85090524865",
+  "doi": "10.1007/978-3-030-53669-5_25",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Influence of temperature randomness on vibration and buckling of slender beams",
+  "abstract": "© Springer Nature Switzerland AG 2021.Previous studies have demonstrated the influence of thermal stresses on the static and dynamic behavior of structures. In most cases of practical interest, temperature variations are governed by complex combinations of heat transfer mechanisms. As a result, the temperature values at different points of a structure can be considered as random variables. The present paper addresses the stochastic modeling of the influence of space-dependent temperature variations on the natural frequencies of beams. For this purpose, based on the hypotheses of the classical Euler-Bernoulli beam theory, a finite element model is constructed for the bending vibrations of beams, accounting for thermal influences. A particular scenario is considered in which the beam is subjected to random linearly-varying temperature fields, parameterized by two random variables. A probabilistic model is derived, which provides the PDF of the thermally-induced axial force from the PDFs of the random variables. Numerical simulations are performed for a clamped aluminum beam. Sampling-based statistics for the thermal axial load and the first six natural frequencies of the beam are presented. In addition, since thermal stresses can induce buckling, the probability of failure by this mechanism is also computed. Results enable to conclude that temperature uncertainty can be significant upon the vibration and buckling behavior of beams, which justifies its consideration in structural analyses.",
+  "authkeywords": [
+    "Stress-stiffening",
+    "Thermal stresses",
+    "Thermoelasticity",
+    "Uncertainty quantifcation"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Mechanical Engineering",
+    "issn": "21954356",
+    "eissn": "21954364",
+    "volume": null,
+    "issue": null,
+    "pages": "347-360",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Spuldaro, Everton",
+      "scopus_id": "57194152079",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Damy, Luiz Fabiano",
+      "scopus_id": "57203460730",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85090524865&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088768",
+    "data_quality_score": 90
+  }
+}

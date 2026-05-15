@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85041114685",
+  "eid": "2-s2.0-85041114685",
+  "doi": "10.1016/j.compstruct.2017.11.051",
+  "pii": "S0263822317329689",
+  "pubmed_id": null,
+  "title": "A composite beam element with through the thickness capabilities based on global-local superposition",
+  "abstract": "© 2017 Elsevier LtdA beam element is proposed that captures through the thickness effects in composite laminated beams, namely, transverse shear and normal stresses and strains. Stress continuity along the thickness is inherently enforced leading to a system of algebraic equations that is solved in the element level, permitting independence between the number of layers and the number of degrees of freedom, with all of them possessing a clear physical significance. Global-local superposition is performed in the thickness direction, where a cubic global displacement field, that guarantees imposition of the boundary conditions at the top and bottom surfaces of the beam, is combined with a layerwise linear local displacement distribution that assures zig-zag behavior of the stresses and displacements. The element behavior for different length-to-thickness ratios is assessed and compared to the analytical elasticity solution, as well as a commercial finite element alternative.",
+  "authkeywords": [
+    "Composite beam",
+    "Global-local superposition",
+    "Through the thickness effects",
+    "Zig-zag"
+  ],
+  "year": "2018",
+  "date": "2018-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "189",
+    "issue": null,
+    "pages": "728-742",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "S. de Lima, André",
+      "scopus_id": "57193121062",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "R. de Faria, Alfredo",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85041114685&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044454",
+    "data_quality_score": 100
+  }
+}

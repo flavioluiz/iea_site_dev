@@ -1,0 +1,29 @@
+{
+  "num_tese": "71822",
+  "type": "tese",
+  "title": "Trailing-edge noise from the scattering of spanwise-coherent structures",
+  "author": "Alex Sano",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "We study mechanisms of noise generation by an airfoil at zero angle of attack using flow-acoustic correlations, and spatial stability analysis at di?erent x/c velocity profiles along the airfoil. Firstly we use a large-eddy simulation (LES) of the compressible tur- bulent flow around a NACA0012 airfoil at Mach number 0.115. With this simulation we analyse flow fluctuations around the airfoil, such as pressure and velocity, and relate them to the far-field sound using standard correlation techniques. Similar to the results of Cavalieri et al. (2013), who have obtained more significant flow-acoustic correlation for turbulent jets when the axisymmetric mode was isolated, we have noticed higher correlations in the present problem when the two-dimensional mode, i.e., spanwise-averaged fluctuations, was isolated from the turbulent flow and subsequently correlated to the acoustic pressure. This result is justified theoretically by an analysis of the tailored Green's function for a half plane, where we find that a necessary condition for trailing edge scattering is |kz | < k, where kz is the spanwise wavenumber of turbulent disturbances and k is the acoustic wavenumber. Two-dimensional perturbations, associated to kz = 0, are always radiating. Isolation of spanwise-coherent disturbances is thus a means of filtering non-radiating structures. In light of the relation between the disturbances around the airfoil with the far-field noise, using standard correlation techniques, we use the methods of spatial stability analysis as a reduced-order model of two-dimensional flow fluctuations as hydrodynamic instability waves. Turbulent mean profiles in the trailing-edge region are used as base-flows. The analysis shows a number of marginally stable modes, with slow decay in the streamwise direction. Stability eigenfunctions are compared to the two-dimensional part of the LES fields, analysed using proper orthogonal decomposition; comparisons of power spectral densities and phases show good agreement for all flow variables, taken at relevant frequencies for trailing-edge noise. We can thus see the sound-producing mechanism in this flow to be the scattering of spanwise-coherent, hydrodynamic waves in the boundary-layer reaching the trailing edge.",
+  "subjects": [
+    "Aeroacústica",
+    "Camadas limite",
+    "Estabilidade de aeronaves",
+    "Escoamento compressível",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/06/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71822",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71822&origem=BDITA"
+}

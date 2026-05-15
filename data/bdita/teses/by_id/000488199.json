@@ -1,0 +1,30 @@
+{
+  "num_tese": "000488199",
+  "type": "tese",
+  "title": "Numerical simulation of axial flow compressors.",
+  "author": "Jesuino Takachi Tomita",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work deals with the numerical simulation of axial flow compressors, from design to performance prediction. The stage performance prediction uses the meanline flow properties. Stage-stacking is used to analyse a multi-stage compressor. A computer program, written in FORTRAN, was developed and is able to design an axial flow compressor given air mass flow, total pressure ratio, overall efficiency and design speed. All geometrical data relevant to the compressor performance prediction is calculated after it has been bladed. From the geometrical data and for given compressor speed, the performance is calculated: pressure ratio and efficiency are determined from stall to choke. A complete compressor performance map can be produced. Validation was carried out with data obtained from the literature. Good agreement has been achieved.",
+  "subjects": [
+    "Compressores",
+    "Escoamento axial",
+    "Turbinas a gás",
+    "Estruturas de geometria variável",
+    "Desempenho",
+    "Motores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000488199",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000488199&origem=BDITA"
+}

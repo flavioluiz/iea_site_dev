@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85146276208",
+  "eid": "2-s2.0-85146276208",
+  "doi": "10.1007/s40430-023-04014-2",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Methodology for inerting system analysis in the long-range aircraft preliminary design phase",
+  "abstract": "© 2023, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.This paper aims to specify a methodology for an optimized inerting system conceptual design based on fuel tank flammability analysis defined by rules for commercial aircraft certification proposal to evaluate the impact on engine bleed consumption in a modernized commercial long-range aircraft model. This work was carried out according to the following steps: (1) estimation of aircraft geometric tank features from limited data; (2) development of tank thermal model to estimate bulk fuel temperature based on flight performance aircraft, fuel consumption/transfer in the tank, presence of heat sources and external airflow heat exchange; (3) flammability analysis based on Federal Aviation Administration (FAA) certification requirement methodology; (4) conception of an inerting system model as a flammability reduction means based on tank gas mixture model, onboard inert gas generation system publicly available data from FAA previous studies and proposed inerting gas distribution model; (5) incorporation of inerting system in the flammability model and reassessment of the fuel tank flammability; (6) analysis of the impact in engine bleed air consumption and specific fuel consumption due to the designed inerting system. As a final result, a methodology to increase the safety in aircraft operation was obtained, considering the current most common technology used to reduce the fuel tank flammability in commercial aircraft, the inerting system. This strategy is applicable for new aircraft in a development phase and also allows the accomplishment of modernizing designs for existing aircraft following current safety regulations.",
+  "authkeywords": [
+    "Fuel tank flammability",
+    "Inerting system",
+    "OBIGGS",
+    "Safety requirements"
+  ],
+  "year": "2023",
+  "date": "2023-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "45",
+    "issue": "2",
+    "pages": null,
+    "article_number": "91"
+  },
+  "authors": [
+    {
+      "name": "da Fonseca Filho, Valdi Freire",
+      "scopus_id": "57188573379",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146276208&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118628",
+    "data_quality_score": 100
+  }
+}

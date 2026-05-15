@@ -1,0 +1,28 @@
+{
+  "num_tg": "80779",
+  "type": "tg",
+  "title": "Controle de atitude de satélite em campo magnético năo uniforme",
+  "author": "Raphael Batista Rosendo",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luiz Arthur Gagg Filho",
+      "professor_slug": "luiz-arthur-gagg-filho"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga a aplicaçăo de um sistema híbrido de controle de atitude para satélites, utilizando magnetotorquers em conjunto com uma roda de reaçăo. O controle magnético, baseado na interaçăo entre o dipolo magnético gerado a bordo e o campo geomagnético terrestre, apresenta vantagens em termos de simplicidade construtiva e eficięncia energética, especialmente em órbitas baixas. No entanto, existem limitaçőes que dificultam a aplicaçăo de torques arbitrários em todos os instantes. A incorporaçăo de uma roda de reaçăo em um dos eixos permite contornar essa limitaçăo, ampliando a controlabilidade e viabilizando maior precisăo. A fim de melhorar a modelagem das forças e torques atuantes, este estudo adota uma representaçăo do campo magnético baseada na equaçăo de Laplace, incluindo harmônicos esféricos de ordem superior. Essa modelagem permite simular com maior fidelidade a variabilidade espacial do campo magnético, sendo implementada computacionalmente em ambiente MATLAB. Com isso, săo analisadas as componentes do vetor magnético em diferentes regiőes da órbita, com vistas ŕ avaliaçăo da viabilidade de ajustes orbitais indiretos resultantes do acoplamento entre atitude e dinâmica orbital. Os resultados preliminares sugerem que o uso de uma malha de controle assistida por roda de reaçăo aumenta a eficácia do controle, ao passo que a modelagem precisa do campo magnético contribui para a previsăo acurada do comportamento do sistema. Este trabalho, portanto, fornece uma base teórica e computacional para futuras aplicaçőes em possíveis missőes lunares e estratégias de prevençăo de colisăo orbital.",
+  "subjects": [
+    "Controle de atitude",
+    "Satélites",
+    "Métodos harmônicos esféricos",
+    "Campos magnéticos",
+    "Controle de torque",
+    "Equaçőes de Laplace",
+    "Controle",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80779",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80779&origem=BDITA"
+}

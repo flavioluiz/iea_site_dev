@@ -1,0 +1,28 @@
+{
+  "num_tese": "76089",
+  "type": "tese",
+  "title": "A study of the influence of machine control and dynamics on the definition of deposition strategies and travel speeds for laser metal deposition (LMD) processes",
+  "author": "Pedro Luiz Teruel Filho",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Additive manufacturing solutions are not yet fully mature. Most current applications have been developed and certified through brute force trial and error experimentation for each individual part type, material and process. Specifically for the bead-based Laser Metal Deposition (LMD) process, challenges arise from the inherent process variability resulting from the involved phenomena. Similar input parameters generate variable bead shapes. The cause and effect relationships are non-linear and highly coupled. Existing additive process planning solutions do not account for deposition-specific requirements in tool path generation. The relations between the delivery rates of both energy and material are susceptible to machine dynamic limitations. Geometric characteristics of the tool path curvature may cause machine dynamic-related limitations in travel path. Similar restrictions arise from limitations in program reading speed related to the Block Processing Time (BPT). Such restrictions suggest that machine-specific guidelines must be defined and observed when generating tool paths for bead deposition. This study investigates how specific travel paths and trajectory programming characteristics affect the specified travel speed. The objective of this study is the definition of guidelines for trajectory generation towards the predictability of bead morphology. Machine control and dynamics tests were performed in a ROMI DCM 620-5X 5-axis machining center with a Sinumerik 840D sl numerical control. Kinematic and dynamic parameters extracted from the CNC were used to analyze the influence of the defined factors on the reading speed and dynamic behavior. Limits were found for point spacing, corner radius and change of direction for each speed. The results were formatted into curves with limit values for parameters and consolidated into practical guidelines, which could be applied in the planning of deposition processes in the ROMI DCM 620-5X Hybrid machine. A method for trajectory verification was proposed based on the obtained guidelines and implemented to an additive process planning flowchart.",
+  "subjects": [
+    "Processos de manufatura",
+    "Planejamento de trajetória",
+    "Dinâmica E Máquinas",
+    "Controle numérico",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76089",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76089&origem=BDITA"
+}

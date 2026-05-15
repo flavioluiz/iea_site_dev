@@ -22,11 +22,6 @@ main:
     url: "/departamentos/"
     weight: 2
 
-  - identifier: "espaco"
-    name: "Área Espacial"
-    parent: "divisao"
-    url: "/espaco/"
-    weight: 3
 
   # Pessoal - Link direto
   - identifier: "pessoal"
@@ -70,34 +65,34 @@ main:
     url: "#"
     weight: 6
 
-  - identifier: "cursos"
+  - identifier: "cursos-grad"
     name: "Cursos"
     parent: "graduacao"
     url: "/graduacao/"
     weight: 1
 
-  - identifier: "disciplinas"
-    name: "Disciplinas"
+  - identifier: "tgs"
+    name: "Trabalhos de Graduação"
     parent: "graduacao"
-    url: "/disciplinas/"
-    weight: 2
+    url: "/tgs/"
+    weight: 3
 
-  # Menu "Pós-Graduação" - links externos
+  # Menu "Pós-Graduação"
   - identifier: "posgraduacao"
     name: "Pós-Graduação"
     url: "#"
     weight: 7
 
-  - identifier: "pgeam"
-    name: "PG-EAM"
+  - identifier: "pg-cursos"
+    name: "Cursos"
     parent: "posgraduacao"
-    url: "https://www.ita.br/posgraduacao/pgeam"
+    url: "/posgraduacao/"
     weight: 1
 
-  - identifier: "pgcea"
-    name: "PG-CEA"
+  - identifier: "teses"
+    name: "Dissertações e Teses"
     parent: "posgraduacao"
-    url: "https://www.ita.br/posgraduacao/pgcea"
+    url: "/teses/"
     weight: 2
 
   # Contato - Link direto

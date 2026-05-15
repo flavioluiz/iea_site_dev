@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85175571338",
+  "eid": "2-s2.0-85175571338",
+  "doi": "10.5802/crmeca.193",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A second-order resolvent formulation for the analysis of turbulent flow structures",
+  "abstract": "© 2023 Elsevier Masson SAS. All rights reserved.An attempt to improve the accuracy of resolvent-based predictions by including velocity correlations in the linear model is developed here. Closure assumptions for unresolved nonlinearities are thus pushed back to a higher order. Turbulent channel flow is considered as a test case: response and forcing modes obtained from singular value decomposition of the new resolvent model are compared to Spectral Proper Orthogonal Decomposition (SPOD) modes extracted from a Direct Numerical Simulation (DNS) database. The performance of the approach is also measured against previous resolvent-based models. The new model does not yield significant global improvement, but does improve predictions in some regions. Further work on the method should target the linear modeling of the velocity-pressure gradient correlation tensor.",
+  "authkeywords": [
+    "Linear analysis",
+    "Reduced-order modeling",
+    "Resolvent analysis",
+    "Theoretical fluid mechanics",
+    "Turbulence"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Comptes Rendus Mecanique",
+    "issn": "16310721",
+    "eissn": "18737234",
+    "volume": "351",
+    "issue": "G2",
+    "pages": "355-371",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Chevalier, Quentin",
+      "scopus_id": "59008436100",
+      "affiliation": "60105985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lutz, Lesshafft",
+      "scopus_id": "58678276700",
+      "affiliation": "60105985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175571338&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100537",
+    "data_quality_score": 100
+  }
+}

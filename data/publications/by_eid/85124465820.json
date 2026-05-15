@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-85124465820",
+  "eid": "2-s2.0-85124465820",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "OPTIMIZATION OF LONGITUDINAL CONTROL OF AN AGRICULTURAL UAV USING LQR-PID CONTROL",
+  "abstract": "© 2021 32nd Congress of the International Council of the Aeronautical Sciences, ICAS 2021. All rights reserved.In the development of automatic piloting systems nowadays, flight tests are required to validate operations and tuning of the control loops, making the process costly. For an optimal point of stability within a region of operation, this work aims to use the modern control technique of Linear Quadratic Regulator (LQR), with minimization through the Riccati equation for the optimization of Proportional, Integral, and Derivative (PID) control loops in longitudinal piloting. The aircraft considered for the flight tests was the C2 fixed-wing Unmanned Aerial Vehicles (UAV) used for agricultural purposes. The nonlinear model coefficients of the aircraft were acquired using well-known computational methods. The inertia properties were acquired through drawings made in Computer-Aided Design (CAD) with the Catia® software and the aerodynamic properties' estimation with the Omni3d® software. The aircraft's applied system was the Micropilot® LRC2 autopilot that has cascade PID control loops for altitude and trajectory control; however, the control loops tuning responsible for longitudinal movement are this work's main contribution. In parallel, a flight test campaign was carried out to collect data and tune the autopilot gains in flight by an empirical method based on Ziegler-Nichols' method. The gain data collected during the flights are used to compare the data obtained by the theoretical computer model of the aircraft. Different performances related to the gains obtained by the flight test and the PID control loops' optimization method through the LQR method are demonstrated with the non-linear model's application under the effects of disturbances. The main achieved results are about the minimum energy cost. This minimization in energy cost is due to the PID in-flight tuning that takes more energy in the actuators than the PID optimized with the LQR method, which proves to be a promising system for faster development of agricultural UAVs.",
+  "authkeywords": [
+    "Flight test",
+    "Micropilot",
+    "System of control",
+    "UAV"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "32nd Congress of the International Council of the Aeronautical Sciences Icas 2021",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sarmento, Andrew Gomes Pereira",
+      "scopus_id": "57448915500",
+      "affiliation": "127698277",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Souza, Alain Giacobini",
+      "scopus_id": "56263221000",
+      "affiliation": "127698277",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Neves, Alexandre Muniz",
+      "scopus_id": "57216420001",
+      "affiliation": "127698068",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "127698277",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "127698277",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124465820&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066923",
+    "data_quality_score": 70
+  }
+}

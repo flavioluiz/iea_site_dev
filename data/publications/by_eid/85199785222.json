@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85199785222",
+  "eid": "2-s2.0-85199785222",
+  "doi": "10.2514/6.2023-4516",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Jet-noise reduction by streak-generating tabs",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper reports aeroacoustic experiments on round jets containing tab elements adhered to the nozzle internal surface with the purpose of generating steady streaks in the nozzle boundary-layer. Such streaks are theoretically expected to reduce growth rates associated with the Kelvin-Helmholtz mechanism and, in turn, to reduce jet noise. Nozzle configurations with and without a boundary-layer transition trigger element (carborundum trip), were studied. Stereo particle image velocimetry (stereo PIV) was employed to measure the three components of the velocity for a series of planes parallel to the nozzle exit at Mj = 0.7 in the 0.03 xD 10 streamwise range, where x is the streamwise distance and D is the jet diameter. Such measurements clearly show alternating regions of high and low speed flow due to the streaks that were induced by the tabs on the nozzle boundary-layer and are sustained in the jet shear-layer up to at least xD = 3. The acoustic experiments were performed in an anechoic facility, using an azimuthal array containing 18 equally-spaced microphones to characterize the acoustic field. The antenna was employed to conduct measurements at 15 streamwise stations in the 20 deg θ 90 deg polar range. All acoustic experiments were conducted in the 0.4 Mj 0.9 Mach number range. The presence of the tab elements leads to noise reductions of up to 6 dB/St, observed for Strouhal numbers in the 0.1 St 0.5 range, Mj = 0.4, axisymmetric azimuthal mode and untripped boundary-layer case. When the trip mechanism is present, the noise reduction is up to 3 dB/St. An overall sound pressure level (OASPL) reduction of up to 3 dB was measured for axisymmetric mode of the tabbed case for Mj = 0.4. As the tabs were designed based on boundary-layer measurements at Mj = 0.4, the noise reduction decreases with increasing Mach number. Nevertheless, significant noise reductions of up to 1.5 dB are still observed up to Mj = 0.9 and axisymmetric mode. Moreover, the noise reduction is up to 6 dB for the two first helical modes. The noise reduction was measured at both lower and higher polar angles and for almost the entire frequency range, up to at least St 2. Streak-inducing devices such as the present tabs are thus a promising approach to reduce jet noise",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Do Amaral, Filipe R.",
+      "scopus_id": "57188717193",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hasparyk, Barbara G.",
+      "scopus_id": "59244258200",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lebedev, Anton",
+      "scopus_id": "57193352954",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Eysseric, Damien",
+      "scopus_id": "55845444900",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85199785222&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100495",
+    "data_quality_score": 90
+  }
+}

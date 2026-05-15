@@ -1,0 +1,102 @@
+{
+  "publication_id": "2-s2.0-85208799388",
+  "eid": "2-s2.0-85208799388",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "FLIGHT PATH RECONSTRUCTION OF A FLEXIBLE WING UAV WITH WING MOUNTED VANES",
+  "abstract": "© 2024, International Council of the Aeronautical Sciences. All rights reserved.This article expands upon the analysis conducted in a flight campaign involving a flexible wing UAV with a 4m wingspan and an aspect ratio of 18.9, powered by electric propulsion. The UAV is equipped with a data acquisition system designed to explore the effects of flexibility. The initial phase of the campaign involved flight evaluations aimed at assessing the behavior of the system, particularly in terms of data acquisition. Data compatibility tests were examined using the Flight Path Reconstruction (FPR) technique and the Output Error Method (OEM). The outcomes of the FPR analysis indicate the consistency of the recorded data. The evaluation of biases, scale factors, and time delays using the FPR method successfully established correlations between the recorded data, with notable exceptions in the case of airspeed and angle of attack, which exhibited discrepancies in fitting with classic rigid body kinematics. In this work, the longitudinal FPR using OEM is augmented by incorporating the flexible aircraft dynamic model to provide a more accurate representation of the aircraft, accounting for flexibility effects. In the execution of the FPR, the state variables of the aircraft model, obtained by the integration of the kinematic expression and sensor-gathered data, were expanded by the addition of the structural dynamics. This modification has enabled the computation of α and β values at the vane positions, accounting for structural dynamics effects, and also evaluating accelerations at the wingtips. Synthetic data obtained from an aircraft simulation model were used to evaluate the FPR for the flexible aircraft, and the results have shown that this method can lead to good results when the aircraft model is available. The rigid and flexible FPR were applied to flight-recorded data, and the results obtained with the flexible FPR have not led to enhancements as seen in the simulated data, which indicates that further refinements must be made in the experimental procedures, and evaluations on the structural model and aircraft sensors must be conducted. In conclusion, the method can be used to evaluate additional information beyond the classic FPR developed solely relying on general rigid body kinematics.",
+  "authkeywords": [
+    "Flexible Aircraft",
+    "Flight Dynamics",
+    "FPR",
+    "Identification",
+    "UAV"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Icas Proceedings",
+    "issn": "10259090",
+    "eissn": "29584647",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fernandes, Vítor Paixão",
+      "scopus_id": "58262083800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Paula, Thiago Rosado",
+      "scopus_id": "58260575000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Do Nascimento, Rodrigo Costa",
+      "scopus_id": "59407596800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85208799388&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066630",
+    "data_quality_score": 80
+  }
+}

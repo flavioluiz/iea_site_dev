@@ -1,0 +1,26 @@
+{
+  "num_tg": "80037",
+  "type": "tg",
+  "title": "Projeto de um sistema de controle de antena para rastreio de sonda estratosférica",
+  "author": "Chrystian Jones Maia Campos",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O projeto ITACUBE está inserido no contexto de missőes espaciais com baixo custo e aplicaçőes educacionais. Seu objetivo é a construçăo e operaçăo de nanossatélites embarcados em balőes estratosféricos para operaçăo em alta altitude. Dadas as restriçőes de peso e potęncia desse tipo de artefato, é fundamental manter o correto apontamento da antena da estaçăo de solo com o balăo, garantindo a recepçăo e transmissăo das telemetrias e telecomandos. Este trabalho tem o objetivo de projetar um sistema de controle automático em azimute e elevaçăo para a antena da estaçăo de solo, com a finalidade de proporcionar o rastreio contínuo ao longo da missăo.",
+  "subjects": [
+    "Controle de satélites",
+    "Rastreamento de satelites",
+    "Antenas",
+    "Verificaçăo de programa (computadores)",
+    "Simulaçăo computadorizada",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80037",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80037&origem=BDITA"
+}

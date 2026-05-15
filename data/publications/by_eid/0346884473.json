@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-0346884473",
+  "eid": "2-s2.0-0346884473",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent natural convection in enclosures completely filled with porous material",
+  "abstract": "Steady laminar and turbulent natural convection in a two-dimensional square cavity, isothermally heated from the left side and cooled from the opposing side, is numerically analyzed using the finite volume method. Benchmark results for laminar and turbulent flows are compared with similar numerical solutions in the literature. The cases of clear and porous media are considered. Governing equations are written in terms of primitive variables and are recast into a general form. The effects of Rayleigh number on flow pattern and energy transport are investigated for Ra ranging from 103 to 1010 for clear media and 101 to 106 for porous media. The turbulence model used was the standard k-ε along with the wall function approach. All results presented herein showed reasonable agreement with calculations presented in the literature. Critical values for the Rayleigh number for the onset of turbulence are suggested. The main objective of this work is to validate a numerical tool for simulating turbulent natural convection in both clear and porous media.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Heat Transfer Division Publication HTD",
+    "issn": "02725673",
+    "eissn": null,
+    "volume": "372",
+    "issue": "6",
+    "pages": "155-164",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0346884473&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111733",
+    "data_quality_score": 60
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-84964912598",
+  "eid": "2-s2.0-84964912598",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The use of dynamic strain sensors and measurements on the ground vibration testing of an F-16 aircraft",
+  "abstract": "Ground Vibration Testing (GVT) of aircraft is a measurement campaign performed in the development process of an aircraft, with the objective of obtaining experimental data of the aircraft to validate and update the structural dynamic models, which can in turn be used to predict important behavior, such as flutter. These measurements are usually carried out using standard accelerometers, which lead to the identification of the displacement mode shapes. However, the use of strain sensors in vibration and modal related applications has recently gained popularity, due to some advantages, such as sensor size and the fact that strain relates directly to stress. On the other hand, interpreting the strain mode shapes can sometimes be more complex, so the use of both strain and acceleration sensors can lead to a more complete and understandable dataset. In this paper, the main results of a GVT campaign on an F-16 aircraft will be shown, where the full aircraft was instrumented with accelerometers and one of the wings was also fully instrumented with dynamic strain sensors. The main results of the test campaign will be shown, where both strain sensor and accelerometer measurements are processed simultaneously, resulting in the strain and displacement mode shapes, respectively, and some characteristics and advantages of carrying out the tests this way will be presented.",
+  "authkeywords": [
+    "Ground vibration testing",
+    "Strain modal analysis",
+    "Strain sensors"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dos Santos, Fábio L.M.",
+      "scopus_id": "55212979900",
+      "affiliation": "60107481-60021657-60025063",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peeters, Bart",
+      "scopus_id": "7101854096",
+      "affiliation": "60107481",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Debille, Jan",
+      "scopus_id": "8395783600",
+      "affiliation": "60107481",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Salzano, Carmine",
+      "scopus_id": "57189041709",
+      "affiliation": "60098826",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goés, Luiz Carlos S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Desmet, Wim",
+      "scopus_id": "56274925200",
+      "affiliation": "60025063",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84964912598&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077483",
+    "data_quality_score": 80
+  }
+}

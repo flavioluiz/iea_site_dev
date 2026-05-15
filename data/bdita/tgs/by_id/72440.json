@@ -1,0 +1,31 @@
+{
+  "num_tg": "72440",
+  "type": "tg",
+  "title": "Efeitos de compressibilidade no desempenho do helicóptero UH-60L em voo nivelado",
+  "author": "Giovanni Fiorenza Munaretto",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alex Duarte Gomes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Um dos principais desafios de projeto de helicópteros é desenvolver aeronaves capazes de voar a altas velocidades ŕ frente, a fim de minimizar o tempo de deslocamento entre dois pontos. Para tanto, é necessário se conhecer, dentre outros parâmetros influentes, os efeitos de compressibilidade no voo ŕ frente decorrentes dos elevados números de Mach na ponta da pá que avança. Para se quantificar o impacto dos efeitos de compressibilidade sobre a potęncia requerida total podem ser conduzidos ensaios em voo para determinaçăo experimental dos efeitos, atividade de custo elevado, ou entăo executar simulaçőes computacionais a partir da modelagem do problema. Apesar de năo substituir o ensaio em voo no processo de certificaçăo da aeronave, a modelagem da potęncia requerida total é fundamental para orientar as decisőes durante o desenvolvimento do projeto de um helicóptero, uma vez que modela o impacto dos diferentes componentes da aeronave (Rotor principal, rotor de cauda e fuselagem) na potęncia requerida. Esta pesquisa tem como objetivo geral determinar a influęncia dos efeitos de compressibilidade sobre a potęncia requerida no voo nivelado da aeronave UH-60L. Os objetivos específicos deste estudo săo: (i) modelar as parcelas de potęncia requerida pelos componentes da aeronave (Rotor principal, rotor de cauda e fuselagem); (ii) desenvolver um modelo matemático para prever tanto a potęncia requerida total quanto os efeitos de compressibilidade sobre a mesma para cada valor de velocidade ŕ frente no voo nivelado; (iii) elaborar um experimento para mensurar os efeitos de compressibilidade em voo; (iv) Aplicar a correçăo de compressibilidade baseado nos resultados experimentais sobre o modelo de potęncia requerida. A previsăo da potęncia requerida total sem modelagem dos efeitos de compressibilidade apresentou um intervalo de precisăo entre 85% e 92% para altitude-pressăo de Zp = 100ft e precisăo entre 68% e 92% para altitude-pressăo de Zp = 4000ft. Com a modelagem semi-empírica dos efeitos de compressibilidade, a precisăo para Zp = 100ft obtida ficou entre 92% e 112%, enquanto os valores obtidos para Zp = 4000ft apresentaram precisăo entre 88% e 100%. Os resultados deste trabalho podem ser utilizados tanto no desenvolvimento do projeto de um helicóptero, devido ŕ prediçăo das parcelas de potęncia requerida no voo nivelado, quanto na metodologia para execuçăo de ensaio em voo a fim de se quantificar experimentalmente os efeitos de compressibilidade no voo nivelado.",
+  "subjects": [
+    "Helicópteros",
+    "Efeitos de compressibilidade",
+    "Ensaios em voo",
+    "Número de Mach",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72440",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72440&origem=BDITA"
+}

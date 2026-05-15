@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85045887029",
+  "eid": "2-s2.0-85045887029",
+  "doi": "10.1007/s00170-018-1855-7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical analysis of the influence of coatings on a cutting tool using COMSOL",
+  "abstract": "© 2018, Springer-Verlag London Ltd., part of Springer Nature.The determination of the thermal field in a turning process is fundamental to improve the process quality. Recently, the carbide tools have been coated with ceramic materials that present insulating characteristics. This work presents an analysis of the thermal effects of coating in a carbide tool during a turning process using the COMSOL® software and a nonlinear inverse problem. The thermal model consists of a coated carbide tool, a tool holder, and a shim represented by the transient three-dimensional heat diffusion equation with heat loss by convection and radiation. The heat flux, previously unknown, is obtained through the function specification method. In order to validate the methodology, the heat flux is compared with the author’s previous work. Titanium nitride (TiN) and aluminum oxide (Al2O3) are utilized as the coating materials. Both coatings present the expected behavior when less heat is dissipated to the cutting tool substrate. The coated carbide tools present higher temperatures than the uncoated carbide tool in the contact area. The study also found that the thicker the coating, the higher the temperature in the contact area. The results presented in this work may help the development of new long-lasting coated carbide tools.",
+  "authkeywords": [
+    "Coatings",
+    "COMSOL",
+    "Cutting process",
+    "Heat flux estimation",
+    "Inverse problems"
+  ],
+  "year": "2018",
+  "date": "2018-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Advanced Manufacturing Technology",
+    "issn": "02683768",
+    "eissn": "14333015",
+    "volume": "97",
+    "issue": "1-4",
+    "pages": "1305-1314",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Diego Corrêa",
+      "scopus_id": "57201728215",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60025299",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Brito, Rogério Fernandes",
+      "scopus_id": "7005511443",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lima E Silva, Sandro Metrevelle M.",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85045887029&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091222",
+    "data_quality_score": 100
+  }
+}

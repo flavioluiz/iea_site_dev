@@ -1,0 +1,36 @@
+{
+  "num_tese": "65622",
+  "type": "tese",
+  "title": "Propostas para a escolha das excentricidades nos modelos DEA paramétricos de fronteira elipsoidal",
+  "author": "Luciene Bianca Alves",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Nei Yoshihiro Soma",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente estudo visa complementar o desenvolvimento de um modelo de alocaçăo de insumos, de soma constante, paramétrico, que se adapta as características da Análise Envoltória de Dados, DEA (Data Envelopment Analysis), e que garante uma soluçăo fortemente eficiente (\"strongly efficient\") para todas as Unidades Tomadoras de Decisăo, DMUs (Decision Making Units), em modelos com retorno constante de escala. Trata-se do Modelo EFM, Ellipsoidal Frontier Model, baseado numa fronteira de eficięncia paramétrica em formato elipsoidal, capaz de distribuir inputs levando em conta os valores de inputs e outputs do problema. O EFM fornece várias possibilidades de soluçőes em razăo da sua flexibilidade, atribuída aos graus de liberdade (excentricidades) do modelo. Por esta razăo, despertou-se o interesse em orientar o decisor na escolha da melhor soluçăo, objetivo do presente trabalho. Assim, săo propostas tręs análises, classificadas como: Análises Local 1 (AL1), Análise Local 2 (AL2) e Análise Global (AG). A primeira (AL1) busca uma soluçăo que obtenha o menor valor do input enquanto a segunda (AL2), a menor variabilidade, ambos associados a uma determinada DMU. E por fim, a AG, com vistas a uma soluçăo com a menor variabilidade total do conjunto dos dados, ou seja, de todas as DMUs da distribuiçăo. Para cada uma das análises săo propostos também um Problema de Otimizaçăo Năo Linear (PNL) para sua resoluçăo. Desse modo, indicam-se a combinaçăo de excentricidade com uma redistribuiçăo dos inputs considerada mais favorável ao decisor.",
+  "subjects": [
+    "Análise envoltória de dados",
+    "Modelos de soma de variáveis",
+    "Escolhas ótimas",
+    "Sistemas de administraçăo",
+    "Soma constante",
+    "Tomada de decisőes",
+    "Pesquisa operacional",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "10/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65622",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65622&origem=BDITA"
+}

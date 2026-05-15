@@ -1,0 +1,32 @@
+{
+  "num_tese": "000567646",
+  "type": "tese",
+  "title": "Otimizaçăo de projeto preliminar de leme em material compósito incluindo o efeito de tensőes residuais térmicas.",
+  "author": "Cristiano Tavares de Mattos",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo desse trabalho é desenvolver uma sistemática de otimizaçăo utilizando-se como base o software MSC.Nastran® de forma a otimizar estruturas em material compósito tirando vantagem das tensőes residuais térmicas em problemas de estabilidade elástica. As tensőes residuais térmicas (TRT) introduzidas durante o processo de manufatura podem ser utilizadas para aumentar significantemente as cargas de flambagem de estruturas em material compósito, portanto, o procedimento de otimizaçăo, aqui proposto, melhora o projeto levando-se em consideraçăo o estado térmico do componente. É necessária a análise de elementos finitos devido a complexidade da estrutura e também ao uso de métodos numéricos para análise térmica e de flambagem linear. O estudo de caso aqui aplicado consiste em otimizar o revestimento de um leme aeronáutico de fabricaçăo tipo one-shot. O leme é modelado por elementos finitos de placa isoparamétricos, quadrilaterais e triangulares, baseados na formulaçăo de Reissner-Mindlin. Um layout para o revestimento do leme é proposto. Problemas de minimizaçăo de massa e restriçăo de autovalores săo utilizados sucessivamente de forma a proporcionar ganho significativo de desempenho, sendo que as variáveis de projeto săo as espessuras dos laminados que variam de forma contínua. O procedimento é validado para diferentes temperaturas as quais o leme estará sujeito durante sua operaçăo. Os resultados indicam que utilizando as TRTs através do método proposto influenciamos significantemente a otimizaçăo estrutural de uma estrutura em laminado composto. Portanto conclui-se que a avaliaçăo e efeitos das tensőes térmicas devem ser levados em consideraçăo quando projetamos essa classe de estruturas em material compósito.",
+  "subjects": [
+    "Análise estrutural",
+    "Otimizaçăo",
+    "Materiais compósitos",
+    "Tensăo residual",
+    "Tensőes térmicas",
+    "Flambagem",
+    "Laminados",
+    "Engenharia de materiais",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "28/07/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567646",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567646&origem=BDITA"
+}

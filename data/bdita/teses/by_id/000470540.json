@@ -1,0 +1,29 @@
+{
+  "num_tese": "000470540",
+  "type": "tese",
+  "title": "Avaliaçăo das técnicas de estimativa de precipitaçăo GPI e NAW sobre as áreas de abrangęncias do experimento TOGA COARE e do radar de Bauru, Săo Paulo.",
+  "author": "Graziela Balda Scofield",
+  "year": "2002",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Íria Fernandes Vendrame",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este estudo avalia a Global Precipitation Index (GPI), Negri Adler Wetzel Technique (NAW) e duas versőes adaptadas nas várias resoluçőes temporais e espaciais sobre áreas continental e oceânica. As escalas temporais variaram entre 3 h a mensal, enquanto que a espacial de 100 a 10000 Km2. No primeiro caso, foram utilizados imagens infravermelho do satélite meteorológico Geoestacionary Meteorological Satellite-4 (GMS-4) e dados Constant Altitude Plan Position Indicator (CAPPI) de dois radares a bordo de navios na área do experimento oceanográfico Tropical Ocean-Global Atmosphere Project - Coupled Ocean Atmosphere Response Experiment (TOGA COARE). No segundo caso, interior de Săo Paulo, utilizou-se imagens infravermelho do satélite Geoestacionary Operational Environmental Satellite 8 (GOES-8) dados CAPPI do radar meteorológico de Bauru. A obtençăo das versőes adaptadas das técnicas GPI e NAW, denominadas, respectivamente GPId e NAWd envolveram a modificaçăo da temperatura limiar de chuva e năo chuva e também as taxas ótimas de precipitaçăo de cada técnica de acordo as diferentes resoluçőes espaciais e temporais. Além disso, definiram-se as técnicas padrőes, GPIp e NAWp, que também envolveram a regionalizaçăo da temperatura limiar de chuva e năo chuva e a substituiçăo da taxa ótima de precipitaçăo mensal para todas as outras resoluçőes temporais e todas as áreas estudadas. Posteriormente, foram calculadas a tendęncia, Root Mean Square Error (RMSE) médio e a correlaçăo, para várias combinaçőes temporais e espaciais, para tręs formas de amostragem espaciais diferentes: variaçăo da área central da imagem; divisăo da imagem em janelas de vários tamanhos sem sobreposiçăo de linhas e colunas; e divisăo da imagem em janelas de vários tamanhos mas com sobreposiçăo de linhas e colunas. Para a maioria das combinaçőes, as taxas ótimas encontradas apresentaram valores menores que os encontrados para a GPI e NAW. Os resultados obtidos indicaram que as taxas ótimas de precipitaçăo sobre o oceano no TOGA COARE foram maiores do que sobre a área de abrangęncia do radar de Bauru. Além disso, as técnicas GPI e NAW superestimaram as taxas de precipitaçăo em relaçăo aos dados de radar, enquanto que as técnicas GPIp e NAWp superestimaram levemente as taxas de precipitaçăo em relaçăo aos dados de radar. Concluiu-se também que as técnicas GPId e NAWd; e GPIp e NAWp apresentaram menores valores de tendęncias e RMSE médios que os da GPI e NAW, para ambas as áreas de estudo, apesar das correlaçőes serem constante para as técnicas GPI, GPId e GPIp e NAW, NAWd e NAWp. Este comportamento mostrou que a regionalizaçăo das técnicas GPI e NAW independe das correlaçőes. As variáveis estatísticas mostraram que o desempenho das GPId e NAWd foi levemente superior aos das GPIp e NAWp, năo compensando a utilizaçăo de taxas específicas para cada resoluçăo. Assim, concluiu-se que com pequenas adaptaçőes de temperatura limiar de chuva e năo chuva e de taxa de precipitaçăo pode-se estimar a precipitaçăo com menores tendęncias e RMSE médios para resoluçőes temporais de 3 h a mensal e áreas de 100 a 10000 Km2, para as tręs formas de amostragem espacial analisadas.",
+  "subjects": [
+    "Precipitaçăo (Meteorologia)",
+    "Radar meteorológico",
+    "Satélites meteorológicos",
+    "Processamento de imagens",
+    "Meteorologia",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000470540",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000470540&origem=BDITA"
+}

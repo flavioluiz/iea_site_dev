@@ -1,0 +1,33 @@
+{
+  "num_tg": "80043",
+  "type": "tg",
+  "title": "Proposta e implementaçăo de modelos matemáticos para partida e desligamento de câmaras de empuxo de motores-foguete a propelente líquido",
+  "author": "Lucas Ramalho Rocha",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Leonardo Henrique Gouvęa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Levi Maia Araújo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe uma modelagem matemática que descreva as etapas de partida e de desligamento de câmaras de combustăo de motores-foguete a propelente líquido, considerando-se o emprego de modelos acurados, em conjunto com a abordagem tradicional, nas etapas de projeto de novos MFPL de modo a proporcionar conhecimento fundamental para a compreensăo dos fenômenos envolvidos nessas etapas. Ao explorar os modelos matemáticos que descrevem o funcionamento dos componentes de um MFPL de modo individual, possibilitou-se descrever esses processos de acordo com dependęncias matemáticas a serem exploradas no estabelecimento de um modelo matemático que expresse as relaçőes evidenciadas no conjunto, de modo a constituir o modelo matemático do MFPL. Os resultados foram obtidos por intermédio de programas computacionais desenvolvidos na linguagem. Python e foram comparados com testes empíricos. Desse modo, este estudo oferece grande contribuiçăo para o estabelecimento das melhores propostas para sequęncias de igniçăo e desligamento, visando ŕ operaçăo do motor proposto.",
+  "subjects": [
+    "Motores foguetes",
+    "Propelentes líquidos",
+    "Modelos matemáticos",
+    "Motores de partida",
+    "Desligamentos",
+    "Câmaras de combustăo",
+    "Programas de computadores",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80043",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80043&origem=BDITA"
+}

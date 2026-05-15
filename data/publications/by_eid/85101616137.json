@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85101616137",
+  "eid": "2-s2.0-85101616137",
+  "doi": "10.1590/jatm.v13.1198",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Investigations on complex acoustic modes of rocket engines combustion chambers for damping allocation",
+  "abstract": "© 2021, Journal of Aerospace Technology and Management. All rights reserved.Combustion instability can severely impair the operation of many kinds of combustion engines. Acoustic resonators are widely used to suppress the pressure oscillations caused by the coupling between the combustion process and the combustion chamber acoustic modes. Combustion chambers with subsonic flow in its inlets and outlets, like gas turbine combustors, exhibit some acoustical damping due to the presence of openings. In such chambers, the acoustic modes are complex. In a complex mode, the antinode regions can be shifted from its position in the corresponding real mode. In this work an experimental acoustic modal analysis of a cavity with an opening was performed. Acoustic frequency response functions were obtained by using a volume acceleration source, a microphone and a data acquisition system. The PolyMAX algorithm was used to estimate longitudinal modes in its real and complex versions. A comparison was performed and the results show that, for some modes, the antinode region placement could change reasonably. This suggests that the use of complex modes for location of antinode regions provides more accurate results and consequently could be a better way to identify positions, where resonators provide maximum damping in order to minimize combustion instability in subsonic combustion chambers.",
+  "authkeywords": [
+    "Acoustic measurement",
+    "Cavity resonators",
+    "Combustion chambers",
+    "Modes",
+    "Standing waves"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aerospace Technology and Management",
+    "issn": "19849648",
+    "eissn": "21759146",
+    "volume": "13",
+    "issue": null,
+    "pages": "1-10",
+    "article_number": "e1021"
+  },
+  "authors": [
+    {
+      "name": "Guimarães, Gustavo Paulinelli",
+      "scopus_id": "55329021000",
+      "affiliation": "60022764",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pirk, Rogerio",
+      "scopus_id": "16639492000",
+      "affiliation": "60021657-60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Souto, Carlos D’Andrade",
+      "scopus_id": "36997421600",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101616137&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.076991",
+    "data_quality_score": 100
+  }
+}

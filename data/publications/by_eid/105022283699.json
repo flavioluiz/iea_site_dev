@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-105022283699",
+  "eid": "2-s2.0-105022283699",
+  "doi": "10.52202/078371-0200",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Reactive Molecular Dynamics simulation of ammonium perchlorate-aluminum interactions: effects of passivation and initial decomposition mechanism",
+  "abstract": "Copyright © 2024 by the International Astronautical Federation (IAF). All rights reserved.Reactive molecular dynamics simulations were utilized to investigate the reaction between ammonium Perchlorate (AP) and aluminum (Al) particles. Two distinct sets of simulations were conducted, one involving a pure aluminum particle and the other featuring a passivated aluminum particle. The aim was to examine and compare the behavior of the reactive systems under different conditions. The simulations were performed using the ReaxFF force field, allowing for a detailed representation of chemical reactions at the atomic scale. Results revealed significant differences in the reaction dynamics between the two systems. The pure aluminum particle exhibited a more rapid and exothermic reaction with AP, leading to a higher release of energy and potentially enhanced propulsion performance. Conversely, the passivated aluminum particle displayed a slower and less exothermic reaction, attributed to the presence of an oxide layer inhibiting direct contact between aluminum and AP molecules. Additionally, kinetic parameters such as reaction rate constants were calculated for both sets of simulations, providing insights into the reaction kinetics of AP-A1 systems. Furthermore, the initial decomposition mechanism of AP was investigated, shedding light on the early stages of the reaction process. These findings provide valuable insights into the role of aluminum passivation in solid rocket propellant formulations and highlight the potential for optimizing energetic materials through molecular-level simulations. Overall, the comprehensive analysis presented in this study advances our understanding of AP-A1 interactions and offers a foundation for further research aimed at enhancing the performance and safety of energetic materials in propulsion applications.",
+  "authkeywords": [
+    "aluminum passivation",
+    "reactive molecular dynamics",
+    "solid propellant"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "1803-1806",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, Rene F.B.",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Rocco, José A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    },
+    {
+      "name": "Rocco, Leopoldo",
+      "scopus_id": "36490283900",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Bruno T.",
+      "scopus_id": "57218417430",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves",
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 7,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022283699&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114896",
+    "data_quality_score": 90
+  }
+}

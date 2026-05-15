@@ -1,0 +1,40 @@
+{
+  "num_tese": "000498500",
+  "type": "tese",
+  "title": "Aplicaçőes de múltiplas redes neurais em sistemas mecatrônicos.",
+  "author": "Areolino de Almeida Neto",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta tese trata da aplicaçăo de múltiplas redes neurais em sistemas mecatrônicos. É mostrado que as múltiplas redes neurais devem ser treinadas em seqüęncia, tal que aprendizado acumulativo possa ser obtido sem a necessidade de um coordenador geral. Este método de treinamento pode manter o aprendizado já adquirido pelas redes neurais, que foram treinadas primeiramente, enquanto novo aprendizado pode ser obtido pelas redes neurais, que foram adicionadas e treinadas posteriormente. A saída de todas as redes é simplesmente somada para produzir a saída da estrutura neural. A estrutura proposta de múltiplas redes neurais é aplicada em dois tipos de sistemas mecatrônicos: a) para controlar a posiçăo de um sistema com uma haste flexível e b) para criar uma matriz de representaçăo comprimida, que é usada no planejamento de trajetórias de um robô móvel considerando o desvio de obstáculos dinâmicos. Para o sistema com uma haste flexível, o uso de múltiplas redes neurais em tręs tipos de estruturas de controle do tipo Feedback-Error-Learning é investigado: IDML (Inverse Dynamic Model Learning), NRL (Nonlinear Regulator Learning) e Referęncia Atrasada. Para o problema de planejamento de trajetórias de um robô móvel, primeiramente a técnica Reinforcement Learning é usada para adquirir o aprendizado necessário na decisăo de como desviar de obstáculos dinâmicos. Este aprendizado é codificado em uma matriz. Entăo as múltiplas redes neurais săo usadas para criar uma representaçăo mais comprimida desse aprendizado com uma pequena degradaçăo da resoluçăo.",
+  "subjects": [
+    "Sistemas de controle auto-adaptativo",
+    "Redes neurais",
+    "Aprendizagem",
+    "Robôs",
+    "Corpos flexíveis",
+    "Cinemática",
+    "Dinâmica de robôs",
+    "Mecatrônica",
+    "Inteligęncia",
+    "Robótica",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000498500",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000498500&origem=BDITA"
+}

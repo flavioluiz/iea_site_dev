@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85063065609",
+  "eid": "2-s2.0-85063065609",
+  "doi": "10.1016/j.isatra.2019.03.010",
+  "pii": "S0019057819301296",
+  "pubmed_id": "30902499",
+  "title": "Flight control of a hexa-rotor airship: Uncertainty quantification for a range of temperature and pressure conditions",
+  "abstract": "© 2019 ISAThe present paper is concerned with the dynamic modeling and design of control laws for a small non-rigid multi-rotor airship constituted of an oblate-spheroid helium balloon coupled with an electric-powered hexa-rotor airframe. The vehicle is assumed to operate in windless and low-speed conditions. A six-degree-of-freedom nonlinear dynamic model is derived for it using the Newton–Euler approach and considering, among other efforts, a restoring torque due to the displacement of the balloon's center of buoyancy above the vehicle's center of mass and the added-mass effect resulting from the air–structure interaction. Using the derived model and assuming a time-scale separation between the translational and rotational dynamics, the attitude and position control laws are designed separately from each other. Both laws are formulated using feedback linearization combined with control input saturation within appropriate parallelepipedal sets, which are carefully chosen to respect pre-defined bounds on the control torque, control force and maximum inclination angle. The effect of temperature and pressure fluctuations is taken into account through a parametric probabilistic approach, where Maximum Entropy Principle is used to construct a physically consistent stochastic model and Monte Carlo method is used as the stochastic solver to propagate the uncertainties through the system. Extensive simulation results show the effectiveness of the proposed control system and quantify the uncertainty of its performance over a wide range of local temperature and pressure.",
+  "authkeywords": [
+    "Flight control system",
+    "Multi-rotor aerial vehicle",
+    "Multi-rotor airship",
+    "Uncertainty quantification"
+  ],
+  "year": "2019",
+  "date": "2019-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "ISA Transactions",
+    "issn": "00190578",
+    "eissn": null,
+    "volume": "93",
+    "issue": null,
+    "pages": "268-279",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "dos Santos, Davi Antonio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Cunha, Americo",
+      "scopus_id": "56068096100",
+      "affiliation": "60005499",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85063065609&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094987",
+    "data_quality_score": 100
+  }
+}

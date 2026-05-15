@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-85087906281",
+  "eid": "2-s2.0-85087906281",
+  "doi": "10.1016/j.ymssp.2020.107088",
+  "pii": "S088832702030474X",
+  "pubmed_id": null,
+  "title": "Stochastic eigenfrequency and buckling analyses of plates subjected to random temperature distributions",
+  "abstract": "© 2020 Elsevier LtdMany studies previously reported in the literature have demonstrated, both theoretically and experimentally, the influence of thermally-induced stresses on the static and dynamic behavior of structures, due to the so-called stress-stiffening effect. In most cases of practical interest, temperature variations associated to environmental and operational conditions are governed by rather complex combinations of conduction, convection and radiation mechanisms. As a result, the temperature values at different points of a structure are very difficult to control and can rationally be considered as random quantities. In this context, the present paper addresses the stochastic modeling and characterization of the influence of thermal stresses on the natural frequencies of thin rectangular plates, assuming space-dependent temperature fluctuations modeled as stationary two-dimensional Gaussian random fields. For this purpose, based on the hypotheses of the classical Kirchhoff plate theory, a Rayleigh-Ritz-based dynamic model is first derived for the bending vibrations of plates, accounting for the presence of thermal stresses. This model is combined with the Karhunen-Loève expansion (KL), which is used to discretize the temperature random field, after which the statistics of the random natural frequencies are estimated by Monte Carlo sampling. Numerical simulations are performed for plates under free boundary conditions. Simulation results, which encompass sampling-based statistics for the thermal stresses and the first six natural frequencies of the plate, are presented and discussed. In addition, since thermal stresses can induce buckling, reliability has also been estimated considering this type of failure. Results enable to conclude that space-dependent temperature uncertainty can be significant upon the vibration and buckling behavior of plates, which justifies its consideration.",
+  "authkeywords": [
+    "Karhunen-Loève expansion",
+    "Stress-stiffening",
+    "Thermal stresses",
+    "Thermoelasticity",
+    "Thermoelastodynamics",
+    "Uncertainty quantification"
+  ],
+  "year": "2021",
+  "date": "2021-01-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "147",
+    "issue": null,
+    "pages": null,
+    "article_number": "107088"
+  },
+  "authors": [
+    {
+      "name": "Borges, Romes A.",
+      "scopus_id": "44862065300",
+      "affiliation": "60281070",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodovalho, Luiz F.F.",
+      "scopus_id": "57191897422",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sales, Thiago de P.",
+      "scopus_id": "57193124025",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "thiago-de-paula-sales"
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "thiago-de-paula-sales",
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85087906281&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.064412",
+    "data_quality_score": 100
+  }
+}

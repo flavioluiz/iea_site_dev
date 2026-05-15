@@ -1,0 +1,29 @@
+{
+  "num_tese": "80608",
+  "type": "tese",
+  "title": "Robust control system design for the GFF (Generic Future Fighter)",
+  "author": "Éder Alves de Moura",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This research focuses on the systematization of control law design for the Electronic Flight Control System (EFCS) of the Generic Future Fighter (GFF), a subscale jet-powered experimental aircraft. Subscale demonstrators such as the GFF have gained increasing importance in aerospace engineering, as they enable the validation of aerodynamic concepts, flight dynamics, and advanced control strategies, particularly for agile fighters that feature relaxed static stability and operate over wide flight envelopes. The canard-delta configuration and thrust-vectoring capability of the GFF make it an ideal platform for addressing these complex control challenges. The primary objective of this work is to develop and validate a methodology for modeling the GFF and synthesizing control laws that ensure stability and performance under diverse operational scenarios. Specific objectives include the creation of a high-fidelity nonlinear model of the GFF, the characterization of its aerodynamic parameters through the consolidation of previous data (CFD simulations, flight tests, and wind tunnel experiments), and the design of Stability Augmentation Systems (SAS) using the Linear Quadratic Regulator (LQR) formulation in combination with Linear Matrix Inequality (LMI) techniques. The research begins with the determination of the GFF's aerodynamic parameters, leading to the development of a flight dynamics model that describes geometric and inertial properties, defines equations of motion, and incorporates the effects of aerodynamic and propulsion systems. A central challenge lies in the accurate estimation of aerodynamic derivatives, given the complexity of the configuration, the presence of nonlinear flight phenomena, and the integration of data from multiple sources. The control design strategy builds on the LQR formulation, an optimal control approach for Multi-Input Multi-Output (MIMO) linear systems, reformulated as an LMI problem and with the addition of performance constraints. In this case, the constraints consist of bounding regions in the s-plane for pole placement of the closed-loop system. Consequently, the controller synthesis formulated in terms of LMIs transforms the design problem into a convex optimization task that can be efficiently solved using numerical methods. This framework enables the development of a robust controller, where a single state-feedback gain matrix simultaneously addresses multiple operating conditions while incorporating performance constraints. Using a simplified longitudinal model, three case studies are conducted to validate the LQR-LMI-based control design. The first examines the development of an SAS for variable altitudes (from sea level to 50,000 ft), showing that despite significant variations in air density and open-loop dynamics, a single gain matrix stabilizes the aircraft and standardizes its response across all scenarios. The second evaluates stability under varying center-of-gravity (c.g.) positions, ranging from stable to unstable configurations, where the LQR-LMI-based SAS successfully stabilizes the aircraft and ensures predictable handling qualities. The third investigates thrust-vector control for longitudinal dynamics and highlights its effectiveness in enhancing aircraft control. The main contributions of this work include the consolidation of aerodynamic coefficient analyses for the GFF, the formulation of equations of motion (both longitudinal and six-degree-of-freedom), the demonstration of the versatility of the GFF as a research platform on modeling and control of combat aircraft and control technologies in combat aircraft, and the systematization of a method for synthesizing control laws via LQR-LMI. In conclusion, the proposed methodology, which integrates the LMI framework with optimization techniques, improves the development of modern flight control systems by extending the applicability of the LQR formulation to include additional design constraints without increasing implementation complexity in embedded systems.",
+  "subjects": [
+    "Controle robusto",
+    "Estabilidade de aeronaves",
+    "Aeronaves de caça",
+    "Controle de voo",
+    "Regulador linear quadrático",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "04/08/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80608",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80608&origem=BDITA"
+}

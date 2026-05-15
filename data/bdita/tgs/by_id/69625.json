@@ -1,0 +1,25 @@
+{
+  "num_tg": "69625",
+  "type": "tg",
+  "title": "Simulaçăo e sistema de navegaçăo integrados para projeto de foguete de sondagem",
+  "author": "Dalton Felipe de Menezes",
+  "year": "2015",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A participaçăo da equipe de alunos ITA Rocket Design na décima Intercollegiate Rocket Engineering Competition (10th IREC) trouxe ao Brasil o pręmio de segundo lugar geral da categoria Básica da competiçăo internacional. O desenvolvimento de um foguete de sondagem foi concretizado com o lançamento do mesmo em 26 de junho de 2015 no deserto de Utah, nos Estados Unidos, atingindo uma altitude de mais de 2000 m e uma velocidade máxima da ordem de 200 m/s. O objetivo deste trabalho é apresentar o fruto dos esforços conjuntos dos subsistemas de Eletrônica e de Mecânica de Voo no intuito de desenvolver um modelo de integraçăo de simulaçăo de trajetória com dados de navegaçăo. A partir dos resultados experimentais obtidos com os dados provenientes do altímetro barométrico e do Sistema de Posicionamento Global (GPS), propőe-se um modelo de minimizaçăo de uma funçăo custo que seja capaz de alterar a simulaçăo original para aproximá-la dos valores que foram de fato obtidos. Dessa forma, podem ser estimados parâmetros de voo desconhecidos ou incertos, a fim de permitir uma otimizaçăo do projeto. Tal modelo se mostra mais simples que um filtro de Kalman, pois năo é necessária uma descriçăo dos estados em todos os instantes de tempo pelos sensores. Por outro lado, em decorręncia da sensibilidade do problema ŕs condiçőes iniciais, é necessária uma verificaçăo básica de convergęncia para garantir uma adequada correçăo da simulaçăo. Finalmente, com os valores corrigidos, faz-se a análise de trajetória, dispersăo e delimitaçăo de regiăo de lançamento com o uso de ferramentas como o Google Earth e o Google Maps.",
+  "subjects": [
+    "Foguetes-sonda",
+    "Otimizaçăo de trajetória",
+    "Trajetórias de foguetes",
+    "Sistema de navegaçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=69625",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=69625&origem=BDITA"
+}

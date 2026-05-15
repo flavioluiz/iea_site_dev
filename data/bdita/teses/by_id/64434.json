@@ -1,0 +1,29 @@
+{
+  "num_tese": "64434",
+  "type": "tese",
+  "title": "Identificaçăo e controle de um veiculo aereo năo tripulado : vector-P",
+  "author": "Jônatas Sant'Anna Santos",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho contribui com a pesquisa na área de VANTs, tendo o objetivo de apresentar a identificaçăo do sistema dinâmico do VANT Vector-P com dados de ensaio em voo e realizar um projeto de piloto automático utilizando o modelo identificado. Adicionalmente, um estudo sobre pilotos automáticos é apresentado com o objetivo de abordar e propor diferentes arquiteturas para futura implementaçăo no sistema embarcado do Vector-P. Para realizar a identificaçăo dos coeficientes aerodinâmicos da aeronave foi utilizado o método de estimaçăo de parâmetros através do método do erro de saída, que consiste na minimizaçăo do erro quadrático médio da saída da planta real e do modelo identificado. A minimizaçăo da funçăo custo foi realizada através da combinaçăo do método de Levenberg-Marquardt com um método heurístico baseado em busca estocástica. As manobras realizadas na campanha de ensaio em voo săo do tipo \"multistep 3-2-1-1\" e \"doublet\" com o objetivo de excitar os modos dinâmicos da aeronave na frequęncia de interesse. Um sistema de aquisiçăo de dados embarcado foi implementado para colher as informaçőes de ensaio em voo associadas ao movimento longitudinal da aeronave. A validaçăo do modelo identificado foi realizada através da aplicaçăo dos critérios Cramér-Rao Bonds, Goodness of Fit e o processo Proof-of-Match (POM) que caracteriza a capacidade de prediçăo do modelo aplicado. No estudo de pilotos automáticos, a técnica de controle moderno baseado no Regulador Linear Quadrático (LQR) foi empregada para projetar os ganhos das malhas de controle. Um estudo do autopiloto MP2028g desenvolvido pela empresa MicroPilot® foi realizado visando testá-lo no sistema embarcado do Vector-P. Os principais resultados e estudos apresentados neste trabalho săo: obter do modelo dinâmico longitudinal confiável do Vector-P, apresentar os ganhos projetados para uma arquitetura de piloto automático, e testar sistemas embarcados em campanha de voo.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Identificaçăo de sistemas",
+    "Identificaçăo de parâmetros",
+    "Pilotos automáticos",
+    "Ensaios em voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "03/05/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64434",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64434&origem=BDITA"
+}

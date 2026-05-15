@@ -1,0 +1,37 @@
+{
+  "num_tese": "76800",
+  "type": "tese",
+  "title": "Studies on model order reduction for fast simulation of flexible aircraft",
+  "author": "Juliano Alberto Paulino",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Andrea Da Ronch",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Design of next-generation aircraft has led to solutions involving lightweight structures and high-aspect-ratio wings, resulting in flexible aircraft. One problem that arises when modeling this kind of aircraft is the high computational cost of simulation models, which can become prohibitive for many engineering applications, particularly those that require real-time simulation. In face of this challenge, this thesis describes methodologies for obtaining low-order fast simulation models for high-aspect-ratio slightly flexible aircraft in linear aerodynamic regime. The approaches are based on the application of a model order-reduction method to high-aspect-ratio flexible aircraft models. First a nonlinear model order reduction approach is made resulting in low order model capable of approximating the full-order model locally. Next, the rigid-body equations of motion are kept unmodified, while a low order approximation is made to the aeroelastic and aerodynamic lag state equations, resulting in an increase of the simulation envelope when compared to the nonlinear approach. Finally, an extension of the second approach is made by the interpolation of reduced-order models, resulting in a wider simulation envelope.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Asas flexíveis",
+    "Dinâmica de voo",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "26/03/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76800",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76800&origem=BDITA"
+}

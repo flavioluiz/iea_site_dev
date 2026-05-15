@@ -25,7 +25,7 @@ class LattesExtractor:
         self.use_llm = use_llm
 
         self.output_dir.mkdir(exist_ok=True, parents=True)
-        self.photos_dir = Path("../static/images/professores")
+        self.photos_dir = Path("../static/images/pessoal")
         self.photos_dir.mkdir(exist_ok=True, parents=True)
 
     def extract_photo_url(self, soup):
@@ -413,7 +413,7 @@ def main():
                         help='Diretório para salvar dados extraídos')
 
     parser.add_argument('--profiles-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Diretório com perfis JSON')
 
     parser.add_argument('--no-llm', action='store_true',

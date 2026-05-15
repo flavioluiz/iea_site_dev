@@ -1,0 +1,28 @@
+{
+  "num_tese": "77709",
+  "type": "tese",
+  "title": "Método de collision avoidance para manipulador robótico utilizando sensores lidar 2D lidar",
+  "author": "Luiz Fernando Lapetina Rocha Ferreira",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo apresenta a proposta e implementaçăo de um método desenvolvido para collision avoidance em tempo real a partir de dados de sensores 2D lidar embarcados no efetuador de um manipulador robótico. O método proposto consiste em mapear os objetos presentes na célula a partir dos sinais dos sensores 2D lidar, comparando-os com os objetos da célula robótica planejada, de tal forma a identificar objetos estranhos ou deslocados que poderiam causar colisăo. A soluçăo proposta foi implementada utilizando o framework open-source ROS. Para avaliaçăo da soluçăo, propőe-se o desenvolvimento de um ambiente de simulaçăo contendo modelos dos equipamentos que compőem a célula robótica. A partir do ambiente de simulaçăo, foram executados testes e estimados tempos de execuçăo dos algoritmos desenvolvidos. Com base nos resultados obtidos discutem-se as limitaçőes da soluçăo proposta e potenciais pontos para melhoria. Apesar de limitaçőes encontradas durante os testes em ambiente de simulaçăo, conclui-se que a soluçăo proposta atende os requisitos de tempo necessários para uma aplicaçăo real.",
+  "subjects": [
+    "Anticolisăo",
+    "Braços robóticos E Manipuladores",
+    "Sensores de robôs",
+    "Mapeamento",
+    "Computaçăo"
+  ],
+  "defense_date": "08/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77709",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77709&origem=BDITA"
+}

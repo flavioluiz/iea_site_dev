@@ -1,0 +1,36 @@
+{
+  "num_tese": "000566980",
+  "type": "tese",
+  "title": "Comparaçăo entre Protocolos TTP/C e flexray utilizando uma aplicaçăo brake-by-wire.",
+  "author": "Moisés Pereira Bastos",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Max Mauro Dias Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O trabalho apresenta uma comparaçăo entre protocolos de comunicaçăo tolerantes a falha, TTP/C e Flexray, utilizando um simulador de tempo real, propondo modelar uma aplicaçăo brake-by-wire tolerante a falhas que gere uma intensa troca de dados validando a comparaçăo. O presente trabalho toma como base um modelo de um sistema de freio antitravamento (ABS - Antilock Brake System) para uma única roda, de Michaels e Quinn (1997), estendendo tal trabalho ao desenvolvimento de uma aplicaçăo brake-by-wire, composta basicamente de 5 nós, sendo um controlador central e 4 nós locais apara as rodas do veículo. Após uma breve descriçăo introdutória sobre os conceitos básicos necessários para entender o projeto, a aplicaçăo brake-by-wire será apresentada. Posteriormente serăo apresentados conceitos de funcionamento da aplicaçăo, tolerância a falha, controle de frenagem, entre outros. A modelagem e simulaçăo do sistema foi realizada na ferramenta computacional TrueTime baseada no Matlab/Simulink, utilizando kernels de tempo real. A simulaçăo demonstra os diferentes comportamentos da aplicaçăo quando protocolos TTP/C e Flexray variam em largura de banda e taxa de utilizaçăo do barramento. Foi inserido um nó de interferęncia na rede, visando verificar o comportamento de tais protocolos com um trafego mais intenso na rede. Os resultados obtidos com a simulaçăo de tempo real demonstram que o protocolo TTP/C apresentou um comportamento mais estável e seguro para tal aplicaçăo considerada de tempo real crítico.",
+  "subjects": [
+    "Protocolos de comunicaçăo",
+    "Tolerância a falhas",
+    "Sistemas embarcados",
+    "Operaçăo em tempo real",
+    "Simulaçăo computadorizada",
+    "Arquitetura (computadores)",
+    "Mecatrônica",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "16/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000566980",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000566980&origem=BDITA"
+}

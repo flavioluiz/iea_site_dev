@@ -1,0 +1,35 @@
+{
+  "num_tese": "78788",
+  "type": "tese",
+  "title": "Modeling and simulation of flexible tethered wings for airborne wind energy",
+  "author": "Olaf Palmer Val Pinheiro",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Airborne Wind Energy (AWE) is a growing field of research that aims to develop solutions for the production of electrical energy from wind energy using air vehicles. The main advantage of this concept is the ability to exploit high-altitude winds, which are typically stronger and less variable than low-altitude winds. Furthermore, air vehicles tend to require only a fraction of the infrastructure costs when compared to traditional wind turbines. In the current literature on Aerial Wind Energy, many modeling strategies for the dynamics of \"cabled\" or \"kites\" wings are proposed. Among the AWE concepts, the so-called \"pumping kite'' is considered one of the simplest, lightest and lowest cost solutions. The typical set consists of a winch on the ground, coupled to an electrical generator and a wing or \"kite\" that performs maneuvers with the intention of maximizing the generated power by controlling the pulling force or the cable unwinding speed. Important work has explored the typical ground-generation AWE system with flexible Leading Edge Inflatable (LEI) wings, adopting a variety of combinations of wing structural, aerodynamic and cable models. On the other hand, flexible aircraft studies have been a well-established research topic. As LEI wings are generally very flexible structures and given that this approach is still unexplored in the AWE literature, an opportunity arises to apply this same methodology to AWE systems. This dissertation presents an overview of the modeling strategies related to both rigid cabled aircraft, analyzing the Makani company's M600 model, and flexible, through a case study project called GLEIK (Generic Leading Edge Inflatable Kite). The results of the analysis of Makani's M600 model reveal some aspects of the effect of cable restraint on the longitudinal stability of the aircraft. For the GLEIK model, the simulations demonstrated the effect of flexibility on the wing control mechanism, through the participation of the vibration modes in terms of modal amplitudes. The model was also able to represent the energy generation in the complete system.",
+  "subjects": [
+    "Asas flexíveis",
+    "Energia éolica",
+    "Recursos renováveis",
+    "Estruturas de aeronaves",
+    "Mecânica de voo",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "29/09/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78788",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78788&origem=BDITA"
+}

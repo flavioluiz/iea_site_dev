@@ -1,0 +1,35 @@
+{
+  "num_tese": "79850",
+  "type": "tese",
+  "title": "A non-viscous analysis of the effects of mesh refinement and sweep angle on the aerodynamics of a combat aircraft",
+  "author": "Daniel Oliveira Ferreira",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Adson Agrico de Paula",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The aerodynamics of delta wings are governed by vortices, which are generated at the leading edge and are responsible for producing a substantial portion of lift at high angles of attack. Simulating these vortices has been shown to be feasible using non-viscous methods, which provide reasonable accuracy and significantly reduce computational costs compared to viscous models, making them a reliable tool for preliminary design. Some studies even suggest that the non-viscous model is adequate for predicting the onset of vortex breakdown, a critical process for defining the aerodynamic limits of a combat aircraft. In order to explore this approach further, the present work will investigate these models in the aerodynamics of a combat aircraft, which will be conducted in two phases. Initially, a test aircraft, the Generic Future Fighter, is used to validate the Euler simulation procedure, since wind tunnel results are available for this geometry. Alongside this validation, the effect of mesh refinement on the vortical structures of the aircraft is investigated. It is observed that mesh refinement intrinsically alters the flow topology, distinguishing it from other cases where only numerical diffusivity is affected. It was confirmed that the leading-edge vortex experiences delayed separation with mesh refinement. Subsequently, a more highly swept wing was simulated on the same aircraft. For this, the mesh parameters that yielded the best aerodynamic coefficients in the previous phase were used to create the new mesh, eliminating a variable in the final comparison. The results were inconclusive: minimal change in the CL and a delay in vortex breakdown. Several observed phenomena contradicted initial expectations. This contradiction arises because the complete aircraft, including the canard, exhibited a complex nonlinear interaction between the lifting surfaces. The canard vortex was also affected by the mesh refinement, which in turn altered the wing vortex, influencing the canard vortex again with its upwash field. Due to the lack of available literature on such interactions, some observed phenomena require further study for full comprehension.",
+  "subjects": [
+    "Aeronaves de caça",
+    "Asas delta",
+    "Dinâmica dos fluidos computacional",
+    "Vórtices",
+    "Aerodinâmica",
+    "Equaçőes de Euler-lagrange",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79850",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79850&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000437129",
+  "type": "tese",
+  "title": "Simulaçăo numérica de uma bomba centrífuga para aplicaçăo em motor foguete a propelente líquido.",
+  "author": "Renato Yassuo Tamashiro",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por objetivo a definiçăo de uma metodologia para prédimensionamento e simulaçăo numérica de operaçăo de bombas centrífugas destinadas ŕ aplicaçăo em turbobombas de motores foguete a propelente líquido. Săo determinadas as dimensőes dos principais elementos de uma bomba (dispositivo de entrada, indutor helicoidal, impelidor centrífugo, coletro em espiral e difusor cônico) a partir das características dos fluidos e das condiçőes de operaçăo da bomba no ponto de projeto. Um modelo de perdas, que leva em consideraçăo as principais fontes de variaçăo das condiçőes ideais, é estabelecido. Um algoritmo, implementado em Mathcad, é utilizado para resolver o sistema de equaçőes obtido. Definida a geometria da bomba, um novo algoritmo é definido para obter as perdas durante o funcionamento fora do ponto de projeto, com vistas ŕ obtençăo dos mapas de desempenho de bomba centrífuga. A validaçăo do algoritmo é feita através do dimensionamento e da simulaçăo numérica de uma turbobomba equivalente ŕ utilizada no motor RD109, de fabricaçăo russa, cujas dimensőes principais e característica energética, no ponto de projeto, săo conhecidas.",
+  "subjects": [
+    "Bombas centrífugas",
+    "Análise numérica",
+    "Motores foguetes a propelente líquido",
+    "Propulsăo",
+    "Turbinas",
+    "Algoritmos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000437129",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000437129&origem=BDITA"
+}

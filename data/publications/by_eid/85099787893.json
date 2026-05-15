@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85099787893",
+  "eid": "2-s2.0-85099787893",
+  "doi": "10.1115/GT2020-16028",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Interactive learning platform for turbine design using reduced order methods",
+  "abstract": "Copyright © 2020 ASMEThis work presents the implementation of an interactive learning platform for turbine design in an engineering teaching environment. Due to the abundance of strategies and problems encountered in a multidisciplinary iterative design process, presenting the student to the multitude of scenarios can be a laborious and time-consuming task, often not possible in one-semester courses for undergraduate students. The developed computational program breaks down the preliminary design methodology into a step-by-step analysis of a single-stage axial turbine for aeronautical application. In it, the student is guided through velocity diagram construction, performance prediction, tridimensional and compressible effects considerations, blade designing as well as accounting for losses. In this interactive learning tool, it is possible to explore the sensitivity and effects of each design choice at various design steps, generating insight and hopefully a more intimate understanding. This exploration generates real-time changes in the output interface, for example the velocity diagrams and major geometrical features, in which the student is able through different trials to observe and compare the impact of different approaches, choices and assumptions. The program is written in Python language and the loss models chosen were Kacker and Okapuu; Dunham and Came; and Ainley and Mathieson. As the same set of design requirements can lead to different - yet optimal - configurations, the student will be given guidelines based on established design methodologies with the aid of graphs and the usual ranges of the calculated parameters found in practice. At the end of this process, the student is able to harvest a final design from which it is possible to generate discussions among a class or examine the suitability of a final product in regards to a proposed assignment, objective or application.",
+  "authkeywords": [
+    "Preliminary design",
+    "Project-based learning",
+    "Turbines"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": null,
+    "article_number": "v006t08a009"
+  },
+  "authors": [
+    {
+      "name": "Oliveira, Igor",
+      "scopus_id": "57221681387",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, George Patton",
+      "scopus_id": "57221683314",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tonon, Daniel",
+      "scopus_id": "57221682357",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Tomita, Jesuíno Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099787893&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051799",
+    "data_quality_score": 100
+  }
+}

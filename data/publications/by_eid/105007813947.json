@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-105007813947",
+  "eid": "2-s2.0-105007813947",
+  "doi": "10.1016/j.applthermaleng.2025.126920",
+  "pii": "S1359431125015121",
+  "pubmed_id": null,
+  "title": "Simulation and performance analysis of thermoelectric coolers for aircraft electronics",
+  "abstract": "© 2025 Elsevier LtdThis work explores the use of thermoelectric coolers (TECs) for managing the temperature of aircraft electronics. TECs offer advantages over traditional compressor-based systems, including compactness, lower weight, and the capability to cool below ambient temperatures, making them ideal for aerospace applications. A novel method for estimating thermoelectric coefficients was developed, leveraging optimization to improve accuracy. Simulation models were created using Amesim to predict TEC performance under varying conditions and validated through laboratory experiments, achieving a maximum steady-state error of 1.97 °C. Simulations under flight conditions demonstrated the system's effectiveness in maintaining electronics enclosure temperatures well below limits. With a constant 12 V supply, the load temperature stayed under 40 °C during the flight, dropping below 30 °C by the end. However, heat dissipation increased significantly, averaging 573 W, with peaks up to six times the load's thermal dissipation when no voltage control was applied. These results confirm the feasibility of TECs for aerospace thermal management, particularly for electronics requiring strict temperature control.",
+  "authkeywords": [
+    "Amesim",
+    "Peltier effect",
+    "Simulation",
+    "Thermoelectric cooling"
+  ],
+  "year": "2025",
+  "date": "2025-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "278",
+    "issue": null,
+    "pages": null,
+    "article_number": "126920"
+  },
+  "authors": [
+    {
+      "name": "de Paula, Thales Roger Alves",
+      "scopus_id": "59939924100",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Salles, Everton Luiz",
+      "scopus_id": "59940036200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henriques, Izabela Batista",
+      "scopus_id": "56242811600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "izabela-batista-henriques"
+    }
+  ],
+  "eam_coauthors": [
+    "izabela-batista-henriques"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007813947&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.086320",
+    "data_quality_score": 90
+  }
+}

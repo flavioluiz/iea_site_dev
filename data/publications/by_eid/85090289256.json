@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85090289256",
+  "eid": "2-s2.0-85090289256",
+  "doi": "10.2514/1.J058560",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Flight effects on turbulent-jet wave packets",
+  "abstract": "© American Institute of Aeronautics and Astronautics Inc.. All rights reserved.An investigation is carried out to evaluate how an external uniform stream affects turbulent-jet coherent structures. The presence of this uniform stream outside the jet represents the effect of forward flight on the velocity field. Coherent structures are modelled as wave packets, and the flight effect is studied using the parabolized stability equations (PSEs). Measurements of mean base flows and axial velocity fluctuations on the jet centerline at assumed flight conditions are described. The velocity fields were supplied to a PSE model to retrieve the wave packet signatures of axial velocity fluctuations. Overall results are in good agreement with experimental measurements. There is an observed increase in wave packet wavelengths and phase velocities (with respect to the nozzle) as flight velocity increases. Also, axial amplification rates are determined and show stabilization in the near-nozzle region, which is confirmed by experimental power spectral densities on the jet centerline. This tendency holds as the freestream velocity increases.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": null,
+    "volume": "58",
+    "issue": "9",
+    "pages": "3877-3888",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Soares, Luiz F.M.",
+      "scopus_id": "57194850678",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Kopiev, Victor",
+      "scopus_id": "57190524002",
+      "affiliation": "60012482",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Faranosov, Georgy",
+      "scopus_id": "24338095500",
+      "affiliation": "60012482",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 52,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85090289256&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100975",
+    "data_quality_score": 90
+  }
+}

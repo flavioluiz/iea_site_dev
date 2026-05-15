@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-85124453140",
+  "eid": "2-s2.0-85124453140",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "STATIC AEROELASTIC COMPUTATIONS OF WING CONFIGURATIONS IN TRANSONIC FLOWS AT HIGH REYNOLDS NUMBERS",
+  "abstract": "© 2021 32nd Congress of the International Council of the Aeronautical Sciences, ICAS 2021. All rights reserved.The present work has the objective of presenting recent developments of a static aeroelastic computational process for the analysis of typical aircraft configurations in transonic flows. The analysis procedure is assessed through the study of static aeroelastic characteristics of the HIRENASD model, which is a test cases with extensive experimental database for validation of computational results. The in-house BRU3D computational fluid dynamics (CFD) solver, which uses the fully turbulent compressible Reynolds-averaged Navier-Stokes (RANS) equations, is combined with a finite element method (FEM) modal basis code through the uses of radial basis functions (RBF) for smooth volume grid movements. Results in terms of structural displacements have shown good agreement with experimental data, although indicating that further grid refinement for the fluid domain is still necessary in order to improve the correlation of the aerodynamic coefficients.",
+  "authkeywords": [
+    "Computational fluid dynamics",
+    "Modal basis",
+    "Radial basis functions",
+    "Static aeroelasticity"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "32nd Congress of the International Council of the Aeronautical Sciences Icas 2021",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Lyrio, Allan J.A.",
+      "scopus_id": "57151331200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "da Silva, Ricardo G.",
+      "scopus_id": "55754195900",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124453140&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088759",
+    "data_quality_score": 80
+  }
+}

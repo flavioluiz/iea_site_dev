@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-77649183196",
+  "eid": "2-s2.0-77649183196",
+  "doi": "10.1016/j.ijheatmasstransfer.2010.01.041",
+  "pii": "S0017931010000530",
+  "pubmed_id": null,
+  "title": "A macroscopic two-energy equation model for turbulent flow and heat transfer in highly porous media",
+  "abstract": "In this paper, a model for turbulent flow and heat transfer in a highly porous medium is proposed and applied to a porous channel bounded by parallel plates. Macroscopic continuity, momentum and energy equations are presented. Local non-thermal equilibrium is considered by means of independent equations for the solid matrix and the working fluid. The numerical methodology used is based on the control-volume approach. The effects of thermal dispersion, Reynolds number, dimensionless particle diameter, thermal conductivity ratio and Darcy number, on the Nusselt number, are presented. For laminar and turbulent flows the thermal dispersion mechanism leads to larger local temperature differences. Increase in Re number causes values for Nu, of both phases, to increase. Porosity increase causes the solid phase Nusselt number to decrease whereas the fluid Nusselt number in augmented. In general, an increase in the particle diameter increases Nusselt number. Also, the thermal conductivity ratio causes the most pronounced effect on Nusselt numbers. © 2010 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Porous media",
+    "Turbulence modeling",
+    "Two-energy equation"
+  ],
+  "year": "2010",
+  "date": "2010-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "53",
+    "issue": "11-12",
+    "pages": "2424-2433",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Saito, Marcelo B.",
+      "scopus_id": "8523459800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 54,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 47,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=77649183196&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111022",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-48249098288",
+  "eid": "2-s2.0-48249098288",
+  "doi": "10.1155/2008/246271",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Identification of a non-linear landing gear model using nature-inspired optimization",
+  "abstract": "This work deals with the application of a nature-inspired optimization technique to solve an inverse problem represented by the identification of an aircraft landing gear model. The model is described in terms of the landing gear geometry, internal volumes and areas, shock absorber travel, tire type, and gas and oil characteristics of the shock absorber. The solution to this inverse problem can be obtained by using classical gradient-based optimization methods. However, this is a difficult task due to the existence of local minima in the design space and the requirement of an initial guess. These aspects have motivated the authors to explore a nature-inspired approach using a method known as LifeCycle Model. In the present formulation two nature-based methods, namely the Genetic Algorithms and the Particle Swarm Optimization were used. An optimization problem is formulated in which the objective function represents the difference between the measured characteristics of the system and its model counterpart. The polytropic coefficient of the gas and the damping parameter of the shock absorber are assumed as being unknown: they are considered as design variables. As an illustration, experimental drop test data, obtained under zero horizontal speed, were used in the non-linear landing gear model updating of a small aircraft.",
+  "authkeywords": [
+    "Genetic algorithms",
+    "Inverse problems in dynamics",
+    "Model updating of a landing gear",
+    "Nature-inspired optimization techniques",
+    "Particle swarm optimization"
+  ],
+  "year": "2008",
+  "date": "2008-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Shock and Vibration",
+    "issn": "10709622",
+    "eissn": null,
+    "volume": "15",
+    "issue": "3-4",
+    "pages": "257-272",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Viana, Felipe A.C.",
+      "scopus_id": "8453033200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Steffen, Valder",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zanini, Marcelo A.X.",
+      "scopus_id": "24482617800",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Sandro A.",
+      "scopus_id": "24481677600",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Geotechnical Engineering and Engineering Geology",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=48249098288&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077865",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85108697288",
+  "eid": "2-s2.0-85108697288",
+  "doi": "10.1088/1742-6596/1934/1/012009",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stability of floating wind turbine wakes",
+  "abstract": "© Published under licence by IOP Publishing Ltd.Floating offshore wind turbines (FOWTs) are the next frontier in offshore wind energy, allowing exploration of deep-water regions previously unavailable to fixed-foundation turbines. Since offshore turbines operate in lower turbulence levels, the intrinsic hydrodynamic unstable modes of the tip vortices can have even more relevance than in onshore turbines. For floating turbines, platform motion induced by wind and wave loads can trigger vortex instabilities, modifying the wake structure, possibly influencing the flow reaching downstream wind turbines. In the present paper, we study those effects by the means of numerical simulations and their comparison with analytical studies. In our simulations, the wind turbine blades are modeled as actuator lines in the incompressible Navier-Stokes equations. Heave motion with different amplitudes and frequencies are studied. The effect of increasing amplitude is to advance the onset of vortex interaction. For the lower frequency of heave motion, several vortices coalesce to form a large flow structure. High amplitude of oscillations in the streamwise velocity were observed due to these flow structures, which may increase fatigue or induce high amplitude motion on downstream turbines. The number of vortices that interact, as other qualitative phenomena of the numerical simulation, were well predicted by a simple stability model of two-dimensional row of vortices. The disturbances imposed by the heave motion were also compared to the eigenvectors resulting from linear stability theory for helical vortices and the predicted growth rates for the wavenumbers resulting from this comparison were consistent with the model of a row of vortices. These results motivate further studies to understand the impact of the larger flow structures on downstream turbines.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-06-08",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Journal of Physics Conference Series",
+    "issn": "17426588",
+    "eissn": "17426596",
+    "volume": "1934",
+    "issue": "1",
+    "pages": null,
+    "article_number": "012009"
+  },
+  "authors": [
+    {
+      "name": "Kleine, V. G.",
+      "scopus_id": "57193867121",
+      "affiliation": "60002014-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vitor-gabriel-kleine"
+    },
+    {
+      "name": "Franceschini, L.",
+      "scopus_id": "57219379159",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Carmo, B. S.",
+      "scopus_id": "9240769600",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, A.",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, D. S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vitor-gabriel-kleine"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108697288&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.079404",
+    "data_quality_score": 90
+  }
+}

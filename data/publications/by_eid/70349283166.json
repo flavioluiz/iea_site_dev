@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-70349283166",
+  "eid": "2-s2.0-70349283166",
+  "doi": "10.1080/10407780903244346",
+  "pii": "914691792",
+  "pubmed_id": null,
+  "title": "Turbulent flow in wavy channels simulated with nonlinear models and a new implicit formulation",
+  "abstract": "This work examines the performance of linear and nonlinear eddy-viscosity models when used to predict the turbulent flow in periodically sinusoidal-wave channels. Two geometries are investigated, namely a converging-diverging channel and a channel with concave-convex walls. The numerical method employed for the discretization of the equations is the control-volume method in a boundary-fitted nonorthogonal coordinate system. The SIMPLE algorithm is used for correcting the pressure field. The classical wall function and a low Reynolds model are used to describe the flow near the wall. Comparisons between those two approaches using linear and nonlinear turbulence models are done. Here, a new implicit numerical treatment is proposed for the nonlinear diffusion terms of the momentum equations in order to increase the robustness. Results show that by decomposing and treating terms as presented, solutions using nonlinear models and the high Reynolds wall treatment, which combine accuracy and economy, are more stable and easier to be obtained.",
+  "authkeywords": null,
+  "year": "2009",
+  "date": "2009-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": "15210634",
+    "volume": "56",
+    "issue": "4",
+    "pages": "301-324",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 26,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=70349283166&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111137",
+    "data_quality_score": 90
+  }
+}

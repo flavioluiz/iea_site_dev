@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-85119060890",
+  "eid": "2-s2.0-85119060890",
+  "doi": "10.1017/jfm.2021.887",
+  "pii": "S0022112021008879",
+  "pubmed_id": null,
+  "title": "Absolute instability in shock-containing jets",
+  "abstract": "© The Author(s), 2021. Published by Cambridge University Press.We present an analysis of the linear stability characteristics of shock-containing jets. The flow is linearised around a spatially periodic mean, which acts as a surrogate for a mean flow with a shock-cell structure, leading to a set of partial differential equations with periodic coefficients in space. Disturbances are written using the Floquet ansatz and Fourier modes in the streamwise direction, leading to an eigenvalue problem for the Floquet exponent. The characteristics of the solution are directly compared with the locally parallel case, and some of the features are similar. The inclusion of periodicity induces minor changes in the growth rate and phase velocity of the relevant modes for small shock amplitudes. On the other hand, the eigenfunctions are now subject to modulation related to the periodicity of the flow. Analysis of the spatiooral growth rates led to the identification of a saddle point between the Kelvin-Helmholtz mode and the guided jet mode, characterising an absolute instability mechanism. Frequencies and mode shapes related to the saddle points for two conditions (associated with axisymmetric and helical modes) are compared with screech frequencies and the most energetic coherent structures of screeching jets, resulting in a good agreement for both. The analysis shows that a periodic shock-cell structure has an impulse response that grows upstream, leading to oscillator behaviour. The results suggest that screech can occur in the absence of a nozzle, and that the upstream reflection condition is not essential for screech frequency selection. Connections to previous models are also discussed.",
+  "authkeywords": [
+    "Absolute/convective instability",
+    "jet noise",
+    "Supersonic flow"
+  ],
+  "year": "2022",
+  "date": "2022-01-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "930",
+    "issue": null,
+    "pages": null,
+    "article_number": "A10"
+  },
+  "authors": [
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jaunet, Vincent",
+      "scopus_id": "36676423000",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Edgington-Mitchell, Daniel",
+      "scopus_id": "57882108200",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 44,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 76,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85119060890&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100629",
+    "data_quality_score": 100
+  }
+}

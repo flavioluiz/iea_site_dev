@@ -1,0 +1,25 @@
+{
+  "num_tg": "77406",
+  "type": "tg",
+  "title": "Development of a tool to support the research on novel acquisition modes of Synthetic Aperture Radar (SAR)",
+  "author": "Carlos Alexandre Novak Madureira",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Renato Machado",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "ln this work a tool was developed to study innovative modes of acquiaition in synthetic aperture rad.ars. The objective waB to implement the codes proposed by the research group NewSpaceSAR to have a too! in Python whose use allows the simulation of the usual signal and the signal with ambiguity in the range direction, for four innovative acquisition modes for synthetic aperture radar and the conventional mode of operation. The optimization of each of the routines in terms of mernory use has also been done to mitigate the problem of excessive use of RAM. The final code was developed with a modular structure and following the principies of good programming practices. Routines were also developed so that the analysis of the simulation results is facilitated.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Memória (computadores)",
+    "Otimizaçăo",
+    "Linguagem de programaçăo",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77406",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77406&origem=BDITA"
+}

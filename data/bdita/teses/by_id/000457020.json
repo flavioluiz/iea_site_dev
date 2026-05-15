@@ -1,0 +1,32 @@
+{
+  "num_tese": "000457020",
+  "type": "tese",
+  "title": "Análise numérica do escoamento turbulento em geometrias complexas usando modelos năo lineares e uma formulaçăo implícita.",
+  "author": "Marcelo Assato",
+  "year": "2001",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é apresentada uma análise numérica para prediçăo de escoamentos turbulentos incompressíveis em geometrias complexas. Modelos de turbulęncia k - e năo lineares que representam um avanço sobre modelos de viscosidade turbulenta clássicos (linear), foram empregados em um sistema de coordenadas generalizadas na soluçăo de diversos tipos de escoamentos bidimensionais e com recirculaçăo. O método numérico utilizado para a discretizaçăo das equaçőes foi o método de volumes finitos com arranjo co-localizado. O algoritmo SIMPLE foi usado para relaxaçăo do sistema de equaçőes algébricas obtido. A resoluçăo do sistema linear de equaçőes resultante foi feita através do método SIP. A funçăo de parede clássica e um modelo de Baixo Reynolds foram utilizados para descrever o escoamento próximo ŕ parede. Aqui foi proposto um tratamento numérico inovador para os termos difusivos năo lineares das equaçőes de momentum a fim de se evitar dificuldades de convergęncia em alguns casos específicos. O tratamento consiste em dividir os fluxos difusivos năo lineares em um termo implícito, na matriz dos coeficientes e outro explícito agrupando ao termo fonte. Na literatura, năo há informaçăo específica sobre o tratamento numérico destes termos năo lineares. Resultados para escoamentos turbulentos bidimensionais foram obtidos usando um total de quatro diferentes modelos. As formas linear e năo linear do modelo k - e usando as abordagens de Alto e Baixo Reynolds foram empregadas. Assim, as formulaçőes de Alto Reynolds foram designadas respectivamente por L_HRN e NL_HRN, e os mesmos modelos aplicando a formulaçăo Baixo Reynolds foram chamados de L_LRN e NL_LRN. De uma forma geral, o modelo năo linear usando a abordagem Baixo Reynolds, NL_LRN, apresentou melhor desempenho que os demais. Também foi analisado o desempenho dos modelos năo lineares (NL_HRN e NL_LRN) na prediçăo de escoamento secundário que ocorre em dutos de seçăo năo circular. Nestes casos, modelos isotrópicos săo incapazes de descrever o escoamento secundário em tais canais.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento turbulento",
+    "Escoamento bidimensional",
+    "Escoamento incompressível",
+    "Năo-linearidade",
+    "Modelos matemáticos",
+    "Turbulęncia",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000457020",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000457020&origem=BDITA"
+}

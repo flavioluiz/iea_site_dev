@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85045481658",
+  "eid": "2-s2.0-85045481658",
+  "doi": "10.1177/0021998318770000",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of vacuum assisted resin transfer molding process through dynamic system analysis",
+  "abstract": "© The Author(s) 2018.Vacuum assisted resin transfer molding is a promising process in advanced composite manufacturing with a wide range of applications in industry. That potential is often misused, though, because of the lack of an efficient and reliable simulation tool to support product development. Most of the simulation methods in use today are based on Darcy’s law, which explains the permeation of a fluid in a porous medium. However, it is known that this law has limitations when applied to the context of dual-scale fibrous reinforcements: macro porosity given by fiber architecture generates resistance to flow, while the inner porosity inherent to fiber tows causes it to absorb resin, affecting the flow. The latter effect cannot be explained by traditional theory. In order to explore these limitations, this work proposes a simplified model to vacuum assisted resin transfer molding process from the point of view of system dynamics, and to prove the viability of such theory. The ultimate goal is to propose a more complete model in light of system dynamics that saves time and cost while offering the same reliability as current simulation models. In order to provide an explanation to both dual-scale phenomena, a parallel association between a resistance and a fluid capacitance is proposed. Model validation is then performed through the analysis of experimental data followed by the comparison between the Darcy infusion profile and the one predicted by the resistor-capacitor-parallel (RC-parallel) circuit model. Thus, this work is able to perform a proof of concept that leads to a novel and yet unexplored field of study.",
+  "authkeywords": [
+    "composite",
+    "dynamic system",
+    "infusion",
+    "lumped elements",
+    "permeability",
+    "simulation",
+    "Vacuum assisted resin transfer molding"
+  ],
+  "year": "2018",
+  "date": "2018-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Composite Materials",
+    "issn": "00219983",
+    "eissn": "1530793X",
+    "volume": "52",
+    "issue": "27",
+    "pages": "3759-3771",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fracassi, Fabiano T.",
+      "scopus_id": "57201642582",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Chemistry",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85045481658&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121787",
+    "data_quality_score": 100
+  }
+}

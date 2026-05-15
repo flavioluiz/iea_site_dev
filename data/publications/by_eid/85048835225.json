@@ -1,0 +1,131 @@
+{
+  "publication_id": "2-s2.0-85048835225",
+  "eid": "2-s2.0-85048835225",
+  "doi": "10.1016/j.jcp.2018.06.016",
+  "pii": "S0021999118303942",
+  "pubmed_id": null,
+  "title": "A comparative study on polynomial dealiasing and split form discontinuous Galerkin schemes for under-resolved turbulence computations",
+  "abstract": "© 2018 The Author(s)This work focuses on the accuracy and stability of high-order nodal discontinuous Galerkin (DG) methods for under-resolved turbulence computations. In particular we consider the inviscid Taylor–Green vortex (TGV) flow to analyse the implicit large eddy simulation (iLES) capabilities of DG methods at very high Reynolds numbers. The governing equations are discretised in two ways in order to suppress aliasing errors introduced into the discrete variational forms due to the under-integration of non-linear terms. The first, more straightforward way relies on consistent/over-integration, where quadrature accuracy is improved by using a larger number of integration points, consistent with the degree of the non-linearities. The second strategy, originally applied in the high-order finite difference community, relies on a split (or skew-symmetric) form of the governing equations. Different split forms are available depending on how the variables in the non-linear terms are grouped. The desired split form is then built by averaging conservative and non-conservative forms of the governing equations, although conservativity of the DG scheme is fully preserved. A preliminary analysis based on Burgers’ turbulence in one spatial dimension is conducted and shows the potential of split forms in keeping the energy of higher-order polynomial modes close to the expected levels. This indicates that the favourable dealiasing properties observed from split-form approaches in more classical schemes seem to hold for DG. The remainder of the study considers a comprehensive set of (under-resolved) computations of the inviscid TGV flow and compares the accuracy and robustness of consistent/over-integration and split form discretisations based on the local Lax–Friedrichs and Roe-type Riemann solvers. Recent works showed that relevant split forms can stabilize higher-order inviscid TGV test cases otherwise unstable even with consistent integration. Here we show that stable high-order cases achievable with both strategies have comparable accuracy, further supporting the good dealiasing properties of split form DG. The higher-order cases achieved only with split form schemes also displayed all the main features expected from consistent/over-integration. Among test cases with the same number of degrees of freedom, best solution quality is obtained with Roe-type fluxes at moderately high orders (around sixth order). Solutions obtained with very high polynomial orders displayed spurious features attributed to a sharper dissipation in wavenumber space. Accuracy differences between the two dealiasing strategies considered were, however, observed for the low-order cases, which also yielded reduced solution quality compared to high-order results.",
+  "authkeywords": [
+    "Discontinuous Galerkin",
+    "Implicit large eddy simulation",
+    "Inviscid Taylor–Green vortex",
+    "Polynomial dealiasing",
+    "Spectral element methods",
+    "Split form schemes"
+  ],
+  "year": "2018",
+  "date": "2018-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Computational Physics",
+    "issn": "00219991",
+    "eissn": "10902716",
+    "volume": "372",
+    "issue": null,
+    "pages": "1-21",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Winters, Andrew R.",
+      "scopus_id": "56006289400",
+      "affiliation": "60024025",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60015150-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Mengaldo, Gianmarco",
+      "scopus_id": "56270246000",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gassner, Gregor J.",
+      "scopus_id": "17434121200",
+      "affiliation": "60024025",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Walch, Stefanie",
+      "scopus_id": "55398614800",
+      "affiliation": "60024025",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peiro, Joaquim",
+      "scopus_id": "7005874042",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sherwin, Spencer J.",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 94,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (miscellaneous)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 92,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048835225&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069593",
+    "data_quality_score": 100
+  }
+}

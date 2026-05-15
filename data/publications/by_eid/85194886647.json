@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85194886647",
+  "eid": "2-s2.0-85194886647",
+  "doi": "10.1590/0001-3765202420220822",
+  "pii": null,
+  "pubmed_id": "38808808",
+  "title": "An Augmented Reality Visualization System for Simulated Multirotor Aerial Vehicles",
+  "abstract": "© 2024, Academia Brasileira de Ciencias. All rights reserved.Multirotors Aerial Vehicles are special class of Unmanned Aerial Vehicles with many practical applications. The growing demand for this class of aircraft requires tools that speed up their development. Simulated environments have gained increasing importance, as they facilitate testing and prototyping solutions, where virtual environments allow real-time interaction with simulated models, with similar behavior to real systems. More recently, the use of Augmented Reality has allowed an increasing experience of immersion and integration between the virtual world and a real scenario. This work proposes the use of Augmented Reality technology and a simulated model of a multirotor to create an interactive flight environment, aiming to improve the user experience in the analysis of simulated models. For this purpose, a smartphone was adopted as a hardware platform, a game engine is used as a basis for the development of the Augmented Reality application, that represents a numerical simulation of the flight dynamics and the control system of a multirotor, and a game controller is adopted for user interaction. The resulting system demonstrates that Augmented Reality is a viable technology that can be used to increase the possibilities of evaluating simulated systems.",
+  "authkeywords": [
+    "augmented reality",
+    "mav",
+    "quaternion attitude control",
+    "simulation",
+    "uav"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Anais Da Academia Brasileira De Ciencias",
+    "issn": "00013765",
+    "eissn": "16782690",
+    "volume": "96",
+    "issue": "1",
+    "pages": null,
+    "article_number": "e20220822"
+  },
+  "authors": [
+    {
+      "name": "DE MOURA, Éder A.",
+      "scopus_id": "57425084200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "DA SILVA, Roberto Gil A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "DE PAULA, Adson A.",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes",
+    "roberto-gil-annes-da-silva",
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Multidisciplinary",
+        "abbrev": "MULT",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85194886647&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066683",
+    "data_quality_score": 90
+  }
+}

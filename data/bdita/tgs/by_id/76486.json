@@ -1,0 +1,26 @@
+{
+  "num_tg": "76486",
+  "type": "tg",
+  "title": "Caracterizaçăo acústica de ambientes fechados através de métodos numéricos e mediçőes de resposta ao impulso",
+  "author": "Aluisio Henrique Messias Alves Cangerana",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Alexander Mattioli Pasqual",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho apresenta o desenvolvimento de um estudo sobre a análise e a caracterizaçăo acústica de salas (ambientes fechados) por meio da simulaçăo de uma configuraçăo sala-fonte-receptor. Por se tratar de um sistema que pode ser considerado linear e invariante no tempo, é possível deduzir características da configuraçăo obtendo sua resposta ao impulso. O presente trabalho consiste da busca dessa resposta por meio da formulaçăo e implementaçăo de um método numérico baseado em ondas, mais especificamente pelo método de diferenças finitas no domínio do tempo (FDTD) e por meio de um procedimento experimental. A obtençăo da resposta ao impulso possibilita tirar conclusőes acerca do sistema sala-fonte-receptor. Através do cálculo do decaimento da energia sonora, é possível calcular o tempo de reverberaçăo, a clareza e a definiçăo do sistema.",
+  "subjects": [
+    "Resposta transitória",
+    "Caracterizaçăo",
+    "Acústica",
+    "Análise numérica",
+    "Reverberaçăo",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76486",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76486&origem=BDITA"
+}

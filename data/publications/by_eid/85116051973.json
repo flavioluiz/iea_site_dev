@@ -1,0 +1,112 @@
+{
+  "publication_id": "2-s2.0-85116051973",
+  "eid": "2-s2.0-85116051973",
+  "doi": "10.1017/jfm.2021.718",
+  "pii": "S0022112021007187",
+  "pubmed_id": null,
+  "title": "Spanwise-coherent hydrodynamic waves around flat plates and airfoils",
+  "abstract": "© We investigate spanwise-coherent structures in the turbulent flow around airfoils, motivated by their connection with trailing-edge noise. We analyse well-resolved large-eddy simulations (LES) of the flow around NACA 0012 and NACA 4412 airfoils, both at a Reynolds number of 400 000 based on the chord length. Spectral proper orthogonal decomposition performed on the data reveals that the most energetic coherent structures are hydrodynamic waves, extending over the turbulent boundary layers around the airfoils with significant amplitudes near the trailing edge. Resolvent analysis was used to model such structures, using the mean field as a base flow. We then focus on evaluating the dependence of such structures on the domain size, to ensure that they are not an artefact of periodic boundary conditions in small computational boxes. To this end, we performed incompressible LES of a zero-pressure-gradient turbulent boundary layer, for three different spanwise sizes, with the momentum-thickness Reynolds number matching those near the airfoils trailing edge. The same coherent hydrodynamic waves were observed for the three domains. Such waves are accurately modelled as the most amplified flow response from resolvent analysis. The signature of such wide structures is seen in non-premultiplied spanwise wavenumber spectra, which collapse for the three computational domains. These results suggest that the spanwise-elongated structures are not domain-size dependent for the studied simulations, indicating thus the presence of very wide structures in wall-bounded turbulent flows.",
+  "authkeywords": [
+    "aeroacoustics",
+    "hydrodynamic noise"
+  ],
+  "year": "2021",
+  "date": "2021-11-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "927",
+    "issue": null,
+    "pages": null,
+    "article_number": "A1"
+  },
+  "authors": [
+    {
+      "name": "Abreu, Leandra I.",
+      "scopus_id": "57194852515",
+      "affiliation": "60006028-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tanarro, Alvaro",
+      "scopus_id": "57211356309",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Schlatter, Philipp",
+      "scopus_id": "57203088235",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vinuesa, Ricardo",
+      "scopus_id": "55553485100",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, Ardeshir",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 30,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 56,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85116051973&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100752",
+    "data_quality_score": 100
+  }
+}

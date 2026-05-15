@@ -1,0 +1,32 @@
+{
+  "num_tese": "000549365",
+  "type": "tese",
+  "title": "Análise modal do satélite universitário ITASAT por subestruturaçăo utilizando elementos finitos.",
+  "author": "Mônica Souza Martins",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta a modelagem em elementos finitos da estrutura do Itasat, um satélite universitário coordenado em parceria pelo Instituto Nacional de Pesquisas Espaciais (INPE) e pela Agęncia Espacial Brasileira (AEB). Em toda a estrutura do satélite utiliza-se placas-sanduíche com núcleo de colméia e faces isotrópicas, ambos em alumínio. É apresentado, entăo, um modelo de elementos finitos de tręs camadas para a análise destas placas, sendo o núcleo modelado por elementos sólidos (CHEXA) e as faces representadas por elementos de placas (CQUAD4). É utilizado para tal, o programa comercial MSC. Nastran. Também o modo de junçăo dos painéis internos do satélite é analisado. Estes painéis formam ângulos retos entre si, que transferem traçăo, compressăo e cargas de flexăo de um painel ao outro, como as juntas-T. Juntas coladas e parafusadas săo usadas e alguns comentários săo feitos. Como a análise de estruturas grandes e/ou complexas muitas vezes excedem a capacidade computacional, a divisăo em subestruturas se torna necessária. Assim, este trabalho apresentou formas de subestruturaçăo estática (Método dos Deslocamentos) e subestruturaçăo dinâmica, também conhecida como Síntese Modal de Componentes, pelo método de Craig-Bampton. Observa-se que o uso de subestruturas apresenta resultados muito próximos aos de uma estrutura completa, tornando válidas as técnicas apresentadas.",
+  "subjects": [
+    "Análise estrutural",
+    "Junçőes estruturais",
+    "Estruturas sanduíche",
+    "Placas (membros estruturais)",
+    "Modelos matemáticos",
+    "Método de elementos finitos",
+    "Satélites artificiais",
+    "Engenharia estrutural",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "30/09/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000549365",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000549365&origem=BDITA"
+}

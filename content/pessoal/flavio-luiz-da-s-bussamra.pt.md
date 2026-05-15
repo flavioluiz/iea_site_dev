@@ -1,8 +1,7 @@
 ---
-title: "Flávio Luiz da S. Bussamra"
+title: "Flávio Luiz de Silva Bussamra"
 layout: professor
 professor_id: "flavio-luiz-da-s-bussamra"
-type: docentes
+departamento: "iea-e"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

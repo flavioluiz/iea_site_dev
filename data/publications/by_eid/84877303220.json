@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-84877303220",
+  "eid": "2-s2.0-84877303220",
+  "doi": "10.1155/2013/941689",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The use of Gramian matrices for aeroelastic stability analysis",
+  "abstract": "Most of the established procedures for analysis of aeroelastic flutter in the development of aircraft are based on frequency domain methods. Proposing new methodologies in this field is always a challenge, because the new methods need to be validated by many experimental procedures. With the interest for new flight control systems and nonlinear behavior of aeroelastic structures, other strategies may be necessary to complete the analysis of such systems. If the aeroelastic model can be written in time domain, using state-space formulation, for instance, then many of the tools used in stability analysis of dynamic systems may be used to help providing an insight into the aeroelastic phenomenon. In this respect, this paper presents a discussion on the use of Gramian matrices to determine conditions of aeroelastic flutter. The main goal of this work is to introduce how observability gramian matrix can be used to identify the system instability. To explain the approach, the theory is outlined and simulations are carried out on two benchmark problems. Results are compared with classical methods to validate the approach and a reduction of computational time is obtained for the second example. © 2013 Douglas Domingues Bueno et al.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-05-13",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematical Problems in Engineering",
+    "issn": "1024123X",
+    "eissn": "15635147",
+    "volume": "2013",
+    "issue": null,
+    "pages": null,
+    "article_number": "941689"
+  },
+  "authors": [
+    {
+      "name": "Bueno, Douglas Domingues",
+      "scopus_id": "25930772600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marqui, Clayton Rodrigo",
+      "scopus_id": "25931013000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sandoval Góes, Luiz Carlos",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Gonçalves, Paulo José Paupitz",
+      "scopus_id": "55681491500",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84877303220&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077652",
+    "data_quality_score": 90
+  }
+}

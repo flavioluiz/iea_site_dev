@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85195661646",
+  "eid": "2-s2.0-85195661646",
+  "doi": "10.1007/s40430-024-04974-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical study of spark plug electrode gap influence of in-cylinder ethanol flame propagation",
+  "abstract": "© The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering 2024.Within the current restringing emissions regulations, the trends for renewable fuel adoption, such as ethanol, have grown in the automotive industry. Besides the benefits when used as the single fuel, ethanol can also leverage the advantages in the context of hybrid vehicles by replacing the petroleum derived fuels in such configuration. In this scenario, the optimization of combustion events in internal combustion engines is paramount to not only promote high performance, but also support fuel economy. Factors such as the combustion chamber design, the positioning of the spark plug and the injector are crucial to support a successful flame propagation, avoiding misfires and decreasing knock propensity. In addition, wearing of those parts can jeopardize the occurrence of reliable and stable combustion events leading to poor emission performance, high fuel consumption and potential hardware damages due to occurrence of knocking events. This research aims to numerically analyze the effects of different spark plug electrode gaps in engine-like conditions by applying Star-CD, a computational fluid dynamics commercial software, to mimic different configurations and operational conditions. The validation and tuning of the numerical models are conducted based on experimental tests performed in an optically accessible direct injection spark ignition engine, operating with two ethanol-based fuels, E96W4 and E100. Thermodynamic data were simultaneously acquired and correlated with the digital UV–visible images in cycle-resolved basis. The numerical models adopted consist of 3-Zones Extended Coherent Flame and Imposed Stretch Spark Ignition Models, applied for the modeling of the combustion and the spark plug, respectively.",
+  "authkeywords": [
+    "Combustion",
+    "Computational fluid dynamics",
+    "Electrode gap",
+    "Engine",
+    "Ethanol",
+    "Spark plug"
+  ],
+  "year": "2024",
+  "date": "2024-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "46",
+    "issue": "7",
+    "pages": null,
+    "article_number": "442"
+  },
+  "authors": [
+    {
+      "name": "Martins, Fernanda Pinheiro",
+      "scopus_id": "57194152915",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195661646&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118534",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000496570",
+  "type": "tese",
+  "title": "Desenvolvimento de um método numérico para cálculo de escoamentos incompressíveis: aplicaçăo na análise da troca de calor em cavidades rasas.",
+  "author": "Paulo Sergio Berving Zdanski",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem dois objetivos. O primeiro é desenvolver um método numérico para a simulaçăo de escoamentos incompressíveis, e o segundo é aplicar o novo esquema ŕ geometria da cavidade rasa. O método numérico desenvolvido é em diferenças finitas. As equaçőes, escritas em forma de lei de conservaçăo, săo discretizadas utilizando diferenças centradas em uma malha co-localizada. Termos de dissipaçăo artificial săo introduzidos externamente para controlar o problema do desacoplamento par-ímpar e de eventuais instabilidades năo lineares. Na aplicaçăo do método ŕ cavidade rasa bidimensional, o estudo é focado, principalmente, na análise da influęncia dos seguintes parâmetros: (i) alongamento da cavidade; (ii) número de Reynolds e (iii) nível de turbulęncia do escoamento năo-perturbado. A meta principal é identificar prováveis tendęncias na troca de calor no piso da cavidade e descobrir qual a condiçăo mais favorável no sentido de se ter o menor efeito convectivo do escoamento externo ao longo do piso da cavidade. Os resultados obtidos demonstram que a troca de calor no interior da cavidade é diretamente afetada pela variaçăo dos parâmetros acima considerados e que existe um regime bem definido no qual a troca de calor por convecçăo forçada é minimizada. Tal regime se estabelece quando ocorre recirculaçăo sobre todo o piso da cavidade. Esta condiçăo pode ser obtida quando uma única regiăo de recirculaçăo se forma no interior da cavidade ou, também, na situaçăo onde tęm-se duas bolhas 'encapsuladas'.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento incompressível",
+    "Modelos matemáticos",
+    "Turbulęncia",
+    "Cavidades",
+    "Transferęncia de calor por convecçăo",
+    "Termodinâmica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000496570",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000496570&origem=BDITA"
+}

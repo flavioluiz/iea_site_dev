@@ -1,0 +1,34 @@
+{
+  "num_tese": "64201",
+  "type": "tese",
+  "title": "Proteçăo do envelope de voo usando a técnica năo linear backstepping",
+  "author": "Erik Osvaldo Pozo Irusta",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Francisco Javier Triveno Vargas",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A aplicaçăo da técnica năo linear Backstepping para a proteçăo do Envelope de Voo em uma aeronave é estudada nesse trabalho. O objetivo principal é projetar controladores para proteger a aeronave de operar fora dos valores máximos e mínimos do seu envelope de voo. Esses valores săo definidos pelo fabricante na etapa de projeto da aeronave. A proteçăo está relacionada está relacionada ŕ entrada que o piloto produz no \"stick';\", que é considerada como a entrada do sistema de proteçăo. Os projetos de proteçăo foram desenvolvidos para proteger ao envelope de aerodinâmica adversa e ao envelope de atitude incomum. Dentro desses envelopes a subdivisăo é feita pela proteçăo longitudinal, segurando o ângulo de ataque no seu máximo valor e a proteçăo latero-direcional, mantendo o ângulo de rolamento no máximo valor. O Backstepping por ser uma técnica de controle năo linear, permite trabalhar com as năo linearidades favoráveis (que estabilizam o sistema) até achar uma lei de controle que garanta a estabilidade baseada na teoria de Lyapunov. Ao longo do trabalho săo apresentados os projetos de controle de proteçăo que foram divididos em Longitudinal e Latero-Direcional. Cada um deles é composto de dois controladores de rastreio (?, q, ?, ?, ?, p, r) que trabalham em paralelo e săo compactados através de uma funçăo de comutaçăo. Já nos capítulos finais săo apresentados as simulaçőes, os resultados as conclusőes e as recomendaçőes.",
+  "subjects": [
+    "Sistemas năo-lineares",
+    "Controle de aeronaves",
+    "Envelopes de voo",
+    "Mecânica de voo",
+    "Sistemas de chaveamento",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/04/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64201",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64201&origem=BDITA"
+}

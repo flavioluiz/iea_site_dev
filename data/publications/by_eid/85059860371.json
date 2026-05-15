@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85059860371",
+  "eid": "2-s2.0-85059860371",
+  "doi": "10.1155/2018/3847843",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Model-Based Testing Applied to Software Components of Satellite Simulators",
+  "abstract": "© 2018 Paulo Diego Barbosa da Silva et al.Operational simulators have a fundamental role in space programs. During a satellite operation, these simulators are essential for validating critical manoeuvres, testing new on-board software versions, and supporting the diagnosis of anomalies. With the purpose of reusing the operational simulators, the Brazilian National Institute for Space Research has proposed a new standard for the specification of the components that must be integrated in their in-house developed simulators. The new standard describes the behaviour of satellite subsystems using cause-effect tables that relate telecommands, electrical switches, equipment working states, energy consumption, telemetries, and operating modes of the subsystem. Using this new standard as input, this work proposes an approach that merges model-based testing and model checking to verify the correct implementation of new components in the satellite simulator. The verification approach consists of extracting state machines from the cause-effect tables and used it to automatically derive a test case suite. In order to validate the proposal, we applied it to three different satellite subsystems and assessed the results obtained from the test campaigns. In all the three cases, the proposed approach identified errors in the simulator components that were not initially detected by the traditional testing approach used at the Brazilian National Institute for Space Research.",
+  "authkeywords": null,
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Modelling and Simulation in Engineering",
+    "issn": "16875591",
+    "eissn": "16875605",
+    "volume": "2018",
+    "issue": null,
+    "pages": null,
+    "article_number": "3847843"
+  },
+  "authors": [
+    {
+      "name": "Silva, Paulo Diego Barbosa Da",
+      "scopus_id": "57188746127",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ambrosio, Ana Maria",
+      "scopus_id": "36803922400",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85059860371&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049429",
+    "data_quality_score": 90
+  }
+}

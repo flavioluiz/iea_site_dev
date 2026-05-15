@@ -1,0 +1,68 @@
+{
+  "publication_id": "2-s2.0-85051536949",
+  "eid": "2-s2.0-85051536949",
+  "doi": "10.5028/jatm.v10.904",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Analytical solution for optimal low-thrust limited-power transfers between non-coplanar coaxial orbits",
+  "abstract": "© 2018, Journal of Aerospace Technology and Management. All rights reserved.In this paper, an analytical solution for time-fixed optimal low-thrust limited-power transfers (no rendezvous) between elliptic coaxial non-coplanar orbits in an inverse-square force field is presented. Two particular classes of maneuvers are related to such transfers: maneuvers with change in the inclination of the orbital plane and maneuvers with change in the longitude of the ascending node. The optimization problem is formulated as a Mayer problem of optimal control with the state defined by semi-major axis, eccentricity, inclination or longitude of the ascending node, according to the class of maneuver considered, and a variable measuring the fuel consumption. After applying Pontryagin’s maximum principle and determining the maximum Hamiltonian, short periodic terms are eliminated through an infinitesimal canonical transformation. The new maximum Hamiltonian resulting from this canonical transformation describes the extremal trajectories for long duration transfers. Closed-form analytical solution is then obtained through Hamilton-Jacobi theory. For long duration maneuvers, the existence of conjugate points is investigated through the Jacobi condition. Simplified solution is determined for transfers between close orbits. The analytical solution is compared to the numerical solution obtained by integration of the canonical system of differential equations describing the extremal trajectories for some sets of initial conditions. Results show a great agreement between these solutions for the class of maneuvers considered in the analysis. The solution of the two-point boundary value problem of going from an initial orbit to a final orbit, based on the analytical solution, is also discussed.",
+  "authkeywords": [
+    "Low-thrust limited-power trajectories",
+    "Optimal space trajectories",
+    "Transfers between non-coplanar orbits"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aerospace Technology and Management",
+    "issn": "19849648",
+    "eissn": "21759146",
+    "volume": "10",
+    "issue": null,
+    "pages": null,
+    "article_number": "e1918"
+  },
+  "authors": [
+    {
+      "name": "da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "das Chagas Carvalho, Francisco",
+      "scopus_id": "57191413125",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85051536949&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081724",
+    "data_quality_score": 100
+  }
+}

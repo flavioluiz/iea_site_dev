@@ -1,0 +1,28 @@
+{
+  "num_tese": "000443072",
+  "type": "tese",
+  "title": "Análise do escoamento turbulento em meio poroso descontínuo.",
+  "author": "Marcos Heinzelmann Junqueiras Pedras",
+  "year": "2000",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho analisa a modelagem do fenômeno de turbulęncia em meios porosos. Inicialmente, é apresentado o conceito da dupla decomposiçăo, o qual relaciona uma propriedade microscópica instantânea ŕs suas médias volumétrica e temporal. Baseado no conceito de dupla decomposiçăo, no teorema da média volumétrica local e nas equaçőes de escoamento microscópicas, desenvolve-se as equaçőes macroscópicas do escoamento médio no tempo, aplicáveis a meios limpos, porosos ou híbridos. Mostra-se que a ordem de aplicaçăo da média volumétrica e temporal é irrelevante quanto ao resultado final se o meio poroso for indeformável e saturado por um fluido monofásico. No processo de obtençăo das equaçőes macroscópicas do escoamento médio no tempo, surge o tensor de Reynolds macroscópico. A representaçăo deste termo adicional faz uso da idéia da dupla decomposiçăo e dá origem ao modelo macroscópico de duas equaçőes proposto. Esta proposiçăo é baseada na média volumétrica das equaçőes microscópicas da energia cinética turbulenta e de sua dissipaçăo, ambas definidas também ŕ luz do conceito de dupla decomposiçăo. Deste processo de obtençăo do modelo macroscópico de duas equaçőes, uma constante é introduzida na equaçăo da energia cinética de turbulęncia. O valor numérico desta constante foi obtido através de experimentaçăo numérica aplicada a um meio poroso formado por hastes cilíndricas com arranjo espacialmente periódico. As equaçőes microscópicas do escoamento foram entăo resolvidas para esta geometria, usando-se um sistema de coordenadas generalizadas e o modelo k-e de baixo Re. No modelo de baixo Re, năo há a necessidade de emprego da funçăo de parede e a malha computacional se comprime próxima ŕ superfície sólida. As propriedades distribuídas foram integradas no domínio de cálculo e comparadas com o modelo macroscópico proposto. Desta comparaçăo, o valor da constante introduzida foi determinado. O modelo macroscópico de turbulęncia, assim ajustado, foi usado para reproduzir dados encontrados na literatura. Algumas aplicaçőes do modelo macroscópico envolvendo meios de distintas porosidades săo apresentadas.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Materiais porosos",
+    "Mecânica dos fluidos",
+    "Análise numérica",
+    "Física"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000443072",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000443072&origem=BDITA"
+}

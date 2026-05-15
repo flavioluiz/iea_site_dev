@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85081571427",
+  "eid": "2-s2.0-85081571427",
+  "doi": "10.1615/TFEC2019.rce.028069",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of a volumetric solar absorber using the thermal non-equilibrium hypothesis",
+  "abstract": "© 2019 Begell House Inc. All rights reserved.Solar energy is an abundant source of clean and renewable energy for heat and power production. In this work we present numerical results for the thermal performance of a Solar Volumetric Receiver (SVR). The Thermal Non-Equilibrium Model was employed along with radiation boundary conditions. The numerical technique used for discretizing the governing equations was the control volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was applied to handle the pressure-velocity coupling. Effects of inlet velocity, medium permeability and solid-to-fluid thermal conductivity ratio on temperature distributions within the absorber were investigated. Reduction of temperatures as thermal conductivity ratio decreases was observed in addition to an increase in entry length for higher thermal conductivity ratios. Increase in inlet solid temperature as permeability increases was accompanied by a longer entry length and reduced final equilibrium temperature.",
+  "authkeywords": [
+    "Porous Media",
+    "Radiation",
+    "Solar Volumetric Receiver",
+    "Thermal Non-equilibrium"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the Thermal and Fluids Engineering Summer Conference",
+    "issn": null,
+    "eissn": "23791748",
+    "volume": "2019-April",
+    "issue": null,
+    "pages": "1249-1259",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Ribeiro, Roberta R.",
+      "scopus_id": "57206127272",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85081571427&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110464",
+    "data_quality_score": 90
+  }
+}

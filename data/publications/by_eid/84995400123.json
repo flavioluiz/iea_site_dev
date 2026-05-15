@@ -1,0 +1,111 @@
+{
+  "publication_id": "2-s2.0-84995400123",
+  "eid": "2-s2.0-84995400123",
+  "doi": "10.1016/j.ymssp.2016.08.043",
+  "pii": "S0888327016303351",
+  "pubmed_id": null,
+  "title": "Numerical and experimental investigation of aeroviscoelastic systems",
+  "abstract": "© 2016 Elsevier LtdViscoelastic materials have been widely used for the purpose of passive vibration mitigation in various types of mechanical systems, including, industrial machinery, civil structures and vehicles. In this paper, the use of those materials in aeroelastic systems is investigated, with emphasis placed on the influence of the viscoelastic behavior on the flutter speeds of two-degree-of-freedom typical section models, in which viscoelastic elements are introduced in addition to elastic elements associated to heave and pitch motions. The equations of motion of the aeroelastic system are modified to account for the dependence of the viscoelastic behavior on frequency and temperature, by using the concepts of complex modulus and shift factor. The aerodynamic forces and moments in subsonic regime are modeled according to Theodorsen's method. Numerical simulations are conducted to evaluate the influence of the addition of viscoelastic elements on the flutter speed and elucidate the separated influences of stiffness and damping additions. An experimental wind tunnel setup consisting of a rigid wing supported by flexible elements in pitch and plunge motions has been modified to enable the introduction of viscoelastic elements in parallel to those flexible elements. For various configurations of viscoelastic additions, the flutter instability is characterized from vibration measurements performed for increasing flow speeds in the vicinity of the stability boundary. The experimental results are used to validate the numerical model derived for the aeroviscoelastic system and confirm both qualitatively and quantitatively the predictions of the simulations, especially the possibility of increasing the flutter speed by the inclusion of viscoelastic materials.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Aeroviscoelasticity",
+    "Damping",
+    "Flutter",
+    "Viscoelasticity"
+  ],
+  "year": "2017",
+  "date": "2017-02-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "85",
+    "issue": null,
+    "pages": "680-697",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Martins, Polliana C.O.",
+      "scopus_id": "57191957552",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães, Thiago A.M.",
+      "scopus_id": "57038408200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Daniel de A.",
+      "scopus_id": "56735566900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marques, Flávio D.",
+      "scopus_id": "7102759984",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84995400123&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088980",
+    "data_quality_score": 100
+  }
+}

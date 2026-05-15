@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-84883668839",
+  "eid": "2-s2.0-84883668839",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Jet-noise control by fluidic injection from a rotating plug: Linear and non-linear sound source mechanisms",
+  "abstract": "We present a study of subsonic jets, controlled by means of a novel actuator that introduces perturbations via steady fluidic actuation from a rotating centerbody. Preliminary results obtained with this kind of actuator were presented during AIAA conference in Portland in 2011.1 Louder and quieter jets are produced, and these are analysed using time-resolved, stereoscopic particle image velocimetry and a hot-wire anemometer. We place the analysis in the framework of wavepackets and linear stability theory, whence we show that the quieter flows can be understood to result from a meanow deformation that attenuates wavepacket growth rates. The meanow deformation is shown, by a triple decomposition, to be due to the generation of Reynolds stresses associated with incoherent turbulence (rather than coherent structures) which arises when the actuation energises the flow with a frequency-azimuthal wavenumber (ω-m) combination to which the mean flow is stable. When the actuation energises the flow with an ω-m combination to which the mean flow is unstable, the response is dominated by coherent structures, whose rapid growth takes them beyond the linear limit where they undergo quadratic wave interactions and lead, consequently, to a louder flow. © 2013 by Snecma.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-09-16",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "19th AIAA Ceas Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "141",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kœnig, M.",
+      "scopus_id": "55634087500",
+      "affiliation": "60030643",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, P.",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Y.",
+      "scopus_id": "56211700100",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84883668839&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102037",
+    "data_quality_score": 70
+  }
+}

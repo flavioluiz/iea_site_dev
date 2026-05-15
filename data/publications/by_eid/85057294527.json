@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85057294527",
+  "eid": "2-s2.0-85057294527",
+  "doi": "10.2514/6.2016-2860",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of coherence on jet-surface interaction noise",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.An investigation of a semi-empirical wavepacket model for free-jet and jet-surface in- teraction noise was conducted. The source term for the axisymmetric mode was extracted from a Mach 0:9 jet Large Eddy Simulation (LES) and employed to adjust the parameters of a simple line source wavepacket model. Streamwise coherence decay, in particular, was considered. The source model was propagated with both the free-field and tailored Green’s function for a semi-infinite at plate positioned at a distance of r=D = 1 from the jet axis. For the free jet, the original unit-coherence source produced a sound field with 40dB errors in comparison with experimental data. When the coherence decay extracted from the LES was used in the line source, noise levels presented very good agreement with experimental data at all polar angles. With the tailored function, at the polar angles most affected by the trailing-edge scattering, the unit-coherence source presented noise levels about 10dB lower than the experiments. Inclusion of the coherence decay extracted from the LES improved the results in the whole directivity range. These results not only confirms the importance of matching source coherence in addition to amplitude and phases of the real source, but also that the installed case is somehow less sensitive to source coherence than is the free jet.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Ceas Aeroacoustics Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva, Filipe D.",
+      "scopus_id": "57188729541",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Deschamps, Cesar J.",
+      "scopus_id": "7006473275",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Andrey R.",
+      "scopus_id": "16467135800",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Piantanida, Selene",
+      "scopus_id": "56256344500",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Brés, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057294527&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101741",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-0032320728",
+  "eid": "2-s2.0-0032320728",
+  "doi": "10.1088/0964-1726/7/6/012",
+  "pii": "S0964172698964163",
+  "pubmed_id": null,
+  "title": "Axisymmetric actuation of composite cylindrical thin shells with piezoelectric rings",
+  "abstract": "Axisymmetric static and frequency analyses of anisotropic cylindrical thin shells with one and two perfectly bonded ring piezoactuators are performed. The shell is assumed to be linear elastic and made of laminated composite materials. The electroelastic constitutive relations for the piezoelectric materials are also assumed to be linear. It is shown that, if there exists a special relationship involving the membrane and the membrane-bending coupling stiffness matrices. the analysis is greatly simplified. In such a situation, simple closed form solutions of the equilibrium equations are obtained for the case of an infinite shell with one or two actuators. Kirchhoff's assumptions are used for the analysis and the dynamic formulation is derived from a variational principle which includes the total structural potential energy and the electrical potential energy of the piezoelectric material, involving both mechanical and electrical variables. The finite element method is then applied to obtain the stiffness and mass matrices. The computer code developed to implement the formulation allows the static and dynamic analyses of arbitrary cylindrical shells with piezoelectric actuators. Good agreement is reached between the analytical solution found and the numerical procedure implemented. Results indicate that the maximum normalized displacement and it's location vary according to the actuator length. Furthermore, a frequency analysis is carried out in a broad range of frequencies to investigate the effect of mass properties on the response of a simply supported cylindrical shell.",
+  "authkeywords": null,
+  "year": "1998",
+  "date": "1998-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Smart Materials and Structures",
+    "issn": "09641726",
+    "eissn": null,
+    "volume": "7",
+    "issue": "6",
+    "pages": "843-850",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, Alfredo Rocha",
+      "scopus_id": "7003781294",
+      "affiliation": "60071030",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "De Almeida, Sérgio Frascino Müller",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 18,
+    "subject_areas": [
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0032320728&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044797",
+    "data_quality_score": 90
+  }
+}

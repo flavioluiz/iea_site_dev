@@ -1,0 +1,39 @@
+{
+  "num_tg": "000527154",
+  "type": "tg",
+  "title": "An analytical formulation with iterative solution for the structure-aerodynamic interaction of a variable-camber airfoil.",
+  "author": "Camilo Jacob Tenório de Mello Contreras",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    },
+    {
+      "name": "Jürgen Thorbeck",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Stefan Anders",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Based on the idea of exploiting distributed structural flexibility to enhance the aerodynamics of an airfoil, the belt-rib concept was born in the framework of the Adaptive Wing Project (ADIF) at the DLR (German Aerospace Centre). The belt-rib airfoil has built-in spokes, whose primary function is to reduce the degree of freedom of the displacements and hence, to afford controllability through actuators over the surface deformation. In the present work, a mathematical model and a computer program were developed to describe the characteristics of static equilibrium of airfoils of the belt-rib type, when it is subjected to aerodynamic load and actuator activity. The aerodynamics is modelled through Theodorsen's potential flow theory for airfoils with Prandtl-Glauert compressibility correction. The structure part uses a modified Castigliano's theorem to calculate linear elastic deformations. Both parts are coupled through an iterative method. A Mathematica-based program was developed with this theory and simulations for the belt-rib are realised and analysed.",
+  "subjects": [
+    "Perfis de asa",
+    "Aerofólios",
+    "Aeroelasticidade",
+    "Deformaçăo elástica",
+    "Cargas aerodinâmicas",
+    "Modelos matemáticos",
+    "Programas de computadores",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527154",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527154&origem=BDITA"
+}

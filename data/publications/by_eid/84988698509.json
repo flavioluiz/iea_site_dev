@@ -1,0 +1,110 @@
+{
+  "publication_id": "2-s2.0-84988698509",
+  "eid": "2-s2.0-84988698509",
+  "doi": "10.1007/978-3-319-04774-4_23",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Strain-based dynamic measurements and modal testing",
+  "abstract": "© The Society for Experimental Mechanics, Inc. 2014.The most common and established way of performing experimental modal analysis is to use acceleration or velocity based transducers that lead to the calculation of the displacement mode shapes. However, there are applications where the use of strain measurements makes for a more attractive and interesting option. For instance, since strain measurements are more directly related to stress, fatigue and failure, strain-based measurement methods can be a good option for structural health monitoring methods and monitoring systems. Moreover, applications where sensor size and placement might be critical are also good candidates for strain-based methods. Helicopters, wind turbines and gas turbines are a good example where strain gauges are more suited for vibration measurements. Additionally, any sort of system that uses strain gauges for static testing can also use the same sensors for dynamic testing without incurring additional sensor costs, which can be very useful in some situations. Some application cases of dynamic strain measurements and dynamic strain modal analysis are shown in this work, with test subjects such as a composite helicopter blade, a small wind turbine blade and a composite beam. Different types of sensors and excitation methods were also used as well as correlation with a computational model.",
+  "authkeywords": [
+    "Dynamic strain",
+    "Modal analysis",
+    "Mode shape",
+    "Strain field",
+    "Strain modal analysis"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Conference Proceedings of the Society for Experimental Mechanics Series",
+    "issn": "21915644",
+    "eissn": "21915652",
+    "volume": "8",
+    "issue": null,
+    "pages": "233-242",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "dos Santos, Fábio Luis Marques",
+      "scopus_id": "55212979900",
+      "affiliation": "113595423-60025063-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peeters, Bart",
+      "scopus_id": "7101854096",
+      "affiliation": "113595423",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Menchicchi, Marco",
+      "scopus_id": "57191291973",
+      "affiliation": "113595423",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lau, Jenny",
+      "scopus_id": "24278514800",
+      "affiliation": "113595423",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gielen, Ludo",
+      "scopus_id": "36973882300",
+      "affiliation": "113595423",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Desmet, Wim",
+      "scopus_id": "56274925200",
+      "affiliation": "60025063",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84988698509&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077542",
+    "data_quality_score": 100
+  }
+}

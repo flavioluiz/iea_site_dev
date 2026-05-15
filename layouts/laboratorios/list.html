@@ -1,185 +1,170 @@
 {{ define "main" }}
+{{ $lang := .Language.Lang }}
+{{ $labs := .Site.Data.laboratorios.laboratorios }}
+
+{{/* The 7 featured labs in display order */}}
+{{ $featured := slice "lab-feng" "lcpe" "ltf" "lnca" "lab-esp" "lasca" "cei" "conceptio" }}
+
+{{/* Visual config per lab: gradient colors and icon path */}}
+{{ $visuals := dict
+  "lab-feng" (dict "from" "#1e40af" "to" "#3b82f6" "icon" "wind")
+  "lcpe"     (dict "from" "#b45309" "to" "#f59e0b" "icon" "flame")
+  "ltf"      (dict "from" "#7c3aed" "to" "#a78bfa" "icon" "rocket")
+  "lnca"     (dict "from" "#065f46" "to" "#34d399" "icon" "lightbulb")
+  "lab-esp"  (dict "from" "#9f1239" "to" "#f43f5e" "icon" "cube")
+  "lasca"    (dict "from" "#0369a1" "to" "#38bdf8" "icon" "chip")
+  "cei"      (dict "from" "#0f766e" "to" "#2dd4bf" "icon" "satellite")
+  "conceptio" (dict "from" "#0f172a" "to" "#334155" "icon" "puzzle")
+}}
+
 <div class="max-w-7xl mx-auto">
+
   {{/* Page header */}}
-  <div class="mb-8">
-    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
-    <div class="prose prose-lg max-w-none text-gray-700">
-      {{ .Content }}
-    </div>
-  </div>
-
-  {{/* Load laboratories data */}}
-  {{ $labs := .Site.Data.laboratorios.laboratorios }}
-  {{ $areas := .Site.Data.areas.areas }}
-
-  {{/* Count labs total and by area */}}
-  {{ $labCount := len $labs }}
-  {{ $eam1Count := 0 }}
-  {{ $eam2Count := 0 }}
-  {{ $eam3Count := 0 }}
-  {{ range $id, $lab := $labs }}
-    {{ if eq $lab.area "eam1" }}{{ $eam1Count = add $eam1Count 1 }}{{ end }}
-    {{ if eq $lab.area "eam2" }}{{ $eam2Count = add $eam2Count 1 }}{{ end }}
-    {{ if eq $lab.area "eam3" }}{{ $eam3Count = add $eam3Count 1 }}{{ end }}
-  {{ end }}
-
-  {{/* Statistics Cards */}}
-  <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-    <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg shadow p-6 text-center">
-      <div class="text-4xl font-bold text-gray-700">{{ $labCount }}</div>
-      <div class="text-sm text-gray-600 mt-1">{{ i18n "laboratories" }}</div>
-    </div>
-    {{ with index $areas "eam1" }}
-    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
-      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam1Count }}</div>
-      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
-    </div>
-    {{ end }}
-    {{ with index $areas "eam2" }}
-    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
-      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam2Count }}</div>
-      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
-    </div>
-    {{ end }}
-    {{ with index $areas "eam3" }}
-    <div class="bg-gradient-to-br rounded-lg shadow p-6 text-center" style="background: linear-gradient(135deg, {{ .cor }}10, {{ .cor }}20);">
-      <div class="text-4xl font-bold" style="color: {{ .cor }};">{{ $eam3Count }}</div>
-      <div class="text-sm text-gray-600 mt-1">{{ .codigo }}</div>
-    </div>
-    {{ end }}
-  </div>
-
-  {{/* Filter controls */}}
-  <div class="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
-    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
-      <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
-      </svg>
-      {{ i18n "filter_by_area" }}
-    </h2>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {{/* Search input */}}
-      <div>
-        <label for="lab-search" class="block text-sm font-semibold text-gray-700 mb-2">
-          {{ i18n "search_labs" }}
-        </label>
-        <input type="text" id="lab-search"
-               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-               placeholder="{{ i18n "search_labs" }}">
-      </div>
-
-      {{/* Area filter */}}
-      <div>
-        <label for="lab-area-filter" class="block text-sm font-semibold text-gray-700 mb-2">
-          {{ i18n "concentration_area" }}
-        </label>
-        <select id="lab-area-filter"
-                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
-          <option value="">{{ i18n "all_areas" }}</option>
-          {{ range $areaId, $area := $areas }}
-            <option value="{{ $areaId }}">{{ $area.codigo }} - {{ if eq $.Language.Lang "en" }}{{ $area.nome_en }}{{ else }}{{ $area.nome_pt }}{{ end }}</option>
-          {{ end }}
-        </select>
-      </div>
-    </div>
-
-    {{/* Clear filters button */}}
-    <div class="mt-4">
-      <button id="clear-lab-filters"
-              class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors font-medium text-sm">
-        {{ i18n "clear_filters" }}
-      </button>
-    </div>
-  </div>
-
-  {{/* Results counter */}}
-  <div class="mb-4">
-    <p class="text-gray-600">
-      <span id="lab-results-count" class="font-bold text-gray-900">{{ $labCount }}</span>
-      {{ i18n "labs_found" }}
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">
+      {{ if eq $lang "en" }}Laboratories & Research Centers{{ else }}Laboratórios e Centros de Pesquisa{{ end }}
+    </h1>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+      {{ if eq $lang "en" }}
+        State-of-the-art facilities for experimental, computational, and systems research in aeronautical and aerospace engineering.
+      {{ else }}
+        Infraestrutura de ponta para pesquisa experimental, computacional e de sistemas em engenharia aeronáutica e aeroespacial.
+      {{ end }}
     </p>
   </div>
 
-  {{/* EAM-1 Section */}}
-  {{ $area1 := index $areas "eam1" }}
-  {{ if gt $eam1Count 0 }}
-  <section class="lab-area-section mb-10" data-area="eam1">
-    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area1.cor }};">
-      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
-           style="background-color: {{ $area1.cor }};">
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
-      </div>
-      <h2 class="text-2xl font-bold text-gray-900">
-        {{ $area1.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area1.nome_en }}{{ else }}{{ $area1.nome_pt }}{{ end }}
-      </h2>
-    </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {{ range $id, $lab := $labs }}
-        {{ if eq $lab.area "eam1" }}
-          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
-        {{ end }}
+  {{/* Lab cards grid */}}
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    {{ range $featured }}
+      {{ $id := . }}
+      {{ $lab := index $labs $id }}
+      {{ if $lab }}
+      {{ $v := index $visuals $id }}
+      {{ $from := $v.from }}
+      {{ $to   := $v.to }}
+      {{ $icon := $v.icon }}
+      {{ $nome := $lab.nome_pt }}
+      {{ $desc := $lab.descricao_pt | plainify }}
+      {{ $infra := $lab.infraestrutura }}
+      {{ if eq $lang "en" }}
+        {{ $nome = $lab.nome_en | default $lab.nome_pt }}
+        {{ $desc = ($lab.descricao_en | default $lab.descricao_pt) | plainify }}
+        {{ $infra = $lab.infraestrutura_en | default $lab.infraestrutura }}
       {{ end }}
-    </div>
-  </section>
-  {{ end }}
 
-  {{/* EAM-2 Section */}}
-  {{ $area2 := index $areas "eam2" }}
-  {{ if gt $eam2Count 0 }}
-  <section class="lab-area-section mb-10" data-area="eam2">
-    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area2.cor }};">
-      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
-           style="background-color: {{ $area2.cor }};">
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.9 2.1c-.1-.1-.3-.1-.5 0-.5.5-4 4.1-4.9 9.1l-2.9 2.9c-.1.1-.1.2-.1.3v3.1c0 .2.1.3.3.3h3.1c.1 0 .2 0 .3-.1l2.9-2.9c5-1 8.6-4.5 9.1-5 .1-.1.1-.3 0-.5l-7.3-7.2zM9 16.5L6.5 14l1.2-1.2 2.5 2.5L9 16.5zM4.9 20.9c-.2-.5-.2-2.2.4-3.8L7.5 19c-1.3.6-2.1.6-2.6.9z"/></svg>
+      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+
+        {{/* Visual header — gradient banner with icon */}}
+        <div class="relative h-48 flex items-center justify-center overflow-hidden"
+             style="background: linear-gradient(135deg, {{ $from }}, {{ $to }});">
+
+          {{/* Background pattern */}}
+          <svg class="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="350" cy="-30" r="180" fill="white"/>
+            <circle cx="50" cy="220" r="120" fill="white"/>
+          </svg>
+
+          {{/* Icon */}}
+          <div class="relative z-10 flex flex-col items-center gap-3">
+            {{ if eq $icon "wind" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2"/>
+            </svg>
+            {{ else if eq $icon "flame" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
+            </svg>
+            {{ else if eq $icon "rocket" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.82m5.84-2.56a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.82m2.56-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+            </svg>
+            {{ else if eq $icon "lightbulb" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m1.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+            {{ else if eq $icon "cube" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"/>
+            </svg>
+            {{ else if eq $icon "chip" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 3H7a2 2 0 00-2 2v2M9 3h6M9 3v2m6-2h2a2 2 0 012 2v2m0 0V7m0 2v8m0 0v2a2 2 0 01-2 2h-2m0 0H9m6 0v-2M9 21H7a2 2 0 01-2-2v-2m0 0V9M5 9H3m2 0v6m14-6h2m-2 0v6M9 21v-2m6 2v-2M9 7h6v10H9V7z"/>
+            </svg>
+            {{ else if eq $icon "satellite" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/>
+            </svg>
+            {{ else if eq $icon "puzzle" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+            </svg>
+            {{ end }}
+            {{/* Sigla badge */}}
+            <span class="text-white font-bold text-lg tracking-wider opacity-80">{{ $lab.sigla }}</span>
+          </div>
+
+        </div>
+
+        {{/* Card body */}}
+        <div class="flex flex-col flex-1 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">
+            {{ $nome }}
+          </h2>
+
+          <p class="text-sm text-gray-600 leading-relaxed mb-4 flex-1">
+            {{ $desc | truncate 280 "…" }}
+          </p>
+
+          {{/* Infrastructure tags */}}
+          {{ if $infra }}
+          <div class="mb-5">
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
+              {{ if eq $lang "en" }}Key capabilities{{ else }}Capacidades{{ end }}
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              {{ range first 5 $infra }}
+              <span class="inline-block px-2 py-0.5 rounded-md text-xs text-white font-medium"
+                    style="background-color: {{ $from }}cc;">
+                {{ . | truncate 40 "" }}
+              </span>
+              {{ end }}
+              {{ if gt (len $infra) 5 }}
+              <span class="inline-block px-2 py-0.5 rounded-md text-xs text-gray-500 bg-gray-100 font-medium">
+                +{{ sub (len $infra) 5 }} {{ if eq $lang "en" }}more{{ else }}mais{{ end }}
+              </span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          {{/* Footer: website link and PNIPE */}}
+          <div class="flex flex-wrap gap-3 pt-4 border-t border-gray-100">
+            {{ with $lab.website_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-1.5 text-sm font-medium text-white px-3 py-1.5 rounded-lg transition-opacity hover:opacity-90"
+               style="background-color: {{ $from }};">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+              {{ if eq $lang "en" }}Website{{ else }}Site{{ end }}
+            </a>
+            {{ end }}
+            {{ with $lab.pnipe_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-600 border border-gray-200 px-3 py-1.5 rounded-lg hover:bg-gray-50 transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+              PNIPE
+            </a>
+            {{ end }}
+          </div>
+        </div>
       </div>
-      <h2 class="text-2xl font-bold text-gray-900">
-        {{ $area2.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area2.nome_en }}{{ else }}{{ $area2.nome_pt }}{{ end }}
-      </h2>
-    </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {{ range $id, $lab := $labs }}
-        {{ if eq $lab.area "eam2" }}
-          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
-        {{ end }}
       {{ end }}
-    </div>
-  </section>
-  {{ end }}
-
-  {{/* EAM-3 Section */}}
-  {{ $area3 := index $areas "eam3" }}
-  {{ if gt $eam3Count 0 }}
-  <section class="lab-area-section mb-10" data-area="eam3">
-    <div class="flex items-center gap-3 mb-4 pb-2 border-b-2" style="border-color: {{ $area3.cor }};">
-      <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold"
-           style="background-color: {{ $area3.cor }};">
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
-      </div>
-      <h2 class="text-2xl font-bold text-gray-900">
-        {{ $area3.codigo }} - {{ if eq .Language.Lang "en" }}{{ $area3.nome_en }}{{ else }}{{ $area3.nome_pt }}{{ end }}
-      </h2>
-    </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {{ range $id, $lab := $labs }}
-        {{ if eq $lab.area "eam3" }}
-          {{ partial "lab-card.html" (dict "lab" $lab "page" $) }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </section>
-  {{ end }}
-
-  {{/* No results message */}}
-  <div id="no-lab-results" class="hidden text-center py-12">
-    <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-    </svg>
-    <p class="text-xl text-gray-600">{{ i18n "no_labs_found" }}</p>
-    <p class="text-sm text-gray-500 mt-2">{{ i18n "try_different_filters" }}</p>
+    {{ end }}
   </div>
-</div>
 
-{{/* Load lab filter and expand JavaScript */}}
-<script src="{{ "js/lab-expand.js" | relURL }}"></script>
+</div>
 {{ end }}

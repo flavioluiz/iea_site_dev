@@ -1,0 +1,31 @@
+{
+  "num_tese": "000480568",
+  "type": "tese",
+  "title": "Um método numérico para análise de adensamento e transporte de contaminantes no solo.",
+  "author": "Paulo Ivo Braga de Queiroz",
+  "year": "2002",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Delma de Mattos Vidal",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um método numérico para análise de problemas parabólicos, como o transporte advectivo-dispersivo de contaminantes no solo e como o adensamento. O método é baseado no conceito das equaçőes adjuntas, sendo uma das possíveis extensőes do ELLAM, um dos métodos mais promissores na garantia de convergęncia em problemas envolvendo números de Courant e Peclet elevados. O objetivo do trabalho é fornecer subsídios para o desenvolvimento futuro de métodos de grande precisăo para o estudo de fenômenos acoplados, como o transporte de contaminantes em solos sob adensamento, que deve acontecer em argilas sob aterros sanitários. Desenvolveu-se inicialmente uma implementaçăo do ELLAM com funçőes de interpolaçăo fixas no tempo-espaço, mais apropriadas para problemas geotécnicos. Uma verificaçăo numérica de sua ordem de convergęncia mostrou que este tipo de formulaçăo sofre de limitaçőes no número de Courant maiores que a formulaçăo do ELLAM vigente. Posteriormente, desenvolveu-se um método de adjuntos localizados com polinômios de segundo grau (SOLAM - Second Order Localized Adjoint Method). Observou-se que o método também sofre de limitaçőes de convergęncia para números de Courant e Peclet elevados; no entanto, o método apresentou desempenho para o problema do adensamento em meios heterogęneos superior ao dos métodos de elementos finitos, o que o torna adequado para o estudo de problemas acoplados.",
+  "subjects": [
+    "Análise numérica",
+    "Transporte de poluiçăo",
+    "Contaminantes",
+    "Poluiçăo do solo",
+    "Mecânica dos solos",
+    "Método de elementos finitos",
+    "Engenharia geotécnica",
+    "Engenharia sanitária"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000480568",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000480568&origem=BDITA"
+}

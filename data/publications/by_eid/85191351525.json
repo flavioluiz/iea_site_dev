@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85191351525",
+  "eid": "2-s2.0-85191351525",
+  "doi": "10.2514/6.2023-4457",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Synthetic Airspeed Algorithm in Frequency Domain",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Synthetic Air Data Systems are air data parameters real-time estimation algorithms. Estimation of such parameters have been under study for a few decades. System Identification theory gives some tools for both time and frequency domain. Several studies have been conducted to investigate this problem in the time domain, but the applicability of frequency-domainal gorithms is still to be investigated. This work proposes a frequency-domain formulation for the synthetic air data problem, which is validated using a time-domain method (Recursive LeastS quares). Both methods are applied to real flight test data and estimation results are discussed. Effects of the availability of side-slip parameter are evaluated and estimates uncertainties due to model parameters accuracy (stability derivatives) are also presented.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Morais Véras, Vinícius Leite",
+      "scopus_id": "57192097796",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85191351525&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.076938",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "63065",
+  "type": "tese",
+  "title": "Uncertainty quantification of aircraft modal analysis using perturbation technique in the stochastic finite element method",
+  "author": "Francisco Scinocca",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Structural members, such as, stiffeners are applied to aeronautical structures in order to promote the necessary global or local dynamic stiffness. The manufacture and assembly process of these parts and machines capability can introduce variability in the parts and thereby incorporating uncertainties in the structural performance. Tolerances known as GD&T (Geometrical dimensioning and Tolerance), must be specified for several dimensions during the engineering design, in order to enable the manufacture of the structure. In the same way, some material properties have variability, when different suppliers are involved. Thus, the uncertainties must be incorporated into the structural analysis in order to obtain a more reliable design. Therefore, the present thesis applies the SFEM to incorporate these uncertainties in a typical structural member and panel applied in the aeronautical industry. The approach used was Perturbation Technique using Taylor series expansions to incorporate the uncertainties in the structural members typically used in aircraft. Natural frequencies, frequency response functions and modal analysis are studied in order to understand the consequences of these uncertainties in a beam with hat and \"Z\" section normally applied as an aircraft panel stiffener. The stiffeners were modeled considering the Timoshenko Theory in Matlab software. Sensitivity analyses were applied for the correct interpretations and trends of the top contributors. Also an aircraft panel was performed using Nastran and Matlab software together to incorporate these uncertainties on the modal analysis. Final conclusions and issues of implementation and applicability are performed using MCS as a validation model for the stiffeners and the total range variation for the aircraft panel.",
+  "subjects": [
+    "Análise modal",
+    "Método de elementos finitos",
+    "Método de Monte Carlo",
+    "Aeronaves",
+    "Painéis",
+    "Análise estrutural",
+    "Engenharia aeronáutica",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "05/06/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63065",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63065&origem=BDITA"
+}

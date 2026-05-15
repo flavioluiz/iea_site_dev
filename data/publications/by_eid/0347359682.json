@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-0347359682",
+  "eid": "2-s2.0-0347359682",
+  "doi": "10.1007/BF00691979",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Extension of the solution of Kepler's equation to high eccentricities",
+  "abstract": "The classic Lagrange's expansion of the solution E(e, M) of Kepler's equation in powers of eccentricity is extended to highly eccentric orbits, 0.6627 ... <e<1. The solution E(e, M) is developed in powers of (e-e*), where e* is a fixed value of the eccentricity. The coefficients of the expansion are given in terms of the derivatives of the Bessel functions Jn(ne). The expansion is convergent for values of the eccentricity such that |e-e*|<ρ(e*), where the radius of convergence ρ(e*) is a positive real number, which is calculated numerically. © 1994 Kluwer Academic Publishers.",
+  "authkeywords": [
+    "Kepler's equation",
+    "Lagrange's series"
+  ],
+  "year": "1994",
+  "date": "1994-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Celestial Mechanics Dynamical Astronomy",
+    "issn": "09232958",
+    "eissn": "15729478",
+    "volume": "58",
+    "issue": "3",
+    "pages": "297-308",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Mathematical Physics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 5,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0347359682&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081985",
+    "data_quality_score": 100
+  }
+}

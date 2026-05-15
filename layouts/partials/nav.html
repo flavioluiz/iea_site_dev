@@ -24,14 +24,22 @@
         {{ end }}
 
         {{ if .HasChildren }}
-          <ul class="dropdown-menu hidden lg:absolute relative lg:left-0 lg:top-full w-full lg:w-56 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
+          <ul class="dropdown-menu hidden lg:absolute relative lg:left-0 lg:top-full w-full lg:w-64 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
             {{ range .Children }}
-              <li>
-                <a href="{{ .URL | relLangURL }}"
-                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                  {{ .Name }}
-                </a>
-              </li>
+              {{ if .Params.separator }}
+                <li><hr class="my-1 border-gray-200"></li>
+              {{ else if .Params.category }}
+                <li class="px-4 pt-2 pb-1">
+                  <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ .Name }}</span>
+                </li>
+              {{ else }}
+                <li>
+                  <a href="{{ .URL | relLangURL }}"
+                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
             {{ end }}
           </ul>
         {{ end }}

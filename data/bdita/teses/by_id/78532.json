@@ -1,0 +1,29 @@
+{
+  "num_tese": "78532",
+  "type": "tese",
+  "title": "Hybrid calibration of aeronautical structures instrumented with strain?gages for load prediction",
+  "author": "Jason de Barros",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Instrumented structures with strain gauges are often used to measure loads on aircraft during flight tests. For this, it is necessary to calibrate the structure. Known calibration loads are applied along the structure while strain gauge readings are acquired. The purpose of calibration is to establish transfer functions to reconstruct, with minimal deviations, the calibration loads from the strain gauge readings. Once the transfer functions, or calibration equations, are established, they are used to estimate in-flight loads through strain gauge measurements. In the conventional calibration process, all input data used in the process are of an experimental nature, ie, they come from real loads applied to the structure. This work presents a hybrid calibration methodology. The method uses numerical predictions obtained by finite element analysis combined with experimental data from the real calibration. The finite element model corresponding to the structure is first adjusted based on a reduced amount of experimental data, such that the strain gauge bridge readings of the real structure can be estimated by the model. Once adjusted, the model is used in the calibration process. Similar to conventional calibration, the model is loaded at several points, and strains simulating strain gauge bridges are generated. The transfer functions obtained through the hybrid calibration are finally applied to the real structure to measure the in-flight loads. Compared with the conventional calibration method, purely based on experiments, the new calibration methodology requires fewer calibration cases, consequently making the calibration infrastructure simpler. The new calibration method was first applied to the horizontal tail of a commercial aircraft, which had been previously calibrated to conventional parameters. Thus, there was a reference for comparison of results, both for ground and flight tests. A good correlation was verified between the loads estimated by the conventional and the hybrid calibration. Currently, virtual tests have been gaining importance for the purpose of validations and demonstrations, and this work is in line with this new trend.",
+  "subjects": [
+    "Extensômetros",
+    "Calibraçăo",
+    "Cargas (forças)",
+    "Método de elementos finitos",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78532",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78532&origem=BDITA"
+}

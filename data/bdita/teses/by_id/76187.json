@@ -1,0 +1,33 @@
+{
+  "num_tese": "76187",
+  "type": "tese",
+  "title": "On the analysis of extrapolation methods to determine laminar burning velocity",
+  "author": "Gabriel Beividas Antunes",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Loreto Pizzuti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho, que teve como principal objetivo o estudo e avaliaçăo de diferentes técnicas de extrapolaçăo a serem aplicadas para a determinaçăo da velocidade de chama laminar, fez uso de quatro técnicas de extrapolaçăo da relaçăo entre o estiramento e a velocidade de chama, sendo elas (i) linear em relaçăo ao estiramento (LS), (ii) linear em relaçăo ŕ curvatura (LC) (iii) năo linear quasi-steady (NQS) e (iii) năo linear non-steady (NNS). Foram analisados experimentos de metano e 6 misturas de gases de síntese, em diferentes situaçőes de razăo de equivalęncia e pressăo inicial. Para cada mistura foram analisadas diferentes rodadas de experimentos e para cada uma delas todas as técnicas de extrapolaçăo sendo aplicadas. Os resultados de velocidade de chama laminar foram comparados com simulaçőes computacionais dos modelos GRI-MECH 3.0 e San Diego, sendo entăo determinado o valor do erro proporcional de cada uma das extrapolaçőes, além da flutuaçăo (absoluta e percentual) dos resultados obtidos para uma mesma mistura em diferentes rodadas. Após todos os resultados terem sido analisados, a conclusăo obtida foi que o método NQS apresentou resultados sistematicamente melhores. Porém sendo válido mencionar que todos os outros métodos também apresentaram bons resultados, tornando evidente que para misturas com Número de Lewis năo muito distante da unidade, ao aplicar-se corretamente os procedimentos para evitar efeitos de igniçăo e compressăo, independentemente do método de extrapolaçăo utilizado é possível obter-se resultados satisfatórios. Vale também ser mencionado que para algumas das misturas, foi observado um efeito bastante relevante de aumento da velocidade de chama por conta de instabilidades celulares que surgiram na frente de chama.",
+  "subjects": [
+    "Combustăo",
+    "Velocidade de queima",
+    "Extrapolaçăo",
+    "Misturas gasosas",
+    "Engenharia química"
+  ],
+  "defense_date": "12/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76187",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76187&origem=BDITA"
+}

@@ -1,0 +1,131 @@
+{
+  "publication_id": "2-s2.0-85206118863",
+  "eid": "2-s2.0-85206118863",
+  "doi": "10.1007/978-3-031-70722-3_19",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Climbing Robot Inspired by Inchworms: Adaptable for Tubular and Flat Surfaces with Multi-plane Work Capability",
+  "abstract": "© The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.In numerous industries, the execution of high-rise tasks necessitates robots equipped with climbing capabilities to reduce human risk exposure (HRE) and meet Environmental, Social, and Governance (ESG) metrics. In response to these demands and drawing inspiration from the climbing behavior observed in animals like inchworms, we have designed an innovative inchworm-like robot. Featuring a 6-degree-of-freedom (DOF) configuration and permanent magnetic adhesion feet, the robot’s adhesion is enhanced by the ability to toggle the magnets on and off through magnetic pack rotation. This versatile design enables the robot not only to ascend various surfaces but also to dynamically adjust its working plane-a crucial advantage for navigating tubular environments and scaling truss structures.",
+  "authkeywords": [
+    "Bio-inspired Robot",
+    "Inchworm",
+    "Pipe Climbing Robot",
+    "ROS",
+    "Wall Climbing Robot"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Networks and Systems",
+    "issn": "23673370",
+    "eissn": "23673389",
+    "volume": "1114 LNNS",
+    "issue": null,
+    "pages": "191-203",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Melotti, Saulo",
+      "scopus_id": "57203920919",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Domingues, Brenno",
+      "scopus_id": "59362692800",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kamitani, Eduardo",
+      "scopus_id": "59362692900",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pazda, Verônica",
+      "scopus_id": "59362946300",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Costa, Thamiris",
+      "scopus_id": "57216688464",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fusinato, Amanda",
+      "scopus_id": "58900357300",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Negri, Doglas",
+      "scopus_id": "57203915759",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Souza, Diego",
+      "scopus_id": "58669607900",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Secco, Ismael",
+      "scopus_id": "58900083600",
+      "affiliation": "122667346",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "122667346",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206118863&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.124903",
+    "data_quality_score": 90
+  }
+}

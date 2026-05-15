@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-69949170161",
+  "eid": "2-s2.0-69949170161",
+  "doi": "10.1115/GT2008-51187",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An object-oriented parallel finite-volume CFD code",
+  "abstract": "This paper concerns the parallelization and optimization of an in-house three-dimensional unstructured finite-volume computational fluid dynamics (CFD) code. It aims to highlight the use of programming techniques in order to speedup computation and minimize memory usage. The motivation for developing an in-house solver is that commercial codes are general and sometimes simulations are not in agreement with actual phenomena. Moreover, in-house models can be developed and easily integrated to the solver. The original code was initially written in Fortran 77 though the most recent added subroutines include Fortran 90 features. Due to language restrictions and the initial project objectives, issues such as memory usage minimization were not considered. The new code uses an object-oriented paradigm aiming to enhance code reuse and increase efficiency during application development. The parallel code is fully written in Fortran 90 using MPI and hence portable to different architectures. Numerical experiments of typical 3D cases, such as flat plate with uniform incoming flow and a converging-diverging supersonic nozzle, were carried out showing good parallel efficiency. The serial version of the ported code has shown a considerable reduction on the execution time compared to the original code. Convergent solutions agree with the solution of the original code. Copyright © 2008 by ASME.",
+  "authkeywords": null,
+  "year": "2008",
+  "date": "2008-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": "PART C",
+    "pages": "2569-2576",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Becker, Dulceneia",
+      "scopus_id": "14021133300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, Joao Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=69949170161&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.083727",
+    "data_quality_score": 80
+  }
+}

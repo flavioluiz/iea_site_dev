@@ -1,0 +1,24 @@
+{
+  "num_tg": "80091",
+  "type": "tg",
+  "title": "Using simulink® modelling for auto code generation complying with airborne software certification standards",
+  "author": "Rafael Modesto de Sousa Moura",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Johnny Cardoso Marques",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Model-based design can reduce the amount of rework during the development of a engineering project, by providing ease of maintenance and simulation. Simulink® is a simulation software that enables engineers to model entire aircraft systems and integrate them. These models can also be used to generate embedded code that can be loaded into aircraft simulators, being powerful tools during product development for verification and validation purposes. However, as safety is a major concern in the aviation industry, autocode generation for aeronautical uses has to follow a strict set of guidelines and standards regarding software certification. This work aims to study how compliance with those standards can be achieved, using a generic aircraft system model as a platform.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Simulaçăo computadorizada",
+    "Computaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80091",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80091&origem=BDITA"
+}

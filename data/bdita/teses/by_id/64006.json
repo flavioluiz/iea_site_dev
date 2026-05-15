@@ -1,0 +1,29 @@
+{
+  "num_tese": "64006",
+  "type": "tese",
+  "title": "Monitoramento de tráfego aéreo baseado em padrőes de trajetórias de aeronaves",
+  "author": "Ronald Annoni Junior",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Carlos Henrique Quartucci Forster",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo principal propor um método, baseado em técnicas de aprendizagem de máquina, para a detecçăo de trajetórias anômalas em relaçăo a um conjunto de trajetórias, com vista ŕ aplicaçăo em monitoramento de tráfego aéreo. Dadas as características do tráfego aéreo (regulamentaçăo, economia, segurança) existe uma certa regularidade nas trajetórias das aeronaves de tal forma que o seu comportamento conjunto pode ser modelado e eventuais desvios desse modelo podem ser detectados. A fim de comprovar esta hipótese, dados reais de tráfego aéreo da área de controle terminal de Săo Paulo (TMA-SP) foram obtidos e armazenados em um sistema gerenciador de banco de dados. Aplicaçőes de visualizaçăo foram implementadas para permitir um exame visual das trajetórias e um estimador de densidade por funçăo de núcleo multivariado foi utilizado para verificar as direçőes predominantes do tráfego. Um modelo de representaçăo das trajetórias baseado na Transformada Discreta de Fourier é proposto e utilizado na preparaçăo de um conjunto de trajetórias que alimentam um algoritmo de agrupamento. Este algoritmo foi capaz de identificar os procedimentos principais do tráfego, e as trajetórias rotuladas por este procedimento foram utilizadas por um método proposto de classificaçăo de pontos individuais de trajetórias que obteve ęxito na detecçăo de trajetórias anômalas, confirmando as hipóteses deste trabalho.",
+  "subjects": [
+    "Tráfego aéreo",
+    "Análise de trajetórias",
+    "Reconhecimento de padrőes",
+    "Anomalias",
+    "Algoritmos",
+    "Aprendizagem (inteligęncia artificial)"
+  ],
+  "defense_date": "19/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64006",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64006&origem=BDITA"
+}

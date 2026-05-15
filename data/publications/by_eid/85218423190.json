@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-85218423190",
+  "eid": "2-s2.0-85218423190",
+  "doi": "10.2514/1.G008087",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Reconfigurable Guidance Strategy for Compensating Actuator Faults in Spacecraft Formation Flying",
+  "abstract": "© 2024 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.The capacity to keep a desired topology with a requested accuracy plays a significant role in every spacecraft formation-flying operation. These missions can be terminated in case of an unexpected spacecraft fault, preventing the system from returning to its nominal configuration. This paper presents and tests a new recovery solution, called Reconfigurable Guidance Strategy (RGS), for the spacecraft formation-flying control problem subject to a look-inplace permanent thruster fault. The proposed method relies on autonomously and in real-time reconfiguring the guidance function to compensate for the loss of the spacecraft actuation system. The performance and cost of the RGS have been tested in a high-fidelity simulation scenario, the 42 spacecraft simulator developed by NASA Goddard Space Flight Center, taking into account orbital and rotational nonlinear coupled dynamics, high-order perturbation models, and actuator and sensor models. The numerical simulation results have demonstrated the proposed recovery strategy’s effectiveness, feasibility, and robustness.",
+  "authkeywords": [
+    "ActuatorsPosition Sensors",
+    "and Control",
+    "and Recovery",
+    "Autonomous Systems",
+    "Fault Detection",
+    "Guidance",
+    "High-fidelity Simulation",
+    "Isolation",
+    "Navigation",
+    "Numerical Simulation",
+    "Spacecraft Control",
+    "Spacecraft Formation Flying"
+  ],
+  "year": "2025",
+  "date": "2025-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Guidance Control and Dynamics",
+    "issn": "07315090",
+    "eissn": "15333884",
+    "volume": "48",
+    "issue": "2",
+    "pages": "282-296",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Willer G.",
+      "scopus_id": "55819853400",
+      "affiliation": "60279590",
+      "is_eam_professor": true,
+      "eam_professor_id": "willer-gomes-dos-santos"
+    },
+    {
+      "name": "Mason, Paul",
+      "scopus_id": "57224611261",
+      "affiliation": "60006337",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Stoneking, Eric T.",
+      "scopus_id": "6507915750",
+      "affiliation": "60006337",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sarli, Bruno V.",
+      "scopus_id": "55522841600",
+      "affiliation": "124643637",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "willer-gomes-dos-santos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218423190&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.116760",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85099551767",
+  "eid": "2-s2.0-85099551767",
+  "doi": "10.1109/ICARCV50220.2020.9305337",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Black-box Identification of a Robotic Flight Simulator",
+  "abstract": "© 2020 IEEE.Optimization of motion cueing algorithms is a relevant topic in flight simulation industry. To achieve this goal, a representative model of the motion platform is needed. With this intent, this work presents a black-box approach to identify a model for the SIVOR flight simulator. The model receives position/orientation inputs in Cartesian space and streams out accelerations/angular speeds measured on the pilots' head. A comprehensive experimental analysis is carried out using a dataset based on isolated positional and rotational inputs. A frequency domain analysis is performed to evaluate signal measurement noise and to determine the model structure. As a result, a combination of continuous time linear transfer functions were identified to represent each of the direct and cross relations mapped throughout the process.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-12-13",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "16th IEEE International Conference on Control Automation Robotics and Vision Icarcv 2020",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1131-1136",
+    "article_number": "9305337"
+  },
+  "authors": [
+    {
+      "name": "Matheus, A. C.",
+      "scopus_id": "57205543905",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Oliveira, W. R.",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani",
+    "wesley-rodrigues-de-oliveira"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Vision and Pattern Recognition",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099551767&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049266",
+    "data_quality_score": 90
+  }
+}

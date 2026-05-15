@@ -2,7 +2,6 @@
 title: "Airton Nabarrete"
 layout: professor
 professor_id: "airton-nabarrete"
-type: docentes
+departamento: "iea-e"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

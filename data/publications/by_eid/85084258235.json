@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-85084258235",
+  "eid": "2-s2.0-85084258235",
+  "doi": "10.1007/s40430-020-02352-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical evaluation of effects of the isolator height and the leading-edge bluntness on a scramjet inlet",
+  "abstract": "© 2020, The Brazilian Society of Mechanical Sciences and Engineering.Air-breathing hypersonic vehicles can be powered by scramjet (supersonic combustion ramjet) engines, whose inlet requires blunt leading edges in order to overcome the high heat fluxes that are inherent of hypersonic flights. Thus, this work has the purpose of evaluating, through detailed two-dimensional computational fluid dynamics analysis, the influence of the leading-edge bluntness and isolator height on the airflow of a scramjet intake. Three radii have been analyzed for the forebody and cowl leading edges: sharp, 0.5 and 1.0 mm. Moreover, two different isolator heights were varied: 15 and 20 mm. Fixed temperatures of 300 K and 1300 K were considered along the hypersonic vehicle wall. The static temperature, pressure, and Mach number contour are part of the analysis, as well as the Stanton number and the adiabatic kinetic efficiency of the scramjet. It was evidenced that both leading-edge bluntness and isolator height performed great influence on the intake airflow structure. Results showed that the isolator height had a major effect on the flow separation at the isolator entrance yielding a recirculation zone that increases with the isolator height. Furthermore, higher Stanton numbers and temperature along the isolator were found for the shorter isolator height due to stronger shock waves and higher frequency of shock-wave train. The leading-edge bluntness, in this analysis, was taken as a parameter to reduce the heat flux at the stagnation point of leading edges. However, a decrease in the adiabatic kinetic efficiency was observed when the leading-edge radius is increased. Moreover, blunt leading edges promoted a decrease in Stanton number along the scramjet intake walls and also a decrease in average temperatures throughout the isolator.",
+  "authkeywords": [
+    "Bluntness",
+    "Hypersonic",
+    "Inlet",
+    "Scramjet"
+  ],
+  "year": "2020",
+  "date": "2020-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "42",
+    "issue": "6",
+    "pages": null,
+    "article_number": "275"
+  },
+  "authors": [
+    {
+      "name": "de Siqueira, João V.M.B.",
+      "scopus_id": "57216673676",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rosa, Mauricio A.P.",
+      "scopus_id": "55772042600",
+      "affiliation": "101560273",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657-101560273",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 14,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084258235&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053120",
+    "data_quality_score": 100
+  }
+}

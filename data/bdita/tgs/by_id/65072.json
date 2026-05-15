@@ -1,0 +1,28 @@
+{
+  "num_tg": "65072",
+  "type": "tg",
+  "title": "A new approach for high order aerodynamic simulations on unstructured grids",
+  "author": "Luís Gustavo Leandro de Paula",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "An assessment of two numerical formulations for high-order spacial reconstruction on unstructured triangular grids is performed in order to develop a hybrid scheme. The Weighted Essentially Non-Oscillatory (WENO) and the Spectral Finite Volume (SFV) methods are considered for the spatial discretization of the 2-D Euler equations. High-order schemes are commonly applied for the analysis of complex flows in order to reduce the number of mesh elements one would otherwise need if using traditional second-order schemes. Furthermore, high-order methods present higher resolution for capturing shock waves and contact discontinuities, which appear in the compressible aerodynamic flows analyzed in this study. Several test cases discussed in the literature are addressed here to assess the resolution properties, effective order of accuracy and performance of the spatial discretization schemes. The study compares, in particular, results for linear and quadratic reconstructions. The test cases include problems with strong shock waves and other discontinuities which provide a comparative assessment of the resolution capability of the tested schemes for typical aerospace flows. In order to perform such comparisons different limiter formulations are considered. A new limiter formulation is introduced that includes the use of both the WENO and SFV discretization methods for reconstruction, depending on the flow characteristics, to provide a continuous high-order solution field, regardless of discontinuities. It is hoped that the results of the present effort could provide valuable guidelines for future developments regarding high-order methods for unstructured meshes.",
+  "subjects": [
+    "Escoamento incompressível",
+    "Malhas năo-estruturadas (Matemática)",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65072",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65072&origem=BDITA"
+}

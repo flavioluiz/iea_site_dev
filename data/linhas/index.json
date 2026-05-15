@@ -1,0 +1,4332 @@
+{
+  "aerodinamica-e-aeroacustica": {
+    "id": "aerodinamica-e-aeroacustica",
+    "total_publicacoes": 105,
+    "total_docentes": 13,
+    "docentes": [
+      "airton-nabarrete",
+      "andre-fernando-c-silva",
+      "andre-v-g-cavalieri",
+      "antonio-b-guimaraes-neto",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "mauricio-v-donadon",
+      "ney-rafael-secco",
+      "roberto-gil-annes-da-silva",
+      "rodrigo-costa-moura",
+      "tiago-barbosa-de-araujo",
+      "vinicius-malatesta",
+      "vitor-gabriel-kleine"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105020019190",
+        "eid": "105020019190",
+        "year": "2025",
+        "title": "Jet-noise reduction via streak generation in the nozzle boundary layer"
+      },
+      {
+        "publication_id": "2-s2.0-105013059954",
+        "eid": "105013059954",
+        "year": "2025",
+        "title": "Linear reactive control of jet installation noise"
+      },
+      {
+        "publication_id": "2-s2.0-105011408313",
+        "eid": "105011408313",
+        "year": "2025",
+        "title": "A numerical investigation of airfoil tonal noise reduction by roughness elements"
+      },
+      {
+        "publication_id": "2-s2.0-105011370460",
+        "eid": "105011370460",
+        "year": "2025",
+        "title": "Calculation of duct acoustics with the parabolized stability equations"
+      },
+      {
+        "publication_id": "2-s2.0-85209573944",
+        "eid": "85209573944",
+        "year": "2025",
+        "title": "Wave reflections and resonance in a Mach 0.9 turbulent jet"
+      },
+      {
+        "publication_id": "2-s2.0-105017961785",
+        "eid": "105017961785",
+        "year": "2025",
+        "title": "Aerodynamic design and analysis of an interchangeable aircraft model for propeller integration and aeropropulsive studies"
+      },
+      {
+        "publication_id": "2-s2.0-105008517097",
+        "eid": "105008517097",
+        "year": "2025",
+        "title": "Aircraft dynamic stability derivatives via steady-state CFD"
+      },
+      {
+        "publication_id": "2-s2.0-105005149225",
+        "eid": "105005149225",
+        "year": "2025",
+        "title": "Exergy-based assessment of airfoil drag"
+      },
+      {
+        "publication_id": "2-s2.0-105018126512",
+        "eid": "105018126512",
+        "year": "2025",
+        "title": "Nonlinear Control Laws Design for Generic Fighter Jet in Transonic Regime"
+      },
+      {
+        "publication_id": "2-s2.0-105018451177",
+        "eid": "105018451177",
+        "year": "2025",
+        "title": "Experimental Investigation of Simulated Horn Ice Shapes on Small-Scale Propeller Performance Degradation"
+      },
+      {
+        "publication_id": "2-s2.0-105018308366",
+        "eid": "105018308366",
+        "year": "2025",
+        "title": "Characterization of a Vortex Wake Model"
+      },
+      {
+        "publication_id": "2-s2.0-105018088720",
+        "eid": "105018088720",
+        "year": "2025",
+        "title": "Parametric Study of Propeller-Wing Aerodynamic Interaction Using VSPAERO for Conceptual Aircraft Design"
+      },
+      {
+        "publication_id": "2-s2.0-85200216221",
+        "eid": "85200216221",
+        "year": "2024",
+        "title": "Guided-jet waves"
+      },
+      {
+        "publication_id": "2-s2.0-85190556239",
+        "eid": "85190556239",
+        "year": "2024",
+        "title": "Modal-based generalised quasilinear approximations for turbulent plane Couette flow"
+      },
+      {
+        "publication_id": "2-s2.0-85189831123",
+        "eid": "85189831123",
+        "year": "2024",
+        "title": "Resolvent model for aeroacoustics of trailing edge noise"
+      },
+      {
+        "publication_id": "2-s2.0-85198447466",
+        "eid": "85198447466",
+        "year": "2024",
+        "title": "A Nonlinear Analysis of an Aeroelastic Three Degrees of Freedom Model"
+      },
+      {
+        "publication_id": "2-s2.0-105019486959",
+        "eid": "105019486959",
+        "year": "2024",
+        "title": "COMPARISON BETWEEN COMPUTATIONAL AND EXPERIMENTAL NON-STATIONARY PRESSURE DISTRIBUTION ON A PITCH-OSCILLATING WING"
+      },
+      {
+        "publication_id": "2-s2.0-85164260072",
+        "eid": "85164260072",
+        "year": "2023",
+        "title": "On the emergence of secondary tones in airfoil noise"
+      },
+      {
+        "publication_id": "2-s2.0-85175571338",
+        "eid": "85175571338",
+        "year": "2023",
+        "title": "A second-order resolvent formulation for the analysis of turbulent flow structures"
+      },
+      {
+        "publication_id": "2-s2.0-85169547611",
+        "eid": "85169547611",
+        "year": "2023",
+        "title": "Wing’s aerodynamic characteristics due to distributed propulsion over the wingspan"
+      },
+      {
+        "publication_id": "2-s2.0-85122574950",
+        "eid": "85122574950",
+        "year": "2022",
+        "title": "Transition to chaos in a reduced-order model of a shear layer"
+      },
+      {
+        "publication_id": "2-s2.0-85119060890",
+        "eid": "85119060890",
+        "year": "2022",
+        "title": "Absolute instability in shock-containing jets"
+      },
+      {
+        "publication_id": "2-s2.0-85159605668",
+        "eid": "85159605668",
+        "year": "2022",
+        "title": "STUDY OF EFFECTS ON THE WING’S AERODYNAMIC CHARACTERISTICS DUE TO DISTRIBUTED PROPULSION OVER WINGSPAN"
+      },
+      {
+        "publication_id": "2-s2.0-85121511270",
+        "eid": "85121511270",
+        "year": "2021",
+        "title": "Real-time supersonic jet noise predictions from near-field sensors with a wavepacket model"
+      },
+      {
+        "publication_id": "2-s2.0-85116051973",
+        "eid": "85116051973",
+        "year": "2021",
+        "title": "Spanwise-coherent hydrodynamic waves around flat plates and airfoils"
+      },
+      {
+        "publication_id": "2-s2.0-85111428891",
+        "eid": "85111428891",
+        "year": "2021",
+        "title": "Nozzle dynamics and wavepackets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85105390777",
+        "eid": "85105390777",
+        "year": "2021",
+        "title": "Wavepacket modelling of broadband shock-associated noise in supersonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-85105322816",
+        "eid": "85105322816",
+        "year": "2021",
+        "title": "Numerical and experimental evaluation of hydrodynamic bearings applied to a Jeffcott test bench"
+      },
+      {
+        "publication_id": "2-s2.0-85088387706",
+        "eid": "85088387706",
+        "year": "2021",
+        "title": "On Comparison Between 0–1 Test for Chaos and Attractor Reconstruction of an Aeroelastic System"
+      },
+      {
+        "publication_id": "2-s2.0-85089533954",
+        "eid": "85089533954",
+        "year": "2020",
+        "title": "Resolvent modelling of near-wall coherent structures in turbulent channel flow"
+      },
+      {
+        "publication_id": "2-s2.0-85089455496",
+        "eid": "85089455496",
+        "year": "2020",
+        "title": "Ambiguity in mean-flow-based linear analysis"
+      },
+      {
+        "publication_id": "2-s2.0-85105055633",
+        "eid": "85105055633",
+        "year": "2020",
+        "title": "Partitioned finite element method for structured discretization with mixed boundary conditions"
+      },
+      {
+        "publication_id": "2-s2.0-85092931109",
+        "eid": "85092931109",
+        "year": "2020",
+        "title": "Coupled framework for limit-cycle oscillations modeling based on leading-edge vortex shedding"
+      },
+      {
+        "publication_id": "2-s2.0-85077329853",
+        "eid": "85077329853",
+        "year": "2019",
+        "title": "On the modelling of wavepacket scattering noise with coherence effects"
+      },
+      {
+        "publication_id": "2-s2.0-85070509811",
+        "eid": "85070509811",
+        "year": "2019",
+        "title": "Spatial stability analysis of subsonic corrugated jets"
+      },
+      {
+        "publication_id": "2-s2.0-85070589072",
+        "eid": "85070589072",
+        "year": "2019",
+        "title": "Two-point wavepacket modelling of jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-85068745718",
+        "eid": "85068745718",
+        "year": "2019",
+        "title": "Acoustic radiation of subsonic jets in the vicinity of an inclined flat plate"
+      },
+      {
+        "publication_id": "2-s2.0-85063544778",
+        "eid": "85063544778",
+        "year": "2019",
+        "title": "Acoustic modes in jet and wake stability"
+      },
+      {
+        "publication_id": "2-s2.0-85095978399",
+        "eid": "85095978399",
+        "year": "2019",
+        "title": "Real-time estimation in a turbulent jet using multiple-input-multiple-output transfer functions"
+      },
+      {
+        "publication_id": "2-s2.0-85095978351",
+        "eid": "85095978351",
+        "year": "2019",
+        "title": "Dynamics of turbulent boundary layers exciting wavepackets in subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-85095977461",
+        "eid": "85095977461",
+        "year": "2019",
+        "title": "Resolvent-based analysis of streaks in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85095975671",
+        "eid": "85095975671",
+        "year": "2019",
+        "title": "A parabolised stability equation based broadband shock-associated noise model"
+      },
+      {
+        "publication_id": "2-s2.0-85095972716",
+        "eid": "85095972716",
+        "year": "2019",
+        "title": "Acoustic propagation in ducts with axially varying parameters using the parabolized stability equations"
+      },
+      {
+        "publication_id": "2-s2.0-85095971892",
+        "eid": "85095971892",
+        "year": "2019",
+        "title": "Resolvent analysis applied to acoustic analogies"
+      },
+      {
+        "publication_id": "2-s2.0-85095971629",
+        "eid": "85095971629",
+        "year": "2019",
+        "title": "Acoustic scattering by laminated plates with viscoelastic layers"
+      },
+      {
+        "publication_id": "2-s2.0-85095969978",
+        "eid": "85095969978",
+        "year": "2019",
+        "title": "Streaks and coherent structures in jets from round and serrated nozzles"
+      },
+      {
+        "publication_id": "2-s2.0-85095967357",
+        "eid": "85095967357",
+        "year": "2019",
+        "title": "The modelling of jet-plate interaction noise in the presence of co-flow"
+      },
+      {
+        "publication_id": "2-s2.0-85084016108",
+        "eid": "85084016108",
+        "year": "2019",
+        "title": "Experimental study of hydroacoustics of flexible trailing edge"
+      },
+      {
+        "publication_id": "2-s2.0-85074750679",
+        "eid": "85074750679",
+        "year": "2019",
+        "title": "Effects of structural damping on acoustic scattering by flexible plates"
+      },
+      {
+        "publication_id": "2-s2.0-85084245001",
+        "eid": "85084245001",
+        "year": "2019",
+        "title": "Application of 0-1 test for chaos in wind tunnel aeroelastic experiments of an aluminum flat plate"
+      },
+      {
+        "publication_id": "2-s2.0-85050215488",
+        "eid": "85050215488",
+        "year": "2018",
+        "title": "A fast numerical framework to compute acoustic scattering by poroelastic plates of arbitrary geometry"
+      },
+      {
+        "publication_id": "2-s2.0-85052219239",
+        "eid": "85052219239",
+        "year": "2018",
+        "title": "Jet-flap interaction tones"
+      },
+      {
+        "publication_id": "2-s2.0-85050633975",
+        "eid": "85050633975",
+        "year": "2018",
+        "title": "Importance of the nozzle-exit boundary-layer state in subsonic turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85053142842",
+        "eid": "85053142842",
+        "year": "2018",
+        "title": "Acoustic scattering by finite composite plates"
+      },
+      {
+        "publication_id": "2-s2.0-85060443174",
+        "eid": "85060443174",
+        "year": "2018",
+        "title": "Wavepackets in turbulent flow over a NACA 4412 airfoil"
+      },
+      {
+        "publication_id": "2-s2.0-85060434030",
+        "eid": "85060434030",
+        "year": "2018",
+        "title": "Acoustic modes and global instabilities in wakes and jets"
+      },
+      {
+        "publication_id": "2-s2.0-85060432285",
+        "eid": "85060432285",
+        "year": "2018",
+        "title": "Structural damping effects on the acoustic scattering by elastic plates"
+      },
+      {
+        "publication_id": "2-s2.0-85057736648",
+        "eid": "85057736648",
+        "year": "2018",
+        "title": "On nonlinear dynamics behavior of an aeroelastic wing subjected to an unsteady flow"
+      },
+      {
+        "publication_id": "2-s2.0-85060488263",
+        "eid": "85060488263",
+        "year": "2018",
+        "title": "Evaluation of transonic buffeting onset boundary estimated by trailing edge pressure divergence and RMS data of wing vibration"
+      },
+      {
+        "publication_id": "2-s2.0-85030675607",
+        "eid": "85030675607",
+        "year": "2017",
+        "title": "High-frequency wavepackets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85026373444",
+        "eid": "85026373444",
+        "year": "2017",
+        "title": "Wavepackets and trapped acoustic modes in a turbulent jet: Coherent structure eduction and global stability"
+      },
+      {
+        "publication_id": "2-s2.0-85026355770",
+        "eid": "85026355770",
+        "year": "2017",
+        "title": "Acoustic resonance in the potential core of subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-85019769784",
+        "eid": "85019769784",
+        "year": "2017",
+        "title": "Real-time modelling of wavepackets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85006946054",
+        "eid": "85006946054",
+        "year": "2017",
+        "title": "A model problem for sound radiation by an installed jet"
+      },
+      {
+        "publication_id": "2-s2.0-85027948654",
+        "eid": "85027948654",
+        "year": "2017",
+        "title": "Sensitivity of wavepackets in jets to nonlinear effects: The role of the critical layer"
+      },
+      {
+        "publication_id": "2-s2.0-85048600810",
+        "eid": "85048600810",
+        "year": "2017",
+        "title": "Response and stability of the remotely-piloted, constrained x-hale aircraft in wind tunnel"
+      },
+      {
+        "publication_id": "2-s2.0-85014756204",
+        "eid": "85014756204",
+        "year": "2017",
+        "title": "Artificial neural networks to predict aerodynamic coefficients of transport airplanes"
+      },
+      {
+        "publication_id": "2-s2.0-85006966578",
+        "eid": "85006966578",
+        "year": "2016",
+        "title": "Scattering of turbulent-jet wavepackets by a swept trailing edge"
+      },
+      {
+        "publication_id": "2-s2.0-84968662183",
+        "eid": "84968662183",
+        "year": "2016",
+        "title": "Numerical solution of acoustic scattering by finite perforated elastic plates"
+      },
+      {
+        "publication_id": "2-s2.0-85017143576",
+        "eid": "85017143576",
+        "year": "2016",
+        "title": "Jet-noise control by fluidic injection from a rotating plug: Linear and nonlinear sound-sourceÂ mechanisms"
+      },
+      {
+        "publication_id": "2-s2.0-85010312023",
+        "eid": "85010312023",
+        "year": "2016",
+        "title": "Modeling by interconnection and control by damping injection of a fluid-structure system with non-collocated actuators and sensors"
+      },
+      {
+        "publication_id": "2-s2.0-84971250040",
+        "eid": "84971250040",
+        "year": "2015",
+        "title": "Numerical assessment of jet-plate interaction with and without sweep"
+      },
+      {
+        "publication_id": "2-s2.0-84971220818",
+        "eid": "84971220818",
+        "year": "2015",
+        "title": "On filtering coherent structures in jets and its impact on jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-84943819608",
+        "eid": "84943819608",
+        "year": "2015",
+        "title": "Higher-order surface treatment for discontinuous Galerkin methods with applications to aerodynamics"
+      },
+      {
+        "publication_id": "2-s2.0-84980350897",
+        "eid": "84980350897",
+        "year": "2015",
+        "title": "Artificial neural networks applied to airplane design"
+      },
+      {
+        "publication_id": "2-s2.0-84903901050",
+        "eid": "84903901050",
+        "year": "2014",
+        "title": "Scattering of wavepackets by a flat plate in the vicinity of a turbulent jet"
+      },
+      {
+        "publication_id": "2-s2.0-84903882394",
+        "eid": "84903882394",
+        "year": "2014",
+        "title": "Coherence decay and its impact on sound radiation by wavepackets"
+      },
+      {
+        "publication_id": "2-s2.0-84903197244",
+        "eid": "84903197244",
+        "year": "2014",
+        "title": "Control-point-placement method for the aerodynamic correction of the vortex- and the doublet-lattice methods"
+      },
+      {
+        "publication_id": "2-s2.0-84883731093",
+        "eid": "84883731093",
+        "year": "2013",
+        "title": "Wavepacket eduction in turbulent jets based on eigenmode decomposition of PIV data"
+      },
+      {
+        "publication_id": "2-s2.0-84883725740",
+        "eid": "84883725740",
+        "year": "2013",
+        "title": "Near-field wavepackets and the far-field sound of a subsonic jet"
+      },
+      {
+        "publication_id": "2-s2.0-84883668839",
+        "eid": "84883668839",
+        "year": "2013",
+        "title": "Jet-noise control by fluidic injection from a rotating plug: Linear and non-linear sound source mechanisms"
+      },
+      {
+        "publication_id": "2-s2.0-84878528632",
+        "eid": "84878528632",
+        "year": "2013",
+        "title": "Farfield filtering and source imaging of subsonic jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-84886279816",
+        "eid": "84886279816",
+        "year": "2013",
+        "title": "Wavepackets in the velocity field of turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-84883737002",
+        "eid": "84883737002",
+        "year": "2013",
+        "title": "Nonlinear and linear noise source mechanisms in subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-84883705032",
+        "eid": "84883705032",
+        "year": "2013",
+        "title": "The effect of base-flow changes in Kelvin-Helmholtz instability"
+      },
+      {
+        "publication_id": "2-s2.0-84865507799",
+        "eid": "84865507799",
+        "year": "2012",
+        "title": "Axisymmetric superdirectivity in subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-85088718604",
+        "eid": "85088718604",
+        "year": "2012",
+        "title": "Wavepackets in the velocity field of turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85088341010",
+        "eid": "85088341010",
+        "year": "2012",
+        "title": "Low-speed jet dynamics and sound radiation"
+      },
+      {
+        "publication_id": "2-s2.0-85086952000",
+        "eid": "85086952000",
+        "year": "2012",
+        "title": "Scattering of wavepackets by a flat plate in the vicinity of a turbulent jet"
+      },
+      {
+        "publication_id": "2-s2.0-84872233609",
+        "eid": "84872233609",
+        "year": "2012",
+        "title": "Educing the source mechanism associated with downstream radiation in subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-84906355929",
+        "eid": "84906355929",
+        "year": "2012",
+        "title": "Dynamic analysis of structures subjected to parametric and nonparametric uncertainties"
+      },
+      {
+        "publication_id": "2-s2.0-84906342757",
+        "eid": "84906342757",
+        "year": "2012",
+        "title": "Structure-borne energy transmission analysis including aircraft fuselage dampers"
+      },
+      {
+        "publication_id": "2-s2.0-84883107282",
+        "eid": "84883107282",
+        "year": "2011",
+        "title": "Intermittency of the azimuthal components of the sound radiated by subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-84883081471",
+        "eid": "84883081471",
+        "year": "2011",
+        "title": "Parabolized stability equation models for predicting large-scale mixing noise of turbulent round jets"
+      },
+      {
+        "publication_id": "2-s2.0-84883076005",
+        "eid": "84883076005",
+        "year": "2011",
+        "title": "Fareld ltering of subsonic jet noise: Mach and Temperature effects"
+      },
+      {
+        "publication_id": "2-s2.0-79957949189",
+        "eid": "79957949189",
+        "year": "2011",
+        "title": "Using large eddy simulation to explore sound-source mechanisms in jets"
+      },
+      {
+        "publication_id": "2-s2.0-85086491758",
+        "eid": "85086491758",
+        "year": "2011",
+        "title": "A study of the response of a round jet to pulsed fluidic actuation"
+      },
+      {
+        "publication_id": "2-s2.0-85085400753",
+        "eid": "85085400753",
+        "year": "2011",
+        "title": "Axisymmetric superdirectivity in subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-79958151948",
+        "eid": "79958151948",
+        "year": "2011",
+        "title": "Jittering wave-packet models for subsonic jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-79955128995",
+        "eid": "79955128995",
+        "year": "2010",
+        "title": "Reprint of: Using les to explore sound-source mechanisms in jets"
+      },
+      {
+        "publication_id": "2-s2.0-78649643009",
+        "eid": "78649643009",
+        "year": "2010",
+        "title": "Using LES to explore sound-source mechanisms in jets"
+      },
+      {
+        "publication_id": "2-s2.0-78649620062",
+        "eid": "78649620062",
+        "year": "2010",
+        "title": "Farfield filtering and source imaging for the study of jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-78649584678",
+        "eid": "78649584678",
+        "year": "2010",
+        "title": "Jittering wave-packet models for subsonic jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-78649563151",
+        "eid": "78649563151",
+        "year": "2010",
+        "title": "Intermittent sound generation in a free-shear flow"
+      },
+      {
+        "publication_id": "2-s2.0-78649610143",
+        "eid": "78649610143",
+        "year": "2010",
+        "title": "Comparative analysis of turbulence models for slat noise source calculations employing unstructured meshes"
+      }
+    ]
+  },
+  "estabilidade-escoamentos": {
+    "id": "estabilidade-escoamentos",
+    "total_publicacoes": 52,
+    "total_docentes": 6,
+    "docentes": [
+      "andre-fernando-c-silva",
+      "andre-v-g-cavalieri",
+      "cristiane-aparecida-martins",
+      "pedro-teixeira-lacava",
+      "rodrigo-costa-moura",
+      "vinicius-malatesta"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105015151236",
+        "eid": "105015151236",
+        "year": "2025",
+        "title": "On the receptivity of a NACA0008 airfoil to high free-stream turbulence levels"
+      },
+      {
+        "publication_id": "2-s2.0-105009928264",
+        "eid": "105009928264",
+        "year": "2025",
+        "title": "Turbulence suppression in plane Couette flow using reduced-order models"
+      },
+      {
+        "publication_id": "2-s2.0-85205075347",
+        "eid": "85205075347",
+        "year": "2024",
+        "title": "Reactive experimental control of turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85201917955",
+        "eid": "85201917955",
+        "year": "2024",
+        "title": "On the low-frequency dynamics of turbulent separation bubbles"
+      },
+      {
+        "publication_id": "2-s2.0-85190556239",
+        "eid": "85190556239",
+        "year": "2024",
+        "title": "Modal-based generalised quasilinear approximations for turbulent plane Couette flow"
+      },
+      {
+        "publication_id": "2-s2.0-85195056445",
+        "eid": "85195056445",
+        "year": "2024",
+        "title": "Role of streak secondary instabilities on free-stream turbulence-induced transition"
+      },
+      {
+        "publication_id": "2-s2.0-85192671697",
+        "eid": "85192671697",
+        "year": "2024",
+        "title": "Direct numerical simulations of an airfoil undergoing dynamic stall at different background disturbance levels"
+      },
+      {
+        "publication_id": "2-s2.0-85188451798",
+        "eid": "85188451798",
+        "year": "2024",
+        "title": "Multi-scale invariant solutions in plane Couette flow: a reduced-order model approach"
+      },
+      {
+        "publication_id": "2-s2.0-85183918235",
+        "eid": "85183918235",
+        "year": "2024",
+        "title": "Linear and nonlinear receptivity mechanisms in boundary layers subject to free-stream turbulence"
+      },
+      {
+        "publication_id": "2-s2.0-85192327088",
+        "eid": "85192327088",
+        "year": "2024",
+        "title": "Joint-mode diffusion analysis of spectral/hp continuous Galerkin methods: Towards superior dissipation estimates for implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85187800854",
+        "eid": "85187800854",
+        "year": "2024",
+        "title": "Joint-mode diffusion analysis of discontinuous Galerkin methods: Towards superior dissipation estimates for nonlinear problems and implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85141338834",
+        "eid": "85141338834",
+        "year": "2022",
+        "title": "Improved convergence of the spectral proper orthogonal decomposition through time shifting"
+      },
+      {
+        "publication_id": "2-s2.0-85128492844",
+        "eid": "85128492844",
+        "year": "2022",
+        "title": "Self-similar mechanisms in wall turbulence studied using resolvent analysis"
+      },
+      {
+        "publication_id": "2-s2.0-85119060890",
+        "eid": "85119060890",
+        "year": "2022",
+        "title": "Absolute instability in shock-containing jets"
+      },
+      {
+        "publication_id": "2-s2.0-85138467013",
+        "eid": "85138467013",
+        "year": "2022",
+        "title": "Spectral/hp element methods' linear mechanism of (apparent) energy transfer in Fourier space: Insights into dispersion analysis for implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85184679750",
+        "eid": "85184679750",
+        "year": "2021",
+        "title": "The effect of streaks on the instability of jets"
+      },
+      {
+        "publication_id": "2-s2.0-85111428891",
+        "eid": "85111428891",
+        "year": "2021",
+        "title": "Nozzle dynamics and wavepackets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85087068456",
+        "eid": "85087068456",
+        "year": "2020",
+        "title": "Actuator and sensor placement for closed-loop control of convective instabilities"
+      },
+      {
+        "publication_id": "2-s2.0-85089533954",
+        "eid": "85089533954",
+        "year": "2020",
+        "title": "Resolvent modelling of near-wall coherent structures in turbulent channel flow"
+      },
+      {
+        "publication_id": "2-s2.0-85184703445",
+        "eid": "85184703445",
+        "year": "2020",
+        "title": "The colour of forcing statistics in resolvent analyses of turbulent channel flows"
+      },
+      {
+        "publication_id": "2-s2.0-85184670234",
+        "eid": "85184670234",
+        "year": "2020",
+        "title": "Spectral proper orthogonal decomposition and resolvent analysis of near-wall coherent structures in turbulent pipe flows"
+      },
+      {
+        "publication_id": "2-s2.0-85183526033",
+        "eid": "85183526033",
+        "year": "2020",
+        "title": "Dynamics of shear-layer coherent structures in a forced wall-bounded flow"
+      },
+      {
+        "publication_id": "2-s2.0-85106453351",
+        "eid": "85106453351",
+        "year": "2020",
+        "title": "Forcing statistics in resolvent analysis: Application in minimal turbulent Couette flow"
+      },
+      {
+        "publication_id": "2-s2.0-85089353881",
+        "eid": "85089353881",
+        "year": "2020",
+        "title": "Numerical simulation of the boundary layer control on the NACA 0015 airfoil through vortex generators"
+      },
+      {
+        "publication_id": "2-s2.0-85079066030",
+        "eid": "85079066030",
+        "year": "2020",
+        "title": "Spatial eigenanalysis of spectral/hp continuous Galerkin schemes and their stabilisation via DG-mimicking spectral vanishing viscosity for high Reynolds number flows"
+      },
+      {
+        "publication_id": "2-s2.0-85070509811",
+        "eid": "85070509811",
+        "year": "2019",
+        "title": "Spatial stability analysis of subsonic corrugated jets"
+      },
+      {
+        "publication_id": "2-s2.0-85183488985",
+        "eid": "85183488985",
+        "year": "2019",
+        "title": "Large-scale streaky structures in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85063544778",
+        "eid": "85063544778",
+        "year": "2019",
+        "title": "Acoustic modes in jet and wake stability"
+      },
+      {
+        "publication_id": "2-s2.0-85061456245",
+        "eid": "85061456245",
+        "year": "2019",
+        "title": "Transfer functions for flow predictions in wall-bounded turbulence"
+      },
+      {
+        "publication_id": "2-s2.0-85100312848",
+        "eid": "85100312848",
+        "year": "2019",
+        "title": "A realizable data-driven approach to delay bypass transition with control theory"
+      },
+      {
+        "publication_id": "2-s2.0-85093779770",
+        "eid": "85093779770",
+        "year": "2019",
+        "title": "On the role of actuation for the control of streaky structures in boundary layers"
+      },
+      {
+        "publication_id": "2-s2.0-85053447785",
+        "eid": "85053447785",
+        "year": "2018",
+        "title": "Closed-loop control of a free shear flow: a framework using the parabolized stability equations"
+      },
+      {
+        "publication_id": "2-s2.0-85049125322",
+        "eid": "85049125322",
+        "year": "2018",
+        "title": "On the wave-cancelling nature of boundary layer flow control"
+      },
+      {
+        "publication_id": "2-s2.0-85050633975",
+        "eid": "85050633975",
+        "year": "2018",
+        "title": "Importance of the nozzle-exit boundary-layer state in subsonic turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85060493114",
+        "eid": "85060493114",
+        "year": "2018",
+        "title": "On the wave-cancelling nature of boundary layer transition control"
+      },
+      {
+        "publication_id": "2-s2.0-85060468743",
+        "eid": "85060468743",
+        "year": "2018",
+        "title": "Actuator and sensor placement for closed-loop control of convective instabilities"
+      },
+      {
+        "publication_id": "2-s2.0-85060468653",
+        "eid": "85060468653",
+        "year": "2018",
+        "title": "Control of streaky disturbances in the boundary layer over a flat plate"
+      },
+      {
+        "publication_id": "2-s2.0-85030677310",
+        "eid": "85030677310",
+        "year": "2018",
+        "title": "Spatial eigensolution analysis of discontinuous Galerkin schemes with practical insights for under-resolved computations and implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85040240868",
+        "eid": "85040240868",
+        "year": "2018",
+        "title": "Spatial eigensolution analysis of energy-stable flux reconstruction schemes and influence of the numerical flux on accuracy and robustness"
+      },
+      {
+        "publication_id": "2-s2.0-85026373444",
+        "eid": "85026373444",
+        "year": "2017",
+        "title": "Wavepackets and trapped acoustic modes in a turbulent jet: Coherent structure eduction and global stability"
+      },
+      {
+        "publication_id": "2-s2.0-85026355770",
+        "eid": "85026355770",
+        "year": "2017",
+        "title": "Acoustic resonance in the potential core of subsonic jets"
+      },
+      {
+        "publication_id": "2-s2.0-85019769784",
+        "eid": "85019769784",
+        "year": "2017",
+        "title": "Real-time modelling of wavepackets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85027948654",
+        "eid": "85027948654",
+        "year": "2017",
+        "title": "Sensitivity of wavepackets in jets to nonlinear effects: The role of the critical layer"
+      },
+      {
+        "publication_id": "2-s2.0-85028258051",
+        "eid": "85028258051",
+        "year": "2017",
+        "title": "On the eddy-resolving capability of high-order discontinuous Galerkin approaches to implicit LES / under-resolved DNS of Euler turbulence"
+      },
+      {
+        "publication_id": "2-s2.0-84951132816",
+        "eid": "84951132816",
+        "year": "2016",
+        "title": "Eigensolution analysis of spectral/hp continuous Galerkin approximations to advection-diffusion problems: Insights into spectral vanishing viscosity"
+      },
+      {
+        "publication_id": "2-s2.0-84940657667",
+        "eid": "84940657667",
+        "year": "2015",
+        "title": "Heat Transfer Analysis in a Flow over Concave Wall with Primary and Secondary Instabilities"
+      },
+      {
+        "publication_id": "2-s2.0-84936976834",
+        "eid": "84936976834",
+        "year": "2015",
+        "title": "Linear dispersion-diffusion analysis and its application to under-resolved turbulence simulations using discontinuous Galerkin spectral/hp methods"
+      },
+      {
+        "publication_id": "2-s2.0-84886414364",
+        "eid": "84886414364",
+        "year": "2014",
+        "title": "Acoustic instabilities control using Helmholtz resonators"
+      },
+      {
+        "publication_id": "2-s2.0-84886279816",
+        "eid": "84886279816",
+        "year": "2013",
+        "title": "Wavepackets in the velocity field of turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-84879908173",
+        "eid": "84879908173",
+        "year": "2013",
+        "title": "Influence of Goertler vortices spanwise wavelength on heat transfer rates"
+      },
+      {
+        "publication_id": "2-s2.0-79955128995",
+        "eid": "79955128995",
+        "year": "2010",
+        "title": "Reprint of: Using les to explore sound-source mechanisms in jets"
+      },
+      {
+        "publication_id": "2-s2.0-78649643009",
+        "eid": "78649643009",
+        "year": "2010",
+        "title": "Using LES to explore sound-source mechanisms in jets"
+      }
+    ]
+  },
+  "aeroelasticidade": {
+    "id": "aeroelasticidade",
+    "total_publicacoes": 88,
+    "total_docentes": 9,
+    "docentes": [
+      "airton-nabarrete",
+      "andre-v-g-cavalieri",
+      "antonio-b-guimaraes-neto",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "mariano-andres-arbelo",
+      "mauricio-v-donadon",
+      "roberto-gil-annes-da-silva",
+      "willer-gomes-dos-santos"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-86000369952",
+        "eid": "86000369952",
+        "year": "2025",
+        "title": "Simplified integrated model of the flight dynamics of flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-105008499409",
+        "eid": "105008499409",
+        "year": "2025",
+        "title": "Nonlinear aeroelastic analysis of a skew reinforced composite panel"
+      },
+      {
+        "publication_id": "2-s2.0-105019500323",
+        "eid": "105019500323",
+        "year": "2024",
+        "title": "RAYLEIGH-RITZ METHOD WITH MULTIBODY DYNAMICS FOR HIGHLY FLEXIBLE STRUCTURES"
+      },
+      {
+        "publication_id": "2-s2.0-85208679859",
+        "eid": "85208679859",
+        "year": "2024",
+        "title": "Curved hexahedral hybrid-mixed stress elements for structural dynamics"
+      },
+      {
+        "publication_id": "2-s2.0-85199174343",
+        "eid": "85199174343",
+        "year": "2024",
+        "title": "Static aeroelastic rolling of a highly flexible wing: Pazy wing with aileron"
+      },
+      {
+        "publication_id": "2-s2.0-85203243685",
+        "eid": "85203243685",
+        "year": "2024",
+        "title": "Nonlinear modeling and analysis of rotors supported by magneto-rheological fluid journal bearings"
+      },
+      {
+        "publication_id": "2-s2.0-105019521245",
+        "eid": "105019521245",
+        "year": "2024",
+        "title": "AEROELASTIC ANALYSIS OF A SMART SMA-COMPOSITE WING"
+      },
+      {
+        "publication_id": "2-s2.0-85208799388",
+        "eid": "85208799388",
+        "year": "2024",
+        "title": "FLIGHT PATH RECONSTRUCTION OF A FLEXIBLE WING UAV WITH WING MOUNTED VANES"
+      },
+      {
+        "publication_id": "2-s2.0-85198447466",
+        "eid": "85198447466",
+        "year": "2024",
+        "title": "A Nonlinear Analysis of an Aeroelastic Three Degrees of Freedom Model"
+      },
+      {
+        "publication_id": "2-s2.0-105019486959",
+        "eid": "105019486959",
+        "year": "2024",
+        "title": "COMPARISON BETWEEN COMPUTATIONAL AND EXPERIMENTAL NON-STATIONARY PRESSURE DISTRIBUTION ON A PITCH-OSCILLATING WING"
+      },
+      {
+        "publication_id": "2-s2.0-85096224815",
+        "eid": "85096224815",
+        "year": "2023",
+        "title": "A Three-Layer Quasi-3D Finite Element Analysis for Smart Actuation on Sandwich Plates"
+      },
+      {
+        "publication_id": "2-s2.0-85144614327",
+        "eid": "85144614327",
+        "year": "2023",
+        "title": "Sensitivity analysis for buckling characterisation using the vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85172128914",
+        "eid": "85172128914",
+        "year": "2023",
+        "title": "Characterization of Aeroelastic Behavior in a High Aspect Ratio Wing Using Computational and Wind Tunnel Experiments"
+      },
+      {
+        "publication_id": "2-s2.0-85122349852",
+        "eid": "85122349852",
+        "year": "2022",
+        "title": "Impact of non-latching booms on a nanosatellite attitude control system"
+      },
+      {
+        "publication_id": "2-s2.0-85158892722",
+        "eid": "85158892722",
+        "year": "2022",
+        "title": "METHODOLOGY TO ASSESS THE EFFECTS OF GEOMETRIC NONLINEARITY ON THE STATIC AEROELASTIC BEHAVIOR OF VERY FLEXIBLE WINGS"
+      },
+      {
+        "publication_id": "2-s2.0-85158855190",
+        "eid": "85158855190",
+        "year": "2022",
+        "title": "STATIC AEROELASTIC TRANSONIC ROLLING CAPABILITY OF A MODERN FLEXIBILITY WING"
+      },
+      {
+        "publication_id": "2-s2.0-85158906902",
+        "eid": "85158906902",
+        "year": "2022",
+        "title": "NONLINEAR POST-FLUTTER ANALYSIS OF FLEXIBLE COMPOSITE AEROSTRUCTURES"
+      },
+      {
+        "publication_id": "2-s2.0-85137268710",
+        "eid": "85137268710",
+        "year": "2022",
+        "title": "Enhanced vibration correlation technique to predict the buckling load of unstiffened composite cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85159664207",
+        "eid": "85159664207",
+        "year": "2022",
+        "title": "PARAMETER IDENTIFICATION BY UPDATING THE STRUCTURAL MODEL OF A UAV WITH FLEXIBLE WING"
+      },
+      {
+        "publication_id": "2-s2.0-85092571752",
+        "eid": "85092571752",
+        "year": "2021",
+        "title": "Nonlinear modeling and analysis of rotors supported by magnetorheological squeeze film journal bearings"
+      },
+      {
+        "publication_id": "2-s2.0-85107031482",
+        "eid": "85107031482",
+        "year": "2021",
+        "title": "Explicit finite element method for nonlinear flutter analysis of composite panels"
+      },
+      {
+        "publication_id": "2-s2.0-85100601270",
+        "eid": "85100601270",
+        "year": "2021",
+        "title": "Experimental and numerical investigations on the nonlinear aeroelastic behavior of high aspect-ratio wings for different chord-wise store positions under stall and follower aerodynamic load models"
+      },
+      {
+        "publication_id": "2-s2.0-85090845921",
+        "eid": "85090845921",
+        "year": "2021",
+        "title": "Aeroelastic Vibration Measurement Based on Laser and Computer Vision Technique"
+      },
+      {
+        "publication_id": "2-s2.0-85088387706",
+        "eid": "85088387706",
+        "year": "2021",
+        "title": "On Comparison Between 0–1 Test for Chaos and Attractor Reconstruction of an Aeroelastic System"
+      },
+      {
+        "publication_id": "2-s2.0-85124471432",
+        "eid": "85124471432",
+        "year": "2021",
+        "title": "AEROELASTIC RESPONSE CALCULATION USING DUHAMEL INTEGRAL AND ITS APPLICATIONS"
+      },
+      {
+        "publication_id": "2-s2.0-85082450269",
+        "eid": "85082450269",
+        "year": "2020",
+        "title": "Aeroelastic behavior of a composite plate-like wing under piezoelectrically induced stresses"
+      },
+      {
+        "publication_id": "2-s2.0-85077399976",
+        "eid": "85077399976",
+        "year": "2020",
+        "title": "Static loads evaluation in a flexible aircraft using high-fidelity fluid–structure iteration tool (E2-FSI): extended version"
+      },
+      {
+        "publication_id": "2-s2.0-85092931109",
+        "eid": "85092931109",
+        "year": "2020",
+        "title": "Coupled framework for limit-cycle oscillations modeling based on leading-edge vortex shedding"
+      },
+      {
+        "publication_id": "2-s2.0-85074750679",
+        "eid": "85074750679",
+        "year": "2019",
+        "title": "Effects of structural damping on acoustic scattering by flexible plates"
+      },
+      {
+        "publication_id": "2-s2.0-85061670896",
+        "eid": "85061670896",
+        "year": "2019",
+        "title": "Gust load alleviation in a flexible smart idealized wing"
+      },
+      {
+        "publication_id": "2-s2.0-85084245420",
+        "eid": "85084245420",
+        "year": "2019",
+        "title": "Advantages of using aeroelastic feedback in flexible aircraft control instead of applying notch-filtering"
+      },
+      {
+        "publication_id": "2-s2.0-85084245364",
+        "eid": "85084245364",
+        "year": "2019",
+        "title": "Design of stability augmentation systems for flexible aircraft using projective control"
+      },
+      {
+        "publication_id": "2-s2.0-85084245303",
+        "eid": "85084245303",
+        "year": "2019",
+        "title": "Thermal correction of strain gage measurements on flexible x-hale aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85084245182",
+        "eid": "85084245182",
+        "year": "2019",
+        "title": "Coupling of aeroelastic and pilot dynamics via biodynamic-feedthrough in pilot-augmented oscillations"
+      },
+      {
+        "publication_id": "2-s2.0-85084245178",
+        "eid": "85084245178",
+        "year": "2019",
+        "title": "Takeoff dynamics of flexible aircraft with multiple underwing pod-mounted landing gears"
+      },
+      {
+        "publication_id": "2-s2.0-85084245064",
+        "eid": "85084245064",
+        "year": "2019",
+        "title": "Approximation of aerodynamic geometrical nonlinearities in aircraft with high-aspect-ratio wings"
+      },
+      {
+        "publication_id": "2-s2.0-85084244872",
+        "eid": "85084244872",
+        "year": "2019",
+        "title": "Fuzzy gain-scheduling for MIMO systems applied to flexible aircraft control"
+      },
+      {
+        "publication_id": "2-s2.0-85084244912",
+        "eid": "85084244912",
+        "year": "2019",
+        "title": "Nonlinear high fidelity static aeroelastic effect on the flexible pitching moment aerodynamic coefficient for a transport aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85048316492",
+        "eid": "85048316492",
+        "year": "2019",
+        "title": "Study on the soft suspension behavior for aircraft ground vibration test set-up"
+      },
+      {
+        "publication_id": "2-s2.0-85057289177",
+        "eid": "85057289177",
+        "year": "2019",
+        "title": "Aeroelastic behavior of composite panels undergoing progressive damage"
+      },
+      {
+        "publication_id": "2-s2.0-85084244939",
+        "eid": "85084244939",
+        "year": "2019",
+        "title": "A geometrically nonlinear finite element model for aeroelastic analysis of plate-like wing aerostructures"
+      },
+      {
+        "publication_id": "2-s2.0-85063294775",
+        "eid": "85063294775",
+        "year": "2019",
+        "title": "Vibration correlation technique for predicting the buckling load of imperfection-sensitive isotropic cylindrical shells: An analytical and numerical verification"
+      },
+      {
+        "publication_id": "2-s2.0-85060484603",
+        "eid": "85060484603",
+        "year": "2019",
+        "title": "Assessing the axial buckling load of a pressurized orthotropic cylindrical shell through vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85074279189",
+        "eid": "85074279189",
+        "year": "2019",
+        "title": "Instrumentation influence: a study about the intrusiveness level caused by a single PVDF in a flexible dynamic system"
+      },
+      {
+        "publication_id": "2-s2.0-85084245518",
+        "eid": "85084245518",
+        "year": "2019",
+        "title": "Parametric flutter analysis of strut braced wing aircraft for regional aviation"
+      },
+      {
+        "publication_id": "2-s2.0-85084245001",
+        "eid": "85084245001",
+        "year": "2019",
+        "title": "Application of 0-1 test for chaos in wind tunnel aeroelastic experiments of an aluminum flat plate"
+      },
+      {
+        "publication_id": "2-s2.0-85050215488",
+        "eid": "85050215488",
+        "year": "2018",
+        "title": "A fast numerical framework to compute acoustic scattering by poroelastic plates of arbitrary geometry"
+      },
+      {
+        "publication_id": "2-s2.0-85060434209",
+        "eid": "85060434209",
+        "year": "2018",
+        "title": "Applicability of geometrically-linear structural-dynamic models for the flight dynamics of arbitrarily-flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85044311623",
+        "eid": "85044311623",
+        "year": "2018",
+        "title": "Active and Passive Control for Acceleration Reduction of an Aeroelastic Typical Wing Section"
+      },
+      {
+        "publication_id": "2-s2.0-85060482969",
+        "eid": "85060482969",
+        "year": "2018",
+        "title": "Adaptive output-feedback gain scheduling applied to flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85060479772",
+        "eid": "85060479772",
+        "year": "2018",
+        "title": "On real-time simulation of flexible aircraft with physics-derived models"
+      },
+      {
+        "publication_id": "2-s2.0-85060472475",
+        "eid": "85060472475",
+        "year": "2018",
+        "title": "The influence of biodynamic feedthrough on handling qualities"
+      },
+      {
+        "publication_id": "2-s2.0-85060441016",
+        "eid": "85060441016",
+        "year": "2018",
+        "title": "Strain gages full bridge inside composite layers targeting wing shape feedback for flight control laws"
+      },
+      {
+        "publication_id": "2-s2.0-85060485210",
+        "eid": "85060485210",
+        "year": "2018",
+        "title": "Static loads evaluation in a flexible aircraft using high fidelity fluid-structure iteration tool (E2-FSI)"
+      },
+      {
+        "publication_id": "2-s2.0-85060464387",
+        "eid": "85060464387",
+        "year": "2018",
+        "title": "Multidisciplinary methods for wing flight shape analysis - Effect of the geometric nonlinear structure for static pull-up"
+      },
+      {
+        "publication_id": "2-s2.0-85044956786",
+        "eid": "85044956786",
+        "year": "2018",
+        "title": "Nonparametric probabilistic approach of uncertainties with correlated mass and stiffness random matrices"
+      },
+      {
+        "publication_id": "2-s2.0-85057736648",
+        "eid": "85057736648",
+        "year": "2018",
+        "title": "On nonlinear dynamics behavior of an aeroelastic wing subjected to an unsteady flow"
+      },
+      {
+        "publication_id": "2-s2.0-85037811160",
+        "eid": "85037811160",
+        "year": "2018",
+        "title": "An efficient iterative model reduction method for aeroviscoelastic panel flutter analysis in the supersonic regime"
+      },
+      {
+        "publication_id": "2-s2.0-85065341604",
+        "eid": "85065341604",
+        "year": "2018",
+        "title": "Analytical, numerical, and experimental predictions for free vibrations and buckling of pressurized orthotropic cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85060462577",
+        "eid": "85060462577",
+        "year": "2018",
+        "title": "Increased flutter velocity with use of a passive control system"
+      },
+      {
+        "publication_id": "2-s2.0-85048617142",
+        "eid": "85048617142",
+        "year": "2017",
+        "title": "Validity of the assumption of small deformations in aircraft with different levels of structural flexibility"
+      },
+      {
+        "publication_id": "2-s2.0-85020742154",
+        "eid": "85020742154",
+        "year": "2017",
+        "title": "Mathematical model of one flexible transport category aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85048611265",
+        "eid": "85048611265",
+        "year": "2017",
+        "title": "X-hale autopilot with stability augmentation and shape control based on loop separation"
+      },
+      {
+        "publication_id": "2-s2.0-85048608852",
+        "eid": "85048608852",
+        "year": "2017",
+        "title": "Application of nonlinear model order reduction technique to a flexible aircraft for real-time simulations"
+      },
+      {
+        "publication_id": "2-s2.0-85048600810",
+        "eid": "85048600810",
+        "year": "2017",
+        "title": "Response and stability of the remotely-piloted, constrained x-hale aircraft in wind tunnel"
+      },
+      {
+        "publication_id": "2-s2.0-85044600892",
+        "eid": "85044600892",
+        "year": "2017",
+        "title": "Dynamic gain scheduling of highly flexible aircraft applying adaptive control"
+      },
+      {
+        "publication_id": "2-s2.0-85028415617",
+        "eid": "85028415617",
+        "year": "2017",
+        "title": "Aeroelastic behavior of stiffened composite laminated panel with embedded SMA wire using the hierarchical Rayleigh–Ritz method"
+      },
+      {
+        "publication_id": "2-s2.0-85016312426",
+        "eid": "85016312426",
+        "year": "2017",
+        "title": "Experimental Test for Estimation of Buckling Load on Unstiffened Cylindrical shells by Vibration Correlation Technique"
+      },
+      {
+        "publication_id": "2-s2.0-84968662183",
+        "eid": "84968662183",
+        "year": "2016",
+        "title": "Numerical solution of acoustic scattering by finite perforated elastic plates"
+      },
+      {
+        "publication_id": "2-s2.0-84978901299",
+        "eid": "84978901299",
+        "year": "2016",
+        "title": "Dynamic and aeroelastic behavior of composite plates with multimode resonant shunted piezoceramics in series"
+      },
+      {
+        "publication_id": "2-s2.0-84960406556",
+        "eid": "84960406556",
+        "year": "2016",
+        "title": "Aeroelastic behavior of composite laminated shells with embedded SMA wires under supersonic flow"
+      },
+      {
+        "publication_id": "2-s2.0-84960131382",
+        "eid": "84960131382",
+        "year": "2016",
+        "title": "Flutter suppression of plates subjected to supersonic flow using passive constrained viscoelastic layers and Golla-Hughes-McTavish method"
+      },
+      {
+        "publication_id": "2-s2.0-84953212729",
+        "eid": "84953212729",
+        "year": "2016",
+        "title": "Flutter of stiffened composite panels considering the stiffener's base as a structural element"
+      },
+      {
+        "publication_id": "2-s2.0-84959511459",
+        "eid": "84959511459",
+        "year": "2016",
+        "title": "Flutter suppression of plates using passive constrained viscoelastic layers"
+      },
+      {
+        "publication_id": "2-s2.0-85018547751",
+        "eid": "85018547751",
+        "year": "2016",
+        "title": "Aeroelastic response of shape memory alloy hybrid composite cylindrical shells under supersonic flow"
+      },
+      {
+        "publication_id": "2-s2.0-84960978000",
+        "eid": "84960978000",
+        "year": "2016",
+        "title": "Modal characterization of composite flat plate models using piezoelectric transducers"
+      },
+      {
+        "publication_id": "2-s2.0-84964905208",
+        "eid": "84964905208",
+        "year": "2015",
+        "title": "Control of the GNBA aircraft based on a unified dynamics formulation with inclusion of airframe flexibility"
+      },
+      {
+        "publication_id": "2-s2.0-84964871628",
+        "eid": "84964871628",
+        "year": "2015",
+        "title": "A parametric and topological study on the use of viscoelastic material for flutter suppression"
+      },
+      {
+        "publication_id": "2-s2.0-84929155957",
+        "eid": "84929155957",
+        "year": "2015",
+        "title": "Experimental and numerical estimation of buckling load on unstiffened cylindrical shells using a vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85043198688",
+        "eid": "85043198688",
+        "year": "2015",
+        "title": "On the data acquisiton for aeroelastic analysis using PZT (lead zirconate titanate) excitation and test parameters definition"
+      },
+      {
+        "publication_id": "2-s2.0-84896800591",
+        "eid": "84896800591",
+        "year": "2014",
+        "title": "Vibration correlation technique for the estimation of real boundary conditions and buckling load of unstiffened plates and cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85043081508",
+        "eid": "85043081508",
+        "year": "2014",
+        "title": "Comparative study of system identification methods applied to aeroelastic models tested in wind tunnel"
+      },
+      {
+        "publication_id": "2-s2.0-84915745182",
+        "eid": "84915745182",
+        "year": "2014",
+        "title": "Modal parameters identification of composite wing models using piezoelectric material"
+      },
+      {
+        "publication_id": "2-s2.0-85043054856",
+        "eid": "85043054856",
+        "year": "2013",
+        "title": "Modeling and analysis of the flight dynamics of a deformable aircraft with structurally-linearized full inertial coupling"
+      },
+      {
+        "publication_id": "2-s2.0-84864747574",
+        "eid": "84864747574",
+        "year": "2012",
+        "title": "The effect of piezoelectrically induced stress stiffening on the aeroelastic stability of curved composite panels"
+      },
+      {
+        "publication_id": "2-s2.0-84870325932",
+        "eid": "84870325932",
+        "year": "2012",
+        "title": "Aeroelastic tailoring using fiber orientation and topology optimization"
+      },
+      {
+        "publication_id": "2-s2.0-77952790400",
+        "eid": "77952790400",
+        "year": "2010",
+        "title": "The use of piezoelectric stress stiffening to enhance buckling of laminated plates"
+      },
+      {
+        "publication_id": "2-s2.0-0033888430",
+        "eid": "0033888430",
+        "year": "2000",
+        "title": "Stiffening effects on the free vibration behavior of composite plates with PZT actuators"
+      }
+    ]
+  },
+  "mecanica-voo-controle": {
+    "id": "mecanica-voo-controle",
+    "total_publicacoes": 57,
+    "total_docentes": 11,
+    "docentes": [
+      "airton-nabarrete",
+      "andre-v-g-cavalieri",
+      "antonio-b-guimaraes-neto",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva",
+      "rodrigo-costa-moura",
+      "vinicius-malatesta",
+      "vitor-gabriel-kleine",
+      "willer-gomes-dos-santos"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105008517097",
+        "eid": "105008517097",
+        "year": "2025",
+        "title": "Aircraft dynamic stability derivatives via steady-state CFD"
+      },
+      {
+        "publication_id": "2-s2.0-85210484189",
+        "eid": "85210484189",
+        "year": "2025",
+        "title": "Rotational shallow water equations with viscous damping and boundary control: structure-preserving spatial discretization"
+      },
+      {
+        "publication_id": "2-s2.0-86000369952",
+        "eid": "86000369952",
+        "year": "2025",
+        "title": "Simplified integrated model of the flight dynamics of flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-105018451177",
+        "eid": "105018451177",
+        "year": "2025",
+        "title": "Experimental Investigation of Simulated Horn Ice Shapes on Small-Scale Propeller Performance Degradation"
+      },
+      {
+        "publication_id": "2-s2.0-105018308366",
+        "eid": "105018308366",
+        "year": "2025",
+        "title": "Characterization of a Vortex Wake Model"
+      },
+      {
+        "publication_id": "2-s2.0-85202295574",
+        "eid": "85202295574",
+        "year": "2024",
+        "title": "Port-Hamiltonian formulations for the modeling, simulation and control of fluids"
+      },
+      {
+        "publication_id": "2-s2.0-85206071376",
+        "eid": "85206071376",
+        "year": "2024",
+        "title": "A port-Hamiltonian model of airplane longitudinal dynamics"
+      },
+      {
+        "publication_id": "2-s2.0-85136284061",
+        "eid": "85136284061",
+        "year": "2022",
+        "title": "Design and Flight Test of a Stability Augmentation System for a Flexible Aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85124793062",
+        "eid": "85124793062",
+        "year": "2022",
+        "title": "Parametric determination of fuel consumption during cruise flight for fuel cell powered airplanes"
+      },
+      {
+        "publication_id": "2-s2.0-85120952903",
+        "eid": "85120952903",
+        "year": "2021",
+        "title": "Dissipative shallow water equations: A port-Hamiltonian formulation"
+      },
+      {
+        "publication_id": "2-s2.0-85119434373",
+        "eid": "85119434373",
+        "year": "2021",
+        "title": "Design of stability augmentation systems for flexible aircraft using projective control"
+      },
+      {
+        "publication_id": "2-s2.0-85126714874",
+        "eid": "85126714874",
+        "year": "2021",
+        "title": "Economical Aspects of Aircraft Propulsion Electrification"
+      },
+      {
+        "publication_id": "2-s2.0-85089723070",
+        "eid": "85089723070",
+        "year": "2020",
+        "title": "Erosion wear evaluation using nektar+ +"
+      },
+      {
+        "publication_id": "2-s2.0-85089721526",
+        "eid": "85089721526",
+        "year": "2020",
+        "title": "Viscous diffusion effects in the eigenanalysis of (hybridisable) dg methods"
+      },
+      {
+        "publication_id": "2-s2.0-85105055633",
+        "eid": "85105055633",
+        "year": "2020",
+        "title": "Partitioned finite element method for structured discretization with mixed boundary conditions"
+      },
+      {
+        "publication_id": "2-s2.0-85076594986",
+        "eid": "85076594986",
+        "year": "2020",
+        "title": "Dynamics and control of periodic and non-periodic behavior of Duffing vibrating system with fractional damping and excited by a non-ideal motor"
+      },
+      {
+        "publication_id": "2-s2.0-85082438607",
+        "eid": "85082438607",
+        "year": "2019",
+        "title": "Port-Hamiltonian modeling, discretization and feedback control of a circular water tank"
+      },
+      {
+        "publication_id": "2-s2.0-85035769140",
+        "eid": "85035769140",
+        "year": "2019",
+        "title": "Modeling and control of a rotating flexible spacecraft: A port-hamiltonian approach"
+      },
+      {
+        "publication_id": "2-s2.0-85084245420",
+        "eid": "85084245420",
+        "year": "2019",
+        "title": "Advantages of using aeroelastic feedback in flexible aircraft control instead of applying notch-filtering"
+      },
+      {
+        "publication_id": "2-s2.0-85084245364",
+        "eid": "85084245364",
+        "year": "2019",
+        "title": "Design of stability augmentation systems for flexible aircraft using projective control"
+      },
+      {
+        "publication_id": "2-s2.0-85084245182",
+        "eid": "85084245182",
+        "year": "2019",
+        "title": "Coupling of aeroelastic and pilot dynamics via biodynamic-feedthrough in pilot-augmented oscillations"
+      },
+      {
+        "publication_id": "2-s2.0-85084245178",
+        "eid": "85084245178",
+        "year": "2019",
+        "title": "Takeoff dynamics of flexible aircraft with multiple underwing pod-mounted landing gears"
+      },
+      {
+        "publication_id": "2-s2.0-85084245064",
+        "eid": "85084245064",
+        "year": "2019",
+        "title": "Approximation of aerodynamic geometrical nonlinearities in aircraft with high-aspect-ratio wings"
+      },
+      {
+        "publication_id": "2-s2.0-85068111122",
+        "eid": "85068111122",
+        "year": "2019",
+        "title": "Influence of airframe flexibility on pilot-induced oscillations"
+      },
+      {
+        "publication_id": "2-s2.0-85095978345",
+        "eid": "85095978345",
+        "year": "2019",
+        "title": "Shutdown investigation in a LOx-ethanol subscale thrust chamber"
+      },
+      {
+        "publication_id": "2-s2.0-85095967985",
+        "eid": "85095967985",
+        "year": "2019",
+        "title": "Evaluation of a regional aircraft with fuselage boundary layer ingestion"
+      },
+      {
+        "publication_id": "2-s2.0-85104692694",
+        "eid": "85104692694",
+        "year": "2019",
+        "title": "Autorotation: Physiological measures of workload"
+      },
+      {
+        "publication_id": "2-s2.0-85053447785",
+        "eid": "85053447785",
+        "year": "2018",
+        "title": "Closed-loop control of a free shear flow: a framework using the parabolized stability equations"
+      },
+      {
+        "publication_id": "2-s2.0-85049125322",
+        "eid": "85049125322",
+        "year": "2018",
+        "title": "On the wave-cancelling nature of boundary layer flow control"
+      },
+      {
+        "publication_id": "2-s2.0-85060493114",
+        "eid": "85060493114",
+        "year": "2018",
+        "title": "On the wave-cancelling nature of boundary layer transition control"
+      },
+      {
+        "publication_id": "2-s2.0-85060468653",
+        "eid": "85060468653",
+        "year": "2018",
+        "title": "Control of streaky disturbances in the boundary layer over a flat plate"
+      },
+      {
+        "publication_id": "2-s2.0-85051674329",
+        "eid": "85051674329",
+        "year": "2018",
+        "title": "Swept wing effects on wavy leading edge phenomena"
+      },
+      {
+        "publication_id": "2-s2.0-85051665022",
+        "eid": "85051665022",
+        "year": "2018",
+        "title": "The span length efficiency of tubercles on swept wings"
+      },
+      {
+        "publication_id": "2-s2.0-85053861970",
+        "eid": "85053861970",
+        "year": "2018",
+        "title": "A new look at the uncontrollable linearized quaternion dynamics with implications to LQR design in underactuated systems"
+      },
+      {
+        "publication_id": "2-s2.0-85060434209",
+        "eid": "85060434209",
+        "year": "2018",
+        "title": "Applicability of geometrically-linear structural-dynamic models for the flight dynamics of arbitrarily-flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85048930706",
+        "eid": "85048930706",
+        "year": "2018",
+        "title": "Disturbance rejection for a rotating flexible spacecraft: a port-Hamiltonian approach"
+      },
+      {
+        "publication_id": "2-s2.0-85048766219",
+        "eid": "85048766219",
+        "year": "2018",
+        "title": "A structure-preserving Partitioned Finite Element Method for the 2D wave equation ⁎"
+      },
+      {
+        "publication_id": "2-s2.0-85141651016",
+        "eid": "85141651016",
+        "year": "2018",
+        "title": "Fuzzy gain-scheduling applied for a flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85060482969",
+        "eid": "85060482969",
+        "year": "2018",
+        "title": "Adaptive output-feedback gain scheduling applied to flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85060479429",
+        "eid": "85060479429",
+        "year": "2018",
+        "title": "Experimental study of aeroelastic response of a flexible high aspect ratio wing with passive SMA actuators"
+      },
+      {
+        "publication_id": "2-s2.0-85051680657",
+        "eid": "85051680657",
+        "year": "2018",
+        "title": "Wavy leading edge phenomena on transonic flow regime"
+      },
+      {
+        "publication_id": "2-s2.0-85051624047",
+        "eid": "85051624047",
+        "year": "2018",
+        "title": "Evaluation of wavy leading edge for rotary-wing applications"
+      },
+      {
+        "publication_id": "2-s2.0-85028254847",
+        "eid": "85028254847",
+        "year": "2017",
+        "title": "An LES Setting for DG-Based Implicit LES with Insights on Dissipation and Robustness"
+      },
+      {
+        "publication_id": "2-s2.0-85010297444",
+        "eid": "85010297444",
+        "year": "2017",
+        "title": "A port-Hamiltonian model of liquid sloshing in moving containers and application to a fluid-structure system"
+      },
+      {
+        "publication_id": "2-s2.0-85048617142",
+        "eid": "85048617142",
+        "year": "2017",
+        "title": "Validity of the assumption of small deformations in aircraft with different levels of structural flexibility"
+      },
+      {
+        "publication_id": "2-s2.0-85020742154",
+        "eid": "85020742154",
+        "year": "2017",
+        "title": "Mathematical model of one flexible transport category aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85048611265",
+        "eid": "85048611265",
+        "year": "2017",
+        "title": "X-hale autopilot with stability augmentation and shape control based on loop separation"
+      },
+      {
+        "publication_id": "2-s2.0-85048608852",
+        "eid": "85048608852",
+        "year": "2017",
+        "title": "Application of nonlinear model order reduction technique to a flexible aircraft for real-time simulations"
+      },
+      {
+        "publication_id": "2-s2.0-85048600810",
+        "eid": "85048600810",
+        "year": "2017",
+        "title": "Response and stability of the remotely-piloted, constrained x-hale aircraft in wind tunnel"
+      },
+      {
+        "publication_id": "2-s2.0-85044600892",
+        "eid": "85044600892",
+        "year": "2017",
+        "title": "Dynamic gain scheduling of highly flexible aircraft applying adaptive control"
+      },
+      {
+        "publication_id": "2-s2.0-84994408866",
+        "eid": "84994408866",
+        "year": "2016",
+        "title": "Piezoelectric beam with distributed control ports: a power-preserving discretization using weak formulation."
+      },
+      {
+        "publication_id": "2-s2.0-84951920713",
+        "eid": "84951920713",
+        "year": "2015",
+        "title": "Modified equation analysis for the discontinuous galerkin formulation"
+      },
+      {
+        "publication_id": "2-s2.0-84992488716",
+        "eid": "84992488716",
+        "year": "2015",
+        "title": "Modeling of a fluid-structure coupled system using port-Hamiltonian formulation"
+      },
+      {
+        "publication_id": "2-s2.0-84964905208",
+        "eid": "84964905208",
+        "year": "2015",
+        "title": "Control of the GNBA aircraft based on a unified dynamics formulation with inclusion of airframe flexibility"
+      },
+      {
+        "publication_id": "2-s2.0-84973462035",
+        "eid": "84973462035",
+        "year": "2015",
+        "title": "Discrete multiobjective optimization methodology applied to the mixed actuators problem and tested in a hardware-in-the-loop rendezvous simulator"
+      },
+      {
+        "publication_id": "2-s2.0-84906719031",
+        "eid": "84906719031",
+        "year": "2014",
+        "title": "Modeling of a coupled fluid-structure system excited by piezoelectric actuators"
+      },
+      {
+        "publication_id": "2-s2.0-85043054856",
+        "eid": "85043054856",
+        "year": "2013",
+        "title": "Modeling and analysis of the flight dynamics of a deformable aircraft with structurally-linearized full inertial coupling"
+      }
+    ]
+  },
+  "solidos-e-materiais": {
+    "id": "solidos-e-materiais",
+    "total_publicacoes": 148,
+    "total_docentes": 14,
+    "docentes": [
+      "airton-nabarrete",
+      "andre-fernando-c-silva",
+      "andre-v-g-cavalieri",
+      "antonio-b-guimaraes-neto",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "mariano-andres-arbelo",
+      "mauricio-v-donadon",
+      "ney-rafael-secco",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva",
+      "rodrigo-costa-moura",
+      "tiago-barbosa-de-araujo",
+      "vitor-gabriel-kleine"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85218350060",
+        "eid": "85218350060",
+        "year": "2025",
+        "title": "Wavy leading-edge phenomena on circular cylinder flow"
+      },
+      {
+        "publication_id": "2-s2.0-105009255241",
+        "eid": "105009255241",
+        "year": "2025",
+        "title": "Uncertainty quantification of the piezoelectric shunt damping technique applied to an arbitrary thin shell structure: an experimental approach"
+      },
+      {
+        "publication_id": "2-s2.0-105017236473",
+        "eid": "105017236473",
+        "year": "2025",
+        "title": "Environmental effects on the fractographic analysis of Mode I delamination on secondary and co-bonded composite adhesive joints"
+      },
+      {
+        "publication_id": "2-s2.0-105008719845",
+        "eid": "105008719845",
+        "year": "2025",
+        "title": "Crack propagation mechanisms in plain woven CFRP: A focus on intralaminar fracture under mixed-mode loading"
+      },
+      {
+        "publication_id": "2-s2.0-105008499409",
+        "eid": "105008499409",
+        "year": "2025",
+        "title": "Nonlinear aeroelastic analysis of a skew reinforced composite panel"
+      },
+      {
+        "publication_id": "2-s2.0-85219192857",
+        "eid": "85219192857",
+        "year": "2025",
+        "title": "Investigation on Induced Intra/Interlaminar Damage Propagation in CFRP Subjected to Cyclic Tensile Loading After Impact (TAI)"
+      },
+      {
+        "publication_id": "2-s2.0-85185893053",
+        "eid": "85185893053",
+        "year": "2024",
+        "title": "Widest scales in turbulent channels"
+      },
+      {
+        "publication_id": "2-s2.0-85187696168",
+        "eid": "85187696168",
+        "year": "2024",
+        "title": "Nonlinear Piezoelectric Vibration Energy Harvesting of a Cantilever Beam Using Homotopy Analysis Method"
+      },
+      {
+        "publication_id": "2-s2.0-85189543751",
+        "eid": "85189543751",
+        "year": "2024",
+        "title": "The effect of fibre orientation on fatigue crack propagation in CFRP: Finite fracture mechanics modelling for open-hole configuration"
+      },
+      {
+        "publication_id": "2-s2.0-85183434600",
+        "eid": "85183434600",
+        "year": "2024",
+        "title": "A numerical model for the thermoplastic welding process"
+      },
+      {
+        "publication_id": "2-s2.0-85173579184",
+        "eid": "85173579184",
+        "year": "2024",
+        "title": "Application of Barlat’s Yld 2000-2d Yield Stress Function for Modeling the Anisotropic Plastic Behaviour and the Forming Limit Strain Curve"
+      },
+      {
+        "publication_id": "2-s2.0-85107643206",
+        "eid": "85107643206",
+        "year": "2023",
+        "title": "Linear translaminar fracture characterization of additive manufactured continuous carbon fiber reinforced thermoplastic"
+      },
+      {
+        "publication_id": "2-s2.0-85096224815",
+        "eid": "85096224815",
+        "year": "2023",
+        "title": "A Three-Layer Quasi-3D Finite Element Analysis for Smart Actuation on Sandwich Plates"
+      },
+      {
+        "publication_id": "2-s2.0-85174957883",
+        "eid": "85174957883",
+        "year": "2023",
+        "title": "A numerical and experimental study of fasteners as a delamination arrest mechanism in composite laminates under mode I loading"
+      },
+      {
+        "publication_id": "2-s2.0-85168770112",
+        "eid": "85168770112",
+        "year": "2023",
+        "title": "A semi-analytical model for buckling and stress analyses of pressurized composite cylinders"
+      },
+      {
+        "publication_id": "2-s2.0-85162064276",
+        "eid": "85162064276",
+        "year": "2023",
+        "title": "Fractographic analysis of composite joints under cryogenic conditions"
+      },
+      {
+        "publication_id": "2-s2.0-85152142616",
+        "eid": "85152142616",
+        "year": "2023",
+        "title": "A systematic review on translaminar fracture damage propagation in fiber-reinforced polymer composites"
+      },
+      {
+        "publication_id": "2-s2.0-85144614327",
+        "eid": "85144614327",
+        "year": "2023",
+        "title": "Sensitivity analysis for buckling characterisation using the vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85128128653",
+        "eid": "85128128653",
+        "year": "2022",
+        "title": "Erratum: Resolvent-based tools for optimal estimation and control via the Wiener-Hopf formalism (J. Fluid Mech. (2022) 937 (A19) DOI: 10.1017/jfm.2022.102)"
+      },
+      {
+        "publication_id": "2-s2.0-85132751974",
+        "eid": "85132751974",
+        "year": "2022",
+        "title": "The stability of wakes of floating wind turbines"
+      },
+      {
+        "publication_id": "2-s2.0-85139218357",
+        "eid": "85139218357",
+        "year": "2022",
+        "title": "Mechanical characterization of single- and multiple-batch solid propellants using digital image correlation method"
+      },
+      {
+        "publication_id": "2-s2.0-85140467105",
+        "eid": "85140467105",
+        "year": "2022",
+        "title": "A progressive damage model for composite laminates based on non-linear continuum mechanics—Static and fatigue loadings"
+      },
+      {
+        "publication_id": "2-s2.0-85139041982",
+        "eid": "85139041982",
+        "year": "2022",
+        "title": "A mixed-mode energy-based elastoplastic fatigue induced damage model for the peridynamic theory"
+      },
+      {
+        "publication_id": "2-s2.0-85131428548",
+        "eid": "85131428548",
+        "year": "2022",
+        "title": "Failure analysis in secondary bonded T-stiffened composite panels subject to cyclic and quasi-static compression loading"
+      },
+      {
+        "publication_id": "2-s2.0-85125676665",
+        "eid": "85125676665",
+        "year": "2022",
+        "title": "An elastoplastic constitutive damage model based on peridynamics formulation"
+      },
+      {
+        "publication_id": "2-s2.0-85120168694",
+        "eid": "85120168694",
+        "year": "2022",
+        "title": "A semi-analytical model for shear buckling analysis of stiffened composite panel with debonding defect"
+      },
+      {
+        "publication_id": "2-s2.0-85158906902",
+        "eid": "85158906902",
+        "year": "2022",
+        "title": "NONLINEAR POST-FLUTTER ANALYSIS OF FLEXIBLE COMPOSITE AEROSTRUCTURES"
+      },
+      {
+        "publication_id": "2-s2.0-85119146059",
+        "eid": "85119146059",
+        "year": "2022",
+        "title": "Experimental characterization of Mode II fatigue delamination growth onset in composite Joints"
+      },
+      {
+        "publication_id": "2-s2.0-85120456746",
+        "eid": "85120456746",
+        "year": "2022",
+        "title": "Experimental Aeroelastic Investigation using Piezoelectric Transducers in Wind Tunnel Testing"
+      },
+      {
+        "publication_id": "2-s2.0-85130707411",
+        "eid": "85130707411",
+        "year": "2022",
+        "title": "Dynamic Scaling of a Wing Structure Model Using Topology Optimization"
+      },
+      {
+        "publication_id": "2-s2.0-85100289805",
+        "eid": "85100289805",
+        "year": "2021",
+        "title": "Experimental control of Tollmien–Schlichting waves using pressure sensors and plasma actuators"
+      },
+      {
+        "publication_id": "2-s2.0-85101464226",
+        "eid": "85101464226",
+        "year": "2021",
+        "title": "Preface"
+      },
+      {
+        "publication_id": "2-s2.0-85113272864",
+        "eid": "85113272864",
+        "year": "2021",
+        "title": "Effects of mean load on interlaminar fracture behavior of carbon-epoxy prepreg fabric laminates under Mode I fatigue loading"
+      },
+      {
+        "publication_id": "2-s2.0-85107031482",
+        "eid": "85107031482",
+        "year": "2021",
+        "title": "Explicit finite element method for nonlinear flutter analysis of composite panels"
+      },
+      {
+        "publication_id": "2-s2.0-85097094381",
+        "eid": "85097094381",
+        "year": "2021",
+        "title": "Low velocity impact on pre-loaded composite plates: A novel standard-based experimental apparatus"
+      },
+      {
+        "publication_id": "2-s2.0-85096593676",
+        "eid": "85096593676",
+        "year": "2021",
+        "title": "Temperature Effects on the Mechanical Behaviour of PAEK Thermoplastic Composites Subjected to High Strain Rates Under Compression Loading"
+      },
+      {
+        "publication_id": "2-s2.0-85112560689",
+        "eid": "85112560689",
+        "year": "2021",
+        "title": "Application of Barlat’s Yld 2000-2d Yield Criterion to Predict the Anisotropic Response of Stainless Steel"
+      },
+      {
+        "publication_id": "2-s2.0-85082450269",
+        "eid": "85082450269",
+        "year": "2020",
+        "title": "Aeroelastic behavior of a composite plate-like wing under piezoelectrically induced stresses"
+      },
+      {
+        "publication_id": "2-s2.0-85090960027",
+        "eid": "85090960027",
+        "year": "2020",
+        "title": "Moisture effect on the mechanical properties of additively manufactured continuous carbon fiber-reinforced Nylon-based thermoplastic"
+      },
+      {
+        "publication_id": "2-s2.0-85071190609",
+        "eid": "85071190609",
+        "year": "2020",
+        "title": "Parametric Stochastic Analysis of a Piezoelectric Vibration Absorber Applied to Automotive Body Structure"
+      },
+      {
+        "publication_id": "2-s2.0-85085273183",
+        "eid": "85085273183",
+        "year": "2020",
+        "title": "Hygrothermal effects on the fatigue delamination growth onset in interlayer toughened CFRP joints"
+      },
+      {
+        "publication_id": "2-s2.0-85087968705",
+        "eid": "85087968705",
+        "year": "2020",
+        "title": "A cohesive zone model to predict fatigue-driven delamination in composites"
+      },
+      {
+        "publication_id": "2-s2.0-85082707421",
+        "eid": "85082707421",
+        "year": "2020",
+        "title": "Effects of temperature and moisture on the fracture behaviour of composite adhesive joints"
+      },
+      {
+        "publication_id": "2-s2.0-85084637122",
+        "eid": "85084637122",
+        "year": "2020",
+        "title": "Crushing simulation using an energy-based damage model"
+      },
+      {
+        "publication_id": "2-s2.0-85079340878",
+        "eid": "85079340878",
+        "year": "2020",
+        "title": "Delamination analysis using cohesive zone model: A discussion on traction-separation law and mixed-mode criteria"
+      },
+      {
+        "publication_id": "2-s2.0-85074990955",
+        "eid": "85074990955",
+        "year": "2020",
+        "title": "Fractographic analysis of the hygrothermal effect in co-bonded and secondary bonded joints under mode II delamination loading"
+      },
+      {
+        "publication_id": "2-s2.0-85075435938",
+        "eid": "85075435938",
+        "year": "2020",
+        "title": "Analysis of hygrothermal effects on mixed mode I/II interlaminar fracture toughness of carbon composites joints"
+      },
+      {
+        "publication_id": "2-s2.0-85071886215",
+        "eid": "85071886215",
+        "year": "2020",
+        "title": "A multiaxial fatigue damage model for isotropic materials"
+      },
+      {
+        "publication_id": "2-s2.0-85074750679",
+        "eid": "85074750679",
+        "year": "2019",
+        "title": "Effects of structural damping on acoustic scattering by flexible plates"
+      },
+      {
+        "publication_id": "2-s2.0-85061670896",
+        "eid": "85061670896",
+        "year": "2019",
+        "title": "Gust load alleviation in a flexible smart idealized wing"
+      },
+      {
+        "publication_id": "2-s2.0-85077209399",
+        "eid": "85077209399",
+        "year": "2019",
+        "title": "Energy harvesting through pendulum motion and dc generators"
+      },
+      {
+        "publication_id": "2-s2.0-85062329173",
+        "eid": "85062329173",
+        "year": "2019",
+        "title": "Translaminar fracture toughness and fatigue crack growth characterization of carbon-epoxy plain weave laminates"
+      },
+      {
+        "publication_id": "2-s2.0-85059457043",
+        "eid": "85059457043",
+        "year": "2019",
+        "title": "Hygrothermal effects on mode II interlaminar fracture toughness of co-bonded and secondary bonded composites joints"
+      },
+      {
+        "publication_id": "2-s2.0-85055019479",
+        "eid": "85055019479",
+        "year": "2019",
+        "title": "Comparative fractographic analysis of composites adhesive joints subjected to mode I delamination"
+      },
+      {
+        "publication_id": "2-s2.0-85055685197",
+        "eid": "85055685197",
+        "year": "2019",
+        "title": "Interlaminar crack onset in co-cured and co-bonded composite joints under mode I cyclic loading"
+      },
+      {
+        "publication_id": "2-s2.0-85042595914",
+        "eid": "85042595914",
+        "year": "2019",
+        "title": "Mixed Mode I/II interlaminar fracture toughness of carbon Fiber/RTM-6 laminates manufactured by VARTM"
+      },
+      {
+        "publication_id": "2-s2.0-85057289177",
+        "eid": "85057289177",
+        "year": "2019",
+        "title": "Aeroelastic behavior of composite panels undergoing progressive damage"
+      },
+      {
+        "publication_id": "2-s2.0-85055752483",
+        "eid": "85055752483",
+        "year": "2019",
+        "title": "ES-PIM applied to buckling of variable angle tow laminates"
+      },
+      {
+        "publication_id": "2-s2.0-85074279189",
+        "eid": "85074279189",
+        "year": "2019",
+        "title": "Instrumentation influence: a study about the intrusiveness level caused by a single PVDF in a flexible dynamic system"
+      },
+      {
+        "publication_id": "2-s2.0-85046680673",
+        "eid": "85046680673",
+        "year": "2018",
+        "title": "Passive control of coherent structures in a modified backwards-facing step flow"
+      },
+      {
+        "publication_id": "2-s2.0-85060432285",
+        "eid": "85060432285",
+        "year": "2018",
+        "title": "Structural damping effects on the acoustic scattering by elastic plates"
+      },
+      {
+        "publication_id": "2-s2.0-85055197458",
+        "eid": "85055197458",
+        "year": "2018",
+        "title": "Experimental characterization of Mode I fatigue delamination growth onset in composite joints: A comparative study"
+      },
+      {
+        "publication_id": "2-s2.0-85044277543",
+        "eid": "85044277543",
+        "year": "2018",
+        "title": "Comparison between the mechanical properties of carbon/epoxy laminates manufactured by autoclave and pressurized prepreg"
+      },
+      {
+        "publication_id": "2-s2.0-85055274258",
+        "eid": "85055274258",
+        "year": "2018",
+        "title": "Hygrothermal Effect on Composites Under In-Plane Fatigue at Stress Ratios of R = −1 and R = 0.1: An Analysis of Quasi-Isotropic Stitched Carbon Fibers"
+      },
+      {
+        "publication_id": "2-s2.0-85048966981",
+        "eid": "85048966981",
+        "year": "2018",
+        "title": "Strain rate effects on the intralaminar fracture toughness of composite laminates subjected to tensile load"
+      },
+      {
+        "publication_id": "2-s2.0-85046901217",
+        "eid": "85046901217",
+        "year": "2018",
+        "title": "Elastic properties of unidirectional fiber-reinforced composites using asymptotic homogenization techniques"
+      },
+      {
+        "publication_id": "2-s2.0-85045274781",
+        "eid": "85045274781",
+        "year": "2018",
+        "title": "Process and characterization of reclaimed carbon fiber composites by pyrolysis and oxidation, assisted by thermal plasma to avoid pollutants emissions"
+      },
+      {
+        "publication_id": "2-s2.0-85037811160",
+        "eid": "85037811160",
+        "year": "2018",
+        "title": "An efficient iterative model reduction method for aeroviscoelastic panel flutter analysis in the supersonic regime"
+      },
+      {
+        "publication_id": "2-s2.0-85036625618",
+        "eid": "85036625618",
+        "year": "2018",
+        "title": "Strain rate effects on the intralaminar fracture toughness of composite laminates subjected to compressive load"
+      },
+      {
+        "publication_id": "2-s2.0-85060479468",
+        "eid": "85060479468",
+        "year": "2018",
+        "title": "An active-passive nonlinear finite element model for electromechanical composite morphing beams"
+      },
+      {
+        "publication_id": "2-s2.0-85060473345",
+        "eid": "85060473345",
+        "year": "2018",
+        "title": "Modelling of mixed mode fatigue-induced delamination in composites: A comparative study"
+      },
+      {
+        "publication_id": "2-s2.0-85141639334",
+        "eid": "85141639334",
+        "year": "2018",
+        "title": "Antagonistic shape memory alloy wire as an actuator in a morphing wing"
+      },
+      {
+        "publication_id": "2-s2.0-85141598569",
+        "eid": "85141598569",
+        "year": "2018",
+        "title": "Effects of sweep angle in aeroelastic response of wings made of isotropic and fiber reinforced composite materials"
+      },
+      {
+        "publication_id": "2-s2.0-85141563636",
+        "eid": "85141563636",
+        "year": "2018",
+        "title": "RANS-based aerodynamic shape optimization of a strut-braced wing with overset meshes"
+      },
+      {
+        "publication_id": "2-s2.0-85085406457",
+        "eid": "85085406457",
+        "year": "2017",
+        "title": "An EnKF-based flow state estimator for aerodynamic flows"
+      },
+      {
+        "publication_id": "2-s2.0-85038953136",
+        "eid": "85038953136",
+        "year": "2017",
+        "title": "An enhanced random vibration and fatigue model for printed circuit boards"
+      },
+      {
+        "publication_id": "2-s2.0-85028590341",
+        "eid": "85028590341",
+        "year": "2017",
+        "title": "SDRE Control Applied to the Wheel Speed of a Compressed Air Engine with Crank-Connecting-Rod Mechanism"
+      },
+      {
+        "publication_id": "2-s2.0-85028415617",
+        "eid": "85028415617",
+        "year": "2017",
+        "title": "Aeroelastic behavior of stiffened composite laminated panel with embedded SMA wire using the hierarchical Rayleigh–Ritz method"
+      },
+      {
+        "publication_id": "2-s2.0-84981212648",
+        "eid": "84981212648",
+        "year": "2017",
+        "title": "Bird strike modeling in fiber-reinforced polymer composites"
+      },
+      {
+        "publication_id": "2-s2.0-85007569814",
+        "eid": "85007569814",
+        "year": "2017",
+        "title": "Anti-symmetrical curved composite laminate subject to delamination induced by thermal cycling"
+      },
+      {
+        "publication_id": "2-s2.0-85019068313",
+        "eid": "85019068313",
+        "year": "2017",
+        "title": "The temperature effects on the fracture toughness of carbon fiber/RTM-6 laminates processed by VARTM"
+      },
+      {
+        "publication_id": "2-s2.0-85011006652",
+        "eid": "85011006652",
+        "year": "2017",
+        "title": "The Role of Stitch Yarn on the Delamination Resistance in Non-crimp Fabric: Chemical and Physical Interpretation"
+      },
+      {
+        "publication_id": "2-s2.0-84994246965",
+        "eid": "84994246965",
+        "year": "2017",
+        "title": "Assembly of semi-analytical models to address linear buckling and vibration of stiffened composite panels with debonding defect"
+      },
+      {
+        "publication_id": "2-s2.0-85046032865",
+        "eid": "85046032865",
+        "year": "2017",
+        "title": "Mode I interlaminar fracture toughness analysis of Co-bonded and secondary bonded carbon fiber reinforced composites joints"
+      },
+      {
+        "publication_id": "2-s2.0-84991628141",
+        "eid": "84991628141",
+        "year": "2017",
+        "title": "Intraply failure criterion for unidirectional fiber reinforced composites by means of asymptotic homogenization"
+      },
+      {
+        "publication_id": "2-s2.0-85040019889",
+        "eid": "85040019889",
+        "year": "2017",
+        "title": "Applicability of the vibration correlation technique for estimation of the buckling load in axial compression of cylindrical isotropic shells with and without circular cutouts"
+      },
+      {
+        "publication_id": "2-s2.0-85088411202",
+        "eid": "85088411202",
+        "year": "2017",
+        "title": "Plans and suggestions of a verification case to the AIAA aeroelastic prediction workshop"
+      },
+      {
+        "publication_id": "2-s2.0-85088409396",
+        "eid": "85088409396",
+        "year": "2017",
+        "title": "An efficient parallel overset method for aerodynamic shape optimization"
+      },
+      {
+        "publication_id": "2-s2.0-85010312023",
+        "eid": "85010312023",
+        "year": "2016",
+        "title": "Modeling by interconnection and control by damping injection of a fluid-structure system with non-collocated actuators and sensors"
+      },
+      {
+        "publication_id": "2-s2.0-84994408866",
+        "eid": "84994408866",
+        "year": "2016",
+        "title": "Piezoelectric beam with distributed control ports: a power-preserving discretization using weak formulation."
+      },
+      {
+        "publication_id": "2-s2.0-84973341506",
+        "eid": "84973341506",
+        "year": "2016",
+        "title": "Simulation of stress concentration problems in laminated plates by quasi-Trefftz finite element models"
+      },
+      {
+        "publication_id": "2-s2.0-84978901299",
+        "eid": "84978901299",
+        "year": "2016",
+        "title": "Dynamic and aeroelastic behavior of composite plates with multimode resonant shunted piezoceramics in series"
+      },
+      {
+        "publication_id": "2-s2.0-84960406556",
+        "eid": "84960406556",
+        "year": "2016",
+        "title": "Aeroelastic behavior of composite laminated shells with embedded SMA wires under supersonic flow"
+      },
+      {
+        "publication_id": "2-s2.0-84960131382",
+        "eid": "84960131382",
+        "year": "2016",
+        "title": "Flutter suppression of plates subjected to supersonic flow using passive constrained viscoelastic layers and Golla-Hughes-McTavish method"
+      },
+      {
+        "publication_id": "2-s2.0-84953212729",
+        "eid": "84953212729",
+        "year": "2016",
+        "title": "Flutter of stiffened composite panels considering the stiffener's base as a structural element"
+      },
+      {
+        "publication_id": "2-s2.0-84958034016",
+        "eid": "84958034016",
+        "year": "2016",
+        "title": "The effects of curvature and internal pressure on the compression-after-impact strength of composite laminates"
+      },
+      {
+        "publication_id": "2-s2.0-84949516950",
+        "eid": "84949516950",
+        "year": "2016",
+        "title": "A brief discussion on (pure mode I) fatigue crack growth rate data in 5HS weave fabric composites: Evaluation of empirical relations"
+      },
+      {
+        "publication_id": "2-s2.0-84959511459",
+        "eid": "84959511459",
+        "year": "2016",
+        "title": "Flutter suppression of plates using passive constrained viscoelastic layers"
+      },
+      {
+        "publication_id": "2-s2.0-85018547751",
+        "eid": "85018547751",
+        "year": "2016",
+        "title": "Aeroelastic response of shape memory alloy hybrid composite cylindrical shells under supersonic flow"
+      },
+      {
+        "publication_id": "2-s2.0-84995518955",
+        "eid": "84995518955",
+        "year": "2016",
+        "title": "A failure criteria for unidirectional fiber reinforced composites based on micromechanics by asymptotic homogenization"
+      },
+      {
+        "publication_id": "2-s2.0-84964391062",
+        "eid": "84964391062",
+        "year": "2016",
+        "title": "Investigation on the Geometric Imperfections driven Local Buckling Onset in Composite Conical Shells"
+      },
+      {
+        "publication_id": "2-s2.0-84960978000",
+        "eid": "84960978000",
+        "year": "2016",
+        "title": "Modal characterization of composite flat plate models using piezoelectric transducers"
+      },
+      {
+        "publication_id": "2-s2.0-84937218555",
+        "eid": "84937218555",
+        "year": "2015",
+        "title": "The postbuckling behaviour of adhesively bonded stiffened panels subjected to in-plane shear loading"
+      },
+      {
+        "publication_id": "2-s2.0-84939526611",
+        "eid": "84939526611",
+        "year": "2015",
+        "title": "Applicability of standard delamination tests (double cantilever beam and end notch flexure) for 5HS fabric-reinforced composites in weft-dominated surface"
+      },
+      {
+        "publication_id": "2-s2.0-84934758179",
+        "eid": "84934758179",
+        "year": "2015",
+        "title": "A damage model for the prediction of static and fatigue-driven delamination in composite laminates"
+      },
+      {
+        "publication_id": "2-s2.0-84948581780",
+        "eid": "84948581780",
+        "year": "2015",
+        "title": "Investigation of Buckling Behavior of Composite Shell Structures with Cutouts"
+      },
+      {
+        "publication_id": "2-s2.0-84929155957",
+        "eid": "84929155957",
+        "year": "2015",
+        "title": "Experimental and numerical estimation of buckling load on unstiffened cylindrical shells using a vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-84938332369",
+        "eid": "84938332369",
+        "year": "2015",
+        "title": "The Influence of Geometrical Parameters on the Buckling Behavior of Conical Shell by the Single Perturbation Load Approach"
+      },
+      {
+        "publication_id": "2-s2.0-84940121684",
+        "eid": "84940121684",
+        "year": "2015",
+        "title": "Experimental nondestructive test for estimation of buckling load on unstiffened cylindrical shells using vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85043198688",
+        "eid": "85043198688",
+        "year": "2015",
+        "title": "On the data acquisiton for aeroelastic analysis using PZT (lead zirconate titanate) excitation and test parameters definition"
+      },
+      {
+        "publication_id": "2-s2.0-84903901050",
+        "eid": "84903901050",
+        "year": "2014",
+        "title": "Scattering of wavepackets by a flat plate in the vicinity of a turbulent jet"
+      },
+      {
+        "publication_id": "2-s2.0-84896800591",
+        "eid": "84896800591",
+        "year": "2014",
+        "title": "Vibration correlation technique for the estimation of real boundary conditions and buckling load of unstiffened plates and cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85186823354",
+        "eid": "85186823354",
+        "year": "2014",
+        "title": "Damage Modeling in Composite Structures"
+      },
+      {
+        "publication_id": "2-s2.0-84915745547",
+        "eid": "84915745547",
+        "year": "2014",
+        "title": "Fracture analysis in 5HS carbon composites subjected to pure modes I and II fatigue induced delamination"
+      },
+      {
+        "publication_id": "2-s2.0-84903502638",
+        "eid": "84903502638",
+        "year": "2014",
+        "title": "Damage Modeling in Composite Structures"
+      },
+      {
+        "publication_id": "2-s2.0-84900806672",
+        "eid": "84900806672",
+        "year": "2014",
+        "title": "Numerical prediction of compression after impact behavior of woven composite laminates"
+      },
+      {
+        "publication_id": "2-s2.0-84899672167",
+        "eid": "84899672167",
+        "year": "2014",
+        "title": "Fractography of aeronautical structural composite submitted to Mode II interlaminar fracture toughness test"
+      },
+      {
+        "publication_id": "2-s2.0-84919711488",
+        "eid": "84919711488",
+        "year": "2014",
+        "title": "Linear buckling predictions of unstiffened laminated composite cylinders and cones under various loading and boundary conditions using semi-analytical models"
+      },
+      {
+        "publication_id": "2-s2.0-84907320158",
+        "eid": "84907320158",
+        "year": "2014",
+        "title": "The single perturbation load approach applied to imperfection sensitive conical composite structures"
+      },
+      {
+        "publication_id": "2-s2.0-84900989860",
+        "eid": "84900989860",
+        "year": "2014",
+        "title": "Future structural stability design for composite space and airframe structures"
+      },
+      {
+        "publication_id": "2-s2.0-84896983736",
+        "eid": "84896983736",
+        "year": "2014",
+        "title": "Numerical characterization of imperfection sensitive composite structures"
+      },
+      {
+        "publication_id": "2-s2.0-84886502358",
+        "eid": "84886502358",
+        "year": "2014",
+        "title": "Geometric imperfections and lower-bound methods used to calculate knock-down factors for axially compressed composite cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-84915745182",
+        "eid": "84915745182",
+        "year": "2014",
+        "title": "Modal parameters identification of composite wing models using piezoelectric material"
+      },
+      {
+        "publication_id": "2-s2.0-84878528632",
+        "eid": "84878528632",
+        "year": "2013",
+        "title": "Farfield filtering and source imaging of subsonic jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-84880342507",
+        "eid": "84880342507",
+        "year": "2013",
+        "title": "Exploring the constancy of the global buckling load after a critical geometric imperfection level in thin-walled cylindrical shells for less conservative knock-down factors"
+      },
+      {
+        "publication_id": "2-s2.0-84881322861",
+        "eid": "84881322861",
+        "year": "2013",
+        "title": "Effects of the aerodynamic data in a MIMO system identification framework for aeroelastic analyses"
+      },
+      {
+        "publication_id": "2-s2.0-84880779872",
+        "eid": "84880779872",
+        "year": "2013",
+        "title": "Effects of the aerodynamic data in a MIMO system identification framework for aeroelastic analyses"
+      },
+      {
+        "publication_id": "2-s2.0-84860806336",
+        "eid": "84860806336",
+        "year": "2012",
+        "title": "Fractography of aeronautical composite structures submitted to mode i interlaminar fracture toughness characterization"
+      },
+      {
+        "publication_id": "2-s2.0-84881422824",
+        "eid": "84881422824",
+        "year": "2012",
+        "title": "Efficient calculation of aerodynamic states for aeroelastic analyses in the frequency domain"
+      },
+      {
+        "publication_id": "2-s2.0-84881413684",
+        "eid": "84881413684",
+        "year": "2012",
+        "title": "Nonlinear aeroelastic framework based on vortex-lattice method and corotational shell finite element"
+      },
+      {
+        "publication_id": "2-s2.0-79957949189",
+        "eid": "79957949189",
+        "year": "2011",
+        "title": "Using large eddy simulation to explore sound-source mechanisms in jets"
+      },
+      {
+        "publication_id": "2-s2.0-79958151948",
+        "eid": "79958151948",
+        "year": "2011",
+        "title": "Jittering wave-packet models for subsonic jet noise"
+      },
+      {
+        "publication_id": "2-s2.0-83455234933",
+        "eid": "83455234933",
+        "year": "2011",
+        "title": "Finite element procedure for stress amplification factor recovering in a representative volume of composite materials"
+      },
+      {
+        "publication_id": "2-s2.0-79951588988",
+        "eid": "79951588988",
+        "year": "2011",
+        "title": "Prebuckling enhancement of imperfect composite plates using piezoelectric actuators"
+      },
+      {
+        "publication_id": "2-s2.0-79951517237",
+        "eid": "79951517237",
+        "year": "2011",
+        "title": "An experimental and numerical analysis for the post-buckling behavior of composite shear webs"
+      },
+      {
+        "publication_id": "2-s2.0-79251563487",
+        "eid": "79251563487",
+        "year": "2010",
+        "title": "Intermittent sound generation and its control in a free-shear flow"
+      },
+      {
+        "publication_id": "2-s2.0-84855638763",
+        "eid": "84855638763",
+        "year": "2010",
+        "title": "Results of the GVT of the unmodified GARTEUR SM-AG19 testbed in South America"
+      },
+      {
+        "publication_id": "2-s2.0-77955281897",
+        "eid": "77955281897",
+        "year": "2010",
+        "title": "A numerical study on the impact resistance of composite shells using an energy based failure model"
+      },
+      {
+        "publication_id": "2-s2.0-77953855458",
+        "eid": "77953855458",
+        "year": "2010",
+        "title": "A numerical model for post-buckling analysis of composite shear webs"
+      },
+      {
+        "publication_id": "2-s2.0-77952790400",
+        "eid": "77952790400",
+        "year": "2010",
+        "title": "The use of piezoelectric stress stiffening to enhance buckling of laminated plates"
+      },
+      {
+        "publication_id": "2-s2.0-85076867581",
+        "eid": "85076867581",
+        "year": "2009",
+        "title": "The structural behaviour of stiffened composite panels subjected to in-plane shear loading"
+      },
+      {
+        "publication_id": "2-s2.0-43049103408",
+        "eid": "43049103408",
+        "year": "2008",
+        "title": "A progressive failure model for composite laminates subjected to low velocity impact damage"
+      },
+      {
+        "publication_id": "2-s2.0-34248578619",
+        "eid": "34248578619",
+        "year": "2007",
+        "title": "A 3-D micromechanical model for predicting the elastic behaviour of woven laminates"
+      },
+      {
+        "publication_id": "2-s2.0-34147101172",
+        "eid": "34147101172",
+        "year": "2007",
+        "title": "Intralaminar toughness characterisation of unbalanced hybrid plain weave laminates"
+      },
+      {
+        "publication_id": "2-s2.0-85076869038",
+        "eid": "85076869038",
+        "year": "2007",
+        "title": "Measurement of fibre fracture toughness using an alternative specimen geometry"
+      },
+      {
+        "publication_id": "2-s2.0-33645147823",
+        "eid": "33645147823",
+        "year": "2006",
+        "title": "Delamination threshold load for dynamic impact on plates"
+      },
+      {
+        "publication_id": "2-s2.0-28844495465",
+        "eid": "28844495465",
+        "year": "2005",
+        "title": "Transonic AIC weighting method using successive kernel expansion"
+      },
+      {
+        "publication_id": "2-s2.0-0033888430",
+        "eid": "0033888430",
+        "year": "2000",
+        "title": "Stiffening effects on the free vibration behavior of composite plates with PZT actuators"
+      }
+    ]
+  },
+  "estruturas-aeroespaciais": {
+    "id": "estruturas-aeroespaciais",
+    "total_publicacoes": 50,
+    "total_docentes": 9,
+    "docentes": [
+      "airton-nabarrete",
+      "antonio-b-guimaraes-neto",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "mariano-andres-arbelo",
+      "mauricio-v-donadon",
+      "ney-rafael-secco",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-86000369952",
+        "eid": "86000369952",
+        "year": "2025",
+        "title": "Simplified integrated model of the flight dynamics of flexible aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-105008499409",
+        "eid": "105008499409",
+        "year": "2025",
+        "title": "Nonlinear aeroelastic analysis of a skew reinforced composite panel"
+      },
+      {
+        "publication_id": "2-s2.0-105019500323",
+        "eid": "105019500323",
+        "year": "2024",
+        "title": "RAYLEIGH-RITZ METHOD WITH MULTIBODY DYNAMICS FOR HIGHLY FLEXIBLE STRUCTURES"
+      },
+      {
+        "publication_id": "2-s2.0-85170257480",
+        "eid": "85170257480",
+        "year": "2023",
+        "title": "Non-linear solution for beams in terms of the Weierstrass ℘-function using new methodology"
+      },
+      {
+        "publication_id": "2-s2.0-85168770112",
+        "eid": "85168770112",
+        "year": "2023",
+        "title": "A semi-analytical model for buckling and stress analyses of pressurized composite cylinders"
+      },
+      {
+        "publication_id": "2-s2.0-85144614327",
+        "eid": "85144614327",
+        "year": "2023",
+        "title": "Sensitivity analysis for buckling characterisation using the vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85120168694",
+        "eid": "85120168694",
+        "year": "2022",
+        "title": "A semi-analytical model for shear buckling analysis of stiffened composite panel with debonding defect"
+      },
+      {
+        "publication_id": "2-s2.0-85137268710",
+        "eid": "85137268710",
+        "year": "2022",
+        "title": "Enhanced vibration correlation technique to predict the buckling load of unstiffened composite cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85077399976",
+        "eid": "85077399976",
+        "year": "2020",
+        "title": "Static loads evaluation in a flexible aircraft using high-fidelity fluid–structure iteration tool (E2-FSI): extended version"
+      },
+      {
+        "publication_id": "2-s2.0-85084244912",
+        "eid": "85084244912",
+        "year": "2019",
+        "title": "Nonlinear high fidelity static aeroelastic effect on the flexible pitching moment aerodynamic coefficient for a transport aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85055752483",
+        "eid": "85055752483",
+        "year": "2019",
+        "title": "ES-PIM applied to buckling of variable angle tow laminates"
+      },
+      {
+        "publication_id": "2-s2.0-85066875204",
+        "eid": "85066875204",
+        "year": "2019",
+        "title": "Experimental validation of the vibration correlation technique robustness to predict buckling of unstiffened composite cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85063294775",
+        "eid": "85063294775",
+        "year": "2019",
+        "title": "Vibration correlation technique for predicting the buckling load of imperfection-sensitive isotropic cylindrical shells: An analytical and numerical verification"
+      },
+      {
+        "publication_id": "2-s2.0-85060484603",
+        "eid": "85060484603",
+        "year": "2019",
+        "title": "Assessing the axial buckling load of a pressurized orthotropic cylindrical shell through vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-85060441016",
+        "eid": "85060441016",
+        "year": "2018",
+        "title": "Strain gages full bridge inside composite layers targeting wing shape feedback for flight control laws"
+      },
+      {
+        "publication_id": "2-s2.0-85060485210",
+        "eid": "85060485210",
+        "year": "2018",
+        "title": "Static loads evaluation in a flexible aircraft using high fidelity fluid-structure iteration tool (E2-FSI)"
+      },
+      {
+        "publication_id": "2-s2.0-85060464387",
+        "eid": "85060464387",
+        "year": "2018",
+        "title": "Multidisciplinary methods for wing flight shape analysis - Effect of the geometric nonlinear structure for static pull-up"
+      },
+      {
+        "publication_id": "2-s2.0-85065341604",
+        "eid": "85065341604",
+        "year": "2018",
+        "title": "Analytical, numerical, and experimental predictions for free vibrations and buckling of pressurized orthotropic cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-85141639334",
+        "eid": "85141639334",
+        "year": "2018",
+        "title": "Antagonistic shape memory alloy wire as an actuator in a morphing wing"
+      },
+      {
+        "publication_id": "2-s2.0-85141598569",
+        "eid": "85141598569",
+        "year": "2018",
+        "title": "Effects of sweep angle in aeroelastic response of wings made of isotropic and fiber reinforced composite materials"
+      },
+      {
+        "publication_id": "2-s2.0-85141563636",
+        "eid": "85141563636",
+        "year": "2018",
+        "title": "RANS-based aerodynamic shape optimization of a strut-braced wing with overset meshes"
+      },
+      {
+        "publication_id": "2-s2.0-85028590341",
+        "eid": "85028590341",
+        "year": "2017",
+        "title": "SDRE Control Applied to the Wheel Speed of a Compressed Air Engine with Crank-Connecting-Rod Mechanism"
+      },
+      {
+        "publication_id": "2-s2.0-84994246965",
+        "eid": "84994246965",
+        "year": "2017",
+        "title": "Assembly of semi-analytical models to address linear buckling and vibration of stiffened composite panels with debonding defect"
+      },
+      {
+        "publication_id": "2-s2.0-85040019889",
+        "eid": "85040019889",
+        "year": "2017",
+        "title": "Applicability of the vibration correlation technique for estimation of the buckling load in axial compression of cylindrical isotropic shells with and without circular cutouts"
+      },
+      {
+        "publication_id": "2-s2.0-85016312426",
+        "eid": "85016312426",
+        "year": "2017",
+        "title": "Experimental Test for Estimation of Buckling Load on Unstiffened Cylindrical shells by Vibration Correlation Technique"
+      },
+      {
+        "publication_id": "2-s2.0-85088411202",
+        "eid": "85088411202",
+        "year": "2017",
+        "title": "Plans and suggestions of a verification case to the AIAA aeroelastic prediction workshop"
+      },
+      {
+        "publication_id": "2-s2.0-85088409396",
+        "eid": "85088409396",
+        "year": "2017",
+        "title": "An efficient parallel overset method for aerodynamic shape optimization"
+      },
+      {
+        "publication_id": "2-s2.0-84953212729",
+        "eid": "84953212729",
+        "year": "2016",
+        "title": "Flutter of stiffened composite panels considering the stiffener's base as a structural element"
+      },
+      {
+        "publication_id": "2-s2.0-84964391062",
+        "eid": "84964391062",
+        "year": "2016",
+        "title": "Investigation on the Geometric Imperfections driven Local Buckling Onset in Composite Conical Shells"
+      },
+      {
+        "publication_id": "2-s2.0-84937218555",
+        "eid": "84937218555",
+        "year": "2015",
+        "title": "The postbuckling behaviour of adhesively bonded stiffened panels subjected to in-plane shear loading"
+      },
+      {
+        "publication_id": "2-s2.0-84948581780",
+        "eid": "84948581780",
+        "year": "2015",
+        "title": "Investigation of Buckling Behavior of Composite Shell Structures with Cutouts"
+      },
+      {
+        "publication_id": "2-s2.0-84929155957",
+        "eid": "84929155957",
+        "year": "2015",
+        "title": "Experimental and numerical estimation of buckling load on unstiffened cylindrical shells using a vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-84938332369",
+        "eid": "84938332369",
+        "year": "2015",
+        "title": "The Influence of Geometrical Parameters on the Buckling Behavior of Conical Shell by the Single Perturbation Load Approach"
+      },
+      {
+        "publication_id": "2-s2.0-84940121684",
+        "eid": "84940121684",
+        "year": "2015",
+        "title": "Experimental nondestructive test for estimation of buckling load on unstiffened cylindrical shells using vibration correlation technique"
+      },
+      {
+        "publication_id": "2-s2.0-84921957823",
+        "eid": "84921957823",
+        "year": "2015",
+        "title": "A semi-analytical approach for linear and non-linear analysis of unstiffened laminated composite cylinders and cones under axial, torsion and pressure loads"
+      },
+      {
+        "publication_id": "2-s2.0-84879933697",
+        "eid": "84879933697",
+        "year": "2014",
+        "title": "A new metamodel for reinforced panels under compressive loads and its application to the fuselage conception"
+      },
+      {
+        "publication_id": "2-s2.0-84896800591",
+        "eid": "84896800591",
+        "year": "2014",
+        "title": "Vibration correlation technique for the estimation of real boundary conditions and buckling load of unstiffened plates and cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-84919711488",
+        "eid": "84919711488",
+        "year": "2014",
+        "title": "Linear buckling predictions of unstiffened laminated composite cylinders and cones under various loading and boundary conditions using semi-analytical models"
+      },
+      {
+        "publication_id": "2-s2.0-84907320158",
+        "eid": "84907320158",
+        "year": "2014",
+        "title": "The single perturbation load approach applied to imperfection sensitive conical composite structures"
+      },
+      {
+        "publication_id": "2-s2.0-84900989860",
+        "eid": "84900989860",
+        "year": "2014",
+        "title": "Future structural stability design for composite space and airframe structures"
+      },
+      {
+        "publication_id": "2-s2.0-84896983736",
+        "eid": "84896983736",
+        "year": "2014",
+        "title": "Numerical characterization of imperfection sensitive composite structures"
+      },
+      {
+        "publication_id": "2-s2.0-84886502358",
+        "eid": "84886502358",
+        "year": "2014",
+        "title": "Geometric imperfections and lower-bound methods used to calculate knock-down factors for axially compressed composite cylindrical shells"
+      },
+      {
+        "publication_id": "2-s2.0-84880342507",
+        "eid": "84880342507",
+        "year": "2013",
+        "title": "Exploring the constancy of the global buckling load after a critical geometric imperfection level in thin-walled cylindrical shells for less conservative knock-down factors"
+      },
+      {
+        "publication_id": "2-s2.0-84880779872",
+        "eid": "84880779872",
+        "year": "2013",
+        "title": "Effects of the aerodynamic data in a MIMO system identification framework for aeroelastic analyses"
+      },
+      {
+        "publication_id": "2-s2.0-84870325932",
+        "eid": "84870325932",
+        "year": "2012",
+        "title": "Aeroelastic tailoring using fiber orientation and topology optimization"
+      },
+      {
+        "publication_id": "2-s2.0-79951517237",
+        "eid": "79951517237",
+        "year": "2011",
+        "title": "An experimental and numerical analysis for the post-buckling behavior of composite shear webs"
+      },
+      {
+        "publication_id": "2-s2.0-77953855458",
+        "eid": "77953855458",
+        "year": "2010",
+        "title": "A numerical model for post-buckling analysis of composite shear webs"
+      },
+      {
+        "publication_id": "2-s2.0-77952790400",
+        "eid": "77952790400",
+        "year": "2010",
+        "title": "The use of piezoelectric stress stiffening to enhance buckling of laminated plates"
+      },
+      {
+        "publication_id": "2-s2.0-85076867581",
+        "eid": "85076867581",
+        "year": "2009",
+        "title": "The structural behaviour of stiffened composite panels subjected to in-plane shear loading"
+      },
+      {
+        "publication_id": "2-s2.0-27644446151",
+        "eid": "27644446151",
+        "year": "2006",
+        "title": "Thermal analysis of an enriched flame incinerator for aqueous residues"
+      }
+    ]
+  },
+  "metodos-numericos": {
+    "id": "metodos-numericos",
+    "total_publicacoes": 64,
+    "total_docentes": 13,
+    "docentes": [
+      "airton-nabarrete",
+      "andre-fernando-c-silva",
+      "andre-v-g-cavalieri",
+      "antonio-b-guimaraes-neto",
+      "cristiane-aparecida-martins",
+      "flavio-luiz-c-ribeiro",
+      "flavio-luiz-da-s-bussamra",
+      "maisa-de-oliveira-terra",
+      "roberto-gil-annes-da-silva",
+      "rodrigo-costa-moura",
+      "tiago-barbosa-de-araujo",
+      "vinicius-malatesta",
+      "vitor-gabriel-kleine"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105016802787",
+        "eid": "105016802787",
+        "year": "2025",
+        "title": "Special Issue: data-driven and physics-based modelling of coherent structures in turbulent shear flow"
+      },
+      {
+        "publication_id": "2-s2.0-105020573020",
+        "eid": "105020573020",
+        "year": "2025",
+        "title": "Planar Oldroyd-B and Giesekus jet flow stability: Convective and absolute instability analysis"
+      },
+      {
+        "publication_id": "2-s2.0-85218350060",
+        "eid": "85218350060",
+        "year": "2025",
+        "title": "Wavy leading-edge phenomena on circular cylinder flow"
+      },
+      {
+        "publication_id": "2-s2.0-85210484189",
+        "eid": "85210484189",
+        "year": "2025",
+        "title": "Rotational shallow water equations with viscous damping and boundary control: structure-preserving spatial discretization"
+      },
+      {
+        "publication_id": "2-s2.0-85199363028",
+        "eid": "85199363028",
+        "year": "2024",
+        "title": "Coherent pressure structures in turbulent channel flow"
+      },
+      {
+        "publication_id": "2-s2.0-85185893053",
+        "eid": "85185893053",
+        "year": "2024",
+        "title": "Widest scales in turbulent channels"
+      },
+      {
+        "publication_id": "2-s2.0-105012422803",
+        "eid": "105012422803",
+        "year": "2024",
+        "title": "IMPLICIT LES VIA SPECTRAL/HP CG METHODS: RATIONALE AND COMPARISON TO OTHER LES/ILES"
+      },
+      {
+        "publication_id": "2-s2.0-85192327088",
+        "eid": "85192327088",
+        "year": "2024",
+        "title": "Joint-mode diffusion analysis of spectral/hp continuous Galerkin methods: Towards superior dissipation estimates for implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85187800854",
+        "eid": "85187800854",
+        "year": "2024",
+        "title": "Joint-mode diffusion analysis of discontinuous Galerkin methods: Towards superior dissipation estimates for nonlinear problems and implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85202295574",
+        "eid": "85202295574",
+        "year": "2024",
+        "title": "Port-Hamiltonian formulations for the modeling, simulation and control of fluids"
+      },
+      {
+        "publication_id": "2-s2.0-85187696168",
+        "eid": "85187696168",
+        "year": "2024",
+        "title": "Nonlinear Piezoelectric Vibration Energy Harvesting of a Cantilever Beam Using Homotopy Analysis Method"
+      },
+      {
+        "publication_id": "2-s2.0-85166750348",
+        "eid": "85166750348",
+        "year": "2023",
+        "title": "Large-eddy-simulation-informed resolvent-based estimation of turbulent pipe flow"
+      },
+      {
+        "publication_id": "2-s2.0-85162827125",
+        "eid": "85162827125",
+        "year": "2023",
+        "title": "Experimental control of Tollmien-Schlichting waves using the Wiener-Hopf formalism"
+      },
+      {
+        "publication_id": "2-s2.0-85151365367",
+        "eid": "85151365367",
+        "year": "2023",
+        "title": "Input-output analysis of the stochastic Navier-Stokes equations: Application to turbulent channel flow"
+      },
+      {
+        "publication_id": "2-s2.0-85172702974",
+        "eid": "85172702974",
+        "year": "2023",
+        "title": "Fully-discrete spatial eigenanalysis of discontinuous spectral element methods: Insights into well-resolved and under-resolved vortical flows"
+      },
+      {
+        "publication_id": "2-s2.0-85141594379",
+        "eid": "85141594379",
+        "year": "2022",
+        "title": "Reduced-order Galerkin models of plane Couette flow"
+      },
+      {
+        "publication_id": "2-s2.0-85141587270",
+        "eid": "85141587270",
+        "year": "2022",
+        "title": "Parabolic resolvent modes for streaky structures in transitional and turbulent boundary layers"
+      },
+      {
+        "publication_id": "2-s2.0-85128252124",
+        "eid": "85128252124",
+        "year": "2022",
+        "title": "Wave cancellation in jets with laminar and turbulent boundary layers: The effect of nonlinearity"
+      },
+      {
+        "publication_id": "2-s2.0-85132751974",
+        "eid": "85132751974",
+        "year": "2022",
+        "title": "The stability of wakes of floating wind turbines"
+      },
+      {
+        "publication_id": "2-s2.0-85138467013",
+        "eid": "85138467013",
+        "year": "2022",
+        "title": "Spectral/hp element methods' linear mechanism of (apparent) energy transfer in Fourier space: Insights into dispersion analysis for implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85136284061",
+        "eid": "85136284061",
+        "year": "2022",
+        "title": "Design and Flight Test of a Stability Augmentation System for a Flexible Aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85120995089",
+        "eid": "85120995089",
+        "year": "2021",
+        "title": "Real-time reactive control of stochastic disturbances in forced turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85108987188",
+        "eid": "85108987188",
+        "year": "2021",
+        "title": "Causality in the shock wave/turbulent boundary layer interaction"
+      },
+      {
+        "publication_id": "2-s2.0-85103445828",
+        "eid": "85103445828",
+        "year": "2021",
+        "title": "Structure interactions in a reduced-order model for wall-bounded turbulence"
+      },
+      {
+        "publication_id": "2-s2.0-85100289805",
+        "eid": "85100289805",
+        "year": "2021",
+        "title": "Experimental control of Tollmien–Schlichting waves using pressure sensors and plasma actuators"
+      },
+      {
+        "publication_id": "2-s2.0-85100083070",
+        "eid": "85100083070",
+        "year": "2021",
+        "title": "Cross proper orthogonal decomposition"
+      },
+      {
+        "publication_id": "2-s2.0-85120952903",
+        "eid": "85120952903",
+        "year": "2021",
+        "title": "Dissipative shallow water equations: A port-Hamiltonian formulation"
+      },
+      {
+        "publication_id": "2-s2.0-85100832644",
+        "eid": "85100832644",
+        "year": "2021",
+        "title": "Port-hamiltonian model of two-dimensional shallow water equations in moving containers"
+      },
+      {
+        "publication_id": "2-s2.0-85119434373",
+        "eid": "85119434373",
+        "year": "2021",
+        "title": "Design of stability augmentation systems for flexible aircraft using projective control"
+      },
+      {
+        "publication_id": "2-s2.0-85079066030",
+        "eid": "85079066030",
+        "year": "2020",
+        "title": "Spatial eigenanalysis of spectral/hp continuous Galerkin schemes and their stabilisation via DG-mimicking spectral vanishing viscosity for high Reynolds number flows"
+      },
+      {
+        "publication_id": "2-s2.0-85089723070",
+        "eid": "85089723070",
+        "year": "2020",
+        "title": "Erosion wear evaluation using nektar+ +"
+      },
+      {
+        "publication_id": "2-s2.0-85089721526",
+        "eid": "85089721526",
+        "year": "2020",
+        "title": "Viscous diffusion effects in the eigenanalysis of (hybridisable) dg methods"
+      },
+      {
+        "publication_id": "2-s2.0-85085201356",
+        "eid": "85085201356",
+        "year": "2020",
+        "title": "Under-Resolved DNS of Non-trivial Turbulent Boundary Layers via Spectral/hp CG Schemes"
+      },
+      {
+        "publication_id": "2-s2.0-85097611050",
+        "eid": "85097611050",
+        "year": "2020",
+        "title": "Single image molecular tagging velocimetry"
+      },
+      {
+        "publication_id": "2-s2.0-85076594986",
+        "eid": "85076594986",
+        "year": "2020",
+        "title": "Dynamics and control of periodic and non-periodic behavior of Duffing vibrating system with fractional damping and excited by a non-ideal motor"
+      },
+      {
+        "publication_id": "2-s2.0-85072912968",
+        "eid": "85072912968",
+        "year": "2019",
+        "title": "Trailing-edge noise from the scattering of spanwise-coherent structures"
+      },
+      {
+        "publication_id": "2-s2.0-85069736752",
+        "eid": "85069736752",
+        "year": "2019",
+        "title": "Resolvent-based modeling of coherent wave packets in a turbulent jet"
+      },
+      {
+        "publication_id": "2-s2.0-85058569435",
+        "eid": "85058569435",
+        "year": "2019",
+        "title": "Non-modal analysis of spectral element methods: Towards accurate and robust large-eddy simulations"
+      },
+      {
+        "publication_id": "2-s2.0-85061303654",
+        "eid": "85061303654",
+        "year": "2019",
+        "title": "Implicit LES approaches via discontinuous galerkin methods at very large reynolds"
+      },
+      {
+        "publication_id": "2-s2.0-85068111122",
+        "eid": "85068111122",
+        "year": "2019",
+        "title": "Influence of airframe flexibility on pilot-induced oscillations"
+      },
+      {
+        "publication_id": "2-s2.0-85046680673",
+        "eid": "85046680673",
+        "year": "2018",
+        "title": "Passive control of coherent structures in a modified backwards-facing step flow"
+      },
+      {
+        "publication_id": "2-s2.0-85059430576",
+        "eid": "85059430576",
+        "year": "2018",
+        "title": "Data-assimilated low-order vortex modeling of separated flows"
+      },
+      {
+        "publication_id": "2-s2.0-85048835225",
+        "eid": "85048835225",
+        "year": "2018",
+        "title": "A comparative study on polynomial dealiasing and split form discontinuous Galerkin schemes for under-resolved turbulence computations"
+      },
+      {
+        "publication_id": "2-s2.0-85030677310",
+        "eid": "85030677310",
+        "year": "2018",
+        "title": "Spatial eigensolution analysis of discontinuous Galerkin schemes with practical insights for under-resolved computations and implicit LES"
+      },
+      {
+        "publication_id": "2-s2.0-85040240868",
+        "eid": "85040240868",
+        "year": "2018",
+        "title": "Spatial eigensolution analysis of energy-stable flux reconstruction schemes and influence of the numerical flux on accuracy and robustness"
+      },
+      {
+        "publication_id": "2-s2.0-85037633524",
+        "eid": "85037633524",
+        "year": "2018",
+        "title": "Three dimensional hybrid-Trefftz stress finite elements for plates and shells"
+      },
+      {
+        "publication_id": "2-s2.0-85035811827",
+        "eid": "85035811827",
+        "year": "2018",
+        "title": "Three-dimensional hybrid-mixed stress elements for free vibration analysis"
+      },
+      {
+        "publication_id": "2-s2.0-85040066919",
+        "eid": "85040066919",
+        "year": "2017",
+        "title": "Experimental study of turbulent-jet wave packets and their acoustic efficiency"
+      },
+      {
+        "publication_id": "2-s2.0-85036558981",
+        "eid": "85036558981",
+        "year": "2017",
+        "title": "Wave packets and Orr mechanism in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85035098146",
+        "eid": "85035098146",
+        "year": "2017",
+        "title": "Turbulent jet noise in the absence of coherent structures"
+      },
+      {
+        "publication_id": "2-s2.0-85023643424",
+        "eid": "85023643424",
+        "year": "2017",
+        "title": "Two-point coherence of wave packets in turbulent jets"
+      },
+      {
+        "publication_id": "2-s2.0-85028258051",
+        "eid": "85028258051",
+        "year": "2017",
+        "title": "On the eddy-resolving capability of high-order discontinuous Galerkin approaches to implicit LES / under-resolved DNS of Euler turbulence"
+      },
+      {
+        "publication_id": "2-s2.0-85028254847",
+        "eid": "85028254847",
+        "year": "2017",
+        "title": "An LES Setting for DG-Based Implicit LES with Insights on Dissipation and Robustness"
+      },
+      {
+        "publication_id": "2-s2.0-84969218001",
+        "eid": "84969218001",
+        "year": "2016",
+        "title": "Lyapunov exponents and adaptive mesh refinement for high-speed flows using a discontinuous Galerkin scheme"
+      },
+      {
+        "publication_id": "2-s2.0-84951132816",
+        "eid": "84951132816",
+        "year": "2016",
+        "title": "Eigensolution analysis of spectral/hp continuous Galerkin approximations to advection-diffusion problems: Insights into spectral vanishing viscosity"
+      },
+      {
+        "publication_id": "2-s2.0-84994113145",
+        "eid": "84994113145",
+        "year": "2016",
+        "title": "Homotopy analysis of a forced nonlinear beam model with quadratic and cubic nonlinearities"
+      },
+      {
+        "publication_id": "2-s2.0-84973637715",
+        "eid": "84973637715",
+        "year": "2016",
+        "title": "Nonlinear vibrations of cantilever timoshenko beams: A homotopy analysis"
+      },
+      {
+        "publication_id": "2-s2.0-84943819608",
+        "eid": "84943819608",
+        "year": "2015",
+        "title": "Higher-order surface treatment for discontinuous Galerkin methods with applications to aerodynamics"
+      },
+      {
+        "publication_id": "2-s2.0-84936976834",
+        "eid": "84936976834",
+        "year": "2015",
+        "title": "Linear dispersion-diffusion analysis and its application to under-resolved turbulence simulations using discontinuous Galerkin spectral/hp methods"
+      },
+      {
+        "publication_id": "2-s2.0-84951920713",
+        "eid": "84951920713",
+        "year": "2015",
+        "title": "Modified equation analysis for the discontinuous galerkin formulation"
+      },
+      {
+        "publication_id": "2-s2.0-84907264029",
+        "eid": "84907264029",
+        "year": "2014",
+        "title": "Simulation of stress concentration problems by hexahedral hybrid-Trefftz finite element models"
+      },
+      {
+        "publication_id": "2-s2.0-79251563487",
+        "eid": "79251563487",
+        "year": "2010",
+        "title": "Intermittent sound generation and its control in a free-shear flow"
+      },
+      {
+        "publication_id": "2-s2.0-12744275736",
+        "eid": "12744275736",
+        "year": "2001",
+        "title": "Bifurcation and chaos in the second oscillatory window of the classical pierce diode"
+      },
+      {
+        "publication_id": "2-s2.0-0034850224",
+        "eid": "0034850224",
+        "year": "2001",
+        "title": "Hybrid-Trefftz stress elements for three-dimensional elastoplasticity"
+      }
+    ]
+  },
+  "propulsao-foguetes": {
+    "id": "propulsao-foguetes",
+    "total_publicacoes": 17,
+    "total_docentes": 5,
+    "docentes": [
+      "cristiane-aparecida-martins",
+      "mauricio-v-donadon",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva",
+      "tiago-barbosa-de-araujo"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85185132682",
+        "eid": "85185132682",
+        "year": "2023",
+        "title": "Performance Comparison of Paraffin/Ethanol Fuel Blends in a Laboratory-Scale Hybrid Rocket Motor"
+      },
+      {
+        "publication_id": "2-s2.0-85167562852",
+        "eid": "85167562852",
+        "year": "2022",
+        "title": "Two-Phase, Multicomponent Hydrogen Peroxide Blowdown Injector Modelling and Test Comparison"
+      },
+      {
+        "publication_id": "2-s2.0-85139218357",
+        "eid": "85139218357",
+        "year": "2022",
+        "title": "Mechanical characterization of single- and multiple-batch solid propellants using digital image correlation method"
+      },
+      {
+        "publication_id": "2-s2.0-85116813800",
+        "eid": "85116813800",
+        "year": "2021",
+        "title": "Stability assessment of L75 lox-ethanol rocket engine"
+      },
+      {
+        "publication_id": "2-s2.0-85095978345",
+        "eid": "85095978345",
+        "year": "2019",
+        "title": "Shutdown investigation in a LOx-ethanol subscale thrust chamber"
+      },
+      {
+        "publication_id": "2-s2.0-85073899471",
+        "eid": "85073899471",
+        "year": "2019",
+        "title": "Swirl injection of gaseous oxygen in a lab-scale paraffin hybrid rocket motor"
+      },
+      {
+        "publication_id": "2-s2.0-85088409613",
+        "eid": "85088409613",
+        "year": "2017",
+        "title": "L75 LOX Ethanol engine: Current status of thrust chamber and turbopump cooperative development"
+      },
+      {
+        "publication_id": "2-s2.0-85016059164",
+        "eid": "85016059164",
+        "year": "2017",
+        "title": "Preparation of paraffin-based solid combustible for hybrid propulsion rocket motor"
+      },
+      {
+        "publication_id": "2-s2.0-84978755650",
+        "eid": "84978755650",
+        "year": "2016",
+        "title": "A new approach to treating pressure oscillations in combustion instability phenomena"
+      },
+      {
+        "publication_id": "2-s2.0-84983516173",
+        "eid": "84983516173",
+        "year": "2016",
+        "title": "Burning rate and temperature measurements of HTPB/AP/A1 propellants at standard rocket motor tests"
+      },
+      {
+        "publication_id": "2-s2.0-84980396165",
+        "eid": "84980396165",
+        "year": "2015",
+        "title": "Thermogravimetric analysis of the decomposition of a paraffin particle/HTPB fuel grain for hybrid rocket motors"
+      },
+      {
+        "publication_id": "2-s2.0-84905575124",
+        "eid": "84905575124",
+        "year": "2014",
+        "title": "Effects of the number of tangential passages on spray characteristics of a bipropellant atomizer"
+      },
+      {
+        "publication_id": "2-s2.0-84876004474",
+        "eid": "84876004474",
+        "year": "2013",
+        "title": "A sensitivity investigation on the aeroelastic dynamic stability of slender spinning sounding rockets"
+      },
+      {
+        "publication_id": "2-s2.0-84887316385",
+        "eid": "84887316385",
+        "year": "2012",
+        "title": "Physical property and carbon black distribution impact on propulsion efficiency of paraffin-based fuel"
+      },
+      {
+        "publication_id": "2-s2.0-84887277025",
+        "eid": "84887277025",
+        "year": "2012",
+        "title": "Kinetics parameters evaluation of paraffin-based fuel"
+      },
+      {
+        "publication_id": "2-s2.0-82455220972",
+        "eid": "82455220972",
+        "year": "2011",
+        "title": "Development of test stand for experimental investigation of chemical and physical phenomena in liquid rocket engine"
+      },
+      {
+        "publication_id": "2-s2.0-84863594902",
+        "eid": "84863594902",
+        "year": "2011",
+        "title": "GEO + ES hybrid optimization algorithm applied to the parametric thermal model estimation of a 200n hydrazine thruster"
+      }
+    ]
+  },
+  "propulsao-aeronautica": {
+    "id": "propulsao-aeronautica",
+    "total_publicacoes": 14,
+    "total_docentes": 4,
+    "docentes": [
+      "cristiane-aparecida-martins",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva",
+      "vinicius-malatesta"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105018041383",
+        "eid": "105018041383",
+        "year": "2026",
+        "title": "Thermogravimetric investigation of thermal oxidation, kinetics, and synergistic effects on JET A-1 and its blend with a renewable fuel compound"
+      },
+      {
+        "publication_id": "2-s2.0-105010111224",
+        "eid": "105010111224",
+        "year": "2026",
+        "title": "Oxidative stability and molecular degradation of aviation fuels characterized by Raman spectroscopy"
+      },
+      {
+        "publication_id": "2-s2.0-105006899810",
+        "eid": "105006899810",
+        "year": "2025",
+        "title": "Integrated System for Biojet Fuel Production"
+      },
+      {
+        "publication_id": "2-s2.0-105018088720",
+        "eid": "105018088720",
+        "year": "2025",
+        "title": "Parametric Study of Propeller-Wing Aerodynamic Interaction Using VSPAERO for Conceptual Aircraft Design"
+      },
+      {
+        "publication_id": "2-s2.0-105018051535",
+        "eid": "105018051535",
+        "year": "2025",
+        "title": "Numerical Investigation of Simulated Horn Ice Shapes on Small-Scale Propeller Performance Degradation"
+      },
+      {
+        "publication_id": "2-s2.0-85169547611",
+        "eid": "85169547611",
+        "year": "2023",
+        "title": "Wing’s aerodynamic characteristics due to distributed propulsion over the wingspan"
+      },
+      {
+        "publication_id": "2-s2.0-85165410694",
+        "eid": "85165410694",
+        "year": "2023",
+        "title": "Low-pressure system adjustment based on aircraft cruise thrust"
+      },
+      {
+        "publication_id": "2-s2.0-85159605668",
+        "eid": "85159605668",
+        "year": "2022",
+        "title": "STUDY OF EFFECTS ON THE WING’S AERODYNAMIC CHARACTERISTICS DUE TO DISTRIBUTED PROPULSION OVER WINGSPAN"
+      },
+      {
+        "publication_id": "2-s2.0-85059761140",
+        "eid": "85059761140",
+        "year": "2019",
+        "title": "Turbofan engine performance optimization based on aircraft cruise thrust level"
+      },
+      {
+        "publication_id": "2-s2.0-84948414699",
+        "eid": "84948414699",
+        "year": "2015",
+        "title": "Analysis of Pollutant Emissions in Double-stage Swirl Chamber for Gas Turbine Application"
+      },
+      {
+        "publication_id": "2-s2.0-84943543158",
+        "eid": "84943543158",
+        "year": "2015",
+        "title": "Analysis of Pollutant Emissions in Double-stage Swirl Chamber for Gas Turbine Application"
+      },
+      {
+        "publication_id": "2-s2.0-84905575124",
+        "eid": "84905575124",
+        "year": "2014",
+        "title": "Effects of the number of tangential passages on spray characteristics of a bipropellant atomizer"
+      },
+      {
+        "publication_id": "2-s2.0-84891880993",
+        "eid": "84891880993",
+        "year": "2014",
+        "title": "Performance and emissions of a gas turbine engine using ox tallow ethyl-ester blended with kerosene"
+      },
+      {
+        "publication_id": "2-s2.0-84891618468",
+        "eid": "84891618468",
+        "year": "2013",
+        "title": "Effects of component size and cooling air flows on the performance, weight and dimensions of high and ultra-high bypass ratio turbofan engines"
+      }
+    ]
+  },
+  "propulsao-eletrica": {
+    "id": "propulsao-eletrica",
+    "total_publicacoes": 14,
+    "total_docentes": 2,
+    "docentes": [
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85207569013",
+        "eid": "85207569013",
+        "year": "2024",
+        "title": "Economic Aspects of Aircraft Propulsion Electrification"
+      },
+      {
+        "publication_id": "2-s2.0-85209750683",
+        "eid": "85209750683",
+        "year": "2024",
+        "title": "Exergy assessment comparison of conventional and hybrid-electric aircraft propulsion systems"
+      },
+      {
+        "publication_id": "2-s2.0-85160207661",
+        "eid": "85160207661",
+        "year": "2023",
+        "title": "Brazilian Engineering Research Center for the Aerial Mobility of the Future"
+      },
+      {
+        "publication_id": "2-s2.0-85127560048",
+        "eid": "85127560048",
+        "year": "2022",
+        "title": "Feasibility Study of Using Liquid Hydrogen Tanks as Energy Carriers and Cooling Agents for a Small Aircraft Powered by PEMFCs"
+      },
+      {
+        "publication_id": "2-s2.0-85124793062",
+        "eid": "85124793062",
+        "year": "2022",
+        "title": "Parametric determination of fuel consumption during cruise flight for fuel cell powered airplanes"
+      },
+      {
+        "publication_id": "2-s2.0-85126806868",
+        "eid": "85126806868",
+        "year": "2021",
+        "title": "Feasibility of Using Fuel Cell in a Small Aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85126714874",
+        "eid": "85126714874",
+        "year": "2021",
+        "title": "Economical Aspects of Aircraft Propulsion Electrification"
+      },
+      {
+        "publication_id": "2-s2.0-85122091443",
+        "eid": "85122091443",
+        "year": "2021",
+        "title": "Economical Aspects of Aircraft Propulsion Electrification"
+      },
+      {
+        "publication_id": "2-s2.0-85119586045",
+        "eid": "85119586045",
+        "year": "2021",
+        "title": "Evaluation of a regional aircraft with boundary layer ingestion and electric-fan propulsor"
+      },
+      {
+        "publication_id": "2-s2.0-85091751864",
+        "eid": "85091751864",
+        "year": "2020",
+        "title": "Optimal climb performance of electric aircraft for minimal charge consumption"
+      },
+      {
+        "publication_id": "2-s2.0-85078212323",
+        "eid": "85078212323",
+        "year": "2019",
+        "title": "Evaluation of a regional aircraft with fuselage boundary layer ingestion"
+      },
+      {
+        "publication_id": "2-s2.0-85095967985",
+        "eid": "85095967985",
+        "year": "2019",
+        "title": "Evaluation of a regional aircraft with fuselage boundary layer ingestion"
+      },
+      {
+        "publication_id": "2-s2.0-85099496985",
+        "eid": "85099496985",
+        "year": "2019",
+        "title": "Exergy and exergoeconomic comparative analysis between conventional and hybrid electric propulsion systems for a regional aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85083943146",
+        "eid": "85083943146",
+        "year": "2019",
+        "title": "Energy optimal climb performance of electric aircraft"
+      }
+    ]
+  },
+  "hipersonico-reentrada": {
+    "id": "hipersonico-reentrada",
+    "total_publicacoes": 3,
+    "total_docentes": 3,
+    "docentes": [
+      "andre-fernando-c-silva",
+      "cristiane-aparecida-martins",
+      "vinicius-malatesta"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85209820602",
+        "eid": "85209820602",
+        "year": "2024",
+        "title": "Evaluation of passive control systems for shock wave boundary layer interaction within a supersonic air inlet"
+      },
+      {
+        "publication_id": "2-s2.0-85097611050",
+        "eid": "85097611050",
+        "year": "2020",
+        "title": "Single image molecular tagging velocimetry"
+      },
+      {
+        "publication_id": "2-s2.0-85051139330",
+        "eid": "85051139330",
+        "year": "2018",
+        "title": "Velocity and NO-Lifetime Measurements in an Unseeded Hypersonic Air Flow"
+      }
+    ]
+  },
+  "mecanica-orbital": {
+    "id": "mecanica-orbital",
+    "total_publicacoes": 52,
+    "total_docentes": 10,
+    "docentes": [
+      "antonio-b-guimaraes-neto",
+      "cristiane-aparecida-martins",
+      "flavio-luiz-c-ribeiro",
+      "luiz-arthur-gagg-filho",
+      "maisa-de-oliveira-terra",
+      "ney-rafael-secco",
+      "pedro-teixeira-lacava",
+      "roberto-gil-annes-da-silva",
+      "tiago-barbosa-de-araujo",
+      "willer-gomes-dos-santos"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105001061502",
+        "eid": "105001061502",
+        "year": "2025",
+        "title": "A semi-analytic theory for preliminary analysis of GARATÉA-L Brazilian lunar mission"
+      },
+      {
+        "publication_id": "2-s2.0-85206079827",
+        "eid": "85206079827",
+        "year": "2024",
+        "title": "Surrogate Modeling of a Lumped-Mass Multibody Structure Using Hamiltonian Neural Networks"
+      },
+      {
+        "publication_id": "2-s2.0-85204218216",
+        "eid": "85204218216",
+        "year": "2024",
+        "title": "Simultaneous Estimation of Engine Deck and Drag Polar Based on Specific Excess Power Measurement"
+      },
+      {
+        "publication_id": "2-s2.0-105019491057",
+        "eid": "105019491057",
+        "year": "2024",
+        "title": "SURROGATE MODELING OF HIGHLY FLEXIBLE STRUCTURES AND AERODYNAMICS USING NEURAL NETWORKS"
+      },
+      {
+        "publication_id": "2-s2.0-85204243455",
+        "eid": "85204243455",
+        "year": "2024",
+        "title": "The wing swept angle influence on longitudinal dynamic stability in a combat aircraft configuration"
+      },
+      {
+        "publication_id": "2-s2.0-85203458178",
+        "eid": "85203458178",
+        "year": "2024",
+        "title": "A Non-Viscous Investigation of Mesh Refinement and Sweep Angle Effects on Combat Fighters"
+      },
+      {
+        "publication_id": "2-s2.0-85203000114",
+        "eid": "85203000114",
+        "year": "2024",
+        "title": "A Fully Data-Driven Generative Design Routine for Subsonic Airfoils Based on Adversarial Autoencoders"
+      },
+      {
+        "publication_id": "2-s2.0-85180266071",
+        "eid": "85180266071",
+        "year": "2023",
+        "title": "Solar sail dynamics in the Sun–Earth system: effects of SRP in the Earth Hill’s region"
+      },
+      {
+        "publication_id": "2-s2.0-85162212768",
+        "eid": "85162212768",
+        "year": "2023",
+        "title": "Analysis of the dynamics of a spacecraft in the vicinity of an asteroid binary system with equal masses"
+      },
+      {
+        "publication_id": "2-s2.0-85162131945",
+        "eid": "85162131945",
+        "year": "2023",
+        "title": "NUMERICAL INVESTIGATIONS OF THE ORBITAL DYNAMICS AROUND A SYNCHRONOUS BINARY SYSTEM OF ASTEROIDS"
+      },
+      {
+        "publication_id": "2-s2.0-85165031253",
+        "eid": "85165031253",
+        "year": "2023",
+        "title": "Powered lunar flyby for transfers between non-coplanar orbits around Earth"
+      },
+      {
+        "publication_id": "2-s2.0-85162035219",
+        "eid": "85162035219",
+        "year": "2023",
+        "title": "OPTIMAL TWO-IMPULSE INTERPLANETARY TRAJECTORIES: EARTH-VENUS AND EARTH-MARS MISSIONS"
+      },
+      {
+        "publication_id": "2-s2.0-85185132682",
+        "eid": "85185132682",
+        "year": "2023",
+        "title": "Performance Comparison of Paraffin/Ethanol Fuel Blends in a Laboratory-Scale Hybrid Rocket Motor"
+      },
+      {
+        "publication_id": "2-s2.0-85138768125",
+        "eid": "85138768125",
+        "year": "2022",
+        "title": "Optimal transfers from Moon to L2 halo orbit of the Earth-Moon system"
+      },
+      {
+        "publication_id": "2-s2.0-85136284061",
+        "eid": "85136284061",
+        "year": "2022",
+        "title": "Design and Flight Test of a Stability Augmentation System for a Flexible Aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-85129553552",
+        "eid": "85129553552",
+        "year": "2022",
+        "title": "Optimal earth–moon trajectories in elliptic models: part 2 transfer between elliptic low earth orbit to elliptic low moon orbit"
+      },
+      {
+        "publication_id": "2-s2.0-85119434373",
+        "eid": "85119434373",
+        "year": "2021",
+        "title": "Design of stability augmentation systems for flexible aircraft using projective control"
+      },
+      {
+        "publication_id": "2-s2.0-85120736344",
+        "eid": "85120736344",
+        "year": "2021",
+        "title": "Optimal Earth–Moon trajectories in elliptic models: part 1 round-trip missions"
+      },
+      {
+        "publication_id": "2-s2.0-85096478240",
+        "eid": "85096478240",
+        "year": "2020",
+        "title": "Attitude determination strategy based on kalman filter for the sport cubesat science mission"
+      },
+      {
+        "publication_id": "2-s2.0-85076561248",
+        "eid": "85076561248",
+        "year": "2019",
+        "title": "Extending Geostationary Orbit Missions for Lunar Observations"
+      },
+      {
+        "publication_id": "2-s2.0-85079120748",
+        "eid": "85079120748",
+        "year": "2019",
+        "title": "Contributions of Venus swing-by maneuver in Earth-Mars transfers"
+      },
+      {
+        "publication_id": "2-s2.0-85068111122",
+        "eid": "85068111122",
+        "year": "2019",
+        "title": "Influence of airframe flexibility on pilot-induced oscillations"
+      },
+      {
+        "publication_id": "2-s2.0-85072769526",
+        "eid": "85072769526",
+        "year": "2019",
+        "title": "A method based on Jacobi Integral variational equation for computing Earth-Moon trajectories in the four-body problem"
+      },
+      {
+        "publication_id": "2-s2.0-85073899471",
+        "eid": "85073899471",
+        "year": "2019",
+        "title": "Swirl injection of gaseous oxygen in a lab-scale paraffin hybrid rocket motor"
+      },
+      {
+        "publication_id": "2-s2.0-85053297916",
+        "eid": "85053297916",
+        "year": "2018",
+        "title": "Fast Earth–Moon transfers with ballistic capture"
+      },
+      {
+        "publication_id": "2-s2.0-85059850965",
+        "eid": "85059850965",
+        "year": "2018",
+        "title": "Interplanetary patched-conic approximation with an intermediary swing-by maneuver with the moon"
+      },
+      {
+        "publication_id": "2-s2.0-85059842403",
+        "eid": "85059842403",
+        "year": "2018",
+        "title": "A study of Earth–Moon trajectories based on analytical expressions for the velocity increments"
+      },
+      {
+        "publication_id": "2-s2.0-85048897602",
+        "eid": "85048897602",
+        "year": "2018",
+        "title": "A lunar flyby for a tridimensional Earth-to-Earth mission"
+      },
+      {
+        "publication_id": "2-s2.0-85049789380",
+        "eid": "85049789380",
+        "year": "2018",
+        "title": "Minimum fuel trajectories for round trip lunar missions"
+      },
+      {
+        "publication_id": "2-s2.0-85039042202",
+        "eid": "85039042202",
+        "year": "2018",
+        "title": "Analysis of impulsive maneuvers to keep orbits around the asteroid 2001SN263"
+      },
+      {
+        "publication_id": "2-s2.0-85016059164",
+        "eid": "85016059164",
+        "year": "2017",
+        "title": "Preparation of paraffin-based solid combustible for hybrid propulsion rocket motor"
+      },
+      {
+        "publication_id": "2-s2.0-85012932129",
+        "eid": "85012932129",
+        "year": "2017",
+        "title": "A study of the influence of the sun on optimal two-impulse Earth-to-Moon trajectories with moderate time of flight in the three-body and four-body models"
+      },
+      {
+        "publication_id": "2-s2.0-84963616146",
+        "eid": "84963616146",
+        "year": "2016",
+        "title": "A survey of different classes of Earth-to-Moon trajectories in the patched three-body approach"
+      },
+      {
+        "publication_id": "2-s2.0-85016509053",
+        "eid": "85016509053",
+        "year": "2016",
+        "title": "A heuristic strategy to compute ensembles of trajectories for 3D low-cost Earth-Moon transfers"
+      },
+      {
+        "publication_id": "2-s2.0-85016488885",
+        "eid": "85016488885",
+        "year": "2016",
+        "title": "Optimisation of low-thrust and hybrid Earth-Moon transfers"
+      },
+      {
+        "publication_id": "2-s2.0-84989917690",
+        "eid": "84989917690",
+        "year": "2016",
+        "title": "Optimal round trip lunar missions based on the patched-conic approximation"
+      },
+      {
+        "publication_id": "2-s2.0-85088757829",
+        "eid": "85088757829",
+        "year": "2016",
+        "title": "Finding the optimal spatial geometry in an earth-moon mission"
+      },
+      {
+        "publication_id": "2-s2.0-84991585242",
+        "eid": "84991585242",
+        "year": "2015",
+        "title": "Escape dynamics in the solar system: Applications to small body missions with the rtbp"
+      },
+      {
+        "publication_id": "2-s2.0-84991577484",
+        "eid": "84991577484",
+        "year": "2015",
+        "title": "Long term capture of asteroids for resources and scientific exploitation using hyperbolic objects in the solar system"
+      },
+      {
+        "publication_id": "2-s2.0-84958624885",
+        "eid": "84958624885",
+        "year": "2015",
+        "title": "Preliminary Analysis of Optimal Round Trip Lunar Missions"
+      },
+      {
+        "publication_id": "2-s2.0-84991448017",
+        "eid": "84991448017",
+        "year": "2015",
+        "title": "IAC-15-B4.7 Using can protocol in nanosatellites"
+      },
+      {
+        "publication_id": "2-s2.0-84943329017",
+        "eid": "84943329017",
+        "year": "2015",
+        "title": "Multi-objective optimization applied to real-time command problem of spacecraft thrusters"
+      },
+      {
+        "publication_id": "2-s2.0-84937027275",
+        "eid": "84937027275",
+        "year": "2014",
+        "title": "Escape dynamics and fractal basin boundaries in the planar Earth–Moon system"
+      },
+      {
+        "publication_id": "2-s2.0-85085401970",
+        "eid": "85085401970",
+        "year": "2014",
+        "title": "Dynamical possibilities to design earth-to-moon transfers in the patched-three body approximation"
+      },
+      {
+        "publication_id": "2-s2.0-84937698791",
+        "eid": "84937698791",
+        "year": "2014",
+        "title": "Evidences of diffusion related to the center manifold of L3 of the SRTBP"
+      },
+      {
+        "publication_id": "2-s2.0-84937681172",
+        "eid": "84937681172",
+        "year": "2014",
+        "title": "A survey of different classes of Earth-to-Moon trajectories in the patched three-body approach"
+      },
+      {
+        "publication_id": "2-s2.0-84937678339",
+        "eid": "84937678339",
+        "year": "2014",
+        "title": "Families of heteroclinic connections between quasi-periodic libration point trajectories"
+      },
+      {
+        "publication_id": "2-s2.0-84893320222",
+        "eid": "84893320222",
+        "year": "2013",
+        "title": "Practical stability domains near L4,5 in the Restricted Three-Body Problem: Some preliminary facts"
+      },
+      {
+        "publication_id": "2-s2.0-84865827070",
+        "eid": "84865827070",
+        "year": "2012",
+        "title": "Diversity and validity of stable-unstable transitions in the algorithmic weak stability boundary"
+      },
+      {
+        "publication_id": "2-s2.0-84863111775",
+        "eid": "84863111775",
+        "year": "2012",
+        "title": "Applicability and dynamical characterization of the associated sets of the algorithmic weak stability boundary in the lunar sphere of influence"
+      },
+      {
+        "publication_id": "2-s2.0-78651225993",
+        "eid": "78651225993",
+        "year": "2010",
+        "title": "Dynamical properties of the weak stability boundary and associated sets"
+      },
+      {
+        "publication_id": "2-s2.0-65649111218",
+        "eid": "65649111218",
+        "year": "2009",
+        "title": "Experimental evaluation of low pressure-swirl atomizer applied engineering design procedure"
+      }
+    ]
+  },
+  "satelites": {
+    "id": "satelites",
+    "total_publicacoes": 8,
+    "total_docentes": 4,
+    "docentes": [
+      "flavio-luiz-c-ribeiro",
+      "maisa-de-oliveira-terra",
+      "pedro-teixeira-lacava",
+      "willer-gomes-dos-santos"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-85142167775",
+        "eid": "85142167775",
+        "year": "2022",
+        "title": "Influence of thrust modulation on a satellite with flexible non-latching booms"
+      },
+      {
+        "publication_id": "2-s2.0-85122349852",
+        "eid": "85122349852",
+        "year": "2022",
+        "title": "Impact of non-latching booms on a nanosatellite attitude control system"
+      },
+      {
+        "publication_id": "2-s2.0-85138768125",
+        "eid": "85138768125",
+        "year": "2022",
+        "title": "Optimal transfers from Moon to L2 halo orbit of the Earth-Moon system"
+      },
+      {
+        "publication_id": "2-s2.0-85142267754",
+        "eid": "85142267754",
+        "year": "2022",
+        "title": "Archimedean spiral waveguide as efficient all-optical phase modulator for space laser beam pointing"
+      },
+      {
+        "publication_id": "2-s2.0-85123381165",
+        "eid": "85123381165",
+        "year": "2021",
+        "title": "Archimedean spiral waveguide as a phase shifter for Optical Phased Arrays"
+      },
+      {
+        "publication_id": "2-s2.0-85096478240",
+        "eid": "85096478240",
+        "year": "2020",
+        "title": "Attitude determination strategy based on kalman filter for the sport cubesat science mission"
+      },
+      {
+        "publication_id": "2-s2.0-85053861970",
+        "eid": "85053861970",
+        "year": "2018",
+        "title": "A new look at the uncontrollable linearized quaternion dynamics with implications to LQR design in underactuated systems"
+      },
+      {
+        "publication_id": "2-s2.0-84991448017",
+        "eid": "84991448017",
+        "year": "2015",
+        "title": "IAC-15-B4.7 Using can protocol in nanosatellites"
+      }
+    ]
+  },
+  "projeto-aeroespacial": {
+    "id": "projeto-aeroespacial",
+    "total_publicacoes": 11,
+    "total_docentes": 3,
+    "docentes": [
+      "ney-rafael-secco",
+      "roberto-gil-annes-da-silva",
+      "tiago-barbosa-de-araujo"
+    ],
+    "publicacoes": [
+      {
+        "publication_id": "2-s2.0-105017961785",
+        "eid": "105017961785",
+        "year": "2025",
+        "title": "Aerodynamic design and analysis of an interchangeable aircraft model for propeller integration and aeropropulsive studies"
+      },
+      {
+        "publication_id": "2-s2.0-105018088720",
+        "eid": "105018088720",
+        "year": "2025",
+        "title": "Parametric Study of Propeller-Wing Aerodynamic Interaction Using VSPAERO for Conceptual Aircraft Design"
+      },
+      {
+        "publication_id": "2-s2.0-105018051535",
+        "eid": "105018051535",
+        "year": "2025",
+        "title": "Numerical Investigation of Simulated Horn Ice Shapes on Small-Scale Propeller Performance Degradation"
+      },
+      {
+        "publication_id": "2-s2.0-85209750683",
+        "eid": "85209750683",
+        "year": "2024",
+        "title": "Exergy assessment comparison of conventional and hybrid-electric aircraft propulsion systems"
+      },
+      {
+        "publication_id": "2-s2.0-85129178516",
+        "eid": "85129178516",
+        "year": "2022",
+        "title": "Estimation of lift characteristics of a subscale fighter using low-cost experimental methods"
+      },
+      {
+        "publication_id": "2-s2.0-85111113831",
+        "eid": "85111113831",
+        "year": "2021",
+        "title": "Decision tree classifiers for unmanned aircraft configuration selection"
+      },
+      {
+        "publication_id": "2-s2.0-85014756204",
+        "eid": "85014756204",
+        "year": "2017",
+        "title": "Artificial neural networks to predict aerodynamic coefficients of transport airplanes"
+      },
+      {
+        "publication_id": "2-s2.0-85013677818",
+        "eid": "85013677818",
+        "year": "2016",
+        "title": "Subscale flight testing of a generic fighter aircraft"
+      },
+      {
+        "publication_id": "2-s2.0-84980350897",
+        "eid": "84980350897",
+        "year": "2015",
+        "title": "Artificial neural networks applied to airplane design"
+      },
+      {
+        "publication_id": "2-s2.0-84888786546",
+        "eid": "84888786546",
+        "year": "2013",
+        "title": "An airplane calculator featuring a high-fidelity methodology for tailplane sizing"
+      },
+      {
+        "publication_id": "2-s2.0-84884148651",
+        "eid": "84884148651",
+        "year": "2013",
+        "title": "Optimal design of a high-altitude solar-powered unmanned airplane"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-84991448017",
+  "eid": "2-s2.0-84991448017",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "IAC-15-B4.7 Using can protocol in nanosatellites",
+  "abstract": "CubeSats are tiny satellites shaped in cubic structures. The usage of a parallel interface for data exchange between on-board microcontrollers is not likely useful as it uses several pins. Therefore a serial interface is needed. Within this context, this work presents the CAN (controller area network) protocol, originally developed for automobile use, applied into a CubeSat for on-board subsystem communication. A pattern was defined for the 11 bits CAN message ID featuring priority, origin and message identification. Then, reception can be made independently for each property or as usual for a specific message. This way messages are received based on events of CAN hardware. The verification of the proposed CAN protocol is done using specific prototypes developed for these tests. The observed results suggest this protocol fits into the requirements of data transmission rate and reliability suitable for applications on the aerospace environment.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": "4778-4780",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Hoffmann, Cleber Toss",
+      "scopus_id": "57191536059",
+      "affiliation": "117529876",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, Mateus Oliveira",
+      "scopus_id": "57191541387",
+      "affiliation": "117529876",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Burger, Eduardo Escobar",
+      "scopus_id": "41261018900",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "117529876",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    },
+    {
+      "name": "Loureiro, Geilson",
+      "scopus_id": "6506312634",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 3,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84991448017&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.119010",
+    "data_quality_score": 60
+  }
+}

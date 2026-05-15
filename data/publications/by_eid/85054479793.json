@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85054479793",
+  "eid": "2-s2.0-85054479793",
+  "doi": "10.1007/978-3-319-91217-2_12",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Dynamic behavior and optimization of tow steered composite plates",
+  "abstract": "© Springer International Publishing AG, part of Springer Nature 2019.In the last years, many techniques and procedures have been employed to optimize traditional composite laminates, which can be classified as constantstiffness composite laminates (CSCL), since the local stiffness is independent on the position over the laminate. On the other hand, recent advances in manufacturing processes now enable to explore non conventional designs. In particular, the development of automatic fiber placement allows the realization of variable stiffness composite laminates (VSCL), in which the local stiffness varies over the laminated as intended by the designer. In practice, VSCL can be achieved by making the fibers follow curvilinear trajectories over the plies (tow steering), or varying the matrix/fiber fraction over the laminate. Some authors have explored the benefits of VSCL to improve the performance of composite laminates in terms of stress distributions, static deformations, buckling, dynamic behavior and aeroelastic stability. In this context, this work proposes a strategy to optimize tow steered rectangular plates by controlling the angles that define the fiber trajectories. These latter are described by Lagrange polynomials of different orders, and two different sets of boundary conditions are considered. A structural model based on the Ritz method, combined with the classical lamination theory to model the composite laminate are used. The plate is considered thin, being modeled based on Kirchhoffs hypotheses. The equations of motion are obtained from Lagrange equations. The proposed model is validated by comparing natural frequencies and mode shapes with the counterparts obtained by using Nastran finite element software. The model is also validated by using experimental results obtained from a tow steered plate manufactured by the automatic fiber placement. A convergence analysis is carried-out to determine the number of functions in the Ritz basis necessary to ensure convergence of the semi-analytical model. A differential evolution (DE) algorithm is used to maximize the first natural.",
+  "authkeywords": [
+    "Optimization",
+    "Plate vibrations",
+    "Tow steering",
+    "Variable stiffness composites"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ch",
+  "journal": {
+    "name": "Lecture Notes in Mechanical Engineering",
+    "issn": "21954356",
+    "eissn": "21954364",
+    "volume": "PartF6",
+    "issue": null,
+    "pages": "169-184",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães, T. A.M.",
+      "scopus_id": "57038408200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pereira, D. A.",
+      "scopus_id": "56735566900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85054479793&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088966",
+    "data_quality_score": 100
+  }
+}

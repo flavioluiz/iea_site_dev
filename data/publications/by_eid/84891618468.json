@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-84891618468",
+  "eid": "2-s2.0-84891618468",
+  "doi": "10.4271/2013-36-0511",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of component size and cooling air flows on the performance, weight and dimensions of high and ultra-high bypass ratio turbofan engines",
+  "abstract": "The technical evolution of turbofan engines has been accomplished by increasing the engine thermal and propulsive efficiencies. The former is mainly a function of component efficiencies, cycle temperatures and pressures, while the latter is basically related to the engine BPR and FPR. However, several technological challenges are faced to increase those levels of efficiencies. In the thermal efficiency side, higher pressure ratios, for a given stage loading, are obtained by increasing the number of compressor stages, adding weight and size penalties to the engine, and increasing the compressor delivery temperature. Higher cycle temperatures, mainly those found in the burner exit and the stator outlet require higher cooling flows, for a given blade material technology level. Higher cooling flows lead to penalties in the engine efficiency, since the air used in the cooling is bled from the compressor. In the propulsive efficiency side, higher bypass ratios can be achieved by larger fans or smaller, more thermal-capable cores. The latter is aimed to the concept of engine downsizing, targeting the design of smaller and lighter engines. However, small cores present the technical challenge of maintaining high component efficiencies while the Reynolds number is decreased and the effects of tip clearances are increased. In order to investigate the effects of the previous discussion, this paper integrated an engine simulation software with models of engine cooling and component efficiencies, allowing the investigation of component size and cooling flows on the performance, weight and dimensions of turbofan engines, sized to meet a constant thrust requirement. © 2013 SAE INTERNATIONAL.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": "01487191",
+    "eissn": "26883627",
+    "volume": "13",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ribeiro, Raphael Felipe Gama",
+      "scopus_id": "55985024500",
+      "affiliation": "100882592",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "100882592",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84891618468&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.119092",
+    "data_quality_score": 80
+  }
+}

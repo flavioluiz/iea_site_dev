@@ -1,0 +1,36 @@
+{
+  "num_tg": "76491",
+  "type": "tg",
+  "title": "Estudo numérico de escoamento hipersônico 2D em modelo scramjet",
+  "author": "Rafael José Cândido de Saboya",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Dermeval Carinhana Junior",
+      "professor_slug": null
+    },
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Carlos Fraile Júnior",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Baseado na necessidade, por parte da Força Aérea Brasileira, do desenvolvimento de tecnologias voltadas ŕ soberania nacional, o projeto PropHiper foi concebido de modo a se obter tecnologia nacional em propulsăo hipersônica aspirada, sendo atribuído ao Instituto de Estudos Avançados (IEAv) a realizaçăo dessa tarefa. Um dos projetos em vigęncia envolve o veículo hipersônico 14-XS, no qual se torna essencial a prediçăo de ondas de choque e interaçőes choque/camada limite originárias na regiăo interna do motor scramjet. Dessa maneira, o presente trabalho fornece análises comparativas por meio de geometria 2D de rampa única para motor scramjet simplificado, calculadas a partir do uso de software de dinâmica dos fluidos computacional (CFD). Para tal fim, geometrias contemplando as regiőes de compressăo e expansăo foram criadas de modo a estudar diferentes condiçőes de voo em regime hipersônico (Mach > 5), sendo o objetivo principal do trabalho o estudo do comportamento do motor em sua condiçăo nominal e em condiçőes off-design, realizadas ao se variar parâmetros iniciais para ângulo de ataque e número de Mach. A análise também abrange o efeito da viscosidade, através da influęncia de modelos de turbulęncia no desenvolvimento da camada limite e sua interaçăo com o meio, além da influęncia da temperatura de parede, considerando os casos de parede adiabática e em temperatura constante. Modelos com injeçăo de combustível foram analisados para a rampa de expansăo, obtendo resultados para mistura a frio (sem reaçăo) e para combustăo, realizando uma análise paramétrica em diferentes pressőes de injeçăo, visando comparar configuraçőes de mistura hidrogęnio/ar para a faixa de pressőes consideradas. Resultados obtidos para a rampa de compressăo mostram que a captura das interaçőes choque/camada limite săo melhoradas com o aumento da densidade de células e da ordem de discretizaçăo espacial. A variaçăo de modelos de turbulęncia produz resultados visuais semelhantes para os modelos Transition SST e k-? SST, enquanto que os resultados obtidos para o desenvolvimento da camada limite mostram maior concordância entre os modelos turbulentos. As análises paramétricas e de temperatura de parede dăo uma perspectiva sobre em quais condiçőes a eficięncia do motor é afetada negativamente, considerando as eficięncias estudadas. Por fim, a variaçăo das condiçőes de injeçăo de combustível para a rampa de expansăo mostra como o desenvolvimento das reaçőes ocorrem na regiăo interna do motor, e suas consequęncias para a geraçăo de empuxo.",
+  "subjects": [
+    "Escoamento hipersônico",
+    "Camadas limite",
+    "Dinâmica dos fluidos computacional",
+    "Número de Mach",
+    "Ondas de choque",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76491",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76491&origem=BDITA"
+}

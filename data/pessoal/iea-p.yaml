@@ -1,0 +1,47 @@
+departamento: "iea-p"
+membros:
+  - nome: "Mauricio Pazini Brandão"
+    categoria: "Professor Titular"
+    slug: "mauricio-pazini-brandao"
+
+  - nome: "Adson Agrico de Paula"
+    categoria: "Professor Adjunto"
+    slug: "adson-agrico-paula"
+
+  - nome: "Christopher Shneider Cerqueira"
+    categoria: "Professor Adjunto"
+    slug: "christopher-shneider-cerqueira"
+
+  - nome: "Ronaldo Vieira Cruz"
+    categoria: "Professor Adjunto"
+    slug: "ronaldo-vieira-cruz"
+
+  - nome: "Roberto Gil Annes da Silva"
+    categoria: "Tecnologista"
+    cargo_divisao: "Chefe da Divisão"
+    slug: "roberto-gil-annes-da-silva"
+    perfil: "roberto-gil-annes-da-silva"
+
+  - nome: "Ney Rafael Sêcco"
+    categoria: "Instrutor"
+    posto: "Maj Eng AER"
+    chefe_departamento: true
+    slug: "ney-rafael-secco"
+    perfil: "ney-rafael-secco"
+
+  - nome: "João Antônio Dantas de Jesus Ferreira"
+    categoria: "Instrutor"
+    posto: "Cap Eng AER"
+    slug: "joao-antonio-ferreira"
+
+  - nome: "Ekkehard Carlos Fernando Schubert"
+    categoria: "Docente Voluntário"
+    slug: "ekkehard-schubert"
+
+  - nome: "Jonas Bianchini Fulindi"
+    categoria: "Docente Voluntário"
+    slug: "jonas-bianchini-fulindi"
+
+  - nome: "Newton Adriano dos Santos Gomes"
+    categoria: "Docente Voluntário"
+    slug: "newton-adriano-gomes"

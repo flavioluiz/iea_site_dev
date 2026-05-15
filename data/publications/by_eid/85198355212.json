@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85198355212",
+  "eid": "2-s2.0-85198355212",
+  "doi": "10.1016/j.applthermaleng.2024.123874",
+  "pii": "S1359431124015424",
+  "pubmed_id": null,
+  "title": "Numerical investigation of an innovative through-tubing solution to thermal plug and abandonment of oil wells with thermite reactions",
+  "abstract": "© 2024 Elsevier LtdPlug and Abandonment (P&A) procedures are mandatory in the oil and gas industry. Conventional well-plugging methods typically involve the laborious and expensive process of cementing, requiring the removal of production tubing. In response to this challenge, a novel approach, known as Thermal Plug and Abandonment (TP&A), has been explored. TP&A proposes the introduction of an exothermic chemical reaction through the production tubing, generating substantial heat to melt the tubing intentionally. The passage formed by the melting process facilitates the traditional insertion of cement, eliminating the need for tubing removal. In this study, the TP&A process is investigated through numerical computations. The oil well structure is approximated as a two-dimensional axisymmetric domain with multiple layers representing different wellbore materials. A numerical code, incorporating chemical kinetics, phase change, and conjugate heat transfer models, was developed in the OpenFOAM® software. The thermite reaction is modeled using a zero-order kinetic model, and the phase change model employs the well-established enthalpy-porosity method to track material melting and solidification. The study primarily focuses on evaluating heat diffusion through the oil well structure during the TP&A process, with a central emphasis on investigating the melting of the production tubing. It was observed that compacting the mixture and diluting it with alumina up to a certain threshold enhanced the tubing's melting. Reducing the initial mixture porosity from 0.55 to 0.4 has increased the tubing's melting volume, constrained to the thermite height, from 60 to approximately 91%. Moreover, this study examined how diluting the thermite mixture with inert alumina affects the heat transfer and, consequently, the tubing's melting. The findings indicated that a 20% dilution can enhance the tubing's melting volume by up to 87%.",
+  "authkeywords": [
+    "Multi-region heat diffusion",
+    "Numerical computation",
+    "Phase-Change",
+    "Plug and Abandonment",
+    "Thermite"
+  ],
+  "year": "2024",
+  "date": "2024-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "254",
+    "issue": null,
+    "pages": null,
+    "article_number": "123874"
+  },
+  "authors": [
+    {
+      "name": "Pena, Fabrício J.C.",
+      "scopus_id": "57225041469",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 78,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85198355212&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110145",
+    "data_quality_score": 100
+  }
+}

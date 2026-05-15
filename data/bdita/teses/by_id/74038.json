@@ -1,0 +1,30 @@
+{
+  "num_tese": "74038",
+  "type": "tese",
+  "title": "Numerical analysis of double-diffusive free convection in porous media using the thermal non-equilibrium model",
+  "author": "Paulo Henrique Salles de Carvalho",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this work, the influence of several physical properties on heat and mass transfer in a square porous cavities is investigated. Such cavity is under the Double-Diffusive Free Convection mechanism and is numerically simulated for Laminar and turbulent flow regimes. The present thesis aims to evaluate the unprecedent combination of the Double-Diffusion and Thermal Non-Equilibrium models for Laminar and Turbulent flow regimes. The mean flow macroscopic equations are developed based on the concept of the double-decomposition. The transport equations are discretized using the control volume method and the system of algebraic equations is relaxed via the SIMPLE algorithm. This research propose that the influence on the mean and turbulent flows of the parameters as thermal conductivity ratio, porosity, Lewis number, buoyancy ratio and the modified Rayleigh number be evaluated using computational simulations. Additionally, it is intendend to understand how such parameters influences the average Nusselt and Sherwood numbers. Furthermore, new correlations for Nuw and Shw under the laminar flow regime, considering the effects of the Thermal Conductivity ratio, ks/kf, and the thermal effects of the porosity, ?, on the interfacial heat exchange are proposed. In conclusion, the results show that for lower values of Da, both Nuw and Shw increases for same Ram value. The Thermal conductivity ratio, ks/kf, increases the magnitude of Shw as its magnitude increases as well. In contrast, as ks/kf increases, Nuw decreases due to the predominance of the conduction mechanism in the heat flux transport through the enclosure. Results show that Le definitely exerts a direct influence on the thermal and mass transport through the cavity. For the same Le's value, opposite behaviors for Nuw and Shw can be observed, depending uniquely on how form of the Lewis number is defined. If the form is defined for a porous medium, the effective thermal conductivity ratio will influence the magnitude of the dimensionless group. In this way, Le's impact on the transports must be relativistic so that its influence can be predicted in a deterministic way. Results also show that as N increases, both Nuw and Shw increases as well as ks/kf = 1. On the other hand, as ks/kf increases, increasing N will promote a decreasing in the Nuw's magnitude. Furthermore, results also show that for a given ks/kf value, the contribution of each phase to the average Nusselt number value is independent of the N. The parameter ks/kf still influences both the magnitude of the kinetic turbulence energy, and the dimension of the turbulence generation's area, which is greater as ks/kf increases. Due the employment of the Thermal Non-Equilibrium model it is possible to observe that the decreasing in Nuw does not mean a reduction in the heat transported, but rather the predominance of the diffusive transport mechanism. New correlations were found for Nuw and Shw as functions of the parameters as Ram, Le, N, ks/kf and ?, which contributes to the scientific community since the existent correlations in the literature are functions only of Ram, Le and N. Finally, the results and analyzes made throughout the work are applicable in several real engineering situations, as well as several other branches of science in which the Double-Diffusive Free Convection in porous medium can be used.",
+  "subjects": [
+    "Materiais porosos",
+    "Transferęncia de calor",
+    "Análise numérica",
+    "Escoamento através de meio poroso",
+    "Equilibrio termodinâmico",
+    "Turbulęncia",
+    "Física"
+  ],
+  "defense_date": "15/09/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74038",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74038&origem=BDITA"
+}

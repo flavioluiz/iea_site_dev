@@ -1,0 +1,36 @@
+{
+  "num_tese": "000515405",
+  "type": "tese",
+  "title": "A study on correction methods for aeroelastic analysis in transonic flow.",
+  "author": "Roberto Gil Annes da Silva",
+  "year": "2004",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Olympio Achilles de Faria Mello",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The work presents a study of correction techniques to compute unsteady transonic pressure distributions and aeroelastic stability in this flow regime. The methodologies herein investigated are based on corrections of pressure distributions by the weighting of the lifting surface self-induced downwash, resulting from aeroelastic structural displacements or prescribed motions. A number approaches were investigated. An investigation into the linear/nonlinear behavior of unsteady transonic flows was also conducted. It was concluded from such investigation that unsteady transonic flows present a linear behavior with respect to small aeroelastic structural displacements around a steady nonlinear mean flow. Such behavior is the basis for further development of downwash correction methods.The correction of pressure distributions through the weighting of the lifting surface self-induced downwash is also known as downwash weighting method. This method has been enhanced leading to a new downwash correction technique. The procedure may be divided in two steps, where the first step is a nonlinear steady mean flow correction, with nonlinear pressure differences considered as reference conditions to correct the self induced downwash. The second step is the correction of the unsteady component of the downwash, where the corresponding reference unsteady pressure differences are predicted by a linear aerodynamic model, based on the potential flow equations.This extended downwash correction method led to a rational formulation named as \"successive kernel expansion method\" (SKEM). The unsteady pressures and aeroelastic stability boundaries computations using such method led to good agreement with experimental measurements. This procedure is a rapid form to compute the transonic flutter speed boundaries, compared to computational aeroelasticity and experimental techniques.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Aerodinâmica năo-estacionária",
+    "Escoamento transônico",
+    "Modelos matemáticos",
+    "Correçăo",
+    "Dinâmica dos fluidos computacional",
+    "Sustentaçăo aerodinâmica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515405",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515405&origem=BDITA"
+}

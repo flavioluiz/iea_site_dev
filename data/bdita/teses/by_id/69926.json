@@ -1,0 +1,29 @@
+{
+  "num_tese": "69926",
+  "type": "tese",
+  "title": "Crankshaft deep rolling modeling through explicit analysis using finite element method",
+  "author": "Luiz Guilherme Aun Fonseca",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The development of a new crankshaft design needs a long phase of testing for the determination of the component's fatigue limit. This is partially due to lack of information on the residual stress field induced by the manufacturing processes. The selection of parameters to be used in the crankshaft manufacture, especially the deep rolling process, is made with the assistance of fatigue workbench experiments. The rolling stage is the main responsible for elevating the fatigue limit, since it mechanically introduces compressive residual stresses in critical regions. For this reason it is subject of extensive research in the present time. However, these studies are limited to the comparison of results obtained through fatigue bench tests with different rolling parameters. A numerical model can be a viable alternative and may result in reduction of both number and cost of experiments. These models are currently under development and there are no consolidated or validated methods to be applied. Therefore, this work has the objective of proposing a numeric model for this manufacturing process using the finite element (FE) method. The development of the model passed through the choice of formulation to be applied, whether implicit or explicit. The mechanical properties of the crankshaft material were determined by tests in a tension/compression machine. Application of boundary conditions had as input the rolling load cycle and process characteristic restrictions. As the results of interest are relative to the crankpin fillet specific region, the choice for element type and mesh structure are crucial for the outputs accuracy. Stress and strain fields were obtained from the simulations. As a first step for model validation, geometry measurements made on the fillets of real components were compared with the analysis results. Future studies can include validation of stress outputs already found in the simulations by comparison with residual stress measurements.",
+  "subjects": [
+    "Cambota",
+    "Fabricaçăo",
+    "Ensaios de fadiga",
+    "Método de elementos finitos",
+    "Tensăo residual",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "10/12/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69926",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69926&origem=BDITA"
+}

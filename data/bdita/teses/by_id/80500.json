@@ -1,0 +1,35 @@
+{
+  "num_tese": "80500",
+  "type": "tese",
+  "title": "Assessment of P-Adaptive mesh refinement via feature-based indicators in spectral/hp CFD simulations",
+  "author": "Eduardo de Oliveira Carvalho",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "abstract": "This thesis examines adaptive mesh refinement (AMR) strategies to improve accuracy when simulating unsteady flows using high-order spectral/hp discretization. The work focused on adaptation indicators, methods for iden- tifying regions that require refinement. Since most literature on AMR focuses on discontinuous Galerkin (DG) approaches for compressible flows, the work was directed toward the development and improvement of these tech- niques in incompressible flows using continuous Galerkin (CG) methods. We explored two groups of feature-based indicators, jump and spectral, and evaluated their use when guiding p-adaptation, balancing implementation feasibility, computational cost, and errar reduction performance. The investigations began with an exploratory study using simplified cases that were progressively made more complex, culminating in an unsteady flow sim- ulation that provided insight into their capabilities and limitations. Jump indicators demonstrated consistently reliable error reduction, particularly when enhanced with resolution penalization. Among spectral indicators, a novel formulation, the SER indicator, showed competitive performance by estimating error reduction relative to adaptation cost. The methodologies were implemented within the open-source high-order CFD framework Nektar++. The tools and insights developed here form a foundation for broader use of p-adaptive AMR in high-order incompressible How simulationa.",
+  "subjects": [
+    "Escoamento incompressível",
+    "Malhas adaptativas",
+    "Dinâmica dos fluidos computacional",
+    "Simulaçăo computadorizada",
+    "Indicadores",
+    "Aerodinâmica năo-estacionária",
+    "Física"
+  ],
+  "defense_date": "07/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80500",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80500&origem=BDITA"
+}

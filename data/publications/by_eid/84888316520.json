@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-84888316520",
+  "eid": "2-s2.0-84888316520",
+  "doi": "10.1016/j.icheatmasstransfer.2013.10.003",
+  "pii": "S0735193313002030",
+  "pubmed_id": null,
+  "title": "Turbulent free convection in a porous square cavity using the thermal equilibirum model",
+  "abstract": "This work investigates the influence of porosity and thermal conductivity ratio on the Nusselt number of a cavity filed with a fluid saturated porous substrate. The flow regime considered intra-pore turbulence and a macroscopic k-ε model was applied. Heat transfer across the cavity assumed the hypothesis of thermal equilibrium between the solid and the fluid phases. Transport equations were discretized using the control-volume method and the system of algebraic equations was relaxed via the SIMPLE algorithm. Results showed that when using the one energy equation model under the turbulent regime, simulated with a High Reynolds turbulence model, the cavity Nusselt number is reduced for higher values of the ratio ks/kf as well as when the material porosity is increased. In both cases, conduction thorough the solid material becomes of a greater importance when compared with the overall transport that includes both convection and conduction mechanisms across the medium. © 2013 Elsevier Ltd.",
+  "authkeywords": [
+    "Heat transfer",
+    "Natural convection",
+    "Porous media",
+    "Turbulence modeling"
+  ],
+  "year": "2013",
+  "date": "2013-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "49",
+    "issue": null,
+    "pages": "10-16",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Carvalho, Paulo H.S.",
+      "scopus_id": "55922067000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84888316520&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110785",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-84981212648",
+  "eid": "2-s2.0-84981212648",
+  "doi": "10.1142/S0219455417500651",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Bird strike modeling in fiber-reinforced polymer composites",
+  "abstract": "© 2017 World Scientific Publishing Company.The present paper describes a numerical modeling approach to predict impact resistance and residual Shear Strength After Impact (SSAI) of fiber reinforced polymer composites subjected to bird strike loading. An improved damage mechanics based on material model, previously developed by the authors, is combined with an equation of state to simulate the progressive failure in composite aerostructures subjected to bird strike loading. A series of bird strike impacts on flat panels fabricated from low cost woven glass composite materials are used to validate the material model for practical composite component applications. A numerical study on the residual SSAI of a typical composite shear web is also presented. The panels are modelled with shell elements only. The proposed material model formulation accounts for the strain rate enhancement to strength and shear nonlinearities observed in composite materials. A hydrodynamic model for the bird, based on 90% water and 10% air, is derived to represent the behavior of the bird for all impact scenarios considered. The bird is heterogeneous in nature. However, a uniform material behavior is assumed with a geometry based on a 2:1 length to diameter ratio with a cylindrical body and spherical end caps using Lagrangian mesh. Appropriate contact definitions are used between the bird and the composite panel. The simulations results are compared to experimental results and conclusions drawn.",
+  "authkeywords": [
+    "Composites",
+    "damage mechanics",
+    "finite elements",
+    "impact"
+  ],
+  "year": "2017",
+  "date": "2017-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Structural Stability and Dynamics",
+    "issn": "02194554",
+    "eissn": "17936764",
+    "volume": "17",
+    "issue": "6",
+    "pages": null,
+    "article_number": "1750065"
+  },
+  "authors": [
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84981212648&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074405",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "num_tg": "61618",
+  "type": "tg",
+  "title": "Estimaçăo de atitude utilizando sistemas embarcados de baixo custo : estudo de caso do ArduPilot Mega",
+  "author": "André Ferreira da Silva",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um requisito para a construçăo de projetos de controle que melhorem a qualidade do vôo ou permitam o controle totalmente autônomo é o conhecimento da atitude da aeronave durante o vôo. Existem vários algoritmos robustos capazes de estimar a atitude com alta precisăo, utilizando medidas de sensores no corpo e observaçőes de referęncia. Quando se trata de hardware de baixo custo, no entanto, com sensores de menor precisăo e computador de bordo de desempenho mais baixo, é preciso realizar simpli?caçőes no algoritmo de estimaçăo de atitude. Apesar das limitaçőes, tem sido cada vez mais frequente o surgimento de dispositivos de autopiloto capazes de permitir etapas de vôo completamente autônomo para pequenos aeromodelos. Um exemplo é o ArduPilot Mega, um projeto com hardware e software abertos e com algoritmo de estimaçăo de atitude muito bem documentado. Este trabalho analisa esse algoritmo, pontuando suas restriçőes e sugerindo algumas extensőes para o software do projeto.",
+  "subjects": [
+    "Controle de atitude",
+    "Estimaçăo de sistemas",
+    "Aeronaves",
+    "Controle de aeronaves",
+    "Sistemas embarcados",
+    "Algoritmos",
+    "Pilotos automáticos",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61618",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61618&origem=BDITA"
+}

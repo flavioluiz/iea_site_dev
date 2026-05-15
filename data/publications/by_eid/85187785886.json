@@ -1,0 +1,111 @@
+{
+  "publication_id": "2-s2.0-85187785886",
+  "eid": "2-s2.0-85187785886",
+  "doi": "10.1007/s40430-024-04786-1",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Adaptive sliding mode attitude control for multirotor aerial vehicles with experimental evaluation",
+  "abstract": "© The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering 2024.This paper is concerned with the design and analysis of the three-dimensional attitude control law of an arbitrary underactuated multirotor aerial vehicle with a fully actuated three-axis attitude motion subject to bounded matched disturbances and uncertainties, both with unknown bounds. To tackle the problem, the rotational kinematics and dynamics of the attitude and angular velocity control errors are first modeled in a geometrically consistent form using the Gibbs vector. Then, we formulate a multi-input adaptive sliding mode control strategy, of the unit-vector type, based on an increasing switching-gain adaptation law. The adaptive switching gain is proved to converge to its maximum bound, even in the presence of sufficiently small chattering, and the existence of an eventual sliding mode is assured. The method is extensively evaluated by simulation considering an X-shaped octa-rotor aerial vehicle. It is also demonstrated experimentally using a three-axis hover that emulates a quadrotor aerial vehicle.",
+  "authkeywords": [
+    "Adaptive sliding mode control",
+    "Attitude control",
+    "Finite-time stability",
+    "Multirotor aerial vehicle",
+    "Quadrotor"
+  ],
+  "year": "2024",
+  "date": "2024-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "46",
+    "issue": "4",
+    "pages": null,
+    "article_number": "194"
+  },
+  "authors": [
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Trentin, João F.S.",
+      "scopus_id": "57215486892",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ricardo, Jorge A.",
+      "scopus_id": "56594722200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Roéfero, Luiz Gustavo P.",
+      "scopus_id": "57214861813",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Oliveira, Tiago Roux",
+      "scopus_id": "22952045900",
+      "affiliation": "60005499",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187785886&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094769",
+    "data_quality_score": 100
+  }
+}

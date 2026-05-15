@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-85194254680",
+  "eid": "2-s2.0-85194254680",
+  "doi": "10.3390/computation12050106",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Accelerating Conjugate Heat Transfer Simulations in Squared Heated Cavities through Graphics Processing Unit (GPU) Computing",
+  "abstract": "© 2024 by the authors.This research develops an innovative framework for accelerating Conjugate Heat Transfer (CHT) simulations within squared heated cavities through the application of Graphics Processing Units (GPUs). Although leveraging GPUs for computational speed improvements is well recognized, this study distinguishes itself by formulating a tailored optimization strategy utilizing the CUDA-C programming language. This approach is specifically designed to tackle the inherent challenges of modeling squared cavity configurations in thermal simulations. Comparative performance evaluations reveal that our GPU-accelerated framework reduces computation times by up to 99.7% relative to traditional mono-core CPU processing. More importantly, it demonstrates an increase in accuracy in heat transfer predictions compared to existing CPU-based models. These results highlight not only the technical feasibility but also the substantial enhancements in simulation efficiency and accuracy, which are crucial for critical engineering applications such as aerospace component design, electronic device cooling, and energy system optimization. By advancing GPU computational techniques, this work contributes significantly to the field of thermal management, offering a potential for broader application and paving the way for more efficient, sustainable engineering solutions.",
+  "authkeywords": [
+    "computational time reduction",
+    "Conjugate Heat Transfer",
+    "CUDA",
+    "CUDA-C",
+    "GPU"
+  ],
+  "year": "2024",
+  "date": "2024-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computation",
+    "issn": null,
+    "eissn": "20793197",
+    "volume": "12",
+    "issue": "5",
+    "pages": null,
+    "article_number": "106"
+  },
+  "authors": [
+    {
+      "name": "da Silva Reis, César Augusto Borges",
+      "scopus_id": "57382236700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Botezelli, Daniel",
+      "scopus_id": "59145523600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Azevedo, Arthur Mendonça",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "da Silveira Neto, Aristeu",
+      "scopus_id": "6508052473",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Theoretical Computer Science",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science (all)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85194254680&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090940",
+    "data_quality_score": 90
+  }
+}

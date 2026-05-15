@@ -1,0 +1,31 @@
+{
+  "num_tg": "000544050",
+  "type": "tg",
+  "title": "Modelamento preliminar de uma máquina operando em ciclo Brayton fechado para aplicaçăo em um reator espacial.",
+  "author": "Giannino Ponchio Camilo",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    },
+    {
+      "name": "Lamartine Nogueira Frutuoso Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Divisăo de Energia Nuclear (ENU) do Instituto de Estudos Avançados (IEAv) iniciou o estudo de um projeto preliminar para um Ciclo Brayton Fechado (CBF) focado na aplicaçăo em um reator espacial. Os objetivos principais do estudo săo: 1) estabelecer um conceito inicial para as especificaçőes técnicas dos componentes do CBF, e 2) desenvolver um simulador demonstrativo do CBF em condiçőes de operaçőes nominais e em estado estacionário. O estudo do projeto preliminar da ENU/IEAv está sendo desenvolvido sobre a turbo-máquina NOELLE 60290. O estudo do reator propriamente dito está sendo conduzido independentemente. Devido a isso, uma fonte de calor convencional está sendo usada para o CBF nesta fase de projeto preliminar. Este trabalho descreve o simulador do CBF operando com a turbo-máquina NOELLE 60290. A princípio, muitos gases estăo sendo considerados como fluidos de trabalho, como por exemplo: ar, hélio, nitrogęnio, CO2 e misturas como hélio e xenônio. Porém, para esta primeira aplicaçăo hélio puro será utilizado como fluido de trabalho. Modelos simplificados de transferęncia de calor e de massa foram desenvolvidos para simular componentes térmicos. Esforços futuros serăo concentrados em manter o programa atualizado ŕs mudanças que podem ocorrer na configuraçăo física da máquina CBF conforme o avanço do projeto e na implementaçăo de uma interface gráfica para mostrar as variáveis do processo em estado estacionário.",
+  "subjects": [
+    "Turbomáquinas",
+    "Ciclo de Brayton",
+    "Modelos matemáticos",
+    "Energia nuclear",
+    "Termodinâmica",
+    "Reatores espaciais de potęncia",
+    "Engenharia nuclear"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544050",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544050&origem=BDITA"
+}

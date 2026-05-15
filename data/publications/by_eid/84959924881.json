@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-84959924881",
+  "eid": "2-s2.0-84959924881",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Robust vibration control in smart composite structures",
+  "abstract": "This paper proposes an active vibration control technique, which is based on linear matrix inequalities, that is numerically applied to a piezoelectric actuator bonded to a composite structure forming a so-called Smart Composite Structure. Serendipity-type finite element based on First-Order Shear Deformation Theory with rectangular shape, eight nodes, five mechanical degrees of freedom (DOF) per node and eight electrical DOF per piezoelectric layer is established for the composite structural model. Additionally, a mixed theory that uses a single equivalent layer for the discretization of the mechanical displacement field and a layerwise representation of the electrical field is adopted. Temperature effects are neglected. Simulation results illustrate the effectiveness of the proposed vibration control methodology for composite structures.",
+  "authkeywords": [
+    "Active vibration control",
+    "Composite materials",
+    "PZT actuator"
+  ],
+  "year": "2011",
+  "date": "2011-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the 8th International Conference on Structural Dynamics Eurodyn 2011",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "2690-2696",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Faria, Albert Willian",
+      "scopus_id": "56549605600",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalini, Aldemir Ap",
+      "scopus_id": "58282378400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Koroishi, Edson Hideki",
+      "scopus_id": "36706297200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Steffen, Valder",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84959924881&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089227",
+    "data_quality_score": 70
+  }
+}

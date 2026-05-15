@@ -1,0 +1,137 @@
+{
+  "publication_id": "2-s2.0-105006841456",
+  "eid": "2-s2.0-105006841456",
+  "doi": "10.3390/su17104448",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Ultra-Trace Monitoring of Methylene Blue Degradation via AgNW-Based SERS: Toward Sustainable Advanced Oxidation Water Treatment",
+  "abstract": "© 2025 by the authors.Methylene blue (MB), a widely used industrial dye, is a persistent pollutant with documented toxicity to aquatic organisms and potential health risks to humans, even at ultra-trace levels. Conventional monitoring techniques such as UV–Vis spectroscopy and fluorescence emission suffer from limited sensitivity, typically failing to detect MB below ~10−7 M. In this study, we introduce a surface-enhanced Raman spectroscopy (SERS) platform based on silver nanowire (AgNW) substrates that enables MB detection over an unprecedented dynamic range—from 1.5 × 10−4 M down to 1.5 × 10−16 M. Raman mapping confirmed the presence of individual signal hot spots at the lowest concentration, consistent with the theoretical number of analyte molecules in the probed area, thereby demonstrating near-single-molecule detection capability. The calculated enhancement factors reached up to 1.90 × 1012, among the highest reported for SERS-based detection platforms. A semi-quantitative calibration curve was established spanning twelve orders of magnitude, and this platform was successfully applied to monitor MB degradation during two advanced oxidation processes (AOPs): TiO2 nanotube-mediated photocatalysis under UV irradiation and atmospheric-pressure dielectric barrier discharge (DBD) plasma treatment. While UV–Vis and fluorescence techniques rapidly lost sensitivity during the degradation process, the SERS platform continued to detect the characteristic MB Raman peak at ~1626 cm−1 throughout the entire treatment duration. These persistent SERS signals revealed the presence of residual MB or partially degraded aromatic intermediates that remained undetectable by conventional optical methods. The results underscore the ability of AgNW-based SERS to provide ultra-sensitive, molecular-level insights into pollutant transformation pathways, enabling time-resolved tracking of degradation kinetics and validating treatment efficiency. This work highlights the importance of integrating SERS with AOPs as a powerful complementary strategy for advanced environmental monitoring and water purification technologies. By delivering an ultra-sensitive, low-cost sensor (<USD 0.16 per test) and promoting reagent-free treatment methods, this study directly advances SDG 6 (Clean Water and Sanitation) and SDG 12 (Responsible Consumption and Production).",
+  "authkeywords": [
+    "dielectric barrier discharge (DBD) plasma",
+    "methylene blue (MB) degradation",
+    "silver nanowires (AgNWs)",
+    "surface-enhanced Raman spectroscopy (SERS)",
+    "sustainability assessment",
+    "titania nanotubes (TiNTs)",
+    "trace pollution detection"
+  ],
+  "year": "2025",
+  "date": "2025-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Sustainability Switzerland",
+    "issn": null,
+    "eissn": "20711050",
+    "volume": "17",
+    "issue": "10",
+    "pages": null,
+    "article_number": "4448"
+  },
+  "authors": [
+    {
+      "name": "Horta, Isabela",
+      "scopus_id": "57413660300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Neto, Nilton Francelosi Azevedo",
+      "scopus_id": "57201651151",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kito, Letícia Terumi",
+      "scopus_id": "57224157173",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Miranda, Felipe",
+      "scopus_id": "57190072146",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Thim, Gilmar",
+      "scopus_id": "6602627592",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "gilmar-patrocinio-thim"
+    },
+    {
+      "name": "Pereira, André Luis de Jesus",
+      "scopus_id": "15136825800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pessoa, Rodrigo",
+      "scopus_id": "14042320200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "gilmar-patrocinio-thim"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Computer Science (miscellaneous)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Geography, Planning and Development",
+        "abbrev": "SOCI",
+        "name": null
+      },
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Environmental Science (miscellaneous)",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Management, Monitoring, Policy and Law",
+        "abbrev": "ENVI",
+        "name": null
+      }
+    ],
+    "references_count": 57,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006841456&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.105050",
+    "data_quality_score": 100
+  }
+}

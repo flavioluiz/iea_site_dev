@@ -1,0 +1,32 @@
+{
+  "num_tese": "64125",
+  "type": "tese",
+  "title": "Caracterizaçăo de modo de falha de juntas sobrepostas coladas, rebitadas e soldadas fabricadas em material compósito, sujeitas a carga de impacto de baixa energia",
+  "author": "Sérgio Augusto Capasciutti de Oliveira",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é caracterizar o modo de falha de juntas fabricadas com laminados de material compósito sujeitos a cargas de impacto de baixa energia, através de um modelo em software de elementos finitos Abaqus/Explicit. As juntas em compósitos foram fabricadas por tręs tipos de processo: colagem, rebitagem e soldagem. Dados experimentais foram coletados no laboratório de ensaios estruturais do ITA (Instituto Tecnológico de Aeronáutica) através do impacto de corpos de provas (cdps) utilizando a Torre de Impacto em queda livre (Drop Test Tower - DTT). Nestes testes foi possível verificar a força de impacto e a energia dissipada em funçăo do tempo para cada um dos tręs tipos de juntas. Na simulaçăo de elementos finitos foram utilizados dois modelos de danos para atender as condiçőes reais de impacto, resultando em uma boa aproximaçăo entre as curvas teóricas e experimentais de força de impacto e energia dissipada, e assim caracterizar o modo de falha para cada tipo de junta.",
+  "subjects": [
+    "Materiais compósitos",
+    "Juntas (junçőes)",
+    "Análise de falhas",
+    "Ensaios de impacto",
+    "Energia",
+    "Laminados",
+    "Método de elementos finitos",
+    "Simulaçăo computadorizada",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "30/11/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64125",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64125&origem=BDITA"
+}

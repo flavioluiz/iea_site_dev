@@ -1,0 +1,26 @@
+{
+  "num_tg": "79220",
+  "type": "tg",
+  "title": "Desenvolvimento de software para cálculo preliminar de motor foguete híbrido",
+  "author": "Artur Noronha Albuquerque Cunha",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho de conclusăo de curso apresenta a implementaçăo de um programa em Python para o cálculo preliminar de motores-foguete híbridos, explorando o campo promissor da propulsăo híbrida. A propulsăo híbrida é um conceito inovador que combina os benefícios dos motores-foguete sólidos e líquidos, resultando em uma soluçăo eficiente e versátil para aplicaçőes espaciais. O programa desenvolvido permite realizar cálculos precisos para vários motores-foguete monoperfurados, levando em consideraçăo diversos parâmetros e variáveis relevantes para o desempenho do sistema. Um dos principais objetivos do programa é otimizar a razăo de mistura inicial, que é fundamental para alcançar maior eficięncia e desempenho do motor-foguete híbrido. O programa é capaz de encontrar a melhor combinaçăo de propelente e oxidante para maximizar a performance do motor. Além disso, o programa também oferece estimativas de performance para os motores-foguete híbridos calculados. Essas estimativas incluem parâmetros como impulso específico, velocidade final e altura alcançada. Essas informaçőes săo essenciais para a análise e comparaçăo do desempenho de diferentes motores, auxiliando na tomada de decisőes durante o processo de projeto e desenvolvimento de veículos espaciais. O funcionamento do programa é baseado em princípios fundamentais da propulsăo híbrida. O programa considera fatores como a taxa de queima e os propelentes utilizados, entre outros elementos, para realizar os cálculos necessários. Essa abordagem permite uma análise detalhada do desempenho do motor-foguete híbrido, possibilitando o ajuste e a otimizaçăo de variáveis-chave. Portanto, este projeto contribui para o avanço do conhecimento na área de propulsăo híbrida, fornecendo uma ferramenta eficiente e confiável para o cálculo preliminar de motores-foguete híbridos. Com o auxílio desse programa, os engenheiros e pesquisadores podem explorar as vantagens dessa tecnologia promissora, permitindo o desenvolvimento rápido de sistemas de propulsăo mais eficientes e economicamente viáveis para aplicaçőes espaciais.",
+  "subjects": [
+    "Motores foguetes a propelente híbrido",
+    "Desenvolvimento de software",
+    "Propulsăo híbrida",
+    "Simulaçăo computadorizada",
+    "Python (linguagem de programaçăo)",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79220",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79220&origem=BDITA"
+}

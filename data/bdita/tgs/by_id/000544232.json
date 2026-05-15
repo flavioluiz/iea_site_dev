@@ -1,0 +1,26 @@
+{
+  "num_tg": "000544232",
+  "type": "tg",
+  "title": "Otimizaçăo topológica de estruturas via método das assíntotas móveis e simulated annealing.",
+  "author": "Gilberto Rebouças Neto",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho elucida a aplicaçăo, as vantagens e as desvantagens de dois métodos de otimizaçăo topológica estrutural: Método das Assíntotas Móveis (MMA) e Simulated Annealing (SA). Utilizando um programa de elementos finitos para elasticidade bidimensional e a implementaçăo computacional dos métodos supracitados, em que as variáveis de projeto săo as densidades r de material dos elementos finitos, obtém-se uma matriz de densidade estrutural ótima com os parâmetros do programa. Dessa forma, é possível avaliar a influęncia de tais parâmetros na qualidade dos resultados obtidos (tais como tempo de convergęncia e valor da funçăo objetivo), e comparar a eficięncia dos métodos para cada caso analisado. As variáveis de projeto (densidades r dos elementos finitos) săo definidas de acordo com a formulaçăo denominada na literatura de Modelo de Material Sólido Isotrópico com Penalizaçăo (SIMP), em que se atribuem valores entre zero e um para a densidade de cada elemento finito que, ao ser penalizado por um expoente p, obtém-se a matriz de rigidez da estrutura, porém com os valores de r de cada elemento como sendo praticamente zero ou um. Após analisar vários resultados obtidos, observou-se que dependendo das condiçőes (de carregamento e de contorno), um método se mostra mais eficiente do que o outro. Porém, essa comparaçăo năo se mostra justa uma vez que o método do SA é um método fundamentado em probabilidades, ou seja, o mínimo global é de fato garantido se o número de iteraçőes for suficientemente grande com as devidas entradas do programa, tais como temperatura e número de iteraçőes (alcançados experimentalmente). Vale mencionar que o escopo dos métodos aqui apresentados năo é de definiçăo final da estrutura, e sim, de uma primeira aproximaçăo topológica estrutural, isto é, um chute inicial de distribuiçăo de massas. Assim, para uma primeira análise de otimizaçăo de peso, năo prioriza pela forma exata da estrutura, uma vez que análises estruturais mais refinadas (tais como cálculo de tensăo de escoamento, carga de flambagem e vida em fadiga) serăo posteriormente realizadas. Desta forma, o tempo para se gerar uma primeira forma geométrica da estrutura se mostra mais relevante do que a obtençăo do mínimo global da funçăo objetivo.",
+  "subjects": [
+    "Análise estrutural",
+    "Otimizaçăo",
+    "Método de elementos finitos",
+    "Carregamento",
+    "Distribuiçăo de massa",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544232",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544232&origem=BDITA"
+}

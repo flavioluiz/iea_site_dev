@@ -1,0 +1,31 @@
+{
+  "num_tg": "000564127",
+  "type": "tg",
+  "title": "Análise de estruturas coerentes e transiçăo para caos em escoamento fluidodinâmico sobre corpos rombudos.",
+  "author": "Rodrigo Costa Moura",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Erico Luiz Rempel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, realizou-se uma análise numérico-teórica do escoamento sobre o cilindro circular, na transiçăo do escoamento estacionário para o năo-estacionário, numa abordagem essencialmente Lagrangeana, tendo como palco teórico a interseçăo entre a Mecânica dos Fluidos e a Teoria de Sistemas Dinâmicos. Apesar de o presente trabalho ter sido focado no escoamento sobre o cilindro circular, muitos dos resultados săo extensíveis aos corpos rombudos em geral. As simulaçőes computacionais do escoamento foram limitadas a duas dimensőes e aos regimes incompressível e năo turbulento (número de Reynolds năo maior que 200). A análise valeu-se particularmente do conceito de Estruturas Coerentes Lagrangeanas (LCSs). Através do estudo da evoluçăo das mesmas no tempo, uma descriçăo precisa das trajetórias das partículas foi dada (incluindo as oportunamente introduzidas órbitas caóticas). Tal descriçăo forneceu uma definiçăo natural para a regiăo de formaçăo de vórtices na esteira de um corpo rombudo (delimitar a regiăo de formaçăo é ainda uma questăo atualmente discutida na literatura). Ademais, ao fim do trabalho, foi ressaltada a existęncia de um ponto de descolamento efetivo (da camada limite), năo baseado nas linhas de corrente, mas nas LCSs. O interesse especial neste ponto decorre do fato de que as linhas de corrente năo atuam como barreiras de transporte para escoamentos năo-estacionários, ao contrário das LCSs. O resultado mais relevante é que tal ponto de descolamento efetivo permanece imóvel no tempo, mesmo em escoamentos năo-estacionários (para um dado número de Reynolds). Além de destacar as supracitadas constataçőes, o presente trabalho trouxe uma contribuiçăo própria ŕ Teoria de Sistemas Dinâmicos, a saber, um novo operador para obtençăo de LCSs como alternativa ao Expoente de Lyapunov de Tempo Finito (operador padrăo atualmente na literatura). Este novo operador mostrou-se computacionalmente mais eficiente e capaz de gerar LCSs mais bem definidas que o Expoente de Lyapunov de Tempo Finito. Todas as discussőes em questăo foram didaticamente estruturadas sobre conceitos fundamentais das áreas de Mecânica dos Fluidos e Teoria de Sistemas Dinâmicos.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Corpos rombudos",
+    "Escoamento năo-estacionário",
+    "Escoamento incompressível",
+    "Cilindros circulares",
+    "Transiçăo em camada limite",
+    "Caos",
+    "Vorticidade",
+    "Sistemas dinâmicos",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000564127",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000564127&origem=BDITA"
+}

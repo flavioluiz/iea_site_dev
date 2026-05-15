@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-84856514299",
+  "eid": "2-s2.0-84856514299",
+  "doi": "10.1109/IECON.2011.6119736",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Solid state switching and signal conditioning system for Structural Health Monitoring based on piezoelectric sensors actuators",
+  "abstract": "The Structural Health Monitoring - SHM method based on electrical impedance has been developed as a promising tool for structure failure identification in real time and is considered a novel non-destructive evaluation method. The piezoelectric - PZT impedance can be directly associated to the structure's mechanical impedance where de PZT is bonded. Assuming that the mechanical PZT properties do not change over the monitoring time, the electrical PZT impedance can be used for monitoring structural health. The use of each PZT as both sensor and actuator reduces the total number of sensor and wires connecting them to the switching circuit. The technique consists in obtaining Frequency Response Functions - FRF, with the related signal modification, periodically. Modifications in the FRF of each PZT would indicate structural changes and, therefore, a possible failure. The required number of PZTs will be determined by the dimensions of the monitored structure and the precision required for locating a possible failure. To obtain the FRF of the entire monitored structure it is used a switching and signal conditioning system that continuously activate and deactivate each PZT. This paper proposes a solid state, low power, small sized and low signal distortion switching system. The system is quite modular and each module can manage 16 PZTs. It is possible to expand the sensing net by interconnecting a non limited number of modules. Descriptions of the working principles, circuits used and experimental results are presented. © 2011 IEEE.",
+  "authkeywords": [
+    "Piezoceramic material",
+    "PZT",
+    "Structural Health Monitoring",
+    "Switching System"
+  ],
+  "year": "2011",
+  "date": "2011-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IECON Proceedings Industrial Electronics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "2689-2695",
+    "article_number": "6119736"
+  },
+  "authors": [
+    {
+      "name": "Neto, Roberto Mendes Finzi",
+      "scopus_id": "6504596034",
+      "affiliation": "60027136",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Steffen, Valder",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Gallo, Carlos Alberto",
+      "scopus_id": "7103169742",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84856514299&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089202",
+    "data_quality_score": 100
+  }
+}

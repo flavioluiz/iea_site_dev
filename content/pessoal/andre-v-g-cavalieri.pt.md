@@ -1,8 +1,7 @@
 ---
-title: "André V. G. Cavalieri"
+title: "André Valdetaro Gomes Cavalieri"
 layout: professor
 professor_id: "andre-v-g-cavalieri"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

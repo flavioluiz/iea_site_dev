@@ -1,0 +1,31 @@
+{
+  "num_tese": "79759",
+  "type": "tese",
+  "title": "Ferramenta multidisciplinar de simulaçăo e otimizaçăo de artefatos bélicos",
+  "author": "Guilherme Ferreira Lima Fernandez",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O desenvolvimento de sistemas bélicos guiados requer a ponderaçăo de vários requisitos funcionais, dimensionais, logísticos e industriais para o cumprimento de uma missăo de alta complexidade. Năo é incomum encontrar um desenvolvimento seriado dos subsistemas de sistemas de Defesa, no qual é determinada explicitamente uma hierarquia entre os subsistemas, sendo o subsistema inferior responsável por atender seus requisitos dentro das condiçőes de contorno do sistema superior. Este m'método é maduro e referenciado na literatura, mas depende de vários ciclos de retrabalho para que todas as inconsistęncias e impossibilidades sejam tratadas após serem verificadas em cada subsistema. Um desenvolvimento multidisciplinar baseado em simulaçőes, por outro lado, permite a estimativa de desempenho de um sistema integrado desde o seu projeto conceitual e é capaz de ponderar os aspectos aerodinâmicos, constitutivos, propulsivos e de controle observando năo apenas aspectos técnicos independentes de cada área do conhecimento, mas contabilizando as capacidades emergentes e aspectos de desempenho ao longo de todo o envelope operacional. Este trabalho, portanto, apresenta uma metodologia para simulaçăo e otimizaçăo de artefatos bélicos, que observa requisitos operacionais e características emergentes do sistema completo como referęncias para a funçăo objetivo. A funçăo objetivo utilizada é definida de acordo com o tipo de artefato bélico em desenvolvimento, com este trabalho focado em mísseis superfície-ar de curto alcance, ar-ar de curto alcance e ar-superfície de longo alcance, também denominados mísseis de cruzeiro. Săo otimizados os ganhos de controle em arfagem, guinada e rolamento, assim como aspectos constitutivos, como a constante de tempo das superfícies de controle. A otimizaçăo ocorre a partir de dados obtidos ao longo de toda a simulaçăo de voo do artefato em seis graus de liberdade, em que o artefato apresenta um modelo constitutivo com variaçăo de massa e das inércias, assim como modelo aerodinâmico e modelo propulsivo năo lineares. Os resultados mostram que é possível utilizar uma simulaçăo de seis graus de liberdade com algoritmo de otimizaçăo para estimar o desempenho e as deficięncias de armamentos guiados com reduzida intervençăo humana e com menos necessidade de homens-hora.",
+  "subjects": [
+    "Mísseis",
+    "Guiamento (movimento)",
+    "Otimizaçăo de Pareto",
+    "Ferramentas",
+    "Simulaçăo",
+    "Estimativas",
+    "Desempenho",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/05/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79759",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79759&origem=BDITA"
+}

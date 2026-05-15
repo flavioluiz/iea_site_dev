@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85208814908",
+  "eid": "2-s2.0-85208814908",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "MULTIPLATFORM SIMULATION USING ROS",
+  "abstract": "© 2024, International Council of the Aeronautical Sciences. All rights reserved.Robotics is a constantly evolving field that benefits from the use of tools powerful tools for robot development and simulation. Two of these tools, widely used ROS (Robot Operating System) and CoppeliaSim (formerly known as V-REP). ROS is an open-source framework widely used in the robotics community. On the other hand, CoppeliaSim is a simulation platform for powerful and versatile 3D robots. In this paper, we distributed an F16 simulation using ROS to create tasks, combining flight visualization by Flight Gear and collision analysis of a robotic flight simulator using CoppeliaSim.",
+  "authkeywords": [
+    "Distributed Simulation",
+    "Flight Simulator",
+    "ROS"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Icas Proceedings",
+    "issn": "10259090",
+    "eissn": "29584647",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva, Caroline Cristine Duarte",
+      "scopus_id": "59406854500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Yasmin",
+      "scopus_id": "59406953400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sarmento, Andrew",
+      "scopus_id": "57448915500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85208814908&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049009",
+    "data_quality_score": 70
+  }
+}

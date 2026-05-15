@@ -1,0 +1,34 @@
+{
+  "num_tese": "69817",
+  "type": "tese",
+  "title": "Development of methodologies of aeroelastic analysis for the design of flexible aircraft wings",
+  "author": "Marcos Cesar Ruggeri",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Eduardo de Souza",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work deals with several computational methodologies for the aeroelastic study of flexible aircraft wings on a preliminary design phase. An in-house vortex lattice method code named VLM4FW has been implemented with correction of sidewash and backwash effects to take into account the aeroelastic deformation of the wing in bending and torsion. In addition, corrections on the spanwise distribution of induced drag based on the cross-flow energy in the wake have been included. This code has been also programmed to be coupled in a co-simulation scheme with Abaqus for aeroelastic geometrical non-linear simulations and compute steady flight loads. Then, based on the deformed wing configuration new natural frequencies and mode shapes are extracted in MSC.Nastran with the solution sequence SOL 103. Flutter studies are next performed using the ZONA6 g-Method in ZAERO to analyze the dynamic aeroelastic instability and evaluate the results compared to the undeformed initial wing shape. Several case studies have been adopted to validate the VLM4FW program with rigid and flexible wings, such as the AE-249 and GNBA aircraft. Depending on the wing aspect ratio and flexibility, the results obtained give a clear idea of how important is the deformed configuration for the study of dynamic aeroelastic instabilities. The fact of considering the initial wing shape to perform a flutter analysis can lead to large errors in the estimated critical speeds, and even worse, overestimate the real values. Flutter analyses based on geometrical nonlinear deformed wings are assumed to be conservative for the preliminary design condition and are expected to provide better results as technological advances introduce higher aspect ratios on very flexible wings.",
+  "subjects": [
+    "Asas flexíveis",
+    "Aeroelasticidade",
+    "Corpos flexíveis",
+    "Vibraçăo aeroelástica",
+    "Características dinâmicas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/12/1201",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69817",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69817&origem=BDITA"
+}

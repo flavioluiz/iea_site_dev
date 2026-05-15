@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85216308994",
+  "eid": "2-s2.0-85216308994",
+  "doi": "10.1016/j.finel.2025.104314",
+  "pii": "S0168874X25000034",
+  "pubmed_id": null,
+  "title": "Improving the computation of forced responses of periodic structures by the wave-based finite element method via a modified generalized Bloch mode synthesis",
+  "abstract": "© 2025 Elsevier B.V.Periodic structures have attracted interest across various fields of science and engineering due to their unique ability to manipulate wave propagation. The Wave-based Finite Element Method (WFEM) is typically employed to model such systems by relying on the dynamic behavior of a single unit cell of the lattice. However, the WFEM can face challenges in handling unit cell finite element (FE) models with several degrees of freedom (DoFs), as it involves operating with large-sized matrices. Therefore, in this work, we combine the WFEM with the Generalized Bloch-Mode Synthesis (GBMS) to offer a highly efficient and accurate method for modeling periodic structures. Three different types of unit cells were investigated in this study, demonstrating that highly reduced unit cell models can be obtained using the Craig-Bampton (CB) and Local-level Characteristic Constraint (L-CC) model reduction methods. By leveraging the advantages of the WFEM and the reduced-order unit cell models, harmonic forced responses were rapidly and accurately computed. Additionally, we showed that combining the WFEM with the GBMS mitigates numerical issues when computing forced responses, as the boundary DoFs are reduced to a smaller number of equations, avoiding the computation of high-order evanescent modes, a task that can be difficult to perform accurately for some unit cells.",
+  "authkeywords": [
+    "Elastic metamaterials",
+    "Generalized Bloch mode synthesis",
+    "Modal assurance criterion",
+    "Model reduction",
+    "Phononic crystals",
+    "Wave-based finite element method"
+  ],
+  "year": "2025",
+  "date": "2025-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Finite Elements in Analysis and Design",
+    "issn": "0168874X",
+    "eissn": null,
+    "volume": "245",
+    "issue": null,
+    "pages": null,
+    "article_number": "104314"
+  },
+  "authors": [
+    {
+      "name": "M. de S. Santos, Vinícius",
+      "scopus_id": "59532905000",
+      "affiliation": "60021657-60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de P. Sales, Thiago",
+      "scopus_id": "57193124025",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "thiago-de-paula-sales"
+    },
+    {
+      "name": "Ouisse, Morvan",
+      "scopus_id": "55978138600",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "thiago-de-paula-sales"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Graphics and Computer-Aided Design",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 90,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85216308994&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.064316",
+    "data_quality_score": 100
+  }
+}

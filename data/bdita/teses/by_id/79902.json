@@ -1,0 +1,40 @@
+{
+  "num_tese": "79902",
+  "type": "tese",
+  "title": "Coupled framework based on leading-edge vortex shedding for simulating limit-cycle oscillations",
+  "author": "Tiago Priolli Monteiro",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    },
+    {
+      "name": "Kiran Ramesh",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Lighter materials and larger aspect ratios have been applied to aircraft design in order to achieve reduced fuel consumption. However, these practices have impacted the dynamic behavior by introducing greater flexibility to the aircraft, which results in the aeroelastic modes of vibration interfering with rigid-body modes. This affects not only control laws performance but also the passenger and pilot experience on board. For engineers to better control and design this behavior, it is imperative that they have suitable models to simulate coupled structural dynamics and aerodynamics in linear and nonlinear scenarios. Leading-edge vortex shedding models, such as the \"LESP-Modulated Discrete Vortex Method\", have been proved to be capable of simulating limit-cycle oscillations in airfoils. The purpose of this work is therefore to explore three-dimensional implementations of LESP-Modulated methods and couple them with linear structural models in order to explore their capacity to represent limit-cycle oscillations by comparing their predictions against wind-tunnel tests. Two aeroelastic models, both using the same linear modal superposition structural model, were developed for this work: the first model was coupled with the \"LESP-Modulated Discrete Vortex Method\" (LDVM), the second model was coupled with the \"Unsteady Vortex Lattice Method\" (UVLM) expanded with leading-edge vortex emission. This work explores a few implementations of the UVLM model and verifies both coupled models against wind tunnel results. The coupled LDVM model was capable of simulating the limit-cycle oscillations, whereas the UVLM model, besides producing good results for prescribed motions, was unstable and not capable of simulating limit-cycle oscillations when coupled in the aeroelastic model.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Aeroelasticidade",
+    "Projeto de aeronaves",
+    "Ensaios em túnel de vento",
+    "Análise estrutural",
+    "Oscilaçőes",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79902",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79902&origem=BDITA"
+}

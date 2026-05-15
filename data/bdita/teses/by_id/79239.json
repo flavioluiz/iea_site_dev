@@ -1,0 +1,39 @@
+{
+  "num_tese": "79239",
+  "type": "tese",
+  "title": "Dynamics of highly flexible slender beams using hamiltonian neural networks",
+  "author": "Vítor Borges Santos",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    },
+    {
+      "name": "Cornelis Henricus Venner",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Andrea Brugnoli",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Innovative concepts in aircraft design capitalize on modern materials and employ advanced optimization techniques, resulting in substantial reductions in structural weight, enhanced aerodynamic performance, and significant contributions towards achieving carbon-neutral aviation. These new aircraft sometimes incorporate high aspect-ratio wings, which possess a level of flexibility that requires the use of modeling techniques suited for geometrically nonlinear structures. These methods, however, often lead to prohibitively high computational costs. The recent emergence of Scientific Machine Learning has introduced new possibilities for improving the computational efficiency of structural dynamics analysis of highly flexible structures. The Hamiltonian formalism, known for its energy preserving properties, has served as a catalyst for the development of a class of physics-informed neural networks (PINNs) known as Hamiltonian neural networks (HNNs). These models offer promising advantages in interpretability and generalization compared to conventional feed-forward neural networks. This study proposes the use of Hamiltonian mechanics for highly flexible slender beams by employing a lumped-mass finite element approach. We also evaluate the effectiveness of a model order reduction technique based on modal decomposition that enforces the preservation of the geometrical nonlinearities through the use of the exact kinematics. These analytical models are validated against existing literature. Furthermore, two variations of Hamiltonian neural networks are employed to develop surrogate models capable of simulating the dynamics of highly flexible beams in free and forced response tasks. The surrogate models demonstrate high accuracies and significant reductions in computational costs, up to 87% when using HNNs trained with reduced-order model datasets. These surrogate models effectively enhance the computational performance of reduced-order models, leading to more efficient simulations. However, challenges arise in tuning numerous hyperparameters and dealing with their unpredictable behavior, especially as the number of degrees-of-freedom increases. Additionally, the surrogate models are limited to autonomous systems and incorporating external forces requires extra function calls, what often undermines the benefits provided by the surrogate models.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Aprendizagem (inteligęncia artificial)",
+    "Análise estrutural dinâmica",
+    "Redes neurais",
+    "Funçőes hamiltonianas",
+    "Corpos flexíveis",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79239",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79239&origem=BDITA"
+}

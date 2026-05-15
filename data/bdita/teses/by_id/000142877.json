@@ -1,0 +1,29 @@
+{
+  "num_tese": "000142877",
+  "type": "tese",
+  "title": "Otimizaçăo de estruturas de pontes rolantes protendidas",
+  "author": "Marcelo de Figueiredo Pimenta",
+  "year": "1988",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Rizzi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho foi desenvolvido visando a otimizaçăo de estruturas de pontes rolantes protendidas, dimensionadas conforme a norma NBR-8400 da Associaçăo Brasileira de Normas Técnicas. A estrutura da ponte rolante é tratada como um quadro rígido, constituído pelas vigas principais e cabeceiras. O carregamento devido a protensăo, aplicada ŕs vigas principais através de cabos, é considerado um caso especial de solicitaçăo. O problema de programaçăo matemática, da minimizaçăo do peso estrutural da ponte e cabos de protensăo, sujeito ŕs restriçőes de resistęncia e estabilidade impostas pela norma, é resolvido mediante a utilizaçăo da rotina CONMIN, baseada em um método de direçőes viáveis. As dimensőes lineares da estrutura, incluindo o diâmetro dos cabos de protensăo, săo tomadas como variáveis de projeto. O sistema garante espessuras de chapa padronizadas para o projeto ótimo, permitindo sua direta utilizaçăo pelo sistema produtivo nacional. Para a verificaçăo da eficięncia do sistema é utilizada uma ponte de 100 t de capacidade, já fabricada e em operaçăo. Săo feitas, ainda, análises de sensibilidade de vários parâmetros de projeto.",
+  "subjects": [
+    "Estruturas",
+    "Otimizaçăo",
+    "Pontes (estruturas)",
+    "Projeto estrutural",
+    "Engenharia estrutural",
+    "Engenharia civil"
+  ],
+  "defense_date": "01/08/1988",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000142877",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000142877&origem=BDITA"
+}

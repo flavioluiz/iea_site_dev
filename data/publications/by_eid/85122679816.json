@@ -1,0 +1,52 @@
+{
+  "publication_id": "2-s2.0-85122679816",
+  "eid": "2-s2.0-85122679816",
+  "doi": "10.1115/imece1999-1089",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "MULTIGRID NUMERICAL SOLUTIONS OF NON-ISOTHERMAL LAMINAR RECIRCULATING FLOWS",
+  "abstract": "© 1999 American Society of Mechanical Engineers (ASME). All rights reserved.The present work investigates the efficiency of the multigrid numerical method applied to solve two-dimensional laminar velocity and temperature fields inside a rectangular domain. Numerical analysis is based on the finite volume discretization scheme applied to structured orthogonal regular meshes. Performance of the correction storage (CS) multigrid algorithm is compared for different inlet Reynolds number (Rein) and number of grids. Up to four grids were used for both V- and iV-cycles. Simultaneous and uncoupled temperaturevelocity solution schemes were also applied. Advantages in using more than one grid is discussed. Results further indicate an increase in the computational effort for higher Re,„ and an optimal number of relaxation sweeps for both V- and W-cycles.",
+  "authkeywords": null,
+  "year": "1999",
+  "date": "1999-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings Imece",
+    "issn": null,
+    "eissn": null,
+    "volume": "1999-Q",
+    "issue": null,
+    "pages": "323-330",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85122679816&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112263",
+    "data_quality_score": 80
+  }
+}

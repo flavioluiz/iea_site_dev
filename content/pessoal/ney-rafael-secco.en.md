@@ -2,7 +2,6 @@
 title: "Ney Rafael Sêcco"
 layout: professor
 professor_id: "ney-rafael-secco"
-type: docentes
+departamento: "iea-p"
+type: pessoal
 ---
-
-<!-- Additional content can be added here if needed -->

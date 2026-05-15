@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-84863852152",
+  "eid": "2-s2.0-84863852152",
+  "doi": "10.1016/j.icheatmasstransfer.2012.06.002",
+  "pii": "S0735193312001224",
+  "pubmed_id": null,
+  "title": "Laminar flow with combustion in inert porous media",
+  "abstract": "This work presents one-dimensional numerical results for combustion of an air/methane mixture in inert porous media using laminar and radiation models. Comparisons with experimental data are reported. The burner is composed by a preheating section followed by a combustion region. Macroscopic equations for mass, momentum and energy are obtained based on the volume average concept. Distinct energy equations are considered for the porous burner and the flowing gas. The numerical technique employed for discretizing the governing equations was the control volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was used to relax the entire equation set. Inlet velocity, excess air, porosity and solid-to-fluid thermal conductivity ratio were varied in order to investigate their effect on temperature profiles. Results indicate that higher inlet velocities result in higher gas temperatures, following a similar trend observed in the experimental data used for comparisons. Burning of mixtures close to the stoichiometric conditions also increased temperatures, as expected. Increasing the thermal conductivity of the preheating section reduced peak temperature in the combustion region. The use of porous material with very high thermal conductivity on the combustion region did not affect significantly temperature levels in the combustion section. © 2012 Elsevier Ltd.",
+  "authkeywords": [
+    "Filtration combustion",
+    "Porous burners",
+    "Porous media"
+  ],
+  "year": "2012",
+  "date": "2012-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "39",
+    "issue": "7",
+    "pages": "896-903",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Coutinho, José E.A.",
+      "scopus_id": "55270521800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 45,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84863852152&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110814",
+    "data_quality_score": 100
+  }
+}

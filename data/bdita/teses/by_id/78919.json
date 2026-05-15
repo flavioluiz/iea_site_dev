@@ -1,0 +1,32 @@
+{
+  "num_tese": "78919",
+  "type": "tese",
+  "title": "An optimization method for a robotic flight simulator washout filter meeting operational safety criteria",
+  "author": "Aline da Conceiçăo Matheus",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The need to train pilots is practically coincident with the emergence of the aeronautical industry and the use of flight simulators for this task has been consolidated since the end of the Second World War. Currently, regulatory mechanisms exist to ensure that the flight simulator used in pilot training meets strict evaluation criteria. At the same time, there is a need to incorporate in-flight loss of control scenarios into training, the main cause of air accidents today. Therefore, it is necessary to find a motion platform that is capable of representing such flight scenarios. In this way, industrial robots emerge as a lower cost alternative to flight simulators: they are capable of achieving higher angular speeds and accelerations and have a larger workspace. However, industrial robots also represent a technological challenge regarding the implementation of safety mechanisms and loss of representativeness of the movement due to the existence of singularity points and other particularities. Therefore, the objective of this thesis is to implement a method for optimizing the parameters of the motion cueing algorithm of a robotic flight simulator, preserving aspects of operational safety. To make this work possible, it was necessary to complete two steps: the first consisted of modeling the KUKA KR 1000 Titan robot, used as a motion platform of the flight simulator used as a case study in this work. Then, an additional safety system was implemented, which aims to avoid collisions between the cockpit and the own robotic arm, regardless of the command implemented by the pilot. In order to evaluate the performance of the proposed solutions, an experiment was conducted with 4 non-professional pilots. The experiments indicated an improvement in the representativeness of motion, which was measured by the cost function used during the optimization process and by the pilots' evaluations. The proposed collision avoidance algorithm was effective in increasing operational safety, enabling tests with different washout filter parameters. However, this solution caused vibrations in the cockpit, which also influenced the results obtained.",
+  "subjects": [
+    "Robótica",
+    "Simuladores de voo",
+    "Anticolisăo",
+    "Braços robóticos E Manipuladores",
+    "Segurança operacional",
+    "Sensores de robôs",
+    "Otimizaçăo",
+    "Estudo de casos",
+    "Computaçăo"
+  ],
+  "defense_date": "05/12/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78919",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78919&origem=BDITA"
+}

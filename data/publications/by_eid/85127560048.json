@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85127560048",
+  "eid": "2-s2.0-85127560048",
+  "doi": "10.4271/2022-01-0009",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Feasibility Study of Using Liquid Hydrogen Tanks as Energy Carriers and Cooling Agents for a Small Aircraft Powered by PEMFCs",
+  "abstract": "© 2022 SAE International. All rights reserved.Restrictions on emissions have been made to guide society into a more sustainable development. The impasse between regulations and the expectation of a growing demand for aviation exposes the need for decarbonization of the sector. In this way, the utilization of hydrogen associated with fuel cells stands out as means to eliminate emissions during flight. This study evaluates the feasibility of using cryogenic liquid hydrogen (LH2) tanks as both energy source and cooling advantage for a small aircraft with electric propulsion. First, a propulsion system powered by a hybrid setup with Proton-Exchange Membrane Fuel Cells (PEMFC) and batteries is proposed for a small aircraft replacing an Internal Combustion Engine (ICE) and fuel tanks. Then, the new powerplant is integrated into the aircraft and simulated using the SUAVE tool. Next, a heat management analysis is performed to assess heat generation within the aircraft and heat requirements in the cryogenic tanks to meet the hydrogen consumption throughout a mission profile. Later, a sensitivity analysis explores the behavior of this heat balance with the variation in cruise duration. It is found that additional cooling capacity is required beyond that the provided by the cryogenic LH2 for this size of aircraft and mission profile, which is proposed as the additional liquid cooling system that was added to the simulation to obtain the final powerplant configuration.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-03-08",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": null,
+    "eissn": "01487191",
+    "volume": null,
+    "issue": "2022",
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Inacio, Georginelly",
+      "scopus_id": "57561729700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mourao, Carlos",
+      "scopus_id": "57540109000",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Ana Lídia",
+      "scopus_id": "57562297700",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85127560048&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118712",
+    "data_quality_score": 90
+  }
+}

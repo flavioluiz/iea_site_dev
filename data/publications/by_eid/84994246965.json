@@ -1,0 +1,72 @@
+{
+  "publication_id": "2-s2.0-84994246965",
+  "eid": "2-s2.0-84994246965",
+  "doi": "10.1016/j.compstruct.2016.10.026",
+  "pii": "S026382231631008X",
+  "pubmed_id": null,
+  "title": "Assembly of semi-analytical models to address linear buckling and vibration of stiffened composite panels with debonding defect",
+  "abstract": "© 2016 Elsevier LtdThe substitution of conventional mechanical fasteners by adhesive joints has been advocated by the aircraft and aerospace industries due to the weight saving potential. Flaws such as debonding of the adhesive layer between the skin and the stiffener may greatly affect the structural behavior of composite panels. Within this context, this work presents a semi-analytical approach for the numerical investigation on the effects of skin-stiffener bonding flaw size on the vibration and linear buckling behavior of T-stiffened composite panels. Skin and stiffener have been modeled using an assembly of curved and flat panel components, with each domain approximated using a set of hierarchical polynomial functions. A penalty-based approach has been used to assemble the various domains and to model the debonded region between the stiffener flange base and the plate. This approach ensures full compatibility in terms of displacements and rotations between the stiffener's base top face and the panel bottom face allowing to model different skin/stiffener debonding lengths. The results obtained using the proposed semi-analytical models have been compared and verified against numerical predictions based on finite element analyses.",
+  "authkeywords": [
+    "Composite",
+    "Defect",
+    "Linear buckling",
+    "Semi-analytical",
+    "Stiffened plate",
+    "Stiffened shell",
+    "Vibration"
+  ],
+  "year": "2017",
+  "date": "2017-01-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "160",
+    "issue": null,
+    "pages": "232-247",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 48,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84994246965&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121925",
+    "data_quality_score": 100
+  }
+}

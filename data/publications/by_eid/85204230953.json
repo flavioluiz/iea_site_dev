@@ -1,0 +1,95 @@
+{
+  "publication_id": "2-s2.0-85204230953",
+  "eid": "2-s2.0-85204230953",
+  "doi": "10.2514/6.2024-4584",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The Influence of the Operational Altitude Variation on Flight Controller Design on Combat Aircraft Configuration",
+  "abstract": "© 2024, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.The upward variation in altitude implies a decrease in air density. This phenomenon induces modifications in the aerodynamic forces and moments exerted on an aircraft, especially in combat aircraft. Such alterations have profound implications on the stability and controllability of the aircraft, thereby necessitating the implementation of distinct control strategies contingent upon the altitude. Conventional control systems, which are typically calibrated for a pre-defined set of environmental conditions, may not exhibit optimal performance throughout the entire range of operational altitudes encompassed within the flight envelope. This research work analyzes the Generic Future Fighter (GFF) subscale model and has as its central proposition the use of Linear Matrix Inequalities (LMIs) in the design of a Stability Enhancement System (SAS) for the aircraft, the in order to guarantee stability and maintain performance at different operating altitudes. The results obtained from the simulation showed that the open-loop response presents significant variations in the dynamic behavior of the aircraft with changes in altitude. Using LMIs, the designed controller effectively adjusted the feedback gain matrix, ensuring performance under different flight conditions, and the closed-loop response demonstrated that the control system maintained a similar operating condition regardless of altitude.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Moura, Éder Alves",
+      "scopus_id": "57425084200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Murilo Nepomuceno, Leonardo",
+      "scopus_id": "59496518500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Paula, Adson Agrico",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    },
+    {
+      "name": "Annes da Silva, Roberto Gil",
+      "scopus_id": "57253443600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sandoval Góes, Luiz Carlos",
+      "scopus_id": "59217531900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85204230953&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085399",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "num_tg": "000550344",
+  "type": "tg",
+  "title": "Desenvolvimento de uma nova metodologia para determinaçăo experimental de derivadas de estabilidade dinâmicas.",
+  "author": "Joaquim Neto Dias",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por finalidade analisar a viabilidade de uma nova metodologia para determinaçăo de derivadas de estabilidade dinâmicas, através de ensaios em túnel de vento. Para tanto, faz-se necessário construir um modelo de uma aeronave conhecida, para ser testado no túnel de vento do ITA. O sistema de fixaçăo deve permitir que o modelo gire livremente em torno do seu centro de gravidade e suas superfícies de controle devem ser comandadas remotamente via rádio. A partir de uma situaçăo de equilíbrio, aplicam-se entradas de comando tipo degrau ou doublé, e captura-se a evoluçăo dos seguintes estados da aeronave ao longo do tempo: sustentaçăo, arrasto, força lateral, os tręs ângulos de atitude e as deflexőes das superfícies de controle (profundor, aileron e leme). A partir desses resultados, é possível calcular as derivadas de estabilidade dinâmicas através do método de estimaçăo paramétrica. Além dos ensaios dinâmicos, que fornecem as características da resposta dinâmica da aeronave, também é possível realizar diversos ensaios estáticos visando obter as curvas CL-alfa e polar de arrasto, para a aeronave compensada em arfagem e em derrapagem simultaneamente. Ao longo do trabalho, é feita uma descriçăo detalhada acerca da construçăo, instrumentaçăo, calibraçăo e procedimento de ensaio. Ao final, comparam-se alguns resultados com valores teóricos esperados e realiza-se uma análise geral acerca da metodologia desenvolvida.",
+  "subjects": [
+    "Ensaios em túneis de vento",
+    "Derivadas de estabilidade",
+    "Aeronave năo-tripulada",
+    "Estabilidade de aeronaves",
+    "Coeficientes aerodinâmicos",
+    "Características aerodinâmicas",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550344",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550344&origem=BDITA"
+}

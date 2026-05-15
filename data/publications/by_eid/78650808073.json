@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-78650808073",
+  "eid": "2-s2.0-78650808073",
+  "doi": "10.1016/j.automatica.2010.10.030",
+  "pii": "S0005109810004449",
+  "pubmed_id": null,
+  "title": "A Bayesian solution to the multiple composite hypothesis testing for fault diagnosis in dynamic systems",
+  "abstract": "This paper is concerned with model-based isolation and estimation of additive faults in discrete-time linear Gaussian systems. The isolation problem is stated as a multiple composite hypothesis testing on the innovation sequence of the Kalman filter (KF) that considers the system operating under fault-free conditions. Fault estimation is carried out, after isolating a fault mode, by using the Maximum a Posteriori (MAP) criterion. An explicit solution is presented for both fault isolation and estimation when the parameters of the fault modes are assumed to be realizations of specific random variables (RV). © 2010 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Detection theory",
+    "Estimation theory",
+    "Fault diagnosis",
+    "Multiple hypothesis testing"
+  ],
+  "year": "2011",
+  "date": "2011-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Automatica",
+    "issn": "00051098",
+    "eissn": null,
+    "volume": "47",
+    "issue": "1",
+    "pages": "158-163",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Yoneyama, Takashi",
+      "scopus_id": "7202091914",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=78650808073&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095126",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-84941992273",
+  "eid": "2-s2.0-84941992273",
+  "doi": "10.1201/b17488-173",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Hierarchical optimization of fiber reinforced composites for natural frequencies",
+  "abstract": "© 2015 Taylor & Francis Group, London.This paper has the aim of designing laminated composite structures to maximize vibration frequencies using concepts of hierarchical topology optimization, a structural optimization branchwhose purpose is to simultaneously design the material distribution layout of a structure in two distinct levels: One macromechanical (or structural, global) and the other micro-mechanical (or material, local). In the macro-level, design in terms of optimal material distribution on the general layout of the structure is taken into account. In the microlevel, the constitutive properties optimal design is searched, in terms of defining the distribution of material phases in unit cells of microstructure. This general approach is here extended to the laminated composites of interest: At the macro-level, optimal orientations and fiber volume fractions are defined for unidirectional composite material layers and, at the micro-level, it is designed the shape of the reinforcement fibers. The objective is to maximize the first and second natural vibration frequencies of laminated plates subjected to constraints on the limit of total fiber volume fraction employed. In this problem multiple eigenvalues are possible, leading to non-differentiability.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Engineering Optimization IV Proceedings of the 4th International Conference on Engineering Optimization Engopt 2014",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "955-960",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, R. T.L.",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Rodrigues, H. C.",
+      "scopus_id": "35614160700",
+      "affiliation": "60004956",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guedes, J. M.",
+      "scopus_id": "7003775475",
+      "affiliation": "60004956",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84941992273&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063827",
+    "data_quality_score": 90
+  }
+}

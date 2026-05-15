@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-85037811160",
+  "eid": "2-s2.0-85037811160",
+  "doi": "10.1016/j.ymssp.2017.11.018",
+  "pii": "S0888327017306015",
+  "pubmed_id": null,
+  "title": "An efficient iterative model reduction method for aeroviscoelastic panel flutter analysis in the supersonic regime",
+  "abstract": "© 2017 Elsevier LtdThe flutter boundary prediction of complex aeroelastic systems is not an easy task. In some cases, these analyses may become prohibitive due to the high computational cost and time associated with the large number of degrees of freedom of the aeroelastic models, particularly when the aeroelastic model incorporates a control strategy with the aim of suppressing the flutter phenomenon, such as the use of viscoelastic treatments. In this situation, the use of a model reduction method is essential. However, the construction of a modal reduction basis for aeroviscoelastic systems is still a challenge, owing to the inherent frequency- and temperature-dependent behavior of the viscoelastic materials. Thus, the main contribution intended for the present study is to propose an efficient and accurate iterative enriched Ritz basis to deal with aeroviscoelastic systems. The main features and capabilities of the proposed model reduction method are illustrated in the prediction of flutter boundary for a thin three-layer sandwich flat panel and a typical aeronautical stiffened panel, both under supersonic flow.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Finite element",
+    "Flutter suppression",
+    "Passive control",
+    "Reduction methods",
+    "Viscoelastic materials"
+  ],
+  "year": "2018",
+  "date": "2018-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "104",
+    "issue": null,
+    "pages": "575-588",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cunha-Filho, A. G.",
+      "scopus_id": "57151440000",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Briend, Y. P.J.",
+      "scopus_id": "57199323645",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lima, A. M.G.",
+      "scopus_id": "14047980400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, M. V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 27,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85037811160&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121837",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85111926899",
+  "eid": "2-s2.0-85111926899",
+  "doi": "10.1016/j.compscitech.2021.108962",
+  "pii": "S0266353821003183",
+  "pubmed_id": null,
+  "title": "Mechanism based failure of 3D-printed continuous carbon fiber reinforced thermoplastic composites",
+  "abstract": "© 2021 The Author(s)The present work describes a computational mechanism based failure analysis conducted for 3D-printed continuous carbon fiber reinforced thermoplastic composites (CFRTPCs), which could not be seen in the available literature. The material failure is investigated based on intraply failure evaluation and adopts different failure criteria for the material constituents. The micromechanical modeling employs the Asymptotic Homogenization technique and comprises the selection of a representative volume element statistically equivalent to the microstructure of the material, which is identified from cross-section micrographs. In contrast to recent work, it is demonstrated that an additional relation is required for the macroscopic deviatoric stresses acting over the matrix. This avoids an overestimation of the matrix failure when the reinforced lamina is subjected to longitudinal and shear loads. The resulting failure envelopes are presented and compared to those provided by analytical failure theories available in the literature. The results obtained by the micromechanical approach showed its ability to predict failure of 3D-printed CFRTPCs, in addition to bring different elements for the discussion that could not be captured with analytical models. In this context, it is believed that the characteristics inherent to the microstructure reproduced in the RVE, particularly contributed to obtaining more realistic failure envelopes.",
+  "authkeywords": [
+    "3D printing",
+    "Failure criterion",
+    "Multi-mechanism modelling",
+    "Polymer-matrix composites (PMCs)"
+  ],
+  "year": "2021",
+  "date": "2021-09-08",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composites Science and Technology",
+    "issn": "02663538",
+    "eissn": null,
+    "volume": "213",
+    "issue": null,
+    "pages": null,
+    "article_number": "108962"
+  },
+  "authors": [
+    {
+      "name": "Dutra, Thiago Assis",
+      "scopus_id": "57211220639",
+      "affiliation": "60000990-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, Rafael Thiago Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Resende, Hugo Borelli",
+      "scopus_id": "57196403328",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Blinzler, Brina Jane",
+      "scopus_id": "36668249600",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Asp, Leif E.",
+      "scopus_id": "7003735733",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 18,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 71,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85111926899&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063715",
+    "data_quality_score": 100
+  }
+}

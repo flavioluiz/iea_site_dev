@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85091266621",
+  "eid": "2-s2.0-85091266621",
+  "doi": "10.2514/6.2020-3594",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of distributed electric propulsion on the performance of a general aviation aircraft",
+  "abstract": "© 2020, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.With an always increasing demand for more efficient aircraft due to both economic and environmental purposes, academy and industry are studying hybrid-electric and full-electric concepts to explore new aircraft design opportunities. This paper proposes a study based on a Cessna 208B Grand Caravan, using it as a platform to implement distributed electric propulsion and enable the use of high-lift propellers by electrifying the propulsive system. Key design parameters of the aircraft are varied to evaluate the effectiveness of the lift augmentation system as well as its effects on generated thrust and aerodynamic efficiency. The effects of the propellers slipstreams on the wing are implemented on SUAVE, a conceptual level design environment, which is used to integrate the aircraft model and run the simulations. Results of the analyses differ from what is available on the literature, yielding aerodynamic efficiency gains that are much more modest than what was expected according to assumptions made on recent publications.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Propulsion and Energy 2020 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1-16",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gallani, Murilo A.",
+      "scopus_id": "57219110340",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Nerosky, Luiz A.R.",
+      "scopus_id": "55678643700",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Energy (all)",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091266621&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077025",
+    "data_quality_score": 90
+  }
+}

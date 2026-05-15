@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-84996844890",
+  "eid": "2-s2.0-84996844890",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aeroelastic simulations of flexible aircraft with the commercial structural solver abaqus",
+  "abstract": "The present work deals with time response and stability simulations of flexible wings using a structural commercial solver, Abaqus. The use of commercial codes for structural analyses are necessary due to their ability to deal with more complex geometry than in-house codes usually do. The problem becomes establishing strategies for coupling these codes with the different aerodynamic solvers. In aeroelasticity this coupling involves passing displacements, velocities and forces from one model to another. Here, Abaqus is coupled to the commercial aerodynamic solver ZAERO. Initially, static stresses are computed based on loads obtained from trim analyses with ZAERO aiming establishing procedures for information coupling between codes. As a first approach, a simplified cantilever rectangular plate with a concentrated mass modelling a ballast located at the wing tip is simulated and then the results are correlated to experimental data for validation. Secondly, a more complex model of an aircraft is also analysed using the same methodology as described above. Finally, some conclusions are presented regarding the importance of including nonlinearity effects in the formulation of flexible wings and then compared to the same simulations assuming a linear theory. Final comments are also mentioned with guidelines for the computational procedures and limitations on the assumptions made to get reasonably accurate results.",
+  "authkeywords": [
+    "Abaqus",
+    "Aeroelasticy",
+    "Aircraft",
+    "Flexible",
+    "Simulation"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ruggeri, Marcos C.",
+      "scopus_id": "57189043105",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Roberto Gil Annes Da",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "De Souza, Carlos E.",
+      "scopus_id": "55507900700",
+      "affiliation": "60033356",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84996844890&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067433",
+    "data_quality_score": 70
+  }
+}

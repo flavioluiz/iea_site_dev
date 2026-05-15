@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85203463818",
+  "eid": "2-s2.0-85203463818",
+  "doi": "10.1016/j.ijft.2024.100798",
+  "pii": "S2666202724002398",
+  "pubmed_id": null,
+  "title": "Performance and optimization evaluation for integration of sCO2 power system into the aircraft propulsion system",
+  "abstract": "© 2024The aviation industry accounts for part of the CO2 emissions contributing to climate change. The industry has established a target to reduce 2050 net aviation carbon emissions by 50 % relative to 2005 levels. With this in mind, waste heat recovery is a key pathway to achieve reduced emissions and improve system efficiency. The waste heat may potentially be converted to electric power using a supercritical CO2 Brayton power cycle. The sCO2 power system offers the advantage of compactness owing to the high working fluid density, which is an important consideration for aircraft performance. The present work focuses on the integration of the sCO2 power system into the aircraft propulsion system and evaluation of its performance. Detailed optimization of the sCO2 waste heat system will be evaluated with a focus on cycle efficiency and net power under different operating conditions, including ground, takeoff, climb, cruise, and landing operations. The study is divided into two parts with two different turbofan engines, one with a nominal thrust of 30 kN and the other with a nominal thrust of 9 kN. The first part shows the effect and operation of the waste heat recovery unit under the different operating conditions. The second part is focused on cycle optimization and performance evaluation. The results demonstrate the potential of waste heat recovery during a range of operational conditions. The sCO2 cycle efficiency can reach between 25 and 39 % (depending on aircraft engine) with net power output in the range of 100 to 260 kW.",
+  "authkeywords": [
+    "Aircraft",
+    "Bottoming cycle",
+    "Decarbonization",
+    "Engine",
+    "Integration",
+    "sCO2",
+    "Waste heat"
+  ],
+  "year": "2024",
+  "date": "2024-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermofluids",
+    "issn": null,
+    "eissn": "26662027",
+    "volume": "24",
+    "issue": null,
+    "pages": null,
+    "article_number": "100798"
+  },
+  "authors": [
+    {
+      "name": "Vesely, L.",
+      "scopus_id": "56421930800",
+      "affiliation": "60022144",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, C.",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Kapat, J.",
+      "scopus_id": "7003375376",
+      "affiliation": "60022144",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, J. T.",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Stoia, M.",
+      "scopus_id": "57200365015",
+      "affiliation": "60030821",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 56,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203463818&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051433",
+    "data_quality_score": 100
+  }
+}

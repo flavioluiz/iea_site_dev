@@ -1,0 +1,32 @@
+{
+  "num_tg": "78036",
+  "type": "tg",
+  "title": "Estimaçăo de coeficientes aerodinâmicos de uma configuraçăo asa-fuselagem-empenagem de aeronave por redes neurais artificiais",
+  "author": "Lívia Fragoso Pimentel",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Em projetos aeronáuticos, ferramentas computacionais capazes de realizar cálculos aerodinâmicos com altos graus de fidelidade garantem maior confiabilidade no fornecimento de informaçőes para diversas áreas de projeto, de forma que diferentes requisitos de design sejam atendidos e importantes soluçőes de compromisso sejam determinadas. No entanto, frequentemente, tais ferramentas estăo associadas a altos custos computacionais e tempos de processamento, o que pode dificultar o andamento do projeto. Diante disso, surge a busca por modelos capazes de substituir essas ferramentas e de fornecer cálculos aerodinâmicos com níveis de confiabilidade desejáveis, sem a necessidade de recursos computacionais sofisticados. A fim de fornecer uma alternativa que alie confiabilidade e agilidade, este trabalho de graduaçăo tem o objetivo de explorar Redes Neurais Artificiais na estimaçăo de coeficientes aerodinâmicos, de forma a apresentar meta-modelos que alcancem resultados próximos aos obtidos com softwares tradicionalmente utilizados, como o programa BLWF (Boundary Layer Wing-Fuselage). Para isso, foi utilizada uma abordagem baseada em práticas frequentemente empregadas em Aprendizado de Máquina, tais como: aquisiçăo, análise exploratória e pré-processamento de dados, treinamento e validaçăo de modelos. Nesse contexto, primeiramente, foi obtida uma base de dados aerodinâmica que serviu de insumo para o aprendizado das Redes Neurais Artificiais. Essa base, obtida por meio do BLWF, relacionou coeficientes aerodinâmicos correspondentes a mais de 40000 diferentes geometrias de aeronaves dotadas de fuselagem, asas e empenagens. Na fase de pré-processamento dos dados, foi utilizada a técnica de normalizaçăo e, em seguida, os treinamentos das redes foram realizados ao variar-se o número de neurônios presentes em suas camadas intermediárias. Nessa etapa, foram exploradas técnicas de regularizaçăo, com o objetivo de evitar a ocorręncia de overfitting. Em seguida, as redes selecionadas foram validadas durante a estimaçăo de coeficientes aerodinâmicos correspondentes a uma aeronave específica, operando regimes subsônico e transônico. Por fim, as performances das RNA's foram comparadas com as de outros modelos preditivos, caracterizados por serem mais simples e interpretáveis. Os resultados obtidos demonstraram a eficácia das técnicas de regularizaçăo na melhoria dos poderes de generalizaçăo das redes. Tais regularizaçőes representaram alternativas ŕ necessidade de aumento da base de dados utilizada para treino. Além disso, constatou-se que RNA's geraram menores erros nas prediçőes quando comparadas a modelos como Árvores Aleatórias e SVR. Por fim, concluiu-se que RNA's săo meta-modelos capazes de estimar coeficientes aerodinâmicos com sucesso, apresentando erros aceitáveis e menores tempos de prediçăo em comparaçăo ao programa BLWF.",
+  "subjects": [
+    "Redes neurais",
+    "Aprendizagem (inteligęncia artificial)",
+    "Projetos de aeronaves",
+    "Cargas aerodinâmicas",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78036",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78036&origem=BDITA"
+}

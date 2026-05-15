@@ -1,0 +1,36 @@
+{
+  "num_tese": "000447240",
+  "type": "tese",
+  "title": "Simulaçőes multibloco para configuraçőes complexas em qualquer regime de velocidade.",
+  "author": "Robson Leal da Silva",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este projeto foi desenvolvido objetivando a implementaçăo de ferramentas numéricas para simulaçăo de escoamentos em baixas velocidades em configuraçőes geométricas complexas. O método numérico utilizado é uma variaçăo do algoritmo implícito de fatoraçăo aproximada de Beam e Warming, no qual as variáveis de trabalho săo densidade, temperatura e componenetes cartesianas de velocidade. O algoritmo implementado incorpora, ainda, um método para aceleraçăo de convergęncia que utiliza pressăo como variável primitiva ao invés de densidade como forma de simular corretamente escoamentos a baixas velocidades. Configuraçőes geométricas como as de canais e outros dispositivos industriais com escoamento interno săo os modelos principais dos estudos desenvolvidos. Busca-se, com os resultados obtidos, uma forma de melhorar a forma geométrica dos canais internos nestes tipos de dispositivos, através da análise das propriedades de escoamento. As equaçőes governantes do modelo săo discretizadas especialmente utilizando-se operadores de diferenças centradas, sendo assegurada a estabilidade numérica por um modelo de dissipaçăo artificial năo-linear. A soluçăo numérica é obtida para a condiçăo de estado estacionário com a ajuda de aceleraçăo de convergęncia de método desenvolvido anteriormente. Inicialmente somente o sistema năo-viscoso com um tratamento 2-D é pesquisado, de forma a reduzir significativamente o trabalho computacional despendido e ainda assim obter as propriedades de estado necessárias para o melhor conhecimento do sistema físico em questăo. O trabalho apresenta simulaçőes de escoamento em configuraçőes cujo objetivo é a validaçăo da metodologia proposta. Comparaçăo de resultados com dados de literatura é feita e demonstra-se que a capacidade de uso do método para configuraçőes verdadeiramente complexas está implementada.",
+  "subjects": [
+    "Escoamento de fluidos",
+    "Simulaçăo computadorizada",
+    "Velocidade de fluxo",
+    "Configuraçőes",
+    "Análise numérica",
+    "Baixa velocidade",
+    "Algoritmos",
+    "Mecânica dos fluidos",
+    "Matemática aplicada",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia mecânica",
+    "Computaçăo"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000447240",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000447240&origem=BDITA"
+}

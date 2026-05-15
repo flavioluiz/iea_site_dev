@@ -1,0 +1,36 @@
+{
+  "num_tese": "000550598",
+  "type": "tese",
+  "title": "Sistema hidrometeorológico proposto para previsăo de eventos extremos numa microbacia de topografia complexa.",
+  "author": "Nadiane Smaha Kruk",
+  "year": "2008",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Íria Fernandes Vendrame",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Chou Sin Chan",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Previsőes hidrometeorológicas confiáveis săo necessárias para amenizar desastres causados por eventos extremos. Dessa forma, o acoplamento de modelos atmosféricos e hidrológicos vęm se mostrando como uma ferramenta importante para previsăo de eventos severos, proporcionando um sistema de alerta, minimizando os danos causados ŕ populaçăo. O principal objetivo deste trabalho é propor, aplicar e avaliar um sistema acoplado do modelo atmosférico Eta ao modelo hidrológico DHSVM (Distributed Hydrology Soil Vegetation Model), aplicado a uma microbacia na regiăo da Serra do Mar no Estado de Săo Paulo. Essa regiăo, por apresentar acentuadas declividades do terreno e remanescentes de mata atlântica, requer estudos específicos, metodologias e modelos adequados ŕs suas características. Por se tratar de um modelo hidrológico distribuído, o DHSVM necessita de uma grande quantidade de parâmetros físicos de solo e vegetaçăo, que caracterizam em cada ponto de grade, a regiăo de estudo. Os parâmetros encontrados para a bacia de estudo podem vir a contribuir para outros trabalhos de modelagem na regiăo da Serra do Mar. A necessidade de dados de irradiância de onda longa para a simulaçăo hidrológica, fez com que uma equaçăo de estimativa da mesma fosse ajustada, podendo ser aplicada para todo o Estado de Săo Paulo. O principal desafio encontrado no acoplamento de modelos atmosféricos e hidrológicos é a grande diferença de escalas espacial e temporal. Este trabalho propőe uma técnica de desagregaçăo (downscaling) para aumentar a resoluçăo espacial dos campos de precipitaçăo e temperatura fornecidos pelo modelo atmosférico de 10 km para 2 km. Os resultados apresentados mostraram que a qualidade das vazőes simuladas dependem principalmente da qualidade do campo de precipitaçăo de entrada ao modelo hidrológico, seja ele gerado pela interpolaçăo de dados observados em estaçőes de monitoramento ou gerado por modelos de previsăo do tempo. A aplicaçăo das técnicas de desagregaçăo pouco afetaram os resultados das vazőes simuladas.",
+  "subjects": [
+    "Modelos atmosféricos",
+    "Hidrometeorologia",
+    "Bacias hidrográficas",
+    "Medidas de fluxo",
+    "Precipitaçăo (Meteorologia)",
+    "Previsăo numérica do tempo",
+    "Meteorologia",
+    "Hidrologia"
+  ],
+  "defense_date": "04/11/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000550598",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000550598&origem=BDITA"
+}

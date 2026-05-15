@@ -1,0 +1,32 @@
+{
+  "num_tese": "79882",
+  "type": "tese",
+  "title": "Buckling analysis of stiffened composite panels with cutouts using the discrete Ritz method",
+  "author": "Lucas Garcia de Sampaio Lobianco",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The idealization of the critical section of a structural component of an aircraft is a strategic approach in aerospace engineering, balancing the need for detailed analysis, addressing particular issues related to the engineering design and improvement on numerical performance of the model. Thus, it is possible to focus efforts on the most crucial aspects of aircraft design, ensuring safety, performance, and efficiency in the final product. In this context, this work presents the development of a semi-analytical model using MATLAB software and employing the Discrete Ritz Method and the principle of stationary total potential energy to conduct prebuckling analyses and determine the critical buckling load of plates with circular cutouts and stiffeners. A methodology is proposed to minimize the computational effort required to perform convergence studies as well as to handle initially unsuccessful simulations. Additionally, with the use of hierarchical polynomials, various edge boundary conditions can be simulated with only one set of integrations. The developed model is validated through comparisons with existing literature, finite element analysis using Abaqus software, and experimental tests involving the buckling of panels of an aircraft's horizontal stabilizer under pure shear loading conditions, using a picture frame testing jig, as outlined in (SINGER et al.,1998). The results demonstrate excellent agreement, indicating the robustness and accuracy of the model. The research highlights the efficiency of the proposed method in reducing computational cost while maintaining high precision, making it a valuable tool for analyzing buckling behavior in aerospace, naval, mechanical engineering applications, among others. The findings suggest that the combination of hierarchical polynomials and numerical integration via Gauss-Legendre quadrature offers significant advantages in terms of computational efficiency and precision. Despite minor discrepancies observed in experimental correlations, mainly due to variations in clamping conditions and material manufacturing processes, the study provides a comprehensive framework for future research and practical implementation.",
+  "subjects": [
+    "Painéis",
+    "Placas reforçadas",
+    "Materiais compósitos",
+    "Flambagem",
+    "Método de Rayleigh-Ritz",
+    "Método de elementos finitos",
+    "Ensaios de materiais",
+    "Engenharia de materiais",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "28/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79882",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79882&origem=BDITA"
+}

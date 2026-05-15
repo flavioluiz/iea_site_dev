@@ -1,0 +1,30 @@
+{
+  "num_tg": "61712",
+  "type": "tg",
+  "title": "Análise comparativa de métodos de ajuste de lançamento de foguetes de sondagem",
+  "author": "Jardel Pereira Correa Peres",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alexandre Nogueira Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Para os foguetes de sondagem serem bem-sucedidos, é preciso que eles voem próximos da trajetória prevista. Contudo, o vento pode alterar sua atitude, tirando-os da rota programada. Para minimizar este problema, faz-se o ajuste do ângulo de azimute e elevaçăo de lançamento de tal forma que o efeito do vento seja compensado. Em outras palavras, que a mudança de atitude, provocada pelo vento, aponte o foguete no rumo certo. O método de ajuste tradicional requer a análise de sensibilidade da trajetória do foguete em funçăo de variaçőes da velocidade e direçăo do vento e assume relaçőes simples entre o deslocamento do ponto de impacto, provocado pelo vento, e a correçăo do ângulo de azimute e elevaçăo de lançamento para compensar o efeito do vento. Realizou-se a comparaçăo do método tradicional com um alternativo, proposto pela Seçăo de Dinâmica de Voo do Instituto de Aeronáutica e Espaço. No método alternativo săo feitas iteraçőes com o programa de cálculo da trajetória a fim de obter o ângulo de azimute e elevaçăo de lançamento tal que o deslocamento do ponto de impacto provocado pelo perfil de vento levado em conta no cálculo seja mínimo.Verificou-se que o método alternativo é muito mais preciso que o método tradicional, apesar do último já apresentar resultados bastante satisfatórios. No entanto, o tempo de simulaçăo do método alternativo é significativamente maior que o tempo gasto pelo método tradicional, podendo inviabilizar seu uso durante a cronologia de lançamento. Desta forma, apesar da menor precisăo, o método tradicional continua sendo útil no ajuste dos ângulos de lançamento.",
+  "subjects": [
+    "Foguetes-sonda",
+    "Otimizaçăo de trajetória",
+    "Trajetórias de foguetes",
+    "Segurança do vôo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61712",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61712&origem=BDITA"
+}

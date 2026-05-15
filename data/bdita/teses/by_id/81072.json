@@ -1,0 +1,31 @@
+{
+  "num_tese": "81072",
+  "type": "tese",
+  "title": "Aeroelastic analysis of a propeller flexibly mounted on a lifting surface under unsteady aerodynamic loads",
+  "author": "Paulo Mateus de Melo Rodrigues",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents the development of a model for the aeroelastic analysis of a propeller coupled to a typical section, considering four degrees of freedom under unsteady aerodynamic effects. The proposed model was validated against existing cases in the literature, and an experimental setup was developed with the objective of providing experimental validation of the analytical model. The experiment employs an aluminium plate-like wing, adapted to the typical section, while the rotor was designed and manufactured based on the pioneering experiments of Houbolt and Reed. The characterization of the dynamic parameters related to the structural stiffness of the experimental model was performed through a modal analysis. Additionally, wind tunnel tests were conducted to characterize the rotor advance ratio. A theoretical-experimental comparison of the critical flow velocities and flutter mechanisms was carried out using the proposed aeroelastic apparatus. The flow-damped frequencies involved in the observed flutter mechanism were measured experimentally using a high-speed camera. The results show good agreement with literature data, with errors below 3%. The comparison between experimental and theoretical results indicates discrepancies ranging from 0% to 30% in the critical flutter velocity. These errors are associated with measurement uncertainties in some aeroelastic parameters, among which is the structural damping factor. Furthermore, nonlinearities present in the experimental model contributed to discrepancies relative to the theoretical model. Despite its limitations, the proposed model adequately captures the expected trends and can be employed in comparative studies of configurations and parameterizations during the early stages of design.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Hélices",
+    "Asas",
+    "Vibraçăo aeroelástica",
+    "Vórtices",
+    "Análise modal",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "10/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81072",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81072&origem=BDITA"
+}

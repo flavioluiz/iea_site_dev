@@ -1,0 +1,29 @@
+{
+  "num_tese": "71359",
+  "type": "tese",
+  "title": "High-order curved boundary treatment applied to the discontinuous Galerkin spectral method",
+  "author": "Aline Sousa da Silveira",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nowadays, one of the most promising classes of computational fluid dynamics methods are the so-called spectral element methods, which, in addition to the usual mesh element division of the domain, also discretizes this domain by a representation of the solution in each element using coefficients of predefined polynomial sets. In this way, depending on the number and maximum degree of the used polynomials, high-order solutions are obtained. A recurring obstacle to the achievement of this high-order solution is the low-order representation (piecewise linear, in most cases) of the domain boundary. These boundary representations tend to decrease the benefits in accuracy and convergence obtained from the spectral element methods, partially due to the fact that these methods use coarser meshes, which causes the straight-sided boundary representation to be distant from the actual boundary for which the flow calculation is desired. Another reason why the piecewise linear representation of the boundary negatively influences the spectral element method is the fact that the order of this representation is lower than that of the solution inside the domain elements. In order to offer a solution to this problem, the present work uses curves, called NURBS (Non-Uniform Rational B-Splines), to represent the boundary employed in the Discontinuous Galerkin (DG) method, which belongs to the class of spectral element methods, and incorporates this representation to the computation of the solution inside the curved elements. As part of this work, such representation was implemented in a computer code based on the DG formulation in order to solve the Euler equations of gas dynamics in two dimensions on unstructured triangular meshes. Tests and simulations have also been performed in order to demonstrate the capabilities of the proposed methodology.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Método de Galerkin",
+    "Malhas năo-estruturadas (Matemática)",
+    "Dinâmica dos gases",
+    "Características aerodinâmicas",
+    "Física"
+  ],
+  "defense_date": "28/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71359",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71359&origem=BDITA"
+}

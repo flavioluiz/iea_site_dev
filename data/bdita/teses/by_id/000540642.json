@@ -1,0 +1,37 @@
+{
+  "num_tese": "000540642",
+  "type": "tese",
+  "title": "Análise de compatibilidade de dados de ensaio em vôo e calibraçăo dos dados do ar em tempo real com filtragem estocástica adaptativa.",
+  "author": "Celso Braga de Mendonça",
+  "year": "2005",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Elder Moreira Hemerly",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O interesse em identificaçăo de sistemas e de parâmetros aplicado ŕ área aeroespacial năo é recente, mas continua vibrante, pois novos desafios săo propostos. Na atualidade, procura-se investir na obtençăo de resultados mais precisos e mais rápidos, preferencialmente em tempo real, para que haja uma interaçăo entre engenharia e tripulaçăo ainda durante o vôo. A proposta de estimar estados, antes de estimar parâmetros, é bastante conveniente, pois fornece uma base de dados consistente para a obtençăo das estimativas paramétricas. A verificaçăo da consistęncia de dados de ensaio através de modelos cinemáticos, antes que se passe para a fase de identificaçăo de parâmetros, usando filtragem estocástica é bastante atrativa, pois o método comporta ruídos de processo e de medida. Ambos săo típicos para a natureza do problema, mas acrescenta-se o fato de que suas propriedades estatísticas variam ao longo do tempo. Nesse trabalho propőe-se o uso da filtragem estocástica adaptativa para verificaçăo da consistęncia de dados de ensaio em vôo e calibraçăo simultânea dos dados do ar. O método proposto baseia-se nos procedimentos de ajuste de covariância, calculada através de filtros de Kalman executados em paralelo. A metodologia foi testada com dados sintéticos via simulaçőes de Monte Carlo e com manobras de ensaio em vôo reais. Os resultados mostraram-se coerentes com os fenômenos, e mais precisos que os obtidos com filtragem năo adaptativa, a um custo computacional baixo.",
+  "subjects": [
+    "Ensaios em vôo",
+    "Filtros adaptativos",
+    "Filtragem",
+    "Processos estocásticos",
+    "Identificaçăo de parâmetros",
+    "Estimaçăo de estado",
+    "Operaçăo em tempo real",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/12/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540642",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540642&origem=BDITA"
+}

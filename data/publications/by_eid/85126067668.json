@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85126067668",
+  "eid": "2-s2.0-85126067668",
+  "doi": "10.1017/jfm.2022.102",
+  "pii": "S0022112022001021",
+  "pubmed_id": null,
+  "title": "Resolvent-based tools for optimal estimation and control via the Wiener-Hopf formalism",
+  "abstract": "© The Author(s), 2022. Published by Cambridge University PressThe application of control tools to complex flows frequently requires approximations, such as reduced-order models and/or simplified forcing assumptions, where these may be considered low rank or defined in terms of simplified statistics (e.g. white noise). In this work we propose a resolvent-based control methodology with causality imposed via a Wiener-Hopf formalism. Linear optimal causal estimation and control laws are obtained directly from full-rank, globally stable systems with arbitrary disturbance statistics, circumventing many drawbacks of alternative methods. We use efficient, matrix-free methods to construct the matrix Wiener-Hopf problem, and we implement a tailored method to solve the problem numerically. The approach naturally handles forcing terms with space-time colour; it allows inexpensive parametric investigation of sensor/actuator placement in scenarios where disturbances/targets are low rank; it is directly applicable to complex flows disturbed by high-rank forcing; it has lower cost in comparison to standard methods; it can be used in scenarios where an adjoint solver is not available; or it can be based exclusively on experimental data. The method is particularly well suited for the control of amplifier flows, for which optimal control approaches are typically robust. Validation of the approach is performed using the linearized Ginzburg-Landau equation. Flow over a backward-facing step perturbed by high-rank forcing is then considered. Sensor and actuator placement are investigated for this case, and we show that while the flow response downstream of the step is dominated by the Kelvin-Helmholtz mechanism, it has a complex, high-rank receptivity to incoming upstream perturbations, requiring multiple sensors for control.",
+  "authkeywords": [
+    "computational methods",
+    "control theory"
+  ],
+  "year": "2022",
+  "date": "2022-04-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "937",
+    "issue": null,
+    "pages": null,
+    "article_number": "A19"
+  },
+  "authors": [
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60021657-60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jung, Junoh",
+      "scopus_id": "57407087000",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 27,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 83,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126067668&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100598",
+    "data_quality_score": 100
+  }
+}

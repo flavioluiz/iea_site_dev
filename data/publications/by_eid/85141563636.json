@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85141563636",
+  "eid": "2-s2.0-85141563636",
+  "doi": "10.2514/6.2018-0413",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "RANS-based aerodynamic shape optimization of a strut-braced wing with overset meshes",
+  "abstract": "© 2018, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.The strut-braced wing aircraft configuration promises to reduce fuel burn by enabling higher spans that reduce the lift-induced drag. A successful design for this configuration depends on a careful trade-off between induced drag, interference drag, and structural weight. Previous work used highfidelity tools integrated in adjoint-based optimization frameworks to address the compromise among these design drivers in terms of an aerodynamic shape optimization problem, where drag coefficient was minimized subject to thickness constraints. When performing aerodynamic shape optimization based on structured CFD meshes, the generation of high-quality multiblock meshes for this configuration and is challenging, especially near junctions. Furthermore, mesh deformation procedures frequently generated negative volume cells when applied to these multiblock meshes. We address this issue by developing overset meshes and a component-based parametrization technique to achieve a robust design optimization cycle capable of handling changing junctions. We use this approach to minimize drag of a transonic strut-braced wing aircraft for a fixed lift constraint. The drag of the optimized configuration is 15% lower than the baseline due to improvements in the overall lift-induced drag of the wing and strut system, and also due to the reduction of shocks and separation in the wingstrut junction region. We also conduct the aerodynamic shape optimization of the junction region alone, and we achieved a drag reduction of 6% for this case. These results are an example where high-fidelity modeling is required to quantify the benefit of a new aircraft configuration.",
+  "authkeywords": null,
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA ASCE AHS ASC Structures Structural Dynamics and Materials Conference 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Secco, Ney R.",
+      "scopus_id": "55595457400",
+      "affiliation": "60025778",
+      "is_eam_professor": true,
+      "eam_professor_id": "ney-rafael-secco"
+    },
+    {
+      "name": "Martins, Joaquim R.R.A.",
+      "scopus_id": "57203217536",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ney-rafael-secco"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Architecture",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141563636&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.084632",
+    "data_quality_score": 90
+  }
+}

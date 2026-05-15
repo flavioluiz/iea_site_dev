@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-105019547600",
+  "eid": "2-s2.0-105019547600",
+  "doi": "10.1007/s00170-025-16619-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Reuse powder impacts in additive manufacturing for aeronautical parts",
+  "abstract": "© The Author(s) 2025.The reuse of powder in laser powder bed fusion offers a promising approach to optimizing material usage, reducing costs, and improving sustainability. However, its application in the aeronautical sector presents significant challenges due to strict certification requirements, process reliability concerns, and the need to maintain mechanical integrity over multiple reuse cycles. This study conducts a comprehensive and global analysis of powder reuse, considering its mechanical, economic, and environmental impacts. The methodology includes powder characterization, mechanical testing, cost modelling, and environmental life-cycle assessment, providing a holistic understanding of powder degradation and its implications. Results confirm that successive reuse cycles lead to minor changes in powder morphology and an increase in oxygen content, yet mechanical properties remain within acceptable limits, with a slight improvement in tensile strength. Economically, powder reuse significantly reduces costs, with a 33% decrease observed after a single reuse cycle and further reductions in subsequent cycles. Environmentally, the life-cycle assessment highlights substantial benefits, including a dramatic reduction in material waste, energy consumption, and carbon footprint, reinforcing the sustainability advantages of controlled powder reuse. These findings validate the feasibility of powder reuse in industrial-scale additive manufacturing. The study highlights the importance of implementing standardized reuse protocols to ensure consistency in mechanical properties, minimize variations in powder characteristics, and maintain process stability over multiple reuse cycles. Additionally, it underscores the need for further research into long-term powder recycling strategies, including controlled rejuvenation methods, advanced monitoring techniques, and predictive models for powder degradation. By optimizing reuse practices, industries can maximize cost savings, enhance material sustainability, and significantly reduce the environmental impact of additive manufacturing processes, reinforcing the viability of AM as a competitive and responsible manufacturing approach.",
+  "authkeywords": [
+    "Additive manufacturing",
+    "Based-cost model",
+    "Life cycle assessment",
+    "Mechanical properties",
+    "Powder reuse",
+    "Sustainability"
+  ],
+  "year": "2025",
+  "date": "2025-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Advanced Manufacturing Technology",
+    "issn": "02683768",
+    "eissn": "14333015",
+    "volume": "141",
+    "issue": "3-4",
+    "pages": "2027-2062",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Bruna T.",
+      "scopus_id": "57212252293",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Monteiro, João",
+      "scopus_id": "60013376500",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Borille, Anderson",
+      "scopus_id": "26032521600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "anderson-v-borille"
+    },
+    {
+      "name": "Leite, Marco",
+      "scopus_id": "57194718985",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Inês",
+      "scopus_id": "24729710200",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "anderson-v-borille"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 90,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019547600&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112928",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85087599861",
+  "eid": "2-s2.0-85087599861",
+  "doi": "10.2514/6.2002-3316",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Natural convection in turbulent regime in concentric and eccentric horizontal annular regions",
+  "abstract": "Steady laminar and turbulent natural convection in twodimensional concentric and eccentric annular cavities, isothermally heated from the inner cylinder and cooled from the outer wall, is numerically analyzed using the finite volume method. Benchmark results for laminar and turbulent flows are compared with similar calculations by Cho et al. (1982)(JHT, 104), Kenjeres & Hanjalic (1995)(IJHFF, 16) and the experimental data of Kuehn & Goldstein (1978)(JHT, 100) and McLeod & Bishop (1989)(IJHMT, 32). Governing equations are written in terms of primitive variables and are recast into a general form. For laminar flows, isotherms and streamlines for annuli with the same eccentricity, but located at different angular positions, are presented for RaL=104 and Ri/Ro=0.3846, where Ro and Ri are the cylinder radii and RaL is the Rayleigh number based on a characteristic length Ro-Ri. Turbulence flow calculated for RaL=2.5×106 and 1.22×107, for both concentric and eccentric annuli, show reasonable agreement with calculations presented in the literature. © 2002 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "8th AIAA ASME Joint Thermophysics and Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Nuclear and High Energy Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85087599861&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111778",
+    "data_quality_score": 90
+  }
+}

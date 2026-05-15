@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-85085846291",
+  "eid": "2-s2.0-85085846291",
+  "doi": "10.2514/6.2017-3204",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of structural damping on acoustic scattering by flexible plates",
+  "abstract": "© 2017, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.A numerical method to compute the acoustic field scattered by finite perforated elastic plates is extended to include structural damping typical of viscoelastic materials. We employ a boundary element method to solve the Helmholtz equation subject to boundary conditions related to the vibration of the plate. In order to enable our investigation of the effect of damping, we rewrite the equations considering the terms responsible for the structural damping. Results show that by adding damping to the problem formulation, the flexural waves in the plate are attenuated and thus can modify the far-field sound scattered by turbulence near an edge of the plate. Parametric studies also show that structural damping tends to reduce scattered sound at structural ressonances. The combined effects of elasticity, porosity and damping may be more appropriate to represent the behavior of realistic materials.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "23rd AIAA Ceas Aeroacoustics Conference 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nilton, Maurício M.",
+      "scopus_id": "57194858098",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Wolf, William R.",
+      "scopus_id": "36621377400",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085846291&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101624",
+    "data_quality_score": 90
+  }
+}

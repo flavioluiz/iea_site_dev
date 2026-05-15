@@ -1,0 +1,28 @@
+{
+  "num_tese": "76786",
+  "type": "tese",
+  "title": "Numerical investigation on material distribution and mechanical properties of fused filament fabrication parts",
+  "author": "Rafael Quelho de Macedo",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The fabrication of printed parts with improved mechanical properties, called functional printed parts, manufactured by Fused Filament Fabrication (FFF) requires the understanding on how their mechanical properties are influenced by printing parameters. This work provides numerical methods to predict final mechanical properties of printed parts in regard of material distribution, residual thermal stresses, material cooling rate and temperature fields. At first, a coupled thermo-mechanical model was coded in Abaqus to simulate the FFF process material deposition, calculating temperature fields in time, material cooling rate and residual thermal stresses. It was concluded that the voids within the printed part have a greater influence on its strength than residual thermal stresses, therefore, it is crucial to understand the mechanics behind the void formation within the microstructure. In order to fill this gap, the software VOLCO-X was developed, which is a new version of the software VOLCO (VOLume COnserving). VOLCO-X presents a new formulation that takes into account changes in material distribution when two parallel filaments are in contact. Moreover, VOLCO-X is able to predict changes in material distribution as function of the printing speed and relative extrusion rate by a mass conservation modelling. In comparison to experimental data, VOLCO-X was able to capture changes in void shapes, to predict microstructural defects, void volume fraction and final dimensions of printed parts with good agreement. Based on VOLCO-X results, an optimization problem was proposed to find the best FFF parameters which provide very low void volume fractions while minimizing the manufacturing time of printed parts. Parts whose printing parameters were chosen by a commercial slicing software were printed alongside optimized ones, for different printing speeds. For 16mm/s, it was possible to decrease the manufacturing time and structural mass in comparison to the commercial slicer printed part. For 96mm/s, the optimization increased the printed part strength. Finally, the micromechanical approach of the asymptotic homogenization technique was employed to predict mechanical properties of the FFF specimens, including failure envelopes. The micromechanical approach in conjunction to VOLCO-X permitted the construction of failure envelopes of printed parts as function of printing parameters. From the results, it was observed that an increase on the distance between deposited filaments decreases the area of failure envelopes, since the bonding between filaments is reduced. Also, it was demonstrated that the failure envelope area increases with the extrusion flow rate, since the void volume fraction is reduced with this parameter.",
+  "subjects": [
+    "Impressăo tridimensional",
+    "Filamentos",
+    "Tensăo residual",
+    "Propriedades mecânicas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "05/03/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76786",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76786&origem=BDITA"
+}

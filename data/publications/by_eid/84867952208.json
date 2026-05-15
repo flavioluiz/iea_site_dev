@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-84867952208",
+  "eid": "2-s2.0-84867952208",
+  "doi": "10.1155/2012/168632",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A numerical study of low-thrust limited power trajectories between coplanar circular orbits in an inverse-square force field",
+  "abstract": "A numerical study of optimal low-thrust limited power trajectories for simple transfer (no rendezvous) between circular coplanar orbits in an inverse-square force field is performed by two different classes of algorithms in optimization of trajectories. This study is carried out by means of a direct method based on gradient techniques and by an indirect method based on the second variation theory. The direct approach of the trajectory optimization problem combines the main positive characteristics of two well-known direct methods in optimization of trajectories: the steepest-descent (first-order gradient) method and a direct second variation (second-order gradient) method. On the other hand, the indirect approach of the trajectory optimization problem involves two different algorithms of the well-known neighboring extremals method. Several radius ratios and transfer durations are considered, and the fuel consumption is taken as the performance criterion. For small-amplitude transfers, the results are compared to the ones provided by a linear analytical theory. © 2012 Sandro da Silva Fernandes et al.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematical Problems in Engineering",
+    "issn": "1024123X",
+    "eissn": "15635147",
+    "volume": "2012",
+    "issue": null,
+    "pages": null,
+    "article_number": "168632"
+  },
+  "authors": [
+    {
+      "name": "Da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "Silveira Filho, Carlos Roberto",
+      "scopus_id": "23013340300",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Golfetto, Wander Almodovar",
+      "scopus_id": "8575266900",
+      "affiliation": "113152914",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84867952208&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081790",
+    "data_quality_score": 90
+  }
+}

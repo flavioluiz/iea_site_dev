@@ -1,0 +1,29 @@
+{
+  "num_tese": "73479",
+  "type": "tese",
+  "title": "Desenvolvimento de um sistema de controle e geraçăo de trajetórias para um robô antropomórfico utilizado como base móvel de um simulador de voo",
+  "author": "Anderson Harayashiki Moreira",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho consiste no desenvolvimento de um sistema de controle e geraçăo de trajetórias para a unidade de movimentaçăo de um simulador de base móvel. A unidade de movimentaçăo é constituída por um robô manipulador de seis graus de liberdade e uma unidade de deslocamento linear de um grau de liberdade. Seu desenvolvimento abrange a definiçăo de uma interface de comunicaçăo eficiente e em tempo real entre o controlador do robô e o computador responsável pela simulaçăo do comportamento da aeronave, bem como o desenvolvimento de um algoritmo que traduz o comportamento de uma aeronave real com espaço de movimentaçăo irrestrito para uma unidade de movimentaçăo com volume de trabalho extremamente limitado. O trabalho detalha uma aplicaçăo real do sistema desenvolvido implementado em um robô KUKA® TITAN KR1000 posicionado sobre uma unidade de deslocamento linear KUKA® KL3000 disponível no laboratório do projeto onde este trabalho está inserido (SIVOR). Ao final do processo de implementaçăo do sistema, uma campanha de ensaios é realizada para demonstrar a significância da adiçăo da plataforma de movimentaçăo no desempenho do piloto.",
+  "subjects": [
+    "Desenvolvimento de produtos",
+    "Simuladores de voo",
+    "Braços robóticos E Manipuladores",
+    "Robótica",
+    "Controle",
+    "Administraçăo"
+  ],
+  "defense_date": "29/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73479",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73479&origem=BDITA"
+}

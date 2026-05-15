@@ -1,0 +1,31 @@
+{
+  "num_tese": "000423156",
+  "type": "tese",
+  "title": "Técnicas em malhas năo-estruturadas para simulaçăo de escoamentos a altos números de Mach.",
+  "author": "Heidi Korzenowski",
+  "year": "1998",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta métodos para simulaçăo de escoamentos a altos números de Mach utilizando diversos esquemas de discretizaçăo espacial. Dentre estes esquemas, considerou-se um esquema centrado e os esquemas de separaçăo de vetores de fluxo de va Leer e de Liou. Os esquemas \"upwind\"foram implementados tanto em suas versőes de primeira ordem quanto de segunda ordem de precisăo espacial. As versőes de segunda ordem de precisăo estăo baseadas numa abordagem \"MUSCL\", onde os estados ŕ direita e ŕ esquerda săo reconstruídos linearmente e afetados por um limitador. O trabalho também discute uma técnica de geraçăo de malhas năo estruturadas bidimensionais, baseada no método de avanço de frente de geraçăo. A malha é gerada através da introduçăo automática de pontos de domínio computacional. Utilizam-se termos fonte locais, que auxiliam na concentraçăo de pontos em regiőes específicas de domínio. Foram implementadas algumas técnicas de melhoramento de malha, tais como troca de diagonais e suavizaçăo. A metodologia de simulaçăo de escoamento implementada utiliza ainda um procedimento de refinamento adaptativo, sendo que o processo de refinamento de triângulos usa um sensor baseado em propriedades físicas do escoamento. Os resultados foram obtidos através da simulaçăo do escoamento em uma configuraçăo típica de entrada de ar supersônica/hipersônica. Os diferentes esquemas de discretizaçăo espacial utilizados neste trabalho foram capazes de reproduzir adequadamente as características do escoamento.",
+  "subjects": [
+    "Simulaçăo do escoamento",
+    "Número de Mach",
+    "Aerodinâmica",
+    "Mecânica dos fluidos",
+    "Métodos computacionais",
+    "Programas de computadores",
+    "Física",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000423156",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000423156&origem=BDITA"
+}

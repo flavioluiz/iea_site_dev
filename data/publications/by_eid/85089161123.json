@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85089161123",
+  "eid": "2-s2.0-85089161123",
+  "doi": "10.2514/6.2017-3993",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Development of flight mode algorithms for tethered airships",
+  "abstract": "© 2017, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper presents the algorithms for autonomous modes for a tether airship. Switching between flight modes, the airship can perform different flight tasks as such as autonomous hovering, hovering aligned to the home point, take-of and waypoint navigation. The switch-ing scheme between flight modes and the designed control loop are also included in this paper. The control loop is divided into two loops, the inner and the outer control loop. The stability augmentation system has been included as inner control loop to stabilize longitudinal and lateral dynamics and for cancellation of external disturbance. The outer control loop generates control inputs depending of flight mode and given references. For each flight task it is performed outdoor flight experiment with a small size tethered airship, and on the results, the tethered airship performance is shown.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "23rd AIAA Lighter than Air Systems Technology Conference 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Stevanović, Stojan",
+      "scopus_id": "56086300200",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Jônatas Sant’Anna",
+      "scopus_id": "57674870500",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kondak, Konstantin",
+      "scopus_id": "6602371383",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Pant, Rajkumar S.",
+      "scopus_id": "23091319400",
+      "affiliation": "60014153-60031307",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089161123&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077238",
+    "data_quality_score": 80
+  }
+}

@@ -22,11 +22,6 @@ main:
     url: "/departamentos/"
     weight: 2
 
-  - identifier: "espaco"
-    name: "Space Program"
-    parent: "divisao"
-    url: "/espaco/"
-    weight: 3
 
   # Faculty - Direct link
   - identifier: "pessoal"
@@ -82,23 +77,92 @@ main:
     url: "/disciplinas/"
     weight: 2
 
-  # Menu "Graduate" - external links
+  # Menu "Graduate"
   - identifier: "posgraduacao"
     name: "Graduate"
-    url: "#"
+    url: "/posgraduacao/"
     weight: 7
 
+  # Category: Stricto Sensu
+  - identifier: "pg-cat-stricto"
+    name: "Academic (Stricto Sensu)"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 10
+    params:
+      category: true
+
   - identifier: "pgeam"
-    name: "PG-EAM"
+    name: "PG-EAM — Aeronautical & Mechanical Eng."
     parent: "posgraduacao"
     url: "https://www.ita.br/posgraduacao/pgeam"
-    weight: 1
+    weight: 11
 
-  - identifier: "pgcea"
-    name: "PG-CEA"
+  - identifier: "pgcte"
+    name: "PG-CTE — Space Sciences & Technologies"
     parent: "posgraduacao"
-    url: "https://www.ita.br/posgraduacao/pgcea"
-    weight: 2
+    url: "https://www.cte.ita.br/"
+    weight: 12
+
+  # Separator
+  - identifier: "pg-sep-1"
+    name: ""
+    parent: "posgraduacao"
+    url: "#"
+    weight: 20
+    params:
+      separator: true
+
+  # Category: Professional Master's
+  - identifier: "pg-cat-profissional"
+    name: "Professional Master's"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 21
+    params:
+      category: true
+
+  - identifier: "mppee"
+    name: "MP-PEE — Aeronautical Eng. (Embraer)"
+    parent: "posgraduacao"
+    url: "https://www.embraer.com/corporate-careers/emengenharia/pt/"
+    weight: 22
+
+  # Separator
+  - identifier: "pg-sep-2"
+    name: ""
+    parent: "posgraduacao"
+    url: "#"
+    weight: 30
+    params:
+      separator: true
+
+  # Category: Lato Sensu
+  - identifier: "pg-cat-lato"
+    name: "Specializations (Lato Sensu)"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 31
+    params:
+      category: true
+
+  - identifier: "safety"
+    name: "Aviation Safety & Airworthiness"
+    parent: "posgraduacao"
+    url: "https://www.safety.ita.br/"
+    weight: 32
+
+  - identifier: "cassa"
+    name: "CASSA — Weapon Systems Analysis"
+    parent: "posgraduacao"
+    url: "/posgraduacao/"
+    weight: 33
+
+  - identifier: "ceeaa"
+    name: "CEEAA — Aerial Armament Engineering"
+    parent: "posgraduacao"
+    url: "/posgraduacao/"
+    weight: 34
 
   # Contact - Direct link
   - identifier: "contato"

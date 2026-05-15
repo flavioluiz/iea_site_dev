@@ -1,0 +1,29 @@
+{
+  "num_tese": "000556616",
+  "type": "tese",
+  "title": "Unsteady aerodynamic coefficients obtained by a compressible vortex lattice method.",
+  "author": "Fabiano Hernandes",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Unsteady solutions for the aerodynamic coefficients of a thin airfoil in compressible subsonic or supersonic flows are studied. The lift, the pitch moment, and pressure coefficients are obtained numerically for the following motions: the indicial response (unit step function) of the airfoil, i.e., a sudden change in the angle of attack; a thin airfoil penetrating into a sharp edge gust (for several gust speed ratios); a thin airfoil penetrating into a one-minus-cosine gust and sinusoidal gust (a typical gust used in commercial aircraft design); oscillating airfoil; and also the interaction of the airfoil with a shed (from convection phenomenon) vortex passing under the airfoil, a phenomenon known in literature as AVI (Airfoil Vortex Interaction). The present work uses a numerical approach based on vortex singularity. The numerical model is created by means of the airfoil discretization in uniform segments and the compressible flow vortex singularity is used. The results available in the literature are based on approximated exponential equations, or computed via Computational Fluid Dynamics (CFD). Thus, the purpose of this method is to obtain a more accurate computation compared to those of approximated equations, and numerically quite faster compared to those obtained via CFD.",
+  "subjects": [
+    "Coeficientes aerodinâmicos",
+    "Escoamento compressível",
+    "Método de malha turbilhonar",
+    "Aerodinâmica năo-estacionária",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "27/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000556616",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000556616&origem=BDITA"
+}

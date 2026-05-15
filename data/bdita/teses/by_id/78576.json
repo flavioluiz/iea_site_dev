@@ -1,0 +1,32 @@
+{
+  "num_tese": "78576",
+  "type": "tese",
+  "title": "Design of flight control law with structural feedback for aeroservoelastic stability",
+  "author": "Guilherme Sousa Vilaça",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this dissertation, a longitudinal flight control law for a flexible aircraft called GNBA (generic narrow-body airliner) was developed using different techniques to address the undesirable effects of flexible modes on the short-period mode and to meet the aeroservoelastic stability criteria. The characteristics considered in the design models were detailed and the development methodology presented. The designs considered three different techniques: in the first technique all sensors were considered in an exact and ideal position of the center of gravity (CG); in the second technique the effects of the aeroelastic modes were attenuated with notch filters, which were designed using a traditional methodology; and the third technique used an additional structural feedback that was designed using an airplane model with coupled dynamics between the rigid and aeroelastic modes. In the designs development, some objectives were established for performance, robustness, aeroelastic stability criteria, and harmonization of all designs for the comparison between them. For the second and third techniques, some scenarios were evaluated: having the sensors placed only near the CG, having them placed only at the cockpit, or having them placed in both locations. For each scenario, different strategies were evaluated: in the notch filters technique, the filters were placed in different locations of the flight control law structure and, for the structural feedback, another feedback was added to the flight control law, where in one of the strategies the existing sensors of the rigid-body flight control law were used and, in the other strategy, a dedicated sensor was used for measuring the vibrations of the airplane structure. The strategies adopted and the designs developed, according to the defined objectives, were presented. After presenting the details of the designs, the solutions were evaluated to determine whether the notch-filter designs are more susceptible to PIO (pilot-induced oscillations) than the designs based on the other techniques. The simulation results obtained in this dissertation showed that when the notch filters are placed on the elevator command, the solutions are more susceptible to PIO than the solutions designed with the structural feedback technique. However, when notch filters are placed on the sensor feedback, it was concluded that the designs presented similar susceptibilities to PIO.",
+  "subjects": [
+    "Controle de voo",
+    "Teoria de controle",
+    "Estabilidade",
+    "Corpos flexíveis",
+    "Estruturas de aeronaves",
+    "Controle de pilotagem por fios",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78576",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78576&origem=BDITA"
+}

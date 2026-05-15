@@ -1,0 +1,29 @@
+{
+  "num_tese": "000146213",
+  "type": "tese",
+  "title": "Refinamento hierárquico p-adaptativo na elasticidade tridimensional",
+  "author": "José Guido Damilano",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Francisco Brasiliense Fusco Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Através do Método dos Elementos Finotos em sua modalidade de descolamentos, o objetivo deste trabalho é aplicar a Técnica do Refinamento Hierárquico p-Adaptativo na soluçăo de problemas da Teoria da Elasticidade Tridimensional. Inicialmente é apresentada a formulaçăo clássica do Método dos Elementos Finitos, sua formulaçăo como especializaçăo do Método de Ritz-Bubnov-Galerkin, seus critérios de convergęncia e as principais idéias de Refinamento Hierárquico Adaptativo. Em seguida é verificada a correçăo do programa de cálculo desenvolvido através da comparaçăo com soluçőes exatas da Teoria da Elasticidade. Finalmente estuda-se a influęncia de diferentes valores de indicadores de erro, na soluçăo dos campos de tensőes em um bloco parcialmente carregado.",
+  "subjects": [
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Propriedades elásticas",
+    "Estruturas",
+    "Engenharia estrutural",
+    "Engenharia civil"
+  ],
+  "defense_date": "01/11/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146213",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146213&origem=BDITA"
+}

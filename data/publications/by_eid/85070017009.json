@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85070017009",
+  "eid": "2-s2.0-85070017009",
+  "doi": "10.1088/1742-6596/1256/1/012015",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Tip-vortex instabilities of two in-line wind turbines",
+  "abstract": "© 2019 IOP Publishing Ltd. All rights reserved.The hydrodynamic stability of a vortex system behind two in-line wind turbines operating at low tip-speed ratios is investigated using the actuator-line method in conjunction with the spectral-element flow solver Nek5000. To this end, a simplified setup with two identical wind turbine geometries rotating at the same tip-speed ratio is simulated and compared with a single turbine wake. Using the rotating frame of reference, a steady solution is obtained, which serves as a base state to study the growth mechanisms of induced perturbations to the system. It is shown that, already in the steady state, the tip vortices of the two turbines interact with each other, exhibiting the so-called overtaking phenomenon. Hereby, the tip vortices of the upstream turbine overtake those of the downstream turbine repeatedly. By applying targeted harmonic excitations at the upstream turbine's blade tips a variety of modes are excited and grow with downstream distance. Dynamic mode decomposition of this perturbed flow field showed that the unstable out-of-phase mode is dominant, both with and without the presence of the second turbine. The perturbations of the upstream turbine's helical vortex system led to the destabilization of the tip vortices shed by the downstream turbine. Two distinct mechanisms were observed: for certain frequencies the downstream turbine's vortices oscillate in phase with the vortex system of the upstream turbine while for other frequencies a clear out-of-phase behaviour is observed. Further, short-wave instabilities were shown to grow in the numerical simulations, similar to existing experimental studies [1].",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-07-22",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Journal of Physics Conference Series",
+    "issn": "17426588",
+    "eissn": "17426596",
+    "volume": "1256",
+    "issue": "1",
+    "pages": null,
+    "article_number": "012015"
+  },
+  "authors": [
+    {
+      "name": "Kleine, V. G.",
+      "scopus_id": "57193867121",
+      "affiliation": "60002014-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vitor-gabriel-kleine"
+    },
+    {
+      "name": "Kleusberg, E.",
+      "scopus_id": "57191966281",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, A.",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, D. S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vitor-gabriel-kleine"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85070017009&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.079417",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "78711",
+  "type": "tese",
+  "title": "Application of subscale flight testing for nonlinear longitudinal aerodynamic estimates",
+  "author": "Leonardo Murilo Nepomuceno",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The subscale method is a technique of flight testing with a scaled-down model of an aircraft. The practice of this technique has been recorded since 1940 by the NACA (agency predecessor to NASA). Despite being a technique used for many years, it is not applied extensively today, unlike tests in wind tunnels. The subscale technique can add information to the already traditional techniques used. Your main contribution is related to the dynamic analysis. Subscale testing has become less costly due to the rapid growth of drone application in recent years. Which has reduced the costs of many sensors and embedded electronic systems. Flight testing using subscale aircraft with data acquisition systems allow the estimation of aerodynamic parameters through the system identification process. Parameter identification is the most reliable way to obtain an accurate model of the aircraft. Especially when designing an automatic control. Therefore, a system identification process with data collected in flight was carried out. For the proper excitation of the short-period dynamic mode, a doublet maneuver in the elevator was applied, allowing the estimation of dynamic derivatives. Static tests in wind tunnels are not capable of estimating dynamic derivatives. Aerodynamic parameters estimated with flight test data were compared to other estimation methods. An analysis of the lift curve with different methods was performed. Among the methods mentioned, one can list a model manufactured in a low-cost 3D printer for a wind tunnel test, wind tunnel test with a subscale model, a theoretical estimate, an estimate of aerodynamic parameters with flight test data and an estimate with flight test data using neural networks. These estimates were compared with each other and also with a CFD study. The linear region of the lift curve demonstrated precision between the compared methods.",
+  "subjects": [
+    "Ensaios em túneis de vento",
+    "Dinâmica de voo",
+    "Escalas",
+    "Aeronave năo-tripulada",
+    "Dinâmica dos fluidos computacional",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "26/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78711",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78711&origem=BDITA"
+}

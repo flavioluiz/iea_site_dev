@@ -1,0 +1,26 @@
+{
+  "num_tg": "78832",
+  "type": "tg",
+  "title": "Manipulating a cable-suspended object with multiple UAVs and environment contacts in 2D",
+  "author": "Leonardo Mouta Pereira Pinheiro",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Considering a fleet of multicopter drones, where each drone is attached via cables to the same object, the problem of automatically planning the path of these drones so that the object can be manipulated from an initial pose to a desired pose merits more studies, given the problem's wide range of potential applications. This work proposes that this path planning can be modeled as a contact mode guided, sampling-based planning problem, where a constrained trajectory is generated using sampling techniques. Initial applications of this method to 2D scenarios are shown, which illustrate the successes or failures of the method for each scenario type. Given the analysis of these results, some possible improvements are then proposed.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Cabos de comunicaçăo",
+    "Técnicas de amostragem",
+    "Aeronaves teleguiadas",
+    "Veículos pilotados remotamente",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78832",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78832&origem=BDITA"
+}

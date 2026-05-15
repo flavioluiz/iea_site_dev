@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85008263997",
+  "eid": "2-s2.0-85008263997",
+  "doi": "10.1115/FPNI2016-1527",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Virtual environment withamesim and its integration with matlab-simulink",
+  "abstract": "Copyright © 2016 by ASME.Increasingly, the product development industry coexists with highly complex and integrated systems, parallel to the search for engineering tools that are not difficult to use, reduce the complexity and effort to successfully model the systems and, at the same time, provide reliable results. In this context, to demonstrate the differences between the signal-port and the multi-port modeling approaches, and to analyze the modeling effort demanded by each, this work aims at building, in MATLAB/Simulink® and LMS Imagine. Lab AMESim, a model of flight control's electro-hydrostatic actuator (EHA). Further, this same EHA system is built in a model that integrates both environments. Simulations then provided data for performance comparisons and conclusions about the possible gains of this integration, for industrial research & development purpose. Lastly, the physical nonlinear EHA AMESim model is linearized, rendering a transfer function model, available to be used in linear control studies in MATLAB-Simulink.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "9th Fpni Ph D Symposium on Fluid Power Fpni 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva Tovo, Rafael Luiz",
+      "scopus_id": "57192819197",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vargas, Francisco Javier Triveño",
+      "scopus_id": "57192818465",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85008263997&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077358",
+    "data_quality_score": 80
+  }
+}

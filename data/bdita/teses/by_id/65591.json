@@ -1,0 +1,29 @@
+{
+  "num_tese": "65591",
+  "type": "tese",
+  "title": "Modelagem de dispositivo Iosipescu para mediçăo de propriedades de cisalhamento de materiais compósitos",
+  "author": "Fabrício Nascimento Ribeiro",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Walter da Silva Mello Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os projetos de novas aeronaves possuem suas estruturas primárias fabricados em materiais compósitos, o que resulta em diferentes tipos de cargas agindo em peças de compósitos. O comportamento de compósitos sujeitos a carga de cisalhamento é algo difícil de caracterizar especialmente porque os ensaios de cisalhamento possuem dificuldades em obter uma condiçăo de cisalhamento puro e uniforme. O presente trabalho busca modelar o ensaio de cisalhamento Iosipescu com o método de elementos finitos, avaliar suas vantagens e desvantagens e propor um dispositivo adaptado para conseguir melhores resultados na avaliaçăo de propriedades de cisalhamento. O corpo de prova do ensaio Iosipescu é avaliado com a aplicaçăo de deslocamentos. O dispositivo proposto é modelado com elementos de contato para avaliar o efeito do coeficiente de fricçăo de contato. Os resultados mostram como a carga aplicada é altamente concentrada e distribuída desigualmente nas bordas do corpo de prova. A distribuiçăo de deformaçăo de cisalhamento é praticamente uniforme na seçăo entre entalhes do corpo de prova e as distribuiçőes de deformaçőes normais para compósitos 0°/90° săo desprezíveis, enquanto que para compósitos ±45° săo maiores que os valores de deformaçăo de cisalhamento, dificultando a obtençăo de propriedades de cisalhamento para esses compósitos. Uma avaliaçăo da variaçăo da espessura do corpo de prova indicou que a espessura năo altera os resultados do ensaio.",
+  "subjects": [
+    "Materiais compósitos",
+    "Ensaios de cisalhamento",
+    "Tensăo de cisalhamento",
+    "Ensaios de materiais",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "17/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65591",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65591&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tg": "67438",
+  "type": "tg",
+  "title": "Projeto conceitual do sistema de proteçăo térmica integrada do satélite SARA",
+  "author": "Rogério Miguez Ribas Junior",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Guido Damilano",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neste trabalho, propőe-se uma proteçăo térmica para o satélite SARA que seja reutilizável e integrada ŕ estrutura do veículo. Com base em trabalhos anteriores encontrados na literatura, partiu-se de um conceito de estrutura sanduíche, composta por revestimentos externo e interno, almas e enchimento isolante. A partir da geometria do sanduíche, estudou-se o calor recebido por convecçăo pelo veículo durante a reentrada atmosférica e conduzido para o interior da estrutura. Com esse estudo, foi possível implementar um modelo simplificado para que se estimassem as temperaturas críticas e, com isso, cumprir o requisito de manter a temperatura interna menor ou igual a 60 oC e a temperatura externa em níveis aceitáveis de operaçăo.Com base nesse modelo, dimensionou-se o espaçamento das almas na seçăo da base do tronco do cone da superfície do veículo e as espessuras das almas e dos revestimentos de modo a minimizar a massa da proteçăo térmica atendendo a requisitos das temperaturas críticas.A etapa seguinte foi o cálculo de tensőes no software comercial de elementos finitos Abaqus para que fosse verificado se a estrutura suportaria os esforços que surgem com a expansăo dos materiais em altas temperaturas e a pressăo sobre estrutura durante a reentrada atmosférica. As temperaturas críticas obtidas foram comparadas com as do modelo simplificado.A estrutura da proteçăo térmica foi dimensionada. A massa obtida é 14,56 % menor que a massa da proteçăo térmica ablativa empregada atualmente.",
+  "subjects": [
+    "Satélites artificiais",
+    "Reentrada atmosférica",
+    "Proteçăo térmica",
+    "Aerotermodinâmica",
+    "Veículos aeroespaciais",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67438",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67438&origem=BDITA"
+}

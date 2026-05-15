@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-84991640185",
+  "eid": "2-s2.0-84991640185",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Solid rocket motor burn simulation considering complex 3D propellant grain geometries",
+  "abstract": "Copyright © 2015 by the International Astronautical Federation. All rights reserved.Solid rocket motors (SRM) are extensively employed in satellite launchers, missiles and gas generators. The design takes into account propulsive parameters with dimensional, manufacture, thermal and structural constraints. Experiments using real scale rocket models are expensive, therefore simulations are required to decrease the overall project time and cost. Solid propellant geometry and computation of its burning rate are essential for the calculation of pressure vs time and thrust vs time curves. The propellant grain geometry changes during SRM burning are also important for structural integrity and analysis. A computational tool for tracking the propagation of tri-dimensional interfaces and shapes is necessary for this task. In this sense, the objective of this paper is to present the developed computational tool (named RSIM) to simulate the burning surface regression during the combustion process of a solid propellant. This tool handles complex grain geometry for versatility, including multiple separate surfaces. The SRM internal ballistics simulation is based on 3D propagation, using the level set method approach. Geometrical and thermodynamic data are used as input for the computation, while simulation results are presented in three test cases: simplified star, finocyl and multiperforated propellant grains.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "10",
+    "issue": null,
+    "pages": "8138-8141",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mejia, Guilherme Lourenco",
+      "scopus_id": "57190857632",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, José Atílio Fritz Fidel",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    },
+    {
+      "name": "Iha, Koshun",
+      "scopus_id": "7003624393",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 3,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84991640185&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.127271",
+    "data_quality_score": 60
+  }
+}

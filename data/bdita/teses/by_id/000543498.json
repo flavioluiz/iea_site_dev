@@ -1,0 +1,38 @@
+{
+  "num_tese": "000543498",
+  "type": "tese",
+  "title": "Análise da evoluçăo de longo prazo das temperaturas do satélite SCD-1.",
+  "author": "Andréia Fátima Sorice",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Issamu Muraoka",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O objetivo desta dissertaçăo de mestrado é investigar as causas da elevaçăo da temperatura do satélite SCD-1 (Satélite de Coleta de Dados) ao longo dos seus 13 anos em órbita. O SCD-1 é o primeiro satélite projetado e construído no Brasil, lançado com sucesso em 1993, e ainda em operaçăo. O controle térmico foi realizado por meio passivo usando tintas, isolantes térmicos e materiais condutivos, apropriados para manter as temperaturas do satélite em níveis especificados. Um modelo matemático foi desenvolvido para simular o comportamento térmico do SCD-1 em órbita, sendo utilizado como ferramenta de trabalho durante a fase de projeto. As temperaturas em órbita, de trinta componentes do SCD-1, foram monitoradas e registradas no Centro de Controle e Rastreio (Săo José dos Campos - SP) desde o seu lançamento. Uma análise feita no início da missăo mostrou que todas as temperaturas estavam nas faixas previstas pelo modelo e, ao longo destes 13 anos, a bateria, que é o equipamento mais sensível termicamente, apresentou um aumento de temperatura alcançando seu limite máximo aceitável. Desenvolveu-se uma metodologia para investigar as causas deste desvio. Uma rotina de otimizaçăo, acoplada ao modelo matemático, foi utilizada para corrigir um conjunto de parâmetros selecionados do modelo de forma a ajustar as temperaturas teóricas ŕs de vôo. Por meio desta metodologia, analisaram-se os dados do SCD-1 no período compreendido entre 1995 e 2005 e conclui-se que a elevaçăo da temperatura foi causada principalmente pelo aumento da dissipaçăo interna de calor da bateria, conseqüęncia da degradaçăo ao longo de sua vida orbital. Os resultados desta investigaçăo podem ser úteis no desenvolvimento de outros satélites no sentido de alertar quanto as possíveis causas dos desvios de longo prazo e considerá-los nas análises de novos projetos para obtençăo de modelos mais precisos.",
+  "subjects": [
+    "Satélites artificiais",
+    "Controle de temperatura",
+    "Degradaçăo térmica",
+    "Otimizaçăo",
+    "Modelos matemáticos",
+    "Simulaçăo computadorizada",
+    "Propriedades ópticas",
+    "Termodinâmica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "20/04/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543498",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543498&origem=BDITA"
+}

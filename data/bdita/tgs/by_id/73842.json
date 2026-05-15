@@ -1,0 +1,31 @@
+{
+  "num_tg": "73842",
+  "type": "tg",
+  "title": "Identificaçăo de modelo aerodinâmico da aeronave A-29B utilizando vortex-lattice năo-estacionário e ensaios em voo",
+  "author": "Vinícius Maia Alvarenga",
+  "year": "2017",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Giordano de Oliveira Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Visando dar suporte ao desenvolvimento do simulador de ensaios em voo do IPEV (Instituto de Pesquisas e Ensaios em Voo), o presente trabalho se propőe a identificar um modelo aeordinâmico da aeronave A-29B Super Tucano. Para tal săo utilizadas duas abordagens. A primeira, puramente computacional, com a implementaçăo de um modelo vortex-lattice năo-estacionário (intentando sobretudo o cálculo e análise de derivadas de estabilidade dinâmicas, como, C_mq e C_map) e, a segunda, utilizando dados de ensaios em voo para estimar parâmetros do modelo aerodinâmico da aeronave via método iterativo Output-Error. Na segunda abordagem duas modelagens săo implementadas, uma completamente linear e outra năo-linear, com o modelo aerodinâmico de dois pontos. Os resultados obtidos săo analisados e comparados de modo a validar o modelo a ser fornecido ao simulador de voo.",
+  "subjects": [
+    "Ensaios em voo",
+    "Estabilidade de aeronaves",
+    "Método de malha turbilhonar",
+    "Aerodinâmica năo-estacionária",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73842",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73842&origem=BDITA"
+}

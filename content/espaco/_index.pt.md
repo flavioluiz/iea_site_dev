@@ -1,15 +1,15 @@
 ---
 title: "Área Espacial"
-description: "Pesquisa e infraestrutura espacial da Divisão AER do ITA — satélites, propulsão, CubeSats, GNC e missões espaciais"
+description: "Pesquisa e infraestrutura espacial da Divisão de Engenharia Aeronáutica e Aeroespacial do ITA — satélites, propulsão, CubeSats, GNC e missões espaciais"
 ---
 
-O ITA tem papel protagonista no desenvolvimento de tecnologias espaciais no Brasil. A Divisão AER concentra expertise em propulsão espacial, veículos lançadores, satélites, sistemas de guiagem, navegação e controle (GNC), e tecnologias de reentrada — em colaboração com o DCTA, AEB, INPE e parceiros internacionais.
+O ITA tem papel protagonista no desenvolvimento de tecnologias espaciais no Brasil. A Divisão de Engenharia Aeronáutica e Aeroespacial concentra expertise em propulsão espacial, veículos lançadores, satélites, sistemas de guiagem, navegação e controle (GNC), e tecnologias de reentrada — em colaboração com o DCTA, AEB, INPE e parceiros internacionais.
 
 ---
 
 ## Por que o Espaço?
 
-O domínio do espaço é estratégico para o Brasil. A AER/ITA forma os engenheiros e pesquisadores que desenvolvem as tecnologias necessárias para que o país conquiste autonomia espacial — desde o projeto de satélites até o desenvolvimento de veículos lançadores nacionais.
+O domínio do espaço é estratégico para o Brasil. A Divisão/ITA forma os engenheiros e pesquisadores que desenvolvem as tecnologias necessárias para que o país conquiste autonomia espacial — desde o projeto de satélites até o desenvolvimento de veículos lançadores nacionais.
 
 ---
 

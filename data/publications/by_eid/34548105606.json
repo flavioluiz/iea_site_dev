@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-34548105606",
+  "eid": "2-s2.0-34548105606",
+  "doi": "10.1016/j.ymssp.2007.03.003",
+  "pii": "S0888327007000453",
+  "pubmed_id": null,
+  "title": "Identification of external forces in mechanical systems by using LifeCycle model and stress-stiffening effect",
+  "abstract": "This paper presents an optimization-based inverse procedure for the determination of external loads applied to a given mechanical structure, by using information concerning the dynamic behavior of the system and its corresponding finite element model. The influence of the stress-stiffening effect on the dynamic characteristics of structural systems is used to establish a relation between the dynamic responses and the applied external forces. An optimization problem is formulated in which the objective function represents the difference between the measured modal characteristics of the loaded structure and their finite element counterparts. The loading parameters (magnitude, position and direction) assumed as being unknown, are considered as design variables. The identification procedure is illustrated by means of numerical simulations and experimental tests, in which a heuristic technique known as LifeCycle model was used. © 2007 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Force identification",
+    "Inverse problems",
+    "LifeCycle model",
+    "Stress-stiffening effect"
+  ],
+  "year": "2007",
+  "date": "2007-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "21",
+    "issue": "7",
+    "pages": "2900-2917",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Flores, Jhojan Enrique Rojas",
+      "scopus_id": "8453033100",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Viana, Felipe Antonio Chegury",
+      "scopus_id": "8453033200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Steffen, Valder",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=34548105606&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089454",
+    "data_quality_score": 100
+  }
+}

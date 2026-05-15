@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-12744262239",
+  "eid": "2-s2.0-12744262239",
+  "doi": "10.1590/S0103-97332004000800017",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Beam transport in a quadrupole electrostatic system",
+  "abstract": "Electron beam transport through a quadrupole electrostatic system is investigated by particle-in-cell simulation in the present work, where - at the advantage of easier experimental implementation - the analogous parabolic electrostatic potential replaces the usual neutralizing ion background of bounded plasma systems. Looking at the maximum transported current and the dynamical behavior dependence on the electron beam injection energy, we have found that for a partial neutralizing electrostatic potential (i) the transmitted current significantly increases in relation to other electrostatic devices, due mainly to two-dimensional effects, (ii) the occurrence of stable static solutions with the typical profile of unstable static solutions of the classical Pierce diode, and (iii) a new bifurcation sequence of the steady-state solutions, at which periodic virtual cathode oscillations turn into intermittent spiking oscillations, which ultimately evolve to stable oscillations when increasing the input energy of the injected electron beam.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Brazilian Journal of Physics",
+    "issn": "01039733",
+    "eissn": null,
+    "volume": "34",
+    "issue": "4 B",
+    "pages": "1598-1601",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barroso, J. J.",
+      "scopus_id": "7103318266",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, M. O.",
+      "scopus_id": "7003287545",
+      "affiliation": "101814480",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=12744262239&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068590",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "publication_id": "2-s2.0-77449089357",
+  "eid": "2-s2.0-77449089357",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical simulations of flows over a pair of cylinders at different arrangements using the immersed boundary method",
+  "abstract": "In the context of computational fluid dynamics a numerical investigation of incompressible flow around fixed pairs of rigid circular cylinders was carried out. The two-dimensional filtered Navier-Stokes equations with the Smagorinsky sub-grid scale model were solved using a Cartesian non-uniform grid. The immersed Boundary Method with the Virtual Physical Model was used in order to model the presence of two circular cylinders embedded in the flow. The fractional time step method was used to couple pressure and velocity fields. The simulations were carried out for Reynolds number equal to 72,000 for pitch ratio equal to 2 and different arrangements regarding the relative positions of the cylinders. The flow interference between the two cylinders, the vortex shedding process and the behavior of the dynamic coefficients were investigated. The results of the present study were compared with experimental data from the literature. The Immersed Boundary Method has showed to be efficient in the simulation of flows, taking into account the presence of multi-body compositions. © 2009 Tech Science Press.",
+  "authkeywords": [
+    "Circular cylinders",
+    "Computational fluid dynamics",
+    "Dynamic coefficients",
+    "Immersed boundary method"
+  ],
+  "year": "2009",
+  "date": "2009-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "CMES Computer Modeling in Engineering and Sciences",
+    "issn": "15261492",
+    "eissn": null,
+    "volume": "50",
+    "issue": "3",
+    "pages": "285-303",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva, A. R.",
+      "scopus_id": "8912789800",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silveira-Neto, A.",
+      "scopus_id": "6508052473",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Francis, R.",
+      "scopus_id": "35744514000",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, E. A.",
+      "scopus_id": "57198299104",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=77449089357&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089369",
+    "data_quality_score": 80
+  }
+}

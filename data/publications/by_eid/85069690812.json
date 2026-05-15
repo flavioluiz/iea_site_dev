@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85069690812",
+  "eid": "2-s2.0-85069690812",
+  "doi": "10.1016/j.jmatprotec.2019.116332",
+  "pii": "S0924013619303048",
+  "pubmed_id": null,
+  "title": "Residual stresses prediction in machining: Hybrid FEM enhanced by assessment of plastic flow",
+  "abstract": "© 2019 Elsevier B.V.Manufactured components are submitted to thermo-mechanical loads that can blemish their surface integrity and change the inherent residual stress distribution. The discontinuous machining process is relevant to the integrity conception because of their potential application at the end of the manufacturing chain. In order to consolidate a method to predict the residual stress state with a reduced CPU effort, this paper addresses the prediction of residual stress fields resulting from the milling process. The approach is using the hybrid FEM approach combined with the analysis of the plastic flow. The results obtained point out to the validity of the combination of the hybrid method and the visualization of the equivalent stress and equivalent strain rates. Moreover, a direct correspondence between the references and experimental dataset was observed, even when the input data for the model is associated with macro-loads obtained by piezoelectric platform measurements. The determination of the stress state as residual stress in mainly associated to the mesh convergence and the time to equilibrate the plastic flow. A conclusion is drawn regarding the viability of applying the same combination for other manufacturing processes.",
+  "authkeywords": [
+    "Hybrid method",
+    "Machining process",
+    "Plastic flow",
+    "Residual stress"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Materials Processing Technology",
+    "issn": "09240136",
+    "eissn": null,
+    "volume": "275",
+    "issue": null,
+    "pages": null,
+    "article_number": "116332"
+  },
+  "authors": [
+    {
+      "name": "Rocha D’ Oliveira, André Luiz",
+      "scopus_id": "58307186600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rego, Ronnie Rodrigo",
+      "scopus_id": "55692679300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ronnie-rodrigo-rego"
+    },
+    {
+      "name": "de Faria, Alfredo Rocha",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "ronnie-rodrigo-rego",
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 14,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Metals and Alloys",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85069690812&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044396",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "num_tese": "76031",
+  "type": "tese",
+  "title": "Numerical and experimental assessment of a shape memory alloy actuator for aeronautical structures suitable for slat noise reduction",
+  "author": "Danillo Cafaldo dos Reis",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osmar de Sousa Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work aims to study actuators based on Shape Memory Alloys (SMA) that could be applied to aeronautical structures, when morphing capabilities are desired. A recent patent application that proposed a structure with potential for slat noise reduction is the main motivation behind the work developed herein. The characteristic desired for such actuator is to impose a controllable curvature for the airflow shield placed at the lower trailing edge of the slat. Based on the literature review, a SMA actuator concept has been selected to serve as a basis for the investigations. This actuator consists in the association of two cantilever beams, the first presenting the shape memory effect and the second presenting the superelastic effect, coupled mechanically so as to guarantee two equilibrium positions and thus a stand-alone cyclic actuator, in which the superelastic beam provides the bias action. Numerical simulations of the behavior of the actuator are performed using the commercial finite element software COMSOL, which implements the Boyd-Lagoudas thermomechanical model. The goal of the simulations is to characterize the actuation range of the actuator, in terms of maximum displacement obtained at its tip. The effect of the dimensions of the beams on the tip displacement under some load scenarios is investigated. The results provide guidelines for the design of the actuator to fulfill specific requirements, and suggest the use of numerical optimization for the optimal design of the actuator accounting for constraints. Limited experimental investigations have also been performed. First, the characterization of the SMA material has been carried-out, followed by the investigation of the thermomechanical behavior of isolated cantilever beams presenting the shape memory and superelastic effects. Finally, an actuator was built and tested to serve as proof of concept. The results obtained are encouraging, showing a good potential for application for slat noise reduction.",
+  "subjects": [
+    "Atuadores",
+    "Ligas de memória de forma",
+    "Reduçăo de ruído",
+    "Estruturas de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/06/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76031",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76031&origem=BDITA"
+}

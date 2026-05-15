@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-84960086427",
+  "eid": "2-s2.0-84960086427",
+  "doi": "10.1007/978-3-319-15251-6_11",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The use of fiber Bragg grating sensors for strain modal analysis",
+  "abstract": "© The Society for Experimental Mechanics, Inc. 2015.This paper discusses the use optical fiber Bragg grating (FBG) strain sensors for structural dynamics measurements and modal analysis. For some industrial applications, the use of strain sensors (combined or not with accelerometers) can bring benefits such as reduced size and weight. In many of these applications, FBG sensors lead the class of new sensor technologies that make dynamic strain measurements more attractive, with additional qualities such as the reduction of cabling, immunity to electromagnetic interference and higher sensor robustness. On the other hand, the main difficulty in the use of this technology is their integration and synchronization with other types of sensors, since their acquisition usually requires a separate specialized measurement unit. This is an important requirement in modal analysis, where synchronization between input and output measurements is a key issue that can directly affect the quality of the data. In this paper, FBG sensors are used in an experimental modal analysis, where their analogue signal is digitalized on the same way as the electrical sensors, guaranteeing synchronization.",
+  "authkeywords": [
+    "Dynamic strain",
+    "Fiber bragg grating",
+    "Strain field",
+    "Strain modal analysis",
+    "Strain mode shape"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Conference Proceedings of the Society for Experimental Mechanics Series",
+    "issn": "21915644",
+    "eissn": "21915652",
+    "volume": "10",
+    "issue": null,
+    "pages": "93-101",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "dos Santos, Fábio Luis Marques",
+      "scopus_id": "55212979900",
+      "affiliation": "114685939-60025063-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peeters, Bart",
+      "scopus_id": "7101854096",
+      "affiliation": "114685939",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gielen, Ludo",
+      "scopus_id": "36973882300",
+      "affiliation": "114685939",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Desmet, Wim",
+      "scopus_id": "56274925200",
+      "affiliation": "60025063",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84960086427&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077504",
+    "data_quality_score": 100
+  }
+}

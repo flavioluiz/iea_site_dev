@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85174331251",
+  "eid": "2-s2.0-85174331251",
+  "doi": "10.1007/s00161-023-01243-7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Full factorial design analysis of thermodynamic and kinetic parameters in simulated thermite reaction propagation",
+  "abstract": "© 2023, The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.This research investigates the effects of thermodynamic and kinetic parameters on simulated Fe 2 O 3 –2Al thermite reaction propagation. For that, a full-factorial design was applied. Five parameters were investigated: mixture density (A), thermal conductivity (B), specific heat (C), activation energy (D), and pre-exponential factor (E). Among these factors investigated, the activation energy, the specific heat, and their two-factor interaction had by far the highest percentage contribution of effects in the five responses observed: burning velocity, thickness of the reaction zone, peak temperature, ignition temperature, and ignition delay. Higher activation energy and specific heat resulted in a slower and thicker reaction propagation wave that required a longer time to ignite and reached a lower peak temperature. However, while activation energy affected the ignition temperature positively, the specific heat presented a negative effect. The remaining parameters had less pronounced effects but were significant in all five responses. Moreover, regression models of burning velocity, thickness, and ignition delay responses were estimated, which allowed mapping effects on these responses through contour plots of the main two-factor interactions.",
+  "authkeywords": [
+    "Aluminothermic reaction",
+    "Full factorial design",
+    "Thermite simulation"
+  ],
+  "year": "2023",
+  "date": "2023-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Continuum Mechanics and Thermodynamics",
+    "issn": "09351175",
+    "eissn": "14320959",
+    "volume": "35",
+    "issue": "6",
+    "pages": "2219-2238",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Souza, Kesiany M.",
+      "scopus_id": "57214792234",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174331251&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110252",
+    "data_quality_score": 100
+  }
+}

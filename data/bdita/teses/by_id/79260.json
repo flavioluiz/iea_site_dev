@@ -1,0 +1,29 @@
+{
+  "num_tese": "79260",
+  "type": "tese",
+  "title": "Avaliaçăo dinâmica do uso e acionamento de mecanismos de quatro barras nas pernas de um robô humanoide ao levantar-se",
+  "author": "Thiago Rodrigues de Oliveira Tonaco",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Thiago de Paula Sales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O campo da robótica tem sido intensamente estudado desde o século passado. Entre os vários tipos de robôs criados pelos engenheiros, aqueles que se assemelham aos seres humanos talvez tenham sidos os que mais receberam atençăo, apesar das várias dificuldades técnicas que os acompanham. Por exemplo, o controle de robôs humanoides se revela bastante desafiador, uma vez que seu movimento é caracterizado por cargas dinâmicas e influenciado por várias fontes de incerteza. Quando caminham, por exemplo, o chăo pode apresentar características indesejáveis ou ser completamente desconhecido, o que exige o uso de técnicas robustas de controle năo linear. Se um robô humanoide năo conseguir manter o equilíbrio, ele pode cair, causando danos a alguns de seus componentes. Nesse cenário, o robô humanoide pode ser obrigado a realizar um movimento de levantar-se para recuperar sua posiçăo natural e continuar a executar as tarefas programadas. Tal procedimento de levantamento pode exigir um grande esforço dos atuadores, que podem falhar se năo forem projetados adequadamente. Nesse contexto, este trabalho compara dois projetos diferentes de pernas de robô humanoide com ęnfase sendo dada a sua influęncia nas cargas necessárias para atuaçăo. O primeiro tipo de perna corresponde a uma disposiçăo em série de elos rígidos, enquanto a alternativa consiste no uso de sistemas de quatro barras paralelas em vez dos corpos rígidos que conectam o tornozelo com o joelho e o joelho com o quadril. O robô humanoide de referęncia considerado foi projetado para participar da competiçăo RoboCup Humanoid League. A cadeia cinemática do robô é modelada como um sistema multicorpo usando a plataforma Simscape. Por meio de uma análise cinemática, os ângulos das articulaçőes do tornozelo e do joelho săo determinados com base no movimento especificado para o quadril. Várias entradas de movimento săo consideradas, e seu impacto é medido nos torques de atuaçăo para ambos os tipos de pernas considerados. Os resultados obtidos mostram que o uso de sistemas de quatro barras nas pernas do robô é capaz de distribuir melhor as exigęncias de atuaçăo, o que pode ser desejável em várias aplicaçőes de robôs humanoides, como melhoria no desempenho ao caminhar ou economia financeira no projeto.",
+  "subjects": [
+    "Dinâmica de robôs",
+    "Robôs humanóides",
+    "Controle de robôs",
+    "Locomoçăo por pernas",
+    "Robótica",
+    "Controle"
+  ],
+  "defense_date": "14/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79260",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79260&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "000540563",
+  "type": "tese",
+  "title": "Simulaçăo do desempenho balístico de blindagem mista cerâmica/compósito.",
+  "author": "Marco Fabius de Carvalho Torres",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Francisco Cristóvăo Lourenço de Melo",
+      "professor_slug": null
+    },
+    {
+      "name": "Carlos de Moura Neto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O aumento da capacidade de penetraçăo dos novos projéteis, utilizados tanto em operaçőes de guerra como na violęncia urbana, tem obrigado o desenvolvimento contínuo de materiais mais resistentes e mais leves no emprego de blindagens. Na aplicaçăo aeronáutica, os fatores peso e eficięncias balísticas săo extremamente críticos. Uma blindagem tem que oferecer proteçăo contra calibres de muniçăo antiaérea sem acrescentar muito peso, para que a autonomia e capacidade de carregar armamentos năo sejam limitadas. As blindagens que melhor desempenham esse papel săo do tipo cerâmica/compósito. Contudo uma grande quantidade de combinaçőes é possível, variando o tipo de cerâmica e de compósito. No presente trabalho foram abordados dois tipos de estudos. O primeiro estudo abordado é um modelo analítico que representa o impacto de um projétil sobre uma blindagem cerâmica/compósito, cuja simulaçăo foi rodada em MATLAB V.5. Na simulaçăo, os valores da V50 foram obtidos para os painéis de Al2O3/aramida e B4C/aramida contra os projéteis 7,62x51mm AP e 0,50 pol. NATO AP, respectivamente. O ensaio do painel SiC/aramida contra 0,50 pol. NATO AP serviu para calibrar a simulaçăo e determinar o valor da deformaçăo máxima da base, que é o critério de falha do modelo. Os resultados da simulaçăo comparados com os resultados obtidos nos ensaios foram bem próximos, indicando que o modelo analítico é representativo. O segundo estudo é uma análise da vulnerabilidade de uma aeronave. Desta forma, um cone de ameaças é definido tendo a aeronave no seu vértice e os inimigos distribuídos aleatoriamente em sua base. Através de composiçăo vetorial de velocidade calculam-se a velocidade de impacto e a seçăo oblíqua do projétil paralela ao plano da aeronave. Dessa forma é possível determinar a espessura necessária para proteger aquela área, utilizando a simulaçăo, e assim otimizar a blindagem para que ela tenha o melhor quociente desempenho balístico/peso.",
+  "subjects": [
+    "Materiais compósitos",
+    "Revestimentos cerâmicos",
+    "Materiais de blindagem",
+    "Simulaçăo",
+    "Balística terminal",
+    "Ensaios de materiais",
+    "Estrutura de aeronaves",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "07/07/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540563",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540563&origem=BDITA"
+}

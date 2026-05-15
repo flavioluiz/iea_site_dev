@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85086952000",
+  "eid": "2-s2.0-85086952000",
+  "doi": "10.2514/6.2012-2156",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Scattering of wavepackets by a flat plate in the vicinity of a turbulent jet",
+  "abstract": "We present an investigation of the effect of the presence of a flat plate in the vicinity of turbulent, subsonic jet. Experiments have been performed to measure the changes in the velocity field and in the sound radiation for Mach numbers ranging from 0.4 to 0.6, and for distances between the plate and the jet axis ranging from 1 to 2 jet diameters. Results show only very slight changes in the mean flow induced by the plate, and no differences in the velocity fluctuation amplitudes on the jet centerline, suggesting that wave-packet models derived for jets without installation effects may be representative of the installed case, at least for the jet-plate distances considered here. The acoustic results, on the other hand, include a significant increase in the low-frequency sound radiation, and phase opposition between the shielded and unshielded sides of the plate. There is an exponential decay of the scattered sound with increasing jet-plate distance, in agreement with the scattering of evanescent hydrodynamic waves in the jet near field. To model this phenomenon, we calculate sound generation from wave-packet sources using a tailored Green's function that accounts for the presence of a semi-infinite, rigid flat plate. In agreement with the experimental results, the model results present the phase opposition between shielded and unshielded sides, and the scattered sound depends exponentially on the position of the plate; this exponential dependence is related to non-compact effects associated with wavepackets, as compact sources would lead to an algebraic dependence. In addition to providing a simplified model for the installation effect, the results thus further support the contention that low-frequency jet noise sources comprise axially-extended, noncompact, wavepackets. A first quantitative comparison of the model with measurements is performed, and the experimental trends are recovered. © 2012 by peter Jordan.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "18th AIAA Ceas Aeroacoustics Conference 33rd AIAA Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "109689357",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85086952000&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102128",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85108987188",
+  "eid": "2-s2.0-85108987188",
+  "doi": "10.1103/PhysRevFluids.6.064609",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Causality in the shock wave/turbulent boundary layer interaction",
+  "abstract": "© 2021 American Physical Society.In shock wave/boundary layer interactions, two mechanisms have been recognized to drive the low-frequency unsteadiness of the reflected shock: upstream boundary layer forcing and downstream feedback. The current work presents a quantitative analysis of the causal mechanisms underlying such flow unsteadiness. The analysis is based on a large-eddy simulation database covering approximately 300 cycles of the low-frequency shock fluctuations in a Mach 2 turbulent boundary layer. This time span enables the accurate application of frequency-domain system identification methods targeting such low frequencies. The evaluation of the spectrum in the interaction zone indicates that the broadband low-frequency unsteadiness is predominantly two-dimensional and can be isolated via spanwise averaging. Empirically derived transfer functions are computed using the averaged flow field and indicate the occurrence of a feedback between the locations downstream of the flow separation and the shock fluctuations. The results indicate that this mechanism dominates over the upstream forcing of the interaction region. Accordingly, the computed transfer functions are also used as an estimation tool to predict the shock motion accurately; for the largest streamwise separation between input and output signals, correlations above 0.6 are observed between predictions and raw data. Computation of spectral proper orthogonal decomposition modes reveals the existence of upstream traveling waves in the leading spectral mode at the main shock frequency; higher frequencies do not exhibit this trend. Furthermore, the spectral modes obtained using selected flow regions downstream of the shock enable the reconstruction of a significant portion of the energy in the interaction zone. Finally, a linear stability analysis is conducted using the mean turbulent flow, showing the existence of upstream traveling waves. Evaluation of a vortex sheet model indicates that these upstream traveling modes are of acoustic nature. The predicted modes from this local analysis present a compelling match against the spectral modes, both in terms of the shape and phase speed of the fluctuations. The combined analysis of the techniques indicates that downstream disturbances are the dominant cause of shock oscillations in the present configuration, leading to shock motion by upstream traveling acoustic modes.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "6",
+    "issue": "6",
+    "pages": null,
+    "article_number": "064609"
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barros, Diogo C.",
+      "scopus_id": "56382794100",
+      "affiliation": "60069774",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Larchevêque, Lionel",
+      "scopus_id": "6508212120",
+      "affiliation": "60069774",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 18,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 65,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108987188&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100760",
+    "data_quality_score": 90
+  }
+}

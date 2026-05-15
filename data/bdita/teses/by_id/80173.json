@@ -1,0 +1,31 @@
+{
+  "num_tese": "80173",
+  "type": "tese",
+  "title": "Experimental investigation of ultra-high pressure direct injection in an optically accessible engine using commercial fuels",
+  "author": "Enrico Rapetti Malheiro de Oliveira",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Flex-fuel engines have been developed to operate on ethanol, gasoline, or their mixtures, providing versatility regardless of seasonal price variations and international quotations for oil and sugar. However, these engines operate with low efficiencies compared to the potential of each fuel due to detonation (knock) when operating with gasoline, leading to low operating efficiency for both fuels. The adoption of ultra-high-pressure direct injection (UHPDI) can significantly enhance performance for both fuels, especially ethanol. This study focused on the implementation of UHPDI, involving injection pressures of 1000 bar, which enables late fuel injection during the compression stroke, avoiding auto-ignition and permitting higher compression ratios. The UHPDI system produced a highly turbulent spray with substantial momentum, improving air-fuel mixture preparation and expediting combustion. The results demonstrated that UHPDI can notably improve combustion stability and efficiency, especially with hydrated ethanol (E95W05), while reducing particulate matter emissions, when injecting closer to the spark timing in the compression phase. Experimental tests were conducted in an optically accessible single-cylinder research engine equipped with a centrally mounted diesel injector, designed for ultra-high pressures, replacing the original direct injector. To install an injector that allows such higher injection pressures, a commercial cylinder head of the GSE-T4 1.3L engine was adopted (from Stellantis, one of the industrial partners from the project). Optical and thermodynamic analyses were employed to study flame morphology, fuel-wall impingement, and combustion dynamics. These findings indicate the potential for calibrated injection timing to optimize combustion efficiency, reduce soot production, and decrease emissions of harmful pollutants, such as unburned ethanol, NOx, aldehydes, and total hydrocarbons (THC). However, with the increase in CO emissions when the injection was delayed. The use of UHPDI technology for flex-fuel engines opens new avenues and significant implications for the design and calibration of next-generation engines, making them more economically viable and environmentally sustainable. This thesis is part of a project involving several research institutions (ICTs) in the ROTA 2030 project \"Ultra-high pressure injection for flex-fuel engines: technological challenges for the use of ethanol,\" where ITA collaborates with UFSM, USP, IMT, UNICAMP, and companies such as Stellantis (formerly FIAT and PSA Group), GM, Marelli, and AVL.",
+  "subjects": [
+    "Injeçăo de combustível",
+    "Motores de combustăo interna",
+    "Álcool etílico",
+    "Combustíveis alternativos",
+    "Sistemas de igniçăo",
+    "Motores bi-combustível",
+    "Fuligem",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80173",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80173&origem=BDITA"
+}

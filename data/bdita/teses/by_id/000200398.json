@@ -1,0 +1,32 @@
+{
+  "num_tese": "000200398",
+  "type": "tese",
+  "title": "Desempenho ótimo de aviőes voando em \"wind-shear\"",
+  "author": "José Luiz Rocha Belderrain",
+  "year": "1991",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo considera a aplicaçăo da teoria de controle ótimo a um aviăo que está voando através de \"wind-shear\"; para reduzir o efeito da força desaceleradora aplicada pela massa de ar que pode ser da mesma ordem de magnitude que o arrasto total da aeronave o índice de desempenho escolhido é a minimizaçăo dos desvios da trajetória atual em relaçăo a uma trajetória nominal. O cenário do problema e o modelamento matemático săo bastante realistas, tendo sido utilizado para a aeronave um modelo de corpo rígido. Foi com sucesso tanto pelo método \"exato\" (estrutura de contato) como por um método aproximedo uma limitaçăo de ângulo de ataque. Para resolver o problema matemático resultante (sistema de equaçőes diferenciais ordinárias com múltiplas condiçőes de contorno) foram utilizados, conjuntamente, o método dos múltiplos tiros e um método de homotopia modificado. Desta forma, foram obtidas várias trajetórias ótimas, onde se nota que a estratégia básica de controle é a manutençăo da velocidade em relaçăo ao solo. Algumas leis de controle simplificadas foram analisadas; as leis de atitude longitudinal constante, de realimentaçăo do ângulo da trajetória e de realimentaçăo da aceleraçăo na direçăo da trajetória apresentaram um desempenho semelhante, ligeiramente inferior ao ótimo. Possivelmente, uma lei de controle mais elaborada conseguiria reproduzir, com boa aproximaçăo, as trajetórias ótimas.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Dinâmica de vôo",
+    "Aeronaves",
+    "Otimizaçăo",
+    "Controle ótimo",
+    "Controle de vôo",
+    "Aerodinâmica",
+    "Aeronaves",
+    "Física"
+  ],
+  "defense_date": "01/12/1991",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000200398",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000200398&origem=BDITA"
+}

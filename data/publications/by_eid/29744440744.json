@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-29744440744",
+  "eid": "2-s2.0-29744440744",
+  "doi": "10.1115/HT2005-72719",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Heat transfer in cavities having a fixed amount of solid material",
+  "abstract": "This work compares two different approaches for obtaining numerical solutions for laminar natural convection within a square cavity, which is filled by a fixed amount of a solid conducting material. The first model considered, namely, porous-continuum model, is based on the assumption that the solid and the fluid phases are seen as the same medium, over which volume-averaged transport equations apply. Secondly, a continuum model is considered to solve the momentum equations for the fluid phase that would resemble a conjugate heat transfer problem in both the solid and the void space. In the continuum model, the solid phase is composed of square obstacles, equally spaced within the cavity. In both models, governing equations are numerically solved using the finite volume method. The average Nusselt number at the hot wall, obtained from the porous-continuum model, for several Darcy numbers, are compared with those obtained with the second approach, namely the continuum model, with different number of obstacles. When comparing the two methodologies, this study shows that the average Nusselt number calculated for each approach for the same Ra m differs between each other and that this discrepancy increases as the Darcy number decreases, in the porous-continuum model, or the number of blocks increases and their size decreases, in the continuum model. A correlation is suggested to modify the macroscopic thermal expansion coefficient in order to match the average Nusselt numbers calculated by the two models for Ra m=const=104 and Da ranging from 1.2060×10 -4 to 1. Copyright © 2005 by ASME.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Summer Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": "311-320",
+    "article_number": "HT2005-72719"
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "DeLemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657-60016464",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=29744440744&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111384",
+    "data_quality_score": 80
+  }
+}

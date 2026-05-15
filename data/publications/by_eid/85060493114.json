@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85060493114",
+  "eid": "2-s2.0-85060493114",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On the wave-cancelling nature of boundary layer transition control",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.This work deals with the feedforward active control of velocity fluctuations over incompressible 3D boundary layers. Two strategies are evaluated, the Linear Quadratic Gaussian (LQG) controller, built using the eigensystem realization algorithm (ERA), is compared to a wave-cancellation scheme, obtained via the direct inversion of the frequency-domain transfer functions of the system. For the evaluated cases, it is shown that LQG leads to a wave-cancelling signal of the incoming Tollmien-Schlichting wavepacket. Such result allows further insight into the physics behind the active control of convectively unstable flows permitting, for instance, the optimization of the transverse position for actuation via a linear stability approach.",
+  "authkeywords": [
+    "Feedforward control",
+    "Flow control",
+    "Tollmien-Schlichting waves"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morra, Pierluigi",
+      "scopus_id": "57202732840",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Hanifi, Ardeshir",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060493114&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101326",
+    "data_quality_score": 70
+  }
+}

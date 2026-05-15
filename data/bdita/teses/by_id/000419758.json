@@ -1,0 +1,35 @@
+{
+  "num_tese": "000419758",
+  "type": "tese",
+  "title": "Estudo experimental e numérico da ascensăo de bolhas gasosas.",
+  "author": "Aluisio Viais Pantaleăo",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    },
+    {
+      "name": "Edson Del Rio Vieira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O deslocamento de bolhas gasosas imersa em meio líquido tem sido bastante estudado nas últimas décadas, devido ŕ aplicabilidade deste fenômeno em diversas áreas da engenharia, tais como: máquinas hidráulicas, turbo bombas, extraçăo de petróleo, processamento de alimentos, bioengenharia, etc. Este trabalho reporta os resultados de uma investigaçăo experimental e numérica do escoamento ao redor e no interior de bolhas de ar esféricas com velocidade ascendente terminal, bem como a determinaçăo de alguns parâmetros adimensionais (números de Reynolds, coeficiente de arrasto, etc.) que caracterizam esse tipo de escoamento. A técnica experimental utilizada para a determinaçăo de tais parâmetros foi a de visualizaçăo de escoamento, onde foram captadas imagens de bolhas imersas em meio líquido ŕ velocidade terminal de ascensăo. Paralelamente foram medidas a vazăo do escoamento e o diâmetro das bolhas, permitindo assim a determinaçăo dos parâmetros adimensionais supracitados. Para a obtençăo da soluçăo numérica do problema, utilizou-se um programa computacional, que possibilitou a resoluçăo das equaçőes diferenciais parciais (EDP's) năo-lineares de Navier-Stokes e da equaçăo da continuidade (equaçăo da pressăo). Tal programa resolveu as EDP's utilizando-se do método de Elementos Finitos. Simultaneamente, foi resolvido uma equaçăo para a funçăo corrente com o intuito de visualizar o campo de linhas decorrentes ao redor e no interior da bolha. Por fim, os resultados numéricos para a bolha de ar foram comparados com os dados experimentais obtidos e com os outros resultados provenientes da literatura específica.",
+  "subjects": [
+    "Bolhas",
+    "Análise numérica",
+    "Escoamento de fluidos",
+    "Mecânica dos fluidos",
+    "Número de Reynolds",
+    "Arrasto",
+    "Programas de computadores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000419758",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000419758&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "80754",
+  "type": "tg",
+  "title": "Estudo de otimizaçăo de trocadores de calor compactos para aplicaçăo aeronáutica",
+  "author": "Lucas Dias Ribeiro",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Clﻕudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ney Rafael Sﻡcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "abstract": "Este trabalho apresenta o desenvolvimento e a aplicaﻝﻙo de uma metodologia de otimizaﻝﻙo para o projeto de trocadores de calor compactos do tipo plate-fin with offset strip fins, empregados no sistema de controle ambiental (Environmental Control System - ECS) de aeronaves. O estudo visa o desenvolvimento de uma metodologia para minimizacﺕao do volume total do trocador, considerando restriﻝﺀes geomﻠtricas, operacionais e de desempenho tﻠrmico tﻥpicas de condiﻝﺀes de cruzeiro. A formulaﻝﻙo matemﻕtica do problema baseia-se no mﻠtodo ?-NTU, relacionando temperaturas de entrada e saﻥda, eficiﻡncia tﻠrmica e coeficiente global de transferﻡncia de calor, com uso de correlaﻝﺀes empﻥricas para os fatores de Colburn e de fricﻝﻙo. O problema de otimizaﺕcao 'e resolvido numericamente pelo mﻠtodo SLSQP (Sequential Least Squares Quadratic Programming), implementado em linguagem Python. Realizaram-se anﻕlises de sensibilidade univariada e multivariada para identificar as variﻕveis geomﻠtricas mais influentes e compreender os compromissos entre eficiﻡncia, perda de pressﻙo e volume. Os resultados indicaram que a largura (c) e a altura (b) das aletas exercem maior impacto no desempenho do trocador de calor. A formulaﻝﻙo inicial levou a velocidades de escoamento superiores 'as observadas em aplicaﻝﺀes reais, motivando uma formulaﻝﻙo estendida com restriﻝﺀes adicionais de velocidade. O modelo ajustado produziu uma configuraﻝﻙo fisicamente consistente, com eficiﻡncia de aproximadamente 80% e velocidade limitada a 10 m/s. Conclui-se que a integraﻝﻙo de tﻠcnicas de otimizaﻝﻙo numﻠrica com modelos termodinﻗmicos simplificados constitui ferramenta eficaz para o projeto preliminar de trocadores de calor aeronﻕuticos, conciliando eficiﻡncia, compacidade e viabilidade construtiva.",
+  "subjects": [
+    "Trocadores de calor",
+    "Transferﻡncia de calor",
+    "Otimizaﻝﻙo",
+    "Termodinﻗmica",
+    "Fﻥsica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80754",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80754&origem=BDITA"
+}

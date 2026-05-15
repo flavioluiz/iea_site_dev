@@ -1,0 +1,30 @@
+{
+  "num_tese": "78195",
+  "type": "tese",
+  "title": "On the control allocation of multirotor aerial vehicles",
+  "author": "José Agnelo Bezerra Guilherme Silva",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This thesis deals with the exact control allocation of multirotor aerial vehicles (MAVs). The problem basically consists of ensuring that the efforts required by the flight controller are exactly distributed to the actuators of the MAV. Therefore, this thesis proposes two control strategies that solve this problem. The first solution consists of an optimal control allocator proposed for vehicles with fixed rotors. The proposed method is formulated as a convex optimization, which differs from the existing approaches by directly considering the rotors' dynamics and actual bounds, besides it does not need to relax any constraint. A feasibility analysis based on the control allocator admissible set is presented, providing an existence condition for exact control allocation. It implies that the proposed control allocator is indeed exact when combined with any control law that satisfies constraints in terms of the admissible set. Regarding the second solution, a hierarchical flight control with two nested loops is proposed for fully-actuated MAVs with fixed or vectorable rotors. For the outer loop, a guidance law is formulated as a nonlinear model predictive controller. It steers the vehicle through a sequence of position-attitude waysets, while guaranteeing the satisfaction of the control allocation constraints. For the inner loop, a single inverse-dynamic control law is designed to stabilize the complete MAV dynamics, while the optimal control allocator previously described is used to distribute the required control efforts among the available actuators. With this control framework, the proposed guidance is responsible to ensure reference tracking and an exact control allocation, while the inner-loop controller can be designed to satisfy the other control requirements. The two control schemes are evaluated using different simulation scenarios, which attest the effectiveness of both methods.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Guiamento (movimento)",
+    "Controle de voo",
+    "Controle",
+    "Controle de aeronaves",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/11/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78195",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78195&origem=BDITA"
+}

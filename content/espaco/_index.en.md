@@ -1,15 +1,15 @@
 ---
 title: "Space Program"
-description: "Space research and infrastructure at ITA's AER Division — satellites, propulsion, CubeSats, GNC, and space missions"
+description: "Space research and infrastructure at ITA's the Division — satellites, propulsion, CubeSats, GNC, and space missions"
 ---
 
-ITA plays a leading role in developing space technologies in Brazil. The AER Division concentrates expertise in space propulsion, launch vehicles, satellites, guidance, navigation and control (GNC) systems, and reentry technologies — in collaboration with DCTA, AEB, INPE, and international partners.
+ITA plays a leading role in developing space technologies in Brazil. The the Division concentrates expertise in space propulsion, launch vehicles, satellites, guidance, navigation and control (GNC) systems, and reentry technologies — in collaboration with DCTA, AEB, INPE, and international partners.
 
 ---
 
 ## Why Space?
 
-Space dominance is strategic for Brazil. AER/ITA trains the engineers and researchers who develop the technologies needed for the country to achieve space autonomy — from satellite design to the development of national launch vehicles.
+Space dominance is strategic for Brazil. IEA/ITA trains the engineers and researchers who develop the technologies needed for the country to achieve space autonomy — from satellite design to the development of national launch vehicles.
 
 ---
 

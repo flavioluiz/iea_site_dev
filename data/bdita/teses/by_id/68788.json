@@ -1,0 +1,30 @@
+{
+  "num_tese": "68788",
+  "type": "tese",
+  "title": "Controle de trajetória de um quadricóptero aplicando técnicas de controle ótimo",
+  "author": "Mayara Kissya da Silva Duarte",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os quadricópteros, Veículos Aéreos Năo-Tripulados-VANTs, tęm atraído grande interesse, por ter mecânica simplificada e características especiais de voo, como pouso e decolagem vertical, alta manobrabilidade e voo em baixas velocidades. Devido a estas características săo empregados em missőes de busca, salvamento e inspeçăo remota. Em operaçőes autônomas, o sistema de controle deve seguir uma trajetória pré-determinada, para a resoluçăo deste problema, propőe-se neste trabalho a comparaçăo entre duas técnicas Lineares Quadráticas; o Regulador Linear Quadrático-LQR e o Rastreador Linear Quadrático-LQT. Aplicando conceitos de Controle Ótimo, foi possível solucionar as duas técnicas. A funçăo custo de cada técnica a ser minimizada, é quadrática e possui tręs matrizes de ponderaçăo, as quais foram ajustadas com a finalidade de se obter a resposta ótima. As técnicas foram avaliadas com auxílio da ferramenta computacional Matlab, com a qual foram feitas simulaçőes com diferentes sinais de referęncia. As simulaçőes mostram que dependendo da trajetória adotada as duas técnicas abordadas podem ser utilizadas, porém o LQT apresenta uma eficácia muito maior em certas trajetórias de referęncia. Com o aumento do ganho na matriz de ponderaçăo Q é possível reduzir o erro de referęncia, contudo o esforço de controle será proporcional a este aumento.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle ótimo",
+    "Regulador linear quadrático",
+    "Controle de trajetória",
+    "Simulaçăo computadorizada",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/07/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68788",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68788&origem=BDITA"
+}

@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-105005149225",
+  "eid": "2-s2.0-105005149225",
+  "doi": "10.1007/s40430-025-05506-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Exergy-based assessment of airfoil drag",
+  "abstract": "© The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering 2025.Optimizing the energy conversion processes within aircraft and developing novel aircraft configurations have become imperative for fostering a more sustainable aviation sector. Exergy analysis emerges as a valuable tool in pinpointing areas for improvement and evaluating innovative configurations. The present work intends to expand upon the exergy concept in the assessment of airfoil aerodynamics. This is achieved through drag breakdown and flow field analysis utilizing the exergetic method. The study employs computational fluid dynamics analysis, utilizing the airfoil NACA 0012 for subsonic compressible flow and NACA 2315, NACA 2312, and NACA 2309 for transonic compressible flow as test cases to illustrate the concept. Rates of exergy destruction and a thorough flow field analysis are presented along the wake downstream of the airfoil, comparing four turbulence models. The theoretical exergy method is juxtaposed with the classical near-field method and validated through technical reports. Ultimately, the findings indicate a potential for improvement using the exergy method in aerodynamics, resulting in a 12% reduction in drag in a 2D flow field, translating into potential energy savings up to 31000 W. Furthermore, it is also demonstrated that the impact of airfoil thickness variation on exergy destruction in the transonic regime is found to be negligible.",
+  "authkeywords": [
+    "Aerodynamics",
+    "Computational fluid dynamics",
+    "Drag calculation",
+    "Exergy"
+  ],
+  "year": "2025",
+  "date": "2025-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "47",
+    "issue": "5",
+    "pages": null,
+    "article_number": "229"
+  },
+  "authors": [
+    {
+      "name": "Gianei, Vitor Filipe Belan",
+      "scopus_id": "59898784000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinicius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Henriques, Izabela Batista",
+      "scopus_id": "56242811600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "izabela-batista-henriques"
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta",
+    "izabela-batista-henriques"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105005149225&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.073067",
+    "data_quality_score": 90
+  }
+}

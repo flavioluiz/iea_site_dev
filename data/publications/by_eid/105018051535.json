@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-105018051535",
+  "eid": "2-s2.0-105018051535",
+  "doi": "10.2514/6.2025-3387",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical Investigation of Simulated Horn Ice Shapes on Small-Scale Propeller Performance Degradation",
+  "abstract": "© 2025, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This study presents a numerical investigation on the effects of horn ice accretion on propeller performance, with a focus on how the position of the ice shape on the leading-edge surface affects performance. Using the RANS CFD code OpenFOAM, numerical simulations were performed on the same configurations previously tested by the author in a wind tunnel. The numerical analysis aimed to clarify and support interpretation of some unexpected wind-tunnel results, where certain icing configurations demonstrated higher thrust and lower torque compared to the clean configuration. A mesh independence study identified an optimal balance between computational efficiency and result consistency, leading to a mesh that could accurately captured performance trends observed in the wind tunnel. Numerical results for ice position effects showed strong alignment with experimental data, especially for thrust coefficients, while torque coefficient trends matched well despite an offset in absolute values. The CFD simulations reliably represented the differences between clean and iced configurations, even with a simplified mesh. Although RANS models have known limitations in predicting highly separated flows, essential to understanding icing impacts, the CFD analysis contributed with valuable insights on pressure distributions and flow topology. These additional data were fundamental in interpreting and validating the wind-tunnel findings, advancing the understanding of icing effects on propeller aerodynamics.",
+  "authkeywords": [
+    "Blade Element Theory",
+    "Clean Configuration",
+    "Computational Fluid Dynamics",
+    "Icing Conditions",
+    "Leading Edges",
+    "Numerical Investigation",
+    "Propeller Performance",
+    "Reynolds Averaged Navier Stokes",
+    "Separated Flows",
+    "Wind Tunnel Tests"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Felix, Gabriel Rodrigues",
+      "scopus_id": "60130780000",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018051535&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066572",
+    "data_quality_score": 100
+  }
+}

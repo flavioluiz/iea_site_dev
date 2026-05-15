@@ -1,0 +1,38 @@
+{
+  "num_tg": "77570",
+  "type": "tg",
+  "title": "Análise de qualidade de pilotagem de aeronave flexível no simulador de ensaios em voo",
+  "author": "Joăo de Barro Monteiro Cavalcanti",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Giordano de Oliveira Silva",
+      "professor_slug": null
+    },
+    {
+      "name": "Alan Fonseca Uehara",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Há muito tempo, a modelagem de aeronaves em simuladores pilotados é uma realidade da indústria aeronáutica para treinamento de tripulaçőes e desenvolvimento de produtos, principalmente na fase de ensaios em voo. No entanto, a grande maioria dos modelos de mecânica do voo consideram aeronaves idealizadas como corpos rígidos. Além disso, o desenvolvimento atual de materiais compósitos e sua utilizaçăo cada vez maior na indústria aeroespacial trazem a necessidade de uma modelagem que considere tanto o comportamento dinâmico da mecânica do voo, quanto as características aeroelásticas do veículo, sendo, portanto, responsável pela adoçăo de modelos dinâmicos para as aeronaves que contemplem deformaçőes elásticas e as suas influęncias nos seus diversos atributos. Ainda considerando os aspectos clássicos da mecânica do voo, săo calculadas as principais características dos modos dinâmicos de corpo rígido para a aeronave, de acordo com a formulaçăo de pequenas perturbaçőes, e analisadas em consonância, principalmente, com a norma MIL-F-8785C. A partir daí, propőe-se neste trabalho apresentar os principais aspectos relacionados com a modelagem de aeronaves flexíveis considerando a formulaçăo por eixos médios e pequenos deslocamentos estruturais, a implementaçăo do modelo de uma aeronave flexível para simulaçăo pilotada no simulador de ensaios em voo e a realizaçăo de tarefas de qualidade de pilotagem, observando sobretudo os aspectos da norma MIL-STD-1797B, com pilotos de ensaios em voo treinados a fim de se analisar como os modos elásticos influenciam o comportamento dinâmico da aeronave, tal como relacionar essas mudanças de comportamento, identificadas através de avaliaçăo por graus nas escalas Cooper-Harper e PIO, com as coordenadas generalizadas dos modos elásticos e com a dinâmica das deflexőes de superfícies de comando executadas pelo piloto. Com isso, de acordo com a norma MIL-F-8785C, a aeronave deveria apresentar comportamento dinâmico aceitável e classificada como nível 1 para o curto período; porém as avaliaçőes dos pilotos, assim como os dados de telemetria, considerando a PSD na faixa de 0,1 a 3 Hz, mostram que, para os modos elásticos simétricos, a piora na avaliaçăo dos pilotos decorre de um acoplamento entre o comando de profundor e as frequęncias de pico das coordenadas generalizadas modais. Destarte, conclui-se que modelos com graus de liberdade elásticos săo imprescindíveis para identificaçăo de QDP năo satisfatórias, mesmo que as previsőes estejam em consonância com os dados históricos estabelecidos na MIL-F-8785C.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Ensaios em voo",
+    "Estabilidade de aeronaves",
+    "Simuladores de voo",
+    "Dinâmica",
+    "Aeroelasticidade",
+    "Indústria aeronáutica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77570",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77570&origem=BDITA"
+}

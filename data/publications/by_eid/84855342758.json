@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-84855342758",
+  "eid": "2-s2.0-84855342758",
+  "doi": "10.1016/j.icheatmasstransfer.2011.09.001",
+  "pii": "S073519331100203X",
+  "pubmed_id": null,
+  "title": "Turbulent flow with combustion in a moving bed",
+  "abstract": "This paper presents a mathematical model for treating turbulent combusting flows in a moving porous bed, which might be useful to design and analysis of modern and advanced biomass gasification systems. Here, one explicitly considers the intra-pore levels of turbulent kinetic energy and the movement of the rigid solid matrix is considered to occur at a steady speed. Transport equations are written in their time-and-volume-averaged form and a volume-based statistical turbulence model is applied to simulate turbulence generation due to the porous matrix. The rate of fuel consumption is described by an Arrhenius expression involving the product of the fuel and oxidant mass fractions. Results indicate that fixing the gas speed and increasing the speed of the solid matrix pushes the flame front towards the end of the reactor. Also, since the rate of production of turbulence is dependent on the relative velocity between phases, as the solid velocity approaches that of the gas stream, the level of turbulence in the flow is reduced. © 2011 Elsevier Ltd.",
+  "authkeywords": [
+    "Combustion",
+    "Moving bed",
+    "Porous media",
+    "Turbulence"
+  ],
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "39",
+    "issue": "1",
+    "pages": "1-7",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Pivem, Ana C.",
+      "scopus_id": "54420884000",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84855342758&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110915",
+    "data_quality_score": 100
+  }
+}

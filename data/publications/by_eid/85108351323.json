@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-85108351323",
+  "eid": "2-s2.0-85108351323",
+  "doi": "10.1615/INTERJENERCLEANENV.2021036711",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stratification and energy losses in a standby cycle of a thermal energy storage system",
+  "abstract": "© 2021 by Begell House, Inc.A laminar natural convection local thermal nonequilibrium model of porous media is used to simulate the standby cycle of a thermal energy storage system that uses hot air as a heat transfer fluid. For this, an axisymmetric cavity, partially filled with a porous medium, is considered. The initial temperature field of the system is taken as being the final one for a charging cycle with the same properties. Results for the two-dimensional temperature fields, axis line temperatures, and energy loss after the standby cycle are compared for different properties, namely, porosity (0.6 < φ < 0.8), Da number (4 × 10-7 < Da < 4 < 10-5), thermal conductivity ratio (3.5 < ks / kf < 1062), and thermal capacity ratio (1483 < ρscps / ρf cpf < 7415). It was found that higher porosities result in higher rates of energy loss. Also, an increase in the Da number affects a significant thermal destratification of the system although the rate of energy loss does not vary. Increasing the thermal conductivity ratio meant increasing losses through the tank wall. Finally, the higher the thermal capacity ratio the slower the energy loss of the system.",
+  "authkeywords": [
+    "Heat transfer",
+    "Porous media",
+    "Standby cycle",
+    "Thermal energy storage",
+    "Thermal nonequilibrium"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Energy for A Clean Environment",
+    "issn": "21503621",
+    "eissn": "2150363X",
+    "volume": "22",
+    "issue": "5",
+    "pages": "1-32",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rodrigues, Fernando A.",
+      "scopus_id": "57214067762",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108351323&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110382",
+    "data_quality_score": 100
+  }
+}

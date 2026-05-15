@@ -1,5 +1,5 @@
 ---
-title: "EAM-1: Aircraft Design, Structures and Aerospace Systems"
+title: "Aircraft Design, Structures and Aerospace Systems"
 description: "Courses in the research area of Aircraft Design, Structures and Aerospace Systems"
 ---
 

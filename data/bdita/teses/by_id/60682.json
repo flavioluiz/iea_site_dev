@@ -1,0 +1,39 @@
+{
+  "num_tese": "60682",
+  "type": "tese",
+  "title": "Simulaçăo por elementos finitos dos processos de conformaçăo de junçőes e dobramento de chapas metálicas utilizando elastômero",
+  "author": "Cristiano Roberto Martins Foli",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Lindolfo Araújo Moreira Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Miguel Ângelo Menezes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta tese fornece uma descriçăo do comportamento plástico de chapas e tubos metálicos de parede fina, isotrópicos e anisotrópicos, na conformaçăo năo convencional utilizando elastômeros. Em particular, neste trabalho empregou-se o programa robusto de elementos finitos, Deform 3D, para a simulaçăo numérica dos processos de conformaçăo năo convencionais de junçőes metálicas e dobramento de chapas com o uso de elastômeros. Desta forma, as forças de conformaçăo totais associadas ao deslocamento do domo das junçőes foram adequadamente previstas; analiticamente, numericamente e entăo comparadas a dados experimentais, para tręs materiais de tubos recozidos distintos: Alumínio, Cobre e Latăo 70/30. No geral, a concordância entre os resultados previstos, analiticamente e numericamente, em relaçăo aos dados experimentais analisados foi muita boa, podendo a simulaçăo ser caracterizada como um benchmark. Em especial, no caso do dobramento de chapas, as forças de conformaçăo totais, o ângulo de dobramento e a recuperaçăo elástica foram numericamente previstos e comparados com os dados experimentais obtidos por Braga (2009), observando-se boa concordância para tręs materiais de chapas: Alumínio, Aço e Latăo 70/30 considerados. Além disso, neste trabalho é apresentada uma nova equaçăo para determinaçăo do comprimento do elastômero (modelo analítico), de modo que năo haja falhas no processo de conformaçăo de junçőes metálicas, que leva em consideraçăo as propriedades mecânicas dos materiais dos tubos, através do emprego da lei do escoamento associado de Levy-Mises. Adicionalmente, é apresentado um novo modelo analítico para prediçăo do fator de atrito (m), que é estabelecido a partir da relaçăo entre o atrito tubo/matriz no processo de conformaçăo de tubos utilizando elastômeros. Finalmente, a introduçăo desses novos modelos analíticos idealizados, junto com as prediçőes analíticas, numéricas e experimentais que foram estabelecidas ao longo do trabalho ajuda a melhorar o entendimento do comportamento ao escoamento plástico de chapas e tubos de paredes finas em processamento; fato que traduz o conhecimento necessário para propor soluçőes visando melhorar a eficięncia do processo de conformaçăo năo convencional de chapas e junçőes de tubos metálicos utilizando elastômeros, assim como permite a idealizaçăo de novos projetos.",
+  "subjects": [
+    "Processos de conformaçăo de metais",
+    "Juntas (junçőes)",
+    "Dobramento (materiais)",
+    "Elastômeros",
+    "Método de elementos finitos",
+    "Chapas de metal",
+    "Tubos de paredes finas",
+    "Anisotropia",
+    "Propriedades elásticas",
+    "Engenharia de materiais",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "08/06/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60682",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60682&origem=BDITA"
+}

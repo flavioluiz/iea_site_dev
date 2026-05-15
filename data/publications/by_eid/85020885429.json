@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85020885429",
+  "eid": "2-s2.0-85020885429",
+  "doi": "10.1016/j.jpdc.2017.05.011",
+  "pii": "S0743731517301624",
+  "pubmed_id": null,
+  "title": "An OpenCL framework for high performance extraction of image features",
+  "abstract": "© 2017 Elsevier Inc.Image features are widely used for object identification in many situations, including interpretation of data containing natural scenes captured by unmanned aerial vehicles. This paper presents a parallel framework to extract additive features (such as color features and histogram of oriented gradients) using the processing power of GPUs and multicore CPUs to accelerate the algorithms with the OpenCL language. The resulting features are available in device memory and then can be fed into classifiers such as SVM, logistic regression and boosting methods for object recognition. It is possible to extract multiple features with better performance. The GPU accelerated image integral algorithm speeds up computations up to 35x when compared to the single-thread CPU implementation in a test bed hardware. The proposed framework allows real-time extraction of a very large number of image features from full-HD images (better than 30 fps) and makes them available for access in coalesced order by GPU classification algorithms.",
+  "authkeywords": [
+    "Additive features",
+    "Haar features",
+    "Heterogeneous programming",
+    "Histogram of oriented gradients",
+    "Image descriptors",
+    "OpenCL",
+    "Parallel processing"
+  ],
+  "year": "2017",
+  "date": "2017-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Parallel and Distributed Computing",
+    "issn": "07437315",
+    "eissn": null,
+    "volume": "109",
+    "issue": null,
+    "pages": "75-88",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Andrade, Douglas Coimbra",
+      "scopus_id": "56297632900",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Theoretical Computer Science",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85020885429&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125153",
+    "data_quality_score": 100
+  }
+}

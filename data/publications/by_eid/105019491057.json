@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-105019491057",
+  "eid": "2-s2.0-105019491057",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "SURROGATE MODELING OF HIGHLY FLEXIBLE STRUCTURES AND AERODYNAMICS USING NEURAL NETWORKS",
+  "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.The renaissance of neural networks in the scientific community in recent years has brought new perspectives for improving the computational efficiency of traditional modeling techniques. Hamiltonian neural networks leverage the energy-preserving properties of the Hamiltonian formalism to provide surrogate models with increased interpretability compared to conventional feed-forward models. In this study, we employ a lumped-mass multibody method to derive the equations of motion of two highly flexible structures. We perform a model order reduction via modal decomposition while preserving the nonlinearities with the use of exact kinematic relations. After validating full- and reduced-order models, we use them to produce datasets and train the neural networks, which serve as ready-to-use surrogate models. Preliminary findings show that the surrogate models based on neural networks can significantly reduce the time necessary to simulate the free response of the structures. Furthermore, we demonstrate that surrogate models based on Hamiltonian neural networks have energy-preserving capabilities, maintaining accuracy levels even for long simulations. Due to their architecture, when external loads are considered, the surrogate models require the analytical calculation of the generalized forces, jeopardizing the efficiency gains obtained by our approach. We also present initial findings on the use of neural networks for faster aerodynamic models for flexible aircraft, particularly as surrogate models for the vortex-lattice method. By using a neural network as the aerodynamic surrogate model in a specific flexible aircraft simulation framework, the computational costs were reduced by a factor of 100 on average. The outcomes of this study demonstrate that surrogate models based on neural networks can soon become an efficient and reliable alternative for modeling arbitrarily flexible aircraft, provided the current limitations are addressed.",
+  "authkeywords": [
+    "flexible structures",
+    "Hamiltonian mechanics",
+    "neural networks",
+    "surrogate models"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Vitor B.",
+      "scopus_id": "59363440800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vieira, Breno S.C.",
+      "scopus_id": "60153181200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso-Ribeiro, Flávio L.",
+      "scopus_id": "46461159000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-c-ribeiro",
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019491057&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055120",
+    "data_quality_score": 70
+  }
+}

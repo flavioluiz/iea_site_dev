@@ -1,0 +1,139 @@
+{
+  "publication_id": "2-s2.0-85144539481",
+  "eid": "2-s2.0-85144539481",
+  "doi": "10.2514/1.J060960",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Flexible Aircraft Simulation Validation with Flight Test Data",
+  "abstract": "© 2021 by Antônio B. Guimarães Neto, Guilherme C. Barbosa, Juliano A. Paulino, Rafael M. Bertolin, Jéssica S. M. Nunes, Pedro J. González, Flávio L. Cardoso-Ribeiro, Maurício A. V. Morales, Roberto G. A. da Silva, Flávio L. S. Bussamra, Flávio J. Silvestre, Fernando J. O. Moreira, and Carlos E. S. Cesnik. Published by the American Institute of Aeronautics and Astronautics,.The challenges of modeling flexible aircraft include appropriate fidelity capturing and validation with experimental data. In fact, the validation of formulations and models for the flexible flight dynamics is indispensable to ensure that all the important phenomena are correctly captured. With this objective, two high-aspect-ratio flexible aircraft have been flight-tested, and coupled aeroelastic–flight dynamics data have been collected to support model validation. Additional ground vibration and static tests were carried out to fully characterize the structural dynamic properties. Numerical models were built based on a linear structural representation but with geometrically nonlinear aerodynamics. Low Reynolds number effects were included in a simplified way with lookup tables of two-dimensional airfoil data. Wing-tip effects were considered via the vortex-and doublet-lattice methods. Propulsive data were obtained with wind-tunnel tests. This paper describes the numerical models, the two aircraft, and their instrumentation and presents the data collected from the aircraft sensors during flight tests. Numerical and experimental results are compared for angular velocities, accelerations, and strains measured at different points of the aircraft. Despite its limitations and simplifications, the numerical model captures the real aircraft main aeroelastic and flight dynamic behaviors.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "61",
+    "issue": "1",
+    "pages": "285-304",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Barbosa, Guilherme C.",
+      "scopus_id": "57201395546",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Paulino, Juliano A.",
+      "scopus_id": "57202513674",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bertolin, Rafael M.",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nunes, Jéssica S.M.",
+      "scopus_id": "57221816158",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "González, Pedro J.",
+      "scopus_id": "55596665900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso-Ribeiro, Flávio L.",
+      "scopus_id": "46461159000",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Morales, Maurício A.V.",
+      "scopus_id": "57191905807",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Bussamra, Flávio L.S.",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657-129001556",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60011604-129001358-129001576",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moreira, Fernando J.O.",
+      "scopus_id": "7005323443",
+      "affiliation": "60070415-129001576-129000546",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "flavio-luiz-c-ribeiro",
+    "roberto-gil-annes-da-silva",
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85144539481&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047178",
+    "data_quality_score": 90
+  }
+}

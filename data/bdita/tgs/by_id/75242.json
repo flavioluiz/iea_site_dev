@@ -1,0 +1,25 @@
+{
+  "num_tg": "75242",
+  "type": "tg",
+  "title": "Metallic objects detection by UAVs : analysis of embedded sensors",
+  "author": "Matheus Coelho Ferraz",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, o desenvolvimento de um sistema de UAV capaz de detectar objetos metálicos ocultos é demonstrado. A proposta para o veículo é de procurar autonomamente objetos metálicos escondidos perto da superfície de uma regiăo e entăo enviar ao usuário a posiçăo de possíveis objetos. O estudo de sensores e tecnologias existentes se mostrou necessário, considerando tanto suas características técnicas quanto sua viabilidade econômica. Isso forneceu meios para escolher um ou mais sensores, a fim de estudar suas utilizaçőes a bordo do drone. Os sensores incluídos em tal estudo săo magnetômetros escalares e vetoriais, sensores infravermelhos, radar de penetraçăo no solo (GPR) e câmeras. Posteriormente, foi desenvolvido um sistema capaz de detectar objetos metálicos utilizando um magnetômetro, incluindo um sistema de controle de altitude e uma análise do plano de voo, que foram estudados de forma a satisfazer as condiçőes de detecçăo impostas por aquele sensor. A próxima fase foi o desenvolvimento do algoritmo de detecçăo de discos năo metálicos, baseado em uma câmera infravermelha. Analogamente ao sistema de detecçăo de objetos metálicos, um plano de voo foi desenvolvido respeitando as condiçőes de detecçăo impostas pela câmera. Finalmente, as fases do magnetômetro e da câmera infravermelha foram integradas de forma que as informaçőes reunidas na fase infravermelha pudessem ser usadas na fase do magnetômetro para diminuir o tempo total da missăo.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Navegaçăo autônoma",
+    "Algoritmos",
+    "Detecçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75242",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75242&origem=BDITA"
+}

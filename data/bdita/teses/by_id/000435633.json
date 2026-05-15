@@ -1,0 +1,30 @@
+{
+  "num_tese": "000435633",
+  "type": "tese",
+  "title": "Numerical simulation of a two-stage turbine for turbopumps of liquid propellant rocket engine.",
+  "author": "Fernando Cesar Ventura Pereira",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The main aim is to understand the gas dynamic process, which occurs inside a two-stage turbine and to propose an algorithm for the simulation of a two-stage turbine at design and off-design points. The explanation of each chapter is constructed to make further works easy, which should be the main of any research work that needs to be continued. Moreover, the structure of the chapters is organized in order to expose the theory in a progressive order, avoiding confusing references to preceding topics. According to this method, the content of each chapter is showed in following topics. The Introduction explains the main goals of the Brazilian Space Agency (AEB), focusing the launching vehicle. Chapter II describes a two-stage impulse turbine designed for a liquid rocket engine and some trubopump basic design criteria. A detailed description of the main losses in two-stage axial turbines of liquid propellant rocket engine is depicted in Chapter III. The explanation are always associated with Russian experimental results showed in graphics or equations relating physical variables neasurable in experiments, and dimensionless factors of losses and efficiency. Experimental evidences have been used to produce experimental equations for the determination of the magnitude of the losses and flow angles in blade rows. Several design solution proposed in Chapter IV for improving the efficiency are based on empirical data. Then, some concepts are introduced in designing gas turbines as: power Nu' specific work Lu'load coefficient Lu.ratio and efficiency hu as function of the ratio of the tangential speed u to the adiabatic speed cad for single-stage an two-stage turbines and turbine specific work LT, turbine load coefficient LT.ratio' overall turbine efficiency hT and turbine power NT as function of the ratio of the tangential speed u to the adiabatic speed cad for two-stage turbines. The flow through nozzles and blade rows is examined in detail in Chapter V, where the process of gas expansion in cascades and features of the flow over blade surfaces are described for subsonic, transonic and supersonic conditions. In Chapter V, it is also discussed the structure of the boundary layer in order to reveal the general laws governing the flow around of blades and the methods used for designing blade profiles to lower shock waves. In the first topic of Chapter VI, the initial parameters of turbine calculations are slected and its values are defined according to initial data analysis. In the second topic, the dimensionless criteria for similarity of gas turbine are described. The basic parameters and the dimensionless criteria for similarity of gas turbine allow the definition of the mass flow and energy charactiristics of the turbines. Special attention is devoted to particular characteristics of high and low-pressure turbines. The relations explained in the preceding chapters are used for implementation of a computer program, using software \"Mathcad\" for simulation of the turbine working at design and off-design conditions. The algoritms for one and two axial impulse turbines are saved in the files I.mcd and II.mcd respectively in the CD-ROM. The appendix only shows the output data for two-stage axial impulse turbines. In Chapter 7, the validation of the methodology and the computer program is done using test data from Russian bipropellant (kerosene and liquid oxygen) engine RD - 0109 for the design point and using general empirical relations, obtained from linear regression of test data of actual one and two-stage axial impulse turbines for off-design points.",
+  "subjects": [
+    "Turbinas axiais",
+    "Dinâmica dos fluidos",
+    "Análise numérica",
+    "Motores foguetes a propelente líquido",
+    "Turbomotor de fluxo duplo",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000435633",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000435633&origem=BDITA"
+}

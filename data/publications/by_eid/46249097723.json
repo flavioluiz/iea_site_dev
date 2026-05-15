@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-46249097723",
+  "eid": "2-s2.0-46249097723",
+  "doi": "10.1080/10407780802084397",
+  "pii": "793255849",
+  "pubmed_id": null,
+  "title": "Laminar confined impinging jet into a porous layer",
+  "abstract": "This work aims at studying laminar impinging jets on surfaces covered with a layer of a porous material. This contribution may provide insight into the design and optimization of heat and mass transfer processes over surfaces. Numerical simulations are presented and the porous substrate is treated as a rigid, homogeneous, and isotropic medium. Macroscopic transport equations are written for a representative elementary volume (REV), yielding a set of equations that is valid for the entire computational domain, including both the porous layer attached to the surface and the fluid layer over the porous substrate. These equations are discretized using the control-volume method and the resulting system of algebraic equations is relaxed using the Strongly Implicit Procedure (SIP) methods. The SIMPLE algorithm is used to handle the pressure-velocity coupling. Results for flow, in both clear and porous flow domains, are given in terms of streamlines patterns, velocity profiles, pressure contours, and friction coefficient along the impinging wall. The influence of porosity on the flow pattern is shown to be very low in comparison to the effects caused by varying permeability, fluid-layer height, and porous-layer thickness. These finding could be used to advantage when designing engineering equipment, since the use of selected porous materials could reduce undesirable recirculation zones, promote quick flow redistribution, and adjust pressure to required levels.",
+  "authkeywords": null,
+  "year": "2008",
+  "date": "2008-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": "15210634",
+    "volume": "54",
+    "issue": "2",
+    "pages": "151-177",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Graminho, Daniel R.",
+      "scopus_id": "13006619900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 42,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=46249097723&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111248",
+    "data_quality_score": 90
+  }
+}

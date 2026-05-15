@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-85090845921",
+  "eid": "2-s2.0-85090845921",
+  "doi": "10.1007/s40799-020-00399-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aeroelastic Vibration Measurement Based on Laser and Computer Vision Technique",
+  "abstract": "© 2020, The Society for Experimental Mechanics, Inc.The new aeronautical structures have become more flexible and light weight to reduce energy consumption, emissions, and noise, and to operate at high altitudes for long periods in the air, such as those required in the NASA Helios project. The increased structural flexibility of these aircraft has reignited concerns related to aeroelastic instabilities, such as flutter. Improving the techniques and methods used in aircraft certification flights is an important concern of the aeronautical community, because current standards and procedures do not provide recommendations and guidelines for aircraft with a high degree of flexibility. The techniques traditionally used in commercial airplanes cannot be used in this new aircraft concept, because they have a high degree of non-linearity in their flight dynamics. Current research indicates an increasing awareness about the importance of vision in the monitoring of UAV structural health. This work presents a new methodology to measure natural frequencies of aeronautical structures using a computer vision system. We also discusses new approaches to sense and acquire vibration data on aeroelastic certification flights test. These new approaches aim to reduce both the time required to identify the aeroelastic phenomenon and the size of the hardware that must be boarded on the aircraft, thus minimizing the risks and costs of the vibration tests. The advance of computer vision systems enables the use of cameras as a motion tracker sensor with millimeter precision and accuracy. Non-contact sensors are suitable for flutter analysis because they do not interfere with the dynamics of the aircraft. Therefore, this new methodology is able to process the obtained images and provide the user with the data about movements in a ready to use vector, at a reasonable cost. Using the data provided by this methodology the natural frequencies of the first bending modes were identified. This new methodology can be a user-friendly tool to support the Brazilian National Civil Aviation Agency - ANAC program called iBR 2020, which aims to certify small aircraft.",
+  "authkeywords": [
+    "Aeroelastic certification",
+    "Aeroelastic testing",
+    "Computer Vision",
+    "Flexible aircraft",
+    "Image Processing",
+    "Laser",
+    "Modal testing",
+    "Operational Modal Analysis",
+    "Vibration Sensing Method",
+    "Vibration sensor"
+  ],
+  "year": "2021",
+  "date": "2021-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Experimental Techniques",
+    "issn": "07328818",
+    "eissn": "17471567",
+    "volume": "45",
+    "issue": "1",
+    "pages": "95-107",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Figueiredo, H. V.",
+      "scopus_id": "55957551000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castillo-Zúñiga, D. F.",
+      "scopus_id": "57188145100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Costa, N. C.",
+      "scopus_id": "57220533122",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Saotome, O.",
+      "scopus_id": "24469232600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, R. G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85090845921&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066885",
+    "data_quality_score": 100
+  }
+}

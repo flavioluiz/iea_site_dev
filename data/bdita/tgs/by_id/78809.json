@@ -1,0 +1,25 @@
+{
+  "num_tg": "78809",
+  "type": "tg",
+  "title": "Uso do método marsplines-IPSO-BPNN para previsăo de séries temporais econométricas",
+  "author": "Lucas Foliatti de Azevedo",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Filipe Rodrigues de Souza Moreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho trata do estudo e a implementaçăo em Python do método híbrido MARSplines-IPSO-BPNN para a previsăo de series temporais, com um horizonte de previsăo de 2 dias ŕ frente. Como fundamentaçăo teórica para o desenvolvimento do método, será utilizado o artigo \"A novel hybrid approach to forecast crude oil futures using intraday data\" (MANICKAVASAGAM; APERGIS, 2020), responsável por sua concepçăo e implementaçăo. As séries temporais utilizadas para a aplicaçăo do método săo os índices de açőes S&P 500, Euronext 100 e Nikkei 225, obtidos a partir do API do Yahoo Finance. O MARSplines (Multivariate Adaptive Regression Splines) é utilizado para a seleçăo de variáveis importantes para a previsăo, o IPSO (Improved Particle Swarm Optimization) é utilizado para computar eficientemente os pesos da rede neural e o BPNN (rede neural de retro-propagaçăo) é efetivamente utilizado para fazer a previsăo. A partir disso, é feita uma análise da performance dos resultados obtidos, comparando com os métodos IPSO-BPNN, MARSplines e BPNN também utilizados no trabalho. Como métricas de comparaçăo entre os diversos métodos, serăo utilizados o erro quadrático médio (MSE), a raiz do erro quadrático médio (RMSE), o erro percentual absoluto médio (MAPE), e o teste estatístico de Diebold-Mariano.",
+  "subjects": [
+    "Análise de séries temporais",
+    "Redes neurais",
+    "Previsăo",
+    "Matemática",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78809",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78809&origem=BDITA"
+}

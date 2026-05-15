@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-33846307748",
+  "eid": "2-s2.0-33846307748",
+  "doi": "10.1115/1.2352779",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent heat transfer in an enclosure with a horizontal permeable plate in the middle",
+  "abstract": "Turbulent natural convection in a vertical two-dimensional square cavity, isothermally heated from below and cooled at the upper surface, is numerically analyzed using the finite volume method. The enclosure has a thin horizontal porous obstruction, made of a highly porous material and extremely permeable, located at the cavity midheight. Governing equations are written in terms of primitive variables and are recast into a general form. For empty cavities, no discrepancies result for the Nusselt number when laminar and turbulent model solutions are compared for Rayleigh numbers up to 107. Also, in general the porous obstruction decreases the heat transfer across the heated walls showing overall lower Nusselt numbers when compared with those without the porous obstruction. However the presence of a porous plate in the cavity seems to force an earlier separation from laminar to turbulence model solutions due to higher generation rates of turbulent kinetic energy into the porous matrix. Copyright © 2006 by ASME.",
+  "authkeywords": [
+    "Heat transfer",
+    "Natural convection",
+    "Porous media",
+    "Turbulence"
+  ],
+  "year": "2006",
+  "date": "2006-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Heat Transfer",
+    "issn": "00221481",
+    "eissn": null,
+    "volume": "128",
+    "issue": "11",
+    "pages": "1122-1129",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33846307748&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111304",
+    "data_quality_score": 100
+  }
+}

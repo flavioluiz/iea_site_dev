@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85026753810",
+  "eid": "2-s2.0-85026753810",
+  "doi": "10.1016/j.ijheatmasstransfer.2017.07.082",
+  "pii": "S0017931017303721",
+  "pubmed_id": null,
+  "title": "Turbulent flow in porous combustor using the thermal non-equilibrium hypothesis and radiation boundary condition",
+  "abstract": "© 2017 Elsevier LtdThis work presents numerical results for two-dimensional combustion of an air/methane mixture in inert porous media using a macroscopic turbulence model. Conservation equations for mass, momentum, energy and chemical species are obtained based on volume-and-time double averaging concept. Distinct energy balances are considered for the porous burner and the gas mixture. The numerical technique employed for discretizing the governing equations was the control volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was used to handle the pressure–velocity coupling. Effects of inlet mass flow rate, excess air, porosity and thermal conductivity ratio, on both the preheating section and combustion region, were investigated. Increasing the mass flow increases peak gas temperatures and pushes the flame front from the preheating zone towards the burner exit. Stoichiometric mixture provokes undesirable combustion in the preheating zone while lean mixtures lower temperatures and pushes flame front forward. Low porosity in the preheating zone promotes more conduction of heat in that region whereas low ϕ values in the combustion zone raises gas and solid temperatures everywhere in that zone.",
+  "authkeywords": [
+    "Combustion",
+    "Porous media",
+    "Radiation",
+    "Turbulence"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "115",
+    "issue": null,
+    "pages": "1043-1054",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Coutinho, José E.A.",
+      "scopus_id": "55270521800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85026753810&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110561",
+    "data_quality_score": 100
+  }
+}

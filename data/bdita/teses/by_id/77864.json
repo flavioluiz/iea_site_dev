@@ -1,0 +1,28 @@
+{
+  "num_tese": "77864",
+  "type": "tese",
+  "title": "Reliability analysis of tow-steered composite laminate plates",
+  "author": "Henrique Estevăo Araujo Almada dos Santos",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The use of composite materials in the aeronautical industry has increased significantly in the last decades. The development of automated procedures for manufacturing these materials has made it possible to design advanced composites, such as tow-steered laminates, in which the fibers are deposited on each layer following arbitrary curvilinear paths, instead of traditional rectilinear trajectories. As a result, new opportunities for improved structural designs were opened, despite increased uncertainties engendered by limitations of the manufacturing processes. Therefore, this study aims to appraise the influence of uncertainties affecting the aeroelastic and structural behavior of tow-steered composite laminate plates by considering as uncertain the boundary conditions and various design parameters of tow-steered laminates, such as the lamina fiber volume and those defining the fiber trajectory. Particular interest is oriented towards reliability assessment, where numerical techniques grounded on probabilistic concepts are used regarding various limit-state functions. Based on the Rayleigh-Ritz approach combined with the Classical Lamination Theory, an aeroelastic model is implemented to perform buckling, aeroelastic, and vibrational analyses of tow-steered laminates, enabling to consider a set of design parameters as random variables or random fields, being the later discretized by the Karhunen-Ločve Expansion. The Monte Carlo Simulation associated with Latin Hypercube Sampling is used for uncertainty propagation regarding the aeroelastic and structural responses and the First-Order Reliability Method of Hasofer-Lind is adopted for reliability analysis considering limit-states representing buckling, aeroelastic, and vibration performance criteria. The reliability results are compared with their counterparts also obtained from Monte Carlo Simulation, demonstrating the efficiency and accuracy of the Hasofer-Lind method in the reliability estimation, as significant reduction of computational costs with small discrepancies could be observed. Additionally, the results obtained in this research work also contribute with the incorporation of uncertainties into the characterization of three typical problems in structural engineering, duly adapted to accommodate the novel features induced by fiber steering.",
+  "subjects": [
+    "Análise de confiabilidade",
+    "Laminados",
+    "Expansăo de Karhunen-Loeve",
+    "Método de Monte Carlo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "30/06/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77864",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77864&origem=BDITA"
+}

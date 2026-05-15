@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85175460451",
+  "eid": "2-s2.0-85175460451",
+  "doi": "10.3390/drones7100611",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Robust Collision-Free Guidance and Control for Underactuated Multirotor Aerial Vehicles",
+  "abstract": "© 2023 by the authors.This paper is concerned with the robust collision-free guidance and control of underactuated multirotor aerial vehicles in the presence of moving obstacles capable of accelerating, linear velocity and rotor thrust constraints, and matched model uncertainties and disturbances. We address this problem by using a hierarchical flight control architecture composed of a supervisory outer-loop guidance module and an inner-loop stabilizing control one. The inner loop is designed using a typical hierarchical control scheme that nests the attitude control loop inside the position one. The effectiveness of this scheme relies on proper time-scale separation (TSS) between the closed-loop (faster) rotational and (slower) translational dynamics, which is not straightforward to enforce in practice. However, by combining an integral sliding mode attitude control law, which guarantees instantaneous tracking of the attitude commands, with a smooth and robust position control one, we enforce, by construction, the satisfaction of the TSS, thus avoiding the loss of robustness and use of a dull trial-and-error tweak of gains. On the other hand, the outer-loop guidance is built upon the continuous-control-obstacles method, which is incremented to respect the velocity and actuator constraints and avoid multiple moving obstacles that can accelerate. The overall method is evaluated using a numerical Monte Carlo simulation and is shown to be effective in providing satisfactory tracking performance, collision-free guidance, and the satisfaction of linear velocity and actuator constraints.",
+  "authkeywords": [
+    "collision avoidance",
+    "integral sliding mode control",
+    "multirotor aerial vehicles",
+    "velocity obstacles"
+  ],
+  "year": "2023",
+  "date": "2023-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Drones",
+    "issn": null,
+    "eissn": "2504446X",
+    "volume": "7",
+    "issue": "10",
+    "pages": null,
+    "article_number": "611"
+  },
+  "authors": [
+    {
+      "name": "Ricardo, Jorge A.",
+      "scopus_id": "56594722200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Information Systems",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175460451&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094849",
+    "data_quality_score": 100
+  }
+}

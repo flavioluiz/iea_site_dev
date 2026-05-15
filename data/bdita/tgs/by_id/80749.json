@@ -1,0 +1,27 @@
+{
+  "num_tg": "80749",
+  "type": "tg",
+  "title": "Avaliaçăo experimental da injeçăo direta de H2 em motores a pistăo para aplicaçăo aeronáutica",
+  "author": "Fernando Antônio dos Santos Diniz",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este estudo traz uma análise experimental do emprego do hidrogęnio H2 como combustível em motores a pistăo para uso aeronáutico, utilizando um sistema de injeçăo direta (DI). A pesquisa foi realizada com um motor monocilíndrico AVL 5405, conectado a um dinamômetro e equipado com os sistemas AVL HyTron, Flowsonix, Indicom e PUMA, além do analisador de emissőes MKS MultiGas 2030. Durante a pesquisa, os ensaios foram conduzidos em duas rotaçőes (1500 e 2500 rpm), alterando-se a razăo de equivalęncia lambda de 1,5 a 3,0, com controle ativo do faseamento da combustăo AI50 e da duraçăo da injeçăo (DOI). Por conseguinte, os resultados mostraram um comportamento alinhado ŕ teoria da combustăo de misturas pobres, evidenciado pela reduçăo linear do IMEP com o aumento de lambda, além da preservaçăo da estabilidade da combustăo mesmo em condiçőes ultra-pobres (lambda > 2,5). Com o empobrecimento da mistura, as emissőes de NOx caíram drasticamente, chegando a níveis quase nulos, ao passo que as temperaturas de exaustăo diminuíram proporcionalmente ŕ reduçăo da energia liberada por ciclo. Além disso, a integridade do sistema experimental foi confirmada pela estabilidade das pressőes e temperaturas de admissăo. Nesse sentido, a injeçăo direta de hidrogęnio oferece uma ampla faixa operacional com baixo risco de back-fire, emissőes mínimas e combustăo controlada, tornando-se assim uma alternativa tecnicamente viável e ambientalmente vantajosa para a propulsăo de aeronaves leves e médias, contribuindo para a descarbonizaçăo progressiva do setor aeronáutico.",
+  "subjects": [
+    "Motores a pistăo",
+    "Motores de combustăo interna",
+    "Injeçăo de combustível",
+    "Motores de aeronaves",
+    "Hidrogęnio",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80749",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80749&origem=BDITA"
+}

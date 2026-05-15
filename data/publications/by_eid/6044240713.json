@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-6044240713",
+  "eid": "2-s2.0-6044240713",
+  "doi": "10.1016/j.ijheatmasstransfer.2004.07.017",
+  "pii": "S0017931004003047",
+  "pubmed_id": null,
+  "title": "Turbulent natural convection in a porous square cavity computed with a macroscopic κ-ε model",
+  "abstract": "Detailed numerical computations for laminar and turbulent natural convection within a square cavity filled with a fluid saturated porous medium are presented. Heated vertical walls are maintained at constant but different temperatures, while horizontal surfaces are kept insulated. The macroscopic κ-ε turbulence model with wall function is used to handle turbulent flows in porous media. In this work, the turbulence model is first switched off and the laminar branch of the solution is found when increasing the Rayleigh number, Ram. Computations covered the range 10 < Ram < 106 and 10-7 < Da < 10-10 and made use of the finite volume method. Subsequently, the turbulence model is included and calculations start at high Ram, merging to the laminar branch for a reducing Ram and for Ram less than a certain critical Rayleigh number, Racr. This convergence of results as Ram decreases can be seen as a characterization of the laminarization phenomenon. For Ram values less than around 104, both laminar and turbulent flow solutions merge, indicating that such critical value for Ra m was reached, Results further indicate that when the parameters porosity, Pr, conductivity ratio between the fluid and the solid matrix and the Ram are kept fixed, the lower the Darcy number, the higher the average Nusselt number at the hot wall. © 2004 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Heat transfer",
+    "Natural convection",
+    "Porous media",
+    "Turbulence modeling"
+  ],
+  "year": "2004",
+  "date": "2004-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "47",
+    "issue": "26",
+    "pages": "5639-5650",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 83,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=6044240713&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111461",
+    "data_quality_score": 100
+  }
+}

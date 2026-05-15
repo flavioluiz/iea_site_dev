@@ -1,0 +1,30 @@
+{
+  "num_tese": "78701",
+  "type": "tese",
+  "title": "Flow simulation using a hybrid DDES model around airfoils presenting ice accretion",
+  "author": "Augustin Masson",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The aim of the present study is to numerically capture several aerodynamic phenomena appearing during the accretion of horn-type ice near the leading edge of a wing. Different studies have led to the use of parameterizations to represent the shape of these accretions, these parameterizations consist in varying the size and position of the accretion. Using different sizes and positions, wind tunnel tests have been conducted in the aerodynamic laboratory of ITA. These experiments have allowed to show the degradation of the aerodynamics performances through the appearance of recirculation bubbles, by means of force and pressure captures and visualizations. To analyze these phenomena obtained in the wind tunnel, we have carried out numerical simulations with the same conditions. These simulations were performed with two different models, RANS, which is computationally less expensive, and a RANS/LES hybrid DDES model, which showed the degradation of the performances in correlation with the existence of recirculation bubbles and separation phenomena. The simulations have also allowed allowed to show the adequacy of a DDES model to highlight the turbulent phenomena related to the appearance of these accretions.",
+  "subjects": [
+    "Aerofólios",
+    "Gelo",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Ensaios em túneis de vento",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "08/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78701",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78701&origem=BDITA"
+}

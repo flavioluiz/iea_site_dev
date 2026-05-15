@@ -1,0 +1,30 @@
+{
+  "num_tese": "000543309",
+  "type": "tese",
+  "title": "Detecçăo de falhas de motores de combustăo interna a pistăo.",
+  "author": "Giovana Sguissardi Losso",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um sistema de detecçăo de falhas deve incorporar técnicas de raciocínio que possam identificar um sinal de falha sob condiçőes de incerteza. Nesse contexto, os modelos explorados na teoria de sistemas inteligentes, configurados para detectar falha, apresentam maior confiabilidade e versatilidade do que os modelos matemáticos convencionais. Este trabalho focaliza o estudo de caso de detecçăo de falhas em motores de combustăo interna a pistăo, em que foi escolhida a abordagem utilizando lógica nebulosa (fuzzy logic) na elaboraçăo dos detectores de falhas no sistema de injeçăo e no sistema de igniçăo. Foram consideradas falhas no sistema de injeçăo as condiçőes denominadas \"mistura rica\" e \"mistura pobre\", relativas ŕs condiçőes do combustível, e as falhas no sistema de igniçăo as do tipo detonaçăo e rendimento térmico baixo. Essas falhas podem ser responsáveis por comprometer o desempenho do motor, reduzir a sua vida útil, aumentar os custos de manutençăo e a emissăo de poluentes e colocar em risco a segurança de pessoas. No sistema em foco, os detectores de falha de injeçăo e de igniçăo detectam a condiçăo de falha através da observaçăo das seguintes variáveis: ângulo de igniçăo, rotaçăo e taxa de mistura ar/combustível. Para avaliar o sistema foi desenvolvido um simulador que incorpora a dinâmica do motor, um controlador e o sistema detector de falhas. O modelo do motor de combustăo interna a pistăo, elaborado dentro do ambiente computacional AMESim 4.2.1, considera uma configuraçăo de quatro cilindros, oito válvulas, quatro sistemas de injeçăo indireta (um para cada cilindro), igniçăo por centelha, válvula borboleta, válvulas de admissăo e escape, árvore de manivela e outros componentes que compőem um motor de combustăo interna. Para controlar as variáveis do modelo no programa AMESim a uma dada condiçăo de operaçăo, o simulador apresenta uma unidade de controle, a qual recebe o sinal de pressăo média efetiva, disponível no modelo do motor (ambiente AMESim) e o sinal de carga variável, com o objetivo de calcular a rotaçăo responsável em definir a condiçăo de operaçăo do motor. Uma vez calculada a rotaçăo, a unidade de controle calcula a vazăo de combustível que é injetado no motor, o ângulo de abertura da válvula borboleta que proporcionará o estado de aceleraçăo e desaceleraçăo e o ângulo de igniçăo que indicará o momento da centelha. A unidade de controle e os detectores de falhas foram elaborados no ambiente computacional MATLAB 6.5/Simulink. O funcionamento combinado, via interface de comunicaçăo dos dois ambientes computacionais, propicia uma representaçăo adequada e resultados próximos ŕs características de um motor de combustăo real. Ao detectar as falhas provocadas intencionalmente no simulador a abordagem utilizando a lógica nebulosa apresentou resultados satisfatórios, com uma margem de erro de 0% na detecçăo de falhas no sistema de igniçăo e uma margem de erro no máximo de 5% na detecçăo de falhas no sistema de injeçăo, comprovando-se, assim, a adequaçăo e viabilidade da proposta.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Detecçăo de falhas",
+    "Lógica nebulosa",
+    "Simulaçăo computadorizada",
+    "Sistemas de igniçăo",
+    "Injeçăo de combustível",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "02/04/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543309",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543309&origem=BDITA"
+}

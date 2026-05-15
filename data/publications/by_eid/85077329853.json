@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-85077329853",
+  "eid": "2-s2.0-85077329853",
+  "doi": "10.1121/1.5140190",
+  "pii": null,
+  "pubmed_id": "31893722",
+  "title": "On the modelling of wavepacket scattering noise with coherence effects",
+  "abstract": "© 2019 Acoustical Society of America.An investigation of a wavepacket model for free-jet and jet-surface interaction noise was conducted. The source term for the axisymmetric mode was extracted from a Mach 0.9 jet large eddy simulation and employed to adjust the parameters of a simple source model. Streamwise coherence decay, in particular, was considered. The source model was propagated with both the free-field and tailored Green's function for a semi-infinite flat plate positioned at a distance of r/D = 1 from the jet axis. Significant deviations were observed in the prediction of the low-Angle directivity of the isolated jet as well as in the reproduction of the characteristics of the source field. However, the effects of trailing edge noise were well reproduced. The installed jet case, at the region dominated by trailing-edge scattering, showed very little sensitivity to the coherence decay, a crucial feature in the isolated jet case. In this sense, the modelling of the installed-jet case proved to be much simpler.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Acoustical Society of America",
+    "issn": "00014966",
+    "eissn": null,
+    "volume": "146",
+    "issue": "6",
+    "pages": "4472-4480",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva, Filipe D.",
+      "scopus_id": "57188729541",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Arts and Humanities (miscellaneous)",
+        "abbrev": "ARTS",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85077329853&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100992",
+    "data_quality_score": 90
+  }
+}

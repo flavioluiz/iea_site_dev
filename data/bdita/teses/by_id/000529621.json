@@ -1,0 +1,34 @@
+{
+  "num_tese": "000529621",
+  "type": "tese",
+  "title": "Técnica de fronteiras imersas com formulaçăo viscosa e compressível.",
+  "author": "Cesar Augusto Buonomo",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nesse trabalho, é estudado o emprego de uma técnica de especificaçăo de condiçőes de contorno em geometrias complexas e/ou móveis conhecida por fronteiras imersas ou immersed boundaries. É dada uma visăo introdutória da técnica de fronteiras imersas, onde o conceito é explicado com uma visăo geral do problema. Também é abordado um breve histórico dessa técnica, através do comentário de alguns trabalhos pioneiros e relevantes sobre o assunto. As equaçőes de Navier-Stokes săo colocadas em conjunto com as hipóteses de modelamento do fluido utilizadas e com as relaçőes constitutivas adotadas. Săo comentados também os processos de média e adimensionalizaçăo adotados, bem como as modificaçőes nas equaçőes originais para inclusăo dos termos de fronteiras imersas. Por fim, é apresentada a formulaçăo do termo de força de superfície, que completa a formulaçăo empregada. Săo abordados os métodos de discretizaçăo temporal e espacial com ęnfase no algoritmo utilizado para a discretizaçăo das equaçőes de Euler: o método upwind de Steger e Warming. Săo comentadas também a implementaçăo de condiçőes de contorno năo reflexivas em fronteiras remotas, e a implementaçăo do método de fronteiras imersas. Também é apresentado o esquema de multi-malhas empregado. Uma série de problemas modelo é utilizada para comprovar a correta implementaçăo numérica da formulaçăo apresentada. Săo apresentados e comentados os resultados obtidos com o código validado para o escoamento subsônico a Mach 0,40 sobre um aerofólio NACA 0012 com ângulo de ataque nulo e número de Reynolds de 105. É demonstrada a relaçăo entre a necessidade de refinamento de malha e a espessura da camada limite. Conseqüentemente, săo apresentadas as dificuldades na aplicaçăo do método de fronteiras imersas para problemas com números de Reynolds mais elevados em conjunto com sugestőes para novas abordagens do tema.",
+  "subjects": [
+    "Condiçőes de contorno",
+    "Estruturas de geometria variável",
+    "Camadas limite",
+    "Análise numérica",
+    "Equaçőes de escoamento",
+    "Camada limite compressível",
+    "Escoamento viscoso",
+    "Escoamento subsônico",
+    "Aerofólios",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000529621",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000529621&origem=BDITA"
+}

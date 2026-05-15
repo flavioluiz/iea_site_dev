@@ -1,0 +1,37 @@
+{
+  "num_tese": "64149",
+  "type": "tese",
+  "title": "Nonlinear aeroelasticity of composite flat plates",
+  "author": "Carlos Eduardo de Souza",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Eduardo Stolf Cesnik",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work presents a study on aeroelastic analyses of composite laminated flat plates subject to large displacements through the coupling of a nonlinear corotational shell finite element (FE) with an unsteady vortex-lattice method (UVLM) formulation. A FE implemented for the analysis of flat plates has been extended to model laminated composites with different lamina orientations. An UVLM formulation that is capable of coupling with this large displacement structural model is implemented. An explicit partitioned method is evaluated for the coupling of both models, using spline functions to interpolate information from the structural operator to the aerodynamic one, inside a Generalized-? time-marching solution. The resulting aeroelastic formulation provides a framework able of performing time marching simulation of structures made of composite material allowing the characterization of their nonlinear behavior and of the limit-cycle oscillation response. Laminated flat plates designed for high flexibility and low flutter speed onset are used as investigation models. To support the numerical studies, test specimens made of carbon fiber were used in experimental modal analysis and wind tunnel aeroelastic tests. Effects of nonlinearities are easily observed in the numerical results, which are promising for expansion of the work and application to the analysis of more refined and complex composite flexible wings.",
+  "subjects": [
+    "Laminados",
+    "Materiais compósitos",
+    "Aeroelasticidade",
+    "Năo-linearidade",
+    "Placas (membros estruturais)",
+    "Método de elementos finitos",
+    "Método de malha turbilhonar",
+    "Engenharia de materiais",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "18/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64149",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64149&origem=BDITA"
+}

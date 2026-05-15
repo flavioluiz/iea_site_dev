@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-85026373444",
+  "eid": "2-s2.0-85026373444",
+  "doi": "10.1017/jfm.2017.407",
+  "pii": "S0022112017004074",
+  "pubmed_id": null,
+  "title": "Wavepackets and trapped acoustic modes in a turbulent jet: Coherent structure eduction and global stability",
+  "abstract": "© 2017 Cambridge University PressÂ.Coherent features of a turbulent Mach 0.9, Reynolds number jet are educed from a high-fidelity large eddy simulation. Besides the well-known Kelvin-Helmholtz instabilities of the shear layer, a new class of trapped acoustic waves is identified in the potential core. A global linear stability analysis based on the turbulent mean flow is conducted. The trapped acoustic waves form branches of discrete eigenvalues in the global spectrum, and the corresponding global modes accurately match the educed structures. Discrete trapped acoustic modes occur in a hierarchy determined by their radial and axial order. A local dispersion relation is constructed from the global modes and found to agree favourably with an empirical dispersion relation educed from the simulation data. The product between direct and adjoint modes is then used to isolate the trapped waves. Under certain conditions, resonance in the form of a beating occurs between trapped acoustic waves of positive and negative group velocities. This resonance explains why the trapped modes are prominently observed in the simulation and as tones in previous experimental studies. In the past, these tones were attributed to external factors. Here, we show that they are an intrinsic feature of high-subsonic jets that can be unambiguously identified by a global linear stability analysis.",
+  "authkeywords": [
+    "absolute/convective instability",
+    "aeroacoustics",
+    "jet noise"
+  ],
+  "year": "2017",
+  "date": "2017-08-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "825",
+    "issue": null,
+    "pages": "1153-1181",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Schmidt, Oliver T.",
+      "scopus_id": "57190757609",
+      "affiliation": "60031581",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60031581-60078422",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60031581",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 159,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85026373444&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101490",
+    "data_quality_score": 100
+  }
+}

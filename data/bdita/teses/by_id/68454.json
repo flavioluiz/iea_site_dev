@@ -1,0 +1,32 @@
+{
+  "num_tese": "68454",
+  "type": "tese",
+  "title": "Modelo matemático e simulaçăo numérica da atomizaçăo de líquidos em injetores centrífugos de uso aeroespacial",
+  "author": "Julio Román Ronceros Rivas",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o estudo e simulaçăo numérica do escoamento no interior e exterior de um injetor centrífugo bipropelente similar a aquele empregado no motor foguete a propelente líquido RD-0110, pertencente ŕ etapa orbital da nave espacial Soyuz, sendo considerado um dos motores mais eficientes da historia aeroespacial. Além, este trabalho apresenta o desenvolvimento de um modelo matemático capaz de predizer o diâmetro de gota de Sauter em funçăo dos parâmetros geométricos obtidos no estudo do escoamento interno (primeira parte deste trabalho) e parâmetros geométricos externos envolvidos no estudo da estabilidade do filme e dos fenômenos de ruptura da folha cônica, considerando os efeitos da viscosidade do líquido (segunda parte deste trabalho), os tamanhos de gotas calculados com o presente modelo matemático, serăo comparados com resultados obtidos a partir de equaçőes empíricas, testes experimentais e da simulaçăo numérica utilizando o modelo de atomizaçăo Cone. Para o caso da simulaçăo numérica do escoamento no interior do injetor centrífugo bipropelente foi utilizada uma malha estruturada tridimensional de grande envergadura capaz de abranger tręs zonas importantes: a câmara de vórtices do estágio de oxidante (injetor centrífugo fechado), a câmara de vórtices do estágio de combustível (injetor centrífugo aberto) e a zona destinada para a visualizaçăo do spray, com a finalidade de compreender os fenômenos originados pela interaçăo dos escoamentos de oxidante e combustível no interior do injetor bipropelente. Cabe mencionar que para simular os fenômenos de turbulęncia, foi utilizado o modelo RNG k-? em regime permanente e transiente as através do código comercial CFD Fluent 14.0. Obtendo assim, uma análise mais confiável das diferentes aplicaçőes utilizadas no desenho e optimizaçăo dos injetores centrífugos, procurando ŕ vez, uma adequada atomizaçăo, distribuiçăo homogęnea dos propelentes na câmara de combustăo e dispersăo do tamanho de gotas que leve a um processo de combustăo eficiente.",
+  "subjects": [
+    "Injetores",
+    "Motores foguetes a propelente líquido",
+    "Propelentes de base dupla",
+    "Câmaras de combustăo",
+    "Tamanho de gota",
+    "Modelos matemáticos",
+    "Atomizaçăo",
+    "Engenharia aeroespacial",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/05/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68454",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68454&origem=BDITA"
+}

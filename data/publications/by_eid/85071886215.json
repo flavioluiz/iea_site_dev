@@ -1,0 +1,115 @@
+{
+  "publication_id": "2-s2.0-85071886215",
+  "eid": "2-s2.0-85071886215",
+  "doi": "10.1007/978-3-030-21503-3_26",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A multiaxial fatigue damage model for isotropic materials",
+  "abstract": "© Springer Nature Switzerland AG 2020.This paper presents a novel damage mechanics based failure model enabling the prediction of low cycle fatigue life and residual strength of isotropic structures under multiaxial loading. The approach herein proposed does not discretize every load cycle but instead takes an envelope loading whereby the numerical load remains constant at a maximum load level and the number of cycles is obtained from a given elapsed time defined within a pseudo-time framework. The proposed formulation is based on the smeared cracking approach accounting for damage propagation due to static and fatigue loadings, where the static component is based on the Von-Mises yield criterion and Prandtl-Reuss stress flow rule; whereas the crack propagation in cyclic loading component is based on the Paris-law. Furthermore, the formulation combines damage mechanics and fracture mechanics within a unified approach enabling the control of the energy dissipated in each loading cycle.",
+  "authkeywords": [
+    "Damage mechanics",
+    "Damage propagation",
+    "Finite elements",
+    "Smeared cracking approach"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Mechanical Engineering",
+    "issn": "21954356",
+    "eissn": "21954364",
+    "volume": null,
+    "issue": null,
+    "pages": "336-348",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Donadon, Mauricio V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Rizzi, Paulo",
+      "scopus_id": "56725294100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Montestruque, Carlos V.",
+      "scopus_id": "56725743100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Amaro, Lucas",
+      "scopus_id": "58356640100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Saullo",
+      "scopus_id": "55796884200",
+      "affiliation": "60117954",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Shiino, Marcos",
+      "scopus_id": "50661845300",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85071886215&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074269",
+    "data_quality_score": 100
+  }
+}

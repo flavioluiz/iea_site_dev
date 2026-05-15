@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-84951132816",
+  "eid": "2-s2.0-84951132816",
+  "doi": "10.1016/j.jcp.2015.12.009",
+  "pii": "S0021999115008256",
+  "pubmed_id": null,
+  "title": "Eigensolution analysis of spectral/hp continuous Galerkin approximations to advection-diffusion problems: Insights into spectral vanishing viscosity",
+  "abstract": "© 2015 The Authors.This study addresses linear dispersion-diffusion analysis for the spectral/hp continuous Galerkin (CG) formulation in one dimension. First, numerical dispersion and diffusion curves are obtained for the advection-diffusion problem and the role of multiple eigencurves peculiar to spectral/hp methods is discussed. From the eigencurves' behaviour, we observe that CG might feature potentially undesirable non-smooth dispersion/diffusion characteristics for under-resolved simulations of problems strongly dominated by either convection or diffusion. Subsequently, the linear advection equation augmented with spectral vanishing viscosity (SVV) is analysed. Dispersion and diffusion characteristics of CG with SVV-based stabilization are verified to display similar non-smooth features in flow regions where convection is much stronger than dissipation or vice-versa, owing to a dependency of the standard SVV operator on a local Péclet number. First a modification is proposed to the traditional SVV scaling that enforces a globally constant Péclet number so as to avoid the previous issues. In addition, a new SVV kernel function is suggested and shown to provide a more regular behaviour for the eigencurves along with a consistent increase in resolution power for higher-order discretizations, as measured by the extent of the wavenumber range where numerical errors are negligible. The dissipation characteristics of CG with the SVV modifications suggested are then verified to be broadly equivalent to those obtained through upwinding in the discontinuous Galerkin (DG) scheme. Nevertheless, for the kernel function proposed, the full upwind DG scheme is found to have a slightly higher resolution power for the same dissipation levels. These results show that improved CG-SVV characteristics can be pursued via different kernel functions with the aid of optimization algorithms.",
+  "authkeywords": [
+    "Continuous Galerkin formulation",
+    "Dispersion-diffusion analysis",
+    "Spectral vanishing viscosity",
+    "Stabilization for DNS/LES"
+  ],
+  "year": "2016",
+  "date": "2016-02-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Computational Physics",
+    "issn": "00219991",
+    "eissn": "10902716",
+    "volume": "307",
+    "issue": null,
+    "pages": "401-422",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Moura, R. C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60015150",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Sherwin, S. J.",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peiró, J.",
+      "scopus_id": "7005874042",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 61,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (miscellaneous)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84951132816&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069662",
+    "data_quality_score": 100
+  }
+}

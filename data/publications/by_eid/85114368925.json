@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-85114368925",
+  "eid": "2-s2.0-85114368925",
+  "doi": "10.1016/j.amc.2021.126612",
+  "pii": "S0096300321006962",
+  "pubmed_id": null,
+  "title": "Evaluation of an effective and robust implicit time-integration numerical scheme for Navier-Stokes equations in a CFD solver for compressible flows",
+  "abstract": "© 2021 Elsevier Inc.The present work describes the implementation of an implicit time-integration numerical scheme to solve viscous flows in an in-house CFD solver. The scheme is developed to calculate engineering problems involving compressible flows. This work extends the defect-correction technique for the 3D flow calculations, and all mathematical formulations are described. The CFD solver is based on the finite-volume method (FVM) to calculate the three-dimensional flow and can be applied to solve unstructured meshes. The current implementation uses the Flux-Difference Splitting method (FDS) developed by Roe combined with the MUSCL method and the Venkatakrishnan flux limiters to provide better accuracy of the numerical solutions. The implicit time-integration scheme was linearized applying the backward Euler method on the left-hand side (LHS) and a Newton-type linearization on the right-hand side (RHS) of the governing equations. The Jacobian matrix was computed analytically for the inviscid fluxes using the Roe fluxes, and for the viscous fluxes differentiating the conservative vector. Earlier work by Cavalca et al. (2018) showed the robustness and accuracy of this implicit solver to predict inviscid flows over the airfoil and into the supersonic nozzle. Finally, the Gauss-Seidel (GS) iterative method was applied to solve the resultant sparse and large system of equations. These numerical schemes and methods were applied to solve the laminar flow over a flat plate. Afterwards, the numerical solution was validated and verified with the exact Blasius solution. From the results, the numerical simulations exhibited superior robustness of the implicit-defect correction scheme when compared with the explicit scheme for compressible flows. All numerical particularities and their implementations are detailed in this paper.",
+  "authkeywords": [
+    "Computational fluid dynamics",
+    "Defect-correction",
+    "Gauss-Seidel",
+    "Implicit solver",
+    "Jacobian flux",
+    "Roe's scheme"
+  ],
+  "year": "2022",
+  "date": "2022-01-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Mathematics and Computation",
+    "issn": "00963003",
+    "eissn": null,
+    "volume": "413",
+    "issue": null,
+    "pages": null,
+    "article_number": "126612"
+  },
+  "authors": [
+    {
+      "name": "Maia, A. A.G.",
+      "scopus_id": "57216152270",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalca, D. F.",
+      "scopus_id": "55816526400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, J. T.",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Costa, F. P.",
+      "scopus_id": "57205548661",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, C.",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85114368925&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051662",
+    "data_quality_score": 100
+  }
+}

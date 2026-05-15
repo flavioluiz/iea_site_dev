@@ -1,0 +1,29 @@
+{
+  "num_tese": "000545331",
+  "type": "tese",
+  "title": "Anteprojeto de um simulador de atitude com mancal aerostático em tręs graus de liberdade.",
+  "author": "Janaina Fracaro de Souza",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta parte de um programa de desenvolvimento de um simulador de controle de atitude com mancal aerostático em tręs graus de liberdade. O escopo deste trabalho é a definiçăo da arquitetura do sistema, dimensionamento preliminar de componentes, projeto e fabricaçăo de um mancal aerostático. A finalidade do simulador é servir de plataforma para avaliar o desempenho de sistemas de controle de atitude para aplicaçőes em satélite. O sistema deve simular as grandes mudanças de atitude, minimizando o efeito de torques de perturbaçăo. Conseqüentemente, as exigęncias do projeto săo: (a) inércia baixa para minimizar os torques do controle; (b) movimento sem restriçőes para grandes variaçőes de atitude; (c) incluir dispositivo de ajuste da posiçăo do centro da massa do sistema ao centro de pressăo do mancal aerostático a fim de minimizar torques gravitacionais; (d) usinagem de alta qualidade de forma e superficial dos componentes do mancal para minimizar os torques por atrito; (e) baixo consumo de energia; (f) transparęncia eletromagnética para permitir controle remoto e induçăo de um campo magnético externo de referęncia. Os componentes principais do sistema săo: alimentaçăo de energia, tręs rodas de reaçăo, sistema de mediçăo da atitude (giroscópios ou magnetômetros mais acelerômetros) e um sistema mecânico para ajuste fino de posiçăo para centro de massa. Como a finalizaçăo do protótipo simulador depende da conclusăo de pesquisas de sistemas que estăo em desenvolvimento em outras frentes de trabalho, ligadas a outros grupos de pesquisa, este trabalho tem sua conclusăo com a apresentaçăo do anteprojeto e da simulaçăo do funcionamento do protótipo, além da fabricaçăo dos componentes principais do mancal aerostático.",
+  "subjects": [
+    "Mancais",
+    "Simuladores",
+    "Controle de atitude",
+    "Aeroestática",
+    "Projeto de sistemas de controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "20/11/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000545331",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000545331&origem=BDITA"
+}

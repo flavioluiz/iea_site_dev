@@ -1,0 +1,34 @@
+{
+  "num_tese": "66527",
+  "type": "tese",
+  "title": "A contribution to aeroelasticity using lyapunov's theory",
+  "author": "Douglas Domingues Bueno",
+  "year": "2014",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Paulo José Paupitz Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The main idea of this work is to apply the general theory of stability introduced by Lyapunov and to use linear matrix inequalities (LMIs) to study different issues in aeroservoelasticity. Many approaches have been developed on the control theory field involving LMIs, however, there is a limited number of works in the literature focused on aeroelasticity. That preliminary motivation allowed the development of different approaches on this topic. Three benchmark systems were used to evaluate and demonstrate these approaches. The first one is the three degree of freedom airfoil section and the second one is the AGARD 445.6 wing. The third benchmark system is the two degree of freedom pitch and plunge apparatus. The aerodynamic forces were computed using the Theodorsen';s theory and the Doublet Lattice method. Four different issues involving stability and control are discussed. The first one is the inclusion of structural uncertainties on the stability analysis. The second topic introduces the concept of continuous analysis and allows the study of stability of time-variant aeroelastic systems. The third issue comprises the design of controllers to suppress limit cycle oscillations in aeroelastic systems including discrete nonlinearities based on the Fuzzy Takagi-Sugeno modeling and, finally, the last topic proposes the use of Grammian matrices to determine the linear stability specially when a large number of cases of analysis are considered in the flight envelope. The introduced ideas are very promising for aeroservoelastic analysis using LMIs.",
+  "subjects": [
+    "Aeroservoelasticidade",
+    "Estabilidade de aeronaves",
+    "Controle de voo",
+    "Equipamentos de controle",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66527",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66527&origem=BDITA"
+}

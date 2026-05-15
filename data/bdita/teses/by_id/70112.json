@@ -1,0 +1,30 @@
+{
+  "num_tese": "70112",
+  "type": "tese",
+  "title": "Thermoacoustic stability analysis of a combustion chamber",
+  "author": "Carmen Martínez Hernando",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Combustion instabilities are a good example of thermoacoustic phenomena. The acoustic/combustion interactions are the main topic of study from different groups nowa- days because the constructive feedback between such effects can end in performance failure in power and propulsion system. In order to reduce the large pressure perturbations and the excessive heat transfer to the combustor walls there is currently effort in passive and active control of thermoacoustic instabilities. In previous projects at ITA, a mathemati- cal model focus on passive devices (Helmholtz resonator) was established for controlling acoustic instabilities. The aim of this work is to provide methods for the prediction of acoustic resonances and thermoacoustic instabilities in combustion chambers. Such methods are evaluated in detail by a careful comparison with controlled experiments. It is hoped that accurate prediction of thermoacoustic instabilities will be helpful in design and analysis of modern combustion chambers. The first step of this study is the acoustic characterization of the chamber by experiments without combustion. Acoustic waves pos- sess various modes of oscillation that are usually analysed considering that the mean flow is uniform and stationary, so that the acoustic resonance are described by homogeneous Helmholtz equations. However, when there is combustion the instability mechanisms appeared and a coupled model between acoustic waves and heat release rate should be developed. The combustion system is represented by the one-dimensional Linearized Eu- ler Equations (LEE) and a (n-?) formulation for flame transfer function. It is shown that such a model is capable of predicting the thermoacoustic behaviour of the combustion chamber. The chamber is shown to lead to stable and unstable behaviours as the fuel-air ratio is modified. The model also allows accurate prediction of the unstable frequencies, which is crucial for the proposition of control methos.",
+  "subjects": [
+    "Câmaras de combustăo",
+    "Sistemas de propulsăo",
+    "Estabilidade",
+    "Ressonância acústica",
+    "Ondas elásticas",
+    "Engenharia aeronáutica",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "10/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=70112",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=70112&origem=BDITA"
+}

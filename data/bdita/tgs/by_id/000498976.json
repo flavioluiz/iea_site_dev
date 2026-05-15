@@ -1,0 +1,38 @@
+{
+  "num_tg": "000498976",
+  "type": "tg",
+  "title": "Projeto preliminar de um alvo aéreo manobrável de alto desempenho.",
+  "author": "Alexandre Luiz Reder Furtado",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Breno Moura Castro",
+      "professor_slug": null
+    },
+    {
+      "name": "Christian Giorgio Roberto Taranti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "m alvo aéreo manobrável de alto desempenho é uma aeronave que se destina ao auxílio ŕs atividades de testes com lançamentos de mísseis ou treinamento de baterias de tiro anti-aéreo. Devido ŕ sua característica de alto desempenho esta aeronave se mostra bastante adequada ŕs soluçőes táticas para adquirir-se novos dados de desempenho de mísseis, o que possibilita o aprimoramento destes sistemas. O projeto desta aeronave define a configuraçăo e dimensionamento de seus componentes fundamentais: asa, empenas, fuselagem e motor. As decisőes de projeto ao longo do processo de dimensionamento levam em conta estimativas de parâmetros de qualidade de vôo, diretamente influenciados pelas geometrias dos componentes. As derivadas de estabilidade da aeronave săo determinadas e usadas em códigos de simulaçăo do movimento completo da aeronave. A partir destas simulaçőes as freqüęncias naturais, amortecimentos e constante de tempo dos modos de movimento longitudinal e lateral podem ser determinadas. Esses parâmetros definem a qualidade de vôo da aeronave. O desempenho em vôo da aeronave também pode ser analisado através das simulaçőes. A análise das simulaçőes permite classificar a qualidade de vôo, segundo critérios específicos, e também verificar se o desempenho demonstrado satisfaz as características requisitadas pela missăo a que se presta o alvo aéreo.",
+  "subjects": [
+    "Alvos",
+    "Desempenho de aeronaves",
+    "Projeto de mísseis",
+    "Controle de vôo",
+    "Características aerodinâmicas",
+    "Derivadas de estabilidade",
+    "Simulaçăo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000498976",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000498976&origem=BDITA"
+}

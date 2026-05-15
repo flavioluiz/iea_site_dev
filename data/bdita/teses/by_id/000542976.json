@@ -1,0 +1,29 @@
+{
+  "num_tese": "000542976",
+  "type": "tese",
+  "title": "A unified discrete-time approach to the state space representation of aeroelastic systems.",
+  "author": "Alexandre Noll Marques",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In complex flow situations, it is common to use numerical tools to evaluate the aerodynamic unsteady behavior. The present work presents an alternate formulation for the state space representation of aeroelastic systems based on digital control theory that is shown to be effective and accurate for the coupling of numerical solutions with such systems. The application of the z transform allows for direct frequency domain representations of the aerodynamic solutions without the need for approximating models, as generally occurs in other state space formulations. This fact makes this new methodology also a more straightforward procedure for aeroelastic analyses. A survey on the numerical calculation of impulsive and indicial unsteady aerodynamic responses with modern CFD solvers is also presented. A brief historical background on this subjected is introduced, and it is shown how new interpretations of CFD solvers as discrete-time systems change the way impulsive and indicial responses can be directly obtained. The objective is to demonstrate that the rigorous relationships theoretically established among the aerodynamic responses to impulsive, indicial, harmonic and smooth inputs can be reproduced numerically with modern CFD solvers. Although the numerical results presented herein are obtained with a single CFD tool, the argument is valid for every numerical solution scheme. The CFD tool in question solves the two-dimensional Euler equations with an explicit time march, using a finite volume discretization which supports fully unstructured grids. The results are compared both in the time and in the frequency domains, which yields a more complete understanding of details of the numerical solutions. Finally, typical section models of a flat plate and a NACA 0012 airfoil at subsonic and transonic speed are used as test-cases in order to assess the correctness and accuracy of the proposed aeroelastic analysis methodology. The present results are compared with data obtained from continuous-time state space formulations and through the direct integration of the structural dynamic and aerodynamic equations.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Vetores de estado",
+    "Aerodinâmica năo-estacionária",
+    "Física"
+  ],
+  "defense_date": "09/02/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542976",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542976&origem=BDITA"
+}

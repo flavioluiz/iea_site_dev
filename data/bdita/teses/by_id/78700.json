@@ -1,0 +1,35 @@
+{
+  "num_tese": "78700",
+  "type": "tese",
+  "title": "Escalonamento aeroelástico de asas flexíveis : modelo de elementos finitos e aplicaçăo de projeto ótimo",
+  "author": "Cynthia Ponciano Marques",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "É um objetivo da indústria aeronáutica a minimizaçăo do consumo de combustível das aeronaves de modo a reduzir os custos e impacto ambiental associados ŕ sua operaçăo. Dado que o consumo de combustível possui relaçăo direta com o desempenho aerodinâmico, torna-se importante que se busque, durante o projeto de uma aeronave, um ótimo desempenho aerodinâmico. Dentre os fatores contribuintes para a melhora aerodinâmica de uma aeronave, destaca-se o uso de asas mais alongadas. Entende-se que o aumento do alongamento das asas reduz o arrasto induzido, assim como também gera maior flexibilidade estrutural afetando o comportamento dinâmico, e, portanto, torna necessário um aprofundamento nos estudos aeroelásticos de aviőes com asas de alto alongamento. Aeroelasticidade é o estudo dos fenômenos resultantes da interaçăo entre forças aerodinâmicas, elásticas e inerciais atuando em um corpo em movimento no ar. No presente trabalho é aplicado o processo de otimizaçăo pelo método de recozimento simulado para o escalonamento aeroelástico de um modelo de ensaio em túnel de vento baseando-se na geometria da asa flexível do veículo aéreo năo tripulado denominado X-HALE. Para isso, a superfície sustentadora analisada será representada em um modelo de elementos finitos para execuçăo de análise modal, reduzido em uma escala de 2:5, e otimizado através de recozimento simulado. Busca-se representar as mesmas propriedades aeroelásticas do modelo em escala real, seguindo as restriçőes de um processo de fabricaçăo em manufatura aditiva através do método de fabricaçăo com filamento fundido e as limitaçőes dos túneis de vento disponíveis. A aplicaçăo do processo de otimizaçăo através do método de recozimento simulado demonstrou possuir codificaçăo relativamente simplificada e bons resultados em termos dos parâmetros necessários de similaridade aeroelástica, nos domínios definidos para as variáveis do projeto. Os resultados mostraram-se dependentes das definiçőes das regiőes e elementos de projeto e suas variáveis associadas. A metodologia de otimizaçăo implementada mostrou-se adequada em vista das boas características de convergęncia dos resultados com o algoritmo escolhido.",
+  "subjects": [
+    "Asas flexíveis",
+    "Estruturas de aeronaves",
+    "Método de elementos finitos",
+    "Ensaios em túneis de vento",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78700",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78700&origem=BDITA"
+}

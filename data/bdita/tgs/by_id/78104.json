@@ -1,0 +1,32 @@
+{
+  "num_tg": "78104",
+  "type": "tg",
+  "title": "Modelagem de riscos de contaminaçăo de SARS-CoV-2 por fômites durante o embarque de voos comerciais através de modelagem baseada em agentes",
+  "author": "Matheus Gulyás de Souza",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruna Helena Pedroso Fabrin",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma metodologia de modelagem baseada em agentes para estimar a probabilidade de contaminaçăo pelo vírus SARS-Cov-2 por fômites durante o embarque de um voo comercial. Na modelagem baseada em agentes, foram inseridas características pessoais de cada indivíduo, como a idade e a velocidade máxima de caminhar através de distribuiçőes demográficas, permitindo a observaçăo de uma situaçăo computacional mais próxima da realidade. O modelo proposto para a probabilidade de se receber uma dose contagiosa da doença adotou como parâmetros a frequęncia de contato dos indivíduos com superfícies do aviăo a partir da entrada do passageiro no aviăo até este se sentar, bem como o tempo de duraçăo desses contatos. Foram simulados 6 cenários distintos, e cada cenário foi rodado 100 vezes, com o escopo de avaliar o efeito da posse de bagagens no aumento da contaminaçăo. Os resultados obtidos sugerem que, quanto maior o número de bagagens de măo ŕ bordo, maior é o risco de contaminaçăo. Dessa forma, sugere-se que as companhias aéreas adotem medidas de incentivo ao despache das bagagens de măo, minimizando a frequęncia de toques dos passageiros em superfícies potencialmente contaminadas e evitando a propagaçăo da doença em ambiente fechado.",
+  "subjects": [
+    "Avaliaçăo de riscos",
+    "SARS-CoV-2",
+    "Simulaçăo",
+    "Cenários",
+    "Transporte de passageiros",
+    "Transporte aéreo",
+    "Medicina"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78104",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78104&origem=BDITA"
+}

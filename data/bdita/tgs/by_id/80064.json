@@ -1,0 +1,27 @@
+{
+  "num_tg": "80064",
+  "type": "tg",
+  "title": "Análise de estruturas coerentes em camadas limite turbulentas",
+  "author": "Ana Beatriz da Silva Machado",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A turbulęncia é um fenômeno complexo e de bastante interesse na área de mecânica dos fluidos, tanto para a academia quanto para a indústria aeroespacial. O entendimento das camadas limite turbulentas e das estruturas coerentes que as compőem é um grande desafio que possui resultados práticos, como a reduçăo das perdas de energia em processos industriais. Este trabalho tem como objetivo analisar as estruturas coerentes em uma camada limite turbulenta de uma placa plana com gradiente zero de pressăo (ZPGTBL) com número de Reynolds inicial Re = 250, simulada por meio da técnica de Large-Eddy Simulation (LES). O trabalho utiliza de duas abordagens bastante recorrentes na literatura para encontrar os modos mais energéticos do escoamento: a análise resolvente e a Spectral Proper Orthogonal Decomposition (SPOD). Ambas as metodologias permitiram analisar as flutuaçőes das tręs componentes de velocidade para o modo mais energético da ZPGTBL, de forma a identificar as estruturas coerentes no plano lateral e na seçăo transversal em $x = 904.17$. Nesse processo, foi possível visualizar o mecanismo de lift-up no escoamento. Os principais modos resolventes e espectrais tiveram características semelhantes para a flutuaçăo longitudinal no plano $YX$ e para os vórtices da seçăo transversal. Entretanto, as flutuaçőes em $v$ e $w$ do modo SPOD tiveram um aspecto ruidoso, sinalizando a necessidade de melhoras na obtençăo dos modos espectrais. Finalmente, foi analisada a convergęncia da SPOD a partir do número de amostragens por bloco no método de Welch utilizado no cálculo das Transformadas Rápidas de Fourier.",
+  "subjects": [
+    "Camada limite turbulenta",
+    "Processamento de sinais",
+    "Escoamento turbulento",
+    "Placas planas",
+    "Número de Reynolds",
+    "Transformada de Fourier",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80064",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80064&origem=BDITA"
+}

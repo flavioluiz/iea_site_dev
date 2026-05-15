@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85051729534",
+  "eid": "2-s2.0-85051729534",
+  "doi": "10.2514/6.2018-3957",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Chordwise actuation effects on NACA 0012 morphing airfoils",
+  "abstract": "© 2018, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Optimization of wing shapes has been a constant struggle throughout the years of aircraft and aerodynamic development. Innovations have flourished in all scientific fields that influence wing design, such as materials, structural, manufacturing and aeronautical engineering, in order to improve performance and consequently reduce fuel consumption of aircraft, which translates in a light wing with an airfoil shape that assures the best lift coefficients required for a specific mission. On the other hand, this penalizes other maneuver possibilities for the same aircraft, hindering its capabilities and demanding development of different solutions, impacting on costs and draining resources. An “one fits all” concept solves this hurdle, since one design could accomplish a variety of missions, with adequate values for lift coefficient for each different flight phase. This concept can be achieved by wings capable of morphing, adjusting their structures on demand. One widely investigated field of research is morphing wings that uses smart materials, such as shape memory alloys, for actuation. Shape memory alloys are lightweight, simple and cheap materials that, combined with a morphing compliant rib, can achieve controlled displacements on aerodynamic surfaces. This paper analyses different rib concepts modifying chordwise positions for actuation by making use of shape memory alloy wires built-in a NACA 0012 reference wing. A comparison is made between different percentages of chordwise morphing capability and a simple NACA 0012 wing with a 25 percent chord plain flap, as usually seen on many simple aircraft designs. The results show an increase on lift coefficient values and a delay of stall angle for some chordwise actuation locations. The comparison parameter was a 15 degree of trailing-edge tip displacement related to the airfoil leading-edge. By reducing external surface gaps and steps, a simple and lightweight smart morphing wing can overcome a common flap design and still achieve a variety of different missions by adjusting itself in flight.",
+  "authkeywords": null,
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2018 Applied Aerodynamics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2018-3957"
+  },
+  "authors": [
+    {
+      "name": "Rocha Dos Santos, Artur Gustavo",
+      "scopus_id": "57201339046",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Caselato de Sousa, Guilherme Luiz",
+      "scopus_id": "57201338986",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "De Sousa Santos, Osmar",
+      "scopus_id": "56996901800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Paula, Adson Agrico",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade",
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85051729534&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085471",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-33845404290",
+  "eid": "2-s2.0-33845404290",
+  "doi": "10.2514/6.2006-2982",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An investigation on modal displacement aerodynamic effects on downwash weighting methods for transonic flutter",
+  "abstract": "The paper addresses further investigations on downwash correction methods for aeroelastic stability analyses in the transonic regime. The main concern is the investigation of the influence of the nature of the lifting surface motion, considering a general elastic body modal displacement to compute unsteady pressures. A finite-difference Navier-Stokes code is used to calculate the unsteady aerodynamic loads due to a three dimensional transonic flow. The unsteady pressure coefficients computed using this code are used as a reference state for flutter analyses based on a linearized aerodynamic theory using the downwash weighting method. The test case considered is the well-known AGARD wing 445.6 standard aeroelastic configuration. The results are compared with previous theoretical investigations.",
+  "authkeywords": null,
+  "year": "2006",
+  "date": "2006-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers AIAA Applied Aerodynamics Conference",
+    "issn": "10485953",
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": "386-393",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Roberta G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60069347-106792715-101399800",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Mello, Olympic A.F.",
+      "scopus_id": "55945788000",
+      "affiliation": "60069347-101348505",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347-112361044-60010401",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33845404290&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067584",
+    "data_quality_score": 90
+  }
+}

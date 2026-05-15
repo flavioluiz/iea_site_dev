@@ -1,0 +1,33 @@
+{
+  "num_tese": "77942",
+  "type": "tese",
+  "title": "CFD methodology for turbulent combustion calculation in a bipropellant rocket engine",
+  "author": "Antoine Bryan Aad",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fausto Ivan Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The goal of this research is to apply the theory of turbulent combustion in a novel way to the design of a rocket thrust chamber in order to accelerate its technology readiness level. A 3D steady-state numerical simulation is employed for a turbulent reacting compressible flow in a GOX/Kerosene rocket engine. The CFD simulation was computed using ANSYS Fluent v18. The mathematical approach is an Eulerian single-phase non-premixed combustion where turbulence is modeled using Favre's averaged Navier-Stokes. The main differences between this research and classical numerical approaches are the implementation of (a) realizable k-epsilon closure model implemented for high Reynolds number flows, (b) Turbulence-chemistry interaction is modeled using conserved scalar assumed-shape joint probability density function (PDF) and (c) resolving the supercritical state of the gases using the Soave-Redlich-Kwong equation of state. The introduction of an inclined impinging injector, the quintuplet, showed a better propellant mixing and higher exit velocity compared to the parallel-jet injector. A condition on the efficiency of mixing and combustion process is the level of the inlet turbulent intensity, the recirculation region at the near-field-injector space and the inlet velocity ratio. We deduced that (1) for optimal performance the oxygen jet-inlet is inclined for the propellants to collide at an angle of 60 to 75 degrees, (2) augmenting the turbulence intensity level at the injector inlet enhances the propellant mixing which increases the combustion efficiency, and (3) when using a quintuplet with a high turbulent intensity we induce a recirculation region accountable for the flame holding inside the chamber. Qualitative and quantitative data measures of the reactive flowfield (morphology, temperature, pressure and velocity and Mach number) are demonstrated.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Dinâmica dos gases",
+    "Combustăo turbulenta",
+    "Alto número de Reynolds",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/07/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77942",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77942&origem=BDITA"
+}

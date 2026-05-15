@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-85079407486",
+  "eid": "2-s2.0-85079407486",
+  "doi": "10.1142/S0219876219500737",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Numerical Method to Solve Nonsymmetric Eigensystems Applied to Dynamics of Turbomachinery",
+  "abstract": "© 2020 World Scientific Publishing Company.In this paper, a canonical transformation is proposed to solve the eigenvalue problem related to the dynamics of rotor-bearing systems. In this problem, all matrices are real, but they may not be symmetric, which leads to the appearance of complex eigenvalues and eigenvectors. The bi-iteration method is selected to solve the original eigenproblem whereas the QR algorithm is adopted to solve the reduced or projected problem. A new canonical transformation of the global eigenproblem which reduces the quadratic eigenproblem to a linear eigenproblem, maintaining numerical stability since all that is required is that the stiffness matrix is well-conditioned, which is always true when it comes to applications in dynamic problems. The proposed technique is good for obtaining dominant eigenvalues and corresponding eigenvectors of real nonsymmetric matrices and it possesses the following properties: (i) the matrix is not transformed, therefore sparsity is maintained, (ii) partial eigensolutions can be obtained and (iii) use may be made of good eigenvectors predictions.",
+  "authkeywords": [
+    "Complex eigenvalue problem",
+    "dynamic stability",
+    "turbomachinery"
+  ],
+  "year": "2020",
+  "date": "2020-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Computational Methods",
+    "issn": "02198762",
+    "eissn": "17936969",
+    "volume": "17",
+    "issue": "9",
+    "pages": null,
+    "article_number": "1950073"
+  },
+  "authors": [
+    {
+      "name": "De Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Alhatim, Omair",
+      "scopus_id": "56891752300",
+      "affiliation": "60033126",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maciel, Homero Fonseca Santiago",
+      "scopus_id": "57214886600",
+      "affiliation": "131914335",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Computer Science (miscellaneous)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079407486&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044309",
+    "data_quality_score": 100
+  }
+}

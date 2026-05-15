@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-105020573020",
+  "eid": "2-s2.0-105020573020",
+  "doi": "10.1103/rh44-3bmk",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Planar Oldroyd-B and Giesekus jet flow stability: Convective and absolute instability analysis",
+  "abstract": "©2025 American Physical SocietyThis study investigates the two- and three-dimensional convective and absolute instability characteristics of planar viscoelastic jet flows using the Oldroyd-B and Giesekus models. Analyzing instability in different types of flows is fundamental for understanding their behavior in various natural and industrial applications. Convective instability refers to disturbances that propagate and grow downstream, while absolute instability involves disturbances that grow over time regardless of their position in the flow. Understanding these phenomena can help optimize industrial processes and predict complex flow behaviors, for example. Results indicate that concerning convective instability, the Giesekus model exhibits a larger unstable region compared to the Oldroyd-B and Newtonian models. On the other hand, the Oldroyd-B model is more susceptible to absolute instability than the Giesekus model. Notably, in the Giesekus model, the mobility parameter αG significantly influences the occurrence of absolute instability, which only occurs for small values of αG, for which the fluid tends to the Oldroyd-B behavior. For the tested parameters, only low values of αG (close to the Oldroyd-B model, which corresponds to αG = 0) led to the emergence of absolute instability, while larger values did not. These observations apply to both two-dimensional and three-dimensional disturbances.",
+  "authkeywords": null,
+  "year": "2025",
+  "date": "2025-08-26",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "10",
+    "issue": "8",
+    "pages": null,
+    "article_number": "083902"
+  },
+  "authors": [
+    {
+      "name": "Sterza, Rafael L.",
+      "scopus_id": "60166773600",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Souza, Leandro F.",
+      "scopus_id": "21742140100",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mendonca, Marcio T.",
+      "scopus_id": "7005160566",
+      "affiliation": "60069347-60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brandi, Analice C.",
+      "scopus_id": "16644597000",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105020573020&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100125",
+    "data_quality_score": 80
+  }
+}

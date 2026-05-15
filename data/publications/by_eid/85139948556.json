@@ -1,0 +1,112 @@
+{
+  "publication_id": "2-s2.0-85139948556",
+  "eid": "2-s2.0-85139948556",
+  "doi": "10.1007/s40430-022-03808-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Helicopter engine simulation using flight test data",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.The costs involved in the design, manufacture, certification and maintenance of a helicopter have grown over the past few years. In the certification phase of embedded systems, their safety levels and their performance requirements are verified. The helicopter engine is a system that must be reliable and capable of providing the necessary power to produce lift and controllability for the aircraft. In this work was developed a computer model to evaluate the helicopter engine’s performance under any flight conditions and the pilot’s inputs. The developed software was incorporated as a module in a flight test simulator at the Flight Tests and Research Institute (IPEV) which belongs to the Brazilian Air Force. This simulation tool allows foreseeing and investigating possible situations that may occur during actual flight tests, improving safety and reducing costs. Using MATLAB® Simulink, it was possible to run at the same time: an iterative and a non-iterative methodology, a control system to set the fuel flow schedule, based on several inputs generated from the thermodynamic model. Based on classic thermodynamics laws and differential equations, the particularities due to the helicopter application were adjusted: the influence of the pilot’s commands; performance requirements; running line control; and the fuel flow control system. The simulation results were compared with commercial gas turbine performance simulation software and with the data provided by the IPEV in five real flight tests. These data were also used for obtaining engine output power requirements according to collective stick position.",
+  "authkeywords": [
+    "Engine performance",
+    "Flight test",
+    "Gas turbine",
+    "Helicopter",
+    "Simulation"
+  ],
+  "year": "2022",
+  "date": "2022-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "11",
+    "pages": null,
+    "article_number": "512"
+  },
+  "authors": [
+    {
+      "name": "Araújo, Lennon F.",
+      "scopus_id": "57929216900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Whitacker, Luiz H.L.",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino T.",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Figueira, José Márcio P.",
+      "scopus_id": "55233562100",
+      "affiliation": "128743163",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139948556&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051620",
+    "data_quality_score": 100
+  }
+}

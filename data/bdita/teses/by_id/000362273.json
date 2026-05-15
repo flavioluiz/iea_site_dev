@@ -1,0 +1,31 @@
+{
+  "num_tese": "000362273",
+  "type": "tese",
+  "title": "Aceleraçăo de convergęncia de um método numérico implícito para escoamentos em qualquer regime de velocidade",
+  "author": "Marcello do Areal Souto Ferrari",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta uma modificaçăo aplicada a um método de diferenças finitas para resoluçăo de escoamentos em qualquer regime de velocidade. O método original se baseia no algoritmo padrăo de fatoraçăo aproximada de Beam e Warming, próprio para resoluçăo de escoamentos compressíveis. Uma escolha apropriada das variáveis dependentes, que no presente trabalho săo pressăo, componentes cartesianas de velocidade e temperatura, asseguram um bom desempenho do algoritmo para uma larga faixa de números de Mach. É proposto um método de aceleraçăo de convergęncia para este algoritmo. Este método se baseia no algoritmo diagonal aplicado ao esquema de fatoraçăo aproximada implícito padrăo, o qual apresenta reduçőes significativas no custo computacional, mantendo as mesmas características de estabilidade e precisăo. É mostrado que o algoritmo diagonal é também aplicável ao algoritmo para todo regime de velocidade na resoluçăo de escoamentos. Experimentos numéricos mostram uma reduçăo de mais de 50% do tempo de convergęncia tanto para escoamentos internos como externos. Por fim, săo introduzidos termos viscosos no lado direito do algoritmo. Deste modo, a captura de fenômenos que năo podem ser descritos apenas pelas equaçőes de Euler torna-se possível. A adiçăo de termos de viscosidade é feita apenas no lado direito, uma vez que se está interessado apenas na soluçăo de problemas de estado estacionário.",
+  "subjects": [
+    "Teoria das diferenças finitas",
+    "Escoamento",
+    "Velocidade",
+    "Mecânica dos fluidos",
+    "Algoritmos",
+    "Análise numérica",
+    "Física",
+    "Computaçăo"
+  ],
+  "defense_date": "01/07/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000362273",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000362273&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000523730",
+  "type": "tese",
+  "title": "Investigaçăo e implementaçăo de um controle de força/torque em manipulador robótico.",
+  "author": "Henrique Pestalozzi Lima Chagas",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho versa sobre o projeto e implementaçăo de um controlador de força/torque para um manipulador robótico industrial. Uma proposta de cunho prático, considerando-se as características da planta, foi implementada no manipulador industrial Puma 560 com um sensor de força/torque de seis eixos montado em seu pulso. Considerando-se a inacessibilidade do controle de posicionamento do Puma 560 e a năo modificaçăo do projeto original do robô, foi implementada uma malha externa de controle de força/torque sobreposta ŕ malha interna de controle de posiçăo do controlador original. Uma das contribuiçőes deste trabalho foi o desenvolvimento de um simulador geral de manipuladores robóticos de elos seriais rígidos, no ambiente do MATLAB/SIMULINKâ. O simulador desenvolvido, por generalidade, difere dos simuladores usuais que utilizam MATLAB/SIMULINKâ, devido sua flexibilidade advinda da possibilidade de se simular qualquer manipulador dessa categoria e da facilidade de utilizaçăo devido ŕ interface desenvolvida para o usuário. O mesmo foi amplamente usado neste trabalho, tanto para o projeto e sintonia dos ganhos do controlador externo de força/torque, quanto para simulaçőes. Finalizando, o trabalho objetiva contribuir no esclarecimento de uma metodologia para aplicaçăo destes controladores em manipuladores em contato com o \"ambiente\".",
+  "subjects": [
+    "Controle automático",
+    "Sensores de torque (robótica)",
+    "Controle de força (robótica)",
+    "Braços robóticos",
+    "Manipuladores",
+    "Controle de robôs",
+    "Robótica",
+    "Controle"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000523730",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000523730&origem=BDITA"
+}

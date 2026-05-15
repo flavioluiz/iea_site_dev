@@ -1,0 +1,30 @@
+{
+  "num_tese": "60920",
+  "type": "tese",
+  "title": "Estudo de desempenho de turbinas a gás sob a influęncia de transitórios da geometria variável",
+  "author": "Franco Jefferds dos Santos Silva",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A simulaçăo é uma atividade importante na fase de projeto, testes e operaçăo de turbinas a gás. Uma ferramenta capaz de simular motores nas diversas configuraçőes durante essas fases de desenvolvimento tem importância fundamental, tanto em análises de motores existentes quanto nos estudos para desenvolvimento da tecnologia necessária a novos motores de alto desempenho. A capacidade de prever os parâmetros de desempenho em ponto de projeto e fora do ponto de projeto em regime permanente é condiçăo fundamental para estes programas. No entanto, a análise e projeto de motores de alto desempenho necessitam de conhecimento das características relacionadas ŕ dinâmica do motor. Assim, a simulaçăo em regime permanente é capacidade imprescindível para uma ferramenta de simulaçăo. O Centro de Referęncia de Turbinas a Gás do ITA desenvolveu um programa computacional base com as capacidades de simulaçăo em regime permanente no ponto de projeto, simulaçăo em regime permanente fora do ponto de projeto, simulaçăo em regime permanente com geometria variável e simulaçăo de transitórios com geometria fixa. Neste trabalho foram adicionados os módulos computacionais necessários para estender a capacidade de simulaçăo do programa computacional base, acrescentado a capacidade de simulaçăo de transitórios com variaçăo simultânea de geometria, de forma que a influęncia desta última possa ser avaliada na dinâmica do motor. Essa implementaçăo estende de maneira considerável as capacidades do programa computacional em desenvolvimento, uma aplicaçăo é no projeto de sistema de controle de estabilidade dos motores. Foi implementada ainda a capacidade de simulaçăo utilizando um controlador PID com capacidade para controlar a variaçăo da geometria do compressor e manter a margem de bombeamento positiva durante aceleraçőes e desaceleraçőes. Simulaçőes foram realizadas para verificar qualitativamente os resultados fornecidos pelos novos módulos do programa computacional.",
+  "subjects": [
+    "Turbinas a gás",
+    "Simulaçăo computadorizada",
+    "Desempenho",
+    "Análise numérica",
+    "Estrutura de geometria variável",
+    "Controladores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "10/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60920",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60920&origem=BDITA"
+}

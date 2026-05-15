@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-79251563487",
+  "eid": "2-s2.0-79251563487",
+  "doi": "10.1063/1.3517297",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Intermittent sound generation and its control in a free-shear flow",
+  "abstract": "Comparisons are made between direct numerical simulations (DNS) of uncontrolled and optimally noise-controlled two-dimensional mixing layers in order to identify the physical mechanism responsible for the noise reduction. The analysis is carried out in the time domain to identify events that are significant in sound generation and which are acted upon by the control. Results show that a triple vortex interaction in the uncontrolled mixing layer radiates high-amplitude pressure waves to the far acoustic field; the elimination of this triple merging accounts for 70% of the noise reduction accomplished by a body force control applied normal to the shear layer. The effect of this control is shown to comprise vertical acceleration of vortical structures; the acceleration, whose action on the structures is convected across the control volume, leads to changes in their relative convection velocities and a consequent regularization of their evolution, which prevents the triple merger. Analysis of a longer time series for the DNS of the uncontrolled mixing layer using a wavelet transform identifies several similar intermittent, noisy events. The sound production mechanism associated with such noisy events can be understood in terms of cancellation disruption in a noncompact source region, such as described by a retarded-potential formalism. This shows that acoustic analogies formulated from the perspective of quadrupole acoustic sources are, in principle, useful for the modeling of such events. However, this study also illustrates the extent to which time-averaged statistical analysis of sound producing flows can mask the most important source activity, suggesting that intermittency should be explicitly modeled in sound prediction methodologies. © 2010 American Institute of Physics.",
+  "authkeywords": null,
+  "year": "2010",
+  "date": "2010-11-03",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physics of Fluids",
+    "issn": "10706631",
+    "eissn": null,
+    "volume": "22",
+    "issue": "11",
+    "pages": null,
+    "article_number": "115113"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60032653",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Wei, Mingjun",
+      "scopus_id": "10140314400",
+      "affiliation": "60002162",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Freund, Jonathan B.",
+      "scopus_id": "57200550062",
+      "affiliation": "60000745",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 54,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79251563487&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102250",
+    "data_quality_score": 90
+  }
+}

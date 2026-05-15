@@ -1,0 +1,35 @@
+{
+  "num_tese": "57560",
+  "type": "tese",
+  "title": "Análise da influęncia das tensőes residuais no empenamento de peças usinadas em alumínio aeronáutico da série 7000",
+  "author": "Ademir de Campos Reis",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Lindolfo Araújo Moreira Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Miguel Ângelo Menezes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O empenamento de um componente mecânico pode ser definido como a distorçăo geométrica quando o material é submetido a um estado de desequilíbrio das tensőes iniciais ou residuais internas, estando livre da açăo de forças e vínculos externos. Depois de empenada, a peça apresenta novamente novo estado de equilíbrio de tensőes, obtido agora com a nova configuraçăo geométrica, ou seja, a distorçăo. Essas tensőes residuais resultam da interaçăo entre tempo, temperatura, deformaçőes e microestrutura em processos termo-mecânicos. O propósito deste trabalho consiste em apresentar uma comparaçăo entre dois algoritmos numéricos usados para converter remoçăo de camadas e deflexăo de viga associada em níveis de tensőes residuais longitudinais e transversais da matéria-prima, induzidas durante o processo de laminaçăo. Neste trabalho é empregado o método dos elementos finitos, utilizando os pacotes comerciais MSC.Patran e MSC.Marc para predizer o empenamento em peças usinadas. As tensőes residuais da matéria-prima, obtidas pelo Método de Remoçăo de Camadas e usando Algoritmos de Flavenot e Flavenot Modificado (teoria presente), săo aplicadas como input no modelo de elementos finitos para realizar a simulaçăo do empenamento em peças. Săo feitas comparaçőes entre as flechas previstas pelo Algoritmo Clássico de Flavenot e Algoritmo Modificado com as flechas medidas experimentalmente. Constata-se que as tensőes residuais obtidas pelo Algoritmo de Flavenot năo săo plenamente satisfatórias, uma vez que as flechas calculadas via MEF năo correspondem adequadamente aos valores obtidos nos ensaios de remoçăo de camadas. Para verificaçăo final da eficięncia da metodologia desenvolvida partiu-se para a prediçăo e análise do empenamento de uma peça real fabricada a partir de placas laminadas em alumínio aeronáutico, sujeitas a um estado inicial de tensőes residuais. É usado o Algoritmo de Flavenot Modificado, desenvolvido neste trabalho, para a determinaçăo das tensőes residuais longitudinais e transversais da matéria-prima. Săo feitas comparaçőes entre o empenamento calculado e os valores medidos em pontos escolhidos desta peça. A comparaçăo entre a deformaçăo obtida pelo modelo de elementos finitos e a deflexăo real medida na peça, apresenta valores próximos, demonstrando a boa precisăo do algoritmo numérico modificado. O algoritmo desenvolvido neste trabalho mostra-se mais adequado que o classicamente usado. Com tais informaçőes dos níveis e perfil das tensőes residuais torna-se possível, na fase que antecede a fabricaçăo, incorporar estes valores em modelos de elementos finitos para simular o empenamento das peças e também prover um melhor entendimento do processo de manufatura. Com o controle do empenamento, garante-se que os produtos sejam fabricados com uma baixa vulnerabilidade relativa, propiciando competitividade e preço.",
+  "subjects": [
+    "Processos de conformaçăo de metais",
+    "Tensăo residual",
+    "Placas (membros estruturais)",
+    "Montagem de empenagens",
+    "Fresagem (usinagem)",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "13/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=57560",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=57560&origem=BDITA"
+}

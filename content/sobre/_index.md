@@ -3,7 +3,7 @@ title: "Sobre a Divisão"
 description: "Informações sobre a Divisão de Engenharia Aeronáutica e Aeroespacial do ITA"
 ---
 
-A **Divisão de Engenharia Aeronáutica e Aeroespacial (AER)** do Instituto Tecnológico de Aeronáutica (ITA) é uma das mais antigas e renomadas unidades acadêmicas do ITA, responsável pela formação de engenheiros e pesquisadores de excelência para o setor aeroespacial brasileiro e internacional.
+A **Divisão de Engenharia Aeronáutica e Aeroespacial (IEA)** do Instituto Tecnológico de Aeronáutica (ITA) é uma das mais antigas e renomadas unidades acadêmicas do ITA, responsável pela formação de engenheiros e pesquisadores de excelência para o setor aeroespacial brasileiro e internacional.
 
 ---
 
@@ -22,7 +22,7 @@ Formar engenheiros e pesquisadores de alto nível, desenvolver pesquisas de vang
 
 ## Histórico
 
-A Divisão AER tem suas raízes na fundação do ITA em 1950, quando o Brasil iniciou a formação de engenheiros aeronáuticos de alto nível. Ao longo das décadas, a divisão expandiu sua atuação para abranger o espectro completo da engenharia aeroespacial, incorporando as tecnologias espaciais como frente estratégica.
+A Divisão de Engenharia Aeronáutica e Aeroespacial tem suas raízes na fundação do ITA em 1950, quando o Brasil iniciou a formação de engenheiros aeronáuticos de alto nível. Ao longo das décadas, a divisão expandiu sua atuação para abranger o espectro completo da engenharia aeroespacial, incorporando as tecnologias espaciais como frente estratégica.
 
 ---
 
@@ -44,7 +44,7 @@ A divisão conta com mais de **50 professores** com ampla experiência em pesqui
 
 ## Infraestrutura
 
-A AER dispõe de mais de **15 laboratórios** equipados com tecnologia de ponta para pesquisa experimental e computacional, incluindo túneis de vento, bancadas de propulsão, laboratórios de materiais e estruturas, sala limpa para montagem de satélites e recursos computacionais avançados.
+A Divisão dispõe de mais de **15 laboratórios** equipados com tecnologia de ponta para pesquisa experimental e computacional, incluindo túneis de vento, bancadas de propulsão, laboratórios de materiais e estruturas, sala limpa para montagem de satélites e recursos computacionais avançados.
 
 [Conheça os laboratórios →](/laboratorios/)
 

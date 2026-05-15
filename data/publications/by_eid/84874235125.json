@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-84874235125",
+  "eid": "2-s2.0-84874235125",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Temporal filter applied to image sequences acquired by an industrial robot to detect defects in large aluminum surfaces areas",
+  "abstract": "This work presents the use of a temporal filter, named Dynamic Retina, instead of spatial-neighborhood operators to process the image. Originally, this kind of filter has been proposed for use in mobile robot platforms for analyzing sequences of images [1]. The use of this filter could be adapted to enhance the defects on the aluminum surfaces by taking advantage of the intrinsic vibration of the industrial robot arm that drives the vision system to acquire images. This vibration generates small differences on each image that are sufficient to detect scratches. Mostly, the finishing process of aluminum surfaces in the aeronautic industries is currently carried out manually by trained operators; nevertheless certain steps can be automated using this technology. © 2012 CZECH TECH UNIV.",
+  "authkeywords": [
+    "Automation",
+    "Dynamic Retina",
+    "Industrial Robots",
+    "Temporal Filter"
+  ],
+  "year": "2012",
+  "date": "2012-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of 15th International Conference on Mechatronics Mechatronika 2012",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "6415041"
+  },
+  "authors": [
+    {
+      "name": "Furtado, L. F.F.",
+      "scopus_id": "36930408300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, L. G.",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Francisco, A.",
+      "scopus_id": "36671130400",
+      "affiliation": "101929882",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso",
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84874235125&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049646",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85191302220",
+  "eid": "2-s2.0-85191302220",
+  "doi": "10.3390/aerospace11040276",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Analysis of Blade Aspect Ratio’s Influence on High-Speed Axial Compressor Performance",
+  "abstract": "© 2024 by the authors.The ratio between blade height and chord, named the aspect ratio (AR), plays an important role in compressor aerodynamic design. Once selected, it influences stage performance, blade losses and the stage stability margin. The choice of the design AR involves both aerodynamic and mechanical considerations, and an aim is frequently to achieve the desired operating range while maximizing efficiency. For a fixed set of aerodynamic and geometric parameters, there will be an optimal choice of AR that achieves a maximum efficiency. However, for a state-of-the-art aero-engine design, optimality means multi-objective optimality, that is, reaching the highest possible efficiency for a number of operating points while achieving a sufficient stability margin. To this end, the influence of the AR on the performance of the first rotor row of a multistage, multi-objective, high-speed compressor design is analyzed. A careful setup of the high-speed aerodynamic design problem allows the effect of the AR to be isolated. Close to the optimal AR, only a modest efficiency variation is observed, but a considerable change in compressor stability margin (SM) is noted. Decreasing the AR allows for increasing efficiency, but at the expense of a reduced surge margin. This allows the designer to trade efficiency for stability. Increasing the AR, however, is shown to reduce both the surge margin and efficiency; hence, a distinct optimality in stability is observed for the analyzed rotor blade row. In this work, optimality in the surge margin with respect to the AR is observed, whereas there is a close to optimal efficiency. The predicted range from AR = 1.10 to AR = 1.64 is only indicative, considering that the definition of multi-objective optimality requires balancing efficiency and the surge margin and that the choice of balancing these two criteria requires making a design choice along a pareto optimal front.",
+  "authkeywords": [
+    "aspect ratio",
+    "high-speed compressor",
+    "multi-objective optimality",
+    "surge margin"
+  ],
+  "year": "2024",
+  "date": "2024-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace",
+    "issn": null,
+    "eissn": "22264310",
+    "volume": "11",
+    "issue": "4",
+    "pages": null,
+    "article_number": "276"
+  },
+  "authors": [
+    {
+      "name": "Silva, Lucilene",
+      "scopus_id": "57697692700",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Grönstedt, Tomas",
+      "scopus_id": "6506749216",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Xisto, Carlos",
+      "scopus_id": "56284281000",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Whitacker, Luiz",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Lejon, Marcus",
+      "scopus_id": "57057681400",
+      "affiliation": "60099216",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85191302220&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051482",
+    "data_quality_score": 100
+  }
+}

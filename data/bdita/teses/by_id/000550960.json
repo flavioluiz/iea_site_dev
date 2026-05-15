@@ -1,0 +1,37 @@
+{
+  "num_tese": "000550960",
+  "type": "tese",
+  "title": "Estimaçăo dos coeficientes aerodinâmicos utilizando Adaptive Functional Link Network.",
+  "author": "Wilson Rios Neto",
+  "year": "2008",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcelo Curvo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho desenvolve um método adaptativo estocástico aplicado ao treinamento de uma arquitetura neural conhecida como Functional Link Network - FLN para a determinaçăo dos coeficientes aerodinâmicos e de controle de uma aeronave de alto desempenho. Esta arquitetura neural possui dois aspectos importantes: permite o uso de uma infinidade de alternativas de tipos de funçőes (exponenciais, polinomiais, etc) como funçőes de base e o uso de regras de treinamento lineares. Quando o treinamento é feito usando um algoritmo de estimaçăo linear ótimo, ou seja, um algoritmo como o filtro de Kalman, tem-se um comportamento numérico ruim, causando assim problemas de divergęncia quando conjuntos grandes de dados de treinamento săo processados. Este problema ocorre devido ao fato de que o algoritmo perde a capacidade de treinamento quando novos conjuntos de dados săo processados. Para evitar este mau comportamento e tentar manter uma capacidade de aprendizado distribuída e uniforme, se propőe o uso de um procedimento adaptativo baseado em um critério de consistęncia estatística, para contrabalançar a prioridade das informaçőes a priori com as novas informaçőes de treinamento. A arquitetura neural Functional Link Network - FLN e o procedimento adaptativo formam a Adaptive Functional Link Network - AFLN que permite a identificaçăo dos parâmetros aerodinâmicos e de controle, mesmo quando os valores iniciais dos parâmetros estiverem distantes dos valores reais. Para se obter uma arquitetura que tenha boa capacidade de modelagem e de generalizaçăo, utiliza-se também uma heurística de poda (Optimal Brain Surgeon - OBS), para eliminar os parâmetros (funçőes) menos significativos. Para testar e validar o método desenvolvido, utilizam-se dados fornecidos por um simulador em FORTRAN da aeronave F16 e se compara com os dados obtidos via a aplicaçăo da AFLN, tanto para os coeficientes do movimento longitudinal quanto para os do movimento látero-direcional. Os resultados săo promissores e indicam a possibilidade do uso da ferramenta na identificaçăo, em tempo quase real, dos coeficientes dentro do envelope de vôo da aeronave.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Estimaçăo de sistemas",
+    "Coeficientes aerodinâmicos",
+    "Controle adaptativo",
+    "Redes neurais",
+    "Processos estocásticos",
+    "Mecânica de vôo",
+    "Inteligęncia artificial",
+    "Controle"
+  ],
+  "defense_date": "19/12/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000550960",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000550960&origem=BDITA"
+}

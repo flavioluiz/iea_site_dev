@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-36349020415",
+  "eid": "2-s2.0-36349020415",
+  "doi": "10.2514/1.27625",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Adaptive stochastic filtering for online aircraft flight path reconstruction",
+  "abstract": "State and parameter estimation using flight test data is highly affected by process and measurement noises, especially with noises displaying time varying statistical properties. Hence, if an estimation problem is to be solved, an adaptive filtering approach is recommended. It is also desirable to obtain the estimates online, simultaneously with flight execution, aiming at a maneuver validation before concluding the flight. Indeed, it is more expensive to put the aircraft back in the air than to extend a little the flight and repeat a test point. Flight path reconstruction is a technique which produces a consistent flight test data set from noisy measurements as a preprocessing scheme to a parameter identification routine. Air data can also be calibrated simultaneously if the problem is formulated properly. This work proposes a methodology to deal with time varying noise statistical properties using a new approach for an adaptive extended Kalman filter. Besides the main filter, two other Kalman filters are proposed to run in parallel, to estimate the process and measurement noise statistics based on the main filter residuals. The proposed adaptive method is derived from the covariance matching technique, by employing filter residuals to adjust the noise statistical properties. Because the method has a low computational cost and is recursive, it is suitable for online applications. The method is validated in a flight path reconstruction application, with simultaneous air data calibration for angle of attack, angle of sideslip, and static pressure sensors. A 100 samples Monte Carlo simulation and real flight test data analysis are used for performance evaluation. Because the proposed approach adequately estimates the statistical noise properties, improved performance is obtained. Copyright © 2007 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2007",
+  "date": "2007-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aircraft",
+    "issn": "00218669",
+    "eissn": "15333868",
+    "volume": "44",
+    "issue": "5",
+    "pages": "1546-1558",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Mendonça, Celso Braga",
+      "scopus_id": "23008050100",
+      "affiliation": "60070415-105428755",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hemerly, Elder Moreira",
+      "scopus_id": "6603075914",
+      "affiliation": "60021657-108226627",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657-105428339",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 23,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=36349020415&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077874",
+    "data_quality_score": 90
+  }
+}

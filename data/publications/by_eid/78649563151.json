@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-78649563151",
+  "eid": "2-s2.0-78649563151",
+  "doi": "10.2514/6.2010-3963",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Intermittent sound generation in a free-shear flow",
+  "abstract": "Comparisons are made between direct numerical simulations of uncontrolled and optimally controlled mixing layers in order to understand what it is about the controlled flows that makes them substantially quieter. Special attention is paid to the possibility that the essential details of the source mechanism may be spatially and/or temporally localised: such features are hidden when second-order statistics such as spectra are considered; and indeed these are almost identical for the two flows. Analysis is thus performed in the time domain, in order to search for intermittent sound-producing events. The results show that a large-amplitude pressure wave associated with a triple vortex merger in the uncontrolled mixing layer contributes significantly to the farfield, and that this event has been eliminated in the controlled flow. The large amplitude pressure wave associated with this event appears to be due to two things: the axial concentration of a low-pressure zone associated with the merging of the three vortical structures on one hand, and an axially-extended high-pressure region which opens up in the low-vorticity region immediately upstream of the three said structures. These pressure distributions can be mechanistically understood in terms of centripetal forces associated with the vortex dynamics, and the sound production associated with this can be mechanistically understood in terms of the axial imbalance that occurs between the spatially-localised low pressure and the spatially extended high-pressure. Having understood the above, we proceed to analyse a longer time-run simulation of the uncontrolled flow, to see if we can objectively extract similar events. We apply a wavelet transform to the radiated pressure field, and by means of this we identify a collection of similar signatures. In each case we find that these correspond to a similar mechanism. The results highlight the importance of considering sound-producing flows in the time domain, and using appropriately adapted signal processing. The implications for noise-source modelling, which are often based on second-order statistics, are also discussed. © 2010 by Peter Jordan. Published by the American Institute of Aeronautics and Astronautics, Inc.",
+  "authkeywords": null,
+  "year": "2010",
+  "date": "2010-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "16th AIAA Ceas Aeroacoustics Conference 31st AIAA Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "2010-3963"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60032653-109689357-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653-109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "60032653-109689475",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Wei, Mingjun",
+      "scopus_id": "10140314400",
+      "affiliation": "60002162-60146925",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Freund, Jonathan B.",
+      "scopus_id": "57200550062",
+      "affiliation": "60000745-60158506",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=78649563151&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102297",
+    "data_quality_score": 90
+  }
+}

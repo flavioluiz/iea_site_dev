@@ -1,0 +1,29 @@
+{
+  "num_tese": "67716",
+  "type": "tese",
+  "title": "Aplicaçăo do método CART na classificaçăo de sinais radar",
+  "author": "Jorge Luiz Lessa Júnior",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Operaçőes militares săo invariavelmente conduzidas com informaçőes incompletas, cabendo ŕ inteligęncia militar agir no sentido de reduzir tais lacunas. O reconhecimento eletrônico é uma das atividades de inteligęncia tipicamente militar, especializada na coleta de informaçőes por meio do monitoramento sistemático do espectro eletromagnético externo, originado dos vários tipos de sistemas de comunicaçăo e detecçăo operados principalmente próximo ŕs regiőes de fronteira. Tais informaçőes, após serem tratadas por analistas especializados, permitem inferir as características dos emissores, suas potencialidades e limitaçőes. Uma vez que o número de analistas é limitado e que a capacidade de analisar e compreender grandes conjuntos de dados dificilmente acompanha o aumento da capacidade de coleta e armazenagem, fica justificado o uso de ferramentas de apoio ŕ tarefa de classificaçăo, como uma forma de reduçăo da carga de trabalho e de incremento da confiabilidade das informaçőes geradas. Nesse contexto, o objetivo da pesquisa é investigar a aplicabilidade do método CART na obtençăo de modelos de classificaçăo interpretáveis, ao invés de modelos analíticos, a partir de uma base de dados simulada, com a qual foi possível contabilizar as classificaçőes certas e erradas dos modelos gerados. Os modelos de treinamento foram gerados inicialmente com a base completa e aos poucos fez-se o desbalanceamento das amostras por meio do empobrecimento proposital dos dados de treino. A precisăo do modelo se manteve praticalmente inalterada, com erros de classificaçăo inferiores a 2% no pior caso, mostrando a robustez dos modelos gerados a partir do CART. A partir dos tręs modelos foram estabelecidos os padrőes determinantes para cada classe de radar constante da base simulada, com um bom índice de acerto.",
+  "subjects": [
+    "Sistemas de informaçăo",
+    "Árvores de decisăo",
+    "Mineraçăo de dados",
+    "Operaçőes militares",
+    "Tecnologia militar",
+    "Engenharia militar"
+  ],
+  "defense_date": "17/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67716",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67716&origem=BDITA"
+}

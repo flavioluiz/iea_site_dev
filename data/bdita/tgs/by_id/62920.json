@@ -1,0 +1,32 @@
+{
+  "num_tg": "62920",
+  "type": "tg",
+  "title": "Prediction of vortex-dominated flow during landing procedures for transport aircraft configurations - a numerical study",
+  "author": "Gustavo Rodriguez Peçanha",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    },
+    {
+      "name": "Olaf Knobloch",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "CFD simulations play an important role in every project on the aircraft industry. For these simulations to be economically viable, the use of turbulence models is necessary. Spalart and Allmaras model is commonly used with that objective. Tau code, developed by DLR, is one of the software used for CFD calculations in Airbus. To improve vortex simulations on flows, some routines were implemented within Tau code trying to correct the model of Spalart and Allmaras. The present work objective was to validate the use of such routines namely Dacles-Mariani, Spalart and Shur, and its simplified version, comparing the obtained results with the use of such models to the results without vortical flow correction and to wind-tunnel test results. From those comparisons one could perceive that despite being a little slower, the simulation using the correction model of Spalart and Shur has significant improvements. The other two models present worse results compared to the simulation without vortical flow correction.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento turbulento",
+    "Vórtices",
+    "Análise numérica",
+    "Códigos computacionais",
+    "Configuraçőes aerodinâmicas",
+    "Aterrissagem",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=62920",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=62920&origem=BDITA"
+}

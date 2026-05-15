@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85086997276",
+  "eid": "2-s2.0-85086997276",
+  "doi": "10.2514/1.J059106",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aeroelastic stability of conventional and tow-steered composite plates under stochastic fiber volume",
+  "abstract": "© 2020 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.The numerical investigation of the stochastic aeroelastic characteristics of conventional and tow-steered composite laminates subjected to random uncertainties affecting the laminate fiber volume is addressed in the present paper. A computationally efficient stochastic model is constructed combining the semi-analytical Rayleigh-Ritz approach with the Karhunen-Loève discretization of the two-dimensional random field representing the fiber volume. In addition, polynomial chaos expansions are used as stochastic metamodels of the output random variables characterizing the onset of aeroelastic instability and the mass of the laminate. Such a metamodeling approach enables to alleviate the computational cost involved in the estimation of the statistics of the output variables of interest based on Monte Carlo simulations. In addition, the study encompasses both subsonic and supersonic flow conditions, for which two appropriate aerodynamic models are used. The numerical results provide effective uncertainty quantification in a variety of simulation scenarios, which are found to be useful for the incorporation of uncertainty quantification in the design of aircraft and spacecraft structures when uncertainties induced by the manufacturing process must be dealt with.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": null,
+    "volume": "58",
+    "issue": "6",
+    "pages": "2748-2759",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães, Thiago A.M.",
+      "scopus_id": "57038408200",
+      "affiliation": "60015104-100853191",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Higor L.",
+      "scopus_id": "57209851308",
+      "affiliation": "60015104-100853191",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657-119043960",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85086997276&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088833",
+    "data_quality_score": 90
+  }
+}

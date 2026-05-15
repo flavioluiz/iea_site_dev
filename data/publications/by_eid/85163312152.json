@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85163312152",
+  "eid": "2-s2.0-85163312152",
+  "doi": "10.1016/j.ijheatmasstransfer.2023.124365",
+  "pii": "S0017931023005112",
+  "pubmed_id": null,
+  "title": "Simulation of multidimensional unsteady heat transfer with aluminothermic reaction and phase transition",
+  "abstract": "© 2023 Elsevier LtdThermite reactions are self-sustained exothermic reactions commonly employed in welding processes of railway tracks, material synthesis and pyrotechnics, to mention a few applications. More recently, this reaction has been assessed to plug depleted oil wells. Motivated by the foregoing, this work numerically investigates a Fe2O3/Al thermite reaction. A two-dimensional axisymmetric domain with a thermite layer compressed between a PMMA lid and a stainless-steel disk is considered. A first-order kinetic is assumed and the reaction is controlled by the hematite consumption. A computational solver is developed based on the open-source OpenFOAM® software. Numerical results showed good agreement with experimental data for temperature levels. Numerical results further indicated thermal losses next to the thermite-steel interface. These heat losses affected the melting of the species as a small portion of alumina remained entirely solid during the reaction.",
+  "authkeywords": [
+    "Conduction",
+    "Melting",
+    "Multi-region heat diffusion",
+    "Numerical methods",
+    "Phase-change",
+    "Solidification",
+    "Transient heat transfer"
+  ],
+  "year": "2023",
+  "date": "2023-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "213",
+    "issue": null,
+    "pages": null,
+    "article_number": "124365"
+  },
+  "authors": [
+    {
+      "name": "Pena, Fabrício J.C.",
+      "scopus_id": "57225041469",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 53,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85163312152&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110259",
+    "data_quality_score": 100
+  }
+}

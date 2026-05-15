@@ -1,0 +1,29 @@
+{
+  "num_tese": "79554",
+  "type": "tese",
+  "title": "Assessment of traditional balancing techniques in flexible rotating machines",
+  "author": "Yuri Andrade Dias Martins",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Thiago de Paula Sales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this master's thesis, experimental characterization and balancing techniques are applied to single-disks rotors supported by deep-groove ball bearings. One of the rotors comprises a shorter steel shaft, whereas the other comprehends a longer shaft of the same material. Distinct dynamic behavior is observed for both, since the latter shows some evidence of nonlinear behavior due to its inherent high flexibility. The experimental assessment of both shafts aims to establish reliable models that truly predict the dynamic behavior of each one. Moreover, the employment of balancing techniques is of utmost importance in rotordynamics field, since every machine, regardless of size and application, shares the vulnerability of suffering from unbalance signatures. In this regard, the finite element method (FEM) is chosen to model both rotating assemblies due to its capacity of handling well complex geometries, coupled systems, model updating and exhibiting low computational cost. The necessary background of Timoshenko's shaft element is presented, taking into account rotary inertia and shear effects. Disk, bearing and flexible coupling modeling are presented, highlighting some crucial features regarding these components. In the sequence, several rotordynamics topics are covered to properly establish some important definitions that are used afterward. Two classical and well established balancing techniques are then addressed, referred as modal balancing method (MBM) and influence coefficients method (ICM). The first, which is a model-based technique, primarily relies on modal information that comes from a reliable FEM model, in order to provide trial balances according to the mode shapes. The second one is mainly based on experimental measurements and how they change due to arbitrary known inputs of masses. Focus is given in how to experimentally implement them to perform field balance. Experimental results show that both methods were able to systematically balance the short shaft rotor, greatly reducing vibration amplitudes at balancing speeds. On the other hand, MBM performed better for the long shaft rotor, exhibiting an enhanced balanced configuration compared to ICM. None of the methods was able to allow run-up operation to be executed. Nevertheless, balancing effectiveness of the investigated techniques was demonstrated through orbit plots and displacement frequency spectra, attesting their validity.",
+  "subjects": [
+    "Dinâmica de rotores",
+    "Balanceamento",
+    "Máquinas rotativas",
+    "Método de elementos finitos",
+    "Elementos de máquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "19/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79554",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79554&origem=BDITA"
+}

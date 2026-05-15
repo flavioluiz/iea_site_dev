@@ -1,0 +1,31 @@
+{
+  "num_tg": "79981",
+  "type": "tg",
+  "title": "Métodos clássicos de determinaçăo preliminar de órbita e aplicaçőes",
+  "author": "Arthur Queiroz Ramos",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luiz Arthur Gagg Filho",
+      "professor_slug": "luiz-arthur-gagg-filho"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O surgimento do processo de determinaçăo de órbita remete ŕs observaçőes de planetas e de estrelas feitas por Johannes Kepler, por meio das quais eram construídas tabelas com as posiçőes destes astros, as quais se dăo o nome de efemérides. A partir do desenvolvimento das leis do movimento e da lei da gravitaçăo universal, propostas por Isaac Newton em sua obra \\textit{Philosophiae Naturalis Principia Mathematica}, uma descriçăo do movimento dos astros tornou-se possível, bem como a demonstraçăo analítica das leis de Kepler para o movimento dos planetas. Em sua acepçăo moderna, determinaçăo de órbita é um procedimento por meio do qual os elementos orbitais de um astro em movimento săo obtidos a partir de observaçőes diretas. No contexto da exploraçăo espacial, os procedimentos de determinaçăo de órbita utilizados estăo sobretudo voltados para missőes espaciais e săo, via de regra, mais robustos que os métodos apresentados neste trabalho. Ainda assim, a determinaçăo preliminar de órbita se mantém relevante para o tratamento inicial dos dados obtidos pelos sensores, visando obter um vetor de estado, cuja precisăo será entăo melhorada com o uso de novas observaçőes. Neste relatório, serăo abordados os métodos clássicos de determinaçăo preliminar de órbita, mais especificamente os métodos de Gauss, de Laplace, de Gibbs, de Herrick-Gibbs e das medidas da estaçăo (AER). Os métodos de determinaçăo preliminar de órbita se baseiam na formulaçăo do problema de dois corpos e, a princípio, năo consideram perturbaçőes orbitais em sua modelagem. Dessa forma, foram implementados códigos em \\textit{Matlab} correspondentes a cada um dos métodos abordados neste relatório e também códigos auxiliares, como para a determinaçăo dos elementos orbitais a partir do vetor de estado e para a modelagem elipsoidal da superfície da Terra. Por meio destes códigos, diversos casos teste foram analisados e seus resultados foram entăo comparados, para que deste modo a acurácia de cada um dos métodos de determinaçăo de órbita pudesse ser discutida. Ademais, a fim de verificar a eficácia dos códigos implementados no tratamento de observaçőes em missőes reais, observaçőes do satélite brasileiro Amazonia-1 tomadas a partir da Estaçăo Terrena Cuiabá foram tratadas com auxílio do código correspondente ao método de Gauss. Ao fim deste relatório, serăo apresentadas as conclusőes tomadas ao longo deste trabalho e serăo também listadas algumas das propostas de estudo futuro, sobretudo focadas no melhoramento da determinaçăo de órbita a partir de observaçőes adicionais.",
+  "subjects": [
+    "Determinaçăo de órbitas",
+    "Problema de dois corpos",
+    "Satélites",
+    "Astrodinâmica",
+    "Mecânica celeste",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79981",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79981&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "73540",
+  "type": "tese",
+  "title": "Solid rocket motor internal ballistics simulation considering complex 3D propellant grain geometries",
+  "author": "Guilherme Lourenço Mejia",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jose Atilio Fritz Fidel Rocco",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Solid rocket motors (SRM) are extensively employed in satellite launchers, missiles and gas generators. The design takes into account propulsive parameters with dimensional, manufacture, thermal and structural constraints. Experiments using real scale rocket models are expensive, therefore simulations are required to decrease the overall project time and cost. Solid propellant geometry and computation of its burning rate are essential for the calculation of pressure vs time and thrust vs time curves. The propellant grain geometry changes during SRM burning are also important for structural integrity and analysis. A computational tool for tracking the propagation of tridimensional interfaces and shapes is necessary for this task. In this sense, the objective of this work is to present the developed computational tool (named RSIM) to simulate the burning surface regression during the combustion process of a solid propellant. This tool handles complex grain geometry for versatility, including multiple separate surfaces. The SRM internal ballistics simulation is based on 3D propagation, using the level set method approach. Geometrical and thermodynamic data are used as input for the computation, while simulation results of geometry and chamber pressure versus time are presented in test cases: star, finocyl, multiperforated and Naval Air Warfare Center (NAWC) n. 6 propellant grains.",
+  "subjects": [
+    "Propelentes sólidos",
+    "Propulsăo aeroespacial",
+    "Simulaçăo computadorizada",
+    "Motores foguetes",
+    "Combustăo de propelente sólido",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "04/08/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73540",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73540&origem=BDITA"
+}

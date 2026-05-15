@@ -1,0 +1,29 @@
+{
+  "num_tese": "67014",
+  "type": "tese",
+  "title": "Análise paramétrica de fusăo de imagens via abordagem estatística",
+  "author": "Natalia Reolon dos Santos",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elder Moreira Hemerly",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Técnicas de fusăo de imagens tęm papel importante em diversas áreas do conhecimento graças ŕ possibilidade de concentrarem informaçőes complementares e redundantes, sem distorcę-las, em uma única visualizaçăo que seja mais apropriada para interpretaçăo humana ou automática. Há muitas maneiras de se efetuar a fusăo de imagens e muitas variáveis a serem consideradas no processo. Este trabalho introduz uma parametrizaçăo estatística para avaliaçăo dos fatores considerados em um processo de análise do desempenho de fusăo de imagens baseada em transformada wavelet discreta (DWT). Săo propostos procedimentos experimentais para a avaliaçăo dos resultados da fusăo de imagens em funçăo das variáveis envolvidas, através das combinaçőes de diferentes tipos de wavelets, número de níveis de decomposiçăo, imagens de teste e regras de fusăo. A análise é efetuada via implementaçăo computacional dos conceitos estatísticos de análise de variância (ANOVA). Os principais objetivos do trabalho săo, portanto, definir um método consistente de análise para os resultados de desempenho de fusăo de imagens e avaliar a influęncia das variáveis de projeto. É usado um procedimento automatizado de variaçăo dos parâmetros de fusăo baseada em DWT. Esta abordagem permite uma avaliaçăo rápida e adequada de parâmetros e regras de fusăo para a aplicaçăo desejada e permite mudanças incrementais para adaptaçăo a novos desenvolvimentos ou aplicaçőes.",
+  "subjects": [
+    "Processamento de imagens",
+    "Análise de ondas localizadas",
+    "Análise estatística",
+    "Imagens",
+    "Matemática aplicada",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "01/08/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67014",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67014&origem=BDITA"
+}

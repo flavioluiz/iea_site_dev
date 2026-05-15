@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-13444249795",
+  "eid": "2-s2.0-13444249795",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical and experimental evaluation of an active dynamic vibration absorber",
+  "abstract": "The present paper addresses the attenuation of mechanical vibrations using Active Dynamic Vibration Absorbers (DVAs). These devices possess an actuator placed between the primary system and the absorber mass, which applies a control force computed according to an appropriate control law. By adjusting some parameters (gains) of this control law, the DVA can be tuned to absorb vibrations at any given value of the excitation frequency in a relatively large frequency band. Thus, tuning can be achieved without any change in the values of the passive parameters. Here, a particular configuration of active DVA is investigated, based on a control law according to which the control force is expressed as a linear combination of the relative displacement, velocity and acceleration responses of the DVA mass with respect to the primary system. The basic formulation is first presented, including stability analysis, tuning of the DVA by frequency response zero placement and optimization of the control gains. Then, some of the theoretical findings are verified through numerical simulations and laboratory tests, considering a beam as the primary system and using an active DVA constructed with a piezoelectric actuator.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the 2002 International Conference on Noise and Vibration Engineering ISMA",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "131-140",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cunha, Sebastião S.",
+      "scopus_id": "57374508300",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=13444249795&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089631",
+    "data_quality_score": 60
+  }
+}

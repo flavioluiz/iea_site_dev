@@ -1,0 +1,35 @@
+{
+  "num_tese": "65423",
+  "type": "tese",
+  "title": "Síntese de subsistemas por funçőes de impedância aplicada ao projeto acústico de cavidades",
+  "author": "Gustavo Paulinelli Guimarăes",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rogério Pirk",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Há uma extensa variedade de aplicaçőes em engenharia em que é necessário desenvolver o projeto acústico de cavidades, as quais foram concebidas com objetivos os mais diversos. No setor aeroespacial destacam-se: cabine de passageiros em aeronaves, baia de equipamentos, coifa e câmara de combustăo de motor foguete em veículos espaciais. No projeto acústico de cavidades é comum deparar-se com a característica de materiais que dependam da frequęncia e com modos complexos provenientes de sistemas com alto amortecimento local. Nesse sentido, a pesquisa aqui proposta pretende utilizar os avanços alcançados com métodos de síntese de subestruturas e de modificaçăo estrutural, mais especificamente, os que se baseiam no domínio da frequęncia, para desenvolver um modelo de síntese de subsistemas acústicos utilizando funçőes de impedância. Objetiva-se predizer o comportamento acústico de uma nova cavidade, através da síntese de subsistemas (cavidade original e elementos modificantes) via funçőes de impedância escalonadas. Puderam ser comprovados: o acoplamento de cavidades (para alteraçăo de formas modais e frequęncias naturais); a aplicaçăo de material de absorçăo (visando atenuaçăo resistiva); e a inserçăo (simples e múltipla) de ressonadores (visando atenuaçăo reativa), sem a necessidade de refazer modelos completos. O método mostrou-se bastante versátil, ao utilizar modelos numéricos (elementos finitos) e analíticos concomitantemente com funçőes de impedância obtidas experimentalmente. Seu desempenho se destacou pela habilidade em lidar com modos complexos e características dependentes da frequęncia, bem como pela possibilidade realizar síntese simultânea ou distribuída. Como estudo de caso, ressonadores foram inseridos em uma câmara de combustăo de motor foguete, através da síntese proposta, e a validaçăo foi realizada em um ensaio a frio para comprovar sua atenuaçăo, de fundamental importância para o controle da instabilidade de combustăo.",
+  "subjects": [
+    "Aeroacústica",
+    "Cavidades",
+    "Ressoadores a cavidade",
+    "Ressonância acústica",
+    "Estabilidade de combustăo",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/10/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65423",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65423&origem=BDITA"
+}

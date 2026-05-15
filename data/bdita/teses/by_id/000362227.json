@@ -1,0 +1,35 @@
+{
+  "num_tese": "000362227",
+  "type": "tese",
+  "title": "Aplicaçăo do sistema GPS para determinaçăo preliminar de órbita de satélite",
+  "author": "Ana Paula Marins Chiaradia",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodolpho Vilhena de Moraes",
+      "professor_slug": null
+    },
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata da determinaçăo preliminar da órbita de um satélite com um receptor GPS a bordo. O método proposto, baseado no Filtro de Kalman Discreto, usa quatro medidas da pseudodistância e da sua variaçăo temporal. O programa computacional ASAP da JPL é utilizado para simular as órbitas dos 24 satélites GPS e do satélite usuário. Para modelo do sistema, foi considerada uma órbita kepleriana. As equaçőes de medida foram determinadas em funçăo dos elementos orbitais dos quatro satélites GPS e do satélite usuário. Duas versőes do Filtro de Kalman Discreto Linearizado foram implementadas: uma convencional, envolvendo inversăo de matrizes, e a outra de forma seqüencial. A soluçăo numérica foi analisada para os seis parâmetros orbitais do satélite usuário e para o erro de seu relógio. Os dados da órbita simulada săo comparados com os dados do filtro a fim de verificar a precisăo da soluçăo numérica.",
+  "subjects": [
+    "Sistema de posicionamento global",
+    "Satélites",
+    "Órbitas",
+    "Sistema de navegaçăo",
+    "Telecomunicaçőes",
+    "Engenharia eletrônica",
+    "Engenharia elétrica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/05/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000362227",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000362227&origem=BDITA"
+}

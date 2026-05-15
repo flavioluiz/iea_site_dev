@@ -1,0 +1,25 @@
+{
+  "num_tg": "76455",
+  "type": "tg",
+  "title": "Análise estrutural de cascas cilíndricas de material compósito manufaturadas via bobinagem filamentar",
+  "author": "Pedro Vinícius Justo Andrade",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Durante o projeto de envelopes de motores-foguete, um ponto crítico é a escolha do material que constituirá a estrutura, devido aos diversos esforços experimentados pela peça durante o voo. Nos últimos anos, vem-se usando material compósito para compor tais estruturas: além da diminuiçăo de massa em relaçăo aos tradicionais aços de alta resistęncia, mitiga-se as possíveis falhas por ruptura que ocorrem quando se escolhe o metal. Uma técnica comumente usada para a fabricaçăo da peça é o bobinamento filamentar, na qual cada camada de fibras embebidas na matriz de resina é disposta em uma orientaçăo específica ao longo da espessura da estrutura, possuindo, portanto, uma análise complexa. Este procedimento costuma ser usado pelo Instituto de Aeronáutica e Espaço (IAE) para construçăo de alguns de seus motores. Devido aos grandes interstícios entre as análises feitas, o conhecimento do instituto degradou-se com o tempo. Desta forma, este Trabalho de Graduaçăo visa iniciar a revitalizaçăo do conhecimento do IAE na análise estrutural de peças produzidas por meio da técnica de bobinamento filamentar. Para tanto, implementa-se um software de elementos finitos com a análise voltada ŕ computaçăo de parâmetros estáticos. Nota-se que o objetivo das rotinas desenvolvidas é oferecer uma estimativa inicial das distribuiçőes de deformaçăo, tensăo e deslocamento na peça quando submetida a cargas típicas e, assim, permitir alteraçăo no projeto caso necessário. Posteriormente, ensaios reais devem ser feitos de forma a garantir a confiabilidade da estrutura.",
+  "subjects": [
+    "Estruturas",
+    "Bobinagem filamentar",
+    "Cascas cilíndricas",
+    "Método de elementos finitos",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76455",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76455&origem=BDITA"
+}

@@ -1,0 +1,27 @@
+{
+  "num_tg": "000550376",
+  "type": "tg",
+  "title": "Otimizaçăo do perfil da asa de um aviăo de transporte pelo método de enxame de partículas.",
+  "author": "Filipe Paschoal Góes",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho consiste na otimizaçăo do perfil de uma asa de um aviăo de transporte por dois métodos de otimizaçăo diferentes, o método do enxame de partículas e o método do algoritmo genético. O método do enxame de partículas (PSO, particle swarm optimization) e o algoritimo genético (GA, genetic algorithm) serăo implementados e serăo estudados parâmetros como o tempo computacional, erro residual e convergęncia. A asa estudada será dividida em tręs partes: raiz, quebra e ponta. Foi criada uma fuselagem inspirada no layout de um aviăo de transporte para 100 passageiros. Através do programa BLWF, o código calculará a razăo sustentaçăo-arrasto (L/D) da configuraçăo com aqueles perfis. A otimizaçăo buscará o trio de perfis que possui a maior razăo L/D. O programa respeitará ainda a condiçăo de que o coeficiente de sustentaçăo máximo da asa seja maior que algum valor desejado. Esta rotina visa barrar a tendęncia de asas com alto L/D terem baixo desempenho em velocidades menores. Para o cálculo do coeficiente de sustentaçăo máximo foi utilizado o programa XFOIL em conjunto com o BLWF e além do método da seçăo crítica.",
+  "subjects": [
+    "Perfis de asa",
+    "Otimizaçăo de forma",
+    "Coeficientes aerodinâmicos",
+    "Cálculo estrutural",
+    "Modelos matemáticos",
+    "Aeronaves de transporte",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550376",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550376&origem=BDITA"
+}

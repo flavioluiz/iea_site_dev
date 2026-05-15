@@ -1,0 +1,30 @@
+{
+  "num_tg": "78812",
+  "type": "tg",
+  "title": "Formal proof of unmanned airborne collision avoidance system based on deep neural networks",
+  "author": "Lucas Gabriel Lima Lopes",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Arthur Clavičre",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The Airborne Collision Avoidance System X for unmanned aircraft (ACAS Xu) is a system originally developed over a large numerical lookup table that was compressed into 45 Deep Neural Networks (DNNs) in order to reduce storage requirements and improve performance. As a safety-critical application, it is fundamental to obtain a formal proof of safety for the system composed of this controlled embarked in a drone. We leverage previous work on verification by reachability using abstract interpretation associated with validated simulation, for the controller and physical system dynamics respectively, studying the use of counterexample search by gradient descent to complement an incomplete verifier and the use of two gradient-based metrics to reasonably divide the initial domain to be propagated in the reachability analysis.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Anticolisăo",
+    "Redes neurais",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78812",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78812&origem=BDITA"
+}

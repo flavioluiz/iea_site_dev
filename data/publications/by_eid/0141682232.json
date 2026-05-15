@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-0141682232",
+  "eid": "2-s2.0-0141682232",
+  "doi": "10.1016/S0017-9310(03)00368-5",
+  "pii": "S0017931003003685",
+  "pubmed_id": null,
+  "title": "Turbulent flow in a channel occupied by a porous layer considering the stress jump at the interface",
+  "abstract": "For hybrid media, involving both a porous structure and a clear flow region, difficulties arise due to the proper mathematical treatment given at the interface. The literature proposes a jump condition in which shear stresses on both sides of the interface are not of the same value. This paper presents numerical solutions for such hybrid medium, considering here a channel partially filled with a porous layer through which fluid flows in turbulent regime. One unique set of transport equations is applied to both regions. Effects of Reynolds number, porosity, permeability and jump coefficient on mean and turbulence fields are investigated. Results indicate that depending on the value of the stress jump parameters, a substantially different structure for the turbulent field is obtained. © 2003 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Interface",
+    "Porous media",
+    "Stress jump",
+    "Time-average",
+    "Turbulence modeling",
+    "Volume-average"
+  ],
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "46",
+    "issue": "26",
+    "pages": "5113-5121",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Renato A.",
+      "scopus_id": "35578549800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 106,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0141682232&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111676",
+    "data_quality_score": 100
+  }
+}

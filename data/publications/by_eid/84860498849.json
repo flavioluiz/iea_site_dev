@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-84860498849",
+  "eid": "2-s2.0-84860498849",
+  "doi": "10.1115/IHTC14-22130",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Laminar heat transfer on a wall covered with a layer of porous material simulated with a two-energy equation model",
+  "abstract": "This paper presents simulations for a jet impinging against a flat plane covered with a layer of a porous material. Macroscopic equations for mass, momentum and energy, for the fluid and for the porous matrix, are obtained based on the volume-average concept. The numerical technique employed for discretizing the governing equations was the control volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was used to handle the pressure-velocity coupling. The effect of porosity and energy model on the local distribution of Nu was analyzed. Results indicate that for low porosity materials, a substantially different Nu number is calculated depending on the energy model applied. © 2010 by ASME.",
+  "authkeywords": null,
+  "year": "2010",
+  "date": "2010-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2010 14th International Heat Transfer Conference Ihtc 14",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": "837-846",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Dórea, Felipe T.",
+      "scopus_id": "36909782200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 69,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84860498849&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110992",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "num_tese": "71833",
+  "type": "tese",
+  "title": "A C1 beam elemento based on overhauser interpolation",
+  "author": "André Schwanz de Lima",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A new C1 element is proposed to model Euler-Bernoulli beams for one and two-dimensional problems. The formulated element has only degrees of freedom related to translation (axial and transverse displacements). This represents an economy compared to the traditional element that uses degrees of freedom related to the rotation induced by bending in order to assure continuity of transverse displacement derivative. The element proposed naturally satisfies the first derivative continuity requirement through the use of an Overhauser interpolation scheme. An overview of Overhauser interpolation is presented. The kinematics of a generic beam based on the Euler-Bernoulli theory is specified. The principle of virtual displacements is used to determine the equilibrium equations and boundary conditions for one and two-dimensional problems. The Overhauser bending interpolation functions are defined using only the degrees of freedom related to the transverse displacements. For the axial displacements the same interpolation functions of traditional elements are used. Finally, beam and plane frame problems are solved with the new formulation and the results are compared to the exact and traditional Euler-Bernoulli element solutions.bb",
+  "subjects": [
+    "Vigas (suportes)",
+    "Estruturas bidimensionais",
+    "Método de elementos finitos",
+    "Teorema de Bernoulli",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "04/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71833",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71833&origem=BDITA"
+}

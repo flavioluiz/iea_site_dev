@@ -1,0 +1,28 @@
+{
+  "num_tese": "68558",
+  "type": "tese",
+  "title": "Desenvolvimento de um aerofólio com bordo de fuga de geometria variável",
+  "author": "Renato Rebouças de Medeiros",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de estruturas \"morphing\" tem se tornado uma possibilidade real nas últimas décadas. O desenvolvimento de novos materiais e a otimizaçăo estrutural deram novo impulso ŕ área, mas soluçőes com mecanismos convencionais ainda podem ser exploradas. Esse trabalho apresenta um conceito de bordo de fuga de arqueamento variável baseado nas vigas excęntricas, que săo projetadas para conferir diferentes formas ao perfil quando giradas. O projeto partiu de uma otimizaçăo de perfis visando ŕ reduçăo dos coeficientes de arrasto em dois níveis de sustentaçăo distintos. Para o coeficiente de sustentaçăo mais alto, o perfil foi otimizado ao longo de toda a corda, mas no menor nível de sustentaçăo a otimizaçăo foi realizada com a mudança no arqueamento de uma parcela do bordo de fuga, utilizando uma parametrizaçăo especialmente definida para isso. A viga excęntrica e o revestimento foram projetados em material compósito. Foi proposto um mecanismo de conexăo entre a viga excęntrica e o revestimento para transmitir o movimento vertical da viga. O mecanismo foi simulado através de um modelo de elementos finitos. Com a aplicaçăo do campo de pressőes aerodinâmicas, foi realizada uma análise estática. O movimento do mecanismo foi satisfatório e as polares de arrasto obtidas aproximaram-se do comportamento esperado com os perfis otimizados. Na aplicaçăo almejada para uma aeronave năo-tripulada, o torque de atuaçăo exigido foi baixo, e as tensőes na estrutura de material composto também foram muito baixas. Ficou evidente que pequenos deslocamentos do bordo de fuga săo suficientes para mudar significativamente a regiăo de baixo arrasto do perfil aerodinâmico.",
+  "subjects": [
+    "Perfis de aerofólio",
+    "Coeficientes aerodinâmicos",
+    "Dispositivos de sustentaçăo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/06/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68558",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68558&origem=BDITA"
+}

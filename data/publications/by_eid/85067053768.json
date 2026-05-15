@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-85067053768",
+  "eid": "2-s2.0-85067053768",
+  "doi": "10.2514/1.J057938",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Acoustically informed statistics for wave-packet models",
+  "abstract": "© 2019 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.The dominant acoustic radiation from turbulent jets has been associated with coherent wave-packet structures in the plume. Jet noise models are therefore often designed using the statistics of decomposed coherent fluctuations, which display wave-packet attributes. In the absence of a universal definition for wave-packet fluctuation components, several approaches have evolved to educe wave packets. These include pressure and velocity variables that are typically processed through azimuthal and/or proper orthogonal decompositions to yield different models. Large-eddy simulation database of a Mach 0.9 jet is used to suggest a unifying candidate field to obtain wave-packet statistics. The statistical properties of this acoustic mode, which comprises the irrotational-isentropic constituent of momentum fluctuations, are tested to show that it properly reproduces wave-packet statistics known to be crucial for acoustic modeling. Compared to raw pressure fluctuations, the acoustic wave packet essentially filters out the high-energy hydrodynamic fluctuations, optimally reconstructs the near- and far-field acoustic radiation, and recovers wave-packet properties with superior spatiotemporal coherence and radiative efficiency. The inherent difference between the acoustic wave packet and the pressure field is related to the distribution of phase speeds of the respective signals. These features of the acoustic mode are then used to generate a two-point wave-packet model for downstream radiation from this jet.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": null,
+    "volume": "57",
+    "issue": "6",
+    "pages": "2421-2434",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Unnikrishnan, S.",
+      "scopus_id": "57111907300",
+      "affiliation": "60149838",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Gaitonde, Datta V.",
+      "scopus_id": "7007130885",
+      "affiliation": "60149838",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 38,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 53,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85067053768&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101230",
+    "data_quality_score": 90
+  }
+}

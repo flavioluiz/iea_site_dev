@@ -1,0 +1,30 @@
+{
+  "num_tese": "79603",
+  "type": "tese",
+  "title": "Análise de segunda lei de um sistema de resfriamento regenerativo para um motor scramjet",
+  "author": "Marco Antônio Esteves dos Santos",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Guilherme Borges Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O crescente interesse em sistemas de propulsăo hipersônica tem impulsionado significativamente o desenvolvimento no setor aeroespacial. Este estudo aborda o desafio de mitigar o superaquecimento em motores scramjet por meio do resfriamento regenerativo. O foco principal está na aplicaçăo de perfis de canais para reduzir as altas temperaturas entre o bordo de ataque e as rampas do motor scramjet, utilizando hidrogęnio como fluido refrigerante. Os motores scramjet, operando em velocidades hipersônicas e alimentados por oxigęnio atmosférico, enfrentam condiçőes extremas devido a processos termodinâmicos e aerodinâmicos. Essas condiçőes resultam em temperaturas elevadas nas partes internas do motor, causando desgaste e deterioraçăo que afetam o desempenho e a vida útil. A proposta de resfriamento regenerativo busca dissipar o calor excessivo por meio da implementaçăo de microcanais acoplados na parede interna do motor. Esses microcanais terăo um formato retangular, com dimensőes de 2x2mm, 2x3mm, 2x4mm e 2x5mm. A análise será realizada, variando o perfil geométrico do canal, considerando diferentes altitudes e números de Mach. O estudo conduz análises termo-hidráulicas, utilizando simulaçőes através do CFD e aplicando um modelamento numérico. A integraçăo entre CFD e modelo numérico possibilitará a determinaçăo da vazăo mínima, baseada no cálculo da geraçăo de entropia. Esse processo estabelece a taxa mínima de fluxo necessário para assegurar um nível específico de eficięncia ou condiçăo no sistema. A implementaçăo da geometria específica do canal é considerada uma estratégia crucial para reduzir as temperaturas extremas e, consequentemente, melhorar o desempenho e prolongar a vida útil do motor scramjet. A escolha de utilizar uma vazăo menor foi feita para ilustrar uma situaçăo na qual o uso do hidrogęnio para o resfriamento da estrutura do motor é praticamente insignificante. A análise foi conduzida para uma altitude de 30 km e Mach 7, com uma vazăo de 0,0002 kg/s, visando apresentar o comportamento da temperatura ao longo das iteraçőes. Os resultados apresentados destacaram que, para cada combinaçăo de altitude e número de Mach, a vazăo mínima necessária no sistema variou em cada caso estudado. O menor valor de vazăo obtido foi de 0,030 kg/s para uma altitude de 20 km e Mach 5, com uma taxa de geraçăo de entropia de 1,40322 W/K. Por outro lado, o maior valor de vazăo entre os casos foi de 0,060 kg/s para um perfil 2x4, com uma altitude de 25 km e Mach 6, apresentando uma taxa de geraçăo de entropia de 1,09766 W/K. Essa abordagem permitiu uma análise eficiente e precisa das condiçőes de operaçăo do motor scramjet em diferentes cenários geométricos. Estabeleceu-se, assim, uma relaçăo precisa entre o escoamento, a entropia e o perfil do canal, levando em consideraçăo as limitaçőes computacionais, garantindo a integridade e a validade dos resultados obtidos.",
+  "subjects": [
+    "Resfriamento",
+    "Sistemas de propulsăo",
+    "Motores de combustăo interna",
+    "Dinâmica dos fluidos computacional",
+    "Número de Mach",
+    "Hidrogęnio",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79603",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79603&origem=BDITA"
+}

@@ -2,7 +2,6 @@
 title: "Rodrigo Costa Moura"
 layout: professor
 professor_id: "rodrigo-costa-moura"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

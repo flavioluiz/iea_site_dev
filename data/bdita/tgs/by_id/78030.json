@@ -1,0 +1,32 @@
+{
+  "num_tg": "78030",
+  "type": "tg",
+  "title": "Sistema de controle de atitude para um veículo de sondagem",
+  "author": "Wallace Ferreira Teﮩfilo",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Alberto de Paiva Carvalho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um sistema de controle de atitude que possui como principal objetivo a reduﺕcao da magnitude da dispersﻙo do apogeu de um foguete de sondagem sujeito a perturbaﻝﺀes ambientais. Para isso, foram desenvolvidos estudos relacionados a engenharia de sistemas e engenharia de controle. A utilizaﺕcao da engenharia de sistemas teve como meta o desenvolvimento de um conceito de operaﻝﺀes e uma arquitetura para o novo sistema em desenvolvimento, que fossem eficientes e simples. Para isso, ferramentas da engenharia de sistemas tradicional e da baseada em modelos foram utilizadas. Estudos quanto a stakeholders, levantamento de requisitos, construﻝﻙo de arquiteturas funcional e lﮩgica foram as atividades realizadas de forma a atingir aqueles objetivos. Por fim, na realizaﻝﻙo destas tarefas, foram utilizados os softwares Microsoft Power Point, Microsoft Excel e Capella. Uma vez analisada a viabilidade sistﻡmica do sistema de controle, estudos na 'area de controle foram realizados. Foram analisados trﻡs controladores distintos - PID, RQL e realimentaﻝﻙo ao de estados - quanto a desempenho, robustez a perturbaﺕcoes ambientais, estabilidade e diminuiﻝﻙo da dispersﻝﻙo do apogeu. Para estas an'alises, as seguintes atividades foram realizadas: modelagem tridimensional de um foguete de sondagem, obtenﺕcao de parametros m'assicos e aerodinamicos do ve'?culo, confecﺕcao de um simulador em 6 graus de liberdade com capacidade de simular diversos tipos de ventos e de realizar simulaﺕcoes de Monte Carlo, obtenﺕcao de resultados de simulaﺕcoes de Monte Carlo e simulaﺕcoes Hardware-in-the-loop. Para estas atividades, utilizou-se os softwares: Catia, Missile DATCOM e MATLAB/Simulink. Por fim, os objetivos do trabalho foram atingidos. Em relaﺕcao a engenharia de sistemas, tanto o conceito de operaﺕcoes quanto a arquitetura sugerida sao satisfat'orios. Quanto ao controlador, sugere-se a utilizaﺕcao de um controlador por realimentaﺕcao de estados para o controle de arfagem e de um RQL para controle de guinada de forma que seja poss'?vel obter uma reduﺕcao de dispersao de apogeu m'axima de, aproximadamente, 60%",
+  "subjects": [
+    "Controle de atitude de satﻠlites",
+    "Foguetes-sonda",
+    "Estabilidade de atitude",
+    "Mﻠtodo de Monte Carlo",
+    "Controladores",
+    "Integraﻝﻙo de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78030",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78030&origem=BDITA"
+}

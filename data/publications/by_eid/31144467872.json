@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-31144467872",
+  "eid": "2-s2.0-31144467872",
+  "doi": "10.1002/nme.1438",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The maximization of fundamental frequency of structures under arbitrary initial stress states",
+  "abstract": "A general technique is proposed to maximize the lowest natural frequency of structures subjected to an arbitrary state of initial stresses. The arbitrary states of initial stresses are represented by nondimensional loading parameters that describe an admissible loading space, i.e. every possible initial stress state lies within the admissible loading space. The key to the proposed optimization strategy is shown to be the concavity of the first natural frequency with respect to variations of the loading parameters within the admissible loading space. A rigorous demonstration is presented to show that, provided buckling has not occurred, all the possible initial stress states must not be considered. Instead, assessment of only a small number of initial stress states must be done in order to guarantee that the first natural frequency does not decrease for all the other initial stress states within the admissible loading space. A minimax optimization technique is used to maximize the lowest natural frequency of a simply supported rectangular plate where the thickness distribution is the design variable and normal and shear initial stress states are considered. Copyright © 2005 John Wiley & Sons, Ltd.",
+  "authkeywords": [
+    "Convex modelling",
+    "Free vibration",
+    "Initial stresses",
+    "Optimization"
+  ],
+  "year": "2006",
+  "date": "2006-01-22",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Engineering",
+    "issn": "00295981",
+    "eissn": "10970207",
+    "volume": "65",
+    "issue": "4",
+    "pages": "445-460",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "de Almeida, Sérgio Frascino M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=31144467872&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044611",
+    "data_quality_score": 100
+  }
+}

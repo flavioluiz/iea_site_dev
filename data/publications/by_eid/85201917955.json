@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85201917955",
+  "eid": "2-s2.0-85201917955",
+  "doi": "10.1017/jfm.2024.532",
+  "pii": "S0022112024005329",
+  "pubmed_id": null,
+  "title": "On the low-frequency dynamics of turbulent separation bubbles",
+  "abstract": "© The Author(s), 2024. Published by Cambridge University Press.The low-frequency modal and non-modal linear dynamics of an incompressible, pressure-gradient-induced turbulent separation bubble (TSB) are investigated, with the objective of studying the mechanism responsible for the low-frequency contraction and expansion (breathing) commonly observed in experimental studies. The configuration of interest is a TSB generated on a flat test surface by a succession of adverse and favourable pressure gradients. The base flow selected for the analysis is the average TSB from the direct numerical simulation of Coleman et al. (J. Fluid Mech., vol. 847, 2018, pp. 28-70). Global mode analysis reveals that the eigenmodes of the linear operator are damped for all frequencies and wavenumbers. Furthermore, the least damped eigenmode appears to occur at zero frequency and low, non-zero spanwise wavenumber when scaled with the separation length. Resolvent analysis is then employed to examine the forced dynamics of the flow. At low frequency, a region of low, non-zero spanwise wavenumber is also discernible, where the receptivity appears to be driven by the identified weakly damped global mode. The corresponding optimal energy gain is shown to have the shape of a first-order, low-pass filter with a cut-off frequency consistent with the low-frequency unsteadiness in TSBs. The results from resolvent analysis are compared to the unsteady experimental database of Le Floc'h et al. (J. Fluid Mech., vol. 902, 2020, A13) in a similar TSB flow. The alignment between the optimal response and the first spectral proper orthogonal decomposition mode computed from the experiments is shown to be close to, while the spanwise wavenumber of the optimal response is consistent with that of the low-frequency breathing motion captured experimentally. This indicates that the fluctuations observed experimentally at low frequency closely match the response computed from resolvent analysis. Based on these results, we propose that the forced dynamics of the flow, driven by the weakly damped global mode, serve as a plausible mechanism for the origin of the low-frequency breathing motion commonly observed in experimental studies of TSBs.",
+  "authkeywords": [
+    "boundary layer separation",
+    "separated flows"
+  ],
+  "year": "2024",
+  "date": "2024-08-22",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "991",
+    "issue": null,
+    "pages": null,
+    "article_number": "A11"
+  },
+  "authors": [
+    {
+      "name": "Cura, C.",
+      "scopus_id": "57217077210",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, A.",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Weiss, J.",
+      "scopus_id": "7402740762",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 90,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85201917955&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100226",
+    "data_quality_score": 100
+  }
+}

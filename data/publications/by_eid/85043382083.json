@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85043382083",
+  "eid": "2-s2.0-85043382083",
+  "doi": "10.1016/j.ast.2018.02.037",
+  "pii": "S1270963817311458",
+  "pubmed_id": null,
+  "title": "Equations of motion for optimal maneuvering with global aerodynamic model",
+  "abstract": "© 2018 Elsevier Masson SASAircraft point-mass equations of motion have been largely adopted to calculate optimal trajectories with local aerodynamic models, i.e. valid in a restricted domain. However, some optimal maneuvers may need aerodynamic models valid for a broader range of flight conditions. For this purpose, global aerodynamic models are attractive but their nonlinear structure can preclude obtaining optimal trajectories by an indirect method together with the point-mass equations of motion. To solve this impasse without resorting to direct methods the authors propose a new set of aircraft equations of motion. When compared to the point-mass equations, the proposed set permits the inclusion of the angular velocity in the evaluation of aerodynamic forces, making them more accurate. Another advantage of the proposed model over the point-mass one is that it allows a qualitative estimate of the control surface deflections after the trajectory is obtained, which enables to discard solutions with infeasible deflections. To verify consistency, the proposed equations of motion are compared by simulation to the point-mass and to the rigid-body equations. The use of the proposed set of equations is demonstrated by three optimizations of a 360∘ roll problem.",
+  "authkeywords": [
+    "Equations of motion",
+    "Global aerodynamic model",
+    "Optimal guidance"
+  ],
+  "year": "2018",
+  "date": "2018-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace Science and Technology",
+    "issn": "12709638",
+    "eissn": null,
+    "volume": "77",
+    "issue": null,
+    "pages": "206-216",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Morales, Mauricio A.V.",
+      "scopus_id": "57191905807",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85043382083&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055269",
+    "data_quality_score": 100
+  }
+}

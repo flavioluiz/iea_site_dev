@@ -1,0 +1,29 @@
+{
+  "num_tg": "66323",
+  "type": "tg",
+  "title": "Modelo dinâmico de um balăo cativo",
+  "author": "Marlos Lima de Oliveira Cunha",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    },
+    {
+      "name": "Bruno Avena de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe-se a apresentar um modelo dinâmico para veículos mais leves que o ar presos ao solo através do uso de um único cabo, os chamados aeróstatos cativos. O aeróstato é modelado contendo 6 (seis) graus de liberdade, sendo tręs referentes ao seu movimento rotacional e os outros tręs ao seu movimento translacional. O cabo, por sua vez, é modelado a partir de uma abordagem de elementos finitos possuindo apenas tręs graus de liberdade (movimento translacional). O acoplamento do sistema é obtido a partir de relaçőes de corpo rígido entre o veículo e o ponto de fixaçăo do cabo no veículo, o chamado ponto de confluęncia. Embora a implementaçăo final do modelo ainda apresente alguns problemas e inconsistęncias, os resultados obtidos permitem analisar qualitativamente, por exemplo, a influęncia da posiçăo do ponto de confluęncia e influęncia do comprimento do cabo sobre o equilíbrio final do sistema. Sugestőes de temas e trabalhos que podem contribuir significativamente para a melhora do modelo implementado săo propostas ao final deste trabalho.",
+  "subjects": [
+    "Movimento translacional",
+    "Sistemas dinâmicos",
+    "Balőes",
+    "Dirigíveis",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=66323",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=66323&origem=BDITA"
+}

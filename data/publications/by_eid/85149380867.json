@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85149380867",
+  "eid": "2-s2.0-85149380867",
+  "doi": "10.1007/s11665-023-07799-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An Improved Anisotropic Non-associated Plastic Potential Based on Barlat’s Yld 2000-2D Yield Stress Criterion",
+  "abstract": "© 2023, ASM International.The present work demonstrates that a non-associated Barlat’s Yld 2000-2D plastic flow stress potential gives better correlation accuracy with the Lankford and equal biaxial coefficients of plastic anisotropy than the associated flow rule. Additionally, new generalized exact equations are presented to calculate the Lankford and equal biaxial anisotropy coefficients deduced from the Yld 2000-2D function. The investigated metals were mildly and highly anisotropic Al 2024, Al 6022, Al 2090 aluminum alloys and AISI 409 steel sheets. The non-associated Barlat’s Yld 2000-2D flow stress potential is validated by plotting on the same graph predicted r-value, normalized yield stress curves and experimental data. Newton–Raphson numerical method with a relaxation factor was employed to calculate accurately the anisotropy coefficients. Present findings for slightly and highly anisotropic aluminum alloys and AISI 409 steel revealed that Barlat’s Yld 2000-2D function can be employed for accurate characterization of metal plastic anisotropy behavior by using two independent functions: the non-associated flow stress potential and the yield stress criterion. Consequently, this procedure requires a total of 12 experimental parameters of anisotropy in calibration for accurate r-value and s-value independent curves fitting. Therefore, the proposed non-associated Barlat’s Yld 2000-12p plastic potential and yield criterion give better correlation with experimental r-value and s-value data than the associated Barlat’s Yld 2004-18p flow rule. In addition, the predicted forming limit strain curves of AISI 409 steel are in good agreement with the experimental FLC, using the non-associated Barlat’s Yld 2000-2d plastic potential, better than the associated flow potential rule.",
+  "authkeywords": [
+    "AISI 409 steel",
+    "aluminum alloys",
+    "Newton–Raphson method",
+    "non-associated Barlat’s Yld 2000-2D",
+    "plastic anisotropy",
+    "sheet-forming"
+  ],
+  "year": "2023",
+  "date": "2023-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Materials Engineering and Performance",
+    "issn": "10599495",
+    "eissn": "15441024",
+    "volume": "32",
+    "issue": "20",
+    "pages": "9221-9243",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bressan, José Divo",
+      "scopus_id": "6603902892",
+      "affiliation": "60024094",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Mauricio Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 60,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149380867&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121401",
+    "data_quality_score": 100
+  }
+}

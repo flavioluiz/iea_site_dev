@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85124193897",
+  "eid": "2-s2.0-85124193897",
+  "doi": "10.1016/j.isatra.2022.01.028",
+  "pii": "S001905782200043X",
+  "pubmed_id": "35144771",
+  "title": "Smooth second-order sliding mode control for fully actuated multirotor aerial vehicles",
+  "abstract": "© 2022 ISAThe present paper is concerned with the robust and smooth attitude-position tracking control of fully actuated multirotor aerial vehicles equipped with fixed rotors and subject to matched model uncertainties and disturbances. The vehicle coupled dynamic equations representing the translational and rotational motions are thoroughly derived using the multibody approach, considering the external torque and force disturbances as well as the uncertainties in the inertia parameters of the airframe and the rotors. From this model, it is shown that the overall disturbances and uncertainties can be lumped into an additive-matched plant-model discrepancy. Then, based on a geometrically consistent description of the control error in SE(3), a novel joint geometric attitude-position control law is designed using a multi-input smooth second-order sliding mode strategy. The latter uses a high-order sliding mode disturbance observer to guarantee the overall system robustness. The second-order sliding mode is proved to exist using vector-field homogeneity, and the tracking error is shown to exponentially converge to the origin. The method is extensively evaluated via numerical simulations using a fully actuated hexacopter with tilted rotors, showing advantages with respect to state-of-the-art alternatives.",
+  "authkeywords": [
+    "Flight control",
+    "Fully actuated UAV",
+    "Multirotor aerial vehicle",
+    "Smooth second-order sliding mode control"
+  ],
+  "year": "2022",
+  "date": "2022-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "ISA Transactions",
+    "issn": "00190578",
+    "eissn": null,
+    "volume": "129",
+    "issue": null,
+    "pages": "169-178",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ricardo, Jorge A.",
+      "scopus_id": "56594722200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 26,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124193897&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094873",
+    "data_quality_score": 100
+  }
+}

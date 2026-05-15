@@ -1,0 +1,34 @@
+{
+  "num_tese": "73424",
+  "type": "tese",
+  "title": "Sistematizaçăo do teste de componentes de simuladores de satélites",
+  "author": "Paulo Diego Barbosa da Silva",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ana Maria Ambrósio",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O uso de simuladores operacionais é fundamental importância para o programa espacial brasileiro. Durante a operaçăo de um satélite, esses simuladores săo essenciais para validaçăo de manobras críticas, testes de novas versőes do software de bordo e apoio ao diagnóstico de anomalias. Visando o reuso dos simuladores operacionais, o Instituto Nacional de Pesquisas Espaciais (INPE) tem adotado um novo padrăo para descriçăo do comportamento dos subsistemas implementados em simuladores de satélites desenvolvidos pelo INPE, baseado em tabelas de causa e efeito. Neste contexto, este trabalho de pesquisa propőe um método de verificaçăo de simulador de satélites que consiste na geraçăo de um conjunto de casos de teste a partir da especificaçăo em tabelas de causa e efeito. O método combina técnicas de model checking e model based testing, considerando em particular a metodologia Conformance and Fault Injection para geraçăo dos casos de teste. Para avaliar o método proposto, este projeto considera a realizaçăo de experimento envolvendo conjunto de especialistas que aplicaram o método proposto para alguns casos de aplicaçăo. Com base nos modelos gerados pelos especialistas, nos casos de teste obtidos a partir dos modelos e nos resultados da aplicaçăo dos casos de teste, espera-se analisar a facilidade de uso do método proposto, assim como sua capacidade de guiar o especialista na elaboraçăo de modelos consistentes com a especificaçăo. Como principal contribuiçăo desta pesquisa espera-se sistematizar o processo de verificaçăo de simuladores operacionais de satélites adotado pelo INPE e assim, dar uma contribuiçăo para o sucesso das missőes espaciais brasileiras.",
+  "subjects": [
+    "Controle de satélites",
+    "Verificaçăo formal",
+    "Simulaçăo computadorizada",
+    "Satélites artificiais",
+    "Veículos aeroespaciais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "26/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73424",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73424&origem=BDITA"
+}

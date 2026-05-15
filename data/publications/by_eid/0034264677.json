@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-0034264677",
+  "eid": "2-s2.0-0034264677",
+  "doi": "10.1006/mssp.2000.1319",
+  "pii": "S0888327000913190",
+  "pubmed_id": null,
+  "title": "Optimization of dynamic vibration absorbers over a frequency band",
+  "abstract": "This paper is focused on the reduction of vibration levels of mechanical systems using dynamic vibration absorbers (DVAs). A general methodology is proposed for the optimum selection of DVA parameters so as to guarantee the efficiency of those devices over a previously selected frequency band. The presented methodology utilizes a substructure coupling technique exploring frequency response functions (FRFs), which enables one to calculate the FRFs of the composite structure (primary system+DVAs), from the FRFs of the primary structure and the theoretical expressions of the FRFs of the DVAs. The FRFs of the composite structure, which are expressed as functions of the DVA parameters, are then used to define scalar performance indexes related to the vibration levels of the composite structure over the selected frequency band. These performance indexes are optimized with respect to the DVA parameters by solving a general non-linear constrained optimization problem. The first part of the paper is devoted to the formulation of the substructure coupling method and the optimization procedures. Numerical applications using experimentally acquired FRFs are then presented to illustrate the main features of the proposed methodology.",
+  "authkeywords": null,
+  "year": "2000",
+  "date": "2000-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": null,
+    "volume": "14",
+    "issue": "5",
+    "pages": "679-690",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Steffen, Valder",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 56,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0034264677&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089673",
+    "data_quality_score": 90
+  }
+}

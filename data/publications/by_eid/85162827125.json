@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85162827125",
+  "eid": "2-s2.0-85162827125",
+  "doi": "10.1103/PhysRevFluids.8.073902",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental control of Tollmien-Schlichting waves using the Wiener-Hopf formalism",
+  "abstract": "© 2023 American Physical Society.Reactive flow control has been shown to be a promising tool to improve, among other aspects, the aerodynamic characteristics of an aircraft. This paper focuses on the use of reactive flow control to attenuate Tollmien-Schlichting (TS) waves over a wing profile. TS waves are an instability mechanism that is one of the first stages of boundary layer transition to turbulence. The Wiener-Hopf technique was used in this work for the experimental boundary layer control. The approach improves previous wave-cancellation techniques that, by constructing control kernels in the frequency domain, lead to control kernels with a noncausal part, i.e., actuation would need future sensor information to be constructed. In practical applications, it is unfeasible to access this type of information. Ignoring the noncausal part of the kernel leads to suboptimal solutions that might significantly degrade the performance of the controller. The Wiener-Hopf formalism allows us to take into account causality constraints in the formulation of the control problem, leading to an optimal realistic solution and a control kernel that is causal by construction. Moreover, it is possible to construct the control strategy based only on the power and cross-spectra obtained experimentally in a data-driven approach. The present work shows how to apply experimentally the Wiener-Hopf resolvent-based formalism using signals from a wind tunnel experiment, demonstrating that the TS waves can be effectively attenuated via a Wiener-Hopf-based controller, which yielded better results than a typical wave-cancellation approach.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "8",
+    "issue": "7",
+    "pages": null,
+    "article_number": "073902"
+  },
+  "authors": [
+    {
+      "name": "Audiffred, Diego B.S.",
+      "scopus_id": "57215539626",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Brito, Pedro P.C.",
+      "scopus_id": "57221814854",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85162827125&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100433",
+    "data_quality_score": 90
+  }
+}

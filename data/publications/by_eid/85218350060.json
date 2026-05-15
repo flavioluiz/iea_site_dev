@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85218350060",
+  "eid": "2-s2.0-85218350060",
+  "doi": "10.1063/5.0252270",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Wavy leading-edge phenomena on circular cylinder flow",
+  "abstract": "© 2025 Author(s).The present work explores a bio-inspired modification of a cylinder, incorporating a wavy pattern inspired by humpback whale flipper tubercles. Drawing on prior research on airfoils and wings, the investigation provides valuable insights into the implications of this novel geometry on cylinder flow, contributing to the existing knowledge in the field. A selection of four patterns of waviness (varying in amplitudes and wavelengths) is compared to a smooth (i.e., straight cylinder) model by measuring pressure distribution and aerodynamic forces. The study is conducted in a wind tunnel, considering Reynolds numbers from about 3.9 × 10 4 to 1.9 × 10 5 . Notable findings include a drag coefficient reduction of up to 25% for a model with 12% wavelength and 3% waviness amplitude. Flow visualization reveals the presence of two distinct phenomena: the formation of three-dimensional laminar separation bubbles, and the indications of counter-rotating vortex pairs over the cylinder surface. These flow structures contribute to explain the observed drag variation through changes in the separation line, base pressure, and other associated mechanisms. This study enhances our understanding of the performance of such bio-inspired designs.",
+  "authkeywords": null,
+  "year": "2025",
+  "date": "2025-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physics of Fluids",
+    "issn": "10706631",
+    "eissn": "10897666",
+    "volume": "37",
+    "issue": "2",
+    "pages": null,
+    "article_number": "024124"
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Paulo H.",
+      "scopus_id": "57203410025",
+      "affiliation": "112264962",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "de Araújo, Tiago B.",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura",
+    "tiago-barbosa-de-araujo"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218350060&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069369",
+    "data_quality_score": 90
+  }
+}

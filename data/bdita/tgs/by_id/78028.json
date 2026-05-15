@@ -1,0 +1,31 @@
+{
+  "num_tg": "78028",
+  "type": "tg",
+  "title": "Solid rocket motor internal ballistics simulation considering a 3D propellant grain geometry",
+  "author": "Arthur Amaral Cavalcanti",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jose Atilio Fritz Fidel Rocco",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Solid rocket motors (SRM) have great efficiency, measured for example by specific impulse, when compared to aircraft engines, which makes them suitable for space or missile flights. They are less expensive than liquid propellant rocket engines primarily due to their simplicity of fabrication and storage. Among the different ways to produce a SRM, one of the main characteristics in its production is its geometry. It is mainly dependent on the mission which will be used, as variations in geometry can imply different types of burning, whether progressive, regressive, neutral or mixed. Currently, empirical data is still widely used for testing solid propellant rocket engines, using costly tests to obtain thrust and internal pressure curves. The main objective of this work is to model through a CAD software a 3D geometry of propellant grain and parameterize it in order to simulate the regression of the burning surface during the combustion process of the solid propellant gathering the thrust curves for given geometry. The RSIM software was used, which is a tool capable of working with complex geometries using the level surface method.",
+  "subjects": [
+    "Combustăo de propelente sólido",
+    "Motores foguetes",
+    "Simulaçăo computadorizada",
+    "Propelentes sólidos",
+    "Propulsăo aeroespacial",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78028",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78028&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tg": "80778",
+  "type": "tg",
+  "title": "Optimizind SAR RAW DATA compression through transform coding and polar quantization",
+  "author": "Rafael Bueno Cardoso",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Felix Dieter Antreich",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Michele Martone",
+      "professor_slug": null
+    },
+    {
+      "name": "Nicola Gollin",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The increasing data rates of modern Synthetic Aperture Radar (SAR) missions impose strict constraints on onboard storage and downlink capacity, making efficient data compression a critical requirement. The standard Block Adaptive Quantization (BAQ) algorithm, widely adopted in operational SAR systems, provides reliable performance for the statistical characteristics of SAR raw data, but is limited by its lack of more advanced compression mechanisms. This work investigates alternative compression approaches for SAR raw data, evaluating their performance and suitability for onboard implementation. The first part of the work focused on Exponential Weighted Averaging (EWA) transform, exploring its use in enhancing correlation based methods. The data compression methods chosen for this were Linear Predictive Coding (LPC) and JPEG2000, both well established methods in audio and image fields, respectively. Although the EWA transform did not yield consistent improvements in data compression, it revealed potential benefits if inversion error propagation can be mitigated. Furthermore, the direct application of JPEG2000 demonstrated strong performance on raw data, but variable results after image processing, indicating sensitivity to the backscattering profile of the scene. The second part introduces the proposed Block Adaptive Strictly Polar Quantizer (BASPQ), a polar based interpretation of SAR complex valued raw data, inspired by the BAQ framework. BASPQ explores the distinct statistical properties of magnitude and phase components, allocating bits independently. Results showed that BASPQ consistently outperforms BAQ across all tested configurations on the raw data domain, most evidently for fractional bit rates, and slightly surpasses BAQ after image formation. Overall, this study provides a comprehensive evaluation of alternative compression techniques for SAR raw data. The findings demonstrate that BASPQ achieves an effective balance between compression efficiency and computational feasibility, making it a promising candidate for future SAR missions requiring flexible and resource-efficient onboard data compression.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Compressăo de dados",
+    "Processamento de imagens",
+    "Retroespalhamento",
+    "Codificaçăo",
+    "Algoritmos",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80778",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80778&origem=BDITA"
+}

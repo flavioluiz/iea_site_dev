@@ -1,0 +1,28 @@
+{
+  "num_tese": "75646",
+  "type": "tese",
+  "title": "Implementation of multidisciplinary optimization methodologies for preliminary design of multistage launch vehicles",
+  "author": "Luiz Gustavo Muniz do Nascimento",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The general objective of this work is to establish a set of procedures by applying computational tools to find an optimum solution for the problem of designing an expendable multistage launch vehicle starting from a specific set of mission requirements. To achieve this objective, the decomposition of the problem is made through the proposition of a flowchart that involves the main disciplines related to the preliminary design of launch vehicles. Then, through the application of multidisciplinary design optimization methodologies, two solution methods are implemented in this work: the Multiple Subarc Gradient Restoration Algorithm (MSGRA) and the Genetic Algorithm (GA). These algorithms solve, respectively, the optimal control problem associated with the flight trajectory optimization and the optimization problem of solid rocket motors. Tests are made with simplified problems to verify the implementation of the algorithms MSGRA and GA. Finally, an extensive analysis is made to the solutions obtained by these algorithms. This work is part of an effort to generate a set of procedures that are capable to integrate different disciplines in an automated way and to select adequated preliminary designs with low computational cost for aerospace applications.",
+  "subjects": [
+    "Método de gradiente conjugado",
+    "Algoritmos genéticos",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Controle ótimo",
+    "Física"
+  ],
+  "defense_date": "14/03/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75646",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75646&origem=BDITA"
+}

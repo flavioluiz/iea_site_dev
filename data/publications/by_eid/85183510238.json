@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-85183510238",
+  "eid": "2-s2.0-85183510238",
+  "doi": "10.1017/jfm.2020.301",
+  "pii": "S0022112020003018",
+  "pubmed_id": null,
+  "title": "Lift-up, Kelvin-Helmholtz and Orr mechanisms in turbulent jets",
+  "abstract": "© © The Author(s), 2020. Published by Cambridge University Press.Three amplification mechanisms present in turbulent jets, namely lift-up, Kelvin-Helmholtz and Orr, are characterized via global resolvent analysis and spectral proper orthogonal decomposition (SPOD) over a range of Mach numbers. The lift-up mechanism was recently identified in turbulent jets via local analysis by Nogueira et al. (J. Fluid Mech., vol. 873, 2019, pp. 211-237) at low Strouhal number and non-zero azimuthal wavenumbers . In these limits, a global SPOD analysis of data from high-fidelity simulations reveals streamwise vortices and streaks similar to those found in turbulent wall-bounded flows. These structures are in qualitative agreement with the global resolvent analysis, which shows that they are a response to upstream forcing of streamwise vorticity near the nozzle exit. Analysis of mode shapes, component-wise amplitudes and sensitivity analysis distinguishes the three mechanisms and the regions of frequency-wavenumber space where each dominates, finding lift-up to be dominant as. Finally, SPOD and resolvent analyses of localized regions show that the lift-up mechanism is present throughout the jet, with a dominant azimuthal wavenumber inversely proportional to streamwise distance from the nozzle, with streaks of azimuthal wavenumber exceeding five near the nozzle, and wavenumbers one and two most energetic far downstream of the potential core.",
+  "authkeywords": [
+    "compressible turbulence",
+    "high-speed flow",
+    "jets"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "896",
+    "issue": null,
+    "pages": null,
+    "article_number": "A2"
+  },
+  "authors": [
+    {
+      "name": "Pickering, Ethan",
+      "scopus_id": "57196413343",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rigas, Georgios",
+      "scopus_id": "57062613300",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Schmidt, Oliver T.",
+      "scopus_id": "57190757609",
+      "affiliation": "60121660",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 96,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 115,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183510238&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100943",
+    "data_quality_score": 100
+  }
+}

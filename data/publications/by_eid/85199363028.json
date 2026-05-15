@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85199363028",
+  "eid": "2-s2.0-85199363028",
+  "doi": "10.1103/PhysRevFluids.9.074606",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Coherent pressure structures in turbulent channel flow",
+  "abstract": "© 2024 American Physical Society.Most of the studies on pressure fluctuations in wall-bounded turbulent flows aim at obtaining statistics as power spectra and scaling laws, especially at the walls. In the present study we study energetic coherent pressure structures of turbulent channel flows, aiming at a characterization of dominant coherent structures throughout the channel. Coherent structures are detected using spectral proper orthogonal decomposition (SPOD) and modeled using resolvent analysis, similarly to related works dealing with velocity fluctuations but this time using pressure fluctuations as the output of interest. The resolvent operator was considered with and without the Cess eddy-viscosity model. Direct numerical simulations (DNSs) of incompressible turbulent channel flows at friction Reynolds numbers of approximately 180 and 550 were employed as databases in this study. Three representative dominant structures emerged from a preliminary spectral analysis: near-wall, large-scale, and spanwise-coherent structures. For frequency-wave number combinations corresponding to these three representative structures, SPOD results show a strong dominance of the leading mode, highlighting low-rank behavior of pressure fluctuations. The leading resolvent mode closely agrees with the first SPOD mode, providing support to studies that showed better performance of resolvent-based estimators when predicting pressure fluctuations compared to velocity fluctuations [Amaral, J. Fluid Mech. 927, A17 (2021)JFLSA70022-112010.1017/jfm.2021.764]. The dominant mechanisms of the analyzed modes are seen to be the generation of quasistreamwise vortices with pressure fluctuations appearing close to vortex centers. A study on the individual contributions of the nonlinear terms (treated as forcing in resolvent analysis) to the pressure output reveals that each forcing component plays a constructive role to the input-output formulation, which also helps understanding the weaker role of forcing \"color\"in driving pressure fluctuations.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "9",
+    "issue": "7",
+    "pages": null,
+    "article_number": "074606"
+  },
+  "authors": [
+    {
+      "name": "Do Amaral, Filipe R.",
+      "scopus_id": "57188717193",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 63,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85199363028&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100233",
+    "data_quality_score": 90
+  }
+}

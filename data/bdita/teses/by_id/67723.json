@@ -1,0 +1,31 @@
+{
+  "num_tese": "67723",
+  "type": "tese",
+  "title": "Projeto e implementaçăo de um ferramental flexível robótico passivo",
+  "author": "Hassan Iamut Said",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Sistemas de ferramental flexível tęm sido utilizados na indústria aeronáutica para realizar a fixaçăo de fuselagens durante operaçőes de manufatura de aeronaves, tais como fresamento e furaçăo. Estes sistemas tem custo elevado por causa de seus elementos constitutivos, notamente motores DC e encoders para movimentar as hastes das torres. Considerando o crescente uso de manipuladores robóticos na indústria aeronáutica, este trabalho tem como objetivo desenvolver um sistema de ferramental flexível inovador para ser usado em diferentes geometrias de aeronaves utilizando manipulador robótico industrial, tanto para movę-lo quanto para configurar suas partes móveis. O ferramental flexível experimental é composto de quatro torres (POGO®), que possuem uma haste com ventosa na sua extremidade e săo posicionados e configurados pelo robô. Um protótipo desse Ferramental Flexível Robótico Passivo (FFRP) foi projetado e fabricado, o que permitiu a realizaçăo de testes diversos para verificar os sistemas de frenagem das hastes e das ventosas com atuadores pneumáticos bem como a capacidade de sucçăo das ventosas. A simulaçăo virtual do sistema para criar a programaçăo off-line do robô foi gerada, permitindo a implementaçăo da programaçăo real do sistema de FFRP. Os resultados obtidos mostraram a viabilidade da utilizaçăo de um manipulador robótico para realizar a configuraçăo do FFRP de acordo com a geometria do material a ser usinado, com a programaçăo sendo obtida a partir da simulaçăo robótica 3D.",
+  "subjects": [
+    "Ferramentas",
+    "Manufaturas",
+    "Manipuladores",
+    "Desenvolvimento de produtos",
+    "Robótica",
+    "Indústria aeronáutica",
+    "Computaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "16/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67723",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67723&origem=BDITA"
+}

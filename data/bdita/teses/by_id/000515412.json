@@ -1,0 +1,32 @@
+{
+  "num_tese": "000515412",
+  "type": "tese",
+  "title": "Emulaçăo de um sistema robótico para aplicaçăo em cirurgias laparoscópicas, utilizando um robô PUMA 560.",
+  "author": "Ronaldo Marcondes de Oliveira",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nos últimos anos um novo campo dentro das pesquisas de robótica tem sido focalizado com grande interesse, que é o emprego de robôs em cirurgias minimammente invasivas, como as operaçőes de laparoscopia. Durante a cirurgia laparoscópica, o cirurgiăo é guiado pelas imagens provindas pela câmera endoscópica. O cirurgiăo instrui o auxiliar no manejo da câmera de tal modo que ele pode ter sua própria visăo dentro da cavidade abdominal do paciente. Deste modo, ele está apto a examinar a anatomia do corpo e suas patologias, e operar. Tal procedimento cirúrgico pode durar mais de duas horas. Como conseqüęncia, perda de resistęncia e fadiga podem trazer perda de estabilidade e dificuldades de mater o froco no ponto de interesse. O trabalho focaliza o emprego de um robô industrial PUMA 560 no manuseio da câmera laparoscópica em um modelo simulado de uma cavidade abdominal. Os cálculos dos movimentos e comando do robô săo feitos utilizando um programa computacional desenvolvido com o uso do software MatLab 6.0. Para validar o trabalho foi construído um simulacro de cavidade abdominal e uma estrutura mecânica com a mesma medida de uma câmera laparoscópica real, para avaliar o desempenho do sistema. A cavidade abdominal simulada provę uma perspectiva real da câmera laparoscópica no espaço de trabalho e dá a oportunidade de avaliar o comportamento mecânico do ponto de entrada do laparoscópico que é um dos pontos mais críticos no controle. A meta principal deste trabalho é avaliar a viabilidade e a confiabilidade do sistema baseado em um robô industrial, através da implementaçăo experimental.",
+  "subjects": [
+    "Robótica",
+    "Robôs",
+    "Modelos matemáticos",
+    "Cinemática",
+    "Aplicaçăo de tecnologia",
+    "Cirurgia",
+    "Endoscopia abdominal",
+    "Controle",
+    "Medicina"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515412",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515412&origem=BDITA"
+}

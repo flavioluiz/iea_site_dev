@@ -1,0 +1,31 @@
+{
+  "num_tg": "000499101",
+  "type": "tg",
+  "title": "Reduçăo de ordem de sistemas lineares complexos.",
+  "author": "Alan Fonseca Uehara",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Karl Heinz Kienitz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Com o advento de sistemas artificiais de aumento de estabilidade e sistemas de controle de vôo do tipo \"fly-by-wire\", as aeronaves passaram a ter suas respostas longitudinais descritas por funçőes de transferęncia de ordens elevadas. Com isso, as normas de qualidades de vôo e pilotagem, que se baseavam no sistema clássico de ordem dois para a dinâmica longitudinal de período curto năo podiam mais ser utilizadas. O surgimento do conceito de sistema equivalente de ordem reduzida (Low Order Equivalent System - LOES) permitiu que tais normas pudessem novamente ser adotadas para a avaliaçăo de qualidades de vôo. A norma MIL-F-8785C de 1980 foi a primeira a introduzir o conceito de sistema equivalente e a norma MIL-HDBK-1797A de 1997 é a mais recente norma para qualidades de vôo e pilotagem de aeronaves tripuladas, fazendo um amplo uso dos parâmetros do modelo reduzido em vários critérios de classificaçăo dos níveis de qualidades de vôo. O sistema equivalente é determinado de forma que a resposta em freqüęncia deste e do sistema original de ordem elevada sejam semelhantes. Este trabalho visa desenvolver um programa em MatLab que realize esta reduçăo de ordem e avalie as qualidades de vôo de acordo com alguns dos critérios estabelecidos na norma MIL-HDBK-1797A.",
+  "subjects": [
+    "Controle de vôo",
+    "Estabilidade de aeronaves",
+    "Sistemas lineares",
+    "Normalizaçăo",
+    "Modelos matemáticos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000499101",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000499101&origem=BDITA"
+}

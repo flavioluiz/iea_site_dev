@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-85024373812",
+  "eid": "2-s2.0-85024373812",
+  "doi": "10.1007/s40430-017-0807-8",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A robust methodology for outdoor optical mark recognition",
+  "abstract": "© 2017, The Brazilian Society of Mechanical Sciences and Engineering.Outdoor optical mark recognition is an extremely useful tool for recognition of large industrial equipment and application of computer vision-based systems for tracking and positioning. However, current algorithms rely on thresholding and corner detection to identify checkerboard-like patterns, which is not appropriate for non-uniform lighting conditions. This paper presents a robust methodology to identify optical markers in outdoor environments. A GPU-based region filling algorithm automatically detects all contiguous color regions without computing seed points. Post-processing steps extract high-level information from these regions. Analysis of identified contiguous color region allows simultaneous identification of all checkerboard and targets (concentric regions) in the scene. Analysis of variance demonstrates that the proposed methodology is robust to lighting, environment, perspective, and occlusion. Tests indicate that precision and recall for checkerboard and target identification in outdoor conditions are expected to be above 97%. The parallel algorithm implementation using OpenCL yields better results and is two times faster than previous region filling algorithms, taking about 0.6 s to process a full-HD picture using modern hardware.",
+  "authkeywords": [
+    "Computer vision",
+    "Design of experiments",
+    "Heterogeneous computing",
+    "OpenCL",
+    "Optical mark recognition",
+    "Parallel processing"
+  ],
+  "year": "2017",
+  "date": "2017-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "39",
+    "issue": "8",
+    "pages": "3103-3120",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Andrade, Douglas Coimbra de",
+      "scopus_id": "56297632900",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Eguti, Carlos César Aparecido",
+      "scopus_id": "55677356400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Suterio, Ricardo",
+      "scopus_id": "6506328164",
+      "affiliation": "60021657-60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85024373812&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125162",
+    "data_quality_score": 100
+  }
+}

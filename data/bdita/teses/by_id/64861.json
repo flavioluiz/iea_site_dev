@@ -1,0 +1,30 @@
+{
+  "num_tese": "64861",
+  "type": "tese",
+  "title": "Model checking aplicado a software embarcado crítico do satélite universitário ITASAT",
+  "author": "Waldo Acioli Falcăo de Alencar",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe e avalia a aplicaçăo da técnica de verificaçăo model checking no desenvolvimento de software embarcado de satélites universitários. Inicialmente, apresenta uma revisăo do cenário atual de projetos de satélites universitários, com foco no computador de bordo e a adoçăo de normas para este subsistema. Esta revisăo aponta que os satélites universitários tendem a adotar estratégias simples e de baixo custo para garantir dependabilidade, o que torna o uso de model checking uma soluçăo atrativa, viável e factível para verificaçăo da especificaçăo de software embarcado crítico destes satélites. Como estudo de caso, utiliza-se a ferramenta UPPAAL, baseada em autômatos temporizados, para verificaçăo da especificaçăo de software do módulo de comunicaçăo (CM) do computador de bordo do satélite universitário ITASAT. Este módulo executa programas sequenciais que contemplam: recepçăo de telecomando, execuçăo de comandos diretos, verificaçăo dos principais canais e envio de telemetria. A primeira etapa do processo de aplicaçăo de model checking consistiu na modelagem, de forma isolada, de cada um dos dois submódulos do CM. Para cada modelo, foram feitas verificaçőes de propriedades básicas e dos requisitos de software. Foras discutidas estratégias práticas para contornar o problema de explosăo de número de estados. Numa segunda etapa, os modelos dos dois submódulos foram integrados em um único modelo. Para o modelo integrado, foram verificadas as propriedades de alcançabilidade, ausęncia de deadlock e propriedades referentes a interaçăo entre os módulos. Apesar das restriçőes de comandos disponíveis, devido ao problema de explosăo de estados, foram criados cenários de verificaçăo para observar a relaçăo entre módulos. Ao final, conclui-se que a utilizaçăo do model checking permitiu a identificaçăo de erros e de oportunidades de melhoria na especificaçăo de requisitos e que é uma soluçăo viável para atender a proposta de satélites universitários.",
+  "subjects": [
+    "Sistemas de computadores embarcados",
+    "Verificaçăo de programa (computadores)",
+    "Verificaçăo formal",
+    "Satélites artificiais",
+    "Veículos aeroespaciais",
+    "Engenharia de software",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/07/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64861",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64861&origem=BDITA"
+}

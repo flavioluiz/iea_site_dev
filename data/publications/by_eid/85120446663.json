@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-85120446663",
+  "eid": "2-s2.0-85120446663",
+  "doi": "10.1016/j.tsep.2021.101051",
+  "pii": "S2451904921002122",
+  "pubmed_id": null,
+  "title": "Three-dimensional CFD investigation of a scramjet inlet under different freestream conditions",
+  "abstract": "© 2021 Elsevier LtdScramjet (supersonic combustion ramjet) engines are often seen as a promising alternative to place payloads in the Earth's orbit. Such air-breathing engines have a simple structure and few moving parts. On the other hand, high heat fluxes and pressure loads on the walls, shock-wave-boundary-layer interactions, and the risk of choked flow inside the isolator channel are a few examples of obstacles that need to be addressed during scramjet design. Therefore, this study aims to evaluate of different air freestream conditions on the flow field in a scramjet inlet (compression ramps and isolator) through detailed three-dimensional computational fluid dynamics (CFD) simulations. The Mach number, flight altitude, and angle of attack were the evaluated conditions. Moreover, this study also focuses on the behavior of the boundary layer separation located at the compression ramp corners, isolator entrance, and scramjet sidewalls. Regarding the Mach number variation, the results showed that high Mach numbers yielded high-pressure levels throughout the engine. Furthermore, a higher altitude promoted a lower total pressure field. Considering the angle of attack changes, it is evident that a higher angle of attack results in a decrease in airflow pressure, while an increase in the total pressure along the walls is observed. By investigating these freestream parameters, this work can contribute to the early phase of engine design, avoiding critical failures in the scramjet structure due to aerodynamic load and thermal stress.",
+  "authkeywords": [
+    "CFD",
+    "Hypersonic flow",
+    "Propulsion",
+    "Scramjet"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thermal Science and Engineering Progress",
+    "issn": null,
+    "eissn": "24519049",
+    "volume": "27",
+    "issue": null,
+    "pages": null,
+    "article_number": "101051"
+  },
+  "authors": [
+    {
+      "name": "V.M.B. de Siqueira, João",
+      "scopus_id": "57360222900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rosa, Mauricio A.P.",
+      "scopus_id": "55772042600",
+      "affiliation": "60025385",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120446663&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053079",
+    "data_quality_score": 100
+  }
+}

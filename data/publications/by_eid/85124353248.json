@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-85124353248",
+  "eid": "2-s2.0-85124353248",
+  "doi": "10.1115/IMECE1998-0616",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "SIMULATION OF VERTICAL SWIRLING FLOWS IN A MODEL FURNACE WITH A HIGH PERFORMANCE NUMERICAL METHOD",
+  "abstract": "© 1998 American Society of Mechanical Engineers (ASME). All rights reserved.This work reports numerical results for the case of incompressible laminar heated flow with a swirl in a vertical cylindrical chamber. Computations are obtained with a point-wise block-implicit scheme. Flow governing equations are written in terms of the so-called primitive variables and are recast into a general form. The discretized momentum equations are applied to each cell face and then, together with the mass-continuity, tangential velocity and energy equations, are solved directly in each computational node. The effects of Rayleigh, Reynolds and Swirl numbers on the temperature field are discussed upon. Flow pattern and scalar residual history are reported. Further, it is expected that more advanced parallel computer architectures can benefit from the error smoothing operator here described.",
+  "authkeywords": null,
+  "year": "1998",
+  "date": "1998-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings Imece",
+    "issn": null,
+    "eissn": null,
+    "volume": "1998-N",
+    "issue": null,
+    "pages": "21-28",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124353248&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112283",
+    "data_quality_score": 80
+  }
+}

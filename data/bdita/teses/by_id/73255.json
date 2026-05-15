@@ -1,0 +1,28 @@
+{
+  "num_tese": "73255",
+  "type": "tese",
+  "title": "A methodology for robust optical marker recognition in outdoor environments",
+  "author": "Douglas Coimbra de Andrade",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Large industrial equipments, such as storage tanks, pipelines, and pressure vessels, are essential for the energy infrastructure of any country. Particularly in Brazil, in view of the large amounts of oil and gas expected to be extracted from the pre-salt layer, it will be necessary to build new ships and platforms and, in turn, many of these equipments. Unlike vehicle production factories, the assembly line is the one that moves and not the final product. Current construction and assembly (C\\&A) methods use mostly manual labor to identify, recognize and track objects, which results in exposure of personnel to risk. The use of robotics is expected to improve current construction processes which, for the most part, rely on positioning procedures that require operators. This work presents a robust methodology for optical marker recognition (OMR) in outdoor environments with regards to lighting, partial occlusion, camera brand and perspective. Optical markers are a cheap technique which, coupled with computer vision systems, can provide position feedback for robotic systems. This tool can be used to automate tracking of position and orientation of large components, such as plates, beams, valves and tubes using optical markers and camera systems. Its implementation should result in cost, time and rework reduction through better tracking and positioning of these components, as well as reduced exposure of personnel to hazardous situations.",
+  "subjects": [
+    "Sistemas ópticos",
+    "Visăo por computadores",
+    "Sistemas homem-máquina",
+    "Rastreamento (posiçăo)",
+    "Computaçăo"
+  ],
+  "defense_date": "09/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73255",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73255&origem=BDITA"
+}

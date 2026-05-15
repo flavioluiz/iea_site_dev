@@ -1,0 +1,34 @@
+{
+  "num_tese": "71215",
+  "type": "tese",
+  "title": "Guiagem de robô industrial por esforços-implementaçăo de sistema e comparaçăo com comando via Teach Pendant",
+  "author": "Guilherme Boulhosa Rodamilans",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ricardo Sutério",
+      "professor_slug": null
+    },
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A crescente aplicaçăo de robôs no ambiente industrial tem motivado o surgimento de interfaces homem-máquina que văo muito além do tradicional controle manual do robô conhecido como teach pendant. Destaca-se dentre as novas possibilidades, o comando on-line de robôs realizado via guiagem por esforços, que, por meio do contato físico direto com o robô, viabiliza ao operador humano executar aplicaçőes que văo desde a definiçăo de trajetórias de soldagem até a montagem de grandes estruturas. Nesse contexto, nota-se na literatura técnica que muitos esforços tęm sido empenhados no desenvolvimento deste tipo de soluçăo. Entretanto, poucos trabalhos se dedicaram a comparar o desempenho de operadores humanos quando da utilizaçăo da guiagem por esforços com aquele advindo da interface via teach pendant. Para tanto, este trabalho apresenta como contribuiçăo a proposiçăo de um método que permite comparar sistematicamente esses dois tipos de comando, definindo tręs critérios de avaliaçăo: agilidade, capacidade e facilidade. É proposta uma abordagem experimental baseada em análise de variância (ANOVA) que permite quantificar e identificar a influęncia do tipo de comando na performance do operador executando tarefas com diferentes níveis de precisăo e dificuldade. Além disso, é realizado o desenvolvimento de um sistema de guiagem por esforços, baseado em um sensor F/T externo, que é utilizado para ilustrar a aplicaçăo do método de avaliaçăo proposto. Os resultados obtidos neste trabalho evidenciam que os operadores utilizando o sistema de guiagem por esforços apresentam um melhor desempenho de acordo com o critério de agilidade. Ambas as soluçőes apresentam um desempenho similar para o critério de capacidade, com um limite de cerca de 2 mm na precisăo de posicionamento final. Com relaçăo ao critério de facilidade, nenhum dos métodos apresentou uma melhora significativa na repetiçăo das tarefas. O método de avaliaçăo experimental e análise apresentado neste trabalho permite estabelecer as condiçőes sob as quais um sistema de guiagem por esforços poderia agregar vantagens sobre a programaçăo via teach pendant.",
+  "subjects": [
+    "Robôs",
+    "Sistemas homem-máquina",
+    "Programaçăo de robôs",
+    "Sensores de robôs",
+    "Planejamento de tarefas (robótica)",
+    "Robótica",
+    "Computaçăo"
+  ],
+  "defense_date": "08/12/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71215",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71215&origem=BDITA"
+}

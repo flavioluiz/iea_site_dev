@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85100083070",
+  "eid": "2-s2.0-85100083070",
+  "doi": "10.1103/PhysRevFluids.6.014602",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Cross proper orthogonal decomposition",
+  "abstract": "© 2021 American Physical Society.A method is proposed in order to optimally decompose the trace of cross-covariances of flow fluctuations, such as Reynolds stresses. Such method, referred to as cross proper orthogonal decomposition (CPOD), leads to a basis of modes extracted from a flow database that are optimal in representing an inner product related to the cross-covariance of interest. A sample application is shown for the representation of Reynolds shear stress in a turbulent channel flow with friction Reynolds number equal to 179. Leading modes are shown to comprise streamwise vortices and streaks with phase opposition between streamwise (u′) and wall-normal (v′) velocities, representing ejections and sweeps, and higher-order modes show similar structures, but with u′ and v′ in phase. A combination of such structures leads to an accurate reconstruction of the Reynolds stress, and consequently of the mean flow, with a reasonable near-wall reconstruction with the leading CPOD mode pair (even and odd modes) for each considered wave number, and a close match of the profiles with the five leading CPOD mode pairs. The present method is thus a valuable modal decomposition technique targeting cross-covariances of flow quantities such as Reynolds stresses.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-01-11",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "6",
+    "issue": "1",
+    "pages": null,
+    "article_number": "014602"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Da Silva, André F.C.",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100083070&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.070613",
+    "data_quality_score": 90
+  }
+}

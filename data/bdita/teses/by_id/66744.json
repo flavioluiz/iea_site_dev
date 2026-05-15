@@ -1,0 +1,30 @@
+{
+  "num_tese": "66744",
+  "type": "tese",
+  "title": "Um elemento finito 2D com variaçăo parabólica de temperatura na espessura para simulaçăo de transferęncia de calor aplicado ŕ soldagem",
+  "author": "Darlesson Alves do Carmo",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em diversas áreas da engenharia săo encontrados problemas que devem ser analisados sob enfoque térmico. Problemas em que o processo térmico influencia no desempenho, durabilidade e segurança merecem uma análise cuidadosa. O processo de soldagem a arco elétrico é um caso em que o ciclo térmico provoca o aparecimento de indesejáveis tensőes residuais. A determinaçăo deste ciclo térmico é o primeiro passo para uma análise termomecânica que permitirá o cálculo das tensőes residuais. Este trabalho descreve a formulaçăo de um elemento de transferęncia de calor 2D com distribuiçăo parabólica de temperatura na espessura, incluindo um procedimento de estabilizaçăo. O elemento 2D descrito neste trabalho pode ser usado para realizar análises térmicas de maneira mais econômica do que elementos 3D, especialmente em placas, pois o número de graus de liberdade através da espessura será sempre tręs. Como aplicaçăo do elemento, um modelo numérico de um processo de soldagem TIG foi desenvolvido baseado em resultados experimentais publicados. O tamanho e a distribuiçăo da fonte de calor, propriedades térmicas dependentes da temperatura, perdas de calor nas superfícies por convecçăo e calor latente de fusăo foram considerados no modelo. Em paralelo, o mesmo processo foi modelado usando o software ANSYS com elementos 3D (SOLID70) para possibilitar a comparaçăo com os resultados numéricos do modelo 2D. Os resultados obtidos com os modelos 2D, 3D e os dados experimentais mostraram boa concordância.",
+  "subjects": [
+    "Soldagem a arco",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Transferęncia de calor",
+    "Metalurgia",
+    "Engenharia mecânica",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "16/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66744",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66744&origem=BDITA"
+}

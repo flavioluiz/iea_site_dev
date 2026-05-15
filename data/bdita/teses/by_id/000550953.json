@@ -1,0 +1,32 @@
+{
+  "num_tese": "000550953",
+  "type": "tese",
+  "title": "Modelagem e identificaçăo de aeronaves via abordagem de sistemas lineares com parâmetros variantes.",
+  "author": "Benedito Carlos de Oliveira Maciel",
+  "year": "2008",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe a investigaçăo da aplicaçăo das metodologias de Identificaçăo de Sistemas na mecânica do vôo, com ęnfase no desenvolvimento de estruturas de modelos e métodos de estimaçăo de parâmetros no domínio do tempo, através da análise de dados de simulaçăo e dados obtidos em ensaios em vôo. Isso possibilita a completa modelagem aerodinâmica, ou seja, a determinaçăo das derivadas de estabilidade e controle, as quais desempenham um papel preponderante no comportamento dinâmico de uma aeronave. A abordagem de sistemas Lineares com Parâmetros Variantes (LPV), cuja teoria tem sido motivada por problemas de controle que exigem a estratégia de escalonamento de ganhos (Gain- scheduling), é uma maneira sistemática de se representar uma família de modelos lineares e năo-lineares. Além disso, nessa abordagem os projetos de controladores e observadores de estado săo baseados em técnicas de Desigualdades Matriciais Lineares (LMI, do inglęs Linear Matrices Inequalities), que săo uma valiosa alternativa aos métodos analíticos, uma vez que os problemas podem ser resolvidos de maneira exata por eficientes algoritmos de otimizaçăo convexa.Desse modo, a utilizaçăo da representaçăo LPV no contexto da identificaçăo de sistemas possibilita a validaçăo dessa classe de modelos e abre perspectivas para melhorias no próprio processo de estimaçăo paramétrica.",
+  "subjects": [
+    "Identificaçăo de sistemas",
+    "Mecânica de vôo",
+    "Modelos matemáticos",
+    "Sistemas lineares",
+    "Sistemas năo-lineares",
+    "Identificaçăo de parâmetros",
+    "Derivadas de estabilidade",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "30/10/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000550953",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000550953&origem=BDITA"
+}

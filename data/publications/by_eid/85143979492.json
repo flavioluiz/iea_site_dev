@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-85143979492",
+  "eid": "2-s2.0-85143979492",
+  "doi": "10.1115/1.4055228",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical Investigation of Supersonic Air-to-Air Ejectors Including Design Effects on Entrainment Efficiency",
+  "abstract": "© 2023 American Society of Mechanical Engineers (ASME). All rights reserved.The objective of this work is to develop and validate a computational fluid dynamics (CFD) model of a supersonic air ejector, a device largely used in aircraft, and to determine how its efficiency behaves when some of its geometric parameters vary, fully exploring the physical phenomena of the problem. It is important to highlight that in the aeronautical industry the competitiveness of any device intrinsically relies on its efficiency, such that a CFD model for an ejector is indispensable for proper design. This paper presents a study of several turbulence models Rk–e en, Rk–e std, k–x shear stress transport (SST), Spalart–Allmaras (SA), and generalized k–x (GEKO). A validation process was conducted by comparing CFD results with two supersonic air ejector experiments. The turbulence model was also validated with these experiments, and it was concluded that the k–x GEKO model is able to reproduce the physics of the supersonic air ejector problem with greater fidelity than traditional turbulence models in terms of entrainment ratio, with a 6% relative error reduction in relation to the traditional k–x SST model, which has been considered by multiple authors as the best Reynolds-averaged Navier–Stokes (RANS) approach in ejector’s CFD studies. After this validation process, the sensitivity of ejector efficiency to two geometric parameters was evaluated: the nozzle exit position and the ejector mixing chamber height.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids Engineering Transactions of the ASME",
+    "issn": "00982202",
+    "eissn": "1528901X",
+    "volume": "145",
+    "issue": "1",
+    "pages": null,
+    "article_number": "011203"
+  },
+  "authors": [
+    {
+      "name": "Bogado Sicuro, Bruno Henrique",
+      "scopus_id": "58010113500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinıcius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Papa, Ramon",
+      "scopus_id": "7004930174",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143979492&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.073096",
+    "data_quality_score": 90
+  }
+}

@@ -129,10 +129,10 @@ def main():
     parser.add_argument('--execute', action='store_true',
                         help='Execute the migration')
     parser.add_argument('--yaml-dir', type=str,
-                        default='../data/professores',
+                        default='../data/pessoal',
                         help='Directory containing YAML files')
     parser.add_argument('--output-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Output directory for JSON files')
 
     args = parser.parse_args()

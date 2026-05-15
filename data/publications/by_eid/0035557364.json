@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-0035557364",
+  "eid": "2-s2.0-0035557364",
+  "doi": "10.1109/ETFA.2001.997681",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modeling of hybrid supervisory systems using UML and petri nets",
+  "abstract": "In this work, a new approach for the design of supervisory systems is introduced. It focuses on how supervisory systems can improve global system performance through the use of efficient local controller switching configuration policies. For this purpose, a modeling approach that can represent the integration of different hierarchical levels of the control architecture and different dynamic behavior is developed. UML, Petri nets and differential equation systems are merged in order to provide a framework with flexibility for representing the abstractions that emerge when considering supervisory system design.",
+  "authkeywords": null,
+  "year": "2001",
+  "date": "2001-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "IEEE International Conference on Emerging Technologies and Factory Automation ETFA",
+    "issn": "19460740",
+    "eissn": "19460759",
+    "volume": "2",
+    "issue": null,
+    "pages": "149-158",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Miyagi, Paulo Eigi",
+      "scopus_id": "6602983553",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60008088",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Maruyama, Newton",
+      "scopus_id": "7103071843",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0035557364&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049863",
+    "data_quality_score": 90
+  }
+}

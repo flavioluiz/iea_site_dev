@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-18844396438",
+  "eid": "2-s2.0-18844396438",
+  "doi": "10.1016/j.finel.2004.10.011",
+  "pii": "S0168874X04001891",
+  "pubmed_id": null,
+  "title": "Adaptive finite element analysis of the dynamic response of spherical caps under traversing loads",
+  "abstract": "The vibration of a spherical cap with a moving force or mass is investigated using finite element method (FEM). It is observed that the use of Mindlin-type elements introduces substantial numerical errors in the response of the shell under concentrated loads that are applied at off-nodal positions. Given that a moving load will necessarily lie at off-nodal positions at several instants of time, an adaptive mesh strategy is proposed to improve the numerical accuracy. The dynamic numerical simulation is based on the Newmark time-integration scheme and a perturbation technique. The latter is motivated by practical scenarios where the inertia effects of the moving mass are significantly smaller than those of the main structure. The implemented finite element model is validated by comparing results of both static and free vibration analyses with those from a commercial finite element software. Thereafter, the dynamic response of a spherical cap in the presence of a traversing load is investigated. © 2005 Elsevier B.V. All rights reserved.",
+  "authkeywords": [
+    "Moving force",
+    "Moving load",
+    "Moving mass",
+    "Spherical cap"
+  ],
+  "year": "2005",
+  "date": "2005-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Finite Elements in Analysis and Design",
+    "issn": "0168874X",
+    "eissn": null,
+    "volume": "41",
+    "issue": "11-12",
+    "pages": "1027-1042",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Oguamanam, D. C.D.",
+      "scopus_id": "57211220629",
+      "affiliation": "60030838",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Graphics and Computer-Aided Design",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=18844396438&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044618",
+    "data_quality_score": 100
+  }
+}

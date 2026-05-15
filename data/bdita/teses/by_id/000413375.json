@@ -1,0 +1,32 @@
+{
+  "num_tese": "000413375",
+  "type": "tese",
+  "title": "Dinâmica e controle de um sistema mecânico com apęndices flexíveis.",
+  "author": "Roberto Garcia Negrăo",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta a formulaçăo para a modelagem, a identificaçăo e o controle ativo de vibraçőes em estruturas flexíveis. A técnica utilizada é a formulaçăo generalizada de Lagrange. Para análise dos resultados deste trabalho foi montado um protótipo que consiste de duas vigas flexíveis acopladas a um cubo rígido o qual é atuado por um motor DC. Utilizando-se sensores do tipo extensômetros e acelerômetros, distribuídos ao longo da estrutura, obtém-se as deformaçőes para realimentaçăo de informaçőes para o controlador. O controle é realizado em tempo real no ambiente MATLAB.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Análise estrutural dinâmica",
+    "Análise numérica",
+    "Modelos matemáticos",
+    "Controle automático",
+    "Amortecimento de vibraçăo",
+    "Engenharia mecânica",
+    "Engenharia estrutural",
+    "Controle"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000413375",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000413375&origem=BDITA"
+}

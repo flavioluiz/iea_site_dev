@@ -1,0 +1,27 @@
+{
+  "num_tese": "000205854",
+  "type": "tese",
+  "title": "Simulaçăo de escoamentos aerodinâmicos reativos em desequilíbrio químico com ondas de choque",
+  "author": "Marco Antonio de Miranda Carvalho",
+  "year": "1992",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata do modelamento e simulaçăo de escoamentos que apresentam elevados gradientes de propriedades, tais como ondas de choque e superfícies de contato, em que o fluído é considerado uma mistura reativa de gases perfeitos. Serăo estudados diversos problemas representativos desta classe de escoamentos, para comparaçăo com resultados disponíveis na literatura especializada. O presente estudo considerará a soluçăo numérica das equaçőes de Euler acopladas a um modelo de cinética química. A parte do equacionamento correspondente aos termos convectivos será discretizada por diferenças finitas utilizando para integraçăo o algorítmo TVD explícito de Harten. Os termos de variaçăo de concentraçăo de espécies, devido ŕs reaçőesquímicas, serăo integrados no tempo por um esquema multipasso explícito, de passo ajustável, do tipo Adams-Bashforth. A fim de se conseguir maior robustez no processo numérico săo utilizadas médias de Roe, aplicadas ŕs soluçőes de Riemann para o cálculo de propriedades médias, assim como operadores de ordem de precisăo espacial reduzida para o cálculo de pontos adjacentes ŕs fronteiras. As condiçőes de contorno săo implementadas usando-se, quando possível, o conceito de relaçőes características unidimensionais, inclusive para paredes. Os resultados obtidos demostram a potencialidade do método numérico para aplicaçőes em escoamentos com grandes gradientes de propriedades. A robustez do esquema unidimensional é preservada no esquema bidimensional com uma diminuiçăo aceitável do número de CFL. A introduçăo do integrador químico no esquema numérico aumentou significativamente o tempo de processamento por ponto da malha por iteraçăo, contudo as propriedades relevantes ao processo de combustăo săo calculadas e se mostram comparáveis com os resultados da bibliografia especializada.",
+  "subjects": [
+    "Escoamento năo-viscoso",
+    "Ondas de choque",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/08/1992",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000205854",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000205854&origem=BDITA"
+}

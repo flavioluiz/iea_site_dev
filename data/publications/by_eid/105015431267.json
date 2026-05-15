@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-105015431267",
+  "eid": "2-s2.0-105015431267",
+  "doi": "10.1016/j.applthermaleng.2025.128203",
+  "pii": "S1359431125027954",
+  "pubmed_id": null,
+  "title": "Analytical and numerical transient thermal investigation for oil wells plugging and abandonment",
+  "abstract": "© 2025 Elsevier LtdThe innovative concept of thermite Plugging and Abandonment (thermite P&A) is designed to enhance cost-effectiveness and reliability in the permanent sealing of oil wells. This technique relies on a controlled exothermic reaction between aluminum powder (Al) and iron (III) oxide (Fe2O3), generating sufficient heat to trigger phase change phenomena and melt structural components of the borehole. However, the associated thermal interactions remain insufficiently investigated. The present study is focused on predicting the heat conduction and phase change phenomena within a multi-layered cylindrical domain through analytical and numerical methods. Initially, the Distributed Transfer Function Method (DTFM) was applied to a one-dimensional radial analysis. The study was then extended to two-dimensional axisymmetric simulations using the Finite Volume Method (FVM), incorporating heat conduction, phase change, molten metal flow, and gravity effects. The enthalpy method, with a mushy zone approach, was used to compute liquid fractions, and the molten steel velocity field revealed convection effects, with a peak velocity of ∼ 1.8 cm/s. Temperature results showed that, while the cement acted as a thermal barrier preserving the cap rock, it experienced temperatures above 300 °C, risking structural damage. The findings offer valuable insights into thermite P&A and highlight the robustness of analytical frameworks in modern engineering applications.",
+  "authkeywords": [
+    "Distributed Transfer Function",
+    "Multi-layer cylinder",
+    "Numerical phase change",
+    "Thermal Plugging and Abandonment",
+    "Unsteady heat conduction"
+  ],
+  "year": "2025",
+  "date": "2025-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "280",
+    "issue": null,
+    "pages": null,
+    "article_number": "128203"
+  },
+  "authors": [
+    {
+      "name": "Nascimento, Ernandes J.G.",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Andrade, Gabriel S.",
+      "scopus_id": "57226103558",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Marques Pires, Luis Carlos",
+      "scopus_id": "58477404400",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 65,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015431267&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090788",
+    "data_quality_score": 90
+  }
+}

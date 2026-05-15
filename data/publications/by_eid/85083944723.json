@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85083944723",
+  "eid": "2-s2.0-85083944723",
+  "doi": "10.2514/6.2019-0022",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Identifying and correcting optical and camera error sources in fast-psp experiments",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper identifies, characterizes and describes correction procedures for uncertainty sources associated with fast-response pressure sensitive paint (PSP) optical and image acquisition systems, including fixed pattern noise, non-linear CMOS sensor response and optical vignetting. Data on a typical CMOS camera was acquired using an easy to manufacture integrating sphere, and image correction procedures were developed having a typical wind tunnel environment in mind. For validation, corrections were applied to data on pressure distribution over a NACA 0012 airfoil in transonic flow. A significant improvement in data accuracy was observed.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Leite, Henrique F.",
+      "scopus_id": "57190487206",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Avelar, Ana C.",
+      "scopus_id": "15076770200",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sakaue, Hirotaka",
+      "scopus_id": "57150450200",
+      "affiliation": "60021508",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083944723&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067017",
+    "data_quality_score": 80
+  }
+}

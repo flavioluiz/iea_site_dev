@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85018158459",
+  "eid": "2-s2.0-85018158459",
+  "doi": "10.1080/10407782.2017.1308744",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent natural convection in a composite annulus using a novel numerical scheme and the thermal nonequilibrium hypothesis",
+  "abstract": "© 2017 Taylor & Francis.Composite cavities formed by a clear space, a layer of porous material, and a solid plate can be engineered for controlling the overall heat transfer across the enclosure. Using different layer dimensions, as well as distinct porous and solid materials, the value of the cavity Nusselt number can be modified with regard to traditional Nu∝Ran behavior, which is encountered either in completely empty cavities or in cavities fully fitted with porous materials. Motivated by such novel application, this work presents a study about turbulent natural convection in a composite concentric annulus. The annulus is assumed to be two-dimensional and positioned horizontally, being isothermally heated at the inner cylinder and cooled from the outer surface. Laminar flow is considered in addition to the turbulent regime, which is handled via the standard k–ε model. The wall treatment applied is the High Reynolds approach. The Two-Energy Equation Model (2EEM) is utilized in the porous section. The transport equations are discretized using the control-volume method. The system of algebraic equations is relaxed via the Semi Implicit Pressure-Linked Equations (SIMPLE) algorithm. A new numerical methodology is applied to resolve all three layers in a single computational domain by establishing two temperature sets, defined according to the location inside the composite structure. Nusselt number behavior shows that for Rayleigh number up to 104 there is no significant variation between the laminar and turbulence models, although the differences increase when the flow gets more intense and/or the porous material becomes more permeable. When comparing the effects of Rayleigh number, Darcy number, porosity, and thermal conductivity ratio between the solid and the fluid on Nu, the results indicate that the solid-phase properties have a greater influence in enhancing the overall heat transferred through the cavity.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-04-18",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": "15210634",
+    "volume": "71",
+    "issue": "8",
+    "pages": "837-854",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Masciarelli, Caio B.",
+      "scopus_id": "57192234518",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85018158459&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110511",
+    "data_quality_score": 90
+  }
+}

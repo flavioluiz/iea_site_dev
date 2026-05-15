@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-85017217338",
+  "eid": "2-s2.0-85017217338",
+  "doi": "10.2514/6.2017-1409",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Drag polar prediction methodologies during aircraft design phases",
+  "abstract": "© 2017 by the American Institute of Aeronautics and Astronautics, Inc.The aircraft design cycle is a complex process that involves various design phases with different levels of maturity always driven by market requirements and certification. These requirements involve disciplines such as performance, flight mechanics, environmental comfort, emissions and maintenance. However, for most aircraft designs, the requirements that define initially the aircraft lofting and are mandatory during the design cycle are related to aircraft performance since what sells the aircraft is its performance. Thus, an accurate drag polar prediction during the aircraft design phases guarantees the success of the design by a decrease in risks of do not accomplish performance requirements. In the past, certain aircraft designs achieved drag prediction errors of 10 to 20% showing outwith the range needed for success. Therefore, the aeronautical companies have been pursuing accurate drag polar prediction methodologies putting many efforts in semi-empirical formulation implementations, CFD simulations and wind tunnel campaigns in order to achieve minimum errors in predicting the drag polars before the first flight keeping errors at least below 10%. The aim of this work is to present in detail the distinct drag polar prediction methodologies applied during the design aircraft phases in the aeronautical industry as well as establish requirements that guarantee a minimum drag polar prediction errors pursuing at least values below 10% where an accurate prediction methodology could be considered achieving errors around 5%. Semi-empirical methods, numerical simulations (CFD) and wind tunnel test procedures applied during conceptual design and preliminary phase are described. In addition, processes proposed for updating the drag polar formulation before the first flight are suggested what could represent an improve in accuracy for drag polar prediction methodology in the future design cycles. This work also intend to reinforce the methodologies available and open opportunity to start discussions for new approaches regarding the drag polar prediction during design cycle such as increase in numerical simulation (CFD) and in using simulation model even in early phases in order to obtain accurate drag polars.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech Forum 55th AIAA Aerospace Sciences Meeting",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2017-1409"
+  },
+  "authors": [
+    {
+      "name": "de Paula, Adson Agrico",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    },
+    {
+      "name": "Porto, Fabrício de Magalhães",
+      "scopus_id": "57191042949",
+      "affiliation": "118334646",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Sousa, Marcelo Santiago",
+      "scopus_id": "57188743635",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85017217338&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085532",
+    "data_quality_score": 90
+  }
+}

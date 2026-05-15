@@ -1,0 +1,65 @@
+{
+  "publication_id": "2-s2.0-85067418459",
+  "eid": "2-s2.0-85067418459",
+  "doi": "10.1016/j.tsep.2019.100368",
+  "pii": "S2451904918306966",
+  "pubmed_id": null,
+  "title": "Parametric evaluation of a heat pipe-radiator assembly for nuclear space power systems",
+  "abstract": "© 2019 Elsevier LtdThe research and technological development towards compact energy conversion systems for space applications allow the emergence of new mission possibilities, especially those directed for deep space explorations. Besides the final efficiency, the most crucial factor of an energy conversion system for nuclear propulsion purposes is the total mass and size of the system. Considering the Closed Brayton Cycle (CBC) as the energy conversion system for a nuclear power system, a numerical analysis was carried out in order to predict the thermal performance of cold side of the system (i.e., heat pipes and radiator) for initial design purposes. The complete space heat pipe-radiator array was discretized in control volumes where a variation of geometrical parameters was included, resulting in a stepped trapezoidal-shaped radiator (RAD) as output. The heat capacity was limited by the geometry of each panel section, being its heat pipe modeled to fit the given geometry and verified against operational limits. The proposed design-based model considered a physical and thermal coupling with temperature drops along the heat pipe (HP) axial direction, the radiator panel surface, and the cold heat exchanger duct, providing reasonable global parameters to aid the design considering mass and size optimization of a heat pipe-radiator assembly. The number of heat pipes and the total heat pipe-radiator assembly mass and length were evaluated for different heat pipe spacing, heat transfer rate, cold heat exchanger (CHE) inlet temperatures, and radiation shield shadow angles. It was observed a point of minimum HP-RAD mass and length when the heat pipe spacing and CHE inlet temperature are varied, for a given heat transfer rate and shadow angle.",
+  "authkeywords": [
+    "Brayton",
+    "Heat pipe",
+    "Nuclear",
+    "Radiator",
+    "Space"
+  ],
+  "year": "2019",
+  "date": "2019-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thermal Science and Engineering Progress",
+    "issn": null,
+    "eissn": "24519049",
+    "volume": "13",
+    "issue": null,
+    "pages": null,
+    "article_number": "100368"
+  },
+  "authors": [
+    {
+      "name": "Romano, Luis F.R.",
+      "scopus_id": "57209329061",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657-60025385",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 25,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85067418459&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053157",
+    "data_quality_score": 100
+  }
+}

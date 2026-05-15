@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-84964262311",
+  "eid": "2-s2.0-84964262311",
+  "doi": "10.1016/j.ifacol.2015.12.014",
+  "pii": "S2405896315026385",
+  "pubmed_id": null,
+  "title": "Trajectory Tracking Control of an Aerial Robot with Obstacle Avoidance",
+  "abstract": "© 2015, IFAC (International Federation of Automatic Control) Hosting by Elsevier Ltd. All rights reserved.The present paper deals with the problem of position control of a flying robot type multirotor helicopter with obstacle avoidance. In order to solve the problem, an architecture with model predictive controller (MPC) minimize the tracking error, where are implemented the inclusion of convex constraints on the position vector, making it possible to avoid obstacles with a flexible trajectory. The proposed method is evaluated on the basis of computational simulations considering that the vehicles is subject to disturbance forces. Simulation results show the effectiveness of the method related to the tracking performance with focus on the treatment of obstacle avoidance constraints.",
+  "authkeywords": [
+    "Aerial robotics",
+    "Model predictive control",
+    "Multirotor helicopter",
+    "Obstacle avoidance",
+    "Tracking control"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IFAC Papersonline",
+    "issn": null,
+    "eissn": "24058963",
+    "volume": "48",
+    "issue": "19",
+    "pages": "81-86",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Viana, Ícaro Bezerra",
+      "scopus_id": "55946242000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Acampora Prado, Igor Afonso",
+      "scopus_id": "56444078500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Davi Antonio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Sandoval Góes, Luiz Carlos",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84964262311&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077494",
+    "data_quality_score": 100
+  }
+}

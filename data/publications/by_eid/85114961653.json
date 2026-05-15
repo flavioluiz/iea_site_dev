@@ -1,0 +1,68 @@
+{
+  "publication_id": "2-s2.0-85114961653",
+  "eid": "2-s2.0-85114961653",
+  "doi": "10.1109/LCSYS.2021.3110490",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Optimal Exact Control Allocation for Under-Actuated Multirotor Aerial Vehicles",
+  "abstract": "© 2017 IEEE.The present work deals with the optimal control allocation of under-Actuated multirotor aerial vehicles (UAMAVs). The problem is formulated as a convex optimization, which unifies the previous methods and extends the literature by considering the rotors' dynamics and actual bounds. A feasibility analysis based on the control allocator admissible set is presented, which provides a condition for an exact control allocation to exist. This condition can be explicitly used in the design of the control law, thus improving its synergy with the control allocator. The proposed control allocation method is numerically exemplified on an octa-rotor UAMAV.",
+  "authkeywords": [
+    "Control allocation",
+    "multirotor aerial vehicle",
+    "multirotor UAVs"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "IEEE Control Systems Letters",
+    "issn": null,
+    "eissn": "24751456",
+    "volume": "6",
+    "issue": null,
+    "pages": "1448-1453",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bezerra, Jose A.",
+      "scopus_id": "57226783609",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85114961653&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094960",
+    "data_quality_score": 100
+  }
+}

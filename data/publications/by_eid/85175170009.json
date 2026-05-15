@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85175170009",
+  "eid": "2-s2.0-85175170009",
+  "doi": "10.1016/j.ijthermalsci.2023.108689",
+  "pii": "S1290072923005501",
+  "pubmed_id": null,
+  "title": "Transient heat transfer in concentric cylinders using periodic boundary condition and asymmetric heat generation applied to thermal plug and abandonment of oil wells",
+  "abstract": "© 2023 Elsevier Masson SASWhen a well does not fulfil its objectives, it is repurposed or permanently plugged, a shift in budget from revenue to Plug and Abandonment (P&A) expenditures occurs. New technologies being developed for P&A make use of a powerful heat emitter for melting the surrounding of the well forming a solid plug after the cool down. However, there is a gap in understanding the heat transport process in the well and much need for appropriate mathematical tools and solutions for estimating the effectiveness of Thermal P&A. The thermal analysis of the process requires eigenvalues in polar coordinates, which return only real quantities due to its implicitly dependence on the angular eigenvalues. Here, a hybrid analytical/numerical method is applied to an asymmetric transient heat conduction problem. The oil well is conceived as a 2-D multi-layer disc cast in polar coordinates, where the Separation of Variables Method (SVM) was applied to achieve a closed-form solution. Asymmetric boundary conditions of first, second and third kind can be implemented utilizing the proposed framework. A Finite Volume Method (FVM) numerical solution was produced for code verification. Lastly, research results show that temperature levels arising from the thermite reaction throughout the composite cylinder domain in radial and azimuthal ranges are enough for surpassing the melting point of the production tube steel. The results evidenced the thermal efficiency of the TP&A procedure and suggested that the production column may be destroyed by fusion, thus reducing tamponing expenses significantly.",
+  "authkeywords": [
+    "Analytical method",
+    "Composite cylinder",
+    "Separation of variables method",
+    "Thermal plug and abandonment",
+    "Transient heat conduction"
+  ],
+  "year": "2024",
+  "date": "2024-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermal Sciences",
+    "issn": "12900729",
+    "eissn": null,
+    "volume": "196",
+    "issue": null,
+    "pages": null,
+    "article_number": "108689"
+  },
+  "authors": [
+    {
+      "name": "De Andrade, Gabriel S.",
+      "scopus_id": "57226103558",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nascimento, Ernandes J.G.",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 14,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 74,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175170009&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110203",
+    "data_quality_score": 100
+  }
+}

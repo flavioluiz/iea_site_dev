@@ -1,0 +1,37 @@
+{
+  "num_tese": "000479439",
+  "type": "tese",
+  "title": "Numerical simulation of three-dimensional flows over aerospace configurations.",
+  "author": "Leonardo Costa Scalabrin",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The objective of this project is to study three dimensional aerodynamic flows over realistic aerospace configurations, such as the first Brazilian Satellite Launcher (VLS) in its first stage flight form. In order to achieve this objective, computational fluid dynamics and three dimensional adaptive mesh refinement techniques are used. The project focus in finite element and finite volume techniques to simulate the flows of interest. Both the Taylor-Galerkin finite element method and the Jameson finite volume method are used in the simulations. A new interpretation of MacCormack's method in an unstructured grid context is presented. The analysis, implementation and validation of the adaptive mesh refinement tools in the present context is part of the work developed. The use of meshes with hanging-nodes in a finite volume code is also described. The Spalart and Allmaras turbulence model is implemented in the finite volume code in order to account for turbulent effects. In the first part of this project, inviscid flows over the VLS ranging from subsonic to supersonic regime are studied using the finite element and finite volume techniques and, in the following part, turbulent viscous flow cases are analyzed using the finite volume code.",
+  "subjects": [
+    "Escoamento de fluidos",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Método de elementos finitos",
+    "Método de volumes finitos",
+    "Escoamento viscoso",
+    "Escoamento turbulento",
+    "Métodos de multigrid",
+    "Configuraçőes aerodinâmicas",
+    "Estruturas tridimensionais",
+    "Veículos de lançamento",
+    "Satélites",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000479439",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000479439&origem=BDITA"
+}

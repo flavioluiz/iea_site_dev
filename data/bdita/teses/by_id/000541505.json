@@ -1,0 +1,29 @@
+{
+  "num_tese": "000541505",
+  "type": "tese",
+  "title": "Ajuste de modelos de elementos finitos utilizando técnicas de otimizaçăo.",
+  "author": "Neimar Rogério Berti Vasconcellos",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No campo da dinâmica de estruturas, muitas aplicaçőes tęm surgido para modelos de Elementos Finitos. Um modelo representativo do sistema real pode levar a um aumento da eficięncia da estrutura e a uma reduçăo das margens de segurança de projeto relacionadas a carregamentos externos. Conseqüentemente, a precisăo e confiabilidade destes modelos tornam-se cada vez mais importantes e influenciam diretamente na qualidade da estrutura. O objetivo deste trabalho é apresentar os principais métodos de ajuste de modelos de Elementos Finitos (Finite Element Model Updating) baseados em informaçőes modais, e propor uma nova abordagem para o problema de ajuste através de programaçăo năo-linear multi-objetivo. Săo abordadas desde as análises modais e as formas de avaliar a correlaçăo entre modelos numéricos e experimentais até a aplicaçăo das metodologias de ajuste para tornar o modelo fiel ŕs informaçőes de referęncia. Também é apresentada uma revisăo bibliográfica sobre ajuste de modelos, tratando desde os primeiros métodos de ajuste até os mais usados na atualidade. Săo apresentados ainda os aspectos fundamentais dos métodos de programaçăo năo-linear que, através de formulaçőes multi-objetivo, podem se consolidar como ferramentas bastante eficazes nesta área. Tręs exemplos numéricos săo utilizados para demonstraçăo das metodologias e para avaliar comparativamente o desempenho de alguns métodos de ajuste. Inicialmente foi estudado um exemplo de uma viga simples para aplicaçăo dos principais conceitos. Em seguida, uma estrutura representativa de um aviăo (GARTEUR SM-AG 19) e um modelo do caixăo de uma asa foram escolhidos para os outros dois estudos de caso, devido ŕ grande aplicaçăo que as técnicas de ajuste de modelos encontram na indústria aeroespacial. Os resultados obtidos comprovam o grande potencial das técnicas de ajuste de modelos, propostas neste trabalho, para o desenvolvimento de sistemas estruturais.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Modelos matemáticos",
+    "Método de elementos finitos",
+    "Otimizaçăo",
+    "Lógica modal",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "20/06/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541505",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541505&origem=BDITA"
+}

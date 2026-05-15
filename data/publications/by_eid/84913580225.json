@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-84913580225",
+  "eid": "2-s2.0-84913580225",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Adaptive resonant piezoelectric shunt damping enhanced by a synthetic negative capacitance",
+  "abstract": "Connecting an electrical impedance to a piezoelectric transducer bonded onto a mechanical structure is a popular technique named piezoelectric shunt damping. Resonant shunts consisting of a resistance and an inductance connected to a piezoelectric transducer are used to damp structural vibrations in narrow frequency bands, but their performance is very sensitive to variations in structural modal frequencies and transducer capacitance. This paper describes the design of an adaptation circuit for a resonant piezoelectric shunt enhanced by a synthetic negative capacitance. The resonant shunt adapts its value of inductance autonomously by comparing the phase difference of the vibration velocity and the current flowing through the shunt circuit. A synthetic negative capacitance is added to the shunt circuit in order to enhance the damping performance. Validation of the proposed method is done by measurements with a piezoelectric transducer bonded onto a shell and the circuitry is implemented using analog components.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of ISMA 2014 International Conference on Noise and Vibration Engineering and Usd 2014 International Conference on Uncertainty in Structural Dynamics",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "653-666",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gripp, J. A.B.",
+      "scopus_id": "56432843600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Heuss, O.",
+      "scopus_id": "55023828400",
+      "affiliation": "60007323",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, L. C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Melz, T.",
+      "scopus_id": "8937377700",
+      "affiliation": "60011226",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84913580225&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077569",
+    "data_quality_score": 70
+  }
+}

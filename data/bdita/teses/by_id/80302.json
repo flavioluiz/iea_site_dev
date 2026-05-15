@@ -1,0 +1,35 @@
+{
+  "num_tese": "80302",
+  "type": "tese",
+  "title": "Parameterization for variable stiffeness laminated composite panels : buckling optimization on a semi-analytical model",
+  "author": "Gabriela de Freitas Gandorphi",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "abstract": "Due to their tailored stiffness distribution and enhanced mechanical performance, variable stiffness composites (VSC) have been the focus of extensive research in recent years. In particular, the improved buckling behavior of variable angle tows (VAT) is constantly highlighted and attributed to the curvilinear fiber paths within each lamina, which enable designs tailored to meet specific loading and boundary conditions. However, the manufacturing of VAT panels still presents challenges. Overlaps and gaps are common in layers produced by automated fiber placement (AFP), and even the more recent continuous tow shearing (CTS) technique can result in irregular thickness profiles. This work presents an alternative fiber path design that addresses such issues. Inspired by the capabilities of fused filament fabrication (FFF) and named the quasi-parallel (QP) parameterization, the method generates offset curves from a defined reference path, minimizing overlaps and gaps, while maintaining constant thickness. Buckling performance is investigated for both VAT and QP parameterizations and quantified by comparing the VSC results with those from the best-performing angle ply (AP) laminate. The linear buckling problem of cylindrical panels is evaluated with a semi-analytical model based on Sander's version for the Love shell formulation and is solved by applying the Rayleigh-Ritz method. An extensive verification study is conducted to assess the overall robustness of the semi-analytical model. Its buckling outputs are compared with findings from previous research, showing excellent agreement. Subsequently, 20 case studies are investigated for QP and VAT formulations, considering variations in loading, aspect ratio, and panel curvature. A graphical search procedure and simulated annealing (SA) optimization are employed in this context to identify the optimal fiber orientations. For the panels with the highest buckling load, Hashin's strength criteria are employed to check for first-ply failure. Both parameterizations show relevant buckling improvement in comparison to a constant stiffness composite and no failure concerns. The QP method delivers up to 40% increases under the same material conditions for a square compressed flat plate. Finally, the advantages and limitations of each parameterization are discussed for the studied cases, providing additional insights for future designs of variable stiffness composites.",
+  "subjects": [
+    "Materiais compósitos",
+    "Flambagem",
+    "Laminados",
+    "Otimizaçăo",
+    "Manufaturas",
+    "Estudo de casos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "11/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80302",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80302&origem=BDITA"
+}

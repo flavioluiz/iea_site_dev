@@ -1,0 +1,30 @@
+{
+  "num_tese": "67326",
+  "type": "tese",
+  "title": "A safe position control strategy for multirotor helicopters",
+  "author": "Igor Afonso Acampora Prado",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The interest for multirotor unmanned aerial vehicles (UAVs) is currently growing due to their low cost, high maneuverability, simplified mechanics, capability to perform vertical take-off and landing as well as hovering flight. These characteristics make them a promising technology suitable for applications such as surveillance of indoor and urban environments and object transportation. The present work faces the problem of safely controlling the position trajectory of multirotor UAVs by taking into consideration a conic constraint on the total thrust vector and a linear convex constraint on the position vector. The problem is solved using a linear state-space model predictive control (MPC) strategy, whose optimization is made handy by replacing the original conic constraint set on the thrust vector by an inscribed pyramidal space, which renders a linear set of inequalities. The control vector computed by the MPC is converted into a thrust magnitude command and an attitude command. The proposed method is evaluated on the basis of Monte Carlo simulations taking into account a random disturbance force. The simulations show the effectiveness of the method in tracking the commanded trajectory while respecting the imposed control and position constraints. They also predict the effect of both the commanded speed and the maximum inclination constraint on the system performance.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Confiabilidade de aeronaves",
+    "Controle preditivo",
+    "Guiamento (movimento)",
+    "Rastreamento (posiçăo)",
+    "Aeronave năo-tripulada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/10/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67326",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67326&origem=BDITA"
+}

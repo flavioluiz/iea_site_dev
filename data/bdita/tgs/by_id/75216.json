@@ -1,0 +1,30 @@
+{
+  "num_tg": "75216",
+  "type": "tg",
+  "title": "Modelagem analítica e estudo computacional de um tubo de calor com efeito de bombeamento por ranhura.",
+  "author": "Renato Carvalho Santos Gomes da Silva",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Lamartine Nogueira Frutuoso Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho consiste no estudo do funcionamento de um tubo de calor com efeito de bombeamento por ranhura. Serăo apresentados os conceitos de um tubo de calor, seus tipos, aplicaçőes e limitaçőes, dando ęnfase no tipo que possui ranhura interna retangular axial. Com o uso de hipóteses simplificadoras, será realizada uma modelagem física e matemática (analítica) para a obtençăo dos parâmetros de interesse que serăo utilizados como dados de entrada para a simulaçăo em CFD da dinâmica que ocorre no interior do tubo de calor. Por fim, realizar-se-á um estudo computacional da dinâmica de transferęncia de calor dentro do tubo de calor por meio do software Ansys Fluent.",
+  "subjects": [
+    "Tubos de calor",
+    "Transferęncia de calor",
+    "Capilaridade",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75216",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75216&origem=BDITA"
+}

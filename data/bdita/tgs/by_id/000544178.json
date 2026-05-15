@@ -1,0 +1,32 @@
+{
+  "num_tg": "000544178",
+  "type": "tg",
+  "title": "Computation of damping aerodynamic coefficients about a 3D hypersonic vehicle.",
+  "author": "Danilo Mayer Oliveira",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jean-Marc Moschetta",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "FAST is a computational tool developed by SUPAERO and ONERA with the objective of being capable of calculating aerothermodynamic properties for hypersonic 3D vehicles in a quick way, for preliminary analysis. During the years, the code is improved, in a way to achieve more accurate results and to expand the application of the code. This work presents a method implemented in FAST to compute the effects of angular velocities in the computation of forces and moments.",
+  "subjects": [
+    "Coeficientes aerodinâmicos",
+    "Veículos hipersônicos",
+    "Amortecimento",
+    "Aerotermodinâmica",
+    "Códigos computacionais",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544178",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544178&origem=BDITA"
+}

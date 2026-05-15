@@ -1,0 +1,35 @@
+{
+  "num_tese": "000538263",
+  "type": "tese",
+  "title": "Isoterma da Langmuir em sistemas heterogęneos sob altas pressőes.",
+  "author": "Cristian Nunes Cordeiro",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Koshun Iha",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Milton Silva da Rocha",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neste trabalho, um modelo de adsorçăo que é baseado na abordagem da mecânica estatística, foi aplicado ao estudo do fenômeno da saturaçăo na adsorçăo para calcular a mínima pressăo necessária para atingir a cobertura completa da superfície em um processo de adsorçăo. A equaçăo fundamental integral, QT(Q)=ňN(Q) Q(Q)dQ, para o cálculo do grau de cobertura da superfície foi desenvolvido por uma funçăo de distribuiçăo exponencial N(Q)=(m/RT)exp(-mQ/RT), e a representaçăo da adsorçăo local de cada sítio de adsorçăo é dada pela expressăo de Langmuir, Q(Q)=b0Cexp(Q/RT)/(1+b0Cexp(Q/RT)). Em altos valores de pressăo C, uma soluçăo da equaçăo fundamental integral foi obtida pela imposiçăo da condiçăo b0C>1. Foi obtida a expressăo para a condiçăo de saturaçăo, b0C >m/(m+1), ou seja, o fenômeno da saturaçăo está dependente de dois parâmetros, relacionados a heterogeneidade energética do sistema e a energia de adsorçăo do sistema. A pressăo na análise da expressăo citada mostra que, para baixos valores de m (sistemas mais heterogęneos), a saturaçăo é alcançada por b0C>>m, enquanto para m@1 (sistemas mais homogęneos) a saturaçăo é alcançada por b0C >>0.5.",
+  "subjects": [
+    "Isotermas",
+    "Adsorçăo",
+    "Alta pressăo",
+    "Saturaçăo",
+    "Heterogeneidade",
+    "Físico-Química",
+    "Engenharia química"
+  ],
+  "defense_date": "04/07/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000538263",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000538263&origem=BDITA"
+}

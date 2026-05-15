@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85060586804",
+  "eid": "2-s2.0-85060586804",
+  "doi": "10.1109/CSCI.2017.77",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "HSV and NDVI Color Space Analysis and Sampling Procedure for Counting of Seedlings in Eucalyptus spp Plantations from High Definition Aerial Images",
+  "abstract": "© 2017 IEEE.A methodology was developed in this work for the automatic counting of individual seedlings in plantations of Eucalyptus spp from high definition photographs with the help of Scientific Python Libraries from literature. The problem to be investigated was presented and two different ways of solving it were discussed together with their implications. With the algorithm properly validated on training data, an actual business case of seedlings detection and counting out of a mosaic aerial image was proposed as testing data. The high-definition pictures were taken by multispectral sensor onboard an UAV from an Eucalyptus spp plantation stand of approximately 25 hectares and provided by Eldorado Brasil. The results were considered very encouraging, stimulating future works in this line of research.",
+  "authkeywords": [
+    "Bina- rized classification",
+    "Eucalyptus spp.",
+    "Image processing",
+    "Precision agriculture",
+    "Python"
+  ],
+  "year": "2018",
+  "date": "2018-12-04",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings 2017 International Conference on Computational Science and Computational Intelligence Csci 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "456-462",
+    "article_number": "8560833"
+  },
+  "authors": [
+    {
+      "name": "Franzé, Guilherme Pereira Jorge",
+      "scopus_id": "57205581011",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Woiski, Emanuel Rocha",
+      "scopus_id": "56560284900",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Computer Science (miscellaneous)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060586804&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077082",
+    "data_quality_score": 100
+  }
+}

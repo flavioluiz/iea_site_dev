@@ -1,0 +1,34 @@
+{
+  "num_tese": "68286",
+  "type": "tese",
+  "title": "Análise de decisăo sob incerteza meteorológica para proteçăo de infraestruturas críticas",
+  "author": "Amaury Caruzzo",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mischel Carmen Neyra Belderrain",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Gilberto Fernando Fisch",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "As condiçőes meteorológicas e climáticas sempre influenciaram as atividades humanas. Na previsăo de um evento meteorológico extremo, é necessário identificar as melhores açőes de mitigaçăo para a reduçăo de risco de desastres naturais e proteçăo das infraestruturas críticas. No entanto, a seleçăo dos planos de mitigaçăo sob condiçőes de incerteza meteorológica é um processo complexo. Ao mesmo tempo, as condiçőes meteorológicas tęm efeitos relevantes sobre as infraestruturas, năo somente durante os eventos extremos, mas também no dia-a-dia. Neste sentido, muitos artigos apresentam metodologias bem-sucedidas para tomar uma decisăo sob incerteza e algumas abordagens podem modelar os julgamentos dos decisores, como exemplos, a Análise Bayesiana ou a Funçăo Utilidade. Entretanto, muitas vezes, a interaçăo com os usuários demostrou que esses métodos clássicos năo săo capazes de incorporar o contexto decisório relacionado ŕ incerteza da informaçăo meteorológica ou climática. Portanto, o desafio está em desenvolver uma abordagem capaz de identificar as preferęncias e valores dos tomadores de decisăo. Ou seja, as previsőes tem uma incerteza e tem que ser interpretada por diferentes usuários. Neste caso, para o decisor aplicar a previsăo de tempo como uma ferramenta confiável para a tomada de decisăo é preciso incorporar tręs perspectivas: a) valor da variável; b) prazo de validade da previsăo; c) probabilidades. A partir da previsăo meteorológica, decisores buscam identificar quais açőes de mitigaçăo devem ser tomadas em caso de mau tempo. Portanto, este trabalho de Doutorado tem como objetivo aplicar as técnicas de previsăo de tempo probabilística e de análise de decisăo multiatributo sob incerteza, de modo a construir um índice de decisăo para apoiar na emissăo de alertas e seleçăo das açőes de mitigaçăo. A proposta de transformar as previsőes meteorológicas ou climáticas em um único índice, denominado de Índice de Decisăo Meteorológico (IDM), destina-se aos decisores năo-especialistas. Para isso, o Índice deverá usar as tręs preferęncias dos decisores relacionados com a previsăo de tempo através de um Sistema de Suporte ŕ Decisăo Meteorológico (SSDM). Assim, esta abordagem sistęmica deve combinar diferentes métodos e metodologias, como a Estruturaçăo de Problema, Análise Multicritério, planejamento por cenários, além de considerar as múltiplas dimensőes envolvidas com a gestăo de riscos meteorológicos. Com resultados do estudo de caso, foi possível concluir que, para probabilidades baixas (p ? p2) ou para prazos estendidos (t ? t2) o grupo de decisores năo utilizam a informaçăo meteorológica para tomar decisőes, mesmo com o prognóstico de condiçőes extremas. A proposta do IDM e do SSDM também indicou que, a integraçăo das modernas técnicas de previsăo de tempo com uma abordagem multi-metodológica da Pesquisa Operacional é apropriada para problemas de decisăo em situaçőes de incerteza meteorológica.",
+  "subjects": [
+    "Meteorologia",
+    "Bases de lançamento",
+    "Avaliaçăo de riscos",
+    "Teoria multicritério da decisăo",
+    "Dados meteorológicos",
+    "Previsăo do tempo"
+  ],
+  "defense_date": "27/04/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68286",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68286&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "000491606",
+  "type": "tese",
+  "title": "Simulaçăo de escoamentos sobre um foguete de sondagem utilizando malhas multiblocos chimera e justapostas.",
+  "author": "José Carlos Papa",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Simulaçőes dos escoamentos aerodinâmicos sobre um foguete de sondagem típico săo apresentadas. Freqüentemente, os foguetes de sondagem utilizam mais de um conjunto de empenas e necessitam que essas empenas possuam um tamanho razoável. A fim de lidar com esse tipo de configuraçăo, o presente trabalho faz uso de uma nova metodologia, que combina simultaneamente malhas multibloco Chimera e justapostas na discretizaçăo do domínio computacional. Os escoamentos de interesse săo modelados utilizando as equaçőes de Euler em tręs dimensőes e o trabalho descreve os detalhes dos procedimentos de discretizaçăo, os quais utilizam uma abordagem de diferenças finitas para malhas estruturadas multibloco que se conformam ao corpo simulado. O método é utilizado para calcular a aerodinâmica de um veículo de sondagem atualmente em desenvolvimento. Os resultados indicam que a presente metodologia pode ser uma ferramenta poderosa de análise aerodinâmica e de projeto.",
+  "subjects": [
+    "Escoamento de fluidos",
+    "Configuraçőes aerodinâmicas",
+    "Simulaçăo",
+    "Dinâmica dos fluidos computacional",
+    "Teoria das diferenças finitas",
+    "Foguetes-sonda",
+    "Montagem de empenagens",
+    "Aerodinâmica",
+    "Mecânica dos fluidos",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000491606",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000491606&origem=BDITA"
+}

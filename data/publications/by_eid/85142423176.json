@@ -1,0 +1,110 @@
+{
+  "publication_id": "2-s2.0-85142423176",
+  "eid": "2-s2.0-85142423176",
+  "doi": "10.1007/s40430-022-03899-9",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Validation and analysis of turbulence modeling in pipe elbow under secondary flow conditions",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.The present work proposes to analyze the performance of five eddy-viscosity turbulence models in predicting an internal single-phase incompressible turbulent flow through an elbow pipe. Validation is achieved by comparison with LES and experimental benchmark results. Particular emphasis is placed in the study of the velocity fields under challenging conditions in terms of turbulence modeling. Ultimately, the analysis aims to determine the most adequate model among the analyzed ones in terms of accuracy, envisioning further application in multiphase flows. Results show that the SST closure is the most appropriate turbulence model to predict the velocity profile in regions of significant streamline curvature, whereas, in the presence of high adverse pressure gradients, the most appropriate one is the realizable k- ϵ model. Furthermore, a quantitative analysis suggests that a modification to the F1 blending function in the SST model may improve the mean velocity agreement with LES benchmark results in the near-wall region located downstream of the bend.",
+  "authkeywords": [
+    "90-degree bent elbow",
+    "Pipe bend",
+    "Secondary flow",
+    "Turbulence models"
+  ],
+  "year": "2022",
+  "date": "2022-12-01",
+  "type": "article",
+  "subtype": "re",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "12",
+    "pages": null,
+    "article_number": "595"
+  },
+  "authors": [
+    {
+      "name": "Carloni, Ana Cristina Neves",
+      "scopus_id": "57215108380",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Conde, Kevin Eduardo de",
+      "scopus_id": "56433550400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pantaleão, Aluisio Viais",
+      "scopus_id": "6506018190",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.de",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142423176&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088685",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85060468743",
+  "eid": "2-s2.0-85060468743",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Actuator and sensor placement for closed-loop control of convective instabilities",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.This work deals with the characterization of the control of convective wavepackets, typical of the initial stages of transition to turbulence, using the Kuramoto-Sivashinsky equation [1] as a model problem representative of the transitional 2D boundary layer. Its simplified structure and reduced order provide a manageable framework for the study of fundamental concepts involving the control of linear wavepackets. The objective of this paper is to explore how the sensor-actuator placement interferes in the control problem. This is carried out by evaluating errors of the optimal estimator at positions where control gains are significant. Results show, in quantitative manner, why some choices of sensor/actuator placement are more effective than others for flow control.",
+  "authkeywords": [
+    "Closed-loop control",
+    "Convective instabilities"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Freire, Guilherme A.",
+      "scopus_id": "57205542599",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060468743&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101334",
+    "data_quality_score": 70
+  }
+}

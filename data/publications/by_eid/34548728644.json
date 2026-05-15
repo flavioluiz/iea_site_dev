@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-34548728644",
+  "eid": "2-s2.0-34548728644",
+  "doi": "10.1115/GT2007-27987",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Gas turbine fault detection and isolation using mlp artificial neural network",
+  "abstract": "This work deals with a nonlinear model, based on a particular form of artificial neural networks, ANN, for application to gas turbines fault diagnosis. The traditional multi-layer perceptron (MLP) is used, with error backpropagation and different activation functions. The application of the model is illustrated using test data from a gas turbine simulation computer program. A specially developed computer program is used to simulate the engine in operation, generating all needed engine data for both baseline and deteriorated engine. A test case using a turboshaft engine is used to demonstrate the capacity of this ANN to identify faults that may occur during engine operation. Copyright © 2007 by ASME.",
+  "authkeywords": null,
+  "year": "2007",
+  "date": "2007-09-24",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": "803-811",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Matuck, Gustavo R.",
+      "scopus_id": "21742966800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, João Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Lima, Isaias",
+      "scopus_id": "9334642200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=34548728644&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052278",
+    "data_quality_score": 90
+  }
+}

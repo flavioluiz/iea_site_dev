@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85061456245",
+  "eid": "2-s2.0-85061456245",
+  "doi": "10.1017/jfm.2019.27",
+  "pii": "S0022112019000272",
+  "pubmed_id": null,
+  "title": "Transfer functions for flow predictions in wall-bounded turbulence",
+  "abstract": "© 2019 Cambridge University Press.Three methods are evaluated to estimate the streamwise velocity fluctuations of a zero-pressure-gradient turbulent boundary layer of momentum-Thickness-based Reynolds number up to , using as input velocity fluctuations at different wall-normal positions. A system identification approach is considered where large-eddy simulation data are used to build single and multiple-input linear and nonlinear transfer functions. Such transfer functions are then treated as convolution kernels and may be used as models for the prediction of the fluctuations. Good agreement between predicted and reference data is observed when the streamwise velocity in the near-wall region is estimated from fluctuations in the outer region. Both the unsteady behaviour of the fluctuations and the spectral content of the data are properly predicted. It is shown that approximately 45Â % of the energy in the near-wall peak is linearly correlated with the outer-layer structures, for the reference case . These identified transfer functions allow insight into the causality between the different wall-normal locations in a turbulent boundary layer along with an estimation of the tilting angle of the large-scale structures. Differences in accuracy of the methods (single-and multiple-input linear and nonlinear) are assessed by evaluating the coherence of the structures between wall-normally separated positions. It is shown that the large-scale fluctuations are coherent between the outer and inner layers, by means of an interactions which strengthens with increasing Reynolds number, whereas the finer-scale fluctuations are only coherent within the near-wall region. This enables the possibility of considering the wall-shear stress as an input measurement, which would more easily allow the implementation of these methods in experimental applications. A parametric study was also performed by evaluating the effect of the Reynolds number, wall-normal positions and input quantities considered in the model. Since the methods vary in terms of their complexity for implementation, computational expense and accuracy, the technique of choice will depend on the application under consideration. We also assessed the possibility of designing and testing the models at different Reynolds numbers, where it is shown that the prediction of the near-wall peak from wall-shear-stress measurements is practically unaffected even for a one order of magnitude change in the corresponding Reynolds number of the design and test, indicating that the interaction between the near-wall peak fluctuations and the wall is approximately Reynolds-number independent. Furthermore, given the performance of such methods in the prediction of flow features in turbulent boundary layers, they have a good potential for implementation in experiments and realistic flow control applications, where the prediction of the near-wall peak led to correlations above 0.80 when wall-shear stress was used in a multiple-input or nonlinear scheme. Errors of the order of 20Â % were also observed in the determination of the near-wall spectral peak, depending on the employed method.",
+  "authkeywords": [
+    "turbulence modelling",
+    "turbulent boundary layers"
+  ],
+  "year": "2019",
+  "date": "2019-04-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "864",
+    "issue": null,
+    "pages": "708-745",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657-60002014-60275410",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vinuesa, Ricardo",
+      "scopus_id": "55553485100",
+      "affiliation": "60002014-60275410",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Schlatter, Philipp",
+      "scopus_id": "57203088235",
+      "affiliation": "60002014-60275410",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60021657-60002014-60275410",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 34,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 64,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061456245&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101066",
+    "data_quality_score": 100
+  }
+}

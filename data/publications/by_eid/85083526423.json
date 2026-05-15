@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85083526423",
+  "eid": "2-s2.0-85083526423",
+  "doi": "10.1016/j.ijthermalsci.2020.106421",
+  "pii": "S1290072919313225",
+  "pubmed_id": null,
+  "title": "A thermal study of a new oil well plugging & abandonment operation",
+  "abstract": "© 2020 Elsevier Masson SASWhen the oil and gas extraction in a well is over or ended by wellbore issues, a Plugging and Abandoning (P&A) operation is required. The usual method is the well cementation. A recent process is the rock fusion method through a thermite reaction for wellbore buffering operation. This paper presents a numerical thermal study for this new process. The developed model is based on the solution of the three-dimensional heat diffusion equation by a seven points Finite Difference scheme. A multi-layer geometry, composed of dolomite, cement, carbon iron steel, and thermite, is used to simulate the oil well. The phase change problem is approached through the enthalpy function. In order to optimize the problem solution, an in-house parallel algorithm in CUDA-C language was developed to solve the problem in a Graphical Process Unity (GPU). A modify Successive Over-Relaxation (SOR-M) scheme was applied to minimizing the computational time. The thermal fields are analyzed to determine if the thermite generation heat is enough to create the plug. The study found that high-power thermite is required to make the P&A process. The study also found that a coupling between the cracks in the cement at high-temperature, liquid dolomite, and the mix of the liquid steel duct, and thermite are responsible to break the cement and create a plug to perform the P&A operation.",
+  "authkeywords": [
+    "Parallel linear equations solver",
+    "Plugging and abandoning",
+    "Thermal analysis",
+    "Thermite"
+  ],
+  "year": "2020",
+  "date": "2020-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermal Sciences",
+    "issn": "12900729",
+    "eissn": null,
+    "volume": "155",
+    "issue": null,
+    "pages": null,
+    "article_number": "106421"
+  },
+  "authors": [
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes",
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 23,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083526423&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091194",
+    "data_quality_score": 100
+  }
+}

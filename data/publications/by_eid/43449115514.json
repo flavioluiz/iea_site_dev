@@ -1,0 +1,52 @@
+{
+  "publication_id": "2-s2.0-43449115514",
+  "eid": "2-s2.0-43449115514",
+  "doi": "10.1016/B978-008044490-1/50005-3",
+  "pii": "B9780080444901500053",
+  "pubmed_id": null,
+  "title": "The Double-Decomposition Concept for Turbulent Transport in Porous Media",
+  "abstract": "Environmental impact analyses as well as engineering equipment design can both benefit from the reliable modeling of turbulent flow in porous media. A number of natural and engineering systems can be characterized by a permeable structure through which a working fluid permeates. Turbulence models proposed for such flows depend on the order of application of time- and volume-average operators. Two methodologies, following the two orders of integration, lead to different governing equations for statistical quantities. The chapter reviews recently published methodologies to mathematically characterize turbulent transport in porous media. It also introduces a new concept called double-decomposition and classifies models for turbulent transport in porous media in terms of the order of application of the time- and volume-averaging operators, among other peculiarities. The chapter also reviews instantaneous local transport equations for clear flow before time- and volume-averaging procedures are applied to them. The double-decomposition concept is presented and thoroughly discussed prior to the derivation of macroscopic governing equations. Equations for turbulent transport follow, showing a detailed derivation for mean and turbulent field quantities. The statistical k-e model for clear domains, used to model macroscopic turbulence effects, also serves as the basis for heat transfer modeling. Mass transfer in porous matrices is further reviewed in the light of the double-decomposition concept. © 2005 Elsevier Ltd All rights reserved.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-12-01",
+  "type": "article",
+  "subtype": "ch",
+  "journal": {
+    "name": "Transport Phenomena in Porous Media III",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1-33",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, M. J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 22,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=43449115514&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111364",
+    "data_quality_score": 90
+  }
+}

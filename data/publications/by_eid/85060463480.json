@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85060463480",
+  "eid": "2-s2.0-85060463480",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Characteristic helicopter flight mechanics and motion cueing integration into the sivor robotic flight simulator: An objective approach",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.The following paper will depict the process followed to build a baseline motion cueing setting specific for VTOL and helicopter applications for the SIVOR flight simulator at ITA. This effort is built around three elements: a pilot model, an identified model of the robotic platform and a set of surrogate flight dynamic models representative of helicopter motion. Initially, a description of the platform and simulation environment is presented, followed by the tuning strategy based on numerical optimization and a test case which will serve as a validation for the optimization strategy. A brief description of the SIVOR system identification process is presented along with the structural-pilot-model used to explore a set of three main manoeuvres which are used for washout filter tuning. Optimization results included in the test maneuvers show good agreement with published experimental observations.",
+  "authkeywords": [
+    "Flight Simulation Robotics Motion Cueing"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Hidalgo, Diego F.",
+      "scopus_id": "57205540518",
+      "affiliation": "60046690",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodamilans, Guilherme B.",
+      "scopus_id": "57191092056",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Oliveira, Wesley R.",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    }
+  ],
+  "eam_coauthors": [
+    "wesley-rodrigues-de-oliveira"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060463480&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.113897",
+    "data_quality_score": 80
+  }
+}

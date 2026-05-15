@@ -1,0 +1,29 @@
+{
+  "num_tese": "000147344",
+  "type": "tese",
+  "title": "Otimizaçăo da trajetória ascendente de veículos lançadores de satélites utilizando o algoritmo dos múltiplos tiros",
+  "author": "Rodrigo Fleury Zerlotti",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho investiga-se a trajetória ascendente de veículos lançadores de satélites até uma órbita alvo pré-fixada. Esta trajetória consiste de fases tracionadas e balísticas. Os controles săo determinados de maneira que a massa satelizável seja máxima. O modelo tridimensional inclui a rotaçăo da atmosfera com a Terra, o arrasto do veículo, a limitaçăo da sustentaçăo e a variaçăo da propulsăo com a altitude. Este problema de otimizaçăo é formulado como um problema de valor de contorno em dois pontos (Two Point Boundary Value Problem - \"TPBVP\"), que surge da aplicaçăo da teoria de controle ótimo. O problema foi resolvido pelo método indireto dos múltiplos tiros, utilizando-se o algoritmo numérico BNDSCO. Os resultados obtidos utilizando-se uma trajetória bidimensional foram comparados com dados obtidos na literatura através de métodos subótimos de busca direta. As massas satelizáveis alcançadas para várias altitudes foram sempre superiores ŕs encontras na literaturta.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Análise numérica",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/10/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000147344",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000147344&origem=BDITA"
+}

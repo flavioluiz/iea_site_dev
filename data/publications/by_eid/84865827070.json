@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-84865827070",
+  "eid": "2-s2.0-84865827070",
+  "doi": "10.1007/s10569-012-9418-y",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Diversity and validity of stable-unstable transitions in the algorithmic weak stability boundary",
+  "abstract": "This paper is devoted to verify the consistency of the algorithmic Weak Stability Boundary definition concerning the achievement of capture-escape detection, through examining the transitions produced by the implementation of this definition. Our main goal is to show that many types of spurious transitions concerning capture-escape behavior are found besides the expected transitions due to the separatrix role of the hyperbolic invariant manifolds of the central manifold of the collinear equilibria of the Planar Circular Restricted Three-Body Problem. We identify and characterize authentic and spurious transitions and discuss their spatial distribution along the boundary for sets of initial conditions with high eccentricity, showing the frequent occurrence of spurious transitions and of collisional trajectories. Also, we investigate smooth and fractal-like portions of the boundary. Finally, we propose an alternative stability boundary definition based on the effective detection of capture-escape transitions. © 2012 Springer Science+Business Media B.V.",
+  "authkeywords": [
+    "Capture-escape transitions",
+    "Earth-to-moon transfers",
+    "Restricted three-body problem",
+    "Spurious transitions",
+    "Weak stability boundary"
+  ],
+  "year": "2012",
+  "date": "2012-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Celestial Mechanics and Dynamical Astronomy",
+    "issn": "09232958",
+    "eissn": "15729478",
+    "volume": "113",
+    "issue": "4",
+    "pages": "453-478",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sousa Silva, Priscilla A.",
+      "scopus_id": "36761402700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, Maisa O.",
+      "scopus_id": "7003287545",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Mathematical Physics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84865827070&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068537",
+    "data_quality_score": 100
+  }
+}

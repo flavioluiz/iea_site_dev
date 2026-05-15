@@ -1,0 +1,34 @@
+{
+  "num_tese": "65617",
+  "type": "tese",
+  "title": "Simulaçăo inversa aplicada ao Veículo Lançador de Satélites - VLS",
+  "author": "Euler Gonçalves Barbosa",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Waldemar de Castro Leite Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe uma nova abordagem para a análise dinâmica e projeto do Sistema de Controle do Veículo Lançador de Satélites (VLS). Esta nova abordagem, denominada Simulaçăo Inversa permite obter as entradas de controle das tubeiras móveis do VLS de forma que o veículo siga uma pré-determinada trajetória. Atualmente os projetos săo baseados em modelos teóricos e simulaçőes diretas realizadas em computadores analógicos e digitais e por fim em uma simulaçăo do tipo Hardware-in-the-Loop. A Simulaçăo Inversa pode ser aplicada com o intuito de rastrear entradas responsáveis por comportamentos oscilatórios nas saídas temporais da Simulaçăo Diretas. As dinâmicas năo modeladas ou năo consideradas podem ser apontadas na análise da Simulaçăo Inversa visto que tais modelos podem ser implementados nas equaçőes dinâmicas do veículo e em seguida colocados no processo de análise da simulaçăo Inversa. A Simulaçăo Inversa tem sido aplicada com frequęncia a veículos aeronáuticos e navais, mas nada ainda a respeito de aplicaçőes em veículos lançadores ou de sondagem. Isso posto, esta nova abordagem aplicada ŕs Equaçőes do Movimento do VLS proporcionará uma nova ferramenta de análise no âmbito de Engenharia de Sistemas e de Sistemas de Controle, permitindo alterar características elétricas, mecânicas e aerodinâmicas do veículo.",
+  "subjects": [
+    "VLS (Brasil)",
+    "Veículos de lançamento",
+    "Otimizaçăo de trajetória",
+    "Manobras de aeronaves",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65617",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65617&origem=BDITA"
+}

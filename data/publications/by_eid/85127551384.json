@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85127551384",
+  "eid": "2-s2.0-85127551384",
+  "doi": "10.2514/1.J060784",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Acoustic scattering by laminated plates with viscoelastic layers",
+  "abstract": "© 2022, AIAA International. All rights reserved.The effect of addition of viscoelastic plies on the acoustic scattering quadrupoles near the trailing edge of laminated plates is evaluated. A numerical method is applied to compute the acoustic field scattered by finite flexible plates. For a two-dimensional problem whereby a cantilevered plate scatters sound from a point quadrupole near the free edge, results show that adding viscoelastic layers to a composite plate can modify the far-field sound. Parametric investigations show that this treatment reduces scattered noise near resonance frequencies. Discussions on the positioning and thickness of the viscoelastic layers and operating temperature are provided. The use of outer viscoelastic layers in composite plates is predicted to significantly reduce acoustic scattering near resonances due to structural damping.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "60",
+    "issue": "4",
+    "pages": "2469-2480",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nilton, Maurício M.",
+      "scopus_id": "57194858098",
+      "affiliation": "60028351",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Wolf, William R.",
+      "scopus_id": "36621377400",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85127551384&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100714",
+    "data_quality_score": 80
+  }
+}

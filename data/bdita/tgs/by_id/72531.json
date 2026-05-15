@@ -1,0 +1,26 @@
+{
+  "num_tg": "72531",
+  "type": "tg",
+  "title": "A systems approach for the development of the SPORT mission",
+  "author": "Alexandre de Oliveira Ferraz",
+  "year": "2016",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luís Eduardo Vergueiro Loures da Costa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "SPORT - The Scintillation Prediction Observation Research Task - is a mission developed by NASA and ITA to analyze space weather. The mission arose from the need of the scientific community of understanding the ionospheric scintillation phenomenon, which is a fluctuation of a radio-frequency signal when it passes through regions with small scale irregularities of electron density in the ionosphere. The results of this phenomenon are interferences in signal's phase and amplitude, what might affect satellite-based communication and navigation systems, like GPS-based systems, and scientific instruments that require observation of signals that passes through ionosphere, like ground-based radio telescopes. Current scientific investigation relates the ionospheric scintillation phenomenon with the appearance of plasma bubbles, generally in the F-layer of the ionosphere, at altitudes between 200 and 1000 km. These anomalies are prevalent in equatorial and high-latitude regions, occurring usually at post sunset period, becoming more intense in the pre-midnight and declining around the pre midnight and predawn. In order to leverage to knowledge about the phenomenon and encourage academic investigation and practice, the SPORT mission - as a scientific initiative among universities and research institutes - aims to determine the state of the ionosphere that proceeds the growth of structures and irregularities after sunset and understand how night time ionospheric depletion regions are correlated to small scale structures that cause scintillations at different frequencies. Given the context, the present work analyzes the SPORT mission according a systems approach: it applies the basic concepts of Systems Engineering to the conceptual design of SPORT mission. Technical materials and available information about the mission were analyzed from an external point-of-view in order to develop a case study structured according a Systems Engineering language. This structured analysis, inspired on LARSON et al. (2009), enabled the identification of basic system concepts in SPORT: Stakeholders, Expectations, Concept of Operations, Requirements, Functions, Architecture and Allocation. The articulation of these concepts led to a critical analysis of the System of Interest, whose results are discussed in the present work. The results of the project not only allow a better understanding of SPORT mission as they foster and indorse the application of Systems Engineering concepts.",
+  "subjects": [
+    "Cintilaçăo",
+    "Ionosfera",
+    "Requisitos",
+    "Missőes espaciais",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72531",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72531&origem=BDITA"
+}

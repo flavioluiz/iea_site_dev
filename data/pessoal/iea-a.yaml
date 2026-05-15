@@ -1,0 +1,45 @@
+departamento: "iea-a"
+membros:
+  - nome: "Paulo Afonso de Oliveira Soviero"
+    categoria: "Professor Titular"
+    slug: "paulo-afonso-soviero"
+
+  - nome: "André Valdetaro Gomes Cavalieri"
+    categoria: "Professor Associado"
+    slug: "andre-v-g-cavalieri"
+    perfil: "andre-v-g-cavalieri"
+
+  - nome: "Tiago Barbosa de Araujo"
+    categoria: "Professor Adjunto"
+    chefe_departamento: true
+    slug: "tiago-barbosa-de-araujo"
+    perfil: "tiago-barbosa-de-araujo"
+
+  - nome: "Vinicius Malatesta"
+    categoria: "Professor Adjunto"
+    slug: "vinicius-malatesta"
+    perfil: "vinicius-malatesta"
+
+  - nome: "Vitor Gabriel Kleine"
+    categoria: "Professor Adjunto"
+    slug: "vitor-gabriel-kleine"
+    perfil: "vitor-gabriel-kleine"
+
+  - nome: "André Fernando de Castro da Silva"
+    categoria: "Instrutor"
+    posto: "Maj Eng AER"
+    slug: "andre-fernando-c-silva"
+    perfil: "andre-fernando-c-silva"
+
+  - nome: "Filipe Ramos do Amaral"
+    categoria: "Docente Voluntário"
+    slug: "filipe-ramos-amaral"
+
+  - nome: "Rodrigo Costa Moura"
+    categoria: "Docente Voluntário"
+    slug: "rodrigo-costa-moura"
+    perfil: "rodrigo-costa-moura"
+
+  - nome: "Valéria Serrano Faillace Oliveira Leite"
+    categoria: "Docente Voluntário"
+    slug: "valeria-faillace-leite"

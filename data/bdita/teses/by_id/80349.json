@@ -1,0 +1,36 @@
+{
+  "num_tese": "80349",
+  "type": "tese",
+  "title": "Use of large language models to support aerospace defense systems engineering",
+  "author": "Guilherme Micheli Bedini Moreira",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This research investigates the integration of Large Language Models (LLMs) into aerospace defense systems engineering to automate two critical processes: eliciting requirements through System Theoretic Process Analysis (STPA) and assigning Means of Compliance (MoCs) to aerospace defense systems' requirements. The motivation lies in addressing the labor-intensive and error-prone nature of traditional methods, which heavily rely on human expertise. The study specifically evaluates the feasibility and performance of LLMs, such as GPT-3.5 and GPT-4, when guided by advanced Prompt Engineering techniques and fine-tuning methodologies. These approaches aim to maintain or surpass the accuracy and quality typically achieved by experts in the field. The problem under investigation is the inefficiency and variability of manual requirements engineering and compliance processes, which are critical in defense aerospace systems due to stringent safety and reliability demands. Using a hypothetical Unmanned Combat Air Vehicle (UCAV) as a case study, the study situates the research in the context of the Brazilian Air Force (FAB), where these challenges are particularly acute. The methodology involves automating Phase 1 of STPA through tailored prompts to generate system requirements and training a fine-tuned model to assign MoCs accurately. Performance was benchmarked against real-world system data and domain experts' outputs. The findings highlight that LLMs guided by Prompt Engineering can generate requirements that meet or exceed eight of nine evaluated quality attributes, including testability, completeness, clarity, and modifiability. The fine-tuned 'gpt-3.5-turbo' model achieved an 80.18% accuracy in MoC assignments. Finally, with appropriate techniques, it was possible to generate safety assessment reports such as PHAs (Preliminary Hazard Analysis) from the technical documentation of real products. The implications of this research are profound. By streamlining requirements elicitation, MoC assignment, and the generation of engineering reports, LLMs reduce the time, effort, and cost associated with engineering processes while maintaining high standards of rigor and reliability. This work advances academic understanding of LLM applications in safety-critical systems, introduces a scalable and replicable framework for integrating LLMs into engineering workflows, and offers practical tools to the aerospace defense industry.",
+  "subjects": [
+    "Sistemas aeroespaciais",
+    "Elicitaçăo de requisitos",
+    "Inteligęncia artificial",
+    "Engenharia de sistemas",
+    "Processos",
+    "Força Aérea Brasileira",
+    "Análise de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "14/02/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80349",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80349&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tg": "75241",
+  "type": "tg",
+  "title": "Algoritmo de fusăo sensorial para um sistema de navegaçăo inercial aplicável a veículos de sondagem",
+  "author": "Nathália Matos da Silva",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joana D'arc Dias Costa",
+      "professor_slug": null
+    },
+    {
+      "name": "Roberto Brusnicki",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um sistema de navegaçăo inercial a partir do uso do algoritmo de Filtro de Kalman (FK) com fusăo sensorial. Com auxílio de alguns sensores inerciais e de um computador, é possível determinar posiçăo, velocidade e orientaçăo de veículos como carros, navios, aviőes, mísseis e foguetes. O algoritmo de FKE busca otimizar a estimaçăo dos estados, isto é, grandezas variáveis do sistema, a fim de minimizar os erros de medida e de modelagem. Ŕ princípio, o trabalho pretende aplicar o algoritmo de navegaçăo inercial em um veículo lançador. Para isso, é importante estudar a viabilidade da utilizaçăo do Filtro de Kalman Estendido (FKE) com fusăo sensorial no sistema de navegaçăo que está sendo desenvolvido pelo Instituto de Aeronáutica e Espaço (IAE) dentro do projeto SISNAC (Sistema de Navegaçăo e Controle), visto que atualmente tal algoritmo năo está implementado. No entanto, o trabalho buscou limitar-se a aplicaçăo do algoritmo em um projeto de menor escala, desenvolvido por alunos do Instituto Tecnológico de Aeronáutica (ITA). O trabalho buscou avaliar o comportamento do voo do foguete RD-08, o qual foi desenvolvido pela iniciativa de alunos do ITA, chamada ITA Rocket Design (ITA-RD), para participar da competiçăo internacional SpacePort America Cup (SA Cup), realizada no Novo México, EUA, em junho de 2018, um evento projetado em torno da IREC (Intercollegiate Rocket Engineering Competition) para estudantes de foguetes de vários países ao redor do mundo. Para isso, foi necessário coletar os dados de entrada que descrevem o RD-08 a fim de configurar um problema de seis graus de liberdade (em inglęs, \\textit{six degrees of freedom} (6DOF)). Os dados foram: parâmetros aerodinâmicos, propriedades de massa e dados sobre a propulsăo. Os sensores embarcados utilizados para o FKE com fusăo sensorial foram a unidade de medida inercial (UMI), chamada GY80, com acelerômetro, girômetro, magnetômetro e barômetro, e o GPS. Contudo, infelizmente, os dados dos sensores inerciais do RD-08, durante o voo na competiçăo, năo foram coletados, portanto foi possível realizar apenas simulaçőes computacionais modelando os dados dos sensores a partir das informaçőes dos respectivos datasheet deles. No caso, foram simuladas medidas de acelerômetro, girômetro, magnetômetro e GPS. Com isso, foi possível a implementaçăo do FKE com fusăo sensorial só com GPS e com GPS e magnetômetro.",
+  "subjects": [
+    "Fusăo de multisensor",
+    "Filtros de Kalman",
+    "Navegaçăo inercial",
+    "Simulaçăo computadorizada",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75241",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75241&origem=BDITA"
+}

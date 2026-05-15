@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-85102036152",
+  "eid": "2-s2.0-85102036152",
+  "doi": "10.1016/j.addma.2021.101900",
+  "pii": "S2214860421000658",
+  "pubmed_id": null,
+  "title": "VOLCO-X: Numerical simulation of material distribution and voids in extrusion additive manufacturing",
+  "abstract": "© 2021Parts produced by additive manufacturing have final characteristics (such as mechanical properties and dimensional accuracy) strongly dependent on how material is deposited during production. This study presents a modelling concept called VOLCO-X (VOLume COnserving model - eXtended version), which extends a recently developed simulation technique to be able to accurately simulate deposited structures that were not possible with the previous model. A major advantage of the proposed modelling approach is that it does not require any experimental calibration or fitting. The modelling approach is based on a principle of conservation of volume in a voxelized space, in conjunction with a new deposition modelling concept that re-distributes the deposited material when neighboring filaments are in contact. In addition, an acceleration-dependent extrusion rate correction was implemented in the software to predict changes in the material distribution as function of the printing speed, as well as a mechanism to effectively consider possible asymmetry of deposited filaments. The model is shown to accurately predict the geometry and porosity of specimens manufactured by Fused Filament Fabrication (FFF) with varied printing speeds, distance between filaments and extrusion widths. The numerical results correlated well with validation experiments, being able to capture the transition from triangle to diamond void shapes and to predict defects observed in printed parts. VOLCO-X could simulate printing conditions from fully dense structures to under-extruded structures with gaps. It has potential to aid in the design of functional printed parts by predicting the final dimensions, void shapes and void volume fraction of 3D printed parts, and represents an important step towards enabling the predictive simulation of full-sized parts.",
+  "authkeywords": [
+    "3D printing",
+    "Fused filament fabrication",
+    "Material distribution",
+    "Printing speed",
+    "VOLCO"
+  ],
+  "year": "2021",
+  "date": "2021-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Additive Manufacturing",
+    "issn": null,
+    "eissn": "22148604",
+    "volume": "40",
+    "issue": null,
+    "pages": null,
+    "article_number": "101900"
+  },
+  "authors": [
+    {
+      "name": "Macedo, Rafael Quelho de",
+      "scopus_id": "57191573251",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, Rafael Thiago Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Gleadall, Andrew",
+      "scopus_id": "55313666300",
+      "affiliation": "60015138-60000891",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ashcroft, Ian",
+      "scopus_id": "7003672565",
+      "affiliation": "60015138",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Biomedical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Engineering (miscellaneous)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 58,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85102036152&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063724",
+    "data_quality_score": 100
+  }
+}

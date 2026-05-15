@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-35648952691",
+  "eid": "2-s2.0-35648952691",
+  "doi": "10.2514/6.2007-4572",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On the calculation of an UAV's response to elevator deflection",
+  "abstract": "UAVs are becoming more and more importan lately due to the declining costs of the electronic systems needed to guide them. This type of aircraft has many interesting applications specially substituting manned aircraft in dangerous missions such as transmission lines inspection. In the particular transmission line concerning the authors the hilss and trees along the way are of concern. To accomplish the mission the airplane has to cruise at approximately 80km/h. Thus, it is very important to gather low-Reynolds number data. This is a very interesting and not fully understood flow regime. This work presents experimental data for the following aerodynamic coefficients: Lift, drag and pitching moment as a function of the angle of attack and of the horizontal tail incidence. The experimental results allowed calculations of the flight dynamics of the aircraft, and comparisons with theoretical methods to predict the aerodynamic forces for flight simulations.",
+  "authkeywords": null,
+  "year": "2007",
+  "date": "2007-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers AIAA Applied Aerodynamics Conference",
+    "issn": "10485953",
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "2373-2384",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Girardi, Roberto M.",
+      "scopus_id": "55907188800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Araujo, Tiago B.",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    },
+    {
+      "name": "Silvestre, Flavio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, Andre V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657-60010401",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Fico, Nide G.C.R.",
+      "scopus_id": "22950815200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "tiago-barbosa-de-araujo",
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=35648952691&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102316",
+    "data_quality_score": 80
+  }
+}

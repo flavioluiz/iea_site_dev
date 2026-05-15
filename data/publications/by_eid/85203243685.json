@@ -1,0 +1,68 @@
+{
+  "publication_id": "2-s2.0-85203243685",
+  "eid": "2-s2.0-85203243685",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear modeling and analysis of rotors supported by magneto-rheological fluid journal bearings",
+  "abstract": "© CSP - Cambridge, UK; I&S - Florida, USA, 2024In this work, the influence of magneto-rheological fluid embedded on journal bearings in the dynamic behavior of rotors is considered. The modified Reynolds equations for Bingham viscoplastic materials are used for calculation of the nonlinear hydrodynamic forces. Flexible rotors are modeled by the finite element method. The static weight of the rotor, unbalance and bearing hydrodynamic forces are included in the equations of motion. Non-linear hydrodynamic forces calculation depends on the relative positions of the journal bearings. The dynamic system response is computed by the Newmark method modified to obtain the calculation of the differential displacements and velocities for each time step. By incorporating the Newton-Raphson method the necessary corrections are included in the equations of motion. Time and frequency responses are presented for two of the case studies. The sudden elevation in oscillation magnitudes due to the oil whip phenomenon is not observed in the run-up test after the application of electromagnetic induction on the MR fluid. Furthermore, the controlled variation in the viscosity of the MR fluid causes significant changes in the bearing movements, as demonstrated by the orbit graphs.",
+  "authkeywords": [
+    "Bifurcation",
+    "Magnetorheological squeeze film",
+    "Modified Newmark method",
+    "Nonlinear rotordynamics",
+    "Rotor misalignment"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematics in Engineering Science and Aerospace",
+    "issn": "20413165",
+    "eissn": "20413173",
+    "volume": "15",
+    "issue": "3",
+    "pages": "727-741",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203243685&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123083",
+    "data_quality_score": 80
+  }
+}

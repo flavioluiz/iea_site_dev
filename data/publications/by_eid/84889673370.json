@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-84889673370",
+  "eid": "2-s2.0-84889673370",
+  "doi": "10.1016/j.compstruct.2013.07.051",
+  "pii": "S0263822313003899",
+  "pubmed_id": null,
+  "title": "Hierarchical optimization of laminated fiber reinforced composites",
+  "abstract": "The aim of this work is to perform hierarchical optimization in laminated composite structures, considering simultaneously macroscopic and microscopic levels in the design of structure and material. The macroscopic level takes into account orientations and fiber volume fractions of unidirectional composite layers. The microscopic level considers the cross-sectional size and shape of the reinforcement fibers, assuming them elliptical. Both levels are coupled by a resource constraint and exchange derivatives in a mathematically consistent manner.The objective is to minimize compliance under a total fiber volume fraction constraint. The variation of the fibers' size and shape is considered by response surfaces for constitutive parameters of a reinforced lamina. Such surfaces are built from data evaluated by asymptotic homogenization techniques. The plies orientations are chosen using the Discrete Material Optimization (DMO) approach.Results in laminated plates show the influence of the reinforcement fibers' shape and volume fraction in their global behavior. The optimal microstructures obtained vary with the loading conditions considered. It is shown that the present optimization procedure permits to increase structural stiffness when material microstructural characteristics are considered. Moreover, an assessment of layers' microstructural stresses is carried out in order to evaluate the fibers' shape influence on stress concentrations. © 2013 Elsevier Ltd.",
+  "authkeywords": [
+    "Hierarchical optimization",
+    "Laminated composites",
+    "Shape of reinforcement fibers"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "107",
+    "issue": "1",
+    "pages": "246-259",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Rafael T.L.",
+      "scopus_id": "55690843400",
+      "affiliation": "60037670-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Rodrigues, Helder C.",
+      "scopus_id": "35614160700",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guedes, José M.",
+      "scopus_id": "7003775475",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hernandes, José A.",
+      "scopus_id": "57211220631",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 55,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 49,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84889673370&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063838",
+    "data_quality_score": 100
+  }
+}

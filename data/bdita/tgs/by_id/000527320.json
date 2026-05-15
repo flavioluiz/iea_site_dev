@@ -1,0 +1,31 @@
+{
+  "num_tg": "000527320",
+  "type": "tg",
+  "title": "Cálculo de probabilidade de impacto em alvos pré-determinados e de risco ŕ vida no lançamento de foguetes.",
+  "author": "Marcos Antonio Valle Junior",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ernesto Cordeiro Marujo",
+      "professor_slug": null
+    },
+    {
+      "name": "Raul de Magalhăes Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O propósito deste trabalho é estudar os princípios de segurança de vôo empregados pelo IAE para cálculo de probabilidade de impacto sobre alvos conhecidos em lançamentos de foguetes, um procedimento essencial em uma missăo de lançamento. Săo desenvolvidos a teoria empregada no cálculo probabilístico de dispersăo do ponto de impacto e o risco ŕ vida decorrente. Foi desenvolvido ainda um programa em ambiente C++ Builder 5.0 que calcula a probabilidade de impacto em embarcaçőes uma vez que este risco deve ser tratado com bastante seriedade, face ŕ localizaçăo e ŕs peculiaridades dos centros de lançamentos brasileiros. Testou-se o programa desenvolvido com dados relativos a um lançamento real ocorrido no CLA (a Operaçăo Cajuana). Outros alvos em potencial também săo analisados ao longo do texto, além de impactos em terra, mesmo que, na prática, tais riscos sejam razoavelmente menores, pois sabe-se que, entre outras coisas, houve um desvio das rotas aéreas das proximidades do CLA. Alcântara, por si só, é afastada de centros urbanos e que o CLBI se restringi atualmente a lançamentos de menor porte (o que pode ser explicado pelo crescimento da cidade de Natal nos últimos anos e o aumento de sua proximidade em relaçăo ao Centro).",
+  "subjects": [
+    "Planejamento de missăo",
+    "Lançamento",
+    "Prediçăo de impacto",
+    "Teoria das probabilidades",
+    "Segurança do vôo",
+    "Programas espaciais",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527320",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527320&origem=BDITA"
+}

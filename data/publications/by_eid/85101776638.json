@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85101776638",
+  "eid": "2-s2.0-85101776638",
+  "doi": "10.17533/udea.redin.20200474",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical study of airfoil with wavy leading edge at high Reynolds number regime",
+  "abstract": "© 2020. All Rights Reserved.In this work, a numerical study of flow around an airfoil with wavy leading edge is presented at a Reynolds number of 3×106. The flow is resolved by considering the RANS (Reynolds Average Navier-Stokes) equations. The baseline geometry is based on the NACA 0021 profile. The wavy leading edge has an amplitude of 3% and wavelength of 11%, both with respect to the airfoil chord. Cases without and with wavy leading edges are simulated and compared. Initially, studies of the numerical sensitivity with respect to the obtained results, considering aspects such as turbulence modeling and mesh refinement, are carried out as well as by comparison with corresponding results in the literature. Numerical data such as pressure distribution, shear stress lines on the wing surface, and aerodynamics coefficients are used to describe and investigate the flow features around the wavy leading airfoil. Comparisons between the straight leading edge and the wavy leading edge cases shows an increase of the maximum lift coefficient as well as stall angle for the wavy leading edge configuration. In addition, at an angle of attack near the stall, the present numerical results shows an increase of the drag coefficient with the wavy leading edge airfoil when compared with the corresponding straight leading edge case.",
+  "authkeywords": [
+    "CFD analysis",
+    "RANS simulation",
+    "Wavy leading edge airfoil"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Revista Facultad De Ingenieria",
+    "issn": "01206230",
+    "eissn": "24222844",
+    "volume": null,
+    "issue": "98",
+    "pages": "69-77",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fonseca, William Denner Pires",
+      "scopus_id": "57214244618",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Rafael Rosário",
+      "scopus_id": "57222165019",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Orselli, Reinaldo Marcondes",
+      "scopus_id": "36621177100",
+      "affiliation": "60001430",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Paula, Adson Agrico",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    },
+    {
+      "name": "da Silva, Ricardo Galdino",
+      "scopus_id": "55754195900",
+      "affiliation": "106622004",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101776638&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085413",
+    "data_quality_score": 100
+  }
+}

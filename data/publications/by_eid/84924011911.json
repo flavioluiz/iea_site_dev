@@ -1,0 +1,108 @@
+{
+  "publication_id": "2-s2.0-84924011911",
+  "eid": "2-s2.0-84924011911",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Usage of reduced numerical models in the design process of a shunted piezoelectric isolator",
+  "abstract": "This paper presents the design process and measurement results of a shunted piezoelectric isolator, which can be a good compromise between a solely passive and an active isolator. The system will be used for the reduction of the vibration transmission between two idealized panels of a plane fuselage. During the design process, numerical models of both, the panel structure and the shunted isolator, are used in order to derive reduced state-space matrices. Based on modal superposition, the numerical models describe the dynamic behaviour of the components and are integrated into a simulation environment of the holistic system. The required modal data is derived from experimental and numerical modal analyses of the panel. By means of an analytical description, the geometry of the shunted piezoelectric isolator is automatically optimized to defined goal parameters. Applying an impedance-admittance simulation approach, both the isolator and the shunt circuit are modeled. Using this simulation environment, the configuration and the performance of the shunt can be investigated and adjusted. After hardware realization of the shunted isolator, it is examined in a test setup. The results from test measurements are compared to simulation results of the system. Finally, two shunted isolators are placed between a fuselage panel and an ideal mass. Measurement results show the vibration reduction potential of the semi-passive system in addition to the solely passive isolation effect. This paper indicates the feasibility of shunted piezoelectric elements in addition to the passive isolation system. Furthermore an effective preliminary design strategy for the layout of shunted piezoelectric isolators is presented and compared to measurement results.",
+  "authkeywords": [
+    "Modal synthesis",
+    "Semi-passive systems",
+    "Smart material",
+    "Vibration isolation"
+  ],
+  "year": "2014",
+  "date": "2014-07-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "11th World Congress on Computational Mechanics Wccm 2014 5th European Conference on Computational Mechanics Eccm 2014 and 6th European Conference on Computational Fluid Dynamics Ecfd 2014",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "4161-4172",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bartel, Torsten",
+      "scopus_id": "56277962500",
+      "affiliation": "60007323",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Heuss, Oliver",
+      "scopus_id": "55023828400",
+      "affiliation": "60007323",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Melz, Tobias",
+      "scopus_id": "8937377700",
+      "affiliation": "60007323",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Scinocca, Francisco",
+      "scopus_id": "56535377900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    },
+    {
+      "name": "Goes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computational Theory and Mathematics",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84924011911&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077514",
+    "data_quality_score": 70
+  }
+}

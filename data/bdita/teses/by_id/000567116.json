@@ -1,0 +1,35 @@
+{
+  "num_tese": "000567116",
+  "type": "tese",
+  "title": "Contribuiçőes do model checking e da metodologia CoFi para o software embarcado espacial.",
+  "author": "Rodrigo Pastl Pontes",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ana Maria Ambrósio",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A crescente participaçăo do software embarcado nas causas dos últimos acidentes espaciais evidencia a importância dos processos e técnicas de verificaçăo e validaçăo no desenvolvimento do software embarcado espacial. Neste contexto, este trabalho investiga a contribuiçăo de duas técnicas de verificaçăo para aplicaçőes espaciais. A primeira técnica é o model checking baseado no uso da ferramenta UPPAAL. O UPPAAL adota a modelagem do sistema em autômatos temporizados e permite a verificaçăo de propriedades especificadas em um subconjunto da linguagem CTL (Computational Tree Logic). A segunda técnica consiste especificaçăo e aplicaçăo de testes a partir de modelos de estados, considerando mais especificamente a metodologia CoFI (Conformance and Fault Injection). Săo utilizados como estudo de caso dois produtos de software espacial. Um dos produtos foi desenvolvido com o uso do model checking, enquanto o outro foi desenvolvido de acordo com as práticas atualmente aplicadas pelo grupo de computador de bordo do Departamento de Eletrônica Aeroespacial do INPE (Instituto Nacional de Pesquisas Espaciais). Ambos os produtos de software foram testados utilizando a metodologia CoFI. Cada produto consiste de uma implementaçăo de dois serviços especificados na norma europeia PUS (Packet Utilization Standard). Estes serviços representam funcionalidades oferecidas por um computador de gerenciamento de bordo de satélites. As principais conclusőes obtidas săo que a metodologia CoFI contribui para o aprimoramento dos processos de verificaçăo atualmente em uso no INPE, e que, o model checking associado ŕ geraçăo manual do código năo implica na ausęncia de erros, porém ajuda a reduzir o número, mas năo a criticidade de erros quando comparado com as práticas atualmente em uso.",
+  "subjects": [
+    "Sistemas de computadores embarcados",
+    "Verificaçăo de programas (computadores)",
+    "Desenvolvimento de software",
+    "Testes de programa",
+    "Veículos espaciais",
+    "Engenharia de software",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "11/02/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567116",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567116&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "67013",
+  "type": "tese",
+  "title": "Elementos finitos tridimensionais quase-trefftz aplicados ŕ análise de estruturas laminadas ortotrópicas",
+  "author": "Marcos Antonio Campos Rodrigues",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As limitaçőes do método dos elementos finitos clássico, baseado em elementos de deslocamento, principalmente em situaçőes onde a precisăo na aproximaçăo das tensőes săo fundamentais, geram pesquisas em modelos alternativos. O elemento finito híbrido de Trefftz vem sendo aplicado com resultados satisfatórios na análise de estruturas de material isotrópico de comportamento linear e năo-linear. Neste elemento o campo de tensőes no domínio e o deslocamento no contorno săo aproximados diretamente e de maneira independente um do outro, além disso, as aproximaçőes para o campo de tensőes devem satisfazer ŕ condiçăo de equilíbrio local e serem obtidas da soluçăo da equaçăo diferencial de Navier, onde utiliza-se a soluçăo por Papkovitch-Neuber que foi formulada para materiais isotrópicos. Utilizando-se as mesmas bases polinomiais deste elemento, foi desenvolvido um elemento quase-Trefftz para análise de materiais ortotrópicos. Neste trabalho seu comportamento é avaliado para análise de estruturas com concentraçăo de tensăo, placas sujeitas a flexăo e com acoplamento traçăo-flexăo. As tensőes e os deslocamentos em diversos testes săo comparados aos resultados obtidos com o Nastran.",
+  "subjects": [
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Método de Trefftz",
+    "Análise de tensăo",
+    "Engenharia de materiais",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "30/07/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67013",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67013&origem=BDITA"
+}

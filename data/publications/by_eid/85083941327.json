@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85083941327",
+  "eid": "2-s2.0-85083941327",
+  "doi": "10.2514/6.2019-0557",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Trijet and twin-jet aircraft study for optimal aircraft design",
+  "abstract": "© 2019 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.Aircraft with three engines, as known as trijet, became a standard design among manufacturers after 1964 when the FAA’s 60-minute rule was exempted for these aircraft. This regulation restricted the flight path to 60 minutes’ flying time to a suitable airport, therefore affecting the operation costs and limiting the range of twin-jet aircraft. However, improvements to the engine’s reliability in the following decades allowed ETOPS certification for twinjet aircraft. The traditional trijet designs were slowly retired, the last commercial trijet flight was in 2014.The industry abandoned the design as solution for commercial aviation; however, executive jets such as the Falcon 7x and Falcon 8x, certified in 2016, show that this configuration might still be advantageous for specific markets. The certification at one engine inoperative condition presents an advantage for trijet aircraft, reducing takeoff thrust, since when one engine is inoperative, 67% of the total thrust is available for the trijet aircraft, while this value is only 50% for a twin-jet aircraft. The aircraft design is related to a multidisciplinary view. So, the thrust reduction and the implementation of a third engine have impacts on fuel burn, structural weight, external noise, performance, certification, maintenance, and the fuel feed system. In this sense, the multidisciplinary view justifies distinct thrust to weight ratio reduction caused by trijet configuration for different MTOW range. The aim of this work was to study the viability of a trijet aircraft configuration and potential advantages for a regional aviation scenario. The trijet configuration performance was evaluated and compared to twinjet configuration in a multidisciplinary design environment considering disciplines such as aero-dynamics, noise, performance, flight mechanic, weight, and structure. In addition, it was also assessed potential benefits from boundary layer ingestion of the engine over the fuselage and APU removal, since electrical engine starting becomes more feasible for small engines, as in the trijet scenario. An aircraft with MTOW ranging from 10,580 to 545,000 lb. was studied and the results showed that a reduction up to 7.0% of installed thrust might be achieved with the trijet design compared to twin-jet aircraft when the field length defined by aviation regula-tions is the critical constraint. However, flyover noise, structural weight and direct operating cost might increase in trijet design. In this sense, a correlation between twin-jet MTOW and trijet DOC was developed in order to aid early aircraft design decisions between both design configurations.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Inouye, Edgar Coelho",
+      "scopus_id": "57200818652",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Paula, Adson Agrico",
+      "scopus_id": "57162621700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    },
+    {
+      "name": "Alves, William Martins",
+      "scopus_id": "57200824717",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guedes, Patrice London",
+      "scopus_id": "57200822616",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083941327&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085427",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "77564",
+  "type": "tg",
+  "title": "Dinâmica de veículos flexíveis no domínio do tempo e da frequęncia",
+  "author": "Daniel Diogenes Sousa",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Veículos flexíveis apresentam certos desafios quanto a seu projeto e controle. Dependendo da posiçăo de certos componentes vitais ao funcionamento do veículo ou da missăo, grandes vibraçőes estruturais e aceleraçőes pontuais devido ŕ elasticidade estrutural do veículo podem danificar estes componentes. Sob o ponto de vista de design de sistemas de controle, um inadequado posicionamento de sensores de sistemas feedback do veículo pode propiciar a obtençăo de informaçőes enganosas ou imprecisas quanto ŕ movimentaçăo local sofrida pelo veículo. O presente estudo faz uma análise dessas problemáticas em dois veículos distintos: o veículo lançador Saturn V e um Satélite Geoestacionário. O objetivo é identificar o que ocorre em pontos distintos destes dois veículos quando ambos estăo sob açăo de esforços externos do tipo doublet input e esclarecer, sob a ótica analítica do domínio da frequęncia de respostas dinâmicas dos veículos, dois pontos principais: a partir de uma comparaçăo com corpos rígidos, a influęncia dos efeitos causados pela elasticidade dos veículos sobre a moçăo destes no espaço; e posicionamentos mais eficazes dos sensores responsáveis pelo feedback do sistema de controle. Para esta análise se faz uso de Diagramas de Bode para visualizar as respostas das Funçőes de Transferęncias pertinentes ŕ consideraçăo de corpo rígido e de corpo flexível para os dois veículos. É feito, portanto, uma comparaçăo entre os resultados obtidos.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Análise estrutural dinâmica",
+    "Análise de domínio de freqüęncia",
+    "Vibraçăo aeroelástica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77564",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77564&origem=BDITA"
+}

@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85197116940",
+  "eid": "2-s2.0-85197116940",
+  "doi": "10.2514/6.2023-3200",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental investigation of tonal and broadband trailing-edge noise for the flow around a NACA0012 profile with rounded trailing edge",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This experimental work investigates the trailing-edge (TE) noise from a NACA0012 airfoil in an open-jet wind tunnel, for chord-Reynolds numbers between 105 and 4.6 × 105 and angles of attack between 0° and 6°. The range of parameters for which TE noise is either tonal or broadband in the present experiments is in good agreement with existing literature results. One of the main objectives of this work is to test the assumption of recent modelling approaches based on the linearised Navier-Stokes operator. These studies focus on spanwise coherent structures in the turbulent boundary layer to investigate the mechanisms responsible for trailing edge noise, as they always satisfy the trailing edge scattering condition. However, numerical simulations routinely use a narrow numerical domain and periodic lateral boundary conditions, which could favour spanwise coherent dynamics. Therefore, particular emphasis is placed on the experimental characterisation of the spanwise wavenumber content of the pressure fluctuations on the airfoil surface and in the acoustic field. A good agreement with theoretical and numerical observations is found, as the spanwise wavenumber contents of the acoustic field are in good agreement with the edge scattering condition. Furthermore, the coherence between the surface pressure fluctuations and the acoustic fields is significantly improved when considering spanwise-coherent structures by spanwise averaging of the temporal signals, even in the case of broadband noise.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Demange, S.",
+      "scopus_id": "57203330275",
+      "affiliation": "60011604-127810454",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jekosch, S.",
+      "scopus_id": "57221514603",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Church, B.",
+      "scopus_id": "57195592864",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sarradj, E.",
+      "scopus_id": "6507903164",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Oberleithner, K.",
+      "scopus_id": "36663780000",
+      "affiliation": "60011604-127810454",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85197116940&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100515",
+    "data_quality_score": 90
+  }
+}

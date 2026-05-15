@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85113152741",
+  "eid": "2-s2.0-85113152741",
+  "doi": "10.1007/s40430-021-03154-7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Investigation of bubble parameters and interfacial heat transfer correlations based on radial void fraction profiles of R-134a subcooled boiling flows",
+  "abstract": "© 2021, The Brazilian Society of Mechanical Sciences and Engineering.The present study proposes the assessment of closure relations related to bubble parameters found in the wall heat flux partitioning model, as well as the assessment of interfacial heat transfer correlations, via CFD (computational fluid dynamics) simulation. The selection of these closure relations, most of the time, does not consider its applicability and scope, neglecting the effects that might affect the results obtained in two-phase flow simulations. In order to assess which relations can properly predict the boiling two-phase flow characteristics found in PWRs, an upward subcooled flow boiling in an annulus, with R-134a as the working fluid, was simulated based on the Eulerian two-fluid model. The void fraction radial profile of two-phase flow was attained, analyzed and compared to a benchmark study at different elevations. It can be concluded that the increase in pressure has a distinguishable impact on the predicting performance of the correlations. A trend of void fraction overprediction was observed at the inlet channel, whereas an underpredicting performance was found at the outlet channel. A crossed effect between bubble departure diameter, nucleate site density, and interfacial heat transfer coefficient on the void fraction profile was evidenced. Insightful considerations regarding the best models to be chosen for the simulation of subcooled boiling flows can be extracted from this investigation.",
+  "authkeywords": [
+    "Boiling",
+    "Bubble",
+    "CFD",
+    "Interfacial heat transfer",
+    "Void fraction"
+  ],
+  "year": "2021",
+  "date": "2021-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "43",
+    "issue": "9",
+    "pages": null,
+    "article_number": "428"
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Thaís P.A.",
+      "scopus_id": "57226869664",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85113152741&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053087",
+    "data_quality_score": 100
+  }
+}

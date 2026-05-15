@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-84937596778",
+  "eid": "2-s2.0-84937596778",
+  "doi": "10.1016/j.ijheatmasstransfer.2015.05.040",
+  "pii": "S0017931015005311",
+  "pubmed_id": null,
+  "title": "Single-point transition modeling using the laminar kinetic energy concept",
+  "abstract": "© 2015 Elsevier Ltd. All rights reserved.This work investigates transition to turbulence using laminar kinetic energy modeling based in single-point RANS approach. Transport equations are discretized using the cell centered control-volume method and the system of algebraic equations is relaxed using SIMPLE algorithm. A modified version of the most known laminar kinetic energy model is proposed and compared with the original version and with an experimental correlation transition model. The numerical results show that the laminar kinetic energy approach has reasonable experimental correlation. The modified version presents improvements in prediction of skin friction coefficient in flows subjected to pressure gradients. However, the use of the laminar kinetic energy concept has shown weakness when dealing with detached induced transition. Probably the cause of that is the lack of physical modeling of this phenomenon. Laminar kinetic energy modeling is in continuous evolution and is a good alternative to deal with engineering simulation that needs a good prediction of wall shear stress in transitional flows.",
+  "authkeywords": [
+    "Laminar kinetic energy",
+    "Transition",
+    "Turbulence-modeling"
+  ],
+  "year": "2015",
+  "date": "2015-07-22",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "89",
+    "issue": null,
+    "pages": "1095-1109",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Accordi, Icaro A.",
+      "scopus_id": "56730901200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84937596778&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110693",
+    "data_quality_score": 100
+  }
+}

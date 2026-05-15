@@ -1,0 +1,27 @@
+{
+  "num_tg": "79782",
+  "type": "tg",
+  "title": "Estado ligado de dois bósons de massas distintas com interaçăo vetorial em um calibre covariante",
+  "author": "Vinícius Martins da Silveira Fulconi",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Wayne Leonardo Silva de Paula",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho de graduaçăo envolve o estudo de um modelo relativístico para o Kaon (Méson-K). Para isso, consideramos um sistema de dois bósons escalares interagindo através de uma partícula vetorial para diferentes calibres covariantes. O estado ligado foi estudado a partir da equaçăo de Bethe-Salpeter no espaço de Minkowski. Para estudar o estado ligado no espaço de Minkowski, utilizamos a representaçăo de Nakanishi para descrever a amplitude de Bethe-Salpeter, que apresenta uma estrutura analítica bem definida em termos dos momentos externos. Isso permitiu realizar a integral quadridimensional de loop de forma analítica. Além disso, realizamos uma projeçăo na frente de luz. Finalmente, obtivemos a equaçăo do estado ligado para o Kaon em diferentes calibres e adequada para ser resolvida numericamente. Estudamos um caso particular para esse sistema: o limite quiral, onde as massas de todas as partículas foram levadas a zero. Dentro do limite quiral, abordamos dois caminhos distintos. Inicialmente, o objetivo foi encontrar uma resoluçăo analítica para a equaçăo de Bethe-Salpeter (EBS). Para isso, utilizamos duas representaçőes de Nakanishi, uma com expoente tręs, e outra com expoente quatro, com o mesmo Ansatz de soluçăo para uma equaçăo invariante de escala. Entretanto encontramos condiçőes de existęncia conflitantes, o que evidenciou a divergęncia para o limite quiral. Em seguida, partimos para uma abordagem de soluçăo numérica. Desenvolvemos um código para resolver numericamente a equaçăo integral no calibre de Feynman, gerando os autovalores da EBS no limite quiral. Porém, apenas conseguimos obter a soluçăo trivial para esse tipo de equaçăo, fato que corrobora para a divergęncia na condiçăo do limite Quiral. Dessa forma, mostraremos que o sistema em análise tem uma divergęncia no limite quiral.",
+  "subjects": [
+    "Ménsons",
+    "Equaçăo de Bethe-Salpeter",
+    "Bósons",
+    "Espaço de Minkowski",
+    "Substrato quiral",
+    "Física de partículas",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79782",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79782&origem=BDITA"
+}

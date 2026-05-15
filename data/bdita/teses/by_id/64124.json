@@ -1,0 +1,30 @@
+{
+  "num_tese": "64124",
+  "type": "tese",
+  "title": "Análise de uma bomba d'água automotiva utilizando ferramenta de CFD",
+  "author": "Rodrigo Lima Kagami",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente, normas regulamentadoras cada vez mais restritivas săo impostas com o intuito de reduzir a poluiçăo do ar, o que impulsionou a busca dos fabricantes de motores diesel por novas abordagens e soluçőes tecnológicas capazes de reduzir os níveis de emissőes de seus produtos. Neste contexto, o desenvolvimento de um sistema de arrefecimento automotivo mais eficiente é benéfico na reduçăo de emissőes e na melhora da economia de combustível. Dentre os componentes que compőem o sistema de arrefecimento, a bomba de água contribui em grande parte para as perdas do sistema como um todo. Assim, o presente trabalho visa investigar o desempenho de uma bomba de arrefecimento automotivo utilizando uma ferramenta de Computational Fluid Dynamics (CFD). Um modelo CAD da bomba de água foi construído com todos os detalhes requeridos para a simulaçăo confiável. O escoamento através da bomba foi numericamente simulado empregando a técnica de volumes-finitos para resolver as equaçőes que modelam o escoamento para um referencial năo-inercial. Geralmente, partes móveis geram problemas transitórios, no entanto, visto de um referencial rotativo o escoamento através das partes móveis pode ser simulado como em regime permanente. O sistema de equaçőes discretizadas para a pressăo e as componentes de velocidade foram resolvidas utilizando o algoritmo SIMPLE. Resultados numéricos e dados experimentais foram comparados para diferentes vazőes volumétricas. Após a soluçăo numérica, o pós-processamento foi utilizado para averiguar o escoamento através da bomba e os mecanismos que influenciam em seu desempenho. Os resultados sugerem que o escoamento através da bomba pode ser representado através da ferramenta CFD, possibilitando verificar qualitativamente e quantitativamente o comportamento do escoamento e os mecanismos que afetam o desempenho da bomba de arrefecimento.",
+  "subjects": [
+    "Bombas",
+    "Indústria automobilística",
+    "Equipamentos hidráulicos",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento incompressível",
+    "Motores diesel",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "17/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64124",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64124&origem=BDITA"
+}

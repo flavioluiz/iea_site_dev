@@ -1,8 +1,7 @@
 ---
-title: "Antônio B. Guimarães Neto"
+title: "Antonio Bernardo Guimarães Neto"
 layout: professor
 professor_id: "antonio-b-guimaraes-neto"
-type: docentes
+departamento: "iea-b"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

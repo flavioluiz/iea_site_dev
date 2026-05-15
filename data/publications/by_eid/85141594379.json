@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85141594379",
+  "eid": "2-s2.0-85141594379",
+  "doi": "10.1103/PhysRevFluids.7.L102601",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Reduced-order Galerkin models of plane Couette flow",
+  "abstract": "© 2022 American Physical Society.Reduced-order models were derived for plane Couette flow using Galerkin projection, with orthonormal basis functions taken as the leading controllability modes of the linearized Navier-Stokes system for a few low wave numbers. Resulting Galerkin systems comprise ordinary differential equations, with a number of degrees of freedom ranging from 144 to 600, which may be integrated to large times without any indication of numerical instability. The reduced-order models so obtained are also found to match statistics of direct numerical simulations at Reynolds number 500 and 1200 with reasonable accuracy, despite a truncation of orders of magnitude in the degrees of freedom of the system. The present models offer thus an interesting compromise between simplicity and accuracy in a canonical wall-bounded flow, with relatively few modes representing coherent structures in the flow and their dominant dynamics.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "7",
+    "issue": "10",
+    "pages": null,
+    "article_number": "L102601"
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 47,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141594379&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100555",
+    "data_quality_score": 90
+  }
+}

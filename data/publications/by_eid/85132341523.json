@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85132341523",
+  "eid": "2-s2.0-85132341523",
+  "doi": "10.1098/rspa.2022.0165",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stability of two-dimensional potential flows using bicomplex numbers",
+  "abstract": "© 2022 Royal Society Publishing. All rights reserved.The use of the complex velocity potential and the complex velocity is widely disseminated in the study of two-dimensional incompressible potential flows. The advantages of working with complex analytical functions made this representation of the flow ubiquitous in the field of theoretical aerodynamics. However, this representation is not usually employed in linear stability studies, where the representation of the velocity as real vectors is preferred by most authors, in order to allow the representation of the perturbation as the complex exponential function. Some of the classical attempts to use the complex velocity potential in stability studies suffer from formal errors. In this work, we present a framework that reconciles these two complex representations using bicomplex numbers. This framework is applied to the stability of the von Kármán vortex street and a generalized formula is found. It is shown that the classical results of the symmetric and staggered von Kármán vortex streets are just particular cases of the generalized dynamical system in bicomplex formulation.",
+  "authkeywords": [
+    "bicomplex numbers",
+    "linear systems",
+    "potential flow",
+    "Stability",
+    "vortex"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+    "issn": "13645021",
+    "eissn": "14712946",
+    "volume": "478",
+    "issue": "2262",
+    "pages": null,
+    "article_number": "20220165"
+  },
+  "authors": [
+    {
+      "name": "Kleine, V. G.",
+      "scopus_id": "57193867121",
+      "affiliation": "60002014-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vitor-gabriel-kleine"
+    },
+    {
+      "name": "Hanifi, A.",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, D. S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vitor-gabriel-kleine"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85132341523&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.079382",
+    "data_quality_score": 100
+  }
+}

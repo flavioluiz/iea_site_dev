@@ -1,0 +1,28 @@
+{
+  "num_tese": "000137334",
+  "type": "tese",
+  "title": "Dinâmica do vôo de veículos auto-controlados sob efeito de acoplamentos de movimentos longitudinais com látero-direcionais",
+  "author": "Sidney Lage Nogueira",
+  "year": "1987",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodolpho Vilhena de Moraes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os modelos convencionais da Mecânica do Vôo apresentam equaçőes linearizadas, que săo deduzidas utilizando entre outras hipóteses, a de desacoplamento dos movimentos longitudinais dos látero-direcionais. Esta hipótese porém năo é aceitável quando se pretende a otimizaçăo dos controles, na presença de manobras onde existe tal acoplamento. É o caso por exemplo de ocorręncia de assmetrias de inércia, ou de captura de trajetórias 3D com 6 graus de liberdade. Por outro lado se deseja levar em conta as derivadas das variáveis na funçăo objetivo que determina os ganhos ótimos, isto é feito comumente aumentando a ordem do sistema, com a inclusăo destas variáveis no vetor de estado. Este trabalho apresenta o desenvolvimento teórico que mantém as características de acoplamento e permite a obtençăo de ganhos, com efeito das derivadas, sem o aumento do vetor de estado. Diversos exemplos ilustrativos com aviőes existente săo incluídos, demonstrando a importância e a aplicaçăo do presente desenvolvimento.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Estabilidade de aeronaves",
+    "Desempenho de aeronaves",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/01/1987",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000137334",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000137334&origem=BDITA"
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-84897713288",
+  "eid": "2-s2.0-84897713288",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of turbulent flow in a porous medium formed by an infinite array of elliptic rods",
+  "abstract": "Many engineering and environmental system analyses can benefit from appropriate modeling of turbulent flow in porous media. Through the volumetric averaging of the microscopic transport equations for the turbulent kinetic energy, k, and its dissipation rate, epsilon, a macroscopic model was proposed for such media (IJHMT, 44(6), 1081-1093, 2001). In that initial work, the medium was simulated as an infinite array of cylindrical rods. As an outcome of the volume averaging process, additional terms appeared in the equations for k and epsilon. These terms were here adjusted assuming now the porous structure to be modeled as an array of elliptic rods instead. Such an adjustment was obtained by numerically solving the microscopic flow governing equations, using a low Reynolds formulation, in the periodic cell composing the medium. Different porosity and Reynolds numbers were investigated. The fine turbulence structure of the flow was computed and integral parameters were presented. The adjusted model constant was compared to similar results for square and cylindrical rods. It is expected that the contribution herein provide some insight to modelers devoted to the analysis of engineering and environmental systems characterized by a porous structure saturated by a fluid flowing in turbulent regime. © 2002 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "8th AIAA ASME Joint Thermophysics and Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Pedras, Marcos H.J.",
+      "scopus_id": "7006693230",
+      "affiliation": "60012642",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Nuclear and High Energy Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84897713288&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111717",
+    "data_quality_score": 60
+  }
+}

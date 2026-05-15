@@ -1,0 +1,28 @@
+{
+  "num_tese": "65669",
+  "type": "tese",
+  "title": "Minimax approach applied to topology optimization of structures subjected to multiple load cases",
+  "author": "Rafael Santos Iwamura",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates a topology optimization strategy for structures under multiple load cases. Typically compliance is calculated for each of the load cases in analysis and minimization is computed for a weighted average of the compliances, resulting in time consuming algorithms. A way to increase convergence speed is updating density on the element level. Instead of having an averaged compliance for the whole structure, it is proposed to compute it individually for every element. All load cases are analyzed, however only the ones of the maximum compliances are considered for sensitivity analysis. Thus compliance gradient is function of a few load cases at each element, reducing the processing time without significant weight penalty. The efficiency of the proposed technique is exemplified and compared to the one of a classical approach of multiple load case problem, solved using optimality criteria.",
+  "subjects": [
+    "Topologia",
+    "Otimizaçăo",
+    "Estruturas",
+    "Matemática",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "25/11/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65669",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65669&origem=BDITA"
+}

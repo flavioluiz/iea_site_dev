@@ -1,0 +1,72 @@
+{
+  "publication_id": "2-s2.0-85118709947",
+  "eid": "2-s2.0-85118709947",
+  "doi": "10.1016/j.actaastro.2021.10.031",
+  "pii": "S0094576521005543",
+  "pubmed_id": null,
+  "title": "A machine learning strategy for optimal path planning of space robotic manipulator in on-orbit servicing",
+  "abstract": "© 2021 IAAThe present study addresses the problem of automatic path planning of a manipulator-like spacecraft in orbit. Based on the concept of optimal control and off-line establishment of optimal trajectories, the study proposes a formulation of multiobjective optimization that accounts for multiple aspects of motion. The effect of manipulator mass is analyzed. Then, the effect of multiple objectives on the optimal path, such as the satellite displacement, arm manipulability and maximum torque, are evaluated. In addition, the end-effector positioning, avoidance of collision between the arm and the spacecraft, and minimization of torque requirements are considered as objectives to be minimized, subject to uncertainty inside the berthing box. The numerical procedure includes a machine learning strategy that is able to learn from both training data and mission tasks. It is used during inverse kinematics analysis, when the Cartesian position is the input parameter and the joint angle estimate is the output. This information improves the convergence rate of the optimization procedure, which leads to the precise value of the angle of the joint. The learning strategy is effective for estimating the solution when five or more samples are available, and the result is improved as new data is added to the analysis. The diversity of scenarios, metrics and parameters considered in the numerical experiments confirms the viability and robustness of the proposed methodology.",
+  "authkeywords": [
+    "Automated berthing",
+    "Off-line path planning",
+    "Serial manipulator",
+    "Space manipulator system",
+    "Support vector machine"
+  ],
+  "year": "2022",
+  "date": "2022-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Acta Astronautica",
+    "issn": "00945765",
+    "eissn": null,
+    "volume": "191",
+    "issue": null,
+    "pages": "41-54",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Rogerio R.",
+      "scopus_id": "56067217200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "da Fonseca, Ijar M.",
+      "scopus_id": "15922451500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 39,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85118709947&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088713",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "num_tg": "76440",
+  "type": "tg",
+  "title": "Modelamento de cinética pontual do microrreator do projeto TERRA",
+  "author": "Nicolas Eilers Smith Santana",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Lamartine Nogueira Frutuoso Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O Projeto de Tecnologia de Reatores Rápidos Avançados (TERRA), conduzido no Instituto de Estudos Avançados (IEAv), tem como principal objetivo o desenvolvimento de tecnologias críticas para a geraçăo de energia elétrica em ambientes remotos, tais como no espaço ou em regiőes inóspitas, através de fontes de potęncia a partir de energia nuclear. Uma das propostas é a criaçăo de um núcleo de microrreator que produza cerca de $1,200$ $kW_{th}$ de calor por 8 anos. Este núcleo já foi projetado, embora seus resultados completos ainda năo tenham sido completamente divulgados. O objetivo deste trabalho especificamente é o de desenvolver um modelo de cinética pontual para o núcleo em questăo. Para isso, todos os parâmetros cinéticos devem ser calculados e inseridos em um programa computacional em MATLAB de forma a permitir a visualizaçăo da dinâmica do núcleo. Por se tratar de um núcleo novo, os resultados obtidos podem apresentar algum grau de novidade.",
+  "subjects": [
+    "Cinética dos reatores",
+    "Núcleos dos reatores",
+    "Energia cinética",
+    "Física nuclear",
+    "Engenharia nuclear"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76440",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76440&origem=BDITA"
+}

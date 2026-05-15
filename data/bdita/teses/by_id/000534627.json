@@ -1,0 +1,34 @@
+{
+  "num_tese": "000534627",
+  "type": "tese",
+  "title": "Desenvolvimento de uma estratégia de controle para o movimento translacional de uma serra mecatrônica ortopédica.",
+  "author": "Talía Simőes dos Santos",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A automaçăo de cirurgias é uma realidade que tem contribuído para a melhoria de qualidade e eficięncia tăo necessárias na área de saúde. O projeto de uma serra ortopédica conduzida por um sistema robótico foi idealizado com base em uma necessidade de se desenvolver um sistema que permite um médico automatizar processos cirúrgicos envolvendo manipulaçăo de membros. Neste contexto, o trabalho proposto apresenta o desenvolvimento de uma estratégia de controle para o movimento translacional desta serra mecatrônica, uma vez que este é o movimento mais complexo da serra. Para o desenvolvimento desta estratégia de controle, o índice de desempenho - sobresinal - é o parâmetro que deve ser controlado para se evitar um avanço brusco do suporte das lâminas da serra. O monitoramento do comportamento desse parâmetro é feito através de um sensor de força que será inserido na serra mecatrônica, já que a força de corte também fornece a condiçăo de parada da serra. Os resultados obtidos em laboratório e via simulaçăo mostraram que a estratégia de controle adotada foi satisfatória, pois se verificou que a resposta do sistema eliminou o índice de sobresinal, o que equivale dizer que a força de corte foi devidamente monitorada pelo sensor e assim, o programa de controle consegue indicar o momento exato de parada da serra.",
+  "subjects": [
+    "Controle automático",
+    "Movimento translacional",
+    "Aparelhos e instrumentos cirúrgicos",
+    "Planejamento de tarefas (robótica)",
+    "Controle de força (robótica)",
+    "Sensores de torque (robótica)",
+    "Ortopedia",
+    "Mecatrônica",
+    "Bioengenharia",
+    "Medicina",
+    "Controle"
+  ],
+  "defense_date": "11/05/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000534627",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000534627&origem=BDITA"
+}

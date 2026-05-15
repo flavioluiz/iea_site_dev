@@ -1,0 +1,28 @@
+{
+  "num_tese": "77699",
+  "type": "tese",
+  "title": "A high-order compressible potential flow solver for aerodynamics via discontinuous galerkin methods",
+  "author": "Joăo Luiz Perez Costa",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present thesis applies the arbitrarily high-order scheme known as the nodal collocated discontinuous Galerkin (DG) method to the compressible full potential equations. The formulation is discussed in detail for two dimensions including spatial discretization, basis functions, boundary condition implementation, numerical fluxes, temporal discretization and convergence properties. The full potential mathematical model is discussed in a didactic manner and the advantages of it being cast in an arbitrarily high-order scheme is assessed. Computer hardware is evolving to manycore heterogeneous architectures, meaning that the cores used in a calculation may not be identical and have different memory access. Besides, h/p adaptation techniques have demonstrated remarkable potential for accurate user-friendly CFD software. Given the better suitability to modern hardware coupled with the several benefits of high order, it appears that the method proposed here can evolve to be advantageous and useful for preliminary and conceptual design and optimization of modern aircraft. Also investigated is the NURBS-Enhanced Finite Element Method (NEFEM) as a way to represent curvatures in high-order DG schemes. This method, originally proposed for simplexes, has been extended to quadrilaterals in the present thesis. The impact of this technique on high-order solutions is discussed. As a part of this effort a parallel computer code has been written in Fortran to simulate compressible subsonic flows about arbitrary bodies in two dimensions with an unstructured mesh of quadrilaterals. An automatic mesh generator for these meshes has been developed using the Gmsh® scripting language. A few classical cases in aerodynamics are simulated to validate the proposed method. This is, to the author's knowledge, the first attempt in the scientific community to apply modern arbitrarily high-order algorithms to the full potential equations and as such may be an important contribution to the literature of such schemes.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Método de Galerkin",
+    "Aerodinâmica",
+    "Potęncia",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77699",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77699&origem=BDITA"
+}

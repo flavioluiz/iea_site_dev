@@ -1,0 +1,29 @@
+{
+  "num_tese": "66194",
+  "type": "tese",
+  "title": "Abordagem in-the-loop para verificaçăo de software de controle para satélites de pequeno porte",
+  "author": "Marsil de Athayde Costa e Silva",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma abordagem para verificaçăo de software de controle de atitude para satélites de pequeno porte. O objetivo da abordagem é cobrir as diversas etapas do desenvolvimento do software de controle, desde sua concepçăo até a verificaçăo da integraçăo com a plataforma de hardware. A metodologia baseia-se no teste em ambientes de simulaçăo que utilizam os conceitos de model-in-the-loop, software-in-the-loop e hardware-in-the-loop para, de forma incremental, permitir a verificaçăo em diferentes níveis de complexidade, além da injeçăo de diferentes tipos de falhas ao longo do processo de desenvolvimento do software de controle. Para validaçăo da proposta, a mesma é aplicada a dois estudos de caso. O primeiro exemplo é um sistema de controle de rotaçăo de um satélite universitário. O segundo exemplo é um sistema de controle de atitude em tręs eixos com rodas de reaçăo. Os resultados sugerem que a metodologia proposta auxilia na detecçăo antecipada e correçăo de erros, contribuindo para reduçăo do custo de desenvolvimento.",
+  "subjects": [
+    "Controle de satélites",
+    "Verificaçăo de programa (computadores)",
+    "Simulaçăo computadorizada",
+    "Simulaçăo de sistemas",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "07/03/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66194",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66194&origem=BDITA"
+}

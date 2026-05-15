@@ -1,0 +1,34 @@
+{
+  "num_tese": "80602",
+  "type": "tese",
+  "title": "Application of piezoelectric-based multi-modal shunt circuits for flutter suppression in plate-like wings",
+  "author": "Francisco Arthur Bonfim Azevedo",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present study proposes a combination of active and passive controllers to increase the flutter speed in a bar. The case study considers an aluminum bar with a tip mass in a simple clamped-free configuration. The passive controller is based on a multimodal shunt circuit that acts by damping the vertical deflection of the beam, extracting mechanical energy, converting it into electrical energy, and dissipating it into a circuit. The circuit elements are optimized to enhance the flutter speed. An active controller based on a piezoelectric actuator subjected to electrical voltage is proposed, employing two techniques to design the control loop via a Linear Quadratic Regulator. Finally, the initial flutter speed and the modified flutter speed resulting from the controller are compared to highlight the effectiveness of each applied method, achieving significant increases of 30% in flutter speed for the passive controller case, 192% in the case of the passive controller combined with the first active control method, and a scenario where flutter speed is not reached in the case of the passive controller with the second active control method.",
+  "subjects": [
+    "Aeroservoelasticidade",
+    "Atuadores piezoelétricos",
+    "Vibraçăo aeroelástica",
+    "Controle",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "03/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80602",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80602&origem=BDITA"
+}

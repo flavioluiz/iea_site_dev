@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-84865507799",
+  "eid": "2-s2.0-84865507799",
+  "doi": "10.1017/jfm.2012.247",
+  "pii": "S0022112012002479",
+  "pubmed_id": null,
+  "title": "Axisymmetric superdirectivity in subsonic jets",
+  "abstract": "We present experimental results for the acoustic field of jets with Mach numbers between 0.35 and 0.6. An azimuthal ring array of six microphones, whose polar angle,θ, was progressively varied, allows the decomposition of the acoustic pressure into azimuthal Fourier modes. In agreement with past observations, the sound field for low polar angles (measured with respect to the jet axis) is found to be dominated by the axisymmetric mode, particularly at the peak Strouhal number. The axisymmetric mode of the acoustic field can be clearly associated with an axially non-compact source, in the form of a wavepacket: the sound pressure level for peak frequencies is found be superdirective for all Mach numbers considered, with exponential decay as a function of (1-Mc cos θ)2 , where Mc is the Mach number based on the phase velocity Uc of the convected wave. While the mode m= 1 spectrum scales with Strouhal number, suggesting that its energy content is associated with turbulence scales, the axisymmetric mode scales with Helmholtz number-the ratio between source length scale and acoustic wavelength. The axisymmetric radiation has a stronger velocity dependence than the higher-order azimuthal modes, again in agreement with predictions of wavepacket models. We estimate the axial extent of the source of the axisymmetric component of the sound field to be of the order of six to eight jet diameters. This estimate is obtained in two different ways, using, respectively, the directivity shape and the velocity exponent of the sound radiation. The analysis furthermore shows that compressibility plays a significant role in the wavepacket dynamics, even at this low Mach number. Velocity fluctuations on the jet centreline are reduced as the Mach number is increased, an effect that must be accounted for in order to obtain a correct estimation of the velocity dependence of sound radiation. Finally, the higher-order azimuthal modes of the sound field are considered, and a model for the low-angle sound radiation by helical wavepackets is developed. The measured sound for azimuthal modes 1 and 2 at low Strouhal numbers is seen to correspond closely to the predicted directivity shapes. © 2012 Cambridge University Press.",
+  "authkeywords": [
+    "aeroacoustics",
+    "hydrodynamic noise",
+    "jet noise"
+  ],
+  "year": "2012",
+  "date": "2012-08-10",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "704",
+    "issue": null,
+    "pages": "388-420",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60032653-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 213,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 53,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84865507799&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102100",
+    "data_quality_score": 100
+  }
+}

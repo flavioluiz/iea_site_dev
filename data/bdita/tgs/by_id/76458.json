@@ -1,0 +1,30 @@
+{
+  "num_tg": "76458",
+  "type": "tg",
+  "title": "Estudo de lógica fuzzy aplicada ao projeto de controle de atitude da missăo SPORT",
+  "author": "Vítor Andrade dos Santos",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Kukulka de Albuquerque",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esse trabalho derivou de uma necessidade de projeto da missăo SPORT, cujos requisitos de apontamento do satélite năo eram satisfeitos quando havia ruído excessivo na determinaçăo de atitude. Em geral, esse problema é abordado por meio da implementaçăo de um filtro de sinal; nesse trabalho, se investiga se o uso de um controlador mais robusto, com base em lógica fuzzy como soluçăo alternativa ŕ implementaçăo do filtro. O controlador desenvolvido, denominado PID-Fuzzy, é comparado em vários modelos físicos com a implementaçăo PID realizada conforme a Teoria Clássica de controle, sendo esses modelos desenvolvidos pelo autor ou baseados no projeto SPORT. Para os modelos simplificados, o desempenho e a robustez do controlador PID-Fuzzy foram superiores ao controlador PID de referęncia; no entanto, a soluçăo ao problema proposto inicialmente năo foi atingida.",
+  "subjects": [
+    "Lógica nebulosa",
+    "Controle de atitude de satélites",
+    "Previsăo",
+    "Cintilaçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76458",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76458&origem=BDITA"
+}

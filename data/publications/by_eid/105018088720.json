@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-105018088720",
+  "eid": "2-s2.0-105018088720",
+  "doi": "10.2514/6.2025-3290",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Parametric Study of Propeller-Wing Aerodynamic Interaction Using VSPAERO for Conceptual Aircraft Design",
+  "abstract": "© 2025, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This study investigates the aerodynamic interaction between propellers and wings using VSPAERO. The research evaluates the tool’s capability to predict aero-propulsive effects through hisolated and integrated analyses of two reference geometric models: a Conventional Model (CM)and a Wingtip-Mounted Model (WMM). Results for the isolated wing show good agreement with experimental data, particularly for lift coefficients, with acceptable deviations for drag coefficients. For the isolated propeller, VSPAERO demonstrated consistency in predicting thrust coefficients, although power coefficients were overestimated. Integrated analyses highlighted challenges in modeling complex configurations, such as discrepancies in aerodynamic coefficients requiring adjustments to solver parameters. A parametric study examining the influence of propeller positioning relative to the wing was also conducted, showing significant effects on aero dynamic efficiency and propeller performance. The findings indicate that VSPAERO is a promising tool for conceptual design and preliminary studies of propeller-wing interactions, with further validation needed for more complex configurations.",
+  "authkeywords": [
+    "Accelerating Flow",
+    "Aerodynamic Coefficients",
+    "Aerodynamic Performance",
+    "Aircraft Design",
+    "Boundary Layer Separation",
+    "Lift to Drag Ratio",
+    "Power Coefficient",
+    "Propeller Performance",
+    "Tractor Configuration",
+    "Wingtip Vortices"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, Luís E.B.",
+      "scopus_id": "60131164100",
+      "affiliation": "60018777",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018088720&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066564",
+    "data_quality_score": 90
+  }
+}

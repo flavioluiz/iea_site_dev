@@ -1,0 +1,29 @@
+{
+  "num_tese": "000554851",
+  "type": "tese",
+  "title": "Estudo do desempenho de um compressor axial de vários estágios com injeçăo de água na sua entrada.",
+  "author": "Luciano Porto Bontempo",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A simulaçăo numérica de compressores axiais é de fundamental importância tanto na fase de projeto quanto na de desenvolvimento do compressor. A simulaçăo numérica é utilizada para detectar problemas de funcionamento, que podem ocorrer durante a operaçăo. Na fase de desenvolvimento, prazos e custos podem ser reduzidos. O presente trabalho consiste na análise do desempenho de um compressor operando com ar úmido e ou com injeçăo de água. Para tanto foi desenvolvido e implementado um modelo de evaporaçăo de gotículas de água no interior de compressores axiais, compatível com o método da curvatura das linhas de corrente, num programa computacional já existente. Este programa é capaz de simular o desempenho de compressores axiais fora e dentro do ponto de projeto, utilizando o método da curvaturas das linhas de corrente. Uma vez implementados os modelos,o desempenho do compressor é avaliado nas seguintes condiçőes: injeçăo de água, tanto na entrada quanto entre os estágios do compressor; variaçăo das propriedades iniciais das partículas injetadas como: diâmetro, temperatura, velocidade e posiçăo; simulaçăo da compressăo com o ar úmido, sem a presença de gotículas de água.Também é feito um estudo das propriedades termofísicas e dinâmicas das partículas ao longo do compressor tais como trajetória,velocidade,diâmetro e temperatura. Os resultados mostram que a injeçăo de água tem grande potencial para o aumento de potęncia de uma turbina a gás e isoladamente é e?caz na diminuiçăo do trabalho de compressăo.",
+  "subjects": [
+    "Turbocompressores",
+    "Desempenho",
+    "Injeçăo de água",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/08/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000554851",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000554851&origem=BDITA"
+}

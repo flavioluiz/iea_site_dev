@@ -1,0 +1,132 @@
+{
+  "publication_id": "2-s2.0-85067897077",
+  "eid": "2-s2.0-85067897077",
+  "doi": "10.15866/ireme.v13i1.16323",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A note on anti-roll bar effectiveness full-car dynamics with magnetorheological damper control",
+  "abstract": "© 2019 Praise Worthy Prize S.r.l.-All rights reserved.– The addition of an anti-roll bar for the dynamics of a full-car has improved the safety and comfort of the passengers along the years. For lorries and buses, the anti-roll bar is a standard configuration with active suspension, and it is heavily used when at high-speed on bumpy roads or tight bends. The adoption of the anti-roll bar corrects the undesired behavior and softens the suspension improving the comfort, and the active bar guarantees a safety operation. However, its adoption on cars depends on the category and the expected road. In this paper, the difference between front and rear anti-roll bars with a Magnetorheological (MR) damper to improve safety on regular cars is investigated. A square wave is used as a burst along ten seconds to compare and contrast the efficiency of the system with front and rear bar combined and separated. The MR damper was added with SDRE (State Dependent Riccati Equation) control to provide an extra safety level. The numerical results show that the impact of a nonlinear anti-roll bar on the rear affects the stability. The influence of lag angles led to a more active control.",
+  "authkeywords": [
+    "Lugre Friction Model",
+    "MR Damper",
+    "Nonlinear Anti-Roll Bar",
+    "Nonlinear Full-Car",
+    "SDRE Control"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Review of Mechanical Engineering",
+    "issn": "19708734",
+    "eissn": "25325655",
+    "volume": "13",
+    "issue": "1",
+    "pages": "47-57",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Lenz, Wagner B.",
+      "scopus_id": "57196114508",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tusset, Angelo M.",
+      "scopus_id": "26031801400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha, Rodrigo T.",
+      "scopus_id": "56662458300",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Janzen, Frederic C.",
+      "scopus_id": "56689638400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kossoski, Adriano",
+      "scopus_id": "57200583447",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Mauricio A.",
+      "scopus_id": "55984319200",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    },
+    {
+      "name": "Balthazar, José M.",
+      "scopus_id": "7004090367",
+      "affiliation": "60027294-60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Materials Science (miscellaneous)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Agricultural and Biological Sciences (miscellaneous)",
+        "abbrev": "AGRI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85067897077&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123205",
+    "data_quality_score": 100
+  }
+}

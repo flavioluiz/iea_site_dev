@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85192265840",
+  "eid": "2-s2.0-85192265840",
+  "doi": "10.2514/6.2024-0830",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Methodology to Evaluate Flutter on Geometric Nonlinear Structural Wings Applied to the Pazy Wing",
+  "abstract": "© 2024 by the American Institute of Aeronautics and Astronautics, Inc.This study investigates the nonlinear aeroelastic stability of the Pazy wing, a benchmark for theoretical aeroelastic research analysis within the Third Aeroelastic Prediction Workshop (AEPW 3 - NASA). Many institutions were challenged to predict the static deflections and flutter behavior in this case of a highly flexible wing subjected to structural geometric nonlinearity with flutter onset and offset along the wind-tunnel test. This paper presents the effort of the ITA-Embraer team in creating a methodology for matched flutter solution. The traditional flutter analysis is applied in a new nonlinear fluid-structure framework to explicitly account for solely the structural deflection with geometric nonlinearity. First the theoretical vibration modes are presented in comparison to test, which was within 3.5% difference. Then, the theoretical flutter speed are compared to experimental results, within 3.3% difference for onset and 2.8% difference for offset. When comparing theoretical undeformed condition to nonlinearly deformed condition there was 26 to 41% difference in flutter speed depending on the angle of attack. The results indicate that the matched solution approach is effective in capturing the flutter velocity with good accuracy being a simplified approach for capturing the main physics behind the problem.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech Forum and Exposition 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Oliveira Lima, João Flávio Bolini",
+      "scopus_id": "59043593700",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Silva Bussamra, Flávio Luiz",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Verri, Angelo Antonio",
+      "scopus_id": "57205545553",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Melo, Felipe Buarque Cordeiro",
+      "scopus_id": "58243127600",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192265840&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047149",
+    "data_quality_score": 90
+  }
+}

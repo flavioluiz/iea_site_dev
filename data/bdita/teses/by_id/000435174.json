@@ -1,0 +1,33 @@
+{
+  "num_tese": "000435174",
+  "type": "tese",
+  "title": "Implementaçăo e análise de técnica de fusăo sensorial aplicadas ŕ robótica.",
+  "author": "Alfred Makoto Kabayama",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta a implementaçăo e comparaçăo de tręs técnicas distintas de visăo computacional tridimensional a saber: Visăo estéreo: correlaçăo de imagens bidimensionais (2D); Fusăo sensorial - uso de sensores distintos: câmera 2D + sensor de ultra-som unidimensionais (1D); Iluminaçăo estruturada. Os algoritmos de visăo computacional apresentados săo basicamente implementaçőes de trabalhos anteriores, realizados a partir de técnicas atualizadas de comprovada eficięncia. As principais características avaliadas durante o estudo comparativo entre as tręs técnicas săo: carga computacional (tempo de obtençăo do dado 3D); Influęncia do meio (ruído devido a uma iluminaçăo năo uniforme, ofuscamentos, sombras); custo da infra-estrutura para cada técnica; análise de incertezas, precisăo (repetibilidade) e acuidade. Optou-se pelo uso do software Matlab versăo 5.1 para a implementaçăo dos algoritmos, dada a facilidade de programaçăo e depuraçăo, além de ser muito difundido e utilizado no meio acadęmico, permitindo que os resultados desse trabalho sejam reproduzidos e verificados. Săo apresentados exemplos de visăo tridimensional aplicados a tarefas de montagem robotizada do tipo pick-and-place\".",
+  "subjects": [
+    "Visăo por computadores",
+    "Sensores",
+    "Processamento de imagens",
+    "Corpos tri-dimensionais",
+    "Algoritmos",
+    "Robótica",
+    "Mecatrônica",
+    "Computaçăo",
+    "Engenharia mecânica",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000435174",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000435174&origem=BDITA"
+}

@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-78249253934",
+  "eid": "2-s2.0-78249253934",
+  "doi": "10.1115/IMECE2002-39402",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Heat transfer in a suddenly expanded turbulent flow past a porous insert using linear and non-linear eddy-viscosity models",
+  "abstract": "This work presents numerical results for heat transfer in turbulent flow past a backward-facing-step channel with a porous insert using linear and non-linear eddy viscosity macroscopic models. The non-linear turbulence models are known to perform better than classical eddy-diffusivity models due to their ability to simulate important characteristics of the flow. Parameters such as porosity, permeability and thickness of the porous insert are varied in order to analyze their effects on the flow pattern, particularly on the damping of the recirculating bubble after the porous insertion. The numerical technique employed for discretizing the governing equations is the control-volume method. The SIMPLE algorithm is used to correct the pressure field. Wall functions for velocity and temperature are used in order to bypass fine computational close to the wall. Comparisons of results simulated with both linear and non-linear turbulence models are presented. Copyright © 2002 by ASME.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": "145-154",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=78249253934&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111793",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "num_tg": "000563991",
+  "type": "tg",
+  "title": "Definition of a tool for centralization of test results on alerts and indications in the A350 XWB.",
+  "author": "Renan da Silva Costa",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "David Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "One of the most challenging duties for engineers responsible for integration of aircraft systems in Airbus, a transnational company, is to obtain in a regular, standardized manner results of tests performed in other departments, which have another set of methods on their own and are eventually located in different countries. These results are necessary for the engineers of systems integration to carry out their goal plan. Specifically in the context of alerts and indications of avionics systems in A350, a tool capable of centralizing test results has arisen as a feasible solution. Its design consists of a technical specification written out by taking into account needs gathered in interviews with a test control team, who is in charge of follow-up on test plans for alerts and other indications. Furthermore, a feasibility study on existing internal tools performing similar tasks, such as test plan conception and analysis, provided better understanding of their context and functions in order to help the mentioned team to choose the best strategy for this tool design: either improvement and adjustment of already available components so as to perform the proposed new tasks, or configuration of a brand new application. This publication comprises not only the specification and the feasibility study, but also previous design steps, such as interviews for gathering needs from the control team.",
+  "subjects": [
+    "Aviônica",
+    "Sistemas de alerta",
+    "Integraçăo de sistemas",
+    "Projeto de aeronaves",
+    "Manutençăo de aeronaves",
+    "Engenharia aeronáutica",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000563991",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000563991&origem=BDITA"
+}

@@ -1,0 +1,27 @@
+{
+  "num_tg": "000527731",
+  "type": "tg",
+  "title": "Projeto de uma plataforma microprocessada supervisionada por computador para controle simultâneo e independente de motores CC.",
+  "author": "Milton Felipe Souza Santos",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Geraldo José Adabo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta o desenvolvimento do projeto de uma plataforma de controle de posiçăo de um motor CC. Tal projeto consta de uma parte mecânica, onde foi utilizado, como exemplo, o controle linear posicional de uma haste telescópica, uma parte eletrônica, onde foi utilizado um controle por PWM microcontrolado com realimentaçăo de posiçăo utilizando encoder incremental óptico, e uma parte computacional, destinada ŕ supervisăo das plataformas, servindo de elo de ligaçăo entre o usuário e os componentes do sistema, composto por diversos aparelhos autônomos similares ligados numa micro rede padrăo RS232 em cascateamento Daisy.",
+  "subjects": [
+    "Controle automático",
+    "Motores de corrente contínua",
+    "Dispositivos de posicionamento (máquinas)",
+    "Controladores",
+    "Mecatrônica",
+    "Controle",
+    "Engenharia industrial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527731",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527731&origem=BDITA"
+}

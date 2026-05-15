@@ -1,0 +1,67 @@
+{
+  "publication_id": "2-s2.0-2942543105",
+  "eid": "2-s2.0-2942543105",
+  "doi": "10.1016/j.euromechsol.2004.04.001",
+  "pii": "S099775380400052X",
+  "pubmed_id": null,
+  "title": "Finite element analysis of the dynamic response of cylindrical panels under traversing loads",
+  "abstract": "The vibration of a cylindrical panel with a moving force or mass is investigated using the finite element method. The panels considered are assumed to be thin such that out-of-plane shear effects can be disregarded and the classical theory of shells can be applied. A perturbation technique is used to simplify the numerical problem such that the resulting nonlinear governing equations are split into a series of linear sub-problems. The effects of the panel curvature, moving load velocity and moving mass to main structure ratio on the dynamic response are investigated. It is observed that the dynamic response is relatively insensitive to variations in the panel curvature but is significantly affected by rapid traversing velocities or heavy moving masses. Moreover, a critical traversing speed is characterized for the moving force problem whereas a safe traversing speed is observed for the moving mass problem. © 2004 Elsevier SAS. All rights reserved.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "European Journal of Mechanics A Solids",
+    "issn": "09977538",
+    "eissn": null,
+    "volume": "23",
+    "issue": "4",
+    "pages": "677-687",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=2942543105&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044678",
+    "data_quality_score": 90
+  }
+}

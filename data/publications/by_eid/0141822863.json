@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-0141822863",
+  "eid": "2-s2.0-0141822863",
+  "doi": "10.1080/10407780307351",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical analysis of the stress jump interface condition for laminar flow over a porous layer",
+  "abstract": "A number of natural and engineering systems can be characterized by some sort of porous structure through which a working fluid permeates. Boundary layers over tropical forests and spreading of chemical contaminants through underground water reservoirs are examples of important environmental flows that can benefit form appropriate mathematical treatment. For hybrid media, involving both a porous structure and a clear flow region, difficulties arise due to the proper mathematical treatment given at the interface. The literature proposes a jump condition in which stresses at both sides of the interface are not of the same value. The objective of this article is to present a numerical implementation for solving such a hybrid medium, considering here a channel partially filled with a porous layer through which fluid flows in laminar regime. One unique set of transport equations is applied to both regions. Numerical results are compared with available analytical solutions in the literature for two cases, namely, with and without the nonlinear Forchheimer term. Results are presented for the mean velocity across both the porous structure and the clear region. The influence of medium properties, such as porosity and permeability, is discussed.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-05-02",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": null,
+    "volume": "43",
+    "issue": "6",
+    "pages": "603-617",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Renato A.",
+      "scopus_id": "35578549800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657-60025385",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 77,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0141822863&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111575",
+    "data_quality_score": 90
+  }
+}

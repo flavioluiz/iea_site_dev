@@ -1,0 +1,34 @@
+{
+  "num_tese": "000479328",
+  "type": "tese",
+  "title": "A three layer quasi 3D finite element model for structural analysis of sandwich plates.",
+  "author": "Airton Nabarrete",
+  "year": "2002",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A three-layer finite element model for the analysis of sandwich plates with laminated composite face-sheets is evaluated. In the model, the face-sheets are represented as Reissner-Mindlin plates and the core is modeled as a three-dimensional continuum. This representation allows accurate modeling for a wide range of core types. The three-dimensional problem is reduced to two dimensions by analytical through-thickness integration of the energy expressions for the evaluation of elastic and geometric stiffness, and mass matrices. The results from this model are compared to finite element results based on solid elements, laminated Reissner-Mindlin, and laminated classical plate theory. The objective of the work is to analyze the following aspects of sandwich plates using the developed model for a broad range of core stiffness: natural frequencies and corresponding mode shapes, critical buckling loads, stress stiffening effects, and the dynamic analysis including piezoelectric actuation on the face-sheets. When large differences between face-sheet and core stiffness is present it is illustrated that traditional laminate theories yield significant inaccuracy. Moreover, unlike plate models, the present theory is also capable of representing a variety of three dimensional boundary conditions. Furthermore, compared to solid models, the present sandwich model avoids numerical problems due to three dimensional element aspect ratio that facilitates modeling sandwich plates with thin faces and thick core. Therefore, the present model provides a powerful general tool for a wide variety of structural analyses of sandwich plates.",
+  "subjects": [
+    "Estruturas sanduíche",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Modelos matemáticos",
+    "Estruturas tridimensionais",
+    "Vibraçăo estrutural",
+    "Flambagem",
+    "Materiais piezoelétricos",
+    "Atuadores",
+    "Placas (membros estruturais)",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000479328",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000479328&origem=BDITA"
+}

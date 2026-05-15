@@ -1,0 +1,27 @@
+{
+  "num_tg": "67493",
+  "type": "tg",
+  "title": "Optimization method for a crashworthiness finite element model",
+  "author": "Rodrigo Castellari Affonso",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The aim of this work is to develop an affordable optimization method for a non-linear computationally expensive problem - a crashworthiness analysis. The goal is to assess the viability of the method and to analyze the important parameters in the optimization to select an efficient optimization method. The optimization case selected to perform the optimization study is the crashworthiness analysis of a fuselage section of a wide-body aircraft. This analysis calculates the behavior of the fuselage during its impact on the ground derived from a crash situation. The aim of the optimization is to reduce the total fuselage mass while maintaining the safety of the passengers and the integrity of the structure. The present work is based on three main steps: the simplification of the finite element model, a mathematical representation of the model and its optimization, and the validation of the results. The results show that the method was capable of finding reasonable optimum points. As expected of a newly developed approach, the method is not yet mature enough to be directly applied in a judicious optimization for a crash design. However, by following the suggestions presented alongside with further developments, this method can be employed in order to improve structure designs regarding highly non-linear responses.",
+  "subjects": [
+    "Análise estrutural",
+    "Fuselagens",
+    "Estruturas de aeronaves",
+    "Otimizaçăo",
+    "Segurança de aeronaves",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67493",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67493&origem=BDITA"
+}

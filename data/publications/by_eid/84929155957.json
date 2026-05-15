@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-84929155957",
+  "eid": "2-s2.0-84929155957",
+  "doi": "10.1016/j.tws.2015.04.024",
+  "pii": "S0263823115001445",
+  "pubmed_id": null,
+  "title": "Experimental and numerical estimation of buckling load on unstiffened cylindrical shells using a vibration correlation technique",
+  "abstract": "© 2015 Elsevier Ltd. All rights reserved.Nondestructive methods, to calculate the buckling load of imperfection sensitive thin-walled structures, are one of the most important techniques for the validation of new structures and numerical models of large scale aerospace structures. The vibration correlation technique (VCT) allows determining the buckling load for several types of structures without reaching the instability point, but this technique is still under development for thin-walled plates and shells. This paper presents and discusses an experimental and numerical validation of a novel approach, using the vibration correlation technique, for the prediction of realistic buckling loads on unstiffened cylindrical shells loaded in compression. From the experimental point of view, a batch of three composite laminated cylindrical shells are fabricated and loaded in compression up to buckling. An unsymmetric laminate is adopted in order to increase the sensitivity of the test structure to initial geometric imperfections. In order to characterize a relationship with the applied load, the first natural frequency of vibration and mode shape is measured during testing using a 3D laser scanner. The proposed vibration correlation technique allows one to predict the experimental buckling load with a very good approximation, without actually reaching the instability point. Furthermore, a series of numerical models, including non-linear effects such as initial geometric and thickness imperfection, are carried-out in order to characterize the variation of the natural frequencies of vibration with the applied load and compare the results with the experiment findings. Additional experimental tests are currently under development to further validate the proposed approach for metallic and balanced composite structures.",
+  "authkeywords": [
+    "Buckling",
+    "Composite materials",
+    "Cylindrical shells",
+    "Finite element model",
+    "Thin-walled structures",
+    "Vibration correlation technique"
+  ],
+  "year": "2015",
+  "date": "2015-09-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thin Walled Structures",
+    "issn": "02638231",
+    "eissn": null,
+    "volume": "94",
+    "issue": null,
+    "pages": "273-279",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Kalnins, Kaspars",
+      "scopus_id": "12142723900",
+      "affiliation": "60071057",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ozolins, Olgerts",
+      "scopus_id": "55486832800",
+      "affiliation": "60071057",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Skukis, Eduards",
+      "scopus_id": "34868924900",
+      "affiliation": "60071057",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Degenhardt, Richard",
+      "scopus_id": "12144431600",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 69,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84929155957&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074457",
+    "data_quality_score": 100
+  }
+}

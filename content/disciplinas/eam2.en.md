@@ -1,5 +1,5 @@
 ---
-title: "EAM-2: Aerospace Propulsion and Energy"
+title: "Aerospace Propulsion and Energy"
 description: "Courses in the research area of Aerospace Propulsion and Energy"
 ---
 

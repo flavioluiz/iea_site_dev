@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-78249237878",
+  "eid": "2-s2.0-78249237878",
+  "doi": "10.1115/imece2002-33925",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent heat transfer in a backward-facing step flow using a non-linear k-ε model",
+  "abstract": "This work presents numerical results for heat transfer in turbulent flow past a backward-facing step. It is shown that non-linear k-ε models perform better than their linear counterparts when simulations are compared with experimental values. Wall functions are used for simplicity of the simulations. The finite-volume technique is employed for discretizing the transport equation set on a non-orthogonal grid system. The SIMPLE method is used for correcting the pressure field. Results for the reattachment length using the non-linear model are closer to the experimental values when compared with similar calculations using the standard linear closure. Copyright © 2002 by ASME.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": "315-321",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=78249237878&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111810",
+    "data_quality_score": 90
+  }
+}

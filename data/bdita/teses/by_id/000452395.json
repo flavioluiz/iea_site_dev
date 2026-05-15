@@ -1,0 +1,35 @@
+{
+  "num_tese": "000452395",
+  "type": "tese",
+  "title": "Implementaçăo de sensor de deformaçăo a fibra óptica baseado no interferômetro de Michelson com luz branca.",
+  "author": "Patrícia Tieme Maeda",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osni Lisbôa",
+      "professor_slug": null
+    },
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Sensores a fibra óptica estruturalmente integrados formam a base para a tecnologia de estruturas inteligentes. Nos últimos anos foram desenvolvidas várias configuraçőes de sensores a fibra óptica para medidas de deformaçăo mecânica. Esta deformaçăo altera o índice de refraçăo e a geometria do material da fibra óptica causando variaçőes na intensidade, fase e polarizaçăo da onda luminosa propagando-se ao longo da fibra. Sensores interferométricos a fibra óptica săo extremamente sensíveis a medidas de deformaçăo, sendo utilizados em aplicaçőes que demandam elevado desempenho. Sua alta resoluçăo faz destes sensores ideais para aplicaçőes de controle. Interferometria com luz branca é uma técnica muito eficiente que vem sendo empregada para fornercer medidas de deformaçăo mecânica com alta resoluçăo. Neste trabalho foi implementado um sensor de deformaçăo mecânica baseado no interferômetro de Michelson a fibra óptica com luz branca para medidas de deformaçăo (strain) em uma viga năo uniforme de seçăo retangular. A partir dos resultados experimentais obtidos com o sensor a fibra e com extensômetros de resistęncia elétrica (strain gauges), foram feitas análises comparativas de ambos os sensores com o propósito de avaliar a característica de resposta do sensor a fibra óptica. Isto foi feito principalmente com relaçăo ŕ linearidade de resposta do sensor a fibra. Em seguida, foram propostas algumas modificaçőes de forma a adequá-lo ŕs várias aplicaçőes que se fizerem necessárias. Este trabalho permitiu o desenvolvimento de um sensor a fibra óptica no CTA e a integraçăo de diversas áreas incluindo opto-eletrônica, engenharia mecânica e aeronáutica e computaçăo.",
+  "subjects": [
+    "Sensores",
+    "Fibras ópticas",
+    "Deformaçăo",
+    "Interferômetros ópticos",
+    "Interferometria com luz branca",
+    "Estruturas",
+    "Mecatrônica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000452395",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000452395&origem=BDITA"
+}

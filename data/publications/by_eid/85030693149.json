@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85030693149",
+  "eid": "2-s2.0-85030693149",
+  "doi": "10.1007/s11012-017-0768-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Deflection control of an aeroelastic system utilizing an antagonistic shape memory alloy actuator",
+  "abstract": "© 2017, Springer Science+Business Media B.V.This paper presents position control of the control surface of an aeroelastic typical section using shape memory alloy (SMA) actuators. The actuator was designed using an antagonistic pair of SMA wires, thus allowing its use to move the control surface to up and down. The mathematical model adopted here describes the relations among aeroelastic section, models of SMA wire heat convection, constitutive law and phase transformations of the SMA. Three types of controllers are presented based on variable structure control approach and the deflection of the control surface via two pairs of antagonistic wires are made in a closed loop system. The effectiveness of the actuation system in positioning the control surface is evaluated numerically.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Antagonist movement",
+    "Nonlinear control",
+    "Shape memory alloys",
+    "Variable structure control"
+  ],
+  "year": "2018",
+  "date": "2018-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Meccanica",
+    "issn": "00256455",
+    "eissn": "15729648",
+    "volume": "53",
+    "issue": "4-5",
+    "pages": "727-745",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Piccirillo, Vinícius",
+      "scopus_id": "23981194400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Balthazar, José M.",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tusset, Angelo Marcelo",
+      "scopus_id": "26031801400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 57,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85030693149&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077124",
+    "data_quality_score": 100
+  }
+}

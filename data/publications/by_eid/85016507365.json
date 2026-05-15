@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85016507365",
+  "eid": "2-s2.0-85016507365",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Attitude and vibration control of a satellite containing flexible solar arrays by using reaction wheels, thrusters, and piezoelectric transducers as sensors and actuators",
+  "abstract": "This paper deals with attitude and vibration control of a satellite containing flexible solar arrays. The vibration motion is controlled by using piezoelectric transducers as sensors and as actuators. A lab test is conducted with a piezoelectric element bonded on a thin plate for two specific applications, the piezoelectric acting as a sensor and as an actuator. The attitude motion is controlled by using reaction wheels and thruster. For this purpose a mathematical model is developed for a rigid-flexible satellite comprising reactions wheels, thrusters, and piezoelectric transducers to act as sensors and actuators aiming the solar panels vibration control. The Finite Elements method is used to model the piezoelectric elements and the solar arrays. The method is combined with the Lagrangian formulation to obtain the complete mathematical model of the spacecraft taking into account the attitude and the vibration coupled motions. The sensor mathematical model involves the electric potential in addition to the conservative potential energy associated with the elastic properties of the piezoelectric element. The Linear Quadratic Regulator controller is designed for the attitude and vibration control. The MatLab software is used to simulate the dynamics of the system. The interaction between the attitude and the vibration motion is analyzed as well as the performance of the piezoelectric actuator to damp the vibration motion of the solar arrays.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "0",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Fonseca, Ijar M.",
+      "scopus_id": "15922451500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos",
+      "scopus_id": "6701889091",
+      "affiliation": "",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Chales, Rodrigo",
+      "scopus_id": "57223245198",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 0,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85016507365&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089084",
+    "data_quality_score": 60
+  }
+}

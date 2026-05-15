@@ -1,0 +1,30 @@
+{
+  "num_tg": "76460",
+  "type": "tg",
+  "title": "Desenvolvimento de uma Simulaçăo Monte Carlo para míssil ar-ar guiado a laser",
+  "author": "Hilton Alex Soares de Lima",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luís Eduardo Vergueiro Loures da Costa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Alberto de Paiva Carvalho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O objetivo desse trabalho é desenvolver uma simulaçăo monte carlo para um míssil ar-ar guiado a laser com a finalidade de determinar os requisitos dos principais subsistemas do míssil sem inviabilizar a construçăo do mesmo e ao mesmo tempo garantir uma confiabilidade razoável (elevada kill probability), levando-se em consideraçăo erros e ruídos oriundos das leituras de sensores e erros na execuçăo de atuadores e na propulsăo do míssil. Foi utilizado como base para o desenvolvimento da simulaçăo o trabalho de graduaçăo [1] desta maneira foram implementadas algumas das sugestőes sugeridas pelo trabalho citado. A simulaçăo levou em consideraçăo a inserçăo de erros do tipo run-to-run e in-run nos seguintes subsistemas, aerodinâmica, propulsăo, navegaçăo, autodiretor, atuador e detecçăo da posiçăo e velocidade do alvo. Além disso foi estudado os casos em que há limitaçőes de leitura de dados como posiçăo e velocidade de tracking do alvo pelo audiretor e da distância de saturaçăo do audiretor, tais limitaçőes modelam o que ocorre num voo real.",
+  "subjects": [
+    "Mísseis guiados",
+    "Método de Monte Carlo",
+    "Simulaçăo computadorizada",
+    "Sensores",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76460",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76460&origem=BDITA"
+}

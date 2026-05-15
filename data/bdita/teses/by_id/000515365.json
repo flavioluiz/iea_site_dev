@@ -1,0 +1,32 @@
+{
+  "num_tese": "000515365",
+  "type": "tese",
+  "title": "Estabilidade e controle ótimo de atitude de satélites artificiais com rotores de reaçăo e de momento em órbitas circulares.",
+  "author": "Alexandre Carbonera Bettiato",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é analisado o movimento rotacional ou de atitude de um satélite artificial em órbita circular terrestre, o qual está sujeito a influęncia do torque devido ao gradiente gravitacional e possui quantidades de movimento angular devido ŕ presença de tręs rotores internos. As velocidades angulares internas tęm seus vetores coincidentes com os eixos principais de inércia do referido satélite. Săo determinadas as regiőes de estabilidade para um satélite genérico, ou seja, com configuraçőes variadas dos parâmetros inerciais, para casos contendo um, dois ou tręs rotores internos. Para o estudo da estabilidade destes casos, as quantidades de movimento angular săo constantes. A determinaçăo das regiőes de estabilidade para um satélite contendo tręs rotores internos, é realizada com quantidades de movimento angular variáveis e posicionamento angular fixo. Os casos nos quais o satélite possui um rotor interno, alternado em seus tręs eixos principais, tęm suas regiőes de estabilidade determinadas de forma analítica e numérica, sendo que a forma numérica compőe um programa geral aplicável a todos os casos. O segundo tópico focalizado é a otimizaçăo da atitude, para a mudança de posicionamento angular do satélite, em relaçăo ao sistema de coordenadas da órbita. Para determinaçăo das trajetórias ótimas, săo elaborados programas numéricos, os quais utilizam como sinais de controle os torques aplicados nos eixos dos rotores internos. Săo apresentados programas para problemas distintos: \"energia\" mínima, tempo mínimo e um problema de otimizaçăo com índice de desempenho misto entre \"energia\" e tempo mínimos. A soluçăo de um problema com a minimizaçăo do tempo, incluindo limitaçőes nos valores absolutos dos controles (bang-bang), é extremamente difícil. Logo, é apresentada uma alternativa para sua soluçăo problema, utilizando um índice de desempenho para \"energia\" mínima de controle. Os programas săo implementados com o auxílio do \"software\" MatLab 6.0, no qual é utilizado o comando bvp4c de seu bloco de otimizaçăo, para a soluçăo de problemas de valor de contorno em dois pontos.",
+  "subjects": [
+    "Controle de atitude de satélites",
+    "Estabilidade de atitude",
+    "Otimizaçăo de trajetória",
+    "Órbitas circulares",
+    "Rotores",
+    "Satélites artificiais",
+    "Análise numérica",
+    "Engenharia aeroespacial",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515365",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515365&origem=BDITA"
+}

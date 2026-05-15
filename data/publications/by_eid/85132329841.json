@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85132329841",
+  "eid": "2-s2.0-85132329841",
+  "doi": "10.1007/s40430-022-03591-y",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Shape effects on airfoils induced by riveting",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.Riveting processes are widely used in aeronautical structures, mainly in thin shell structures, like wing and fuselage panels. During such processes, the product shape is slightly changed. That slight geometrical change can be detected by measurement systems or even visually in some cases. The riveting-induced shape alterations, may affect, in some amount, the aerodynamics and the manufacturing cycle and cost of the final product. One cause of the deformations, among many others, is the cumulative effect of the diametral expansions, along the riveting lines. Aerodynamic surfaces, under such phenomenon, may be sensibly affected. The consequences are not deeply addressed in the current literature. The shape problem is not considered in the design of the riveting systems either, and the problem may be intensified by automatic or robotized riveting systems once those are set to accomplish an optimized cycle time, but no consideration is given regarding to the minimization of the possible shape distortion. Such effect may become a limitation when developing manufacturing systems for high performance wings in the aeronautical industry. In this work, one selected typical 2D airfoil section is assessed for shape deviations at the relative proportions normally induced by riveting processes. Due to the problem complexity and to simplify this assessment, the simulations herein are limited to 2D flow (no 3D effects addressed). The modified airfoils are numerically evaluated in a 2D flow software code, using the panels’ method, and the results are compared with the original airfoil coefficients (Cl, Cd, Cl/Cd). The objective of this work is to understand the overall effects produced by the shape deviations, their main contributors and the relevance to the conception of new automatic riveting systems aiming wing structural assemblies.",
+  "authkeywords": [
+    "Aerodynamics of airfoil",
+    "Manufacturing deviations",
+    "Riveting-growth effect",
+    "Riveting-induced deformations",
+    "Wing assembly"
+  ],
+  "year": "2022",
+  "date": "2022-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "7",
+    "pages": null,
+    "article_number": "285"
+  },
+  "authors": [
+    {
+      "name": "Figueira, José Augusto Nunes",
+      "scopus_id": "57000079500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657-128240981",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Silva, André Vinicius Santos",
+      "scopus_id": "57209581146",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Soviero, Paulo Afonso de Oliveira",
+      "scopus_id": "6603040345",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85132329841&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.124977",
+    "data_quality_score": 100
+  }
+}

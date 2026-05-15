@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-85060432285",
+  "eid": "2-s2.0-85060432285",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Structural damping effects on the acoustic scattering by elastic plates",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.In this work we deal with the problem of trailing edge noise scattered by a flat elastic plate. We use a model based on a boundary element method that couples the acoustic problem with the fluid-structure interaction and takes into account structural damping. The solution is obtained using the modal basis of the free vibration problem. The objective of this paper is to expand the acoustic scattering analysis for different damped plates to increase knowledge about the effects of structural damping and to identify potential benefits of using inherently damped structures, such as viscoelastic materials. It is found that there is a range of damping coefficients, capable of reducing peaks in the acoustic spectra associated with structural resonance, while mantaining the reduction of scattered sound due to elasticity. When the damping coefficient is increased above this range, the rigid-plate limit is recovered and acoustic benefits are reduced. The present results allow the selection of optimally-damped structures with respect to acoustic radiation.",
+  "authkeywords": [
+    "Acoustic scattering",
+    "Elasticity",
+    "Structural damping",
+    "Trailing-edge noise"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nilton, Maurício M.",
+      "scopus_id": "57194858098",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Wolf, William R.",
+      "scopus_id": "36621377400",
+      "affiliation": "60029570",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060432285&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101380",
+    "data_quality_score": 70
+  }
+}

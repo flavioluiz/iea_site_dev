@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85085400753",
+  "eid": "2-s2.0-85085400753",
+  "doi": "10.2514/6.2011-2743",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Axisymmetric superdirectivity in subsonic jets",
+  "abstract": "We present experimental results for the acoustic field of jets in the Mach number range 0.35 ≤ M ≤ 0.6. Data acquired by means of an azimuthal ring of six microphones, whose polar angle, θ, was progressively varied, is decomposed into azimuthal Fourier modes. In agreement with past observations, the sound field for low polar angles (measured with respect to the jet axis) is found to be dominated by the axisymmetric mode, particularly at the peak Strouhal number. As θ is increased, modes 1 and 2 become increasingly important and dominate at angles greater than θ ≈ 30°. A number of features of the axisymmetric mode of the acoustic field suggest that it can be associated with an axially non-compact source, in the form of a convected wave comprising amplification, saturation and decay, and whose axial extension is of the order of several jet diameters: (a) the sound pressure level for peak frequencies is shown be superdirective for all Mach numbers considered, with exponential decay as a function of (1-Mc cos θ)2, in agreement with wavepacket models for an axially non-compact axisymmetric source; (b) while the mode m = 1 spectrum scales with Strouhal number, suggesting that its energy content is associated with turbulence scales, the axisymmetric mode scales with Helmholtz number-the ratio between source length scale and acoustic wavelength; (c) the axisymmetric radiation has a stronger velocity dependence than the higher order azimuthal modes, again in agreement with predictions of the said wave-packet models. We use such a wave-packet model to estimate that the axial extension of the source structure underpinning the axisymmetric component of the sound field is of the order of 6-8 jet diameters, and that the source comprises a convected wave with three spatial oscillations, weighted by a Gaussian envelope; such a source structure is in good agreement with past observations based on coherent structure eduction techniques. The present results show that the narrow-band spectrum of the axisymmetric mode contributes to the appearance of the characteristic jet-noise spectrum at low angles, an effect that becomes more marked as the Mach number is increased. © 2011 by P. Jordan. Published by the American Institute of Aeronautics and Astronautics, Inc.",
+  "authkeywords": null,
+  "year": "2011",
+  "date": "2011-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th AIAA Ceas Aeroacoustics Conference 2011 32nd AIAA Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "109689357",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gervais, Yves",
+      "scopus_id": "56211700100",
+      "affiliation": "109689475",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85085400753&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.102203",
+    "data_quality_score": 90
+  }
+}

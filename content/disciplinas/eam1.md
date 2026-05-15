@@ -1,6 +1,6 @@
 ---
-title: "EAM-1: Projeto Aeronáutico, Estruturas e Sistemas Aeroespaciais"
-description: "Disciplinas da área de concentração em Projeto Aeronáutico, Estruturas e Sistemas Aeroespaciais"
+title: "Projeto Aeronáutico, Estruturas e Sistemas Aeroespaciais"
+description: "Disciplinas da Projeto Aeronáutico, Estruturas e Sistemas Aeroespaciais"
 ---
 
 Esta área abrange aerodinâmica, dinâmica de voo, estruturas, controle e projeto de aeronaves.

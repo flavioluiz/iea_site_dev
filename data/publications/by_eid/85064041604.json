@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85064041604",
+  "eid": "2-s2.0-85064041604",
+  "doi": "10.1615/ichmt.2017.cht-7.1610",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Buoyancy ratio and porosity effects on aiding and opposing double-diffusive convection in porous media",
+  "abstract": "© 2017, Begell House Inc. All Rights Reserved.This work presents a study on double-diffusive free convection in a porous square cavity saturated with a Newtonian fluid under laminar flow simulated with the thermal equilibrium model. Transport equations are discretized using the control-volume method and the system of algebraic equations is relaxed via the SIMPLE algorithm. The effect of Ram and porosity on average Nusselt and Sherwood values were investigate. Results show that as Ram increases, both Nusselt and Sherwood numbers increase, indicating enhancement of heat and mass transfer across the cavity. Further, when the Lewis number is increased keeping the same thermal properties, reduction of mass diffusivity further enhances flow recirculation for aiding flows (N=1) within the cavity, which leads to further increase in Nuw and Shw. When varying the buoyancy ratio N from aiding (N>0) to opposing flow (N<0), simulations indicates that when both drives are of equal strength, minimum values for Nusselt and Sherwood occur for N =-1, regardless of Ram. For larger values of |N|, aiding drives will promote fluid rotation in the clockwise direction, for the gradients of T and C here applied, whereas for opposing flows, the fluid rotates in the counter-clockwise direction for opposed conditions at the lateral walls. Results show that porosity also affects Nuw and Shw.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Symposium on Advances in Computational Heat Transfer",
+    "issn": "25785486",
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1537-1558",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Carvalho, Paulo H.S.",
+      "scopus_id": "55922067000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85064041604&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110553",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "73485",
+  "type": "tese",
+  "title": "Avaliaçăo da representatividade de um simulador de voo com plataforma robótica de cadeia serial",
+  "author": "Rodrigo Mangoni Nicola",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por objetivo avaliar a influencia do aumento do volume de trabalho da plataforma robótica de um simulador de voo atraves de uma modificaçăo do filtro washout classico. Para isso, foram utilizados modelos do sistema vestibular humano para calcular o erro, relacionado a sensaçăo do piloto, entre o ambiente de simulaçăo e a plataforma robótica. Atraves desse sinal de erro, estabeleceu-se uma funçăo objetivo a ser minimizada utilizando-se uma implementaçăo de algoritmo genetico. Os resultados demonstraram claramente um aumento na representatividade do simulador de voo com a ampliaçăo do volume de trabalho da plataforma robotica. No entanto, a avaliaçăo da estrutura de filtro proposta se mostrou inconclusiva.",
+  "subjects": [
+    "Planejamento de trajetória",
+    "Algoritmos",
+    "Robótica",
+    "Navegaçăo",
+    "Simulaçăo computadorizada",
+    "Controle"
+  ],
+  "defense_date": "21/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73485",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73485&origem=BDITA"
+}

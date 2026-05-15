@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-84943329017",
+  "eid": "2-s2.0-84943329017",
+  "doi": "10.2514/1.A33178",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Multi-objective optimization applied to real-time command problem of spacecraft thrusters",
+  "abstract": "Copyright © 2015 by the American Institute of Aeronautics and Astronautics, Inc.A novel approach to solve the real-time command problem of spacecraft thrusters, called the thruster multiobjectivecommand method, is proposed in this paper. The reaction control system technology uses a set of thrusters in a special setup to simultaneously provide force and torque to the spacecraft. The thruster management function calculates all the candidate solutions that solve the thruster coupling problem. Then, a discrete multi-objective optimization method selects at every control cycle the best combination of thrusters and their firing time duration, which simultaneously optimizes a group of four objectives: the force error, the torque error, the propellant mass consumption, and the total number of pulses. The proposed method is included in a coupled translational and attitude control system applied to the final approach rendezvous scenario. Furthermore, all elements of the guidance, navigation, and control loop are accurately designed and implemented in a simulation framework. Results indicate effectiveness, robustness, and a better performance when compared to the usual single-objective optimization case.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Spacecraft and Rockets",
+    "issn": "00224650",
+    "eissn": "15336794",
+    "volume": "52",
+    "issue": "5",
+    "pages": "1407-1416",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dos Santos, Willer Gomes",
+      "scopus_id": "55819853400",
+      "affiliation": "60012729-115792428",
+      "is_eam_professor": true,
+      "eam_professor_id": "willer-gomes-dos-santos"
+    },
+    {
+      "name": "Rocco, Evandro M.",
+      "scopus_id": "8613263600",
+      "affiliation": "60012729-115792428",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Boge, Toralf",
+      "scopus_id": "41261052200",
+      "affiliation": "60007798-115792066",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Benninghoff, Heike",
+      "scopus_id": "55627939500",
+      "affiliation": "60007798-115792066",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rems, Florian",
+      "scopus_id": "56200146000",
+      "affiliation": "60007798-115792066",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "willer-gomes-dos-santos"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84943329017&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.116890",
+    "data_quality_score": 90
+  }
+}

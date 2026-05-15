@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-77955524113",
+  "eid": "2-s2.0-77955524113",
+  "doi": "10.1590/S1678-58782010000100010",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simultaneous buckling and fundamental frequency optimization of frames under uncertain loadings1",
+  "abstract": "This work presents the optimization of a frame under uncertain loadings when two design criteria are taken simultaneously into account. The uncertainty relates to the applied loading and is inherent to the operation of structures since real structures are designed to sustain a large variety of load cases of practical relevance. The design criteria considered are two of the most important from a practical point of view: buckling load and natural frequency. The technique developed is based in convex modeling where a load space is defined and all the elements of that load space have equal probability of occurrence. The outcome of the technique is an optimal design for which one loading or several loadings of the load space are the most dangerous or harmful to the structure. On the other hand, it is guaranteed that all the other loadings contained in the load space are conservative in the sense that they are less harmful to the optimal design. Copyright © 2010 by ABCM.",
+  "authkeywords": [
+    "Buckling",
+    "Fundamental frequency",
+    "Minimax strategy",
+    "Multicriteria optimization",
+    "Uncertain loading"
+  ],
+  "year": "2010",
+  "date": "2010-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "32",
+    "issue": "1",
+    "pages": "71-77",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, A. P.C.S.",
+      "scopus_id": "7402999634",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=77955524113&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044564",
+    "data_quality_score": 100
+  }
+}

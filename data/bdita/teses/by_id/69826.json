@@ -1,0 +1,34 @@
+{
+  "num_tese": "69826",
+  "type": "tese",
+  "title": "Modified exponential mapping function for streamlined control of nonlinear dynamical systems",
+  "author": "Hildebrando Ferreira de Castro Filho",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Henrique Costa Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "To build models is an expensive task. Up to 90% of a project's global time to implement a controller is spent on building the model. Questions about model complexity and scope can be hard to answer. Validation of the model can be expensive and at times impossible, as in a new spacecraft. Models usually consider the project characteristics of main equipments and designated process materials and neglect other aspects, such as equipment aging, fatigue, and corrosion. Other physical components of the plant, such as actuators, sensors, and their properties, such as transport delays, noises, and quantization aspects, are overlooked. Regulatory control in process industries are developed by process or control engineers and then updated by maintenance personnel. Nowadays, from 90% to 97% of the controllers in the industry are of the PID type, individually demanding from five to seven parameters to be heuristically tuned, if one uses the Ziegler-Nichols approach, or analytically tuned, if a model is available. To complicate matters, half of all PID control loops will suffer performance degradation within their first year of use, because of equipment aging, changes in process materials, and changes in operation setpoints to cope with different campaigns. As an example, an average refinery has about 1,000 regulatory control loops. To be able to continuously retune them without a tool is a daunting task. Software tools are available, but they are not reliable when used on nonlinear processes. EMC, the proposed controller, unifies a heuristical method to relinquish the need of a model and to define its initial parameters with a simple exponential one-dimensional FLC inference mapping, to deal with a class of nonlinearities. The controller needs only two parameters and does not rely on any analytical information about the plant but only on its open loop behavior. The EMC is capable of decreasing engineering and maintenance costs for the tracking and regulatory control of process industries. It can also be a controller of choice for engineering companies or for microcontroller-based projects, since it is intuitive and easy to implement in any computer language, while demanding low computational resources. EMC was implemented on a series of plants, with very good results. Its initial gains were easily established by applying a simple procedure, and its capacity to deal with nonlinearities was shown through simulation of highly nonlinear processes. A comparison with an FLC-tuned SMC controller was made, and EMC performed better, even though the SMC controller had a model of the plant in its control law formulation.",
+  "subjects": [
+    "Controladores",
+    "Microcontroladores",
+    "Sistemas de controle năo-linear",
+    "Métodos heurísticos",
+    "Simulaçăo de controle",
+    "Controle"
+  ],
+  "defense_date": "27/11/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69826",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69826&origem=BDITA"
+}

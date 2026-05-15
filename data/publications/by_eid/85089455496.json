@@ -1,0 +1,125 @@
+{
+  "publication_id": "2-s2.0-85089455496",
+  "eid": "2-s2.0-85089455496",
+  "doi": "10.1017/jfm.2020.566",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Ambiguity in mean-flow-based linear analysis",
+  "abstract": "© The Author(s), 2020.Linearisation of the Navier-Stokes equations about the mean of a turbulent flow forms the foundation of popular models for energy amplification and coherent structures, including resolvent analysis. While the Navier-Stokes equations can be equivalently written using many different sets of dependent variables, we show that the properties of the linear operator obtained via linearisation about the mean depend on the variables in which the equations are written prior to linearisation, and can be modified under nonlinear transformation of variables. For example, we show that using primitive and conservative variables leads to differences in the singular values and modes of the resolvent operator for turbulent jets, and that the differences become more severe as variable-density effects increase. This lack of uniqueness of mean-flow-based linear analysis provides new opportunities for optimising models by specific choice of variables while also highlighting the importance of carefully accounting for the nonlinear terms that act as a forcing on the resolvent operator.",
+  "authkeywords": [
+    "jet noise"
+  ],
+  "year": "2020",
+  "date": "2020-08-06",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "900",
+    "issue": null,
+    "pages": null,
+    "article_number": "R5"
+  },
+  "authors": [
+    {
+      "name": "Karban, U.",
+      "scopus_id": "56256153700",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bugeat, B.",
+      "scopus_id": "57210826230",
+      "affiliation": "60120016",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, E.",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, A.",
+      "scopus_id": "54581759500",
+      "affiliation": "60155336",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Lesshafft, L.",
+      "scopus_id": "10142919200",
+      "affiliation": "60105985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Agarwal, A.",
+      "scopus_id": "7401480906",
+      "affiliation": "60120016",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, P.",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, T.",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 28,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089455496&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100897",
+    "data_quality_score": 100
+  }
+}

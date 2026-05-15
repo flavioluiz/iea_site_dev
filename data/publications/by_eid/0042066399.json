@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-0042066399",
+  "eid": "2-s2.0-0042066399",
+  "doi": "10.1016/S0273-1177(03)00166-2",
+  "pii": "S0273117703001662",
+  "pubmed_id": null,
+  "title": "Optimal attitude corrections for cylindrical spacecraft",
+  "abstract": "A first order analytical model for optimal small amplitude attitude maneuvers of spacecraft with cylindrical symmetry in an elliptical orbits is presented. The optimization problem is formulated as a Mayer problem with the control torques provided by a power limited propulsion system. The state is defined by Serret-Andoyer's variables and the control by the components of the propulsive torques. The Pontryagin Maximum Principle is applied to the problem and the optimal torques are given explicitly in Serret-Andoyer's variables and their adjoints. For small amplitude attitude maneuvers, the optimal Hamiltonian function is linearized around a reference attitude. A complete first order analytical solution is obtained by simple quadrature and is expressed through a linear algebraic system involving the initial values of the adjoint variables. A numerical solution is obtained by taking the Euler angles formulation of the problem, solving the two-point boundary problem through the shooting method, and, then, determining the Serret-Andoyer variables through Serret-Andoyer transformation. Numerical results show that the first order solution provides a good approximation to the optimal control law and also that is possible to establish an optimal control law for the artificial satellite's attitude. © 2003 COSPAR. Published by Elsevier Science Ltd. All rights reserved.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Advances in Space Research",
+    "issn": "02731177",
+    "eissn": null,
+    "volume": "31",
+    "issue": "8",
+    "pages": "1987-1993",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Zanardi, M. C.",
+      "scopus_id": "7003345621",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, R. M.K.",
+      "scopus_id": "57212687355",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva Fernandes, S.",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Geophysics",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Atmospheric Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Earth and Planetary Sciences (all)",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 7,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0042066399&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081899",
+    "data_quality_score": 90
+  }
+}

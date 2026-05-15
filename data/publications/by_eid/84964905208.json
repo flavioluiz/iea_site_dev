@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-84964905208",
+  "eid": "2-s2.0-84964905208",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Control of the GNBA aircraft based on a unified dynamics formulation with inclusion of airframe flexibility",
+  "abstract": "We study in this paper the use of a unified formulation of the flexible aircraft dynamics for flight control law design, applied to the virtual aircraft Generic Narrow-Body Airliner4,5 (GNBA). In this procedure, the aeroservoelastic dynamics can be assessed in the loop, and the offline filtering process can be avoided. The controller performance as well as the stability margin issues associated to notch and low-pass filtering are addressed.",
+  "authkeywords": [
+    "Aeroservoelasticity",
+    "Control of flexible aircraft",
+    "Notch filter"
+  ],
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Neto, Antônio B.Guimarãaes",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Bertolin, Rafael M.",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Paglione, Pedro",
+      "scopus_id": "23973700300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84964905208&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055419",
+    "data_quality_score": 70
+  }
+}

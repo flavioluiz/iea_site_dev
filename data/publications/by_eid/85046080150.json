@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85046080150",
+  "eid": "2-s2.0-85046080150",
+  "doi": "10.1007/s40430-018-1183-8",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Design to center of gravity (DT_CG): a design method applied to robot end-effectors",
+  "abstract": "© 2018, The Brazilian Society of Mechanical Sciences and Engineering.This paper presents the development of design to center of gravity (DT_CG) method, a new member of the DFX (design-for-excellence) design methodology. DT_CG constantly updates the position of the center of gravity of a product under development and inputs it as a requirement into the conceptual phase of the product development process. The CG requirement is yet another requirement to be considered and balanced with others such as weight, cost, and assembly within the Integrated Product Development. The DT_CG method has been successfully applied to the design of a robot end-effector constituted of components that execute a number of functions required for manufacturing processes as drilling, welding, or sanding. The DT_CG was essential to find the geometric constraints between the end-effector CG and the robot’s TCP (tool center point). Despite this paper describes a robotic application, the DT_CG design method is presented in a generic way so that it may be used in any product design where the position of the CG has to be taken into account right from the beginning of the design conceptual phase.",
+  "authkeywords": [
+    "Design to-center of gravity design method",
+    "DFX—design-for-excellence",
+    "End-effector",
+    "Robotics"
+  ],
+  "year": "2018",
+  "date": "2018-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "5",
+    "pages": null,
+    "article_number": "266"
+  },
+  "authors": [
+    {
+      "name": "Bettini, Herielton Luiz",
+      "scopus_id": "57212772735",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85046080150&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125072",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85128492844",
+  "eid": "2-s2.0-85128492844",
+  "doi": "10.1017/jfm.2022.225",
+  "pii": "S0022112022002257",
+  "pubmed_id": null,
+  "title": "Self-similar mechanisms in wall turbulence studied using resolvent analysis",
+  "abstract": "© Self-similarity of wall-attached coherent structures in a turbulent channel at is explored by means of resolvent analysis. In this modelling framework, coherent structures are understood to arise as a response of the linearised mean-flow operator to generalised frequency-dependent Reynolds stresses, considered to act as an endogenous forcing. We assess the self-similarity of both the wall-attached flow structures and the associated forcing. The former are educed from direct numerical simulation data by finding the flow field correlated with the wall shear, whereas the latter is identified using a frequency space version of extended proper orthogonal decomposition (Borée, Exp. Fluids, vol. 35, issue 2, 2003, pp. 188-192). The forcing structures identified are compared to those obtained using the resolvent-based estimation introduced by Towne et al. (J. Fluid Mech., vol. 883, 2020, A17). The analysis reveals self-similarity of both wall-attached structures - in quantitative agreement with Townsend's hypothesis of self-similar attached eddies - and the underlying forcing, at least in certain components.",
+  "authkeywords": [
+    "turbulence modelling",
+    "turbulent boundary layers"
+  ],
+  "year": "2022",
+  "date": "2022-05-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "939",
+    "issue": null,
+    "pages": null,
+    "article_number": "939"
+  },
+  "authors": [
+    {
+      "name": "Karban, U.",
+      "scopus_id": "56256153700",
+      "affiliation": "60032653-60004305",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, E.",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Lesshafft, L.",
+      "scopus_id": "10142919200",
+      "affiliation": "60013425",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, P.",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 31,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 74,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85128492844&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100575",
+    "data_quality_score": 100
+  }
+}

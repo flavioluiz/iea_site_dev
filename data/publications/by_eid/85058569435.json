@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-85058569435",
+  "eid": "2-s2.0-85058569435",
+  "doi": "10.1016/j.cma.2018.11.027",
+  "pii": "S0045782518305863",
+  "pubmed_id": null,
+  "title": "Non-modal analysis of spectral element methods: Towards accurate and robust large-eddy simulations",
+  "abstract": "© 2018 Elsevier B.V.High-order spectral element methods (SEM) for large-eddy simulation (LES) are still very limited in industry. One of the main reasons behind this is the lack of robustness of SEM for under-resolved simulations, which can lead to the failure of the computation or to inaccurate results, aspects that are critical in an industrial setting. To help address this issue, we introduce a non-modal analysis technique that characterizes the numerical diffusion properties of spectral element methods for linear convection–diffusion problems, including the scales affected by numerical diffusion and the relationship between the amount of numerical diffusion and the level of under-resolution in the simulation. This framework differs from traditional eigenanalysis techniques in that all eigenmodes are taken into account with no need to differentiate them as physical or unphysical. While strictly speaking only valid for linear problems, the non-modal analysis is devised so that it can give critical insights for under-resolved nonlinear problems. For example, why do SEM sometimes suffer from numerical stability issues in LES? And, why do they at other times be robust and successfully predict under-resolved turbulent flows even without a subgrid-scale model? The answer to these questions in turn provides crucial guidelines to construct more robust and accurate schemes for LES. For illustration purposes, the non-modal analysis is applied to the hybridized discontinuous Galerkin methods as representatives of SEM. The effects of the polynomial order, the upwinding parameter and the Péclet number on the so-called short-term diffusion of the scheme are investigated. From a non-modal analysis point of view, and for the particular case of hybridized discontinuous Galerkin methods, polynomial orders between 2 and 4 with standard upwinding are found to be well suited for under-resolved turbulence simulations. For lower polynomial orders, diffusion is introduced in scales that are much larger than the grid resolution. For higher polynomial orders, as well as for strong under/over-upwinding, robustness issues can be expected due to low and non-monotonic numerical diffusion. The non-modal analysis results are tested against under-resolved turbulence simulations of the Burgers, Euler and Navier–Stokes equations. While devised in the linear setting, non-modal analysis successfully predicts the behavior of the scheme in the nonlinear problems considered. Although the focus of this paper is on LES, the non-modal analysis can be applied to other simulation fields characterized by under-resolved scales.",
+  "authkeywords": [
+    "High-fidelity simulation",
+    "Hybridized discontinuous Galerkin",
+    "Large-eddy simulation",
+    "Numerical stability",
+    "Spectral element methods",
+    "Under-resolved simulations"
+  ],
+  "year": "2019",
+  "date": "2019-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computer Methods in Applied Mechanics and Engineering",
+    "issn": "00457825",
+    "eissn": null,
+    "volume": "346",
+    "issue": null,
+    "pages": "43-62",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fernandez, Pablo",
+      "scopus_id": "56473713700",
+      "affiliation": "60022195",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Mengaldo, Gianmarco",
+      "scopus_id": "56270246000",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peraire, Jaime",
+      "scopus_id": "7006447466",
+      "affiliation": "60022195",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 36,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 92,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85058569435&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069574",
+    "data_quality_score": 100
+  }
+}

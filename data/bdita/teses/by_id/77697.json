@@ -1,0 +1,33 @@
+{
+  "num_tese": "77697",
+  "type": "tese",
+  "title": "Modeling of an aeronautical air conditioning unit based on a simple/bootstrap air cycle machine",
+  "author": "Marcelo Merzvinskas",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The air conditioning system of an executive, commercial or military aircraft is heavily based on the use of air cycle machines due to engine bleed air availability and because they are light and reliable, if compared to a vapor cycle system, ranging from simple air cycle units to larger equipment, also based on an air cycle, but also make use of a compressor, heat exchanger, re-heater, and a condenser as well as in some cases the use of a secondary turbine. In any case, it is the type of application, weight, required refrigeration capacity, financial aspects, size and performance among other specific requirements of each design that will drive the selection of a more suitable equipment for a certain type of aircraft. In the present work, it is evaluated the use of an air conditioning unit based on the air cycle for a commercial aircraft. A mathematical approach is conducted to represent the involved thermodynamic processes in an aeronautical air conditioning unit based on a simple/bootstrap air cycle configured with a high-pressure water separation system, re-heater, condenser and a water sprayer system at the secondary heat exchanger air intake, as well as a chilled-recirculation system. After the conclusion of the mathematical approach, a computational model is developed based on the mathematical equations obtained for the operation of the \"simple/bootstrap\" air cycle described above in order to illustrate its behavior as well as to analyze it. The aircraft environmental control system (ECS), required to sustain life during flight at high altitudes is also explored in order to allow a better understanding of the context in which the air conditioning system is inserted as part of the ECS of a commercial aircraft. The results show the influence of the water-sprayer and chilled-recirculation system in the air cycle performance and in the cabin inlet temperature respectively as well as the change in certain parameters of interest as a function of altitude, power consumed by the secondary compressor and air cycle machine (ACM) fan among others. The conclusion is that the developed computational model has proved to be a useful tool in the evaluation of \"design points\" that are key in the design and selection of an air conditioning unit based on a simple/bootstrap air cycle.",
+  "subjects": [
+    "Aeronaves",
+    "Ar condicionado",
+    "Controle ambiental",
+    "Sistema de controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77697",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77697&origem=BDITA"
+}

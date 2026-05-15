@@ -1,0 +1,34 @@
+{
+  "num_tese": "76186",
+  "type": "tese",
+  "title": "Loop-separation control for very flexible aircraft",
+  "author": "Pedro José González Ramírez",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Eduardo Stolf Cesnik",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Very flexible aircraft (VFA) present high-aspect-ratio wings that introduce nonlinearities into the flight dynamics and make more complex models and control methods necessary. In this thesis, a new methodology for control of VFA was presented. This control architecture is based on the loop-separation concept (LSC). The LSC consists of two control loops: the inner-loop and the outer-loop. The first one is capable of stabilizing the plant of the VFA, while it is holding the shape of the trimmed structure. The second loop or autopilot is designed according to conventional rigid-body-based controllers and it has the function of tracking variables, such as speed, altitude, heading, and sideslip angles. The model of the VFA was based on a nonlinear strain based formulation considering unsteady aerodynamics and a fully coupled aeroservoelastic system. The X-HALE testbed was used to represent the VFA. The numerical model was build in the University of Michigan's Nonlinear Aeroelastic Toolbox (UM/NAST). Based on numerical results, the controllers without structure regulation have proved to be inefficient to stabilize and control VFA under large deformations. Instead, the results showed that stability augmentation systems (SAS) with structural feedback tend to reduce the structural oscillation while ensuring stabilization. The structural feedback induces an increase in aeroelastic damping that allows the aircraft to perform under more hazardous weather conditions and extend its maneuverability. Based on the employed LSC, the outer-loops can be designed using a conventional rigid body approach. The compensators of the autopilot were estimated using non-smooth H? optimization techniques. The final autopilot is capable of attaining all the performance and robustness requirements. In general, commanded references were attained with no control saturation and small tolerable steady-state errors. Nonlinear simulations show that the autopilot designed according to the proposed approach is gust and performance robust. It is capable of operating under hazardous conditions, handling severe gust profiles while regulating the elastic deformations of the wing. Nonlinear simulations show promising results for implementation of this control architecture in the X-HALE. Furthermore, this control approach can be easily applicable to other models of VFA. The LSC proved to be an efficient approach for controlling VFA. Moreover, the control requirements applied to design the loop-separation controller demonstrated to be appropriate to the study case. These requirements can be used as a reference for the design of future controllers of VFA.",
+  "subjects": [
+    "Aeronaves",
+    "Corpos flexíveis",
+    "Manobrabilidade",
+    "Aeroelasticidade",
+    "Dinâmica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "24/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76186",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76186&origem=BDITA"
+}

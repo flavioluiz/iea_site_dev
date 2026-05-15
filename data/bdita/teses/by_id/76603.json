@@ -1,0 +1,34 @@
+{
+  "num_tese": "76603",
+  "type": "tese",
+  "title": "Streaky structures in turbulent shear flows",
+  "author": "Petrônio Augusto Santos Nogueira",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Dan Stefan Henningson",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Coherent structures have been studied in turbulence for several decades, leading to several important conclusions about the underlying dynamics of turbulent flows. This thesis deals with the identification and analysis of streamwise elongated structures (streaks) in wall-bounded and free-shear flows. Several aspects of these structures are studied here: first, the evaluation of the optimal forcing and response for semi-bounded flows (such as boundary layers) is performed using resolvent analysis, which led to the identification of modes related to the free-stream which contaminate the analysis for low frequency and wavenumbers. This problem is addressed by proposing a spatial filter taking advantage of the spatial support of these modes. The second study was focused on the analysis of the non-linear terms' statistics of Couette flow using a minimal flow unit. In this paper, the recovery of the cross-spectral density matrix of the velocities from the one of the non-linear terms was evaluated, and an identification of the relevant parts of the non-linearities for this flow was also performed which provided insight about the general action of these terms in the dynamics of the flow. The importance of rolls (streamwise vortices) in the turbulent dynamics of Couette flow is also evaluated. By computing the response of the flow to optimal streamwise invariant vortices, obtained using resolvent analysis, a good approximation for low-order statistics of such flow could be obtained, highlighting the relevance of such structures. The fourth work proposes a method to evaluate control strategies using resolvent. The method is used to analyse optimal shapes of sensors and actuators in a Blasius boundary layer. Results from this analysis point to directions and positions for more efficient actuation in this flow. An investigation concerning coherent structures in turbulent jets was also carried out. For this case, a streaky signature was found using wavenumber spectra, and spectral proper orthogonal decomposition has shown that streaks are the most energetic structures at the low-frequency/high-azimuthal wavenumber region. Resolvent and transient growth analyses applied using the turbulent mean flow show that these streaks are also ruled by the lift-up effect, as in wall-bounded flows, where streamwise elongated streaks are forced by streamwise vortices. The results show that streaks are a relevant part of the jet dynamics, and, given their high amplitude, they may also be expected to play a role in jet noise. Finally, the document is closed by the analysis of a simple flow model to analyse the interactions between coherent structures in free-shear flows. Results from a direct numerical simulation are analysed in light of the lift-up effect and the linear stability analysis, and some of the observed trends are closely related to the behaviour found in jets and mixing layers",
+  "subjects": [
+    "Jatos turbulentos",
+    "Turbulęncia",
+    "Escoamento",
+    "Cisalhamento",
+    "Mecânica dos fluidos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76603",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76603&origem=BDITA"
+}

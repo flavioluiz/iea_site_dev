@@ -1,0 +1,142 @@
+{
+  "publication_id": "2-s2.0-85115412368",
+  "eid": "2-s2.0-85115412368",
+  "doi": "10.1016/j.surfcoat.2021.127728",
+  "pii": "S0257897221009026",
+  "pubmed_id": null,
+  "title": "Path planning strategies for hardness improvement employing surface remelting in AISI 1045 steel",
+  "abstract": "© 2021 Elsevier B.V.The use of remelting as heat treatment for metallic components has grown on an industrial scale, particularly in sectors where surface hardness is a requirement. Using a conventional Tungsten Inert Gas (TIG) welding torch, it is possible to induce desirable microstructures, promote grain refinement, and as a result, increase hardness. However, one of the main challenges concerns understanding the effects of remelting strategies based on the torch/tool path planning. It is possible to draw different conclusions under the same processing parameters depending on the tool's trajectory. Therefore, the present study aims to assess the influence of remelting path strategies on the AISI 1045 steel hardness, correlating its microstructure with thermal variables obtained from an in-house Finite Volume numerical model. Two different approaches are analyzed, namely Strategy 1 and Strategy 2.The former was characterized as a single direction movement with 77 s average time between beads, while Strategy 2 was chosen as double direction movement (zigzag) without interbead time. In both cases, TIG remelting was applied autogenously with 120A Direct Current Electrode Negative (DC-), at 15 cm/min, with a 30% overlap ratio for five parallel beads, and with Argon as shielding gas. The results pointed out that both strategies promoted a hardness increase relative to the base metal, 23% for Strategy 1 and 9% for Strategy 2. This factor was attributed to grain refining. The simulation revealed that Strategy 1 is more suitable than Strategy 2 to boost the hardness is related to the higher solidification cooling rate (166 °C/s versus 137 °C/s, respectively) and lower time above 900 °C (7 s versus 12 s, respectively).",
+  "authkeywords": [
+    "Grain refining",
+    "Microstructure",
+    "Simulation",
+    "Surface heat treatment",
+    "Thermal cycle",
+    "TIG"
+  ],
+  "year": "2021",
+  "date": "2021-11-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Surface and Coatings Technology",
+    "issn": "02578972",
+    "eissn": null,
+    "volume": "425",
+    "issue": null,
+    "pages": null,
+    "article_number": "127728"
+  },
+  "authors": [
+    {
+      "name": "dos Santos Paes, Luiz Eduardo",
+      "scopus_id": "57201031681",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Andrade, João Rodrigo",
+      "scopus_id": "57201737899",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Prates, Maurício Gomes",
+      "scopus_id": "57266830600",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Souza, Daniel Dominices Baía Gomes",
+      "scopus_id": "57194236683",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brião, Stephanie Loi",
+      "scopus_id": "55616883500",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lobato, Fran Sérgio",
+      "scopus_id": "27867852700",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Jacob, Bruno Tadeu Pereira",
+      "scopus_id": "57216577076",
+      "affiliation": "60142701",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Reis, Ruham Pablo",
+      "scopus_id": "37007788500",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vilarinho, Louriel Oliveira",
+      "scopus_id": "7003402876",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Chemistry (all)",
+        "abbrev": "CHEM",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Surfaces and Interfaces",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Surfaces, Coatings and Films",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Materials Chemistry",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 72,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85115412368&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091153",
+    "data_quality_score": 100
+  }
+}

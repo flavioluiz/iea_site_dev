@@ -1,0 +1,29 @@
+{
+  "num_tese": "75644",
+  "type": "tese",
+  "title": "Parabolized stability equations for sound propagation in ducts",
+  "author": "Thales Coelho Leite Fava",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The propagation of acoustic waves in ducts is a problem of high scientific and technological relevance, as the development of inlet, bypass and exhaust ducts of turbofans. Whereas numerical solutions generally require elevated computational time, analytical solutions are restricted to simple problems, not representatives of the physical complexity of practical applications. Thus there is a need for a method that captures the physical complexity of duct acoustics and has low computational cost. The Parabolized Stability Equations (PSE) method, generally used to study the evolution of hydrodynamic modes in jets, boundary and shear layers, has the potential to fulfill this need. The present work assesses the PSE method for prediction of acoustic waves in ducts. It was developed an automatic technique to obtain the matrices of the linear, compressible, viscous PSE method in general curvilinear coordinates. The method was applied to several test cases and the results were compared to analytical solutions. Excellent agreement with analytical results was obtained for cylindrical ducts with inviscid flow (uniform and sheared), high temperature gradients and wall impedance. Ducts with small or large area variations and low frequencies also presented results in accordance with theoretical predictions. Cases with large area variations and high frequencies presented numerical instability after a certain axial position, which seems to be a problem of the initial locally parallel condition and not of the PSE method. It was also studied the propagation of tonal fan noise in the inlet duct of a turbofan, with axially varying wall impedance. The results of the PSE method were in agreement with theoretical predictions. The computational time was one order lower than that from the method of finite elements applied to the solution of the Helmholtz equation for a similar problem. Application to viscous flows showed that the PSE method captures refraction of the acoustic wave in the boundary layer and dissipation of this wave by viscous effects. The current work demonstrates that the PSE method can be applied to the prediction of the propagation of acoustic waves in realistic models of ducts used in engineering and the computational cost is much lower than that obtained from using traditional methods.",
+  "subjects": [
+    "Dutos",
+    "Propagaçăo de ondas",
+    "Prediçăo de ruído (aeronaves)",
+    "Aeroacústica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/03/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75644",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75644&origem=BDITA"
+}

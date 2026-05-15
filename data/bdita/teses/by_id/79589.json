@@ -1,0 +1,29 @@
+{
+  "num_tese": "79589",
+  "type": "tese",
+  "title": "Análise computacional da influęncia de vibraçőes sobre a acurácia de tiro de armamento leve embarcado em helicópteros",
+  "author": "Dante Ricardo Ambrosio",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em diversas situaçőes envolvendo açőes de defesa ou de segurança pública, atiradores devem operar armamento estando embarcados em aeronaves, ficando, assim, sujeitos a vibraçőes mecânicas que ocorrem nestas aeronaves. Este é o caso, por exemplo, de operaçőes realizadas a partir de helicópteros com fuzis de precisăo. Estas armas executam um tiro por vez, de modo a năo haver um regime de rajada de tiro. Nestas condiçőes, a dispersăo de tiro tende a ser comprometida pelas vibraçőes transmitidas pela aeronave ao armamento através do corpo do atirador e/ou de dispositivos de suporte. Neste contexto, o presente estudo trata do desenvolvimento de um procedimento de modelagem dinâmica de um sistema composto por armamento leve, do tipo fuzil de repetiçăo, apoiado de duas diferentes formas: a) por meio de um suporte articulado instalado sobre o piso da aeronave. Esta forma é estudada como uma alternativa a ser possivelmente implementada visando melhoria ergonômica e diminuindo da dispersăo de tiro; b) por meio de uma corda ancorada em dois pontos da estrutura da aeronave, sendo esta a forma mais comumente utilizada atualmente no Brasil. O estudo envolve duas etapas principais, a saber: 1Ş) modelagem dinâmica do sistema aeronave-atirador-armamento pelo método dos elementos finitos, considerando, de forma simplificada, os componentes essenciais para consideraçăo das interaçőes entre estes tręs componentes. Para um dado regime de vibraçăo apresentada pela subestrutura consistindo do piso da aeronave e dos pontos de ancoramento do sistema de suporte do armamento, o modelo permite obter o histórico de vibraçăo tridimensional da extremidade do cano da arma, em termos de sua posiçăo e velocidade; 2Ş) modelagem da balística exterior, considerando um modelo simples de tręs graus de liberdade, que permite determinar a trajetória do projétil a partir das condiçőes iniciais obtidas na primeira etapa. Após contextualizaçăo e exposiçăo das motivaçőes e objetivos, o estudo inicia-se pela descriçăo dos procedimentos de modelagem, seguida da definiçăo de um caso de estudo tipicamente encontrado em situaçőes de interesse prático. Na sequęncia, săo apresentados resultados de várias simulaçőes numéricas, considerando os dois tipos diferentes de suporte do armamento e diferentes condiçőes de excitaçăo, harmônicas e aleatórias. Nestas simulaçőes é avaliada a influęncia de vários parâmetros, tais como frequęncia das vibraçőes, sobre a dispersăo de tiro. O estudo realizado fornece ferramentas computacionais e orientaçőes para avaliaçăo futura da eficácia de dispositivos de amortecimento para fins de melhoria da acurácia do tiro.",
+  "subjects": [
+    "Vibraçăo",
+    "Balística exterior",
+    "Estruturas de aeronaves",
+    "Helicópteros",
+    "Método de elementos finitos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79589",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79589&origem=BDITA"
+}

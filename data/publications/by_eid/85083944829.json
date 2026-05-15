@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85083944829",
+  "eid": "2-s2.0-85083944829",
+  "doi": "10.2514/6.2019-1753",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stochastic fiber volume random field propagation in the aeroelastic evaluation of tow steered plates",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.The uncertainty propagation of a stochastic random spatial field in the fiber volume applied to steered carbon reinforced composite plates designed for aeroelastic purposes is assessed. Based on the Karhunen-Loève expansion (KLE), considering fixed covariance functions, the lamina material properties are estimated using the mixture rule affected by the fiber volume spacing variation. The structural model is based on the Classical Lamination Theory considering symmetric stacking sequence and fiber trajectories described by Lagrange polynomials. Two distinct aeroelastic models are evaluated: i) modeled according to the quasi-steady aerodynamic model with the inclusion of the term of unsteadiness in pitch velocity; (ii) based on the piston theory for high Mach number approximation. The uncertainty propagation is done using the generalized polynomial Chaos (gpC) expansion to evaluate the flutter onset, flutter frequency and plate mass variabilities with computational efficiency.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Scitech 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães, Thiago A.M.",
+      "scopus_id": "57038408200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Higor L.",
+      "scopus_id": "57209851308",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85083944829&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088853",
+    "data_quality_score": 80
+  }
+}

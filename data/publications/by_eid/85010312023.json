@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85010312023",
+  "eid": "2-s2.0-85010312023",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modeling by interconnection and control by damping injection of a fluid-structure system with non-collocated actuators and sensors",
+  "abstract": "This work addresses the modeling and control of fluid-structure systems. In the first part, the port-Hamiltonian systems (PHS) formulation is used for modeling fluid-structure interactions. This formulation allows describing fluid dynamics and structural dynamics separately and coupling the subsystems easily through physically relevant interconnection ports, which naturally arise in the PHS models. The modeling method is validated on the experimental set-up available at ISAE. The second part is devoted to the control of sloshing using damping injection, that is a classical passivity-based control method, in order to reduce vibrations in flexible structures. One difficulty of this approach is that collocated (and power conjugated) actuators and sensors are needed. This paper presents a method for dealing with damping injection in mechanical systems with non-collocated inputs/outputs making use of a state observer. Finally, control by damping injection is performed, and the overall method is successfully tested on the experimental device.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of ISMA 2016 International Conference on Noise and Vibration Engineering and Usd2016 International Conference on Uncertainty in Structural Dynamics",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "121-135",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cardoso-Ribeiro, F. L.",
+      "scopus_id": "46461159000",
+      "affiliation": "60027245",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Matignon, D.",
+      "scopus_id": "6602185459",
+      "affiliation": "60027245",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pommier-Budinger, V.",
+      "scopus_id": "19337461900",
+      "affiliation": "60027245",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-c-ribeiro"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85010312023&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063144",
+    "data_quality_score": 70
+  }
+}

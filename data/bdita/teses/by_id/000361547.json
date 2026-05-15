@@ -1,0 +1,31 @@
+{
+  "num_tese": "000361547",
+  "type": "tese",
+  "title": "Determinaçăo das propriedades de transporte de misturas gasosas multicomponentes e altas temperaturas",
+  "author": "Hélio Engholm Júnior",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Nivaldo Hinckel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente projeto visa formalizar um método para o cálculo das propriedades de transporte de misturas multicomponentes em equilíbrio químico e respectivo banco de dados contendo as propriedades necessárias a estes cálculos das espécies gasosas envolvidas. Este método é entăo implementado na forma de um código computacional na linguagem C++ direcionado para cálculos de transferęncia de calor em projetos de engenharia. Assim sendo uma das diversas metodologias de cálculo do coeficiente de viscosidade e do coeficiente de condutividade térmica para misturas multicomponentes é apresentada a fim de possibilitar suas determinaçőes quando dados experimentais năo estiverem disponíveis. O código é entăo utilizado juntamente com um programa de cálculo de propriedades termodinâmicas em desenvolvimento no INPE, para o cálculo dos coeficientes de transporte do ar em equilíbrio. Os resultados obtidos săo comparados entăo com os existentes na literatura e normalmente utilizados em cálculos de propriedades de escoamentos. Eles se mostram comparativamente bons para a viscosidade da mistura até temperaturas da ordem de 5.000K e para a condutividade térmica até temperaturas da ordem de 8.000K, a pressőes variando entre 1 e 100 atm.",
+  "subjects": [
+    "Mistura de gases",
+    "Propriedades de transporte",
+    "Condutividade térmica",
+    "Termodinâmica",
+    "Gases",
+    "Alta temperatura",
+    "Temperatura dos gases",
+    "Física"
+  ],
+  "defense_date": "01/01/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000361547",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000361547&origem=BDITA"
+}

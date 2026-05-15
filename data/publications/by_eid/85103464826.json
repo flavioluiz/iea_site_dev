@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85103464826",
+  "eid": "2-s2.0-85103464826",
+  "doi": "10.2514/1.J059491",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Efficient mesh generation and deformation for aerodynamic shape optimization",
+  "abstract": "© AIAA International. All rights reserved.Mesh generation and deformation are critical elements in gradient-based aerodynamic shape optimization (ASO). Improperly generated or deformed meshes may contain bad-quality cells that degrade the accuracy of computational fluid dynamics (CFD) solvers. Moreover, an inefficient mesh deformation method can become the bottleneck for the entire ASO process. To perform practical ASO, mesh generation and deformation methods need to be automated, scalable, robust, and computationally efficient. This paper tackles these challenges by developing an efficient approach for generating high-quality structured meshes in a semi-automatic manner. An automatic mesh generation approach is also proposed to handle intersections of multiple structured meshes with the overset mesh approach. In addition to mesh generation, a flexible mesh deformation method is developed, along with an efficient approach for computing mesh deformation derivatives using automatic differentiation. Finally, the performance of the proposed approaches is evaluated in terms of speed, scalability, and robustness. The mesh generation approach scales up to 100 million cells and 256 CPU cores. In addition, the robust mesh deformation approach enables a large range of valid mesh deformations, which gives more freedom to explore the design space in ASO. Moreover, the mesh deformation and the computation of its derivatives require only 0.1% of the CFD runtime. The mesh generation and deformation approaches have been implemented in the pyHyp and IDWarp software packages, which are publicly available under open-source licenses. The proposed approaches are useful tools to handle general ASO problems for aircraft, turbomachinery, and ground vehicles.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "59",
+    "issue": "4",
+    "pages": "1151-1168",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Secco, Ney R.",
+      "scopus_id": "55595457400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ney-rafael-secco"
+    },
+    {
+      "name": "Kenway, Gaetan K.W.",
+      "scopus_id": "57203187352",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "He, Ping",
+      "scopus_id": "59275979800",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mader, Charles",
+      "scopus_id": "24338338200",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martins, Joaquim R.R.A.",
+      "scopus_id": "57203217536",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ney-rafael-secco"
+  ],
+  "scopus": {
+    "citations": 154,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 76,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85103464826&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.084597",
+    "data_quality_score": 90
+  }
+}

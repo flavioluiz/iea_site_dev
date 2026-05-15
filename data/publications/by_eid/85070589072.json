@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85070589072",
+  "eid": "2-s2.0-85070589072",
+  "doi": "10.1098/rspa.2019.0199",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Two-point wavepacket modelling of jet noise",
+  "abstract": "© 2019 The Author(s) Published by the Royal Society. All rights reserved.This paper is focused on the study of a kinematic wavepacket model for jet noise based on two-point statistics. The model contains physical parameters that define its structure in terms of wavenumber, envelope shape and coherence decay. These parameters, which are necessary to estimate the sound pressure levels radiated by the source, were educed from a largeeddy simulation database of a Mach 0.4, fully turbulent jet. The sound pressure levels predicted by the model were compared with acoustic data and the results show that when the parameters are carefully educed from the data, the sound pressure levels generated are in good agreement with experimentally measured values for low Strouhal numbers and polar angles. Furthermore, here we show that a correct representation of both coherence decay and wavepacket envelope shape are key aspects to an accurate sound prediction. A Spectral Proper Orthogonal Decomposition (SPOD) of the model source was also performed motivated by the search for a low-rank model capable of capturing the acoustic efficiency of the full source. It is shown that only a few SPODmodes are necessary to recover acoustically important wavepacket traits.",
+  "authkeywords": [
+    "Jet noise",
+    "Kinematic modelling",
+    "Wavepackets"
+  ],
+  "year": "2019",
+  "date": "2019-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+    "issn": "13645021",
+    "eissn": "14712946",
+    "volume": "475",
+    "issue": "2227",
+    "pages": null,
+    "article_number": "20190199"
+  },
+  "authors": [
+    {
+      "name": "Maia, I. A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, P.",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, A. V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jaunet, V.",
+      "scopus_id": "36676423000",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 28,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 90,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85070589072&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101026",
+    "data_quality_score": 100
+  }
+}

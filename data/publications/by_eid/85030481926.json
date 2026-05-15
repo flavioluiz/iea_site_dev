@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85030481926",
+  "eid": "2-s2.0-85030481926",
+  "doi": "10.1016/j.neucom.2017.09.026",
+  "pii": "S0925231217315394",
+  "pubmed_id": null,
+  "title": "ELM based architecture for general purpose automatic weight and structure learning",
+  "abstract": "© 2017 Elsevier B.V.Currently, neural networks deliver state of the art performance on multiple machine learning tasks, mainly because of their ability to learn features. However, the architecture of the neural network still requires problem-specific tuning and the long training times and hardware requirements remain an issue. In this work, the Multi-Scale Auto-Tuned Extreme Learning Machine (MSATELM) architecture is proposed, which does not require any manual feature crafting or architecture tuning and automatically learns structure and weights using an auto-tuned ELM as building block. It learns a simple model that achieves the required accuracy. The GPU implementation in OpenCL allows handling any number of samples while still delivering portable code and high performance. Results on MNIST, CIFAR-10 and UCI datasets demonstrate that this approach provides competitive results even though no problem-specific tuning is used.",
+  "authkeywords": [
+    "Extreme learning machine",
+    "Machine learning",
+    "Neural networks"
+  ],
+  "year": "2018",
+  "date": "2018-01-31",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Neurocomputing",
+    "issn": "09252312",
+    "eissn": "18728286",
+    "volume": "275",
+    "issue": null,
+    "pages": "804-817",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Andrade, Douglas Coimbra",
+      "scopus_id": "56297632900",
+      "affiliation": "60006171",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Cognitive Neuroscience",
+        "abbrev": "NEUR",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85030481926&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125080",
+    "data_quality_score": 100
+  }
+}

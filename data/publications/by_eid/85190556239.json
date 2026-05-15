@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-85190556239",
+  "eid": "2-s2.0-85190556239",
+  "doi": "10.1007/s00162-024-00691-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modal-based generalised quasilinear approximations for turbulent plane Couette flow",
+  "abstract": "© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024.Abstract: We study generalised quasilinear (GQL) approximations applied to turbulent plane Couette flow. The GQL framework is explored in conjunction with a Galerkin reduced-order model (ROM) recently developed by Cavalieri and Nogueira (Phys Rev Fluids 7:102601, 2022), which considers controllability modes of the linearised Navier–Stokes system as basis functions, representing coherent structures in the flow. The velocity field is decomposed into two groups: one composed by high-controllability modes and the other by low-controllability modes. The former group is solved with the full nonlinear equations, whereas the equations for the latter are linearised. We also consider a new GQL framework wherein the linearised equations for the low-controllability modes are driven by nonlinear interactions of modes in the first group, which are characterised by large-scale coherent structures. It is shown that GQL-ROMs successfully recover the statistics of the full model with relatively high controllability thresholds and sparser nonlinear operators. Driven GQL-ROMs were found to converge more rapidly than standard GQL approximations, providing accurate description of the statistics with a larger number of linearised modes. This indicates that the forcing of linearised flow structures by large-scale coherent structures is an important feature of turbulence dynamics that should be considered in GQL models. The results presented here reveal that further model reductions are attainable with GQL-ROMs, which can be valuable to extend these models to larger Reynolds numbers. Graphical abstract: (Figure presented.)",
+  "authkeywords": [
+    "Coherent structures",
+    "Generalised quasilinear approximations",
+    "Reduced-order models",
+    "Wall-bounded turbulence"
+  ],
+  "year": "2024",
+  "date": "2024-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Theoretical and Computational Fluid Dynamics",
+    "issn": "09354964",
+    "eissn": "14322250",
+    "volume": "38",
+    "issue": "3",
+    "pages": "313-330",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85190556239&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100240",
+    "data_quality_score": 100
+  }
+}

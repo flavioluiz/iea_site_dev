@@ -1,0 +1,28 @@
+{
+  "num_tese": "77760",
+  "type": "tese",
+  "title": "Dinâmica de um equipamento selador de furos com a aplicaçăo em abandono de poços de petróleo",
+  "author": "Andre Santos Souza",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente, o abandono de poços de petróleo é uma operaçăo de alto custo e que utiliza-se de cimentaçăo para o selamento. Visando diminuir o custo deste processo, novas tecnologias săo estudadas e, considerando que esta operaçăo pode ser dividida em diferentes seguimentos, este trabalho visa estudar uma destas partes, que é o movimento de um equipamento através do duto, considerando que dentro do duto haverá diferentes fluidos. Das metodologias que podem ser aplicadas para isto, o estudo através de simulaçőes computacionais é aplicado. Inicia-se entăo ŕ familiarizaçăo com o software, StarCCM+, através da realizaçăo de uma validaçăo, que consiste em simular um medidor de vasăo e comparar os resultados das simulaçőes com os valores experimentais e analíticos. Para movimentaçăo do corpo, é utilizado do método de malha sobrepostas (quimera), que considera que uma das malhas se move com o corpo e a outra é estacionária. Tendo realizado esta etapa, iniciou-se as simulaçőes do equipamento partindo de um modelo mais simplificado, com geometria com poucos detalhes e considerando apenas um grau de liberdade. Avaliado a capacidade de movimentaçăo do equipamento pelo duto, aplicou-se uma velocidade constante para a descida do mesmo e liberou-se os movimentos nas outras direçőes, o que permitiu de o equipamento se mover nas direçőes livres, ocasionando assim o contato com as paredes do duto. Após esta fase, estudou-se também um equipamento maior e com mais detalhes do que o anterior. Neste caso, usou-se diferentes velocidades de movimento e diferentes geometrias para a parte frontal do equipamento. Ao fim, notou-se que, para a maioria dos casos, os equipamentos utilizados possuem a capacidade de locomoçăo com a massa considerada para eles, mesmo em diferentes fluidos. E também é verificado que os mesmos tendem a rotacionar e mover nas direçőes laterais, fazendo com que o equipamento entre em contato com as paredes. Conclui-se que os contatos entre equipamento e parede precisam ser melhor avaliados com os métodos corretos para tal e que conhecer a forma do equipamento e das propriedades dos fluidos que estăo dentro do duto é de grande importância para esta fase da operaçăo, pois o equipamento pode acabar ficando preso no duto, o que năo é desejável.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Poços de petróleo",
+    "Abandono",
+    "Dutos",
+    "Física"
+  ],
+  "defense_date": "10/09/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77760",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77760&origem=BDITA"
+}

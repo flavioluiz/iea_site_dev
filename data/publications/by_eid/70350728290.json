@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-70350728290",
+  "eid": "2-s2.0-70350728290",
+  "doi": "10.1016/j.icheatmasstransfer.2009.07.008",
+  "pii": "S0735193309001754",
+  "pubmed_id": null,
+  "title": "Laminar heat transfer in a porous channel simulated with a two-energy equation model",
+  "abstract": "Laminar heat transfer in a porous channel is numerically simulated with a two-energy equation model for conduction and convection. Macroscopic equations for continuity, momentum and energy transport for the fluid and solid phases are presented. The numerical methodology employed is based on the control volume approach with a boundary-fitted non-orthogonal coordinate system. Fully developed forced convection in a porous channel bounded by parallel plates is considered. Solutions for Nusselt numbers along the channel are presented for laminar flows. Results simulate the effects Reynolds number Re, porosity, particle size and solid-to-fluid thermal conductivity ratio on Nusselt sumber, Nu, which is defined for both the solid and fluid phases. High Re, low porosities, low particle diameters and low thermal conductivity ratios promote thermal equilibrium between phases leading to higher values of Nu. © 2009 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Heat transfer coefficient",
+    "Porous media",
+    "Two-energy equation"
+  ],
+  "year": "2009",
+  "date": "2009-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "36",
+    "issue": "10",
+    "pages": "1002-1007",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Saito, Marcelo B.",
+      "scopus_id": "8523459800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 22,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=70350728290&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111063",
+    "data_quality_score": 100
+  }
+}

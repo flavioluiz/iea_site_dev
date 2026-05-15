@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-84938211242",
+  "eid": "2-s2.0-84938211242",
+  "doi": "10.1007/s11012-015-0138-8",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Flutter analysis including structural uncertainties",
+  "abstract": "© 2015, Springer Science+Business Media Dordrecht.The common practice in industry is to perform flutter analyses considering the generalized stiffness and mass matrices obtained from finite element method (FEM) and aerodynamic generalized force matrices obtained from a panel method, as the doublet lattice method. These analyses are often re-performed if significant differences are found in structural frequencies and damping ratios determined from ground vibration tests compared to FEM. This unavoidable rework can result in a lengthy and costly process of analysis during the aircraft development. In this context, this paper presents an approach to perform flutter analysis including uncertainties in natural frequencies and damping ratios. The main goal is to assure the nominal system’s stability considering these modal parameters varying in a limited range. The aeroelastic system is written as an affine parameter model and the robust stability is verified solving a Lyapunov function through linear matrix inequalities and convex optimization.",
+  "authkeywords": [
+    "Flutter",
+    "GVT",
+    "LMI",
+    "Robust stability analysis",
+    "Structural uncertainties"
+  ],
+  "year": "2015",
+  "date": "2015-08-28",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Meccanica",
+    "issn": "00256455",
+    "eissn": "15729648",
+    "volume": "50",
+    "issue": "8",
+    "pages": "2093-2101",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bueno, Douglas D.",
+      "scopus_id": "25930772600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Gonçalves, Paulo J.P.",
+      "scopus_id": "55681491500",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84938211242&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077412",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "71920",
+  "type": "tese",
+  "title": "Sistemas de controle ativo e passivo para supressăo de flutter de uma seçăo típica",
+  "author": "Gefferson Cleuber Silva",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "abstract": "Flutter é uma autoexcitaçăo de dois ou mais modos de vibraçăo de um sistema, devidamente alterada e realimentada pelo escoamento do fluido na qual o sistema está inserido, sendo proveniente da interaçăo de forças inerciais, elásticas e aerodinâmicas. A grande preocupaçăo relacionada ao flutter se deve ŕ grande dificuldade em prevę-lo e evita-lo. Dessa forma, esta dissertaçăo descreve a utilizaçăo de um aparato aeroelástico para testes e análises de um fenômeno de flutter flexo-torcional. O aparato experimental é composto por uma seçăo de asa retangular NACA 0012 com uma superfície de controle tipo flap localizada no bordo de fuga. O desenvolvimento deste sistema experimental permite o estudo e a aplicaçăo de leis de controle para supressăo do fenômeno de instabilidade, que é um dos objetivos principais deste trabalho. O objetivo é além de suprimir o flutter, manter o sistema estável em malha fechada através de um sistema ativo de aumento de estabilidade com realimentaçăo de saída. O modelo matemático utilizado é obtido utilizando a mecânica Lagrangeana e o princípio do trabalho virtual para o cálculo das forças generalizadas. Além disso, foi utilizada uma formulaçăo năo estacionária no domínio do tempo com aproximaçăo exponencial proposta por Jones da funçăo de Wagner para o cômputo dos carregamentos aerodinâmicos. O modelo analítico é ajustado através da comparaçăo entre aceleraçőes medida e simulada. Porém, um fio com memória forma é acoplado ao aparato aeroelástico utilizado como atuador para um sistema de controle passivo. O fio atua provendo rigidez em torçăo ao sistema, sendo esta proporcional ŕ sua temperatura. Os resultados experimentais mostram uma considerável reduçăo das oscilaçőes com um relativo baixo custo para ambas estratégias de controle passivo e ativo, e também mostram que o uso de ligas com memória de forma em problemas de estabilidade aeroelásticos é promissor.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Aeroservoelasticidade",
+    "Ligas de memória de forma",
+    "Controle",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "07/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71920",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71920&origem=BDITA"
+}

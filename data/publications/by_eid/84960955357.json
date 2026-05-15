@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-84960955357",
+  "eid": "2-s2.0-84960955357",
+  "doi": "10.1016/j.applthermaleng.2016.02.051",
+  "pii": "S1359431116301946",
+  "pubmed_id": null,
+  "title": "Microstructural analysis in GTA aluminum alloy welding using inverse problems",
+  "abstract": "© 2016 Elsevier Ltd. All rights reserved.Numerical software based on the tridimensional diffusion equation with a moving source, a phase change and heat flux estimation by the non-linear interactive Broydon-Fletcher-Goldfarb-Shanno (BFGS) inverse technique was used to study the heat affected zone (HAZ) in GTA aluminum 6065 T5 alloy welding. GTA welding experiments were performed using thin aluminum plates in four t+ experimental conditions. In previous studies, the authors determined that the peak temperature tends to increase as the positive polarity becomes higher. To confirm this behavior, the samples were cut on the welded region and later characterized using an optical microscope (OM) and a scanning electronic microscope (SEM). The heating and cooling rates, determined from an in-house code, were compared with the microstructures and the grain size of the HAZ found in the samples. The results revealed a linear correlation between the grain size on the HAZ and the positive polarity. The study also showed that a significant change in the microstructure occurs during the process while the GTAW torch is still turned on. After the welding, when the GTAW torch was turned off, the cooling rate was the same for all welded zones, which indicates that the microstructural changes had already occurred.",
+  "authkeywords": [
+    "GTAW process",
+    "Heat flux",
+    "Inverse problems",
+    "Microstructural analysis",
+    "Temperature estimation"
+  ],
+  "year": "2016",
+  "date": "2016-05-05",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Thermal Engineering",
+    "issn": "13594311",
+    "eissn": null,
+    "volume": "100",
+    "issue": null,
+    "pages": "333-339",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60025299",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Correa, Edmilson Otoni",
+      "scopus_id": "16678612600",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ana Lúcia, Ana Lúcia Fernandes",
+      "scopus_id": "6504248113",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sandro Metrevelle, Sandro Metrevelle Marcondes",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84960955357&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091275",
+    "data_quality_score": 100
+  }
+}

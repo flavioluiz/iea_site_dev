@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-2342641512",
+  "eid": "2-s2.0-2342641512",
+  "doi": "10.1016/S0096-3003(03)00591-5",
+  "pii": "S0096300303005915",
+  "pubmed_id": null,
+  "title": "Optimal multigrid solutions of two-dimensional convection-conduction problems",
+  "abstract": "The present work investigates the efficiency of the multigrid numerical method when used to solve two-dimensional laminar velocity and temperature fields inside a rectangular domain. Numerical analysis is based on the finite volume discretization scheme applied to structured orthogonal regular meshes. Performance of the correction storage (CS) multigrid algorithm is compared for different inlet Reynolds number (Rein) and number of grids. Up to four grids were used for both V- and W-cycles. Simultaneous and uncoupled temperature-velocity solution schemes were investigated. Advantages in using more than one grid are discussed. For simultaneous solution, results further indicate an increase in the computational effort for higher inlet Reynolds number Rein. Optimal number of intermediate relaxation sweeps for within both V- and W-cycles is discussed upon. © 2003 Elsevier Inc. All rights reserved.",
+  "authkeywords": [
+    "CFD",
+    "Decoupled solution",
+    "Laminar flow",
+    "Multigrid",
+    "Numerical methods"
+  ],
+  "year": "2004",
+  "date": "2004-05-13",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Mathematics and Computation",
+    "issn": "00963003",
+    "eissn": null,
+    "volume": "152",
+    "issue": "3",
+    "pages": "725-742",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mesquita, Maximilian S.",
+      "scopus_id": "7005231691",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=2342641512&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111489",
+    "data_quality_score": 100
+  }
+}

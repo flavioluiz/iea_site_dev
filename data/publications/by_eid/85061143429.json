@@ -1,0 +1,72 @@
+{
+  "publication_id": "2-s2.0-85061143429",
+  "eid": "2-s2.0-85061143429",
+  "doi": "10.1016/j.ifacol.2019.01.063",
+  "pii": "S2405896319300667",
+  "pubmed_id": null,
+  "title": "Aircraft FDI and human factors analysis of a take-off maneuvre using SIVOR flight simulator",
+  "abstract": "© 2019This paper presents a human factors analysis in aviation within the context of failure detection and identification (FDI) using statistical data analysis and clustering. We used data from experiments in a motion-based flight simulator (SIVOR) with 4 experienced pilots performing a take-off maneuvre under three conditions: normal, under engine failure and under flap failure. We propose two metrics based on statistical data analysis to evaluate and compare human behavior during flight. We also use k-means clustering in order to classify flights according to maneuvre conditions and misclassified flights are further analyzed according to which pilot has performed it. Results show that for the statistical data analysis the behavior of one specific pilot has higher dissimilarity with all other pilots. Moreover, for the k-means clustering, most of the misclassified flights were performed by this same pilot.",
+  "authkeywords": [
+    "cluster analysis",
+    "data analysis",
+    "Flight safety",
+    "human factors",
+    "unsupervised machine learning"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IFAC Papersonline",
+    "issn": null,
+    "eissn": "24058963",
+    "volume": "51",
+    "issue": "34",
+    "pages": "184-189",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kraemer, Aline D.",
+      "scopus_id": "57205546853",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emília",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Arjoni, Diego H.",
+      "scopus_id": "57202199479",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 33,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061143429&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049342",
+    "data_quality_score": 100
+  }
+}

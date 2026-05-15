@@ -1,0 +1,35 @@
+{
+  "num_tese": "000450821",
+  "type": "tese",
+  "title": "Otimizaçăo do controle da atitude de satélites artificiais.",
+  "author": "Regina Maria Kuranaga dos Santos",
+  "year": "2001",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maria Cecília França de Paula Santos Zanardi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O problema de manobras ótimas de atitude de um satélite artificial com simetria cilíndrica ou esférica é analisado, considerando um sistema de propulsăo a baixo empuxo e potęncia limitada. O problema de Mayer, com o sistema dinâmico descrito pelas equaçőes do movimento rotacional do satélite, na forma canônica estendida, nas variáveis de Andoyer, é considerado. Um modelo analítico para manobras de atitude de pequena amplitude, considerando a atitude de referęncia descrita pelo movimento rotacional livre de torques externos do satélite, é apresentado. Uma soluçăo analítica de primeira ordem para as correçőes ótimas de atitude de satélite, é obtida por simples quadraturas, e representada por um sistema linear algébrico, envolvendo os valores iniciais das variáveis adjuntas. Os efeitos do torque de gradiente de gravidade no controle ótimo de atitude do satálite, săo incluídos. O problema de manobras ótimas de atitude do satélite, formulado em termos dos ângulos de Euler, também é analisado. Aplicando o Princípio de Máximo de Pontryagin ao problema de otimizaçăo, nas variáveis ângulos de Euler, um problema năo-linear de valor de contorno em dois pontos, é determinado. Uma soluçăo numérica é obtida resolvendo-se o problema năo-linear pelo método do shooting. A comparaçăo dos resultados numéricos e anlíticos mostram que as soluçőes analíticas fornecem uma boa aproximaçăo da soluçăo numérica, para o intervalo de tempo considerado.Os resultados obtidos mostram que é possível propor uma lei de controle ótimo, na forma explícita, para a atitude do satélite artificial.",
+  "subjects": [
+    "Controle de atitude de satélites",
+    "Satélites artificiais",
+    "Otimizaçăo",
+    "Análise numérica",
+    "Controle óptimo",
+    "Controle",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000450821",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000450821&origem=BDITA"
+}

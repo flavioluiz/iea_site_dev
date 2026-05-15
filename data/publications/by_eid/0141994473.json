@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-0141994473",
+  "eid": "2-s2.0-0141994473",
+  "doi": "10.1002/fld.610",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A block-implicit numerical procedure for simulation of buoyant swirling flows in a model furnace",
+  "abstract": "This work reports numerical results for the case of incompressible laminar heated flow with a swirl in a vertical cylindrical chamber. Computations are obtained with a point-wise block-implicit scheme. Flow governing equations are written in terms of the so-called primitive variables and are recast into a general form. The discretized momentum equations are applied to each cell face and then, together with the mass-continuity, tangential velocity and energy equations, are solved directly in each computational node. The effects of Rayleigh, Reynolds and Swirl numbers on the temperature field are discussed. Flow pattern and scalar residual history are reported. Further, it is expected that more advanced parallel computer architectures can benefit from the error smoothing operator here described. © 2003 John Wiley and Sons, Ltd.",
+  "authkeywords": [
+    "Buoyancy",
+    "Coupled solution",
+    "Implicit solution",
+    "Model furnace",
+    "Numerical methods"
+  ],
+  "year": "2003",
+  "date": "2003-09-30",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal for Numerical Methods in Fluids",
+    "issn": "02712091",
+    "eissn": null,
+    "volume": "43",
+    "issue": "3",
+    "pages": "281-299",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0141994473&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111560",
+    "data_quality_score": 100
+  }
+}

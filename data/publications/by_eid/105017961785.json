@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-105017961785",
+  "eid": "2-s2.0-105017961785",
+  "doi": "10.2514/6.2025-3027",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aerodynamic design and analysis of an interchangeable aircraft model for propeller integration and aeropropulsive studies",
+  "abstract": "© 2025 by Geovana Neves.This paper introduces the Standard Model ITA (SMI), an interchangeable aircraft model framework designed to investigate aeropropulsive integration of propellers in support of future sustainable aviation applications. Early design phases progress rapidly, requiring streamlined methods to capture aeropropulsive effects from high-level parameters within product development time constraints. Designed as a generic approach, the methodology can integrate aerodynamic data from theoretical models and wind tunnel tests (WTT), leveraging information at the integrated coefficient level to support quick comparative analysis. The method focuses on longitudinal characterization, describing the local angle of attack and dynamic pressure at the horizontal tail using 3D-equivalent parameters. For rear-mounted configurations, the same procedure enables the calculation of averaged propeller slipstream swirl and dynamic pressure effects at the pylon, while installed propeller inflow angles are determined via in-plane force analysis. The aerodynamic evaluation of the SMI platform was carried out using CFD RANS simulations for power-off conditions, with further characterization in poweron conditions using Flightstream®, a panel method solver. The wing-mounted configuration (SMI-L1) exhibits a significant reduction in static stability in powered conditions, whereas rear-mounted configurations (SMI-L2 and SMI-L3) are inherently more stable concepts. This research provides a structured methodology for incorporating aeropropulsive effects early in the design cycle, enhancing aircraft sizing efforts and supporting sustainable aviation objectives.",
+  "authkeywords": [
+    "Aerodynamic Coefficients",
+    "Aerodynamic Performance",
+    "Aircraft Configurations",
+    "Aircraft Sizing",
+    "High Speed Propellers",
+    "Pressure Coefficient",
+    "Propeller Aircraft",
+    "Sustainable Aviation",
+    "Turbulent Boundary Layer",
+    "Wind Tunnel Tests"
+  ],
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Neves, Geovana",
+      "scopus_id": "57422052300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bienemann, Rogério",
+      "scopus_id": "60128936600",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Araújo, Tiago Barbosa",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    },
+    {
+      "name": "da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "tiago-barbosa-de-araujo",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017961785&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066582",
+    "data_quality_score": 90
+  }
+}

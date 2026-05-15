@@ -1,0 +1,34 @@
+{
+  "num_tese": "76649",
+  "type": "tese",
+  "title": "Frequency and damping analyses of variable-angle tow CFRP laminates : numerical modeling, experimental assessment and optimization",
+  "author": "Daniel de Almeida Pereira",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Hugo Borelli Resende",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Motivated by the increasing use of carbon-fiber reinforced polymers in industrial applications, in particular those in which requirements in terms of vibration levels must be fulfilled, the presented Thesis is devoted to the numerical and experimental investigation of the modal characteristics of composite laminates, with emphasis on damping. Here one considers an advanced category of composite elements, know as variable-angle tow laminates, or tow-steered laminates, in which the fibers follow curvilinear trajectories. The main objective is to characterize, both numerically and experimentally, the influence of fiber steering on the damping levels of composite laminates, and evaluate the possibility of achieving increased damping when this is established as a design goal. A dynamic model is derived by combining the semi-analytical Rayleigh-Ritz (or Assumed-Modes) approach, the Classical Lamination Theory, and the Strain Energy Method. This later provides a means of estimating the values of the specific damping capacity of each vibration mode. Based on this model, analytical developments are performed aiming at putting in evidence the contribution of each strain component in each layer of the laminate to the specific damping capacities. The results of numerical simulations are presented, enabling to compare the values of specific damping capacities, vibration natural frequencies and mode shapes obtained for variable-angle tow and conventional laminates in a variety of simulation scenarios. Some of the numerical results are validated by comparisons with experimental counterparts. Given the intricate interaction of the various factors that govern the modal characteristics of variable-angle tow laminates, it is also investigated the use of multi-objective optimization to deal with design goals involving natural frequencies and specific damping capacities of variable-angle tow laminates simultaneously. The ensemble of results confirm the possibility of achieving improved modal characteristics, including increased damping levels, by proper exploration of fiber steering.",
+  "subjects": [
+    "Amortecimento",
+    "Laminados",
+    "Métodos de deformaçőes",
+    "Vibraçăo",
+    "Otimizaçăo de Pareto",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76649",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76649&origem=BDITA"
+}

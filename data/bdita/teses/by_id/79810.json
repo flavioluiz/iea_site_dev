@@ -1,0 +1,29 @@
+{
+  "num_tese": "79810",
+  "type": "tese",
+  "title": "A semi-analytical model for thermo-mechanical stress analysis in composite laminates",
+  "author": "Danilo Moura Prata",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Composite materials made up of high modulus carbon fiber and thermoset resin have been used in advanced engineering structures, in a wide range of sectors, such as oil exploration, aerospace, wind energy, among others. However, in the manufacture of these materials, during the curing process responsible for perfect adhesion between the fiber + matrix constituents, the unwanted appearance of small deformations occurs, resulting in residual stresses, which cause geometric distortions in the final part, or reduce the strength of the material, a characteristic desired by designers when adopting composite materials. These residuals stresses come from effects of different natures, such as thermal, chemical and even hygroscopic, which occur in the constituents of the composite due to thermal gradients and material characteristics under the conditions of humidity and pressure, interaction of the part with the mold, characteristics of each manufacturing process. Such a challenging calculation can be found in the open literature; however, several authors (CHEN; ZHANG, 2018; GONZÁLEZ-CANTERO et al., 2016; YUAN et al., 2016), have developed methodologies specifically adapted to calculate and predict deformations and stresses. The present work sought to develop and implement a computational tool that is effective in simulating the effects of deformations and residual stresses of thermal nature. The modelling approach uses the variational method of the Principle of Stationary of Total Potential Energy of the system, allowing linear or non-linear systems to be treated, considering the internal deformation energy and the potential of the forces applied to the system. The search for the equilibrium solution of the system is done by minimizing the total potential energy, using the Rayleigh-Ritz approximation method to determine the generalized coefficients of the series of functions in the equilibrium equations, using Bardell functions to describe strain-displacement relations. The validation of the methodology is demonstrated by comparison with cases in which there is a closed solution for the problems of mechanical loading, the exact solution for a problem of thermal loading, and with simulation via finite elements through the ABAQUS® commercial software, demonstrating the effectiveness of the adopted approach.",
+  "subjects": [
+    "Materiais compósitos",
+    "Deformaçăo",
+    "Método de Rayleigh-Ritz",
+    "Laminados",
+    "Tensăo residual",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "21/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79810",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79810&origem=BDITA"
+}

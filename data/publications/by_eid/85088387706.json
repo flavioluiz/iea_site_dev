@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85088387706",
+  "eid": "2-s2.0-85088387706",
+  "doi": "10.1007/s42417-020-00227-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On Comparison Between 0–1 Test for Chaos and Attractor Reconstruction of an Aeroelastic System",
+  "abstract": "© 2020, Krishtel eMaging Solutions Private Limited.purpose: This paper aims to investigate the post-flutter nonlinearities due to the wing high aspect ratio. Flutter is an aerodynamic auto-excited phenomenon which occurs due to the coupling of two or more different vibration modes. This coupling results from the interaction between aerodynamic, elastic, and inertial forces. The present investigation scope is the comparison between experimental aeroelastic analysis of high-aspect-ratio wings using subsonic wind tunnels with computational experiments for three different center of gravity conditions. Methods: The computational nonlinear aeroelastic analysis is performed using a formulation based on the variation of the energy functional and considering Peters’ unsteady aerodynamic model. The post-flutter analysis consists in the comparison between the attractor reconstructed using the Takens’ theory with the result of the 0–1 test for chaos for both computational and wind tunnel experiments. Results: First, the 0–1 test is performed for both computational nonlinear analysis and wind tunnel experiment and they are in good agreement for each condition. After that, the procedure to obtain the reconstructed attractor is followed for both cases and they are again in good agreement. The difference between computational experiment reconstructed attractors and wind tunnel experiment reconstructed attractors is mainly because of wind turbulence in wind tunnel section. Conclusion: This research shows that all three experimented conditions presented periodic dynamic behavior. The 0–1 test predicted well the dynamic behavior; therefore, it is recommended to apply this test for all nonlinear experiments so that a first qualitative evaluation is possible. All Lyapunov exponents calculated are negative, confirming the periodicity of the three center of gravity conditions for both computational and wind tunnel experiments.",
+  "authkeywords": [
+    "Chaos",
+    "Flutter",
+    "Nonlinear aeroelasticity",
+    "Wind tunnel"
+  ],
+  "year": "2021",
+  "date": "2021-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Vibration Engineering and Technologies",
+    "issn": "25233920",
+    "eissn": "25233939",
+    "volume": "9",
+    "issue": "2",
+    "pages": "303-312",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Westin, Michelle F.",
+      "scopus_id": "55690937500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Balthazar, José M.",
+      "scopus_id": "7004090367",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto Gil A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088387706&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066893",
+    "data_quality_score": 100
+  }
+}

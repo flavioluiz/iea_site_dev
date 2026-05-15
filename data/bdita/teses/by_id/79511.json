@@ -1,0 +1,30 @@
+{
+  "num_tese": "79511",
+  "type": "tese",
+  "title": "Método para implementaçăo do processo one-up assembly (montagem em um único estágio) em estruturas aeronáuticas",
+  "author": "Joăo Marcos Gomes de Mello",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe um método para a implementaçăo da abordagem do one-up assembly (montagem em etapa única) em estruturas aeronáuticas, definido como PROA, Processo de Ressignificaçăo do One-up Assembly, com vistas a viabilizar a cravaçăo das peças sem separá-las previamente, eliminando desperdícios de atividades, aumentando as atividades automatizadas e reduzindo seus custos operacionais com măo de obra e correçőes de năo conformidades. A metodologia científica empregada neste trabalho consiste na coleta de dados resultante da pesquisa bibliográfica realizada e complementada pela observaçăo e análise experimental direta do autor em um ambiente industrial. Depois, é feito um mapeamento das características-chave de controle do processo pelo diagrama de Ishikawa e evidenciado pela matriz de deficięncias. Identifica-se o limite operacional das características-chave de controle do processo por meio de testes físicos em corpos-de-prova auxiliados por referęncias práticas e da literatura. A matriz de decisăo determina o melhor processo a ser aplicado, das seis possibilidades mapeadas via pesquisa bibliográfica, o qual a matriz XDSM organiza o fluxo de informaçăo e as etapas a serem realizadas por meio de 3 (tręs) etapas de projetos de experimentos para a aplicaçăo do PROA, bem como dos métodos Design of Experiments (DOE), projeto robusto de Taguchi, Capabilidade do processo e utilidade multiatributo. O projeto robusto de Taguchi é usado para estabelecer o processo one-up assembly eficaz identificando os valores das variáveis que tornam o processo robusto. Por fim, houve duas contribuiçőes acadęmicas: modelo matemática da força de aperto com R quadrático de 0,932 e análise de capabilidade do processo com a condiçăo normal da força de aperto e Criaçăo da Unidade Desempenho (UD) a partir da Utilidade Multiatributo; além de duas contribuiçőes operacionais: Análise de variância aplicado no DOE e o método de Taguchi, os quais comprovaram a irrelevância do efeito térmico na aplicaçăo do processo one-up assembly e a criaçăo de 14 orientaçőes para a implamentaçăo do PROA, seguindo as diretrizes do Design for eXcelence.",
+  "subjects": [
+    "Montagem (conjunto)",
+    "Fabricaçăo de aeronaves",
+    "Manufatura auxiliada por computador",
+    "Análise de variância",
+    "Indústria aeronáutica",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79511",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79511&origem=BDITA"
+}

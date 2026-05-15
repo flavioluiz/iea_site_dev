@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85057736648",
+  "eid": "2-s2.0-85057736648",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On nonlinear dynamics behavior of an aeroelastic wing subjected to an unsteady flow",
+  "abstract": "© CSP - Cambridge, UK; I & S - Florida, USA, 2018.The aeronautical industry is continuously investigating nonlinear phenomena that might happen as it evaluates. Every dynamic system is subject to nonlinear behavior, especially if it is very complex like an aircraft. The nonlinearity nature, for these cases, can be aerodynamic, such as dynamic stall or shock waves, or structural, for example, freeplay or large displacements and high flexibility. This work will investigate a very flexible wing with high aspect ratio subjected to unsteady flow with a slender body at the wing tip to induce flutter. A flutter analysis is proceeded in order to evaluate the error between the computational results and the experiment. Since the linear flutter theory considers small displacements, nonlinear phenomena are expected. So the experiment time series shall be analyzed and this nonlinearity studied. The evaluation if the system presents chaotic behavior will be performed through the 0-1 test.",
+  "authkeywords": [
+    "Chaos",
+    "Experimental analysis",
+    "Flutter",
+    "Nonlinear dynamics",
+    "Wind tunnel"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematics in Engineering Science and Aerospace",
+    "issn": "20413165",
+    "eissn": "20413173",
+    "volume": "9",
+    "issue": "4",
+    "pages": "439-454",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Westin, Michelle F.",
+      "scopus_id": "55690937500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Balthazar, José M.",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657-60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Tusset, Angelo M.",
+      "scopus_id": "26031801400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha, Rodrigo T.",
+      "scopus_id": "56662458300",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva",
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057736648&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067200",
+    "data_quality_score": 80
+  }
+}

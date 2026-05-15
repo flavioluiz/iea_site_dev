@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-85040240868",
+  "eid": "2-s2.0-85040240868",
+  "doi": "10.1016/j.jcp.2017.12.019",
+  "pii": "S0021999117309051",
+  "pubmed_id": null,
+  "title": "Spatial eigensolution analysis of energy-stable flux reconstruction schemes and influence of the numerical flux on accuracy and robustness",
+  "abstract": "© 2017 The Author(s)This study focuses on the dispersion and diffusion characteristics of high-order energy-stable flux reconstruction (ESFR) schemes via the spatial eigensolution analysis framework proposed in [1]. The analysis is performed for five ESFR schemes, where the parameter ‘c’ dictating the properties of the specific scheme recovered is chosen such that it spans the entire class of ESFR methods, also referred to as VCJH schemes, proposed in [2]. In particular, we used five values of ‘c’ two that correspond to its lower and upper bounds and the others that identify three schemes that are linked to common high-order methods, namely the ESFR recovering two versions of discontinuous Galerkin methods and one recovering the spectral difference scheme. The performance of each scheme is assessed when using different numerical intercell fluxes (e.g. different levels of upwinding), ranging from “under-” to “over-upwinding”. In contrast to the more common temporal analysis, the spatial eigensolution analysis framework adopted here allows one to grasp crucial insights into the diffusion and dispersion properties of FR schemes for problems involving non-periodic boundary conditions, typically found in open-flow problems, including turbulence, unsteady aerodynamics and aeroacoustics.",
+  "authkeywords": [
+    "Eigensolution analysis",
+    "Flux Reconstruction",
+    "Implicit LES",
+    "Spectral element methods",
+    "Under-resolved DNS"
+  ],
+  "year": "2018",
+  "date": "2018-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Computational Physics",
+    "issn": "00219991",
+    "eissn": "10902716",
+    "volume": "358",
+    "issue": null,
+    "pages": "1-20",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mengaldo, Gianmarco",
+      "scopus_id": "56270246000",
+      "affiliation": "60031581",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Grazia, Daniele",
+      "scopus_id": "56270272800",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60015150",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Sherwin, Spencer J.",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 38,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (miscellaneous)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85040240868&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069613",
+    "data_quality_score": 100
+  }
+}

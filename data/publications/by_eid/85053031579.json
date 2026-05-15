@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-85053031579",
+  "eid": "2-s2.0-85053031579",
+  "doi": "10.1016/j.jsv.2018.08.021",
+  "pii": "S0022460X18305261",
+  "pubmed_id": null,
+  "title": "Nonlinear dynamics and SDRE control applied to a high-performance aircraft in a longitudinal flight considering atmospheric turbulence in flight",
+  "abstract": "© 2018 Elsevier LtdModern high-performance aircrafts operate in regular flight regimes, in which the nonlinearities of the system directly influence the dynamical response of the aircraft. This work studies the dynamics of a fighter aircraft operating at high angles of attack of the wing. A mathematical model was developed deriving a system of nonlinear dynamical differential equations representing the longitudinal flight of the aircraft, considering the effect of the variation of the wind speed due to the atmospheric turbulence in the dynamic response of the aircraft. The dynamics of the aircraft is modeled as a two-degrees-of-freedom system, and the variation of the wind gusts is considered as a single-degree-of-freedom system. The analysis of the behavior of the system is carried out through the 0–1 test method to determine if the system is chaotic or periodic, which is applied in relation to the speed and angle of attack of the aircraft. As an object of study, all the considerations and analyses regarding the F-8 aircraft “Crusader” were took into account. A control technique is proposed in a nonlinear way, at which the angle of tail deflection is considered as a control parameter and projected using the method of control of the State Dependent Riccati Equations (SDRE) in order to stabilize the wing angle oscillations, considering critical regions of the behavior of the aircraft. Numerical simulations demonstrated the efficiency of the SDRE control, taking into account the comparison of the dynamics of the system with and without control, by using phase planes and parametric uncertainties, where the controller showed to be able to respond quickly and reliably to recover the aircraft from a stall situation.",
+  "authkeywords": [
+    "Atmospheric turbulence",
+    "High-performance aircraft",
+    "Nonlinear control",
+    "Nonlinear dynamic"
+  ],
+  "year": "2018",
+  "date": "2018-12-08",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Sound and Vibration",
+    "issn": "0022460X",
+    "eissn": "10958568",
+    "volume": "436",
+    "issue": null,
+    "pages": "273-285",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Pacheco dos Santos, Guilherme",
+      "scopus_id": "58353373100",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Balthazar, José Manoel",
+      "scopus_id": "7004090367",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Janzen, Frederic Conrad",
+      "scopus_id": "56689638400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha, Rodrigo Tumolin",
+      "scopus_id": "56662458300",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    },
+    {
+      "name": "Tusset, Angelo Marcelo",
+      "scopus_id": "26031801400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85053031579&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123224",
+    "data_quality_score": 100
+  }
+}

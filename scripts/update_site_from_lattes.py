@@ -142,7 +142,7 @@ def main():
                         help='Diretório com dados extraídos (_extracted.json)')
 
     parser.add_argument('--profiles-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Diretório com perfis JSON do site')
 
     parser.add_argument('--backup', action='store_true',

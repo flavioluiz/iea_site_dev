@@ -1,0 +1,29 @@
+{
+  "num_tese": "000551285",
+  "type": "tese",
+  "title": "Otimizaçăo de placas de material compósitos com auxílio dos parâmetros de laminaçăo.",
+  "author": "Guilherme Abraăo Lariú",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho o estudo e a aplicabilidade dos parâmetros de laminaçăo săo apresentados sob a forma de um algoritmo de otimizaçăo de placas laminadas de material compósito onde as variáveis de trabalho săo os ângulos de orientaçăo das camadas. Esse algoritmo leva em conta a influęncia dos parâmetros de laminaçăo e sua capacidade de identificar se o resultado atingido é um ponto ótimo global ou local no processo de otimizaçăo utilizando um algoritmo de otimizaçăo clássico. No caso de se ter chegado a um ponto ótimo local, os parâmetros de laminaçăo săo entăo utilizados para se determinar um novo ponto de partida para o otimizador clássico. Para efeito de comparaçăo e validaçăo a soluçăo que utiliza o algoritmo desenvolvido nesse trabalho é comparada com o conjunto de soluçőes possíveis com os ângulos de orientaçőes das camadas variando de -90o a +90o em 5o, a qual também demonstra a existęncia de vários mínimos locais e que o trabalho desenvolvido neste trabalho sempre encontra a soluçăo ótima global.",
+  "subjects": [
+    "Análise estrutural",
+    "Otimizaçăo",
+    "Laminaçăo",
+    "Materiais compósitos",
+    "Engenharia de materiais",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "18/12/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551285",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551285&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "79307",
+  "type": "tg",
+  "title": "Processo sistemático de avaliaçăo qualitativa de árvores de falha",
+  "author": "Luiz Guilherme Borges Silva",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Guilherme Conceiçăo Rocha",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vitor Henrique Oliveira Bourguignon",
+      "professor_slug": "vitor-gabriel-kleine"
+    }
+  ],
+  "abstract": "A avaliaçăo de segurança é uma importante ferramenta comumente utilizada durante o processo de certificaçăo de aeronaves para demonstrar o cumprimento dos principais requisitos de segurança impostos pelas principais autoridades certificadoras civis e militares. Nesse contexto, algumas etapas desse processo dependem da análise de engenharia dos especialistas envolvidos, o que adiciona um grau expressivo de subjetividade ao procedimento. Alguma pesquisa vem sendo feito no sentido de eliminar essa subjetividade, o que em especial ocorre nos processos baseados em modelos. Dessa forma, este trabalho de graduaçăo aborda a árvore de falha năo só como objeto de análise do processo de avaliaçăo de segurança, mas também como modelo que precisa estar corretamente elaborado e consistentemente baseado na realidade para servir de base para realizaçăo de outras etapas da avaliaçăo. Em vista disso, propőe-se sistemáticas que visam diminuir a subjetividade incutida na árvore. Primeiramente, apresenta-se topologias de árvores associadas a elementos redundantes mapeadas em literatura, apresentando-se casos de aplicaçăo das mesmas para facilitar que o analista possa escolher uma topologia correta. Em seguida, propőe-se uma sistemática que coloca etapas simples e objetivas para validar os tempos de exposiçăo de eventos base de árvores de falha. Os mesmos ainda săo analisados sob a hipótese de substituiçăo de tarefas de manutençăo preventiva associadas ŕ eventos latentes por testes embarcados, o que é analisado em conjunto com o emprego de ferramenta computacional de melhora financeira de planos de manutençăo. Uma última sistemática é proposta com requisitos a serem cumpridos pelas portas lógicas \"E\"' e \"OU'\" empregadas nas árvores para garantir que as mesmas foram bem utilizadas. Finalmente, as sistemáticas săo empregadas em estudo de caso, no qual propőe-se árvore de falha para explorar a condiçăo de flutuaçăo livre causada pela falha mecânica do atuador eletromecânico de equilíbrio do estabilizador horizontal. Para a árvore proposta, verificou-se o bom emprego das topologias mapeadas, o que gerou uma árvore completa e simples. Os tempos de exposiçăo dos eventos base e as portas lógicas puderam ser justificados de forma satisfatória com as sistemáticas propostas. Por fim, o emprego de testes embarcados para substituir tarefas de manutençăo mostrou-se promissor para diminuiçăo de custos de manutençăo e aumento da confiabilidade, disponibilidade, manutenibilidade e segurança do sistema.",
+  "subjects": [
+    "Árvores de falhas",
+    "Sistemas de segurança",
+    "Regulamentaçăo aeronáutica",
+    "Certificaçăo",
+    "Testes",
+    "Reduçăo de custos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79307",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79307&origem=BDITA"
+}

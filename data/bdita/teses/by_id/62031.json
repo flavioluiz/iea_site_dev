@@ -1,0 +1,29 @@
+{
+  "num_tese": "62031",
+  "type": "tese",
+  "title": "Genetic algorithm for preliminary design optimisation of high-performance axial-flow compressors",
+  "author": "Victor Fujii Ando",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents an approach to optimise the preliminary design of high-performance axial-flow compressors. The preliminary design within the Gas Turbine Group at ITA, is carried on with an in-house computational program based upon the streamline curvature method, using correlations from the literature to assess the losses. The choice of many parameters of the thermodynamic cycle and of geometries relies upon the expertise from the members of the Group. Nevertheless, it is still a laborious and time-consuming task, requiring successive trial and errors. Therefore, to support the compressor designer in the choice of some parameters, an optimisation program, named REMOGA, was written in FORTRAN language, allowing an easy integration with the programs developed by the Gas Turbine Group. The program is based upon a multi-objective genetic algorithm, with real codification and elitism. Then the REMOGA and the preliminary design program were integrated to design a 5-stage axial-flow compressor. Therefore, the stator air outlet angles, the temperature distribution and the hub-tip ratio were varied aiming at higher efficiencies and higher pressure ratios, but controlling the de Haller number and the camber angle. Thanks to the REMOGA, thousands of designs could be quickly evaluated. Finally, using a choice criterion, four solutions were selected for further analysis, revealing that the developed program was successful in finding more efficient and feasible compressor designs.",
+  "subjects": [
+    "Turbocompressores",
+    "Projeto de máquinas",
+    "Algoritmos genéticos",
+    "Turbomáquinas",
+    "Turbinas a gás",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "19/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62031",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62031&origem=BDITA"
+}

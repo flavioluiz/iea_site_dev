@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85150367737",
+  "eid": "2-s2.0-85150367737",
+  "doi": "10.1016/j.icheatmasstransfer.2023.106672",
+  "pii": "S0735193323000611",
+  "pubmed_id": null,
+  "title": "The volumetric thermal capacitor method for nonlinear heat transfer in phase-change materials",
+  "abstract": "© 2023Recently, there was an increase in the study of phase change materials mainly due to thermal storage studies or modeling of manufacturing processes. Usually, these problems, which have a moving boundary, are solved with the enthalpy formulation. This paper presents a new methodology to address the unsteady enthalpy term in the heat diffusion equation. The Volumetric Thermal Capacitor method is developed to solve the non-linear heat diffusion equation with the enthalpy function. The alternative method applies the integration by parts rule to divide the enthalpy term into three components. This approach allows the use of non-linear thermal properties without simplifications or generalized considerations. The method is compared to the classical formulation. The routines were implemented and executed in parallel on a CUDA-C in-house code. Simulated and lab-controlled experiments validated the proposed methodology. The results highlighted the differences between the models for experiments with intense heat flux. The proposed model presented a better agreement with the experimental data than the classical model for high-temperature cases. The Volumetric Thermal Capacitor method proved to be more stable and accurate than the classical method.",
+  "authkeywords": [
+    "Enthalpy method",
+    "GPU",
+    "Phase change materials",
+    "Volumetric thermal capacitor"
+  ],
+  "year": "2023",
+  "date": "2023-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "142",
+    "issue": null,
+    "pages": null,
+    "article_number": "106672"
+  },
+  "authors": [
+    {
+      "name": "Azevedo, Arthur Mendonça de",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150367737&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091083",
+    "data_quality_score": 100
+  }
+}

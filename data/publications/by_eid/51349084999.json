@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-51349084999",
+  "eid": "2-s2.0-51349084999",
+  "doi": "10.1016/j.ijheatmasstransfer.2008.03.016",
+  "pii": "S0017931008001932",
+  "pubmed_id": null,
+  "title": "Computation of turbulent free convection in left and right tilted porous enclosures using a macroscopic k-ε model",
+  "abstract": "Comparisons of computations for turbulent natural convection within clockwise and counter-clockwise inclined cavities, filled with a fluid saturated porous medium, are presented. The finite volume method in a generalized coordinate system is applied. Oblique walls are maintained at constant but different temperatures, whereas horizontal surfaces are kept insulated. Flow and heat transfer characteristics are investigated for Rayleigh number up to 104 and inclination angles up to 45°, in both directions of rotation. Turbulent is handled using a macroscopic two-equation model with a wall function. In this work, the turbulence model is first switched off and the laminar branch of the solution is obtained. Subsequently, the turbulence model is included and the solution merges to the laminar branch for a reducing value of Ram. Present computations are compared with published results and the influence of the inclination angle on Racr is analyzed, for both the left and right rotating directions. For Ram greater than around 104, both laminar and turbulent flow solutions deviate, possibly indicating that a critical value for Ram was reached. Both left and right rotation of the hot wall reduce Nu, but rotating the hot wall on the counter-clockwise direction decreases Nu at a faster rate than when bending the cavity to the right. © 2008 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Heat transfer",
+    "Natural convection",
+    "Porous media"
+  ],
+  "year": "2008",
+  "date": "2008-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "51",
+    "issue": "21-22",
+    "pages": "5279-5287",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=51349084999&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111195",
+    "data_quality_score": 100
+  }
+}

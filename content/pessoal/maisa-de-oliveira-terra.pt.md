@@ -1,8 +1,7 @@
 ---
-title: "Maisa de Oliveira Terra"
+title: "Maísa de Oliveira Terra"
 layout: professor
 professor_id: "maisa-de-oliveira-terra"
-type: docentes
+departamento: "iea-b"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

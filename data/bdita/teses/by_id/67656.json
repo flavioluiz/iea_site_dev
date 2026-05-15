@@ -1,0 +1,29 @@
+{
+  "num_tese": "67656",
+  "type": "tese",
+  "title": "Proposta de modelo de previsăo de custos de reparo em um serviço de disponibilidade de componentes de aeronaves",
+  "author": "José Albery Perote Filho",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os serviços de manutençăo, reparo e overhaul (MRO) na aviaçăo comercial săo um mercado relevante, de valor estimado acima de US$ 59 bilhőes em 2013. Dentre os serviços de MRO de componentes aeronáuticos, tęm destaque os serviços de disponibilidade, ou pay-by-the-hour (PBH), que se destinam a atender a manutençăo de itens reparáveis, quanto ao seu reparo no caso de falha e ao compartilhamento de um estoque de peças de reposiçăo. Assim, reduz-se a necessidade de investimento e evita-se a interrupçăo da operaçăo da aeronave no caso de falha de um componente essencial. Embora a literatura sobre gestăo de estoques de peças de reposiçăo seja vasta, poucos estudos săo relacionados a custos de serviços. O objetivo deste trabalho é aplicar o processo de extraçăo de conhecimento de bases de dados (KDD, do inglęs Knowledge Discovery from Data) na criaçăo de um modelo de previsăo de custo de reparo de um grupo de componentes cobertos por um PBH, para apoio ŕ precificaçăo e ao planejamento orçamentário da oferta do serviço por um certo provedor. Discorre-se sobre os diferentes métodos de estimaçăo de custos presentes na literatura. A coleta e seleçăo dos dados é descrita, bem como sua transformaçăo e pré-processamento, de modo a permitir a construçăo do modelo e sua interpretaçăo. O processo de seleçăo de variáveis para composiçăo do modelo de regressăo linear múltipla é comentado em detalhes. Foi aplicada análise de elasticidade para comparar o impacto das variáveis explicativas sobre a variável resposta. Observou-se que a variável mais influente foi criada durante o pré-processamento, para representar os dados faltantes, oriundos de ordens de reparo que năo estavam fechadas no momento da extraçăo dos dados. Após investigaçăo, descobriu-se que o processo de registro dos dados favorece a ocorręncia de dados faltantes, constituindo uma oportunidade de melhoria. Como uma mediçăo de qualidade, foi calculado o erro absoluto percentual médio do modelo, cujo valor de 9,7% mostrou-se adequado quando comparado com a literatura de estimaçăo de custos.",
+  "subjects": [
+    "Regressăo linear",
+    "Previsăo econômica",
+    "Partes de aeronaves",
+    "Manutençăo de aeronaves",
+    "Aeronaves comerciais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67656",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67656&origem=BDITA"
+}

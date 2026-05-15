@@ -1,0 +1,32 @@
+{
+  "num_tese": "000541623",
+  "type": "tese",
+  "title": "Análise do escoamento no entorno da interface entre o meio limpo e o meio poroso.",
+  "author": "Renato Alves da Silva",
+  "year": "2006",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga o escoamento turbulento no entorno da interface entre um meio limpo e um meio poroso, com a finalidade de ajustar as condiçőes de contorno de salto de tensăo cisalhante e de fluxo difusivo de energia cinética de turbulęncia, usada na abordagem macroscópica. Como modelo para o meio poroso, săo consideradas várias geometrias compostas de hastes de formas diversas (haste cilíndrica, haste elíptica longitudinal e haste elíptica transversal). O comportamento das propriedades do escoamento em funçăo da morfologia da estrutura porosa é analisado. As equaçőes que governam o escoamento săo numericamente resolvidas na fase líquida ao redor das hastes sólidas. O método numérico empregado para a discretizaçăo das equaçőes é o método dos volumes finitos com arranjo co-localizado num sistema de coordenadas generalizadas. O algoritmo PISO é usado para correçăo do campo de pressăo. Após a obtençăo destes resultados, denominado resultados distribuídos, foi utilizado o conceito de média volumétrica, em uma célula de cálculo para transferir os resultados distribuídos do domínio \"microscópico\" para o domínio macroscópico - denominado resultados integrados. A partir do ajuste de curva dos valores pontuais de velocidade e energia cinética de turbulęncia no meio poroso e no meio limpo, foram estimados os coeficientes de salto de tensăo, ß e de salto de fluxo difusivo de energia cinética, ßk. A metodologia de integraçăo desenvolvida para obtençăo dos coeficientes de salto, além de preservar a maioria das informaçőes do escoamento distribuído, resulta em valores fisicamente coerentes de tensăo e de fluxo difusivo de energia cinética. Para os casos analisados, os valores do coeficiente de salto de tensăo, ß, que melhor acomodam a transferęncia de quantidade de movimento na interface săo, ß=1,4824, para escoamento laminar, e ß=0,6536, para escoamento turbulento, evidenciando a dependęncia do coeficiente de salto ao regime de escoamento. Além disso, é apresentado o coeficiente de salto de fluxo difusivo de energia cinética de turbulęncia modificado, ß#c=1,6244, que ajusta a troca de fluxo difusivo de (K)v entre as camadas de fluido acima e abaixo da interface, independentemente dos valores de porosidade, fc, analisados.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Materiais porosos",
+    "Condiçőes de contorno",
+    "Método de volume finito",
+    "Turbulęncia",
+    "Controle de camadas limite",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "13/06/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541623",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541623&origem=BDITA"
+}

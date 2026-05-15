@@ -1,0 +1,30 @@
+{
+  "num_tese": "61543",
+  "type": "tese",
+  "title": "Simulaçăo numérica do escoamento multifásico em uma grade baseada em rotor de turbinas a vapor",
+  "author": "Rodrigo Dias Vilela",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O processo de condensaçăo de vapor no interior de turbinas danifica sua superfície interna e as palhetas dos rotores, além de diminuir a eficięncia termodinâmica nessa regiăo. Para estudar o processo de condensaçăo de vapor em estágios de turbinas, foi proposto neste trabalho uma simplificaçăo da geometria, estabelecendo o escoamento de vapor úmido em uma grade de bocais baseado no modelo de rotor de uma turbina a vapor real. Um estudo preliminar do bocal supersônico de Laval 2D (convergente-divergente) foi realizado devido ŕ possibilidade de validar o procedimento de uso do código CFD com base em dados experimentais adequados. O objetivo desta tese é avaliar o escoamento e investigar como a variaçăo dos parâmetros térmicos, como temperatura e pressăo, alteram o ponto de início da condensaçăo, analisando a regiăo de nucleaçăo e crescimento das gotículas entre as palhetas da grade. O fenômeno da condensaçăo foi modelado com base na teoria da nucleaçăo clássica. Nesse trabalho, o modelo matemático deste escoamento compressível multifásico foi resolvido numericamente usando o método dos volumes finitos com uma abordagem baseada na densidade com os modelos de turbulęncia realizável e SST. Os resultados das simulaçőes mostraram que, tanto para o bocal de Laval quanto para a grade de bocais, o fenômeno da mudança de fase é responsável por perdas termodinâmicas significativas no escoamento e que a fraçăo de massa líquida é influenciada diretamente pela temperatura de admissăo do vapor e pela diferença de pressăo estabelecida entre a entrada e a saída do domínio, atingindo valores elevados em regiőes próximas ŕs superfícies das palhetas.",
+  "subjects": [
+    "Escoamento multifásico",
+    "Dinâmica dos fluidos computacional",
+    "Transferęncia de calor",
+    "Condensaçăo",
+    "Turbinas a vapor",
+    "Análise numérica",
+    "Física"
+  ],
+  "defense_date": "06/10/201",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61543",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61543&origem=BDITA"
+}

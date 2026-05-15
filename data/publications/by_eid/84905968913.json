@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-84905968913",
+  "eid": "2-s2.0-84905968913",
+  "doi": "10.1080/10407782.2014.892384",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Passive laminar heat transfer across porous cavities using the thermal non-equilibrium model",
+  "abstract": "This work presents a study on laminar free convection within a square cavity filled with a fluid saturated porous medium. Macroscopic flow equations are obtained by volume-averaging local instantaneous continuity and momentum equations. The so-called \"two-energy equation model\" is used, in which distinct macroscopic equations are applied to the working fluid and the solid material. Transport equations are discretized using the control-volume method and the system of algebraic equations is relaxed via the SIMPLE (Semi-Implicit Method for Pressure-Linked Equations) algorithm. The effect of Ram on Nuw correctly predicted the enhancement of passive heat transfer across the cavity for increasing Ram. Increasing kskf enhances the conduction transport through the solid material and, consequently, dampens the overall Nusselt number, defined here as the ratio between conduction and convection mechanisms over conduction transport only. Further, results indicate that by increasing the void space within the porous material the overall Nusselt number is reduced rather than increased. Individual contributions to the average Nusselt number indicate that, although convection is enhanced with increasing porosity, the reduction of conduction heat transfer through the solid material is the controlling mechanics for Nuw as porosity increases. The results herein might contribute to design and optimization of passive heat transfer systems. © 2014 Taylor and Francis Group, LLC.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part A Applications",
+    "issn": "10407782",
+    "eissn": "15210634",
+    "volume": "66",
+    "issue": "11",
+    "pages": "1173-1194",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Carvalho, Paulo H.S.",
+      "scopus_id": "55922067000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84905968913&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110714",
+    "data_quality_score": 90
+  }
+}

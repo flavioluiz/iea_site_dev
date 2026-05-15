@@ -1,0 +1,34 @@
+{
+  "num_tese": "000420221",
+  "type": "tese",
+  "title": "Aplicaçăo de uma técnica de volumes finitos, com discretizaçăo na direçăo das linhas de corrente, na soluçăo de problemas de escoamento.",
+  "author": "Carlos Magno Fernandes",
+  "year": "1998",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho foi apresentar um modelo de tratamento dos termos convectivos da equaçăo de transporte e um modelo de discretizaçăo dos termos difusivos e fonte da mesma equaçăo. Este trabalho apresenta um completo desenvolvimento da metodologia em tręs partes. Na primeira parte, apresenta-se uma nova técnica de volumes finitos para resolver problemas de difusăo e convecçăo, com a finalidade de reduzir a falsa difusăo e erros de dispersăo. No desenvolvimento do método, foi utilizada, como ponto de partida, a técnica \"streamline upwind\", disponível na literatura de elementos finitos, desenvolvida originalmente por Rice e Schnipke. Essa técnica consiste, essencialmente, em uma discretizaçăo especial dos termos convectivos da equaçăo de convecçăo-difusăo e a clássica discretizaçăo dos termos difusivos. Visto que os problemas de convecçăo pura (hiperbólicos) săo descontínuos, nenhum método numérico tem sido desenvolvido até o presente tempo que leve ŕ perfeita conservaçăo da propriedade em estudo. Essa técnica, agora proposta, pode minimizar tais problemas, reforçando a continuidade da massa. É apresentado também um tratamento especial do volume de controle, que reduz a falsa difusăo e dispersăo numérica. A soluçăo de dois problemas \"benchmark\", um envolvendo convecçăo pura e o outro uma forte recirculaçăo, demonstrou que o método proposto é acurado. Na segunda parte, o método é estendido, para ser aplicado na soluçăo das equaçőes de Navier-Stokes em regime laminar. Novamente, o novo método de discretizaçăo das equaçőes de momentum e continuidade é apresentado. A equaçăo de pressăo é obtida da equaçăo da continuidade. O método PRIME é sugerido e apresentado como um esquema que acelera a convergęncia. Dois outros problemas \"benchmark\", como o escoamento de jato laminar bidimensional e isotérmico e o escoamento em uma cavidade, foram resolvidos e os resultados mostraram que o método proposto é bastante acurado e adequado para resolver as equaçőes de Navier-Stokes em regime laminar. Na terceira e última parte, a metodologia apresentada é considerada como adequada para resolver problemas complexos como o de jato duplo paralelo. Aqui, as equaçőes k-e, juntamente com as equaçőes de momentum e continuidade, săo discretizadas. Definindo um erro máximo de 10-4 para a equaçăo da continuidade, o problema de jato duplo paralelo foi resolvido e seus resultados comparados com os dados experimentais disponíveis na literatura. Embora tenha sido usada malha pouco refinada (apenas 220 pontos nodais), uma aceitável concordância com os dados experimentais foi obtida para o perfil de velocidade ao longo da linha de conto. Por outro lado, o perfil de velocidade perpendicular ŕ seçăo transversal na regiăo de escoamento completamente desenvolvido está em excelente acordo com os dados experimentais. Os resultados mostraram que o método proposto pode ser aplicado para resolver complexos problemas de mecânica dos fluidos, encontrados em engenharia aeronáutica e mecânica. Estudos posteriores podem ser feitos para estender sua aplicabilidade a problemas tridimensionais.",
+  "subjects": [
+    "Método de volumes finitos",
+    "Mecânica dos fluidos",
+    "Convecçăo",
+    "Difusăo",
+    "Análise numérica",
+    "Problemas de valores no contorno",
+    "Equaçăo de Navier-Stokes",
+    "Escoamento de fluidos",
+    "Física",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000420221",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000420221&origem=BDITA"
+}

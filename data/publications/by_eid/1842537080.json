@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-1842537080",
+  "eid": "2-s2.0-1842537080",
+  "doi": "10.1115/IMECE2003-41456",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent natural convection in horizontal composite cavities",
+  "abstract": "Turbulent natural convection in a two-dimensional horizontal composite square cavity, isothermally heated at the left side and cooled from the opposing surface, is numerically analyzed using the finite volume method. The composite square cavity is formed by three distinct regions, namely, clear, porous and solid region. Accordingly, the development of a numerical tool able to treat all these regions as one computational domain is of advantage for engineering design of thermal systems. Governing equations are written in terms of primitive variables and are recast into a general form. It was found that the fluid begins to permeate the porous medium for values of Ra greater than 10 6. Nusselt number values show that for the range of Ra analyzed there are no significant variation between the laminar and turbulent model solution.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Heat Transfer Division Publication HTD",
+    "issn": "02725673",
+    "eissn": null,
+    "volume": "374",
+    "issue": "1",
+    "pages": "113-120",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=1842537080&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111639",
+    "data_quality_score": 90
+  }
+}

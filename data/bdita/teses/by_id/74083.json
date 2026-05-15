@@ -1,0 +1,28 @@
+{
+  "num_tese": "74083",
+  "type": "tese",
+  "title": "Flight control of a multirotor aerial vehicle using a nonsingular terminal sliding mode controller",
+  "author": "Arioberto Luciano da Silva Júnior",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Multirotor aerial vehicles (MAV) have been attracting more and more attention from industry for applications that require a reliable operation in challenging flight conditions. Such scenarios, where the vehicle presents a coupled nonlinear dynamical behavior under disturbances, demand a special care about the flight control. The present work is concerned with the design of a robust flight control system for an MAV with fixed rotors subject to force and torque disturbances. The method is based on a recent formulation of the nonsingular terminal sliding mode control (NTSMC) strategy to track a reference trajectory. A hierarchical control structure is adopted by considering a time-scale separation between the translational and rotation dynamics. In this structure, the position control is realized by a slower outer loop, while the attitude control is carried out by a faster inner loop. For each loop, we first formulate a six-state dynamics model for the respective tracking error and then apply the NTSMC strategy to steer it to zero. In particular, for the tracking error of the rotational motion, the modified Rodrigues parameters are considered for representing the attitude error. Considering that the torque and force disturbances are bounded inside known sets, the adopted strategy leads to attitude and position control laws that are able to globally track a reference trajectory with finite-time convergence and singularity avoidance. The proposed method is evaluated on the basis of extensive computational simulations considering challenging scenarios as well as on a hardware-in-the-loop simulation involving a rotational three-degree-of-freedom bench experiment. The method is effective, simple to implement and tune, and reliable for operating in nonlinear regime as well as under bounded disturbances.",
+  "subjects": [
+    "Controle de voo",
+    "Aeronave năo-tripulada",
+    "Controle robusto",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "20/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74083",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74083&origem=BDITA"
+}

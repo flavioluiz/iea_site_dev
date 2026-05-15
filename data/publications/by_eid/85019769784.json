@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85019769784",
+  "eid": "2-s2.0-85019769784",
+  "doi": "10.1017/jfm.2017.201",
+  "pii": "S0022112017002014",
+  "pubmed_id": null,
+  "title": "Real-time modelling of wavepackets in turbulent jets",
+  "abstract": "© 2017 Cambridge University Press.Three methods are considered for estimating the downstream evolution of wavepackets in turbulent jets based on upstream measurements. The parabolised stability equations are used to compute a transfer function between axially and radially separated points in the flow, and the performance of this theoretical model is compared with that of two empirical approaches, direct transfer function calculation and autoregressive moving-average exogenous system identification, both of which require unsteady experimental data. The three approaches, which perform equally well, prove suitable for estimation of the downstream evolution of wavepackets using pressure data measured in the near-nozzle region. Over distances of the order of a couple of jet diameters, correlations of up to 80 % are observed between estimation and measurement. The performance deteriorates as axial separation between input and output is increased. While the two empirical approaches are limited in terms of both the number of input-output pairs and the number of flow variables that can be reasonably considered, the parabolised stability equations-based approach has no such limitation and can be used to perform full-field estimates comprising all of the dependent variables; in this it constitutes a potentially formidable means by which to perform single-input-multiple-output estimation. It has the further advantage of not requiring unsteady data for its construction, the only necessary ingredients being the mean flow and the linearised equations of motion.",
+  "authkeywords": [
+    "aeroacoustics",
+    "turbulence control",
+    "turbulence modelling"
+  ],
+  "year": "2017",
+  "date": "2017-06-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "821",
+    "issue": null,
+    "pages": "458-481",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Piantanida, Selene",
+      "scopus_id": "56256344500",
+      "affiliation": "109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "109689357",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 47,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85019769784&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101514",
+    "data_quality_score": 100
+  }
+}

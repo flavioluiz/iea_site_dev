@@ -1,0 +1,31 @@
+{
+  "num_tese": "000493424",
+  "type": "tese",
+  "title": "Transitório năo-adiabático de turbinas a gás.",
+  "author": "Marco Aurélio da Cunha Alves",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As turbinas a gás modernas estăo sujeitas a requisitos muito rigorosos de desempenho, operacionalidade e durabilidade. Para atender estes requisitos, que săo conflitantes, e para assegurar um projeto adequadamente ponderado, simulaçőes dos comportamentos dinâmico e transitório do motor săo necessárias durante os projetos do motor e do sistema de controle, bem como durante os ensaios de desenvolvimento. Isto garante a prevençăo de problemas e reduz custos de desenvolvimento. Modelos de simulaçăo de desempenho representativos do motor, que levam em consideraçăo os efeitos dinâmicos e transitórios, săo utilizados desde o início do projeto, tanto do motor propriamente dito como do sistema de controle, para permitir a escolha da melhor configuraçăo do motor e a lei de controle mais adequada. A compatibilidade entre as partes do motor pode ser verificada, mesmo antes da fabricaçăo, evitando erros que podem custar caro. Neste trabalho foi desenvolvido um modelo de simulaçăo de desempenho de turbinas a gás com capacidade para tratar a dinâmica năo adiabática e a transferęncia de calor transitória do motor. Foram incluídos no modelo alguns aspectos conhecidos que afetam o comportamento dinâmico e transitório dos motores, tais como: transferęncia de calor gás-metal e variaçăo na eficięncia dos componentes devido ŕ variaçăo de folgas de topo. A capacidade de simulaçăo da dinâmica năo adiabática do modelo foi validada usando um método de diferenças finitas disponível na literatura. O modelo foi utilizado ainda para simular o desempenho dinâmico de uma turbina a gás com regenerador e foi observado que o volume e a transferęncia de calor no regenerador tęm uma influęncia maior na dinâmica do motor que o atrito interno do regenerador. A capacidade de simulaçăo de transitório năo adiabático de turbinas a gás do modelo foi validada usando um modelo de simulaçăo já consagrado da literatura. Os modelos foram utilizados na simulaçăo do desempenho em regime transitório de um motor turbofan, de dois eixos e saída misturada, e os resultados obtidos apresentaram pouca diferença.",
+  "subjects": [
+    "Turbinas a gás",
+    "Desempenho",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Transferęncia de calor",
+    "Motores",
+    "Termodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000493424",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000493424&origem=BDITA"
+}

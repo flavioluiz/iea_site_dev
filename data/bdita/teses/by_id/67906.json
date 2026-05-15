@@ -1,0 +1,32 @@
+{
+  "num_tese": "67906",
+  "type": "tese",
+  "title": "Análise numérica da transferęncia de calor conjugada em escoamento de ar quente através de bocal de-laval refrigerado por água",
+  "author": "Fausto Ivan Barbosa",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este estudo apresenta uma soluçăo numérica para o problema da transferęncia de calor conjugada em escoamento de ar quente através de bocal metálico de-Laval refrigerado por água, em regime permanente, usando um único domínio para representar as regiőes de gás, sólido e líquido. O modelo matemático compreende as equaçőes de continuidade, de quantidade de movimento (RANS), de energia, de turbulęncia (k- ?) e de tratamento próximo ŕ parede (EWT- ?). Para soluçăo do problema é empregado o método de volumes finitos, com algoritmo segregado baseado em pressăo e discretizaçăo espacial de segunda ordem. Para o escoamento de ar, o fluido é tratado como ar dissociado, em equilíbrio termodinâmico, sendo aplicado o modelo de gás perfeito. Para o escoamento de água, que ocorre em altas pressőes, baixas temperaturas e baixas velocidades, o fluido é tratado como líquido comprimido, também em equilíbrio termodinâmico. No processo de verificaçăo de malha, tręs diferentes resoluçőes săo testadas. Para validaçăo do modelo, utilizam-se dados experimentais obtidos em túnel de vento de alta entalpia, além de resultados de simulaçăo obtidos na literatura para o mesmo problema, demonstrando que as soluçőes apresentadas neste estudo tęm excelente concordância em ambos os casos. A análise do comportamento de pressăo, velocidade, temperatura e densidade nos escoamentos de água e ar, assim como de fluxo de calor e temperatura na parede interna do bocal, demonstrou que o uso de domínio único permite resolver o problema da transferęncia de calor conjugada de forma rápida e precisa.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento turbulento",
+    "Empuxo",
+    "Câmaras de combustăo",
+    "Transferęncia de calor",
+    "Turbulęncia",
+    "Termodinâmica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "30/01/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67906",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67906&origem=BDITA"
+}

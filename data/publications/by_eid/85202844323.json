@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85202844323",
+  "eid": "2-s2.0-85202844323",
+  "doi": "10.2514/6.2024-3204",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Coherence decay in turbulent jets by stochastic modelling under location uncertainty",
+  "abstract": "© 2024, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Coherence decay has been understood to be a key quantity to predict acoustic noise emitted by wavepackets in subsonic turbulent jets. Frequency-domain frameworks such as input-output and resolvent analyses are able to predict accurately the spatial structure of wavepackets turbulent flows compared to coherent structures educed from simulation data (as for example identified using spectral proper orthogonal, SPOD). However, at least at reduced-order, they are unable to capture two-point statistics such as coherence. A missing piece is the modelling of variability induced by the turbulence, which jitters (disorganises) the coherent structures and leads to stronger noise radiation. The aim of the present study is to consider the impact of turbulence on jet wavepackets through stochastic modelling under location uncertainty. This framework considers the conservation of mass and momentum of fluid parcels submitted to a stochastic transport, representing here the effect of turbulence. By linearising the resulting generalised stochastic Navier–Stokes equations and expressing it in the Fourier domain, a stochastic linear model (SLM) is obtained. We explore in this paper that ability of SLM to predict the two point coherence of the wavepackets in turbulent jets, and show its impact on acoustic emissions.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "30th AIAA Ceas Aeroacoustics Conference 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Tissot, G.",
+      "scopus_id": "55797353200",
+      "affiliation": "60105640",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mémin, E.",
+      "scopus_id": "6701490767",
+      "affiliation": "60105640",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85202844323&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100394",
+    "data_quality_score": 80
+  }
+}

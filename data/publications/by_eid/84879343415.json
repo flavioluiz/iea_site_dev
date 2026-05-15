@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-84879343415",
+  "eid": "2-s2.0-84879343415",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Flight tests optimization by satcom based telemetry link",
+  "abstract": "The terrestrial microwave telemetry links show limitation due their inherent features concerning bandwidth availability, frequency allocation and range. Also it supports only one aircraft per test and the data acquisition capacity can be enhanced. Following the flight tests trends, it proposes a telemetry link based on satellite communications deployed by off the shelf equipments allowing advantages as bandwidth availability, multiple aircrafts telemetry and almost global range into the reliability standards. By simple equations and typical flight tests data it demonstrates the feasibility of the telemetry system proposed for time and costs reduction to optimize flight tests programs.",
+  "authkeywords": [
+    "Flight tests",
+    "Link budget",
+    "Satcom",
+    "Telemetry"
+  ],
+  "year": "2005",
+  "date": "2005-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Telemetering Conference",
+    "issn": "08845123",
+    "eissn": null,
+    "volume": "41",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rodrigues, Tiago Giglio",
+      "scopus_id": "57198205385",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luis Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Leite, Nelson Paiva Oliveira",
+      "scopus_id": "7004518647",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marins, Carlos Nazareth Motta",
+      "scopus_id": "6507994422",
+      "affiliation": "60104212",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 7,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84879343415&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.078383",
+    "data_quality_score": 70
+  }
+}

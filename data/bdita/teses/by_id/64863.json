@@ -1,0 +1,30 @@
+{
+  "num_tese": "64863",
+  "type": "tese",
+  "title": "Study of free convection in a porous square cavity using two-energy equation models",
+  "author": "Paulo Henrique Salles de Carvalho",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this study the influence of physical properties on heat transfer between the fluid and solid phases for laminar and turbulent flow in a square cavity filled with porous material, heated by one side and cooled by the opposite one is investigated. In order to simulate flow and heat transfer between the phases models, one and two-energy-equation models are used. The transport equations are discretized using the control volume method and the system of algebraic equations is relaxed via the SIMPLE algorithm. Validations were perfomed first for the case of clean cavity, using Laminar and High Reynolds Turbulent model, and the results are in agreement with the existing literature. In the case of porous cavities, simulation runs were performed using the 1EEM and 2EEM. Overall, this study showed that as porosity increases, the value of the average Nusselt at hot wall, for the same Ram, decreases. It is also shown that the average Nusselt decreases, from a critical Rayleigh , as the ratio between the thermal conductivities of the phases increases. Comparisons were made between both energy models and 2EEM shown smaller results for average Nusselt as ks/kf increases. Also found that the critical Rayleigh depends directly on the ratio ks/kf, being larger as it also grows. Still object of this work, it has been discovered that as the porosity decreases and the ratio between thermal conductivities increases, the turbulence within cavity increases as well. In general, the results and analysis obtained by this work can be used in real engineering situations where the porous cavities may be used.",
+  "subjects": [
+    "Materiais porosos",
+    "Transferęncia de calor",
+    "Escoamento turbulento",
+    "Turbulęncia",
+    "Escoamento através de meio poroso",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "01/08/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64863",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64863&origem=BDITA"
+}

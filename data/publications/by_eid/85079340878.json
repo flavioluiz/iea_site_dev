@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-85079340878",
+  "eid": "2-s2.0-85079340878",
+  "doi": "10.1016/j.engfracmech.2020.106922",
+  "pii": "S0013794419307453",
+  "pubmed_id": null,
+  "title": "Delamination analysis using cohesive zone model: A discussion on traction-separation law and mixed-mode criteria",
+  "abstract": "© 2020 Elsevier LtdA discussion on cohesive zone model formulation for prediction of interlaminar damage in composite laminates is presented in this paper. The degradation of interlaminar mechanical properties is analysed from a physical point of view. Firstly, the damage evolution is evaluated according to the traction-separation law and it is demonstrated that if a linear elastic unloading/reloading curve is assumed, the softening function must also be linear. Secondly, issues regarding damage onset and fracture criteria in mixed-mode loading are critically addressed and commented. A new set of criteria is proposed, and the limitations of existing criteria are discussed.",
+  "authkeywords": [
+    "Cohesive zone modelling",
+    "Delamination",
+    "Finite element analysis (FEA)",
+    "Fracture mechanics",
+    "Interface fracture"
+  ],
+  "year": "2020",
+  "date": "2020-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Engineering Fracture Mechanics",
+    "issn": "00137944",
+    "eissn": null,
+    "volume": "228",
+    "issue": null,
+    "pages": null,
+    "article_number": "106922"
+  },
+  "authors": [
+    {
+      "name": "de Oliveira, Lucas Amaro",
+      "scopus_id": "57205546150",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 58,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079340878&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121651",
+    "data_quality_score": 100
+  }
+}

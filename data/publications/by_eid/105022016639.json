@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-105022016639",
+  "eid": "2-s2.0-105022016639",
+  "doi": "10.1016/j.jsv.2025.119500",
+  "pii": "S0022460X25005735",
+  "pubmed_id": null,
+  "title": "The dynamics of hanging chains and their use as vibration dampers",
+  "abstract": "© 2025 Elsevier Ltd.The dynamics of hanging chains, a topic studied since the 18th century, has relevance in contemporary engineering applications, particularly in low-frequency vibration control. This paper concerns the use of hanging chains to mitigate vibrations of a host structure. To enable predictions to be made and to identify the key parameters of the chain, four models are developed, each of which contributes to the predictions and physical insight in a different way. The first is a continuous model, which is only strictly valid at relatively low frequencies, when the length of a chain link is small compared to the wavelength at the top of the chain. The second is a finite element model considering a chain made of discrete rigid links, which is valid up to much higher frequencies. The other two models are an approximate hybrid lumped parameter/continuous model, which provides some additional physical insight, and a very simple approximate lumped parameter model, which can be used to predict the vibration attenuation effectiveness of a chain when connected to a host structure. Laboratory measurements are presented to assess the validity of the models and to demonstrate the efficacy of chains as a passive vibration control device.",
+  "authkeywords": [
+    "Damping",
+    "Hanging chains",
+    "Passive vibration control",
+    "Wave propagation"
+  ],
+  "year": "2026",
+  "date": "2026-02-05",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Sound and Vibration",
+    "issn": "0022460X",
+    "eissn": "10958568",
+    "volume": "622",
+    "issue": null,
+    "pages": null,
+    "article_number": "119500"
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, Paulo J.Paupitz",
+      "scopus_id": "55681491500",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cleante, Vinicius G.",
+      "scopus_id": "57191845058",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jr, Jean P.Carneiro",
+      "scopus_id": "60196111900",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Waters, Timothy",
+      "scopus_id": "7006405678",
+      "affiliation": "60025225",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Brennan, Michael J.",
+      "scopus_id": "7402656200",
+      "affiliation": "60006028-60025225",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105022016639&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088599",
+    "data_quality_score": 90
+  }
+}

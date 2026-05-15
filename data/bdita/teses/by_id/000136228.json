@@ -1,0 +1,30 @@
+{
+  "num_tese": "000136228",
+  "type": "tese",
+  "title": "Estudos na análise de whirl flutter",
+  "author": "Hugo Borelli Resende",
+  "year": "1987",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O whirl flutter, em se tratando de uma instabilidade que pode ocorrer durante o vôo de uma aeronave e levar a uma condiçăo de falha estrutural, deve ser devidamente estudado durante o projeto de uma aeronave moderna de modo a manter manter um nível de segurança adequada, mesmo porque o processo de homologaçăo final inclui requesitos sobre a ocorręncia do fenômeno. Assim, para uma empresa aeronáutica é essencial que exista um programa numérico acessível que permita este tipo de análise para o caso de configuraçőes as mais gerais possíveis. Este estudo visou exatamente a implementaçăo de um programa assim, tendo sido utilizado um modelo em que o motor é considerado um corpo rígido apoiado elasticamente em uma estrutura de suporte, a qual năo necessariamente é rígida. A extensăo para mais de um corpo é imediata, considerando-se, entăo, que os corpos estăo ligados elasticamente entre si. Todos os seis graus de liberdade dos centros de gravidade de cada corpo săo mantidos. Com relaçăo aos esforços aerodinâmicos, săo utilizados resultados convencionais para hélices de pás rígidas, mas procurou-se mostrar um caminho através do qual fosse possível a utilizaçăo de uma teoria de superfície de sustentaçăo para o cálculo aerodinâmico. Finalizando, foram feitas comparaçőes com resultados anteriores, além de se procurar verificar as diferenças de comportamento das fronteiras de estabilidade entre os modelos com graus de complexidade distintos, especialmente entre modelos de dois e seis graus de liberdade.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Estado năo-estacionário",
+    "Rotores rígidos",
+    "Vibraçăo aeroelástica",
+    "Estabilidade aerodinâmica",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/01/1987",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000136228",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000136228&origem=BDITA"
+}

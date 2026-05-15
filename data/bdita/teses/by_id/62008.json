@@ -1,0 +1,29 @@
+{
+  "num_tese": "62008",
+  "type": "tese",
+  "title": "Projeto e análise do controle térmico para o microssatélite universitário ITASAT-1",
+  "author": "Marcelo Petry Rodrigues",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem por foco o desenvolvimento e análise do controle térmico do primeiro micro satélite universitário brasileiro, ITASAT-1, de forma que atenda as necessidades impostas em nível de Preliminary Design Review - PDR (revisăo de analíse preliminar) do projeto, para tanto foi analisado os casos críticos previstos para o satélite em seu vôo órbital. O presente satélite faz parte do programa ITASAT, que é uma açăo conjunta do Instituto Tecnológico de Aeronáutica (ITA), Instituto Nacional de Pesquisa Espacial (INPE) e a Agencia Espacial Brasileira (AEB). Para fazer frente a tal intento foi utilizado o pacote de softwares de análise térmica da C&RTECH que é constituído pelo THERMAL DESKTOP® e pelo SINDA/FLUINT®, baseado no software AutoCAD®. Esse pacote é dedicado para análise de objetos que serăo expostos ŕs condiçőes espaciais. O software foi alimentado com os dados da configuraçăo mecânica do satélite, das condiçőes órbitais tais como, a atitude e a altitude do satélite além das cargas térmicas externas e internas a que o satélite estará sujeito. Após gerar tais entradas foi realizado a analíse dos dados de forma a concluir a viabilidade do projeto. O modelo numérico é composto por um sistema de equaçőes obtidas da Lei de Conservaçăo de Energia. Uma malha constituída por aproximadamente 1455 nós foi desenvolvida. A distribuiçăo de temperatura prevista para cada situaçăo crítica foi obtida pela soluçăo deste sistema sobre a malha desenvolvida.",
+  "subjects": [
+    "Microssatélites",
+    "Projetos",
+    "Controle de temperatura",
+    "Mecânica orbital",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "09/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62008",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62008&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000539355",
+  "type": "tese",
+  "title": "Determinaçăo de trajetórias espaciais ótimas para sistemas propulsivos a baixo empuxo utilizando o método da variaçăo segunda.",
+  "author": "Carlos Roberto Silveira Filho",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O propósito desta tese é estudar um método numérico indireto para a soluçăo de problemas de otimizaçăo de trajetórias espaciais em campo gravitacional central Newtoniano. Neste método, a resoluçăo do problema de valor de contorno em dois pontos é baseada no conceito de variaçăo segunda, motivo pelo qual ele é denominado de método da variaçăo segunda.Inicialmente, este trabalho apresenta alguns fundamentos e resultados matemáticos da Teoria de Controle Ótimo. Estes conceitos săo entăo utilizados no desenvolvimento matemático e formulaçăo do método da variaçăo segunda, incluindo sua extensăo para problemas com vínculos nas variáveis de controle e a descriçăo do algoritmo final. Este algoritmo é entăo aplicado a problemas de transferęncias espaciais ótimas entre órbitas circulares coplanares próximas, considerando dois modelos clássicos de sistemas propulsivos: sistemas a velocidade de ejeçăo constante (VEC) e empuxo limitado; e sistemas com velocidade de ejeçăo modulável e potęncia limitada (PL). De modo geral, os resultados obtidos para os problemas săo muito bons. Para o sistema PL, há grande concordância deles com resultados analíticos, provenientes de uma teoria linear, e numéricos, obtidos através de outros métodos. Para o sistema VEC, os resultados estăo em acordo com a teoria de transferęncias orbitais ótimas e verifica-se que as duas formulaçőes utilizadas, linearizada e năo-linearizada, fornecem resultados bastante próximos, para problemas de transferęncia entre órbitas próximas.",
+  "subjects": [
+    "Controle óptimo",
+    "Otimizaçăo de trajetória",
+    "Mecânica orbital",
+    "Análise numérica",
+    "Princípio de Pontryagin",
+    "Cálculo das variaçőes",
+    "Sistemas de propulsăo",
+    "Aerodinâmica",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "27/06/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000539355",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000539355&origem=BDITA"
+}

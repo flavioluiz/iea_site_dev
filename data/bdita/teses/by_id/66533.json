@@ -1,0 +1,30 @@
+{
+  "num_tese": "66533",
+  "type": "tese",
+  "title": "Training artificial neural networks to predict aerodynamic coefficients of airliner wing-fuselage configurations",
+  "author": "Ney Rafael Sęcco",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Multi-disciplinary Design Optimization highly demands computational resources, therefore it is important to develop design tools with low computational cost without compromising the fidelity of the model. The main goal of this work was to establish a methodology of training artificial neural networks for specific purposes of aircraft aerodynamic design, in order to substitute a computational fluid dynamics software in an optimization framework. This neural network would predict the lift and drag coefficients for an airliner';s wing-fuselage configuration based on its planform, airfoil, and flight condition parameters. This work also aimed to find the structure and the size of the network that best suits this problem, setting up references for future works. The aerodynamic database required for the neural network training was generated with a full-potential multiblock code. The training used the back propagation algorithm, the scaled conjugate gradient algorithm, and the Nguyen-Widrow weight initialization. Networks with different numbers of neurons were evaluated in order to minimize the regression error. The optimum networks reduced the computation time for the calculations of the aerodynamic coefficients in 4000 times when compared with the full-potential code. The average absolute errors obtained were of 0.004 and 0.0005 for lift and drag coefficients, respectively. We also propose an adapted version of the back propagation algorithm that allows the computation of gradients for optimization tasks using the artificial neural networks.",
+  "subjects": [
+    "Fuselagens",
+    "Otimizaçăo",
+    "Coeficientes aerodinâmicos",
+    "Dinâmica dos fluidos computacional",
+    "Estruturas de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "03/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66533",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66533&origem=BDITA"
+}

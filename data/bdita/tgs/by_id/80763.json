@@ -1,0 +1,28 @@
+{
+  "num_tg": "80763",
+  "type": "tg",
+  "title": "Uso de LLMs para análise de riscos em projetos aeroespaciais através de um método híbrido Delphi-DEMATEL",
+  "author": "Joăo Pedro Couto Vieira",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Moacyr Machado Cardoso Junior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A análise probabilística de riscos em projetos aeroespaciais pode ser realizada pela instanciaçăo de cenários com a utilizaçăo de redes bayesianas de crenças (BBNs). Contudo, a construçăo dessas redes demanda conhecimento técnico especializado e processos extensivos de elicitaçăo de conhecimento de especialistas humanos, criando gargalos de tempo e custo. Este trabalho avaliou a viabilidade do uso de Large Language Models na automatizaçăo da construçăo de topologias de Redes Bayesianas para análise de riscos aeroespaciais, utilizando o método DEMATEL integrado a um processo Delphi adaptado. Foi desenvolvida uma metodologia que permite ao modelo de linguagem identificar fatores de risco relevantes no contexto de propulsăo híbrida, propor relaçőes causais fundamentadas e estruturar essas informaçőes em grafos adequados para conversăo em Redes Bayesianas. A metodologia foi validada através de comparaçăo com avaliaçőes de especialistas humanos em sistemas de propulsăo aeroespacial. A análise comparativa revelou que o modelo demonstra maior densidade de conexőes causais e viés sistemático em favor de fatores organizacionais, enquanto os especialistas humanos apresentaram influęncia de fadiga cognitiva no processo de avaliaçăo. Foi implementado um processo Delphi assistido por inteligęncia artificial que se mostrou eficaz na auditoria e refinamento das proposiçőes do modelo, permitindo convergęncia em múltiplas rodadas iterativas. As principais contribuiçőes incluem a integraçăo pioneira do método DEMATEL com modelos de linguagem para automaçăo de análises de risco, a proposta de um processo Delphi assistido por inteligęncia artificial, e a geraçăo de metodologia genérica aplicável a diferentes sistemas aeroespaciais. Os resultados demonstram que a integraçăo preserva rigor técnico enquanto aborda desafios de escalabilidade, sugerindo que o futuro da análise de riscos residirá na criaçăo de arcabouços híbridos que ampliam capacidades humanas através de inteligęncia artificial, oferecendo democratizaçăo de ferramentas sofisticadas de análise de risco em contextos com recursos limitados.",
+  "subjects": [
+    "Redes bayesianas",
+    "Avaliaçăo de riscos",
+    "Sistemas aeroespaciais",
+    "Gerenciamento de riscos",
+    "Inteligęncia artificial",
+    "Probabilidade",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80763",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80763&origem=BDITA"
+}

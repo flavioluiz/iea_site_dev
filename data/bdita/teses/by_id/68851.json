@@ -1,0 +1,29 @@
+{
+  "num_tese": "68851",
+  "type": "tese",
+  "title": "CFD analysis in spray combustion using a pressure swirl injector",
+  "author": "Saulo Alfredo Gómez Salcedo",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The object of this work is to apply CFD simulation in the description of the spray burning. As a case study, a pressure swirl injector, characterized and tested by NIST, has been chosen, which atomize liquid kerosene in an atmosphere of gaseous oxygen. The chamber dimensions allow a complete evaporation, avoiding the impact of drops on the circular wall. Swirl-axisymmetric domain and steady state permit to include combustion, a complex process, without requiring of high computational resources. Continuous phase is treated with an Eulerian reference, while fuel drops are tracked following the Lagrangian formulation. Chemical kinetics is reduced to the concept of mixture fraction. This assumption avoids the solution of too many transport equations for all involved species. In the first simulation, the inlet boundary of the continuous phase is obtained from the numerical solution of a fully developed flow transporting the oxidant gas. Then, four cases are proposed and solved, changing the turbulence intensity and swirl velocity on the inlet boundary, each parameter with two different values. Finally, results for the axial velocity, streamlines, drops trajectories, temperature, distribution and total production of selected species are analyzed and compared with other related studies.",
+  "subjects": [
+    "Pulverizadores",
+    "Injetores",
+    "Dinâmica dos fluidos computacional",
+    "Cinética das reaçőes",
+    "Engenharia química",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "17/08/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68851",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68851&origem=BDITA"
+}

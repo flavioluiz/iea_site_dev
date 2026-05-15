@@ -1,0 +1,36 @@
+{
+  "num_tg": "61645",
+  "type": "tg",
+  "title": "Análise de propagaçăo de trincas em materiais híbridos",
+  "author": "Francisco Ailton Silva de Oliveira",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Carlos Miguel Montestruque Vilchez",
+      "professor_slug": null
+    },
+    {
+      "name": "Alberto Walter da Silva Mello Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Daniel Ferreira Vieira de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Material Híbrido, usualmente chamado FML(do inglęs, Fiber Metal Laminates), consiste na superposiçăo de camadas de metal e fibras combinadas em diferentes direçőes. Possuindo densidade inferior ao alumínio puro e uma maior resistęncia ŕ fadiga, os materiais híbridos vęm sendo utilizados em aeronaves de grande porte tais como A380 da Airbus e 787 Dreamliner da Boeing. Em nível microscópico, todo material apresenta discordâncias em sua composiçăo que, submetidas a carregamentos cíclicos, podem gerar a nucleaçăo de uma trinca. Essas trincas se propagam reduzindo a área remanescente da estrutura e, portanto, sua resistęncia aos esforços. Este efeito pode ocasionar a falha por sessăo residual (net section). Sob carregamentos cíclicos, diferentemente da falha por tenacidade ŕ fratura (KIc), uma estrutura está sujeita a ocorręncia de uma falha por sessăo residual para uma solicitaçăo de carga abaixo do limite de resistęncia dos seus materiais. Com isso, mesmo que o carregamento cíclico sobre o componente seja inferior ŕ sua resistęncia mecânica estática, a reduçăo da área remanescente é suficiente para causar a ruptura. Os materiais híbridos apresentam vantagem significativa sobre as estruturas metálicas, uma vez que a reduçăo da área remanescente é menor nesses materiais. Isso ocorre porque as fibras impedem a propagaçăo das trincas, que se desenvolvem atingindo a porçăo metálica e a porçăo do adesivo através da delaminaçăo, de maneira que toda a carga passe a ser suportada somente pelas lâminas de fibra. Sendo o Brasil possuidor de aeronaves com estrutura híbrida e tendo em vista que os modelos numéricos e o comportamentos destes materiais em termos de vida em fadiga é algo ainda năo consolidado no país, é de extrema importância o aprofundamento no estudo dessa tecnologia. Assim, levando em conta a importância de agregar conhecimento acerca deste assunto, este estudo tem por objetivo, năo apenas analisar a implementaçăo destes materiais em projetos estruturais de aeronaves, como também, explorar a viabilidade de o mesmo ser utilizado em reparos e manutençőes aeronáuticas. Para isso, este trabalho construirá dois modelos teóricos, um analítico e outro numérico. O modelo analítico reproduzirá quantitativamente a propagaçăo de trinca e a delaminaçăo em FML de forma a comparar e avaliar os resultados obtidos com base nas hipóteses assumidas. Além disso, este modelo permitirá a comparaçăo com a resistęncia ŕ fratura de estruturas totalmente metálicas. O modelo numérico em elementos finitos simulará a delaminaçăo em um modelo com trinca totalmente propagada.",
+  "subjects": [
+    "Propagaçăo de trincas",
+    "Laminados",
+    "Delaminaçăo",
+    "Resistęncia ŕ fratura",
+    "Fadiga (materiais)",
+    "Estruturas de aeronaves",
+    "Engenharia de materiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61645",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61645&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "68143",
+  "type": "tese",
+  "title": "Análise numérica da recuperaçăo de pressăo estática em difusores de seçăo anular",
+  "author": "Meiriele Abreu Alvarenga",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O difusor de seçăo anular é frequentemente empregado em turbinas a gás de motores aeronáuticos, dada sua característica de alcançar elevada pressăo em espaço físico limitado. Guias e normas que auxiliem no projeto otimizado desse tipo de difusor năo contemplam as diversas condiçőes de contorno e regimes de escoamento nos quais o dispositivo pode operar. Para tanto, técnicas de modelagem numérica tęm sido aplicadas para predizer o comportamento do escoamento nesse dispositivo e o seu desempenho. Este trabalho propőe a aplicaçăo de ferramenta CFD (Dinâmica dos Fluidos Computacional) para análise dos efeitos no desempenho do difusor tipo anular de núcleo paralelo devido ŕs variaçőes do seu ângulo de divergęncia e dos números de Reynolds e de Mach do escoamento. O programa FLUENT 13.0 é utilizado para execuçăo das simulaçőes de escoamentos em regimes incompressível e compressível, empregando-se o modelo de turbulęncia - realizável e tratamento de parede melhorado. As equaçőes de conservaçăo de massa, de quantidade de movimento e de energia săo resolvidas pelo emprego do Método dos Volumes Finitos (MVF). Adotou-se a formulaçăo bidimensional axissimétrica para o domínio computacional, assim como as hipóteses de escoamento de ar turbulento, subsônico, em regime permanente, ausęncia de swirl e açăo gravitacional desprezível. Nas simulaçőes de escoamento incompressível, as propriedades do ar săo constantes e condiçăo de contorno de velocidade é atribuída na entrada do domínio. Em regime compressível, o fluido é tratado como gás ideal e condiçăo de vazăo mássica e temperatura total săo impostas na entrada. Na saída da geometria é especificada condiçăo da atmosfera padrăo. As paredes săo tratadas como adiabáticas, năo-deslizantes e năo-rugosas. Estudo de refinamento de malha é realizado para garantir a independęncia da malha nos resultados. O método numérico é validado pela comparaçăo dos resultados obtidos para o coeficiente de recuperaçăo de pressăo estática ( ) com dados de estudos experimentais disponíveis na literatura. Os resultados săo apresentados para os difusores com ângulos de divergęncia de , e . Dos resultados, percebe-se que as recirculaçőes se acentuam com o aumento do ângulo e que o fenômeno de separaçăo de escoamento pode ocorrer de forma cada vez mais precoce, seguido de perda acentuada de pressăo estática. Além disso, variaçőes nas propriedades do fluido próximo ŕ parede do difusor, quando sujeito a escoamento compressível, contribuem com o melhor desempenho do mesmo se comparado aos resultados do difusor sob regime incompressível.",
+  "subjects": [
+    "Difusores",
+    "Recuperaçăo da pressăo",
+    "Pressăo estática",
+    "Análise numérica",
+    "Escoamento turbulento",
+    "Escoamento axissimétrico",
+    "Coeficientes de escoamento",
+    "Escoamento compressível",
+    "Escoamento incompressível",
+    "Mecânica dos fluidos",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "17/03/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68143",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68143&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "79269",
+  "type": "tese",
+  "title": "Modelagem matemática e computacional de problemas térmicos conjugados usando CUDA",
+  "author": "César Augusto Borges da Silva Reis",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A transferęncia de calor conjugada desempenha um papel crucial em diversas aplicaçőes de engenharia, como o gerenciamento térmico de dispositivos eletrônicos, escudos térmicos aerospaciais e sistemas de energia. Compreender e prever com precisăo os fenômenos de transferęncia de calor em sistemas complexos requer técnicas computacionais avançadas que possam lidar com as complexidades do acoplamento entre o escoamento de fluidos e a conduçăo de calor. As Unidades Gráficas de Processamento (UGP) e a linguagem de programaçăo CUDA-C, onde CUDA significa Compute Unified Device Architecture e entăo CUDA-C é a linguagem C com bibliotecas desenvolvida para CUDA, atęm se mostrado ferramentas poderosas para acelerar simulaçőes científicas, oferecendo melhorias significativas em eficięncia computacional e reduçăo do tempo de simulaçăo. Esta dissertaçăo explora a utiliza ?c ?ao de UGPs e da linguagem de programaçăo CUDA-C para resolver problemas de transferęncia de calor conjugada. Tręs cenários distintos de transferęncia de calor săo investigados: a cavidade acionada por tampa, cavidade quadrada com convecçăo natural e cavidade quadrada com um quadrado sólido embutido no centro. Esses problemas săo resolvidos usando métodos numéricos e paralelizados usando técnicas de computaçăo em UGP para aprimorar a eficięncia computacional e reduzir o tempo de simulaçăo. O problema da cavidade acionada por tampa envolve o fluxo de um fluido dentro de uma cavidade quadrada, onde um dos lados est ?a sujeito a uma condiçăo de fronteira de velocidade constante. Na cavidade quadrada com convecçăo natural, o estudo se concentra nos fenômenos de transferęncia de calor ocorrendo devido ao movimento do fluido impulsionado pela variaçăo de densidade. Os efeitos da flutuabilidade induzem correntes convectivas dentro da cavidade, influenciando a distribuiçăo de temperatura. A cavidade quadrada com um quadrado sólido no centro representa um problema de transferęncia de calor conjugada mais complexo. A presença do quadrado sólido influencia os padrőes de fluxo e a distribuiçăo de temperatura dentro da cavidade. Através da utilizaçăo de UGPs e da programaçăo CUDA-C, a eficięncia computacional na resoluçăo de problemas de transferęncia de calor conjugada é significativamente aprimorada. Os resultados obtidos nas simulaçőes fornecem insights valiosos sobre as características de transferęncia de calor, facilitando a otimizaçăo de sistemas de gerenciamento térmico e o projeto de trocadores de calor mais eficientes.",
+  "subjects": [
+    "Análise térmica",
+    "Transferęncia de calor",
+    "Escoamento de fluidos",
+    "Modelo numérico",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "12/06/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79269",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79269&origem=BDITA"
+}

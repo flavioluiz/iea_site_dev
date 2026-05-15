@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-1842713021",
+  "eid": "2-s2.0-1842713021",
+  "doi": "10.1115/1.1413243",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Recent mathematical models for turbulent flow in saturated rigid porous media",
+  "abstract": "Turbulence models proposed for flow through permeable structures depend on the order of application of time and volume average operators. Two developed methodologies, following the two orders of integration, lead to different governing equations for the statistical quantities. The flow turbulence kinetic energy resulting in each case is different. This paper reviews recently published mathematical models developed for such flows. The concept of double decomposition is discussed and models are classified in terms of the order of application of time and volume averaging operators, among other peculiarities. A total of four major classes of models are identified and a general discussion on their main characteristics is carried out. Proposed equations for turbulence kinetic energy following time-space and space-time integration sequences are derived and similar terms are compared. Treatment of the drag coefficient and closure of the interfacial surface integrals are discussed. © 2001 by ASME.",
+  "authkeywords": null,
+  "year": "2001",
+  "date": "2001-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids Engineering Transactions of the ASME",
+    "issn": "00982202",
+    "eissn": "1528901X",
+    "volume": "123",
+    "issue": "4",
+    "pages": "935-940",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Pedras, Marcos H.J.",
+      "scopus_id": "7006693230",
+      "affiliation": "60012642",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 115,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 49,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=1842713021&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111850",
+    "data_quality_score": 90
+  }
+}

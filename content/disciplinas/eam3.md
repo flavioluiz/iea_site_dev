@@ -1,6 +1,6 @@
 ---
-title: "EAM-3: Materiais, Manufatura e Automação"
-description: "Disciplinas da área de concentração em Materiais, Manufatura e Automação"
+title: "Materiais, Manufatura e Automação"
+description: "Disciplinas da Materiais, Manufatura e Automação"
 ---
 
 Esta área engloba materiais avançados (polímeros, metais, cerâmicas), processos de fabricação e química aplicada.

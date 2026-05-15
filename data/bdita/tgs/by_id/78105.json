@@ -1,0 +1,30 @@
+{
+  "num_tg": "78105",
+  "type": "tg",
+  "title": "Estruturaçăo de uma arquitetura de simulaçăo distribuída para sistemas aeroespaciais",
+  "author": "Pedro Elardenberg Sousa e Souza",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Daniel Lélis Baggio",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Missőes espaciais, devido a sua alta precisăo requerida em parâmetros orbitais e de lançamento, bem como seu alto custo operacional, requerem simulaçőes para que sejam feitas verificaçőes, validaçőes e que sejam previstas algumas rotinas de operaçőes. Tais missőes, no entanto, possuem agentes que se comunicam com agentes de outras missőes, de modo que uma única simulaçăo năo abarca toda a complexidade e escalabilidade de um ambiente complexo. Neste trabalho, foi proposta a utilizaçăo de um software de simulaçăo de cenários no qual foi utilizada uma infraestrutura baseada em High Level Architecture (HLA) de modo a integrar sistemas de simulaçăo de aplicaçőes aeroespaciais. Para isso, foi desenvolvido um software de simulaçăo que se comunica com o primeiro, enviando e recebendo sinais de veículos espaciais representados no cenário, de modo a demonstrar a viabilidade desta arquitetura de simulaçăo distribuída.",
+  "subjects": [
+    "Sistemas aeroespaciais",
+    "Simuladores espaciais",
+    "Missőes espaciais",
+    "Arquitetura (computadores)",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78105",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78105&origem=BDITA"
+}

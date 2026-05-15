@@ -1,0 +1,30 @@
+{
+  "num_tese": "000542328",
+  "type": "tese",
+  "title": "Análise dinâmica de transmissăo por engrenagem.",
+  "author": "Roman Savonov",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é estudar a influencia de rigidez de dentes em contato de um par de engrenagens na resposta dinâmica do sistema. Este contato chama-se contato de Hertz e ocorre no contato de dois sólidos um deles com superfície curva de contato, por exemplo, duas esferas ou dois cilindros, ou pode ser a combinaçăo de uma superfície plana com uma superfície esférica ou cilíndrica. No caso do contato de dois dentes, as superfícies săo cilíndricas, o raio de curvatura de cada dente năo é permanente e sofre alteraçăo em cada ponto do perfil, e está descrito pela funçăo de uma curva evolvente. Para deduçăo da curva de torque aplicado versus deslocamento angular q foi utilizado software de análise de Elementos Finitos \"FEMAP 8.3\". O modelo mecânico está representado por dois eixos flexíveis acoplados por um par de engrenagens. Cada eixo tem dois apoios. Para resolver o problema dinâmico dos eixos acoplados por engrenagens, foi utilizado também o Método de Elementos Finitos. Cada eixo foi dividido em cinco elementos unidimensionais. Os elementos finitos utilizados possuem dois nós com cinco graus de liberdade por nó. As equaçőes de movimento foram obtidas a partir das Equaçőes de Lagrange, e descrevem o movimento em dois planos ortogonais e rotaçăo ao longo dos eixos de engrenagens. As matrizes de massa e de rigidez, cálculos, a aplicaçăo do método de Newmark para soluçăo das equaçőes diferencias, e, simulaçăo da resposta do eixo, foram obtidos com utilizaçăo do software \"Mathematica 5.1\".",
+  "subjects": [
+    "Análise numérica",
+    "Engrenagens",
+    "Método de elementos finitos",
+    "Eixos (elementos de máquina)",
+    "Sistemas năo-lineares",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "02/06/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542328",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542328&origem=BDITA"
+}

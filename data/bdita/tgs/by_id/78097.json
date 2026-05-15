@@ -1,0 +1,24 @@
+{
+  "num_tg": "78097",
+  "type": "tg",
+  "title": "Estudo ab initio da absorçăo óptica de perovskitas para aplicaçőes fotovoltaicas em ambiente terrestre e espacial",
+  "author": "Gabriel de Paula Almeida",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Ivan Guilhon Mitoso Rocha",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A busca por fontes renováveis de energia tem se destacado como pauta de extrema relevância no cenário atual. Neste contexto, a energia solar é a grande promessa na obtençăo de energia limpa e sustentável, embora atualmente os produtos disponíveis sejam caros e pouco acessíveis. Dentre estes produtos, o principal săo os painéis solares, que baseiam-se no efeito fotovoltaico para geraçăo de corrente a partir de estímulos luminosos. Para tanto, săo utilizados semicondutores capazes de capturar a energia dos fótons incidentes, desde que possuam energia superior ao gap de energia destes materiais. Comercialmente, o principal material utilizado 'e o silício, embora a eficięncia na conversăo energética seja ainda inferior a 10% (VILLALVA; GAZOLI, 2012). Por esta razăo, extensiva pesquisa tem sido feita com o intuito de desenvolver tecnologias capazes de aumentar a eficięncia de conversăo energética. Desta busca, emergem as perovskitas, descobertas em 1839 pelo russo Gustav Rose e com estrutura típica ABX3, onde A e B săo cátions de diferentes tamanhos e X um íon óxido ou íons haletos. Com propriedades ópticas favoráveis, as células solares baseadas em perovskitas tęm se destacado como uma tecnologia promissora na consolidaçăo do uso de energia solar com elevada eficięncia, apresentando eficięncia de absorçăo energética da ordem de 25% (NREL, 2020a) na organizaçăo mais simples de célula solar. No entanto, muito ainda precisa ser feito para que a tecnologia atinja o nível comercial, sobretudo no que se refere ŕ estabilidade do cristal. No âmbito da pesquisa, as simulaçőes dos cristais de perovskita trazem, também, desafios importantes. As simulaçőes necessitam, invariavelmente, de correçőes de quasi-partícula, o que 'e feito neste trabalho utilizando implementaçőes do software VASP (KRESSE; FURTHMULLER ¨ , 1999). Além disso, considerando as perovskitas estudas, a prevençăo de um elemento tăo pesado quanto o chumbo torna necessária a consideraçăo de acoplamento spin-órbita, de forma que a estrutura de bandas seja corretamente simulada, fornecendo valor coerente de gap. Por fim, este trabalho busca desenvolver uma métrica de eficięncia na conversăo energética de células solares. Desta forma, 'e possível levantar este parâmetro de eficięncia com base nas propriedades ópticas fornecidas via cálculo ab initio, tornando a busca pelo material mais eficiente ainda mais pragmática. Para isso, considera-se o espectro AM1.5 G-173, fornecido pelo National Laboratory of Renewable Energy (NREL), e padronizado pela American Society for Testing and Materials (ASTM) no estudo do espectro solar. Tendo em vista a aplicaçăo destes materiais em painéis solares de satélites no ambiente espacial, o que já vem sendo pesquisado por agęncias espaciais como a NASA, a métrica de eficięncia 'e obtida considerando, também, o espectro de emissăo de corpo negro, que representa o espectro solar antes dos filtros da atmosfera terrestre.",
+  "subjects": [
+    "Células solares",
+    "Fontes alternativas de energia",
+    "Energia solar",
+    "Satélites artificiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78097",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78097&origem=BDITA"
+}

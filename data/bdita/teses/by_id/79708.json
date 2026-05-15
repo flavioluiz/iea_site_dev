@@ -1,0 +1,34 @@
+{
+  "num_tese": "79708",
+  "type": "tese",
+  "title": "Comparison of constrained optimisation methods for aerostructural design",
+  "author": "Thorben Fabian Koch",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Arne Van Garrel",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In the pursuit of sustainable aviation, the demand for highly efficient and environmentally friendly aircraft takes precedence. This imperative brings to light the complexities of aerostructural coupling, underscoring the necessity for Multidisciplinary Design Optimisation (MDO) and gradient-based optimisation techniques. Central to aerostructural optimisation is the intricate problem of managing numerous inequality constraints, such as structural stresses, which traditional optimisation methods often struggle to handle efficiently. The current methods, such as using max functions, the Kreisselmeier-Steinhauser (KS) function, and compliance approaches, encounter challenges in efficiently managing the constraints as the number of constraint functions increases. This thesis explores the potential of the Augmented Lagrangian method (ALM) to transcend these limitations by offering a more effective approach to managing inequality constraints. This thesis explores aerostructural optimisation through a comprehensive study that employs a finite element model for structural analysis and an adaptation of Prandtl's lifting line theory for aerodynamics. Central to this investigation is the comparison of the ALM approach with both a non-aggregating optimisation approach, which directly handles all inequality constraints, and an aggregating approach that employs a KS function to consolidate these constraints. Focusing on a model of the Helios Pathfinder Plus aircraft, the study highlights the effectiveness of the ALM, particularly in the context of derivative calculation via the adjoint method. This contrasts with the complexities and computational demands associated with the non-aggregating optimisation approach, especially in handling complex structural models. The aggregating approach, while time-efficient, does not achieve the same level of accuracy and computational efficiency as the ALM. In highly discretised structural weight optimisations, the ALM significantly outperforms competing approaches, achieving speeds nearly twice as fast as the aggregating approach and ten times faster than the non-aggregating approach. Moreover, in the context of highly complex aerostructural optimisations, where both the non-aggregating and aggregating approaches struggled to achieve convergence, the ALM consistently demonstrated robust and reliable convergence behavior. The research underscores the significance the fine-tuning of ALM parameters to balance exploration of the optimisation landscape and the pursuit of feasible solutions. Overly conservative parameter settings may lead the ALM algorithm to suboptimal solutions by prioritising rapid feasibility over thorough exploration.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Método de elementos finitos",
+    "Análise estrutural",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/03/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79708",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79708&origem=BDITA"
+}

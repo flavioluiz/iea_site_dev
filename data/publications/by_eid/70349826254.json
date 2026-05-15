@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-70349826254",
+  "eid": "2-s2.0-70349826254",
+  "doi": "10.1016/j.compstruct.2009.08.017",
+  "pii": "S0263822309002931",
+  "pubmed_id": null,
+  "title": "Sensitivity analysis of frequency response functions of composite sandwich plates containing viscoelastic layers",
+  "abstract": "In the scope of structural dynamics, sensitivity analysis is a very useful tool in a number of numerical procedures such as parameter identification, model updating, optimal design and uncertainty propagation. In this paper the formulation of first-order sensitivity analysis of complex frequency response functions (FRFs) is developed for composite sandwich plates composed by a combination of fiber-reinforced and elastomeric viscoelastic layers, in arrangements that are frequently used for the purpose of noise and vibration attenuation. Although sensitivity analysis is a well known numerical technique, the main contribution intended for this study is its extension to viscoelastic structures, which are characterized by frequency- and temperature-dependent material properties and, thus, require particularly adapted analytical and numerical procedures. Due to the fact that finite element discretization has become the most used method for dynamic analysis of complex structures, the sensitivity analysis addressed herein is based on such models, being computed from the analytical derivatives of the FRFs with respect to a set of design parameters, such as fiber orientations and layer thicknesses. Also, a procedure for evaluating the sensitivity of the FRFs with respect to temperature of the viscoelastic material is suggested. After discussion of various theoretical aspects, including a parameterization scheme of the structural matrices with respect to the design variables, first-order response derivatives are calculated for a composite plate with inherent structural damping, and for a composite sandwich plate with a viscoelastic core. The results are compared to those obtained from first-order finite-difference approximations. © 2009 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Composite materials",
+    "Finite elements",
+    "Sensitivity analysis",
+    "Viscoelastic damping"
+  ],
+  "year": "2010",
+  "date": "2010-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "92",
+    "issue": "2",
+    "pages": "364-376",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Lima, A. M.G.de",
+      "scopus_id": "14047980400",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Faria, A. W.",
+      "scopus_id": "56549605600",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 48,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=70349826254&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089323",
+    "data_quality_score": 100
+  }
+}

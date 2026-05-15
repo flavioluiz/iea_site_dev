@@ -4,22 +4,19 @@
 {{ $profId := $prof.id }}
 
 <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200">
-  <a href="/{{ $page.Language.Lang }}/docentes/{{ $profId }}/" class="block">
+  <a href="/{{ $page.Language.Lang }}/pessoal/{{ $profId }}/" class="block">
     {{/* Photo Section */}}
     <div class="relative bg-gradient-to-br from-gray-100 to-gray-200 aspect-square">
-      {{ $photoPath := printf "/images/professores/%s" $prof.foto }}
+      {{ $photoPath := printf "/images/pessoal/%s" $prof.foto }}
       {{ if (fileExists (printf "static%s" $photoPath)) }}
         <img src="{{ $photoPath }}"
              alt="{{ $prof.nome }}"
-             class="w-full h-full object-cover">
+             class="w-full h-full object-cover object-top">
       {{ else }}
         {{/* Placeholder with initials */}}
-        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br
-                    {{ if eq $prof.area "eam1" }}from-blue-500 to-blue-700
-                    {{ else if eq $prof.area "eam2" }}from-red-500 to-red-700
-                    {{ else }}from-green-500 to-green-700{{ end }}">
+        <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700">
           <span class="text-white text-6xl font-bold">
-            {{ substr $prof.nome_destaque 0 1 }}
+            {{ substr $prof.nome 0 1 }}
           </span>
         </div>
       {{ end }}

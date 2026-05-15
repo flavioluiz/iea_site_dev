@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-85060461708",
+  "eid": "2-s2.0-85060461708",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Identification of the lateral-directional model of the Vector-P, unmanned aerial vehicle",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.The present work describes the system identification process of the lateral-directional stability derivatives of an Unmanned Aerial System (UAS) [1]. The Maneuver, Model, Method, Measures and Validation (M4V) [2], is a well known in-flight identification methodology that was applied to the VECTOR-P UAS. The maneuvers adopted to excite the lateral modes of the system were evaluated with the energy spectral density (ESD). The data was acquired during flight tests by the data acquisition system specifically developed to the Vector-P. Finally, the validation of the identified parameters was performed using statistical methods.",
+  "authkeywords": [
+    "OEM",
+    "System Identification",
+    "UAS"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fischer, Clécio",
+      "scopus_id": "57201471456",
+      "affiliation": "60112684",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nepomuceno, Leonardo Murilo",
+      "scopus_id": "6603258470",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060461708&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067186",
+    "data_quality_score": 80
+  }
+}

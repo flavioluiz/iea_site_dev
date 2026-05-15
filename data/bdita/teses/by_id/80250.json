@@ -1,0 +1,32 @@
+{
+  "num_tese": "80250",
+  "type": "tese",
+  "title": "Resistance welding process modeling for thermoplastic composite aerostructures",
+  "author": "Daniel Bernardes de Castro",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "abstract": "Thermoplastic carbon fiber composites offer advantages over thermoset composites, including recyclability, wear and impact resistance, repairability, and weldability. The challenge of working with high melting point thermoplastics and complex geometries drives the need for joining techniques. Welding is advantageous because it can achieve bond performance similar to the original materials, facilitating reprocessing and recycling. While many studies rely on costly experimental testing, the development of reliable numerical models is essential for wider application and certification purposes. This study presents two numerical modeling approaches for resistance welding of thermoplastic composites. The first approach, referred to as the theoretical-based, began with a one-dimensional temperature distribution at the joint interface, derived from the transient heat transfer equation, and was expanded into a three-dimensional model using transient heat transfer analysis in Abaqus finite element software. However, this approach has not been experimentally validated. The bond strength was evaluated using a bonding model that incorporates intimate contact and autohesion, with material properties and processing parameters obtained from the literature. Eight different modeling conditions were investigated under the one-dimensional assumption, and the results exhibited variability, highlighting the need for further development of new modeling approaches. In the second approach, referred to as the experimental-based, validation experiments were conducted using measured temperature-dependent properties, which provided an updated thermal dataset for the scientific community. The thermal model, validated with an APC-2 joint containing 10 embedded thermocouples through its thickness, demonstrated a good fit with the experimental values. This approach considered the degree of melting as a governing parameter in establishing bond strength during the resistance welding process. Single lap shear joints made from three types of materials-APC-2, TC1200, and TC1225-were welded under two conditions: weak and strong. Samples were tested, and the lap shear strength was evaluated according to ASTM-D5868, using optical microscopy and fracture surface fractography. The bonded area showed a reasonable correlation with the model. It has proven effective for conducting cost-effective parametric studies, aiding in the selection of processing parameters, and serving as a valuable tool for predicting bond quality while enhancing the understanding of the thermophysics underlying the welding technique.",
+  "subjects": [
+    "Termoplásticos",
+    "Materiais compósitos",
+    "Soldagem por resistęncia",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80250",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80250&origem=BDITA"
+}

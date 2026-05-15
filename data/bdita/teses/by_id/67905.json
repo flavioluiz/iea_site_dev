@@ -1,0 +1,29 @@
+{
+  "num_tese": "67905",
+  "type": "tese",
+  "title": "Metodologia de projeto uma pá de gerador eólico por meio do método dos painéis e a teoria do momentum do elemento de pá",
+  "author": "Felipe José Vinaud",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A demanda por energia elétrica nos últimos anos tem crescido a ritmos constantes. Países em desenvolvimento como a China e a Índia estăo apresentando taxas de aumento de consumo de energia elétrica na faixa de 5% a 5,5% anuais, o que faz com que parte deste aumento de consumo seja fornecida através de uma geraçăo com menor emissăo de carbono. A energia eólica, por sua vez, é uma das formas de geraçăo que apresenta um dos preços mais altos da energia. Por outro lado, diversos outros desafios se apresentam para que a energia eólica seja utilizada em larga escala e a sua implantaçăo exige altos níveis de cooperaçăo com entidades de proteçăo do meio-ambiente e governos locais de modo que sua operaçăo seja rentável. O método da quantidade de movimento do elemento de pá (Blade Element Momentum Theory) se baseia no fato de que a variaçăo da quantidade de movimento imposta a um anel do rotor é igual ŕ força que o vento exerce sobre este elemento de pá. Esta aproximaçăo simples, inicialmente concebida por Prandtl e Glauert, deve ser corrigida para diversos fenômenos, como as perdas originadas por arrasto induzido na ponta da pá, a rotaçăo da esteira, o ângulo de inclinaçăo entre o rotor e o vento incidente e demais fatores. Apesar dessas desvantagens, este trabalho mostra que o método do momentum do elemento de pá é uma boa forma de se obter mais rapidamente estimativas que levariam muito tempo de ser avaliadas caso fossem obtidas em um programa computacional comercial de mecânica dos fluidos. O objetivo deste trabalho é a análise e a seleçăo de uma pá eólica ótima, em estágio de projeto preliminar, utilizando o método do momentum do elemento de pá na sua forma em uma equaçăo. Para tal, foram utilizadas rotinas computacionais menos onerosas que os tradicionais métodos de dinâmica dos fluidos computacional. O tipo de rotina numérica que mais se adequa ŕ geraçăo de parâmetros aerodinâmicos de um perfil é o método dos painéis. O método dos painéis e o método da quantidade de movimento do elemento de pá foram utilizados para se obter maiores coeficientes de potęncia (o coeficiente de potęncia CP é a relaçăo entre a energia extraída do fluido e a energia disponível do fluido que passa por um rotor de turbina) de uma pá em um regime de operaçăo pré-determinado.",
+  "subjects": [
+    "Energia éolica",
+    "Turbinas eólicas",
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Pás de rotores",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/02/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67905",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67905&origem=BDITA"
+}

@@ -1,6 +1,6 @@
 ---
-title: "EAM-2: Propulsão Aeroespacial e Energia"
-description: "Disciplinas da área de concentração em Propulsão Aeroespacial e Energia"
+title: "Propulsão Aeroespacial e Energia"
+description: "Disciplinas da Propulsão Aeroespacial e Energia"
 ---
 
 Esta área foca em propulsão, combustão, mecânica dos fluidos e sistemas térmicos.

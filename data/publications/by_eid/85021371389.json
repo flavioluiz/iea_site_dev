@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-85021371389",
+  "eid": "2-s2.0-85021371389",
+  "doi": "10.1145/3068796.3068815",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A low-cost vision based air hockey system",
+  "abstract": "© 2017 Association for Computing Machinery.Air Hockey is a sport practiced in a table with low friction. Two players competing against each other holding paddles that are used to hit a puck with the objective of getting scores every time the puck enters the opponent's goal. This paper covers the development of low-cost vision based air hockey system capable of playing a match of Air Hockey against a human player. The system is composed by a robot, a camera and an Arduino MEGA board. The efficiency of the robot is presented in the final experiment, which justifies the possibility of using the system as a training environment for professional players.",
+  "authkeywords": [
+    "Air hockey",
+    "Servo robot",
+    "Training system",
+    "Vision system"
+  ],
+  "year": "2017",
+  "date": "2017-02-08",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ACM International Conference Proceeding Series",
+    "issn": null,
+    "eissn": null,
+    "volume": "Part F128050",
+    "issue": null,
+    "pages": "53-56",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Moreira, Anderson Harayashiki",
+      "scopus_id": "57194640238",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Voni, Vitor Augusto Bermuncio",
+      "scopus_id": "57194641014",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Araujo Leal, Alvaro",
+      "scopus_id": "57194632254",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azuma, Ederson Seiti",
+      "scopus_id": "57194641554",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Madani, Fernando Silveira",
+      "scopus_id": "57194635222",
+      "affiliation": "60059951",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Human-Computer Interaction",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Vision and Pattern Recognition",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85021371389&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125193",
+    "data_quality_score": 100
+  }
+}

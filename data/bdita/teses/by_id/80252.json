@@ -1,0 +1,32 @@
+{
+  "num_tese": "80252",
+  "type": "tese",
+  "title": "Verification and validation process of a proof of concept structure employing uncertainty propagation",
+  "author": "Bruna Mara Alves da Silva",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Higino Alonso de Passos Cabral",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The objective of this master's dissertation is to investigate the use of the Verification and Validation (V&V) process, as presented by the American Society of Mechanical Engineers, ASME V&V 10-2019, including the quantification of uncertainties, ASME VVUQ 10.2-2021, when applied to an industrial context through a proof-of-concept structure. This work addresses the philosophy, key concepts, and a detailed procedure for conducting a V&V program in the development of a landing gear component, validated for a specific use. Verification involves determining whether a computational model accurately represents the mathematical equations and their solutions, while validation assesses the extent to which the model reflects reality according to its intended use. Given the inherent complexity of the modeled physical systems, the approach taken in this research involves decomposing the \"landing gear\" system into a hierarchical structure, where each item is treated as a validation case. An actuator is used as a landing gear component for buckling analysis, positioned at a lower level in the hierarchy. Uncertainty propagation is carried out using the Monte Carlo method.",
+  "subjects": [
+    "Trem de pouso",
+    "Análise de confiabilidade",
+    "Método de Monte Carlo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80252",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80252&origem=BDITA"
+}

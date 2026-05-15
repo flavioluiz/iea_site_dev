@@ -1,0 +1,28 @@
+{
+  "num_tg": "78838",
+  "type": "tg",
+  "title": "Desenvolvimento de metodologia para gerar as janelas de visibilidade no contexto de planejamento e programaçăo de operaçőes de satélites",
+  "author": "Matheus Uchôa Constante",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maria José Pinto",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho está inserido no contexto do projeto PEmSE, que tem por objetivo conceber um ambiente de planejamento, em nível de protótipo, que possa auxiliar no processo de tomada de decisăo no contexto espacial, otimizando o emprego dos sistemas espaciais disponíveis e visando um monitoramento eficiente de áreas de interesse (alvos). Com o intuito de contribuir para o PEmSE, este trabalho esteve envolvido no desenvolvimento de uma metodologia para gerar as janelas de visibilidade e, mais especificamente, no desenvolvimento de um método preliminar de estimar faixas de cobertura de satélites. Para tanto, foram sugeridas ferramentas para propagaçăo de órbita, estimaçăo do ponto nadir, cálculo da projeçăo terrestre do campo de visăo de sensores do satélite e, por fim, definiçăo da área de cobertura. Apesar das consideraçőes adotadas, Terra esférica e sensor com campo de visăo cônico, os resultados obtidos se mostraram satisfatórios para um projeto preliminar e permitiriam que a metodologia fosse empregada em uma série de situaçőes no contexto espacial. De todo modo, mais testes devem ser feitos sobre a metodologia para verificar suas aplicabilidades e limitaçőes.",
+  "subjects": [
+    "Satélites",
+    "Sistemas de posicionamento",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78838",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78838&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "76353",
+  "type": "tese",
+  "title": "Simulaçăo e controle do processo de esmagamento de rebites para indústria aeronáutica",
+  "author": "Ana Clara Lima da Hora",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Com o advento da globalizaçăo nos mercados de produtos e serviços a competiçăo entre as grandes empresas se tornou global. Nesse sentido, tal concorręncia tem instigados as companhias a buscar por novos processos e tecnologias que possibilitem ganho atratividade ŕ seus produtos. A reduçăo de custos operacionais e de desenvolvimento é umas das formas pelas quais as empresas buscam aumentar a competitividade de seus produtos. Dessa maneira, no setor aeronáutico as corporaçőes tęm investido em soluçőes de automaçăo para processos de produçăo e gestăo. Tais soluçőes buscam, também, reduzir os custos de manufatura associados ao retrabalho e ŕ falta de padronizaçăo do trabalho manual. A automaçăo de processos de montagem estrutural usando robôs industriais é um dos principais desafios da manufatura aeronáutica. Neste contexto, esta proposta aborda o problema de automaçăo da operaçăo de rebitagem em estruturas internas de asas usando um efetuador robótico projetado no ITA para esta finalidade. Entre os fatores que motivam esta proposta estăo a eliminaçăo do operador humano de atividades de cravaçăo hoje realizadas em posiçőes pouco ergonômicas e/ou em ambientes confinados e a garantia da qualidade da operaçăo de cravaçăo, sem existęncia de folgas associadas a concentraçăo de tensăo, trincas prematuras em juntas rebitadas e deformaçőes induzidas indesejadas. Deste modo, o objetivo deste trabalho é modelar o processo de esmagamento do rebite assim como a deformaçăo do efetuador durante o processo de cravaçăo, de maneira a propor e comparar diferentes estratégias para controle do processo de rebitagem. Assim, săo apresentados o modelo do processo quando em malha aberta e, também, com controladores PID e Fuzzy. As respostas de tais modelos săo avaliadas quanto aos erros de força aplicada verificando-se que o controlador Fuzzy conseguiu melhor desempenho. Finalmente, a modelagem e controle do processo de rebitagem representa um importante avanço para a cravaçăo de estruturas aeronáuticas uma vez que a partir desta torna-se possível o controle de qualidade de cravaçăo para cada um dos rebites da estrutura identificando a exata força que foi utilizada para a cravaçăo. Ainda, possibilita maior facilidade no controle de cadęncia de produçăo uma vez que é possível o controle sobre a velocidade de esmagamento que se deseja.",
+  "subjects": [
+    "Processos de manufatura",
+    "Rebitagem",
+    "Sistemas dinâmicos",
+    "Automaçăo",
+    "Indústria aeronáutica",
+    "Controle"
+  ],
+  "defense_date": "13/09/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76353",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76353&origem=BDITA"
+}

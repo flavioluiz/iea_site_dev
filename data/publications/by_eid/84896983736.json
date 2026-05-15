@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-84896983736",
+  "eid": "2-s2.0-84896983736",
+  "doi": "10.1016/j.compstruct.2013.09.041",
+  "pii": "S0263822313004881",
+  "pubmed_id": null,
+  "title": "Numerical characterization of imperfection sensitive composite structures",
+  "abstract": "Currently, imperfection sensitive shell structures prone to buckling are designed according to the NASA SP-8007 guideline, from 1968, using its conservative lower bound curve. In this guideline the structural behavior of composite materials is not appropriately considered, since the imperfection sensitivity and the buckling load of shells made of such materials depend on the lay-up design. In this context a numerical investigation about the different methodologies to characterize the behavior of imperfection sensitive composite structures subjected to compressive loads up to buckling is presented in this paper. A comparative study is addressed between a new methodology, called \"Single Perturbation Load Approach\", adopted by the European project DESICOS, and some classical approaches such as non-linear analyses considering geometric and thickness imperfection obtained from real measurements. An extension of the Single Perturbation Load Approach called \"Multiple Perturbation Load Approach\" is also introduced in this paper to investigate if one perturbation load is enough to create the worst geometrical imperfection case.The aim of this work is to validate these numerical methodologies with experimental results and point out their limitation, advantage and disadvantage, to calculate less conservative knock-down factors than the obtained with the NASA SP-8007 guideline for unstiffened composite cylinders. © 2013 Elsevier Ltd.",
+  "authkeywords": [
+    "Composite materials",
+    "Finite element model",
+    "Knock-down factor",
+    "Shell buckling",
+    "Thin-walled structures"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "108",
+    "issue": "1",
+    "pages": "295-303",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60003649",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Degenhardt, Richard",
+      "scopus_id": "12144431600",
+      "affiliation": "60003649",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60003649",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zimmermann, Rolf",
+      "scopus_id": "57202390067",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 103,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84896983736&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074598",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-85049527112",
+  "eid": "2-s2.0-85049527112",
+  "doi": "10.1007/s40430-017-0955-x",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On nonlinear dynamics behavior of an electro-mechanical pendulum excited by a nonideal motor and a chaos control taking into account parametric errors",
+  "abstract": "© The Brazilian Society of Mechanical Sciences and Engineering 2018.This study analyzes a nonlinear system with a crank–shaft–slider mechanism linked to a pendulum. The crank is powered by a DC motor that moves horizontally the pendulum pivot. The speed of the motor is influenced by the pendulum dynamics, reason for calling the system as nonideal. In literature, the vibration of the pendulum support by a crank–shaft– slider is generally considered as harmonic what neglects the real complexity of the mechanism. It is also common, for the crank speed or the excitation frequency to be considered constant, so a unique degree-of-freedom can take place. The novelty in this research is the analysis of the feedback effect of the pendulum over the crank speed and the complexity of crank–slider mechanism without approaching to a harmonic motion. Different types of motion occur as oscillations, rotations, and chaos. Results with different initial conditions are worked out and basins of attractions plotted. Chaos was obtained when small variations of parameters are made. The methods of analysis include phase portraits, time histories, bifurcations diagrams, and basins of attraction. The verification of chaotic phenomena is performed through the 0–1 test. By the end, the feedback control is applied using the method of Tereshko by altering the energy of the chaotic system, leading the pendulum to a limit cycle.",
+  "authkeywords": [
+    "Control",
+    "Nonideal excitation",
+    "Pendulum"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "1",
+    "pages": "1-17",
+    "article_number": "23"
+  },
+  "authors": [
+    {
+      "name": "Avanço, Rafael Henrique",
+      "scopus_id": "56584468600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Navarro, Helio Aparecido",
+      "scopus_id": "8604615000",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tusset, Angelo Marcelo",
+      "scopus_id": "26031801400",
+      "affiliation": "60027294",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Balthazar, José Manoel",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 33,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 45,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85049527112&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123289",
+    "data_quality_score": 100
+  }
+}

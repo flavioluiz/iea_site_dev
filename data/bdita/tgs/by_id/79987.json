@@ -1,0 +1,28 @@
+{
+  "num_tg": "79987",
+  "type": "tg",
+  "title": "Estudo de compromisso entre risco e desempenho de aeronaves rádio controladas",
+  "author": "Iann Sá de Medeiros e Silva",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Durante todo o programa de uma aeronave, partindo do projeto conceitual até a operaçăo e retirada de serviço, o conhecimento das incertezas envolvidas é de suma importância para o seu sucesso. O objetivo principal desse trabalho é de quantificar as incertezas de projeto e atmosféricas, a fim de estabelecer estudos de compromisso entre desempenho, a partir da maximizaçăo do peso carregado pela aeronave, e o risco de satisfazer as restriçőes da missăo. Para tal, uma aeronave remotamente controlada projetada para competiçőes de aerodesign foi utilizada como estudo de caso. A fim de estabelecer as bases da quantificaçăo de incertezas, o Método de Monte Carlo foi adotado, junto com as definiçőes das variáveis incertas e os estudos de número de amostras necessárias para convergęncia do método. Os resultados obtidos permitiram a obtençăo do número de amostras necessárias. Em seguida, os estudos de compromisso entre risco e desempenho foram realizados, a fim de escolher o melhor algoritmo de previsăo de carga paga estocástica, juntamente com estudos de sensibilidade das incertezas para identificar quais variáveis săo mais importantes para os estudos de compromisso. Finalmente, os resultados mostraram bom desempenho do algoritmo de Newton-Raphson adaptado para funçőes ruidosas. Eles também permitiram o estabelecimento das relaçőes de risco e desempenho da aeronave, para diferentes configuraçőes de incertezas.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Desempenho de aeronaves",
+    "Qualificaçăo de incertezas",
+    "Avaliaçăo de riscos",
+    "Método de Monte Carlo",
+    "Estudo de casos",
+    "Algoritmos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79987",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79987&origem=BDITA"
+}

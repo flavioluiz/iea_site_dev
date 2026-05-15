@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85177240492",
+  "eid": "2-s2.0-85177240492",
+  "doi": "10.1115/GT2023-104010",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "USAGE OF AN INTERACTIVE LEARNING PLATFORM IN PROJECT-BASED GRADUATE COURSES FOR THE PRELIMINARY DESIGN OF AXIAL TURBINES",
+  "abstract": "Copyright © 2023 by ASME.The industry and the academy are continuously developing new approaches, technologies, and models for gas turbine design. However, there was not enough time to cover all the relevant subjects for undergraduate or graduate students in one or two-semester courses. So, in previous works, the authors described a developed interactive platform for the preliminary design of multistage axial flow turbines for uncooled blades and improved it based on the student’s feedback, so it could be as didactic as possible. Its application in the courses offered by the Turbomachines Department at Aeronautics Institute of Technology (ITA) successfully accelerated the learning process of the basics. In the graduate courses, the use of the program granted time to more complex topics, e.g., blade cooling, off-design performance, CFD simulations, manufacture, and machine learning applied to turbomachine design, which were not covered in previous years. The program initiates with the data from thermodynamic cycle calculation and the definition of the main design parameters. Then, it computes the aerothermodynamic properties of the flow stage-by-stage, from hub to tip, and the geometry of the blades. Finally, it estimates the losses by source, iteratively, through the models of Ainley and Mathieson [1], Dunham and Came [2], or Kacker and Okapuu [3]. This work presents some studies performed by the students using the platform. Firstly, it was varied some design key parameters such as loading and flow coefficients, the aspect ratio and the pitch-to-chord ratio of the blades, the airfoil section geometry, and the tip clearance, once at a time while maintaining the others. Then, it was possible to observe how these modifications affected the number of stages required, the stress levels, the machine size, and the isentropic efficiency, tracking the primary sources of loss. After, the students implemented other loss models, such as the one by Craig and Cox [4], aiming to analyze the effect of surface roughness on the losses. Finally, they compared the platform results with CFD simulations and experimental data from turbines developed at the Department. The paper concludes with the students’ insights through the project and comments on how the employed methodology improved their learning process.",
+  "authkeywords": [
+    "Axial Turbines",
+    "Loss Models",
+    "Preliminary Design",
+    "Project-Based Learning"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": null,
+    "article_number": "v006t07a004"
+  },
+  "authors": [
+    {
+      "name": "Gomes Dias, Marcelo Marques",
+      "scopus_id": "58701297500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tozi, Luiz Vitor",
+      "scopus_id": "58701958600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira Silva, George Patton",
+      "scopus_id": "57961514600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177240492&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051575",
+    "data_quality_score": 90
+  }
+}

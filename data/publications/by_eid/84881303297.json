@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-84881303297",
+  "eid": "2-s2.0-84881303297",
+  "doi": "10.1115/GT2012-70025",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Micro-turbine design point definition using genetic algorithm with single and multi-objective optimization",
+  "abstract": "During a gas turbine development phase an important engineer task is to find the appropriate engine design point that meet the required specifications. This task can be very arduous because all possible operating points in the gas turbine operational envelope need to be analyzed, for the sake of verification of whether or not the established performance might be achieved. In order to support engineers to best define the engine design point that meet required performance a methodology was developed in this work. To accomplish that a computer program was written in MatlabR. In this program was incorporated the thermoeconomic and thermodynamic optimization. The thermodynamic calculation process was done based in enthalpy and entropy function and then validated using a commercial program. The methodology uses genetic algorithm with single and multi-objective optimization. The micro gas turbine cycle chosen to study was the recuperated. The cycle efficiency, total cost and specific work were chosen as objective functions, while the pressure ratio, compressor and turbine polytropic efficiencies, turbine inlet temperature and heat exchange effectiveness were chosen as decision variables. For total cost were considered the fixed costs (equipment, installation, taxes, etc.) and variable costs (fuel, environmental and O&M). For emissions were taken into account the NOx, CO and UHC. An economic analysis was done for a recuperated cycle showing the costs behavior for different optimized design points. The optimization process was made for: single-objective, where each objective was optimized separately; two-objectives, where they were optimized in pairs; three-objectives, where it was optimized in trio. After, the results were compared each other showing the possible design points. Copyright © 2012 by ASME.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "501-512",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Cavalca, Diogo F.",
+      "scopus_id": "55816526400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881303297&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052205",
+    "data_quality_score": 90
+  }
+}

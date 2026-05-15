@@ -1,0 +1,32 @@
+{
+  "num_tese": "000450918",
+  "type": "tese",
+  "title": "Análise numérica do escoamento incompressível sobre cavidades rasas.",
+  "author": "Paulo Sergio Berving Zdanski",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata da simulaçăo numérica do escoamento incompressível, laminar e turbulento, ao longo de cavidades rasas bidimensionais. O estudo é focado, principalmente, na análise da influęncia dos seguintes parâmetros: (i) alongamento da cavidade; (ii) número de Reynolds e (iii) nível de turbulęncia do escoamento năo-perturbado. A meta principal é descobrir qual a condiçăo mais favorável no sentido de se ter o menor efeito convectivo do escoamento ao longo do piso da cavidade. As equaçőes de transporte que modelam o problema físico săo discretizadas utilizando a técnica de volumes finitos. O algoritmo SIMPLER, desenvolvido por Patankar, é utilizado para solucionar as equaçőes discretizadas em uma malha deslocada. Os resultados obtidos demonstram que a topologia do escoamento na cavidade é diretamente afetada pela variçăo dos parâmetros acima considerados e que existe um regime bem definido de baixa convecçăo na cavidade.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento incompressível",
+    "Cavidades",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Número de Reynolds",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000450918",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000450918&origem=BDITA"
+}

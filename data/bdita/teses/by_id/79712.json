@@ -1,0 +1,31 @@
+{
+  "num_tese": "79712",
+  "type": "tese",
+  "title": "Conceptual analysis of turbofan engine performance adjustments applied to long-range aircraft",
+  "author": "Valdi Freire da Fonseca Filho",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The turbofan engine represents the type of propulsive technology mostly used in commercial aircraft, and until new disruptive technologies take place, research to optimize this propulsive system shall be continued to reduce the environmental impacts. The present study aims to perform a conceptual analysis to evaluate promising modifications of propulsive components in turbofan engines to comply with long-range aircraft performance requirements when off-the-shelf engines or engines not optimized for a specific aircraft application are installed. This work is carried out according to the following steps: (i) creation of estimated performance curves for a gas turbine from limited data; (ii) analysis of the impacts on performance and propulsive integration, applying computer simulation of the most promising engine components configuration using GASTURB® and MATLAB® softwares; and (iii) matching between the lowest specific fuel consumption and the net thrust required for the cruise flight phase of the aircraft. As a final result, a comparative evaluation between the proposed turbofan engine performances is done, enabling the identification of promising engine adjustments to comply with engine/aircraft performance integration design requirements at the conceptual design phase, according to each of the intended targets considered: (1) increase the maximum thrust for a takeoff condition, which most promising technologic routes are increasing T4 optimizing FPR, increase OPR and HPT cooling improvement; or (2) reduction in SFC for TOC/cruise flight phase, which most promising routes are low pressure system adjustment, increase OPR and HPT cooling improvement. Thus, the methodology and toolings proposed in this study allow the estimation of engine performance data in the early stages of development, technically supporting possible discussions with the engine manufacturer about promising specific adjustments for the selected aircraft, which make the project more efficient for the intended application. The impacts of this improvement reflect gains in terms of operating costs for airline operators, as well as a reduction in pollutant emissions, minimizing the environmental impact.",
+  "subjects": [
+    "Motores turbofan",
+    "Simuladores",
+    "Avaliaçăo de desempenho",
+    "Motores de aeronaves",
+    "Turbinas",
+    "Sistemas de propulsăo",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/03/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79712",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79712&origem=BDITA"
+}

@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-85191319743",
+  "eid": "2-s2.0-85191319743",
+  "doi": "10.3390/computation12040083",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An Implementation of LASER Beam Welding Simulation on Graphics Processing Unit Using CUDA",
+  "abstract": "© 2024 by the authors.The maximum number of parallel threads in traditional CFD solutions is limited by the Central Processing Unit (CPU) capacity, which is lower than the capabilities of a modern Graphics Processing Unit (GPU). In this context, the GPU allows for simultaneous processing of several parallel threads with double-precision floating-point formatting. The present study was focused on evaluating the advantages and drawbacks of implementing LASER Beam Welding (LBW) simulations using the CUDA platform. The performance of the developed code was compared to that of three top-rated commercial codes executed on the CPU. The unsteady three-dimensional heat conduction Partial Differential Equation (PDE) was discretized in space and time using the Finite Volume Method (FVM). The Volumetric Thermal Capacitor (VTC) approach was employed to model the melting-solidification. The GPU solutions were computed using a CUDA-C language in-house code, running on a Gigabyte Nvidia GeForce RTX™ 3090 video card and an MSI 4090 video card (both made in Hsinchu, Taiwan), each with 24 GB of memory. The commercial solutions were executed on an Intel® Core™ i9-12900KF CPU (made in Hillsboro, Oregon, United States of America) with a 3.6 GHz base clock and 16 cores. The results demonstrated that GPU and CPU processing achieve similar precision, but the GPU solution exhibited significantly faster speeds and greater power efficiency, resulting in speed-ups ranging from 75.6 to 1351.2 times compared to the CPU solutions. The in-house code also demonstrated optimized memory usage, with an average of 3.86 times less RAM utilization. Therefore, adopting parallelized algorithms run on GPU can lead to reduced CFD computational costs compared to traditional codes while maintaining high accuracy.",
+  "authkeywords": [
+    "CUDA-C code",
+    "finite volume method",
+    "GPU processing",
+    "LASER beam welding",
+    "Nvidia CUDA®"
+  ],
+  "year": "2024",
+  "date": "2024-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computation",
+    "issn": null,
+    "eissn": "20793197",
+    "volume": "12",
+    "issue": "4",
+    "pages": null,
+    "article_number": "83"
+  },
+  "authors": [
+    {
+      "name": "Nascimento, Ernandes",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Azevedo, Arthur",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Paes, Luiz E.S.",
+      "scopus_id": "57201031681",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Oliveira, Ariel",
+      "scopus_id": "58513347300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Theoretical Computer Science",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computer Science (all)",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85191319743&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090961",
+    "data_quality_score": 100
+  }
+}

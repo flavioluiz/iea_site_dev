@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85088754135",
+  "eid": "2-s2.0-85088754135",
+  "doi": "10.2514/6.2015-2218",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Sensitivity of wavepackets in jets to non-linear effects: The role of the critical layer",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Linear instability waves, wavepackets, are key building blocks for the jet-noise problem. It has been shown in previous work that linear models correctly predict the evolution of axisymmetric wavepackets up to the end of the potential core. Beyond this station linear models fail to predict single-point statistics; they fail more broadly in the prediction of two-point properties such as coherence; and their underprediction of the radiated noise is believed to be associated with these errors. Non-linearity is the likely missing piece. But how might it be incorporated? What are the essential underlying mechanisms? Might it be amenable to a reduced-order modelling methodology? The work described in this paper is concerned with these questions. The non-linear interactions are considered as an “external” harmonic forcing of the standard linear model; the forcing can be viewed as comprising those Fourier components of the non-linear term of the Navier-Stokes equations which are most amplified by the linear wavepackets. This modelling framework is explored using three complementary problems in which we try to understand the relationship between “external” forcing, linear system and flow response. The response of an incompressible, two-dimensional, locally parallel, shear-flow to direct, spatially localised, harmonic forcing is first considered. A resolvant analysis is then performed, again in a locally parallel context, both for the incompressible, 2D problem and for a compressible axisymmetric shear-flow where the mean flow is taken from experiments. Finally, in order to incorporate the slow axial variation of the real jet, a novel approach is considered where 4D-Var data assimilation is applied using experimental data and the Parabolised Stability Equations (PSE-4D-Var). The objective of this third, data-driven, approach is to search for an optimal forcing that might improve the match between wavepaket solutions and measurements. In all of the problems considered the critical layer, where the phase speed of the wave is equal to the local mean velocity, is found to be relevant. It is at this point that the sensitivity of the linear waves to non-linearity is greatest. In the 2D, incompressible, problem the largest response is produced when the flow is forced in the vicinity of the critical layer. The resolvant analyses show optimal forcing modes that peak on the critical layer and the optimal response modes have a critical-layer structure. The PSE-4D-Var approach shows highest sensitivity near the critical layer. Furthermore, the structure of the forced perturbations are tilted in a manner that suggests an Orr-like mechanism. The ensemble of results suggest that the critical layer may play a central role in the modelling of wavepackets in subsonic turbulent jets, and indeed may be the key to remedying the deficiencies evoked above.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "21st AIAA Ceas Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Tissot, Gilles",
+      "scopus_id": "55797353200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zhang, Mengqi",
+      "scopus_id": "57205493993",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lajús, Francisco C.",
+      "scopus_id": "55942916500",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088754135&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101683",
+    "data_quality_score": 90
+  }
+}

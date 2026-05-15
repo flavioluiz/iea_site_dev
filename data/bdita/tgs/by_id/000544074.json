@@ -1,0 +1,32 @@
+{
+  "num_tg": "000544074",
+  "type": "tg",
+  "title": "Análise de sensibilidade de cargas aerodinâmicas em relaçăo ŕ variaçăo de parâmetros geométricos em veículos de sondagem.",
+  "author": "Guilherme Felipe Reis Duarte",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    },
+    {
+      "name": "Carlos Eduardo de Souza",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho foi verificar de que forma variam as cargas aerodinâmicas distribuídas ao longo dos corpos dos veículos de sondagem VS-30 e VS-40, quando estes sofrem determinadas modificaçőes em sua geometria. Tais modificaçőes ocorrem na prática devido ŕ adaptaçăo do veículo a diferentes configuraçőes de carga útil. Para realizar o cálculo dessas cargas, foi utilizado o programa de cálculo Missile Datcom, versăo 3/99, pois é atualmente o único disponível no Instituto de Aeronáutica e Espaço que possui a capacidade de calcular distribuiçăo de pressăo ao longo de corpos de revoluçăo. Năo foi encontrado na literatura nenhum trabalho que validasse esse cálculo de distribuiçăo de pressăo, e portanto foi realizado um estudo a respeito das metodologias utilizadas pelo programa para realizá-los. Em seguida, foi mostrado o tratamento dos dados fornecidos pelo Missile Datcom. Por fim, os resultados obtidos foram analisados e foi feita uma análise de sensibilidade das cargas aerodinâmicas, na qual foram apontadas as mudanças geométricas que mais influenciam na distribuiçăo de pressăo sobre os veículos, sendo necessário, nesses casos, uma nova análise de cargas.",
+  "subjects": [
+    "Cargas aerodinâmicas",
+    "Análise de peso",
+    "Foguetes-sonda",
+    "Distribuiçăo de pressăo",
+    "Carga útil",
+    "Análise de sensibilidade",
+    "Estrutura de geometria variável",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544074",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544074&origem=BDITA"
+}

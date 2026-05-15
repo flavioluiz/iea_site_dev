@@ -1,0 +1,30 @@
+{
+  "num_tese": "000445249",
+  "type": "tese",
+  "title": "Analysis of error in temperature measurement.",
+  "author": "Valdir Araújo de Souza",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents the numerical investigation of temperature measurement error using thermocouple for different configurations utilizing a computational tool based on finite element method (Galerkin Method). The numerical code performs a two-dimensional analysis while most of the analytical models are one-dimensional. The results are then compared with the analytical, experimental and some numerical results obtained through the finite difference method. In this work five configurations are analysed: in the first configuration the error is analysed when the thermocouple is placed on a surface of a large dimensions body with an insulated wall except at the thermocouple contact region. In this configuration a technique to reduce the error in the temperature measurement is also presented. The second configuration shows the temperature measurement error when the thermocouple is embedded in a solid with constant heat flux over the opposing wall. The third configuration presents the influence of the role in a solid with a constant heat flux on the opposing surface. In the fourth configuration the temperature measurement error is investigated when the thermocouple is placed inside solids varying the depth of the thermocouple insertion for different types of materials error is analysed when a thin flat plate is surrounded either side by fluids at measurement error is analysed when a thin flat plate is surrounded either side by fluids at different temperature. The simulation were performed in a steady-state condition for all configurations and it was observed that the error is high when the thermal conductivity of the body is low and the heat transfer coefficient over the thermocouple is high. On the other hand the error is reduced when the thermocouple radius is small and also when the body dimension is large.",
+  "subjects": [
+    "Medidas de temperatura",
+    "Análise de erros",
+    "Método de elementos finitos",
+    "Termopares",
+    "Termodinâmica",
+    "Física",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000445249",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000445249&origem=BDITA"
+}

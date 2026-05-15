@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85126806868",
+  "eid": "2-s2.0-85126806868",
+  "doi": "10.2514/6.2021-3189",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Feasibility of Using Fuel Cell in a Small Aircraft",
+  "abstract": "© 2021, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Aircraft electrification is subject of several studies in the aeronautical field, due to the increasing need to enhance efficiency and to reduce the contribution of the aviation sector to climate change. In this scenario, the use of hydrogen fuel cells (FCs) is one means to explore new designs for propulsion electrification. Thus, this study aims to assess the feasibility of using gaseous hydrogen with proton-exchange membrane FCs (PEMFC) to provide electric power for the propulsion of a small aircraft. Firstly, current commercially available FC and hydrogen storage systems were analyzed to obtain data of these systems. Secondly, FC powered hybrid-electric propulsion system (PEMFC and batteries) was proposed, considering versions with 700 bar and 350 bar hydrogen tanks, and then compared with versions having an internal combustion engine (ICE) and another having just batteries. For a fair comparison, the propulsion system for each version was size-fitted for the defined mission profile. The aircraft aerodynamics, weight, propulsive efficiency, sizing parameters and other aspects were modeled and simulated in a virtual environment (SUAVE). The result evidenced that the ICE version has the lowest aircraft mass throughout the cruise duration range (60 min to 120 min), also having the best performance, in terms of Energy Specific Air Range (ESAR), for cruise longer than 65 min. For the airplanes with electric propulsion, the hybrid versions are more suitable in longer missions, being able to double the cruise duration of the battery version, while the battery version has the best ESAR for cruise shorter than 65 min. Therefore, the propulsion hybridization with PEMFC, gaseous hydrogen and batteries is feasible for small airplanes in flights longer than 65 min, when compared to an electric propulsion with only batteries. However, although having a range extender potential, hybrid versions need great improvements in order to outperform the ICE version.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2021",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2021-3189"
+  },
+  "authors": [
+    {
+      "name": "De Castro, Ana Lídia Almeida",
+      "scopus_id": "57539463600",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    },
+    {
+      "name": "Mourão, Carlos Henrique Belloni",
+      "scopus_id": "57540109000",
+      "affiliation": "60021657-60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 60,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126806868&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118770",
+    "data_quality_score": 90
+  }
+}

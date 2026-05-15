@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-85088354330",
+  "eid": "2-s2.0-85088354330",
+  "doi": "10.2514/6.2015-3352",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Design and flight testing of an autonomous airship",
+  "abstract": "© 2015 AIAA American Institute of Aeronautics and Astronautics. All rights reserved.This paper investigates the performance of an airship controller designed to impart autonomous control ability to an airship fitted with three fixed BLDC motors and propellers. An existing airship designed primarily for indoor flights was chosen as a platform for mounting and testing this control system for autonomous operations. The sub-systems of this airship are described, and details of an autopilot and waypoint navigation system are presented. An open source flight controller for UAVs was adapted for airships, and a Hardware-In-the-Loop simulation was carried out to validate it. The performance of this controller was tested in a few outdoor flight tests. It was seen that autonomous flight was possible, including an autonomous takeoff, but since the airship was underpowered, the ability of the airship to maintain the desired flight path was poor. However, this study established that, in principle, it is possible to provide some autonomous capability to an airship by suitably adapting a flight controller designed for UAVs.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Lighter than Air Systems Technology Conference 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Jônatas Sant Anna",
+      "scopus_id": "54685142700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Pant, Rajkumar S.",
+      "scopus_id": "23091319400",
+      "affiliation": "60014153",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088354330&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077456",
+    "data_quality_score": 90
+  }
+}

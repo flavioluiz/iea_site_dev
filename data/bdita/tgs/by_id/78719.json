@@ -1,0 +1,31 @@
+{
+  "num_tg": "78719",
+  "type": "tg",
+  "title": "Aplicaçőes de técnicas inversas na estimativa de resistęncias térmicas de contato em sistemas eletrônicos embarcados em veículos espaciais e sub-orbitais",
+  "author": "Luiz Eduardo Silva Resende",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Humberto Araujo Machado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os Problemas Inversos no contexto de transferęncia de calor tratam da estimaçăo de parâmetros ou funçőes relacionadas a um domínio de aquecimento partindo do processamento dos dados de temperatura no espaço e no tempo. Em geral as variáveis de interesse podem ser propriedades termofisicas de um meio condutivo ou até mesmo condiçőes de contorno e iniciais, como fluxo térmico ou temperaturas prescritas. A utilidade de tais técnicas se deve ao fato de que habitualmente a inferęncia das variáveis de interesse é fisicamente inacessível, como é o caso de altos fluxos térmicos aplicados a um veículo espacial no momento de reentrada atmosférica, por exemplo. Especificamente, este trabalho objetiva estimar a Resistęncia Térmica de Contato e o fluxo térmico relacionados a um problema de conduçăo unidimensional. A inferęncia de tais parâmetros frequentemente sofre instabilidades relacionadas a ruídos de mediçăo nos dados de temperatura, e para isto este trabalho visa aplicar a técnica inversa Regularizaçăo por Tempos Futuros, RTF, de modo a trazer estabilidade ŕs estimativas. O Método de Otimizaçăo Quadrilateral, MOQ, é acoplado ŕ técnica inversa para buscar pontos ótimos a cada iteraçăo da regularizaçăo. Além disso, a aplicaçăo de técnicas inversas envolve a soluçăo do problema direto de forma iterativa, e para isso foi utilizado o Método de Volumes Finitos em um esquema implícito no tempo para resolver a equaçăo do calor envolvida. Por ser um problema unidimensional, foi gerada uma matriz tridiagonal a cada instante de tempo discretizado, a qual foi resolvida usando a técnica Parallel Cyclic Reduction. Os cálculos foram performados mediante implementaçăo em linguagem Python de um programa in-house. O setup de estimaçăo foi validado com casos estipulados numericamente e também em um experimento laboratorial de conduçăo térmica envolvendo duas chapas de Aço SAE 1020. Por fim os valores de Resistęncia Térmica de Contato foram comparados aos valores encontrados em literatura.",
+  "subjects": [
+    "Análise térmica",
+    "Transferęncia de calor",
+    "Método de elementos finitos",
+    "Modelo numérico",
+    "Programas de computadores",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78719",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78719&origem=BDITA"
+}

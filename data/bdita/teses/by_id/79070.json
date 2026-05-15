@@ -1,0 +1,36 @@
+{
+  "num_tese": "79070",
+  "type": "tese",
+  "title": "Remaining useful life estimation framework for maintenance improvement of a helicopter main rotor shaft using fracture mechanics",
+  "author": "Samuel Franciscus Zijp",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alberto Martinetti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This research aims to make the next step from diagnostics towards prognostics, using the Health and Usage Monitoring System (HUMS) in combination with fracture mechanics to determine the Remaining Useful Life (RUL) of a helicopter main rotor shaft. This main rotor shaft transfers the power delivered by the engine and the main gear box to the main rotors. At the moment, maintenance to this shaft is carried out after a fixed amount of time, resulting in unused potential. The RUL predictions are used to improve this maintenance strategy and are based on the crack propagation of the main rotor shaft. A framework for these RUL estimations is created using a combination of stochastic, deterministic and statistical calculations. Three main loading types are used as input for the crack propagation calculations: axial, bending and moment loading. Probability Density Functions (PDF) of these loads are created and used as stochastic load input. A relation is found between the load, crack geometry and stress intensity factor (SIF). This SIF is obtained by modeling the cracked main rotor shaft in the finite element program Abaqus. The relation between the load, crack geometry and SIF is then used to calculate the crack growth rate deterministically using the Walker modification on the Paris' law and Irwin's model. The crack growth rate is calculated for different stress levels during flights. Each flight consists of different stress levels, based on the Felix/28 standard in combination with the PDF stochastic load input. Using this crack growth rate, the crack propagation during flights is determined and so-called degradation paths are constructed. Using the Monte Carlo method, multiple degradation paths are simulated and the RUL is estimated statistically. At last, this RUL estimation is used for maintenance purposes, like determining the inspection interval and plan and anticipate maintenance scenarios. But also putting this framework into the bigger picture of Reliability-Centered Maintenance (RCM).",
+  "subjects": [
+    "Dinâmica de rotores",
+    "Manutençăo de aeronaves",
+    "Estimaçăo de vida útil restante",
+    "Helicópteros",
+    "Mecânica de fratura",
+    "Fissuras",
+    "Método de elementos finitos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "21/03/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79070",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79070&origem=BDITA"
+}

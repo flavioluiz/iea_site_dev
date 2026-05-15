@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85130166325",
+  "eid": "2-s2.0-85130166325",
+  "doi": "10.1016/j.icheatmasstransfer.2022.106108",
+  "pii": "S0735193322002305",
+  "pubmed_id": null,
+  "title": "Filtration efficiency of particle-laden flows for thermal plug and abandonment of oil wells using turbulence modeling in porous media",
+  "abstract": "© 2022 Elsevier LtdIn this work, the process of filtration of particles carried out by turbulent flows is investigated. The applied mathematical framework considers turbulent flow regime in the clear region and within the filter. The motivation for this work is to get insight on possible use of filters to separate thermite mixtures from a carrier phase and their use in thermal plug and abandonment of oil wells. Axisymmetric simulations are performed using the finite volume method. A macroscopic k-ε model is applied to handle turbulence. Pressure drop, stream function and turbulence field are computed. Using correlations in the literature, filter efficiencies are estimated based on calculated flow and pressure fields. Reynolds numbers varied from 2.3 × 103 to 4.6 × 104 for different permeabilities K ranging from 3.47 × 10−9 m2 to 8.89 × 10−9 m2, corresponding to filter particle diameters dp = 1.0 × 10−2 m and 1.0 × 10−3 m and different porosities (0.5 to 0.8). The results showed that pressure drop is strongly affected by porosity, permeability and Reynolds number; the stream function maps indicated wider stagnant zones for filters with larger particle diameters (higher permeabilities); turbulence fields showed slight generation of turbulence inside the filtration zone. The results for efficiency illustrated that, in case of filtrating thermite, higher inlet velocities, filters with particles of size 1.0 × 10−3 m and lower porosity filters favor the collection mechanism.",
+  "authkeywords": [
+    "Filtration system",
+    "Plug and abandonment",
+    "Porous media",
+    "Turbulent flow"
+  ],
+  "year": "2022",
+  "date": "2022-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "135",
+    "issue": null,
+    "pages": null,
+    "article_number": "106108"
+  },
+  "authors": [
+    {
+      "name": "Tobisawa, Rodrigo Y.I.",
+      "scopus_id": "57694887700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 45,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130166325&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110323",
+    "data_quality_score": 100
+  }
+}

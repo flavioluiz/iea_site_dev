@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-18144375194",
+  "eid": "2-s2.0-18144375194",
+  "doi": "10.1016/j.icheatmasstransfer.2004.06.013",
+  "pii": "S0735193305000382",
+  "pubmed_id": null,
+  "title": "Interfacial heat transfer coefficient for non-equilibrium convective transport in porous media",
+  "abstract": "The literature has documented proposals for macroscopic energy equation modeling for porous media considering the local thermal equilibrium hypothesis and laminar flow. In addition, two-energy equation models have been proposed for conduction and laminar convection in packed beds. With the aim of contributing to new developments, this work treats turbulent heat transport modeling in porous media under the local thermal non-equilibrium assumption. Macroscopic time-average equations for continuity, momentum and energy are presented based on the recently established double decomposition concept (spatial deviations and temporal fluctuations of flow properties). Interfacial heat transfer coefficients are numerically determined for an infinite medium over which the fully developed flow condition prevails. The numerical technique employed for discretizing the governing equations is the control volume method. Preliminary laminar flow results for the macroscopic heat transfer coefficient, between the fluid and solid phase in a periodic cell, are presented. © 2005 Elsevier Ltd. All rights reserved.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "32",
+    "issue": "5",
+    "pages": "666-676",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Saito, Marcelo B.",
+      "scopus_id": "8523459800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 95,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=18144375194&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111412",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "num_tese": "000540800",
+  "type": "tese",
+  "title": "Estudo de órbitas ressonantes no movimento de satélites artificiais.",
+  "author": "Artur Gomes da Silva Neto",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    },
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, consideramos a comensurabilidade entre as freqüęncias do movimento médio do satélite artificial com o movimento de rotaçăo da Terra, considerando-se o achatamento da Terra. A ressonância estudada é a 2:1 (satélite de 12 horas). O comportamento do sistema dinâmico completo é complexo, apresentando órbitas regulares e caóticas. Ao considerarmos o segundo harmônico zonal (J20) e o segundo harmônico tesseral (J22) no desenvolvimento do geopotencial, obtivemos tręs ângulos ressonantes críticos para analisar: j2201, j2211 e j2221. Através de simulaçőes numéricas e do modelo analítico, verificamos que os dois primeiros apresentam movimentos de libraçăo e circulaçăo enquanto o terceiro apresenta somente circulaçăo. Através de sucessivas transformaçőes canônicas, simplificamos o problema. A Hamiltoniana assim obtida é linearizada, dando origem ŕ Hamiltoniana do pęndulo simples, útil para calcular a semilargura da separatriz. Desta forma, obtemos uma previsăo teórica aproximada das regiőes de movimento regular e das de movimento caótico. Na regiăo de movimento regular, estudamos o sistema dinâmico considerando-se cada ângulo crítico separadamente, o que é de fundamental importância para compreender seus efeitos de superposiçăo e o surgimento do caos. Para finalizar, a caracterizaçăo qualitativa e quantitativa de efeitos năo-lineares da dinâmica com dois graus de liberdade foi realizada com o emprego de seçőes de Poincaré e o cálculo do maior expoente de Lyapunov. De forma geral, concluímos que o caráter caótico torna-se maior ŕ medida que aumentamos a inclinaçăo e/ou a excentricidade.",
+  "subjects": [
+    "Satélites artificiais",
+    "Ressonância",
+    "Sistemas dinâmicos",
+    "Órbitas de satélite",
+    "Movimento (Mecânica)",
+    "Caos",
+    "Campos gravitacionais",
+    "Mecânica celeste",
+    "Astrodinâmica",
+    "Engenharia mecânica",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "10/03/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540800",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540800&origem=BDITA"
+}

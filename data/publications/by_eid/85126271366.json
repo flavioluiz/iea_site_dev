@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85126271366",
+  "eid": "2-s2.0-85126271366",
+  "doi": "10.3390/polym14050972",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Identification of Representative Equivalent Volumes on the Microstructure of 3D-Printed Fiber-Reinforced Thermoplastics Based on Statistical Characterization",
+  "abstract": "© 2022 by the authors. Licensee MDPI, Basel, Switzerland.The present work describes a methodology to compute equivalent volumes representing the microstructure of 3D-printed continuous fiber-reinforced thermoplastics, based on a statistical characterization of the fiber distribution. In contrast to recent work, the methodology herein presented determines the statistically equivalent fiber distribution directly from cross-section micrographs, instead of generating random fiber arrangements. For this purpose, several regions, with different sizes and from different locations, are cropped from main cross-section micrographs and different spatial descriptor functions are adopted to characterize the microstructures in terms of agglomeration and periodicity of the fibers. Detailed information about the adopted spatial descriptors and the algorithm implemented to identify the fiber distribution, as well as to define the location of cropped regions, are given. From the obtained statistical characterization results, the minimum size of the equivalent volume required to be representative of the fiber distribution, which is found in the cross-section micrographs of 3D-printed composite materials, is presented. To support the findings, as well as to demonstrate the effectiveness of the proposed methodology, the homogenized properties are also computed using representative equivalent volumes obtained in the statistical characterization and the results are compared to those experimentally measured, which are available in the literature.",
+  "authkeywords": [
+    "3D printing",
+    "Computational mechanics",
+    "Mechanical properties",
+    "Polymer–matrix composites (PMCs)",
+    "Representative volume element (RVE)"
+  ],
+  "year": "2022",
+  "date": "2022-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Polymers",
+    "issn": null,
+    "eissn": "20734360",
+    "volume": "14",
+    "issue": "5",
+    "pages": null,
+    "article_number": "972"
+  },
+  "authors": [
+    {
+      "name": "Dutra, Thiago Assis",
+      "scopus_id": "57211220639",
+      "affiliation": "60013981",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, Rafael Thiago Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Resende, Hugo Borelli",
+      "scopus_id": "57196403328",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Oliveira, Luís Miguel",
+      "scopus_id": "57216836090",
+      "affiliation": "60013981",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Blinzler, Brina Jane",
+      "scopus_id": "36668249600",
+      "affiliation": "60311387",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Asp, Leif E.",
+      "scopus_id": "7003735733",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Chemistry (all)",
+        "abbrev": "CHEM",
+        "name": null
+      },
+      {
+        "code": "Polymers and Plastics",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 64,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126271366&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063704",
+    "data_quality_score": 100
+  }
+}

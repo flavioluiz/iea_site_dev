@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85143818700",
+  "eid": "2-s2.0-85143818700",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "LES-INFORMED RESOLVENT-BASED ESTIMATION OF TURBULENT PIPE FLOW",
+  "abstract": "© 2022 12th International Symposium on Turbulence and Shear Flow Phenomena, TSFP 2022. All rights reserved.A resolvent-based methodology is employed to obtain non-causal spatio-temporal estimates of turbulent pipe flow from low-rank probe measurements of wall shear-stress fluctuations. DNS and LES pipe flow numerical simulations at friction Reynolds number of 550 are used as databases. We consider one of the DNS databases as the true spatio-temporal flow field, from which the low-rank measurements are extracted. Such database is also employed to verify the accuracy of the linear estimators. The estimator needs a model for the nonlinear (or forcing) terms of the Navier-Stokes equations system, which are obtained from a DNS database and from a series of computationally cheaper LES databases with grids coarser than the DNS. Comparisons between the reference DNS and the estimates indicate that sufficiently accurate results can be achieved with cheaper LES containing up to 10% of the number of grid points of the DNS, with estimates closely matching the reference DNS results up to the buffer-layer and reasonable agreement up to the beginning of the log layer.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "12th International Symposium on Turbulence and Shear Flow Phenomena Tsfp 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Amaral, Filipe R.",
+      "scopus_id": "57188717193",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Atmospheric Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 21,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143818700&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100636",
+    "data_quality_score": 60
+  }
+}

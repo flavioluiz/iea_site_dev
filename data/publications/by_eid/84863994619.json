@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-84863994619",
+  "eid": "2-s2.0-84863994619",
+  "doi": "10.1590/s1679-78252012000500006",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Robust high-cycle fatigue stress threshold optimization under uncertain loadings",
+  "abstract": "This paper proposes a strategy to achieve robust optimization of structures against high-cycle fatigue when a potentially large number of unceratin load cases are considered. The strategy is heavily based on a convexity property of some of the most commonly used high-cycle design criteria. The convexity property is rigorously proven for the Crossland fatigue criterion. The proof uses a perturbation technique and involves the principal stress components and analytical expressions for the applicable fatigue criteria. The multiplicity of load cases is treated using load ratios which are bounded but are otherwise free to vary within certain limits. The strategy is applied to a notched plate subject to traditional normal and shear loadings that possess uncertain or unspecified components.",
+  "authkeywords": [
+    "Convexity",
+    "Fatigue",
+    "Robust optimization"
+  ],
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Latin American Journal of Solids and Structures",
+    "issn": "16797817",
+    "eissn": "16797825",
+    "volume": "9",
+    "issue": "5",
+    "pages": "615-631",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Frota, Roberto T.C.",
+      "scopus_id": "55316838500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84863994619&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044537",
+    "data_quality_score": 90
+  }
+}

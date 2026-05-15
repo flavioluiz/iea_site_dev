@@ -1,0 +1,29 @@
+{
+  "num_tese": "76730",
+  "type": "tese",
+  "title": "In-plane compressive pre-load influence on the low velocity impact damage in laminated composite plates",
+  "author": "Felipe Ruivo Fuga",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Design developments in commercial aviation industry are currently driven by cost savings through structural parts weight reduction, service life extension and cheaper maintenance. Despite composite materials presenting a viable design solution for such constraints, the material's relatively low resistance to impact damage portraits a potential drawback. This work presents an experimental, as well as numerical, study on the compressive pre-loading effects on Barely Visible Impact Damage BVID for Low Velocity Impact, LVI. Woven fabric composite materials were manufactured by the Resin Transfer Moulding (RTM) process and subjected to impact in the presence of in-plane, axial, compressive pre-loads. A manufacturing process quality analysis was conducted to assess the laminate's final quality. A test rig was designed specifically for the LVI on pre-loaded plates, where a hydraulic actuator was fitted to an existing drop weight test tower, in order to prescribe axial compressive loading on the specimens. Three pre-load levels were chosen, representing different conditions ranging from pre-buckling until post buckling regimes. Impact induced damage was assessed by Non-destructive Inspection techniques, and correlated with incident and dissipated impact energy levels. Following the experimental analysis, FE models were implemented in ABAQUS FE code, accounting for impact induced inter and intralaminar failure modes by combining a Plane-Stress Continuum Damage Mechanics based failure model with cohesive interface elements. Numerical models were solved using an explicit time integration scheme, where the contributions of intralaminar and interlaminar damage were discussed.",
+  "subjects": [
+    "Placas reforçadas",
+    "Flambagem",
+    "Impacto",
+    "Moldagem por transferęncia de resina",
+    "Estruturas de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/02/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76730",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76730&origem=BDITA"
+}

@@ -1,12 +1,12 @@
 {{ define "main" }}
 {{ $professorId := .Params.professor_id }}
-{{ $professorData := index .Site.Data.professores.profiles $professorId }}
+{{ $professorData := index .Site.Data.pessoal.profiles $professorId }}
 
 {{ if not $professorData }}
   <div class="max-w-4xl mx-auto px-4 py-8">
     <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-      <p class="font-bold">{{ i18n "error" }}</p>
-      <p>{{ i18n "professor_not_found" }}: {{ $professorId }}</p>
+      <p class="font-bold">Erro</p>
+      <p>Professor não encontrado: {{ $professorId }}</p>
     </div>
   </div>
 {{ else }}
@@ -16,19 +16,32 @@
 {{ $pubCount := 0 }}
 {{ if $pubs }}{{ $pubCount = len $pubs }}{{ end }}
 
-{{ $byProfessor := .Site.Data.teses.by_professor }}
-{{ $profSupervisions := index $byProfessor $professorId }}
+{{/* Teses — optional data source */}}
+{{ $profSupervisions := false }}
 {{ $supervisionCount := 0 }}
 {{ $mestradoCount := 0 }}
 {{ $doutoradoCount := 0 }}
-{{ if $profSupervisions }}
-  {{ $asAdvisor := $profSupervisions.as_advisor }}
-  {{ $asCoadvisor := $profSupervisions.as_coadvisor }}
-  {{ if $asAdvisor }}{{ $supervisionCount = add $supervisionCount (len $asAdvisor) }}{{ end }}
-  {{ if $asCoadvisor }}{{ $supervisionCount = add $supervisionCount (len $asCoadvisor) }}{{ end }}
-  {{ $mestradoCount = $profSupervisions.mestrado_count }}
-  {{ $doutoradoCount = $profSupervisions.doutorado_count }}
+{{ if .Site.Data.teses }}
+  {{ $byProfessor := .Site.Data.teses.by_professor }}
+  {{ $profSupervisions = index $byProfessor $professorId }}
+  {{ if $profSupervisions }}
+    {{ $asAdvisor := $profSupervisions.as_advisor }}
+    {{ $asCoadvisor := $profSupervisions.as_coadvisor }}
+    {{ if $asAdvisor }}{{ $supervisionCount = add $supervisionCount (len $asAdvisor) }}{{ end }}
+    {{ if $asCoadvisor }}{{ $supervisionCount = add $supervisionCount (len $asCoadvisor) }}{{ end }}
+    {{ $mestradoCount = $profSupervisions.mestrado_count }}
+    {{ $doutoradoCount = $profSupervisions.doutorado_count }}
+  {{ end }}
 {{ end }}
+
+{{/* Departamento colour */}}
+{{ $deptId := .Params.departamento }}
+{{ $deptData := false }}
+{{ if .Site.Data.departamentos }}
+  {{ $deptData = index .Site.Data.departamentos.departamentos $deptId }}
+{{ end }}
+{{ $deptColor := "#1e40af" }}
+{{ if $deptData }}{{ $deptColor = $deptData.cor }}{{ end }}
 
 <article class="professor-profile max-w-7xl mx-auto px-4 py-8">
 
@@ -38,16 +51,16 @@
 
       <!-- Photo Column -->
       <div class="w-full md:w-1/4 flex-shrink-0">
-        {{ $photoPath := printf "/images/professores/%s" $professorData.foto }}
+        {{ $photoPath := printf "/images/pessoal/%s" $professorData.foto }}
         {{ if (fileExists (printf "static%s" $photoPath)) }}
           <img src="{{ $photoPath }}"
                alt="{{ $professorData.nome }}"
-               class="rounded-lg shadow-lg w-full object-cover aspect-square">
+               class="rounded-lg shadow-lg w-full object-cover object-top aspect-square">
         {{ else }}
-          <!-- Placeholder with initials -->
-          <div class="bg-gradient-to-br from-blue-500 to-blue-700 rounded-lg shadow-lg w-full aspect-square flex items-center justify-center">
+          <div class="rounded-lg shadow-lg w-full aspect-square flex items-center justify-center"
+               style="background: linear-gradient(135deg, {{ $deptColor }}, {{ $deptColor }}bb);">
             <span class="text-white text-6xl font-bold">
-              {{ substr $professorData.nome_destaque 0 1 }}
+              {{ substr $professorData.nome 0 1 }}
             </span>
           </div>
         {{ end }}
@@ -56,29 +69,16 @@
       <!-- Info Column -->
       <div class="flex-1">
         <!-- Name -->
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ $professorData.nome }}</h1>
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">{{ $professorData.nome }}</h1>
 
-        <!-- Area Badge -->
-        {{ $areas := .Site.Data.areas.areas }}
-        {{ $areaId := $professorData.area }}
-        {{ $areaData := "" }}
-        {{ if eq $areaId "eam1" }}
-          {{ $areaData = $areas.eam1 }}
-        {{ else if eq $areaId "eam2" }}
-          {{ $areaData = $areas.eam2 }}
-        {{ else if eq $areaId "eam3" }}
-          {{ $areaData = $areas.eam3 }}
-        {{ end }}
-        {{ if $areaData }}
+        <!-- Departamento Badge -->
+        {{ if $deptData }}
           <div class="mb-4">
-            <a href="{{ $.Site.BaseURL }}{{ $.Site.Language.Lang }}/areas/{{ $professorData.area }}/"
-               class="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold hover:bg-blue-200 transition-colors">
-              {{ if eq $.Site.Language.Lang "pt" }}
-                {{ $areaData.nome_pt }}
-              {{ else }}
-                {{ $areaData.nome_en }}
-              {{ end }}
-            </a>
+            <span class="inline-block px-3 py-1 rounded-full text-sm font-semibold text-white"
+                  style="background-color: {{ $deptColor }};">
+              {{ $deptData.sigla }} —
+              {{ if eq $.Language.Lang "en" }}{{ $deptData.nome_en }}{{ else }}{{ $deptData.nome_pt }}{{ end }}
+            </span>
           </div>
         {{ end }}
 
@@ -91,7 +91,7 @@
                   <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                 </svg>
                 <span>
-                  {{ if eq $.Site.Language.Lang "pt" }}
+                  {{ if eq $.Language.Lang "pt" }}
                     Bolsista CNPq {{ if ne . "Sim" }}{{ . | replaceRE "^Sim - " "" }}{{ end }}
                   {{ else }}
                     CNPq Fellow {{ if ne . "Sim" }}{{ . | replaceRE "^Sim - " "" }}{{ end }}
@@ -107,7 +107,8 @@
           <div class="flex flex-wrap gap-3 mb-6 p-4 bg-gray-50 rounded-lg">
             {{ if gt $pubCount 0 }}
               <a href="#publicacoes"
-                 class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-sm font-medium transition-colors">
+                 class="inline-flex items-center gap-2 px-4 py-2 text-white rounded-lg text-sm font-medium transition-colors hover:opacity-90"
+                 style="background-color: {{ $deptColor }};">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
                 </svg>
@@ -210,26 +211,33 @@
         </div>
 
         <!-- Research Lines -->
-        <div>
-          <h2 class="text-xl font-semibold text-gray-900 mb-3">{{ i18n "research_lines" }}</h2>
-          {{ $lines := index $professorData.linhas_pesquisa $.Site.Language.Lang }}
-          {{ if $lines }}
-            <ul class="space-y-2">
-              {{ range $lines }}
-                <li class="flex items-start">
-                  <span class="text-blue-500 mr-2 mt-1">•</span>
-                  <span class="text-gray-700">{{ . }}</span>
-                </li>
-              {{ end }}
-            </ul>
-          {{ else }}
-            <p class="text-gray-500 italic">{{ i18n "no_research_lines" }}</p>
-          {{ end }}
+        {{ $lines := index $professorData.linhas_pesquisa $.Language.Lang }}
+        {{ if $lines }}
+        <div class="mb-4">
+          <h2 class="text-lg font-semibold text-gray-900 mb-2">{{ i18n "research_lines" }}</h2>
+          <ul class="space-y-1">
+            {{ range $lines }}
+              <li class="flex items-start">
+                <span class="mr-2 mt-1" style="color: {{ $deptColor }};">•</span>
+                <span class="text-gray-700">{{ . }}</span>
+              </li>
+            {{ end }}
+          </ul>
         </div>
+        {{ end }}
+
+        <!-- Bio -->
+        {{ $resumo := index $professorData.resumo $.Language.Lang }}
+        {{ if $resumo }}
+        <div class="mb-4">
+          <h2 class="text-lg font-semibold text-gray-900 mb-2">{{ if eq $.Language.Lang "pt" }}Biografia{{ else }}Biography{{ end }}</h2>
+          <p class="text-sm text-gray-700 leading-relaxed">{{ $resumo }}</p>
+        </div>
+        {{ end }}
 
         <!-- Last Update -->
         {{ with $professorData.metrics.ultima_atualizacao }}
-          <div class="mt-4 text-xs text-gray-500">
+          <div class="mt-4 text-xs text-gray-400">
             {{ i18n "last_update" }}: {{ . }}
           </div>
         {{ end }}
@@ -285,7 +293,8 @@
       {{ if gt (len $pubs) 10 }}
         <div id="pub-show-more-container" class="mt-6 text-center">
           <button id="pub-show-more"
-                  class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
+                  class="inline-flex items-center gap-2 px-6 py-3 text-white rounded-lg font-medium transition-colors hover:opacity-90"
+                  style="background-color: {{ $deptColor }};"
                   data-total="{{ len $pubs }}"
                   data-showing="10">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -413,7 +422,7 @@
               <div class="supervision-item {{ if ge $idx 10 }}hidden{{ end }}" data-index="{{ $idx }}">
                 <div class="border-l-4 {{ if eq (index (split $thesisData.course " ") 0) "Doutorado" }}border-purple-400{{ else }}border-green-400{{ end }} pl-4 py-2">
                   <div class="flex items-start justify-between gap-2">
-                    <a href="/{{ $.Site.Language.Lang }}/teses/{{ $sup.id }}/"
+                    <a href="/{{ $.Language.Lang }}/teses/{{ $sup.id }}/"
                        class="text-blue-600 hover:text-blue-800 hover:underline font-medium flex-1">
                       {{ $thesisData.title | truncate 120 }}
                     </a>

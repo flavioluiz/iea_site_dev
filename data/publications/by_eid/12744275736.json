@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-12744275736",
+  "eid": "2-s2.0-12744275736",
+  "doi": "10.1142/S0218127401003644",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Bifurcation and chaos in the second oscillatory window of the classical pierce diode",
+  "abstract": "The second oscillatory window of the classical Pierce diode is explored by a particle-in-cell simulation, and for the first time, results that support the existence of another chaotic region are presented. The classical Pierce model consists of a one-dimensional plasma-filled diode into which a monoenergetic electron beam is injected. This system presents a rich dynamical behavior as a function of a single control parameter α (the electron transit angle) and has four different operating regimes: stable, oscillatory, chaotic and unstable oscillatory with virtual cathode formation. The second oscillatory region, revealed by linear approximation analysis, presents a similar dynamical behavior to the first one, studied by many works and located below α = 3π. By gradually diminishing a from 5π, we report here, through numerical experiments, the existence of a sequence of subharmonic bifurcations leading to chaos, periodic windows, and a crisis from which just unstable oscillations with virtual cathode can be observed.",
+  "authkeywords": null,
+  "year": "2001",
+  "date": "2001-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Bifurcation and Chaos in Applied Sciences and Engineering",
+    "issn": "02181274",
+    "eissn": null,
+    "volume": "11",
+    "issue": "10",
+    "pages": "2579-2586",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barroso, J. J.",
+      "scopus_id": "7103318266",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, M. O.",
+      "scopus_id": "7003287545",
+      "affiliation": "60012729",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    },
+    {
+      "name": "Macau, E. E.N.",
+      "scopus_id": "6701767295",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (miscellaneous)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Multidisciplinary",
+        "abbrev": "MULT",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=12744275736&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068598",
+    "data_quality_score": 90
+  }
+}

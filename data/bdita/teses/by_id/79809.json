@@ -1,0 +1,30 @@
+{
+  "num_tese": "79809",
+  "type": "tese",
+  "title": "Análise numérica de operaçăo transitória da turbina axial hidráulica utilizada no motor do space shuttle",
+  "author": "Daniel Ferreira Corręa Barbosa",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo estudar o comportamento transitório do escoamento em turbomáquinas em condiçőes de operaçăo com baixo valor de Blade-jet-speed ratio distante do Ponto de Projeto (do inglęs, Design Point, DP), aplicando-se a problemas modelados através da técnica de Dinâmica dos Fluidos Computacional (do inglęs, Computational Fluid Dynamics, CFD), neste caso, em um estágio de turbina axial hidráulica usada como booster de uma Turbobomba do Spece Shuttle. No estudo de turbomáquinas, apesar do escoamento sempre ser transitório, geralmente o escoamento pode ser aproximado como em regime estacionário, principalmente quando se trabalha com o DP. No entanto, esta aproximaçăo torna-se imprecisa quando se estudam condiçőes operacionais distantes do DP e apresentam muitas oscilaçőes numéricas de amplitudes năo desprezíveis devido ŕ relevância dos fenômenos transitórios. Os principais fenômenos associados ŕ transitoriedade do escoamento neste tipo de turbomáquinas săo a formaçăo de vórtices e cavitaçăo que săo produzidos na interface entre a saída do estator e a entrada do rotor. A turbomáquina considerada no presente trabalho é o primeiro estágio da turbina axial hidráulica usada como booster da Turbobomba Oxidante de Baixa Pressăo (LPOTP) do Motor Principal do Ônibus Espacial (SSME), considerando a configuraçăo de folga de ponta de 3,0% em relaçăo ŕ altura da pá do rotor. Todas as simulaçőes foram realizadas utilizando o software comercial da ANSYS CFX v.19.2. Todas as configuraçőes numéricas e como as condiçőes de contorno foram impostas em diferentes superfícies săo explicadas no trabalho. Os resultados das simulaçőes numéricas foram sintetizados e comparados com os dados experimentais publicados pela National Aeronautics and Space Administration (NASA), nos quais a eficięncia da turbina e seu parâmetro de blade-jet-speed ratio săo analisados para resultados. O fluido de trabalho definido nas simulaçőes numéricas foi a água, pois este foi o fluido utilizado nos testes experimentais. Em contraste com a interface Mixing Plane utilizada em simulaçőes estacionárias anteriores, neste trabalho empregou-se a interface Sliding mesh, a qual captura de forma mais eficaz as características do escoamento na saída do estator e entrada no rotor. A comparaçăo entre os resultados da simulaçăo transitória com os resultados experimentais revelou uma maior aproximaçăo. A análise de componentes de frequęncia do padrăo oscilatório dos resultados de eficięncia e Blade-jet-speed ratio evidenciou uma relaçăo com parâmetros geométricos do escoamento, frequęncia do rotor e do estator.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Turbinas axiais",
+    "Análise numérica",
+    "Estado estacionário",
+    "Escoamento",
+    "Turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79809",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79809&origem=BDITA"
+}

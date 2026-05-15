@@ -1,0 +1,31 @@
+{
+  "num_tese": "000557754",
+  "type": "tese",
+  "title": "Utilizaçăo da técnica de CFD para simulaçăo do sangue em artéria humana.",
+  "author": "Valdirene Morais Brambatti",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O sangue é um fluido complexo cujas propriedades săo significativamente afetadas pelo arranjo, orientaçăo e deformabilidade dos glóbulos vermelhos. O estudo do escoamento sangüíneo é extremamente importante, visto que o desenvolvimento de muitas patologias cardiovasculares estăo relacionadas com a variaçăo de suas características frente ŕ circulaçăo sanguínea. Nesse sentido a hemodinâmica tęm sido freqüentemente utilizada para obter melhor compreensăo dos aspectos funcionais, diagnóstico e terapęuticos. Devido ŕ complexidade da reologia do escoamento sanguíneo, năo existe um modelo universal para representar a propriedade viscosa do sangue, entretanto encontramos diferentes classificaçőes que descrevem o comportamento năo-Newtoniano do sangue com base em diversas variáveis e graus de precisăo. No presente estudo, o método de volumes finitos é utilizado para analisar o escoamento sanguíneo em uma bifurcaçăo da carótida humana. Foi adotado um modelo tridimensional de fluido incompressível em regime permanente e transiente. A equaçăo da quantidade de movimento foi resolvida empregando tręs funçőes de viscosidade năo-newtonianas: Power-Law, Carreau e Casson, bem como o modelo newtoniano. Foram obtidos resultados para a distribuiçăo da tensăo de cisalhamento na parede e perfis de velocidade na direçăo axial e radial, utilizando o modelo newtoniano e os modelos de viscosidade năo-Newtoniana. Posteriormente, o estudo analisou o escoamento sanguíneo sob regime pulsátil utilizando o modelo de Casson. A soluçăo numérica foi obtida utilizando uma condiçăo de velocidade dependente do tempo na entrada da artéria carótida com objetivo de incluir o efeito pulsátil ao escoamento. Os resultados demonstraram que é fundamental a utilizaçăo do modelo năo-Newtoniano para analisar o escoamento sangüíneo em artérias com variaçőes geométricas por apresentar regiőes com baixos valores de velocidade e tensăo de cisalhamento.",
+  "subjects": [
+    "Pressăo sanguínea",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Simulaçăo",
+    "Método de volume finito",
+    "Escoamento laminar",
+    "Física",
+    "Medicina"
+  ],
+  "defense_date": "26/01/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557754",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557754&origem=BDITA"
+}

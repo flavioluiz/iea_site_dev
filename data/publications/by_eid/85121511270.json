@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85121511270",
+  "eid": "2-s2.0-85121511270",
+  "doi": "10.1121/10.0008973",
+  "pii": null,
+  "pubmed_id": "34972286",
+  "title": "Real-time supersonic jet noise predictions from near-field sensors with a wavepacket model",
+  "abstract": "© 2021 Acoustical Society of America.Parabolized stability equations (PSE) have been shown to model wavepackets and, consequently, the near-field of turbulent jets with reasonable accuracy. In this work, PSE were employed to obtain a reduced-order model that could estimate both the fluid-dynamic and the acoustic fields of a supersonic jet in a computationally efficient approximation for resolvent-based estimation based on a single input. From the unsteady pressure data at an input position, the time-domain pressure field was estimated using transfer functions obtained using PSE and a data-driven method based on a well-validated large-eddy simulation (LES). The prediction scheme employed is a single-input single-output, linear model. The unsteady pressure predicted by the PSE showed good agreement with the LES results, especially if the input position is outside the mixing layer, where the prediction capabilities of the PSE are comparable to those of the data-driven transfer functions. The good agreement indicates that PSE could not only be used to predict the sound generation but also to open up different potentialities to attenuate the noise by flow control. The exploration of the regions where the method displayed good agreement, which are presented in this work, can guide the positioning of the sensors for experimental implementation of closed-loop control in a jet.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Acoustical Society of America",
+    "issn": "00014966",
+    "eissn": "15208524",
+    "volume": "150",
+    "issue": "6",
+    "pages": "4297-4307",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Kleine, Vitor G.",
+      "scopus_id": "57193867121",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vitor-gabriel-kleine"
+    },
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vitor-gabriel-kleine",
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Arts and Humanities (miscellaneous)",
+        "abbrev": "ARTS",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85121511270&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.079394",
+    "data_quality_score": 90
+  }
+}

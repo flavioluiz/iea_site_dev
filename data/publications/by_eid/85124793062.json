@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85124793062",
+  "eid": "2-s2.0-85124793062",
+  "doi": "10.1007/s40430-022-03383-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Parametric determination of fuel consumption during cruise flight for fuel cell powered airplanes",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.With increasing pressure to lower pollutant emissions, the aerospace industry has turned its attention to the design of more efficient aircraft. Electric airplanes are seen as one of the most promising solutions to this problem, and significant investments are being made to develop this type of aircraft. Since the electric propulsion system is distinct from those based on internal combustion engines, the performance characteristics of all-electric airplanes can be significantly different from that of regular aircraft. An important element of this new type of propulsion system, and one of the reasons for its unique characteristics, is the power source. Fuel cells are one of the main embedded power sources employed to provide electricity in vehicles, and its use to power electric airplanes is currently being researched. This work presents an analytical investigation of fuel and oxidizer consumption during the cruise flight of all-electric aircraft powered by fuel cells. This study is relevant because cruise flight usually is the crucial phase that drives aircraft design requirements in what concerns energy requirements. A novel formulation is developed, and parametric models are provided for the airplane relevant systems. New analytical solutions are derived in parametric, closed form, allowing quick calculations and eliminating the need for numerical solvers and possible convergence issues. Also, simulations are provided to illustrate the method developed in the article. The results show that the optimal velocities for minimal consumption can be higher than predicted by conventional methods.",
+  "authkeywords": [
+    "Electric aircraft",
+    "Flight mechanics",
+    "Flight performance",
+    "Fuel cell",
+    "Green aircraft"
+  ],
+  "year": "2022",
+  "date": "2022-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "3",
+    "pages": null,
+    "article_number": "78"
+  },
+  "authors": [
+    {
+      "name": "Barufaldi, Guilherme N.",
+      "scopus_id": "57209885275",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morales, Mauricio A.V.",
+      "scopus_id": "57191905807",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto Gil A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124793062&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066768",
+    "data_quality_score": 100
+  }
+}

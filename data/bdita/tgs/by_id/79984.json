@@ -1,0 +1,31 @@
+{
+  "num_tg": "79984",
+  "type": "tg",
+  "title": "Uso de modelos estatísticos e de aprendizado de máquina para identificaçăo e classificaçăo de subdesempenho em aerogeradores",
+  "author": "Vinícius Ballestrin da Cruz",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Paulo André Lima de Castro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Henrique Bezerra Diógenes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A matriz energética mundial é caracterizada pela predominância de fontes năo renováveis, como os combustíveis fósseis. Nesse contexto, a transiçăo para uma matriz energética mais sustentável é essencial para o desenvolvimento sustentável do planeta. O Brasil, diferentemente de grande parte do mundo, possui uma matriz energética majoritariamente composta por fontes renováveis, com destaque para a energia eólica, que é a segunda maior fonte de geraçăo no país. A eficięncia da operaçăo e manutençăo da frota de aerogeradores depende da identificaçăo eficaz de anomalias operacionais e da compreensăo de suas causas, elementos cruciais para aumentar a eficięncia da produçăo de energia eólica. O objetivo deste trabalho é estudar métodos para identificaçăo e classificaçăo de anomalias em aerogeradores, além de identificar suas causas. Para isso, foram aplicados diversos modelos estatísticos e técnicas de aprendizado de máquina. Os modelos desenvolvidos para a identificaçăo de anomalias superaram algumas limitaçőes dos métodos tradicionais, embora tenham apresentado uma variância elevada em suas prediçőes, o que compromete sua eficięncia em relaçăo a esses métodos. Por outro lado, os modelos utilizados para a classificaçăo das anomalias mostraram bom desempenho na identificaçăo dos componentes afetados, além de superar as desvantagens dos métodos tradicionais, como a detecçăo de falhas nos medidores de vento (anemômetros).",
+  "subjects": [
+    "Análise estatística",
+    "Geradores de energia eólica",
+    "Anomalias",
+    "Aprendizagem (inteligęncia artificial)",
+    "Planejamento estratégico",
+    "Administraçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79984",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79984&origem=BDITA"
+}

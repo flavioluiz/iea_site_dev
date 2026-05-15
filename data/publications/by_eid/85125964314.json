@@ -1,0 +1,112 @@
+{
+  "publication_id": "2-s2.0-85125964314",
+  "eid": "2-s2.0-85125964314",
+  "doi": "10.1007/s40430-022-03384-3",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Hybrid optimization algorithm for preliminary design of multistage launch vehicles",
+  "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.The objective of this work is to establish a set of procedures by applying computational tools to find optimal key parameters for the preliminary design of an expendable multistage launch vehicle starting from a specific set of mission requirements. In order to achieve this objective, the decomposition of the problem is made through an evaluation of the main disciplines related to the preliminary design of launch vehicles. Then, through the application of multidisciplinary design optimization methodologies, two solution methods are implemented in this work: the Multiple Subarc Gradient Restoration Algorithm and the Genetic Algorithm. These algorithms solve, respectively, the optimal control problem associated with the flight trajectory and propulsive curve optimization and the optimization problem of solid rocket motors. As an illustration of the method, for the problem proposed, while MSGRA achieved a fast optimization of the trajectory and the thrust profile, GA evaluated a total of 12,000 rocket motor configurations with 1721 Pareto designs achieved. Finally, an extensive analysis is made to the solutions obtained by these algorithms, and a multicriteria decision tool was applied to obtain a feasible two-stage launch vehicle.",
+  "authkeywords": [
+    "Hybrid algorithms",
+    "Launch vehicles",
+    "Optimization",
+    "Optimum control",
+    "Preliminary design",
+    "Solid rocket motors"
+  ],
+  "year": "2022",
+  "date": "2022-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "44",
+    "issue": "3",
+    "pages": null,
+    "article_number": "103"
+  },
+  "authors": [
+    {
+      "name": "Muniz do Nascimento, Luiz Gustavo",
+      "scopus_id": "57480856500",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maia Araújo, Levi",
+      "scopus_id": "57480815200",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "Kiyoshi Shimote, Wilson",
+      "scopus_id": "36997477600",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Roversi Rapozo, Rodrigo",
+      "scopus_id": "57480875700",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85125964314&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081640",
+    "data_quality_score": 100
+  }
+}

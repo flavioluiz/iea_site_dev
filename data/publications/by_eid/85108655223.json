@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85108655223",
+  "eid": "2-s2.0-85108655223",
+  "doi": "10.1007/s10928-021-09769-6",
+  "pii": null,
+  "pubmed_id": "34156631",
+  "title": "Optimal control for colistin dosage selection",
+  "abstract": "© 2021, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.Optimization of antibiotic administration helps minimizing cases of bacterial resistance. Dosages are often selected by trial and error using a pharmacokinetic (PK) model. However, this is limited to the range of tested dosages, restraining possible treatment choices, especially for the loading doses. Colistin is a last-resort antibiotic with a narrow therapeutic window; therefore, its administration should avoid subtherapeutic or toxic concentrations. This study formulates an optimal control problem for dosage selection of colistin based on a PK model, minimizing deviations of colistin concentration to a target value and allowing a specific dosage optimization for a given individual. An adjoint model was used to provide the sensitivity of concentration deviations to dose changes. A three-compartment PK model was adopted. The standard deviation between colistin plasma concentrations and a target set at 2 mg/L was minimized for some chosen treatments and sample patients. Significantly lower deviations from the target concentration are obtained for shorter administration intervals (e.g. every 8 h) compared to longer ones (e.g. every 24 h). For patients with normal or altered renal function, the optimal loading dose regimen should be divided into two or more administrations to attain the target concentration quickly, with a high first loading dose followed by much lower ones. This regimen is not easily obtained by trial and error, highlighting advantages of the method. The present method is a refined optimization of antibiotic dosage for the treatment of infections. Results for colistin suggest significant improvement in treatment avoiding subtherapeutic or toxic concentrations.",
+  "authkeywords": [
+    "Colistin",
+    "Optimal control",
+    "Optimization of drug administration",
+    "PK model"
+  ],
+  "year": "2021",
+  "date": "2021-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Pharmacokinetics and Pharmacodynamics",
+    "issn": "1567567X",
+    "eissn": "15738744",
+    "volume": "48",
+    "issue": "6",
+    "pages": "803-813",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gontijo, Aline Vidal Lacerda",
+      "scopus_id": "55329077700",
+      "affiliation": "60002101-60281103",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Pharmacology",
+        "abbrev": "PHAR",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108655223&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100733",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "num_tese": "65616",
+  "type": "tese",
+  "title": "Uma metodologia de projeto de combustores para turbinas a gás",
+  "author": "Eduardo Oliveira",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A proposta desta pesquisa é realizar um estudo numérico da utilizaçăo do etanol como combustível alternativo em turbinas a gás, seguindo a tendęncia mundial na busca por combustíveis menos poluentes. Esta pesquisa tem como principal objetivo, identificar o impacto da mudança do combustível na metodologia corrente de projeto de câmaras de combustăo de turbinas a gás. Como ferramenta principal, é utilizado pacote computacional de CFD - \"Computational Fluid Dynamics\" - para simulaçăo dos escoamentos reativos no interior dos combustores analisados. O presente trabalho é parte de um esforço para o desenvolvimento de metodologia para projeto de câmaras de combustăo de turbinas a gás voltadas a utilizaçăo de etanol como combustível, de forma eficiente. Em grande parte, isto depende do posicionamento otimizado dos furos de admissăo de ar para as zonas primária e secundária, no que tange o grau de homogeneizaçăo da temperatura dos gases ŕ saída do combustor, ou \"temperature traverse quality\" (T.T.Q.), ou TQ simplesmente. Para tanto, utiliza-se critérios de projeto unidimensionais para projeto preliminar de combustores ';genéricos';, equivalentes a combustores existentes, tomados como referęncia. Posteriormente, procede-se ŕ verificaçăo da qualidade do escoamento no interior da câmara de combustăo através de simulaçőes computacionais (CFD) para cálculo do escoamento 3D, bifásico (spray), viscoso, compressível, turbulento, radiante e reativo. Os resultados demonstram a viabilidade técnica de utilizaçăo do etanol como combustível. As dimensőes do combustor a etanol săo compatíveis com aquelas obtidas no projeto de combustores a querosene de aviaçăo. É possível a identificaçăo do posicionamento ótimo das fileiras de furos das zonas primária e secundária ao longo do eixo longitudinal do combustor. Os valores de eficięncia térmica, TQ e de emissőes para alguns poluentes săo compatíveis com aqueles encontrados na literatura. Resultados dos cálculos em CFD e parâmetros utilizados no dimensionamento preliminar para mínimo TQ săo correlacionados ao final.",
+  "subjects": [
+    "Turbinas a gás",
+    "Dinâmica dos fluidos computacional",
+    "Álcool etílico",
+    "Câmaras de combustăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65616",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65616&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000551396",
+  "type": "tese",
+  "title": "Modelo de geraçăo de tarifa de ruído aeronáutico utilizando lógica fuzzy.",
+  "author": "Rogéria de Arantes Gomes",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Protógenes Pires Porto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O ruído aeronáutico é apontado como um dos principais impactos ambientais provocados pelo transporte aéreo. Em todo o mundo, o aumento do tráfego de aeronaves, associado ao aumento da conscięncia ambiental e da expectativa de qualidade de vida, tem provocado uma demanda social por medidas de mitigaçăo do incômodo causado pelo ruído. De modo geral, as medidas de mitigaçăo podem ser de comando e controle, representadas por alteraçőes nos gabaritos de aproximaçăo das aeronaves, proibiçăo da operaçăo das aeronaves mais ruidosas e de vôos noturnos, entre outras, e, também, por medidas chamadas de instrumentos econômicos, como as tarifas de ruído aplicadas ŕs companhias aéreas. Essas tarifas, associadas aos instrumentos de comando e controle, tęm se mostrado eficazes no tratamento do ruído aeronáutico. No Brasil săo aplicadas apenas medidas de comando e controle. Este trabalho propőe um modelo de tarifa de ruído aeronáutico a ser aplicado ŕs companhias aéreas que operam no Aeroporto Internacional de Săo Paulo Governador André Franco Montoro, situado em Guarulhos. O município de Guarulhos tem mais de 1.200.000 habitantes e 17 bairros em área crítica de ruído aeronáutico. Nesta pesquisa, para modelagem do custo causado pelo incômodo, utilizou-se duas variáveis: o ruído emitido pelas aeronaves, de acordo com dados da Federal Aviation Administration (FAA), órgăo regulador americano, e uma variável de percepçăo subjetiva em relaçăo ao incômodo, cujas medidas foram tomadas por meio de questionários aplicados ŕ populaçăo que reside na área de ruído com o objetivo de definir os horários do dia em que o incômodo por causa do ruído é maior. Para a primeira variável, que considera o ruído medido, foram analisadas 363 aeronaves diferentes, e para a variável de ruído percebido, foram obtidos 248 questionários válidos. A modelagem das variáveis foi realizada utilizando Lógica Fuzzy. Por meio da aplicaçăo do Modelo de Larsen, foram considerados, simultaneamente, o ruído medido na homologaçăo das aeronaves e o ruído percebido pelas pessoas. Esses dados apresentam assimetria em razăo da forte componente subjetiva da percepçăo de desconforto e incômodo. O resultado foi a criaçăo de um multiplicador a ser aplicado ŕs tarifas de pouso vigentes no Aeroporto Internacional de Săo Paulo. O valor do multiplicador varia entre 0.8 e 1.2, o que significa que uma aeronave que apresente ruído considerado fraco, voando em horário de incômodo năo significativo, pode receber uma reduçăo na tarifa de pouso, como incentivo. Por outro lado, aeronaves mais ruidosas e/ou que operem em horários de incômodo crítico, como no período noturno por exemplo, podem pagar até 20% de sobretarifa na tarifa de pouso, representando a parcela destinada a cobrir os custos provocados pelo ruído sobre a populaçăo, bem como encorajar as companhias aéreas na utilizaçăo de aeronaves mais silenciosas. Os resultados obtidos se mostraram consistentes com o objetivo do trabalho. A aplicaçăo desse tipo de tarifa faz parte das medidas de políticas públicas e este modelo é uma ferramenta de auxílio ao tomador de decisőes no sentido de se atingir um modelo de gestăo aeroportuária mais moderno e condizente com os anseios da populaçăo.",
+  "subjects": [
+    "Ruído de aeronaves",
+    "Tarifas",
+    "Lógica nebulosa",
+    "Modelos matemáticos",
+    "Planejamento de aeroportos",
+    "Administraçăo de transportes",
+    "Economia"
+  ],
+  "defense_date": "09/02/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551396",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551396&origem=BDITA"
+}

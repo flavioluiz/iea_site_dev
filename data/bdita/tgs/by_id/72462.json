@@ -1,0 +1,27 @@
+{
+  "num_tg": "72462",
+  "type": "tg",
+  "title": "A composite wing weight estimation method",
+  "author": "Jônatas Rafael Rodrigues Hernandes",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Composite materials behavior are hard to predict, due to its non-isotropic physical properties they are commonly classified as being no material before the object existence. Methods for estimating the weight of aircraft structural parts built with composites used during aircraft conceptual design are based on the application of fudge factors over the weight of metal structural parts. A new method is proposed making using of constraint programming, the stacking sequence is generated based of the previous knowledge in composite design. A Python library called facile is used for building the software that implements the method. Once the stacking is generated the laminated composite plate is subject to the composite design criteria and if the plate is not well constructed a new stacking is demanded to the constraint programming part. Stacking sequences generated with the new method are compared with stacking references and the comparison shows good results. In terms of time of execution the tool shows good times also, which prove that it can be used for large iterations when generating the components of a complex structure like a wing",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Materiais compostos",
+    "Análise de peso",
+    "Sistemas especialistas",
+    "Automaçăo",
+    "Estruturas de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72462",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72462&origem=BDITA"
+}

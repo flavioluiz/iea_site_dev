@@ -1,12 +1,16 @@
 # Site info
 organization: "Instituto Tecnológico de Aeronáutica"
-division_name: "AER"
+division_name: "IEA"
 division_full_name_pt: "Divisão de Engenharia Aeronáutica e Aeroespacial"
 division_full_name_en: "Division of Aeronautical and Aerospace Engineering"
 
 # Division head
 chefe:
-  nome: ""
+  nome: "Roberto Gil Annes da Silva"
+  email: ""
+  lattes: ""
+vice_chefe:
+  nome: "Flávio Luiz Cardoso Ribeiro"
   email: ""
   lattes: ""
 
@@ -42,11 +46,11 @@ preliminary_notice:
   enabled: true
   message_pt: >-
     Este site está em versão preliminar (draft). Informações, contatos
-    e documentos devem ser conferidos em fontes oficiais da AER/ITA.
+    e documentos devem ser conferidos em fontes oficiais da IEA/ITA.
     Os e-mails exibidos nesta fase são ilustrativos e podem não estar ativos.
   message_en: >-
     This website is a preliminary (draft) version. Information, contacts,
-    and documents must be verified with official AER/ITA sources.
+    and documents must be verified with official IEA/ITA sources.
     Emails shown at this stage are illustrative and may not be active.
 
 # Footer

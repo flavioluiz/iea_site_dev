@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85141587270",
+  "eid": "2-s2.0-85141587270",
+  "doi": "10.1103/PhysRevFluids.7.104611",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Parabolic resolvent modes for streaky structures in transitional and turbulent boundary layers",
+  "abstract": "© 2022 authors. Published by the American Physical Society.Resolvent analysis has found applications in several areas of fluid mechanics, providing physical insight into both laminar and turbulent flows. In spite of such fact, the global (3D) resolvent is computationally expensive, which limits the size of the domain and the Reynolds number of the flows which can be considered. In this work, we derive a parabolic resolvent approach, which enables a significant increase in the computational efficiency of the calculation, for streaky structures in boundary layer flows. The computational speedup depends on the size of the problem and could be of more than one order of magnitude for the same accuracy as the global calculation. The method is derived based on an optimization method via the Lagrange multipliers over the linearized boundary layer equations and it is coupled to a Krylov-Arnoldi decomposition to the computation of suboptimals. The application of the method is exemplified for two problems: A Falkner-Skan boundary layer, where we obtain trends for both the optimals and suboptimals, and a turbulent boundary layer, where characteristics such as the double peak in the spectrum and the characteristic inner and outer length scales can be recovered when a variable eddy viscosity is considered. In both cases, a scaling is found for the dominant gain, given in terms of the fourth power of the Reynolds number, defined in terms of the relevant scale for the problem, the displacement thickness, and the modified Rotta-Clauser parameter for the laminar and turbulent boundary layers, respectively. For the laminar case, we further demonstrate that a forcing limited to the free-stream region is capable of generating streaky structures inside the boundary layer, a relevant feature for free-stream turbulence-induced transition.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "7",
+    "issue": "10",
+    "pages": null,
+    "article_number": "104611"
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Hanifi, Ardeshir",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 69,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141587270&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100564",
+    "data_quality_score": 90
+  }
+}

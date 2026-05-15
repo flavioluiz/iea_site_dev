@@ -1,0 +1,127 @@
+{
+  "publication_id": "2-s2.0-85107597413",
+  "eid": "2-s2.0-85107597413",
+  "doi": "10.1109/INERTIAL51137.2021.9430459",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Method for the Synchronization of Data Recorders by Coupling Accelerometer Data",
+  "abstract": "© 2021 IEEE.This paper presents a method to synchronize data acquisition devices that are mechanically coupled, having attached an accelerometer to each device. A common time base for the accelerometer signals are obtained through the identification of pairing salient peaks and applying line-fitting through the potential matches. Aligning data recorded from different sources is important to precisely provide an observation of the state of a system in time (sensor fusion), to estimate the correlation between its variables and to correlate variables to time-based events. A data link between devices is not always possible or convenient. If the acquisition devices are mechanically coupled, such as being in the same body or vehicle, we propose to synchronize the data recorded from both by using the accelerometers signals to bridge. The provided solution is an automated process to find the temporal reference between accelerometer signals. Several signal processing steps are taken after data collection and storage: inconsistency removal and filtering, detection of maxima and minima, selection of saliencies, description through a characteristic pair of numbers: the interval lengths between it and its successor and its predecessor, listing possible matches between salient points, selection of the topmost relevant matches and line fitting with consensus. We discuss qualitative similarities of related work. Quantitative results are also presented by using the multidisciplinary study that motivated this work, with simultaneous data from the instrumentation of a helicopter and pilot physiological data. To conclude, we discuss the limitations of the presented approach and future work.",
+  "authkeywords": [
+    "autorotation",
+    "consensus line fitting",
+    "data alignment",
+    "data fusion",
+    "matching",
+    "synchronization"
+  ],
+  "year": "2021",
+  "date": "2021-03-22",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Inertial 2021 8th IEEE International Symposium on Inertial Sensors and Systems Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "9430459"
+  },
+  "authors": [
+    {
+      "name": "Silva Scarpari, Jose Ricardo",
+      "scopus_id": "56732972800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Deolindo, Camila Sardeto",
+      "scopus_id": "56495612700",
+      "affiliation": "60016295",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Albano Aratanha, Maria Adelia",
+      "scopus_id": "56495412100",
+      "affiliation": "60016295",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Mauricio Watanabe",
+      "scopus_id": "57194184557",
+      "affiliation": "60016295",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Souza, Anderson",
+      "scopus_id": "57224455288",
+      "affiliation": "116667691",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kozasa, Elisa Harumi",
+      "scopus_id": "6507339761",
+      "affiliation": "60016295",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hirata, Daisy",
+      "scopus_id": "57222390386",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Matieli, Jose Elias",
+      "scopus_id": "57194412892",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Annes Da Silva, Roberto Gil",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Forster, Carlos Henrique",
+      "scopus_id": "19337099700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107597413&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.066865",
+    "data_quality_score": 100
+  }
+}

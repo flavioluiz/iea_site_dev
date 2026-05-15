@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85072458173",
+  "eid": "2-s2.0-85072458173",
+  "doi": "10.4271/2002-01-3577",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Preliminary wing design optimization: A knowledge-based engineering application",
+  "abstract": "In the aeronautic industry it is known that optimal layout design of wing boxes is achieved through weight minimization with obvious improvements in the design process. Thus, a wing box pre-design optimization tool is developed using a knowledge-based engineering approach. The objective is to find an initial minimum weight design that satisfies structural constraints as well as design requirements (e.g. wing loft), based on load envelopes and stress analyses. All the calculations involved are performed using analytical expressions and graphs available in the literature. The numerical procedure implemented obtains the optimal number of ribs per wing box (main and trailing), the optimal number of stringers per rib bay and optimal sizing of all structural components (skin, spars, ribs and stringers). This procedure guarantees that acceptable margins of safety and functionality requirements are met. The automation of the process is important in this particular application given the enormous amount of data to be considered in a short period of time. Copyright © 2002 Society of Automotive Engineers, Inc.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": "01487191",
+    "eissn": "26883627",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "De Paula, Cristina Ferreira",
+      "scopus_id": "6701621387",
+      "affiliation": "123196870",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Paulo Anchieta",
+      "scopus_id": "55693285700",
+      "affiliation": "123196870",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 3,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85072458173&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044738",
+    "data_quality_score": 80
+  }
+}

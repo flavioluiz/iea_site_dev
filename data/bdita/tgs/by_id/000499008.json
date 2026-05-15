@@ -1,0 +1,28 @@
+{
+  "num_tg": "000499008",
+  "type": "tg",
+  "title": "Study of aerodynamic characteristics of rockets and missiles using engineering methods.",
+  "author": "Grace Rodrigues de Lima",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The primary purpose of this work is to investigate the capability of an aerodynamic rapid prediction computer code to calculate force and moment coefficients of missiles during the conceptual stage of design process. The Missile Datcom was the selected prediction code and its capabilities and limitations are pointed and analyzed through simulations and comparison with experimental data. A brief overview of the history of the development of the code, and also an overview of its calculation and input capabilities is made. Also some considerations about the usage, capabilities and limitations of the Datcom Graphical User Interface are briefly discussed as well as some important lessons learned. The prediction methodologies of some of the coefficients calculated by Missile Datcom are discussed for high and low angles of attack. Finally, this work presents the comparison of analytical and experimental data for various angles of attack, canard deflection and roll attitude for a canard-tail forward-controlled missile configuration . It was verified that the prediction of longitudinal aerodynamic characteristics are in accordance with experimental data for the null roll attitude and for symmetric roll attitude and low angles of attack, however, the prediction of lateral-directional aerodynamic characteristics wasn't satisfying from Engineering point of view and must be improved for better accuracy.",
+  "subjects": [
+    "Projeto de mísseis",
+    "Características aerodinâmicas",
+    "Prediçăo",
+    "Ângulos de ataque",
+    "Simulaçăo computadorizada",
+    "Coeficientes aerodinâmicos",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000499008",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000499008&origem=BDITA"
+}

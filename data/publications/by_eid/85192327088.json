@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-85192327088",
+  "eid": "2-s2.0-85192327088",
+  "doi": "10.1016/j.cma.2024.117025",
+  "pii": "S0045782524002810",
+  "pubmed_id": null,
+  "title": "Joint-mode diffusion analysis of spectral/hp continuous Galerkin methods: Towards superior dissipation estimates for implicit LES",
+  "abstract": "© 2024 Elsevier B.V.We present a new linear eigensolution analysis technique that provides superior estimates of dissipation distribution in wavenumber space for the continuous Galerkin (CG) method. The technique builds upon traditional dispersion–diffusion analyses that have been applied to spectral/hp element methods, but in particular is an improvement upon the non-modal eigenanalysis approach proposed by Fernandez et al. (2019). The present technique takes into account the indirect effects that dispersion may have on dissipation, as recently discussed by Moura et al. (2022), in order to better represent dissipation itself. Also, a concept used by the dynamic mode decomposition (DMD) community is invoked to weight the relative contribution of the multiple diffusion curves that stem from temporal eigenanalysis. This allows for obtaining a single dissipation profile in wavenumber space, so that the proposed technique is named joint-mode analysis. Although the non-modal approach also provides a single diffusion curve, the joint-mode dissipation curve is shown to correlate significantly better with the energy spectrum of Burgers’ turbulence at large and intermediate scales, which is particularly relevant for implicit large-eddy simulation (LES). The proposed technique is readily extensible to other spectral/hp element methods.",
+  "authkeywords": [
+    "Continuous Galerkin method",
+    "Dispersion–diffusion analysis",
+    "Implicit LES",
+    "Spectral element methods",
+    "Temporal eigenanalysis",
+    "Under-resolved DNS"
+  ],
+  "year": "2024",
+  "date": "2024-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computer Methods in Applied Mechanics and Engineering",
+    "issn": "00457825",
+    "eissn": null,
+    "volume": "427",
+    "issue": null,
+    "pages": null,
+    "article_number": "117025"
+  },
+  "authors": [
+    {
+      "name": "Moura, R. C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Fernandes, L. D.",
+      "scopus_id": "57899504200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, A. F.C.",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Sherwin, S. J.",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192327088&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069390",
+    "data_quality_score": 100
+  }
+}

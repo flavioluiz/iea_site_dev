@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85057294483",
+  "eid": "2-s2.0-85057294483",
+  "doi": "10.2514/6.2016-2758",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Closed-loop control of wavepackets in a free shear-flow",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This study aims at the attenuation of the unsteady fluctuations along a two-dimensional mixing layer which may be considered as a prototypical problem for the evaluation of estimation and control techniques, and also a canonical problem, when compressibility is considered, for sound radiation by low-Reynolds-number free shear flows. Two strategies are proposed for the estimation of the time evolution of wavepackets based on upstream data of the simulation: a Parabolised-stability-equation (PSE) based transfer function between two positions and an empirical-transfer-function identification technique, which relies on the theoretical background established by the PSE. Both techniques present a similar performance for prediction of the fluctuations between streamwise-separated input and output positions. Furthermore, the identification method is used to determine the response of the flow to a body force actuation which allows for the elaboration of a Feedforward control framework for the fluctuations via a phase-opposition actuation. This strategy, which is evaluated with three di erent control laws, presents encouraging results both for the linearized system (i.e. described in terms of transfer functions) and for the non-linear, direct numerical simulation of the mixing layer, in which significant delays of vortex pairing are observed. The established framework is thus seen as a promising technique for real-time flow control aiming at the attenuation of wavepackets, and the corresponding reduction of the radiated sound.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Ceas Aeroacoustics Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tissot, Gilles",
+      "scopus_id": "55797353200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Silvestre, Flávio",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Biau, Damien",
+      "scopus_id": "23096869400",
+      "affiliation": "60103671",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057294483&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101750",
+    "data_quality_score": 90
+  }
+}

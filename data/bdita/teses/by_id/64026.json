@@ -1,0 +1,31 @@
+{
+  "num_tese": "64026",
+  "type": "tese",
+  "title": "Towards the robotic assembly of fuselages",
+  "author": "Glauber Lopes Mosqueira",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A constante necessidade de melhoria nos processos de manufatura tem levado a um recente aumento no número de soluçőes automatizadas empregadas na montagem de estruturas aeronáuticas. Um processo de particular interesse para esta indústria é o alinhamento de seçőes de fuselagem, que atualmente é feito ŕ măo ou por sistemas automatizados complexos e de alto custo. O método manual acrescenta um atraso significativo ao tempo de produçăo e a maioria dos sistemas automatizados possui pouca flexibilidade. Esta tese apresenta um sistema de integraçăo implementado em uma soluçăo alternativa de alinhamento que possui baixo custo e alta flexibilidade. Partindo de módulos pré-estabelecidos que incluem de manipuladores industriais a sistemas metrológicos de grande volume, este trabalho abrange os passos necessários para transformar a funcionalidade individual destes elementos em uma célula unificada. Primeiramente, uma análise funcional foi feita e os requisitos do sistema de integraçăo foram detalhados de acordo com o padrăo ECSS-E-ST-40C. Entăo um software foi escrito para implementar a abordagem planejada de acordo com os protocolos de rede requeridos por cada módulo. Uma IHM foi criada para centralizar o controle da célula e auxiliar na supervisăo do processo. Finalmente foram realizados experimentos baseados no padrăo EN ISO 9283 para se determinar qual configuraçăo da célula melhor atende as tolerâncias de alinhamento. A configuraçăo ótima atingiu a posiçăo nominal com uma exatidăo média de 0.16mm e 0.004ş.",
+  "subjects": [
+    "Manutençăo de aeronaves",
+    "Fuselagens",
+    "Controle adaptativo",
+    "Planejamento de processos automatizados por computador",
+    "Reduçăo de custos",
+    "Mecatrônica",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64026",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64026&origem=BDITA"
+}

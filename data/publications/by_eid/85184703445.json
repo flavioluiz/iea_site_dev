@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85184703445",
+  "eid": "2-s2.0-85184703445",
+  "doi": "10.1017/jfm.2020.802",
+  "pii": "S0022112020008022",
+  "pubmed_id": null,
+  "title": "The colour of forcing statistics in resolvent analyses of turbulent channel flows",
+  "abstract": "© The Author(s), 2020.In resolvent analyses of turbulent channel flows it has been common practice to neglect or model the nonlinear forcing term that forms the input of the resolvent. However, the spatiotemporal structure of this term is mostly unknown. Here, this nonlinear forcing term is quantified. The Fourier transform of its two-point space-time correlation, its cross-spectral density (CSD), is computed. The CSD is evaluated for two channel flows at friction Reynolds numbers Reτ = 179 and Reτ = 543 via direct numerical simulations (DNS). The CSDs are computed for energetic structures typical of buffer-layer and large-scale motions, for different temporal frequencies. It is found that the forcing is structured and that its solenoidal part, which is the only one affecting the velocity field, is the combination of an oblique streamwise vortical forcing and a streamwise component that counteract each other, as in a destructive interference. It is shown that a rank-2 approximation of the forcing, with only the most energetic spectral proper orthogonal decomposition (SPOD) modes, leads to the bulk of the response. Moreover, it is found that the nonlinear forcing term has a non-negligible projection onto the linear sub-optimal forcings of resolvent analysis, which demonstrates that the linear optimal forcing is not representative of the nonlinear forcing. Finally, it is clarified that the Cess eddy-viscosity-modelled forcing improves the accuracy of resolvent analysis prediction because the modelled forcing projects onto the linear sub-optimal forcings similarly to DNS data.",
+  "authkeywords": [
+    "turbulent boundary layers"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "907",
+    "issue": null,
+    "pages": null,
+    "article_number": "A24"
+  },
+  "authors": [
+    {
+      "name": "Morra, Pierluigi",
+      "scopus_id": "57202732840",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 62,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 65,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85184703445&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100914",
+    "data_quality_score": 100
+  }
+}

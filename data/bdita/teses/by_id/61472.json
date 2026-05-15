@@ -1,0 +1,41 @@
+{
+  "num_tese": "61472",
+  "type": "tese",
+  "title": "Benchmarking software requirements documentation for space applications",
+  "author": "Paulo Claudino Véras",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ana Maria Ambrósio",
+      "professor_slug": null
+    },
+    {
+      "name": "Henrique Madeira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Poorly written requirements are a common source of software defects. In application areas like space systems, the cost of malfunctioning software can be very high. This way, assessing the quality of software requirements before coding is of utmost importance. This work proposes a systematic procedure for assessing software requirements for space systems that adopt the European Cooperation for Space Standardization (ECSS) standards. The main goal is to provide a low-cost, easy-to-use benchmarking procedure that can be applied during the software requirements review to guarantee that the requirements specifications comply with the ECSS standards, as well as they do not have any one of the most frequent errors on this kind of document. The benchmark includes three checklists that are composed of a set of questions to be applied to the requirements specification: the first is based directly on the ECSS Packet Utilization Standard (PUS), the second one is based on the Conformance and Fault Injection (CoFI) methodology, and the last one is based on a field study about the most common real errors found in software requirements specification of space applications. The goal of the field study is to understand and characterize the most frequent types of requirement problems in this critical application domain. The results of the study are also used to propose a set of operators that define how to inject realistic errors in requirement documents. The benchmark is applied to software requirements specifications of three projects (one academic project and two industrial space projects) for two of the services described in the PUS by seven specialists. The obtained results were compared and discussed.",
+  "subjects": [
+    "Desenvolvimento de software",
+    "Certificaçăo",
+    "Sistemas aeroespaciais",
+    "Testes de programa",
+    "Qualidade de software",
+    "Benchmarking",
+    "Programaçăo orientada para objetos",
+    "Engenharia aeroespacial",
+    "Engenharia de software"
+  ],
+  "defense_date": "04/10/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61472",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61472&origem=BDITA"
+}

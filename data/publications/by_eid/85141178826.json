@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85141178826",
+  "eid": "2-s2.0-85141178826",
+  "doi": "10.1007/s10928-022-09831-x",
+  "pii": null,
+  "pubmed_id": "36323974",
+  "title": "Individualized optimization of colistin loading doses",
+  "abstract": "© 2022, The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.Colistin remains one of the few available options for the treatment of infections caused by resistant bacteria. Pharmacokinetic (PK) studies have been successful in estimating the appropriate colistin methanesulfonate (CMS) dose to achieve a target colistin concentration. Currently, there is a consensus that the dose of CMS should vary according to the patient renal function since CMS is mainly eliminated by renal route. For this same reason, the loading dose should vary according to the patient's renal capacity; however, this is not the current clinical practice. In this study we develop a framework to determine two key parameters for the loading dose regimen: (1) the optimal dose according to the characteristics (renal function and weight) of the patient; (2) the waiting time before the maintenance dose. Based on a previous PK model, our framework allows a fast parameter sweep so as to select optimal loading dose and waiting time minimizing the deviation between the plasma concentration and a target value. The results showed that patients presenting low creatinine clearance (CrCL) should receive a lower CMS loading dose with longer interval to start maintenance treatment to avoid nephrotoxic colistin concentrations. In cases of high CrCL, the dose should be higher and the interval to the next dose shorter to avoid subtherapeutic concentrations. Optimization of the loading dose should considerably improve colistin therapy, as the target concentration is reached more quickly, without reaching toxic values.",
+  "authkeywords": [
+    "Colistin",
+    "Colistin methanesulphonate",
+    "Loading dose",
+    "Optimization"
+  ],
+  "year": "2023",
+  "date": "2023-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Pharmacokinetics and Pharmacodynamics",
+    "issn": "1567567X",
+    "eissn": "15738744",
+    "volume": "50",
+    "issue": "1",
+    "pages": "11-20",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gontijo, Aline Vidal Lacerda",
+      "scopus_id": "55329077700",
+      "affiliation": "60281103",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Pharmacology",
+        "abbrev": "PHAR",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85141178826&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100463",
+    "data_quality_score": 100
+  }
+}

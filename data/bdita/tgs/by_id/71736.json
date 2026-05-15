@@ -1,0 +1,25 @@
+{
+  "num_tg": "71736",
+  "type": "tg",
+  "title": "Controle adaptativo de quadricópteros",
+  "author": "Guilherme Venturelli Cavalheiro",
+  "year": "2015",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Elder Moreira Hemerly",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho visa estudar a aplicaçăo de uma técnica de controle adaptativo para o controle de um quadricóptero a fim de aprimorar o desempenho deste tipo de sistema quando sujeito a incertezas de modelagem. Dados experimentais sobre o desempenho de hélices săo estendidos com base em consideraçőes da teoria elementar de pás e integrados ao um modelo da dinâmica de um quadricóptero. Descreve-se um controlador nominal pelo método de linearizaçăo de trajetória, em que uma inversăo dinâmica aproximada e um regulador linear variante no tempo săo combinados, e um controle complementar baseado no uso redes neurais de base radial gaussiana com uma lei de adaptaçăo que permite a análise de estabilidade pelo método direto de Lyapunov. Ambos săo avaliados em simulaçőes numéricas nas quais diferentes tipos de perturbaçőes e incertezas săo introduzidas a partir de casos da literatura. O sistema proposto se mostrou eficiente computacionalmente e capaz de melhorar o desempenho do sistema de controle. Sugestőes e comentários adicionais săo apresentados para auxiliar o desenvolvimento de soluçőes similares.",
+  "subjects": [
+    "Controle adaptativo",
+    "Aeronave năo-tripulada",
+    "Redes neurais",
+    "Funçőes de Liapunov",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=71736",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=71736&origem=BDITA"
+}

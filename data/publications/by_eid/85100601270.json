@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85100601270",
+  "eid": "2-s2.0-85100601270",
+  "doi": "10.1016/j.ijnonlinmec.2021.103685",
+  "pii": "S0020746221000196",
+  "pubmed_id": null,
+  "title": "Experimental and numerical investigations on the nonlinear aeroelastic behavior of high aspect-ratio wings for different chord-wise store positions under stall and follower aerodynamic load models",
+  "abstract": "© 2021 Elsevier LtdThis study performs an experimental and numerical investigation on the nonlinear aeroelastic response of cantilever high-aspect-ratio beam-like wings with a ballast at their free tips, emulating the effects of a store. As an extent, the effects of different chord-wise ballast positions are experimentally examined for two highly flexible rectangular wings. Furthermore, the numerical model proposed brings forward a nonlinear finite element beam model accounting for aerodynamic nonlinearities, via stall and follower forces models, along with geometrical nonlinearities due to large displacements and rotations. A great variety of analyses were performed: First, the flutter boundaries of the wings were analyzed; second, the limit cycle oscillation amplitudes and frequencies in the oscillating wings were evaluated; third, the coupling behavior and the nonlinear responses obtained were discussed under several attributes. The geometrical nonlinearities were taken into account by a total Lagrangian formulation based on a straightforward and consistent interpolation field in order to describe the exact kinematics of a Timoshenko's beam. Nonlinear aerodynamic loads were computed via an unsteady strip theory in the time-domain with the Jones approximation for the Wagner's function along with a follower aerodynamic loads assumption. Additionally, a non-usual stall model based on an experimental quasi-static stall curve for flat plates was used to interpolate the lift-curve slope. The experimental and numerical results indicated a minimum flutter speed for ballast positions about of −5 mm toward the leading edge. Next, different nonlinear post-flutter LCO behaviors were obtained for the different ballast positions tested. To conclude, the good correlation between model and experiments indicated that the nonlinear modeling approach proposed herein was capable to predict the aeroelastic behavior of the tested high aspect-ratio wings.",
+  "authkeywords": [
+    "Limit cycle oscillations",
+    "Nonlinear aeroelasticity",
+    "Stall flutter",
+    "Store effects",
+    "Wind-tunnel tests"
+  ],
+  "year": "2021",
+  "date": "2021-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Non Linear Mechanics",
+    "issn": "00207462",
+    "eissn": null,
+    "volume": "131",
+    "issue": null,
+    "pages": null,
+    "article_number": "103685"
+  },
+  "authors": [
+    {
+      "name": "Silva, Gefferson C.",
+      "scopus_id": "57201589978",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100601270&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121567",
+    "data_quality_score": 100
+  }
+}

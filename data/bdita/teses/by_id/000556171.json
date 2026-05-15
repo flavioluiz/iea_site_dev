@@ -1,0 +1,34 @@
+{
+  "num_tese": "000556171",
+  "type": "tese",
+  "title": "Redes neurais artificiais na previsăo de deterioraçăo de desempenho de turbinas a gás.",
+  "author": "Gustavo Ravanhani Matuck",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Benedito Isaias de Lima Lopes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A utilizaçăo de turbinas a gás, tanto para propulsăo aeronáutica como para geraçăo de energia, vem crescendo significativamente nas últimas décadas em todo o mundo. Devido ŕ alta complexidade dos componentes do motor e ŕ tecnologia avançada empregada, os gastos financeiros com a manutençăo e operaçăo de turbinas a gás săo muito elevados. Uma grande preocupaçăo para quem utiliza este tipo de motor é proporcionar uma alta potęncia gerada, melhorar os níveis de segurança, aumentar a confiabilidade, e manter uma alta disponibilidade e baixas emissőes de poluentes, tudo isso no menor custo possível. Com o intuito de melhorar cada vez mais estes fatores, este campo de pesquisa tornou-se uma área muito atrativa e promissora. Com os olhos voltados para a operaçăo do motor, vem crescendo a quantidade de adeptos que utilizam sistemas computacionais de monitoramento de desempenho de turbinas a gás. No entanto, esta năo é uma tarefa trivial, pois envolve complexidade muito grande a ser aplicada em um ambiente extremamente năo-linear. Degradaçőes de desempenho de turbinas a gás podem ocorrer de diversas maneiras durante a operaçăo do motor. A queda no desempenho acarreta maior consumo de combustível, desgaste dos componentes, alteraçőes no fluxo do fluido pelos módulos do motor, emissăo excessiva de poluentes, entre outros. Por isso há a necessidade de utilizar técnicas cada vez mais poderosas para realizar um diagnóstico eficaz que possa compreender o comportamento de uma turbina a gás em funcionamento. Redes Neurais Artificiais (RNA) é uma das técnicas em plena evoluçăo e que estăo sendo utilizadas atualmente pela comunidade científica. O interesse na utilizaçăo de RNA, no diagnóstico de falhas de turbinas a gás, vem crescendo acentuadamente, principalmente devido ŕ reduçăo nos gastos com a manutençăo do motor e ŕ confiabilidade obtida. Nesta tese, foi desenvolvido um sistema computacional que utiliza técnicas de RNA que detectam, isolam e avaliam falhas que podem ocorrer em uma turbina a gás. Este sistema é capaz de diagnosticar, com confiabilidade, falhas simples, bem como múltiplas falhas, que podem aparecer nos componentes do motor mesmo quando operado em condiçőes adversas. Técnicas de pré-processamento dos padrőes de falhas foram analisadas, testadas e comparadas com outros experimentos realizados, objetivando uma otimizaçăo de todo processo envolvido. Foi verificada também a robustez do sistema computacional quanto ŕ presença de ruídos oriundos da aquisiçăo das informaçőes pelos sensores acoplados ao motor em operaçăo. Algumas estratégias foram aplicadas com o intuito de quantificar o grau de confiabilidade do sistema, atestando a viabilidade da aplicaçăo. Por fim, os resultados obtidos foram analisados e comentados qualitativamente, abordando também suas limitaçőes e propostas para trabalhos futuros. Com o intuito de ajudar estudantes e pesquisadores a dar continuidade a este trabalho, os conceitos mais importantes de Redes Neurais Artificiais foram incluídos.",
+  "subjects": [
+    "Turbinas a gás",
+    "Análise de falhas",
+    "Desempenho mecânico",
+    "Redes neurais",
+    "Inteligęncia artificial",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "27/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000556171",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000556171&origem=BDITA"
+}

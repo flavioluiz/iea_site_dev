@@ -1,0 +1,30 @@
+{
+  "num_tese": "000540650",
+  "type": "tese",
+  "title": "Turbulent impinging jet into a porous bed.",
+  "author": "Daniel Rezende Graminho",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work focuses on the study of impinging jets actuating in both the presence and absence of a porous bed, in both laminar and turbulent regimes by using numerical simulations. Porous medium was treated as rigid, homogeneous and isotropic. The macroscopic transport equations are written for an elementary representative volume yielding a set of equation valid for the entire computational domain. These equations are discretized using the control volume method and the resulting system of algebric equations are solved by the SIP algorithm utilizing the SIMPLE method for the pressure-velocity coupling. Initially, the laminar flow regime is analyzed, followed by turbulent flow simulations, utilizing both Low and High Reynolds turbulence models. Derivations are carried out under the recently established double-decomposition concept. Results show good agreement with literature data, for both laminar and turbulent cases.",
+  "subjects": [
+    "Materiais porosos",
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Modelos matemáticos",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "24/02/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000540650",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000540650&origem=BDITA"
+}

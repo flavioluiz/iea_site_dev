@@ -1,0 +1,35 @@
+{
+  "num_tese": "79230",
+  "type": "tese",
+  "title": "Investigation of aircraft wing rock motion using system identification methods",
+  "author": "André Advíncula Osório",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Daniel Siqueira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Evaluating handling characteristics of aircraft by flight tests is a methodology present from the beginnings of aviation. Although modern tools of analysis and simulation, such as wind tunnels and Computational Fluid Dynamics (CFD), have been increasingly valuable for aircraft behavior prediction, there are still phenomena that are difficult to foresee before flight tests. In this category, prediction of aircraft dynamics when at high angles of attack (Alpha) is challenging, as it may present strong non-linear characteristics. This is the reason why stall flight tests are a mandatory part of aircraft certification process, even regarding the most modern designs. Moreover, recently developed aircraft have been increasingly using fly-by-wire (FBW) technology, where control laws are a valuable resource for reducing fuel burn and increasing aircraft controllability. One of the main advantages of these systems is being able to design flight envelope protections, preventing the aircraft to surpass limits of airspeed or angle of attack, for example. However, to make these functionalities work, an accurate knowledge of the aircraft flight characteristics is necessary, as control laws gains are influenced by the aerodynamic model. The objective of this thesis is to analyze a flight test data where oscillatory lateral motions occur when performing an accelerated turning stall. The behavior, that was labeled as Wing Rock by the flight crew, was not foreseen by wind tunnel and CFD analysis and occurred when flying the aircraft with control laws engaged. The methodology used comprise of system identification techniques, from visual identification to different variations of Least Squares. These techniques were deployed to adjust the aircraft's original flight dynamics model to the flight data, by using simulations where mainly rolling moment coefficient is compared between model and flight. It was mainly concluded that spoilers' efficiency and (rolling moment coefficient by roll rate) diminish with AOA increase more pronouncedly than what was predicted by the original model, which was originally obtained from wind tunnel data. This yielded in oscillatory control law behavior, where spoiler deflection was inadequately deployed to control the aircraft's lateral axis, triggering a motion perceived as Wing Rock, but rather a combination of aerodynamic degradation due to near to stall AOA and inadequate control law inputs.",
+  "subjects": [
+    "Estabilidade aerodinâmica",
+    "Identificaçăo de sistemas",
+    "Dinâmica de voo",
+    "Ensaios em voo",
+    "Teoria de controle",
+    "Mecânica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79230",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79230&origem=BDITA"
+}

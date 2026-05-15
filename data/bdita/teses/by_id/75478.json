@@ -1,0 +1,38 @@
+{
+  "num_tese": "75478",
+  "type": "tese",
+  "title": "Geraçăo de malhas para geometrias complexas e problemas conjugados de transferęncia de calor em coletores solares híbridos aletados",
+  "author": "Kevin Eduardo de Conde",
+  "year": "2018",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Ofodike Ezekoye",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Um método de geraçăo de malhas para aplicaçőes a geometrias complexas no contexto dos chamados métodos estruturados é desenvolvido. A elaboraçăo é motivada por um problema de interesse mais amplo: a soluçăo computacional do problema acoplado da conduçăo, convecçăo e radiaçăo em coletores solares híbridos aletados. O método de geraçăo de malhas desenvolvido dispőe-se em duas partes. A primeira é desenvolvida para discretizaçăo das regiőes ocupadas pelos fluidos e regiőes sólidas dos paineis. Trata-se de um método de geraçăo de malhas adaptativas aos contornos, obtidas pela soluçăo de equaçőes diferenciais parciais quase-lineares, elípticas, năo-homogęneas. As malhas săo geradas numa estrutura de blocos, endereçando o mapeamento correspondente ŕ construçăo de um sistema de coordenadas adaptável a contornos com geometria e distribuiçăo das linhas coordenadas ao longo dos contornos prescrita. Os termos forçantes das equaçőes săo concebidos de forma a obterem-se malhas aproximadamente ortogonais aos contornos e a permitirem controle do espaçamento de malha pelo usuário, dando origem a um método flexível, em que o analista se beneficia de informaçőes da aplicaçăo de interesse para produzir malhas otimizadas. O tempo gasto pelo usuário configura a maior desvantagem. O método é testado com um caso benchmark, e as malhas geradas para as aplicaçőes de interesse săo também apresentadas; os resultados săo avaliados segundo critérios acadęmicos padronizados, indicando que o método é eficiente e confiável e, como tal, uma ferramenta interessante para aplicaçőes a geometrias complexas. A técnica resultante provou também ser uma interessante alternativa para lidar com problemas típicos de geradores de malha elípticos, como a tendęncia espalhamento de malha em regiőes convexas. A segunda parte constitui-se de um método de discretizaçăo das superfícies otimizado para utilizaçăo com a técnica de traçamento de raios desenvolvida para a análise do problema térmico-radiativo. O método discretiza as superfícies em elementos triangulares, fornecendo mais resoluçăo ao traçador de raios, bem como prevę a imposiçăo de condiçőes de contorno periódicas, característica importante para o tratamento das condiçőes de contorno do traçador de raios. A técnica do traçador de raios com método Monte Carlo é também apresentada. Todo o desenvolvimento é feito com base em ferramentas do cálculo vetorial, o que, atrelado ao método de discretizaçăo das superfícies desenvolvido, lhe confere robustez e grande flexibilidade, possibilitando o tratamento de diferentes geometrias.",
+  "subjects": [
+    "Malhas adaptativas",
+    "Traçado de raios",
+    "Método de Monte Carlo",
+    "Transferęncia de calor",
+    "Coletores solares",
+    "Física"
+  ],
+  "defense_date": "07/12/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75478",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75478&origem=BDITA"
+}

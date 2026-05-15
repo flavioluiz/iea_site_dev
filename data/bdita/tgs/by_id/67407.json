@@ -1,0 +1,30 @@
+{
+  "num_tg": "67407",
+  "type": "tg",
+  "title": "Aplicaçăo de filtro de kalman estendido ŕ estimaçăo de atitude e posiçăo de VANT",
+  "author": "Andrei Luswarghi Souza Costa",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Gustavo Toledo de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Com a atual tendęncia de popularizaçăo de Veículos Aéreos Năo-Tripulados tanto para fins civis como militares, a estimaçăo do estado da aeronave torna-se algo de extrema importância, permitindo que os VANTs alcancem graus cada vez maiores de independęncia e precisăo no cumprimento de suas tarefas. O Filtro de Kalman é, desde sua introduçăo em 1960, uma das ferramentas mais utilizadas para estimaçăo da atitude da aeronave, bem como para a interpretaçăo dos dados de GPS para a navegaçăo. Este trabalho explora a utilizaçăo do Filtro de Kalman Estendido para este fim, conforme a metodologia proposta por Randal W. Beard e Timothy W. McLain, buscando conhecer suas vantagens e suas limitaçőes. Săo demonstradas a simplicidade da utilizaçăo deste estimador ao problema de navegaçăo da aeronave, com um modelo năo-linear de doze estados. Os resultados mostram a precisăo obtida e boa capacidade de adaptaçăo a certas condiçőes adversas, mas também suas restriçőes e fontes de erro, que devem ser tratadas com atençăo.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Estimaçăo de estado",
+    "Navegaçăo aérea",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67407",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67407&origem=BDITA"
+}

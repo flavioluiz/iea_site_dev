@@ -1,0 +1,28 @@
+{
+  "num_tese": "76084",
+  "type": "tese",
+  "title": "Application of pattern recognition techniques for identification and counting of individual seedlings from aerial images",
+  "author": "Guilherme Pereira Jorge Franzé",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "With the help of Scientific Libraries in Python literature, an appropriate methodology was developed in this work for the automatic counting of individual seedlings in plantations of Eucalyptus spp through high definition photographs. The problem to be investigated was presented and three different ways - two supervised and one unsupervised - to solve it were discussed together with their implications. A cross-validation statistical methodology was applied to evaluate each supervised model and compare them to each other. Similarly, the statistical metric of F1 score was evaluated for performance comparison of the three models. The high-definition pictures were obtained by multispectral sensor on board an UAV from an Eucalyptus spp plantation stand of approximately 25 hectares and provided by Eldorado Brasil. The results were considered encouraging, stimulating future work in this line of research.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Reconhecimento de padrőes",
+    "Processamento de imagens",
+    "Análise estatística",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76084",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76084&origem=BDITA"
+}

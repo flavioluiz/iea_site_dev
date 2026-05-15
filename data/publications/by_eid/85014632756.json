@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85014632756",
+  "eid": "2-s2.0-85014632756",
+  "doi": "10.5028/jatm.v9i1.613",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A model predictive guidance strategy for a multirotor aerial vehicle",
+  "abstract": "© 2017, Journal of Aerospace Technology and Management. All rights reserved.The present study faces the problem of safely controlling the position trajectory of a multirotor aerial vehicle subjected to a conic constraint on the total thrust vector and a linear convex constraint on the position vector. The problem is solved using a linear state-space model predictive control strategy, whose optimization is made handy by replacing the original conic constraint set on the thrust vector by an inscribed pyramidal space, which renders a linear set of inequalities. The proposed method is evaluated on the basis of Monte Carlo simulations taking into account a random disturbance force. The simulation results show the effectiveness of the method in tracking the commanded trajectory while respecting the constraints. They also predict the effect of both the speed command and the maximum allowed inclination angle on the system performance.",
+  "authkeywords": [
+    "Guidance",
+    "Model predictive control",
+    "Multirotor aerial vehicle",
+    "Position control"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aerospace Technology and Management",
+    "issn": "19849648",
+    "eissn": "21759146",
+    "volume": "9",
+    "issue": "1",
+    "pages": "116-128",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Prado, Igor Afonso Acampora",
+      "scopus_id": "56444078500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85014632756&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095044",
+    "data_quality_score": 100
+  }
+}

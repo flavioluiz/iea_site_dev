@@ -1,0 +1,30 @@
+{
+  "num_tese": "67899",
+  "type": "tese",
+  "title": "OMNI-ONE : desenvolvimento de uma plataforma robótica omnidirecional",
+  "author": "Andressa Corrente Martins",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho apresenta o desenvolvimento de uma plataforma robótica omnidirecional, para transporte de cargas industriais, capaz de se mover para qualquer direçăo no plano xy, produzir rotaçőes em torno do seu eixo sem a necessidade de reorientaçăo no espaço e se mover com velocidade controlada. O desenvolvimento da plataforma consistiu na abordagem de projeto mecatrônico, modelagem cinemática do sistema, bem como a elaboraçăo das equaçőes que regem a movimentaçăo da plataforma Omni-One. O modelo cinemático da plataforma utilizou a convençăo de Sheth-Uicker. De posse das matrizes do movimento e da aquisiçăo dos dados de limite de rotaçăo dos motores, foi determinado um controlador Proporcional-Integral (PI), como controlador de velocidade. Os resultados dos testes realizados se mostraram conclusivos para o resultado final da plataforma, pois com eles foi possível verificar o comportamento do sistema como um todo.",
+  "subjects": [
+    "Desenvolvimento de produtos",
+    "Dinâmica de robôs",
+    "Controle de robôs",
+    "Robótica",
+    "Mecatrônica",
+    "Engenharia mecânica",
+    "Controle"
+  ],
+  "defense_date": "17/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67899",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67899&origem=BDITA"
+}

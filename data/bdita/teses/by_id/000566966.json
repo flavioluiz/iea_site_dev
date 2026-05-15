@@ -1,0 +1,32 @@
+{
+  "num_tese": "000566966",
+  "type": "tese",
+  "title": "Nonlinear turbulent transonic flow phenomena influence on aeroelastic stability analysis.",
+  "author": "Hugo Stefanio de Almeida",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work is aimed at studying the influence of viscous effects in transonic aeroelastic analyses. To achieve this goal, a two-dimensional and viscous aeroelastic computational solver, for CAE analysis, is developed, which uses unstructured computational meshes and which is able to capture the main aeroelastic phenomena relevant in the transonic regime of flight. The aeroelastic system considered to test the present methodology is the classical typical section model. The system has two structural degrees of freedom. These are pitching and plunging, or heaving. The structural degrees of freedom can be treated within solver in a coupled manner or separately, in a loosely coupled fashion. The typical section model is an approximation to the treatment of a full wing, in which the airfoil at 75% of the semi-span is analyzed. The structural response is obtained by solving a set of a second order ordinary differential equations in time, with aerodynamic forcing. The coupling of the structural degrees of freedom occurs primarily through the aerodynamic forcing terms. The unsteady aerodynamic problem is treated through the numerical solution of the Reynolds-averaged Navier-Stokes equations. These equations are solved using a finite volume method for unstructured computational grids, which uses a second-order centered spatial discretization and a second order time marching scheme. Turbulence closure is achieved through the Spalart-Allmaras one-equation eddy viscosity turbulence model. A reduction of the computational time for the unsteady aerodynamic simulations is obtained through the implmentation of a few convergence acceleration methods, which include the use of a constant CFL number, implicit residual smoothing and unsteady multigrid methods. The aeroelastic problem is solved through the coupling of the aerodynamic and structural formulations. In the present case, the structural equations are cast in a modal formulation and the unsteady aerodynamic responses are represented by aerodynamic states obtained by rational interpolating polynomials. The complete system of equations is written in state space format in the Laplace domain. The aeroelastic stability condition can, then, be determined by standard eigenvalue analyses of the system dynamic matrix.",
+  "subjects": [
+    "Interaçőes fluido-sólido",
+    "Dinâmica dos fluidos computacional",
+    "Análise estrutural",
+    "Aeroelasticidade",
+    "Escoamento transônico",
+    "Estruturas de aeronaves",
+    "Aerodinâmica năo-estacionária",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "02/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000566966",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000566966&origem=BDITA"
+}

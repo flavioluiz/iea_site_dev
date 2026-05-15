@@ -1,0 +1,32 @@
+{
+  "num_tese": "000147050",
+  "type": "tese",
+  "title": "Análise de vigas de paredes finas incluindo efeito de retorçăo",
+  "author": "Martin Adrados Alonso",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho implementamos a teoria proposta por Bauchau (1) para vigas de material composto de paredes finas, ortotrópicas, multi-camadas, unicelular, uniforme (seçăo transversal constante) com carregamento năo uniforme e combinado de torçăo e flexăo, em programas de elementosfinitos. Esta teoria leva em consideraçăo os efeitos de retorçăo, năo levados em conta na teoria clássica. Toda a deduçăo é feita através de um princípio variacional onde os deslocamentos săo as variavéis de campo e na hipótese cinemática de que cada seçăo é infinitamente rígida na seu próprio plano mas livre para deplanar fora dele. Os resultados de deslocamento e de fluxo de esforços, encontrados com os programas implementados da teoria descrita acima, foram comparados com o programa comercial NASTRAN (14) em tręs exemplos com características diferentes entre si. Os deslocamentos encontrados mostraram que, para as vigas de material composto de paredes finas estudadas, o resultado obtido é no mínimo 12% inferior quando da utilizaçăo da teoria clássica, mostrando assim a relevância do efeito de retorçăo neste tipo de vigas. A precisăo do método foi comprovada no cálculo do deslocamento e de fluxo de esforços, sendo que a distribuiçăo de fluxo de esforço cortante a convergęncia foi mais lenta.",
+  "subjects": [
+    "Vigas (suportes)",
+    "Paredes Finas",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Materiais compósitos",
+    "Programas de computadores",
+    "Estruturas",
+    "Engenharia civil",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "01/04/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000147050",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000147050&origem=BDITA"
+}

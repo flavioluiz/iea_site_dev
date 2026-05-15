@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-85074786028",
+  "eid": "2-s2.0-85074786028",
+  "doi": "10.1111/ffe.13143",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical modelling of deep rolling influence over crankshaft bending and correlation with fatigue behaviour",
+  "abstract": "© 2019 Wiley Publishing Ltd.The requirements for mechanical reliability of automotive crankshafts are continuously increasing, thus pushing the demand for an optimized processing. Nonetheless, the manufacturing-induced residual stresses at critical sites for fatigue enhancement are not clarified in the state-of-the-art on the topic. In particular, there is a lack of information on the effect of final manufacturing stages to improve the component life endurance, such as deep rolling, in the overall stress state while the component is under operational loads. This study deepens the validation of a finite element deep rolling model under development with the aid of an in-house developed crankshaft resonance fatigue test rig. The stress state obtained from the deep rolling simulation was input as a predefined stress field for the simulation of operational conditions experimented at the test rig. Test results produced cracks at the fillet radii of the cast iron crankshafts as anticipated. Overlapping the fractography with the simulation's final stress field yielded interesting correlation with the crack morphology. This contributed with a strong indication of the model correctness. Moreover, it can be further implemented to indicate whether the process parameters such as roller force and angle are fully optimized for each particular crankshaft application.",
+  "authkeywords": [
+    "crack arrest",
+    "fatigue",
+    "finite element simulation",
+    "industrial applications",
+    "residual stress"
+  ],
+  "year": "2020",
+  "date": "2020-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Fatigue and Fracture of Engineering Materials and Structures",
+    "issn": "8756758X",
+    "eissn": "14602695",
+    "volume": "43",
+    "issue": "4",
+    "pages": "672-683",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fonseca, Luiz G.Aun",
+      "scopus_id": "57200879842",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cantisano, Artur",
+      "scopus_id": "57211670270",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074786028&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044378",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-85086053202",
+  "eid": "2-s2.0-85086053202",
+  "doi": "10.2514/6.2015-2537",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Spatial stability characteristics of non-circular jets",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.We explore the stability characteristics of non-circular jets, by means of the direct numerical solution of a compressible Rayleigh equation considering a parallel base flow which is a function of radius and azimuth. The formulation is based on the Floquet theory of differential equations with periodic coefficients. In this sense, solutions of eigenfunctions, growth rates and phase speeds are possible for arbitrarily shaped base-flows, with azimuthal periodicity. For validation purposes, previous results for chevrons and elliptical jets were reproduced. Base flows representative of jets with chevrons and micro-jets were then fitted using an extended version of Michalke’s1 hyperbolic tangent profile, allowing here azimuthal inhomogeneities in the base flow. Sample velocity profiles in the near-nozzle region can be described by an azimuthal variation of the mixing layer position R and momentum thickness Θ. The effect of these parameters is studied so as to discern their instability properties, and it is seen that the combined azimuthal variations of R and Θ produces significant reductions of growth rates for a profile representative of chevrons; micro-jets induce mainly changes in R, with consequent reductions of spatial amplifications, but less significant than the chevron case. The influence of the number of lobes in the base-flow is also investigated, and growth rates for different numbers of chevrons collapse once the afore mentioned base-flow parameters (with the same values obtained for the chevron case) are preserved in the representative piece of the base-flow.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "21st AIAA Ceas Aeroacoustics Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Lajús, Francisco C.",
+      "scopus_id": "55942916500",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Deschamps, César J.",
+      "scopus_id": "7006473275",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85086053202&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101709",
+    "data_quality_score": 90
+  }
+}

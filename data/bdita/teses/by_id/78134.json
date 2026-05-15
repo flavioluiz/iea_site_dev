@@ -1,0 +1,31 @@
+{
+  "num_tese": "78134",
+  "type": "tese",
+  "title": "Bond graph concepts applied to an aircraft brake system performance evaluation and requirements definition",
+  "author": "Luis Eduardo da Silva Garcia",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work proposes a pragmatic requirements validation method through simulation. First, A Bond Graph model for a light business aircraft and its brake system created. The dynamic response of the aircraft considers the forces acting on a concentrated point. Two dual stage servo valve, the hydraulic tubing and hoses, and brake-wheel-tire behavior are considered on the analysis. An On-Off anti-skid system is implemented. The simulations are run using 20-Sim® software. The results obtained through it are used to calculate the braking efficiencies at A/C and system levels. Braking performance efficiency is assessed on A/C level through ?brake_AC method, and at system level considering three different methods: Torque Method Efficiency (AC 25-7D), Stopping Distance Efficiency and Developed Mu Efficiency Methods (SAE AIR1739B).Then, these values are used as the performance criteria for the requirements definition on each level. Therefore, a robust and tightly coupled set of requirements is generated to guarantee the link between the two different layers of specifications. Additionally, a robust assessment of the system performance is evaluated. Therefore, the present work encourages system and performance engineers to define more accurate requirements on the early phases of the aircraft development.",
+  "subjects": [
+    "Freios (dispositivos)",
+    "Gráficos de ligaçăo",
+    "Isolamento de falhas",
+    "Aeronaves",
+    "Modelagem (processos)",
+    "Simulaçăo computadorizada",
+    "Engenharia de sistemas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78134",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78134&origem=BDITA"
+}

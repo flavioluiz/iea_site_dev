@@ -1,0 +1,34 @@
+{
+  "num_tese": "000560694",
+  "type": "tese",
+  "title": "Estimaçăo do componente horizontal da velocidade aerodinâmica do AS 355 F2 em baixas velocidades por meio de redes neurais.",
+  "author": "José Márcio Pereira Figueira",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A determinaçăo do componente horizontal da velocidade aerodinâmica no regime de baixas velocidades, tipicamente abaixo de 40 kt, tem sido um grande desafio para a engenharia de asas rotativas. Dentro desse contexto, este trabalho desenvolve um equacionamento matemático, em formato de redes neurais, para estimar o componente horizontal da velocidade aerodinâmica da aeronave AS 355 F2, por meio de programas computacionais elaborados em Matlab®. Por meio de instrumentaçăo embarcada existente na aeronave AS 355 F2, matrícula FAB 8816, săo registrados parâmetros de voo tais como posiçőes de comandos, velocidades angulares e atitudes. Essas medidas, obtidas em condiçőes estabilizadas e em aceleraçőes niveladas, săo utilizadas como entradas e referęncias para as redes tipo backpropagation com aprendizagem supervisionada. Săo projetados dois tipos de redes: uma para estimaçăo do componente horizontal longitudinal da velocidade aerodinâmica, u, e outra para a estimaçăo do componente lateral, v. O treinamento das redes é realizado, por tentativa e erro, alterando-se o conjunto de parâmetros de entradas, o número de camadas escondidas, o número de neurônios por camadas e as funçőes de transferęncias por camada (funçăo de ativaçăo). Para tanto, é implementado o algoritmo de Levenberg-Marquardt na otimizaçăo dos pesos e biases. Após esse procedimento, um novo conjunto de dados de entradas é aplicado ŕs redes que forneceram melhores resultados na etapa de treinamento, verificando-se uma associaçăo de redes longitudinal e lateral contendo 11 parâmetros de entrada (as deflexőes de comando do cíclico lateral, do cíclico longitudinal, de pedal, do comando de coletivo, ângulo de atitude longitudinal, ângulo de atitude lateral, razăo de rolamento, razăo de arfagem, razăo de guinada, torque dos motores e peso do helicóptero) e duas camadas escondidas de 25 neurônios cada, como capaz de fornecer resultados satisfatórios de estimaçăo dos componentes horizontais da velocidade aerodinâmica, em condiçőes estabilizadas, com incerteza de 3,4 kt e 16°, e resultados insatisfatórios de estimaçăo da variaçăo temporal em manobras de aceleraçőes niveladas. Ainda, a contribuiçăo do presente trabalho consiste na implementaçăo, em ambiente Matlab®, do modelo matemático em forma de redes neurais na telemetria do Grupo Especial de Ensaios em Voo (GEEV), comprovando sua viabilidade como ferramenta de ensaios em voo em tempo real.",
+  "subjects": [
+    "Controle de helicópteros",
+    "Redes neurais",
+    "Orientaçăo horizontal",
+    "Velocidade de fluxo",
+    "Baixa velocidade",
+    "Propagaçăo retroativa (inteligęncia artificial)",
+    "Ensaios em vôo",
+    "Desempenho de aeronaves",
+    "Aeronaves de asas rotativas",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "16/09/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000560694",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000560694&origem=BDITA"
+}

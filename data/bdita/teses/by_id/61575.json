@@ -1,0 +1,36 @@
+{
+  "num_tese": "61575",
+  "type": "tese",
+  "title": "Flight control design for a flexible conceptual aircraft using backstepping technique",
+  "author": "Acacio Alejandro Morales Henriquez",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Francisco Javier Triveno Vargas",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A nonlinear flight control system is proposed for a conceptual flexible aircraft using Backstepping technique to achieve global stability in the rigid and flexible dynamics. It is introduced a controller to lead the model to a rigid-body model approximation, minimizing structural dynamics effects using static Backstepping approach, that system can be called as flexible modes suppressor. Afterward, it is applied a controller with an internal loop involving the angular rates of the aircraft and an external loop which includes pitch angle, sideslip angle and bank angle without the two-timescale assumption to separate slow and fast dynamics and without consider aerodynamics forces and moments increments caused by structural dynamics. In addition, external looping are built using Backstepping for first order systems in order to control aircraft course and altitude, the results are reference inputs to be introduced in the previous loop developed for rigid body control. Also, it is implemented a separate controller to track velocity using Backstepping approach, as a result, aircraft autopilot system is completed. Nonlinear six degree of freedom simulation results for a conceptual model of a medium size jet, like Embraer 190/195 and Boeing 737-200/300, are presented to demonstrate the effectiveness of the proposed control law in several conditions. It is assumed that the aerodynamics coefficients are fixed and the model presents augmented flexible features.",
+  "subjects": [
+    "Controle automático de voo",
+    "Controle de aeronaves",
+    "Sistemas de controle năo-linear",
+    "Pilotos automáticos",
+    "Corpos flexíveis",
+    "Análise estrutural dinâmica",
+    "Mecânica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/10/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61575",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61575&origem=BDITA"
+}

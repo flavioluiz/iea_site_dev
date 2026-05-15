@@ -1,0 +1,32 @@
+{
+  "num_tg": "80087",
+  "type": "tg",
+  "title": "Uma abordagem sobre a metodologia de calibraçăo dinâmica de balança aerodinâmica",
+  "author": "Lucas Miquelon Nascimento",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma metodologia de calibraçăo de uma balança aerodinâmica de tręs graus de liberdade, baseada na resposta sobre carregamentos aplicados nos sensores do equipamento. A calibraçăo dinâmica desenvolvida é essencial para garantir mediçőes acuradas em pesquisas e projetos aeronáuticos e aeroespaciais. A metodologia adotada baseia-se na utilizaçăo da transformada rápida de Fourier para o processamento dos dados de saída no domínio da frequęncia e na obtençăo da matriz de funçőes de transferęncia por meio do método inverso do problema. O número de experimentos realizados foi determinado por todas as diferentes combinaçőes de massas aplicadas aos tręs graus de liberdade da balança, permitindo obter um sistema de dados suficientes para desenvolver uma metodologia de calibraçăo adequada. Para comprovaçăo da metodologia de calibraçăo dinâmica desenvolvida, foi realizado um experimento com cilindro submetido a um escoamento em regime subcrítico, em que os dados foram tratados, por meio do procedimento da calibraçăo desenvolvida, e comparados com as informaçőes contidas literatura existente.",
+  "subjects": [
+    "Balança aerodinâmica",
+    "Calibraçăo",
+    "Transformada de Fourier",
+    "Cilindros",
+    "Escoamento",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80087",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80087&origem=BDITA"
+}

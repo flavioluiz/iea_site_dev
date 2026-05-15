@@ -1,0 +1,30 @@
+{
+  "num_tg": "76544",
+  "type": "tg",
+  "title": "Modelo de desempenho bada e estimativa de massa de aeronave com aplicaçăo em tráfego aéreo",
+  "author": "Octavio Mathias Silva",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Alexandre Tavares Guerreiro Fregnani",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No contexto de gerenciamento de tráfego aéreo, entre várias questőes e assuntos, a massa de uma aeronave é um parâmetro crucial para o desempenho de aeronaves e possuir forte impacto no controle desses veículos. Entretanto, devido ŕs estratégias de empresas aéreas, a massa decolagem e subida é considerada como um dado sensível e, portanto, é mantido em segredo pelas companhias. Dessa forma, o presente trabalho se propőe desenvolver uma metodologia capaz de estimar a massa de uma aeronave em segmentos coletados de subida, fornecidos pela fonte de monitoramento e detecçăo automática. O modelo de desempenho desenvolvido e utilizado neste trabalho é o BADA, distribuído gratuitamente pela organizaçăo Eurocontrol. A partir dessa metodologia, tręs métodos de estimativa de massa săo construídos. O primeiro método se baseia em identificar parâmetros relacionados ao conceito de operaçőes de voo e utilizá-los na simulaçăo das trajetórias. O segundo e terceiro método se consistem em calcular parâmetros de voo a partir dos dados gerados pela fonte de monitoramento e detecçăo e introduzi-los no modelo dinâmico do BADA para a realizaçăo das simulaçőes das trajetórias. Todos os Métodos de estimativa de massa apresentados visam calcular o erro gerado pelos dados simulados de altitude geopotencial de pressăo com os dados de altitude geopotencial capturados pelas fontes de monitoramento. Dessa forma, a massa da aeronave estimada, determinada pelo uso do algoritmo genético que visa minimizar o erro gerado pela diferença de altitudes geopotenciais, é aquela que executa o voo mais próximo ao voo capturado pelos dados de monitoramento enviados. Os métodos de estimativa de massa săo também desenvolvidos por uma análise expandida do modelo BADA a um modelo que leva em conta os gradientes do vento e a um modelo que leva em conta o ajuste da manete de traçăo variado pela altitude. Os resultados dos métodos săo comparados entre si e com os resultados reais de massa em um ponto da subida, de forma a escolher-se o melhor método que estima a massa, de acordo com cada voo estudado. Vale a pena destacar que para os voos analisados neste trabalho, feitos com a aeronave AirbusA330, os erros obtidos pelas diferenças relativas de massa, săo inferiores a 6%.",
+  "subjects": [
+    "Peso (massa)",
+    "Estimativas",
+    "Algoritmos genéticos",
+    "Controle de tráfego aéreo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76544",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76544&origem=BDITA"
+}

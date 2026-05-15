@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-20344408555",
+  "eid": "2-s2.0-20344408555",
+  "doi": "10.1115/IMECE2004-62407",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Flow and heat transfer past a sudden contraction with a porous insert using linear and non-linear turbulence models",
+  "abstract": "This work presents a numerical investigation for the turbulent flow and heat transfer in an abrupt contraction channel with a porous material placed in a flow passage. The channel has a contraction rate of 3:2. Results for the hybrid medium were obtained using linear and non-linear k-ε macroscopic models. It was used an inlet Reynolds number of Re = 132000 based on the height of the step. Parameters such as porosity, permeability and thickness of the porous insert were varied in order to analyze their effects on the flow pattern. The results of local heat transfer, friction coefficient and stream lines obtained by the two turbulence models were compared for the cases without and with porous insertion of thickness a/H=0.083, 0.166 and 0.250, where H is the step height. Insert porosity of varied between 0.85 and 0.95 with permeability in the range 10-6-10-2 m2. Copyright © 2004 by ASME.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Heat Transfer Division Publication HTD",
+    "issn": "02725673",
+    "eissn": null,
+    "volume": "375",
+    "issue": "1",
+    "pages": "375-383",
+    "article_number": "IMECE2004-62407"
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "DeLemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=20344408555&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111524",
+    "data_quality_score": 90
+  }
+}

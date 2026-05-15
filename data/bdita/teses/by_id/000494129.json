@@ -1,0 +1,31 @@
+{
+  "num_tese": "000494129",
+  "type": "tese",
+  "title": "Modelagem em vigas flexíveis com bloco deslizante.",
+  "author": "Paula Andreia Ennes Medeiros",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Foram modeladas matematicamente as vibraçőes que ocorrem em vigas flexíveis com bloco deslizante, como um sistema dinâmico com restriçăo, através de uma abordagem Lagrangiana. Para tanto, considera-se uma viga de Euler-Bernoulli, linear, elástica, que sofre pequenos deslocamentos. Trata-se a viga flexível com o bloco que desliza sobre a mesma e ao longo de seu comprimento como um sistema multicorpos, levando-se em consideraçăo a inércia de translaçăo e de rotaçăo do bloco. A deflexăo da viga é discretizada utilizando o Método dos Modos Assumidos. As equaçőes de Lagrange săo utilizadas na obtençăo de equaçőes de movimento, que săo dadas por um sistema de equaçőes diferenciais, de segunda ordem e algébricas, de restriçăo dos corpos em estudo. Estuda-se a contribuiçăo dos modos de deformaçăo estática, juntamente com a tradicional abordagem via modos dinâmicos.",
+  "subjects": [
+    "Vigas (suportes)",
+    "Corpos flexíveis",
+    "Modelos matemáticos",
+    "Restriçőes",
+    "Equaçăo de Euler-Lagrange",
+    "Análise numérica",
+    "Equaçőes de Movimento",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000494129",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000494129&origem=BDITA"
+}

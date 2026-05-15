@@ -1,0 +1,39 @@
+{
+  "num_tese": "78707",
+  "type": "tese",
+  "title": "Design optimization, performance and aeroacoustics analysis of unducted and ducted boundary layer ingesting propellers",
+  "author": "Fabíola Paula Costa",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    },
+    {
+      "name": "Niklas Andersson",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The boundary layer ingestion (BLI) concept has emerged as a novel technology for potentially reducing fuel consumption in future aircraft. However, the propulsor design becomes challenging because the blades ingest a non-uniform and distorted flow. The present work investigates the aerodynamic influence of ingesting the airframe boundary layer on the BLI propeller design, performance, and noise. Three configurations have been studied: (a) a conventional propeller operating in the free stream, (b) a BLI-propeller ingesting the lower momentum airflow, and (c) a ducted BLI-propeller, where the installation effects of the duct integration are also investigated. The propeller geometry was optimized for all three cases with an aerodynamic optimization framework coupled to CFD simulations and an optimal propeller for each case, based on the same thrust coefficient, was chosen for aeroacoustics analysis using CAA simulations. The results obtained with the aerodynamic optimization showed a significant increase in the chord and a decrease in the blade angles of both BLI configurations, highlighting that these geometric parameters greatly affect the design of a BLI propeller with and without duct. The unducted BLI-propeller needs approximately 40% less shaft power than the conventional propeller to generate the same amount of propeller force. The ducted BLI-propeller needs even less power, 47%. The duct contributes to the tip vortex weakening, recovering the swirl and turning into propeller force, as noticed from 80% of the blade span to the tip. However, unducted and ducted BLI configurations presented, respectively, a backward force 26.7% and 46.5% greater than the conventional propeller, which means that the effects of fuselage/propulsion integration increase the force on the fuselage surface and can narrow the use of these configurations. The overall sound pressure level (OSPL) showed that the unducted BLI configuration presents the highest noise levels, achieving values around 21 dB higher than the other cases. The ingestion of turbulence interacting with the blade leading and trailing edges and the flow detachment from the blade causing a swirl region, especially near the hub, might be the main contributors to the increase in the noise levels of the unducted BLI-propeller. Although the BLI ducted propeller is under the same conditions as the unducted BLI case, the presence of the duct reduces the tip vorticity and noise showing that the duct can be a promising choice of propulsion for future BLI configurations.",
+  "subjects": [
+    "Ingestăo da camada limite",
+    "Sistemas de propulsăo",
+    "Hélices",
+    "Dutos",
+    "Dinâmica dos fluidos computacional",
+    "Aeroacústica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78707",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78707&origem=BDITA"
+}

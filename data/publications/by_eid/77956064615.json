@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-77956064615",
+  "eid": "2-s2.0-77956064615",
+  "doi": "10.1016/j.ijheatmasstransfer.2010.07.055",
+  "pii": "S0017931010004369",
+  "pubmed_id": null,
+  "title": "Simulation of laminar impinging jet on a porous medium with a thermal non-equilibrium model",
+  "abstract": "This work shows numerical simulations of an impinging jet on a flat plate covered with a layer of a porous material. Macroscopic equations for mass and momentum are obtained based on the volume-average concept. Two macroscopic models are employed for analyzing energy transport, namely the one-energy equation model, based on the Local Thermal Equilibrium assumption (LTE), and the two-energy equation closure, where distinct transport equations for the fluid and the porous matrix follow the Local Non-Thermal Equilibrium hypothesis (LNTE). The numerical technique employed for discretizing the governing equations was the finite volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was used to handle the pressure-velocity coupling. Parameters such as porosity, porous layer thickness, material permeability and thermal conductivity ratio were varied in order to analyze their effects on flow and heat transport. Results indicate that for low porosities, low permeabilities, thin porous layers and for high thermal conductivity ratios, a different distribution of local Nusselt number at the wall is calculated depending on the energy model applied. The use of the LNTE model indicates that it is advantageous to use a layer of highly conducting and highly porous material attached to the hot wall. © 2010 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Confined jet",
+    "Impinging jet",
+    "Porous media",
+    "Thermal non-equilibrium"
+  ],
+  "year": "2010",
+  "date": "2010-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "53",
+    "issue": "23-24",
+    "pages": "5089-5101",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dórea, Felipe T.",
+      "scopus_id": "36909782200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 61,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=77956064615&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111000",
+    "data_quality_score": 100
+  }
+}

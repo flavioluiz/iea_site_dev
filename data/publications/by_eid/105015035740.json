@@ -1,0 +1,82 @@
+{
+  "publication_id": "2-s2.0-105015035740",
+  "eid": "2-s2.0-105015035740",
+  "doi": "10.1016/j.icheatmasstransfer.2025.109625",
+  "pii": "S0735193325010516",
+  "pubmed_id": null,
+  "title": "A new hybrid method for solving transient heat conduction in composite slabs applied to wall thermal load investigation",
+  "abstract": "© 2025A hybrid analytical framework based on the Distributed Transfer Function Method (DTFM) is presented for solving the one-dimensional transient heat conduction problem in multilayer wall systems. A novel adaptive step-wise segmentation strategy is introduced to extend the applicability of DTFM to non-differentiable boundary conditions—specifically, measured solar heat flux and ambient air temperature data recorded during the summer in Gaziantep, Turkey. These experimental signals were modeled using Gaussian and sinusoidal regression schemes and segmented into analytically tractable intervals to ensure continuity and differentiability within the DTFM solution domain. Six wall configurations were evaluated under convective–radiative boundary conditions, with the interior air temperature maintained at 25 °C. The resulting transient heat flux at the inner surface was interpreted as the instantaneous Heating, Ventilation and Air Conditioning (HVAC) thermal load and integrated over time to compute the daily cooling and heating energy demands. Among all cases, the five-layer wall with EPS insulation (W6) yielded the lowest AC energy consumption at 0.343 kWh, while the three-layer brick wall (W1) reached 1.165 kWh—representing a 70.5 % reduction. Comparative analysis also identified near-equivalent thermal responses in W2 – Autoclaved Aerated Concrete (AAC) vs. W3 (blockbim) and W1 (brick) vs. W4 (briquette), with subtle yet quantifiable differences in energy performance. The DTFM predictions were benchmarked against Finite Volume Method (FVM) simulations, showing temperature deviations below 1 °C. The method's capacity to incorporate segmented regressions, solve eigenvalue problems, and construct modal solutions across complex wall geometries makes it a robust and efficient tool for transient thermal analysis. The proposed framework enables high-fidelity assessment of building envelope performance under time-varying environmental conditions, providing valuable insights for HVAC optimization and passive design strategies.",
+  "authkeywords": [
+    "Adaptive step-wise segmentation",
+    "Building envelope analysis",
+    "Distributed transfer function method",
+    "Thermal load prediction",
+    "Transient heat conduction"
+  ],
+  "year": "2025",
+  "date": "2025-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "169",
+    "issue": null,
+    "pages": null,
+    "article_number": "109625"
+  },
+  "authors": [
+    {
+      "name": "de Andrade, Gabriel S.",
+      "scopus_id": "57226103558",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nascimento, Ernandes J.G.",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 60,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015035740&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090798",
+    "data_quality_score": 90
+  }
+}

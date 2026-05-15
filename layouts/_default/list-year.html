@@ -12,9 +12,11 @@
   {{ $targetYear := .Params.year | default "" }}
   {{ $yearFilter := .Params.year_filter | default "" }}
 
-  {{/* Use the existing publications data but apply filtering */}}
+  {{/* Use IEA faculty publications only */}}
+  {{ $ieaSlugs := .Site.Data.pessoal.iea_profiles.slugs }}
   {{ $allPublications := slice }}
-  {{ range $profId, $profData := .Site.Data.professores.profiles }}
+  {{ range $profId := $ieaSlugs }}
+  {{ $profData := index $.Site.Data.pessoal.profiles $profId }}
     {{ $publications := $profData.publicacoes }}
     {{ range $publications }}
       {{ if .publication_id }}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "000542073",
+  "type": "tg",
+  "title": "Development of a numerical method for a study into the aerobraking of hypersonic vehicles.",
+  "author": "Grégori Pogorzelski",
+  "year": "2006",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    },
+    {
+      "name": "Jean-Marc Moschetta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The development of a numerical method to perform aerothermodynamical calculations along the trajectory of a reusable hypersonic vehicle is one of the objectives of the CENTOR project (\"Conception d'un ENgine de Transfert Orbital Réutilisable\"), developed by ONERA (\"Office National d'Études et de Recherches Aérospatiales\", Toulouse, France) and SUPAERO (\"École nationale supérieure de l'aéronautique et de l'espace\", Toulouse, France). Connected to the CENTOR project, this study concerns the improvement of the computational code named FAST (\"Flow Aerothermodynamic Solver for Trans-atmospheric vechicles\"), which uses engineering methods to estimate the aerodynamic coefficients and heat flux on the surface of a vehicle flying at hypersonic speeds from the hypersonic continuum through the transitional and to the free molecular flow regime. The previous version of the code is completely revised and a new structure is presented, together with modifications in some calculation methodologies to improve its efficiency and accuracy. Through the development of new routines, a procedure to perform the linking between the FAST code and one other that is responsible for the guidance and control calculations of an AOTV (\"Aeroassist Orbit Transfer Vehicle\") is implemented. In addition to this, a validation study of the FAST code concerning the aerodynamic coefficient predictions is carried out and some results are discussed. Simple axysimmetric geometries are considered and, in more detail, the AOTV vehicle. Based on the obtained results, some suggestions of future improvements in the calculation methodologies are also presented.",
+  "subjects": [
+    "Veículos hipersônicos",
+    "Veículos de transferęncia orbital",
+    "Aerofrenagem",
+    "Aerotermodinâmica",
+    "Análise numérica",
+    "Coeficientes aerodinâmicos",
+    "Códigos computacionais",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000542073",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000542073&origem=BDITA"
+}

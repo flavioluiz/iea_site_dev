@@ -1,0 +1,30 @@
+{
+  "num_tg": "67404",
+  "type": "tg",
+  "title": "Análise e otimizaçăo de desempenho de missőes pré-programadas para aeronaves a pistăo",
+  "author": "Bruno Henrique Flores dos Santos Mattos",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Ayello Deo",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "Durante as fases do desenvolvimento de uma nova aeronave, afim de atender de forma satisfatória a série de requisitos relacionados ao desempenho, faz-se necessário a utilizaçăo contínua de uma ferramenta precisa e flexível para a análise do desempenho para uma dada missăo de interesse. Este trabalho tem como objetivo apresentar e discutir o método computacional implementado que satisfaz tal necessidade especificamente para aeronaves leves com motores hélice-pistăo, tipicamente, caracterizando VANTS de médio e pequeno porte. Como entrada, informaçőes aerodinâmicas e propulsivas da aeronave săo fornecidas juntamente com o perfil da missăo desejado. Os resultados do método fornecem estimativas, dentre os fatores, do consumo de combustível e do tempo total para a finalizaçăo da missăo proposta. Como será mais detalhado no texto, o método consiste primeiramente na divisăo do perfil da missăo em segmentos de requisitos unificados, seguido da integraçăo numérica e interativa das equaçőes do movimento entre os segmentos. Além da análise do desempenho, apresenta-se uma análise da otimizaçăo do perfil da missăo de entrada. Está última fornece ao usuário uma soluçăo ótima tanto para minimizaçăo do consumo de combustível como também para minimizaçăo do tempo total de missăo. Por fim, comparam-se os resultados do desempenho da aeronave em uma missăo exemplificada fornecidos pelo método computacional proposto com uma análise de desempenho simplificada por meio das equaçőes de Breguet.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Planejamento de missăo",
+    "Desempenho de aeronaves",
+    "Otimizaçăo de trajetória",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67404",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67404&origem=BDITA"
+}

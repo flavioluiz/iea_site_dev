@@ -1,0 +1,28 @@
+{
+  "num_tese": "76562",
+  "type": "tese",
+  "title": "Coherent structures in wall-bounded turbulent flows and trailing edge noise",
+  "author": "Leandra Isabel de Abreu Pinto",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Turbulent boundary layers can be responsible for many engineering challenges, affecting a significant part of sound generation and drag in modern aircraft, or the energy to deliver oil through pipelines, are some exemples. Such characteristics have consequently led to efforts concerning a better understanding of the dynamics of these flows, in order to model the fluctuations on the near-wall region, where the highest values of shear and turbulent production are present. Given their practical importance, over the last decades, several studies aimed at an understanding of the turbulent structures on the near-wall region of wall-bounded flows. Thus, this thesis focused on the characterization of coherent structures in wall-bounded turbulent flows and mechaninsms of trailing edge noise by airfoils, using mainly spectral proper orthogonal decomposition as a signal post processing approach, and resolvent analysis as a theoretical framework. Numerical databases performed for many kinds of flows in turbulent regime, guided the studies here. This thesis can be divided in four main studies. In the first one, we focused on the analysis of coherent structures in turbulent pipe flows. Results showed that the structures were better modeled mostly in the regions where near-wall streaks are present, and also for parameter combinations where the lift-up mechanism is present. In the second study, a novel approach is developed using the Helmholtz equation, for an arbitrary geometry and source distribution, corresponding to an acoustic analogy formulation. This approach allow us to explore optimal forcing and associated responses of the analysed problem, which enables the determination of optimal source distributions and corresponding radiated sound. In the third study, a compressible flow around a NACA 0012 airfoil was analysed using signal post-processing techniques, where two-dimensional structures were extracted, and used to study mechanisms of trailing edge noise. Finally, in the fourth study, two databases were analysed for an incompressible flow in turbulent regime, for both NACA 0012 and NACA 4412 airfoils. Two-dimensional structures were also identifyed here for both airfoils, and modeled for many stations of the airfoils using a theoretical approach with a locally parallel assumption. Since those two-dimensional structures found in the airfoils' surface are not well explored in the literature, their domain-size independence and physical sources were demonstrated. This study reveals that resolvent analysis allows to obtain theoretically dominant characteristics of the flow for all the analysed cases, leading to predictions of the coherent structures present in wall-bounded turbulent flows.",
+  "subjects": [
+    "Camada limite turbulenta",
+    "Processamento de sinais",
+    "Aeroacústica",
+    "Escoamento turbulento",
+    "Física"
+  ],
+  "defense_date": "14/10/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76562",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76562&origem=BDITA"
+}

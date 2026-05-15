@@ -1,0 +1,26 @@
+{
+  "num_tg": "63775",
+  "type": "tg",
+  "title": "Desenvolvimento de um método de simulaçăo numérica para um acoplamento fluido - estrutura",
+  "author": "Filipe Rafael Tavares Pereira",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os equipamentos elétricos da Schneider Electric săo compostos de isoladores, interruptores, disjuntores e fusíveis. Uma célula de média tensăo pode conter todos esses componentes num invólucro compacto com tamanho variável. Um arco interno é uma explosăo que ocorre acidentalmente em uma célula de média tensăo. O objetivo deste trabalho é a criaçăo de uma metodologia de interaçăo fluido - estrutura em transitório para uma situaçăo de arco interno. O agente destruidor é o ar (fluido); o material resistente, a parte sólida, ou seja, a estrutura da célula. Estas duas partes săo calculadas em softwares distintos. Dessa forma, deve-se achar uma maneira de acoplar esses dois cálculos. Para os cálculos fluidos foi utilizado o software Fluent (CFD), e para a parte mecânica se utilizou o software ANSYS Mechanical. Fenômenos năo lineares, como grandes deformaçőes e plasticidade, foram levados em conta na soluçăo. Uma análise modal foi feita para achar os modos de vibraçăo livre da estrutura. O próximo passo é a validaçăo dos resultados numéricos a partir dos dados experimentais.",
+  "subjects": [
+    "Acoplamento",
+    "Sistemas năo-lineares",
+    "Programas de sistemas de computadores",
+    "Engenharia",
+    "Computaçăo",
+    "Mecânica aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63775",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63775&origem=BDITA"
+}

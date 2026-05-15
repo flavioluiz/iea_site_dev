@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85093779770",
+  "eid": "2-s2.0-85093779770",
+  "doi": "10.1017/jfm.2019.893",
+  "pii": "S0022112019008930",
+  "pubmed_id": null,
+  "title": "On the role of actuation for the control of streaky structures in boundary layers",
+  "abstract": "© 2019 Cambridge University Press. All rights reserved.This work deals with the closed-loop control of streaky structures induced by free-stream turbulence (FST), at the levels of 3.0Â % and 3.5Â %, in a zero-pressure-gradient transitional boundary layer, by means of localized sensors and actuators. A linear quadratic Gaussian regulator is considered along with a system identification technique to build reduced-order models for control. Three actuators are developed with different spatial supports, corresponding to a baseline shape with only vertical forcing, and to two other shapes obtained by different optimization procedures. A computationally efficient method is derived to obtain an actuator that aims to induce the exact structures that are inside the boundary layer, given in terms of their first spectral proper orthogonal decomposition (SPOD) mode, and an actuator that maximizes the energy of induced downstream structures. All three actuators lead to significant delays in the transition to turbulence and were shown to be robust to mild variations in the FST levels. Integrated total drag reductions observed were up to 21Â % and 19Â % for turbulence intensity levels of 3.0Â % and 3.5Â %, respectively, depending on the considered actuator. Differences are understood in terms of the SPOD of actuation and FST-induced fields along with the causality of the control scheme when a cancellation of disturbances is considered along the wall-normal direction. The actuator optimized to generate the leading downstream SPOD mode, representing the streaks in the open-loop flow, leads to the highest transition delay, which can be understood due to its capability of closely cancelling structures in the boundary layer.",
+  "authkeywords": [
+    "boundary layer control",
+    "drag reduction",
+    "transition to turbulence"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "883",
+    "issue": null,
+    "pages": null,
+    "article_number": "A34"
+  },
+  "authors": [
+    {
+      "name": "Sasaki, Kenzo",
+      "scopus_id": "57188732124",
+      "affiliation": "60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morra, Pierluigi",
+      "scopus_id": "57202732840",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, Andre V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Hani, Ardeshir",
+      "scopus_id": "57224368611",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60021657-60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 19,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 78,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85093779770&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101196",
+    "data_quality_score": 100
+  }
+}

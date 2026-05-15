@@ -1,0 +1,31 @@
+{
+  "num_tese": "000479295",
+  "type": "tese",
+  "title": "Simulaçăo de teste de queda de trem de pouso incluindo efeitos de flexibilidade.",
+  "author": "Daniela Albuquerque Moreira",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Trens de pouso săo dispositivos sofisticados com funçőes importantes ŕs aeronaves, responsáveis pela absorçăo de choques, frenagem e manobras. Para tanto o conhecimento antecipado de seu comportamento durante o pouso se faz necessário. Essa caracterizaçăo é realizada através de ensaios de queda e análises computacionais capazes de simular diversos cenários.Um modelo computacional realista de trem de pouso é requerido para simulaçőes digitais projetadas para predizer a dinâmica do sistema em resposta ŕ energia provida no momento do toque. Estas simulaçőes geram equaçőes que modelam o comportamento dinâmico do sistema, cargas aerodinâmicas, choques e reaçőes. A flexibilidade deve ser incluída nos modelos computacionais de modo que o modelo aproxime-se ao máximo de um trem de pouso real, garantindo maior precisăo dos resultados. Como refinamento desses modelos este trabalho propőe a inclusăo da estrutura flexível criada num software de análise de sistemas multicorpos utilizando os modos normais de vibraçăo e estáticos (modos de Craig-Bampton) obtidos de um modelo de elementos finitos do corpo. Utilizou-se o software DADS® na modelagem de sistemas multicorpos e o ANSYS® para elementos finitos. Os resultados demonstram a importância de se avaliar os efeitos da flexibilidade estrutural nos esforços desenvolvidos durante o pouso.",
+  "subjects": [
+    "Trem de pouso",
+    "Métodos computacionais",
+    "Corpos flexíveis",
+    "Simulaçăo computadorizada",
+    "Sistemas dinâmicos",
+    "Método de elementos finitos",
+    "Aterrissagem",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000479295",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000479295&origem=BDITA"
+}

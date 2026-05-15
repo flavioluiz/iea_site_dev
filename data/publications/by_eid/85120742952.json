@@ -1,0 +1,72 @@
+{
+  "publication_id": "2-s2.0-85120742952",
+  "eid": "2-s2.0-85120742952",
+  "doi": "10.1016/j.tsep.2021.101078",
+  "pii": "S2451904921002390",
+  "pubmed_id": null,
+  "title": "Finite-time thermodynamics and exergy analysis of a Stirling engine for space power generation",
+  "abstract": "© 2021 Elsevier LtdIn recent years, the interest of space agencies and private companies in space exploration has increased, mainly in deep space missions. This type of mission poses great challenges due to the high energy level demanded from the power systems, requiring a more efficient and compact energy conversion system. Thus, this work carried out a finite-time thermodynamic model and exergy analysis of a Stirling cycle for nuclear space power generation. The thermodynamic model was coupled to a simple dynamic Stirling engine model and takes into account several aspects such as the thermal losses between the hot and cold side of the Stirling cycle, finite-time regeneration, temperature drop along heat pipes, and variable compression ratio. The system performance and component irreversibilities were evaluated by varying the nuclear core temperature and the cold side temperature of the cycle. Then, the figure of merit mass per power output (kg.kW-1) of the energy conversion system was computed, enabling the model to find temperature conditions for a system that aligns high efficiency and compactness. The results showed that the component with the greatest irreversibility is the reactor core with a value of 496.14 kJ, representing 68.18% of the total irreversibility. The exergy analysis showed that only 5.15% of the total exergy is used for power generation and 24.33% is rejected to space. Moreover, the cold side temperature of 352 K provided the system with the lowest value of mass per power output (87.69 kg.kW-1).",
+  "authkeywords": [
+    "Exergy analysis",
+    "Finite-time thermodynamics",
+    "Space",
+    "Stirling cycle"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thermal Science and Engineering Progress",
+    "issn": null,
+    "eissn": "24519049",
+    "volume": "27",
+    "issue": null,
+    "pages": null,
+    "article_number": "101078"
+  },
+  "authors": [
+    {
+      "name": "de Moura, Ermerson F.",
+      "scopus_id": "57365321500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Henriques, Izabela B.",
+      "scopus_id": "56242811600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "izabela-batista-henriques"
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "izabela-batista-henriques",
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 55,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120742952&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053071",
+    "data_quality_score": 100
+  }
+}

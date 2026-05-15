@@ -1,0 +1,30 @@
+{
+  "num_tese": "000543520",
+  "type": "tese",
+  "title": "Caracterizaçăo dinâmico-mecânica de compósitos metal-fibra e compósitos de fibras de carbono/resina epóxi para uso aeronáutico.",
+  "author": "Carlos Alberto Rios Brito Júnior",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Claudio Pardini",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho aborda a determinaçăo das constantes elásticas de materiais compósitos estruturais de uso aeronáutico por meio de ensaios de vibraçăo. O primeiro corresponde ao ensaio de vibraçăo livre amortecida de vigas (ASTM E-756) que forneceu as freqüęncias naturais e os fatores de amortecimento por meio de seus gráficos da funçăo de resposta no tempo. Foram calculados os módulos dinâmicos para um compósito de fibras de carbono/resina epóxi, em corpos-de-prova obtidos por meio de diferentes ângulos de corte no mesmo, e para compósitos de fibras de carbono/resina epóxi, obtidos com tecido tipo plano, com fraçőes em volume de fibras de carbono de 53% e 57%. Compósitos híbridos metal/reforço/resina, do tipo ARALL, CARALL, e GLARE também foram analisados pelo método de vibraçăo livre de vigas. No segundo método, as constantes elásticas foram obtidas pelo ensaio de vibraçăo livre para placas. Nesse caso, uma placa de compósito alumínio/ fibra de carbono/ resina epóxi (CARALL) foi avaliada pelo método de vibraçăo livre, onde as freqüęncias naturais para os seis primeiros modos de vibraçăo foram obtidas. As freqüęncias numéricas para esta placa com dimensőes de área (2-D) e sem restriçőes de movimento foram modeladas pelo método dos elementos finitos, utilizando o aplicativo computacional ANSYS 7.0. De posse das freqüęncias experimentais e numéricas foi implementado um processo de otimizaçăo em linguagem própria contida em sub-rotina do ANSYS. A otimizaçăo resultou em quatro constantes elásticas (E1, E2, G12 e n12). O mesmo procedimento foi utilizado para uma placa de compósito de fibras de carbono/epóxi, com reforço tipo plano. Os resultados obtidos de testes de vibraçăo foram também comparados com valores obtidos por meio de micromecânica de compósitos.",
+  "subjects": [
+    "Materiais compósitos",
+    "Testes de vibraçăo",
+    "Propriedades elásticas",
+    "Micromecânica",
+    "Fibras de carbono",
+    "Resinas epóxicas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "19/06/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543520",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543520&origem=BDITA"
+}

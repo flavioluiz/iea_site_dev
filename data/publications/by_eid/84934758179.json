@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-84934758179",
+  "eid": "2-s2.0-84934758179",
+  "doi": "10.1177/0021998314541310",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A damage model for the prediction of static and fatigue-driven delamination in composite laminates",
+  "abstract": "© 2014 SAGE Publications.This paper presents a continuum damage mechanics failure model to predict mixed-mode delamination growth in composite laminates subjected to static and high-cycle fatigue loading. The proposed formulation has been developed for robust nonlinear finite element formulations based on explicit direct time integration schemes, particularly the central difference method. The failure model has been implemented as a user-defined material model into ABAQUS/Explicit finite element code within C3D8 hexahedron solid elements. Numerical simulations were performed at coupon level for double cantilever beam, end-notched-flexure, mixed-mode bending and mixed-mode flexure specimens. Predictions obtained using the proposed failure model were compared with experimental results available in the open literature. Good agreement between numerical and experimental results was found.",
+  "authkeywords": [
+    "Composites",
+    "damage mechanics",
+    "delamination",
+    "finite elements",
+    "fracture mechanics"
+  ],
+  "year": "2015",
+  "date": "2015-07-03",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Composite Materials",
+    "issn": "00219983",
+    "eissn": "1530793X",
+    "volume": "49",
+    "issue": "16",
+    "pages": "1995-2007",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Lauda, Diogo P.",
+      "scopus_id": "57496113300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Chemistry",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84934758179&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.122044",
+    "data_quality_score": 100
+  }
+}

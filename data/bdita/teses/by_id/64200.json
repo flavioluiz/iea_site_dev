@@ -1,0 +1,29 @@
+{
+  "num_tese": "64200",
+  "type": "tese",
+  "title": "Análise aeroelástica e comparaçăo com ensaio em voo de uma aeronave năo tripulada",
+  "author": "David Fernando Castillo Zúńiga",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho săo comparadas as caraterísticas aeroelásticas do Veículo Aéreo Năo Tripulado (VANT) Vector-P com as caraterísticas aeroelástica identificadas a partir de um ensaio em voo. Para a análise aeroelástica numérica foi determinada previamente a informaçăo modal da aeronave por meio de um ensaio experimental de vibraçăo em solo (GVT). Foi estimada a variaçăo das frequęncias e do amortecimento aeroelástico em funçăo da velocidade do escoamento. Săo examinados os efeitos da variaçăo de altitude, da representaçăo aerodinâmica da fuselagem, e da sensibilidade frente alguns modos estruturais, nas caraterísticas de flutter. Baseado no GVT foi planejado um ensaio em voo, onde foram coletas respostas de aceleraçăo em vários pontos da aeronave. Foi aplicada a metodologia de Análise Modal Operacional (OMA), usando a técnica de decomposiçăo no domínio da frequęncia (FDD). Esta técnica está fundamentada na decomposiçăo em valores singulares (SVD) das densidades espectrais de potęncia dos sinais de saída do sistema. Tanto no tratamento numérico como no experimental observou-se que năo existem instabilidades aeroelásticas no envelope de voo do Vector-P. Os resultados mostram que possível usar apenas os parâmetros modais experimentais para estimar as caraterísticas aeroelásticas numericamente, desde que estes parâmetros sejam bem descritos. Também mostram que é possível utilizar a técnica FDD para identificar a evoluçăo dos parâmetros dinâmicos em voo.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Análise modal",
+    "Aeronave năo-tripulada",
+    "Aeroelasticidade",
+    "Ensaios em voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "28/03/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64200",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64200&origem=BDITA"
+}

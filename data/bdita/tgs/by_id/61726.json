@@ -1,0 +1,33 @@
+{
+  "num_tg": "61726",
+  "type": "tg",
+  "title": "Determinaçăo de requisitos para um sistema de guiamento de uma bomba lançada de plataforma aérea",
+  "author": "Ney Rafael Sęcco",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Henrique Machado Silva Esteves",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A Multi Ordnance Air Blast é uma bomba desenvolvida pelos Estados Unidos da América que foi testada pela primeira vez em março de 2003. Essa bomba possui um comprimento de mais de 9 metros e pesa cerca de 10 toneladas. Apesar dessa elevada massa e inércia, tal dispositivo conta com um sistema de guiamento auxiliado por GPS (Ground Positioning System) para defletir as superfícies de controle e guiá-la até o alvo. Para verificar quais săo as dificuldades inerentes ao projeto de sistemas de guiamento para bombas de grande massa, construiu-se um modelo conceitual com base nesse artefato norte-americano, aplicando-se uma escala de 6:10. Com o auxílio de algoritmos genéticos, dimensionaram-se as asas e as empenagens para esse novo projeto, seguindo requisitos de manobrabilidade e operaçăo. Os dados aerodinâmicos das configuraçőes foram obtidos por meio do software Missile DATCOM 1997. A configuraçăo final foi entăo submetida a simulaçőes numéricas no ambiente do MATLAB para descrever o seu movimento no plano longitudinal, ocasiőes nas quais foi implementada a lei de navegaçăo proporcional para a executar o guiamento do artefato até o alvo. Por fim, definiu-se uma metodologia para ajustar os parâmetros e ganhos do sistema de guiamento a fim de maximizar a janela de lançamento, dentro da qual fossem pequenos os erros de impacto da bomba em relaçăo ao alvo, levando em conta as hipóteses e simplificaçőes assumidas.",
+  "subjects": [
+    "Controle de estabilidade",
+    "Guiamento (movimento)",
+    "Bombas (explosivos)",
+    "Configuraçőes aerodinâmicas",
+    "Simulaçăo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Engenharia militar"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61726",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61726&origem=BDITA"
+}

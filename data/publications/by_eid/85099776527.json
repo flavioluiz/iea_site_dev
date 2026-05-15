@@ -1,0 +1,95 @@
+{
+  "publication_id": "2-s2.0-85099776527",
+  "eid": "2-s2.0-85099776527",
+  "doi": "10.1115/GT2020-15004",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Comparative study between structured and unstructured meshes applied in turbopump's hydraulic turbine",
+  "abstract": "Copyright © 2020 ASMEThe aim of this work is the evaluation of different mesh types applied in turbomachines area, in this case in an axial turbine stage used in turbopumps (TP) applications. The tip clearance region was considered in this study because it has high influence in turbomachines performance. Due to the complexity of the tip clearance region, structured mesh generation is not always feasible, therefore it is necessary to generate unstructured meshes that allow flow calculation through Computational Fluid Dynamics (CFD) techniques. The use of different mesh type is an interesting topic when different rotor tip geometries are evaluated, in which the desensitization methods are applied. In this work, only the common flat-tip was consider. Thus, as a first step, unstructured tetrahedral meshes (with prismatic layers close to the surfaces) with different y+ values were generated. After this, turbulent 3-D flow calculations were performed at design and off design conditions, based con Reynolds Averaged Navier-Stokes (RANS) equations. The methodology used is to present in a didactic way, for under and graduate students, the advantages and disadvantages of the unstructured mesh in relation to the structured one, already used in previous research. Unstructured meshes were generated using ICEM software (ANSYS), while structured ones were generated using AxCent software developed by CONCEPTS NREC. The machine under study is the first stage of the hydraulic axial turbine used in the Low Pressure Oxidizer Turbopump (LPOTP) of the Space Shuttle Main Engine (SSME), considering 3.0% tip clearance configuration relative to blade height. All simulations were done using CFX program (ANSYS). The result shows the comparison between the two mesh types considering the difficulty and time generation, discretization quality, effect of y+ parameter variation on flowfield, simulation time, and stage performance parameters calculation for different operating points.",
+  "authkeywords": [
+    "CFD",
+    "Desensitization",
+    "Mesh generation",
+    "Tip clearance",
+    "Turbine",
+    "Turbopump"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "6",
+    "issue": null,
+    "pages": null,
+    "article_number": "v006t08a006"
+  },
+  "authors": [
+    {
+      "name": "da Silva Tonon, Daniel",
+      "scopus_id": "57221682357",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuíno Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Garcia, Ezio Castejon",
+      "scopus_id": "57223612043",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Díaz, Rubén Bruno",
+      "scopus_id": "57221677637",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Whitacker, Luiz Henrique Lindquist",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 36,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099776527&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051819",
+    "data_quality_score": 100
+  }
+}

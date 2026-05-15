@@ -1,0 +1,32 @@
+{
+  "num_tg": "79971",
+  "type": "tg",
+  "title": "Design e análise aerodinâmica de um veículo planador hipersônico com geometria waverider nas fases subsônica e supersônica do voo",
+  "author": "Natan Campistano de Mello",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fábio Henrique Eugęnio Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O desenvolvimento de veículos hipersônicos representa uma verdadeira revoluçăo nos setores de transporte e defesa, tanto no âmbito militar quanto no civil, ao reduzir drasticamente o tempo de voo. Duas tecnologias essenciais para a evoluçăo da hipersônica aspirada săo o uso de motores scramjet (combustăo supersônica) e a geometria waverider, que garante alta sustentaçăo em voos supersônicos e hipersônicos. O Brasil tem uma posiçăo de destaque nesse campo, liderado pelo projeto PropHiper da Força Aérea Brasileira e suas ramificaçőes. Nesse contexto, ferramentas numéricas de análise aerodinâmica de baixo custo computacional tornam-se essenciais para examinar sistematicamente várias geometrias em diferentes regimes de voo, em tempo reduzido. O presente trabalho tem como objetivo o projeto e a análise da eficięncia aerodinâmica de um veículo waverider nos regimes subsônico e supersônico baixo, utilizando métodos numéricos de baixo custo. Para a geraçăo do waverider, foi adotado o Método dos Cones Osculadores, devido ŕ sua flexibilidade e independęncia do objeto gerador. Para a análise aerodinâmica, foi utilizada a ferramenta MachLine, que aplica o Método dos Painéis em escoamentos subsônicos e supersônicos com malhas năo estruturadas. Inicialmente, várias geometrias foram geradas no ponto de design com Mach 10, e aquelas com melhor eficięncia aerodinâmica, determinadas pela ferramenta HipeX, foram selecionadas para a análise.",
+  "subjects": [
+    "Veículos hipersônicos",
+    "Veículos de sustentaçăo por ondas de choque",
+    "Cones",
+    "Métodos de painéis (dinâmica dos fluidos)",
+    "Estudo numérico",
+    "Número de Mach",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79971",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79971&origem=BDITA"
+}

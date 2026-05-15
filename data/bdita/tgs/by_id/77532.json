@@ -1,0 +1,31 @@
+{
+  "num_tg": "77532",
+  "type": "tg",
+  "title": "Projeto conceitual de alvo aéreo manobrável baseado na propulsăo de turbojato",
+  "author": "Marcelo Yuri Sampaio de Freitas",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vitor Alexandre Carlesse Martins",
+      "professor_slug": "vitor-gabriel-kleine"
+    }
+  ],
+  "abstract": "Este trabalho consiste na elaboraçăo de uma ferramenta de projeto conceitual para alvos aéreos com base em ferramentas de aeronaves comerciais. Para isso foram realizadas diversas modificaçőes, primeira delas foi a utilizaçăo de dados históricos de aeronaves de caçaa nos modelos de estimativas aplicados, presentes em Roskam (1985) e Raymer (2006), seguida pela adiçăo do modelo termodinâmico presente em Saravanamuttoo et al. (2017) para descrever o desempenho do motor TR-5000 utilizado no alvo aéreo objetivo deste trabalho e pelas alteraçőes nas etapas de determinaçăo do peso de combustível gasto na operaçăo, já que a missăo desempenhada por alvos aéreos é diferente das realizadas por aeronaves comerciais. Todas essas modificaçőes e a missăo desempenhada foram validadas com base nos dados da aeronave Denel Dynamics Skua, na qual os parâmetros geométricos foram levantados com base nas tręs vistas utilizando os softwares WebPlotDigitalizer e CATIA. Com a ferramenta completa e validada, ela foi aplicada no estudo de caso utilizando a TR-5000. Sendo iniciada com a determinaçăo dos objetivos a serem atingidos pela otimizaçăo, seguida da construçăo do Design of Experiments do problema para a determinaçăo da sensibilidade das variáveis de entrada e finalizando com determinaçăao dos intervalos das variáveis de entrada, restriçőes das variáveis de saída e a determinaçăo da aeronave ótima 4,24 % mais leve para a missăo em questăo. Ao final săo indicadas algumas sugestőes para os próximos passos deste trabalho, podem ser destacados a determinaçăo de requisitos de baixa velocidade e a determinaçăo dos parâmetros de voo durante toda a missăo.",
+  "subjects": [
+    "Alvos",
+    "Projetos",
+    "Propulsăo a jato",
+    "Otimizaçăo",
+    "Aeronaves comerciais",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77532",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77532&origem=BDITA"
+}

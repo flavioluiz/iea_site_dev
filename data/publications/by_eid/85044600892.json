@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85044600892",
+  "eid": "2-s2.0-85044600892",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Dynamic gain scheduling of highly flexible aircraft applying adaptive control",
+  "abstract": "© 2017 International Forum on Aeroelasticity and Structural Dynamics (IFASD). All rights reserved.In this paper, the application of adaptive control is demonstrated for highly flexible aircraft in a dynamic gain scheduling approach. For that, an adaptive control law is designed for the stability augmentation system, taking as reference model the closed-loop dynamics provided by a baseline controller. Global stability is demonstrated by the Lyapunov direct method. Closed-loop nonlinear simulations are performed. The performance of the control system is evaluated considering the aircraft in high loading operations, specifically in accelerated turning maneuvers. Overall, this control strategy proved to overcome instabilities arising when linear control is applied, while conferring the aircraft adequate time response.",
+  "authkeywords": [
+    "Adaptive control",
+    "Control of flexible aircraft",
+    "Hale aircraft",
+    "Lyapunov direct method",
+    "Model reference adaptive control"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": "2017-June",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bertolin, Rafael M.",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Barbosa, Guilherme C.",
+      "scopus_id": "57201395546",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "González, Pedro J.R.",
+      "scopus_id": "55596665900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85044600892&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055382",
+    "data_quality_score": 80
+  }
+}

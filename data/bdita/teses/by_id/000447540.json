@@ -1,0 +1,31 @@
+{
+  "num_tese": "000447540",
+  "type": "tese",
+  "title": "Formulation of a rectangular finite element for a laminated composite plate with piezoelectric layers.",
+  "author": "Adriano Luiz de Carvalho Neto",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A formulation of a finite element for a composite plate containing distributed piexoelectric layers that can be either bonded to the surface or embedded within the structure, considering the Classical Laminated Plate Theory (CLPT), is presented. Temperatures effects are neglected. The finite element has a rectangular shape with four nodal points, flexural and membrane stiffness, six mechanical degrees of freedom per nodal point (u; v; w; W,x; W,y; W,xy) and one electrical potential degree of freedom per piezoelectric layer ( f ). This element presents continuity C0 in the in-plane displacements, continuity C1 in the transversal displacement and the electric potentials are constants throughout the plane of the piezoelectric layer but varying linearly thru the thickness. Two comparison case studies are presented and the present formulation shows a good agreement with the results available in the literature.",
+  "subjects": [
+    "Placas (membros estruturais)",
+    "Laminados",
+    "Piezoeletricidade",
+    "Estruturas",
+    "Método de elementos finitos",
+    "Materiais compósitos",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000447540",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000447540&origem=BDITA"
+}

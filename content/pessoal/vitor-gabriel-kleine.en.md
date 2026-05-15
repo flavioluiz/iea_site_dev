@@ -2,7 +2,6 @@
 title: "Vitor Gabriel Kleine"
 layout: professor
 professor_id: "vitor-gabriel-kleine"
-type: docentes
+departamento: "iea-a"
+type: pessoal
 ---
-
-<!-- Additional content can be added here if needed -->

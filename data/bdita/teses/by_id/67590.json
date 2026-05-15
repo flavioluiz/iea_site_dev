@@ -1,0 +1,29 @@
+{
+  "num_tese": "67590",
+  "type": "tese",
+  "title": "Reconstruçăo de mapas de intervisibilidade para aplicaçőes de defesa",
+  "author": "Luciano Severo Bittencourt",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A tática aérea de progressăo em território inimigo usando navegaçăo a baixa altura visa proteger a aeronave incursora dos radares inimigos, através do bloqueio natural oferecido pela geografia do terreno. Para diminuir os riscos de detecçăo, é fundamental um adequado planejamento deste tipo de missăo, que requer informaçőes como as posiçőes de radares e os dados de elevaçăo na regiăo da navegaçăo. Com essas informaçőes, a construçăo do mapa de intervisibilidade constitui uma ferramenta essencial para um bom planejamento da trajetória. Por outro lado, do ponto de vista da defesa aérea, a construçăo de mapas de intervisibilidade permite posicionar os radares de forma que tenham maior visibilidade da regiăo a ser protegida, diminuindo o risco de sofrer um ataque aéreo. Assim, para evitar o cálculo de intervisibilidade de todos os pontos, é importante investigar como reconstruir mapas de intervisibilidade a partir de informaçăo incompleta. As alternativas escolhidas para apoiar o estudo foram a construçăo de modelos de prediçăo com redes neurais artificiais e de modelos aditivos generalizados. Os dois modelos foram definidos a partir de um estudo sistemático, baseado nos princípios de projeto e análise de experimentos. Para a construçăo do algoritmo de cálculo exato foram utilizadas idéias contidas nos algoritmos Xdraw e Radial LoS Scanning, juntamente com o algoritmo de Bresenham para determinaçăo das linhas de visada.",
+  "subjects": [
+    "Controle preditivo",
+    "Mapas auto-organizáveis (redes neurais)",
+    "Detecçăo por radar",
+    "Redes neurais",
+    "Planejamento de missăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "24/11/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67590",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67590&origem=BDITA"
+}

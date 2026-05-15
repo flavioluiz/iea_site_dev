@@ -1,0 +1,35 @@
+{
+  "num_tese": "78298",
+  "type": "tese",
+  "title": "The use of a numerical thermal model and a statistical approach to study the laser beam welding process",
+  "author": "Ariel Flores Monteiro de Oliveira",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luiz Eduardo dos Santos Paes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Besides welding is widely applied in manufacture, process control is still a great challenge. The need to determine the process parameters that produces a joint that fulfills the desired requirements led to the expansion of research related to this area in the last decades. Among the various types of welding, laser Beam Welding (LBW) is increasing in many manufacturing applications due to its multiple advantages compared to traditional welding methods, such as accuracy, efficiency, high production rate, among other things. Most of these characteristics are closely related to the high control of parameters required to process execution. Therefore, it is essential to understand the mechanisms involved and the influence of input parameters, like laser power over welding penetration. Beyond the experimental techniques applied to examine LBW, numerical simulations are widely spread because they may decrease developing time and cost compared to experimental procedures and allow further examination of the physical phenomena involved. This work aims to study LBW behavior and applies thermal and statistical modeling as an alternative approach. To this end, the non-linear three-dimensional heat diffusion equation with a phase change model based on the enthalpy function was solved through the Finite Volume Method (FVM). The process was developed in CUDA-C language, which applied the resolution procedure SOR-M in the linear equations solutions. The simulations were validated based on lab-controlled experiments. The input parameters were confirmed to exercise significant influence in the response forecasted by the code. Hence, the statistical Taguchi method was applied to analyze the effects of the parameters on the output data. Due to the high thermal gradient involved, a linear adjustment procedure regarding numerical sensors positioning was elaborated to assure a suitable response. The study found that applying the correct input parameters and sensors positioning permits the calculation of optimum response. In this case, the temperatures and the weld bead geometry matched the experimental values. The proposed model allows the adaptation of the welding parameters to forecast thermal, geometrical, and microstructural process behavior.",
+  "subjects": [
+    "Soldagem a laser",
+    "Análise térmica",
+    "Métodos de Taguchi",
+    "Modelo numérico",
+    "Equaçőes lineares",
+    "Programas de computadores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "02/03/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78298",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78298&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000541189",
+  "type": "tese",
+  "title": "Protótipo de um modelador DFM - Design For Manufacturing - voltado para ferramentas de corte.",
+  "author": "Jayme Gonçalves Barros Junior",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por objetivo apresentar a implementaçăo do software DFM (Projeto para Manufatura) voltado para Ferramentas de Corte, que inclui a integraçăo entre o ambiente de trabalho dos projetistas (AUTOCADâ) e o banco de dados das ferramentas de corte da Manufatura implementado no (EXCELâ). As vantagens principais desta integraçăo săo transparęncia, flexibilidade, maior produtividade e realismo nas informaçőes trocadas entre as áreas. O DFM é entendido como um método de Engenharia Simultânea, que se preocupa com a definiçăo de projetos de manufatura alternativos na busca da melhoria da produtividade. Tem obtido grande adesăo no meio fabril devido aos grandes avanços das tecnologias de manufatura. O projeto de produtos em companhias que projetam e fabricam partes metálicas grandes e pesadas para estaçőes de energia hidroelétrica necessitam de uma nova abordagem de projeto. Na abordagem tradicional, o projeto é passado de uma área para outra na forma de cascata, onde a última área que recebeu o projeto tem total responsabilidade sobre o mesmo. Na abordagem da Engenharia Simultânea, um time multidisciplinar conduz, de maneira integrada, todas as fases desde a concepçăo até a assistęncia técnica do produto no cliente. O DFM voltado para Ferramentas de Corte é uma maneira muito eficiente de se implementar a Engenharia Simultânea entre a Engenharia de Projeto e a Manufatura, permitindo o acesso on line ao banco de dados das ferramentas de corte, o qual armazena todos os detalhes dimensionais e geométricos das ferramentas utilizadas pela Manufatura para executar as operaçőes definidas no produto pela Engenharia de Projeto. O software DFM voltado para Ferramentas de Corte elimina as desvantagens da sistemática manual para definiçăo do projeto de um produto e garante as vantagens descritas anteriormente.",
+  "subjects": [
+    "Computer aided design",
+    "Computer aided manufacturing",
+    "Ferramentas de corte",
+    "Engenharia simultânea",
+    "Programas de aplicaçăo (computadores)",
+    "Administraçăo de projetos",
+    "Engenharia industrial"
+  ],
+  "defense_date": "21/12/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541189",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541189&origem=BDITA"
+}

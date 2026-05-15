@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-84971657266",
+  "eid": "2-s2.0-84971657266",
+  "doi": "10.5028/jatm.v8i2.558",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Comparison of in-flight measured and computed aeroelastic damping: Modal identification procedures and modeling approaches",
+  "abstract": "© 2016, Journal of Aerospace Technology and Management. All rights reserved.The Operational Modal Analysis technique is a methodology very often applied for the identification of dynamic systems when the input signal is unknown. The applied methodology is based on a technique to estimate the Frequency Response Functions and extract the modal parameters using only the structural dynamic response data, without assuming the knowledge of the excitation forces. Such approach is an adequate way for measuring the aircraft aeroelastic response due to random input, like atmospheric turbulence. The in-flight structural response has been measured by accelerometers distributed along the aircraft wings, fuselage and empennages. The Enhanced Frequency Domain Decomposition technique was chosen to identify the airframe dynamic parameters. This technique is based on the hypothesis that the system is randomly excited with a broadband spectrum with almost constant power spectral density. The system identification procedure is based on the Single Value Decomposition of the power spectral densities of system output signals, estimated by the usual Fast Fourier Transform method. This procedure has been applied to different flight conditions to evaluate the modal parameters and the aeroelastic stability trends of the airframe under investigation. The experimental results obtained by this methodology were compared with the predicted results supplied by aeroelastic numerical models in order to check the consistency of the proposed output-only methodology. The objective of this paper is to compare in-flight measured aeroelastic damping against the corresponding parameters computed from numerical aeroelastic models. Different aerodynamic modeling approaches should be investigated such as the use of source panel body models, cruciform and flat plate projection. As a result of this investigation it is expected the choice of the better aeroelastic modeling and Operational Modal Analysis techniques to be included in a standard aeroelastic certification process.",
+  "authkeywords": [
+    "In-flight aeroelastic testing",
+    "Model correlation",
+    "Operational modal analysis"
+  ],
+  "year": "2016",
+  "date": "2016-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aerospace Technology and Management",
+    "issn": "19849648",
+    "eissn": "21759146",
+    "volume": "8",
+    "issue": "2",
+    "pages": "163-177",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Follador, Roberto da Cunha",
+      "scopus_id": "57189517706",
+      "affiliation": "60025385",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Souza, Carlos Eduardo",
+      "scopus_id": "55507900700",
+      "affiliation": "60033356",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marto, Adolfo Gomes",
+      "scopus_id": "55537912500",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Roberto Gil Annes Da",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Góes, Luis Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84971657266&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067352",
+    "data_quality_score": 100
+  }
+}

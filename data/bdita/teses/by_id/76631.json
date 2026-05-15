@@ -1,0 +1,28 @@
+{
+  "num_tese": "76631",
+  "type": "tese",
+  "title": "Aeroelastic testing of flexible aircraft using acceleration and strain sensors",
+  "author": "David Fernando Castillo Zúńiga",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Aircraft designs have sought to maximize performance and minimize fuel consumption. Aiming to achieve these goals have resulted in aircraft with high aspect ratio wings and the use of lighter materials. Due to structural flexibility, it has increased aeroelastic phenomena and their interaction with aircraft dynamics and control systems. In this sense, this thesis deals with the aeroelastic in-flight test and analysis methodologies for a flexible unmanned aerial vehicles (UAV). It focuses on the field of Operational Modal Analysis (OMA) methodologies in the frequency domain using acceleration and strain measurements. As a study platform was prepared the EOLO, flexible UAV in composite material with 4 meters wingspan and aspect ratio of 18.9. A first step for aeroelastic characterization of the EOLO concerned in determine its modal characteristics by means of Ground Vibration Test (GVT). For GVT data identification were used both Experimental Modal Analysis (EMA) and OMA techniques. Based on the GVT data and numerical aeroelastic analysis, a wind tunnel test and flight test campaign were planned and accomplished to collect acceleration and strain measurements at various points of the aircraft. An application of OMA methodology was determined using the Frequency Domain Decomposition (FDD) technique, the Improved Frequency Domain Decomposition (EFDD) technique and the Frequency and Spatial Domain Decomposition (FSDD). These methodologies are based on the Singular Value Decomposition (SVD) of the power spectral densities from the system output signals. Additionally, it is proposed a methodology for aeroelastic evaluation using parallel and/or simultaneous acceleration and strain measurements, which compared to the traditional modal properties obtained from only acceleration-based responses, it is concluded that it is possible to obtain additional information on mode observability, strain fields and redundancy for wing shape estimation..",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Operaçőes ŕ bordo",
+    "Túneis de vento",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/11/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76631",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76631&origem=BDITA"
+}

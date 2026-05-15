@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85158906902",
+  "eid": "2-s2.0-85158906902",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "NONLINEAR POST-FLUTTER ANALYSIS OF FLEXIBLE COMPOSITE AEROSTRUCTURES",
+  "abstract": "© Proceedings of the International Forum of Aeroelasticity and Structural Dynamics 2022, IFASD 2022.This study performs an experimental and numerical investigation on the nonlinear aeroelastic response of composite flat plate-like wings with a ballast at their free tips. The effects of different chord-wise ballast positions are experimentally examined in a set of six rectangular wings laminated with different layups. The proposed numerical model brings forward a nonlinear FE beam model accounting for aerodynamic and geometrical nonlinearities. The latter were taken into account by a total Lagrangian formulation in order to describe the exact kinematics of a Timoshenko’s beam. Nonlinear aerodynamic loads were computed via an unsteady strip theory model in the time-domain, with the Jones approximation for the Wagner’s function. Additionally, a quasi-steady stall model based on an experimental quasi-static stall curve for flat plates was used to interpolate the lift-curve slope. Different nonlinear post-flutter LCO behaviors were obtained for the different ballast positions and layups tested. To conclude, the reasonable correlation between model and experiments indicated that the nonlinear approach performed here was capable to predict the aeroelastic behavior of the tested wings.",
+  "authkeywords": [
+    "composites",
+    "LCO",
+    "nonlinear aeroelasticity",
+    "post-flutter"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Forum of Aeroelasticity and Structural Dynamics 2022 Ifasd 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Gefferson C.",
+      "scopus_id": "57201589978",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85158906902&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121516",
+    "data_quality_score": 70
+  }
+}

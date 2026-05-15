@@ -1,0 +1,31 @@
+{
+  "num_tese": "000531147",
+  "type": "tese",
+  "title": "Identificaçăo no domínio da freqüęncia de sistema de comando de vôo e da dinâmica de vôo năo-linear.",
+  "author": "Roberto Barbosa Cintra",
+  "year": "2004",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho foram revisados os métodos do caminho reverso (RP) e do caminho reverso condicionado (CRP), ambos aplicados ŕ análise e identificaçăo năo-paramétrica no domínio da freqüęncia. A modelagem dinâmica aplicável a uma aeronave rígida também foi revisada. Aplicou-se a abordagem CRP na identificaçăo năo-paramétrica das funçőes de resposta em freqüęncia de vários modelos simulados, tanto de uma aeronave quanto de modelos de comando de vôo. A maximizaçăo da verossimilhança foi aplicada na obtençăo de modelos racionais paramétricos no domínio da freqüęncia, permitindo a transiçăo de um modelo năo-paramétrico para outro paramétrico. Desenvolveram-se programas em MATLAB para o cálculo das funçőes de resposta em freqüęncia condicionadas, para o cálculo das funçőes do modelo de aeronave e para a obtençăo de modelos racionais paramétricos.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Sistemas năo-lineares",
+    "Análise de domínio de freqüęncia",
+    "Estimaçăo por máxima verossimilhança",
+    "Modelos matemáticos",
+    "Controle de aeronaves",
+    "Dinâmica de vôo",
+    "Controle"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000531147",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000531147&origem=BDITA"
+}

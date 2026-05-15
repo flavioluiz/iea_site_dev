@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85048608852",
+  "eid": "2-s2.0-85048608852",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Application of nonlinear model order reduction technique to a flexible aircraft for real-time simulations",
+  "abstract": "© 2017 International Forum on Aeroelasticity and Structural Dynamics (IFASD). All Rights Reserved.Real–time simulation is a valuable tool for aircraft development. However, flexible aircraft models are computationally expensive and can be prohibitive for fast simulations. This paper investigates the applicability of a nonlinear model order reduction technique to a moderate flexible aircraft for real–time simulation purposes. Details of the implementation and test cases are presented. Results show that the reduced–order model can be simulated in real–time and produces better results than linearized model and rigid–body model with aeroelastic correction and we conclude that the technique is promising for real–time simulations.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Flexible aircraft",
+    "Flight dynamics",
+    "Real–time simulation",
+    "Reduced-order modeling"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": "2017-June",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Paulino, Juliano A.",
+      "scopus_id": "57202513674",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Antônio, B. Guimarães Neto",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Monteiro, Tiago P.",
+      "scopus_id": "57192906820",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Roberto Gil, A. da Silva",
+      "scopus_id": "59159541100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ronch, Andrea Da",
+      "scopus_id": "59454642700",
+      "affiliation": "60025225",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048608852&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055371",
+    "data_quality_score": 70
+  }
+}

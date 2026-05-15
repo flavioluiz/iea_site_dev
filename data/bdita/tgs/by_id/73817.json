@@ -1,0 +1,30 @@
+{
+  "num_tg": "73817",
+  "type": "tg",
+  "title": "Controle preditivo aplicado a guiamento por waypoints com desvio de obstáculos para um veículo aéreo năo tripulado",
+  "author": "Leonam José Tavares de Oliveira",
+  "year": "2017",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "José Agnelo Bezerra Guilherme Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Gustavo Toledo de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem o objetivo de estudar o problema de guiamento e controle de uma aeronave cuja missăo é passar por waypoints fixos e desviar de multi obstáculos estacionários do tipo politopo. Como método de resoluçăo para esse problema, foi utilizado controle preditivo com restriçőes nos atuadores (manete, profundor, aileron e leme), devido ŕs suas limitaçőes físicas, bem como restriçőes nas taxas de variaçăo dessas variáveis, de forma a năo sobrecarregar os atuadores. Além disso, foi implementado restriçőes em algumas variáveis de estado, de forma a manter a aeronave dentro do envelope de voo. Em relaçăo ŕ aeronave utilizada no problema, foi tomado o modelo do Acauă. Essa aeronave foi desenvolvida pela ASA, divisăo de sistemas aeronáuticos do IAE (Instituto de Aeronáutica e Espaço), com o intuito de desenvolver tecnologias de automaçăo de voo de cunho nacional para veículos aéreos năo tripulados. É desenvolvido um método online de tomada de decisăo e desvio de obstáculos, o qual é avaliado para vários cenários com diferentes distribuiçőes de obstáculos e waypoints, mesmo na presença de perturbaçőes provenientes de rajadas de vento. A trajetória seguida pela a aeronave é, entăo, gerada durante a missăo, possuindo a característica de sempre buscar seguir círculos ou retas no espaço. Rotinas computacionais foram desenvolvidas com o intuito de testar diversos cenários para o método de resoluçăo do problema, bem como estabelecer suas restriçőes.",
+  "subjects": [
+    "Controle preditivo",
+    "Aeronave năo-tripulada",
+    "Guiamento (movimento)",
+    "Ponto de notificaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73817",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73817&origem=BDITA"
+}

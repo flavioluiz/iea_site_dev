@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85111428891",
+  "eid": "2-s2.0-85111428891",
+  "doi": "10.1017/jfm.2021.566",
+  "pii": "S0022112021005668",
+  "pubmed_id": null,
+  "title": "Nozzle dynamics and wavepackets in turbulent jets",
+  "abstract": "© We study a turbulent jet issuing from a cylindrical nozzle to characterise coherent structures evolving in the turbulent boundary layer. The analysis is performed using data from a large-eddy simulation of a Mach 0.4 jet. Azimuthal decomposition of the velocity field in the nozzle shows that turbulent kinetic energy predominantly resides in high azimuthal wavenumbers; the first three azimuthal wavenumbers, that are important for sound generation, contain much lower, but non-zero amplitudes. Using two-point statistics, low azimuthal modes in the nozzle boundary layer are shown to exhibit significant correlations with modes of the same order in the free-jet region. Spectral proper orthogonal decomposition is used to distill a low-rank approximation of the flow dynamics. This reveals the existence of tilted coherent structures within the nozzle boundary layer and shows that these are coupled with wavepackets in the jet. The educed nozzle boundary-layer structures are modelled using a global resolvent analysis of the mean flow inside the nozzle to determine the most amplified flow responses using the linearised Navier-Stokes system. It is shown that the most-energetic nozzle structures can be successfully described with optimal resolvent response modes, whose associated forcing modes are observed to tilt against the nozzle boundary layer, suggesting that the Orr mechanism underpins these organised, turbulent, boundary-layer structures.",
+  "authkeywords": [
+    "boundary layer stability",
+    "jet noise",
+    "turbulent boundary layers"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "923",
+    "issue": null,
+    "pages": null,
+    "article_number": "A22"
+  },
+  "authors": [
+    {
+      "name": "Kaplan, Oǧuzhan",
+      "scopus_id": "57194859157",
+      "affiliation": "60008134-60104665",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60008134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 23,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 71,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85111428891&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100828",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85060434209",
+  "eid": "2-s2.0-85060434209",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Applicability of geometrically-linear structural-dynamic models for the flight dynamics of arbitrarily-flexible aircraft",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.The assumption of small deformations in the formulation of the flight dynamics of flexible aircraft can be very convenient as it allows the use of a reduced number of modes of vibration to represent the structural dynamics with little loss of accuracy. However, depending on the level of structural flexibility, deformations may become large enough to violate this simplifying assumption, making geometrically-nonlinear formulations necessary. Delimiting the range of validity of small deformations is then indispensable for the flight-mechanics engineer in state-of-the-art aircraft design. In this paper, small- and large-deformation formulations are compared in equilibrium conditions and in time-marching simulations for aircraft with different levels of structural flexibility. The importance of geometrical nonlinearities and the range of validity of small deformations are assessed.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Flexible aircraft",
+    "Flight dynamics",
+    "Large deformations",
+    "Small deformations"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Cardoso-Ribeiro, Flávio L.",
+      "scopus_id": "46461159000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "flavio-luiz-c-ribeiro"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060434209&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055335",
+    "data_quality_score": 80
+  }
+}

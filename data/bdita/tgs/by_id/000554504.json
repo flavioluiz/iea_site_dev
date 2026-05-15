@@ -1,0 +1,37 @@
+{
+  "num_tg": "000554504",
+  "type": "tg",
+  "title": "Estudo de casos sobre otimizaçăo de veículo suborbitial VS-40.",
+  "author": "Leandro Farias Nogueira",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Luis Eduardo Vergueiro Loures da Costa",
+      "professor_slug": null
+    },
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alexandre Nogueira Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem por objetivo o estudo de problemas de otimizaçăo de veículos suborbitais, explorando os recursos da ferramenta computacional MDO-SONDA (Multidisciplinary Design Optimization of Sounding Rockets) e propondo melhorias para esta ferramenta, desenvolvida no Instituto de Aeronáutica e Espaço (IAE). A otimizaçăo de veículos suborbitais oferece vários desafios. Por exemplo, do ponto de vista computacional, estudam-se estratégias para lidar com a integraçăo de modelos, o esforço computacional e a mineraçăo dos resultados da otimizaçăo. Este estudo lida com o desafio do ponto de vista da definiçăo do problema de otimizaçăo, envolvendo duas disciplinas: aerodinâmica e dinâmica de vôo. Isto envolve a escolha das variáveis e dos objetivos de projeto, considerando essas disciplinas. Uma escolha adequada é fundamental para se alcançar resultados relevantes. Primeiro, estuda-se a integraçăo das rotinas computacionais responsáveis pelo cálculo dos coeficientes aerodinâmicos e pela trajetória do veículo suborbital. Segundo, levantam-se os requisitos de desempenho de configuraçőes pré-estabelecidas de veículos suborbitais, atendendo ŕs necessidades do IAE e de seus stakeholders. Terceiro, definem-se e implementam-se os casos de otimizaçăo, levando em consideraçăo as restriçőes de estabilidade dinâmica do veículo. Por último, com base nos resultados da otimizaçăo, sumarizam-se os compromissos entre as variáveis e os objetivos de projeto. Desta forma, este trabalho contribui para a implantaçăo da Otimizaçăo Multidisciplinar de Projeto no IAE. O estudo explora recursos e propőe melhorias para o MDO-SONDA, é multidisciplinar, investiga vários casos de otimizaçăo e contribui para o aprimoramento da engenharia de sistemas do IAE.",
+  "subjects": [
+    "Otimizaçăo",
+    "Dinâmica de vôo",
+    "Vôo suborbital",
+    "Programas de aplicaçăo (computadores)",
+    "Aerodinâmica",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Engenharia aeroespacial",
+    "Engenharia de sistemas"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554504",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554504&origem=BDITA"
+}

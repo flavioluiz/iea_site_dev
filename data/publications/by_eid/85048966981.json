@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85048966981",
+  "eid": "2-s2.0-85048966981",
+  "doi": "10.1016/j.compstruct.2018.06.040",
+  "pii": "S0263822317342319",
+  "pubmed_id": null,
+  "title": "Strain rate effects on the intralaminar fracture toughness of composite laminates subjected to tensile load",
+  "abstract": "© 2018 Elsevier LtdThis paper presents a numerical and experimental study on the intralaminar tensile fracture toughness of carbon fiber reinforced composite subjected to high strain rates. As there is no standardized testing procedures for intralaminar fracture toughness characterization of composites at high strain rates, there is a clear need to design specimen geometries, testing apparatus and data reduction schemes that allows the characterization of the fracture toughness of composites in the dynamic regime. Initially numerical studies were performed based on finite element simulations in order to investigate the viability of its construction for different testing configurations to characterize the intralaminar toughness of composite laminates. A comparative study is presented showing the advantages and disadvantages of each testing configuration. A new data reduction scheme based on modifications in the ASTM standard, accounting for material anisotropy and specimen finite geometry effects is suggested. Experimental tests were carried out, using the proposed specimen configuration at different strain rates in order to investigate the strain rate effects using a modified version of the Split Hopkinson Pressure Bar. Fractography analyses using Scanning Electron Microscopy(SEM) have been also performed in order to investigate the strain rate effects on the failures mechanisms of the composite material studied herein.",
+  "authkeywords": [
+    "Composite materials",
+    "Dynamic analysis",
+    "Failure analysis",
+    "Fracture mechanics",
+    "Fracture toughness"
+  ],
+  "year": "2018",
+  "date": "2018-10-01",
+  "type": "article",
+  "subtype": "re",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "201",
+    "issue": null,
+    "pages": "455-467",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Leite, Luiz Fernando Martins",
+      "scopus_id": "57198495651",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Leite, Bruno Martins",
+      "scopus_id": "57198492330",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Reis, Vitor Luiz",
+      "scopus_id": "57198503971",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Alves da Silveira, Nubia Nale",
+      "scopus_id": "57202643232",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048966981&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121800",
+    "data_quality_score": 100
+  }
+}

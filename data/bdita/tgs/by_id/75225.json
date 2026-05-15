@@ -1,0 +1,25 @@
+{
+  "num_tg": "75225",
+  "type": "tg",
+  "title": "A study of airliner power and control system architectures",
+  "author": "Arthur Andrades Covatti",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Pazini Brandăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In a modern airliner, power and control systems are used essentially to provide motion of main and nose landing gears, wing control surfaces, flaps, elevator, rudder, compensators, and doors. The forces needed to provide these motions are big and power systems should be designed to perform properly with safety and redundancy. Since these systems are critical for the airliner functioning, their architectures are often designed in triplicate. What is most common is to have main and secondary systems of the hydraulic type, with a third system, of emergency, of the electromechanical type. There is an observed trend towards replacing hydraulic by electromechanical systems, in what is known as the flyby-wire architecture. In this work we introduce a third option, of power systems driven by pressurized air. This concept is called fly-by-pressure. The purpose of this study is to develop qualitative and quantitative comparisons of these three options in terms of weight, performance, safety, noise, sustainability, maintenance, installation, and direct operational cost (DOC). The conventional architecture is used as benchmark.",
+  "subjects": [
+    "Controle de voo",
+    "Dispositivos eletromecânicos",
+    "Sistemas hidráulicos de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75225",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75225&origem=BDITA"
+}

@@ -1,0 +1,26 @@
+{
+  "num_tg": "67471",
+  "type": "tg",
+  "title": "Controle ótimo da equaçăo da advecçăo linear utilizando o sistema adjunto",
+  "author": "Eric Torrente Lopes",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por principal objetivo explorar a utilizaçăo e implementaçăo numérica do sistema adjunto como ferramenta de otimizaçăo e controle. Para tanto, foi proposto um problema simples, o da advecçăo linear, sobre o qual aplicou-se tal método analiticamente. Daí entăo foi desenvolvido um programa computacional que realiza a aplicaçăo numérica do método, simulando diferentes tipos de perturbaçăo no escoamento. Na maioria dos casos o programa teve o objetivo de atenuar as perturbaçőes, mas em um outro procurou amplificá-las. Olhando para o lado de aplicaçőes mais práticas, a motivaçăo do trabalho foi o controle de escoamentos turbulentos, tanto no sentido da relaminarizaçăo quanto no de aumentar o nível de turbulęncia.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Otimizaçăo",
+    "Controle",
+    "Métodos matemáticos",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67471",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67471&origem=BDITA"
+}

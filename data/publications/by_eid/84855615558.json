@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-84855615558",
+  "eid": "2-s2.0-84855615558",
+  "doi": "10.1155/2012/971983",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Optimal two-impulse trajectories with moderate flight time for earth-moon missions",
+  "abstract": "A study of optimal two-impulse trajectories with moderate flight time for Earth-Moon missions is presented. The optimization criterion is the total characteristic velocity. Three dynamical models are used to describe the motion of the space vehicle: the well-known patched-conic approximation and two versions of the planar circular restricted three-body problem (PCR3BP). In the patched-conic approximation model, the parameters to be optimized are two: initial phase angle of space vehicle and the first velocity impulse. In the PCR3BP models, the parameters to be optimized are four: initial phase angle of space vehicle, flight time, and the first and the second velocity impulses. In all cases, the optimization problem has one degree of freedom and can be solved by means of an algorithm based on gradient method in conjunction with Newton-Raphson method. © 2012 Sandro da Silva Fernandes and Cleverson Maranho Porto Marinho.",
+  "authkeywords": null,
+  "year": "2012",
+  "date": "2012-01-13",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mathematical Problems in Engineering",
+    "issn": "1024123X",
+    "eissn": "15635147",
+    "volume": "2012",
+    "issue": null,
+    "pages": null,
+    "article_number": "971983"
+  },
+  "authors": [
+    {
+      "name": "Da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "Maranho Porto Marinhão, Cleverson",
+      "scopus_id": "54890788300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84855615558&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081828",
+    "data_quality_score": 90
+  }
+}

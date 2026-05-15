@@ -1,0 +1,32 @@
+{
+  "num_tg": "000554471",
+  "type": "tg",
+  "title": "Estimaçăo da potęncia dissipada por medidas termográficas.",
+  "author": "Lucas Borges Hanusch",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marc Iliozer",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Estimar a potęncia dissipada por componentes eletrônicos tem se mostrado ao longo do tempo uma tarefa dispendiosa, no entanto necessária. Ao se projetar um sistema eletrônico, seja um computador, um trem ou uma simples placa, é necessário conhecer seu consumo de energia, pois isso afetará significativamente o projeto dos sistemas complementares, como o de alimentaçăo ou de resfriamento, a grande questăo é como fazer essa estimaçăo de modo rápido e otimizado? Esse TG mostra como isso pode ser feito com a utilizaçăo de uma câmera infravermelha. Através dessa câmera, tira-se uma foto da placa projetada e obtęm-se uma imagem da temperatura sobre toda a superfície. Um modelo foi entăo construído para transformar essa foto de temperatura em uma estimaçăo de potęncia, consideraram-se as trocas de calor por radiaçăo e por convecçăo. Utilizando a fórmula de Churchill-Chill e algumas correçőes empíricas chega-se a estimaçőes com erro máximo de 10%, o que é bastante aceitável dada velocidade de aplicaçăo desse método, a grande desvantagem, no entanto, é a dificuldade de se estimar a potęncia dissipada em um determinado componente que está montado sobre uma placa eletrônica.",
+  "subjects": [
+    "Dissipaçăo de energia",
+    "Dispositivos elétricos",
+    "Termografia",
+    "Estimaçăo de sistemas",
+    "Sistemas elétricos de potęncia",
+    "Engenharia elétrica",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554471",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554471&origem=BDITA"
+}

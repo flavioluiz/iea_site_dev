@@ -1,0 +1,30 @@
+{
+  "num_tese": "72765",
+  "type": "tese",
+  "title": "Estimaçăo das derivadas de estabilidade e controle do modelo dinâmico longitudinal de um helicóptero",
+  "author": "Emmanuel Araujo Machado",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em funçăo dos elevados custos das horas de voo de helicópteros, os operadores civis e militares tęm empregado cada vez mais as ferramentas dos simuladores e treinadores de voo para aumentar a segurança de suas operaçőes por meio do treinamento de seus tripulantes. Com o objetivo de reduzir os custos e aumentar sua capacidade na área de cięncia e tecnologia o Exército Brasileiro tem realizado pesquisas e aquisiçőes de simuladores de equipamentos e armas. Este trabalho teve por objetivo modelar o comportamento dinâmico longitudinal de um helicóptero convencional, estimando as suas derivadas de estabilidade e controle para utilizaçăo em simuladores de voo. Para atingir este objetivo foram realizadas aproximadamente 30 horas de voo na aeronave AS 550 A2 - Fennec, da Aviaçăo do Exército, em diversas configuraçőes de peso, velocidade, altitude e centro de gravidade. A modelagem do comportamento dinâmico foi baseada na literatura técnica de helicópteros, sendo a estimaçăo dos parâmetros para cálculo das derivadas de estabilidade realizada pelo método do Filtro de Kalman Estendido. Com os dados obtidos em voo foram realizados os cálculos das derivadas de estabilidade e controle. Após isso, os valores foram validados por meio de simulaçăo e, posteriormente, comparados com outros métodos de cálculo. Como resultado, foi verificado que o método de estimaçăo, utilizando o Filtro de Kalman Estendido, possui a aderęncia necessária para a reproduçăo do valor real obtido em voo, podendo ser utilizado na obtençăo dos parâmetros das equaçőes dinâmicas de um helicóptero convencional.",
+  "subjects": [
+    "Simuladores de voo",
+    "Helicópteros",
+    "Derivadas de estabilidade",
+    "Identificaçăo de parâmetros",
+    "Filtros de Kalman",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72765",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72765&origem=BDITA"
+}

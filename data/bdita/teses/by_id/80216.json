@@ -1,0 +1,34 @@
+{
+  "num_tese": "80216",
+  "type": "tese",
+  "title": "Modeling the densification through shot peening of highly porous gears",
+  "author": "Felipe de Sá Carneiro",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Alternative manufacturing processes to machining are gaining ground in industry, guided by the premises of Industry 4.0. Innovative methods such as indirect additive manufacturing offer significant geometric flexibility while maintaining reasonable productivity. However, the solid-state sintering used in this process often results in highly porous structures, which presents a challenge to traditional plasticity models that are typically limited to materials with less than 10 % porosity. This study aims to develop a highly porous material simulation model capable of evaluating the effects of densification in the shot peening process. Experimental porosity characterisation was conducted using indirect additive manufacturing samples with 25% porosity in terms of pore size, distribution and aspect ratio through the application of image processing techniques. The initial step in numerical modelling is the development of a representative single pore volume, which is then used to describe the micromechanical behaviour of the material in question. The accuracy of the model was validated by means of compression tests on porous bodies, as well as by comparing the numerical data with the experimental results. The densification of this porous material by shot peening was evaluated using a model taken from the literature. The results demonstrate that porosity generates stress and strain gradients on the micro scale, which are then perceived on the macro scale. The proposed modelling achieved reasonably similar mechanical property values compared to the experimental data. By parameterising densification, it was possible to identify a potential optimal combination of parameters in which the percentage of energy absorbed plastically is maximised. A comparison of the densification curves along the depth revealed that the model demonstrated greater accuracy in less severe peening. Consequently, it can be concluded that the proposed simulation tool is effective, particularly in densification processes with a low strain rate. Further studies recommend utilising the proposed model with dense material properties characterised in strain regimes analogous to those of the process employed.",
+  "subjects": [
+    "Engrenagens",
+    "Tratamento de superfícies",
+    "Materiais porosos",
+    "Propriedades mecânicas",
+    "Fabricaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80216",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80216&origem=BDITA"
+}

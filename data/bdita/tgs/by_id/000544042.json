@@ -1,0 +1,26 @@
+{
+  "num_tg": "000544042",
+  "type": "tg",
+  "title": "Aeroelastic modeling and flutter calculations for a motorglider.",
+  "author": "Antonio Costa Barreto Júnior",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In order to analyze the aeroelastic behavior of a motorglider, a dynamic model and an aerodynamic model were developed, and flutter calculations were performed. The dynamic model is a Transfer Matrices Method application, were simple beam equations are used to set up the stiffness matrix for the whole model, and Newton's second law for a non-inertial referential to set up the mass matrix. Also a Finite Element model was built using MSC-NASTRAN to compare and validate the results obtained from the Transfer Matrices Method. The aerodynamic model used was the Strip Theory, an appropriate method for rectangular, high aspect-ratio, subsonic wings. The motorglider fits approximately these requirements. The non-stationary loads are determined as a function of the reduced frequency at each wing segment, assuming harmonic movement at the stability limit. The flutter velocity solution was obtained through Theodorsen's method. Parametric studies were conducted varying the control surfaces stiffness as well as the altitude. Joining the Transfer Matrices Method with the Strip Theory generates a fast, light and accurate tool, within its validity domain, which makes it a good alternative to aeroelastic calculations in multidisciplinary optimization programs.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Modelos matemáticos",
+    "Vibraçăo aeroelástica",
+    "Cargas aerodinâmicas",
+    "Análise estrutural dinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544042",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544042&origem=BDITA"
+}

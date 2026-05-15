@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85100289805",
+  "eid": "2-s2.0-85100289805",
+  "doi": "10.1007/s00348-020-03112-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental control of Tollmien–Schlichting waves using pressure sensors and plasma actuators",
+  "abstract": "© 2021, The Author(s), under exclusive licence to Springer-Verlag GmbH, DE part of Springer Nature.This manuscript presents a successful application of the inverse feed-forward control (IFFC) technique for control of the Tollmien–Schlichting (TS) waves over a wing profile placed in an open-circuit wind tunnel. Active cancellation of two-dimensional broadband TS disturbances is performed using a single dielectric barrier discharge (DBD) plasma actuator. The measurements required for the IFFC are performed with microphones, instead of hot wires often used for this purpose, in order to reduce the space occupied by the sensors and assess the suitability of simpler and cheaper devices. An attenuation of the TS-wave amplitude of one order of magnitude is achieved. Direct numerical simulations (DNS) are also performed and compared to the outcome of the experiments. The plasma-actuator model used in DNS is a mapping of the force field used by Fabbiane et al. (In: Proceedings of TSFP-9, Melbourne, 2015a) to the actual geometry, whereas the sensors (microphones) are modeled as pressure probes. Despite these modelling choices, a good agreement between the results of DNS and the experiments is achieved. However, the control performance is better in the DNS, with attenuation of three orders of magnitude of TS-wave amplitude. Further analysis of experiments and simulations shows that the limiting factor in the experiments is the ambient low-frequency acoustic waves in the wind tunnel. These waves are sensed by the microphones and act as noise in the analysis of TS-wave evolution and thus leading to lower coherence between sensors and actuators. This in turn leads to a suboptimal control kernel in the experiment.Please confirm if the inserted city and country are correct in Affiliations [Aff1, Aff2]. Amend if necessary.Confirmed. It is correct.Please confirm if the corresponding author is correctly identified. Amend if necessary.Confirmed. The corresponding author is Pedro P. C. Brito. Graphic abstract: [Figure not available: see fulltext.]",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Experiments in Fluids",
+    "issn": "07234864",
+    "eissn": "14321114",
+    "volume": "62",
+    "issue": "2",
+    "pages": null,
+    "article_number": "32"
+  },
+  "authors": [
+    {
+      "name": "Brito, Pedro P.C.",
+      "scopus_id": "57221814854",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morra, Pierluigi",
+      "scopus_id": "57202732840",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Araújo, Tiago B.",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    },
+    {
+      "name": "Henningson, Dan S.",
+      "scopus_id": "7004576676",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hanifi, Ardeshir",
+      "scopus_id": "6602899777",
+      "affiliation": "60002014",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri",
+    "tiago-barbosa-de-araujo"
+  ],
+  "scopus": {
+    "citations": 14,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 53,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100289805&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100778",
+    "data_quality_score": 90
+  }
+}

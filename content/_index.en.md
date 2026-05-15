@@ -1,13 +1,13 @@
 ---
-title: "AER/ITA - Division of Aeronautical and Aerospace Engineering"
+title: "IEA/ITA — Division of Aeronautical and Aerospace Engineering"
 description: "Division of Aeronautical and Aerospace Engineering at the Technological Institute of Aeronautics"
 ---
 
-The **Division of Aeronautical and Aerospace Engineering (AER)** at ITA brings together excellence in research, teaching, and infrastructure across aeronautical and space engineering. With decades of contribution to Brazil's aerospace sector, AER is a national reference in aerodynamics, propulsion, structures, space systems, and emerging technologies.
+The **Division of Aeronautical and Aerospace Engineering (IEA)** at ITA brings together excellence in research, teaching, and infrastructure across aeronautical and space engineering. With decades of contribution to Brazil's aerospace sector, it is a national reference in aerodynamics, propulsion, structures, space systems, and emerging technologies.
 
 ---
 
-## AER at a Glance
+## The Division at a Glance
 
 | | | | |
 |:---:|:---:|:---:|:---:|
@@ -42,7 +42,7 @@ Space propulsion, launch vehicles, satellites, CubeSats, GNC (Guidance, Navigati
 
 ## Graduate Programs
 
-AER hosts two graduate programs:
+The Division hosts two graduate programs:
 
 - **[PG-EAM](https://www.ita.br/posgraduacao/pgeam)** — Aeronautical and Mechanical Engineering (CAPES grade 6)
 - **[PG-CEA](https://www.ita.br/posgraduacao/pgcea)** — Space Sciences and Engineering
@@ -51,4 +51,4 @@ AER hosts two graduate programs:
 
 ## Contact
 
-Questions about the division? [Contact](/en/contato/) the AER secretariat.
+Questions about the division? [Contact](/en/contato/) the Division secretariat.

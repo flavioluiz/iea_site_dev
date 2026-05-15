@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-84906699642",
+  "eid": "2-s2.0-84906699642",
+  "doi": "10.1016/j.ijheatmasstransfer.2014.07.093",
+  "pii": "S0017931014006826",
+  "pubmed_id": null,
+  "title": "Turbulent free convection in a porous cavity using the two-temperature model and the high Reynolds closure",
+  "abstract": "This work presents a study on free convection in a porous square cavity saturated with a Newtonian fluid. Computations for laminar and turbulent flow are performed. Governing equations were time- and volume averaged according to the double-decomposition concept. Discretization of governing equations was obtained with the control-volume approach and the system of algebraic equation was relaxed via the SIMPLE method. Two energy models were employed, namely the one- and two-temperature models. Results indicated that when the ratio of thermal conductivities equals unity, both models give similar results. However, the overall Nusselt number across the cavity is reduced as porosity or the thermal conductivity ratio increases. A critical value for the Rayleigh number, understood as that when laminar and turbulent solution differ by a substantial amount, was found to be a function of the thermal conductivity ratio. © 2014 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Natural convection",
+    "Porous media",
+    "Turbulence modeling",
+    "Two-temperature model"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "79",
+    "issue": null,
+    "pages": "105-115",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Carvalho, Paulo H.S.",
+      "scopus_id": "55922067000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84906699642&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110759",
+    "data_quality_score": 100
+  }
+}

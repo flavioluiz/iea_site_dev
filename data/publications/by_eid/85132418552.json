@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85132418552",
+  "eid": "2-s2.0-85132418552",
+  "doi": "10.2514/1.J060879",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Jet Installation Noise Modeling in Static and Flight Conditions Using Centerline Fluctuations",
+  "abstract": "© 2022, AIAA International. All rights reserved.The present work is dedicated to the modeling of the low-frequency part of the jet installation noise (JIN) in flight conditions. It is known that the properties of JIN can be predicted based on the characteristics of the near field of an isolated jet. Unlike the static case, in the presence of a coflow, it is difficult to directly measure the structure of the pressure perturbations in the jet near field. To overcome this problem, we propose a technique based on hot-wire measurements on the jet axis, suitable both for static and flight conditions. The well-known agreement between a parabolized stability equations (PSEs) model and experimentally measured velocity fluctuations on the jet axis allows using the PSE approach for the reconstruction of the axisymmetric pressure fluctuations in the vicinity of the wing trailing-edge location. The first helical mode, which is also important for the jet installation noise prediction, is approximately reconstructed based on the fact that its properties are close to those of the axisymmetric mode. These pressure characteristics are then used as input in an analytical jet installation noise model. To confirm this approach, acoustic measurements of JIN in static and flight conditions are conducted for a laboratory subsonic jet installed near a flat plate simulating a wing. It is shown that the analytical model informed by the PSE-reconstructed pressure field is capable of capturing the main features of the low-frequency jet–plate interaction noise both in static conditions and in the presence of coflow.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "60",
+    "issue": "6",
+    "pages": "3620-3634",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bychkov, Oleg",
+      "scopus_id": "56462777500",
+      "affiliation": "60012482",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Faranosov, Georgy",
+      "scopus_id": "24338095500",
+      "affiliation": "60012482",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kopiev, Victor",
+      "scopus_id": "57190524002",
+      "affiliation": "60012482",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Soares, Luiz F.M.",
+      "scopus_id": "57194850678",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85132418552&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100684",
+    "data_quality_score": 90
+  }
+}

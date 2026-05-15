@@ -1,0 +1,27 @@
+{
+  "num_tg": "000550430",
+  "type": "tg",
+  "title": "Modelagem do comportamento pós-flambagem de vigas de alma fina, utilizando o programa MSC/NASTRAN.",
+  "author": "José Airton Menezes Filho",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O Trabalho tem como objetivo a modelagem de uma viga de alma fina em um programa de cálculo de elementos finitos chamado MSC/Nastran, com o intuito de se obter valores de carga de falha e tensăo última próxima aos encontrados experimentalmente. Para isso, procedeu-se uma análise paramétrica da estrutura da viga analisada, analisando-se variáveis como tipo de carregamento, malha de cálculo utilizada, necessidade de offsets, quais elementos a serem utilizados (BEAM, BAR, PLATE), necessidade de ser reproduzir alguns características experimentais e sua influęncia nos resultados numéricos. Ao final, procedeu-se uma análise năo-linear utilizando o modelo ótimo encontrado anteriormente, esperando que este fornecesse a carga última e a tensăo de falha. No caso da análise năo-linear, é mostrado passo a passo como se foi feito no programa utilizado, haja vista que é um tipo de procedimento pouco explorado.",
+  "subjects": [
+    "Análise estrutural",
+    "Vigas (suportes)",
+    "Flambagem",
+    "Nastran",
+    "Método de elementos finitos",
+    "Análise de tensăo",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550430",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550430&origem=BDITA"
+}

@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-13344280320",
+  "eid": "2-s2.0-13344280320",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Force identification of mechanical systems through lifecycle model",
+  "abstract": "This paper presents an inverse procedure for the determination of external loads, given the dynamic responses of the loaded structure and its corresponding finite element model. The influence of the stressstiffening effect on the dynamic characteristics of structural systems is used to establish a relation between the dynamical responses and the applied external loading. An optimization problem is formulated in which the objective function represents the difference between the measured modal characteristics of the loaded structure and their FE counterparts. The loading parameters, assumed as being unknown, are considered as the design variables. The identification procedure is illustrated by means of numerical simulations. In which the identification problem is solved by using the heuristic named LifeCycle model together with the Lagrange-Newton SQP (Sequential Quadratic Programming) method.",
+  "authkeywords": null,
+  "year": "2004",
+  "date": "2004-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the 2004 International Conference on Noise and Vibration Engineering ISMA",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "2945-2957",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Rojas, J. E.",
+      "scopus_id": "16639727000",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Viana, F. A.C.",
+      "scopus_id": "8453033200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Steffen, V.",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=13344280320&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089612",
+    "data_quality_score": 70
+  }
+}

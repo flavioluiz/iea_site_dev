@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-84867740767",
+  "eid": "2-s2.0-84867740767",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Sudden contraction in a turbulent flow with a porous insert",
+  "abstract": "The purpose of this work is to investigate the influence of a porous insert in an incompressible turbulent flow in a pipe that suffers a sudden contraction. The Reynolds number considered is 158,000 based on the pipe outlet diameter. The flow equations are discretized by using the control volume method and the SIMPLE algorithm is applied for the velocity-pressure coupling. In all cases, the macroscopic k - ε Low-Reynolds turbulence model is employed. For an initial numerical validation a simulation is carried out without the porous insert in order to be compared with an experimental result. Subsequently, a porous insert is considered in the numerical simulations. The flow losses obtained with the porous insert are calculated and compared with those obtained from the calculations without the porous insert.",
+  "authkeywords": [
+    "Numerical simulation",
+    "Porous media",
+    "Sudden contraction",
+    "Turbulent flow"
+  ],
+  "year": "2005",
+  "date": "2005-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Latin American Journal of Solids and Structures",
+    "issn": "16797817",
+    "eissn": "16797825",
+    "volume": "2",
+    "issue": "3",
+    "pages": "269-290",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Orselli, R. M.",
+      "scopus_id": "36621177100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, M. J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84867740767&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111431",
+    "data_quality_score": 80
+  }
+}

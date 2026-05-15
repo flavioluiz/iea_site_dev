@@ -1,0 +1,30 @@
+{
+  "num_tese": "000545277",
+  "type": "tese",
+  "title": "Acoplamento 3-D da transferęncia de calor em dutos retangulares com o efeito da dissipaçăo viscosa e análise da geraçăo de entropia.",
+  "author": "Robson Leal da Silva",
+  "year": "2007",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O desenvolvimento desta tese teve como propósito implementar uma ferramenta numérica para simulaçăo, estudos e análise do acoplamento térmico em sistemas trocadores de calor. Avaliaçăo dos parâmetros é aplicável para processos de aquecimento, arrefecimento ou resfriamento de fluidos em dutos de equipamentos termofluido-mecânicos. Nas superfícies destes dutos ocorre o acoplamento da conduçăo com a radiaçăo, convecçăo externa e interna. A conduçăo estudada é 2-D, na direçăo axial e na seçăo transversal do duto com paredes consideradas de espessura fina. O modelo da convecçăo interna utiliza formulaçőes e métodos de soluçăo para a condiçăo de temperaturas năo-impostas no perímetro da seçăo transversal de dutos retangulares com escoamento laminar e desenvolvido. Os coeficientes locais de convecçăo interna săo obtidos pelo cálculo de derivadas, após obtençăo do campo de temperatura 3-D do fluido. A convecçăo externa é modelada utilizando correlaçőes estabelecidas na literatura para obter o número de Nusselt e o coeficiente de convecçăo externa. O estudo da radiaçăo consiste basicamente na obtençăo das equaçőes integrais de radiosidade na banda de interesse do espectro eletromagnético. Portanto, o modelo contempla o acoplamento 3-D de modos múltiplos da transferęncia de calor em dutos retangulares com escoamento laminar e viscoso. A camada limite hidrodinâmica e térmica săo completamente desenvolvidas. Um modelo físico-matemático e computacional é elaborado para representar o dispositivo proposto e analisar a interaçăo entre os modos da transferęncia de calor. Nas paredes do duto săo realizados os balanços de energia, surgindo as relaçőes de dependęncia destes modos entre si. O acoplamento das equaçőes diferenciais da conduçăo, radiaçăo, convecçăo interna e externa ocorre nestes balanços térmicos, em cada uma das paredes, gerando um sistema de equaçőes năo-lineares. Além das equaçőes para o balanço de energia, as equaçőes de conservaçăo da massa, quantidade de movimento e energia governando o escoamento săo discretizadas pelo método de diferenças finitas e, obtém-se a partir destas, resultados numéricos que correspondem aos campos de velocidade e temperatura. A representaçăo do domínio computacional é feita por malhas estruturadas. A soluçăo é obtida para a condiçăo de regime permanente. O efeito da dissipaçăo viscosa na equaçăo da energia é contabilizado, onde se confirma sua importância quando comparando soluçőes para Nu=f (Z*) com e sem termos viscosos na referida equaçăo. Convergęncia e estabilidade da soluçăo săo demonstradas utilizando a malha com número adequado de nós (pontos) e queda dos resíduos numéricos em pelo menos cinco ordens de grandeza. Para o escoamento interno (ar, água ou óleo) e material das paredes em aço inox, aço-carbono, alumínio ou cobre, săo avaliados na direçăo axial do duto, dentre outros, o coeficiente de convecçăo (h), o número de Nusselt (Nu) e os gradientes de temperatura (média global e média das paredes), além do campo 3-D de temperatura e da geraçăo de entropia. A metodologia proposta é validada com base na termodinâmica e princípios de conservaçăo da energia no acoplamento entre os vários modos da transferęncia de calor nas paredes do duto. Esta validaçăo é amparada também por meio da comparaçăo dos resultados com a literatura, bem como apresentando analises baseadas no significado físico dos parâmetros obtidos.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Análise numérica",
+    "Acoplamento termodinâmico",
+    "Dutos",
+    "Escoamento viscoso",
+    "Entropia",
+    "Física"
+  ],
+  "defense_date": "04/12/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000545277",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000545277&origem=BDITA"
+}

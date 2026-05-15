@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85203602710",
+  "eid": "2-s2.0-85203602710",
+  "doi": "10.1007/978-3-031-67241-5_21",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "CPU and GPU Computational Performance Comparison Applied to Autogenous Welding Simulation",
+  "abstract": "© The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.The recent advancements in computer hardware opened new doors to the modeling and simulation of intensive Computational Fluid Dynamics (CFD) problems. The advent of modern Graphics Processing Units (GPUs) made parallel computing easier by allowing cards to run multiple kernels in several parallel threads with double-precision. However, traditional CFD codes still lack hardware usage optimization due to a low threads scalability computing methodology. Hence, a computational performance investigation between codes run on GPU and Central Processing Unit (CPU) is presented in this work. The analysis was focused on the three-dimensional simulation of a Laser Beam Welding (LBW) process with a moving heat source and non-linear thermal properties. The solutions were developed by applying the Finite Volume Method (FVM) to solve the transient heat conduction Partial Differential Equation (PDE). The phase change was accounted through the enthalpy method. A time and space-dependent Gaussian conical volumetric profile was used to model the heat source. The GPU solutions were computed by a CUDA-C in-house code running on a Nvidia Geforce RTX™ 3090 and RTX™ 4090 video cards, both with 24 GB of memory. Three equivalent solutions were produced by top-rated commercial codes. All codes were run on an Intel® Core™ I9 12900KF CPU with 3.6 GHz base clock and 16 cores. The results evidenced that GPU and CPU processing are similarly precise but GPUs can achieve far faster and more power efficient CFD solutions. The GPU code demonstrated better memory optimization when simulating LBW.",
+  "authkeywords": [
+    "Autogenous Welding",
+    "CUDA-C Language",
+    "GPU Processing"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Mechanical Engineering",
+    "issn": "21954356",
+    "eissn": "21954364",
+    "volume": null,
+    "issue": null,
+    "pages": "227-237",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nascimento, E. J.G.",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, E. S.",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Azevedo, A. M.",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Paes, L. E.S.",
+      "scopus_id": "57201031681",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, A. F.M.",
+      "scopus_id": "58513347300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203602710&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.090980",
+    "data_quality_score": 90
+  }
+}

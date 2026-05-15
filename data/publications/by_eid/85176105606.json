@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-85176105606",
+  "eid": "2-s2.0-85176105606",
+  "doi": "10.1115/1.4063732",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Fully Implicit Enthalpy-Porosity Model for Phase-Change",
+  "abstract": "Copyright © 2024 by ASME.This article proposes a new formulation for a phase change model based on the enthalpy-porosity idea. A general one-energy equation model (1EEM) is extended to deal with the melting and solidification of pure substances and alloys. Before melting and after solidification, solid material is seen as a porous media with low porosity and very small permeability. During phase change, thermal equilibrium in the mushy zone is assumed. Viscous and form drag in the volume-Averaged momentum equation are reduced as the temperature rises above the melting point. In the energy equation, latent heat is treated implicitly in the accumulation term instead of explicitly as in most works in the literature. Liquid fraction for the entire field is updated after a new temperature field is calculated. Thermophysical properties are updated with the new liquid fraction field. Governing equations are discretized according to the control-volume method. Algebraic equation sets are relaxed with the Simple Method. Inner iterations make use of the Strong Implicit Procedure. Preliminary results indicate good agreement with the literature for pure substances.",
+  "authkeywords": [
+    "numerical simulation",
+    "phase-change model",
+    "porous-media"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "ASME Journal of Heat and Mass Transfer",
+    "issn": "28328450",
+    "eissn": "28328469",
+    "volume": "146",
+    "issue": "1",
+    "pages": null,
+    "article_number": "011005"
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Hodierne, Anatole J.U.",
+      "scopus_id": "59224452800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 32,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85176105606&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110220",
+    "data_quality_score": 100
+  }
+}

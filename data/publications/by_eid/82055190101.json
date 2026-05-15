@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-82055190101",
+  "eid": "2-s2.0-82055190101",
+  "doi": "10.1115/GT2010-22132",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Hybrid neural system for gas turbine diagnostics: An optimization strategy",
+  "abstract": "New health monitoring strategies were developed in the last decade aiming at improvement of gas turbines safety and reliability. Real time methodologies have been considered of major concern for safe operation at least cost. This paper describes a hybrid system approach for turboshaft faults diagnosis, using data obtained from a tuned high fidelity gas turbine simulator program, including those for multiple faults deteriorated performance. Kohonen neural network was used to analyze similarity together with an optimization strategy to reduce the volume of data used in the diagnostics phase. A Multi-Layer Perceptron (MLP) was used for training and validation. The MLP and Kohonen networks were tested for several configurations, in order to improve diagnosis. The hybrid system was also tested with noise-contaminated data and it was verified the capability of the neural approach to detect and isolate multiple faults better than the MLP alone. The results showed that the optimization strategy reduced significantly the database patterns and improved the learning process, demonstrating high precision to diagnose gas turbine operation problems. The reliability of the proposed system is explained both qualitatively and quantitatively. Copyright © 2010 by ASME.",
+  "authkeywords": null,
+  "year": "2010",
+  "date": "2010-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "475-484",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Matuck, Gustavo Ravanhani",
+      "scopus_id": "21742966800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, João Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Lima, Isaias",
+      "scopus_id": "9334642200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 44,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=82055190101&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052250",
+    "data_quality_score": 90
+  }
+}

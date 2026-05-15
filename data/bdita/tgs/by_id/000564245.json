@@ -1,0 +1,32 @@
+{
+  "num_tg": "000564245",
+  "type": "tg",
+  "title": "Desenvolvimento de um trem de pouso principal para a aeronave XIMANGO AMT-100.",
+  "author": "Igor Machado de Souza",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Carlos Miguel Montestruque Vilchez",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Grégori Pogorzelski",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho trata do projeto de um novo trem de pouso principal para a aeronave XIMANGO AMT-100. O desenvolvimento desse projeto foi iniciado no ano 2007 pelo entăo aluno de graduaçăo do ITA Alexandre Muniz Neves (Engenharia Aeronáutica - Turma 2009). O objetivo da nova estrutura é proporcionar maior robustez ŕ aeronave através da utilizaçăo de material composto em uma configuraçăo do tipo fixo. O projeto tem início com o estudo do regulamento CS-22 da EASA. Nesse estudo, condiçőes de pouso săo estabelecidas e estratégias săo definidas para cumprir todos os itens aplicáveis. É realizado um trabalho de engenharia reversa para a obtençăo da geometria relativa ao trem de pouso, săo tomadas a posiçăo dos pontos de fixaçăo e as dimensőes do compartimento na asa, por exemplo. É criado um modelo em CAD da estrutura, assim como um modelo em elementos finitos. Tendo sempre o regulamento como base, é encontrada a quantidade de energia que deve ser absorvida pelo trem em cada condiçăo de pouso. As formas de absorçăo dessa energia săo definidas e modeladas. Chega-se aos valores dos casos de carregamento da estrutura. A partir dos resultados de uma análise năo-linear em elementos finitos, aplica-se o critério de falha de Von Mises para as partes de metal e o critério de Hoffman para as partes em material composto. Utilizam-se fatores de segurança adequados para cada material. Por fim, uma bateria de ensaios é cuidadosamente proposta com o objetivo de demonstrar a conformidade da estrutura projetada com o regulamento CS-22. Os resultados em elementos finitos apontam para uma estrutura que irá cumprir todos os itens do regulamento aplicável. Para demonstrar conformidade com o regulamento, a proposta de ensaios conta com mecanismos de aplicaçăo de força bastante sofisticados. A realizaçăo dos ensaios fica como sugestăo para trabalhos futuros.",
+  "subjects": [
+    "Trem de pouso",
+    "Análise estrutural",
+    "Planador com grupo motor",
+    "Identificaçăo de sistemas",
+    "Modelos matemáticos",
+    "Ensaios de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000564245",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000564245&origem=BDITA"
+}

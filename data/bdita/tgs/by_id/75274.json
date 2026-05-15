@@ -1,0 +1,25 @@
+{
+  "num_tg": "75274",
+  "type": "tg",
+  "title": "Estudo de uma metodologia de avaliaçăo de risco para operaçăo de VANT'S em áreas povoadas",
+  "author": "Lucas Maurente Scheer",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Adson Agrico de Paula",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em 2014, a FAB adquiriu o VANT Elbit Hermes 900 com o objetivo de realizar operaçőes de vigilância e inteligęncia. Esta negociaçăo marca uma crescente na utilizaçăo de veículos aéreos năo tripulados no Brasil. Com isso, surgem regulamentaçőes que buscam garantir a segurança do uso desta tecnologia. O problema é que os regulamentos existentes ainda săo extremamente conservadores, atrapalhando a operacionalidade da FAB. Nesse contexto, o intuito deste trabalho é definir uma metodologia menos conservadora que mantenha os níveis de segurança desejados, no que se refere a acidentes fatais. Além disso, com o propósito de validar o modelo, será feito um estudo de caso que seja representativo com o problema da FAB a respeito da operacionalidade dos VANT's. Primeiramente, foi apresentado o conceito de Safety Assessment com o objetivo de definir um valor limite para o risco de acidente fatal médio por hora. A seguir, foi definida a missăo teste, como sendo um sobrevoo a uma partida de futebol (3 horas) no Maracană. Depois disso, foram analisadas metodologias de cálculo de risco e uma delas foi escolhida para efetuar o teste. Por fim, foi elaborado um programa que calcula o risco de acidente fatal por hora em cada momento da operaçăo, além de calcular o risco médio envolvido durante toda ela. Os resultados apresentaram que a metodologia é útil no sentido de aumentar a operacionalidade dos VANT's. Porém, o fator mais relevante na decisăo de realizar ou năo a operaçăo vem do projeto da aeronave. Esse fator é a frequęncia de falha incontrolável, que possui altas variaçőes entre VANT's diferentes e por isso afetam tanto o resultado final. Portanto, verificou-se que a frequęncia de falha incontrolável é a variável mais relevante no cálculo do risco de acidente fatal, devendo ser levada em conta em aquisiçőes e projetos de VANT's. Conclui-se também a importância da evoluçăo da análise de risco nos mais diversos setores, pois a medida que isso acontece, a operacionalidade aumenta sem ferir a segurança.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Avaliaçăo de riscos",
+    "Segurança",
+    "Áreas urbanas",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75274",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75274&origem=BDITA"
+}

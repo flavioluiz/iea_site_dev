@@ -1,0 +1,34 @@
+{
+  "num_tg": "79363",
+  "type": "tg",
+  "title": "Ajuste de modelos estruturais dinâmicos com base em dados experimentais de ensaios",
+  "author": "Samuel Cruz Fernandes",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Edilson Alexandre Camargo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Para a operaçăo de aeronaves e veículos no geral, é de suma importância sua caracterizaçăo dinâmica, que pode ser obtida por meio da metodologia de análise modal. Essa metodologia pode ser realizada de forma experimental ou numérica, lançando măo do método dos elementos finitos. Esse trabalho teve como objetivo principal a comparaçăo entre as duas metodologias de análise modal, utilizando para isso a aeronave teste LEVI-250, presente no Laboratório de Ensaios de Vibraçăo (LEVI) do IAE. O objetivo secundário foi utilizar parâmetros de resultados experimentais para aproximar a simulaçăo dos resultados de ensaio. A fim de concluir essa comparaçăo, modelos de elementos finitos foram desenvolvidos usando elementos de viga, placa e sólido, realizando análises de convergęncia para cada uma dessas configuraçőes. Experimentalmente, foram realizados tręs ensaios: os dois primeiros com a aeronave em pé (colhendo dados com vibrômetros e acelerômetros) e o último com a aeronave em uma configuraçăo convencional (colhendo dados com acelerômetros). Os resultados mostraram que as duas metodologias năo convergem totalmente com relaçăo ŕs frequęncias, mas convergem parcialmente com relaçăo aos modos de forma. No entanto, boa correlaçăo é obtida para o primeiro modo de flexăo da viga ao se ajustar as propriedades físicas do material na simulaçăo. A simulaçăo em elementos finitos, feita antes do ensaio, foi útil para planejar os pontos de aquisiçăo e para ter uma ideia geral do comportamento real da estrutura. Entende-se que o modelo com elementos finitos de placa é o mais adequado para essa modelagem, dada a sua razăo entre acurácia e custo computacional.",
+  "subjects": [
+    "Estruturas",
+    "Análise modal",
+    "Método de elementos finitos",
+    "Vibraçăo",
+    "Análise numérica",
+    "Análise estrutural",
+    "Aeronaves",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79363",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79363&origem=BDITA"
+}

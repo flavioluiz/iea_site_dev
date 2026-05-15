@@ -1,0 +1,34 @@
+{
+  "num_tese": "78546",
+  "type": "tese",
+  "title": "Modeling and simulation of a satellite with non-latching flexible appendages",
+  "author": "Lorenzzo Quevedo Mantovani",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "abstract": "Booms are deployable structures used to position equipment away from the spacecraft. While larger spacecraft have latching systems to lock their booms' position after deployment, it is not always the case of small satellites which employ non-latching booms to reduce complexity and costs. These non-latching booms can rotate and be excited by attitude and orbital maneuvers, which add vibrations and oscillations to the system and can degrade the Attitude Determination and Control System (ADCS) performance. Also, the use of larger booms coupled with lightweight materials increases their flexibility, adding another relevant source of vibration in the system. However, the increased use of small satellites in the space segment to accomplish the most diverse missions necessitates more accurate ADCS. Hence, this work investigates the effect of flexible non-latching booms on a small satellite during attitude maneuvers and under modulated thrust forces. The Scintillation Prediction Observations Research Task (SPORT) satellite is used as a case study due to its configuration with four flexible non-latching booms used to position its scientific instruments away from the spacecraft. SPORT satellite follows the CubeSat standard having six Units (6U) with the mission of collecting data in the Earth's ionosphere, improving our knowledge of the pre-plasma bubble conditions that lead to the formation of plasma bubbles which can severely affect satellite signals such as Global Navigation Satellite Systems. Therefore, a proposed multibody model is introduced to model the satellite and its four flexible booms. A mechanism model is presented to represent the non-latching system. Then, experiments performed with the SPORT's booms to collect data and estimate the mechanisms' parameters are discussed. The proposed model is validated using a commercial software. Numerical results are presented for six calibration maneuvers to be performed in orbit using the proposed flexible multibody model integrated into the SPORT's control system simulator. Comparisons between a satellite with flexible non-latching booms, rigid non-latching booms, and ideally rigid latched booms are presented. Later, parameters of the SPORT satellite, such as booms inertia, mass distribution, and booms elasticity, are varied and their impact on the ADCS studied. Lastly, the impact of an on-off thruster with Pulse-Width Modulation (PWM) is evaluated in a satellite with flexible non-latching booms; thrust level, PWM period, and duty cycle are addressed. The results indicate that the SPORT CubeSat can perform its calibration maneuvers in orbit, and the flexible non-latching booms do not interfere significantly with its ADCS. Also, the parameters' variation indicates that the largest impact occurs when more mass is directed toward the booms, with the inertia variation and elasticity not having a significant impact. A visible influence of the PWM period and the duty cycle is observed in the system with both flexible non-latching booms and flexible latching booms. Additionally, the impact of the non-latching mechanism in the system dynamics is visualized. Although the results indicate that the flexible non-latching booms do not impact the SPORT's ADCS performance, they should be evaluated in the case of other satellites with larger flexible appendages or other configurations.",
+  "subjects": [
+    "Satélites",
+    "Corpos flexíveis",
+    "Simuladores espaciais",
+    "Mecanismos",
+    "Engenharia aeroespacial",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/05/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78546",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78546&origem=BDITA"
+}

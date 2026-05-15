@@ -1,0 +1,29 @@
+{
+  "num_tese": "78538",
+  "type": "tese",
+  "title": "Numerical investigation of wave propagation in beams coupled to metastructures combining spectral and wave-finite element methods.",
+  "author": "Vinícius Mauro de Souza Santos",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Thiago de Paula Sales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this master's degree thesis, the coupling of structures is investigated to explore vibration attenuation phenomena. One of the structures is periodic, formed by unit cells that repeat along the direction of wave propagation. Its dynamics is interesting because it has an unusual behavior related to wave attenuation in some frequency ranges, known as bandgaps or forbidden zones, which result due to the inertial amplification mechanism (IAM). In general, low-frequency and wider bandgaps are achieved using this approach when specific geometries and materials purposely amplify the displacement of a small portion of the structure. Thus, due to the ''superior'' characteristics of the periodic structure, it is referred to as a metastructure (MS). The periodic condition of the MS is exploited, so it is modeled by the Wave Finite Element Method (WFEM). The use of this theory is justified to save computational time and because there is no closed-form wave solution for the adopted unit cell geometry. The other component is a simple beam-like structure that hosts the former, employing linear elastic springs. It has no surprising dynamic behavior and is modeled by the Spectral Element Method (SEM). This methodology is adequate mainly because it provides an exact solution. The first part of this work presents the theories of SEM and WFEM traditionally used to model many structures. SEM equations are introduced for the extended Timoshenko beam (ETB) element. Concerning WFEM, basic equations are introduced before formulating a standard eigenvalue problem. Due to ill-conditioning problems, its solution is based on the $\\bo{S} + \\bo{S}^{-1}$ problem, which allows the calculation of eigenvectors and eigenvalues used to compute the system forced response. The traditional SEM and WFEM equations are slightly modified to consider the coupling forces, which arise from both structures' connections. When some unit cells that pertain to the MS are coupled to the host structure (HS), the periodicity condition required by the Floquet-Bloch theorem is affected. So, a strategy is proposed to circumvent this issue. Many in-house validations of the developed equations are performed employing the finite element method (FEM). The numerical results show that the parallel coupling conditions proposed to couple the MS to the HS can not be used to generate forbidden zones in the HS.",
+  "subjects": [
+    "Propagaçăo de ondas",
+    "Métodos espectrais",
+    "Acoplamento",
+    "Método de elementos finitos",
+    "Equaçőes",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "04/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78538",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78538&origem=BDITA"
+}

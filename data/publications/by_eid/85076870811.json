@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85076870811",
+  "eid": "2-s2.0-85076870811",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simultaneous buckling and fundamental frequency optimization of composite plates under uncertain loadings",
+  "abstract": "This work presents the optimization of a composite plate under uncertain loadings when buckling and fundamental frequency are taken simultaneously into account. A combination of convex modeling and minimax strategy is proposed in order to solve the optimization problem. This association reduces the strategy complexity and computational cost.",
+  "authkeywords": [
+    "Buckling",
+    "Composite plate",
+    "Fundamental frequency",
+    "Multicriteria optimization",
+    "Uncertain loading"
+  ],
+  "year": "2009",
+  "date": "2009-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Iccm International Conferences on Composite Materials",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, A. P.C.S.",
+      "scopus_id": "7402999634",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "De Almeida, S. F.M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85076870811&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044581",
+    "data_quality_score": 70
+  }
+}

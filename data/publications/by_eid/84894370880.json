@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-84894370880",
+  "eid": "2-s2.0-84894370880",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Modeling and robust analysis of a liquid rocket engine",
+  "abstract": "Stability and dynamic performance of liquid-propellant rocket engines (LPRE) are two of the fundamental issues in the engine-vehicle integration process. This analysis requires the construction of a detailed model, trying to capture the most realistic phenomena involved, which generally include several sources of uncertainties. In this paper, a methodology for robust modeling and stability analysis is presented. Firstly, the linear models of the LPRE components are obtained by modeling the various physical processes, at a nominal regime of operation. Afterwards, the Laplace transform is applied to derive a block diagram representation of the linear LPRE. The stability study and dynamic analysis are carried out taking in account the uncertainties in parameters of the plant. The robust stability is assured via the Generalized Kharitonov's Theorem; and the robust frequency and step responses are obtained with the use of specialized MATLAB toolboxes. The robust performance of the system in the time domain is obtained in terms of the response to step function input, while taking into account the plant uncertainties, also known as robust step response. A practical application is illustrated by analyzing a simple pressure-fed LPRE system. © 2000 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2000",
+  "date": "2000-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "35th Intersociety Energy Conversion Engineering Conference and Exhibit",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santana, A.",
+      "scopus_id": "57196611403",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, F. I.",
+      "scopus_id": "56043666700",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Niwa, M.",
+      "scopus_id": "56043483700",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, L. C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84894370880&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.078474",
+    "data_quality_score": 60
+  }
+}

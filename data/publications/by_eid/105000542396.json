@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-105000542396",
+  "eid": "2-s2.0-105000542396",
+  "doi": "10.1016/j.tws.2025.113185",
+  "pii": "S0263823125002794",
+  "pubmed_id": null,
+  "title": "Modified consistent element-free Galerkin method applied to Reissner–Mindlin plates",
+  "abstract": "© 2025 Elsevier LtdThis study addresses the solution of static, modal, buckling and aeroelastic analyses associated with rectangular plates based on the first-order shear deformation theory (FSDT), i.e., Reissner–Mindlin plates. For this purpose, a Modified Consistent Element-Free Galerkin (MCEFG) method was applied in combination with the moving least-squares (MLS) method for the obtainment of the admissible functions. Three improvements are implemented for the application of the MCEFG method: a new weighting function that diminishes the support radius influence in the MLS method, a stable and efficient numerical integration that guarantees the consistency of the method and an imposition of essential boundary conditions that do not require the augmentation of the weak form. Comparison studies on the displacement and generalized force fields, eigenfrequencies, buckling loads and flutter velocity are performed using numerical and theoretical results that confirm the accuracy and efficiency of the proposed methodology. Finally, the study considers four boundary conditions in order to guarantee the applicability of the method in different scenarios.",
+  "authkeywords": [
+    "Bucking loads",
+    "Flutter velocity",
+    "Generalized force distribution",
+    "MCEFG method",
+    "Modal eigenfrequencies",
+    "Reissner–Mindlin plate"
+  ],
+  "year": "2025",
+  "date": "2025-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thin Walled Structures",
+    "issn": "02638231",
+    "eissn": null,
+    "volume": "212",
+    "issue": null,
+    "pages": null,
+    "article_number": "113185"
+  },
+  "authors": [
+    {
+      "name": "Pereira, Marcelo Silveira",
+      "scopus_id": "59699795900",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Mauricio Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 73,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105000542396&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121345",
+    "data_quality_score": 100
+  }
+}

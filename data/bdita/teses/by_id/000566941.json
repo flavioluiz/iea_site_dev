@@ -1,0 +1,37 @@
+{
+  "num_tese": "000566941",
+  "type": "tese",
+  "title": "Aeroelastic modeling and experimental analysis of a flexible wing for wind tunnel flutter test.",
+  "author": "Michelle Fernandino Westin",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "The objective of this work is to investigate the flutter phenomena experimentally, which will unify high aspect ratio wings design for wind tunnel flutter tests (Dowell and Tang, 2002), cheaper aeroelastic models construction and a procedure used by Sheta, Harrand, Thompson and Strganac (2002) to identify the flutter onset power spectral density versus the frequency. Initially, an experimental model developed by Dowell and Tang (2002) has been considered as a baseline model and, from this point, two new models with different wing configurations were determined, including the slender body at wing's tip, which is the idea extracted from Dowell's work, so that the torsion and bending modes are coupled (torsional moment of inertia reduction). The aeroelastic model can be divided into two parts: First, the wings structural dynamic models are computed using the finite element method implements in NASTRAN solver. sequently, ZAERO software is employed to compute the aeroelastic model. Unsteady aerodynamic loading is computed through a lifting surface interference method known as ZONA 6. The wing models defined as test beds will be constructed and tested in different wind tunnels, including open and closed tests section types. The power spectral density approach might be employed as a way to identify flutter. The output signal from an accelerometer placed in the wing structure allows, through its power spectral density computation, the identification of flutter onset condition and the corresponding undisturbed flow speed. The PSD function increase means flow energy extraction, a condition to have flutter. Experimental flutter speeds are close to the theoretically computed ones by ZAERO. From these observations, it is possible to validate the aeroelastic theoretical model in a small disturbance context. After flutter onset , the limit cycle oscillations are observed, fed by freestream energy extraction. The aeroelastic models under investigation in this research are excellent models for nonlinear aeroelastic phenomena behavior study.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Ensaios em túneis de vento",
+    "Asas",
+    "Aeroelasticidade",
+    "Pesquisa experimental",
+    "Corpos flexíveis",
+    "Estruturas de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000566941",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000566941&origem=BDITA"
+}

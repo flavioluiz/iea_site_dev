@@ -1,0 +1,40 @@
+{
+  "num_tese": "77660",
+  "type": "tese",
+  "title": "Aeroelastic stability of a bi-clamped plate-like wing under piezoelectrically induced stresses",
+  "author": "Thiago de Souza Siqueira Versiani",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    },
+    {
+      "name": "Alessandro Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Recent aircraft are increasingly presenting unconventional wing configurations, resulting in unusual aeroelastic responses and consequently giving rise to different technological strategies to enhance aeroelastic stability. Among them, the technique of stress stiffening by piezoelectric actuation emerged as a promising technological solution to improve the aeroelastic stability of structures with both ends axially constrained. Therefore, an aeroelastic model employing smart composite beam elements and time domain aerodynamic loads with strip theory for stress stiffening aeroelastic problems was developed and carefully validated. In addition, the effect of bending-torsion coupling provided by concentrated masses on the aeroelastic response of the structure is also taken into account, which was included by the presence of a slender ballast arbitrarily positioned along the span and chord. Parametric studies were performed investigating the influence of aspect ratio, fiber orientation angle, ballast position, as well as piezoelectric unit position along the span and its input voltage. Results showed a promising performance of such technique, as it could increase the bandwidth of two flexible modes associated with the flutter mechanism. Since active control is a common technique applied for this purpose, a comparative study was performed in order to investigate the performance of the proposed technique taking a pure proportional stability augmentation system as reference. Analyses involving the stability margins, energy consumption and the response to vertical gust were performed and discussed. Results showed that piezoelectrically induced stresses technique is not as effective as active control based strategies to increase the flight envelope when applied to bi-clamped structures, once active control can provide equivalent aeroelastic stability improvement with a lower amount of energy. However, it showed to be a promising strategy to be used on emergency devices, where the aeroelastic stability of bi-clamped structures need to be guaranteed in critical aerodynamic disturbance conditions.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Atuadores piezoelétricos",
+    "Placas (membros estruturais)",
+    "Estabilidade aerodinâmica",
+    "Asas",
+    "Análise de estabilidade",
+    "Materiais compósitos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77660",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77660&origem=BDITA"
+}

@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-84919711488",
+  "eid": "2-s2.0-84919711488",
+  "doi": "10.1016/j.compstruct.2014.07.037",
+  "pii": "S0263822314003602",
+  "pubmed_id": null,
+  "title": "Linear buckling predictions of unstiffened laminated composite cylinders and cones under various loading and boundary conditions using semi-analytical models",
+  "abstract": "© 2014 Elsevier Ltd.Semi-analytical models for the linear buckling analysis of unstiffened laminated composite cylinders and cones with flexible boundary conditions are presented. The Classical Laminated Plate Theory and the First-order Shear Deformation Theory are used in conjunction with the Donnell's non-linear equations to derive the buckling equations. Axial, torsion and pressure loads can be applied individually or combined in the proposed models. The stiffness matrices are integrated analytically and for the conical shells an approximation is proposed to overcome non-integrable expressions. Comparisons with the literature show that the classical base functions available for axial compression cannot capture the buckling modes for non-orthotropic laminates. For torsion loads these classical shape functions do not catch the buckling modes even when applying the assumption of pure orthotropy, and it is shown how the proposed models correlate well with experimental data from the literature and finite element results. The use of elastic constraints at the boundaries allows the simulation of different boundary conditions in a versatile way and it is shown how those constants can be adjusted in order to change from one type of boundary condition to another.",
+  "authkeywords": [
+    "Axial compression",
+    "Composite",
+    "Cylinders and cones",
+    "Linear buckling",
+    "Pressure",
+    "Torsion"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "118",
+    "issue": "1",
+    "pages": "303-315",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60003649-60070415-60021841",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mittelstedt, Christian",
+      "scopus_id": "9250851200",
+      "affiliation": "112914050",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Monteiro, Francisco A.C.",
+      "scopus_id": "56287285100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60003649",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Ziegmann, Gerhard",
+      "scopus_id": "6602168494",
+      "affiliation": "60021841",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Degenhardt, Richard",
+      "scopus_id": "12144431600",
+      "affiliation": "60003649-60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 56,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84919711488&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074526",
+    "data_quality_score": 100
+  }
+}

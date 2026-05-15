@@ -1,0 +1,34 @@
+{
+  "num_tese": "61668",
+  "type": "tese",
+  "title": "Decision support method to apply Additive Manufacturing Technologies for plastic components in the aircraft industry",
+  "author": "Anderson Vicente Borille",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Karl-Heinrich Grote",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Additive Manufacturing Technologies (AMT) are a collection of manufacturing processes driven by CAD data to produce physical models and parts by means of additive techniques. They are based on a layer-by-layer material consolidation process instead of the traditional methods. Due to machine and material developments, such processes may be used to produce final products, not only prototypes. The use of AMT to produce end-use parts is known as Rapid Manufacturing (RM). The main advantages AMT are related to the ability to build geometrically complex shapes without tooling and with high process automation. At small lot sizes, such as with customized products, traditional manufacturing technologies become expensive due to high costs of required tooling. Small lot sizes and complex shaped parts are typical features encountered in the aircraft industry. Nowadays, two Additive Manufacturing Technologies are able to process plastic materials which comply flammability requirements: Fused Deposition Modeling (FDM) and Selective Laser Sintering (SLS). The main objective of this work is to propose a decision support method based on processes technological information concerning Rapid Manufacturing of plastic parts for aircraft cabin interiors. Thus, both FDM and SLS process are compared regarding their functionality (software interface), tensile strength, accuracy and part definition, surface roughness, build time and costs. The analyzed materials are the Polyamide with flame retardant (PA2210FR) additives and the Polyphenylsulfone (PPSF) for SLS and FDM process respectively. These materials were selected because they were the available flame retardant materials for AMT as the beginning of this work. A method is proposed to consider AMT possible advantages and restrictions when considering the manufacturing process. It is proposed that design modifications to improve part';s functionality or performance may be manufactured by AMT. Further, the method proposes the decision procedure to evaluate quality, production time and cost. The author illustrates the method with examples on the selection of manufacturing technology to produce a customized decoration part and an air duct. Typical costs and manufacturing time of injection molding processes were also compared and analyzed with the proposed method. It is possible to define the break-even point, when conventional processes become preferred then AMT.",
+  "subjects": [
+    "Processos de manufatura",
+    "Prototipagem rápida",
+    "Sinterizaçăo a laser",
+    "Sistemas de apoio ŕ decisăo",
+    "Engenharia de produçăo",
+    "Engenharia industrial"
+  ],
+  "defense_date": "10/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61668",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61668&origem=BDITA"
+}

@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85099746741",
+  "eid": "2-s2.0-85099746741",
+  "doi": "10.1115/GT2020-15238",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A proposal for passive wall treatment applied in high performance axial flow compressors",
+  "abstract": "© 2020 ASMENumerical simulations were carried out with the purpose of investigating the effect of applying circumferential grooves at axial compressor casing passive wall treatment to enhance the stall margin and change the tip leakage flow. The tip leakage flow is pointed out as one of the main contributors to stall inception in axial compressors. Hence, it is of major importance to treat appropriately the flow in this region. Circumferential grooves have shown a good performance in enhancing the stall margin in previous researches by changing the flow path in the tip clearance region. In this work, a passive wall treatment with four circumferential grooves was applied in the transonic axial compressor NASA Rotor 37. Its effect on the axial compressor performance and the flow in the tip clearance region was analyzed and set against the results attained for the smooth wall case. A 2.63% increase in the operational range of the axial compressor running at 100%N, was achieved, when compared with the original smooth wall casing configuration. The grooves installed at compressor casing, causes an increase in the flow entropy generation due to the high viscous effects in this gap region, between the rotor tip surface and casing with grooves. These viscous effects cause a drop in the turbomachine efficiency. For the grooves configurations used in this work, an efficiency drop of 0.7% was observed, compared with the original smooth wall. All the simulations were performed based on 3D turbulent flow calculations using Reynolds Averaged Navier-Stokes equations, and the flow eddy viscosity was determined using the two-equation SST turbulence model. The details of the grooves geometrical dimensions and its implementation are described in the paper.",
+  "authkeywords": [
+    "Axial compressor",
+    "CFD",
+    "Circumferential grooves"
+  ],
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "2A-2020",
+    "issue": null,
+    "pages": null,
+    "article_number": "V02AT32A048"
+  },
+  "authors": [
+    {
+      "name": "Díaz, Rubén Bruno",
+      "scopus_id": "57221677637",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "de Paula, Francisco Carlos Elizio",
+      "scopus_id": "57221675698",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Whitacker, Luiz Henrique Lindquist",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099746741&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051829",
+    "data_quality_score": 100
+  }
+}

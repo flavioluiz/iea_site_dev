@@ -1,0 +1,35 @@
+{
+  "num_tese": "75396",
+  "type": "tese",
+  "title": "Otimizaçăo de uma turbina axial utilizada em turbina a gás baseada em simulaçőes 3D",
+  "author": "Luiz Gustavo Franco Amaral",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho utiliza métodos de otimizaçăo em problemas que envolvem a mecânica dos fluidos, por meio de softwares de simulaçăo numérica, com a finalidade de aprimorar o desempenho de turbinas axiais de uso aeroespacial para geraçăo de empuxo ou industrial para geraçăo de energia elétrica. Uma revisăo dos conceitos fundamentais de turbomáquinas é apresentada, seguida por uma revisăo da fluidodinâmica computacional e seus principais fundamentos. Logo após, adentra-se nos detalhes da pesquisa em si. A exemplo, os estudos de convergęncia de malha que foram utilizados para validaçăo dos resultados obtidos através de simulaçăo numérica, seguidos por estudos de sensibilidade que foram percussores do processo de otimizaçăo para verificaçăo do nível de relevância dos parâmetros geométricos criados a partir da topologia das pás. O modelo numérico utilizado é baseado em média de Reynolds (Reynolds-Averaged Navier-Stokes, RANS) e inclui o uso do modelo de turbulęncia k-? SST, para o cálculo da viscosidade turbulenta do escoamento. O algoritmo genético evolutivo NSGA-II foi escolhido como uma ferramenta de apoio no projeto e após meses de cálculo e diversas geraçőes de indivíduos selecionados a partir do método heurístico e objetivos definidos, obteve-se a fronteira de Pareto do caso otimizado após a análise de mais de 8700 projetos distintos de uma turbina axial e que possibilitaram a obtençăo de uma máquina otimizada. Os resultados obtidos passaram por processo de validaçăo numérica e possibilitaram que novas opçőes de configuraçőes geométricas, em relaçăo ao projeto original, fossem obtidas. A Fronteira de Pareto obtida mostra de forma nítida o ganho dos resultados otimizados em relaçăo ao modelo original. O estudo utilizou ferramentas comerciais já consolidadas no mercado, como as soluçőes de simulaçăo da ANSYS e o software de otimizaçăo ModeFRONTIER, da empresa Esteco.",
+  "subjects": [
+    "Turbinas axiais",
+    "Turbinas a gás",
+    "Dinâmica dos fluidos computacional",
+    "Turbomáquinas",
+    "Empuxo",
+    "Número de Reynolds",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "21/11/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75396",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75396&origem=BDITA"
+}

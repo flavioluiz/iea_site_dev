@@ -1,0 +1,70 @@
+{
+  "publication_id": "2-s2.0-85071190609",
+  "eid": "2-s2.0-85071190609",
+  "doi": "10.1007/s42417-019-00099-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Parametric Stochastic Analysis of a Piezoelectric Vibration Absorber Applied to Automotive Body Structure",
+  "abstract": "© 2019, Krishtel eMaging Solutions Private Limited.Objective: This paper presents a systematic approach to quantify the uncertainties that influences directly the design of a Piezoelectric Vibration Absorber applied to shell structures with arbitrary shape, normally employed in automotive body structures. Methodology: Sensitivity and spectral analyses are performed to study the impact of randomness in the optimal piezoelectric patch implementation in automotive structures. The randomness arising from the manufacturing process of the mechanical structure, such as stamping spring back effects, as well as in the boundary conditions, is considered in the analyses, likewise the effects of variability during the positioning process for piezoelectric patches. The effects of the inherent uncertainties in the dynamic behavior of the mechanical structure, the optimal electromechanical coupling coefficient and the piezoelectric vibration absorber attenuation are presented. Results: The present paper has the advantage of indicating the loss in the vibration attenuation when Piezoelectric Vibration Absorbers are used in arbitrary shape structures, such as automotive hoods, fenders and doors. The Dynamic Vibration Absorber deterministically optimized provides an attenuation of approximately 18 dB in the theoretical model. However, losses of 5 dB in the attenuation can be obtained when the uncertainties are taken into account, and can reach up to 10 dB when the temperature effects are involved, representing more than 50% loss in attenuation for real applications, such as automotive body structures.",
+  "authkeywords": [
+    "Model updating",
+    "Piezoelectric optimization",
+    "Piezoelectric vibration absorber",
+    "Stochastic analysis",
+    "Uncertainty propagation"
+  ],
+  "year": "2020",
+  "date": "2020-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Vibration Engineering and Technologies",
+    "issn": "25233920",
+    "eissn": "25233939",
+    "volume": "8",
+    "issue": "1",
+    "pages": "199-213",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Scinocca, Francisco",
+      "scopus_id": "56535377900",
+      "affiliation": "60017841",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 37,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85071190609&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123165",
+    "data_quality_score": 100
+  }
+}

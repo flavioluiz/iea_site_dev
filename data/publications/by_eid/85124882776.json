@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85124882776",
+  "eid": "2-s2.0-85124882776",
+  "doi": "10.1016/j.compstruct.2022.115367",
+  "pii": "S0263822322001684",
+  "pubmed_id": null,
+  "title": "A nonlinear aerothermoelastic model for slender composite beam-like wings with embedded shape memory alloys",
+  "abstract": "© 2022 Elsevier LtdThis paper reports the formulation of an aerothermoelastic tool developed to investigate the behavior of flexible beam-like wings made of a hybrid adaptive material. Here, hybrid materials are defined as laminated composites additionally reinforced with embedded shape memory alloy wires. As main novelties, the proposed model couples geometrical, material, and aerodynamic nonlinearities to the thermal dynamics of SMA wires undergoing Joule's effects, thereby establishing a multi-physical nonlinear problem. Geometrical nonlinearities were taken into account via an FE model of a 2D Timoshenko's beam experiencing large deformations. Material nonlinearities were incorporated by a semi-empirical micro-mechanical model that computes the properties of hybrid laminates. To complement, nonlinear aerodynamic effects were introduced via an unsteady strip theory method in the time-domain, along with a nonlinear stall model and an assumption of follower aerodynamic forces. A set of numerical aerothermoelastic cases was performed by assuming various layups and SMA temperatures, with the objective of tailoring the aeroelastic response of hybrid wings. These cases were shown to lead to a considerable reduction in both post-flutter oscillations and post-divergence amplitudes as the SMA temperature increases. The outcomes have indicated compelling evidences on the applicability of embedded SMAs for structural, shape or aeroelastic control of flexible wings.",
+  "authkeywords": [
+    "Adaptive structures",
+    "Aerothermoelasticity",
+    "Nonlinear FEM",
+    "Shape memory alloys",
+    "Smart wings"
+  ],
+  "year": "2022",
+  "date": "2022-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "287",
+    "issue": null,
+    "pages": null,
+    "article_number": "115367"
+  },
+  "authors": [
+    {
+      "name": "Silva, Gefferson C.",
+      "scopus_id": "57201589978",
+      "affiliation": "60011604-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60011604",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124882776&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121504",
+    "data_quality_score": 100
+  }
+}

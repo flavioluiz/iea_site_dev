@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85059430576",
+  "eid": "2-s2.0-85059430576",
+  "doi": "10.1103/PhysRevFluids.3.124701",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Data-assimilated low-order vortex modeling of separated flows",
+  "abstract": "© 2018 American Physical Society.Vortex models have been used for decades as computationally efficient tools to investigate unsteady aerodynamics. However, their utility for separated flows - particularly when such flows are subjected to incident disturbances - has been hindered by the tradeoff between the model's physical fidelity and its expectation for fast prediction (e.g., relative to computational fluid dynamics). In this work, it is shown that physical fidelity and speed can be simultaneously achieved by assimilating measurement data into the model to compensate for unrepresented physics. The underlying inviscid vortex model captures the transport of vortex structures with a standard collection of regularized vortex elements that interact mutually and with an infinitely thin flat plate. In order to maintain a low-dimensional representation, with fewer than O(100) degrees of freedom, an aggregation procedure is developed and utilized in which vortex elements are coalesced at each time step. A flow state vector, composed of vortex element properties as well as the critical leading-edge suction parameter, is advanced within an ensemble Kalman filter (EnKF) framework. In this framework, surface pressure is used to correct the states of an ensemble of randomly initiated vortex models. The overall algorithm is applied to several scenarios of an impulsively started flat plate, in which data from a high-fidelity Navier-Stokes simulation at Reynolds number 500 are used as a surrogate for the measurements. The assimilated vortex model efficiently and accurately predicts the evolving flow as well as the normal force in both the undisturbed case (a separated flow) as well as in the presence of one or more incident gusts, despite lack of a priori knowledge of the gust's characteristics.",
+  "authkeywords": null,
+  "year": "2018",
+  "date": "2018-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "3",
+    "issue": "12",
+    "pages": null,
+    "article_number": "124701"
+  },
+  "authors": [
+    {
+      "name": "Darakananda, Darwin",
+      "scopus_id": "57190492794",
+      "affiliation": "60027550",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, André Fernando De Castro",
+      "scopus_id": "57201349267",
+      "affiliation": "60143898",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Eldredge, Jeff D.",
+      "scopus_id": "15767239200",
+      "affiliation": "60027550",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 36,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85059430576&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.070629",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "78720",
+  "type": "tg",
+  "title": "Simulaçăo e análise de jato planar turbulento via método de elementos espectrais\\HP",
+  "author": "Rodrigo José Albuquerque Barreira",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "abstract": "No presente trabalho, o autor apresenta um estudo de simulaçőes de um jato planar, que é canônico em mecânica dos fluidos computacional, com o intuito de analisar a utilizaçăo de um método de elementos espectrais com projeçăo de Galerkin Contínua. Além disso, é objetivo do estudo analisar a utilizaçăo de um esquema de estabilizaçăo numérica recentemente proposto, o GJP, que aplica uma penalizaçăo no salto do gradiente entre elementos adjacentes da malha. As malhas foram desenvolvidas na plataforma livre Gmsh. Para atingir o objetivo, o autor apresenta perfis de velocidade média do jato, bem como espectros de energia.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Jatos turbulentos",
+    "Métodos espectrais",
+    "Estudo numérico",
+    "Mecânica dos fluidos",
+    "Método de Galerkin",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78720",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78720&origem=BDITA"
+}

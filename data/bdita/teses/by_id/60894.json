@@ -1,0 +1,35 @@
+{
+  "num_tese": "60894",
+  "type": "tese",
+  "title": "Teoria das deformaçőes limites, anisotropia na conformaçăo de chapas metálicas e simulaçăo da superfície de escoamento",
+  "author": "Ricardo Kazuo Itikava",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Lindolfo Araújo Moreira Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Miguel Ângelo Menezes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta tese fornece uma descriçăo do comportamento plástico das chapas metálicas anisotrópicas. Alguns dos parâmetros que influenciam a conformabilidade dos materiais das chapas metálicas, assim como duas das principais operaçőes de conformaçăo de chapas metálicas săo discutidas, ou seja, estiramento e estampagem. Também săo descritas e analisadas algumas teorias comumente usadas para predizer as deformaçőes limites na conformaçăo de chapas metálicas. Essas formulaçőes levam em consideraçăo o comportamento anisotrópico das chapas metálicas pelo emprego do critério de escoamento năo quadrático de Hill (1979) e pode explicar o comportamento mecânico de uma variedade de chapas metálicas. O papel do expoente M do critério de escoamento de Hill 1979 é reinterpretado utilizando-se a teoria de Bressan e Williams, onde se argumenta que o expoente M seria independente do valor de R e poderia ter valores maiores que 2. Adicionalmente, propőe-se o desenvolvimento de um código numérico capaz de permitir o estudo dos fatores que influem na simulaçăo numérica de processos de conformaçăo, desde o estágio inicial até os níveis de deformaçăo que caracterizariam a instabilidade plástica do material, estricçăo. Uma vez dominada a técnica numérica, assim como os erros acumulados durante a etapa de soluçăo, é possível propor melhorias para os critérios de parada utilizados atualmente. Também é foco desta tese contribuir para o melhor entendimento das técnicas numéricas empregadas para tratamento da năo linearidade do material, característica dos processos de conformaçăo de chapas metálicas. Dessa forma, é desenvolvido um programa de elementos finitos tridimensional, no MatLab, utilizando a formulaçăo Elástico-Plástica para materiais anisotrópicos pela incorporaçăo da quadrática de Hill de 1948. O tratamento da năo linearidade do material durante a conformaçăo é analisado utilizando o algoritmo numérico de Newton Raphson e a técnica de incremento de tensăo, que leva em consideraçăo a lei do escoamento associado e assegura a normalidade do vetor de deformaçăo, com relaçăo ŕ superfície de escoamento. Esses dois modelos matemáticos săo numericamente analisados e comparados com dados experimentais disponíveis na literatura para alguns materiais de chapas metálicas utilizados nos processos de conformaçăo de chapas, pela previsăo e expansăo da superfície de escoamento.",
+  "subjects": [
+    "Técnicas de conformaçăo",
+    "Chapas de metal",
+    "Placas anisotrópicas",
+    "Processos de conformaçăo de metais",
+    "Método de elementos finitos",
+    "Modelos matemáticos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60894",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60894&origem=BDITA"
+}

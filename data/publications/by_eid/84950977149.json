@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-84950977149",
+  "eid": "2-s2.0-84950977149",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A multichannel Active-Adaptive Vibration Control system applied to an aeronautical structure",
+  "abstract": "The Active Vibration Control (AVC) technique has been widely used for some kinds of industrial applications, especially in the aeronautical industry, where some manufacturers have applied considerable efforts to offer comfort and weight reduction to aircrafts. This work deals with a numerical implementation of an active multichannel vibration control system that runs over a broadband signal to reduce the vibrations levels of an aeronautical structure (a fuselage section) excited by white noise. The model is based on a real aeronautical fuselage modeled by finite element model, which was verified by experimental modal analysis. The AVC system, based on the Fx-LMS Feedforward algorithm, was implemented for 7 inputs and 6 outputs, using adaptive non-recursive structures (FIR filters) for modeling each structural path and control the displacement at six points of the plant. The results show that the Fx-LMS can be used for broadband excitation signals. Attenuations around 25 dB were obtained in the numerical simulations.",
+  "authkeywords": null,
+  "year": "2010",
+  "date": "2010-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of ISMA 2010 International Conference on Noise and Vibration Engineering Including Usd 2010",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "367-381",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Marra, J.",
+      "scopus_id": "57014734600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gonçalves, P. J.P.",
+      "scopus_id": "55681491500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, L. C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84950977149&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077796",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "num_tese": "000146553",
+  "type": "tese",
+  "title": "Controlador adaptativo năo linear para reduçăo dos efeitos de acoplamento cruzado em manobras de rolamento rápido",
+  "author": "Alvaro Prieto Oliva",
+  "year": "1989",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho faz um estudo de dois métodos possíveis para reduçăo de derrapagem que aparece devido ŕs manobras de rolamento rápido. Esta derrapagem é indesejável tratando-se de aviőes de ataque ou caça, pois năo havendo a mesma, facilita-se muito o projeto do sistema de pontaria. Nos dois sistemas de controle propostos săo utilizados os parâmetros nominais ou os identificados através dos mínimos quadrados recursivo. Um dos sistemas é projetado utilizando a teoria do regulador linear ótimo baseando-se no modelo de referęncia explícito. O outro é baseado nas equaçőes latero direcionais năo linearizadas e definindo-se uma manobra de rolamento rápido ideal. Ambos os sistemas foram testados com simulaçőes juntamente com o modelo completo do aviăo para avaliaçăo da eficięncia de cada um.",
+  "subjects": [
+    "Controle adaptativo",
+    "Teoria de controle",
+    "Controle"
+  ],
+  "defense_date": "01/06/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146553",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146553&origem=BDITA"
+}

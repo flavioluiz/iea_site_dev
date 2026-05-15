@@ -1,0 +1,31 @@
+{
+  "num_tese": "78594",
+  "type": "tese",
+  "title": "Detection of mental workload levels using machine learning algorithms",
+  "author": "Ana Angélica da Costa Marchiori",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Over the last few decades, the implementation of more automatic and autonomous systems has contributed to a decrease in physical effort and a change in the cognitive effort demanded of pilots. In this context, it is considered the development of systems capable of adapting to the pilot and regulating the workload required of it, avoiding situations of monotony or overload. One of the challenges in the way of developing this type of adaptive system is estimating the workload perceived by each individual. The present work aims to contribute to this challenge by evaluating the use of artificial intelligence techniques to estimate the workload from physiological measures. The pilot's response to subjective workload estimation scales (NASA-TLX and ISA) is used as a reference. The data used were obtained in an experiment carried out with 48 people, each of whom performed nine flights, with different levels of workload, in a high-fidelity flight simulator. Physiological data such as ECG, GSR and respiration were collected, in addition to the ambient temperature inside the cabin. Responses to subjective scales were collected at the end of each flight. Different supervised machine learning algorithms were tested, and the best results were obtained with Random Forest. The metrics obtained were calculated using cross validation, in order to obtain more consistent results, and two approaches were adopted for data separation. The first considers each record in the dataset as an independent task. The second considers the pilot who performed each task, so that, in the training and test sets, there are different individuals. In the regression problem, using NASA-TLX as target variable, a mean square error of 1.03 and 1.34 was obtained, for the first and second approaches, respectively. In the classification problem, using the ISA as the target variable, an accuracy of 40.04% and 36.57% was obtained for the first and second approaches, respectively, considering the unbalanced data. We also analyzed which measures are most important for estimating the mental workload, but the variables indicated by the artificial intelligence algorithms did not coincide with those indicated by an analysis of variance (ANOVA). Summarizing the conclusions obtained, this work shows that, in the flight simulator, it is possible to estimate the mental workload of an individual from physiological signs, however, the analysis must be deepened to determine which variables are more significant and use other subjective scales.",
+  "subjects": [
+    "Aprendizagem (inteligęncia artificial)",
+    "Fatores humanos",
+    "Monitoramento da saúde estrutural",
+    "Efeitos fisiológicos",
+    "Simuladores de voo",
+    "Análise comparativa",
+    "Fatores psicológicos",
+    "Computaçăo"
+  ],
+  "defense_date": "29/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78594",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78594&origem=BDITA"
+}

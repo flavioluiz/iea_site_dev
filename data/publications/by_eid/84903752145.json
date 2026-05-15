@@ -1,0 +1,68 @@
+{
+  "publication_id": "2-s2.0-84903752145",
+  "eid": "2-s2.0-84903752145",
+  "doi": "10.4028/www.scientific.net/DDF.354.227",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A thermo-mechanical model for a counterflow biomass gasifier",
+  "abstract": "This article presents a thermo-mechanical approach to investigate heat transfer between solid and fluid phases in a model gasifier. A two-temperature equation approach is applied in addition to a macroscopic model for laminar flow through a porous moving bed. Transport equations are discretized using the control-volume method and the system of algebraic equations is relaxed via the SIMPLE algorithm. The effects on inter-phase heat transfer due to variation of medium permeability, thermal conductivity and thermal capacity are analyzed. Results indicate that for smaller medium permeabilities, as well as for higher solid-to-fluid thermal capacity and thermal conductivity ratios, enhancement of heat transfer between phases is observed. © (2014) Trans Tech Publications, Switzerland.",
+  "authkeywords": [
+    "Counterflow",
+    "Heat transfer",
+    "Model gasifier",
+    "Moving bed",
+    "Porous media"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Defect and Diffusion Forum",
+    "issn": "10120386",
+    "eissn": "16629507",
+    "volume": "354",
+    "issue": null,
+    "pages": "227-235",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Radiation",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84903752145&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110775",
+    "data_quality_score": 90
+  }
+}

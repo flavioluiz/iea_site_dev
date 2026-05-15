@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85057294465",
+  "eid": "2-s2.0-85057294465",
+  "doi": "10.2514/6.2016-2935",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stochastic and harmonic optimal forcing in subsonic jets",
+  "abstract": "© 2016 by The Authors.Coherent fluctuations in a turbulent jet at Ma = 0.4 and Re = 4.6 × 105 are analysed by combining experiments and linear stability analysis. Following the work by Dergham et al,1 we explore the connection between singular modes of the resolvent operator and the measured covariance, within the framework introduced by Farrell and Ioannou.2 Instantaneous velocity fields are measured by means of time-resolved, stereoscopic PIV, in the radial-azimuthal plane at different locations along the streamwise direction. Proper orthogonal decomposition of the cross-spectral density covariance is applied for extracting coherent wavepackets, at a given frequency. The mean flow field is used for the linear stability analysis. We compute the singular value decomposition of the linear resolvent operator, derived from the fully compressible Navier-Stokes equations, in order to identify the optimal harmonic forcing and the associated linear flow response. The analysis shows a remarkable agreement between the modal structures computed by linear analysis and the wavepackets extracted by statistical analysis of experimental measurements. These results suggest that the stochastic framework may help in shedding light on the structure of the non-linear forcing responsible for the wavepackets as observed in experiments.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Ceas Aeroacoustics Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Semeraro, Onofrio",
+      "scopus_id": "40462402200",
+      "affiliation": "60105985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jaunet, Vincent",
+      "scopus_id": "36676423000",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Lesshafft, Lutz",
+      "scopus_id": "10142919200",
+      "affiliation": "60105985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 34,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057294465&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101759",
+    "data_quality_score": 90
+  }
+}

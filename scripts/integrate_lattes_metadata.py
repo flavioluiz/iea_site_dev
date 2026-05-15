@@ -218,7 +218,7 @@ Exemplos de uso:
                         help='Diretório com metadados extraídos do Lattes')
 
     parser.add_argument('--profiles-dir', type=str,
-                        default='../data/professores/profiles',
+                        default='../data/pessoal/profiles',
                         help='Diretório com perfis JSON dos professores')
 
     parser.add_argument('--dry-run', action='store_true',

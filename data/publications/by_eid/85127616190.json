@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85127616190",
+  "eid": "2-s2.0-85127616190",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "RMD Simulation and Combustion Evaluation of Paraffin/GOx for Hybrid Rocket Motors",
+  "abstract": "Copyright © 2021 by the International Astronautical Federation (IAF). All rights reserved.In propulsion systems, to ensure a suitable thrust, the selection of the pair fuel/oxidizer is of utmost importance. Combination of propellant influences the characteristics of the chemical reaction process, the fuel vaporization speed, the ignition temperature, the volatility of hot gases. After the propellant, a suitable injector design is important, which allows better use of the propellant mixture, and thus achieve better engine performance and less combustion instability. This study evaluated the radial injector data, compared with those for other types of injectors, orifice-plate and swirl. Combustion behaviour was analysed by reactive molecular dynamics simulations. It was analysed how each contributes to the engine’s performance, by using solid fuel-based paraffin and oxygen gas in the gas phase (GOx), constituting a hybrid propellant. For orifice plate and swirl injectors, the specific impulse values were higher at higher test pressures. However, for the radial injector, the Isp was increased to the test pressure up to 25 bar. All injectors yielded good operation and met the goal of injecting oxidizer flow efficiently. The RMD simulation was able to show the behaviour of paraffin during decomposition and combustion, as well as explain the pressure effects on the system by the gaseous molecules generation.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "C4",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, Rene F.B.",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Gouvea, Leonardo H.",
+      "scopus_id": "56083666800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, José A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    },
+    {
+      "name": "Kirchhof, Edemar",
+      "scopus_id": "57190658410",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Bruno T.",
+      "scopus_id": "57218417430",
+      "affiliation": "124933076",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Leopoldo",
+      "scopus_id": "36490283900",
+      "affiliation": "124933076",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves",
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85127616190&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114994",
+    "data_quality_score": 60
+  }
+}

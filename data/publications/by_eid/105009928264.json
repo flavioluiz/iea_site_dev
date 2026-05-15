@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-105009928264",
+  "eid": "2-s2.0-105009928264",
+  "doi": "10.1017/jfm.2025.10258",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulence suppression in plane Couette flow using reduced-order models",
+  "abstract": "© The Author(s), 2025. Published by Cambridge University Press.We explore a reduced-order model (ROM) of plane Couette flow with a view to performing near-wall turbulence control. The ROM is derived through Galerkin projections of the incompressible Navier–Stokes system onto a basis of controllability modes. Such ROMs were found to reproduce key aspects of turbulence dynamics in Couette flow with only a few hundred degrees of freedom, and here we use them to devise a control strategy. We consider a ROM with an extra forcing term whose structure is given by a combination of eigenfunctions of a linear viscous diffusion equation, optimised in order to minimise the total fluctuation energy. The optimisation is performed at Reynolds numbers Re = 1000, 2000, 3000, and produces a novel control mechanism wherein the optimal forcing leads the flow to laminarisation in all cases. The forcing acts by reducing the shear in a large portion of the channel, hindering the main energy input mechanism. The forced flow possesses a new laminar solution which is linearly stable at Re = 1000 and unstable at higher Re, but whose transient growth of streaky structures is substantially lower than that of laminar Couette flow, leading the flow to full laminarisation when the forcing is removed. Forcings optimised in the ROM are subsequently applied in direct numerical simulations (DNS). The same control mechanisms are observed in the DNS, where laminarisation is also achieved. We show that the ROMs provide an effective framework to design turbulence control strategies, despite the high degree of truncation, which opens up interesting possibilities for turbulence control.",
+  "authkeywords": [
+    "turbulence control",
+    "turbulence modelling"
+  ],
+  "year": "2025",
+  "date": "2025-07-03",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "1014",
+    "issue": null,
+    "pages": null,
+    "article_number": "A18"
+  },
+  "authors": [
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 92,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009928264&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100156",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85084245303",
+  "eid": "2-s2.0-85084245303",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Thermal correction of strain gage measurements on flexible x-hale aircraft",
+  "abstract": "© Universal Technology Corporation, 2018.The development of modern, more efficient transport aircraft and High-Altitude-Long-Endurance (HALE) aircraft requires solutions that involve lightweight structures and high aspect ratio wings for maximum aerodynamic efficiency. However, this may result in flexible wings, such that the coupling between rigid-body and structural modes deteriorates stability and handling qualities of the aircraft. These can be improved by the continuous operation of control systems with the use of structural information, such as wing deformed shape. Strain gages can be used for such an application. However these sensors may have input interference, such as temperature variation, that can cause false strain responses other than the expected measurements due to flight loads. This work presents the analyzes of strain gage measurements due to thermal loads in the X-HALE aircraft wing. Three thermal correction methods were proposed: functions of temperature, dummy gage, and high-pass filtering. Each was tested on indoor and outdoor experiment setup, which uses a lamp and natural temperature variation throughout a full day as heat sources. All methods were effective in removing thermal drift of indoor experiment data. However, only high-pass filtering method was successful in the outdoor experiment. Indoor thermal test results done on the full 4m X-HALE aircraft, with the addition of impact excitations on the aircraft’s wing tip, showed that the high-pass filtering was able to remove thermal drift while maintaining all responses in the frequency range of interest. Therefore, this method is suitable to the present application.",
+  "authkeywords": [
+    "Embedded strain gage",
+    "Flexible aircraft",
+    "Thermal correction"
+  ],
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics 2019 Ifasd 2019",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Martins, Jéssica S.",
+      "scopus_id": "57205543783",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bussamra, Flávio L.S.",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Paulino, Juliano A.",
+      "scopus_id": "57202513674",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-da-s-bussamra",
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084245303&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047286",
+    "data_quality_score": 70
+  }
+}

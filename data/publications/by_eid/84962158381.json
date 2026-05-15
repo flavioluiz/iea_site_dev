@@ -1,0 +1,102 @@
+{
+  "publication_id": "2-s2.0-84962158381",
+  "eid": "2-s2.0-84962158381",
+  "doi": "10.1016/j.ymssp.2016.03.005",
+  "pii": "S0888327016001229",
+  "pubmed_id": null,
+  "title": "Experimental evaluation of a cruciform piezoelectric energy harvester",
+  "abstract": "© 2016 Elsevier LtdThis paper describes the development and experimental evaluation of a particular type of piezoelectric energy harvester, composed of four aluminum cantilever blades to which piezoelectric patches are bonded, in such way that electric energy is generated when the blades undergo bending vibrations. Concentrated masses, whose values can be varied, are attached to the tips of the blades. Due to the geometric shape of the harvester, in which the four blades are oriented forming right angles, the harvester is named cruciform. As opposed to the large majority of previous works on the subject, in which harvesters are excited at their bases by prescribed acceleration, herein the harvester is connected to a vibrating structure excited by an imbalance force. Hence, the amount of harvested energy depends upon the dynamic interaction between the harvester and the host structure. Laboratory experiments were carried-out on a prototype connected to a tridimensional truss. The experimental setup includes a force generator consisting of an imbalanced disc driven by an electrical motor whose rotation is controlled electronically, a voltage rectifier circuit, and a battery charged with the harvested energy. After characterization of the dynamic behavior of the harvester and the host structure, both numerically and experimentally, the results of experiments are presented and discussed in terms of the voltage output of the piezoelectric transducers as function of the excitation frequency and the values of the tip masses. Also, the capacity of the harvester to charge a Lithium battery is evaluated.",
+  "authkeywords": [
+    "Energy harvesting",
+    "Piezoelectricity",
+    "Smart structures"
+  ],
+  "year": "2016",
+  "date": "2016-03-03",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "79",
+    "issue": null,
+    "pages": "141-148",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Tsuruta, Karina M.",
+      "scopus_id": "36644949800",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Finzi Neto, Roberto M.",
+      "scopus_id": "6504596034",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalini, Aldemir A.",
+      "scopus_id": "58282378400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84962158381&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089017",
+    "data_quality_score": 100
+  }
+}

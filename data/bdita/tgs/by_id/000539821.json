@@ -1,0 +1,28 @@
+{
+  "num_tg": "000539821",
+  "type": "tg",
+  "title": "Projeto preliminar de um injetor de combustível cônico para motores a jato de uso aeronáutico.",
+  "author": "Arthur Rodrigues Lima",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Entre os processos que ocorrem no interior de uma câmara de combustăo, o processo de atomizaçăo se destaca pela sua grande complexidade e pela sua importância na eficięncia da câmara. Através deste processo o combustível líquido injetado é pulverizado em pequenas gotas, aumentando bastante a superfície do mesmo em contato com o meio gasoso no qual é lançado. Como a combustăo é um fenômeno fortemente dependente de taxas temporais de evaporaçăo e mistura ar combustível, o uso de um injetor adequado propicia maior velocidade de reaçăo, queima completa e, portanto, com menor formaçăo de resíduos. Isto torna o motor mais eficiente, sendo, portanto, um diferencial competitivo no acirrado mercado da aviaçăo comercial. No Brasil, diversos trabalhos vęm sendo conduzidos em âmbito acadęmico com o objetivo de melhor entender a física envolvida no processo de atomizaçăo. Injetores centrífugos tangenciais e helicoidais foram objetos de alguns estudos, os quais apresentaram modelos matemáticos interessantes para a previsăo teórica dos principais parâmetros de desempenho de um injetor: o coeficiente de descarga, ângulo de spray e tamanho médio de gota. Entretanto, os modernos motores aeronáuticos utilizam injetores centrífugos cônicos, nos quais o escoamento apresenta uma complexidade significativamente maior que nos casos anteriores. A grande vantagem destes injetores é a capacidade de se adaptar a diversos regimes de operaçăo, o que é essencial quando se trata de uma aeronave.Este trabalho objetivou estudar o escoamento em um injetor centrífugo cônico do tipo simplex, visando construir um modelo matemático o qual permitisse a determinaçăo dos principais parâmetros de desempenho deste injetor. Por se tratar de um caso mais geral, englobando os casos anteriores, é possível utilizar este mesmo modelo para estudar injetores tangenciais e helicoidais. Além disto, este modelo foi inserido num programa de computador, no qual se pode entrar com requisitos típicos de projeto e obter um pré-dimensionamento do injetor que os atende. Por fim, um injetor cônico foi construído e ensaiado, permitindo assim a validaçăo do modelo em questăo.",
+  "subjects": [
+    "Injetores",
+    "Sistemas de propulsăo",
+    "Motores a jato",
+    "Injeçăo de combustível",
+    "Câmaras de combustăo",
+    "Modelos matemáticos",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000539821",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000539821&origem=BDITA"
+}

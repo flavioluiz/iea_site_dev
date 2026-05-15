@@ -1,0 +1,29 @@
+{
+  "num_tese": "62021",
+  "type": "tese",
+  "title": "Análise da influęncia do desvio do plano horizontal na eficięncia do voo dos insetos por dinâmica dos fluidos computacional",
+  "author": "Vitor Gabriel Kleine",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Por anos o voo dos insetos intrigou os seres humanos. Em alguns aspectos năo encontra par entre os voos de outros animais, especialmente nas questőes de desempenho e manobrabilidade. Devido a estas características e ŕs deficięncias de configuraçőes convencionais de aeronaves em regime de baixo número de Reynolds, tęm sido desenvolvidas configuraçőes de micro veículos aéreos (MAVs) baseadas em insetos. Entretanto, ainda há muitos desafios que envolvem o estudo dos mecanismos relacionados com o voo dos insetos. Um entendimento maior destes mecanismos possibilitaria o desenvolvimento de MAVs mais eficientes e eficazes. Neste contexto, a eficięncia do movimento periódico inspirado no voo dos insetos foi investigada utilizando duas metodologias: o modelo quase-estacionário e simulaçăo numérica bidimensional. Verificou-se a influęncia do desvio em relaçăo ao plano de batimento (stroke deviation) horizontal em uma situaçăo de voo pairado, modelando a asa da mosca Drosophila melanogaster por um perfil elíptico bidimensional executando um movimento formando a \"figura-de-oito\". Novas equaçőes cinemáticas foram propostas para representar a trajetória da asa de modo a permitir uma variaçăo maior de parâmetros do movimento no eixo vertical, o que permitiu obter, por meio de otimizaçăo utilizando o modelo quase-estacionário, os limites teóricos da eficięncia aerodinâmica. Com base nestas otimizaçőes e em variaçăo dos parâmetros cinemáticos, resultados obtidos por estudos anteriores foram explicados e verificou-se a possibilidade de reduçăo de gasto energético no voo pairado por meio da implementaçăo do desvio do plano horizontal. Simulaçőes numéricas por dinâmica dos fluidos computacional foram realizadas para investigar esta possibilidade e notou-se que a potęncia do momento aerodinâmico adiciona uma parcela significativa ŕ potęncia total, o que năo é contabilizado no modelo quase-estacionário devido a simplificaçőes. Posteriormente, concluiu-se que, nos casos estudados, as diferenças na eficięncia năo foram significativas e que, em razăo de efeitos năo estacionários, em especial a interaçăo entre asa e esteira, a força vertical média se comporta de maneira contrária ŕ prevista pelo modelo quase-estacionário. Finalmente, o mecanismo de captura de esteira foi analisado e foram identificadas mudanças significativas em seus efeitos, induzidas pelo desvio do plano horizontal, as quais puderam ser explicadas devido ŕs alteraçőes na cinemática do perfil.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Aerodinâmica",
+    "Projeto de aeronaves",
+    "Dinâmica dos fluidos computacional",
+    "Insetos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62021",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62021&origem=BDITA"
+}

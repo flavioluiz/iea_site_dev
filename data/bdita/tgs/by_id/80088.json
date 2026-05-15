@@ -1,0 +1,27 @@
+{
+  "num_tg": "80088",
+  "type": "tg",
+  "title": "Estudo sobre o uso de modelos de linguagem e grafos de conhecimento com RAG no tráfego aéreo brasileiro",
+  "author": "Nauane Linhares do Nascimento",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "José Maria Parente de Oliveira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho examina o potencial de Modelos de Linguagem Natural (LLMs) associados a grafos de conhecimento e Recuperaçăo de Informaçăo Aumentada (RAG) para responder perguntas relacionadas ao tráfego aéreo brasileiro. As tecnologias propostas visam transformar vastas quantidades de dados brutos em respostas acessíveis e práticas, tanto para uso público quanto interno. No Brasil, o controle e a regulaçăo do espaço aéreo săo mantidos pelo DECEA, ANAC e CENIPA, que coletam informaçőes detalhadas sobre as operaçőes aéreas. Integrar ferramentas de IA a esses dados pode aumentar a eficięncia na interpretaçăo e disseminaçăo de informaçőes, o que beneficia desde passageiros até as autoridades de aviaçăo. A aplicaçăo de LLMs e grafos de conhecimento é particularmente promissora para identificar padrőes, prever atrasos e otimizar o fluxo de tráfego. Essas ferramentas conseguem processar grandes volumes de dados meteorológicos, de movimento de aeronaves e incidentes históricos, gerando \\textit{insights} valiosos para a prevençăo de acidentes e a melhoria dos processos de coordenaçăo em situaçőes complexas ou de alta demanda. Além disso, RAG aprimora a capacidade de busca de informaçőes, facilitando a recuperaçăo de dados relevantes para consultas específicas, o que contribui para decisőes mais rápidas e baseadas em evidęncias.",
+  "subjects": [
+    "Processamento de dados",
+    "Recuperaçăo da informaçăo",
+    "Processamento da linguagem natural",
+    "Teoria dos grafos",
+    "Controle de tráfego aéreo",
+    "Inteligęncia artificial",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80088",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80088&origem=BDITA"
+}

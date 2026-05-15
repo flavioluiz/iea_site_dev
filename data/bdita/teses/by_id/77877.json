@@ -1,0 +1,30 @@
+{
+  "num_tese": "77877",
+  "type": "tese",
+  "title": "A influęncia de fenômenos aeroelásticos em otimizaçăo multidisciplinar de projeto conceitual de aeronave comercial",
+  "author": "Felipe Araújo Bortolete",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A busca por aeronaves mais eficientes é onde a otimizaçăo multidisciplinar e multiobjetivo tem providenciado grandes contribuiçőes. Muitas atribuiçőes da fase preliminar de projeto tęm sido absorvidas na fase conceitual graças a ferramentas computacionais de engenharia. Análises aeroelásticas e modelos complexos de elementos finitos já fazem, de certa maneira, parte da fase conceitual, por exemplo. Neste contexto, insere-se o objetivo deste trabalho, que é de avaliar o impacto que restriçőes aeroelásticas causam no projeto de um aviăo de linha com a utilizaçăo de uma plataforma de otimizaçăo multidisciplinar. Para tal, integrou-se ŕ uma das plataformas de otimizaçăo, desenvolvida no Departamento de Projetos do Instituto Tecnológico de Aeronáutica, o conhecido pacote NeoCASS dedicado a análise estrutural e aeroelástica de aeronave. O NeoCASS é entăo utilizado para estimar as velocidades de flutter de indivíduos que surgem durante o processo de otimizaçăo. O envelope de operaçăo das aeronaves sendo analisadas é calculado e a velocidade de flutter é utilizada como restriçăo de acordo com requisitos de certificaçăo. Duas rodadas de otimizaçăo multiobjetivo foram realizadas, visando-se a minimizaçăo do custo operacional direto na rota com máximo alcance com carga típica de passageiros e a maximizaçăo de um índice de eficięncia desenvolvido aqui para aviőes de linha. Para a primeira rodada a restriçăo de flutter năo foi utilizada; ao contrário da segunda, que conta com esta restriçăo. As duas otimizaçőes foram realizadas para aeronaves na faixa de 150-220 assentos e como resultado revelou-se que a aplicaçăo da restriçăo aeroelástica reduziu o valor do alongamento alar dos indivíduos da fronteira de Pareto. Deste modo, conclui-se que a inclusăo de uma análise aeroelásticas rápida e precisa durante a fase de projeto conceitual tende a gerar resultados mais realistas. Năo foram empregadas sub-otimizaçőes estruturais de modo a mitigar problemas aeroelásticos como a adiçăo de massas concentradas ŕ frente da linha elástica na regiăo da ponta da asa ou reprojeto do layout estrutural. Ainda, realizaram-se algumas análises de sensibilidade para avaliar a influęncia do número de Mach, alongamento, a aumento e enflechamento nas velocidades de flutter deste tipo de aeronave.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Otimizaçăo",
+    "Vibraçăo aeroelástica",
+    "Método de elementos finitos",
+    "Aerodinâmica",
+    "Número de Mach",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/07/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77877",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77877&origem=BDITA"
+}

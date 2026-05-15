@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-84924995973",
+  "eid": "2-s2.0-84924995973",
+  "doi": "10.1061/(ASCE)HY.1943-7900.0000972",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Spatial averaging over a variable volume and its application to boundary-layer flows over permeable walls",
+  "abstract": "© 2014 American Society of Civil Engineers.Double-averaging methodology is very convenient for investigating spatially heterogeneous flows such as boundary-layer flows over permeable walls. However, spatial averaging volumes suitable for boundary-layer flows over rough walls are very thin in the wall-normal direction whereas those for porous-media flows usually have similar length in all three directions. This scale mismatch can be addressed by allowing the averaging volume to vary in space so that its size can be adjusted to the physical characteristics of particular flow regions. This paper presents a new spatial averaging theorem derived for a spatially variable averaging volume that may contain a stationary solid phase and that may also extend beyond the boundary of the problem domain. The theorem provides the expression for the difference between the average of a spatial derivative and the derivative of the spatial average (of a general flow quantity), here named the commutation correction (CC) term. The CC term contains three parts accounting for (1) the presence of the solid phase in the averaging volume, (2) the averaging volume extending beyond the flow-domain boundary, and (3) the spatial variation of the averaging volume. The first two parts have been acknowledged in the literature; the third part is introduced in this paper and named the volume variation (VV) term. The averaging theorem is used to derive large-scale continuity and momentum equations, which contain the new VV term. The equations are applied to steady, uniform, microscopically two-dimensional flow over a permeable wall. The averaging volume for the boundary-layer flow above the wall is a thin wall-parallel layer; on crossing the wall surface, the volume grows until its height reaches the size required for the homogeneous porous layer. The averaging procedure and the magnitude of the VV term are illustrated by an example adopted from the literature that involves numerical simulation of two-dimensional open-channel flow over a bundle of circular cylinders.",
+  "authkeywords": [
+    "Double-averaging",
+    "Extended spatial averaging theorem",
+    "Fluid-porous interface",
+    "Variable averaging volume"
+  ],
+  "year": "2015",
+  "date": "2015-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Hydraulic Engineering",
+    "issn": "07339429",
+    "eissn": "19437900",
+    "volume": "141",
+    "issue": "4",
+    "pages": null,
+    "article_number": "04014087"
+  },
+  "authors": [
+    {
+      "name": "Pokrajac, D.",
+      "scopus_id": "8646967600",
+      "affiliation": "60015875",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, M. J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 10,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Water Science and Technology",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84924995973&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110700",
+    "data_quality_score": 100
+  }
+}

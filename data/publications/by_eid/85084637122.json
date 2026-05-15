@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-85084637122",
+  "eid": "2-s2.0-85084637122",
+  "doi": "10.1007/s40430-020-02383-6",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Crushing simulation using an energy-based damage model",
+  "abstract": "© 2020, The Brazilian Society of Mechanical Sciences and Engineering.A constitutive damage model is proposed in order to investigate the crushing response of 0 ∘ plies composite laminates, using a VUMAT subroutine implemented in ABAQUS/Explicit. This damage model predicts five failure mechanisms commonly observed in unidirectional carbon fibre-reinforced composite structures: fibre failure in tension, fibre failure in compression, matrix cracking in tension, matrix cracking in compression and in-plane shear failure. Its formulation is based on an energy framework which combines stress-based fracture mechanics and damage mechanics approaches within a unified way, enabling the prediction of the five failure mechanisms aforementioned in terms of damage initiation and damage propagation. In this work, a new strategy is also implemented to remove fully damage elements in order to ensure numerical stability and avoid element distortion problems. An experimental test campaign is proposed for verification of the numerical models. Preliminary results have shown a fairly good correlation between numerical predictions and experimental results for wedge-shaped tip composite laminates.",
+  "authkeywords": [
+    "Crashworthiness",
+    "Crushing",
+    "Damage model",
+    "Finite elements",
+    "Impact"
+  ],
+  "year": "2020",
+  "date": "2020-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "42",
+    "issue": "6",
+    "pages": null,
+    "article_number": "296"
+  },
+  "authors": [
+    {
+      "name": "de Oliveira, Sérgio Augusto Capasciutti",
+      "scopus_id": "57216780576",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Arbelo, Mariano Andrés",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85084637122&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074248",
+    "data_quality_score": 100
+  }
+}

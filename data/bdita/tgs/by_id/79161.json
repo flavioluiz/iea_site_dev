@@ -1,0 +1,27 @@
+{
+  "num_tg": "79161",
+  "type": "tg",
+  "title": "Analysis and simulation of formation control strategies for multistatic SAR missions",
+  "author": "Reuben Solomon Katz",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Felix Dieter Antreich",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Currently, most missions involving synthetic aperture radar (SAR) are characterized by the use of substantial monolithic satellite architectures. However, the effectiveness of these large monolithic satellites in improving data quality in terms of resolution, coverage and visualization of dynamic scenes is limited. A notable recent advance has been the implementation of satellite constellations, exemplified by the CapellaX-SAR and ICEYE constellations, which have already made significant strides in terms of resolution improvement. Furthermore, the TerraSAR-X and Tandem-X missions, launched in 2010 by the German Aerospace Center (DLR), adopt a formation-flying approach, which allows analysis of dynamic scenes. Despite this advantage, they fail to achieve improved coverage. Within this scenario, there is significant untapped potential for SAR missions through the strategic implementation of formation flying. Numerous spacecraft configurations and the utilization of larger satellite formations are possible to be explored, along with their sets of challenges. Those challenges encompass the development of real-time guidance and navigation systems, the implementation of control techniques, and the estimation of fuel requirements for both formation flying and position maintenance, along with launch strategies for multiple satellites. In this work, these challenges will be analyzed. This work is a preliminary study of a possible Earth Exploration Mission with SAR and is also the result of an internship at the German Aerospace Center (DLR).",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Missőes espaciais",
+    "Controle de combustível",
+    "Constelaçőes",
+    "Análise de imagens",
+    "Processamento de imagens",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79161",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79161&origem=BDITA"
+}

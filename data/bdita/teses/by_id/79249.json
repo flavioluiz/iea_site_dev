@@ -1,0 +1,36 @@
+{
+  "num_tese": "79249",
+  "type": "tese",
+  "title": "Experimental characterization of draping and frictional properties of thermoplastic and thermoset composites",
+  "author": "Philipe Radeck Foltran",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "abstract": "The COMP2F project, a component of the federal ROTA 2030 program, aims to investigate large-scale manufacturing processes for structural composites, in response to the automotive industry's recent interest in composites. The project seeks to use the thermostamping simulation tool developed by ITA-LNCA to predict defects and optimize the manufacturing process. The main objective of this research is to characterize the three crucial inputs for the aforementioned drapery model. To achieve the goal, two composite materials with identical architecture of carbon fiber fabric in a 2x2 twill pattern were used. As standardized tests for drape and friction properties are not available, the study made efforts to develop specific characterization methodologies for the in-plane shear, uniaxial elongation and interlayer shear properties of the two materials. The experimental conditions involved carrying out tests at room temperature for the thermoset material Toray E732 and at 260 °C for the thermoplastic material Toray TC910. A third dry carbon fiber fabric material was used to validate the developed friction device and the anisotropic Coulomb friction model. The model effectively predicted the frictional response between layers of different orientations in a laminate, regardless of matrix viscosity. Furthermore, considering the influence of polymer matrix viscosity on the coefficient of friction, a hydrodynamic anisotropic friction model was developed and successfully validated through experiments. From the analysis of the proposed characterization tests, the results were post-processed and presented for easy integration with the simulation tool.",
+  "subjects": [
+    "Materiais compósitos",
+    "Fabricaçăo",
+    "Tecidos",
+    "Fibras de carbono",
+    "Termoplásticos",
+    "Atrito",
+    "Tensăo de cisalhamento",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "06/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79249",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79249&origem=BDITA"
+}

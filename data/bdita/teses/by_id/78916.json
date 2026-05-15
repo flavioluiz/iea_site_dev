@@ -1,0 +1,35 @@
+{
+  "num_tese": "78916",
+  "type": "tese",
+  "title": "An evaluation of passive wall treatments in a high-performance multistage axial compressor",
+  "author": "Rubén Bruno Díaz",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Passive wall treatments created on the casing of axial compressors have been investigated in the last decades due to their capability to extend the compressor stall margin. Among them, the circumferential grooves proved to be an effective solution to extend de compressor stall margin. The circumferential grooves interact with the flow that spills at the tip clearance region, the so-called tip leakage flow, reducing its effect on the development of the tip leakage vortex, which is one of the main contributors to the onset of the stall in the axial compressor. However, most of the works found in the literature on circumferential grooves in axial compressors deal only with high-performance single-stage axial compressors. Therefore, there is a need to investigate and analyze the behavior of circumferential grooves in a multistage environment. In the present work, passive wall treatments consisting of circumferential grooves were created on the casing of the first and second blade rotor rows of a four-stage high-performance axial compressor. The research aims to improve the compressor stall margin and study the influence of the casing treatment on the flow field of a multistage axial compressor. The 3D CFD flow simulations based on the Reynolds-Averaged Navier-Stokes equations were performed to that end. First of all, circumferential grooves geometries were created on the casing of the first rotor blade row. After the numerical simulations, the compressor map characteristics were obtained and compared to those without the casing treatment. Improvements in the stall margin were achieved for low corrected rotational speeds (N=0.60 and N=0.65), and, in the cases with deeper grooves, improvements were also achieved for N=0.90 corrected rotational speed. Finally, circumferential grooves were created on the casing of the second rotor blade rotor row. These new geometries were studied in combination with the ones created previously for the first rotor row. They produced a greater extension in the stall margin for N=0.60 corrected rotational speed. However, no improvements were obtained for N=0.65 and N=0.90 corrected rotational speeds in these cases.",
+  "subjects": [
+    "Turbocompressores",
+    "Escoamento axial",
+    "Dinâmica dos fluidos computacional",
+    "Turbomáquinas",
+    "Pás de rotores",
+    "Análise numérica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78916",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78916&origem=BDITA"
+}

@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-84880779872",
+  "eid": "2-s2.0-84880779872",
+  "doi": "10.2514/6.2013-1486",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of the aerodynamic data in a MIMO system identification framework for aeroelastic analyses",
+  "abstract": "The current paper is concerned with studying the effects of using different unsteady computational fluid dynamics data in order to generate the root locus for aeroelastic stability analysis. The dynamic system being considered in the present work is a NACA 0012 airfoil-based typical section in the transonic regime. The CFD calculations are based on the Euler equations and the code uses a finite volume formulation for general unstructured grids. A centered spatial discretization with added artificial dissipation is used, and an explicit Runge-Kutta time marching method is employed. Unsteady calculations are performed for several types of excitation on the plunge and pitch degrees of freedom of the dynamic system. These inputs are based on step and orthogonal Walsh functions. The use of system identification techniques is employed to allow the splitting of the aerodynamic coefficient time histories into the contribution of each individual mode to the corresponding aerodynamic transfer function. Such transfer functions are, then, interpolated and used in an aeroelastic stability analysis in the frequency domain. The present work compares the results provided for each case and attempts to contribute with guidelines for such analyses. © 2013 by J.H.A. Azevedo, J.L.F. Azevedo and R.G.A. Silva.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-08-02",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "54th AIAA ASME ASCE AHS ASC Structures Structural Dynamics and Materials Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Azevedo, João Henrique A.",
+      "scopus_id": "55805224700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Roberto Gil A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60069347",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Architecture",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880779872&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067481",
+    "data_quality_score": 90
+  }
+}

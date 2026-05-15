@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85048296104",
+  "eid": "2-s2.0-85048296104",
+  "doi": "10.1007/s40430-018-1215-4",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An engineering vision about composite sandwich structures analysis",
+  "abstract": "© 2018, The Brazilian Society of Mechanical Sciences and Engineering.As shown in the literature, there is plentiful information about sandwich panels. Two of the most common points under discussion are the failure modes and the efficiency of numerical simulations considering the stiffness and interlaminar stress. The failure modes in the literature are not always likely to happen in practice, and representing them becomes a challenging task. Regarding the numerical simulations, new assumptions and formulations appear in order to consider the shear stress in the honeycomb CORE and to minimize processing time in 3D models. Although new mathematical solutions emerge, in some cases they are unpractical for engineering applications and must be evaluated and compared with test results in order to verify their consistency. Therefore, experimental results are necessary to validate theories to comply with the failure modes observed in sandwich panels and to validate the finite element model. Also, the main focus of the literature is on the theoretical formulation and not in engineering applications. In this sense, the main contribution of this paper is to bring forward experimental results of aeronautical sandwich panels whose data are scarce and therefore contributes to the validation of new developments. In addition, the purpose of this work contributes to the use of the finite element models with composite sandwich panels where the appropriate input for 2D (plate) and 3D (solid) elements is unclear. It should be pointed out that for failure investigation the first step is validating the finite element model. In this sense, a typical aircraft panel with experimental results is presented. The finite element model and the input parameters that are not mentioned in the classical literature are also presented. The experimental strain from specimen tested agreed well with the numerical simulations results.",
+  "authkeywords": [
+    "Classical theory",
+    "Composite materials",
+    "Finite element analysis",
+    "Panel test",
+    "Sandwich panel"
+  ],
+  "year": "2018",
+  "date": "2018-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+    "issn": "16785878",
+    "eissn": "18063691",
+    "volume": "40",
+    "issue": "7",
+    "pages": null,
+    "article_number": "333"
+  },
+  "authors": [
+    {
+      "name": "Arakaki, Francisco K.",
+      "scopus_id": "6507251115",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Faria, Alfredo Rocha",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048296104&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044438",
+    "data_quality_score": 100
+  }
+}

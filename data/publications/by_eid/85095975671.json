@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85095975671",
+  "eid": "2-s2.0-85095975671",
+  "doi": "10.2514/6.2019-2584",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A parabolised stability equation based broadband shock-associated noise model",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.�Wavepacket models have been used extensively to predict the noise produced by turbulent subsonic and supersonic jets. Such wavepackets, which represent the organised structures of the flow, are solutions to the linearised Navier-Stokes equations. Using a kinematic two-point model, Wong et al. [1] have indicated the importance of incorporating coherence decay in modelling broadband shock-associated noise (BBSAN) in supersonic jets. In this work, we aim to improve the shock-noise model by using solutions from linear parabolised stability equations (PSE) to model the wavepacket part of the BBSAN source. The two-point coherence of the wavepackets is obtained from large-eddy simulation (LES) data of a Mj = 1.5 fully-expanded isothermal supersonic jet [2]. The aim is to build a dynamic sound-source model for BBSAN that would improve on the simplified line-source model proposed by Wong et al. [3]. We find that a frequency dependent coherence decay length scale is important in order to suppress the higher-order harmonic peaks [4] and to obtain the correct BBSAN peak shape. Moderate agreement up to St = 1 was found between the current noise predictions and those from experimental data.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "25th AIAA Ceas Aeroacoustics Conference 2019",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Wong, Marcus H.",
+      "scopus_id": "57192715439",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Edgington-Mitchell, Daniel",
+      "scopus_id": "57882108200",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Honnery, Damon",
+      "scopus_id": "6602708337",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 60,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85095975671&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101134",
+    "data_quality_score": 90
+  }
+}

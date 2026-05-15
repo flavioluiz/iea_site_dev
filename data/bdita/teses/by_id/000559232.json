@@ -1,0 +1,30 @@
+{
+  "num_tese": "000559232",
+  "type": "tese",
+  "title": "Análise numérica em um ejetor supersônico a gás.",
+  "author": "Thaís Piva de Castro",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os ejetores possuem diferentes aplicaçőes como na propulsăo, refrigeraçăo e aeroespacial. Este dispositivo năo possui partes móveis e por isso é um equipamento simples, confiável, com potencial de vida longa e pode ser fabricado a um custo relativamente baixo, além disso, podem ser utilizados materiais baratos para sua construçăo. Por estas razőes, pesquisas vęm sendo realizadas com a finalidade de melhorar o desempenho deste dispositivo. O objetivo do presente trabalho é analisar ejetores supersônicos a gás utilizando a ferramenta de CFD (Computational Fluid Dynamic - Dinâmica dos Fluidos Computacional) para estudar os fenômenos físicos, os efeitos da geometria e das condiçőes de operaçăo no escoamento variando os seguintes parâmetros: vazăo na entrada secundária, o comprimento e o tipo da câmara de mistura. As equaçőes do modelo matemático (continuidade, quantidade de movimento, energia e modelos de turbulęncia k-?-realizável e k-?-SST) săo resolvidas numericamente empregando o método de volumes finitos. Um estudo com várias malhas foi realizado para garantir independęncia dos resultados em relaçăo a estas e para validaçăo do procedimento numérico foram utilizados dados experimentais disponíveis na literatura. Os resultados da validaçăo mostraram que o modelo de turbulęncia k- ?- SST e o esquema de discretizaçăo de 1Ş ordem apresentaram melhor desempenho para reproduzir os dados experimentais disponíveis para este ejetor. Os resultados para o comprimento da câmara de mistura de pressăo constante indicam que para este modelo do ejetor, o comprimento ideal encontrado de acordo com uma equaçăo, pois este é influenciado pela vazăo na entrada secundária. Outros resultados também mostraram que com o aumento da vazăo na entrada secundária, a diferença de pressăo entre a saída e a entrada secundária diminui.",
+  "subjects": [
+    "Ejetores",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento supersônico",
+    "Escoamento compressível",
+    "Método de volume finito",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "07/10/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000559232",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000559232&origem=BDITA"
+}

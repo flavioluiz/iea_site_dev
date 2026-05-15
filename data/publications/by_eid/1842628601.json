@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-1842628601",
+  "eid": "2-s2.0-1842628601",
+  "doi": "10.1115/ht2003-47248",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Application of a macroscopic turbulence model to simulation of flow in a channel with equally spaced porous fins",
+  "abstract": "In this work, numerical solutions are presented for turbulent flow in a channel containing fins made with porous material. The condition of spatially periodic cell is applied longitudinally along the channel. A macroscopic two-equation turbulence model is employed in both the porous region and the clear fluid. The equations of mass continuity, momentum and turbulence transport equations are written for an elementary representative volume yielding a set of equations valid for the entire computational domain. Results are presented for the velocity field as a function of Reynolds, porosity and permeability of the fins. Pressure drop along the channel is compared with the case of solid material.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Summer Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": "2003",
+    "issue": null,
+    "pages": "695-701",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Tofaneli, Luzia A.",
+      "scopus_id": "6506382899",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=1842628601&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111623",
+    "data_quality_score": 90
+  }
+}

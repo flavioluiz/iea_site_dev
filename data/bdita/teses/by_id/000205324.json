@@ -1,0 +1,29 @@
+{
+  "num_tese": "000205324",
+  "type": "tese",
+  "title": "Simulaçăo de escoamentos aerodinâmicos em configuraçőes tipo \"cluster\"",
+  "author": "Franz Zdravistch Fernandez",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho consiste na simulaçăo de escoamentos aerodinâmicos sobre configuraçőes tipo foguete, para os casos de um corpo isolado e de uma geometria multicorpo, utilizando as equaçőes de Navier-Stokes com média de Reynolds, com aproximaçăo de camada fina. Estas equaçőes săo implementadas em diferenças finitas, utilizando o algoritmo implícito de fatorizaçăo aproximada de Beam e Warming. O fenômeno de turbulęncia é modelado com o modelo algébrico de viscosidade de vórtice, de duas camadas, de Baldwin e Lomax. Os resultados obtidos săo comparados com dados experimentais e a concordância é muito boa. Contornos de pressăo e densidade săo também apresentados para se comprovar a validade física da simulaçăo. Finalmente, apresentam-se conclusőes e idéias para trabalhos futuros.",
+  "subjects": [
+    "Aerodinâmica",
+    "Escoamento",
+    "Análise numérica",
+    "Equaçăo de Navier-Stokes",
+    "Equaçőes de movimento",
+    "Física"
+  ],
+  "defense_date": "01/12/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000205324",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000205324&origem=BDITA"
+}

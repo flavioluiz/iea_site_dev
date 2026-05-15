@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-85216240457",
+  "eid": "2-s2.0-85216240457",
+  "doi": "10.4271/2024-36-0154",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Performance and Emissions Analysis Using Ducted Fuel Injection in Compression Ignition Engine with Load Variation",
+  "abstract": "© 2021 SAE International.Despite the increasing electrification of current vehicles, Diesel engines will continue to be used for several decades to come. There is still a need to introduce emission control technologies, especially those that show good potential and do not require extensive engine modifications. The increasing focus on reducing pollutant emissions and improving energy efficiency has prompted engine manufacturers to continuously strive for technological progress. The aim is to ensure compliance with environmental regulations and the fulfillment of social expectations. Specifically, new Diesel engine projects face the challenge of minimizing both nitrogen oxides (NOx) and soot emissions, which requires significant investiment in research to develop innovative combustion methods and exhaust gas treatment. One of these innovative methods is Ducted Fuel Injection (DFI), which aims to reduce emissions by improving spray development to obtain a better mixture at flame upstream. This study presents an experimental investigation carried out on a test bench with a single-cylinder compression ignition (CI) engine with a compression ratio of 16.5:1, in conjunction with an active alternating current dynamometer. The Diesel engine is equipped with instruments for measuring various parameters, including the pressure in the combustion chamber, the exhaust gas temperature, the temperature and pressure of the intake air, and coolant temperature, to name but a few. The engine was modified to incorporate the concept of Duct Fuel Injection (DFI), where the injected fuel is routed through a duct behind the injector, resulting in a more efficient and homogeneous air/fuel mixture, thus improving combustion. The aim of this study was to vary the engine load from approximately 4.2 to 7.3 bar IMEP. The load variation was achieved by changing the mass of fuel injected during the main injection. The injection timing was constant over the entire load variation range for both main injection and pre-injection. The results obtained from the experiments show that DFI produces a satisfactory reduction in soot formation compared to free spraying (FS). Although a lower cylinder pressure was observed in DFI mode at all loads studied due to of the delayed combustion caused by the presence of the duct, the engine performance was comparable to that of free spray mode.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-12-20",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": "01487191",
+    "eissn": "26883627",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Dias, Fábio Jairo",
+      "scopus_id": "57189261623",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Leila Ribeiro",
+      "scopus_id": "57194207193",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rufino, Caio",
+      "scopus_id": "57203867228",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Garcia, Ezio Castejon",
+      "scopus_id": "57223612043",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lomonaco, Raphael",
+      "scopus_id": "58135998700",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Argachoy, Celso",
+      "scopus_id": "8682900400",
+      "affiliation": "",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lacava, Pedro Teixeira",
+      "scopus_id": "57212239606",
+      "affiliation": "",
+      "is_eam_professor": true,
+      "eam_professor_id": "pedro-teixeira-lacava"
+    }
+  ],
+  "eam_coauthors": [
+    "pedro-teixeira-lacava"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 9,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85216240457&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.118518",
+    "data_quality_score": 90
+  }
+}

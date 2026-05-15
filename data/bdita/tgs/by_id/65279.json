@@ -1,0 +1,30 @@
+{
+  "num_tg": "65279",
+  "type": "tg",
+  "title": "Rastreamento de um alvo terrestre através de um veículo aéreo năo tripulado",
+  "author": "Lucas Meluzzi dos Reis",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho desenvolve um sistema de guiamento e controle de uma aeronave năo tripulada para o fim de realizar uma perseguiçăo de um veículo terrestre. A técnica consiste em seguir um alvo cuja posiçăo, velocidade e aceleraçăo săo conhecidas. O algoritmo faz uma troca entre duas leis de controle, uma responsável por deixar o VANT na vertical do alvo terrestre, a outra responsável por seguir uma trajetória desejada ao redor do alvo, no caso uma circunferęncia, sempre que o alvo se mover a uma velocidade igual ou menor do que a velocidade de stall da aeronave. No trabalho presente, o espaço de erros para a primeira lei de controle, a qual denominou-se trajectory tracking, é simplesmente a diferença linear e angular entre as posiçőes do VANT e do alvo terrestre. Na segunda lei de controle, a qual denominou-se moving path, o espaço de erros é baseado no referencial de Serret-Frenet associado ao caminho desejado. Portanto, assumindo-se que os dados do alvo sejam fornecidos por algum sistema de monitoramento avançado, como GPS, o algoritmo proposto utiliza técnicas năo-lineares em um espaço de erros apropriado para o caso de um caminho variando com o tempo, se movendo conjuntamente com a referęncia, i.e., o alvo, no solo.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Pilotos automáticos",
+    "Guiamento inercial",
+    "Controle de voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65279",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65279&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "60911",
+  "type": "tese",
+  "title": "Modelagem e identificaçăo de um manipulador robótico com dois elos flexíveis",
+  "author": "Jorge Augusto de Bonfim Gripp",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta a modelagem e identificaçăo de um manipulador robótico com flexibilidade mecânica distribuída ao longo dos seus elos. O aparato experimental utilizado é um manipulador robótico com dois elos flexíveis que se move no plano horizontal. O manipulador é movido por dois motores elétricos DC sem escovas e monitorado por tacômetros, extensômetros e acelerômetros. Um modelo de dimensăo finita é gerado usando o método dos modos assumidos. A mecânica Lagrangeana é utilizada para encontrar as equaçőes de movimento. Atuadores e sensores também săo modelados a fim de gerar o modelo dinâmico do sistema completo. A identificaçăo năo-paramétrica é feita usando dados experimentais, gerando funçőes de resposta em frequęncia experimentais. Os parâmetros do modelo teórico săo ajustados através de uma identificaçăo paramétrica, gerando funçőes de resposta em frequęncia teóricas. A identificaçăo năo paramétrica encontrada foi satisfatória, sem evidenciar ruídos ou saturaçőes. As FRF teóricas geradas foram satisfatoriamente próximas das experimentais, evidenciando o sucesso da identificaçăo paramétrica.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Modelagem (processos)",
+    "Corpos flexíveis",
+    "Manipuladores",
+    "Braços robóticos",
+    "Dinâmica de robôs",
+    "Robótica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "16/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60911",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60911&origem=BDITA"
+}

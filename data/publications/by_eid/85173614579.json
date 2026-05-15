@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85173614579",
+  "eid": "2-s2.0-85173614579",
+  "doi": "10.1016/j.tsep.2023.102174",
+  "pii": "S2451904923005279",
+  "pubmed_id": null,
+  "title": "Numerical study of a scramjet isolator performance under different sidewall compression angles",
+  "abstract": "© 2023 Elsevier LtdScramjet engines, also known as supersonic combustion ramjet engines, are frequently regarded as a compelling alternative for launching payloads into Earth's orbit. These air-breathing engines have streamlined designs with minimal movement of components. However, the successful design of scramjet engines necessitates overcoming various challenges such as managing the high heat fluxes and pressure loads exerted on the engine walls. Additionally, addressing issues such as shockwave-boundary-layer interactions and the potential occurrence of choked flow within the isolator channel are critical considerations during the scramjet design process. Therefore, this study aims to evaluate sidewall compression in the isolator region to deal with the high heat fluxes and pressure loads inside the scramjet isolator. In addition, this work also investigates how the variation in the angle of attack influences the mass flow rate of the intake and at which range of the angle of attack the intake becomes choked. The CFD analyses include contour images of properties such as Mach number, total pressure, heat flux, and pressure distribution on the walls, and the calculation of performance parameters, including the analysis of the second law of thermodynamics. The study involved varying the compression angle within the range of 4° to 10°. The results of this study demonstrate that implementing sidewall compression in the isolator region allows for the effective management of the position of the heat flux and pressure peaks on the upper wall of the isolator. Regarding the pressure distribution along the upper wall of the isolator, the 10°case presented a pressure peak of approximately 130000 Pa while the 4°case presented 155000 Pa. In addition to this significant decrease in the pressure peak value, its location also changed, with an increase of approximately 8 mm downstream of the isolator by decreasing the compression angle from 10° to 4°. This engineering approach presents a viable solution for mitigating the challenges posed by high heat flux and pressure loads in the intake section. The cost of applying such a solution is to decrease the intake performance – a decrease of approximately 30 % in the isentropic efficiency when comparing a case with no sidewall compression with the sidewall compression cases. In the choked flow study, angles of attack ranging from 4 to 30°were considered. The analysis shows that the choked-flow condition gradually occurs as the angle of attack increases beyond 4°, owing to the shock-on-lip condition. The results at approximately 20° indicate that the isolator becomes completely choked once the mass flow rate abruptly decreases – from around 0.30 to 0.15 Kg/s when comparing the 20°-of-AoA case with the 30° one. This work aims to contribute to the early phase of engine design by avoiding critical failures in the scramjet structure owing to aerodynamic load, thermal stress, and engine unstart.",
+  "authkeywords": [
+    "CFD",
+    "Hypersonic flow",
+    "Propulsion",
+    "Scramjet"
+  ],
+  "year": "2023",
+  "date": "2023-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thermal Science and Engineering Progress",
+    "issn": null,
+    "eissn": "24519049",
+    "volume": "46",
+    "issue": null,
+    "pages": null,
+    "article_number": "102174"
+  },
+  "authors": [
+    {
+      "name": "de Siqueira, João V.M.B.",
+      "scopus_id": "57216673676",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, Guilherme B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 48,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85173614579&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053033",
+    "data_quality_score": 100
+  }
+}

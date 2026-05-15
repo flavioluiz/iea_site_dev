@@ -1,0 +1,93 @@
+{
+  "publication_id": "2-s2.0-85100303796",
+  "eid": "2-s2.0-85100303796",
+  "doi": "10.1109/LARS/SBR/WRE51543.2020.9306941",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Neural Network to Control a Multiple Angles Kicker in RoboCup Small Size League",
+  "abstract": "© 2020 IEEE.The Small Size League (SSL) is a robot soccer league of the Robot World Cup (RoboCup). A recent trend in hardware design in SSL involves multiple angles kicking mechanisms. Combining a multiple angles kicker with a dribbler, which consists of a spinning bar to manipulate the ball through friction, a robot can execute angled and curved shoots and passes. However, due to the complex physical interactions involved, determining how to control the kicking and dribbling devices in order to obtain the desired ball trajectory is not simple. The ball motion may be mathematically modelled by a nonlinear ordinary differential equation (ODE). The parameters needed to perform a desired curved kick are the solution of the inverse problem of the nonlinear ODE. Since this is hard to compute in real-time, this work proposes a neural network to solve this inverse problem. The network is trained using many simulated ball trajectories. Finally, we show simulation results to validate the proposed method.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-11-09",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2020 Latin American Robotics Symposium 2020 Brazilian Symposium on Robotics and 2020 Workshop on Robotics in Education LARS Sbr Wre 2020",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "9306941"
+  },
+  "authors": [
+    {
+      "name": "Azevedo, Francisco A.B.",
+      "scopus_id": "57221819598",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vacarini, Daniela",
+      "scopus_id": "57221817110",
+      "affiliation": "101216666",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Maximo, Marcos R.O.A.",
+      "scopus_id": "57192438548",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Human-Computer Interaction",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Education",
+        "abbrev": "SOCI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100303796&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049276",
+    "data_quality_score": 90
+  }
+}

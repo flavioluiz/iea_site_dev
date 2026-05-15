@@ -1,0 +1,30 @@
+{
+  "num_tese": "73533",
+  "type": "tese",
+  "title": "Contribuiçăo ao desenvolvimento de técnicas de balanceamento de rotores de cauda de helicópteros : proposiçăo de método adaptativo e modelagem estocástica",
+  "author": "Luiz Fabiano Damy",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os helicópteros săo considerados uma das maiores invençőes do Século XX. Aliado ŕ sua capacidade de decolar, pairar e pousar na vertical, devido ŕs suas características estruturais e aerodinâmicas, esta máquina também é conhecida por possuir elevados níveis de vibraçăo e ruído. Com isso, o processo de balanceamento de seus eixos e rotores, tarefa rotineira realizada principalmente após intervençőes de manutençăo, torna-se ainda mais importante. Sabe-se que a vibraçăo tem efeitos extremamente danosos em uma aeronave, tais como fadiga da tripulaçăo, desgaste prematuro de equipamentos e falhas de componentes estruturais por fadiga. Ocorre que, apesar dos avanços tecnológicos obtidos nas últimas décadas, o processo de balanceamento ainda costuma apresentar dificuldades que encarecem o serviço e diminuem a disponibilidade das aeronaves. Nos últimos anos, diversos métodos computacionais relativamente sofisticados foram criados com a finalidade de auxiliar o mecânico nessa tarefa, alguns utilizando técnicas de inteligęncia artificial, por exemplo. Entretanto, estudos mais recentes mostraram que modelos tradicionais simples, antes associados ŕs limitaçőes e falhas do processo de balanceamento, foram utilizados com sucesso, em associaçăo com um processo de novas aquisiçőes de dados experimentais. Neste contexto, esta dissertaçăo investiga técnicas de balanceamento de rotores de cauda de helicópteros. Para tanto, desenvolveu-se um método adaptativo que permite a determinaçăo de coeficientes de sensibilidade a partir de dados extraídos de procedimentos de manutençăo de helicópteros. A partir desses dados, foi desenvolvido e validado um modelo estocástico de rotor de cauda que considera parâmetros de projeto como variáveis aleatórias. Por fim, um método adaptativo de balanceamento dinâmico de rotores de cauda de helicópteros foi apresentado, apresentando-se superiores aos modelos tradicionais.",
+  "subjects": [
+    "Vibraçăo",
+    "Balanceamento",
+    "Rotor de cauda",
+    "Helicópteros",
+    "Manutençăo de aeronaves",
+    "Rotores",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73533",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73533&origem=BDITA"
+}

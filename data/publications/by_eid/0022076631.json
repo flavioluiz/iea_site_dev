@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-0022076631",
+  "eid": "2-s2.0-0022076631",
+  "doi": "10.1016/0017-9310(85)90116-4",
+  "pii": "0017931085901164",
+  "pubmed_id": null,
+  "title": "Turbulence modeling in combined convection in mercury pipe flow",
+  "abstract": "A simplified Algebraic Stress Model was used to investigate the effect of buoyancy on the mean and turbulent flow of mercury in a pipe. The Patankar and Spalding finite difference method was used for solving the governing parabolic flow equations. Results were compared with previous measurements covering a Ra Re2 range from near zero to 10-4 for 30,000 < Re < 90,000 and qualitatively predicted observed distortions. Temperature fluctuations were measured to supplement previous experiments in the near-wall region. Heating effects on turbulent energy and momentum transfer were predicted. Modeling also confirmed measured reversal of the turbulent axial flux. © 1985.",
+  "authkeywords": null,
+  "year": "1985",
+  "date": "1985-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Heat and Mass Transfer",
+    "issn": "00179310",
+    "eissn": null,
+    "volume": "28",
+    "issue": "6",
+    "pages": "1067-1088",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60032361",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Sesonske, Alexander",
+      "scopus_id": "6602286431",
+      "affiliation": "60009254",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 25,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0022076631&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112367",
+    "data_quality_score": 90
+  }
+}

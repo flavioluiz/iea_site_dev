@@ -1,0 +1,67 @@
+{
+  "publication_id": "2-s2.0-84881291621",
+  "eid": "2-s2.0-84881291621",
+  "doi": "10.1115/GT2012-69987",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical tools for high performance axial compressor design for teaching purpose",
+  "abstract": "The preliminary design tools, for the design and performance analysis of axial flow compressors, has been developed based on reduced-order throughflow model. The inhouse numerical tools developed specially for turbomachinery preliminary sizing and calculation of its operational characteristics is being an interesting experience in both underand graduate lectures. Appropriate loss correlations have been selected aiming at good geometrical initial sizing. Flow properties distribution has been obtained using meanline code combined with a quasi-3D streamline curvature code. Any number of sections from hub to tip of each blade can be used for the determination of the blade shape. The compressor operation map calculated is validated against published test data. Details of the developed methodology and implementation are discussed. Copyright © 2012 by ASME.",
+  "authkeywords": [
+    "Aero engines",
+    "Axial compressor",
+    "CFD",
+    "Education",
+    "Meanline",
+    "Streamline curvature",
+    "Variable geometry"
+  ],
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "489-499",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Tomit, Jesuíno Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Barbosa, João Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 40,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881291621&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.083683",
+    "data_quality_score": 100
+  }
+}

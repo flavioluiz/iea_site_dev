@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85175016482",
+  "eid": "2-s2.0-85175016482",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Indirect Selective Laser Sintering: Modeling and analysis of surface densification by shot peening",
+  "abstract": "© 2023 The Authors.Indirect Selective Laser Sintering (iSLS) has shown disruptive potential to meet electromobility requirements for gears in terms of materials and product design. iSLS manufacturing allows for solutions in mass production mainly due to the speed of printing, when compared to direct additive manufacturing. However, there are still challenges regarding the processability of iSLS with carburizing alloy steels. Low densities arising from the intrinsic characteristics of the coated powder influence the mechanical strength. Shot peening appears as a potential solution to densify surfaces by inducing localized plastic deformation, but its implications are still poorly addressed in the literature. The objective of the study is an experimental investigation of the densification process by shot peening with parameter variations on the surface properties produced by iSLS. Both the decision of the peening parameters and the explanation to the densification phenomena were based on a numerical approach of the shot peening process. The density of the samples and the surface integrity features induced from printing to peening, such as topography and the residual stress state, were evaluated. The result provides insights, in the perspective of automotive applications, into the density of iSLS processing with carburized steels densification achieved by shot peening.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "VDI Berichte",
+    "issn": "00835560",
+    "eissn": null,
+    "volume": null,
+    "issue": "2422",
+    "pages": "1681-1698",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Criscuolo, I.",
+      "scopus_id": "57812686300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Carneiro, F.",
+      "scopus_id": "58667264000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães, G.",
+      "scopus_id": "57755451600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rego, R.",
+      "scopus_id": "55692679300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ronnie-rodrigo-rego"
+    },
+    {
+      "name": "Mascheroni, J.",
+      "scopus_id": "57194720163",
+      "affiliation": "127935631",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ronnie-rodrigo-rego"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175016482&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.080335",
+    "data_quality_score": 60
+  }
+}

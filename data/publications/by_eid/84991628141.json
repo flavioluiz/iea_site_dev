@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-84991628141",
+  "eid": "2-s2.0-84991628141",
+  "doi": "10.1016/j.compstruct.2016.08.027",
+  "pii": "S0263822316316737",
+  "pubmed_id": null,
+  "title": "Intraply failure criterion for unidirectional fiber reinforced composites by means of asymptotic homogenization",
+  "abstract": "© 2016 Elsevier LtdThis work focuses on the determination of failure envelopes of unidirectional fiber reinforced composites. A two scale analysis is considered and the mathematical theory of asymptotic homogenization is applied to model the problem. For a given stress applied to the macro level, it is possible to assess stresses at the micro level domain. Three regions of the micro level are considered: matrix, fiber and the interface between them, and each region is ruled by its own failure criterion. A methodology to determine failure of composites using the homogenization is proposed. In the methodology, the strengths of the composite are used to determine the strengths of the constituents: a curve fitting adjustment is applied to calculate the strengths of the matrix and an analytical procedure is used to obtain the strengths of the fiber and interface. Then, the strengths of the constituents are used to evaluate failure criteria at the micro level, and the numerical failure envelopes are built. The advantage of the proposed methodology is that it is capable of calculating numerical failure envelopes with good approximation to experimental envelopes and also to the Puck & Schürmann criterion, requiring only five unidirectional strengths of the composite as inputs.",
+  "authkeywords": [
+    "Asymptotic homogenization",
+    "Failure analysis",
+    "Homogenized elastic properties",
+    "Micromechanics",
+    "Unidirectional fiber reinforced composites"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "159",
+    "issue": null,
+    "pages": "335-349",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Macedo, Rafael Quelho",
+      "scopus_id": "57191573251",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, Rafael Thiago Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    },
+    {
+      "name": "Guedes, José Miranda",
+      "scopus_id": "7003775475",
+      "affiliation": "60037670",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 32,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 52,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84991628141&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063802",
+    "data_quality_score": 100
+  }
+}

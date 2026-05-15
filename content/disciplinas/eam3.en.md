@@ -1,5 +1,5 @@
 ---
-title: "EAM-3: Materials, Manufacturing and Automation"
+title: "Materials, Manufacturing and Automation"
 description: "Courses in the research area of Materials, Manufacturing and Automation"
 ---
 

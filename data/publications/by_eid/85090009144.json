@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-85090009144",
+  "eid": "2-s2.0-85090009144",
+  "doi": "10.1016/j.compstruct.2020.112846",
+  "pii": "S0263822320327720",
+  "pubmed_id": null,
+  "title": "A unified formulation for composite quasi-2D finite elements based on global-local superposition",
+  "abstract": "© 2020 Elsevier LtdA unified theory to formulate a family of quasi-2D composite finite elements that capture through-the-thickness effects is proposed. The formulation is based on the superposition of global and local displacement fields and includes thermal effects, as a response to the claim of the scientific community. First are presented the fundamentals of the unified formulation: the kinematic assumptions; the imposition of continuity of displacements and transverse stresses, and of non-homogeneous boundary conditions; and the mathematical manipulations that render its numerical efficiency. Then, the new family of elements is assessed in problems involving different boundary conditions. Results are compared to analytical and highly refined 2D finite elements solutions, providing a benchmark of the elements capabilities. Mesh convergence is assessed, together with the influence of the global and local displacement fields. The numerical efficiency of the formulation is attested and an expansion for a 3D formulation is outlined.",
+  "authkeywords": [
+    "Composite laminate",
+    "Finite elements",
+    "Global–local superposition",
+    "Through the thickness effects"
+  ],
+  "year": "2020",
+  "date": "2020-12-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "254",
+    "issue": null,
+    "pages": null,
+    "article_number": "112846"
+  },
+  "authors": [
+    {
+      "name": "de Lima, André S.",
+      "scopus_id": "57193121062",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85090009144&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044300",
+    "data_quality_score": 100
+  }
+}

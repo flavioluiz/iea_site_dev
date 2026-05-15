@@ -16,15 +16,16 @@
       {{ $projects = $projects | append $proj }}
     {{ end }}
   {{ end }}
-  {{ $areas := .Site.Data.areas.areas }}
+  {{ $areas := dict }}
+  {{ if .Site.Data.areas }}{{ $areas = .Site.Data.areas.areas }}{{ end }}
 
   {{/* Calculate statistics */}}
   {{ $projectCount := len $projects }}
   {{ $totalFunding := 0.0 }}
   {{ $funders := slice }}
   {{ range $projects }}
-    {{ $totalFunding = add $totalFunding .valor }}
-    {{ $funders = $funders | append .financiador }}
+    {{ if .valor }}{{ $totalFunding = add $totalFunding .valor }}{{ end }}
+    {{ if .financiador }}{{ $funders = $funders | append .financiador }}{{ end }}
   {{ end }}
   {{ $funders = uniq $funders | sort }}
 

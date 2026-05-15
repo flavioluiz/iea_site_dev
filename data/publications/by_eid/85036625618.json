@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85036625618",
+  "eid": "2-s2.0-85036625618",
+  "doi": "10.1016/j.compstruct.2017.11.091",
+  "pii": "S0263822317317865",
+  "pubmed_id": null,
+  "title": "Strain rate effects on the intralaminar fracture toughness of composite laminates subjected to compressive load",
+  "abstract": "© 2017 Elsevier LtdThis paper presents an experimental and numerical study focused on the mode-I intralaminar toughness characterization of a woven carbon/epoxy composite loaded in compression and subjected to high strain rates. Simulations for non-standardized Single Edge Notch Bending (SENB) and Double Edge Notch (DEN) specimens were carried out using a continuum damage mechanics based failure model implemented as an user defined material model within ABAQUS software. A Finite Element Model was used in order to produce an optimal specimen for intralaminar fracture toughness tests. A new data reduction scheme based on the numerical evaluation of the strain energy release rate using the J-integral method is proposed to determine the stress intensity factor for composites. The proposed methodology accounts for finite geometry and material anisotropy effects. The dynamic tests were carried out at strain rates of 560s-1,690s-1,770s-1 using an adapted version of the Split Hopkinson Pressure Bar. A high-speed camera was used for monitoring the crack propagation. A Scanning Electron Microscope (SEM) was used to aid the fractographic analyses on the damaged surface of the tested samples searching for the possible failures mechanisms within the material. The experimental results indicated that the composite laminates studied herein are very sensitive to the strain rate effects.",
+  "authkeywords": [
+    "Composite materials",
+    "Dynamic analysis",
+    "Failure analysis",
+    "Fracture mechanics",
+    "Fracture toughness"
+  ],
+  "year": "2018",
+  "date": "2018-02-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "186",
+    "issue": null,
+    "pages": "94-105",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Leite, Bruno Martins",
+      "scopus_id": "57198492330",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Leite, Luiz Fernando Martins",
+      "scopus_id": "57198495651",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Reis, Vitor Luiz",
+      "scopus_id": "57198503971",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "da Silveira, Nubia Nale Alves",
+      "scopus_id": "57198498852",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 16,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85036625618&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121850",
+    "data_quality_score": 100
+  }
+}

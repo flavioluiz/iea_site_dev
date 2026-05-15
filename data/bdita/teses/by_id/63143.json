@@ -1,0 +1,28 @@
+{
+  "num_tese": "63143",
+  "type": "tese",
+  "title": "Multistage axial-flow turbines : design and performance analysis",
+  "author": "Rafael Miguelangel Ascanio Vegas",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Plans for developing turbines in Brazil were present on the conception of CTA six decades ago. In this manner highly specialized work teams is needed to carry out such activity. The Center for Reference on Gas Turbine group has been contributing to research activities at CTA taking account of the study of gas turbines both aeronautical and industrial. In order to complement the group capability and study more complex turbine applications, it is a topic of interest to study steam turbines. Taking advantage from the experience gathered at CRTG, design and performance analysis approaches for axial gas turbines were applied to steam turbines, adjusting the models for working with superheated steam using a loss model for axial turbomachinery to estimate the total pressure loss into the turbine cascade. Such models were implemented in a computer code written in FORTRAN, disposed for reading the design requirements or the conditions for the performance analysis, making the corresponding calculation and reporting the results. It was performed a verification on the results from the design routine, comparing them with data from a commercial program for axial turbine simulation and the used such results to assess its performance at off-design conditions. A case study was conducted regarding a multistage steam turbine working in a combined cycle with a gas turbine. From the energy of the gas turbine exhaust, a three stages steam turbine of 0.5 MW of power was designed. Later, with additional energy generated in the boiler in order to produce more steam, the power capacity of the steam turbine was increased. The results reported from both routines were qualitative consistent to what it was expected a turbine design and off-design performance analysis could be.",
+  "subjects": [
+    "Turbinas axiais",
+    "Turbinas a vapor",
+    "Avaliaçăo de desempenho",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "28/06/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63143",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63143&origem=BDITA"
+}

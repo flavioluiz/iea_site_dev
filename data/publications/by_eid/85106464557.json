@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85106464557",
+  "eid": "2-s2.0-85106464557",
+  "doi": "10.1017/jfm.2021.364",
+  "pii": "S0022112021003645",
+  "pubmed_id": null,
+  "title": "Efficient computation of global resolvent modes",
+  "abstract": "© 2021 Cambridge University Press. All rights reserved.Resolvent analysis of the linearized Navier-Stokes equations provides useful insight into the dynamics of transitional and turbulent flows and can provide a model for the dominant coherent structures within the flow, particularly for flows where the linear operator selectively amplifies one particular force component, known as the optimal force mode. Force and response modes are typically obtained from a singular-value decomposition of the resolvent operator. Despite recent progress, the cost of resolvent analysis for complex flows remains considerable, and explicit construction of the resolvent operator is feasible only for simplified problems with a small number of degrees of freedom. In this paper we propose two new matrix-free methods for computing resolvent modes based on the integration of the linearized equations and the corresponding adjoint system in the time domain. Our approach achieves an order of magnitude speedup when compared with previous matrix-free time-stepping methods by enabling all frequencies of interest to be computed simultaneously. Two different methods are presented: one based on analysis of the transient response, providing leading modes with fine frequency discretization; and another based on the steady-state response to periodic forcing, providing optimal and suboptimal modes for a discrete set of frequencies. The methods are validated using a linearized Ginzburg-Landau equation and applied to the three-dimensional flow around a parabolic body.",
+  "authkeywords": [
+    "computational methods",
+    "Key words transition to turbulence"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "919",
+    "issue": null,
+    "pages": null,
+    "article_number": "A3"
+  },
+  "authors": [
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60021657-60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodríguez, Daniel",
+      "scopus_id": "55255594800",
+      "affiliation": "60028442",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 34,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85106464557&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100838",
+    "data_quality_score": 100
+  }
+}

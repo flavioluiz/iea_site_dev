@@ -1,0 +1,25 @@
+{
+  "num_tg": "76517",
+  "type": "tg",
+  "title": "On the properties of stabilized/hp continuous Galerkin methods for under-resolved nonlinear simulations",
+  "author": "Lucas Dantas Fernandes",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This study considers the properties of accuracy and stability of the spectral/hp continuous Galerkin (CG) formulation for under-resolved nonlinear problems. The theme's relevance lies in the fact that, in recent years, CG has been used in LES-type computations of turbulent flows without explicit turbulence modelling. In this scenario, an appropriate balance between numerical dissipation and spectral resolution power (i.e. eddy-resolving capability) is very important. Here, a modified Burgers' equation is proposed, in which discontinuities are prevented while large wavenumbers remain significantly energised. This model problem is analysed with fully-resolved and under-resolved simulations. In the latter, a modern spectral vanishing viscosity (SVV) operator is used for stability. Different polynomial orders are considered in a same-DOF setting. Sensible choices of polynomial orders and SVV parameters are shown to provide accurate resolution of the inertial range at a fraction of the cost of fully resolved cases.",
+  "subjects": [
+    "Método de Galerkin",
+    "Năo-linearidade",
+    "Soluçăo de problemas",
+    "Simulaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76517",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76517&origem=BDITA"
+}

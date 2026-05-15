@@ -1,0 +1,31 @@
+{
+  "num_tg": "000540255",
+  "type": "tg",
+  "title": "Identificaçăo paramétrica de sistemas dinâmicos com aplicaçăo em modelos aeronáuticos.",
+  "author": "José Tadeu Medeiros do Vale",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    },
+    {
+      "name": "Marco Antonio Leonel Caetano",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho de graduaçăo foi realizar a identificaçăo paramétrica de uma aeronave utilizando um método de prediçăo de erro baseado na minimizaçăo dos erros quadrados. Inicialmente foram estimados os parâmetros do modelo quantitativo do sistema em estudo e que se ajustam aos dados obtidos da simulaçăo das equaçőes que regem a dinâmica da aeronave. A estrutura de modelo utilizada para representar o sistema foi o de espaço de estados. A validaçăo do modelo foi realizada através da análise dos erros observados entre a soluçăo da equaçăo de estado obtida e os dados obtidos através da simulaçăo. Após a validaçăo do modelo năo ruidoso foram estimados os parâmetros do sistema considerando ruídos de medida. Uma filtragem dos dados obtidos na simulaçăo com ruído foi entăo necessária e os resultados da identificaçăo dos modelos năo-ruidoso e ruidoso foram comparados entre si e com a dinâmica resultante da soluçăo das equaçőes de movimento. Por fim uma análise intuitiva da robustez do método foi realizada.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Sistemas dinâmicos",
+    "Aeronaves",
+    "Métodos dos mínimos quadrados",
+    "Estimaçăo de sistemas",
+    "Prediçăo",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000540255",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000540255&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "80003",
+  "type": "tg",
+  "title": "Evaluating J85 engine thrust chart accuracy from flight test data",
+  "author": "Leandro de Magalhăes Barbosa",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Giordano de Oliveira Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The accuracy of in-flight performance estimates is crucial for effective mission planning and operational safety of the F-5 aircraft. Observations from experimental flights indicated discrepancies in the climb data for the J85-GE- 21 engine, especially in the MIL regime, prompting a detailed investigation into these differences. This study aims to assess the accuracy of the performance manual's predictions by comparing them with data collected from real flights. The analysis focused on two operational regimes: MIL and AB. In the MIL regime, it was found that the actual climb times, fuel consumption, and distances consistently exceeded the estimated values provided in the manual. In the AB regime, however, the experimental data showed less discrepancy with the manual's estimates, indicating higher accuracy. The speed profiles were analyzed, and the net thrust was estimated using the Mass Consumption Acceleration (MCA) method, based on the conservation of specific energy. The parametric model developed to represent the thrust demonstrated high accuracy, achieving a coefficient of determination of 0.98 in the MIL regime and 0.95 in the AB regime, providing reliable estimates for both regimes during climbs. Comparison with the gross thrust data from the engine deck revealed an average difference of 22% in the MIL regime and 8% in the AB regime. Although differences between gross and net thrust are expected, the magnitude of the discrepancy in the MIL regime suggests that the engine operates below the expected performance level.",
+  "subjects": [
+    "Câmaras de combustăo",
+    "Empuxo",
+    "Aeronaves F-5",
+    "Consumo de combustível",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80003",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80003&origem=BDITA"
+}

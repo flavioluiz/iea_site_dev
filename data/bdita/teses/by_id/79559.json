@@ -1,0 +1,34 @@
+{
+  "num_tese": "79559",
+  "type": "tese",
+  "title": "Computational model for performance analysis of hybrid-electric propulsion system for light transport aircraft",
+  "author": "Gustavo Muller Hauck",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Aviation has evolved towards a more environmentally responsible future, which promotes a reduction in operating costs, fuel consumption and emissions. One of the alternative propulsion systems that allow such evolutions is the hybrid-electric one. In this work, an in-house computer program was developed to evaluate aircraft performance considering turboprop and hybrid-electric propulsion systems. The software was created in Matlab®, using experimental wind tunnel data for the EMB-120 Brasilia. The commercial software GasTurb® was initially used to create models for the PW118 turboprop engine, which originally equips the aircraft, and for the PT6A-68C, proposed to compose a parallel hybrid-electric propulsion system, which uses electrical assistance only during the climb phase to cruising altitude. Subsequently, aiming to evaluate the influence of distance, batteries and power splits on fuel economy and reduction of climb time to cruising altitude, 148 flights were simulated in different conditions. These involved four different en-route distances: 555.6 km (300 NM), 926.0 km (500 NM), 1,296.4 km (700 NM) and 1,666.8 km (900 NM). For each one, configuration combinations were made involving power ratios of 5 % to 30 %, in multiples of 5, and generic batteries of 250 Wh/kg - the best currently available - to 1,500 Wh/kg, in multiples of 250. The model carried a payload of 1,000 kg, and takeoff weight variations were due to different amounts of fuel and battery. It was found that the current batteries did not enable some configurations for longer flights. Bearing in mind the weight of the battery-set, it was noted that, for the same specific energy considered, lower power splits imply more fuel savings, while higher power splits result in shorter climb time to cruise. However, it has become clear that with the improvement of battery technology, the fuel savings values generated between 5 % and 30 % power splits come closer, while even greater values of climb time reduction are obtained. As an example, for flights of 1,296.4 km, using 500 Wh/kg batteries, with 5 % and 30 % power splits, fuel savings of 20.85 % and 16.09 % were reached, while those with 1,500 Wh/kg have much closer values, 21.78 % and 20.84 %. Meanwhile, the climb time reductions go from 9.28 % and 37.04 % to 12.60 % and 40.47 %, respectively.",
+  "subjects": [
+    "Sistemas de propulsăo",
+    "Propulsăo híbrida",
+    "Motores de aeronaves",
+    "Aeronave EMB-120",
+    "Desenvolvimento de Programas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79559",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79559&origem=BDITA"
+}

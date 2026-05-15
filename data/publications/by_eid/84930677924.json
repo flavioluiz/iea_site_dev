@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-84930677924",
+  "eid": "2-s2.0-84930677924",
+  "doi": "10.1016/j.icheatmasstransfer.2015.05.023",
+  "pii": "S0735193315001025",
+  "pubmed_id": null,
+  "title": "The use of non-linear inverse problem and enthalpy method in GTAW process of aluminum",
+  "abstract": "© 2015 Elsevier Ltd.This work presents an alternative approach for the thermal analysis of the GTA (Gas Tungsten Arc) welding process on a 6065 T5 aluminum alloy. For this purpose, a C++ code was developed, based on a transient three-dimensional heat transfer model with phase change and mobile heat source. The thermal model took into account the dependence of thermal properties on temperature and heat losses by convection and radiation. The convection heat transfer coefficient and the emissivity were also considered variables with the temperature. To estimate the amount of heat delivered to the plate, the BFGS (Broydon-Fletcher-Goldfarb-Shanno) technique was used. Moreover, an analysis of the duration time of the electrode in positive (. t+) and negative (. t-) polarities was carried out. The methodology was validated by accomplishing lab controlled experiments. The aluminum samples lay on four conical head screws and submitted to a heat flux on one surface by the GTAW process torch. The torch displaces along the sample, thus simulating a real process. The numerical results presented low deviation when compared to the experimental results, which in turn, confirm the validation of the methodology for the study of the welding process presented.",
+  "authkeywords": [
+    "GTAW process",
+    "Heat flux estimation",
+    "Inverse problems",
+    "Phase change",
+    "Thermal efficiency"
+  ],
+  "year": "2015",
+  "date": "2015-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "66",
+    "issue": null,
+    "pages": "114-121",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60025299",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "de Carvalho, Solidônio Rodrigues",
+      "scopus_id": "8886483000",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lima E Silva, Ana Lúcia Fernandes",
+      "scopus_id": "6504248113",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lima E Silva, Sandro Metrevelle Marcondes",
+      "scopus_id": "8431332200",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84930677924&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091283",
+    "data_quality_score": 100
+  }
+}

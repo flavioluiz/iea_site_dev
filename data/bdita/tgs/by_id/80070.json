@@ -1,0 +1,33 @@
+{
+  "num_tg": "80070",
+  "type": "tg",
+  "title": "RFI detection in X-Band SAR single look complex imagery using a convolutional neural network",
+  "author": "Francisco José de Lavor Pereira",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Dimas Irion Alves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sarah Negreiros de Carvalho Leite",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present study investigates and develops an automated technique for detecting Radio Frequency Interference (RFI) in X-band Synthetic Aperture Radar (SAR) Single-Look Complex (SLC) images. The presence of RFI patterns has a detrimental impact on the quality and utility of SAR images. Consequently, the ability to detect RFI efficiently is crucial for the selection of SAR images that are free of significant RFI, as this is essential for a range of applications. To this end, we employed multi-year imagery acquired by the TerraSAR-X and TanDEM-X missions, which had been previously labelled in a prior study, to curate datasets comprising both RFI-affected and non-RFI images. A convolutional neural network (CNN) was specifically designed and adapted for the purpose of RFI detection. In view of the restricted number of RFI-labelled samples in the dataset, our objective was to devise techniques capable of addressing this challenge and ensuring reliable detection. The model was subjected to repeated refinement, incorporating targeted data augmentation and regularisation techniques with the objective of mitigating overfitting and enhancing generalisation. For a balanced dataset comprising 200 RFI and 200 non-RFI images, the model achieved a validation accuracy of 83% on real-world data and 100% accuracy during training, thereby demonstrating its effectiveness under controlled conditions. The application of data augmentation strategies, including image flipping for the RFI dataset and selective inclusion of additional non-RFI images, resulted in a further improvement in validation accuracy to 95%. These findings show that class balance and dataset diversity help the model deal with variations in geographical and image characteristics. This study demonstrates the model's effectiveness and potential for use in real-world applications where computational resources may be limited. It makes a significant contribution to automated RFI detection, advancing the application of machine learning techniques to complex signal classification tasks and offering a comprehensive framework for improving the analysis and utilisation of satellite images.",
+  "subjects": [
+    "Processamento de imagens",
+    "Radar de abertura sintética",
+    "Interferęncia de radiofrequęncia",
+    "Redes neurais",
+    "Aprendizagem (inteligęncia artificial)",
+    "Transmissăo de sinais",
+    "Satélites",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80070",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80070&origem=BDITA"
+}

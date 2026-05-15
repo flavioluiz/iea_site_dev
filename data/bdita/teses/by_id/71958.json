@@ -1,0 +1,29 @@
+{
+  "num_tese": "71958",
+  "type": "tese",
+  "title": "Convection heat transfer past a sudden expansion using porous inserts",
+  "author": "Wagner de Campos Galuppo",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents numerical investigations for flows and heat transfer in a backward facing step with and without porous inserts using the in house software of Laboratório Computacional de Fenômenos de Transporte (LCFT). Two main classes of models were employed, namely laminar and turbulent. Turbulent flows were employed either with linear and non-linear turbulence closures. The entire set of transport equations was discretized by means of the control volume method and the system of algebraic equations obtained was relaxed using the SIMPLE method. Results were first validated against experimental data and simulations, followed by experimental values and trends. Laminar simulations with bottom floor porous media insertion showed an interesting application for a backward facing step due to its enhancement of heat transfer rates. Turbulent flows simulations with cross section porous insertion further indicated that when using porous insert, the size, shape and length of the recirculating region was drastically reduced in addition to being pushed towards the channel exit, leading eventually to complete bubble suppression for thicker inserts. A more permeable medium produced worst results in laminar flows for heat transfer rates, but better results in the turbulent investigation by quickly suppressing the circulatory motions. Furthermore, including porous inserts in the channel cross section, turbulence generated due to shear inside the recirculating region was damped whereas high levels of k were concentrated within the permeable structure. Large variations for the skin friction factor along the bottom wall were also smoothed out by placing inserts in the cross section, spanning from a typical distribution for an unobstructed back step flow to a standard parallel channel turbulent flow distribution as the inserts got ticker. On the other hand, at the upper wall, the flow being pushed towards the top surface produced a sudden increase of the skin friction factor, which was later stabilized downstream. Heat transfer analysis was conducted and it showed enhancements and modification on the local Nusselt for the laminar investigation; for the turbulent investigation it showed a damping at the bottom wall as the thickness of the porous substrate was increased. Overall, the size of inserts played the dominant role for both investigations. Laminar flows, after a specific Darcy, the size of inserts did not significantly impact heat transfer rates. For the turbulent, the thickness of the insert changed the final flow and heat transfer characteristics rather the porosity or permeability. Finally, this work indicates that the sudden increase of overall Nusselt, which occurred in the turbulent unobstructed flow, and is known to be undesirable in many practical situations for causing additional thermo-mechanical loads on the material surface, may be avoided by the use of a porous obstacle at the cross section past the back step.",
+  "subjects": [
+    "Transferęncia de calor por convecçăo",
+    "Materiais porosos",
+    "Cisalhamento",
+    "Escoamento turbulento",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71958",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71958&origem=BDITA"
+}

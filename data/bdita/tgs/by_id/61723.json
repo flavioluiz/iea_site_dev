@@ -1,0 +1,30 @@
+{
+  "num_tg": "61723",
+  "type": "tg",
+  "title": "Sistema de controle autônomo para aproximaçăo e arredondamento de aeronaves năo-tripuladas",
+  "author": "Vitor Henrique Oliveira Bourguignon",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho é dedicado a desenvolver um sistema de controle autônomo para o pouso de uma aeronave năo-tripulada. As fases do pouso estudadas neste trabalho se concentram na trajetória de aproximaçăo e arredondamento. Foram projetados quatro controladores; dois que controlam a trajetória longitudinal e dois que controlam a trajetória látero-direcional. Entăo, os quatro controladores foram acoplados e obteve-se uma trajetória completa para a aproximaçăo e arredondamento da aeronave. O projeto foi inteiramente desenvolvido em ambiente MatLab/Simulink. Foram gerados diversos gráficos da simulaçăo do controle final para as devidas análises. Vale ainda ressaltar que os ganhos que realimentam as malhas de controle foram encontrados através da técnica LQR.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Pilotos automáticos",
+    "Controle automático de aterrissagem",
+    "Controle de aproximaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61723",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61723&origem=BDITA"
+}

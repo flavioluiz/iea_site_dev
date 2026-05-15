@@ -1,0 +1,31 @@
+{
+  "num_tg": "79236",
+  "type": "tg",
+  "title": "Simulation of spatially developing turbulent channel flow with spectral/hp element methods",
+  "author": "Augusto Henrique Peruchi Zanca",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The objective of this work is to investigate a simple method of generating turbulent flows with spatial development for time-dependent simulations of complex geometries in which the interaction of wall flows with the geometry of interest is of vital importance. Inspired by past studies that focus on using a hybrid simulation domain with channel flow to generate a boundary layer flow, this study takes a step back to extensively analyze a turbulent channel flow in Re? = 180 using random volumetric forcing to induce the laminar-turbulent transition. Implicit LES (large-eddy simulation) simulations, in which a numerical stabilization scheme is used instead of traditional sub-mesh models, were carried out using the software's spectral/hp solver Nektar++ focused on spectral element methods. After investigating a suitable polynomial order with numerical scheme used, the effect of both the size of the simulation domain and the mesh refinement are also were analyzed with respect to the accuracy of the solution, comparing it with DNS simulation results (direct numerical simulation) from the literature, and its computational cost. Finally, a parametric study was conducted with the volumetric forcing configurations with the aim of finding the optimal choice of parameters that generates a turbulent flow developed in the shortest possible domain length. Although the best results obtained differ from DNS results, comparisons with other LES simulations in the literature indicate that the level of error is similar, which indicates that the proposed methodology is promising for future studies.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento turbulento",
+    "Métodos espectrais",
+    "Estudo numérico",
+    "Camadas limite",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79236",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79236&origem=BDITA"
+}

@@ -1,0 +1,33 @@
+{
+  "num_tg": "78826",
+  "type": "tg",
+  "title": "Conceptual project of a space surveillance and tracking system (SST) : a case study for the ITA space center",
+  "author": "Carlos Eduardo de Sá Amaral Oliveira",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The increasing number of Resident Space Objects in Near-Earth Orbits (NEO), especially in Low Earth Orbits, jeopardize the safety of manned operations and increase the probability of damage and degradation of the current installed space infrastructure. The risk of possible collisions in a cascade effect can bring serious economic losses and considerably affects the sustainability of future space missions. Consequently, many companies and agencies are pursuing the capability to achieve and maintain high levels of Space Situational Awareness (SSA) through their own Space Surveillance and Tracking (SST) Systems seeking, especially, for more customization and transparency for data products than traditional commercial solutions available in the market, usually offered as a black-box system. In this context, a Model-Based Systems Engineering (MBSE) framework using ARCADIA Methodology is developed and implemented in this work for a conceptual system involving the available sensors for SST applications at the ITA Space Center. The proposed framework includes an Operational Analysis used to trace the main stakeholder's needs in a Solution Neutral environment. The issue of monitoring Resident Space Objects (RSO) is structured in regard to actors and how they interact with each other, in order to identify the main interfaces and features to be explored and incorporated in the model in an ontological representation. In the Solution Domain, an analysis of the System Needs and a Logical Architecture will be proposed, describing how the system will work to fulfill the user's expectations through logical components and integrating non-functional constraints evidenced during the Operational Analysis. Along this work, some aspects related to several architectural options trades, influenced by available orbit determination algorithms, observation techniques and propagators are also discussed, as well as aspects that go beyond Sensor Management, since the system relies on other sources of information, such previous observations and other collaborative databases where the uncertainty associated with each observation is a very sensitive information and an important parameter to be considered, especially in support for decision making. In the present work, the ARCADIA methodology was implemented in the software Capella\\textregistered, an Open-Source software solution released by Thales.",
+  "subjects": [
+    "Controle de satélites",
+    "Verificaçăo de programa (computadores)",
+    "Rastreamento de satelites",
+    "Engenharia de sistemas",
+    "Simulaçăo computadorizada",
+    "Estudo de casos",
+    "Pesquisa operacional",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78826",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78826&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "61130",
+  "type": "tese",
+  "title": "Análise numérica da dinâmica de rotores flexíveis com apoios hidrodinâmicos",
+  "author": "Hudson Alberto Bode",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Ivo Braga de Queiroz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, apresenta-se um estudo numérico de rotores sustentados por mancais hidrodinâmicos. Para tanto, desenvolvem-se as formulaçőes de mancais infinitamente longos, com reaçőees a cargas dinâmicas deduzidas a partir da integraçăo da soluçăo da equaçăo de Reynolds, para mancais com a cavidade (folga) entre o eixo e a parede interno do mancal, totalmente preenchidos de óleo năo cavitados (full Sommerfeld), bem como para mancais com a cavidade parcialmente preenchidas por óleo, por efeito da cavitaçăo (soluçăo de half Sommerfeld). Os coeficientes dinâmicos de rigidez e amortecimento calculados a partir da equaçăo de Reynolds com base em um óleo mineral comercial através de uma rotina escrita em C++ săo responsáveis pela sustentaçăo do rotor garantindo o funcionamento do conjunto rotativo. Com isso tem-se os coeficientes dinâmicos em funçăo do tempo que acoplam o rotor flexível ao mancal hidrodinâmico As formulaçőes desenvolvidas para as matrizes de rigidez e amortecimento foram aplicadas a um modelo numérico de um rotor composto por elementos de vigas (implementado em C++), assim como a um modelo de um rotor composto por elementos sólidos (utilizando programa comercial). A formulaçăo do rotor por elementos de viga permitiu um estudo numérico do sistema rotor baseado em reaçőes năo lineares para o mancal, onde pode-se perceber que a formulaçăo do mancal completamente cheio de lubrificante ou \"full Sommerfeld\"possui instabilidades numéricas severas, decorrentes da própria natureza das matrizes de rigidez desenvolvidas. Por outro lado, a formulaçăo do mancal parcialmente cheio ou \"half Sommerfeld\" apresentou resultados apreciáveis, incluindo o efeito de precessăo conhecido como half-speed whirl. A formulaçăo do rotor por elementos sólidos foi feita com base nas matrizes de rigidez e amortecimento calculadas pela rotina em C++, que linearizaram as reaçőes do mancal. Esta formulaçăo linearizada permitiu a realizaçăo de análises modais e harmônicas dos sistemas rotores. Nestas análises, mais uma vez, a formulaçăo de half Sommerfeld mostrou-se mais estável, apresentando resultados próximos aos encontrados na literatura.",
+  "subjects": [
+    "Vibraçăo",
+    "Rotores",
+    "Mancais",
+    "Hidrodinâmica",
+    "Análise numérica",
+    "Método de elementos finitos",
+    "Engrenagens",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61130",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61130&origem=BDITA"
+}

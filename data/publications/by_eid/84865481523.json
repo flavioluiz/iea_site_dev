@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-84865481523",
+  "eid": "2-s2.0-84865481523",
+  "doi": "10.1115/GT2011-46565",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Influence of variable geometry transients on gas turbine performance",
+  "abstract": "During the design of a gas turbine it is required the analysis of all possible operating points in the gas turbine operational envelope, for the sake of verification of whether or not the established performance might be achieved. In order to achieve the design requirements and to improve the engine off-design operation, a number of specific analyses must be carried out. This paper deals with the characterization of a small gas turbine under development with assistance from ITA (Technological Institute of Aeronautics), concerning the compressor variable geometry and its transient operation during accelerations and decelerations. The gas turbine is being prepared for the transient tests with the gas generator, whose results will be used for the final specification of the turboshaft power section. The gas turbine design has been carried out using indigenous software, developed specially to fulfill the requirements of the design of engines, as well as the support for validation of research work. The engine under construction is a small gas turbine in the range of 5 kN thrust / 1:2 MW shaft power, aiming at distributed power generation using combined cycle. The work reported in this paper deals with the variable inlet guide vane (VIGV) transients and the engine transients. A five stage 5:1 pressure ratio axial-flow compressor, delivering 8:1 kg=s air mass flow at design-point, is the basis for the study. The compressor was designed using computer programs developed at ITA for the preliminary design (meanline), for the axisymmetric analysis to calculate the full blade geometry (streamline curvature) and for the final compressor geometry definition (3-D RANS and turbulence models). The programs have been used interatively. After the final channel and blade geometry definition, the compressor map was generated and fed to the gas turbine performance simulation program. The transient study was carried out for a number of blade settings, using different VIGV geometry scheduling, giving indication that simulations needed to study the control strategy can be easily achieved. The results could not be validated yet, but are in agreement with the expected engine response when such configuration is used. Copyright © 2011 by ASME.",
+  "authkeywords": [
+    "Axial flow compressor",
+    "Gas turbine performance",
+    "Transient performance",
+    "Variable geometry transients"
+  ],
+  "year": "2011",
+  "date": "2011-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "4",
+    "issue": null,
+    "pages": "273-281",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barbosa, Jõao Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos Silva, Franco Jefferds",
+      "scopus_id": "55346411800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 14,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 18,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84865481523&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052233",
+    "data_quality_score": 100
+  }
+}

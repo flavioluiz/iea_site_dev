@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-85133748745",
+  "eid": "2-s2.0-85133748745",
+  "doi": "10.1016/j.prostr.2021.12.004",
+  "pii": "S2452321621002456",
+  "pubmed_id": null,
+  "title": "Compressive Behavior of Gyroid Structures Manufactured Through SLM with Carburizing Steels: A Numerical and Experimental Study",
+  "abstract": "© 2021 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)Triply periodic minimal surfaces such as Gyroid structures have been widely used in additive manufacturing as a strategy to reduce material usage, printing time, and part weight, which are of high interest by the automotive industry. Most Software dedicated to additive manufacturing have lattice tools for infill available, but they usually do not consider the influence of the infill strategy on the part`s mechanical properties. Therefore, this study analyzed numerically and experimentally the influence of lattices on the compressive behavior of samples manufactured by selective laser melting and developed a procedure to use the finite element method as a tool for mechanical properties evaluation. The procedure employed the software nTopology to generate gyroid structures and Ansys for the structural analyses. Different gyroid densities were numerically analyzed and samples with the best weight/stress ratio were selected for experimental validation with compression tests according to the ASTM E9 standard. The material considered was a carburizing steel DIN 5120 suitable for industrial applications. The results showed that the infill percentage is not associated with a linear relationship between weight and stress. It was observed that besides the infill ratio, the material distribution has a significant effect on the sample performance, which was affected by the stress concentration phenomena. A good representativity was found between the numerical model and experiments, enabling it as a reliable method to evaluate how the infill affects mechanical behavior",
+  "authkeywords": [
+    "Additive Manufacturing",
+    "Gyroid, Lattice",
+    "Mechanical behavior",
+    "Simulation"
+  ],
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Procedia Structural Integrity",
+    "issn": null,
+    "eissn": "24523216",
+    "volume": "34",
+    "issue": null,
+    "pages": "26-31",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimaràes, Guilherme",
+      "scopus_id": "57755451600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha, Alfredo",
+      "scopus_id": "57791754500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rego, Ronnie",
+      "scopus_id": "55692679300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ronnie-rodrigo-rego"
+    },
+    {
+      "name": "Barreiros, Lucas",
+      "scopus_id": "57791093300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mascheroni, José",
+      "scopus_id": "57194720163",
+      "affiliation": "128326935",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kretzer, Arthur",
+      "scopus_id": "57790431900",
+      "affiliation": "128326935",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ronnie-rodrigo-rego"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 4,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85133748745&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.080413",
+    "data_quality_score": 100
+  }
+}

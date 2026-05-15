@@ -1,0 +1,65 @@
+{
+  "publication_id": "2-s2.0-85018547751",
+  "eid": "2-s2.0-85018547751",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aeroelastic response of shape memory alloy hybrid composite cylindrical shells under supersonic flow",
+  "abstract": "© 2016, European Conference on Composite Materials, ECCM. All rights reserved.Shape Memory Alloy Hybrid Composite (SMAHC) laminates are built with continuous carbon fibers and Shape Memory Alloy (SMA) wires, both embedded in a polymeric matrix thereby forming a three constituent composite material. The SMA actuation is triggered by temperature changes, resulting in modifications in the structural responses of SMAHC laminates. A particularly important structural characteristic of SMAHC laminates which is investigated in this paper is the aeroelastic stability boundary of flutter. The derivation of the effective mechanical properties of the SMAHC is based on micromechanical model which accounts for temperature and fraction of martensite/austenite transformation phases of the shape memory alloy. The mathematical problem is formulated using Hamilton's principle, allowing for derivation of the equilibrium equations and boundary conditions of the aeroelastic response. The governing equations are then discretized and solved by the finite element method. A parametric study is conducted where different geometric configurations, laminate stacking sequence, boundary conditions and curvatures are investigated. It is observed that the SMAHC structure is stabilized against flutter by proper tailoring of stiffening effects induced by the changes in the fraction of martensite/austenite transformation phases of the SMA. Therefore, it is possible to increase critical flutter speed by controlling the temperature of the SMA wires.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Composites",
+    "Flutter",
+    "Shape memory alloy"
+  ],
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Eccm 2016 Proceeding of the 17th European Conference on Composite Materials",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Faria, Alfredo R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85018547751&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044491",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85140328512",
+  "eid": "2-s2.0-85140328512",
+  "doi": "10.1109/VSS57184.2022.9902065",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Modified Super-Twisting Algorithm with Specified Settling Time",
+  "abstract": "© 2022 IEEE.The present paper proposes a novel specified-time stable second-order sliding-mode dynamic system, formulated through a modification of the super-twisting algorithm. A broader definition of finite-time stability with specified convergence time, denominated here as specified-time stability, is provided. We devise a state observer for a damped simple pendulum to test the proposed algorithm's efficacy. The simulations illustrate that the estimation errors are taken to the origin at the specified settling time, with proper choice of the observer parameters.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of IEEE International Workshop on Variable Structure Systems",
+    "issn": "21654816",
+    "eissn": "21654824",
+    "volume": "2022-September",
+    "issue": null,
+    "pages": "214-218",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, João F.",
+      "scopus_id": "57935880900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140328512&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094945",
+    "data_quality_score": 90
+  }
+}

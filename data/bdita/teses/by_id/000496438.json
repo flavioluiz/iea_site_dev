@@ -1,0 +1,37 @@
+{
+  "num_tese": "000496438",
+  "type": "tese",
+  "title": "Instabilidade centrífuga e transiçăo para turbulęncia em escoamentos laminares sobre superfícies côncavas.",
+  "author": "Leandro Franco de Souza",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Márcio Teixeira de Mendonça",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho tem por objetivo estudar problemas de instabilidade hidrodinâmica e transiçăo para turbulęncia em escoamentos sobre superfícies côncavas. Para tanto, foi desenvolvido um método computacional de simulaçăo direta das equaçőes de Navier-Stokes, que utiliza o método de diferenças finitas compactas de alta ordem nas direçőes longitudinal e normal ŕ parede e método espectral na direçăo transversal ao escoamento. O método é verificado comparando-se os resultados obtidos com resultados obtidos através de análise de estabilidade linear, equaçőes de estabilidade parabolizadas e outros métodos numéricos; e é validado comparando-se os resultados numéricos com resultados experimentais bem documentados. O método desenvolvido permite analisar os processos altamente năo lineares que ocorrem nos estágios avançados da transiçăo. Săo estudados os processos físicos nos estágios mais avançados de desenvolvimento de Vórtices de Görtler, característicos de instabilidade centrífuga em camada limite. Em particular a interaçăo năo linear entre Vórtices de Görtler e ondas de Tollmien-Schlichting e a instabilidade secundária em Vórtices de Görtler. As perturbaçőes de 'alta' freqüęncia desestabilizam os Vórtices de Görtler causando instabilidade secundária. A instabilidade secundária do tipo varicoso, que causa a formaçăo de estruturas do tipo ferradura, é analisada neste estudo.",
+  "subjects": [
+    "Transiçăo em camada limite",
+    "Turbulęncia",
+    "Escoamento laminar",
+    "Simulaçăo numérica direta",
+    "Dinâmica dos fluidos computacional",
+    "Instabilidade de Goertler",
+    "Ondas de Tollmien-Schilichting",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000496438",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000496438&origem=BDITA"
+}

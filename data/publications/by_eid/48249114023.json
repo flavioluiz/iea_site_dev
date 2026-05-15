@@ -1,0 +1,98 @@
+{
+  "publication_id": "2-s2.0-48249114023",
+  "eid": "2-s2.0-48249114023",
+  "doi": "10.1155/2008/683506",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On the influence of welding residual stresses on the dynamic behavior of structures",
+  "abstract": "It is widely known that welding processes induce the generation of residual stresses, which, through the so-named stress stiffening effect, can influence the static and dynamic behavior of the welded components. Thus, accounting for this influence becomes important for the understanding of experimental observations and accurate modeling of the dynamic behavior. In this study, the numerical and experimental characterization of the influence of welding residual stresses on the flexural dynamic characteristics of rectangular plates is addressed. It is suggested a general modeling methodology based on finite elements comprising three subsequent analyses, namely: a thermal analysis to compute the transient temperature history due to welding thermal loading; a structural analysis accounting for plastic strains to obtain the welding residual stress fields and geometric distortions, and a dynamic analysis to compute the dynamic characteristics taking into account the stress-stiffening effect and geometric distortions. The results demonstrate the importance of considering the influence of welding residual stresses in the prediction of the flexural dynamic behavior of plates and the feasibility and efficiency of the simplified modeling approach, which can readily be extended to more complex situations, for characterizing this influence.",
+  "authkeywords": [
+    "Modal analysis",
+    "Residual stress",
+    "Stress stiffening",
+    "Welding simulation"
+  ],
+  "year": "2008",
+  "date": "2008-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Shock and Vibration",
+    "issn": "10709622",
+    "eissn": null,
+    "volume": "15",
+    "issue": "3-4",
+    "pages": "447-458",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bezerra, A. C.",
+      "scopus_id": "24480573400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vieira, L. C.",
+      "scopus_id": "35086939400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Scotti, A.",
+      "scopus_id": "35609778200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Geotechnical Engineering and Engineering Geology",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=48249114023&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089416",
+    "data_quality_score": 100
+  }
+}

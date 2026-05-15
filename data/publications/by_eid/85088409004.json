@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-85088409004",
+  "eid": "2-s2.0-85088409004",
+  "doi": "10.2514/6.2016-4909",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Brazilian thrust vector control system development: Status and trends",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.This paper presents the current status of the development of a new Brazilian Thrust Vector Control (TVC) system, designed for thrust vectoring of the first stages of the Brazil-ian small satellite launch vehicle VLM-1. The TVC system design is brie y described and compared to other systems available in literature. The model philosophy and development strategy is summarized and a verification approach of the vehicle control system, Hardware- in-the-Loop, presented. Experimental data of step responses are analyzed and compared to tests of an actuator flight model of the Brazilian satellite launch vehicle VLS-1.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "52nd AIAA SAE ASEE Joint Propulsion Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Wekerle, Timo",
+      "scopus_id": "57190854534",
+      "affiliation": "60021657-117225935",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, Euler Gonçalves",
+      "scopus_id": "57190853741",
+      "affiliation": "60069347-117225935",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Batagini, Cesar Moura",
+      "scopus_id": "57190853643",
+      "affiliation": "60069347-117225935",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Costa, Luís E.V.Loures",
+      "scopus_id": "56353578000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088409004&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.125221",
+    "data_quality_score": 90
+  }
+}

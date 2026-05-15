@@ -1,0 +1,31 @@
+{
+  "num_tg": "63868",
+  "type": "tg",
+  "title": "Guiamento e controle para voo em formaçăo de aeronaves năo tripuladas",
+  "author": "Tiago Pinheiro Rodrigues de Freitas",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho desenvolve um sistema de guiamento e controle de uma aeronave năo tripulada em relaçăo ao voo de uma aeronave líder a fim de se obter os benefícios do voo em formaçăo. O guiamento é realizado através de tręs controladores que rastreiam as distâncias relativas entre aeronave líder e ala computadas no sistema de referęncia do corpo da aeronave ala. As distâncias săo calculadas apenas com o conhecimento dos estados da aeronave ala e a posiçăo da aeronave líder. Simulaçőes de diferentes configuraçőes de voo e de controle para a aeronave ala foram geradas com o auxílio do software MATLAB e gerados gráficos para análises dos resultados obtidos. Para a confecçăo dos controladores e obtençăo dos ganhos da malha foram utilizadas diferentes técnicas de controle. A técnica LQR deve ser citada devido a sua proposta de otimizaçăo dos controles a um mínimo custo do sistema dinâmico.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Pilotos automáticos",
+    "Guiamento (movimento)",
+    "Controle de voo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63868",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63868&origem=BDITA"
+}

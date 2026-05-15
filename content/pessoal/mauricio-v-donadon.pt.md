@@ -1,8 +1,7 @@
 ---
-title: "Mauricio V. Donadon"
+title: "Maurício Vicente Donadon"
 layout: professor
 professor_id: "mauricio-v-donadon"
-type: docentes
+departamento: "iea-e"
+type: pessoal
 ---
-
-<!-- Conteúdo adicional pode ser adicionado aqui se necessário -->

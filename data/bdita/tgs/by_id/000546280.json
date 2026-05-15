@@ -1,0 +1,26 @@
+{
+  "num_tg": "000546280",
+  "type": "tg",
+  "title": "Estudo de soluçőes para o potencial compressível transônico.",
+  "author": "Aline Sousa da Silveira",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Métodos potenciais de distribuiçăo de singularidades, como o método dos painéis e o método convencional das singularidades, săo muito utilizados em escoamentos incompressíveis e compressíveis nos regimes baixo subsônico e supersônico, que podem ser linearizados. Entretanto, escoamentos transônicos năo podem ser adequadamente descritos por uma equaçăo linear, e a equaçăo transônica mais simples, a equaçăo potencial transônica de pequenas perturbaçőes, é năo-linear. O método mais comum que resolve essa equaçăo é o método field-panel, que distribui painéis de singularidades também sobre o campo de escoamento. Contudo, estudos mais recentes desenvolvem o Método da Reciprocidade Dual, que năo precisa calcular integrais duplas (ou triplas, no caso tridimensional) sobre o campo, mas apenas integrais simples (ou duplas) sobre a fronteira do problema. Esse método é análogo ŕ soluçăo de equaçőes diferenciais ordinárias lineares com um termo năo-homogęneo: ele primeiro resolve a parte linear (incompressível) da equaçăo e depois encontra uma soluçăo particular da equaçăo completa. O método aproxima a soluçăo particular como uma série de funçőes radiais pré-definidas, centradas em pontos espalhados pelo campo, e seus coeficientes săo as variáveis que precisam ser determinadas. O trabalho presente testa várias funçőes radiais como funçőes de interpolaçăo, para verificar a consistęncia do método e tentar encontrar uma funçăo que năo produza oscilaçőes quando o tamanho do campo é aumentado, o que aconteceu com a funçăo escolhida por Cavalieri (2006). Esses dois objetivos foram satisfatoriamente atingidos por este trabalho, que aplica o Método da Reciprocidade Dual a um perfil parabólico biconvexo simétrico sem sustentaçăo.",
+  "subjects": [
+    "Escoamento transônico",
+    "Análise numérica",
+    "Singularidade (Matemática)",
+    "Perfis de aerofólio",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000546280",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000546280&origem=BDITA"
+}

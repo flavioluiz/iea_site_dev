@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-28844495465",
+  "eid": "2-s2.0-28844495465",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Transonic AIC weighting method using successive kernel expansion",
+  "abstract": "A review of the current existing transonic AIC correction methods reveals that few can yield correct out-of phase pressures with a proper shock jump behavior. For this reason, a new method called the Transonic AIC Weighting (ZTAW) has been developed. This method consists of a downwash weighting matrix method derived from Giesing's force matching formulation in conjunction with a rational expansion of the classical kernel functions for lifting surfaces. Based on the general acceleration potential formulation in the frequency domain, a successive kernel expansion procedure has been established whereby the out-of-phase kernels can be successively expressed in terms of the in-phase kernels. In this way, the present method can yield correct out-of-phase pressures for elastic modes, with proper shock jump behavior, by only matching with given steady pressure inputs per one rigid pitch mode. Computed transonic cases include the F-5, LANN and Lessing wings for unsteady pressure validation and the AGARD445.6 and PAPA wings for flutter boundary validation. Good agreement with the measured unsteady pressures and the measured flutter boundaries assure the viability of the present method as an expedient industrial tool for transonic aeroelastic applications. Copyright © 2005 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-12-19",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Collection of Technical Papers AIAA ASME ASCE AHS ASC Structures Structural Dynamics and Materials Conference",
+    "issn": "02734508",
+    "eissn": null,
+    "volume": "4",
+    "issue": null,
+    "pages": "2390-2405",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Chen, P. C.",
+      "scopus_id": "7408353466",
+      "affiliation": "60005483-60010401",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, R. G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60025385",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Liu, D. D.",
+      "scopus_id": "56130943600",
+      "affiliation": "60010401-60139200",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Architecture",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 32,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=28844495465&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067601",
+    "data_quality_score": 70
+  }
+}

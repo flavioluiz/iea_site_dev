@@ -1,0 +1,32 @@
+{
+  "num_tese": "79262",
+  "type": "tese",
+  "title": "Investigaçăo numérica do efeito acústico de protuberâncias em cavidades",
+  "author": "Victor Menezes Ribeiro",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Avaliar o impacto do ruído na qualidade de vida humana é de extrema importância, pois ambientes ruidosos podem prejudicar a saúde das pessoas. Este trabalho tem como foco o ruído aeronáutico. O objetivo deste estudo é analisar as chamadas cavidades acústicas, com ęnfase na sua emissăo de ruído e em formas de se reduzir essa emissăo. Foi utilizado um código aberto de simulaçăo numérica direta (direct numerical simulation, DNS) para análise de cavidades. O código foi validado utilizando dados de cavidades padrőes obtidos de outros artigos. Com o código validado, foi inserida, no fundo da cavidade, uma protuberância retangular, que varia em altura, comprimento e posiçăo. Esses parâmetros foram manipulados buscando obter uma configuraçăo que melhor atenuasse o ruído gerado pela cavidade. A densidade espectral de potęncia, a recirculaçăo e a pressăo acústica foram analisadas para tomada de decisăo, em cada fase, de qual selo apresentou o melhor resultado. Foram feitas variaçőes de geometria maiores e menores, buscando entender como o comportamento da cavidade variava de acordo com cada um. Também é analisado o efeito da malha no resultado final, buscando entender se essa possui alguma influęncia. Os resultados demonstraram que protuberâncias podem atenuar o ruído gerado pela cavidade, porém também podem amplificá-lo. A depender da geometria da protuberância, é possível que a bolha de recirculaçăo avance a montante, gerando assim uma cavidade mais ruidosa. Năo foi observado ainda um padrăo entre os casos que conseguiram atenuar o ruído da cavidade, sendo necessários mais estudos. O estudo de refinamento de malha demonstrou convergęncia, exceto para o caso mais refinado, no qual houve uma divergęncia entre resultados, que pode ter sido causada por um sistema biestável ou por um estado transiente longo. Os efeitos da malha também precisam ser mais estudados e testes săo propostos para essa investigaçăo. Em conclusăo, a protuberância dentro de uma cavidade é capaz de atenuar o ruído gerado, porém, sua empregabilidade deve ser avaliada caso a caso, visto que pequenas alteraçőes de geometria podem fazer com que uma condiçăo mais silenciosa se torne mais ruidosa.",
+  "subjects": [
+    "Ondas sonoras",
+    "Ruído aerodinâmico",
+    "Prediçăo de ruído (aeronaves)",
+    "Cavidades",
+    "Aeroacústica",
+    "Simulaçăo numérica direta",
+    "Tomada de decisőes",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79262",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79262&origem=BDITA"
+}

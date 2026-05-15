@@ -1,0 +1,32 @@
+{
+  "num_tg": "000550455",
+  "type": "tg",
+  "title": "Numerical study of short-shrouded coaxial UAV.",
+  "author": "Luiz Fernando Bermero Nardi",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    },
+    {
+      "name": "Gilles Grondin",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work, developed in the Aerodynamics Laboratory of the da \"École Nationale Supérieure d'Aéronautique et Espace\" (SUPAERO, France), aims to the analysis of the main parameters involved in the project of a shrouded motor of two contra-rotating propellers. The chosen approach was computational (CFD), having the results then been compared with experimental data, obtained in a wind-tunnel. The referred shrouded motor, used as the propulsive system of a coaxial surveillance UAV, had its study divided in two parts: shroud and propellers. Three shroud geometries have been simulated, in order to investigate which one was capable of producing more thrust, with respect to efficiency and stability criteria considered important for the UAV's flight. Many external flow conditions were tested, as well as many values of mass flow through the motor. Other parameters related to the numerical simulations were also scrutinized, such as the coupling models of the solver equations, the refinement of the grids and the model of viscosity employed.",
+  "subjects": [
+    "Rotores",
+    "Carenagem",
+    "Hélices contra-rotativas",
+    "Aeronave năo-tripulada",
+    "Aeronaves de decolagem vertical",
+    "Sistemas de propulsăo",
+    "Dinâmica dos fluidos computacional",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550455",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550455&origem=BDITA"
+}

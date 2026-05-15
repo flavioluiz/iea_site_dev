@@ -1,0 +1,33 @@
+{
+  "num_tese": "000298056",
+  "type": "tese",
+  "title": "QFD auxiliado por computador em abordagens por engenharia simultânea",
+  "author": "Geilson Loureiro",
+  "year": "1994",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por objetivo apresentar uma abordagem sistemica e algoritmica para a implementacao do QFD (Desdobramento da Funcao Qualidade). Essa abordagem e chamada aqui de CAQFD (QFD auxiliado por computador). O CAQFD inclui integracao por redes de computadores e aspectos organizacionais convenientes. Suas vantagens principais sao: integrabilidade (por computador), flexibilidade, disponibilidade, memoria e maior produtividade. O QFD e entendido como uma ferramenta de Engenharia Simultanea e prove uma abordagem mais ampla para a definicao de Qualidade do que outras ferramentas de engenharia simultanea. Quando um produto e projetado com o auxilio do QFD, a qualidade desse produto e de todo o processo produtivo e definida pelo nivel de satisfacao do cliente que o produto proporciona. As necessidades dos clientes sao desdobradas, sucessivamente, em Requisitos de Sistema, Caracteristicas das Partes, Processos de Fabricacao e Operacoes de Manufatura. O projeto de produtos complexos, tais como produtos mecatronicos, necessita de uma nova abordagem do projeto de engenharia. Na abordagem tradicional, o projeto e \"jogado por sobre o muro\" que separa os grupos responsaveis pelas fases do ciclo de vida do produto. Na abordagem da Engenharia Simultanea, um time de projeto conduz, de maneira integrada, todas essas fases. O CAQFD e uma maneira muito eficiente de implementar a Engenharia Simultanea. Sua abordagem sistemica e obtida atraves das regras de trabalho, da rede de computadores e de uma filosofia e estrutura organizacionais.Sua abordagem algoritmica e fornecida pelo modelamento das matrizes QFD como uma grande arvore de objetivos. Inicialmente, essa arvore emodelada por matrizes binarias e a seguir, as celulas das matrizes sao ponderadas. Esse modelo e obtido pela conducao de perguntas dirigidas por um computador. Este trabalho apresenta, inicialmente, a necessidade de uma nova abordagem para o projeto de engenharia. A seguir, a abordagem de Engenharia Simultanea e apresentada, seguida pela apresentacao do QFD. O CAQFD elimina as desvantagens da implementacao manual do QFD, provendo as vantagens acima mencionadas. Todas as fases do ciclo de vida do produto podem ser eficientemente integradas pelo CAQFD, a partir das necessidades de mercado ate as operacoes de manufatura necessarias para obte-las.",
+  "subjects": [
+    "Qualidade total",
+    "Engenharia simultânea",
+    "Programas de computadores",
+    "Redes de computadores",
+    "Projetos",
+    "Produtos",
+    "Desdobramento da funçăo qualidade",
+    "Administraçăo de empresas",
+    "Administraçăo",
+    "Computaçăo"
+  ],
+  "defense_date": "01/11/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000298056",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000298056&origem=BDITA"
+}

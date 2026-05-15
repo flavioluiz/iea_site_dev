@@ -1,0 +1,39 @@
+{
+  "num_tese": "000515523",
+  "type": "tese",
+  "title": "Modelagem da formaçăo do preço de energia elétrica no mercado de curto prazo.",
+  "author": "Joăo Rodolfo Côrtes Pires",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Paulo Sérgio Franco Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os custos marginais de curto prazo ou de operaçăo (CMO) da energia elétrica para sistemas hidroelétricos possuem uma grande dependęncia dos níveis de água nos reservatórios das usinas. Normalmente agregam-se diversas usinas em uma única usina equivalente de modo a facilitar o estudo. No sistema hidrotérmico brasileiro as usinas săo agregadas em quatro usinas equivalentes. Este trabalho propőe uma metodologia alternativa para: i) avaliar o custo marginal de operaçăo em funçăo dos níveis dos reservatórios equivalentes dos submercados; ii) Precificar contratos de opçőes sobre o preço spot da eletricidade; e iii) avaliar o risco de déficit de energia para um dado cenário futuro. Para isso foi criado um modelo de geraçăo de séries sintéticas de energia natural afluente ao reservatório. Através de regressăo linear múltipla (RLM) foi calibrado um modelo para calcular a variaçăo do nível de energia dos reservatórios em funçăo da energia armazenada no męs anterior, a quantidade de energia afluente e da previsăo de demanda durante o męs. Ajustou-se também um modelo de redes neurais artificiais (RNA) através do algoritmo \"Backpropagation\" para se obter o CMO em funçăo do nível dos reservatórios. Com esta mesma funçăo se calibrou um modelo de Cobb-Douglas, incluindo, além do nível de armazenamento, a demanda no período como variável explicativa. A partir do modelo de séries sintéticas criado é encontrada a distribuiçăo futura de energias naturais afluentes para o horizonte de estudo. Para a distribuiçăo de probabilidades de valores de energias afluentes obteve-se a distribuiçăo de energias armazenadas discretizadas em intervalos de probabilidade. Para as energias armazenadas calcula-se a distribuiçăo do custo marginal de operaçăo. A distribuiçăo das energias armazenadas permite estudar os riscos de déficit de energia de forma simples para cenários de potęncia instalada e de demanda. Utilizando-se a distribuiçăo dos custos marginais pode-se avaliar o valor de contratos de eletricidade. Para validaçăo do modelo realizou-se um estudo de caso para o submercado da regiăo Sudeste/Centro-Oeste, para o horizonte de abril de 2003 a dezembro de 2006. Como era de se esperar detectou-se a forte relaçăo entre o custo marginal de operaçăo e o nível de energia armazenada no reservatório do submercado em questăo. O modelo demonstrou também um bom desempenho na previsăo dos preços e dos níveis dos reservatórios para o horizonte de curto prazo (6 meses), uma vez que a capacidade de geraçăo instalada sofre pequenas alteraçőes para esse horizonte. Constatou-se também, para os dois cenários simulados, um esvaziamento sistemático dos reservatórios que provoca um aumento do risco de déficit de energia para o horizonte em estudo. Devido ŕ grande variabilidade das afluęncias futuras, percebe-se que a precificaçăo de opçőes por esse método é viável apenas para curtos intervalos de tempo, uma vez que para períodos maiores o pręmio pago pelo risco é muito elevado, sendo preferível comprar fisicamente o ativo.",
+  "subjects": [
+    "Distribuiçăo de energia elétrica",
+    "Análise numérica",
+    "Análise de custos",
+    "Redes neurais",
+    "Regressăo linear",
+    "Modelos matemáticos",
+    "Inteligęncia artificial",
+    "Fixaçăo de preços",
+    "Avaliaçăo de riscos",
+    "Engenharia elétrica",
+    "Economia"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515523",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515523&origem=BDITA"
+}

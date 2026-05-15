@@ -1,0 +1,36 @@
+{
+  "num_tese": "000560702",
+  "type": "tese",
+  "title": "Dinâmica de aeronaves flexíveis empregando teoria das faixas năo-estacionária.",
+  "author": "Grégori Pogorzelski",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "Uma formulaçăo da dinâmica da aeronave flexível é apresentada e usada na investigaçăo das contribuiçőes da flexibilidade e efeitos de aerodinâmica năo-estacionária sobre as características da mecânica de voo. A metodologia é aplicada a um planador construído em material composto com asas enflechadas de alto alongamento. Para a representaçăo dos fenômenos aerodinâmicos năo-estacionários, uma teoria das faixas modificada aplicável a asas enflechadas é empregada. A formulaçăo permite que a matriz de coeficientes de influęncia seja calculada no domínio da frequęncia. Săo consideradas, na obtençăo das forças aerodinâmicas, tanto as contribuiçőes dos graus de liberdade flexíveis quanto de corpo rígido, no regime linear e de pequenas perturbaçőes. O modelo aerodinâmico, no domínio do tempo, é obtido após a aplicaçăo da aproximaçăo por funçőes racionais segundo o modelo de Roger. As informaçőes relacionadas ao comportamento estrutural decorrem, inicialmente, de um modelo de elementos finitos de casca, empregado em uma análise modal para obtençăo dos modos naturais de vibraçăo. As formas deformada e indeformada das superfícies sustentadoras săo aproximadas através de um procedimento de interpolaçăo empregando splines de superfície. O eixo elástico é obtido, para diversas seçőes ao longo da envergadura, segundo uma metodologia baseada no método de mínimos quadrados. Processo semelhante é empregado para a caracterizaçăo das formas modais. O resultado é uma viga equivalente para a qual săo dados um deslocamento vertical e um ângulo de torçăo ao longo da envergadura. Fica, assim, assegurada a correlaçăo entre pontos de controle aerodinâmicos e estruturais. Através de formulaçăo Lagrangeana, săo obtidas as equaçőes diferenciais do movimento, apoiadas sob as hipóteses de desacoplamento inercial e pequenas perturbaçőes. Tais equaçőes podem ser utilizadas para obtençăo de condiçőes de voo de equilíbrio, estudo da estabilidade e resposta em frequęncia ou mesmo integradas ao longo do tempo, como ilustrado através de uma série de exemplos aplicados ŕ aeronave estudada. Especial atençăo é dada ŕ identificaçăo de contribuiçőes dos efeitos de flexibilidade e de aerodinâmica năo-estacionária. Destacam-se as simulaçőes de resposta a perturbaçőes do tipo doublet aplicadas ŕs superfícies de comando. O impacto da variaçăo na quantidade de modos elásticos e termos de atraso aerodinâmico utilizados é também abordado.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Corpos flexíveis",
+    "Asas enflechadas",
+    "Aeroelasticidade",
+    "Aerodinâmica năo-estacionária",
+    "Análise estrutural dinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/10/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000560702",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000560702&origem=BDITA"
+}

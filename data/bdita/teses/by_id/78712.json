@@ -1,0 +1,32 @@
+{
+  "num_tese": "78712",
+  "type": "tese",
+  "title": "Proposta de desenvolvimento de simulador de helicóptero com movimento para a indústria nacional",
+  "author": "Emmanuel Araujo Machado",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um simulador de voo certificado possui muitos sistemas interconectados. Os simuladores com movimentos, além dos modelos matemáticos, possuem um mecanismo capaz de reproduzir as sensaçőes obtidas pelo piloto na aeronave dentro do ambiente restrito do simulador. Este trabalho é uma continuaçăo da pesquisa e desenvolvimento do projeto do Simulador de Helicópteros Esquilo e Fennec (SHEFE) do Exército Brasileiro. Esta pesquisa tem os objetivos, a partir de dados de ensaios em voo, de contribuir com o refinamento dos parâmetros do modelo dinâmico látero-direcional da aeronave AS 550 A2 FENNEC, em complemento ŕs pesquisas anteriores; o desenvolvimento de uma base de dados de desempenho do helicóptero com precisăo suficiente para cumprir os requisitos estipulador pela normal FAA FAR 60 para simuladores FFS nível B, de forma a aumentar o envelope de voo presente no simulador atual; realizar a identificaçăo de um modelo dinâmico representativo da plataforma comercial utilizada; e o ajuste de um Motion Cueing Algorithm (MCA) otimizado que represente as sensaçőes obtidas pelos pilotos. Assim, cria-se uma metodologia de pesquisa e ensaios para estudo de plataformas e algoritmos de movimento. Este trabalho apresenta os fundamentos teóricos de um simulador de voo, como a sua descriçăo, objetivos, categorias, influęncias no organismo humano e as constituiçőes de cada módulo pertencente ao simulador com movimento. Além disso, săo apresentadas as equaçőes de movimento da aeronave e, com a utilizaçăo do método de filtro de Kalman estendido (EKF), săo realizadas as identificaçőes das derivadas de estabilidade e controle no modelo látero-direcional. De forma a aumentar seu envelope de voo e fidelidade das informaçőes, os dados de ensaios em voo da campanha do SHEFE foram utilizados para criar um modelo de desempenho da aeronave. A plataforma tipo hexapod e o algoritmo de movimento foram caracterizados com a apresentaçăo do equacionamento dinâmico e das estruturas de um MCA. O uso de identificaçăo de parâmetros foi realizado para determinar características de controle da plataforma de movimento. Além disso, apresenta uma metodologia dividia em fases, desenvolvendo o processo de sintonia do MCA. Para isso, foram realizados testes na plataforma comercial Moog, modelo MB-E-6DOF/24/1800KG, em um helicóptero com instrumentaçăo especial de ensaios em voo e no SHEFE. Os testes foram completados e os ajustes realizados de forma a minimizar os erros entre as sensaçőes de movimento obtidas pelo piloto na aeronave e no simulador de voo. Por fim, os ajustes săo determinados e apresentados com os erros obtidos abaixo dos limites de percepçăo do sistema vestibular humano.",
+  "subjects": [
+    "Simuladores de voo",
+    "Helicópteros",
+    "Modelos matemáticos",
+    "Ensaios em voo",
+    "Sistemas dinâmicos",
+    "Identificaçăo de parâmetros",
+    "Estabilidade de aeronaves",
+    "Filtros de Kalman",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "03/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78712",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78712&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "71170",
+  "type": "tese",
+  "title": "Modelagem paramétrica de câmara de empuxo para bi-propelentes líquidos",
+  "author": "René Nardi Rezende",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Está em andamento uma segunda corrida espacial, caracterizada pela participaçăo de empresas comerciais em busca de soluçőes que possam reduzir prazos e recursos utilizados no processo de desenvolvimento. Este cenário abre possibilidades para incorporar, ainda na fase de projeto, os conhecimentos acumulados nas últimas décadas e trabalhar com as modernas tecnologias de processamento de dados. É dentro dęste contexto que foi desenvolvida uma nova metodologia para o dimensionamento de certos elementos de câmara de empuxo para bi-propelentes líquidos, notadamente sua injetora, câmara de combustăo e tubeira, considerando o nível de detalhamento e a exatidăo adequados ŕ etapa do projeto preliminar. A aplicaçăo da metodologia inicia com a seçăo quente, em etapas que cobrem desde o recebimento dos requisitos de alto nível aplicáveis ao produto final, passa pela identificaçăo de algumas propriedades dos gases de combustăo e resulta nas estimativas do desempenho da câmara de empuxo caracterizada pelo escoamento congelado, isentrópico e unidimensional. Estas açőes iniciais fornecem as bases sobre as quais serăo definidas dimensőes da tubeira, cônica ou parabólica, e da câmara de combustăo cilíndrica. A validaçăo desta etapa é feita através da comparaçăo entre dados de motores dimensionados por terceiros e os resultados obtidos com aplicaçăo do modęlo paramétrico aqui apresentado. O trabalho agora se volta para a seçăo fria, ou mais precisamente, para as injetoras de propelentes tipo ciclone e espigăo. No que diz respeito a injetora tipo ciclone, a metodologia apresentada resolve um antigo problema relacionado com a discrepância no desempenho, quando dimensionados por métodos até entăo existentes. Esta nova abordagem é caracterizada por atribuir valores distintos para os coeficientes de descarga dos orifícios de entrada e de saída. Quanto ŕ injetora espigăo, a principal contribuiçăo deste trabalho está na definiçăo da arquitetura interna e a respectiva rotina de cálculos que podem garantir a vazăo mássica esperada. Para as duas injetoras, resultados de testes em bancada săo apresentados em apoio aos argumentos teóricos. E, finalizando esta empreitada, está mostrado a aplicaçăo do modęlo paramétrico no projeto preliminar de uma câmara de empuxo.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Câmaras de combustăo",
+    "Motores foguetes",
+    "Escoamento de gases",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "11/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71170",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71170&origem=BDITA"
+}

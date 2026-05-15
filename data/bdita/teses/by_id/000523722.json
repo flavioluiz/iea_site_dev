@@ -1,0 +1,30 @@
+{
+  "num_tese": "000523722",
+  "type": "tese",
+  "title": "Análise da vibraçăo em vigas de Timoshenko rotativas.",
+  "author": "Victor Fernando Deorsola Sacramento",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é estudar a vibraçăo em vigas de Timoshenko rotativas. Foram obtidas duas soluçőes, sendo uma analítica e outra utilizando o Método dos Elementos Finitos. As equaçőes de movimento foram obtidas a partir das Equaçőes de Lagrange. Foi considerado também o efeito giroscópico segundo Timoshenko Para obter a soluçăo analítica, assim como as matrizes de massa, do efeito giroscópico e de rigidez, foi utilizado o software Mathematica®. Um software escrito em Fortran® permitiu a montagem das matrizes globais dos elementos e a simulaçăo de resposta do eixo, variando dimensőes, material, velocidade angular e desbalanceamento. Os resultados săo apresentados, discutidos e comparados.",
+  "subjects": [
+    "Vibraçăo",
+    "Mecânica (Física)",
+    "Vigas (suportes)",
+    "Rotaçăo",
+    "Método de elementos finitos",
+    "Equaçăo de Euler-Lagrange",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000523722",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000523722&origem=BDITA"
+}

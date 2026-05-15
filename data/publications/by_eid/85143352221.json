@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85143352221",
+  "eid": "2-s2.0-85143352221",
+  "doi": "10.1007/s00170-022-10555-y",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Clamping force model application on the aircraft structural assembly",
+  "abstract": "© 2022, The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature.The aeronautic manufacturing industry has been seeking to enhance competitiveness and product quality by applying the Industry 4.0’s technologies. Particularly, on the roadmap of the digital twin era, a way to achieve a reduction in manufacturing time and thus production cost is to obtain prediction models of the main elementary assembly operations and functions within aircraft manufacturing process, such as the clamping force applied by the temporary fasteners on the aircraft’s structural parts. Besides being a mandatory operation, it affects multiple tasks along the product’s assembly lifecycle. This work focuses on the role of the clamping force in the assembly process, establishing its functional model by means of an experimental approach based upon resources used on a real shop floor of a major aircraft manufacturer. To evince the main requirements that the clamping force tools can achieve, this work employs the Taguchi Design method, design of experiments, and process capability analysis. The model resulted from the aforementioned methods and tools allows the assembly behavior prediction and thus the control of the manufacturing process, ultimately yielding a better geometry quality.",
+  "authkeywords": [
+    "Clamping force",
+    "Design of experiment",
+    "Structural assembly",
+    "Taguchi method"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Advanced Manufacturing Technology",
+    "issn": "02683768",
+    "eissn": "14333015",
+    "volume": "124",
+    "issue": "5-6",
+    "pages": "1951-1969",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Mello, Joao Marcos Gomes",
+      "scopus_id": "57540418100",
+      "affiliation": "60070415-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luís Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "60021657-122667346",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    },
+    {
+      "name": "Silva, André Vinícius Santos",
+      "scopus_id": "57209581146",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Oliveira, Wesley Rodrigues",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso",
+    "wesley-rodrigues-de-oliveira"
+  ],
+  "scopus": {
+    "citations": 12,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 59,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143352221&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.113860",
+    "data_quality_score": 100
+  }
+}

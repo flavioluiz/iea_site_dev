@@ -1,0 +1,25 @@
+{
+  "num_tg": "77576",
+  "type": "tg",
+  "title": "Estudo comparativo entre os modelos linear e semi-linear na representaçăo da dinâmica de voo de helicópteros",
+  "author": "Mateus de Paula Ribeiro",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Motivado no estudo dos modelos dinâmicos de voo (FDM - Flight Dynamic Models) aplicados a dispositivos de treinamento e simuladores de voo (FSTD - Flight Simulation Training Devices) este trabalho provę um comparativo qualitativo entre os modelos em seis graus de liberdade (6DoF - Six Degrees of Freedom) linear e semi-linear na representaçăo de helicópteros em operaçőes militares. Fundamentado nos equilíbrios descritos em Heffley et al. (1979) para o helicóptero UH-1H na configuraçăo nominal, os FDM implementados em MATLAB/Simulink® foram avaliados de acordo com as características qualitativas de resposta dos modos dinâmicos em tręs conjuntos de dados referentes as condiçőes de voo reto e nivelado, subida/descida com velocidade de 60 kt e vertical. No primeiro, a transiçăo dos parâmetros necessários (vetores de estado e controle, bem como derivadas de estabilidade e controle) entre os equilíbrios considerados foi feito através da interpolaçăo linear em funçăo da velocidade aerodinâmica, já nos demais tal transiçăo foi também uma interpolaçăo linear, mas em funçăo apenas da razăo vertical. Em cada conjunto, os casos simulados foram definidos a partir da identificaçăo dos modos naturais instáveis, principalmente fugóide e dutch roll, visando concentrar as análises comparativas qualitativas nas particularidades de resposta dos modelos linear e semi-linear frente a instabilidades. Complementando a análise, a implementaçăo permitiu simulaçőes em tempo real, com uso de um flightstick, conectadas ŕs plataformas FlightGear ou X-Plane® 11. Diante dos resultados, foi estabelecido năo só qual apresenta um melhor desempenho, mas também as fragilidades e limitaçőes dos modelos.",
+  "subjects": [
+    "Helicópteros",
+    "Análise comparativa",
+    "Dinâmica de voo",
+    "Simuladores de voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77576",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77576&origem=BDITA"
+}

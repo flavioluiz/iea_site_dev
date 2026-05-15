@@ -1,0 +1,34 @@
+{
+  "num_tese": "000555001",
+  "type": "tese",
+  "title": "Modelo para apoio ŕ decisăo no processo de classificaçăo de unidades móveis no cenário marítimo.",
+  "author": "Cleber Almeida de Oliveira",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mischel Carmen Neyra Belderrain",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A habilidade de conduzir operaçőes no mar é determinada, fundamentalmente, pela organizaçăo, compreensăo e projeçăo de todos os fatores importantes que influenciam a conscięncia situacional, tais como a disposiçăo das forças aliadas, neutras e entidades năo combatentes, as características geográficas, oceanográficas e meteorológicas da área de interesse e, obviamente, a disposiçăo do inimigo. No sistema de comando e controle (C2) naval, o processo de organizaçăo, compreensăo e projeçăo destes fatores é conhecido como compilaçăo do quadro tático. A compilaçăo de um quadro tático confiável em ambiente de tráfego marítimo denso requer a tecnologia de fusăo de dados para integrar informaçőes providas por múltiplas fontes de modo a melhorar a percepçăo da situaçăo pelo decisor. Este trabalho propőe e implementa um modelo de apoio ŕ decisăo para o processo de fusăo de dados com o propósito de elevar a capacidade de compilaçăo do quadro tático marítimo. Este modelo incorpora os aspectos cognitivos dos especialistas, os aspectos doutrinários e os objetivos considerados por ocasiăo da definiçăo de uma missăo. A implementaçăo do modelo de apoio ŕ decisăo foi estruturada em duas partes: A primeira parte propőe uma abordagem que conjuga as técnicas de gating e de lógica nebulosa para o problema de associaçăo de dados, considerando múltiplos sensores e múltiplos alvos. A segunda parte propőe o emprego das Tabelas de Decisăo Fuzzy (TDF) como estrutura para a construçăo das regras de um sistema especialista. Esta abordagem agrega as heurísticas empregadas pelos especialistas e as regras de engajamento para apoiar a classificaçăo e a identificaçăo de alvos de superfície e para sugerir algumas açőes a serem tomadas pelo decisor. Os benefícios operacionais obtidos foram significativos. Reduziu-se a interferęncia humana no processo de integraçăo dos dados, minimizando a dependęncia no conhecimento, no treinamento e na experięncia do operador do sensor para compilar o quadro tático. Aprimoraram-se as fases de observaçăo e de orientaçăo do modelo por meio da minimizaçăo da redundância dos dados e pela otimizaçăo do processamento dos dados de modo que o decisor visualize o cenário em uma única camada de informaçăo, aprimorando a conscięncia situacional. Contribuiu-se, também, para as fases de decisăo e de atuaçăo do modelo, com a atribuiçăo do grau de confiança na declaraçăo de identidade do contato e com a sugestăo de algumas açőes a serem tomadas pelo decisor.",
+  "subjects": [
+    "Sistemas de apoio ŕ decisăo",
+    "Tática",
+    "Operaçőes militares",
+    "Marinha",
+    "Fusăo de multisensor",
+    "Lógica nebulosa",
+    "Comando e controle",
+    "Representaçăo do conhecimento",
+    "Teoria multicritério da decisăo",
+    "Pesquisa operacional",
+    "Engenharia militar"
+  ],
+  "defense_date": "20/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000555001",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000555001&origem=BDITA"
+}

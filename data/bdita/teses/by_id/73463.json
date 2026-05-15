@@ -1,0 +1,29 @@
+{
+  "num_tese": "73463",
+  "type": "tese",
+  "title": "Caracterizaçăo dos efeitos da taxa de deformaçăo na tenacidade ŕ fratura intralaminar de laminados compósitos sujeitos a carga de traçăo",
+  "author": "Luiz Fernando Martins Leite",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Essa dissertaçăo de mestrado apresenta um estudo numérico e experimental dos efeitos de tenacidade ŕ fratura em traçăo de laminados compósitos de carbono/epóxi sujeitos a diferentes taxas de deformaçăo. Os objetivos da tese podem ser divididos em quatro partes: (I) Adaptar o dispositivo projetado numericamente ŕ barra de Hopkinson; (II) Manufatura dos corpos de provas projetados numericamente utilizando a técnica RIFT(Resin infusion under flexible tooling); (III) realizar os ensaios experimentais de caracterizaçăo da tenacidade ŕ fratura no regime estático e dinâmico (IV) e verificar quais mecanismos de falha influenciaram na resposta do problema por meio da microscopia eletrônica de varredura. Modelos numéricos foram desenvolvidos utilizando o ABAQUS 6.14 no modo Dynamic Explicit sendo considerada a degradaçăo do material e seus modos de falha através do uso de um modelo constitutivo de dano. A utilizaçăo do modelo numérico foi adotada para verificar qual seria o projeto mais otimizado, possibilitando modificar a barra de Hopkinson convencional, em compressăo para traçăo. Foram também analisados os comportamentos da propagaçăo da trinca no corpo de prova modelado numericamente. No final é realizada uma comparaçăo das vantagens e desvantagens de cada configuraçăo desenvolvida numericamente. A partir dos resultados numéricos, foram manufaturados os corpos de prova do tipo SENB, os entalhes e as trincas. Para a manufatura do corpo de prova utilizou-se a técnica da infusăo da resina a vácuo RIFT. Uma nova funçăo de correçăo geométrica através do uso do método numérico integral-J foi proposta, depois que ensaios estáticos mostraram a limitaçăo da norma ASTM para materiais ortotrópicos. O projeto experimental utilizando a técnica flexăo de quatro pontos na barra de Hopkinson foi adaptado para o ensaio no regime dinâmico. Foram feitos ensaios experimentais em tręs taxas distintas de deformaçăo para caracterizaçăo dos efeitos na tenacidade ŕ fratura dos compósitos laminados. Por fim, analisou-se fractográficamente as amostras ensaiadas via Microscópio Eletrônico de Varredura (MEV) para identificar os tipos de falhas ocorridas no material. Através dos resultados nota-se uma dependęncia da resposta do material com relaçăo a taxa de carregamento aplicado ao problema, isso mostra a importância do entendimento e compreensăo, devido ŕ falta de informaçőes disponível na literatura, do comportamento dinâmico aplicado aos materiais compósitos, principalmente no que diz respeito no desenvolvimento de estruturas aeronáuticas resistente a impactos. Mostra também a importância do desenvolvimento de novas técnicas e normas para caracterizaçăo desse tipo de material no regime dinâmico.",
+  "subjects": [
+    "Resistęncia ŕ fratura",
+    "Materiais compósitos",
+    "Laminados",
+    "Deformaçăo",
+    "Mecânica de fratura",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "03/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73463",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73463&origem=BDITA"
+}

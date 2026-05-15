@@ -1,0 +1,31 @@
+{
+  "num_tg": "72281",
+  "type": "tg",
+  "title": "Abaqus prototyping of a global/local iterative non intrusive coupling: towards real aeronautical applications",
+  "author": "Mateus Toniolli",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Stéphane Guinard",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work consists in developing a demonstrator of the non intrusive coupling, a rather recent technique, with Abaqus in order to transfer the previously established methods to the industrial environment and to facilitate its dissemination to Airbus Group. Besides transferring the method, this work proposes an extension for its improvement by enabling the treatment of non-conforming geometries, what allows a greater freedom for the construction of the local model, whose mesh is not constrained by the global grid. The strategy employed is original and constitutes a rather pragmatic approach, being based on two main distinct procedures: grid projection and transition mesh generation. The grid projection is implemented in order to allow the study of two models built separately, what means that once we have a global model ready, we can build a local model in a relatively independent way. The transition mesh generation concentrates the innovative character of the approach, enabling the analysis of non-conforming geometries by imposing the compatibility of both meshes, what is assured by construction. The method also covers a possible coupling between 2D and 3D models, enabling the consideration of a global coarse model constituted by shell elements together with a local finer model consisting of solid elements. Therefore, we can deal with two distinct couplings: global/local and 2D/3D. The transition mesh strategy imposes a separation between both interfaces, what indicates the possibility of employing the same methods of 2D/3D coupling as the ones already used by the classical industrial methods. The demonstrator was expanded to enable its application to the geometry of a stiffened panel by treating a pair of global and local models used by Airbus Group in the study of fuselage stiffened panels. Some outcomes of this work were presented at the 2016 NAFEMS France Conference and the final results inspired a publication that will be submitted to the journal Advances in Engineering Software.",
+  "subjects": [
+    "Placas (membros estruturais)",
+    "Acoplamento",
+    "Estruturas tridimensionais",
+    "Análise estrutural",
+    "Estruturas de aeronaves",
+    "Engenharia de materiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72281",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72281&origem=BDITA"
+}

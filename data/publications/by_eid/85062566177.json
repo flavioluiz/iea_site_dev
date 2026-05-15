@@ -1,0 +1,134 @@
+{
+  "publication_id": "2-s2.0-85062566177",
+  "eid": "2-s2.0-85062566177",
+  "doi": "10.1109/INDUSCON.2018.8627164",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A labview/arduino measurement system for shape memory alloy wires",
+  "abstract": "© 2018 IEEE.Shape memory alloy (SMA) wires have extensive use in many areas of the industry nowadays and its development continues reaching new applications as studies progress. This paper proposes a SMA measurement device that uses affordable components, such as the Arduino micro-controller and a LabVIEW programming language interface. With an antagonistic mechanism design, data on temperature, strain and stress is acquired to confirm the measuring capabilities of the full equipped instrument, rendering visualizations of phase transformations and opening way for further development in control and detailed acquisition of shape memory alloy wire properties.",
+  "authkeywords": [
+    "Arduino",
+    "Automation and Process Control",
+    "Electrical Machines and Drives",
+    "LabVIEW",
+    "Shape Memory Alloy"
+  ],
+  "year": "2018",
+  "date": "2018-07-02",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2018 13th IEEE International Conference on Industry Applications Induscon 2018 Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1179-1186",
+    "article_number": "8627164"
+  },
+  "authors": [
+    {
+      "name": "Driesen, Joran Bart",
+      "scopus_id": "57201317569",
+      "affiliation": "60021657-60020599",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fischer, Clecio",
+      "scopus_id": "57201471456",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sousa, Guilherme Luiz Caselato De",
+      "scopus_id": "59160414100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Osmar De Sousa",
+      "scopus_id": "56996901800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Loendersloot, Richard",
+      "scopus_id": "8504539700",
+      "affiliation": "60020599",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos Alves",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Martins, Cristiane Aparecida",
+      "scopus_id": "8931969000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cristiane-aparecida-martins"
+    },
+    {
+      "name": "Goes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade",
+    "cristiane-aparecida-martins",
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Computer Networks and Communications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85062566177&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.046103",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "67437",
+  "type": "tg",
+  "title": "Didatic acquisition system implementation for aeroelastic tests in wind tunnels",
+  "author": "Joyce Carolynne de Melo Silvestre",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In hands with a PVDF sensor, able to transform a vibration into a small amplitude electrical signal, and a PZT actuator, able to excite voltage controlled vibrations on the wing, an electrical circuit was built using basic electronic components in order to make possible that the input and output signals of the tests in an aluminum wing could be correctly amplified, filtered and transformed in ways to be read and processed by Arduino UNO microprocessor. Then for different excitations from the wind tunnel, it was possible to develop the adequate data processing with MATLAB software to obtain the frequency response of the signal, so the aeroelastic analysis of the system could be done.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Túneis de vento",
+    "Aeroelasticidade",
+    "Aquisiçăo de dados",
+    "PZT",
+    "Resposta em frequęncia",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67437",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67437&origem=BDITA"
+}

@@ -1,0 +1,92 @@
+{
+  "publication_id": "2-s2.0-85060478425",
+  "eid": "2-s2.0-85060478425",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Effects of tailored control surface compliance on aircraft stability and control",
+  "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.The aircraft design problem is an example of a highly integrated design, which calls for a multidisciplinary approach from the very beginning. With every generation of aircraft, it gets more difficult to make substantial improvements since so much have already been done to make aircraft as possible. Next generation civil aircraft needs to take every possibility to increase efficiency. One potential area of improvement is to reduce drag due to the requirement of positive stability. However, with the present state of the art it is difficult to get a system that can artificially stabilize an aircraft, certified. If this can be overcome, there are potential gains in drag, since all horizontal surfaces can be used for lift. Another advantage is that a wider range for center gravity can be allowed. In flight control the input signal to the aircraft are usually taken to be position of control surfaces. This is then translated to requirements on the actuation system, where the natural compliance of these systems is regarded, as something unwanted, when in fact it can also be used to tailor characteristics also at the aircraft level. This is relevant to both civil and military aircraft. The approach used here is to look at control surface actuators and different means to utilize also force control, possibly together with position control, and to introduce compliance in proper positions of the system. The pressure feedback is evaluated in a simulation environment using HOPSAN simulation package. Furthermore, an experiment is performed with the pilot in the loop to evaluate the different values of feedback gain. Statistical analysis of the results shows a significant influence of feedback level in the ability of the pilot to control the aircraft.",
+  "authkeywords": [
+    "Canard",
+    "Human in the loop simulation",
+    "Pitch stabilization"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Krus, Petter",
+      "scopus_id": "7003781926",
+      "affiliation": "60009358",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lantto, Birgitta",
+      "scopus_id": "6507245497",
+      "affiliation": "60011728",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rodriguez, Manuel A.",
+      "scopus_id": "57205546813",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 8,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060478425&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049402",
+    "data_quality_score": 80
+  }
+}

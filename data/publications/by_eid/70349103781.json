@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-70349103781",
+  "eid": "2-s2.0-70349103781",
+  "doi": "10.1115/IMECE2008-67669",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Soret effect on double-diffusive laminar convection in a square cavity filled with porous material",
+  "abstract": "This paper reports a numerical study of the Soret effect on steady-state flows, which are induced by double-diffusion in an enclosure. Convection takes place in a square cavity filled with a porous medium. Horizontal walls are impermeable and subjected to a vertical gradient of temperature. Vertical surfaces are adiabatic and subjected to a horizontal gradient of concentration. The physical model for momentum conservation equation makes use of the Forchheimer extension of the classical Darcy model. Governing parameters of the problem under study are thermal and solutal Rayleigh (Ra), Buoyancy ratio (N), Lewis numbers (Le) and Soret parameters (M). Computations using the finite-volume method cover the range 100<Ra<1000, -40<M<40 for N=0.1. Copyright © 2008 by ASME.",
+  "authkeywords": null,
+  "year": "2009",
+  "date": "2009-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings",
+    "issn": null,
+    "eissn": null,
+    "volume": "10",
+    "issue": "PART B",
+    "pages": "997-1004",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mesquita, Maximilian S.",
+      "scopus_id": "7005231691",
+      "affiliation": "60028426",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=70349103781&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111144",
+    "data_quality_score": 80
+  }
+}

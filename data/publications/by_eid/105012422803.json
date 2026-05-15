@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-105012422803",
+  "eid": "2-s2.0-105012422803",
+  "doi": "10.23967/eccomas.2024.039",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "IMPLICIT LES VIA SPECTRAL/HP CG METHODS: RATIONALE AND COMPARISON TO OTHER LES/ILES",
+  "abstract": "© 2024, Scipedia S.L., All rights reserved.Spectral element methods (SEM) are receiving increased attention over recent years given their capability to yield LES-type results without turbulence models (implicit LES - iLES). There is, though, a lack of fundamental studies on the suitability of continuous Galerkin (CG) methods, as most studies have focused on discontinuous SEM. This work aims to investigate solution quality and numerical robustness of CG-iLES by discussing simulations of the Taylor- Green Vortex and of spatially-developing turbulent channel flows. The performance of a recently developed stabilization technique (GJP) receives special attention. We show that CG-iLES with GJP can outperform traditional LES and be competitive alongside discontinuous SEM iLES.",
+  "authkeywords": [
+    "CG",
+    "GJP",
+    "High-order methods",
+    "iLES",
+    "LES",
+    "Spectral Element Methods"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "World Congress in Computational Mechanics and Eccomas Congress",
+    "issn": null,
+    "eissn": "26966999",
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Garcia-Ribeiro, Daniel",
+      "scopus_id": "57226454664",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zanca, Augusto H.P.",
+      "scopus_id": "60028343900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Malatesta, Vinícius",
+      "scopus_id": "55789261500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "vinicius-malatesta"
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Sherwin, Spencer J.",
+      "scopus_id": "7006283114",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "vinicius-malatesta",
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012422803&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069411",
+    "data_quality_score": 100
+  }
+}

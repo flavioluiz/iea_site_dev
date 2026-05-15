@@ -1,0 +1,96 @@
+{
+  "publication_id": "2-s2.0-105001078853",
+  "eid": "2-s2.0-105001078853",
+  "doi": "10.1007/s11071-024-10780-y",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Robust prescribed-time control for fully actuated fixed-wing multirotor aerial vehicles",
+  "abstract": "© The Author(s), under exclusive licence to Springer Nature B.V. 2024.This paper is concerned with the robust position and attitude control of fully actuated fixed-wing multirotor aerial vehicles in the presence of disturbances and model uncertainties. To address this problem, we formulate the system using the vehicle’s nonlinear equations of motion considering the aerodynamic effects of the fixed wing as an additional disturbance. Then, we propose disturbance-observer-based attitude and position control laws using hybrid prescribed-time algorithms to control the vehicle and estimate model uncertainties and disturbances in two stages. In the first stage, the aforementioned algorithms employ nonautonomous formulations to ensure the convergence of the tracking and estimation errors to the origin in a prescribed time interval. Subsequently, in the second stage, the algorithms assume autonomous formulations to ensure robust stability of the errors over the infinite time domain. The proposed method is numerically evaluated, showing to be effective in providing the prescribed-time convergence of the tracking errors to zero and keeping them there afterwards.",
+  "authkeywords": [
+    "Disturbance estimation",
+    "Multirotor aerial vehicles",
+    "Prescribed-time convergence",
+    "Robust control"
+  ],
+  "year": "2025",
+  "date": "2025-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Nonlinear Dynamics",
+    "issn": "0924090X",
+    "eissn": "1573269X",
+    "volume": "113",
+    "issue": "9",
+    "pages": "10089-10104",
+    "article_number": "112567"
+  },
+  "authors": [
+    {
+      "name": "Silva, João F.",
+      "scopus_id": "57935880900",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ricardo, Jorge A.",
+      "scopus_id": "56594722200",
+      "affiliation": "106796251",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "106796251",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001078853&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094732",
+    "data_quality_score": 100
+  }
+}

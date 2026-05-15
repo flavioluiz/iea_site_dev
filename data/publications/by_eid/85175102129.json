@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85175102129",
+  "eid": "2-s2.0-85175102129",
+  "doi": "10.1080/01457632.2023.2241173",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The Application of an Inverse Methodology to Predict Nonlinear Thermal Properties in Laser Beam Welding",
+  "abstract": "© 2023 Taylor & Francis Group, LLC.Modern engineering applications use processes that submit materials to high-temperature gradients. However, the traditional experimentation methods applied to determine thermal properties often do not provide reliable data when working temperatures are up to extreme conditions. Hence, the present work demonstrates the use of an inverse heat conduction problem methodology for estimating the thermal properties of a laser beam welding (LBW) process. The applied technique is the quadrilateral optimization method (QOM), which consists of a multivariable estimation approach developed to calculate the function’s parameters. Additionally, the future time regularization scheme was implemented in the objective function to regularize the results. The applied numerical process solved the energy equation using the finite volume method implemented in an in-house CUDA-C language code. The software is a multi-thread application run in a graphics processing unit for enhanced computational time efficiency. A validation study compared the estimated results with LBW simulated data. The QOM estimates the parameters of a function representing the range of thermal conductivity values. The proposed method is expected to lower experimental costs for obtaining thermal properties at high temperatures by eliminating the need for sophisticated technical equipment and skilled labor required by traditional direct measurements.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Heat Transfer Engineering",
+    "issn": "01457632",
+    "eissn": "15210537",
+    "volume": "45",
+    "issue": "12-13",
+    "pages": "1145-1157",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nascimento, Ernandes José Gonçalves do",
+      "scopus_id": "58102150200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Magalhães, Elisan dos Santos",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Azevedo, Arthur Mendonça de",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Paes, Luiz Eduardo dos Santos",
+      "scopus_id": "57201031681",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175102129&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091029",
+    "data_quality_score": 90
+  }
+}

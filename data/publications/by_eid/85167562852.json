@@ -1,0 +1,83 @@
+{
+  "publication_id": "2-s2.0-85167562852",
+  "eid": "2-s2.0-85167562852",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Two-Phase, Multicomponent Hydrogen Peroxide Blowdown Injector Modelling and Test Comparison",
+  "abstract": "© 2022 International Astronautical Federation, IAF. All rights reserved.A blowdown liquid fuelled rocket engine (LRE) survey, propelled by commercial hydrogen peroxide (CHP) and automotive ethanol, is presented. The main objective of this engine is to have a low-cost technology demonstrator to be used in a prototype of a training rocket for the Alcantara Launch Centre. In a LRE, the injector is an essential component since it is responsible for providing an efficient atomization and a stable burning in the combustion chamber. The complete decomposition of the pure hydrogen peroxide (H2O2) produces gaseous oxygen and water vapor. In this case, the commercial CHP is a 50% H2O2/50% H2O mixture. As there is much water in this mixture, a great part of the decomposition heat is absorbed by the water that remains after the catalytic bed. A crossover occurs at 63-64% mixture, when rapid, accelerated decomposition becomes self-sustaining. Different methods to model two-phase flow on a horizontal pipe have been studied: The homogeneous model, which, in a general fashion, the liquid and gas move at the same velocity; The separated flow model (SFM) that considers that both phases flow separately in the pipes; And the dimensional and similitude analysis. As the studied component is an injector (almost isentropic) composed by different subcomponents, the SFM is used. The sum of the area occupied by each of the phases must be the internal area of the injector, which are determined by the hydraulic diameter of each one (and) and the ratios (and) of the actual cross-section area of flow to the area of the hydraulic diameters. Furthermore, due to the all-transient characteristic of the blowdown, these hydraulic diameters are variable. In order to test and validate this blowdown LRE, a test bench was built using Commercial off-the-shelf (COTS) low-cost equipment compatible with the oxidizer. In addition, pressure transducers were installed to measure relevant data, regarding the decomposition produced, on the oxidizer tank as well as on the input/output of the catalytic bed. The results showed that the SFM is an appropriate solution to model this blowdown LRE and that for an accurate simulation, the Arrhenius parameters of the CHP with the catalyst must be determined by many tests.",
+  "authkeywords": [
+    "Blowdown",
+    "Hydrogen Peroxide",
+    "Injector",
+    "Liquid Rocket Engine",
+    "Separated Flow Model",
+    "Two-Phase Flow"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "2022-September",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bahdur, A. D.",
+      "scopus_id": "57195517155",
+      "affiliation": "109208434-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Pirk, R.",
+      "scopus_id": "16639492000",
+      "affiliation": "101678798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Araújo, T. B.",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "eam_coauthors": [
+    "tiago-barbosa-de-araujo"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85167562852&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.115765",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85200262054",
+  "eid": "2-s2.0-85200262054",
+  "doi": "10.2514/6.2023-3880",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Wiener-Hopf approach applied for the control of forced turbulent jets",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.In recent years, flow control has become increasingly important for the aeronautical field, as it is seen as a promising tool to design safer, quieter and more efficient aircraft. Since non-causality is observed in several flow control problems solved in the frequency domain, we consider here the use of the Wiener-Hopf technique for the control of a forced turbulent jet. Such approach allows us to enforce causality when obtaining the control kernel, which provides an optimal causal solution, and with this, prevents the drop in performance that may be observed in flow control applications that use a truncated solution. The experimental results presented here shows a significantly better performance of the Wiener-Hopf method with respect to that of a truncated kernel obtained using a wave-cancellation approach.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Audiffred, Diego B.S.",
+      "scopus_id": "57215539626",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60009701",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60009701",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60027245",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200262054&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100472",
+    "data_quality_score": 80
+  }
+}

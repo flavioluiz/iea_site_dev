@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85122923038",
+  "eid": "2-s2.0-85122923038",
+  "doi": "10.2514/6.2022-0432",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aerodynamic Simulation of Artificial Scallop Ice Shapes on NACA 23012 Airfoil",
+  "abstract": "© 2022, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.An aircraft flying under icing conditions tends to accumulate ice on aerodynamic surfaces which deteriorates aircraft performance and may affect safety. Recent work obtained, via 3D-scanning, high-fidelity characterization of ice shapes generated in the NASA-CRM model swept wing in the NASA IRT icing wind tunnel. These shapes are highly three-dimensional and in order to better understand and isolate the effects of the three-dimensional parameters, various simplified shapes were built and tested in aerodynamic wind tunnels to compare the results with the high-fidelity representation. Even with this geometrical break-down, the aerodynamic phenomena that takes place in the highly swept wing of the NASA-CRM model are complex. The present work takes a step backwards in the complexity level, evaluating the threedimensional shapes effect on NACA 23012 airfoil, to provide basis for a better understanding of the NASA-CRM icing tests. The effects of horn ice shapes with different spanwise gaps sizes and orientations were evaluated by testing artificial ice shapes on the leading edge of a NACA 23012 airfoil under low-Reynolds-number conditions. The lift, drag, pitching moment and pressure distribution were measured for the clean airfoil and six ice shapes built. The aerodynamic performance and PIV measurements for each of these geometries are compared with its extruded 2D counterpart and clean airfoil configuration. The results regarding the size of the gaps in the ice shapes, showed that the increase in the gap widths directly improved airfoil performance. The PIV flow fields helped identify flow reattachment downstream the horn bubble for ice shapes with gaps. The surface oil visualization for the oriented ice shapes helped understand certain patterns and influence of the cross flow past the horn.",
+  "authkeywords": null,
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Science and Technology Forum and Exposition AIAA Scitech Forum 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2022-0432"
+  },
+  "authors": [
+    {
+      "name": "Reghin, Rafael S.",
+      "scopus_id": "57415329300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silva, Thiago B.O.",
+      "scopus_id": "57415477600",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Sousa, Rodrigo Sorbilli C.",
+      "scopus_id": "57194855792",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Araújo, Tiago B.",
+      "scopus_id": "57221818131",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "tiago-barbosa-de-araujo"
+    },
+    {
+      "name": "da Silva, André F.C.",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "tiago-barbosa-de-araujo",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85122923038&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.070601",
+    "data_quality_score": 90
+  }
+}

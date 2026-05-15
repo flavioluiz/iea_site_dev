@@ -1,0 +1,30 @@
+{
+  "num_tg": "78106",
+  "type": "tg",
+  "title": "Engenharia de sistemas baseada em modelos (MBSE) aplicado a adaptador do projeto IFFM4BR",
+  "author": "Yuri Dias Ferreira",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinícius Bigogno Costa",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "Este trabalho apresenta a utilizaçăo Model-Based Systems Engineering em um produto do projeto IFFM4BR, que está sendo desenvolvido no IAE. Devido ŕ sensibilidade do projeto algumas informaçőes foram reservadas. A atividade usou como caso o adaptador que está sendo desenvolvido no projeto, tal adaptador visa realizar a comunicaçăo do criptocomputador CM4-B com transponders de aeronaves que năo façam a comunicaçăo seguindo o padrăo AIMS 04-900A option B, usado pelo CM4-B. No caso, escolheu-se o helicóptero H-36, mais conhecido como \"caracal\", que usa o padrăo 97-900 KIT/KIR-1C. Assim, usando um projeto em desenvolvimento real o trabalho utilizou-se a metodologia de Model-Based Systems Engineering chamada ARCADIA e com a ferramenta Eclipse CapellaTM. Com a ferramenta, fez-se os dois primeiros passos da metodologia sendo elas Operational Analysis e System Analysis. Com isso, foi-se capaz de vislumbrar em um pequena parte do projeto a implementaçăo de uma abordagem nova, que visa trazer clareza no entendimento do problema, melhorar a rastreabilidade dos componentes e criar um local em que se possa resumir várias informaçőes. Os resultados săo modelos criados com a ferramenta que promovem clareza do sistema de interesse na etapa inicial do projeto.",
+  "subjects": [
+    "Sistemas de IFF (identificaçăo)",
+    "Transrreceptores",
+    "Criptografia",
+    "Engenharia de sistemas",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78106",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78106&origem=BDITA"
+}

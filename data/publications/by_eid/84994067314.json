@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-84994067314",
+  "eid": "2-s2.0-84994067314",
+  "doi": "10.5028/jatm.v8i4.612",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A software-in-the-loop simulation scheme for position formation flight of multicopters",
+  "abstract": "© 2016, Journal of Aerospace Technology and Management. All rights reserved.The cooperative control of small unmanned aerial vehicles such as the multicopters has been extensively investigated worldwide for functionality augmentation and cost reduction with respect to a single larger vehicle. The present paper proposes a software-in-the-loop simulation scheme for performance evaluation and demonstration of formation flight control systems of multicopters. The simulation scheme consists of a computer network where each computer simulates one of the vehicles using the MATLAB/Simulink for implementing the local control system and the X-Plane for simulating the flight dynamics and environment. For cooperation, the local control systems exchange position data by means of the network. In order to illustrate the proposed scheme, a group of 3 octocopters is taken into consideration and a leader-follower strategy is chosen for triangular position formation, with the leader moving in a straight line with constant speed.",
+  "authkeywords": [
+    "Formation control",
+    "Micro aerial vehicle",
+    "Multicopter",
+    "Software-in-the-loop simulation"
+  ],
+  "year": "2016",
+  "date": "2016-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aerospace Technology and Management",
+    "issn": "19849648",
+    "eissn": "21759146",
+    "volume": "8",
+    "issue": "4",
+    "pages": "431-440",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Castro, Davi Ferreira",
+      "scopus_id": "57191592787",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84994067314&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095080",
+    "data_quality_score": 100
+  }
+}

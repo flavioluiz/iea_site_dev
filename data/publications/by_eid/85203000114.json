@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85203000114",
+  "eid": "2-s2.0-85203000114",
+  "doi": "10.2514/6.2024-3667",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Fully Data-Driven Generative Design Routine for Subsonic Airfoils Based on Adversarial Autoencoders",
+  "abstract": "© 2024, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.The topological optimization of airfoils and wings is a highly multidisciplinary problem which often depends on industry knowledge and qualitative dialogue with areas other than aerodynamics to produce viable results. Additionally, certain numerical issues, mostly due to the high dimensionality of the optimization problems involved, persist in spite of recent advancements in Aerodynamic Shape Optimization applications. To avoid these issues, a fully data-driven process for geometry proposals and aerodynamic coefficient predictions was developed. An Adversarial Autoencoder is trained to replicate the geometries of subsonic airfoils by encoding them to a latent space of low dimensionality. Using design variables in said space, the geometry can be optimized for the aerodynamic predictions of a surrogate model combining semi-empirical evaluations of drag and lift with neural networks trained on XFOIL data. The result is a fast, fully data-driven airfoil design process capable of producing geometries coherent with multidisciplinary demands and similar historical wing profiles.",
+  "authkeywords": null,
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation Forum and Ascend 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Secchi, Pedro de Almeida",
+      "scopus_id": "59311975000",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Secco, Ney Rafael",
+      "scopus_id": "55595457400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ney-rafael-secco"
+    }
+  ],
+  "eam_coauthors": [
+    "ney-rafael-secco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203000114&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.084553",
+    "data_quality_score": 80
+  }
+}

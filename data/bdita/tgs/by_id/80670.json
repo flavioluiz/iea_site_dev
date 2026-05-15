@@ -1,0 +1,27 @@
+{
+  "num_tg": "80670",
+  "type": "tg",
+  "title": "Transferęncia de vela solar com múltiplos disparos entre pontos lagrangianos no sistema Sol-Terra do PRTC",
+  "author": "Miguel Henrique Morais dos Santos",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma metodologia para projetar órbitas de transferęncia entre pontos lagrangianos de uma vela solar modelada pelo Problema Restrito de Tręs Corpos (PR3CCP) com a inclusăo da pressăo de radiaçăo solar. Inicialmente, determina-se a localizaçăo e a estabilidade dos cinco pontos de pontos de equilíbrio deste modelo em funçăo do ângulo de atitude da vela, ?, mantendo a dinâmica planar por meio de ? = ?/2. A estabilidade é avaliada pelo espectro do jacobiano em cada ponto, tomando como índice a maior parte real dos autovalores associados a modos no plano. Com base nessa análise, selecionam-se pares de pontos com potencial de conexăo e formula-se uma estratégia de múltiplos disparos para construir trajetórias que partem da variedade instável de um ponto de equilíbrio e estacionam na regiăo de estabilidade de outro ponto de equilíbrio. A transferęncia completa entre os pontos inicial e final 'e dividida em N intervalos, de modo que em cada um deles, os parâmetros de atitude da vela săo mantidos constantes. Assim, como variáveis do método de múltiplos tiros temos os valores de = ? em cada intervalo, os valores de posiçăo e velocidade em cada ponto intermediário e os tempos de voo em cada arco. A soluçăo 'e obtida através de um algoritmo de correçăo diferencial, impondo-se a continuidade de posiçăo e velocidade ao longo de toda a transferęncia e aderęncia aos estados inicial e final. Para melhorar a convergęncia, inclui-se penalizaçăo suave no esforço e na variaçăo de ?. Simulaçőes numéricas indicam a viabilidade de transferęncias passivas guiadas apenas pela orientaçăo da vela, com tempos de voo em escala de anos e perfis de ? por trechos, além de boa aderęncia quando a trajetória é reconstituída por integraçăo direta com a sequęncia ótima de ângulos.",
+  "subjects": [
+    "Problema de tręs corpos",
+    "Velas Solares",
+    "Sistema solar",
+    "Sistemas dinâmicos",
+    "Análise numérica",
+    "Mecânica celeste",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80670",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80670&origem=BDITA"
+}

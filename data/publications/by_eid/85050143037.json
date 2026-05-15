@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85050143037",
+  "eid": "2-s2.0-85050143037",
+  "doi": "10.2514/6.2017-1118",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Panel flutter analysis and optimization of composite tow steered plates",
+  "abstract": "© 2017, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.The utter behavior of tow steered composite panels, in which the fiber placement follow curvilinear trajectory, is evaluated. A simple structural model based on Ritz method combined with supersonic aerodynamic piston theory is used to analyze the aeroelastic behavior. Classical lamination plate theory and symmetric stacking sequence are used and the fiber trajectories are defined by Lagrange interpolation functions. The utter stability boundaries for optimal conventional (constant stiffness laminates) layups and non- conventional (variable stiffness laminates) steered panels are numerically compared. The effect of in-plane loads is also accounted for in the aeroelastic analyses.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "58th AIAA ASCE AHS ASC Structures Structural Dynamics and Materials Conference 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Guimarães, Thiago A.M.",
+      "scopus_id": "57038408200",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Cesnik, Carlos E.S.",
+      "scopus_id": "7003918606",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 31,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Architecture",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85050143037&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.088997",
+    "data_quality_score": 90
+  }
+}

@@ -3,7 +3,7 @@ title: "About the Division"
 description: "Information about the Division of Aeronautical and Aerospace Engineering at ITA"
 ---
 
-The **Division of Aeronautical and Aerospace Engineering (AER)** at the Technological Institute of Aeronautics (ITA) is one of ITA's oldest and most renowned academic units, responsible for training engineers and researchers of excellence for the Brazilian and international aerospace sector.
+The **Division of Aeronautical and Aerospace Engineering (IEA)** at the Technological Institute of Aeronautics (ITA) is one of ITA's oldest and most renowned academic units, responsible for training engineers and researchers of excellence for the Brazilian and international aerospace sector.
 
 ---
 
@@ -22,7 +22,7 @@ Train high-level engineers and researchers, develop cutting-edge research, and c
 
 ## History
 
-The AER Division has its roots in ITA's founding in 1950, when Brazil began training high-level aeronautical engineers. Over the decades, the division expanded its scope to encompass the full spectrum of aerospace engineering, incorporating space technologies as a strategic frontier.
+The the Division has its roots in ITA's founding in 1950, when Brazil began training high-level aeronautical engineers. Over the decades, the division expanded its scope to encompass the full spectrum of aerospace engineering, incorporating space technologies as a strategic frontier.
 
 ---
 
@@ -44,7 +44,7 @@ The division has more than **50 faculty members** with extensive experience in r
 
 ## Infrastructure
 
-AER has more than **15 laboratories** equipped with state-of-the-art technology for experimental and computational research, including wind tunnels, propulsion test benches, materials and structures laboratories, a clean room for satellite assembly, and advanced computational resources.
+The Division has more than **15 laboratories** equipped with state-of-the-art technology for experimental and computational research, including wind tunnels, propulsion test benches, materials and structures laboratories, a clean room for satellite assembly, and advanced computational resources.
 
 [Explore the laboratories →](/en/laboratorios/)
 

@@ -1,0 +1,113 @@
+{
+  "publication_id": "2-s2.0-85026355770",
+  "eid": "2-s2.0-85026355770",
+  "doi": "10.1017/jfm.2017.346",
+  "pii": "S0022112017003469",
+  "pubmed_id": null,
+  "title": "Acoustic resonance in the potential core of subsonic jets",
+  "abstract": "© 2017 Cambridge University PressÂ.The purpose of this paper is to characterize and model waves that are observed within the potential core of subsonic jets and relate them to previously observed tones in the near-nozzle region. The waves are detected in data from a large-eddy simulation of a Mach 0.9 isothermal jet and modelled using parallel and weakly non-parallel linear modal analysis of the Euler equations linearized about the turbulent mean flow, as well as simplified models based on a cylindrical vortex sheet and the acoustic modes of a cylindrical soft duct. In addition to the Kelvin-Helmholtz instability waves, three types of waves with negative phase velocities are identified in the potential core: Upstream-A nd downstream-propagating duct-like acoustic modes that experience the shear layer as a pressure-release surface and are therefore radially confined to the potential core, and upstream-propagating acoustic modes that represent a weak coupling between the jet core and the free stream. The slow streamwise contraction of the potential core imposes a frequency-dependent end condition on the waves that is modelled as the turning points of a weakly non-parallel approximation of the waves. These turning points provide a mechanism by which the upstream-A nd downstream-travelling waves can interact and exchange energy through reflection and transmission processes. Paired with a second end condition provided by the nozzle, this leads to the possibility of resonance in limited frequency bands that are bound by two saddle points in the complex wavenumber plane. The predicted frequencies closely match the observed tones detected outside of the jet. The vortex-sheet model is then used to systematically explore the Mach number and temperature ratio dependence of the phenomenon. For isothermal jets, the model suggests that resonance is likely to occur in a narrow range of Mach number, <![CDATA[$0.82<M.",
+  "authkeywords": [
+    "absolute/convective instability",
+    "acoustics",
+    "jets"
+  ],
+  "year": "2017",
+  "date": "2017-08-25",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "825",
+    "issue": null,
+    "pages": "1113-1152",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60143898-60078422",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Schmidt, Oliver",
+      "scopus_id": "57190757609",
+      "affiliation": "60143898",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jaunet, Vincent",
+      "scopus_id": "36676423000",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 181,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 53,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85026355770&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101503",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "publication_id": "2-s2.0-85044311623",
+  "eid": "2-s2.0-85044311623",
+  "doi": "10.1177/1077546317728147",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Active and Passive Control for Acceleration Reduction of an Aeroelastic Typical Wing Section",
+  "abstract": "© 2017, The Author(s) 2017.The main concern related to the flutter phenomenon is predicting and avoiding it. This paper describes the application of a flexural-torsional flutter testbed for acceleration reduction by applying active and passive model-based control. The model consists of the 2D typical section, with aerodynamic loads estimated by an unsteady time-domain formulation based on Wagner’s function. The active control architecture consists of a stability augmentation system with output feedback and gain scheduling via the linear-quadratic regulator theory and actuation by servomechanism. The passive control employs a shape-memory alloy to provide additional torsional stiffness. Experimental results show considerable reduction of oscillations at a relative low cost for both active and passive control strategies, and that the use of shape memory alloys in aeroelastic stability problems is promising.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "flutter suppression",
+    "linear quadractic regulator",
+    "shape memory alloy",
+    "typical airfoil section"
+  ],
+  "year": "2018",
+  "date": "2018-07-01",
+  "type": "article",
+  "subtype": "re",
+  "journal": {
+    "name": "JVC Journal of Vibration and Control",
+    "issn": "10775463",
+    "eissn": "17412986",
+    "volume": "24",
+    "issue": "13",
+    "pages": "2673-2687",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Gefferson C.",
+      "scopus_id": "57201589978",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Santos, Osmar S.",
+      "scopus_id": "56996901800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio B.",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "da Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Versiani, Thiago de S.S.",
+      "scopus_id": "57201587271",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gonzalez, Pedro J.",
+      "scopus_id": "55596665900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bertolin, Rafael M.",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "antonio-b-guimaraes-neto",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85044311623&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055261",
+    "data_quality_score": 100
+  }
+}

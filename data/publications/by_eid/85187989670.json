@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-85187989670",
+  "eid": "2-s2.0-85187989670",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Computational Simulation of Boron Oxidation by Atmospheric Air Oxygen Using Reactive Molecular Dynamics",
+  "abstract": "Copyright © 2023 by the International Astronautical Federation (IAF). All rights reserved.Molecular dynamics is a computational method used to study the behavior of molecules and atoms over time. By simulating the interactions between individual particles, researchers can improve insights into the physical and chemical properties of materials at the atomic scale. This approach has been applied to a wide range of fields, from drug design to materials science and even rocket propulsion. In this case, for ducted rocket. One area where molecular dynamics has been particularly useful is in the study of boron oxidation. Boron is a lightweight and high-strength material that has potential applications in the aerospace industry. However, boron is also highly reactive with oxygen, which can lead to oxidation and degradation of its mechanical properties. By using molecular dynamics simulations, researchers can study the process of boron oxidation in detail and identify ways to mitigate its negative effects. One potential application of boron in the aerospace industry is in ducted rocket motors. Ducted rockets are a type of propulsion system that use a duct to compress air before mixing it with fuel and igniting it to burn and then generate thrust. This approach has several advantages over traditional rocket motors, including higher efficiency and lower noise levels. However, ducted rockets also require materials that can withstand the high temperatures and pressures generated during operation. Boron-based materials are well-suited for use in ducted rocket motors because of their high strength and heat resistance. However, boron oxidation can also be a concern in this context, as the high temperatures and pressures can accelerate the oxidation process. By using molecular dynamics simulations, researchers can study the interactions between boron and oxygen at the atomic level and identify ways to protect the material from oxidation. In summary, molecular dynamics simulations have a wide range of applications in materials science and engineering. In the context of boron oxidation and ducted rocket motors, this approach can be used to study the behavior of molecules and atoms at the atomic scale and identify ways to protect boron-based materials from oxidation and degradation. With continued research and development, boron-based materials could play an important role in the development of next-generation propulsion systems for aerospace exploration and other applications. Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) was used in this study. LAMMPS is a classical molecular dynamics code with a focus on materials modelling.",
+  "authkeywords": [
+    "Boron",
+    "Ducted Rockets",
+    "Molecular Dynamics Simulations"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "2023-October",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ferreira, Démerson",
+      "scopus_id": "57200810311",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, José A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    },
+    {
+      "name": "Domingues, Marcela Galizia",
+      "scopus_id": "57195510382",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bontorin, Daniel",
+      "scopus_id": "57190862547",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gonçalves, Rene",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Marina, T.",
+      "scopus_id": "58943269600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Mendonça, Fausto Batista",
+      "scopus_id": "57194172167",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jose-atilio-fritz-fidel-rocco",
+    "rene-f-b-goncalves"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 11,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187989670&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114943",
+    "data_quality_score": 70
+  }
+}

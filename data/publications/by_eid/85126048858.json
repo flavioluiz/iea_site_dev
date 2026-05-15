@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85126048858",
+  "eid": "2-s2.0-85126048858",
+  "doi": "10.1016/j.euromechsol.2022.104572",
+  "pii": "S0997753822000572",
+  "pubmed_id": null,
+  "title": "Comparison of different element solutions applied to composite beam materials",
+  "abstract": "© 2022 Elsevier Masson SASThe use of composite materials in several sectors has been gaining distinction in recent years. However, due to their high costs, as well as unique characteristics, they present challenging gaps to be studied. The finite element method has been used as a way to analyze composite materials subjected to the most distinctive situations. Three element solutions are compared, which can be applied to composite beams. The accuracy of the outcomes does not improve with higher degree polynomials, but the inclusion of the homogeneous solution to solve a system of differential equations results in a better outcome when considering the normal strains. Special attention is paid to the continuity of the displacements between adjacent elements. Finally, it is explained why the calculated axial normal stress looks much better than the transverse normal stress.",
+  "authkeywords": [
+    "Composite beam",
+    "Continuity of displacements",
+    "Finite element methods"
+  ],
+  "year": "2022",
+  "date": "2022-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "European Journal of Mechanics A Solids",
+    "issn": "09977538",
+    "eissn": null,
+    "volume": "94",
+    "issue": null,
+    "pages": null,
+    "article_number": "104572"
+  },
+  "authors": [
+    {
+      "name": "Baier-Saip, J. A.",
+      "scopus_id": "8521896400",
+      "affiliation": "60009462",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Baier, P. A.",
+      "scopus_id": "55550540000",
+      "affiliation": "60111728",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Faria, A. R.",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "de Lima, A. S.",
+      "scopus_id": "57193121062",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Baier, H.",
+      "scopus_id": "7007107059",
+      "affiliation": "60012689",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Physics and Astronomy (all)",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85126048858&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044242",
+    "data_quality_score": 100
+  }
+}

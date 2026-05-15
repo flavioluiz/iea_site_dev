@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85188014377",
+  "eid": "2-s2.0-85188014377",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Passivation of aluminium particle and its effects in solid propellants: a ReaxFF study",
+  "abstract": "Copyright © 2023 by the International Astronautical Federation (IAF). All rights reserved.Molecular dynamics simulations have emerged as a powerful tool for studying the passivation of metal surfaces by oxygen, providing insights into the mechanisms underlying this process at the atomic scale. In this study, we have used molecular dynamics simulations to investigate the passivation of an aluminium particle by oxygen, as aluminium is one of the most used metallic additives of solid rocket propellants. Specifically, the interaction between a single aluminium particle and oxygen molecules in a controlled environment. The simulations were performed using ReaxFF forcefield and involved the use of a variety of analytical techniques to analyse the results. The results of the simulations showed that the passivation of the aluminium particle by oxygen occurred through a sequence of reactions. Initially, the oxygen molecules adsorbed onto the surface of the particle, forming oxygen atoms that diffused into the bulk of the metal. This diffusion led to the formation of an oxide layer on the surface of the particle, which effectively passivated the underlying metal. Based on the behaviour observed, the passivation process was highly dependent on the temperature of the system. At low temperatures, the formation of the oxide layer was slower and incomplete, leading to the formation of a highly disordered oxide layer. At higher temperatures, the oxide layer formed much more quickly and was much more ordered, with a crystalline structure. Overall, the study provides valuable insights into the passivation of aluminium particles by oxygen, highlighting the importance of molecular dynamics simulations in the study of materials science. In particular, the results of the study shed light on the mechanisms underlying the passivation process and suggest that temperature plays a critical role in determining the structure and properties of the resulting oxide layer.",
+  "authkeywords": [
+    "aluminum",
+    "passivation",
+    "reactive molecular dynamics"
+  ],
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "2023-October",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Gonçalves, Rene F.B.",
+      "scopus_id": "35172892400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rene-f-b-goncalves"
+    },
+    {
+      "name": "Rocco, José A.F.F.",
+      "scopus_id": "6701784233",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jose-atilio-fritz-fidel-rocco"
+    },
+    {
+      "name": "Rocco, Leopoldo",
+      "scopus_id": "36490283900",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocco, Bruno T.",
+      "scopus_id": "57218417430",
+      "affiliation": "131050288",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rene-f-b-goncalves",
+    "jose-atilio-fritz-fidel-rocco"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 7,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85188014377&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.114920",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "publication_id": "2-s2.0-84898412750",
+  "eid": "2-s2.0-84898412750",
+  "doi": "10.1109/TPS.2013.2289377",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Approximation of physical properties of steam and other arc plasmas for anisotropic model concerning gasification processes",
+  "abstract": "In this paper, the anisotropic model for the dc electric arc was expanded, which allows the obtaining of power function generalized expressions for calculating the characteristics of the electric discharge into the dc plasma torch channel without using a large number of experimental studies. The model is based on the power law approximation of temperature dependence of the plasma electrical conductivity σ with different exponents along the longitudinal and transversal coordinates. The approximation of the dependence for σ of steam plasma was obtained in simple linear forms σ = 0.221 ΔS and as the power approximation σ = 44.51 ΔS0.484 [where ΔS is increment of thermal conductivity function (TCF)]. The comparison of the obtained dependences with referenced data shows such moderate difference between the calculated approximations for σ of steam and the data of recent publications for this plasma as 15%-25% throughout the vast ranges of the plasma parameters T (temperature) and S (TCF). © 1973-2012 IEEE.",
+  "authkeywords": [
+    "Anisotropic analytical model",
+    "Approximation",
+    "Arc torch",
+    "Electric and thermal conductivity",
+    "Electric arc",
+    "Physical modeling",
+    "Reactor",
+    "Steam",
+    "Thermal plasmas",
+    "Waste gasification"
+  ],
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "IEEE Transactions on Plasma Science",
+    "issn": "00933813",
+    "eissn": null,
+    "volume": "41",
+    "issue": "12",
+    "pages": "3287-3292",
+    "article_number": "6672003"
+  },
+  "authors": [
+    {
+      "name": "Bublievsky, Alexandr F.",
+      "scopus_id": "6506125762",
+      "affiliation": "60045578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gorbunov, Andrei V.",
+      "scopus_id": "57198365109",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Marquesi, Aleandro R.",
+      "scopus_id": "25947687500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Filho, Gilberto Petraconi",
+      "scopus_id": "7801435334",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "gilberto-petraconi-filho"
+    },
+    {
+      "name": "Otani, Choyu",
+      "scopus_id": "7006239175",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bublievsky, Dmitry A.",
+      "scopus_id": "56113154000",
+      "affiliation": "60028426",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maciel, Homero S.",
+      "scopus_id": "7004233935",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "gilberto-petraconi-filho"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Nuclear and High Energy Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84898412750&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.062069",
+    "data_quality_score": 100
+  }
+}

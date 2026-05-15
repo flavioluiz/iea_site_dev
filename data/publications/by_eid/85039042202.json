@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85039042202",
+  "eid": "2-s2.0-85039042202",
+  "doi": "10.1007/s10509-017-3234-5",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Analysis of impulsive maneuvers to keep orbits around the asteroid 2001SN263",
+  "abstract": "© 2017, Springer Science+Business Media B.V., part of Springer Nature.The strongly perturbed environment of a small body, such as an asteroid, can complicate the prediction of orbits used for close proximity operations. Inaccurate predictions may make the spacecraft collide with the asteroid or escape to the deep space. The main forces acting in the dynamics come from the solar radiation pressure and from the body’s weak gravity field. This paper investigates the feasibility of using bi-impulsive maneuvers to avoid the aforementioned non-desired phenomena (collisions and escapes) by connecting orbits around the triple system asteroid 2001SN263, which is the target of a proposed Brazilian space mission. In terms of a mathematical formulation, a recently presented rotating dipole model is considered with oblateness in both primaries. In addition, a “two-point boundary value problem” is solved to find a proper transfer trajectory. The results presented here give support to identifying the best strategy to find orbits for close proximity operations, in terms of long orbital lifetimes and low delta-V consumptions. Numerical results have also demonstrated the significant influence of the spacecraft orbital elements (semi-major axis and eccentricity), angular position of the Sun and spacecraft area-to-mass ratio, in the performance of the bi-impulsive maneuver.",
+  "authkeywords": [
+    "Astrodynamics",
+    "Close proximity operations",
+    "Impulsive maneuvers",
+    "Irregular bodies",
+    "Near-earth asteroids"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Astrophysics and Space Science",
+    "issn": "0004640X",
+    "eissn": "1572946X",
+    "volume": "363",
+    "issue": "1",
+    "pages": null,
+    "article_number": "14"
+  },
+  "authors": [
+    {
+      "name": "Santos, Willer G.",
+      "scopus_id": "55819853400",
+      "affiliation": "60012729",
+      "is_eam_professor": true,
+      "eam_professor_id": "willer-gomes-dos-santos"
+    },
+    {
+      "name": "Prado, Antonio F.B.A.",
+      "scopus_id": "7006625726",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Oliveira, Geraldo M.C.",
+      "scopus_id": "57126803900",
+      "affiliation": "60012729-113743736",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Leonardo B.T.",
+      "scopus_id": "57195984264",
+      "affiliation": "60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "willer-gomes-dos-santos"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85039042202&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.116842",
+    "data_quality_score": 100
+  }
+}

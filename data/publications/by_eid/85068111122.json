@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85068111122",
+  "eid": "2-s2.0-85068111122",
+  "doi": "10.2514/1.G004024",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Influence of airframe flexibility on pilot-induced oscillations",
+  "abstract": "© 2019 by Daniel Drewiacki, Flávio José Silvestre, and Antônio Bernardo Guimarães Neto.The advent of fly-by-wire technology brought many advantages to aircraft design, but also increased the number of occurrences of the undesirable pilot-induced oscillation phenomena. To analyze such phenomena, handling qualities criteria have been established, mostly in the frequency domain. In the time domain, dynamic models to represent pilot behavior have been proposed for pilot-in-the-loop analysis and simulations. Both cases assume the aircraft as a rigid body. For more flexible aircraft, this approximation is no longer valid, and aeroelastic dynamics may interact with both flight dynamics and pilot body dynamics, possibly leading to the occurrence of other issues, such as biodynamic feedthrough. In this paper, the importance of considering the influence of airframe flexibility in the study of the pilot-induced oscillation phenomena is addressed by the application of handling qualities criteria using a flexible aircraft dynamic model.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Guidance Control and Dynamics",
+    "issn": "07315090",
+    "eissn": "15333884",
+    "volume": "42",
+    "issue": "7",
+    "pages": "1537-1550",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Drewiacki, Daniel",
+      "scopus_id": "57201307194",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio José",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio Bernardo",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto"
+  ],
+  "scopus": {
+    "citations": 17,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85068111122&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055247",
+    "data_quality_score": 90
+  }
+}

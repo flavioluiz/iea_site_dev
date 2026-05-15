@@ -1,0 +1,117 @@
+{
+  "publication_id": "2-s2.0-105004791539",
+  "eid": "2-s2.0-105004791539",
+  "doi": "10.1109/ICARCE63054.2024.00012",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Robot Teleoperation via Virtual Reality: A Unity and ROS Approach",
+  "abstract": "© 2024 IEEE.This paper explores the integration of virtual reality (VR) with teleoperation systems to enhance human-robot interaction. With the rise of remote operations, traditional methods often rely on two-dimensional interfaces, making it challenging to control robots in complex three-dimensional environments. This research presents a VR teleoperation system using the Meta Quest 2 headset, enabling immersive control of a climbing robot with six degrees-of-freedom and magnetic adhesion. The system architecture integrates Unity for virtual simulation and the Robot Operating System (ROS) for real-time communication and control. A virtual environment allows the user to control the virtual robot model through the VR headset and controllers, with ROS serving as the communication bridge between the virtual and physical robots, enabling effective operations in various applications, including high-risk environments (A video is available at https://youtu.be/MiZDOV4IfLA).",
+  "authkeywords": [
+    "ROS",
+    "teleoperation",
+    "unity",
+    "virtual reality"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings 2024 3rd International Conference on Automation Robotics and Computer Engineering Icarce 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "26-29",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Hernandez, Matheus Nicolás",
+      "scopus_id": "59863920100",
+      "affiliation": "128240981",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ramos, Brenno Henrique",
+      "scopus_id": "59866374000",
+      "affiliation": "132565191",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Simoni, Roberto",
+      "scopus_id": "26433912800",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Negri, Doglas",
+      "scopus_id": "57203915759",
+      "affiliation": "128240981",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Souza, Diego",
+      "scopus_id": "58669607900",
+      "affiliation": "132565191",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Trabasso, Luis Gonzaga",
+      "scopus_id": "6507256443",
+      "affiliation": "128240981",
+      "is_eam_professor": true,
+      "eam_professor_id": "luis-gonzaga-trabasso"
+    }
+  ],
+  "eam_coauthors": [
+    "luis-gonzaga-trabasso"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Vision and Pattern Recognition",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004791539&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.124957",
+    "data_quality_score": 90
+  }
+}

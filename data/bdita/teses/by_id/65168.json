@@ -1,0 +1,30 @@
+{
+  "num_tese": "65168",
+  "type": "tese",
+  "title": "Prevençăo autônoma de colisăo para veículos aéreos năo tripulados",
+  "author": "Danilo Grima Galisteu",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A operaçăo de veículos aéreos tripulados e năo tripulados, sobre áreas povoadas e dentro de espaços aéreos năo segregados, impőe a necessidade de voo coordenado entre os veículos e com o controle de tráfego aéreo. No caso de uma eventual perda de comunicaçăo com o controle de tráfego no solo, ou a falta de contato visual com outra aeronave, o operador deve prover autonomamente separaçăo segura e evitar a colisăo. Embora este procedimento seja normalmente usado por pilotos de aeronaves tripuladas, os veículos aéreos năo tripulados atualmente năo săo capazes de ver ou detectar e evitar outro conflito com outras aeronaves. Assim, este trabalho apresenta um novo método para proporcionar o guiamento tridimensional, de modo a realizar, de forma autônoma, a prevençăo de colisăo e também para restaurar a separaçăo segura e adequada, sem algoritmos recursivos de otimizaçăo em tempo real. O método proposto é analisado através de vários possíveis cenários de encontro, mostrando um desempenho adequado com pouca carga computacional.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle preditivo",
+    "Guiamento (movimento)",
+    "Sistemas de alerta",
+    "Controle de voo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/10/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65168",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65168&origem=BDITA"
+}

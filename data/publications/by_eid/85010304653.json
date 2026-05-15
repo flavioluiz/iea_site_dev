@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-85010304653",
+  "eid": "2-s2.0-85010304653",
+  "doi": "10.1016/j.jfluidstructs.2017.01.010",
+  "pii": "S0889974616301815",
+  "pubmed_id": null,
+  "title": "A reduced order state space model for aeroelastic analysis in time domain",
+  "abstract": "© 2017 Elsevier LtdThe objective of this paper is to describe a new method for modeling aeroelastic system in time domain based on a modification of the Laguerre Polynomials to represent complex quantities. These polynomials are used to approximate the unsteady aerodynamics forces which are defined in the frequency domain using the Doublet Lattice Method (DLM). In this approach, the size of the matrices representing the aeroelastic system remains the same as the matrices representing the structural dynamics behavior. It is an important point since classical state space aeroelastic models include lag states increasing the size of the matrices used to represent the system. The applicability of the method is demonstrated by numerical simulation performed on the benchmark wing structure. The approach offers promise mainly for complex systems such as real aircraft.",
+  "authkeywords": [
+    "Aeroelasticity",
+    "Laguerre polynomials",
+    "Reduced state space model",
+    "Time-domain representation"
+  ],
+  "year": "2017",
+  "date": "2017-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids and Structures",
+    "issn": "08899746",
+    "eissn": "10958622",
+    "volume": "69",
+    "issue": null,
+    "pages": "428-440",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Marqui, Clayton R.",
+      "scopus_id": "25931013000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bueno, Douglas D.",
+      "scopus_id": "25930772600",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Gonçalves, Paulo J.P.",
+      "scopus_id": "55681491500",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85010304653&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077227",
+    "data_quality_score": 100
+  }
+}

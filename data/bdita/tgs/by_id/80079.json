@@ -1,0 +1,25 @@
+{
+  "num_tg": "80079",
+  "type": "tg",
+  "title": "Validaçăo de software para projeto conceitual de aeronaves de transporte",
+  "author": "Beatriz Feitoza Paulo",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho foca na validaçăo de um software, utilizado no Instituto Tecnológico de Aeronáutica (ITA) com fins didáticos, para projeto conceitual de aeronaves de transporte. A necessidade de ferramentas precisas para prever as características das aeronaves no início do desenvolvimento é crucial, visto que os ajustes nesta etapa do projeto săo menos custosos do que em fases posteriores. Por outro lado, a escassez de informaçőes sobre a aeronave dificulta a obtençăo das estimativas durante o projeto conceitual, reforçando a importância de um recurso assertivo. Diante disso, torna-se relevante verificar o nível de confiança dos resultados gerados por ferramentas de projeto conceitual de aeronaves. Com esse intuito, foram estudadas aeronaves de transporte já existentes, abrangendo diferentes fabricantes, datas de entrada em serviço, capacidades e requisitos de missăo. Os resultados obtidos pelo software foram comparados com os dados reais das aeronaves selecionadas e, em seguida, foi realizada a análise comparativa das características de desempenho. Foram fornecidas margens de erro para os diversos resultados, identificando as estimativas que necessitam de aprimoramento e possíveis aplicaçőes de fatores de calibraçăo, visando a melhoria na precisăo das previsőes. Por fim, houve a validaçăo da ferramenta utilizada pelo ITA para o projeto conceitual de aeronaves de transporte, bem como a identificaçăo de áreas que necessitam de aprimoramento e, portanto, a melhoria do software.",
+  "subjects": [
+    "Projetos de aeronaves",
+    "Aeronaves de transporte",
+    "Verificaçăo de programa (computadores)",
+    "Otimizaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80079",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80079&origem=BDITA"
+}

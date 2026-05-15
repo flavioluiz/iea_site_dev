@@ -1,0 +1,29 @@
+{
+  "num_tese": "61875",
+  "type": "tese",
+  "title": "Classificaçăo de navios por tons característicos de seus sinais acústicos pelo emprego de support vector machine",
+  "author": "Mikey da Silva Neto",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A classificaçăo de sinais acústicos é de importância fundamental para as unidades navais e aeronavais, tanto navios e essencialmente submarinos, quanto para aeronaves com capacidade antissubmarino (P-3AM, da FAB). Neste contexto, empregou-se o método de Support Vector Machine (SVM) para realizar a classificaçăo dos navios, com base na análise de tons característicos produzidos pelos seus sinais acústicos. Comparando os resultados decorrentes do uso de Redes Neurais Artificiais aos obtidos com uso do SVM, concluiu-se que este segundo método gerou um aumento de performance no classificador em funçăo das características extraídas dos tons. Contudo os tempos computacionais foram considerados elevados, razăo porque há a necessidade de maiores investigaçőes para adequar o emprego do SVM em um ambiente operacional.",
+  "subjects": [
+    "Máquinas de vetores-suporte",
+    "Processamento de sinais acústicos",
+    "Classificaçăo de padrőes",
+    "Sonar",
+    "Pesquisa operacional",
+    "Matemática"
+  ],
+  "defense_date": "07/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61875",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61875&origem=BDITA"
+}

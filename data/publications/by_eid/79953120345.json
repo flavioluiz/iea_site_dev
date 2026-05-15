@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-79953120345",
+  "eid": "2-s2.0-79953120345",
+  "doi": "10.1115/1.4002672",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "An axial flow compressor for operation with humid air and water injection",
+  "abstract": "The first steps of the turbomachinery design usually rely on numerical tools based on inviscid formulation with corrections using loss models to account for viscous effects, secondary flows, tip clearances, and shock waves. The viscous effects are accounted for using semi-empirical correlations especially assembled for the chosen airfoils and range of operating conditions. Fast convergence and good accuracy are required from such design procedures. There are successful models that produce very accurate performance prediction. Among the methodologies commonly used, the streamline curvature (SLC) is used since those characteristics and the most important properties can be calculated reasonably well at any radial positions, assisting other more complex analysis programs. The SLC technique is, therefore, well suited for the design of axial flow compressors for reasons such as quick access to vital flow properties at the blade edges from which actions may be taken to improve its performance at the design stage. This work reports the association of a SLC computer program and commercial software for comparison purposes, as well as for grid generation required by a full 3D, turbulent Navier-Stokes computer program used for flow calculation in the blade passages. Application to a high performance three-stage axial flow compressor with inlet guide vane demonstrates the methodology adopted. The SLC program is also capable of calculating the compressor performance with humid air and water injection at any axial position along the compressor. The influence of water injection at different axial positions, water particle diameter, and temperature of water particles were studied for different humid air conditions. The positions of the evaporating water particles were calculated using their thermophysical and dynamic properties along the compressor. © 2011 American Society of Mechanical Engineers.",
+  "authkeywords": null,
+  "year": "2011",
+  "date": "2011-03-31",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Engineering for Gas Turbines and Power",
+    "issn": "07424795",
+    "eissn": "15288919",
+    "volume": "133",
+    "issue": "7",
+    "pages": null,
+    "article_number": "071703"
+  },
+  "authors": [
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bontempo, Luciano Porto",
+      "scopus_id": "37055374900",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, João Roberto",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Fuel Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79953120345&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.083704",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-79551497075",
+  "eid": "2-s2.0-79551497075",
+  "doi": "10.1108/15736101011055248",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Stochastic and reliability analysis of fluidstructure interaction problems using finite element models",
+  "abstract": "Purpose The purpose of this paper is to present a deterministic, stochastic and reliability analysis through numerical simulations in 2D and 3D dynamic fluidstructure interaction problems. Design/methodology/approach The perturbation methods allied to reliability analysis are applied to fluidstructure finite element models. Reliability analysis couples finite element analysis with first and second order reliability methods and ant colony optimization in a modified first order reliability method. Findings Results obtained show the potentialities of the proposed methodology and encourage improvement of this procedure for use in complex coupled fluidstructure systems. Originality/value The understanding of the mechanical interaction between a fluid and an elastic solid has a capital importance in several industrial applications. In order to couple the behaviour of two different media, deterministic models have been proposed. However, stochastic analysis has been developed to deal with the statistical nature of fluidstructure interaction parameters. Moreover, probabilisticbased reliability analysis intends to find safe and costeffective projects. © 2010, Emerald Group Publishing Limited",
+  "authkeywords": [
+    "Failure modes and effects analysis",
+    "Fluid mechanics",
+    "Stochastic processes",
+    "Structures",
+    "Vibration"
+  ],
+  "year": "2010",
+  "date": "2010-06-16",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Multidiscipline Modeling in Materials and Structures",
+    "issn": "15736105",
+    "eissn": "15736113",
+    "volume": "6",
+    "issue": "1",
+    "pages": "6-22",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Enrique Rojas, Jhojan",
+      "scopus_id": "57191766722",
+      "affiliation": "110225206",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bendaou, Othmane",
+      "scopus_id": "36914718700",
+      "affiliation": "60025927",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hami, Abdelkhalak",
+      "scopus_id": "55944424900",
+      "affiliation": "60025927",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79551497075&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089258",
+    "data_quality_score": 100
+  }
+}

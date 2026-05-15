@@ -1,0 +1,30 @@
+{
+  "num_tg": "76405",
+  "type": "tg",
+  "title": "Estudo do impacto da implementaçăo de Mecânica de Voo em um modelo de estimativa de risco de operaçőes aéreas com VANTs sobre áreas habitadas",
+  "author": "Gabriel Sena Galvăo",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Eduardo Lopes Pinho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O emprego de aeronaves remotamente pilotadas (RPA) tem se tornado mais comum ao longo dos últimos anos tanto no meio civil quanto no militar. Embora a ausęncia de pilotos e tripulantes flexibilize o escopo de missăo de uma aeronave năo tripulada - principalmente em um contexto militar -, ela também suscita dúvidas quanto ao risco de acidentes envolvendo pessoas e construçőes năo relacionados ŕ operaçăo aérea. Por isso, para autorizar a utilizaçăo de sistemas aeronáuticos năo tripulados (UAS), as autoridades competentes demandam que o risco associado a sua operaçăo seja analisado, gerenciado e que esteja dentro de níveis definidos como aceitáveis. Este trabalho tem por finalidade implementar uma ferramenta de estimativa de risco para operaçőes aéreas com sistemas aeronáuticos remotamente pilotados (RPAS) sobre áreas habitadas a fim de auxiliar no planejamento e na autorizaçăo de missőes de VANTs no contexto da Força Aérea Brasileira (FAB). Serăo apresentadas uma implementaçăo utilizando trajetórias poligonais e outra fundamentada na dinâmica e na cinemática da Mecânica de Voo. Ainda, para este segundo método a ser implementado, estudar-se-á o projeto de sistemas de controle com rastreador linear quadrático (LQT) para a elaboraçăo de tręs diferentes sistemas: nivelador de asas, pouso automático e navegaçăo. Por fim, obtidos os resultados, o método com navegaçăo mais realista será comparado ao de trajetória poligonal e as nuances de cada uma dessas implementaçőes serăo analisadas, sobretudo no que tange ao custo computacional de execuçăo e ŕs diferenças entre as estimativas calculadas.",
+  "subjects": [
+    "Metodologia",
+    "Aeronave năo-tripulada",
+    "Mecânica de voo",
+    "Gerenciamento de riscos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76405",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76405&origem=BDITA"
+}

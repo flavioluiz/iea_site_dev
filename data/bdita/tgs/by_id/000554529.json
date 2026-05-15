@@ -1,0 +1,27 @@
+{
+  "num_tg": "000554529",
+  "type": "tg",
+  "title": "Software para análise estrutural de caixa de torçăo de asa de VANT.",
+  "author": "Gustavo Bonfim Oliveira",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Foi desenvolvido um software para análise de caixas de torçăo de asas de pequenas aeronaves, como VANT (Veículo Aéreo Năo Tripulado). Os principais requerimentos para o software săo a elevada usabilidade e facilidade de manusear e a confiabilidade nos cálculos estruturais. O uso de software comerciais muito extensivos, como o MSC Nastran©, muitas das vezes năo se mostra adequado para a análise em questăo. Dessa forma, o software construído analisa tensőes normais e de cisalhamento em elementos aeronáuticos de parede fina de seçăo aberta e fechada quando sujeitas a momentos fletores, esforços cortantes e torques. As seçőes admitem 6, 8 ou 10 reforçadores tanto em seçăo fechada quanto aberta. A confiabilidade do software é ilustrada através de diversos exemplos.",
+  "subjects": [
+    "Programas de aplicaçăo (computadores)",
+    "Cálculo estrutural",
+    "Estruturas de aeronaves",
+    "Projeto estrutural",
+    "Asas",
+    "Engenharia aeronáutica",
+    "Engenharia de software"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554529",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554529&origem=BDITA"
+}

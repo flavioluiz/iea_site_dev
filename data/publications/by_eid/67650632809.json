@@ -1,0 +1,65 @@
+{
+  "publication_id": "2-s2.0-67650632809",
+  "eid": "2-s2.0-67650632809",
+  "doi": "10.1007/s11242-009-9379-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent flow around fluid - Porous interfaces computed with a diffusion-jump model for k and ε transport equations",
+  "abstract": "Flow over vegetation and bottom of rivers can be characterized by some sort of porous structure of irregular surface through which a fluid permeates. Also, in engineering systems, one can have components that make use of a working fluid flowing over irregular layers of porous material. This article presents numerical solutions for such hybrid medium, considering here a channel partially filled with a flat porous layer saturated by a fluid flowing in turbulent regime. One unique set of transport equations is applied to both the regions. A diffusion-jump model for both the turbulent kinetic energy and its dissipation rate, across the interface, is presented and discussed upon. The discretization steps taken for numerically accommodating such model in the system of algebraic equations are presented. Numerical results show the effects of Reynolds number, porosity, and permeability on mean and turbulence fields. Results indicate that when negative values for the stress jump coefficient are applied, the peak of the turbulent kinetic energy distribution occurs at the macroscopic interface. © Springer Science+Business Media B.V. 2009.",
+  "authkeywords": [
+    "Interface",
+    "Porous media",
+    "Stress jump",
+    "Time-average",
+    "Turbulence modeling",
+    "Two-equation model",
+    "Volume-average"
+  ],
+  "year": "2009",
+  "date": "2009-04-08",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Transport in Porous Media",
+    "issn": "01693913",
+    "eissn": null,
+    "volume": "78",
+    "issue": "3 SPEC. ISS.",
+    "pages": "331-346",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 15,
+    "subject_areas": [
+      {
+        "code": "Catalysis",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 45,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=67650632809&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111099",
+    "data_quality_score": 100
+  }
+}

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- Hero Carousel Section -->
-<section class="hero-carousel mb-12" aria-label="{{ if eq .Site.Language.Lang "pt" }}Galeria da divisão AER{{ else }}AER Division gallery{{ end }}">
+<section class="hero-carousel mb-12" aria-label="{{ if eq .Site.Language.Lang "pt" }}Galeria da Divisão de Engenharia Aeronáutica e Aeroespacial{{ else }}Division of Aeronautical and Aerospace Engineering gallery{{ end }}">
   {{- $galleryDir := "static/images/gallery" -}}
   {{- $images := slice -}}
   {{- range (readDir $galleryDir) -}}
@@ -39,9 +39,9 @@
            class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
           {{ if eq .Site.Language.Lang "pt" }}Nosso Pessoal{{ else }}Our People{{ end }}
         </a>
-        <a href="{{ relLangURL "/espaco/" }}"
+        <a href="{{ relLangURL "/pesquisa/" }}"
            class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-500 transition-colors border-2 border-white">
-          🛸 {{ if eq .Site.Language.Lang "pt" }}Área Espacial{{ else }}Space Program{{ end }}
+          {{ if eq .Site.Language.Lang "pt" }}Pesquisa{{ else }}Research{{ end }}
         </a>
       </div>
     </div>
@@ -89,7 +89,7 @@
 <!-- Numbers Section -->
 <section class="mb-12">
   <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
-    {{ if eq .Site.Language.Lang "pt" }}A Divisão em Números{{ else }}AER at a Glance{{ end }}
+    {{ if eq .Site.Language.Lang "pt" }}A Divisão em Números{{ else }}The Division at a Glance{{ end }}
   </h2>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
     <div class="bg-white p-6 rounded-lg shadow-md text-center">
@@ -111,38 +111,6 @@
   </div>
 </section>
 
-<!-- Space Highlight Section -->
-<section class="mb-12 bg-gradient-to-r from-indigo-900 to-blue-900 -mx-4 px-4 py-12 rounded-lg text-white">
-  <div class="max-w-4xl mx-auto text-center">
-    <div class="inline-flex items-center gap-2 bg-indigo-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-      🛸 {{ if eq .Site.Language.Lang "pt" }}Destaque Estratégico{{ else }}Strategic Focus{{ end }}
-    </div>
-    <h2 class="text-3xl font-bold mb-4">
-      {{ if eq .Site.Language.Lang "pt" }}Área Espacial{{ else }}Space Program{{ end }}
-    </h2>
-    <p class="text-blue-100 mb-8 text-lg">
-      {{ if eq .Site.Language.Lang "pt" }}
-        O ITA é protagonista no desenvolvimento de tecnologias espaciais no Brasil — propulsão, satélites, CubeSats, GNC e veículos lançadores.
-      {{ else }}
-        ITA plays a leading role in developing space technologies in Brazil — propulsion, satellites, CubeSats, GNC, and launch vehicles.
-      {{ end }}
-    </p>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-      {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
-      {{ range $id, $linha := $linhas }}
-        {{ if eq $linha.tema "espacial" }}
-          <div class="bg-white bg-opacity-10 rounded-lg p-3 text-sm text-blue-100">
-            {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.nome_pt }}{{ else }}{{ $linha.nome_en }}{{ end }}
-          </div>
-        {{ end }}
-      {{ end }}
-    </div>
-    <a href="{{ relLangURL "/espaco/" }}"
-       class="inline-block bg-white text-indigo-900 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition-colors">
-      {{ if eq .Site.Language.Lang "pt" }}Explorar Área Espacial →{{ else }}Explore Space Program →{{ end }}
-    </a>
-  </div>
-</section>
 
 <!-- Quick Access -->
 <section class="mb-12">
@@ -249,9 +217,9 @@
     </h2>
     <p class="text-gray-600 mb-6">
       {{ if eq .Site.Language.Lang "pt" }}
-        A AER abriga dois programas de pós-graduação de excelência do ITA:
+        A Divisão abriga programas de pós-graduação de excelência do ITA:
       {{ else }}
-        AER hosts two of ITA's leading graduate programs:
+        The Division hosts leading graduate programs at ITA:
       {{ end }}
     </p>
     <div class="flex flex-wrap justify-center gap-4">
@@ -278,7 +246,7 @@
   <div class="text-center">
     <a href="{{ relLangURL "/contato/" }}"
        class="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold text-lg">
-      {{ if eq .Site.Language.Lang "pt" }}Entre em contato com a divisão AER{{ else }}Contact the AER division{{ end }}
+      {{ if eq .Site.Language.Lang "pt" }}Entre em contato com a Divisão{{ else }}Contact the Division{{ end }}
       <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
       </svg>

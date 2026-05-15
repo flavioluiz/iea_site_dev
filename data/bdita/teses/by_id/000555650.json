@@ -1,0 +1,38 @@
+{
+  "num_tese": "000555650",
+  "type": "tese",
+  "title": "Desenvolvimento de um modelo dinâmico para simuladores de helicópteros.",
+  "author": "Ronaldo Vieira Cruz",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe uma metodologia de desenvolvimento de dois modelos dinâmicos um linear e outro năo-linear de seis graus de liberdade a ser utilizado em simuladores e treinadores de vôo de helicópteros. Inicialmente săo apresentados modelos para os diversos módulos de um simulador, incluindo as características físicas e os dados de ensaios em vôo dos helicópteros Bölkow BO105, AS550 Fennec e AS355-F2 Esquilo Bimotor. A simulaçăo do modelo dinâmico proposto em ambiente Matlab/Simulink® e FlightGear, a partir das derivadas de estabilidade e controle do BO105 no vôo nivelado, demonstra sua aplicabilidade e que é possível utilizar estes parâmetros como estimativas iniciais das derivadas dos helicópteros da família Esquilo. Em seguida, cada um dos elementos da metodologia quad-M, utilizada neste trabalho, săo detalhadamente descritos, sendo, inclusive, proposto um novo método de otimizaçăo baseado no uso conjunto de técnicas de busca global e local por meio dos algoritmos genético e Levenberg-Marquadt. Por fim, as derivadas de estabilidade e controle acopladas e desacopladas dos modos longitudinal e látero-direcional do helicóptero AS355-F2 săo determinadas por meio do método do erro de saída no domínio do tempo, após excitaçőes de comando do tipo sinusoidal e 3-2-1-1.",
+  "subjects": [
+    "Simuladores de vôo",
+    "Helicópteros",
+    "Modelos matemáticos",
+    "Sistemas dinâmicos",
+    "Identificaçăo de parâmetros",
+    "Algoritmos genéticos",
+    "Derivadas de estabilidade",
+    "Estabilidade de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "10/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000555650",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000555650&origem=BDITA"
+}

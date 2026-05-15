@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-84971250040",
+  "eid": "2-s2.0-84971250040",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Numerical assessment of jet-plate interaction with and without sweep",
+  "abstract": "An investigation of jet-surface interaction noise was conducted. Simulations of an isothermal jet flow with Mach number M = 0.4 close to a flat plate were carried out using Large-Eddy Simulation based on the Lattice-Boltzmann Method (LBM). Far-field acoustic results were obtained via the Ffowcs Williams and Hawkings (FW-H) surface integral method. Analyzed cases included a jet in isolation and other configurations including jet-plate interaction with two distances (r/D = 1 and 0.6) between plate and jet axis, and validation with experimental results is provided. The influences in the far-field sound caused by a sweep angle, between the plate trailing edge and the jet axis, were also investigated. Results for the isolated jet and plate at r/D = 1 showed reasonable agreement with experimental data. The trends of the sweep effect were well captured by the simulation model. Results for the plate at r/D = 0.6 showed an increase in noise levels in the St range affected by the installation. Comparisons of the Power Spectral Density (PSD) of the axial velocity with the solution of linear Parabolized Stability Equations (PSE) showed that even in the case of the closest plate position, the evolution of the axisymmetric mode in the centerline was not significantly affected by the presence of the surface.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd International Congress on Sound and Vibration Icsv 2015",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Da Silva, Filipe Dutra",
+      "scopus_id": "57188729541",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Andrey Ricardo",
+      "scopus_id": "16467135800",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Deschamps, César José",
+      "scopus_id": "7006473275",
+      "affiliation": "60017609",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André Valdetaro Gomes",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84971250040&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101930",
+    "data_quality_score": 70
+  }
+}

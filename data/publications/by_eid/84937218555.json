@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-84937218555",
+  "eid": "2-s2.0-84937218555",
+  "doi": "10.1016/j.ast.2015.06.028",
+  "pii": "S1270963815002059",
+  "pubmed_id": null,
+  "title": "The postbuckling behaviour of adhesively bonded stiffened panels subjected to in-plane shear loading",
+  "abstract": "© 2015 Elsevier Masson SAS. All rights reserved.This paper presents a detailed investigation on the post-buckling behaviour of adhesively bonded stiffened panels subjected to in-plane shear loading. An experimental programme was carried to determine the buckling load, buckling shape, collapse load and failure modes of two bonded stiffened panels. A nonlinear finite element based modelling approach, accounting for geometrical and material nonlinearities as well as progressive failure in the adhesively bonded interface between the skin and the stiffener is proposed to predict the structural behaviour of the panels up to failure. This approach consists in modelling the bonded interfaces using a newly developed cohesive zone based constitutive damage model. In order to account for damage in the stiffener and the skin a Von Mises based constitutive damage model is also formulated and presented in the paper. Both constitutive models were implemented into ABAQUS/Explicit finite element code as user-defined material models. A very good agreement between experimental results and numerical predictions is obtained using the proposed modelling approach, with deviations smaller than 8% in buckling load and bonded interface failure load onset.",
+  "authkeywords": [
+    "Adhesive",
+    "Finite elements",
+    "Mechanical characterization",
+    "Post-buckling"
+  ],
+  "year": "2015",
+  "date": "2015-07-20",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Aerospace Science and Technology",
+    "issn": "12709638",
+    "eissn": null,
+    "volume": "46",
+    "issue": null,
+    "pages": "30-41",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Paula Guedes Villani, Anaisa",
+      "scopus_id": "55687504400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Mauricio V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Rizzi, Paulo",
+      "scopus_id": "56725294100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Montestruque, Carlos V.",
+      "scopus_id": "56725743100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bussamra, Flavio",
+      "scopus_id": "7801411676",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Rodrigues, Marcelo R.B.",
+      "scopus_id": "56725004500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon",
+    "mariano-andres-arbelo",
+    "flavio-luiz-da-s-bussamra"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84937218555&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.047411",
+    "data_quality_score": 100
+  }
+}

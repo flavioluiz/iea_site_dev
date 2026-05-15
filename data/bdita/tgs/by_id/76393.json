@@ -1,0 +1,30 @@
+{
+  "num_tg": "76393",
+  "type": "tg",
+  "title": "Implementation of a 3D visualization environment for aircraft subsystem architectures and components during conceptual design",
+  "author": "Pedro Henrique Ribeiro Bernini",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Frank Thielecke",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The main objective of this project is to develop a 3D visualization environment, which can visualize the different results of the architecture design tools within a single program. Architecture-relevant data provided by the design tools must be converted into a unified 3D aircraft subsystem data description. Based on provided meta-information the visual-ization tool shall provide grouped overlays, different levels, interconnections, and infor-mation of 3D subsystem component models within the geometry of the aircraft. Thereby, low-fidelity as well as detailed architecture descriptions must be processable. For the program implementation, an existing 3D engine shall be leveraged using well-established graphics libraries. Moreover, the visualization tool shall be capable of depicting the air-crafts lofting and its subsystems by means of generic elements coming from a 3D aircraft component library. A visualization of a holistic aircraft subsystem architecture concept shall exemplify the beneficial analysis and validation capabilities of the implemented en-vironment.",
+  "subjects": [
+    "Arquitetura de software",
+    "Sistemas de dados",
+    "Visăo tridimensional",
+    "Projeto de aeronaves",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76393",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76393&origem=BDITA"
+}

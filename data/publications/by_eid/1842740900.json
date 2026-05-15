@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-1842740900",
+  "eid": "2-s2.0-1842740900",
+  "doi": "10.1115/ht2003-47253",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Turbulent flow and heat transfer in a porous chamber",
+  "abstract": "This work presents a numerical investigation of turbulent flow past a porous structure in a channel using linear and nonlinear eddy viscosity macroscopic models. Parameters such as porosity and permeability of the porous material are varied in order to analyze their effects on the flow pattern, particularly on the damping of the recirculating bubble after the entrance and exit regions. The numerical technique employed for discretizing the governing equations is the control-volume method. The SIMPLE algorithm is used to correct the pressure field. The classical wall function is utilized in order to handle flow calculation near the wall. A discussion on the use of this technique for simulating the flow in question is presented. Comparisons of results simulated with both linear and nonlinear turbulence models are shown.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Summer Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": "2003",
+    "issue": null,
+    "pages": "757-763",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Assato, Marcelo",
+      "scopus_id": "6506981925",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=1842740900&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111602",
+    "data_quality_score": 80
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "publication_id": "2-s2.0-43049103408",
+  "eid": "2-s2.0-43049103408",
+  "doi": "10.1016/j.compstruc.2007.11.004",
+  "pii": "S0045794907002982",
+  "pubmed_id": null,
+  "title": "A progressive failure model for composite laminates subjected to low velocity impact damage",
+  "abstract": "This paper presents a 3-D failure model for predicting the dynamic material response of composite laminates under impact loading. The formulation is based on the Continuum Damage Mechanics (CDM) approach and enables the control of the energy dissipation associated with each failure mode regardless of mesh refinement and fracture plane orientation. Internal thermodynamically irreversible damage variables were defined in order to quantify damage concentration associated with each possible failure mode and predict the gradual stiffness reduction during the impact damage process. The material model has been implemented into LS-DYNA explicit finite element code within solid elements and it has proven to be capable of reproducing experimental results with good accuracy in terms of static/dynamic responses, absorbed energy and extent of damage. © 2007 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Composites",
+    "Damage mechanics",
+    "Finite elements",
+    "Impact dynamics"
+  ],
+  "year": "2008",
+  "date": "2008-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computers and Structures",
+    "issn": "00457949",
+    "eissn": null,
+    "volume": "86",
+    "issue": "11-12",
+    "pages": "1232-1252",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Donadon, M. V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    },
+    {
+      "name": "Iannucci, L.",
+      "scopus_id": "13404229400",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Falzon, B. G.",
+      "scopus_id": "6701325772",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hodgkinson, J. M.",
+      "scopus_id": "7007173340",
+      "affiliation": "60015150",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Almeida, S. F.M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 421,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 39,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=43049103408&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.122158",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "publication_id": "2-s2.0-85092226713",
+  "eid": "2-s2.0-85092226713",
+  "doi": "10.1016/j.compstruct.2020.112932",
+  "pii": "S0263822320328580",
+  "pubmed_id": null,
+  "title": "Multi-objective frequency and damping optimization of tow-steered composite laminates",
+  "abstract": "© 2020 Elsevier LtdThe emergence of automated manufacturing techniques has allowed the realization of the so-called tow-steered composite laminates, in which the fibers are deposited following continuous curvilinear paths. This enables to broaden the design space to satisfy a variety of design objectives. Previous studies have shown that conventional composites can be designed to maximize the modal frequencies and modal damping factors. However, similar investigations have not been devoted to tow-steered composites so far. In this context, the objective of this paper is to investigate the use of multi-objective optimization aiming at simultaneously maximizing the fundamental modal frequency and corresponding specific damping capacity of tow-steered composite laminates. The fiber trajectories are parameterized using two different schemes, and the parameters are taken as design variables. The equations of motion are derived from the combination of the Classical Lamination Theory with the Rayleigh–Ritz method. Damping is modeled by using the Strain Energy Method. Numerical optimization is performed using the evolutionary Direct Multisearch method, which provides optimal solutions forming Pareto fronts. Results obtained from various scenarios, including fully and partially steered laminates, and different boundary conditions, show that fiber steering can indeed improve substantially the dynamic characteristics, including damping, of composite laminates.",
+  "authkeywords": [
+    "Composite laminates",
+    "Damping",
+    "Multi-objective optimization",
+    "Strain energy method",
+    "Tow-steering"
+  ],
+  "year": "2021",
+  "date": "2021-01-15",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Composite Structures",
+    "issn": "02638223",
+    "eissn": null,
+    "volume": "256",
+    "issue": null,
+    "pages": null,
+    "article_number": "112932"
+  },
+  "authors": [
+    {
+      "name": "Pereira, D. A.",
+      "scopus_id": "56735566900",
+      "affiliation": "60021657-60022487",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sales, T. P.",
+      "scopus_id": "57193124025",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "thiago-de-paula-sales"
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "thiago-de-paula-sales",
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 20,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092226713&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.064375",
+    "data_quality_score": 100
+  }
+}

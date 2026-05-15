@@ -1,0 +1,32 @@
+{
+  "num_tese": "000262252",
+  "type": "tese",
+  "title": "Escoamento reativo em desequilíbrio químico em bocais convergente - divergente",
+  "author": "José Eduardo Mautone Barros",
+  "year": "1993",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Gordiano de Faria Alvim Filho",
+      "professor_slug": null
+    },
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve modelos de escoamento reativo considerando desequilíbrio químico, em bocais convergente-divergente. O objetivo e a estimativa, com maior precisăo das variaçőes das propriedades e fatores de desempenho ao longo do bocal. O primeiro modelo considera o escoamento como unidimensional e é usado o método de Multivalores de GEAR para integraçăo do sistema de equaçőes diferenciais, pois este apresenta características de \"stiffness\". O segundo modelo considera o escoamento bidimensional e é usado o método das características para calcular a regiăo supersônica. Duas técnicas numéricas săo usadas para integrar as equaçőes deste modelo: o método P(EC) é usado ao longo das linhas de Mach e o método de Multivalores de GEAR é usado ao longo das linhas de corrente. Dois sistemas reativos foram usados para os cálculos, um baseado nas reaçőes entre H2 e F2 e o outro baseado nas reaçőes entre H2 e O2. Os resultados obtidos para o sistema H2 e F2 foram comparados com outros cálculos descritos na literatura. A concordância entre os resultados foi boa tanto para o modelo unidimensional como para o bidimensional. Para o sistema H2 e O2 os cálculos foram comparados com resultados experimentais para um bocal de geometria ótima, com razăo de expansăo de 1030:1. A concordância com as medidas foi boa, sendo que o impulso específico foi previsto pelo modelo bidimensional com um erro de 0,3% do valor experimental. Todos os cálculos foram feitos num microcomputador compatível com IBM-PC, AT 386, 33MHz, com tempos de computaçăo da ordem de algumas horas.",
+  "subjects": [
+    "Análise numérica",
+    "Tubeiras convergentes-divergentes",
+    "Escoamento unidimensional",
+    "Mecânica dos fluidos",
+    "Mecânica (Física)"
+  ],
+  "defense_date": "01/12/1993",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000262252",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000262252&origem=BDITA"
+}

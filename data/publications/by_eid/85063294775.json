@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85063294775",
+  "eid": "2-s2.0-85063294775",
+  "doi": "10.1016/j.tws.2019.03.041",
+  "pii": "S0263823118312813",
+  "pubmed_id": null,
+  "title": "Vibration correlation technique for predicting the buckling load of imperfection-sensitive isotropic cylindrical shells: An analytical and numerical verification",
+  "abstract": "© 2019 Elsevier LtdThis paper presents an analytical and numerical investigation of the relationship between the compressive load level and the natural frequency variation toward a vibration correlation technique for the buckling load calculation of imperfection-sensitive isotropic cylindrical shell structures. Firstly, a back-to-basic s study is proposed and the linear equation between the applied load and the square of the loaded natural frequency is revisited. Such review considers the Flügge-Lur'e-Byrne's linear shell theory for the free vibrations of an isotropic unstiffened cylindrical shell under uniform axial loading. The demonstrated linear equation is rearranged for expressing the square of the applied load as a quadratic function of the square of the loaded natural frequency. The suggested formulation provides the analytical support to a novel vibration correlation technique that has been empirically proposed and experimentally validated for unstiffened cylindrical shells. Aiming a numerical verification based on finite element models, two cylindrical shells are defined. At first, the critical buckling load and the fundamental natural frequency for different load levels are determined and compared to the analytical results for validation of the numerical models. The finite element models are extended considering geometric nonlinearities, more realistic boundary conditions and three magnitudes of a benchmark measured initial geometric imperfection. The numerical results are considered for analyzing the variation of the natural frequency in the surroundings of buckling and for verifying the vibration correlation technique.",
+  "authkeywords": [
+    "Buckling",
+    "Cylindrical shells",
+    "Free vibrations",
+    "Imperfection-sensitive structures",
+    "Nondestructive experiments",
+    "Vibration correlation technique"
+  ],
+  "year": "2019",
+  "date": "2019-07-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thin Walled Structures",
+    "issn": "02638231",
+    "eissn": null,
+    "volume": "140",
+    "issue": null,
+    "pages": "236-247",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Franzoni, Felipe",
+      "scopus_id": "57211220620",
+      "affiliation": "60007798-60094988",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Degenhardt, Richard",
+      "scopus_id": "12144431600",
+      "affiliation": "60007798-60094988-60003649",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Albus, Jochen",
+      "scopus_id": "16645066600",
+      "affiliation": "60120792",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Arbelo, Mariano Andrés",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 50,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 31,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85063294775&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074312",
+    "data_quality_score": 100
+  }
+}

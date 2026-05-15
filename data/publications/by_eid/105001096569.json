@@ -1,0 +1,67 @@
+{
+  "publication_id": "2-s2.0-105001096569",
+  "eid": "2-s2.0-105001096569",
+  "doi": "10.2514/6.2025-0148",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Performance Analysis of Multiple Feature-Based Indicators for Adaptive Mesh Refinement in Continuous Galerkin Simulations",
+  "abstract": "© 2025, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Adaptive refinement methods can help speed up expensive simulations by reducing the amount of user-dependent processes during mesh generation. One of the most crucial steps in these methods is identifying regions requiring spatial resolution interventions. One of the most straightforward ways of doing this is using featured-based indicators. Because of their general simplistic nature, they may be inefficient in detecting problematic elements under specific numerical circumstances. The current work seeks to analyze these indicators in the context of spectral/hp discretization using continuous Galerkin. We categorized the indicators into three groups: jump, spectral, and error-based. The first two had their performance tested, while the last was employed as a reference. We analyzed them using multiple one-dimensional and one two-dimensional tests to verify how different feature-based indicators perform in distinct numerical circumstances. To measure their performance, we analyze their capability to decrease discretization error when guiding a sequence of p-adaptation cycles. The indicator that performed most consistently well was based on the maximum derivative jump.",
+  "authkeywords": null,
+  "year": "2025",
+  "date": "2025-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Science and Technology Forum and Exposition AIAA Scitech Forum 2025",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Carvalho, Eduardo de Oliveira",
+      "scopus_id": "57221850276",
+      "affiliation": "60021657-132402269",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, André Fernando de Castro",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657-132402269",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    },
+    {
+      "name": "Moura, Rodrigo Costa",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657-132402269",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-fernando-c-silva",
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001096569&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069379",
+    "data_quality_score": 80
+  }
+}

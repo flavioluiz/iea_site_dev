@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-0031648666",
+  "eid": "2-s2.0-0031648666",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Input force identification in the time domain",
+  "abstract": "This paper addresses the problem of input force reconstruction from the dynamic responses of the structure. A feasibility study is performed on a method operating in the time domain, which is based on the modal equilibrium equations. It requires, as experimental data, the acceleration time responses of the structure when acted upon by the forces to be identified as well as a set of eigensolutions (natural frequencies, mode shapes, modal damping factors and generalized masses). After the basic formulation of the method is presented, numerical applications to a simple numerically simulated test structure are shown aiming at demonstrating the main characteristics and the effectiveness of the method. Some key points are also examined, such as the effects of incompleteness of the experimental data and measurement noise upon the performance of the method. The numerical results reveal that the method can be quite accurate and well adapted to real-world applications.",
+  "authkeywords": null,
+  "year": "1998",
+  "date": "1998-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Modal Analysis Conference IMAC",
+    "issn": "10466770",
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": "124-129",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Genaro, G.",
+      "scopus_id": "6603643818",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 40,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 0,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0031648666&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089729",
+    "data_quality_score": 70
+  }
+}

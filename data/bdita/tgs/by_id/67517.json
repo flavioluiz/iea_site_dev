@@ -1,0 +1,31 @@
+{
+  "num_tg": "67517",
+  "type": "tg",
+  "title": "Projeto aerodinâmico de mísseis com ęnfase em otimizaçăo de desempenho",
+  "author": "Eduardo Jourdan de Araújo Jorge Filho",
+  "year": "2014",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Adson Agrico de Paula",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O projeto de mísseis envolve modelos bastante complexos de aerodinâmica, estruturas, propulsăo, entre outros. A necessidade de um design robusto, que consiga lidar com todos os trade-offs técnicos e que diminua o retrabalho futuro é uma forte motivaçăo para se usar métodos de otimizaçăo. Além disso, muitas vezes as técnicas mais antigas de projeto delimitam o desempenho final do míssil, enquanto que os requisitos de missőes mais modernos caminham para cenários cada vez mais severos. Com isso em mente, o objetivo desse trabalho foi o de acoplar algoritmo genético com projeto preliminar de mísseis e realizar diversas simulaçőes com critérios de otimizaçăo relacionados ŕ aerodinâmica e mecânica de voo. Implementou-se em linguagem C++ uma ferramenta de otimizaçăo que compreendia um modelo aerodinâmico, modelo de inércia e um modelo de otimizador. Para o modelo aerodinâmico foi incorporado o software Missile Datcom, enquanto que para o otimizador foram feitas duas versőes, uma de objetivo único e outra multi objetivo baseada no NSGA-II. Os resultados obtidos nas simulaçőes puderam ser comparados com os dados do artigo \"Missile Aerodynamic Shape Optimization Using Genetic Algorithms\" (Anderson, Burkhalter e Jenkins, 2000), e se mostraram bem similares. Algumas diferenças foram observadas muito provavelmente por efeito do uso de diferentes modelos aerodinâmicos. Como resultados adicionais também foram feitas análises de otimizaçăo robusta, que se mostraram muito eficientes para se lidar com variadas condiçőes de voo, e também análises com critérios de otimizaçăo relacionados ŕ mecânica de voo, onde essa ferramenta também se revelou útil. A conclusăo final é que algoritmo genético é capaz de lidar com problemas típicos de projeto preliminar de mísseis, como desempenho e mecânica de voo, e o seu uso nessas aplicaçőes deve ser ainda mais aprofundado.",
+  "subjects": [
+    "Mísseis",
+    "Mecânica de voo",
+    "Equaçőes de movimento",
+    "Otimizaçăo de trajetória",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67517",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67517&origem=BDITA"
+}

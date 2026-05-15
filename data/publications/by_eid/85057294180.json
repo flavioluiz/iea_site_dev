@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-85057294180",
+  "eid": "2-s2.0-85057294180",
+  "doi": "10.2514/6.2016-2865",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On removing the near-field coherent structures in a jet and its impact on the radiated sound",
+  "abstract": "© 2016, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Sound radiation from a subsonic turbulent jet is examined after a hypothetical removal of near-field coherent structures in the low azimuthal components of the velocity fluctuations. With the help of a well-validated database of large-eddy simulation, the near-field coherent structures are extracted using discrete wavelet transform (DWT), and their spatial structures are examined using proper orthogonal decomposition (POD). The acoustic far field is calculated using Lighthill’s acoustic analogy. It is shown that the coherent part extracted by DWT accounts for most of the fluctuation energy of axial velocity, whereas the incoherent part, assumed to have a Gaussian probability distribution, has little energy. After the coherent part is removed, the axisymmetric component of the sound is found to be significantly reduced by around 7 dB in the overall sound pressure level at 30 degrees with respect to the jet axis. The reduction is mostly at low Strouhal numbers (St < 0.4, based on the speed of sound and the nozzle exit diameter). The first few POD modes of the near-field coherent part, which capture most of the fluctuation energy, are found to be characterised by large-scale wavy structures. After these POD modes are removed, the axisymmetric component of the sound pressure level is also reduced considerably, by around 5 dB/St at St = 0.2. When velocity components in the first and second helical azimuthal modes are removed, the overall sound pressure levels are reduced for a wide range of polar angles. The results also show that axial velocity fluctuations in the second helical mode are closely associated with sound radiation at high polar angles. Far-field azimuthal decomposition indicates that the sound reduction takes place in multiple azimuthal modes. The results suggest that there is a causal link between the axisymmetric components of the near-field coherent fluctuations and far-field low-angle jet noise. On the other hand, velocity components in near-field helical azimuthal modes are coupled for sound radiation in helical azimuthal modes. It is also suggested that not only the large-scale wavy structures in low POD modes, but also the smaller-scale coherent structures in higher POD modes need to be included for jet noise modelling, because they are both shown to be efficient at sound radiation.",
+  "authkeywords": null,
+  "year": "2016",
+  "date": "2016-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "22nd AIAA Ceas Aeroacoustics Conference 2016",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Fu, Zhidong",
+      "scopus_id": "55543345200",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Agarwal, Anurag",
+      "scopus_id": "7401480906",
+      "affiliation": "60031101",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057294180&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101786",
+    "data_quality_score": 90
+  }
+}

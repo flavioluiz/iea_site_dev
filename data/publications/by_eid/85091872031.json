@@ -1,0 +1,97 @@
+{
+  "publication_id": "2-s2.0-85091872031",
+  "eid": "2-s2.0-85091872031",
+  "doi": "10.2514/6.2019-2982",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Airship aerodynamic coefficients estimation based on computational method for preliminary design",
+  "abstract": "© 2019 American Institute of Aeronautics and Astronautics. All rights reserved.This paper presents an aerodynamic analysis of an airship through a computational tool, aiming to obtaining aerodynamic coefficients to be used in the design of novel airship models. A comparison between the model from simulation and from the wind tunnel test is used to validate the computational method. Due to the geometry presented by airships the analytical estimation of their coefficients becomes extremely difficult. Thus, computational tools can assist in the preliminary design of this type of air vehicle, as well as providing preliminar aerodynamic parameters, reducing the number of batteries required for wind tunnel tests. The description of the aerodynamic behavior of the airship was performed using the XFLR5 software, the modeling and setup details used will be presented in the course of this paper. The results obtained were validated through the comparison analysis presented between simulations and previous experimental results obtained in a wind tunnel using the YEZ-2A airship.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation 2019 Forum",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "1-11",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mendonça Junior, Jefferson L.",
+      "scopus_id": "57221335722",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Jonatas S.",
+      "scopus_id": "54685142700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Morales, Maurício A.V.",
+      "scopus_id": "57191905807",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Stevanovic, Stojan",
+      "scopus_id": "56086300200",
+      "affiliation": "125607125",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santana, Rodrigo",
+      "scopus_id": "57221325992",
+      "affiliation": "60025701",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091872031&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077048",
+    "data_quality_score": 90
+  }
+}

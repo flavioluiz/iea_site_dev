@@ -1,0 +1,79 @@
+{
+  "publication_id": "2-s2.0-85041094995",
+  "eid": "2-s2.0-85041094995",
+  "doi": "10.1080/10407790.2017.1420328",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Use of porous-continuum and continuum models for determining the permeability of porous cavities under turbulent free convection",
+  "abstract": "© 2018 Taylor & Francis.The aim of this work is to estimate the permeability of porous enclosures for numerical solutions of turbulent natural convection in a square cavity. The motivation is that available permeability correlations were proposed based on force rather than natural convection through permeable media. Although commonly seen as a medium property, permeability is measured with a flow through the permeable structure and, as such, its value may carry a flow type dependency. Here, it is assumed that a fixed amount of a solid conducting material is distributed within the cavity and two mathematical models are used and compared when calculating the cavity Nusselt number. First, a porous-continuum model is considered based on the assumption that the solid and the fluid phases are observed as a single medium, over which volume- and time-averaged transport equations apply. Second, a continuum model is used to solve local momentum and energy equations, in both the solid and void spaces, through a conjugate heat transfer solution. The average Nusselt number at the hot wall obtained from the porous-continuum model for several Darcy numbers are compared with those obtained with the continuum model using up to N = 1,024 obstacles within the cavity. When comparing the two methodologies, this study shows that the average Nusselt number calculated by each approach differs by as much as 32% when the number of obstacles N is increased to 1,024. Based on that, an adjustment on the used correlation for calculating the porous medium permeability is proposed to match the Nusselt numbers calculated with the two models. Results indicate that the use of the new correlation gives results for Nu that differ less than about 4% for the range 4 < N < 1,024.",
+  "authkeywords": null,
+  "year": "2018",
+  "date": "2018-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Numerical Heat Transfer Part B Fundamentals",
+    "issn": "10407790",
+    "eissn": "15210626",
+    "volume": "73",
+    "issue": "2",
+    "pages": "78-93",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "120142949",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Numerical Analysis",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 43,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85041094995&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110487",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-84881580041",
+  "eid": "2-s2.0-84881580041",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Assessment of adaptive techniques for the control of structures subject to temperature variations",
+  "abstract": "Temperature variations can significantly change the dynamic characteristics of structures. Active and passive control systems which do not account for these temperature variations and their effect on the dynamics of the structure may cause problems even more severe than those they were designed to solve. In this paper it is shown how the performance of an actively controlled beam deteriorates as temperature varies, by simulating its step response. Then, two distinct designs of adaptive controllers are proposed: one in which temperature is measured and used to update the controller gains, based on an analytical model of the structure which includes temperature effects; and a second design based on an adaptive control technique known as Model Reference Adaptive Control (MRAC), in which the controller gains are updated so as to minimize the error defined as the difference between the response of the actual system and an ideal, preconceived response given by the Reference Model. Numerical simulations are carried out for a simply supported beam modeled as a Single Degree of Freedom system. Results are discussed in terms of the performance of the controlled system and the control effort required. These simulations are meant to provide the necessary knowledge basis which precedes the experimental tests to be carried out in the future.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "12th International Congress on Sound and Vibration 2005 Icsv 2005",
+    "issn": null,
+    "eissn": null,
+    "volume": "3",
+    "issue": null,
+    "pages": "2711-2719",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Marques, Rodrigo F.A.",
+      "scopus_id": "7102046032",
+      "affiliation": "60027090",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Inman, Daniel J.",
+      "scopus_id": "7101824262",
+      "affiliation": "60027090",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, Domingos A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881580041&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089530",
+    "data_quality_score": 70
+  }
+}

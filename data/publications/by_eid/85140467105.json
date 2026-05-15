@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85140467105",
+  "eid": "2-s2.0-85140467105",
+  "doi": "10.1016/j.tafmec.2022.103639",
+  "pii": "S0167844222003834",
+  "pubmed_id": null,
+  "title": "A progressive damage model for composite laminates based on non-linear continuum mechanics—Static and fatigue loadings",
+  "abstract": "© 2022 Elsevier LtdEfficient yet reliable predictive modelling tools for damage tolerance analysis became an aerospace industry requirement as composite materials provided the potential for design performance. As damage can be separated into interlaminar and intralaminar, different approaches were developed over the years. For fracture analysis of intralaminar damage, a physical link to the Linear Elastic Fracture Mechanics (LEFM) provides a reliable framework for Continuum Damage Mechanics (CDM) models. These models, however, may exhibit pathological problems related to mesh dependence, objectivity and convergence issues. Differently from Cohesive Zone Modelling (CZM) for interlaminar damage, most intralaminar models are based on phenomenological approaches for fatigue analysis and life prediction. This work provides a description of some of the current intralaminar CDM models shortcomings, related to large strain analysis and finite element topology. A novel progressive damage model is proposed where damage variables are linked to the deformation gradient. Additionally, a fatigue damage behaviour under the assumption of a Paris law for crack evolution is implemented in the proposed methodology. Both static and fatigue analysis were performed on a Compact Tension (CT) specimen geometry and compared to experimental data available on the scientific literature. Model predictions and experimental data were confronted allowing for conclusions to be drawn.",
+  "authkeywords": [
+    "Composite laminates",
+    "Continuum Damage Mechanics",
+    "Fatigue",
+    "Finite element method",
+    "Fracture mechanics",
+    "Progressive damage"
+  ],
+  "year": "2022",
+  "date": "2022-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Theoretical and Applied Fracture Mechanics",
+    "issn": "01678442",
+    "eissn": null,
+    "volume": "122",
+    "issue": null,
+    "pages": null,
+    "article_number": "103639"
+  },
+  "authors": [
+    {
+      "name": "Ruivo Fuga, Felipe",
+      "scopus_id": "58176888800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140467105&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.121451",
+    "data_quality_score": 100
+  }
+}

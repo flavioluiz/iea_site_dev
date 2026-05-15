@@ -1,0 +1,31 @@
+{
+  "num_tg": "000554425",
+  "type": "tg",
+  "title": "Estudo aerodinâmico linha de ar de um motor atmosférico - acoplamento códigos 1D e 3D.",
+  "author": "Hugo de Siqueira Cortes",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Laurent Ollivier",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No desempenho de um motor a combustăo interna, a aerodinâmica da linha de ar possui papel muito importante. Os fenômenos acústicos que se estabelecem no interior dos dutos, tubulaçőes e coletores que compőe a linha de ar săo detalhadamente estudados. O projeto de um motor automobilístico é atualmente feito com auxílio de diversas ferramentas computacionais.Para a etapa inicial de projeto, utiliza-se em diversos fabricantes, o código computacional GTPower. Esse código permite a construçăo de um modelo do motor, por meio de uma abordagem mais simplificada, em que as grandezas físicas săo consideradas constantes por seçăo, daí a denominaçăo 1D. Essa abordagem fornece bons resultados do ponto de vista aerodinâmico, mas em determinadas partes do motor em que o escoamento apresenta características turbulentas, esses resultados tęm baixa qualidade. Surge assim o interesse em utilizar um código de fluidodinâmica computacional para simular o escoamento nessas regiőes. No presente trabalho o coletor de escapamento é modelado com o auxílio do código CFD StarCD substituindo seu equivalente 1D de GTPower no modelo do motor. O modelo do motor passa assim a contar com dois códigos funcionando de forma acoplada, GTPower e StarCD. O primeiro contém a maior parte dos componentes do motor, e o segundo representa o coletor de escapamento. O objetivo é comparar os resultados do acoplamento com aqueles obtidos nos bancos de teste, para os motores já existentes e também utilizar o acoplamento como uma forma de melhorar a qualidade dos modelos feitos utilizando-se apenas o GTPower. Como foco de análise, estuda-se as curvas de pressăo em diferentes pontos do coletor de escapamento.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Simulaçăo",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554425",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554425&origem=BDITA"
+}

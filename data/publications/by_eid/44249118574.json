@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-44249118574",
+  "eid": "2-s2.0-44249118574",
+  "doi": "10.1115/IMECE2007-43721",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Computation of turbulent free convection in oblique porous enclosures using a macroscopic two-equation model",
+  "abstract": "Copyright © 2007 by ASME.This paper presents computations for turbulent natural convection within an inclined cavity filled with a fluid saturated permeable medium. The finite volume method in a generalized coordinate system is applied. The inclined walls are maintained at constant but different temperatures, while the horizontal walls are kept insulated. Governing equations are written in terms of primitive variables and are recast into a general form. Flow and heat transfer characteristics are investigated for a wide range of values of Rayleigh number and inclined angles. The turbulent model used is the macroscopic k-eps model with a wall function. In this work, the turbulence model is first switched off and the laminar branch of the solution is found. Subsequently, the turbulence model is included so that the solution merges to the laminar branch for a reducing Ram. This convergence of results as Ram decreases can be seen as an estimate of the well known laminarization phenomenon. Present solutions are compared with published results and the influence of the inclination angle on Racr is analyzed. For Ram greater than around 104, both laminar and turbulent flow solutions deviate, indicating that such critical value for Ram was reached.",
+  "authkeywords": null,
+  "year": "2007",
+  "date": "2007-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME International Mechanical Engineering Congress and Exposition Proceedings Imece",
+    "issn": null,
+    "eissn": null,
+    "volume": "8",
+    "issue": null,
+    "pages": "1499-1506",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Braga, Edimilson J.",
+      "scopus_id": "7005783810",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 41,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=44249118574&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111286",
+    "data_quality_score": 80
+  }
+}

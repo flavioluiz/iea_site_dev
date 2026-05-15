@@ -1,0 +1,69 @@
+{
+  "publication_id": "2-s2.0-0037255079",
+  "eid": "2-s2.0-0037255079",
+  "doi": "10.1016/S0735-1933(03)00012-5",
+  "pii": "S0735193303000125",
+  "pubmed_id": null,
+  "title": "Turbulent mass transport in saturated rigid porous media",
+  "abstract": "This paper presents derivations of mass transport equations for turbulent flow in permeable structures. Equations are developed following two distinct procedures. The first method considers time averaging of the local instantaneous mass transport equation beford the volume average operator is applied. The second methodology employs both averaging operators butin a reverse order. This work is intended to demostrate that both approaches lead to equivalent equations when one takes into account both time fluctuations and spatial deviations of velocity and mass fraction. A modeled form for the final transport equation is presented where turbulent transfer is based on a macroscopic version of the k-ε model. © 2003 Elsevier Science Ltd.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Communications in Heat and Mass Transfer",
+    "issn": "07351933",
+    "eissn": null,
+    "volume": "30",
+    "issue": "1",
+    "pages": "105-113",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Mesquita, Maximilian S.",
+      "scopus_id": "7005231691",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 51,
+    "subject_areas": [
+      {
+        "code": "Atomic and Molecular Physics, and Optics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Chemical Engineering (all)",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0037255079&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111691",
+    "data_quality_score": 90
+  }
+}

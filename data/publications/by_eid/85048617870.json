@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-85048617870",
+  "eid": "2-s2.0-85048617870",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental and numerical investigation of post-flutter limit cycle oscillations on a cantilevered flat plate",
+  "abstract": "© 2017 International Forum on Aeroelasticity and Structural Dynamics (IFASD). All Rights Reserved.Futuristic aircraft designs and novel aircraft such as High Altitude Long Endurance (HALE) involve a higher level of structural flexibility than in conventional aircraft. Even at present, the trends in the aviation industry are to increase wing length (to reduce induced drag) and maximize use of composites, which lead to increased structural flexibility. This necessitates a rethink of conventional (linear) aeroelastic analysis, since the increased flexibility results in coupling between the flight dynamic and aeroelastic dynamics, and consequently, limit-cycle oscillations of the structure. In this paper, a new three-dimensional low-order model for unsteady aerodynamics that accounts for large oscillation amplitudes and nonplanar wakes is developed. An experiment with a cantilevered flat plate at low Reynolds number is set up and used to validate the low-order model, as well as to study post-flutter limit-cycle oscillations. Results from the low-order model are promising, but show that aerodynamic nonlinearities such as flow separation and leading-edge vortex shedding must also be modeled in order to predict all possible limit-cycle oscillations of the aeroelastic system.",
+  "authkeywords": [
+    "Cantilevered plate",
+    "Flexible wings",
+    "Fluid structure interaction",
+    "HALE",
+    "Leading edge vortices"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": "2017-June",
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ramesh, Kiran",
+      "scopus_id": "25825468400",
+      "affiliation": "60001490",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Monteiro, Tiago Priolli",
+      "scopus_id": "57192906820",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Silvestre, Flávio José",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Guimarães Neto, Antônio Bernardo",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "de Souza Siqueira Versiani, Thiago",
+      "scopus_id": "57201587271",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048617870&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055347",
+    "data_quality_score": 80
+  }
+}

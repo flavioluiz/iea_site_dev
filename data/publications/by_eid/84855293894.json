@@ -1,0 +1,116 @@
+{
+  "publication_id": "2-s2.0-84855293894",
+  "eid": "2-s2.0-84855293894",
+  "doi": "10.1016/j.ijimpeng.2011.12.001",
+  "pii": "S0734743X11001916",
+  "pubmed_id": null,
+  "title": "Ballistic impact simulation of an armour-piercing projectile on hybrid ceramic/fiber reinforced composite armours",
+  "abstract": "This paper presents a ballistic impact simulation of an armour-piercing projectile in hybrid ceramic/fiber reinforced composite armour. The armour is composed by an alumina plate and an ultra high molecular weight polyethylene composite. In order to model the armour behavior three different constitutive models were formulated and implemented into ABAQUS/Explicit finite element code. Comparisons between numerical predictions and experimental results in terms of damage shape/extent and V 50 are also presented and discussed in the paper. © 2011 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Armour",
+    "Ballistic impact",
+    "Constitutive models",
+    "Finite elements"
+  ],
+  "year": "2012",
+  "date": "2012-05-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Impact Engineering",
+    "issn": "0734743X",
+    "eissn": null,
+    "volume": "43",
+    "issue": null,
+    "pages": "63-77",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bürger, Daniel",
+      "scopus_id": "57211220613",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rocha De Faria, Alfredo",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "De Almeida, Sérgio F.M.",
+      "scopus_id": "57193404673",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Melo, Francisco C.L.",
+      "scopus_id": "6701386301",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Donadon, Maurício V.",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 130,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 46,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84855293894&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044528",
+    "data_quality_score": 100
+  }
+}

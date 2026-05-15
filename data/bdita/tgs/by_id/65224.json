@@ -1,0 +1,24 @@
+{
+  "num_tg": "65224",
+  "type": "tg",
+  "title": "Simulador de voo para parafoil",
+  "author": "Bruna Amorim de Barros Lima",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O paraquedas do tipo RAM-Air ou parafoil, comparado a um paraquedas convencional (redondo), tem alcance maior, devido ŕ maior razăo de planeio, e possui melhor controlabilidade. Assim, a utilizaçăo nesse tipo de veículo recai especialmente nos âmbitos militar e humanitário, uma vez que permite a entrega precisa de carga paga a partir de um lançamento aéreo autoguiado. O Trabalho de Graduaçăo objetivou criar um ambiente de simulaçăo do voo de um parafoil a partir de um modelo analítico com nove graus de liberdade. Os cálculos da dinâmica da aeronave foram programados em MATLAB/Simulink e podem ser exportados para visualizaçăo 3D. Diversos ensaios de simulaçăo foram realizados a fim de testar o comportamento dinâmico do paraquedas para os modos de oscilaçăo. A aeronave mostrou caráter estável e amortecido dos resultados calculados.",
+  "subjects": [
+    "Pára-quedas",
+    "Simulaçăo de voo",
+    "Oscilaçőes",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65224",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65224&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "65879",
+  "type": "tese",
+  "title": "Flight data acquisition and unified analysis tool for the vector-p unmanned aerial vehicle",
+  "author": "Guilherme Coelho da Silva Stanisce Corręa",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The use of unmanned aerial vehicles (UAVs) recently is growing on military and civil applications. Due to this demand, the control and navigation subsystems are on continuous improvement, on performance to process data, and decrease of physical dimensions. By using commercial-of-the-shelf solutions, it is possible to use robust and high performance data acquisition systems. This work presents the development of a data acquisition system for the sensors and actuators installed on the Vector-P UAV. This UAV is part of the studies on identification and control systems on the Aeronautics Systems Laboratory from the Aeronautics Institute of Technology. The unified analysis tool for the sensors and actuators installed in the Vector-P UAV was developed using the graphical programming tool LabVIEW with object-oriented programming concepts, with the goal to provide a reconfigurable environment to the user. This approach allows, in case of installing a new sensor, to reduce the development and testing efforts in the data conversion for this new sensor. Since the beginning of the project up to the development of the tool in this thesis, it was required to interface with multiple tools in order to have the engineering data from the sensors and actuators installed in the Vector-P UAV. From the use of the software developed in LabVIEW, the data visualization was unified into a single tool. Before this program was designed, the user had to interface with many different tools developed by the sensors manufacturer, as well as to develop a code in MATLAB to process those data.",
+  "subjects": [
+    "Aquisiçăo de dados",
+    "Aeronave năo-tripulada",
+    "Desenvolvimento de software",
+    "Processamento de sinais",
+    "Processamento de dados",
+    "Engenharia de software"
+  ],
+  "defense_date": "06/03/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65879",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65879&origem=BDITA"
+}

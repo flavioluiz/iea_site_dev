@@ -1,0 +1,30 @@
+{
+  "num_tese": "000557865",
+  "type": "tese",
+  "title": "Projeto de experimento para análise de vibraçăo em aeronaves de asas rotativas.",
+  "author": "Josmar Carreiro Freitas",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por objetivo estudar o emprego da metodologia de Projeto de Experimentos, empregando-se Quadrados Latinos na análise de vibraçőes em aeronaves de asas rotativas. Săo avaliados os efeitos devido ao rotor principal, na condiçăo de vôo ŕ frente, para emprego como ferramenta inicial de controle preditivo de manutençăo e permitir o desenvolvimento futuro de sistemas de gravaçăo de dados. Para tanto, identificam-se as freqüęncias de interesse que săo transmitidas ŕ fuselagem e desenvolve-se o processo de planejamento de experimento, monitoramento e análise de resultados, aplicando-se um modelo estatístico fundamentado na Análise de Variância com intervalo de confiança de 95%. O Projeto de Experimentos propriamente dito abrange tręs princípios básicos visando garantir a isençăo de tendęncias nos dados obtidos: randomization, replication e blocking. Propőe-se entăo um método para análise de vibraçőes apresentando-se passos a serem seguidos permitindo o seu desenvolvimento em uma seqüęncia sistemática. Neste contexto, identificam-se as variáveis influenciadoras do processo, seus valores de interesse e emprega-se uma ferramenta que permita eliminar a influęncia de fatores indesejados, permanecendo apenas o efeito da velocidade, por ser conhecido. Em seguida, săo efetuadas verificaçőes da validade dos dados permitindo análises consistentes. A aplicaçăo do método proposto é realizada através de uma modelagem computacional, empregando-se o software \"R\", para a avaliaçăo do incremento de vibraçăo das aeronaves Eurocopter modelo AS-355. Apresenta-se ainda um estudo preliminar para as aeronaves Sikorsky modelo Sea King, denotando a flexibilidade de aplicaçăo em aeronaves com características diferentes, sendo de interesse a conclusăo deste último em estudos futuros.",
+  "subjects": [
+    "Monitoramento da saúde de sistemas",
+    "Vibraçăo",
+    "Manutençăo de aeronaves",
+    "Aeronaves de asas rotativas",
+    "Controle preditivo",
+    "Análise estatística",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "02/10/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557865",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557865&origem=BDITA"
+}

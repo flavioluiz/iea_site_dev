@@ -1,0 +1,109 @@
+{
+  "publication_id": "2-s2.0-85159561789",
+  "eid": "2-s2.0-85159561789",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "EFFECTS OF TWO WINGLET TIP GEOMETRIES ON THE FLOW AND AERODYNAMIC PERFORMANCE OF A HYDRAULIC AXIAL TURBINE",
+  "abstract": "© (2022) by International Council of Aeronautical Sciences (ICAS) All rights reserved.An Axial Turbine Blade Tip has a great influence on its flow behavior and performance. Due to the clearance between the turbine casing and the rotor blades tips, part of the flow leaks from the pressure side to the suction side. This leakage reduces the turbomachine efficiency, and therefore must be minimized. Over the years, the use of desensitization techniques has proven to be an excellent strategy for reducing this unwanted flow. These techniques, however, has only been studied in machines that operate with compressible fluids. The objective of this work is to verify the effects of two Winglet geometries in the first stage of the Liquid Oxygen (LOX) Turbine used as booster in the Space Shuttle Main Engine (SSME). The two Winglet geometries evaluated have identical thickness and width, being differentiated by their trailing edge region configuration. In this region, the first geometry (W1) connects to the trailing edge with an angle close to 90°, while the second geometry (W2) presents a smooth connection. The results obtained show that it is possible to improve the stage efficiency depending on the geometry adopted, as well as to analyze the cavitation phenomenon. The mesh generation and simulations were done using a commercial software and the 3D flow calculations were based on the Reynolds Averaged Navier-Stokes (RANS) equations.",
+  "authkeywords": [
+    "CFD",
+    "Desensitization",
+    "Tip Clearance",
+    "Turbopump",
+    "Winglet"
+  ],
+  "year": "2022",
+  "date": "2022-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "33rd Congress of the International Council of the Aeronautical Sciences Icas 2022",
+    "issn": null,
+    "eissn": null,
+    "volume": "4",
+    "issue": null,
+    "pages": "2402-2418",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva Tonon, Daniel",
+      "scopus_id": "57221682357",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Tomita, Jesuino Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Barbosa, Daniel Ferreira Corrêa",
+      "scopus_id": "58258733200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Whitacker, Luiz Henrique Lindquist",
+      "scopus_id": "57195369241",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Almeida, Luiz Eduardo Nunes",
+      "scopus_id": "55849430800",
+      "affiliation": "129694446",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "jesuino-takachi-tomita",
+    "cleverson-bringhenti"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 35,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159561789&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.051688",
+    "data_quality_score": 80
+  }
+}

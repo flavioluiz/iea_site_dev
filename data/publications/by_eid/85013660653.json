@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85013660653",
+  "eid": "2-s2.0-85013660653",
+  "doi": "10.2514/1.C033834",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Aircraft control based on flexible aircraft dynamics",
+  "abstract": "Copyright © 2016 by Flavio Silvestre. Published by the American Institute of Aeronautics and Astronautics, Inc., with permission.In this paper, the control law design for flexible aircraft is discussed. First, the traditional procedure of decoupling rigid-body and aeroelastic dynamics with low-pass and notch filters is addressed, with focus on controller performance as well as the resulting stability margin issues. A procedure based on a unified formulation of the flexible aircraft dynamics for flight control law design is proposed. In this procedure, the aeroservoelastic dynamics is assessed in the loop, and the offline filtering process is avoided. The formulation is applied to the virtual aircraft generic narrow-body airliner, with improvements in closed-loop performance and stability margins.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aircraft",
+    "issn": "00218669",
+    "eissn": "15333868",
+    "volume": "54",
+    "issue": "1",
+    "pages": "262-271",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silvestre, Flávio J.",
+      "scopus_id": "56368533200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Neto, Antônio B.Guimarães",
+      "scopus_id": "55996695500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "antonio-b-guimaraes-neto"
+    },
+    {
+      "name": "Bertolin, Rafael Mendes",
+      "scopus_id": "57189045067",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Silva, Roberto Gil Annes",
+      "scopus_id": "35451481500",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Paglione, Pedro",
+      "scopus_id": "23973700300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "antonio-b-guimaraes-neto",
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 39,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85013660653&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.055391",
+    "data_quality_score": 90
+  }
+}

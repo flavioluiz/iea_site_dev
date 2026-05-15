@@ -1,0 +1,36 @@
+{
+  "num_tese": "63607",
+  "type": "tese",
+  "title": "Análise numérica e experimental de escoamento transônico sobre o aerofólio NACA 0012 no túnel transônico piloto do IAE",
+  "author": "Bruno Goffert",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joăo Batista Pessoa Falcăo Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Experimentos em escoamentos transônicos sobre aerofólios em túneis de vento podem apresentar reflexőes de ondas de choque, entupimento aerodinâmico e alteraçăo das linhas de corrente devido ŕ presença das paredes da seçăo de testes. Para inibir estes fenômenos físicos, projetistas desenvolveram seçőes de testes com paredes perfuradas ou fendidas. O objetivo deste trabalho é analisar numericamente e experimentalmente escoamento transônico sobre o aerofólio NACA 0012 no Túnel Transônico Piloto (TTP) do Instituto de Aeronáutica e Espaço (IAE). As análises foram realizadas com número de Mach 0,6 a 0,85 e variaçőes de ângulo de ataque de 0ş a 8ş. As simulaçőes numéricas săo baseadas nas Equaçőes de Euler, resolvidas pelo método de diferenças finitas centradas, proposto por Beam e Warming e modificado para algoritmo diagonal. Foi gerada algebricamente a malha computacional da seçăo de testes fendidas do TTP com o aerofólio NACA 0012 fixado nas paredes superior e inferior, e por equaçőes diferenciais parciais os pontos próximos ao perfil foram redistribuídos. As distribuiçőes de pressăo obtidas pelas simulaçőes numéricas foram comparadas entre escoamentos em paredes sólidas e paredes com fendas, das quais se verificaram a importância das fendas em escoamentos transônicos. Dos experimentos no TTP foram realizadas mediçőes de distribuiçăo de pressăo por tomadas de pressăo estática e pela técnica PSP (\"Pressure Sensitive Paint\"), das quais foram obtidas distribuiçőes de pressăo sobre toda a corda aerodinâmica do perfil. Os resultados experimentais e numéricos com paredes fendidas foram comparados com o trabalho de Harris, onde se observaram curvas de distribuiçăo de pressăo e posicionamento de ondas de choque mais próximas do que as encontradas em trabalhos realizados em túneis de vento renomados.",
+  "subjects": [
+    "Escoamento transônico",
+    "Aerofólios",
+    "Análise numérica",
+    "Túneis de vento transônicos",
+    "Equaçăo de Euler-Lagrange",
+    "Aerodinâmica",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "12/09/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63607",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63607&origem=BDITA"
+}

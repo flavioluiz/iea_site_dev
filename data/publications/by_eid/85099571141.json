@@ -1,0 +1,91 @@
+{
+  "publication_id": "2-s2.0-85099571141",
+  "eid": "2-s2.0-85099571141",
+  "doi": "10.1109/ISMCR51255.2020.9263404",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Comparison of estimation methods for identification of a robotic flight simulator",
+  "abstract": "© 2020 IEEE.The aim of this work is to implement a representative dynamics model of the SIVOR flight simulator. Two experiments were conducted and used to estimate and validate the model; the first one excites one robot channel at once and the second excites more than one robot channel. Based on a previous study, we established the model structure. Three distinct approaches of black-box identification model were employed: transfer function models, space-state models and ARX models. The results obtained were similar and satisfactory for inputs until 1 Hz.",
+  "authkeywords": [
+    "estimation methods",
+    "flight simulator",
+    "system identification"
+  ],
+  "year": "2020",
+  "date": "2020-10-15",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "2020 23rd IEEE International Symposium on Measurement and Control in Robotics Ismcr 2020",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "9263404"
+  },
+  "authors": [
+    {
+      "name": "Da Conceicao Matheus, Aline",
+      "scopus_id": "57205543905",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "De Oliveira, Wesley Rodrigues",
+      "scopus_id": "57203013208",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "wesley-rodrigues-de-oliveira"
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani",
+    "wesley-rodrigues-de-oliveira"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Artificial Intelligence",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Human-Computer Interaction",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Instrumentation",
+        "abbrev": "PHYS",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099571141&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049284",
+    "data_quality_score": 100
+  }
+}

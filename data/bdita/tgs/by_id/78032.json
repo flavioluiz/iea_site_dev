@@ -1,0 +1,31 @@
+{
+  "num_tg": "78032",
+  "type": "tg",
+  "title": "Aprimoramento de modelo de desempenho para projeto conceitual de alvo aéreo manobrável",
+  "author": "Daniel Marques Silva",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho consiste no refinamento de uma ferramenta de projeto conceitual de dimensionamento para alvos aéreos manobráveis, por meio do desenvolvimento de uma modelagem de decolagem assistida por foguete, presente em (SUTTON; BIBLARZ, 2010) e no aprimoramento das etapas de subida e descida do perfil de missăo no que concerne ŕs fraçőes de massa de combustível consumido nas respectivas etapas, conforme modelos apresentados em (RAYMER, 1992), tendo como base características inerentes a cada uma dessas fases de voo. Todos os resultados obtidos após as modificaçőes foram comparados com os apresentados em (FREITAS, 2020), tanto para o alvo aéreo Skua da Denel Dynamics, como para o alvo aéreo ótimo obtido em (FREITAS, 2020), com o objetivo de validar as melhorias no modelo propostas pelo refinamento. Com isso, entăo, notou-se que houve uma economia de gasto de combustível ao longo do perfil de missăo de 4,10 % para a aeronave Skua e de 9,13 % para a aeronave ótima de (FREITAS, 2020), após o refinamento proposto. Ao final, săo indicadas algumas sugestőes para próximos passos com o objetivo de dar continuidade ao projeto de pesquisa e desenvolvimento de um alvo aéreo manobrável nacional, destacando-se como exemplo a análise do desempenho da aeronave com e sem a adiçăo de pods e a implementaçăo de um sistema de terminaçăo de voo.",
+  "subjects": [
+    "Alvos",
+    "Projetos",
+    "Propulsăo a jato",
+    "Otimizaçăo",
+    "Aeronaves comerciais",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78032",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78032&origem=BDITA"
+}

@@ -1,0 +1,38 @@
+{
+  "num_tese": "78693",
+  "type": "tese",
+  "title": "Post-buckling fatigue analysis in aeronautical panels subjected to supersonic flow aeroelastic effects",
+  "author": "Rafael da Silva Alves",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "abstract": "This work consists in an analysis of biaxial post-buckling fatigue methodology in metallic aeronautical flat rectangular panels subjected to aeroelastic effects in supersonic flows. In the structural view, the work has the proposition to define a numerical methodology, using state-of-the-art Finite Element Modeling good practices, regarding the non-linear elastic post-buckling analysis. In the aeroelastic view, the purpose of the work is to contribute to a practical industrial approach, using state of the art CAE software in combination with the best fitting supersonic analytical aerodynamic theories for aeroelasticity modeling in pressure loads, on a dynamic nonlinear analysis to generate a non-linear stress history. Finally, it is proposed to determine a fatigue life of the panel for purposes of aircraft concept and detail design phase in Stress Analysis. The proposed numerical structural modeling was made using Siemens FEMAP With NX Nastran CAE software to run the post-buckling analysis. The aerodynamic supersonic pressure loads are obtained through linearized first-order Piston-theory formulation. The aeroelastic interaction solution is obtained through a non-linear direct integration dynamic implicit analysis Solution of the finite element in the time domain by Newmark's Beta method with an iterative update of the aerodynamic loads. At last, this stress history is submitted to a Rainflow counting cycle technique to provide fatigue block loadings and calculate the structural fatigue life using the cumulative damage Palmgren Miner rule. The method is validated using a flat rectangular aeronautical panel on post-buckling behavior and supersonic aerodynamic flow effects on the structure's fatigue life and its aeroelastic results are compared with the classic literature to validate the model. It is proposed a modification in the damping parameter based on the literature values for result adequation and to overcome software modeling limitations.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Painéis",
+    "Vida em fadiga",
+    "Flambagem",
+    "Escoamento supersônico",
+    "Análise numérica",
+    "Método de elementos finitos",
+    "Năo-linearidade",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "28/03/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78693",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78693&origem=BDITA"
+}

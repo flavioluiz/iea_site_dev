@@ -1,0 +1,77 @@
+{
+  "publication_id": "2-s2.0-85199869842",
+  "eid": "2-s2.0-85199869842",
+  "doi": "10.2514/6.2023-3768",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Performance Investigation of a Jump Indicator Driver for P-adaptation in Incompressible Navier-Stokes Simulations of a Flat Plate",
+  "abstract": "© 2023, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Up to this day, the Computational Fluid Dynamics (CFD) field struggles to generate accurate and computationally viable turbulent flow simulations for aeronautical problems. The absence of a proper spatial resolution reduces the accuracy of simulations and may lead to nonphysical results and numerical instabilities. This problem may be addressed by increasing the number of degrees of freedom in the simulation. Since this also leads to higher computational costs, this process must be performed parsimoniously and focus on where it is the most efficient. However, the process of identification and refinement of those regions can be far from trivial. The current work is an initial step to investigate the performance of adaptation drivers that can be used to make industrial simulations more viable. The drivers are based on a jump indicator for high-order spectral/hp schemes. It takes the difference between averaged values on overlapping borders of two different elements as a measurement of error. The chosen adaptation method is a p-adaptation framework that increases the polynomial order of 10% of the mesh elements. The governing equations employed in the study are the two-dimensional Navier-Stokes equations, and the simulated test case is one of a tilted flat plate.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "AIAA Aviation and Aeronautics Forum and Exposition AIAA Aviation Forum 2023",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Carvalho, Eduardo de Oliveira",
+      "scopus_id": "57221850276",
+      "affiliation": "60021657-131507422",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo Costa",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657-131507422",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "da Silva, André Fernando de Castro",
+      "scopus_id": "57201349267",
+      "affiliation": "60021657-131507422",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-fernando-c-silva"
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura",
+    "andre-fernando-c-silva"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Nuclear Energy and Engineering",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 24,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85199869842&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069459",
+    "data_quality_score": 80
+  }
+}

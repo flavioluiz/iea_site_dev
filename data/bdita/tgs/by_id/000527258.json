@@ -1,0 +1,31 @@
+{
+  "num_tg": "000527258",
+  "type": "tg",
+  "title": "Identificaçăo de parâmetros de aeronaves via método de filtragem estocástica recursiva.",
+  "author": "Rafael Alves Pereira",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    },
+    {
+      "name": "Marcelo Curvo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve a deduçăo e implementaçăo de um método de identificaçăo de parâmetros de aeronaves baseado na filtragem estocástica (filtro de Kalman) dos parâmetros estimados a partir de estados também filtrados previamente. É apresentada a deduçăo das equaçőes usadas nos filtros, o procedimento para a estimaçăo e os resultados de algumas simulaçőes e testes. O modelo aqui utilizado abrange apenas a faixa de ângulos de ataque onde o comportamento da aeronave é linear com uma polar de arrasto quadrática típica. Entretanto, o método em si independe do modelo. A partir dos dados medidos em ensaios em vôo (posiçőes e velocidades lineares e angulares da aeronave e posiçőes das superfícies de controle e manetes de combustível), os parâmetros do modelo podem ser identificados. É necessário ressaltar a grande importância do planejamento das manobras de ensaio para que se possa fazer uma boa estimaçăo. Năo é possível estimar parâmetros que năo forem excitados. Verificou-se a eficięncia do método com dados simulados. Com parâmetros predefinidos, foram simuladas algumas manobras em um programa de simulaçăo que gerava ruídos brancos e gaussianos de média zero no processo (erros de modelagem e turbulęncias) e nas medidas. Procedendo-se ŕs estimativas, viu-se que os erros dos parâmetros estimados perante os valores pré-definidos foram consideravelmente pequenos. Como um teste prático, também foram estimados os parâmetros para uma aeronave real a partir do modelo aqui utilizado. Finalmente, concluiu-se que o método proposto, se bem utilizado, isto é, com manobras bem planejadas e um modelo representativo de aeronave, pode ser uma ferramenta bastante útil para a identificaçăo paramétrica, gerando economia de tempo e dinheiro na fabricaçăo de simuladores, projeto de sistemas de controle ou outras atividades onde o modelo da aeronave seja necessário.",
+  "subjects": [
+    "Controle automático",
+    "Identificaçăo de parâmetros",
+    "Filtros de Kalman",
+    "Processos estocásticos",
+    "Estimaçăo de sistemas",
+    "Projeto de aeronaves",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527258",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527258&origem=BDITA"
+}

@@ -1,0 +1,90 @@
+{
+  "publication_id": "2-s2.0-85088058468",
+  "eid": "2-s2.0-85088058468",
+  "doi": "10.2514/6.2017-3391",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "System identification approach for a tethered airship",
+  "abstract": "© 2017, American Institute of Aeronautics and Astronautics. All rights reserved.A preliminary investigation of applying system identification methodology for a tethered airship vehicle is presented. A series of flight test campaigns was carried out with the tethered airship providing flight data suitable for parameter estimation. A nonlinear model is selected and a set of state and observation equations is described; biases, and initial condition parameters are estimated by data compatibility check and the flight path reconstruction is presented. The Output Error Method is selected to estimate the aerodynamic parameters and the initial conditions taking into account the influence of tether disturbances. This paper also presents the experiment setup, flight conditions, and brings preliminary system identification results regarding the tethered airship dynamics. Finally, it brings a discussion regarding main considerations on approaching system identification methods for a tethered airship.",
+  "authkeywords": null,
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "24th AIAA Aerodynamic Decelerator Systems Technology Conference 2017",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Santos, Jônatas Sant Anna",
+      "scopus_id": "57674870500",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Stevanovic, Stojan",
+      "scopus_id": "56086300200",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kondak, Konstantin",
+      "scopus_id": "6602371383",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz Carlos Sandoval",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Pant, Rajkumar S.",
+      "scopus_id": "23091319400",
+      "affiliation": "60014153",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85088058468&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077286",
+    "data_quality_score": 90
+  }
+}

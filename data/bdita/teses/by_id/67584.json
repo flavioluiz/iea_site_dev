@@ -1,0 +1,28 @@
+{
+  "num_tese": "67584",
+  "type": "tese",
+  "title": "Comportamento dinâmico de uma viga-caixăo típica no regime de pós-flambagem",
+  "author": "Felipe Franzoni",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Estruturas de paredes finas săo extensivamente utilizadas em aplicaçőes aeronáuticas para satisfaçăo dos critérios simultâneos de alta performance e reduçăo de peso. Nestas condiçőes extremas de projeto as estruturas frequentemente operam além do limite da estabilidade local. Neste contexto, este trabalho propőe uma abordagem numérica para descrever o comportamento dinâmico de uma viga-caixăo simplificada de alumínio sujeita a flambagem local. A metodologia proposta é baseada num modelo de elementos finitos năo-linear e num procedimento de análise modal experimental. O modelo de elementos finitos contempla uma soluçăo em duas etapas para os problemas năo-linear estático e de vibraçőes livres acoplados: (i) determina-se o equilíbrio estático, considerando năo-linearidades geométricas, e, (ii) resolve-se o problema linear de vibraçőes livres para pequenas amplitudes com base na matriz de rigidez tangente do equilíbrio estático corrente. A fim de ilustrar o método proposto, o modelo numérico é definido para uma viga-caixăo simplesmente apoiada em compressăo uniaxial, com diferentes valores para a excentricidade de carga. Os resultados numéricos săo correlacionados com um procedimento de análise modal experimental nos regimes de pré e pós-flambagem. Com base nesta comparaçăo, uma atualizaçăo no modelo é proposta ajustando-se imperfeiçőes iniciais baseadas nos modos de flambagem linear. Os resultados săo apresentados com o intuito de ilustrar o efeito do fenômeno da flambagem local, das imperfeiçőes iniciais e da excentricidade de carga sobre o comportamento dinâmico da viga-caixăo. As variaçőes das frequęncias naturais com o carregamento săo caracterizadas pela metodologia numérica. Os resultados, validados experimentalmente, se mostraram bastante satisfatórios e podem ser utilizados em fases preliminares de projeto.",
+  "subjects": [
+    "Análise modal",
+    "Flambagem",
+    "Método de elementos finitos",
+    "Propriedades mecânicas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "27/11/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67584",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67584&origem=BDITA"
+}

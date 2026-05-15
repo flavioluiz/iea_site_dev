@@ -1,0 +1,29 @@
+{
+  "num_tese": "73973",
+  "type": "tese",
+  "title": "Ferramenta numérica para projeto preliminar de compressores axiais",
+  "author": "Frederico Vieira de Lima",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As turbinas a gás passaram por inúmeros avanços tecnológicos, principalmente após a Segunda Grande Guerra, devido ŕ altos investimentos em pesquisa e desenvolvimento. Grande parte desse desenvolvimento foi dedicado ŕs tecnologias utilizadas nos principais componentes que compőem esse motor, a saber: compressor; câmara de combustăo; e turbinas. Resultante muitas vezes de programas de Estado, houveram ao longo dos anos o surgimento de motores e grupos geradores mais eficientes e de maior vida útil. Cada componente citado acima necessita de tecnologias específicas para seu projeto e manufatura. No caso de compressores axiais, tema do presente trabalho, existem ainda inúmeros desafios na área de turbomáquinas de alta eficięncia e/ou desempenho. Assim, baseado na necessidade de se ter uma ferramenta própria, de projeto, que possa ser de total acesso e de boa flexibilidade em sua manipulaçăo com a possibilidade de novas implementaçőes, principalmente de modelos de perdas internas, o presente trabalho traz uma proposta de desenvolvimento de um programa de computador para dimensionamento de compressores axiais, o P3CA (Programa de projeto preliminar de compressores axiais). Com o objetivo de proporcionar ao usuário uma interface intuitiva com o controle de diversos parâmetros de projeto da máquina. Neste documento estăo descritos os cálculos e metodologias implementados, incluindo as formulaçőes semi-empíricas dos modelos de perdas utilizados. Os resultados de projetos de tręs diferentes compressores axiais: 1 estágio; 3 estágios; e 5 estágios, foram comparados com o software comercial AXIAL® desenvolvida pela CONCEPTS NREC. Os resultados obtidos se mostraram em concordância. Ao final, uma demonstraçăo do programa desenvolvido em conjunto com uam ferramenta de projeto através de otimizaçăo é mostrada além de diferentes propostas para futuros trabalhos săo sugeridos, com o intuito de tornar a ferramenta numérica mais robusta.",
+  "subjects": [
+    "Turbocompressores",
+    "Programas de computadores",
+    "Turbinas a gás",
+    "Câmaras de combustăo",
+    "Turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "08/11/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73973",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73973&origem=BDITA"
+}

@@ -1,0 +1,71 @@
+{
+  "publication_id": "2-s2.0-84905262457",
+  "eid": "2-s2.0-84905262457",
+  "doi": "10.1016/j.jfluidstructs.2014.06.013",
+  "pii": "S0889974614001315",
+  "pubmed_id": null,
+  "title": "Aeroelastic stability analysis considering a continuous flight envelope",
+  "abstract": "This paper presents a new methodology to analyze aeroelastic stability in a continuous range of flight envelope with varying parameter of velocity and altitude. The focus of the paper is to demonstrate that linear matrix inequalities can be used to evaluate the aeroelastic stability in a region of flight envelope instead of a single point, like classical methods. The proposed methodology can also be used to study if a system remains stable during an arbitrary motion from one point to another in the flight envelope, i.e., when the problem becomes time-variant. The main idea is to represent the system as a polytopic differential inclusion system using rational function approximation to write the model in time domain. The theory is outlined and simulations are carried out on the benchmark AGARD 445.6 wing to demonstrate the method. The classical pk-method is used for comparing results and validating the approach. It is shown that this method is efficient to identify stability regions in the flight envelope. © 2014 Elsevier Ltd.",
+  "authkeywords": [
+    "Continuous flight envelope",
+    "Flutter",
+    "LMI",
+    "Polytopic systems"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids and Structures",
+    "issn": "08899746",
+    "eissn": "10958622",
+    "volume": "49",
+    "issue": null,
+    "pages": "716-727",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bueno, Douglas Domingues",
+      "scopus_id": "25930772600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "José Paupitz Gonçalves, Paulo",
+      "scopus_id": "55681491500",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Carlos Sandoval Góes, Luiz",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84905262457&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077588",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "num_tese": "77657",
+  "type": "tese",
+  "title": "Sistema robótico integrado de aplicaçăo e inspeçăo de selante em prendedores e filetes aeronáuticos",
+  "author": "Kleber Roberto da Silva Santos",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A automaçăo da montagem estrutural de aeronaves ainda é um paradigma operacional a ser superado para tornar esse setor da indústria mais competitivo. Apesar dos desenvolvimentos e das inovaçőes tecnológicas ocorridos nas últimas décadas, tais tecnologias năo conseguem atender de forma plena as necessidades da indústria aeronáutica, fazendo com que essa ainda tenha altos índices de operaçőes manuais. Neste contexto, este trabalho desenvolve uma soluçăo eficiente para a automaçăo do processo completo de selagem, depósito de selante e inspeçăo dimensional, de forma integrada, para estruturas do tipo filetes e prendedores aeronáuticos. As estruturas citadas foram escolhidas por se apresentarem de forma numerosa e serem representativas dos desafios existentes na operaçăo de selagem da montagem estrutural de aeronaves. Tal soluçăo é composta por um robô manipulador industrial, responsável por gerar as movimentaçőes necessárias para realizaçăo das deposiçőes de selante com formato e em posicionamento adequados, sistema sensorial, capaz de localizar e inspecionar as estruturas a serem trabalhadas de forma automática, e sistema de deposiçăo, capaz de gerar o fluxo de selante necessário para cobrir as estruturas alvos de forma adequada. Além da integraçăo desses sistemas, esta tese contribui com o desenvolvimento de algoritmos para extraçăo e coleta das informaçőes necessárias para o funcionamento da soluçăo de forma flexível, superando as variaçőes dimensionais intrínsecas do processo de selagem empregados na manufatura aeronáutica. Um conjunto de testes experimentais, usando técnicas estatísticas e normas aderentes a soluçăo, foram desenvolvidos e realizados, conseguindo estimar limites operacionais de determinadas características e verificar a aplicabilidade da soluçăo completa para selagem de estruturas aeronáuticas. Foi considerado possível a extraçăo de informaçőes suficientes para verificar a adequaçăo dimensional das coberturas depositadas em relaçăo as necessidades dimensionais do processo. Tal desenvolvimento é uma inovaçăo para a cadeia produtiva de montagem estrutural de aeronaves, visto que quase a totalidade das aplicaçőes de selante neste setor é feita de forma manual conforme foi constatado na literatura pesquisada.",
+  "subjects": [
+    "Manufaturas",
+    "Automaçăo",
+    "Aeronaves",
+    "Robótica",
+    "Computaçăo"
+  ],
+  "defense_date": "03/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77657",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77657&origem=BDITA"
+}

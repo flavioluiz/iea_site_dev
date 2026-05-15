@@ -1,0 +1,31 @@
+{
+  "num_tese": "000555681",
+  "type": "tese",
+  "title": "Estudo da verificaçăo e validaçăo de sistemas embarcados espaciais utilizando SysML e Model Checking.",
+  "author": "Eduardo Correia da Silva",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Entre as principais dificuldades do desenvolvimento de software embarcado crítico e de tempo real está a especificaçăo e o processo de verificaçăo e validaçăo apoiado ao projeto conceitual. Neste contexto, a modelagem de sistemas tem uma importante funçăo, uma vez que um processo complexo possa ser analisado e validado antes de sua real implementaçăo. Esta dissertaçăo aborda o problema de verificaçăo e validaçăo de software embarcado de um satélite com configuraçăo ACDH (Attitude Control and Data Handling) através de uma plataforma aerosuspensa com um grau de liberdade, utilizando a SysML, a ferramenta CASE TELELOGIC Rhapsody e a orientaçăo das normas da ECSS (European Cooperation on Space Standardization). A partir do modelo obtido, săo utilizadas tręs abordagens para análise e avaliaçăo: (1) Especificaçăo e gerenciamento dos requisitos, através dos conceitos determinados pela ECSS; (2) Modelagem do sistema e verificaçăo dos requisitos, através do formalismo matemático dos autômatos utilizando a técnica de model checking através da ferramenta UPPAL; (3) Conversăo do modelo em SysML, aplicando a Engenharia de Requisitos e o processo de verificaçăo e validaçăo do sistema, através da simulaçăo na ferramenta CASE.",
+  "subjects": [
+    "Sistemas de computadores embarcados",
+    "Especificaçăo formal",
+    "Verificaçăo de programas (computadores)",
+    "Verificaçăo formal",
+    "Ferramentas de desenvolvimento de software",
+    "Software de segurança crítica",
+    "Teoria dos autômatos",
+    "Engenharia de software"
+  ],
+  "defense_date": "18/09/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000555681",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000555681&origem=BDITA"
+}

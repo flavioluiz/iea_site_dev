@@ -1,0 +1,31 @@
+{
+  "num_tese": "000393127",
+  "type": "tese",
+  "title": "Integrated structural/control optimization of a large space structure with articulation subject to the gravity-gradient torque.",
+  "author": "Ijar Milagre da Fonseca",
+  "year": "1998",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Peter Montgomery Bainum",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Optimization has been playing a very important role in the orbit and attitude control, and structural design of spacecraft since the advent of the space era. It is well known that weight, space, energy, and time are among the most important constraints that guide the space missions planning. the optimization has a wide field of applications even if only the space area is considered. In this work the focus is on the structural and control optimization of Large Space Structures (LSS). the structural and the control optimization are separete disciplines that have had application in space missions since the early days of the space era. However the integrated problem is recent. The terminology \"Integrated\" here stands for an optimization process that takes into account simultaneously aspects of both areas: Structures and Control. The main goal of this new field in space sciences is to obtain an optimal integrated system under the point of view of the Structure and Control disciplines. In this sense this approach creates a necessary bridge between structural and control groups for they have been working separately and facing integration problems during the whole history of the space conquest mainly when the spacecraft is large and has a complex structural configuration. In the case treated here the optimization aims to obtain the minimum weight of a structure while satisfying constraints involving frequencies, control damping and weight of structural appendages. The control is designed together with the structure to damp the structural vibration and pitch motion (attitude control). the gravity-gradient is considered as a source of external torque, characterizing the space environment. One of the strongest challenges to solve the integrated structural/control optimization problem is that of software integration. If computer codes are to be developed they must have structural and control optimization capabilities and which may be by itself a separate problem. The idea that has guided this work is the use of existing software. In this way no computational packages have to be built. However the difficulty of integrating existing software must be considered before embarking in such a comprehensive task. In this research the ORACLS (Optimal Regulator Algorithms for the Control of Linear Systems) software was chosen from the control side. From the structural area the NEWSUMT-A (New Sequential Unconstrained Minimization Technique) and OPT (OPTmization) computer programs were chosen. MATLAB (MATrix LABoratory) software has also been used for the control of the transient phase. The linear quadratic regulator (LQR) technique was used to solve the vibration and control problem while the sequential unconstrained minimization techniques (SUMT) were used to attack the structural part of the problem. This means that the SUMT and the LQR (Linear Quadratic Regulator) were used simultaneously through two integrated computer programs to solve the structural and control problem. The Generalized Reduced Gradient method (GRG) has also been used in conjunction with the LQR to solve a more simplified version of the Large Space Structure treated here. In this research the integrated structural/control method is used to optimally design a Large Space Structural system with and without articulation subject to the gravity-gradient. The result demonstrates that it is possible that the control area consideration may impose some restrictions on the structural design if integrated software can work to solve the problem. The improvements in the weight an control efforts are significant as compared with the original (non-optimal) design. However, the computer cost to solve problems with large numbers of design variables and constraints must be balanced; otherwise the problem solution may become prohibitive under cost aspects. That is, an optimal integrated system under the structural and control consideration may have a solution cost which is not et all optimal.",
+  "subjects": [
+    "Estrutura espacial",
+    "Otimizaçăo",
+    "Controle",
+    "Dinâmica de vôo",
+    "Vibraçăo estrutural",
+    "Arfagem (inclinaçăo)",
+    "Engenharia aeroespacial",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000393127",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000393127&origem=BDITA"
+}

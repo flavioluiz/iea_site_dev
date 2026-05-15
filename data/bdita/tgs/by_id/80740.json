@@ -1,0 +1,28 @@
+{
+  "num_tg": "80740",
+  "type": "tg",
+  "title": "Levantamento de modelo aerodinâmico de uma Aeronave Cessna 150",
+  "author": "Bruno dos Santos Arruda",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A aeronave Cessna 150 é amplamente utilizada em escolas de aviaçăo na formaçăo primária de pilotos civis. Com isso, foi realizado um estudo com o objetivo de aprofundar o entendimento do desempenho e das características de estabilidade da aeronave, por meio de uma abordagem teórica e computacional. Para isso, foi realizada uma modelagem da aeronave utilizando o software AVL (Athena Vortex Lattice), com o intuito de obter as derivadas de estabilidade longitudinal e lateral-direcional, fundamentais para a análise do comportamento estático e dinâmico da aeronave em voo. Além do AVL, foi adotada a metodologia proposta por Roskam, que fornece uma estimativa baseada em dados empíricos e métodos semi-analíticos, e que já contempla uma modelagem da Cessna 150 como exemplo em sua obra. Com os dados obtidos tanto via AVL quanto por meio do método Roskam, foi possível realizar uma comparaçăo crítica com as informaçőes de desempenho e estabilidade fornecidas no manual do fabricante da aeronave e com os valores obtidos em voo. Essa comparaçăo teve como objetivo verificar a coeręncia entre os métodos adotados e os dados reais da aero- nave, além de identificar possíveis limitaçőes ou discrepâncias nos modelos utilizados. Dessa forma, o trabalho contribui para a construçăo de um conhecimento mais aprofundado sobre os aspectos técnicos do voo, reforçando a importância da engenharia na formaçăo de pilotos e na compreensăo do comportamento das aeronaves que operam.",
+  "subjects": [
+    "Desempenho de aeronaves",
+    "Treinamento do piloto",
+    "Ensaios em voo",
+    "Estabilidade longitudinal",
+    "Estabilidade de aeronaves",
+    "Especificaçőes de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80740",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80740&origem=BDITA"
+}

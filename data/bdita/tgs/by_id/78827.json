@@ -1,0 +1,27 @@
+{
+  "num_tg": "78827",
+  "type": "tg",
+  "title": "Utilizaçăo de redes neurais hamiltonianas para modelagem de problemas mecânicos",
+  "author": "Carlos Eduardo Espírito Santo Magalhăes",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Simular a dinâmica de problemas físicos tem sido fonte de pesquisa por muitos anos. Buscando-se novas formas de executar essas simulaçőes torna-se interessante utilizar técnicas e algoritmos de Aprendizado de Máquina. Atualmente dentre as diversas técnicas de aprendizagem de máquina, tem se desenvolvido e se destacado o uso de Redes Neurais Artificais para a soluçăo de problemas. Este trabalho compara a utilizaçăo de Redes Neurais Tradicionais com Redes Neurais Hamiltonianas, que, ao invés de ter como saída valores de velocidade, tem os valores da Funçăo Hamiltoniana. Isso permite introduzir aspectos físicos as análises do resultado, podendo ser checadas simetrias e conservaçőes. Foram escolhidos tręs sistemas mecânicos diferentes e a eles aplicadas os dois tipos de redes neurais além da integraçăo direta das equaçőes de movimento que foi utilizada como referęncia. Os resultados mostram uma vantagem significativa em se utilizar Redes Neurais Hamiltonianas.",
+  "subjects": [
+    "Sistemas dinâmicos",
+    "Aprendizagem (inteligęncia artificial)",
+    "Redes neurais",
+    "Funçőes hamiltonianas",
+    "Algoritmos",
+    "Análise (Matemática)",
+    "Matemática"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78827",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78827&origem=BDITA"
+}

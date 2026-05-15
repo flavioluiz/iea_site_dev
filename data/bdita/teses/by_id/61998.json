@@ -1,0 +1,32 @@
+{
+  "num_tese": "61998",
+  "type": "tese",
+  "title": "O efeito de enrijecimento por tensăo piezeletricamente induzida na estabilidade aeroelástica de painéis aeronáuticos",
+  "author": "Alex Evangelista de Almeida",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo o estudo da fronteira de estabilidade aeroelástica de painéis aeronáuticos, curvos ou planos, sujeitos ao efeito de enrijecimento provocado pelo atuador piezoelétrico (PZT). Empregou-se o Princípio de Hamilton para a obtençăo das equaçőes de equilíbrio e das condiçőes de contorno do problema. O método dos elementos finitos foi empregado para a soluçăo das equaçőes. Consideraram-se painéis manufaturados em material composto (boro-epóxi) ou em material convencional (alumínio 2024-T3) e duas camadas de material piezoelétrico (PZT-5A), uma na face superior e outra na face inferior da placa. Aplicou-se voltagem no atuador piezoelétrico e determinou-se a pressăo dinâmica correspondente ŕ condiçăo de ocorręncia de flutter da estrutura. A análise foi estendida para várias configuraçőes do painel, onde foram investigados: a variaçăo do alongamento da placa, o efeito da curvatura, a influęncia do ângulo de laminaçăo da placa, a influęncia das condiçőes de contorno, o efeito da voltagem inversa e o efeito da variaçăo de espessura do painel. O estudo mostrou que a tensăo mecânica induzida pelo efeito piezoelétrico aumenta a velocidade de ocorręncia do flutter, estabilizando a placa. Este enrijecimento da estrutura está relacionado ŕ voltagem aplicada nos atuadores e aos parâmetros geométricos da placa. Desta forma, pode-se controlar a velocidade de ocorręncia de flutter através do controle da voltagem aplicada e no projeto adequado das propriedades geométricas do painel.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Atuadores piezoelétricos",
+    "Placas (membros estruturais)",
+    "Análise de estabilidade",
+    "Vibraçăo aeroelástica",
+    "Método de elementos finitos",
+    "Análise estrutural",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61998",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61998&origem=BDITA"
+}

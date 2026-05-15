@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85198663740",
+  "eid": "2-s2.0-85198663740",
+  "doi": "10.1615/TFEC2024.fnd.050844",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A HIGH-EFFICIENCY GPU-OPTIMIZED ALGORITHM FOR CONJUGATE HEAT TRANSFER SIMULATIONS",
+  "abstract": "© 2024 Begell House Inc.. All rights reserved.In the field of Computational Fluid Dynamics (CFD), solving conjugate heat transfer problems involving natural convection remains a computationally demanding endeavor. This study presents the NEMESYS algorithm, specifically optimized for Graphics Processing Units (GPUs), with an application focused on natural convection in a square cavity that incorporates a centrally situated solid block. This complex configuration necessitates the concurrent resolution of the Navier-Stokes equations governing fluid flow and the energy equation governing heat conduction in both fluid and solid phases. Through the efficient utilization of GPU-based parallel processing, the NEMESYS algorithm managed to markedly reduce the computational burden. A quantifiable 99.5% time reduction was recorded when compared to equivalent Central Processing Unit (CPU)-based simulations, thereby manifesting a significant leap in computational efficiency. To authenticate the algorithm's credibility, an exhaustive validation process was undertaken. The simulation results were cross-verified against established benchmarks from academic literature as well as outputs from widely used commercial CFD software packages. This validation revealed strong agreement in critical parameters such as fluid velocity and temperature distributions within the fluid cavity, as well as heat conduction characteristics within the solid block. In summary, the NEMESYS algorithm emerges as a reliable, efficient computational framework for tackling the intricacies of natural convection problems involving conjugate heat transfer and holds potential for broader adaptability in high-fidelity CFD simulations.",
+  "authkeywords": [
+    "Conjugate Heat Transfer",
+    "GPU-based simulation",
+    "Natural Convection",
+    "Parallel processing"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the Thermal and Fluids Engineering Summer Conference",
+    "issn": null,
+    "eissn": "23791748",
+    "volume": null,
+    "issue": null,
+    "pages": "895-905",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Azevedo, Arthur Mendonça",
+      "scopus_id": "57549901500",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "dos Santos Magalhães, Elisan",
+      "scopus_id": "56673863600",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "elisan-dos-santos-magalhaes"
+    },
+    {
+      "name": "Botezelli, Daniel",
+      "scopus_id": "59145523600",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva Reis, César Augusto Borges",
+      "scopus_id": "57382236700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "elisan-dos-santos-magalhaes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Renewable Energy, Sustainability and the Environment",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Energy Engineering and Power Technology",
+        "abbrev": "ENER",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85198663740&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.091020",
+    "data_quality_score": 90
+  }
+}

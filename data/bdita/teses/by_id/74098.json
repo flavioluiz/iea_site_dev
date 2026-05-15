@@ -1,0 +1,28 @@
+{
+  "num_tese": "74098",
+  "type": "tese",
+  "title": "Método para análise de falhas por grafos de ligaçăo e simulaçăo dinâmica de um sistema de freios de aeronave",
+  "author": "Mário Maia Neto",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Devido ŕ grande complexidade associada aos sistemas aeronáuticos contemporâneos, a utilizaçăo de ferramentas que possibilitem a identificaçăo antecipada de falhas potenciais e seus efeitos torna-se atualmente uma necessidade cada vez mais eminente no desenvolvimento desses sistemas. Diante desse cenário, o emprego de técnicas de modelagem que permitam a análise do comportamento de sistemas em condiçőes operacionais normais e em modos particulares de falhas representa uma prática crescente na indústria. O presente trabalho tem por objetivo apresentar um método de modelagem e simulaçăo, complementada pela aplicaçăo de modelos paralelos elaborados por meio da técnica de grafos de ligaçăo e que contemplem elementos representativos de efeitos típicos de falhas, a ser empregado como ferramenta de suporte ŕ definiçăo de requisitos e análise de segurança em um sistema aeronáutico, assim como no auxílio da identificaçăo antecipada de falhas e problemas operacionais observados ao longo de sua operaçăo. A partir de simulaçőes de um modelo computacional parametrizado em LMS Amesim® e de análises qualitativas dos modelos parasitados em grafos de ligaçăo, conforme designados ao incluírem os efeitos indesejados de pane do sistema, desvios nos sistemas de interface e condiçőes operacionais particulares, o método apresenta a vantagem de combinar a agilidade da modelagem física computacional com a facilidade interpretativa do método de grafos de ligaçăo, propiciando assim uma análise preliminar rápida e orientada na identificaçăo de falhas em sistemas de aeronaves por meio do uso de uma matriz binária designada de Matriz de Falha e Efeito. Como estudo de caso, o sistema de freios de uma aeronave, equipado com o sistema de antiderrapagem (do inglęs, \"antiskid system\"), é utilizado. Presente desde a década de 1940 em diversas aeronaves, o sistema de antiderrapagem permite uma frenagem satisfatória e segura da aeronave nas condiçőes previstas de operaçăo, através da prevençăo do travamento das rodas sob a açăo do sistema de freios. Dessa forma, o método de análise de falhas proposto e desenvolvido neste trabalho é aplicado a modelos validados do sistema de freios, de suas interfaces e da dinâmica longitudinal da aeronave, para a avaliaçăo dos potenciais efeitos dessas falhas sobre os sinais provenientes de sistemas de supervisăo, em resultados de testes de manutençăo ou na própria sensibilidade da tripulaçăo durante a operaçăo da aeronave. Os resultados em questăo săo a base para o desenvolvimento de um exemplo da Matriz de Falha e Efeito para o respectivo sistema.",
+  "subjects": [
+    "Análise de falhas",
+    "Gráficos de ligaçăo",
+    "Dispositivos antiderrapagem",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "18/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74098",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74098&origem=BDITA"
+}

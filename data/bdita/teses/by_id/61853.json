@@ -1,0 +1,34 @@
+{
+  "num_tese": "61853",
+  "type": "tese",
+  "title": "Dinâmica de voo de aeronaves muito flexíveis",
+  "author": "Flávio Luiz Cardoso Ribeiro",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma formulaçăo matemática para a modelagem de aeronaves de grande flexibilidade. Uma ferramenta computacional foi implementada e utilizada para analisar como a flexibilidade afeta as características de dinâmica de voo. Um modelo de viga năo linear, ou seja considerando grandes deslocamentos, foi aplicado para a dinâmica de estruturas. Para os cálculos aerodinâmicos, utilizou-se a teoria das faixas incluindo tręs modelos bi-dimensionais: quase estacionário, quase estacionário com massa aparente e năo estacionário.Uma asa voadora de grande alongamento foi considerada como caso de estudo. Uma investigaçăo de sensibilidade foi desempenhada para verificar como os modelos aerodinâmicos empregados e a discretizaçăo da dinâmica estrutural afetam os resultados da ferramenta computacional. As equaçőes elásticas do movimento foram linearizadas, permitindo estudo de estabilidade aeroelástica. Os resultados obtidos baseados no modelo de aeronave proposto mostraram que a instabilidade aeroelástica é fortemente afetada pelos graus de liberdade de corpo rígido, bem como pelas grandes deflexőes estruturais da asa em equilíbrio.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Corpos flexíveis",
+    "Aeroelasticidade",
+    "Dinâmica de vôo",
+    "Aerodinâmica năo-estacionária",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/11/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61853",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61853&origem=BDITA"
+}

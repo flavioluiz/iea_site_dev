@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-85055018529",
+  "eid": "2-s2.0-85055018529",
+  "doi": "10.1590/1679-78254295",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Prediction of shape distortions in composite wing structures",
+  "abstract": "© 2018, Brazilian Association of Computational Mechanics. All rights reserved.Shape distortions and warpage are a major source of problems for composite manufacturers. These distortions are usually accompanied by built up residual stresses. They can deform a component so that it becomes useless. It also has the capability to reduce the strength of the structure. In this paper, the three-dimensional version of the constitutive model originally proposed by Svanberg and Holmberg is employed to predict the warpage of a wing planform. The model takes into account important mechanisms such as thermal expansion, resin shrinkage and frozen-in strains developed during curing cycles. The model was implemented into ABAQUS Finite Element code as a user subroutine UMAT. The macromechanical properties of each composite layer were predicted using a micromechanics based approach, implemented into MATLAB. Results show that wings with cross ply laminates with reducing thickness along the span experienced more warpage than quasi-isotropic laminates. Furthermore, for wings with equal thickness along the span, the results show that the quasi-isotropic laminates experienced more warpage than cross ply laminates. Lastly, the results show that wings with progressively reducing thickness experience twist that is varying from the wing root to the wing tip while wings with a constant thickness experience twist mainly at the centre of the wing.",
+  "authkeywords": [
+    "Composite Wing",
+    "Residual stresses",
+    "Shape distortions",
+    "Twist",
+    "Warpage"
+  ],
+  "year": "2018",
+  "date": "2018-10-18",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Latin American Journal of Solids and Structures",
+    "issn": "16797817",
+    "eissn": "16797825",
+    "volume": "15",
+    "issue": "11MecSol2017Joinville",
+    "pages": null,
+    "article_number": "e69"
+  },
+  "authors": [
+    {
+      "name": "Makinde, Olumide Mayowa",
+      "scopus_id": "57210145270",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Faria, Alfredo Rocha",
+      "scopus_id": "7003781294",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "alfredo-r-de-faria"
+    },
+    {
+      "name": "Donadon, Maurício Vicente",
+      "scopus_id": "57211220634",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mauricio-v-donadon"
+    }
+  ],
+  "eam_coauthors": [
+    "alfredo-r-de-faria",
+    "mauricio-v-donadon"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      },
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85055018529&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.044421",
+    "data_quality_score": 100
+  }
+}

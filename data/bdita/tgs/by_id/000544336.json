@@ -1,0 +1,34 @@
+{
+  "num_tg": "000544336",
+  "type": "tg",
+  "title": "Design methodology for UAV team coordination.",
+  "author": "Fernanda Borques da Silva",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    },
+    {
+      "name": "Mary Commings",
+      "professor_slug": null
+    },
+    {
+      "name": "Stacey Scott",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Unmanned Aerial Vehicle (UAV) systems, despite having no onboard human pilots, require a high amount of human involvement to accomplish successful operations. Existing UAV system interfaces provide little to no support for collaboration between remote operators or for operators to collaborate with information consumers and as the reliance on UAV increases in military and civilian operations, this lack of support for collaboration is expected to become a substantial limitation of UAV systems. Recently, a method, called the Hybrid CTA, has been developed to generate system design requirements for futuristic UAV control. However, the Hybrid CTA and other design methodologies derive system requirements that support single users engaged in individual tasking and decision making, being insufficient to derive collaboration requirements. In this thesis, the Hybrid CTA methodology was extended into a new methodology in order to address its limitations for teamwork design. Also, the new methodology was used to re-design a set of existing UAV operators' displays.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Fatores humanos no projeto",
+    "Interfaces",
+    "Controle baseado no solo",
+    "Desempenho de pessoal",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544336",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544336&origem=BDITA"
+}

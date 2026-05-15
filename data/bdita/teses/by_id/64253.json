@@ -1,0 +1,35 @@
+{
+  "num_tese": "64253",
+  "type": "tese",
+  "title": "Aplicaçăo de redes neurais artificiais em ciclos de potęncia com turbinas ŕ gás",
+  "author": "José Antonio Batista Neto",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sérgio Mourăo Saboya",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Dentre os sistemas centrais de potęncia, o de geraçăo com turbinas a gás torna-se relevante pelo fato de exigir pouco espaço para suas instalaçőes, e, ao mesmo tempo produzir potęncia elevada ( de 5 a 250 MW ). As variaçőes nas possibilidades de se produzir trabalho, mas também em reduzir perdas abrem espaço para as pesquisas no sentido de aperfeiçoar a eficięncia das centrais de potęncia. Muitas pesquisas tęm se realizado nesse sentido, visando a otimizaçăo, através do uso das combinaçőes de ciclos, apresentando-se hoje plantas acima de 2000 MW, com faixas de eficięncia até 55%. O objetivo deste trabalho é mostrar como se desenvolve e como pode ser aplicada uma teoria de Redes Neurais Artificiais no dimensionamento e na operaçăo de ciclos com turbinas a gás. A Rede Neural é um sistema fundamentado na neurocięncia, na matemática, na física, na cięncia da computaçăo e na engenharia e tem a propriedade de \"aprender\", a partir de dados de entrada, a encontrar respostas diante de novas entradas através de um conceito denominado de Generalizaçăo. O método permite analisar o fluxo de calor e trabalho nos ciclos, através da apresentaçăo ao sistema de novas entradas. As respostas săo recolhidas e comparadas entre si permitindo analisar os desempenhos. Para atingir este objetivo utiliza-se a metodologia computacional contida no programa MATLAB, referente ŕs Redes Neurais, que permite respostas rápidas diante dessas novas entradas. Neste trabalho, após um desenvolvimento teórico, baseado em modelos criados a partir da termodinâmica, aplica-se uma formulaçăo numérica e comparam-se os resultados obtidos através de métodos convencionais com os resultados obtidos por aplicaçăo de redes neurais, demonstrando com esses resultados uma motivaçăo para trabalhos futuros.",
+  "subjects": [
+    "Turbinas a gás",
+    "Redes neurais",
+    "Inteligęncia artificial",
+    "Ciclos termodinâmicos",
+    "Sistemas elétricos de potęncia",
+    "Termodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "21/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64253",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64253&origem=BDITA"
+}

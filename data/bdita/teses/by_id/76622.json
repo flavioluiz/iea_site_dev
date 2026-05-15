@@ -1,0 +1,28 @@
+{
+  "num_tese": "76622",
+  "type": "tese",
+  "title": "Fuzzy gain-scheduling for MIMO systems applied to flexible aircraft control",
+  "author": "Guilherme Chaves Barbosa",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Modern flight dynamics is an area that has emerged from recent years to ll the lacuna left by the absence of an integrated treatment of classical flight dynamics. By industry demands to reduce fuel consumption and a growing interest in the class of aircraft called HALE (high altitude, long endurance), the aircraft designs have become so lightweight with wings of increasing aspect-ratio that it increases flexibility. In some cases, disregarding the structural dynamics can lead to serious risks. Most aerospace vehicles developed since 1970 have some active closed-loop control system. Gain-scheduling is a widely used technique when a plant is subject to large changes in the operation range. In this context, this work proposes to investigate the effectiveness of gain-scheduling via interpolation between design points, the predominant method used in industry to develop a full-envelope flight control law. To carry out this investigation, the X-HALE aircraft, a prototype developed at the University of Michigan by Professor Cesnik, a low-cost platform for evaluating nonlinear aeroelastic phenomena and control applications, was being operated in Brazil at Instituto Tecnológico de Aeronáutica. The gain-scheduling was performed with four different techniques, one of them using fuzzy logic, which is widely used because of its easy realization and robustness. Another advantage is that the classical gain-scheduling controller based on linear interpolation cannot guarantee overall stability of the system. For fuzzy logic, this can be accomplished by the Lyapunov direct method where if a LMI set is feasible the system is global asymptotic stable. Taking advantage of the characteristic of fuzzy gain-scheduling that allows an analysis of global stability, an interactive method that combines performance and stability was proposed and evaluated. This method was proposed to state feedback and extended to output feedback. In both cases the stability enforcement results in a temporal responses improvement. In parallel, in-flight tests with the X-HALE-BR aircraft in its less flexible configuration were performed. For these flights, a stability augmentation system was developed and applied with satisfactory results.",
+  "subjects": [
+    "Controle adaptativo",
+    "Controle de aeronaves",
+    "Corpos flexíveis",
+    "Dinâmica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76622",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76622&origem=BDITA"
+}

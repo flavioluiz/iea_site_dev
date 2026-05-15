@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-85151365367",
+  "eid": "2-s2.0-85151365367",
+  "doi": "10.1103/PhysRevFluids.8.033904",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Input-output analysis of the stochastic Navier-Stokes equations: Application to turbulent channel flow",
+  "abstract": "© 2023 American Physical Society. Stochastic linear modeling proposed in Tissot, Mémin, and Cavalieri [J. Fluid Mech. 912, A51 (2021)0022-112010.1017/jfm.2020.1168] is based on classical conservation laws subject to a stochastic transport. Once linearized around the mean flow and expressed in the Fourier domain, the model has proven its efficiency to predict the structure of the streaks of streamwise velocity in turbulent channel flows. It has been in particular demonstrated that the stochastic transport by unresolved incoherent turbulence allows us to better reproduce the streaks through lift-up mechanism. In the present paper, we focus on the study of streamwise-elongated structures, energetic in the buffer and logarithmic layers. In the buffer layer, elongated streamwise vortices, named rolls, are seen to result from coherent wave-wave nonlinear interactions, which have been neglected in the stochastic linear framework. We propose a way to account for the effect of these interactions in the stochastic model by introducing a stochastic forcing, which replaces the missing nonlinear terms. In addition, we propose an iterative strategy in order to ensure that the stochastic noise is decorrelated from the solution, as prescribed by the modeling hypotheses. We explore the prediction abilities of this more complete model in the buffer and logarithmic layers of channel flows at Reτ=180, Reτ=550, and Reτ=1000. We show an improvement of predictions compared to resolvent analysis with eddy viscosity, especially in the logarithmic layer.",
+  "authkeywords": null,
+  "year": "2023",
+  "date": "2023-03-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Physical Review Fluids",
+    "issn": null,
+    "eissn": "2469990X",
+    "volume": "8",
+    "issue": "3",
+    "pages": null,
+    "article_number": "033904"
+  },
+  "authors": [
+    {
+      "name": "Tissot, Gilles",
+      "scopus_id": "55797353200",
+      "affiliation": "60105640",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Mémin, Étienne",
+      "scopus_id": "6701490767",
+      "affiliation": "60105640",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 71,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151365367&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100455",
+    "data_quality_score": 90
+  }
+}

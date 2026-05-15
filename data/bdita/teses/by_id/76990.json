@@ -1,0 +1,28 @@
+{
+  "num_tese": "76990",
+  "type": "tese",
+  "title": "Instrumentaçăo e controle de um VANT agrícola",
+  "author": "Andrew Gomes Pereira Sarmento",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A pesquisa focaliza no estudo do ajuste dos ganhos de controle do sistema de piloto automático Micropilot LRC2, e o uso dos dados do sistema de instrumentaçăo de voo embarcado para comparaçăo dos dados experimentais de ensaios em voo com um modelo aerodinâmico calculado. O projeto foi aplicado ao Veiculo Aéreo Năo Tripulado (VANT) C2 de asa fixa, projetado para aplicaçăo de pesticida agrícola em lavouras. Os estudos começaram com a proposta de um modelo da aeronave usando métodos computacionais, calculando as propriedades de inércia através de desenhos feitos em Computer Aided Design (CAD), com o software Catia®, e estimativa das propriedades aerodinâmicas como software Omni3d®. O trabalho descreve a integraçăo do sistema de instrumentaçăo e controle incorporado no Micropilot® (MP) usado para coletar dados de testes de voo e controle de voo autônomo via pontos-de-passagem. A arquitetura das malhas de controle do MP foram implementadas em Matlab-Simulink® para ajustar os controladores proporcional, integral e derivativo (PID) usando o método Linear Quadratic Regulator (LQR) e otimizar as manobras de voo. O planejamento e execuçăo de uma campanha de teste de voo săo descritos para ajustar os controladores do Micropilot® e coletar dados para comparaçăo dos dados experimentais com os dados preditos pelo modelo teórico-computacional do VANT C2. Durante a coleta dos dados experimentais, tręs métodos diferentes para estimar as variáveis anemométricas foram abordados. Os resultados obtidos com as estimativas dos dados anemométricos foram comparados com os dados reais medidos com um sistema anemométrico existente, mostrando sua validade para a identificaçăo das derivadas aerodinâmicas e para ajuste dos ganhos de controle, durante as campanhas iniciais de ensaios em voo. As técnicas de observaçăo dinâmica dos dados anemométricos e a aplicaçăo de métodos de otimizaçăo com técnicas de controle moderno mostraram a viabilidade dos métodos propostos nas primeiras fases de campanha de voo, bem como a robustez ŕs perturbaçőes em condiçőes de voo iniciais.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Estimaçăo de sistemas",
+    "Pilotos automáticos",
+    "Simulaçăo computadorizada",
+    "Controle"
+  ],
+  "defense_date": "07/07/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76990",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76990&origem=BDITA"
+}

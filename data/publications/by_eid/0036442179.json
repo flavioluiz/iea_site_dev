@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-0036442179",
+  "eid": "2-s2.0-0036442179",
+  "doi": "10.1115/FEDSM2002-31279",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of turbulent flow in a channel partially occupied by a porous layer considering the stress jump at the interface",
+  "abstract": "Environmental flows of extreme importance, such as turbulent atmospheric boundary layer over thick rain forests, may benefit from more realistic mathematical models. Accordingly, flow over layers of dense vegetation can be characterized by some sort of porous structure through which a fluid permeates. For hybrid media, involving both a porous structure and a clear flow region, difficulties arise due to the proper mathematical treatment given at the interface. The literature proposes a jump condition in which shear stresses on both sides of the interface are not of the same value. This paper presents numerical solutions for such hybrid medium, considering here a channel partially filled with a porous layer through which fluid flows in turbulent regime. One unique set of transport equations is applied to both regions. Effects of Reynolds number, porosity, permeability and jump coefficient on mean and turbulence fields are investigated. Results indicate that depending on the value of the stress jump parameters, a substantially different structure for the turbulent field is obtained.",
+  "authkeywords": null,
+  "year": "2002",
+  "date": "2002-12-11",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Fluids Engineering Division Publication FED",
+    "issn": null,
+    "eissn": null,
+    "volume": "257",
+    "issue": "1 A",
+    "pages": "639-645",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Da Silva, Renato Alves",
+      "scopus_id": "35578549800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 20,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0036442179&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111698",
+    "data_quality_score": 90
+  }
+}

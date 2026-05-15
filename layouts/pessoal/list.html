@@ -9,60 +9,133 @@
     </div>
   </div>
 
-  {{/* Load departments data */}}
   {{ $departamentos := .Site.Data.departamentos.departamentos }}
+  {{ $lang := .Language.Lang }}
 
-  {{/* Group professors by department */}}
-  {{ $professorsByDept := dict }}
-  {{ range $deptId, $_ := $departamentos }}
-    {{ $professorsByDept = merge $professorsByDept (dict $deptId slice) }}
-  {{ end }}
+  {{/* Ordered list of department IDs to control display order */}}
+  {{ $deptOrder := slice "iea-a" "iea-b" "iea-c" "iea-e" "iea-p" "iea-s" }}
 
-  {{ range $profId, $profData := .Site.Data.pessoal.profiles }}
-    {{ $dept := $profData.departamento }}
-    {{ if $dept }}
-      {{ $profs := index $professorsByDept $dept }}
-      {{ $profWithId := merge $profData (dict "id" $profId) }}
-      {{ $profs = $profs | append $profWithId }}
-      {{ $professorsByDept = merge $professorsByDept (dict $dept $profs) }}
-    {{ end }}
-  {{ end }}
+  {{ range $deptId := $deptOrder }}
+    {{ $deptData := index $departamentos $deptId }}
+    {{ $pessoalData := index $.Site.Data.pessoal $deptId }}
 
-  {{/* Display professors by department */}}
-  {{ range $deptId, $deptData := $departamentos }}
-    {{ $professors := index $professorsByDept $deptId }}
-
-    {{ if $professors }}
+    {{ if and $deptData $pessoalData $pessoalData.membros }}
       <div class="mb-16">
+
         {{/* Department Header */}}
         <div class="mb-8 pb-4 border-b-4" style="border-color: {{ $deptData.cor }}">
           <div class="flex items-center gap-3 mb-2">
             <span class="text-sm font-bold px-2 py-1 rounded text-white" style="background-color: {{ $deptData.cor }}">
               {{ $deptData.sigla }}
             </span>
-            <h2 class="text-3xl font-bold text-gray-800">
-              {{ if eq $.Language.Lang "pt" }}
-                {{ $deptData.nome_pt }}
-              {{ else }}
-                {{ $deptData.nome_en }}
-              {{ end }}
+            <h2 class="text-2xl font-bold text-gray-800">
+              {{ if eq $lang "pt" }}{{ $deptData.nome_pt }}{{ else }}{{ $deptData.nome_en }}{{ end }}
             </h2>
-          </div>
-          <p class="text-gray-600 italic">
-            {{ if eq $.Language.Lang "pt" }}
-              {{ $deptData.descricao_pt }}
-            {{ else }}
-              {{ $deptData.descricao_en }}
+            {{ if $deptData.chefe }}
+              <span class="text-sm text-gray-500 ml-2">
+                {{ if eq $lang "pt" }}Chefe:{{ else }}Head:{{ end }}
+                <span class="font-medium text-gray-700">{{ $deptData.chefe }}</span>
+              </span>
             {{ end }}
+          </div>
+          <p class="text-gray-600 text-sm">
+            {{ if eq $lang "pt" }}{{ $deptData.descricao_pt }}{{ else }}{{ $deptData.descricao_en }}{{ end }}
           </p>
         </div>
 
-        {{/* Professor Cards Grid */}}
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {{ range $professors }}
-            {{ partial "professor-card.html" (dict "professor" . "page" $) }}
+        {{/* Group members by categoria */}}
+        {{ $categorias := slice "Professor Titular" "Professor Associado" "Professor Adjunto" "Tecnologista" "Analista em Ciência e Tecnologia" "Instrutor" "Docente Voluntário" }}
+
+        {{ range $cat := $categorias }}
+          {{ $membros := slice }}
+          {{ range $pessoalData.membros }}
+            {{ if eq .categoria $cat }}
+              {{ $membros = $membros | append . }}
+            {{ end }}
           {{ end }}
-        </div>
+
+          {{ if $membros }}
+            <div class="mb-6">
+              <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3 border-b border-gray-100 pb-1">
+                {{ $cat }}
+              </h3>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {{ range $membros }}
+                  {{ $perfil := "" }}
+                  {{ if .perfil }}
+                    {{ $perfil = index $.Site.Data.pessoal.profiles .perfil }}
+                  {{ end }}
+                  {{ $profileUrl := "" }}
+                  {{ if .perfil }}
+                    {{ $profileUrl = printf "/%s/pessoal/%s/" $lang .perfil }}
+                  {{ end }}
+                  <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200{{ if $profileUrl }} cursor-pointer{{ end }}"
+                       {{ if $profileUrl }}onclick="window.location='{{ $profileUrl }}'"{{ end }}>
+                    {{/* Avatar */}}
+                    <div class="flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-sm"
+                         style="background-color: {{ $deptData.cor }}">
+                      {{ if .perfil }}
+                        <img src="/images/pessoal/{{ .perfil }}.jpg"
+                             alt="{{ .nome }}"
+                             class="w-full h-full object-cover object-top"
+                             onerror="this.parentElement.innerHTML='<span class=\'w-full h-full flex items-center justify-center text-white font-semibold text-base\'></span>'">
+                      {{ else }}
+                        <span class="w-full h-full flex items-center justify-center text-white font-semibold text-2xl">
+                          {{ substr .nome 0 1 }}
+                        </span>
+                      {{ end }}
+                    </div>
+                    <div class="min-w-0 flex-1">
+                      {{ if $profileUrl }}
+                        <a href="{{ $profileUrl }}" class="font-medium text-gray-900 text-sm leading-tight hover:text-blue-600 transition-colors">{{ .nome }}</a>
+                      {{ else }}
+                        <p class="font-medium text-gray-900 text-sm leading-tight">{{ .nome }}</p>
+                      {{ end }}
+                      {{ if .posto }}
+                        <p class="text-xs text-gray-400">{{ .posto }}</p>
+                      {{ end }}
+                      {{/* Badges */}}
+                      <div class="flex flex-wrap gap-1 mt-1">
+                        {{ if .cargo_divisao }}
+                          <span class="text-xs font-medium px-1.5 py-0.5 rounded bg-blue-50 text-blue-700">{{ .cargo_divisao }}</span>
+                        {{ end }}
+                        {{ if .chefe_departamento }}
+                          <span class="text-xs font-medium px-1.5 py-0.5 rounded bg-amber-50 text-amber-700">
+                            {{ if eq $lang "pt" }}Chefe do Depto.{{ else }}Dept. Head{{ end }}
+                          </span>
+                        {{ end }}
+                      </div>
+                      {{/* Links do perfil */}}
+                      {{ if $perfil }}
+                        <div class="flex gap-2 mt-2">
+                          {{ with $perfil.links }}
+                            {{ if .lattes }}
+                              <a href="{{ .lattes }}" target="_blank" rel="noopener"
+                                 class="text-xs text-gray-400 hover:text-red-600 transition-colors">Lattes</a>
+                            {{ end }}
+                            {{ if .scopus }}
+                              <a href="{{ .scopus }}" target="_blank" rel="noopener"
+                                 class="text-xs text-gray-400 hover:text-orange-600 transition-colors">Scopus</a>
+                            {{ end }}
+                            {{ if .orcid }}
+                              <a href="{{ .orcid }}" target="_blank" rel="noopener"
+                                 class="text-xs text-gray-400 hover:text-green-600 transition-colors">ORCID</a>
+                            {{ end }}
+                            {{ if .google_scholar }}
+                              <a href="{{ .google_scholar }}" target="_blank" rel="noopener"
+                                 class="text-xs text-gray-400 hover:text-blue-600 transition-colors">Scholar</a>
+                            {{ end }}
+                          {{ end }}
+                        </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+
       </div>
     {{ end }}
   {{ end }}

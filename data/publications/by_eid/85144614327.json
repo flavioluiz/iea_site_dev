@@ -1,0 +1,111 @@
+{
+  "publication_id": "2-s2.0-85144614327",
+  "eid": "2-s2.0-85144614327",
+  "doi": "10.1016/j.tws.2022.110329",
+  "pii": "S0263823122008813",
+  "pubmed_id": null,
+  "title": "Sensitivity analysis for buckling characterisation using the vibration correlation technique",
+  "abstract": "© 2022 Elsevier LtdThe Vibration Correlation Technique (VCT) is a non-destructive method to predict buckling loads for imperfection-sensitive structures. While successfully used to validate numerical models and predict experimental buckling loads, recommendations for defining the VCT experiment are scarce. Here, its sensitivity towards the number of load steps and the maximum load level measured is studied, and an uncertainty quantification of the measured frequency affecting the VCT prediction is performed First, a series of finite element (FE) models representing nominally identical cylinders, and validated by buckling experiments, are used to perform a sensitivity study. When no frequency deviations are introduced in the FE results, a positive correlation between the VCT predictions and the maximum load used for measurements is found, the number of load steps used being only relevant in reducing the errors. Introducing frequency deviations deterred the predictions correlation with the maximum load, while using more load steps reduced this influence. Second, a sensitivity study based on experimental data confirmed most of the trends previously observed using the FE results, the exception being a poor prediction sensitivity as a function of the maximum load, owing to several cylinders for which the VCT method gave predictions that progressively decreased with increasing the load.",
+  "authkeywords": [
+    "Composite structures",
+    "Sensitivity analysis",
+    "Shell buckling",
+    "Test set-up",
+    "Uncertainty quantification",
+    "Vibration correlation technique"
+  ],
+  "year": "2023",
+  "date": "2023-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Thin Walled Structures",
+    "issn": "02638231",
+    "eissn": null,
+    "volume": "183",
+    "issue": null,
+    "pages": null,
+    "article_number": "110329"
+  },
+  "authors": [
+    {
+      "name": "Baciu, Theodor D.",
+      "scopus_id": "57730020700",
+      "affiliation": "60003649-60007798-60094988",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Degenhardt, Richard",
+      "scopus_id": "12144431600",
+      "affiliation": "60003649-60007798-60094988",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Franzoni, Felipe",
+      "scopus_id": "57211220620",
+      "affiliation": "60007798",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Gliszczynski, Adrian",
+      "scopus_id": "56376986400",
+      "affiliation": "60003649-60016104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Arbelo, Mariano A.",
+      "scopus_id": "57211220623",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Castro, Saullo G.P.",
+      "scopus_id": "55796884200",
+      "affiliation": "60117954",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Kalnins, Kaspars",
+      "scopus_id": "12142723900",
+      "affiliation": "60071057",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "mariano-andres-arbelo"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Building and Construction",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 47,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85144614327&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.074151",
+    "data_quality_score": 100
+  }
+}

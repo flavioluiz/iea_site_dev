@@ -1,0 +1,31 @@
+{
+  "num_tese": "000541609",
+  "type": "tese",
+  "title": "Heat transfer in channels with solid and porous baffles.",
+  "author": "Nicolau Braga Santos",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work focuses on the study of flow and heat transfer in a parallel plate channel with solid and porous baffles, in both laminar and turbulent regimes by using numerical simulations. The main concern is to validate results by using a unique set of equations (for porous, solid and clear domain) for channels with solid baffles, after that change solid to porous baffles and study the effects on flow and heat transfer. Porous medium is treated as rigid, homogeneous and isotropic. The macroscopic transport equations are written for an elementary representative volume, yielding a set of equation valid for the entire computational domain. These equations are discretized using the control volume method, and the resulting system of algebraic equations is solved by the SIP algorithm utilizing the SIMPLE method for the pressure-velocity coupling. Initially, the laminar flow regime is analyzed, followed by turbulent flow simulations, utilizing both Low and High Reynolds turbulence models. Three different baffles heights were chosen for laminar and turbulent flow, aiming for further comparisons to literature data. Derivations are carried out under the recently established double-decomposition concept. Results show good qualitative agreement with literature data, for both laminar and turbulent cases, and good quantitative agreement with literature data, for laminar and some turbulent results.",
+  "subjects": [
+    "Materiais porosos",
+    "Transferęncia de calor",
+    "Escoamento turbulento",
+    "Escoamento laminar",
+    "Turbulęncia",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "19/12/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541609",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541609&origem=BDITA"
+}

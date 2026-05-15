@@ -1,0 +1,25 @@
+{
+  "num_tese": "000197767",
+  "type": "tese",
+  "title": "Aerodinâmica da placa plana em movimento năo-permanente",
+  "author": "Luis Guillermo Moscoso Lavagna",
+  "year": "1992",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Considere-se uma placa plana, imersa num fluido que escoa, a qual executa um movimento năo-permanente qualquer. O objetivo básico deste trabalho é calculas numericamente o campo de escoamento em torno da placa e, dessa forma, obter-se os coeficientes aerodinâmicos de sustentaçăo e momento de arfagem. As principais hipóteses simplificadoras săo: fluido năo-viscoso, escoamento incompressível e irrotacional. O modelo que daí resulta permite a simulaçăo da placa mediante uma distribuiçăo de dipolos normais de intensidade uniforme. Para se obter o campo de velocidades lança-se măo do método dos painéis, sendo que o calculo dos coeficientes aerodinâmicos é feito utilizando-se a equaçăo de Bernoulli linearizada. Os casos considerados para o movimento da placa săo: mudança brusca do ângulo de incidęncia em relaçăo a um escoamento uniforme (problema de Wagner), entrada paulatina numa rajada de canto vivo (problema de Kussner), entrada paulatina numa rajada de intensidade harmonicamente variável (problema de Sears) e movimento harmônico combinado de translaçăo e rotaçăo (problema de Theodorsen). O procedimento de calculo proposto é validado, para cada caso, via comparaçăo com resultados analíticos encontrados na literatura.",
+  "subjects": [
+    "Aerodinâmica",
+    "Placas planas"
+  ],
+  "defense_date": "01/04/1992",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000197767",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000197767&origem=BDITA"
+}

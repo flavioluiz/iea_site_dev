@@ -1,0 +1,29 @@
+{
+  "num_tese": "78679",
+  "type": "tese",
+  "title": "Gas turbine design point definition using economics, environmental and optimization aspects",
+  "author": "Carlos Henrique de Paiva Pinheiro",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work aims to provide a methodology for defining the design point for an industrial gas turbine, considering the economic, environmental, and engine performance aspects. The definition of design point is a key step in the development project of a gas turbine since this definition involves the analysis of several operational points to verify if the desired performance can be obtained. Thus, to extend the methodology presented in the literature developed for micro-turbines to consider industrial turbines, a computer program was developed in MATLAB®. This program is capable of performing thermodynamic calculations for design point definition and of performing single- and multi-objective thermoeconomic and thermodynamic optimizations using genetic algorithms. For the optimization process, total cost minimization, yield maximization, and gas turbine-specific work maximization were chosen as objective functions. The decision variables chosen were compressor pressure ratio, compressor polytropic efficiency, turbine polytropic efficiency, and maximum cycle temperature. For the calculation of economic aspects, fixed costs (equipment, installations, land acquisition cost, etc.) and variable costs (fuel, emissions, and operation and maintenance costs) were considered. The emission cost of NOx, CO, and UHC was considered for the environmental cost calculations. The thermodynamic calculations were based on enthalpy and entropy. The developed computer program was validated by simulating a commercial gas turbine and comparing the results obtained, also using a commercial program, GASTURB®. The presented optimization process shows results for a single objective, two objectives, and three objectives, where the results show a comparison between different design points obtained.",
+  "subjects": [
+    "Turbinas a gás",
+    "Fatores econômicos",
+    "Otimizaçăo",
+    "Programas de computadores",
+    "Termodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78679",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78679&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tg": "000499079",
+  "type": "tg",
+  "title": "Análise teórico-experimental de um painel de alumínio com reforçadores.",
+  "author": "Gennaro Romano",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo o estudo do comportamento estático de um painel aeronáutico de alumínio, composto por uma chapa e tręs reforçadores, quando sujeito a carga axial em um dos reforçadores laterais. A primeira etapa foi o estudo teórico do painel através da teoria do shear-lag formulada por T.H.G. Megson e se obtiveram as tensőes axiais nos reforçadores e as tensőes de cisalhamento na chapa. Em seguida, com o auxílio do método dos elementos finitos foram estudados cinco modelos que representariam o painel real. Foram estudados cinco modelos diferentes, utilizando diferentes combinaçőes de elementos de treliça, viga, membrana e placa, e destes se obtiveram as grandezas comparáveis com o modelo teórico. O passo seguinte foi o ensaio de um modelo realizado em laboratório e se compararam os resultados teórico, computacional e experimental para a escolha do modelo que representasse o comportamento real do painel. A conclusăo foi que a teoria do Shear-Lag apresenta resultados conservativos, e a melhor representaçăo do comportamento real é expressa pelo modelo Treliça-Membrana.",
+  "subjects": [
+    "Placas (membros estruturais)",
+    "Análise estrutural",
+    "Chapas (materiais)",
+    "Alumínio",
+    "Método de elementos finitos",
+    "Métodos computacionais",
+    "Tensăo de cisalhament",
+    "Ensaios de materiais",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000499079",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000499079&origem=BDITA"
+}

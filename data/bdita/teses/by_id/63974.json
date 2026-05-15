@@ -1,0 +1,28 @@
+{
+  "num_tese": "63974",
+  "type": "tese",
+  "title": "On the use of eno-based limiters for discontinuous galerkin methods for aerodynamics",
+  "author": "André Fernando de Castro da Silva",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A recurring problem in high-order simulation of compressible flows is the appearance of spurious oscillations near regions which display abrupt changes of flow properties such as shock waves. If the amplitude of these oscillations is sufficiently high, this phenomenon, known as Gibbs phenomenon, can lead simulation to diverging due to the appearance of non-physical states (negative pressure or density, for example). Among the techniques available to address this problem, it is highlighted the use of limiters. Such methodology was taken to the high-order context by inheriting from Finite Volume methods and tend to be of easier implementation when compared with other possibilities. However, classical limiters have the disadvantage of reducing the local accuracy order to first order even when applied to smooth regions. This thesis proposes itself to study the ENO(Essentially Non-Oscillatory)-based limiting procedure first proposed by Qiu and Shu in 2003. Such schemes have the property of maintain the high-order accuracy on smooth regions while still providing sharp shock transitions. As part of this work, such limiter was implemented in a computer code based on the Discontinuous Galerkin (DG) methodology in order to simulate the gas dynamics Euler equations in two dimensions on unstructured triangular meshes. Tests and simulations were then performed in order to demonstrate that the capacities proposed.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Método de Galerkin",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "05/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63974",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63974&origem=BDITA"
+}

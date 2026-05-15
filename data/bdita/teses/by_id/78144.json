@@ -1,0 +1,29 @@
+{
+  "num_tese": "78144",
+  "type": "tese",
+  "title": "Otimizaçăo de alcance de mísseis em funçăo de parâmetros geométricos das superfícies sustentadoras",
+  "author": "Victor Maurício Mattos de Andrade",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho trata de otimizaçőes para a obtençăo de geometrias de mísseis de propelente sólido de médio alcance. Seguindo uma metodologia aqui desenvolvida, deseja-se maximizar o alcance dos mísseis considerando uma fuselagem pré-determinada e diferentes missőes: solo-solo, ar-solo com todo o voo propulsado e ar-solo com uma fase de descida sem motor em funcionamento. Conceitos de dinâmica de mísseis foram analisados, abordando as equaçőes de movimento, descrevendo as forças e momentos atuantes neste tipo de veículo. Os modelos utilizados para a dinâmica de voo săo descritos: aerodinâmica, propulsăo, atmosfera e gravidade. O aplicativo Missile DATCOM foi utilizado para calcular coeficientes aerodinâmicos. Analisou-se conceitos e metodologias de otimizaçăo de projeto conceitual, focando em algoritmos genéticos, utilizados no trabalho. Explorou-se a utilizaçăo de algoritmos genéticos e conceitos de otimizaçőes mono e multiobjetivo. Desenvolveu-se um modelo de simulaçăo massa-ponto longitudinal das equaçőes de movimento, mas a obtençăo dos coeficientes aerodinâmicos trata o veículo como tridimensional, também considerando o equilíbrio em rotaçăo através de deflexăo das empenagens. Estimou-se o dimensionamento de um veículo base, utilizando a fuselagem deste como referęncia para as otimizaçőes. O fluxograma do processo está descrito, especificando os parâmetros de otimizaçăo utilizados nos casos mono e multiobjetivo, apresentando variáveis de projeto, condiçőes fixas e restriçőes de projeto, tanto geométricas como operacionais, incluindo uma de estabilidade estática que foi aplicada em parcialidade dos casos a fim de verificar seu efeito nas otimizaçőes. As superfícies sustentadoras foram otimizadas para maximizar alcance nas tręs missőes descritas, uma por vez. Parâmetros da configuraçăo de referęncia e das missőes foram modificados para verificar o impacto nos resultados. Otimizaçőes biobjetivo foram realizadas, considerando missőes solo-solo e ar-solo sem planeio e missőes solo-solo e ar-solo com planeio, com análises de alguns resultados do Pareto. Conclui-se que a metodologia desenvolvida fornece resultados razoáveis em pequeno espaço de tempo, podendo ser utilizada como ferramenta para projeto conceitual.",
+  "subjects": [
+    "Mísseis",
+    "Otimizaçăo",
+    "Equaçőes de movimento",
+    "Mecânica de voo",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "07/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78144",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78144&origem=BDITA"
+}

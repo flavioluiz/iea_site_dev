@@ -1,0 +1,89 @@
+{
+  "publication_id": "2-s2.0-85130719586",
+  "eid": "2-s2.0-85130719586",
+  "doi": "10.1007/s11071-022-07542-z",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Predefined-time global sliding mode control design for a 3D pendulum",
+  "abstract": "© 2022, The Author(s), under exclusive licence to Springer Nature B.V.Researchers have been interested in the dynamics and control of pendulums for many decades since the mathematical models of these systems are able to represent the dynamics of real-world applications such as satellite launchers and balancing robots. This paper derives a novel multi-input global predefined-time sliding mode control strategy for the attitude control of a 3D pendulum. A different sliding variable is proposed assuring the convergence of the system to the equilibrium within a predefined time chosen by the designer in advance. Numerical simulations are carried out to evaluate the proposed controller in two different scenarios: taking the pendulum from the downward position to the upright position and tracking a sinusoidal reference. The results have shown that by using the proposed controller the system’s dynamics reaches the desired references within the predefined time, while being less conservative than other existing controllers.",
+  "authkeywords": [
+    "3D pendulum",
+    "Global sliding mode",
+    "Predefined-time stability",
+    "Robust control"
+  ],
+  "year": "2022",
+  "date": "2022-08-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Nonlinear Dynamics",
+    "issn": "0924090X",
+    "eissn": "1573269X",
+    "volume": "109",
+    "issue": "3",
+    "pages": "1693-1704",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Trentin, João Francisco Silva",
+      "scopus_id": "57215486892",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi A.",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Ocean Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 59,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130719586&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094897",
+    "data_quality_score": 100
+  }
+}

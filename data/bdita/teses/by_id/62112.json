@@ -1,0 +1,30 @@
+{
+  "num_tese": "62112",
+  "type": "tese",
+  "title": "Projeto de um sistema robótico cooperativo aplicado ao processo de montagem de estruturas aeronáuticas",
+  "author": "Keliane Marcela Santos",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve o projeto de um sistema robótico cooperativo industrial para instalaçăo de prendedores utilizado no processo montagem estrutural de aeronaves. O sistema robótico cooperativo de montagem automática é constituído por dois manipuladores robóticos industriais e por efetuadores dedicados que realizam as tarefas de instalaçăo de prendedores. O trabalho cooperativo entre os manipuladores é executado usando uma arquitetura de comunicaçăo para permuta de dados e sinais. O manipulador robótico mestre carrega o efetuador para instalaçăo dos prendedores e o manipulador escravo, o efetuador necessário para completar o processo. Os aplicativos de software de controle localizados em computadores industriais gerenciam as tarefas dos dois efetuadores e também o intercâmbio de dados. Os efetuadores e os controladores dos manipuladores industriais trocam informaçőes entre si usando o protocolo OPC (OLE for process control). As tarefas cooperativas para executar o processo de instalaçăo dos prendedores foram programadas na interface dos robôs utilizando comandos específicos de sincronizaçăo de movimentos e acoplamento geométrico. Experimentos foram projetados e executados para avaliar o funcionamento do sistema robótico cooperativo na execuçăo de tarefas necessárias para a consecuçăo do processo. Mediçőes de posicionamento realizadas durante as rotinas de movimentos programadas para os robôs mostraram que a posiçăo de um manipulador em relaçăo ao outro tem variaçőes máximas na ordem de 0,7 mm, compatíveis com os requisitos do processo de montagem estrutural aeronáutica.",
+  "subjects": [
+    "Robótica",
+    "Planejamento de tarefas (robótica)",
+    "Montagem",
+    "Estruturas de aeronaves",
+    "Robôs",
+    "Controle automático",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/03/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62112",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62112&origem=BDITA"
+}

@@ -1,0 +1,39 @@
+{
+  "num_tese": "000432289",
+  "type": "tese",
+  "title": "Geraçăo de entropia em duto retangular com temperatura variável no contorno.",
+  "author": "Cesar Augusto Marcelino Matoso",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Mourăo Saboya",
+      "professor_slug": null
+    },
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Dutos retangulares săo muito utilizados em dispositivos trocadores de calor. Este trablaho visa investigar, usando um modelo computacional, os efeitos da geraçăo de entropia provocadas pelas irreversibilidades decorrentes do atrito viscoco do escoamento e das resultantes da transferęncia de calor em escoamentos laminares com perfis térmicos e hidrodinamicamente desenvolvidos. Esta investigaçăo permite avaliar a geraçăo de entropia, a qual é influenciada pelo campo de temperatura no contorno, pelo tipo de escoamento, pelas propriedades do fluido e por parâmetros geométricos. Primeiro, o modelo calcula o campo de velocidade. Em seguida é resolvida a equaçăo da energia, obtendo-se assim, o campo de temperatura do fluido para uma dada distribuiçăo imposta no contorno, năo necessariamente uniforme. Uma vez conhecidos o campo de velocidade e de temperatura é calculado o campo de geraçăo de entropia por unidade de volume. Com uma dupla integraçăo é calculada a geraçăo de entropia global por unidade de comprimento na seçăo analisada. A consistęncia do modelo computacional é verificada pelo refino da malha e pela diminuiçăo da tolerância. Săo realizadas validaçőes dos métodos utilizados para os cálculos dos campos de velocidade e de temperatura do fluido. Várias razőes de aspecto (altura por largura do duto) săo estudadas para vários tipos de fluidos. A influęncia devida aos efeitos viscosos e da troca de calor sobre a geraçăo de entropia é estudada para vários tipos de fluidos, variando-se o número de Prandtl.",
+  "subjects": [
+    "Entropia",
+    "Dutos",
+    "Dinâmica dos fluidos",
+    "Métodos computacionais",
+    "Transferęncia de calor",
+    "Processos irreversíveis",
+    "Temperatura",
+    "Velocidade",
+    "Condiçőes de contorno",
+    "Escoamento laminar",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000432289",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000432289&origem=BDITA"
+}

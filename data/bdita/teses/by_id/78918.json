@@ -1,0 +1,34 @@
+{
+  "num_tese": "78918",
+  "type": "tese",
+  "title": "Predictive model and adaptive control applied to combustion instability",
+  "author": "Emerson Andrade dos Santos",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Applications involving combustion processes are commonly found in many systems such as power generation, heaters, and propulsion. Examples include industrial burners, gas turbines, incinerators, rocket motors, and internal combustion engines. However, during the sequence of chemical reactions, the undesirable phenomenon called combustion instability can occur, which can be characterized by pressure fluctuations whose amplitude increases continuously over time. The combustion instability phenomenon has become a technical challenge and an important task in the development of modern combustion engines because it can cause catastrophic damage to the combustion chamber and other engine components. Although combustion instabilities have been studied for a long time, their prediction or their control in real systems is still hard even for the current research. The complete understanding of the mechanisms that lead to combustion instability is not trivial. Some investigations attempt to study different design parameters that are systematically varied. However, results show faults in efforting to obtain a generalized design by prior criterion to avoid combustion instability because the diverse parameters that determine the combustion process influence each other. The investigations developed in the area dealing with combustion instabilities are typically based on some models that are particular to the combustor and type of application. The limitation of these approaches is the control parameters that require some own models of the combustion system analyzed and the own control hardware involved. Developing exact models of combustion instabilities is not an easy task to carry out and requires a great deal of time before obtaining success. Firstly, the present work proposes a low-order model that does not require any knowledge of the systems for pressure oscillations, any new physical findings nor intricate details regarding its operating condition. This new approach is obtained using a Modified Van der Pol's equation (MVDP). This phenomenological model is used to describe the pressure signal from a variety of different combustors. Input data were taken from experimental cases such as a Rijke tube, a gas turbine and a liquid-fuel aero-engine combustor. The second task is to propose a controller to act on combustion instability. The basic idea behind this algorithm is that it continuously responds to variations in amplitude, operating pressure, frequency, phase, time delay and so on to modify the control signal. In addition, the development of the ACSysDAQ software and the tests performed showed its viability and the functioning of the controller.",
+  "subjects": [
+    "Controle de combustăo",
+    "Controle adaptativo",
+    "Estabilidade de combustăo",
+    "Modelos matemáticos",
+    "Turbinas a gás",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78918",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78918&origem=BDITA"
+}

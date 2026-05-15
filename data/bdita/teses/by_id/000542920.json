@@ -1,0 +1,28 @@
+{
+  "num_tese": "000542920",
+  "type": "tese",
+  "title": "Cálculo do escoamento transônico sobre perfis aerodinâmicos utilizando o método da reciprocidade dual.",
+  "author": "André Valdetaro Gomes Cavalieri",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo do modelo potencial linearizado para a análise de escoamentos compressíveis é bastante disseminada e fornece bons resultados para escoamentos subsônicos e supersônicos. No entanto, o cálculo de perfis e asas sujeitos a escoamentos transônicos necessita de um modelo năo-linear, como a equaçăo do potencial transônico com pequenas perturbaçőes. A soluçăo do problema por meio de singularidades requer distribuiçőes ao longo do domínio, assim como painéis na fronteira, caracterizando o método das singularidades estendido ao campo. O presente trabalho mostra resultados de cálculos da equaçăo do potencial transônico com pequenas perturbaçőes utilizando o método da reciprocidade dual, que permite o cálculo de integrais apenas na fronteira do problema, sem a necessidade de distribuiçőes no campo. Essa abordagem requer menos tempo computacional. O problema é resolvido iterativamente a partir da soluçăo da teoria potencial linear. Os resultados obtidos mostram boa concordância com os de outras abordagens existentes na literatura.",
+  "subjects": [
+    "Escoamento transônico",
+    "Perfis de aerofólio",
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "24/11/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542920",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542920&origem=BDITA"
+}

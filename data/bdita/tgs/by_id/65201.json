@@ -1,0 +1,32 @@
+{
+  "num_tg": "65201",
+  "type": "tg",
+  "title": "Projeto de modelos em escala aeroelástica",
+  "author": "Carlos Monteiro Barbosa Filho",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "A motivaçăo para o estudo desenvolvido se deu na curiosidade de se explorar, no âmbito do projeto estrutural da aeronave, a capacidade de se obter dados do modelo definitivo através de análises e ensaios de um modelo em escala inferior a do original, sendo dada especial atençăo aos modos e frequęncias naturais de vibraçăo. O objeto de estudo foi uma asa aproximada por uma placa plana com caixa de torçăo idelizada por uma viga de Timoshenko. Foi idealizado um modelo de caixa de torçăo em linha, de modo a facilitar a análise dos modos de vibraçăo e o acoplamento destes, tanto em regime livre, como em situaçăo sujeita a escoamento aerodinâmico. Para o estudo em questăo foi feito uso dos programas MatLab, Nastran, Abaqus e Zaero. O Abaqus forneceu a geometria original, sendo o Nastran utilizado como solver de elementos finitos capaz de identificar os modos e as frequęncias de vibraçăo da asa idealizada. A escolha do Abaqus se deu pela sua interface gráfica mais amigável e prévio conhecimento do autor em utiliza-lo. O Nastran, por sua vez, foi adotado pela sua confiabilidade em soluçăo de problemas de elementos finitos e maior facilidade comunicaçăo com o Zaero. O Zaero foi o ambiente responsável pela inclusăo do escoamento ao problema. Nele foi feita a idealizaçăo do modelo aerodinâmico da asa e o acoplamento deste com o modelo estrutural. O MatLab serviu como centro de controle entre as referidas plataformas, orientando as realimentaçőes a cada loop de cálculo, haja vista que o objetivo da ferramenta desenvolvida é justamente prospectar características a serem alteradas no modelo em escala - dado um conjunto de outras anteriormente fixadas - para reproduzir a dinâmica estrutural original. Finalmente, os resultados gerados foram analisados de modo a se analisar a viabilidade do desenvolvimento deste tipo de metodologia de projeto.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Vibraçăo aeroelástica",
+    "Análise modal",
+    "Projeto de aeronaves",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65201",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65201&origem=BDITA"
+}

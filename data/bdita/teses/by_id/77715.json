@@ -1,0 +1,33 @@
+{
+  "num_tese": "77715",
+  "type": "tese",
+  "title": "Análise da influęncia dos parâmetros de processo no desempenho energético da soldagem a ponto por resistęncia",
+  "author": "Carla Ferreira Andrade Cunha",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Hugo Marcelo Bezerra de Carvalho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Açőes que visem reduzir o consumo de energia contribuem diretamente para a reduçăo do custo operacional e dos impactos ambientais, além de apoiarem o aumento da competitividade dos processos de fabricaçăo. A soldagem a ponto por resistęncia apresenta relevância no setor automotivo, um dos setores que mais se sobressai no cenário nacional. Devido as suas características operacionais, esse processo possui elevado consumo energético. Apesar disso, năo foram encontrados estudos que guiassem soluçőes para sua reduçăo. Nesse sentido, este trabalho propőe um método para melhorar o desempenho energético do processo de soldagem a ponto sem detrimento de sua qualidade. O método é subdividido em tręs partes. A primeira aborda o projeto e a execuçăo de um experimento com tręs fatores completo, a proposiçăo de um indicador de eficięncia energética total, bem como o cálculo de uma taxa que quantifique a expulsăo de material pela curva de resistęncia dinâmica. A fase seguinte aplica análises estatísticas (ANOVA) para apoiar a construçăo de modelos lineares em funçăo dos parâmetros em estudo. A influęncia dos parâmetros de processo: corrente de soldagem (Csol), tempo de soldagem (Tsol) e força do eletrodo (Fele), é investigada no consumo energético, no diâmetro da lentilha, na eficięncia energética (máquina e total) e na expulsăo de material. A terceira fase busca encontrar a melhor soluçăo de compromisso entre o consumo energético e a qualidade. A aplicaçăo do método foi realizada utilizando-se uma máquina de baixa frequęncia com potęncia nominal de 85 kVA. Cada ponto de solda foi fabricado utilizando-se 2 chapas de aço CR4 com dimensőes de 50 x 30 mm e 0,7 mm de espessura. Utilizou-se o intervalo de parâmetros de 6 a 12 kA, de 8 a 20 ciclos e de 226 a 343 kgf. As análises estatísticas atestaram a influęncia dos parâmetros em todas as respostas analisadas. As soldas fabricadas que apresentaram qualidade adequada foram selecionadas para definir uma janela de processo (lóbulo de solda). As curvas de consumo energético e eficięncia energética foram analisadas no lóbulo de soldagem apoiando a proposiçăo de rótulos de energia para classificaçăo do desempenho energético do melhor (A) para o pior (M). A melhor soluçăo de compromisso para o espaço amostral estudado foi: Csol: 8 kA, Tsol: 8 ciclos e Fele: 343 kgf. Essa combinaçăo de parâmetros resulta em um consumo de 2 Wh/ponto. Aproximadamente 33% inferior ao consumo médio estimado por ponto de solda na indústria automotiva. A proposiçăo dos demais rótulos de energia possibilita a escolha de parâmetros de processo visando adequar o desempenho energético de acordo com possíveis restriçőes de produçăo.",
+  "subjects": [
+    "Eficięncia",
+    "Consumo de energia",
+    "Soldagem por resistęncia",
+    "Indústria automobilística",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "18/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77715",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77715&origem=BDITA"
+}

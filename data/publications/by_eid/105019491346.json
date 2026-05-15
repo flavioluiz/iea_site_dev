@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-105019491346",
+  "eid": "2-s2.0-105019491346",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "IDENTIFICATION OF FLEXIBLE AIRCRAFT PARAMETERS WITH VARYING FLEXIBILITY CONFIGURATIONS: INTEGRATING ELASTIC EFFECTS AND SENSOR DATA",
+  "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.The necessity to mitigate pollutant emissions highlights the importance of research into flexible aircraft. Identifying models that accurately represent these aircraft is essential for the validation of early-stage design models and control design. This study focuses on performing a parametric system identification in the time domain for aircraft with varying levels of flexibility. The approach employs a simplified longitudinal stability and control model for short-period dynamics, rooted in the Quad-M methodology (Maneuver, Measurements, Model, and Method). The system identification technique used is the output error method, applied to a flexible model aircraft in three different flexibility configurations. Data were collected through nonlinear simulation of the flexible aircraft. Comparison of identification results across the different flexible configurations indicates an improvement in parametric values by incorporating elastic effects into the identification models. The study also explores the feasibility of various sensors to more closely simulate flight test procedures. Identifications are analyzed by comparing deflection measurements and accelerometers as observational variables, with acceleration measurements providing more accurate parameter estimations. Future work should extend the analysis presented to system identification using flight test data.",
+  "authkeywords": [
+    "flexible aircraft",
+    "identification",
+    "output error method"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Neto, Abraão Ferreira de Sousa",
+      "scopus_id": "60153110000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Costa, Kaique Silveira Viana",
+      "scopus_id": "60153410300",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso-Ribeiro, Flávio Luiz",
+      "scopus_id": "46461159000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-c-ribeiro"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 12,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019491346&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063004",
+    "data_quality_score": 70
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "publication_id": "2-s2.0-84863821375",
+  "eid": "2-s2.0-84863821375",
+  "doi": "10.1007/8611_2010_9",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Simulation of turbulent combustion in porous materials with one- and two-energy equation models",
+  "abstract": "The objective of this chapter is to present one- and two-dimensional numerical simulations of combustion of an air/methane mixture in porous materials using a mathematical model that explicitly considers the intra-pore levels of turbulent kinetic energy. Transport equations are written in their time-and-volumeaveraged form and a volume-based statistical turbulence model is applied to simulate turbulence generation due to the porous matrix. Four different thermomechanical models are compared, namely Laminar, Laminar with Radiation Transport, Turbulent, Turbulent with Radiation Transport. Combustion is modeled via a unique simple closure. Preliminary testing results indicate that a substantially different temperature distribution is obtained depending on the model used. In addition, for high excess air peak gas temperature are reduced and the flame front moves towards the exit of the burner. Also, increasing the inlet flow rate for stoichiometric mixture pushes the flame out of the porous material. © Springer-Verlag Berlin Heidelberg 2010.",
+  "authkeywords": null,
+  "year": "2011",
+  "date": "2011-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Advanced Structured Materials",
+    "issn": "18698433",
+    "eissn": "18698441",
+    "volume": "2",
+    "issue": null,
+    "pages": "443-460",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 32,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84863821375&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.110936",
+    "data_quality_score": 90
+  }
+}

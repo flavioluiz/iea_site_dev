@@ -1,0 +1,39 @@
+{
+  "num_tese": "78462",
+  "type": "tese",
+  "title": "A semi-analytical model for mode I delamination prediction in bolted bonded composite joints",
+  "author": "Jelle Jan Van de Kerk",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    },
+    {
+      "name": "Cornelis Henricus Venner",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A novel semi-analytical (SA) model has been proposed to analyse mode I delamination in bonded composite structures including fasteners used for crack arrest. The SA model uses hierarchical shape functions describe the displacement field over the DCB specimen. The specimen is divided in three domains with each a set of hierarchical shape functions to accurately describe the displacement field around the crack tip, where the middle domain moves along with the crack tip. The Principle of Minimal Potential Energy combined with the Rayleigh-Ritz Method are used to determine the set of equilibrium equations. The total strain energy of the virtual DCB specimen is defined in terms of; the bending strain energy of the laminate, the strain energy of the bonding area between the sub-laminates modelled by an elastic foundation, and the fastener strain energy. The hole and the fastener position in the DCB specimen were accounted for in each of these terms. The overall displacement field obtained by solving the esultant set of equilibrium equations is used to define the specimen's compliance function, from which the Strain Energy Release Rate (SERR) can be determined for different load levels and crack lengths. An iterative scheme based on the Newton Raphson method is used to compute the crack lengths associated with different load levels during the delamination propagation. The results of the SA model in terms of load-displacement curves were compared with Cohesive Zone based Nonlinear FE predictions and experimental results. A very good agreement between results obtained using the SA model, FE model and experimental results was found. The proposed SA model allows large parametric studies at very low computational cost, being a powerful tool for preliminary analysis, design, and optimization of bolted-bonded composite parts.",
+  "subjects": [
+    "Delaminaçăo",
+    "Juntas parafusadas",
+    "Método de elementos finitos",
+    "Método de Rayleigh-Ritz",
+    "Mecânica de fratura",
+    "Materiais compósitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "01/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78462",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78462&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "64862",
+  "type": "tese",
+  "title": "Estudo do efeito da rotaçăo no escoamento em um bocal convergente",
+  "author": "Diogo Bortolin Barbosa",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Muitos processos industriais utilizam dutos de transporte de fluidos, os quais existem normas para a aferiçăo da velocidade. O dispositivo ideal de medida seria o bocal de Venturi, contudo o método mais comumente utilizado de mediçăo é a placa de orifício. O bocal convergente se mostra mais eficaz, quando comparado ŕ placa de orifício, devido ao fato de năo apresentar recirculaçăo na entrada do bocal, além de que bocais convergentes podem efetuar medidas 55% maiores na vazăo, usando o mesmo coeficiente beta (r?R) e o diferencial de pressăo da placa de orifício. Outra vantagem deste bocal é o menor comprimento, quando comparado ao bocal de Venturi. Geralmente, no ambiente fabril, os fluidos nos dutos se apresentam turbulentos, por ter restriçőes no escoamento, ao longo da tubulaçăo, assim podem causar diferenças na mediçăo da vazăo por gerar turbulęncias no escoamento da entrada, distintos das especificaçőes da norma. Neste contexto, o presente trabalho demonstra os efeitos de rotaçăo em fluidos no bocal de entrada presente no medidor de vazăo do tipo convergente, utilizando a ferramenta de CFD (Computational Fluid Dynamics). Dessa forma, serăo resolvidas as equaçőes governantes (massa, quantidade de movimento e modelo de turbulęncia), usando, para isso, o método de volumes finitos. Logo, o acoplamento entre os campos de pressăo e velocidade săo estabelecidos aplicando o algorítimo SIMPLE. Inicialmente, um estudo de refinamento de malha será realizado para a determinaçăo do coeficiente de descarga em um escoamento sem rotaçăo na entrada do bocal. A comparaçăo entre os resultados do coeficiente de descarga para bocais convergentes apresentados na norma ISO 5167-3 e os resultados numéricos para o mesmo bocal, é realizada e obtiveram boa correlaçăo na faixa de 3% de desvio. Em seguida, o estudo do decaimento do Swirl ao longo de um duto liso e de um duto com bocal convergente é levantado e os resultados mostraram que o decaimento está mais associado com a velocidade axial (Reynolds) do escoamento do que da rotaçăo imposta ao fluido.",
+  "subjects": [
+    "Escoamento compressível",
+    "Corpos em rotaçăo",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Projeto de tubeira",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "04/07/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64862",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64862&origem=BDITA"
+}

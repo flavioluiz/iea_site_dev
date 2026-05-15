@@ -1,0 +1,35 @@
+{
+  "num_tese": "80528",
+  "type": "tese",
+  "title": "Computationally efficient modeling and simulation of flexible aircraft",
+  "author": "Marcelo Júnio Assunçăo Bandeira",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Juliano Alberto Paulino",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This dissertation develops a simplified flight dynamics model of a flexible aircraft, integrating a structural dynamic model based on slender-beam theory and a quasi-steady vortex-lattice aerodynamic model, with elastic corrections of the normal vectors to the panels, dynamic pressure corrections for propeller slipstream, and parasitic drag based on semiempirical methods and on viscous corrections from XFOIL. The choice of mean axes for the body axes, the assumption of small elastic displacements, and the neglect of the inertia matrix variations due to elastic displacements allow for inertially uncoupled equations of motion. The unrestrained modes of vibration are obtained via the Rayleigh-Ritz method, assuming a basis composed of elastic shape functions with fixed-free boundary conditions for bending and torsion, and of rigid-body shape functions. These modes automatically satisfy the linearized mean-axis constraints. The method is applied to the ITA X-HALE-6 airplane, a high-aspect-ratio-wing unmanned aerial vehicle with attested coupled flight and aeroelastic dynamics. Results are presented for the equilibrium in straight and level flight, linearized dynamics, nonlinear simulations, and computational cost. The developed model predicts the known X-HALE-6 elevon roll control reversal phenomenon and confirms that the coupled rigid-body and aeroelastic dynamics can be excited in various ways with the available control inputs. Nonlinear flight simulations of a model comprising twenty-eight modes of vibration were performed in less than twice the real time on a typical desktop computer, thus indicating the model's potential for future real-time applications. On the same computer, simulating a higher-fidelity model of this aircraft requires significantly more time, by orders of magnitude.",
+  "subjects": [
+    "Dinâmica de voo",
+    "Corpos flexíveis",
+    "Método de Rayleigh-Ritz",
+    "Método de malha turbilhonar",
+    "Vórtices",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80528",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80528&origem=BDITA"
+}

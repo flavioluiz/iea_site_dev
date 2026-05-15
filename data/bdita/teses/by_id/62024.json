@@ -1,0 +1,31 @@
+{
+  "num_tese": "62024",
+  "type": "tese",
+  "title": "Análise aeroelástica de um rotor de helicóptero tipo bearingless",
+  "author": "Sweney Teixeira Montevechio",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo analisar a resposta aeroelastica do rotor principal do helicóptero experimental de dois lugares Alpha One, em desenvolvimento pela Brascopter e que e equipado com um rotor do tipo bearingless. A analise foi realizada considerando o regime de voo pairado e que o rotor esta sujeito a uma perturbaçăo, como por exemplo, uma rajada. Para tal, foi utilizado o software de elementos finitos para modelagem de sistemas multicorpos năo-lineares DYMORE. O software permite a modelagem de sistemas complexos utilizando elementos deformaveis e rigidos. Apenas a flexbeam e a pá foram modeladas com elementos de viga (deformavel), os demais componentes do sistema do rotor, inclusive o sistema de comando, foram modelados com elementos rígidos e juntas cinemáticas. Para os elementos deformáveis e necessário o fornecimento da matriz com as constantes elásticas da seçăo transversal para o DYMORE. Para isso, um código em MatlabOR foi escrito para gerar a malha de elementos finitos da seçăo transversal, cujo único elemento estrutural considerado foi a longarina da pá. As constantes elásticas da seçăo foram calculadas através do software VABS. Duas configuraçőes de seçăo foram consideradas, seçăo com célula simples e seçăo com célula dupla. Diferentes laminados foram analisados para cada configuraçăo de seçăo. O MatlabOR também foi utilizado como ferramenta de integraçăo, realizando a interface com o DYMORE e o VABS, além de ter sido utilizado para a realizaçăo do pós processamento dos dados dos sensores distribuídos ao longo dos componentes flexíveis e para a realizaçăo da analise de estabilidade aeroelastica, em que o método da exponencial complexa foi empregado. Os resultados mostraram que a configuraçăo de seçăo com célula dupla năo e capaz de produzir acoplamento pitch-flap suficiente para influenciar na resposta do rotor.",
+  "subjects": [
+    "Helicópteros",
+    "Aeroelasticidade",
+    "Aerodinâmica de rotores",
+    "Asas rotativas",
+    "Análise de estabilidade",
+    "Estabilidade de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/01/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62024",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62024&origem=BDITA"
+}

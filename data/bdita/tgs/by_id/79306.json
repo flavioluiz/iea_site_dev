@@ -1,0 +1,28 @@
+{
+  "num_tg": "79306",
+  "type": "tg",
+  "title": "Análise do envelope operacional de um ciclo de refrigeraçăo mecânica a vapor para eletrônica de potęncia",
+  "author": "Jonathan Raniere Pereira de Oliveira",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Guilherme Borges Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresentou um estudo com respeito ao envelope operacional de um sistema de refrigeraçăo por compressăo mecânica de vapor, direcionado para aplicaçőes na Eletrônica de Potęncia, como data centers, baterias de lítio-íon e fontes de alimentaçăo ininterrupta, onde a manutençăo da temperatura é crítica para o funcionamento adequado do equipamento. A partir de um modelo termodinâmico desenvolvido em Python, o estudo referido proporcionou uma expansăo do conhecimento sobre o funcionamento de sistemas de refrigeraçăo a vapor, especialmente em relaçăo ŕ influęncia das condiçőes operacionais e das características dos componentes na variabilidade do seu envelope operacional. A análise desse envelope foi limitada a quatro diferentes modelos de compressores produzidos pela Embraco e inicialmente focada em dois parâmetros: a taxa de transferęncia de calor no evaporador (Q ?_evap) e os Coeficientes de Desempenho do ciclo (COPs). Considerando temperaturas ambiente em torno de 40°C e temperaturas do dispositivo eletrônico em torno de 8°C, verificou-se que a carga térmica absorvida pelo evaporador considerado permaneceu em torno de 0.25 kW nessas condiçőes, implicando que a integraçăo de múltiplos sistemas de refrigeraçăo pode ser necessária em cenários com altas demandas de dissipaçăo de calor. Além disso, o estudo também incluiu a comparaçăo do desempenho de sistemas de refrigeraçăo com diferentes fluidos refrigerantes, mais precisamente R-134a, R-1234yf e isobutano. Nesse contexto, comparando sistemas com R-134a e R-1234yf, mantendo o mesmo volume deslocado no compressor, observou-se que ambos alcançam Capacidades de Refrigeraçăo (CR) semelhantes, apesar das diferenças no fluido utilizado. O R-1234yf, devido ao seu menor impacto ambiental, mostrou-se uma alternativa viável ao R-134a. Da mesma forma, o isobutano, com seu baixo Índice de Potencial de Aquecimento Global (GWP), também apresentou vantagens, embora com um menor Efeito Refrigerante Volumétrico (ERV). Por fim, este trabalho enfatiza a importância da seleçăo criteriosa dos parâmetros de operaçăo para otimizaçăo do desempenho do sistema de refrigeraçăo e, consequentemente, da expansăo do envelope operacional, contribuindo também, assim, para o avanço da Eletrônica de Potęncia.",
+  "subjects": [
+    "Refrigeraçăo",
+    "Sistemas de refrigeraçăo",
+    "Termodinâmica",
+    "Temperatura Ambiente",
+    "Resfriamento",
+    "Transferęncia de calor",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79306",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79306&origem=BDITA"
+}

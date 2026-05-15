@@ -1,0 +1,106 @@
+{
+  "publication_id": "2-s2.0-105013059954",
+  "eid": "2-s2.0-105013059954",
+  "doi": "10.1017/jfm.2025.10480",
+  "pii": "S0022112025104801",
+  "pubmed_id": null,
+  "title": "Linear reactive control of jet installation noise",
+  "abstract": "© The Author(s), 2025. Published by Cambridge University Press.This paper presents an experimental application of reactive control to jet installation noise based on destructive interference. The work is motivated by the success of previous studies in applying this control approach to mixing layers (Sasaki et al. Theor. 2018b Comput. Fluid Dyn. 32, 765-788), boundary layers (Brito et al. 2021 Exp. Fluids 62, 1-13; Audiffred et al. 2023 Phys. Rev. Fluids 8, 073902), flow over a backward-facing step (Martini et al. 2022 J. Fluid Mech. 937, A19) and, more recently, to turbulent jets (Maia et al. 2021 Phys. Rev. Fluids 6, 123901; Maia et al. 2022 Phys. Rev. Fluids 7, 033903; Audiffred et al. 2024b J. Fluid Mech. 994, A15). We exploit the fact that jet-surface interaction noise is underpinned by wavepackets that can be modelled in a linear framework and develop a linear control strategy where piezoelectric actuators situated at the edge of a scattering surface are driven in real time by sensor measurements in the near field of the jet, the objective being to reduce noise radiated in the acoustic field. The control mechanism involves imposition of an anti-dipole at the trailing edge to cancel the scattering dipole that arises due to an incident wavepacket perturbation. We explore two different control strategies: (i) the inverse feed-forward approach, where causality is imposed by truncating the control kernel, and (ii) the Wiener-Hopf approach, where causality is optimally enforced in building the control kernel. We show that the Wiener-Hopf approach has better performance than that obtained using the truncated inverse feed-forward kernel. We also explore different positions of the near-field sensors and show that control performance is better for sensors installed for streamwise positions downstream in the jet plume, where the signature of hydrodynamic wavepacket is better captured by the sensors. Broadband noise reductions of up to 50 % are achieved.",
+  "authkeywords": [
+    "aeroacoustics",
+    "jet noise",
+    "noise control"
+  ],
+  "year": "2025",
+  "date": "2025-08-11",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "1017",
+    "issue": null,
+    "pages": null,
+    "article_number": "A8"
+  },
+  "authors": [
+    {
+      "name": "Mancinelli, Matteo",
+      "scopus_id": "57190523173",
+      "affiliation": "60012630",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Audiffred, Diego Bonkowski de la Sierra",
+      "scopus_id": "57215539626",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini Rodrigues da Silva, Eduardo",
+      "scopus_id": "59159136900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Lebedev, Anton",
+      "scopus_id": "57193352954",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 42,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013059954&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100137",
+    "data_quality_score": 90
+  }
+}

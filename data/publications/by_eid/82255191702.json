@@ -1,0 +1,103 @@
+{
+  "publication_id": "2-s2.0-82255191702",
+  "eid": "2-s2.0-82255191702",
+  "doi": "10.1016/j.ymssp.2011.05.004",
+  "pii": "S0888327011001762",
+  "pubmed_id": null,
+  "title": "A numerical and experimental investigation on self-heating effects in viscoelastic dampers",
+  "abstract": "It is widely known that the mechanical characteristics of viscoelastic materials are highly dependent upon temperature. In traditional procedures of analysis and design of viscoelastic dampers, uniform, constant temperature is generally assumed. However, this procedure can lead to poor designs or even severe failures since the energy dissipated within the volume of the material leads to temperature rises, which depend on a number of factors such as material properties, load conditions and the geometry of the damping device. This phenomenon, which has been frequently disregarded in the literature, is known as self-heating. In this paper, a hybrid numericalexperimental investigation on the self-heating phenomenon in viscoelastic materials subjected to harmonic loadings is reported. The main goal is the development of a finite-element-based methodology intended to perform the thermoviscoelastic analysis of discrete damping devices such as translational and rotational mounts. Since direct coupling between thermal and structural fields would result in prohibitive computational costs, the problem is solved by assuming weak coupling between both fields and the nonlinear coupled thermal and structural analyses are performed in a sequential iterative scheme, implemented in ANSYS™ finite element software. In order to put in evidence the self-heating phenomenon and evaluate the accuracy of the modeling procedure, laboratory experiments are carried-out using a translational viscoelastic mount, subjected to shear harmonic loading with various frequency and amplitude values. The numerical and experimental results obtained in terms of the temperature evolutions at different points within the volume of the viscoelastic material are compared. Additionally, an optimization-based procedure is used to identify some unknown thermal parameters intervening in the model. The obtained results confirm that accounting for self-heating can be of capital importance in the design and performance analysis of viscoelastic dampers. © 2011 Elsevier Ltd. All rights reserved.",
+  "authkeywords": [
+    "Finite elements",
+    "Self-heating",
+    "Thermoviscoelasticity",
+    "Viscoelastic damping"
+  ],
+  "year": "2012",
+  "date": "2012-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "08883270",
+    "eissn": "10961216",
+    "volume": "27",
+    "issue": "1",
+    "pages": "433-445",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Cazenove, J.",
+      "scopus_id": "54681853300",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "De Lima, A. M.G.",
+      "scopus_id": "14047980400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Araújo, C. A.",
+      "scopus_id": "35083096900",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 72,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Signal Processing",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 17,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=82255191702&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089159",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-0001592890",
+  "eid": "2-s2.0-0001592890",
+  "doi": "10.1115/1.1413244",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On the mathematical description and simulation of turbulent flow in a porous medium formed by an array of elliptic rods",
+  "abstract": "Many engineering and environmental system analyses can benefit from appropriate modeling of turbulent flow in porous media. Through the volumetric averaging of the microscopic transport equations for the turbulent kinetic energy, k, and its dissipation rate, ε, a macroscopic model was proposed for such media (IJHMT, 44(6), 1081-1093, 2001). In that initial work, the medium was simulated as an infinite array of cylindrical rods. As an outcome of the volume averaging process, additional terms appeared in the equations for k and ε. These terms were here adjusted assuming now the porous structure to be modeled as an array of elliptic rods instead. Such an adjustment was obtained by numerically solving the microscopic flow governing equations, using a low Reynolds formulation, in the periodic cell composing the medium. Different porosity and Reynolds numbers were investigated. The fine turbulence structure of the flow was computed and integral parameters were presented. The adjusted model constant was compared to similar results for square and cylindrical rods. It is expected that the contribution herein provide some insight to modelers devoted to the analysis of engineering and a environmental systems characterized by a porous structure saturated by a fluid flowing in turbulent regime. © 2001 by ASME.",
+  "authkeywords": [
+    "Porous media",
+    "Saturated flow",
+    "Turbulence modeling",
+    "Volume-average"
+  ],
+  "year": "2001",
+  "date": "2001-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluids Engineering Transactions of the ASME",
+    "issn": "00982202",
+    "eissn": "1528901X",
+    "volume": "123",
+    "issue": "4",
+    "pages": "941-947",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Pedras, Marcos H.J.",
+      "scopus_id": "7006693230",
+      "affiliation": "60012642",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 102,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 52,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0001592890&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111880",
+    "data_quality_score": 100
+  }
+}

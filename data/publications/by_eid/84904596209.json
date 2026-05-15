@@ -1,0 +1,85 @@
+{
+  "publication_id": "2-s2.0-84904596209",
+  "eid": "2-s2.0-84904596209",
+  "doi": "10.1109/EDCC.2014.26",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "On probabilistic analysis of disagreement in synchronous consensus protocols",
+  "abstract": "This paper presents a probabilistic analysis of disagreement for a family of simple synchronous consensus algorithms aimed at solving the 1-of-n selection problem in presence of unrestricted communication failures. In this problem, a set of n nodes are to select one common value among n proposed values. There are two possible outcomes of each node's selection process: decide to select a value or abort. We have disagreement if some nodes select the same value while other nodes decide to abort. Previous research has shown that it is impossible to guarantee agreement among the nodes subjected to an unbounded number of message losses. Our aim is to find decision algorithms for which the probability of disagreement is as low as possible. In this paper, we investigate two different decision criteria, one optimistic and one pessimistic. We assume two communication failure models, symmetric and asymmetric. For symmetric communication failures, we present the closed-form expressions for the probability of disagreement. For asymmetric failures, we analyse the algorithm using a probabilistic model checking tool. Our results show that the choice of decision criterion significantly influences the probability of disagreement for the 1-of-n selection algorithm. The optimistic decision criterion shows a lower probability of disagreement compare to the pessimistic one when the probability of message loss is less than 30% to 70%. On the other hand, the optimistic decision criterion has in general a higher maximum probability of disagreement compared to the pessimistic criterion. © 2014 IEEE.",
+  "authkeywords": [
+    "consensus",
+    "distributed algorithms",
+    "reliability analysis",
+    "symmetric and asymmetric communication failures"
+  ],
+  "year": "2014",
+  "date": "2014-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings 2014 10th European Dependable Computing Conference Edcc 2014",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "23-34",
+    "article_number": "6821085"
+  },
+  "authors": [
+    {
+      "name": "Fathollahnejad, Negin",
+      "scopus_id": "55893115900",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Pathan, Risat",
+      "scopus_id": "24448556800",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, Raul",
+      "scopus_id": "8920858800",
+      "affiliation": "60020985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Karlsson, Johan",
+      "scopus_id": "57214551807",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 3,
+    "subject_areas": [
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84904596209&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049586",
+    "data_quality_score": 100
+  }
+}

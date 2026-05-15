@@ -1,0 +1,84 @@
+{
+  "publication_id": "2-s2.0-85027925638",
+  "eid": "2-s2.0-85027925638",
+  "doi": "10.1016/j.actaastro.2012.08.025",
+  "pii": "S0094576512003359",
+  "pubmed_id": null,
+  "title": "Artificial satellites orbits in 2:1 resonance: GPS constellation",
+  "abstract": "In this work, the resonance problem in the artificial satellites motion is studied. The development of the geopotential includes the zonal harmonics J 20 and J40 and the tesseral harmonics J22 and J42. Through an averaging procedure and successive Mathieu transformations, the order of dynamical system is reduced and the final system is solved by numerical integration. In the simplified dynamical model, three critical angles are studied. The half-width of the separatrix is calculated through a linearized model which describes the behavior of the dynamical system in a neighborhood of each critical angle. Through the resonance overlap criterion the possible regular and irregular motions are investigated by the time behavior of the semi-major axis, argument of perigee and eccentricity. The largest Lyapunov exponent is used as tool to verify the chaotic motion. © 2012 Elsevier Ltd.",
+  "authkeywords": [
+    "Artificial satellites",
+    "Orbits",
+    "Resonance"
+  ],
+  "year": "2012",
+  "date": "2012-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Acta Astronautica",
+    "issn": "00945765",
+    "eissn": null,
+    "volume": "81",
+    "issue": "2",
+    "pages": "623-634",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Sampaio, J. C.",
+      "scopus_id": "54937302200",
+      "affiliation": "60006028",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Neto, A. G.S.",
+      "scopus_id": "57191269732",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Fernandes, S. S.",
+      "scopus_id": "16405394800",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Vilhena De Moraes, R.",
+      "scopus_id": "7003717944",
+      "affiliation": "60014992",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Terra, M. O.",
+      "scopus_id": "7003287545",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "maisa-de-oliveira-terra"
+    }
+  ],
+  "eam_coauthors": [
+    "maisa-de-oliveira-terra"
+  ],
+  "scopus": {
+    "citations": 11,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85027925638&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.068555",
+    "data_quality_score": 100
+  }
+}

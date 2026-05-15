@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-85117609511",
+  "eid": "2-s2.0-85117609511",
+  "doi": "10.1016/j.mtla.2021.101243",
+  "pii": "S2589152921002465",
+  "pubmed_id": null,
+  "title": "The origin of abnormal grain growth upon thermomechanical processing of laser powder-bed fusion alloys",
+  "abstract": "© 2021Parts produced by laser powder-bed fusion (LPBF) show unique microstructures consisting of dislocation structures and an oxide nanoparticle dispersion usually embedded in epitaxially-grown grains. Thermomechanical processing is an alternative to enhance the microstructure of such materials. However, the deformation mechanisms and the resulting microstructures following annealing are not yet well understood, hindering further microstructure control. We apply cold rolling and subsequent annealing in AISI 316L stainless steel processed by LPBF and perform an in-depth microstructural characterization to understand the origin of abnormal growth and how to avoid it. Upon deformation, mechanical twinning occurs. Early plastic instabilities arise due to the fine substructure with high defect density, resulting in profuse shear banding. Such shear bands carry most of the subsequent deformation, reducing the volume fraction of oxide particles along these regions due to enhanced particle dissolution via cracking/fragmentation. Upon annealing, the cold-rolled specimens show abnormal <110> || ND grains nucleating at shear bands. The earlier recrystallization onset and fragmented particle dissolution in shear bands result in a local lower Zener pinning and generate a size advantage for <110> || ND grains. Based on this investigation, abnormal growth may be triggered by shear bands in cold-rolled and annealed LPBF alloys for grain boundary engineering. Our results suggest that avoiding shear banding (and the consequent particle fragmentation) inhibits abnormal grain growth, thus yielding a more uniform and fine-grained microstructure.",
+  "authkeywords": [
+    "Abnormal grain growth",
+    "Additive manufacturing",
+    "Oxide nanoparticles",
+    "Shear bands",
+    "Thermomechanical processing"
+  ],
+  "year": "2021",
+  "date": "2021-12-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Materialia",
+    "issn": null,
+    "eissn": "25891529",
+    "volume": "20",
+    "issue": null,
+    "pages": null,
+    "article_number": "101243"
+  },
+  "authors": [
+    {
+      "name": "Aota, Leonardo Shoji",
+      "scopus_id": "57214182594",
+      "affiliation": "60008088-60026606",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Bajaj, Priyanshu",
+      "scopus_id": "57189095616",
+      "affiliation": "60357641",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zilnyk, Kahl Dick",
+      "scopus_id": "55816533700",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "kahl-d-zilnyk"
+    },
+    {
+      "name": "Ponge, Dirk",
+      "scopus_id": "6602188131",
+      "affiliation": "60026606",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sandim, Hugo Ricardo Zschommler",
+      "scopus_id": "7003438086",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "kahl-d-zilnyk"
+  ],
+  "scopus": {
+    "citations": 13,
+    "subject_areas": [
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 81,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85117609511&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.096066",
+    "data_quality_score": 100
+  }
+}

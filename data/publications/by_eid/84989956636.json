@@ -1,0 +1,76 @@
+{
+  "publication_id": "2-s2.0-84989956636",
+  "eid": "2-s2.0-84989956636",
+  "doi": "10.1007/s40314-016-0325-9",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A numerical study for optimal low-thrust limited power transfers between coplanar orbits with small eccentricities",
+  "abstract": "© 2016, SBMAC - Sociedade Brasileira de Matemática Aplicada e Computacional.A numerical study of optimal time-fixed low-thrust limited power transfers (no rendezvous), in an inverse-square force field, between coplanar orbits with small eccentricities is performed by means of two different approaches. The first approach uses a numerical method based on the second variation theory, usually known as neighboring extremals method, to solve the two-point boundary value problem obtained from the application of the Pontryagin Maximum Principle to the optimization problem formulated as a Mayer problem with the radial distance and the components of the velocity vector as state variables. The second approach is based on the solution of the two-point boundary value problem defined by a first-order analytical solution expressed in terms of non-singular orbital elements, which include short periodic terms, and derived through canonical transformations theory in a previous work. For transfers between close orbits, a simplified solution expressed by a linear system of algebraic equations is straightforwardly derived from this analytical first-order solution. In this case, the two-point boundary value problem can be solved by simple techniques. Numerical results are presented for transfers between circular orbits, considering several radius ratios and transfer durations. Some maneuvers involving orbits with arbitrary small eccentricities are also considered. The fuel consumption is taken as the performance criterion in comparison of the results.",
+  "authkeywords": [
+    "Low-thrust limited power trajectories",
+    "Neighboring extremals method",
+    "Optimization of space trajectories",
+    "Transfers between coplanar orbits with small eccentricities"
+  ],
+  "year": "2016",
+  "date": "2016-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computational and Applied Mathematics",
+    "issn": "22383603",
+    "eissn": "18070302",
+    "volume": "35",
+    "issue": "3",
+    "pages": "907-936",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "das Chagas Carvalho, Francisco",
+      "scopus_id": "57191413125",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "de Moraes, Rodolpho Vilhena",
+      "scopus_id": "7003717944",
+      "affiliation": "60014992",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84989956636&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081749",
+    "data_quality_score": 100
+  }
+}

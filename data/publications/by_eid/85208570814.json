@@ -1,0 +1,81 @@
+{
+  "publication_id": "2-s2.0-85208570814",
+  "eid": "2-s2.0-85208570814",
+  "doi": "10.1016/j.ijft.2024.100957",
+  "pii": "S2666202724003975",
+  "pubmed_id": null,
+  "title": "Effect of fin configuration on the early stage of the melting process of a phase change material",
+  "abstract": "© 2024 The Author(s)Thermal storage systems are essential for optimizing energy resource utilization, particularly in the current context where sustainability and efficiency are critical. Phase Change materials (PCMs) offer a promising solution for improving thermal management efficiency without additional power consumption. Considering that the low thermal conductivity of phase change materials (PCMs) is a limiting factor for heat transfer, this study employs the enthalpy-porosity method to analyze the melting characteristics of a high-Prandtl number PCM. Additionally, this study investigated the effect of varying the number of fins in the heat sink on the heat transfer rate. The material melting process was modeled by considering buoyancy effects and treating the flow as incompressible, Newtonian, transient, and laminar. Lauric acid was selected as the working material with temperature-dependent properties that were incorporated into the simulations for greater accuracy. Three different heat sink configurations were analyzed, varying the number of fins from 5 to 10 and their lengths from 0.02 m to 0.04 m. The objective was to optimize the cooling performance using aluminum, which was selected for its excellent balance of lightweight properties and high thermal conductivity. This analysis aimed to assess how these variations in the fin count and dimensions affect the overall heat dissipation efficiency and thermal management of the system. The inclusion of a finned heat sink within a heat exchanger has demonstrated significant efficiency, particularly in regions with substantial boundary layer development, resulting in enhanced heat transfer. These findings highlight the effectiveness of using finned heat sinks in these regions. However, an interesting observation emerged regarding the effect of increasing the number of fins over long periods. Although initially beneficial, a larger number of fins eventually led to a reduced performance over time, notably affecting the thermal storage capacity and molten liquid mass production. Additionally, this study elucidates the influence of natural convection on thermal boundary layer development, highlighting the complexity of the heat transfer processes.",
+  "authkeywords": [
+    "Computational fluid dynamics",
+    "Heat transfer",
+    "Phase change material",
+    "Thermal storage systems"
+  ],
+  "year": "2024",
+  "date": "2024-11-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "International Journal of Thermofluids",
+    "issn": null,
+    "eissn": "26662027",
+    "volume": "24",
+    "issue": null,
+    "pages": null,
+    "article_number": "100957"
+  },
+  "authors": [
+    {
+      "name": "Silva Junior, L. G.",
+      "scopus_id": "57286634000",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ribeiro, G. B.",
+      "scopus_id": "36905262800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "guilherme-borges-ribeiro"
+    },
+    {
+      "name": "Mancin, S.",
+      "scopus_id": "15750960200",
+      "affiliation": "60000481",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "guilherme-borges-ribeiro"
+  ],
+  "scopus": {
+    "citations": 9,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 58,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85208570814&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.053025",
+    "data_quality_score": 100
+  }
+}

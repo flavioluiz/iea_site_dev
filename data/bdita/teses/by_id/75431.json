@@ -1,0 +1,28 @@
+{
+  "num_tese": "75431",
+  "type": "tese",
+  "title": "Modelagem numérica de sistemas rotativos apoiados em mancais constituídos de fluido magneto-reológico",
+  "author": "Gustavo de Freitas Fonseca",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho considera-se a influęncia de mancais constituídos de fluido magneto-reológico no comportamento dinâmico de rotores. Utilizam-se as equaçőes de Reynolds modificadas para materiais viscoplásticos de Bingham para determinaçăo das forças hidrodinâmicas năo-lineares. Os rotores flexíveis analisados săo modelados pelo método de elementos finitos e o peso próprio da estrutura, desbalanceamento e forças hidrodinâmicas dos mancais MRSFD (Magneto Rheological Squeeze Film Damper) săo inseridas na equaçăo do movimento como excitaçőes externas. As forças hidrodinâmicas năo-lineares săo dependentes da posiçăo do eixo em relaçăo ŕ cavidade do mancal. Por esta razăo, a resposta do sistema é determinada pelo método de Newmark modificado, que contempla a determinaçăo do equilíbrio de forças no sistema em cada instante do tempo pelo método de Newton-Raphson. Toda a modelagem foi desenvolvida em ambiente de programaçăo MATLAB®. Os resultados dos estudos de caso săo apresentados nas formas de gráficos de órbitas, deslocamentos em funçăo do tempo, respostas em frequęncia por FFTs e diagramas de Campbell.",
+  "subjects": [
+    "Mancais",
+    "Dinâmica de rotores",
+    "Método de elementos finitos",
+    "Hidrodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "17/12/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75431",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75431&origem=BDITA"
+}

@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-1842432680",
+  "eid": "2-s2.0-1842432680",
+  "doi": "10.1115/IMECE2003-41468",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nusselt number and temperature distribution in an horizontal cavity containing a layer of porous material at the bottom",
+  "abstract": "Horizontally-layered porous media in enclosures represents an important configuration with many technological applications in mechanical and aerospace engineering. This work presents numerical solutions for flow and heat transfer in square cavities partially obstructed with porous material. The microscopic flow and energy equations are integrated in a representative elementary volume in order to obtain a set of equations valid in both the clear flow region and in the porous matrix. A unique set of equations is discretized with the control volume method and solved with the SIMPLE algorithm. Heat transfer enhancement across the porous cavity is calculated as the permeability or the porosity of the porous substrate increase.",
+  "authkeywords": null,
+  "year": "2003",
+  "date": "2003-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "American Society of Mechanical Engineers Heat Transfer Division Publication HTD",
+    "issn": "02725673",
+    "eissn": null,
+    "volume": "374",
+    "issue": "1",
+    "pages": "131-137",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    },
+    {
+      "name": "Magro, Viviani T.",
+      "scopus_id": "6602911358",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 22,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=1842432680&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.111661",
+    "data_quality_score": 90
+  }
+}

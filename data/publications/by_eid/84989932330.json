@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-84989932330",
+  "eid": "2-s2.0-84989932330",
+  "doi": "10.1007/s40314-015-0249-9",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Optimal low-thrust transfers between coplanar orbits with small eccentricities",
+  "abstract": "© 2015, SBMAC - Sociedade Brasileira de Matemática Aplicada e Computacional.In this paper, a first-order analytical solution, which includes the short periodic terms, for the problem of optimal time-fixed low-thrust limited-power transfers (no rendezvous), in an inverse-square force field, between coplanar orbits with small eccentricities is obtained through canonical transformation theory. Short periodic terms are eliminated from the maximum Hamiltonian, expressed in non-singular orbital elements, through an infinitesimal canonical transformation built through the Hori method. Closed-form analytical solutions are obtained for the average canonical system by solving the Hamilton–Jacobi equation through the separation of variables technique. For long duration maneuvers, the existence of conjugate points is investigated through the Jacobi condition.",
+  "authkeywords": [
+    "Optimal low-thrust transfers",
+    "Optimal space trajectories",
+    "Transfers between coplanar orbits"
+  ],
+  "year": "2016",
+  "date": "2016-10-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Computational and Applied Mathematics",
+    "issn": "22383603",
+    "eissn": "18070302",
+    "volume": "35",
+    "issue": "3",
+    "pages": "803-816",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "da Silva Fernandes, Sandro",
+      "scopus_id": "6603155077",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "sandro-da-silva-fernandes"
+    },
+    {
+      "name": "das Chagas Carvalho, Francisco",
+      "scopus_id": "57191413125",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Moraes, Rodolpho Vilhena",
+      "scopus_id": "7003717944",
+      "affiliation": "60014992",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "sandro-da-silva-fernandes"
+  ],
+  "scopus": {
+    "citations": 7,
+    "subject_areas": [
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 23,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84989932330&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.081763",
+    "data_quality_score": 100
+  }
+}

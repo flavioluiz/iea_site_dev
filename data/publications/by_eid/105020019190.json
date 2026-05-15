@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-105020019190",
+  "eid": "2-s2.0-105020019190",
+  "doi": "10.1017/jfm.2025.10739",
+  "pii": "S0022112025107398",
+  "pubmed_id": null,
+  "title": "Jet-noise reduction via streak generation in the nozzle boundary layer",
+  "abstract": "© 2025 The Author(s).We study the hydrodynamic and acoustic fields of turbulent jets issuing from nozzles modified by the addition of cylindrical tabs on the inner surface, one diameter upstream of the exit. The tabs are designed to promote significant growth of steady streaks in the nozzle turbulent boundary layer. A baseline smooth nozzle is also studied for comparison. Acoustic measurements are made using an azimuthal array for Mach numbers in the range 0.4 0.9. The tabs are found to reduce the emitted sound levels by up to 3 dB/St. In terms of overall sound pressure levels, reductions of up to 3 dB are observed at all measured polar angles in the range 20° 90°. Time-resolved particle image velocimetry experiments are conducted to measure the three components of velocity for a series of cross-stream planes at 0.7. A Floquet-based Fourier decomposition is applied for the azimuthally periodic flow field, and spectral proper orthogonal decomposition is then employed to extract coherent structures. Comparison of the structures obtained for nozzles with and without tabs shows an enhancement of the streaky structures by the tabs and a damping of Kelvin-Helmholtz wavepackets. A linear model based on the one-way Navier-Stokes equations is employed to explore the underlying amplification mechanisms and how these are impacted by the tabs. The model reproduces the growth-attenuation mechanism observed in the data, showing that the changes in the mean flow induced by the streaks work to reduce the amplification of the noise-generating coherent structures associated with linear spatial growth mechanisms.",
+  "authkeywords": [
+    "aeroacoustics",
+    "jet noise",
+    "jets"
+  ],
+  "year": "2025",
+  "date": "2025-10-28",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Fluid Mechanics",
+    "issn": "00221120",
+    "eissn": "14697645",
+    "volume": "1022",
+    "issue": null,
+    "pages": null,
+    "article_number": "A7"
+  },
+  "authors": [
+    {
+      "name": "Do Amaral, Filipe R.",
+      "scopus_id": "57188717193",
+      "affiliation": "60032653-60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Nogueira, Petrônio A.S.",
+      "scopus_id": "57188716050",
+      "affiliation": "60019578",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Applied Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 89,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105020019190&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100091",
+    "data_quality_score": 90
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "80089",
+  "type": "tg",
+  "title": "Desenvolvimento de software para análise de estabilidade de aeronaves em comparaçăo com normas de qualidade de voo",
+  "author": "Paulo Fernando Guimarăes Tupinambá",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Gustavo Moro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho desenvolveu um software em MATLAB para análise da estabilidade e qualidade de voo de aeronaves de asas rotativas, conforme os critérios da norma ADS-33E-PRF. Inspirado no Control Designer's Unified Interface (CONDUIT), o sistema automatizou a identificaçăo dos modos dinâmicos, a avaliaçăo dos critérios de Largura de Banda e Razăo de Amortecimento, e a discretizaçăo das curvas normativas, oferecendo gráficos detalhados para análise de conformidade. O desenvolvimento deste projeto envolveu urna ampla revisăo bibliográfica que abrangeu desde conceitos básicos sobre a geometria e componentes dos helicópteros, até a análise do desempenho dessas aeronaves, destacando as características intrínsecas de sua dinâmica de voo, a funçăo de dispositivos instalados e o estudo aprofundado das equaçőes de movimento e modos dinâmicos de oscilaçăo. Além disso, foi fundamental compreender os requisitos apresentados na norma ADS-33E-PRF e os objetivos que motivam sua existęncia. A validaçăo dos algoritmos desenvolvidos foi conduzida com base nas matrizes linearizadas de tręs helicópteros: matriz fornecida pelo IPEV, AH-lG e OH-6A, parametrizadas conforme a velocidade ŕ frente. Esses testes demonstraram a consistęncia do algoritmo de identificaçăo dos modos dinâmicos proposto. Os resultados destacaram a aplicaçăo prática das ferramentas gráficas desenvolvidas, avaliando o desempenho do helicóptero cuja matriz foi fornecida pelo IPEV de acordo com os critérios estabelecidos. O software provou ser uma ferramenta valiosa para engenheiros e pesquisadores, facilitando a análise de conformidade e auxiliando no processo de otimizaçăo de aeronaves.",
+  "subjects": [
+    "Helicópteros",
+    "Estabilidade de aeronaves",
+    "Características de voo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80089",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80089&origem=BDITA"
+}

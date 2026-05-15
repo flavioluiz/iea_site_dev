@@ -1,0 +1,28 @@
+{
+  "num_tese": "000566998",
+  "type": "tese",
+  "title": "Proposta de detecçăo de falhas para sistemas de tempo real com escalonamento rate monotonic.",
+  "author": "Walter Issamu Azevedo Nakano",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Sistemas eletrônicos embarcados de satélites sofrem grandes cargas de radiaçőes ionizantes, afetando diretamente o silício, criando alta probabilidade de falhas no sistema, advindos de panes transientes e permanentes nos circuitos integrados. Devido ao ambiente hostil em que operam sistemas embarcados espaciais, soluçőes de robustez săo necessárias para o aumento da tolerância a falhas. Neste cenário, a detecçăo de falhas ajuda o sistema a tomar atitudes de emergęncia para que a operaçăo năo seja prejudicada por completo, nestes casos, consideradas catastróficas, devido o elevado custo associado ao desenvolvimento e produto. Este trabalho tem a finalidade propor uma técnica para sistemas embarcados de tempo real, que possa ser capaz de detectar falhas no nível de tarefas, especificamente com a utilizaçăo do Kernel de Tempo Real para Sistemas Multiprocessadores - RTEMS. A técnica proposta foi baseada no projeto de satélite universitário ITASAT, que propőe na arquitetura de hardware um processador operacional em conjunto com um redundante a frio (cold standby). Esses processadores săo supervisionados por um arbitrador, ou seja, um terceiro processador que em caso de falha do processador nominal, deve tomar a decisăo de entrar em modo emergencial ou acionar o processador redundante. Sistemas Embarcados de Tempo Real utilizam-se de algoritmos de escalonamento que definem a próxima tarefa a ser executada. Essas tarefas podem possuir deadlines rígidos ou moderados. Falhas em tarefas com períodos rígidos ocasionam a perda do sistema por completo. O kernel de tempo real RTEMS é dotado de uma estrutura de dados que possui os dados mínimos das tarefas, para que possam ser executadas e escalonadas corretamente. Estes dados podem ser externalizados por hardware através de portas de E/S na ocasiăo do chaveamento de contexto, que ocorre em toda troca de tarefa na CPU (troca de contexto). Propőe-se nesse trabalho a captaçăo desses dados para efetuar análises de detecçăo de falhas, através do comportamento das tarefas que estăo sendo executadas no sistema em tempo real.",
+  "subjects": [
+    "Detecçăo de falhas",
+    "Operaçăo em tempo real",
+    "Sistemas embarcados",
+    "Estruturas (processamento de dados)",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "16/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000566998",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000566998&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "80610",
+  "type": "tese",
+  "title": "A machine learning framework to support in-situ assessment of residual stress state",
+  "author": "Carla Ferreira Andrade Cunha",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Electrification imposes new challenges on gear manufacturing, demanding more robust finishing processes to ensure surface integrity under higher loads and tighter tolerances. In this context, residual stress emerges as a key indicator due to its strong link to fatigue resistance and component durability. However, current residual stress measurement methods are unsuitable for high-productivity environments, creating a gap that demands innovative approaches. In response to these demands, this thesis presents a machine learning framework capable of predicting residual stress during gear grinding, using non-destructive instrumentation. The research was structured into three phases: (1) the building of a comprehensive grinding dataset designed for machine learning; (2) the development of an ANN framework with pre-processing, feature selection via genetic algorithms, and hyperparameter optimization using grid search and cross-validation; and (3) a rigorous evaluation of model performance against experimental data using multiple error metrics while accounting for measurement uncertainty. A total of 678 samples were collected using online monitoring signals under finishing and roughing conditions selected to reflect a wide and realistic range of residual stress states observed in gear profile grinding. The best-performing models relied solely on process signals (grinding force and spindle current) from which features such as Energy, Slope, Skewness, MSF, and Kurtosis were extracted. These features captured critical aspects of the grinding interaction, including signal magnitude, trend, asymmetry, and frequency content. Such characteristics are directly related to near-surface deformation and the development of residual stresses, reinforcing their relevance for predictive modeling. Both models achieved MAE below 30 MPa (3.80%), RMSE below 40 MPa, and prediction errors ranging from 0.5 to 119.1 MPa (0.10% to 13.20%). Furthermore, the mean error was below the experimental uncertainty, with only 25% of predictions outside the defined limits. Thus, the framework meets industrial needs by providing average residual stress values for process compliance checks, with online and efficient execution, representing a solid first step toward its integration into intelligent, data-driven manufacturing systems.",
+  "subjects": [
+    "Aprendizado de máquina",
+    "Tensăo residual",
+    "Engrenagens",
+    "Processos de manufatura",
+    "Aprendizagem (inteligęncia artificial)",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "29/08/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80610",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80610&origem=BDITA"
+}

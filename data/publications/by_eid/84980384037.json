@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-84980384037",
+  "eid": "2-s2.0-84980384037",
+  "doi": "10.2514/6.2015-1217",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Computational aeroacoustic analysis for noise minimization on the G550 nose landing gear",
+  "abstract": "© 2015 by the American Institute of Aeronautics and Astronautics, Inc.Aircraft landing-gear noise has been recognized in recent years to be one of the major sources for the overall aircraft noise, noticeably, during the approach flight phase. The importance of investigating landing-gear noise is further justified by the incorporation of more stringent noise regulations by regulating authorities and due to the current trend recorded by aircraft manufacturers to design super-sized aircraft such as the Airbus A380. In this context, the Brazilian SILENT AIRCRAFT PROJECT is related to an innovative program to improve science and aerospace technology in the country, which was established between university (University of São Paulo) and industry (EMBRAER). It focuses on investigation and development of solutions to minimize external noise in new aircraft configurations. The present work is part of the before mentioned project and it has the objective to achieve significant noise reduction levels for the G550 Nose Landing Gear (NLG). This should be performed with numerical tools and the project also intends to provide guidelines towards the design of new aircraft programs. The investigation approach for noise reduction is established by the analysis of noise dominant sources of the G550 NLG (breakdown analysis) and by evaluating some proposed solutions to minimize the referred noise (noise minimization devices studies) as well. Higher intensity acoustic contributors for some landing gear components are identified and sorted out according to their power. Rub caps, ramps and fairings are proposed to minimize noise for the NLG components. Fairings to cover upper and lower torque arm and axle, and unconventional configuration (door as ramp function) appear as solution to decrease noise remarkably. The simulation tool used in this work is the Exa PowerFLOW, a lattice Boltzmann unsteady fluid flow solver commercially available.",
+  "authkeywords": null,
+  "year": "2015",
+  "date": "2015-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "53rd AIAA Aerospace Sciences Meeting",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA 2015-1217"
+  },
+  "authors": [
+    {
+      "name": "De Paula, Adson A.",
+      "scopus_id": "57162621700",
+      "affiliation": "60008088",
+      "is_eam_professor": true,
+      "eam_professor_id": "amauri-de-paula"
+    },
+    {
+      "name": "Meneghini, Julio R.",
+      "scopus_id": "6601957697",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Queiroz, Rudner L.",
+      "scopus_id": "36621067500",
+      "affiliation": "60070415",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "amauri-de-paula"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 14,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84980384037&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.085589",
+    "data_quality_score": 80
+  }
+}

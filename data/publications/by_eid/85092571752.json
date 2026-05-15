@@ -1,0 +1,75 @@
+{
+  "publication_id": "2-s2.0-85092571752",
+  "eid": "2-s2.0-85092571752",
+  "doi": "10.1007/s11012-020-01245-8",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear modeling and analysis of rotors supported by magnetorheological squeeze film journal bearings",
+  "abstract": "© 2020, Springer Nature B.V.The driver coupled to a driven system through mechanical couplings is very common in rotating machinery. These couplings can present angular and parallel misalignments with more or less degree due to manufacturing tolerances or maintenance proceedings. Theoretical and experimental analyses have been published demonstrating the effects of rotor misalignment and the vibration stability of rotor systems. In this work the nonlinear formulation of a magnetorheological fluid journal bearing is included in the finite element model that evaluates the nonlinear responses of a complete rotor system subject to rigid coupling misalignment. The modified Reynolds equations for Bingham viscoplastic materials are implemented in the finite element procedures to evaluate the nonlinear hydrodynamic reaction forces acting on the bearing positions. The finite element formulation for the shaft-line and mechanical couplings is based on the Timoshenko beam theory. Misalignment forces are calculated and included in the equations of motion. The nonlinear dynamic responses are calculated by the modified Newmark method incorporating the Newton–Raphson iteration method to find the equilibrium position at each time step. Bifurcation analysis demonstrates the influence of misalignment to obtain periodic and period-doubling orbit for the center position of the rotor. Results are demonstrated through displacements versus time and frequency responses.",
+  "authkeywords": [
+    "Bifurcation",
+    "Magnetorheological squeeze film",
+    "Modified Newmark method",
+    "Nonlinear rotordynamics",
+    "Rotor misalignment"
+  ],
+  "year": "2021",
+  "date": "2021-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Meccanica",
+    "issn": "00256455",
+    "eissn": "15729648",
+    "volume": "56",
+    "issue": "4",
+    "pages": "873-886",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    },
+    {
+      "name": "de Freitas Fonseca, Gustavo",
+      "scopus_id": "57219400901",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 26,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85092571752&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.123126",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "publication_id": "2-s2.0-85120372301",
+  "eid": "2-s2.0-85120372301",
+  "doi": "10.1007/s10443-021-09996-7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Experimental Investigation on the Effect of Carbon Fiber Reinforcements in the Mechanical Resistance of 3D Printed Specimens",
+  "abstract": "© 2021, The Author(s).In the last years, fiber-reinforced polymer composites have been under study for additive manufacturing. For this purpose, it is important to assess the behavior of these materials in terms of mechanical properties. The present experimental study evaluates the mechanical resistance of both PLA and carbon fiber reinforced PLA. The work used a full factorial Design of Experiments (108 tests) selecting as factors the infill density, infill pattern, material, number of perimeters and printing orientation. The main results highlight that the most influential factors on the tensile strength are both type of material and number of perimeters. In this study, the use of reinforcements did not improve the mechanical resistance attained by the corresponding virgin material. Particularly, for some selected specimens, the porosity measured in the fracture section is larger for the reinforced PLA specimens, so they showed a smaller cross-section.",
+  "authkeywords": [
+    "3D printing",
+    "Carbon fiber",
+    "FFF",
+    "Mechanical properties",
+    "PLA",
+    "Polymers",
+    "Reinforcement"
+  ],
+  "year": "2022",
+  "date": "2022-06-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Applied Composite Materials",
+    "issn": "0929189X",
+    "eissn": "15734897",
+    "volume": "29",
+    "issue": "3",
+    "pages": "937-952",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Calles, A. F.",
+      "scopus_id": "57358495500",
+      "affiliation": "60014586",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Carou, D.",
+      "scopus_id": "55510633900",
+      "affiliation": "60014586-60026134",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Ferreira, R. T.Luiz",
+      "scopus_id": "55690843400",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rafael-thiago-luiz-ferreira"
+    }
+  ],
+  "eam_coauthors": [
+    "rafael-thiago-luiz-ferreira"
+  ],
+  "scopus": {
+    "citations": 21,
+    "subject_areas": [
+      {
+        "code": "Ceramics and Composites",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 50,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120372301&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063693",
+    "data_quality_score": 100
+  }
+}

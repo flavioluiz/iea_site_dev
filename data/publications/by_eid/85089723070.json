@@ -1,0 +1,107 @@
+{
+  "publication_id": "2-s2.0-85089723070",
+  "eid": "2-s2.0-85089723070",
+  "doi": "10.1007/978-3-030-39647-3_33",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Erosion wear evaluation using nektar+ +",
+  "abstract": "© 2020, The Author(s).Erosion wear is the loss of mass on the surface of a solid body in contact with a moving fluid. When the fluid under study has solid particulate material or sediments, the erosion could be significant (Kulu and Kleis, Solid particle erosion: occurrence, prediction and control. Springer, London, 2008; Karimi and Schmid, Wear 156(1):33–47, 1992). Several studies (Karimi and Schmid, Wear 156(1):33–47, 1992; Neopane and Cervantes, Global J Res Eng Mech Mech Eng 11:17–26, 2011; Zeng et al., Proc IMechE 231(3):182–196, 2017; Padhy and Saini, Energy 39(1):286–293, 2012; Bajracharya et al., Wear 264(3–4):177–184, 2008; Kumar and Saini, Renew Sust Energ Rev 14(1):374–383, 2010; Xiao et al., J Hydrodyn B 19(3):356–364, 2007; Zhu et al., Nucl Eng Des 273:396–411, 2014; Chongji et al., IOP Conf Ser Earth Environ Sci 22(5):052019, 2014; Finnie and Kabil, Wear 8(1):60–69, 1965; Finnie, Wear 3(2):87–103, 1960; Finnie, Wear 19(1): 81–90, 1972) have been developed to investigate this phenomenon. Nevertheless, few attention has been paid to influence of small eddies during the erosion process, limiting the accuracy of the results in the simulation. The use of spectral element methods can allow increasing accuracy in the simulation due to the potential to consider these smaller scales.To the best of the authors’ knowledge, there is no work that uses high order methods to evaluate erosion wear rate. This research aim is to assess the impact of higher resolution methods on the prediction of erosion wear rate and distribution. Nektar+ + is a framework to solve partial differential equations using spectral/hp element method (Cantwell et al., Comput Phys Commun 192:205–219, 2015). This work presents a methodology to model erosion wear in Nektar+ +, with the creation of two modules. The first one is for the particle tracking evaluation and the record of impact on the walls of interest. The second one implements the Hutchings and Finnie models (Finnie, Wear 3(2):87–103, 1960; Finnie, Wear 19(1):81–90, 1972; Padhy and Saini, Renew Sust Energ Rev 12(7):1974–1987, 2008; Dutta, Bulle-effect and its implications for morphodynamics of river diversions. Ph.D. Thesis. University of Illinois at Urbana-Champaign, 2017) to predict the material removal rate as a function of the velocity and the angle of impact of each particle, the particle diameter and density, and the hardness relationship between particles and the wall. At the end, the particles trajectories and erosion distribution on walls are obtained. To assess effectiveness of the methodology a Backward Facing Step was investigate and the erosion patterns were found.",
+  "authkeywords": null,
+  "year": "2020",
+  "date": "2020-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Lecture Notes in Computational Science and Engineering",
+    "issn": "14397358",
+    "eissn": "21977100",
+    "volume": "134",
+    "issue": null,
+    "pages": "419-428",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Mejía, Manuel F.",
+      "scopus_id": "57218597100",
+      "affiliation": "60052106-60104911",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Serson, Douglas",
+      "scopus_id": "56439893200",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Carmo, Bruno S.",
+      "scopus_id": "9240769600",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Escobar-Vargas, Jorge",
+      "scopus_id": "57212489782",
+      "affiliation": "60033545",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "González-Mancera, Andrés",
+      "scopus_id": "26032555800",
+      "affiliation": "60052106",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Modeling and Simulation",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Discrete Mathematics and Combinatorics",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Control and Optimization",
+        "abbrev": "MATH",
+        "name": null
+      },
+      {
+        "code": "Computational Mathematics",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 54,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089723070&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069546",
+    "data_quality_score": 80
+  }
+}

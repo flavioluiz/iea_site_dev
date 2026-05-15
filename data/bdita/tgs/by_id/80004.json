@@ -1,0 +1,27 @@
+{
+  "num_tg": "80004",
+  "type": "tg",
+  "title": "Topology optimisation of composites with variable material orientation for compliance and failure load",
+  "author": "Gustavo Jun Asai",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The development of technologies that enable the extensive use composites and additive manufacturing for the production of structural components represent part of the efforts being made to produce lighter, stiffer, stronger, and more durable structures. The freedom of design brought by those technologies increases the importance of good optimisation methods, for which many variations are being developed in order to take into account the constraints specific to each design case. This work focuses in the optimisation process of composites produced via additive manufacturing, using concurrent topology and material orientation optimisations with the objective of minimising compliance and maximising strength. A strategy consisting two sequential steps is presented, one step being a compliance minimisation and the other being a Hashin's failure indices minimisation. The algorithms were programmed in pure Julia and use automatic differentiation to simplify the sensitivity calculations. Numerical examples show that the failure index minimisation can output a design with lower failure index than the result of the compliance minimisation, at the cost of increasing its compliance. However, the algorithm is not fully robust and is strongly affected by initial conditions, filtering, and stress singularities. The algebraic manipulations regarding the failure criteria, especially the derivative calculations, can be reused for the future implementation of other optimisation strategies that try to address the identified limitations of the current implementation.",
+  "subjects": [
+    "Manufaturas",
+    "Otimizaçăo topológica",
+    "Materiais compósitos",
+    "Fabricaçăo",
+    "Análise numérica",
+    "Mecanica Computacional",
+    "Engenharia de materiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80004",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80004&origem=BDITA"
+}

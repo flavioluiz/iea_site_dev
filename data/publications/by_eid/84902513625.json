@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-84902513625",
+  "eid": "2-s2.0-84902513625",
+  "doi": "10.1115/DSCC2013-3877",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Adaptive control with convex saturation constraints",
+  "abstract": "This paper applies retrospective cost adaptive control (RCAC) to command following in the presence of multivariable convex input saturation constraints. To account for the satu-ration constraint, we use convex optimization to minimize the quadratic retrospective cost function. The use of convex opti-mization bounds the magnitude of the retrospectively optimized input and thereby influences the controller update to satisfy the control bounds. This technique is applied to a tiltrotor with con-straints on the total thrust magnitude and inclination of the rotor plan. Copyright © 2013 by ASME.",
+  "authkeywords": null,
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "ASME 2013 Dynamic Systems and Control Conference Dscc 2013",
+    "issn": null,
+    "eissn": null,
+    "volume": "1",
+    "issue": null,
+    "pages": null,
+    "article_number": "V001T02A002"
+  },
+  "authors": [
+    {
+      "name": "Yan, Jin",
+      "scopus_id": "55467705400",
+      "affiliation": "60155336",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Dos Santos, Davi Antônio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    },
+    {
+      "name": "Bernstein, Dennis S.",
+      "scopus_id": "7401750176",
+      "affiliation": "60155336",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 28,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84902513625&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.095106",
+    "data_quality_score": 90
+  }
+}

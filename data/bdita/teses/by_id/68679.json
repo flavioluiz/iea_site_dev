@@ -1,0 +1,28 @@
+{
+  "num_tese": "68679",
+  "type": "tese",
+  "title": "Otimizaçăo de rigidez em compósitos laminados utilizando parâmetros de laminaçăo",
+  "author": "Thiago Assis Dutra",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nos dia de hoje, estruturas leves tęm sido amplamente empregadas em diversas áreas e seu uso tem crescido a cada dia. Neste contexto, os materiais compósitos săo peças-chave para se atender aos requisitos de projeto devido ao seu alto potencial de serem otimizados. Os parâmetros de laminaçăo tem um papel importante como variáveis de projeto na otimizaçăo de compósitos laminados. Isto se deve ao fato da matriz de rigidez ser linear com relaçăo aos mesmos. O presente trabalho tem como objetivo apresentar um método de otimizaçăo baseado em um metamodelo local quadrático utilizado para estimar uma dada funçăo objetivo. Uma formulaçăo analítica de obtençăo dos gradientes da funçăo com relaçăo aos parâmetros de laminaçăo é apresentada. A regiăo viável dos parâmetros de laminaçăo é analisada e bancos de laminados săo utilizados a fim de evitar problemas na definiçăo das fronteiras da regiăo viável. Um método de combinaçăo dos bancos de laminados também é apresentado com o intuito de permitir a utilizaçăo de laminados com grande número de camadas. O algoritmo de otimizaçăo é validado para uma placa laminada sujeita a esforços de flexăo e torçăo puras. Em seguida, o algoritmo é utilizado na otimizaçăo da placa laminada, porém sujeita a esforços combinados de flexăo e torçăo. Todos os resultados obtidos săo apresentados e discutidos em termos de projeto de estruturas aeronáuticas.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Otimizaçăo",
+    "Algoritmos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "02/07/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68679",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68679&origem=BDITA"
+}

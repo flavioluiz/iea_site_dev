@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-79960960755",
+  "eid": "2-s2.0-79960960755",
+  "doi": "10.1016/b978-008044613-4.50070-7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A hybrid approach for safety analysis of aircraft systems",
+  "abstract": "This paper introduces the use of a hybrid modelling and simulation approach for the analysis of safety issues in aircraft systems. Traditionally, safety analysis in aircraft industry is performed without considering the system dynamics. In this paper the dynamics of the aircraft components are modelled using Petri nets and differential equations. Faults are incorporated in the model using probabilistic distributions functions. The reliability of the system under fault is then estimated by simulation. The approach is applied to the landing system of a military aircraft in order to compare two different control strategies for detecting and processing faults. Copyright © 2006 IFAC.",
+  "authkeywords": [
+    "Hybrid systems",
+    "Petri nets",
+    "Probabilistic behaviour",
+    "Safety analysis"
+  ],
+  "year": "2006",
+  "date": "2006-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IFAC Proceedings Volumes IFAC Papersonline",
+    "issn": "14746670",
+    "eissn": null,
+    "volume": "2",
+    "issue": "PART 1",
+    "pages": "389-394",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Villani, E.",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Miyagi, P. E.",
+      "scopus_id": "6602983553",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 13,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79960960755&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049788",
+    "data_quality_score": 90
+  }
+}

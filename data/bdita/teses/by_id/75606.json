@@ -1,0 +1,29 @@
+{
+  "num_tese": "75606",
+  "type": "tese",
+  "title": "Metodologia de inspeçăo para processo de soldagem por resistęncia a ponto via visăo de máquina",
+  "author": "Fábio do Monte Sena",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho aborda uma metodologia para inspeçăo de pontos de solda por imagem. Propőe-se o uso de redes neurais do tipo Multi Layer Perceptron com uma camada oculta e um neurônio de saída como estudo de caso. A fim de viabilizar algoritmos que aprendam através de dados, é realizada uma caracterizaçăo experimental do processo de solda a ponto, para juntas compostas por duas chapas de aço CR4. As amostras foram fabricadas variando-se a corrente de soldagem, uma vez que o parâmetro é o mais influente no processo e capaz de reproduzir diferentes condiçőes e defeitos. Através de caracterizaçőes macro gráficas, de micro dureza, ensaio de arrancamento (peel test), traçăo-cisalhamento e mediçőes topográficas é proposta uma janela de operaçőes, complementada por observaçőes de processo. Essa distingue as soldas em tręs grupos: frios (8 kA a 12 kA), adequados (13 kA a 14kA) e quentes (15kA e 16kA). O primeiro configura aqueles que comprometem a integridade estrutural, enquanto o segundo é a melhor soluçăo de compromisso, já que o terceiro impőe condiçőes severas de processo, por expulsăo e desgaste excessivos. Foram adquiridas imagens das soldas em condiçőes padronizadas e a partir de parte delas desenvolvidas rotinas computacionais, a fim de extrair os seguintes atributos de superfície: diâmetro interno da marca do eletrodo, índice de circularidade interno, diâmetro externo, índice de circularidade e espessura do anel de zinco e, por fim, a quantidade de latăo na superfície. A partir disso, foi gerado, tratado e analisado um banco de dados para treinamento e validaçăo da rede neural. Com isso, verificou-se a melhor composiçăo de rótulos para o neurônio de saída. Ainda, observou-se que simultaneamente, é possível classificar os tręs grupos com acuracidade média de 89% nas amostras de validaçăo, isto é, aquelas jamais vistas pela rede neural. Além disso, notou-se que uma rede neural dedicada a distinguir os pontos frios dos demais é capaz de atingir acuracidade média, também nas amostras de validaçăo, de 98%. Por fim, verificou-se que os atributos mais relevantes na composiçăo do banco de dados foram o diâmetro externo e a quantidade de latăo.",
+  "subjects": [
+    "Soldagem por resistęncia",
+    "Inspeçăo",
+    "Redes neurais",
+    "Algoritmos",
+    "Metalurgia",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "20/02/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75606",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75606&origem=BDITA"
+}

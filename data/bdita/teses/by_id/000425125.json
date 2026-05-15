@@ -1,0 +1,32 @@
+{
+  "num_tese": "000425125",
+  "type": "tese",
+  "title": "Simulaçăo de escoamentos em entradas de ar hipersônicas.",
+  "author": "Vanesa Claudia Gisela Mitchell",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho teve por objetivo estudar a possibilidade de se utilizar esquemas \"upwind\" para simular escoamentos supersônicos e hipersônicos, sendo adotado, para isto, o esquema de separaçăo de vetores de fluxo de Van Leer. Foram realizadas diversas simulaçőes numéricas utilizando o escoamento interno de uma entrada de ar hipersônica e compararam-se resultados com os obtidos empregando-se o esquema centrado. O escoamento foi modelado pelas equaçőes de Euler em duas dimensőes, utilizando-se um método de volumes finitos aplicado a um contexto de malhas năo-estruturadas, sendo a marcha no tempo do sistema de equaçőes feita por meio de um método explícito de Runge-Kutta híbrido de cinco passos. A malha computacional foi obtida utilizando-se um esquema de avanço de geraçăo com capacidade limitada de refinamento. Os resultados obtidos possibilitam a avaliaçăo e comparaçăo dos métodos com relaçăo a formaçăo da onda de choque oblíqua, bem como o comportamento em relaçăo ŕ pressăo, ŕ densidade e ao número de Mach. Finalmente, foram discutidas as características observadas para cada método.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Simulaçăo do escoamento",
+    "Escoamento de gases",
+    "Análise numérica",
+    "Escoamento supersônico",
+    "Escoamento hipersônico",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000425125",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000425125&origem=BDITA"
+}

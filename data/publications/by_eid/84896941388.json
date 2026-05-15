@@ -1,0 +1,86 @@
+{
+  "publication_id": "2-s2.0-84896941388",
+  "eid": "2-s2.0-84896941388",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Parameter estimation flight test maneuver optimization considering measurement colored residuals",
+  "abstract": "This work deals with the optimization of flight test maneuvers for aerodynamic parameter estimation considering that the measurements are contaminated with colored residuals. The colored residuals consideration is important to give the direct and realistic assessment of the parameter estimation uncertainty levels prior to flight tests. The optimization technique is based on the concept of flight test data information content and Cramer-Rao lower bound. The discrete autocorrelation matrix of the measurement noise is used in order to compose the optimization criteria considering colored residuals. Some results of a flight test campaign of the CEA-205 CB.9 Curumim aircraft are discussed. The advantages and disadvantages of theproposed maneuvers optimization technique are presented, stressing the easiness of implementation of the signals and the strong improvement in the estimation procedures made possible with the application of the optimized maneuver signals.",
+  "authkeywords": [
+    "Aerodynamic parameters",
+    "Flight testing maneuvers",
+    "Parametric estimation",
+    "System identification"
+  ],
+  "year": "2006",
+  "date": "2006-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Icas Secretariat 25th Congress of the International Council of the Aeronautical Sciences 2006",
+    "issn": null,
+    "eissn": null,
+    "volume": "5",
+    "issue": null,
+    "pages": "3176-3185",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Brasil Neto, Nei Salis",
+      "scopus_id": "14047823700",
+      "affiliation": "114292555",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Hemerly, Elder Moreira",
+      "scopus_id": "6603075914",
+      "affiliation": "114292654",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sandoval Góes, Luiz Carlos",
+      "scopus_id": "8613267100",
+      "affiliation": "114292654",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Materials Science (all)",
+        "abbrev": "MATE",
+        "name": null
+      }
+    ],
+    "references_count": 15,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84896941388&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077900",
+    "data_quality_score": 70
+  }
+}

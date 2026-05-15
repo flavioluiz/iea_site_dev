@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-33750893214",
+  "eid": "2-s2.0-33750893214",
+  "doi": "10.1115/GT2006-91225",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Gas turbine performance simulation using an optimized axial flow compressor",
+  "abstract": "Gas turbines need to operate efficiently due to the high specific fuel consumption. In order to reach the best possible efficiency the main gas turbine components, such as compressor and turbine, need to be optimized. This work reports the use of two specially developed computer programs: AFCC [1, 2] and GTAnalysis [3, 4] for such purpose. An axial flow compressor has been designed, using the AFCC computer program based on the stage-stacking technique. Major compressor design parameters are optimized at design point, searching for best efficiency and surge margin. Operation points are calculated and its characteristics maps are generated. The calculated compressor maps are incorporated to the GTAnalysis computer program for the engine performance calculation. Restrictions, like engine complexity, manufacture difficulties and control problems, are not taken into account. Copyright © 2006 by ASME.",
+  "authkeywords": [
+    "Compressor",
+    "Gas turbine",
+    "Optimization",
+    "Performance",
+    "Simulation"
+  ],
+  "year": "2006",
+  "date": "2006-11-15",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the ASME Turbo Expo",
+    "issn": null,
+    "eissn": null,
+    "volume": "6 PART B",
+    "issue": null,
+    "pages": "1941-1948",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Bringhenti, Cleverson",
+      "scopus_id": "7801357927",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "cleverson-bringhenti"
+    },
+    {
+      "name": "Tomita, Jesuíno Takachi",
+      "scopus_id": "15058420800",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "jesuino-takachi-tomita"
+    },
+    {
+      "name": "De Souza, Francisco",
+      "scopus_id": "57196556227",
+      "affiliation": "60025299",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, João R.",
+      "scopus_id": "7202434187",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "cleverson-bringhenti",
+    "jesuino-takachi-tomita"
+  ],
+  "scopus": {
+    "citations": 5,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 29,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33750893214&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.052287",
+    "data_quality_score": 100
+  }
+}

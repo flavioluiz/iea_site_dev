@@ -1,0 +1,35 @@
+{
+  "num_tese": "000331294",
+  "type": "tese",
+  "title": "Análise de falha em laminados cross-ply pelo método dos elementos finitos",
+  "author": "Carla Wilza Souza de Paula Maitelli",
+  "year": "1995",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata do problema da determinacao das tensoes que surgem nas bordas livres de compositos laminados simetricos de fita unidirecional de carbono/epoxi sujeitos a uma extensao uniformelongitudinal e a um carregamento termico ocasionado pela temperaturade cura. Utilizou-se uma formulacao baseada no metodo dos elementos finitos que leva em conta um estado de tensoes tridimensional. A formulacao foi implementada em um software que calcula o campo de deslocamentos e a distribuicao de tensoes tridimensional no laminado. O software foi validado pela comparacao de resultados numericos com valores existentes na literatura para configuracao ';entre colchetes + ou - 45 graus';. Os resultados numericos obtidos para as distribuicoes de tensoes foram correlacionados com resultados experimentais de resistencia a tracao de laminados tipo cross-ply. Tres configuracoes sao consideradas: ';entre colchetes 0 graus/90 graus/90 graus';, ';entre colchetes 90 graus/0 grau/90 graus'; e ';entre colchetes 90 graus/90 graus/0 grau';. Alem disso, dois tipos de acabamento de borda livre sao considerados para cada uma dessas familias: borda retificada e borda moldada. a analise de tensoes mostrou que a tensao normal longitudinal ';(Sigma IND. XX)'; edominante em termos de definir a resistencia do laminado para os casos estudados. As tensoes interlaminares tem valores baixos quandocomparadas aos valores admissiveis para este tipo de esforco. Dessa forma, esses resultados indicam um efeito da sequencia de empilhamento pouco acentuado, o que e coerente com os resultados experimentais previamente obtidos. Na comparacao entre os dois tiposde acabamento de borda livre, percebeu-se uma sensivel perda de resistencia a tracao quando o laminado e fabricado com bordas moldadas. Isto ocorre porque o cunteudo de fibras em volume nas proximidades da borda livre e mais baixo do que no interior do laminado. Portanto, as propriedades mecanicas do material na regiao da borda livre sao mais baixas. Alem disso podem aparecer pequenas bolsas de resina pura que possuem resistencia mecanica bastante baixa. O efeito do carregamento termico pode elevar significativamente o valor de alguns componentes de tensao, particularmente o valor das tensoes interlaminares. Entretanto, para os laminados analisados a influencia do carregamento termico na resistencia e muito pequena.",
+  "subjects": [
+    "Análise de tensăo",
+    "Laminados",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Falhas",
+    "Tensőes",
+    "Fibras de carbono",
+    "Análise numérica",
+    "Engenharia estrutural",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica",
+    "Matemática"
+  ],
+  "defense_date": "01/01/1995",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000331294",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000331294&origem=BDITA"
+}

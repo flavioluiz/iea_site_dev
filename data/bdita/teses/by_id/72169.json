@@ -1,0 +1,33 @@
+{
+  "num_tese": "72169",
+  "type": "tese",
+  "title": "Analysis and comparison of real and simulated flights of quadricopters.",
+  "author": "Alessandro Corręa Mendes",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Currently there has been an increase in the usage of unmanned aircraft around the globe. Research has been conducted with the goal of making the usage of this kind of aircraft safer. In the same way, the market has been making available several types of unmanned aircraft, both for military and civilian applications. A diverse number of professionals have been employing this equipment as a working tool, therefore broadening the range of application of those aircraft, as for example, the various applications of unmanned aircraft for aerial imagery capturing. Regardless of the use or category of unmanned aircraft, companies have an interest in customize their aircraft, making a need for a few phases of development. One of the most important phases of development is the inaugural flight, when all the project and theory are put to the test. For assisting in the development of such aircraft, it is employed a tool that is already widely known in the field of manned flight, referred as HIL (Hardware In the Loop). It allows the developer to perform a virtual flight using the same hardware that will be embedded in the aircraft during inaugural flight. This hardware consists of a printed circuit board that contains the main electronics parts, such as the microcontrollers and the inertial sensors, the input and output that will be used for controlling the engines, as well as serial ports. The hardware has two functioning modes, the normal mode, which is used for real life flight, and the HIL mode where the Inertial/Attitude parameters are simulated through flight simulator software. The proposed thesis implements HIL for collecting data during a flight in X-Plane and FlightGear simulated environments. Following that, an actual flight will be performed, in which the same maneuvers adopted in both simulators are repeated and the pertinent flight data is then collected. Finally, the data collected in simulated flight from both simulators are compared to the real flight data",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Simulaçăo em hardware in-the-loop",
+    "Análise comparativa",
+    "Simuladores de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72169",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72169&origem=BDITA"
+}

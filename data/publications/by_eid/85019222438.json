@@ -1,0 +1,88 @@
+{
+  "publication_id": "2-s2.0-85019222438",
+  "eid": "2-s2.0-85019222438",
+  "doi": "10.4271/2014-36-0342",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A Method for Evaluating the Dynamic Behavior of a Gear Test Rig",
+  "abstract": "Copyright © 2014 SAE International.In the concept of a power recirculation gear test rig, two gear sets and the other machine elements are assembled in closed loop. The torque and the rotational motion are supplied independently, at distinct places of the system. This allows an optimization for the selection of the components responsible for power functions. However, this setup causes the analytical solution for the dynamic matricial equations to be rather complex. This project proposes the development of a computational method for the analysis of torque and rotation fluctuations in each shaft line of the test rig. Additionally, various operational conditions can be quickly simulated in order to assess the system response. The tool used is the software LMS Imagine.Lab AMESim®, a 1D multidomain simulation platform. The simulation inputs are the inertia, the stiffness and the friction data of the modeled components. Together with the torque and acceleration curves, it is possible to evaluate the actuating peak torques in the shafts and in the other parts. The most important output is the power that must be supplied by the motor. Thus it is possible to systematically define and select this component, avoiding arbitrary selection of a high cost item. Results show agreement with that indicated by the literature.",
+  "authkeywords": null,
+  "year": "2014",
+  "date": "2014-09-30",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "SAE Technical Papers",
+    "issn": null,
+    "eissn": "01487191",
+    "volume": "2014-October",
+    "issue": "October",
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Maia, André Hemerly",
+      "scopus_id": "57194203856",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Eguti, Carlos Cesar Aparecido",
+      "scopus_id": "55677356400",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rego, Ronnie Rodrigo",
+      "scopus_id": "55692679300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "ronnie-rodrigo-rego"
+    },
+    {
+      "name": "Salzgeber, Jonny",
+      "scopus_id": "57194204987",
+      "affiliation": "112804774",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "ronnie-rodrigo-rego"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Safety, Risk, Reliability and Quality",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Pollution",
+        "abbrev": "ENVI",
+        "name": null
+      },
+      {
+        "code": "Industrial and Manufacturing Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85019222438&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.080550",
+    "data_quality_score": 80
+  }
+}

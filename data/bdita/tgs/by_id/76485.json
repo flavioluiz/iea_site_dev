@@ -1,0 +1,31 @@
+{
+  "num_tg": "76485",
+  "type": "tg",
+  "title": "Projeto de câmara de combustăo de motor foguete a propelente líquido de 25 kN considerando uso de bomba.",
+  "author": "Davi Mendes Tenorio",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Leonardo Bartholomeu do Nascimento",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O trabalho implementa método para projeto de câmara de combustăo de motor foguete a propelente líquido, incluindo injetores e jaqueta de refrigeraçăo da câmara, sendo realizados os cálculos para motor com empuxo de 25 kN e operado com pressăo de câmara de 60 bar, o qual presume o uso de bombas (elétricas ou turbobombas), entretanto năo sendo este o escopo do trabalho. O método implementado é em geral de origem russa, normalmente implementado no IAE, e o par propelente considerado é etanol e oxigęnio líquido. Săo estabelecidos o contorno interno da câmara e bocal e calculadas as frequęncias e modos normais de vibraçăo para a câmara. O bocal de expansăo é otimizado e as frequęncias normais encontradas săo superiores as de excitaçăo típicas, indicando operaçăo segura. Também é estabelecida a configuraçăo do cabeçote de injeçăo e determinadas opçőes de geometria para os injetores, atendendo os requisitos de queda de pressăo. Realizou-se também o cálculo térmico da câmara de combustăo considerando possível geometria da jaqueta de refrigeraçăo, incluindo o cálculo da queda de pressăo na jaqueta. O método de cálculo se mostrou com resultado conservativo quando comparado a implementaçăo já existente no IAE, contudo, no caso da queda de pressăo, o resultado foi menos conservativo que o do IAE, sugerindo a implementaçăo de modelos mais rebuscados que considerem a rugosidade dos canais. O projeto da câmara de combustăo se mostrou viável, atendendo os requisitos e restriçőes impostas, tanto no que se refere aos contornos de câmara e de bocal determinados, ŕs características previstas de estabilidade e a disposiçăo e geometria dos injetores, embora no que se refere ŕs características de fluxos de calor faz-se necessário a implementaçăo de métodos para reduçăo da razăo de mistura na regiăo próxima a parede interna da câmara de combustăo, visando em especial a reduçăo da temperatura de parede.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Câmaras de combustăo",
+    "Álcool etílico",
+    "Medidas de pressăo",
+    "Engenharia mecânica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76485",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76485&origem=BDITA"
+}

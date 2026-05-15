@@ -1,0 +1,59 @@
+{
+  "publication_id": "2-s2.0-84983140483",
+  "eid": "2-s2.0-84983140483",
+  "doi": "10.2514/6.1998-2584",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The effects of peclet number and cycling strategy on multigrid numerical solutions of conductive-convective problems",
+  "abstract": "© 1998 The American Institute of Aeronautics and Astronautics Inc. All rights reserved.The present work investigates the efficiency of the multigrid numerical method when applied to solve two-dimensional steady-state conductive-convective problems. The velocity field inside a rectangular domain and the temperature distribution at its four boundaries are known and kept constant. The numerical method includes finite volume discretization and the Weighted Upstream Differencing Scheme interpolation on structured orthogonal regular meshes. The correction storage (CS) multigrid algorithm performance is compared for different Peclet numbers and the number of sweeps in each grid level. Up to six grids for both multigrid V-and W-cycles are considered. Results indicate a better performance of the W-cycle and reduction in computational effort for larger Peclet numbers.",
+  "authkeywords": null,
+  "year": "1998",
+  "date": "1998-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "7th AIAA ASME Joint Thermophysics and Heat Transfer Conference",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": "AIAA-98-2584"
+  },
+  "authors": [
+    {
+      "name": "Rabi, José A.",
+      "scopus_id": "8577939100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "de Lemos, Marcelo J.S.",
+      "scopus_id": "7004984975",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "marcelo-jose-s-de-lemos"
+    }
+  ],
+  "eam_coauthors": [
+    "marcelo-jose-s-de-lemos"
+  ],
+  "scopus": {
+    "citations": 8,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 10,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84983140483&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.112290",
+    "data_quality_score": 90
+  }
+}

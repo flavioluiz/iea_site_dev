@@ -1,0 +1,66 @@
+{
+  "publication_id": "2-s2.0-33847334416",
+  "eid": "2-s2.0-33847334416",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "A platform for distributed modeling and simulation of productive systems based on petri nets and object-oriented paradigm",
+  "abstract": "The increasing complexity of productive systems associated with the geographical dispersion of industries motivates new demands and the adoption of new design tools. In this context the purpose of this work is to introduce a new platform for distributed modeling and analyses of productive systems. The platform is based on Petri net as a modeling formalism and on the label-ring protocol for managing the distributed simulation. The focus of this paper is on the platform communication algorithm. An example is presented in order to illustrate the proposal. © 2005 IEEE.",
+  "authkeywords": null,
+  "year": "2005",
+  "date": "2005-12-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IEEE International Conference on Emerging Technologies and Factory Automation ETFA",
+    "issn": null,
+    "eissn": null,
+    "volume": "1 2 VOLS",
+    "issue": null,
+    "pages": "907-914",
+    "article_number": "1612621"
+  },
+  "authors": [
+    {
+      "name": "Junqueira, Fabrício",
+      "scopus_id": "16021740800",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emília",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Miyagi, Paulo E.",
+      "scopus_id": "6602983553",
+      "affiliation": "60008088",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33847334416&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049795",
+    "data_quality_score": 70
+  }
+}

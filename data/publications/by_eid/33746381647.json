@@ -1,0 +1,99 @@
+{
+  "publication_id": "2-s2.0-33746381647",
+  "eid": "2-s2.0-33746381647",
+  "doi": "10.1155/2006/917967",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Sensitivity analysis of viscoelastic structures",
+  "abstract": "In the context of control of sound and vibration of mechanical systems, the use of viscoelastic materials has been regarded as a convenient strategy in many types of industrial applications. Numerical models based on finite element discretization have been frequently used in the analysis and design of complex structural systems incorporating viscoelastic materials. Such models must account for the typical dependence of the viscoelastic characteristics on operational and environmental parameters, such as frequency and temperature. In many applications, including optimal design and model updating, sensitivity analysis based on numerical models is a very usefull tool. In this paper, the formulation of first-order sensitivity analysis of complex frequency response functions is developed for plates treated with passive constraining damping layers, considering geometrical characteristics, such as the thicknesses of the multi-layer components, as design variables. Also, the sensitivity of the frequency response functions with respect to temperature is introduced. As an example, response derivatives are calculated for a three-layer sandwich plate and the results obtained are compared with first-order finite-difference approximations. © 2006 - IOS Press and the authors. All rights reserved.",
+  "authkeywords": [
+    "Damping",
+    "Finite elements",
+    "Plates",
+    "Sensitivity analysis",
+    "Viscoelasticity"
+  ],
+  "year": "2006",
+  "date": "2006-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Shock and Vibration",
+    "issn": "10709622",
+    "eissn": null,
+    "volume": "13",
+    "issue": "4-5",
+    "pages": "545-558",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "De Lima, A. M.G.",
+      "scopus_id": "14047980400",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Stoppa, M. H.",
+      "scopus_id": "56943316300",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Rade, D. A.",
+      "scopus_id": "6701889091",
+      "affiliation": "60015104",
+      "is_eam_professor": true,
+      "eam_professor_id": "domingos-a-rade"
+    },
+    {
+      "name": "Steffen, V.",
+      "scopus_id": "7004361797",
+      "affiliation": "60015104",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "domingos-a-rade"
+  ],
+  "scopus": {
+    "citations": 27,
+    "subject_areas": [
+      {
+        "code": "Civil and Structural Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Geotechnical Engineering and Engineering Geology",
+        "abbrev": "EART",
+        "name": null
+      },
+      {
+        "code": "Mechanics of Materials",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33746381647&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.089494",
+    "data_quality_score": 100
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "publication_id": "2-s2.0-85054499960",
+  "eid": "2-s2.0-85054499960",
+  "doi": "10.1007/978-3-319-91217-2_7",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Nonlinear identification using polynomial NARMAX model and a stability analysis of an aeroelastic system",
+  "abstract": "© Springer International Publishing AG, part of Springer Nature 2019.This work describes the nonlinear identification applied to an aeroelastic pitch-plunge system using polynomial NARMAX model and a stability analysis. The apparatus is available and consists of a wing typical section with pitch and plunge degrees of freedom. The identification procedure aims to obtain the parameters for the mathematical model including the torsional stiffness as a quadratic polynomial function. The candidate structure to the polynomial model is obtained from discretization of a continuous-time state-space model and the predictions are obtained via the identification procedure using simulated data. The simulation is performed considering the aerodynamics with free stream velocity increased within an established velocity range which includes the flutter phenomenon. In future work, a data acquisition from the experimental apparatus will be performed. The NAR-MAX model indicates a polynomial function of fourth order for the nonlinearity and a stability analysis, discussed in this work, mapping the nonlinear regions.",
+  "authkeywords": [
+    "Aeroelastic system",
+    "Nonlinear system identification",
+    "Polynomial narmax model",
+    "Stability analysis"
+  ],
+  "year": "2018",
+  "date": "2018-01-01",
+  "type": "article",
+  "subtype": "ch",
+  "journal": {
+    "name": "Lecture Notes in Mechanical Engineering",
+    "issn": "21954356",
+    "eissn": "21954364",
+    "volume": "PartF6",
+    "issue": null,
+    "pages": "97-109",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Barbosa, Raphaela C.M.G.",
+      "scopus_id": "57204113351",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Góes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "Nabarrete, Airton",
+      "scopus_id": "6508307482",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "airton-nabarrete"
+    },
+    {
+      "name": "Balthazar, José M.",
+      "scopus_id": "7004090367",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Zúñiga, David F.C.",
+      "scopus_id": "57188145100",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes",
+    "airton-nabarrete"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Automotive Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Mechanical Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 16,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85054499960&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077183",
+    "data_quality_score": 90
+  }
+}

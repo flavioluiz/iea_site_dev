@@ -1,0 +1,28 @@
+{
+  "num_tese": "75361",
+  "type": "tese",
+  "title": "Cutting tool and process parameters selection in milling of thin-walled aluminum structures",
+  "author": "Rafael Borges Mundim",
+  "year": "2018",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Milling of flexible thin-walled structures is a subject of permanent importance in the mobility industry, especially in the aerospace sector, due to the growing demand for lighter, more efficient components. Weight reduction, in turn, is often associated to more flexible parts that still need to be machined. This has motivated the search for methods that allow manufacturing to take place without the occurrence of dynamic instability. Instability in milling of thin walls results in surface defects that generate waste, either through scrapping of parts or by manual reworking of damaged surfaces. Methods for predicting instability in situations that the workpiece can be considered rigid have achieved a high maturity over recent years. This maturity is demonstrated by the existence of commercial software for process planning in these cases. However, there are no consolidated applications that guarantee a stable process in thin wall milling. This is aggravated when continuous material removal takes place during machining of parts that are considerably more flexible than the cutting tool. Continuous material removal, especially for the case of highly flexible walls, results in fast-changing workpiece dynamic response, demanding continuous adjustment of parameters or external compensation of rigidity. Recent publications expose different approaches to these cases but no solid guidelines for tool geometry as well as strategy and parameters selection are available. This thesis aimed at filling a gap that exists in process planning by means of 1) investigating the performance of non-traditional removal strategies 2) evaluating the effect of tool geometry on the force signal, and 3) prediction of stable speeds based on simulation models and a probability-based chart. The evaluated strategies produced surfaces with defects mainly related to dynamic instability and the traditional waterline strategy demonstrated the best results in terms of part quality. Results indicate that the choice of cutting tool can be supported by analyzing the combined effects of process parameters and cutter geometry on machining forces along the most flexible direction of the workpiece. For some parameters, such as helix angle, strong non-linear interactions indicate the need for analysis to be conducted for each individual case. Additionally, a speed selection chart based on numerical simulation of the in-process-workpiece and the force signal was proposed and experimentally evaluated. Experimental results indicate correlation with predictions, demonstrating improvement in stability that resulted in quality gains for a thin-walled component.",
+  "subjects": [
+    "Fresagem (usinagem)",
+    "Ferramentas de corte",
+    "Corpos flexíveis",
+    "Estabilidade dinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "30/11/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75361",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75361&origem=BDITA"
+}

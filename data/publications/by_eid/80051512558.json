@@ -1,0 +1,73 @@
+{
+  "publication_id": "2-s2.0-80051512558",
+  "eid": "2-s2.0-80051512558",
+  "doi": "10.3182/20090916-3-BR-3001.0026",
+  "pii": "S1474667016318717",
+  "pubmed_id": null,
+  "title": "Design methodologies for the control of an unmanned sailing robot",
+  "abstract": "The design of a sailing robot controller is addressed. Based on a simulation model, and validated by experiments with a real sailing robot, three controllers are compared: the classical fuzzy controller, the state machine controller and the fuzzy state machine controller. The fuzzy controller shows poor results because the robot is, like any sailboat, subject to dramatic change in its internal state (tacking, jibe, etc.) The \"natural\" approach is to describe the transitions between states as a classical state machine with transitions. We improve the concept with fuzzy transition, obtaining the same results in term of behavior but using effectiveness of fuzzy design to transpose human expertise in fuzzy rules. Although these controllers show good results in a wide range of wind force, we conclude that adaptive control is needed. © 2009 IFAC.",
+  "authkeywords": [
+    "Fuzzy control",
+    "Fuzzy Petri Net",
+    "Microtransat",
+    "Robot",
+    "Sailboat",
+    "State machine"
+  ],
+  "year": "2009",
+  "date": "2009-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "IFAC Proceedings Volumes IFAC Papersonline",
+    "issn": "14746670",
+    "eissn": null,
+    "volume": "42",
+    "issue": "18",
+    "pages": "58-65",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Briere, Y.",
+      "scopus_id": "6506092186",
+      "affiliation": "60027245",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cardoso Ribeiro, F. L.",
+      "scopus_id": "46461159000",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Vieira Rosa, M. A.",
+      "scopus_id": "46462093700",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "flavio-luiz-c-ribeiro"
+  ],
+  "scopus": {
+    "citations": 4,
+    "subject_areas": [
+      {
+        "code": "Control and Systems Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 19,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=80051512558&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.063179",
+    "data_quality_score": 100
+  }
+}

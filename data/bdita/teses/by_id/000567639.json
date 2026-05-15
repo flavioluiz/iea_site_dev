@@ -1,0 +1,29 @@
+{
+  "num_tese": "000567639",
+  "type": "tese",
+  "title": "Requisitos e restriçőes na modelagem (CAD) de superfícies complexas para o fresamento em 5 eixos simultâneos, com aplicaçăo em turbo máquinas.",
+  "author": "Fabiana Eloisa Passador",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho traz uma avaliaçăo da influęncia das características de continuidade geométrica na composiçăo de curvas que serăo guias e seçőes na construçăo de superfícies, sobre a suavidade do processo de fresamento em 5 eixos simultâneos. Nesse processo a orientaçăo da ferramenta é determinada pelo vetor normal local da superfície-guia (que normalmente é a usinada) e, por esse motivo, descontinuidades geométricas nas superfícies fazem com que a operaçăo de usinagem transcorra de maneira năo suave, ficando sujeita a solavancos, marcas na peça, e até trazendo o risco de colisăo. O objetivo deste trabalho é saber até que ponto a preocupaçăo com continuidade geométrica na composiçăo de curvas que, posteriormente, comporăo as superfícies a serem usinadas, influenciam na suavidade do processo de fresamento em 5 eixos simultâneos. Para tal săo usinadas uma superfície complexa e uma pá de turbina, obtidas através dos dados originais de um software específico para o desenvolvimento de turbinas. Superfície e pá săo compostas por curvas construídas a partir de segmentos de splines concatenados com continuidades: geométrica entre G0 e G2, e paramétricas entre C1 e C2.",
+  "subjects": [
+    "Fresagem (usinagem)",
+    "Modelagem (processos)",
+    "Tratamento de superfícies",
+    "Projeto auxiliado por computador",
+    "Curvas (Geometria)",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "10/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567639",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567639&origem=BDITA"
+}

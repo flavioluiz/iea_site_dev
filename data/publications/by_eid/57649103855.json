@@ -1,0 +1,80 @@
+{
+  "publication_id": "2-s2.0-57649103855",
+  "eid": "2-s2.0-57649103855",
+  "doi": "10.2514/1.33406",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Investigation on transonic correction methods for unsteady aerodynamics and aeroelastic analyses",
+  "abstract": "This paper presents an expedient transonic correction technique to compute unsteady pressure distributions and aeroelastic stability in the transonic flow regime. The transonic correction procedure here is an improvement of the downwash weighting method proposed previously by several authors. The previous downwash weighting methods could provide pressure and/or force corrections to some extent by applying different weighting methods on the lifting-surface self-induced downwash resulting from aeroelastic structural displacements or prescribed motions. However, the resulting pressure/force solutions were often found to be inconsistent, because they all failed to include the proper transonic unsteady and out-of-phase effects. Our improved downwash correction method is a rational formulation to include proper transonic effects, as this formulation is based on a successive kernel expansion procedure established in accord with the formal pressure-downwash relation. Accordingly, the developed transonic correction procedure is a proper and rational one that is expected to yield more consistent aeroelastic solutions. This procedure is now a fully developed program, known as the transonic weighting aerodynamic influence coefficient procedure in the ZAERO software system, or ZTAW. Computed results by ZTAW for the unsteady pressures and aeroelastic stability boundaries for four selected wing planforms (AGARD 445.6, F-S, LANN, Lessing wings) are found to be in good agreement with measured data. In contrast to the computational-fluid- dynamics-based methods of computational aeroelasticity, the present procedure is proven to be far more computationally efficient and industrially viable while yielding comparable aeroelastic solutions. Copyright © 2008 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+  "authkeywords": null,
+  "year": "2008",
+  "date": "2008-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Aircraft",
+    "issn": "00218669",
+    "eissn": "15333868",
+    "volume": "45",
+    "issue": "6",
+    "pages": "1890-1903",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Silva, Roberto G.A.",
+      "scopus_id": "35451481500",
+      "affiliation": "60069347-60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "roberto-gil-annes-da-silva"
+    },
+    {
+      "name": "Mello, Olympio A.F.",
+      "scopus_id": "55945788000",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Azevedo, João Luiz F.",
+      "scopus_id": "7101722188",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Chen, P. C.",
+      "scopus_id": "7408353466",
+      "affiliation": "60005483",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Liu, D. D.",
+      "scopus_id": "56130943600",
+      "affiliation": "60005483",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "roberto-gil-annes-da-silva"
+  ],
+  "scopus": {
+    "citations": 22,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 49,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=57649103855&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.067564",
+    "data_quality_score": 90
+  }
+}

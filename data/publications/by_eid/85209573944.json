@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-85209573944",
+  "eid": "2-s2.0-85209573944",
+  "doi": "10.1007/s00162-024-00722-0",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Wave reflections and resonance in a Mach 0.9 turbulent jet",
+  "abstract": "© The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024.This work aims to provide a more complete understanding of the resonance mechanisms that occur in turbulent jets at high subsonic Mach number, as shown by Towne et al. (J. Fluid Mech., vol. 825, 2017, pp. 1113-1152). Resonance was suggested by that study to exist between upstream- and downstream-travelling guided waves. Five possible resonance mechanisms were postulated, each involving different families of guided waves that reflect in the nozzle exit plane and at a number of downstream turning points. However, that study did not identify which of the five resonance mechanisms underpin the observed spectral peaks. In this work, the waves underpinning resonance are identified via a biorthogonal projection of Large Eddy Simulation data on eigenbases provided by a locally parallel linear stability analysis. Two of the five scenarios postulated by Towne et al. are thus confirmed to exist in the turbulent jet. The reflection-coefficients in the nozzle exit and turning-point planes are, furthermore, identified. Such information is required as input for simplified resonance-modelling strategies such as developed in Jordan et al. (J. Fluid Mech., vol. 853, 2018, pp. 333-358) for jet-edge resonance, and in Mancinelli et al. (Exp. Fluids, vol. 60, 2019, pp. 1-9) for supersonic screech.",
+  "authkeywords": [
+    "Aeroacoustics",
+    "Fluid mechanics",
+    "Hydrodynamic stability",
+    "Jets"
+  ],
+  "year": "2025",
+  "date": "2025-02-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Theoretical and Computational Fluid Dynamics",
+    "issn": "09354964",
+    "eissn": "14322250",
+    "volume": "39",
+    "issue": "1",
+    "pages": null,
+    "article_number": "2"
+  },
+  "authors": [
+    {
+      "name": "Prinja, Robin",
+      "scopus_id": "57822270200",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60155336",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Mechanics",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Condensed Matter Physics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Engineering (all)",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Fluid Flow and Transfer Processes",
+        "abbrev": "CENG",
+        "name": null
+      }
+    ],
+    "references_count": 34,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209573944&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100179",
+    "data_quality_score": 100
+  }
+}

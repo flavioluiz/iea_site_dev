@@ -1,0 +1,104 @@
+{
+  "publication_id": "2-s2.0-85095978399",
+  "eid": "2-s2.0-85095978399",
+  "doi": "10.2514/6.2019-2535",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Real-time estimation in a turbulent jet using multiple-input-multiple-output transfer functions",
+  "abstract": "© 2019, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.In this work we investigate the use of multiple-input, multiple-output (MIMO) transfer functions obtained empirically from a large-eddy simulation of a turbulent jet. We compare the MIMO performance with single-input-single-output (SISO) transfer functions used in previous studies. The choice of sensor placement has been made based on results of linear stability analysis from the literature. The results show that MIMO transfer functions improve on SISO results where both single-and two-point statistics are concerned. It is also found that the number of sensors necessary to converge the estimates depends strongly on Strouhal number.",
+  "authkeywords": null,
+  "year": "2019",
+  "date": "2019-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "25th AIAA Ceas Aeroacoustics Conference 2019",
+    "issn": null,
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": null,
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Maia, Igor A.",
+      "scopus_id": "57194855695",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Martini, Eduardo",
+      "scopus_id": "57205546117",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Lesshafft, Lutz",
+      "scopus_id": "10142919200",
+      "affiliation": "60013425",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Schmidt, Oliver",
+      "scopus_id": "57190757609",
+      "affiliation": "60121660",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 1,
+    "subject_areas": [
+      {
+        "code": "Acoustics and Ultrasonics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Electrical and Electronic Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85095978399&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.101104",
+    "data_quality_score": 90
+  }
+}

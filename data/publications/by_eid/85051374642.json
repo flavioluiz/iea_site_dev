@@ -1,0 +1,87 @@
+{
+  "publication_id": "2-s2.0-85051374642",
+  "eid": "2-s2.0-85051374642",
+  "doi": null,
+  "pii": null,
+  "pubmed_id": null,
+  "title": "The effects of the center of mass motion on the attitude motion of a manipulator-like spacecraft in close proximity of rendezvous and docking/berthing operations",
+  "abstract": "Copyright © (2017) by International Astronautical Federation. All rights reserved.This paper presents the mathematical modeling of a 5 degree-of-freedom robot manipulator-like spacecraft and the computer simulations of the attitude motion in a low earth orbit. The main goal of the study is the study the effects of the space vehicle center of mass changes in the rotational motion. The center of mass moves due to changes in the mass configuration of the robot arm during the robot manipulator orbital operations. In such analysis it is not reasonable to assume the inertia matrix diagonal since the motion of the robot links causes the appearing of products inertia. In the same way it is recommended to consider the non linear equations of motion. Another feature of the work is that the rotational motion control aims to suppress the reactions forces and torques in the manipulator joints. The reaction forces affect the translational and the attitude motion as well. The results show that the control of the translational and attitude motions keeps the dynamics as planned, showing and suppressing the center of mass motion when the manipulator is operating.",
+  "authkeywords": [
+    "Attitude dynamics",
+    "Control",
+    "Robot manipulator"
+  ],
+  "year": "2017",
+  "date": "2017-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of the International Astronautical Congress Iac",
+    "issn": "00741795",
+    "eissn": null,
+    "volume": "12",
+    "issue": null,
+    "pages": "7746-7755",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Unfried, Luciano M.",
+      "scopus_id": "57203357434",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Da Fonseca, Ijar M.",
+      "scopus_id": "15922451500",
+      "affiliation": "60021657-60012729",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Goes, Luiz C.S.",
+      "scopus_id": "8613267100",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "luiz-carlos-sandoval-goes"
+    },
+    {
+      "name": "De Oliveira, Élcio J.",
+      "scopus_id": "55217443800",
+      "affiliation": "60069347",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "luiz-carlos-sandoval-goes"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      },
+      {
+        "code": "Astronomy and Astrophysics",
+        "abbrev": "PHYS",
+        "name": null
+      },
+      {
+        "code": "Space and Planetary Science",
+        "abbrev": "EART",
+        "name": null
+      }
+    ],
+    "references_count": 30,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85051374642&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.077295",
+    "data_quality_score": 70
+  }
+}

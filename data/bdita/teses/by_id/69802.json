@@ -1,0 +1,34 @@
+{
+  "num_tese": "69802",
+  "type": "tese",
+  "title": "Simulaçăo de desempenho de usinas térmicas operando em ciclo combinado",
+  "author": "Heitor Augusto da Silva Mattos",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Um sistema de controle consiste em subsistemas e processos (ou plantas) reunidos com a finalidade de obter um resultado desejado com o desempenho desejado, tendo um determinado valor de entrada. Quando aplicado em turbinas a gás o sistema de controle deve ser robusto suficiente para considerar a dinâmica transitória da máquina e fazer com que a mesma opere dentro de seus limites e com máximo desempenho possível. A modelagem feita neste trabalho considera modelos de turbina a gás, caldeira de recuperaçăo de calor e turbina a vapor e foram implementados primeiramente de forma isolada e, em seguida, conectados, fazendo sua operaçăo a simulaçăo exata do ciclo combinado. Toda a modelagem foi feita utilizando a ferramenta Simulink do Matlab® e seus valores de ajustes, ganhos, limites, etc foram obtidos a partir de uma central térmica em operaçăo. Durante o desenvolvimento deste modelo varias adaptaçőes relativas a particularidades da central térmica foram feitas de forma tal que o modelo represente fidedignamente a condiçăo real de operaçăo. Os resultados gerados pelas modelagens e simulaçőes foram submetidos a uma análise de desempenho comparando-se com dados reais de operaçăo obtidos. Essa análise levou em conta robustez, tempo de resposta, análise transitória, análise estática e confiabilidade do modelo proposto. Com o resultado da análise de desempenho foi possível validar o modelo proposto e sugerir avanços futuros para continuaçăo deste trabalho.",
+  "subjects": [
+    "Turbinas a gás",
+    "Turbinas a vapor",
+    "Sistema de controle",
+    "Simulaçăo computadorizada",
+    "Usinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "24/11/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69802",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69802&origem=BDITA"
+}

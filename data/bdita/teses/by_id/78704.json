@@ -1,0 +1,33 @@
+{
+  "num_tese": "78704",
+  "type": "tese",
+  "title": "Autonomous soaring using a quasi-linear MPC approach",
+  "author": "Grégori Pogorzelski",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The need for efficient propulsion systems allied to increasingly more challenging fixed-wing UAV mission requirements has led to recent research on the autonomous thermal soaring (ATS) field with promising results. As part of that effort, the feasibility and advantages of model predictive control (MPC)-based guidance and control algorithms capable of extracting energy from natural occurring updrafts have already been demonstrated numerically. However, given the nature of the dominant atmospheric phenomena and the amplitude of the required maneuvers, a nonlinear optimal control problem results. It may be of large order, leading to implementation and real-time operation difficulties. In order to overcome that, an alternative quase-linear MPC-based ATS methodology is presented herein. Linear prediction schemes are employed to impose the differential constraints, thus no extra variables are added to the problem and only linear bound restrictions result, ultimately leading to a simpler and smaller nonlinear programming problem (NLP) to be solved online. For taking into account the main nonlinear effects quase-steady corrections are used by the predictor internal model. Two prediction schemes are proposed. The first one employs a simplified representation of the aircraft in-plane kinematics and produces real-time optimal reference trajectories which can be tracked by either conventional or MPC controllers. The second one makes use of a 6 DOF linear MPC model whose inputs are computed in order to directly optimize the aircraft energy state at the end of the prediction horizon, which is believed to be the first proposed functional 6 DOF MPC-ATS scheme with no need of using the fully nonlinear equations of motion for prediction. Flight simulation results using both 3 and 6 DOF models subjected to randomly generated time varying thermal environments suggest that the proposed algorithm is a feasible MPC strategy. Test data acquired during soaring flights in manned sailplanes is post-processed and used to successfully validate the thermal estimation methods. Moreover, the environment derived from experimental data is employed in additional simulations that allow further assessment of the MPC-ATS autopilot performance, this time having the recorded human pilot actions as reference. It is expected that the successful demonstration of the proposed ATS methodology may lead to renewed interest in the field and also to practical applications for the quasi-linear MPC-ATS approach.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle ótimo",
+    "Controle preditivo",
+    "Controle de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78704",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78704&origem=BDITA"
+}

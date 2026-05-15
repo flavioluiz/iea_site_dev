@@ -1,0 +1,100 @@
+{
+  "publication_id": "2-s2.0-84906735185",
+  "eid": "2-s2.0-84906735185",
+  "doi": "10.1109/PRDC.2013.13",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Probabilistic analysis of a 1-of-n selection algorithm using a moderately pessimistic decision criterion",
+  "abstract": "In this paper we are concerned with the fundamental problem of reaching agreement among a set of distributed processes in presence of an unbounded number of communication failures. We present a probabilistic analysis of a family of synchronous consensus algorithms that aim to solve the 1-ofn selection problem. In this problem, a set of n nodes are to select one common value among a set of n proposed values. There are two possible outcomes of each node's selection process: it can decide either to select a value, or to abort. Agreement implies that all nodes select the same value, or all nodes decide to abort. We know from previous research that it is impossible to guarantee agreement if there is no upper bound on the number of communication failures that can occur. Our aim is to study how the probability of disagreement varies for different decision criteria. The decision criterion consists of the logical expressions that determine whether a process will select a value or decide to abort based on its view of the system state. In this paper we propose and analyse a moderately pessimistic decision criterion. We compared this decision criterion with an optimistic and a pessimistic decision criterion, which we have investigated in our previous work. Our results show that the moderately pessimistic decision criterion for most configurations has a lower maximum probability of disagreement compared with the two other decision criteria. Furthermore, it provides a compromise between the optimistic and the pessimistic approaches since it reduces the probability of disagreement without increasing excessively the probability of agreeing to abort. © 2013 IEEE.",
+  "authkeywords": [
+    "communication failures",
+    "consensus",
+    "distributed algorithms",
+    "probabilistic analysis"
+  ],
+  "year": "2013",
+  "date": "2013-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Proceedings of IEEE Pacific Rim International Symposium on Dependable Computing Prdc",
+    "issn": "15410110",
+    "eissn": null,
+    "volume": null,
+    "issue": null,
+    "pages": "68-77",
+    "article_number": "6820842"
+  },
+  "authors": [
+    {
+      "name": "Fathollahnejad, Negin",
+      "scopus_id": "55893115900",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Villani, Emilia",
+      "scopus_id": "6603155037",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "emilia-villani"
+    },
+    {
+      "name": "Pathan, Risat",
+      "scopus_id": "24448556800",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Barbosa, Raul",
+      "scopus_id": "8920858800",
+      "affiliation": "60020985",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Karlsson, Johan",
+      "scopus_id": "57214551807",
+      "affiliation": "60000990",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "emilia-villani"
+  ],
+  "scopus": {
+    "citations": 2,
+    "subject_areas": [
+      {
+        "code": "Computational Theory and Mathematics",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Computer Science Applications",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Hardware and Architecture",
+        "abbrev": "COMP",
+        "name": null
+      },
+      {
+        "code": "Software",
+        "abbrev": "COMP",
+        "name": null
+      }
+    ],
+    "references_count": 25,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84906735185&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.049625",
+    "data_quality_score": 100
+  }
+}

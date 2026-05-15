@@ -1,0 +1,31 @@
+{
+  "num_tese": "000553279",
+  "type": "tese",
+  "title": "Estudo da dupla difusăo em meios porosos.",
+  "author": "Luzia Aparecida Tofaneli",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objeto de estudo a análise de escoamentos da dupla - difusăo em um meio poroso rígido, isotrópico e homogęneo totalmente saturado por um fluido incompressível e monofásico para os regimes laminar e turbulento. As equaçőes de transporte mássico e de energia macroscópicas apresentadas săo obtidas a partir do conceito de \"Dupla Decomposiçăo\", o qual considera tanto as flutuaçőes temporais quanto os desvios espaciais dos valores médios. Pretende-se demonstrar os mecanismos adicionais de transporte matematicamente derivados das flutuaçőes temporais e desvios espaciais da temperatura, concentraçăo mássica e da velocidade em todo domínio de análise. Estas equaçőes săo discretizadas pelo método dos volumes finitos com arranjo co-localizado num sistema de coordenada năo-ortogonal e as equaçőes algébricas resultantes săo resolvidas pelo algoritmo SIP (Scheme Implicit Proceding). O método SIMPLE é usado para o acoplamento pressăo - velocidade. Os resultados săo comparados com dados numéricos disponíveis na literatura.",
+  "subjects": [
+    "Escoamento através de meios porosos",
+    "Turbulęncia",
+    "Difusăo turbulenta",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "15/06/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000553279",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000553279&origem=BDITA"
+}

@@ -1,0 +1,27 @@
+{
+  "num_tg": "61690",
+  "type": "tg",
+  "title": "Modelagem de elementos finitos para análise estrutural de estruturas soldadas",
+  "author": "Raphael Rodrigues Mata",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A soldagem é uma técnica de uniăo de partes de uma peça bastante utilizada na indústria atual. Apesar de sua intensa aplicaçăo, năo existem na literatura muitos trabalhos que concernem ŕ modelagem dos cordőes de solda em elementos finitos para a análise estrutural. Como a adiçăo do cordăo altera o comportamento mecânico da estrutura em termos de sua rigidez e inércia globais e locais, ignorar a sua presença durante a construçăo do modelo em elementos finitos do equipamento pode levar a resultados distantes do que é esperado na realidade. Este trabalho buscou, com isso, a proposiçăo e validaçăo de novas modelagens numéricas para cordőes de solda que atendessem ao requisito de simplicidade durante a implementaçăo, adaptáveis a diversos tipos idealizaçőes estruturais e, ainda assim, que pudessem representar o comportamento mecânico, em termos de rigidez e inércia, de equipamentos reais que contenham cordőes de solda em sua estrutura. Comparaçőes entre os modelos propostos e análises de convergęncia foram discutidas.",
+  "subjects": [
+    "Estruturas soldadas",
+    "Método de elementos finitos",
+    "Análise numérica",
+    "Estruturas",
+    "Análise modal",
+    "Engenharia estrutural",
+    "Engenharia civil"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61690",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61690&origem=BDITA"
+}

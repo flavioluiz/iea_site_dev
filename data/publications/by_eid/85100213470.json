@@ -1,0 +1,94 @@
+{
+  "publication_id": "2-s2.0-85100213470",
+  "eid": "2-s2.0-85100213470",
+  "doi": "10.2514/1.J059599",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Amplitude scaling of wave packets in turbulent jets",
+  "abstract": "© 2020 by The Authors. Published by the American Institute of Aeronautics and Astronautics, Inc.This paper studies the amplitude of large-scale coherent wave-packet structures in jets, modeled by the parabolized stability equations (PSEs). Linear PSEs can retrieve the shape of the wave packets, but linearity leads to solutions with a free amplitude, which has traditionally been obtained in an ad hoc manner using limited data. We systematically determine the free amplitude as a function of frequency and azimuthal wave number by comparing the fluctuation fields retrieved from PSEs with coherent structures educed from large-eddy simulation data using spectral proper orthogonal decomposition. The wave-packet amplitude is shown to decay exponentially with the Strouhal number for axisymmetric and helical modes at both Mach numbers considered in the study: 0.4 and 0.9. Analytical fit functions are proposed, and the scaled wave packets provide reasonable reconstructions of pressure and velocity spectra on the jet centerline and lip line over a range of streamwise positions.",
+  "authkeywords": null,
+  "year": "2021",
+  "date": "2021-01-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "AIAA Journal",
+    "issn": "00011452",
+    "eissn": "1533385X",
+    "volume": "59",
+    "issue": "2",
+    "pages": "559-568",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Antonialli, Luigi A.",
+      "scopus_id": "57203329186",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Cavalieri, André V.G.",
+      "scopus_id": "22949935300",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "andre-v-g-cavalieri"
+    },
+    {
+      "name": "Schmidt, Oliver T.",
+      "scopus_id": "57190757609",
+      "affiliation": "60030612",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Colonius, Tim",
+      "scopus_id": "7004086046",
+      "affiliation": "60031581",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Jordan, Peter",
+      "scopus_id": "24759157900",
+      "affiliation": "60032653",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Towne, Aaron",
+      "scopus_id": "54581759500",
+      "affiliation": "60025778",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Brès, Guillaume A.",
+      "scopus_id": "8549220200",
+      "affiliation": "60275208",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "andre-v-g-cavalieri"
+  ],
+  "scopus": {
+    "citations": 6,
+    "subject_areas": [
+      {
+        "code": "Aerospace Engineering",
+        "abbrev": "ENGI",
+        "name": null
+      }
+    ],
+    "references_count": 45,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100213470&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.100868",
+    "data_quality_score": 90
+  }
+}

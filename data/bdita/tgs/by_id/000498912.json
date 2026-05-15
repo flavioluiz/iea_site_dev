@@ -1,0 +1,33 @@
+{
+  "num_tg": "000498912",
+  "type": "tg",
+  "title": "Analysis of crack retardation and acceleration in structures under variable loading.",
+  "author": "René Wingeter Bartar",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "César Demétrio Santos",
+      "professor_slug": null
+    },
+    {
+      "name": "Sérgio Henrique da Silva Carneiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work reviews the factors that affect crack propagation. If a structure is subjected to a constant-amplitude loading, one can predict its life by just using the Miner-rule (1945), however variable loadings show an interaction that affects the crack propagation causing acceleration or retardation. Elber (1971) discovered the mechanism of crack closure and Suresh (1998) extensively revised the phenomenological problem. The Crack Growth (da/dN curve) was first modeled by Paris (1962), followed by Walker (1970), Forman (1967) and Forman et al., (1993). Other crack growth models are also presented here. The mechanisms involved in crack retardation analyzed here are: effect of overloads and underloads, sequence and load interaction effects, difference between cracks and notches, material thickness, yield stress, multiple overloads and crack front orientation. The load interaction can be modeled in several ways, such as the da/dN approach - Wheeler (1972), the DK approach (Modified Wheeler and Generalized Wheeler (Meggiolaro and Castro, 1997)), the REFF approach (Willenborg (Willenborg et al., 1971), Generalized Willenborg (Gallagher, 1974), Modified Generalized Willenborg (Gallagher, 1974) and Walker-Chang-Willenborg (Chang and Engle, 1984)) and the KOP approach (Constant Closure (Bunch et al., 1996) and Strip Yield (De Koning et al., 1997)). The Global Retardation Factor was also proposed by Brot (1990) to calculate the retardation effects in crack growth disregarding load interactions. The models were compared with experimental results in aluminum alloys (7075-T7351, 7050-T7451, 7475-T7351 and 2024-T351) under different spectrum types. The program Crack 2000 (trademark) (Mello Jr, 1997) were used to perform the simulations.",
+  "subjects": [
+    "Propagaçăo de trincas",
+    "Fadiga (materiais)",
+    "Mecânica de fratura",
+    "Estruturas",
+    "Cargas (forças)",
+    "Tolerâncias (mecânica)",
+    "Análise de tensăo",
+    "Ligas de alumínio",
+    "Engenharia de materiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000498912",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000498912&origem=BDITA"
+}

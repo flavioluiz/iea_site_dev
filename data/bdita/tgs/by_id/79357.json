@@ -1,0 +1,27 @@
+{
+  "num_tg": "79357",
+  "type": "tg",
+  "title": "Data augmentation and target classification in SAR images",
+  "author": "Hugo Timóteo da Silva",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Renato Machado",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This research addresses the importance of monitoring the extensive maritime area of the Brazilian Blue Amazon. The Brazilian Navy operates the Blue Amazon Management System (SisGAAz), which uses Synthetic Aperture Radar (SAR) embarked on satellites for this purpose. This tool is essential due to its ability to capture high-resolution images regardless of weather conditions. The interpretation of SAR images is complex, often requiring the support of Artificial Intelligence techniques. The lack of a wide and varied SAR image database, especially concerning oil platforms in maritime regions, negatively affects the performance of Machine Learning algorithms in this context. Therefore, we developed a methodology to evaluate the performance of data augmentation techniques applied to SAR images used to classify oil platforms along the Brazilian coast. To achieve this, we created a SAR image database based on data from the Sentinel-1 satellite. Data augmentation techniques were applied to this image bank, generating new data sets with a progressive increase in simulated images. We used two classification algorithms, Logistic Regression and Neural Network (MLP), to collect the metrics used in the evaluation of these sets composed of different quantities of simulated images. The results achieved proved to be significant. As the proportion of simulated images in the training set gradually increased, we identified tendencies in the curves that represented the average accuracy of the classification algorithms. Some techniques showed tendencies that indicated an increase in accuracy as the proportion of simulated images in the dataset increased. In contrast, others demonstrated a decreasing tendency after specific percentages, suggesting a possible saturation of the classification algorithm. Some data augmentation techniques resulted in an oscillatory pattern in the average accuracy, proposing a limited or no influence of this technique. Additionally, by comparing the performance of different data augmentation techniques, it was possible to rank them into groups based on their performance. Therefore, the main contribution of this research was to provide a methodology that enabled a deeper understanding of the interaction between classification algorithms and data augmentation techniques.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Processamento de imagens",
+    "Aprendizagem (inteligęncia artificial)",
+    "Amazônia",
+    "Monitoramento",
+    "Algoritmos",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79357",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79357&origem=BDITA"
+}

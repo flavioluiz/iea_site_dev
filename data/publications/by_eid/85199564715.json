@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85199564715",
+  "eid": "2-s2.0-85199564715",
+  "doi": "10.1007/978-3-031-56496-3_30",
+  "pii": null,
+  "pubmed_id": null,
+  "title": "Super-Twisting Sliding Mode Control for a Formation of Fully-Actuated Multirotor Aerial Vehicles",
+  "abstract": "© The Author(s), under exclusive license to Springer Nature Switzerland AG 2024.The present paper is concerned with the robust attitude-position tracking control for a formation of heterogeneous fully actuated multirotor aerial vehicles equipped with fixed rotors and subject to matched model uncertainties and Lipschitz disturbances. Based on a geometrically consistent description of the control error in SE(3), a joint geometric attitude-position control law is designed using a super-twisting sliding mode approach. Trajectory commands for the formation are generated using a second-order polynomial S-curve model, which are designed in such a way that allow setting different time duration for the formation acquisition, position, and attitude commanded motions. The method is evaluated via numerical simulations using a formation of non-planar fully actuated hexacopters equipped with fixed rotors, showing to be effective and simple to implement and tune.",
+  "authkeywords": [
+    "Formation control",
+    "Multirotor aerial vehicle",
+    "Nonlinear dynamics",
+    "Super twisting sliding mode control"
+  ],
+  "year": "2024",
+  "date": "2024-01-01",
+  "type": "article",
+  "subtype": "cp",
+  "journal": {
+    "name": "Springer Proceedings in Mathematics and Statistics",
+    "issn": "21941009",
+    "eissn": "21941017",
+    "volume": "454",
+    "issue": null,
+    "pages": "475-492",
+    "article_number": null
+  },
+  "authors": [
+    {
+      "name": "Ricardo, Jorge Antonio",
+      "scopus_id": "56594722200",
+      "affiliation": "60021657",
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Santos, Davi Antonio",
+      "scopus_id": "57214178632",
+      "affiliation": "60021657",
+      "is_eam_professor": true,
+      "eam_professor_id": "davi-a-dos-santos"
+    }
+  ],
+  "eam_coauthors": [
+    "davi-a-dos-santos"
+  ],
+  "scopus": {
+    "citations": 0,
+    "subject_areas": [
+      {
+        "code": "Mathematics (all)",
+        "abbrev": "MATH",
+        "name": null
+      }
+    ],
+    "references_count": 27,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85199564715&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.094800",
+    "data_quality_score": 90
+  }
+}

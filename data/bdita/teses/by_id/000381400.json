@@ -1,0 +1,29 @@
+{
+  "num_tese": "000381400",
+  "type": "tese",
+  "title": "Metodologia de análise mecânica integrada de um simulador de vôo",
+  "author": "Ricardo André Stein Wetzel",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de ferramentas computacionais de Engenharia tem se tornado cada vez mais freqüente e necessário. Simulaçőes săo utilizadas para prever o comportamento de uma parte ou conjunto, objetivando diminuir a necessidade de construçăo de protótipos e da execuçăo de testes, e consequentemente, prazos e custos. Uma das dificuldades de uma simulaçăo consiste na determinaçăo dos dados de entrada. O uso de análises integradas permite que dados de saída de uma análise serviam de entrada para outra, tornando o levantamento dos mesmos mais objetivo. Sendo esses dados mais confiáveis, toda a análise se torna mais precisa, e mais etapas de protótipo podem ser eliminadas. Neste trabalho é feita a análise computacional de um Simulador de Vôo de dois graus de liberdade. Tal simulador consiste em um mecanismo que tem suas características de desempenho fixadas em termos de posiçőes, velocidades e aceleraçőes máximas. Modelos geométricos, de mecanismos e de estruturas săo criados, de modo que uma análise integrada seja feita. Săo enfatizadas a importância do uso da análise de mecanismos no processo, a ligaçăo entre as análises de mecanismos e estruturas e a necessidade de verificaçăo da hipótese de corpo rígido utilizada. Análises de mecanismos, freqüęncias naturais e tensăo-deformaçăo săo feitas. Observa-se que a hipótese de corpo rígido é válida, e que o mecanismo poderia ser otimizado, tomando-se especial cuidado com as regiőes próximas aos acionadores. A metodologia da análise integrada de mecanismos e estruturas é levantada, sendo sua aplicabilidade em toda uma classe de mecanismos ressaltada.",
+  "subjects": [
+    "Simuladores de vôo",
+    "Simulaçăo computadorizada",
+    "Projeto auxiliado por computador",
+    "Computaçăo",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/04/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000381400",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000381400&origem=BDITA"
+}

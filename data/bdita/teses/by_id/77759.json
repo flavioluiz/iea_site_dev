@@ -1,0 +1,28 @@
+{
+  "num_tese": "77759",
+  "type": "tese",
+  "title": "Preliminary aerodynamics optimization study of a truck's side-view mirror using modern numerical techniques",
+  "author": "Eduardo de Oliveira Carvalho",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Studies from the literature estimate that side-view mirrors can be responsible for up to 5.8% of a truck's total drag, demonstrating their relevance to the vehicle's aerodynamics. In order to discover further details about the relevant drag mechanisms and to produce aerodynamically enhanced mirrors, further investigation is necessary. Besides, the flow analysis of a side-view mirror is not trivial, as it presents multiple features that can increase the problem's complexity. The side-view mirror geometry can be categorized as an inclined bluff body, which generates an asymmetric wake. Furthermore, close to the mirror's body, some of the truck's geometric features, such as the cabin sidewall and cabin's frontal surface, can modify its wake's behavior, which is referred to as the installation effect. In order to investigate this problem, a generic side-view mirror geometry was presented based on real-life side-view mirrors and legal requirements. This work proposes to investigate how the installation effect impacts the flow past this geometry, and to geometrically enhance its shape to minimize time-averaged drag. In order to perform the optimization, the unsteady discrete adjoint method of SU2's gradient-based shape optimization was employed. The Free-form Deformation (FFD) method was chosen to deform and generate new designs. The simulations were performed in two dimensions using the Unsteady Reynolds-Averaged Navier-Stokes (URANS) equations with the k-? SST turbulence model. To investigate the impact of the installation effect and of the optimization in the frequency domain of these simulations, the Spectral Proper Orthogonal Decomposition (SPOD) was employed. Even though the results highlight some degree of similarity in how the vortex shedding relates to the instantaneous drag with and without the presence of the installation effect, the time-averaged drag coefficient turns out to be considerably higher when it is present. The optimization without the presence of the installation effect led to a decrease of approximately 2.2% in the time-averaged drag coefficient. The resulting flow data were analyzed to investigate how the optimization modified the vortex shedding process in order to achieve smaller time-averaged drag. The preliminary results suggests the viability of further studies with meshes and numeric models more true to realist physics.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Otimizaçăo",
+    "Aerodinâmica",
+    "Espelhos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/02/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77759",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77759&origem=BDITA"
+}

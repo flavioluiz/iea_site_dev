@@ -1,0 +1,35 @@
+{
+  "num_tese": "73730",
+  "type": "tese",
+  "title": "Steady-state and transient performance analysis of turboprop and counter-rotating open rotor engines",
+  "author": "Vinícius Tavares Silva",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The increase in fuel prices and the growing concern about aircraft environmental impact have renewed the interest in propeller based engine concepts. A tool capable of predicting engine performance under several operating conditions becomes hence necessary and can be very useful for both preliminary design and post manufacturing studies of such engines. This work aims at describing the methodology used for propeller performance estimation implemented in GTAnalysis, an in-house modular program for gas turbine performance prediction. A model based on subsonic generic propeller maps, corrected for compressibility under high subsonic speeds, was proposed and attached to GTAnalysis, making possible the simulation of any conventional architecture of turboprop or counter-rotating open rotor engine in both steady-state and transient operating conditions. Two simulation scenarios are available: variable pitch angle propeller with constant speed; or variable speed propeller with constant pitch angle. Results were compared with test bench data and two well-known gas turbine commercial software were used to fulfill the model validation. Good accuracy was obtained, with errors hardly ever overcoming 5%. Furthermore, a direct drive and a geared CROR engine configurations were simulated, using variable inlet guide vanes (VIGV) control strategy during transient operation. The model has shown to be able to provide several information about propeller-based engine performance using few input data and a comprehensive understanding on steady-state and transient performance behavior was achieved in the obtained results.",
+  "subjects": [
+    "Motores de turbinas a gás",
+    "Hélices",
+    "Avaliaçăo de desempenho",
+    "Simulaçăo computadorizada",
+    "Análise numérica",
+    "Motores de aeronaves",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/09/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73730",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73730&origem=BDITA"
+}
