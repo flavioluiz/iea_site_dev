@@ -46,6 +46,24 @@
 {{ end }}
 {{ $total := add (add (add $npubs $ntgs) $ndissertacoes) $nteses_doc }}
 
+{{/* Merge advisor slugs from TGs and teses into docentes (dedup) */}}
+{{ $docentesSet := dict }}
+{{ range $docentes }}{{ $docentesSet = merge $docentesSet (dict . true) }}{{ end }}
+{{ range $tgsLinha }}
+  {{ if .advisor_slug }}{{ $docentesSet = merge $docentesSet (dict .advisor_slug true) }}{{ end }}
+{{ end }}
+{{ range $tesesLinha }}
+  {{ if .advisor_slug }}{{ $docentesSet = merge $docentesSet (dict .advisor_slug true) }}{{ end }}
+{{ end }}
+{{ $docentesMerged := slice }}
+{{ range $slug, $_ := $docentesSet }}
+  {{ if index $.Site.Data.pessoal.profiles $slug }}
+    {{ $docentesMerged = append $slug $docentesMerged }}
+  {{ end }}
+{{ end }}
+{{ $docentesMerged = sort $docentesMerged }}
+{{ $docentes = $docentesMerged }}
+
 <div class="max-w-7xl mx-auto">
 
   {{/* ── Header ── */}}

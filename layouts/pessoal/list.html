@@ -65,20 +65,21 @@
                   {{ if .perfil }}
                     {{ $perfil = index $.Site.Data.pessoal.profiles .perfil }}
                   {{ end }}
-                  {{ $profileUrl := "" }}
+                  {{ $profileRelUrl := "" }}
                   {{ if .perfil }}
-                    {{ $profileUrl = printf "/%s/pessoal/%s/" $lang .perfil }}
+                    {{ $profileRelUrl = printf "/%s/pessoal/%s/" $lang .perfil }}
                   {{ end }}
-                  <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200{{ if $profileUrl }} cursor-pointer{{ end }}"
-                       {{ if $profileUrl }}onclick="window.location='{{ $profileUrl }}'"{{ end }}>
+                  <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200">
                     {{/* Avatar */}}
                     <div class="flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-sm"
                          style="background-color: {{ $deptData.cor }}">
                       {{ if .perfil }}
+                        {{ if $profileRelUrl }}<a href="{{ $profileRelUrl }}">{{ end }}
                         <img src="/images/pessoal/{{ .perfil }}.jpg"
                              alt="{{ .nome }}"
                              class="w-full h-full object-cover object-top"
                              onerror="this.parentElement.innerHTML='<span class=\'w-full h-full flex items-center justify-center text-white font-semibold text-base\'></span>'">
+                        {{ if $profileRelUrl }}</a>{{ end }}
                       {{ else }}
                         <span class="w-full h-full flex items-center justify-center text-white font-semibold text-2xl">
                           {{ substr .nome 0 1 }}
@@ -86,8 +87,8 @@
                       {{ end }}
                     </div>
                     <div class="min-w-0 flex-1">
-                      {{ if $profileUrl }}
-                        <a href="{{ $profileUrl }}" class="font-medium text-gray-900 text-sm leading-tight hover:text-blue-600 transition-colors">{{ .nome }}</a>
+                      {{ if $profileRelUrl }}
+                        <a href="{{ $profileRelUrl }}" class="font-medium text-gray-900 text-sm leading-tight hover:text-blue-600 transition-colors">{{ .nome }}</a>
                       {{ else }}
                         <p class="font-medium text-gray-900 text-sm leading-tight">{{ .nome }}</p>
                       {{ end }}
