@@ -34,6 +34,7 @@ Detalhes: [GitHub Pages](github-pages.md).
 - [ ] Cadastrar na allowlist todos os nomes de usuário GitHub autorizados.
 - [x] Criar o projeto Direct Upload `iea-site-previews` no Cloudflare Pages.
 - [x] Criar o environment `cloudflare-pages-preview` no GitHub, com `CLOUDFLARE_ACCOUNT_ID` e um `CLOUDFLARE_API_TOKEN` limitado ao Pages.
+- [x] Publicar e validar a prévia isolada do PR nº 2 em `pr-2.iea-site-previews.pages.dev`.
 
 Detalhes: [Cloudflare OAuth](cloudflare-oauth.md) e [prévias isoladas](github-pages.md#prévias-isoladas-de-pull-requests-externos).
 
