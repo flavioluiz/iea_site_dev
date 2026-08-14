@@ -1,11 +1,14 @@
 # Checklist de ativação do piloto
 
-As mudanças locais estão prontas, mas quatro integrações pertencem às suas contas e precisam ser ativadas fora do repositório.
+O código está publicado em um commit-raiz limpo e passou pela CI. As pendências abaixo pertencem às contas e ao aceite operacional.
 
 ## 1. Ação urgente de segurança
 
 - [ ] Revogar a antiga chave Scopus que apareceu no histórico e emitir outra somente quando o runner privado estiver pronto.
-- [ ] Tratar o histórico com o procedimento institucional; avisar colaboradores para recarregar clones depois da reescrita, se ela for feita.
+- [x] Copiar as branches antigas para o backup privado `flavioluiz/iea_site_dev_history_private` e conferir os SHAs.
+- [x] Substituir `main` por um único commit-raiz com a árvore validada e remover a branch remota antiga.
+- [ ] Eliminar a referência retida pelo PR nº 1 antes de tornar o repositório público: recriar o repositório no mesmo endereço ou solicitar a purga ao suporte do GitHub.
+- [ ] Avisar colaboradores para recarregar clones após a reescrita.
 - [ ] Ativar autenticação em dois fatores na conta GitHub e na Cloudflare.
 
 Não reutilize a chave antiga e não coloque a nova neste repositório.
@@ -15,7 +18,8 @@ Não reutilize a chave antiga e não coloque a nova neste repositório.
 - [x] Criar o repositório público `flavioluiz/iea_site` com branch `main`.
 - [x] Em **Settings → Pages**, escolher **Deploy from a branch**, `main` e `/ (root)`.
 - [ ] Criar um token fino limitado a esse repositório, com `Contents: Read and write`.
-- [ ] Criar no repositório fonte o environment `github-pages-production`, com o secret `PAGES_DEPLOY_TOKEN`.
+- [x] Criar no repositório fonte o environment `github-pages-production`.
+- [ ] Gravar nele o secret `PAGES_DEPLOY_TOKEN`.
 - [ ] Executar o workflow **Deploy pilot site** e conferir <https://flavioluiz.github.io/iea_site/>.
 
 Detalhes: [GitHub Pages](github-pages.md).
@@ -39,7 +43,7 @@ Detalhes: [Cloudflare OAuth](cloudflare-oauth.md) e [prévias isoladas](github-p
 - [ ] Definir pelo menos dois publicadores/contas de recuperação.
 - [ ] Criar o ruleset de `main`, checks obrigatórios e merge por squash.
 - [ ] Ativar secret scanning e permitir que Actions criem pull requests.
-- [ ] Criar o label `bulk-reviewed`.
+- [x] Criar o label `bulk-reviewed`.
 - [ ] Confirmar política de fotos, e-mails e campos Scopus publicáveis.
 
 Detalhes: [governança GitHub](github-governance.md).
