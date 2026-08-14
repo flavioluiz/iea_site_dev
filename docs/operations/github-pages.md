@@ -10,12 +10,12 @@ O deploy nunca ocorre a partir de um pull request. O workflow `Deploy pilot site
 
 1. Crie <https://github.com/new> com proprietário `flavioluiz`, nome `iea_site`, visibilidade pública e um README para inicializar `main`.
 2. Em `iea_site`, abra **Settings → Pages**. Em **Build and deployment**, selecione **Deploy from a branch**, branch `main`, pasta `/ (root)` e salve.
-3. Em **Settings → Developer settings → Personal access tokens → Fine-grained tokens**, crie um token com expiração curta/renovável, acesso somente a `flavioluiz/iea_site` e permissão de repositório `Contents: Read and write`.
+3. Gere uma chave SSH Ed25519 dedicada, sem senha. Em `iea_site`, abra **Settings → Deploy keys**, cadastre apenas a chave pública e marque **Allow write access**. Uma deploy key pertence somente a esse repositório e não concede acesso aos demais repositórios da conta.
 4. No repositório fonte, crie em **Settings → Environments** o environment `github-pages-production`.
-5. Nele, adicione o secret `PAGES_DEPLOY_TOKEN` com o token fino. O environment pode exigir aprovação de um publicador.
+5. Nele, adicione a chave privada como secret `PAGES_DEPLOY_KEY`. O environment pode exigir aprovação de um publicador. `PAGES_DEPLOY_TOKEN` continua aceito apenas como fallback de migração e, se usado, deve ser um token fino limitado a `flavioluiz/iea_site`, com `Contents: Read and write`.
 6. Em **Actions**, execute `CI` manualmente sobre `main`. O workflow `Deploy pilot site` será acionado automaticamente somente quando essa execução terminar com sucesso; ele não possui atalho manual que contorne o CI.
 
-Não coloque o token em variável comum, arquivo ou log. Ao expirar, gere outro e substitua os dois secrets.
+Não coloque a chave privada ou o token em variável comum, arquivo versionado ou log. Para rotacionar a deploy key, cadastre uma nova chave pública no repositório de saída, substitua `PAGES_DEPLOY_KEY` e só então remova a chave anterior.
 
 ## Prévias isoladas de pull requests externos
 

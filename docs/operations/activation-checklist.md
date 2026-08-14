@@ -1,11 +1,14 @@
 # Checklist de ativação do piloto
 
-As mudanças locais estão prontas, mas quatro integrações pertencem às suas contas e precisam ser ativadas fora do repositório.
+O código está publicado em um commit-raiz limpo e passou pela CI. As pendências abaixo pertencem às contas e ao aceite operacional.
 
 ## 1. Ação urgente de segurança
 
-- [ ] Revogar a antiga chave Scopus que apareceu no histórico e emitir outra somente quando o runner privado estiver pronto.
-- [ ] Tratar o histórico com o procedimento institucional; avisar colaboradores para recarregar clones depois da reescrita, se ela for feita.
+- [x] Revogar a antiga chave Scopus que apareceu no histórico; qualquer chave nova permanece somente no runner privado.
+- [x] Copiar as branches antigas para o backup privado `flavioluiz/iea_site_dev_history_private` e conferir os SHAs.
+- [x] Substituir `main` por um único commit-raiz com a árvore validada e remover a branch remota antiga.
+- [x] Registrar o aceite explícito do proprietário para a possível exposição residual da PR nº 1, depois da revogação da credencial, e tornar público apenas o repositório saneado.
+- [ ] Avisar colaboradores para recarregar clones após a reescrita.
 - [ ] Ativar autenticação em dois fatores na conta GitHub e na Cloudflare.
 
 Não reutilize a chave antiga e não coloque a nova neste repositório.
@@ -14,8 +17,9 @@ Não reutilize a chave antiga e não coloque a nova neste repositório.
 
 - [x] Criar o repositório público `flavioluiz/iea_site` com branch `main`.
 - [x] Em **Settings → Pages**, escolher **Deploy from a branch**, `main` e `/ (root)`.
-- [ ] Criar um token fino limitado a esse repositório, com `Contents: Read and write`.
-- [ ] Criar no repositório fonte o environment `github-pages-production`, com o secret `PAGES_DEPLOY_TOKEN`.
+- [x] Criar uma deploy key com escrita limitada exclusivamente a `flavioluiz/iea_site`.
+- [x] Criar no repositório fonte o environment `github-pages-production`.
+- [x] Gravar nele o secret `PAGES_DEPLOY_KEY`.
 - [ ] Executar o workflow **Deploy pilot site** e conferir <https://flavioluiz.github.io/iea_site/>.
 
 Detalhes: [GitHub Pages](github-pages.md).
@@ -30,16 +34,18 @@ Detalhes: [GitHub Pages](github-pages.md).
 - [ ] Cadastrar na allowlist todos os nomes de usuário GitHub autorizados.
 - [x] Criar o projeto Direct Upload `iea-site-previews` no Cloudflare Pages.
 - [x] Criar o environment `cloudflare-pages-preview` no GitHub, com `CLOUDFLARE_ACCOUNT_ID` e um `CLOUDFLARE_API_TOKEN` limitado ao Pages.
+- [x] Publicar e validar a prévia isolada do PR nº 2 em `pr-2.iea-site-previews.pages.dev`.
 
 Detalhes: [Cloudflare OAuth](cloudflare-oauth.md) e [prévias isoladas](github-pages.md#prévias-isoladas-de-pull-requests-externos).
 
 ## 4. Governança do repositório fonte
 
-- [ ] Manter `iea_site_dev` público para Open Authoring.
+- [x] Manter `iea_site_dev` público para Open Authoring.
 - [ ] Definir pelo menos dois publicadores/contas de recuperação.
-- [ ] Criar o ruleset de `main`, checks obrigatórios e merge por squash.
-- [ ] Ativar secret scanning e permitir que Actions criem pull requests.
-- [ ] Criar o label `bulk-reviewed`.
+- [x] Criar o ruleset de `main`, com PR, histórico linear, cinco checks obrigatórios, bloqueio de force-push/exclusão e merge por squash.
+- [x] Ativar secret scanning e push protection após tornar o repositório público.
+- [ ] Autorizar explicitamente a opção combinada “Actions criar e aprovar PRs” ou configurar uma credencial/GitHub App restrita apenas às automações confiáveis.
+- [x] Criar o label `bulk-reviewed`.
 - [ ] Confirmar política de fotos, e-mails e campos Scopus publicáveis.
 
 Detalhes: [governança GitHub](github-governance.md).

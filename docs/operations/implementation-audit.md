@@ -6,12 +6,12 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 
 | Fase | Evidência principal | Estado comprovado | Pendência externa ou de aceite |
 |---|---|---|---|
-| 0 — Segurança e governança | `scripts/security_check.py`, runbook de credenciais, chave removida da árvore atual | Parcial | Revogar a antiga chave Scopus, sanear o histórico antes de tornar o repositório público, MFA, dois mantenedores, política de metadados e ruleset |
+| 0 — Segurança e governança | `scripts/security_check.py`, backup privado verificado, `main` refeito como commit-raiz, credencial Scopus revogada, fonte pública com aceite do risco residual | Ativado | MFA, dois mantenedores e política de metadados |
 | 1 — Dados/professores | `data/pessoal/professores.json`, schemas, migração, relatório, Content Adapters | Implementado localmente | Revisão institucional final dos 57 ativos e 33 inativos |
-| 2 — CI/proteção editorial | `ci.yml`, validação cruzada, segurança, links, diff semântico, `CODEOWNERS` | Implementado localmente | Ativar checks/ruleset, labels, secret scanning e política de revisores no GitHub |
-| 3 — Decap CMS | `/admin/`, coleções pedagógicas, uploads, Open Authoring e workflow editorial | Implementado localmente | Publicar o painel e testar conta externa/editor/publicador após saneamento e visibilidade pública |
+| 2 — CI/proteção editorial | `ci.yml`, validação cruzada, segurança, links, diff semântico, `CODEOWNERS`, ruleset, secret scanning e push protection ativos | Implementado e executado no GitHub | Definir segundo publicador e a credencial restrita para PRs automáticos |
+| 3 — Decap CMS | `/admin/`, coleções pedagógicas, uploads, Open Authoring e workflow editorial; fonte pública | Implementado localmente | Publicar o painel e testar conta externa/editor/publicador |
 | 4 — Worker OAuth | Worker ao vivo, allowlist, state assinado, PKCE, origem estrita e oito testes | Ativado parcialmente | Testar callback humano permitido/negado, cancelamento, expiração e revogação no painel publicado |
-| 5 — Preview/deploy | Projeto Pages Direct Upload, workflows isolados e repositório público de saída | Ativado parcialmente | Primeiro PR real/preview; criar environment/token de produção; ensaiar merge e revert |
+| 5 — Preview/deploy | Projeto Pages Direct Upload, workflows isolados, environment de prévia, repositório público de saída e deploy key exclusiva | Prévia ativada; produção credenciada | Ensaiar merge, deploy e revert |
 | 6 — Biblioteca | fetch/parse/normalize/report, fixtures, thresholds, manifest e alerta agrupado | Implementado, desabilitado por gate | Consultar Biblioteca, confirmar fonte/termos/acesso externo e executar dois ciclos assistidos |
 | 7 — Scopus | fetch mínimo, normalização/deduplicação, thresholds, relatório e workflow privado modelo | Implementado, não ativado | Repositório privado, runner ITA, credenciais novas, política de campos e dois ciclos assistidos |
 | 8 — Operação/aceite | guias do editor, JSON, runbooks e roteiro de aceite | Preparado | Treinamento, três papéis, revisão de acessibilidade e duas pessoas não técnicas aprovadas |
@@ -30,22 +30,30 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 - endpoint público do Worker: `/health` retorna `ok`; `/auth` retorna redirecionamento GitHub com PKCE S256 e cookie seguro;
 - Cloudflare Pages: projeto `iea-site-previews.pages.dev` criado como Direct Upload;
 - GitHub Pages de saída: `https://flavioluiz.github.io/iea_site/`, branch `main`, raiz e HTTPS.
+- backup histórico: repositório privado com `main` em `31afe4a` e branch da implementação em `34a9a61`;
+- repositório fonte: única branch remota normal em `23b5bec`, commit-raiz sem pai; CI de `main` com cinco jobs aprovada;
+- deploy piloto: gate funcionou e recusou publicar sem `PAGES_DEPLOY_TOKEN`.
+- prévia do PR nº 2: deployment Cloudflare aprovado; rotas principais respondem 200, links passaram e a origem envia `X-Robots-Tag: noindex`.
+- governança: `main` exige PR, histórico linear e cinco checks; aceita somente squash e bloqueia exclusão e force-push.
+- abertura e proteção: `iea_site_dev` público; backup histórico privado; secret scanning e push protection ativos.
+- publicação: deploy key verificada, com escrita somente em `flavioluiz/iea_site`; chave privada armazenada como `PAGES_DEPLOY_KEY` no environment protegido.
+- manutenção da CI: checkout, setup-python e artefatos usam releases oficiais Node 24 fixados por SHA; PR técnico e CI de `main` aprovados sem anotação de runtime obsoleto.
 
 ## Definição de concluído
 
 | Requisito final do plano | Estado |
 |---|---|
-| Conta GitHub externa propõe alteração pelo Decap | Pendente de publicação, repositório público saneado e teste humano |
+| Conta GitHub externa propõe alteração pelo Decap | Fonte pública; pendente publicação do painel e teste humano |
 | Externo não publica diretamente | Implementado no desenho; pendente ruleset/teste real |
 | Professor alterado/adicionado/desativado por formulário | Implementado localmente; pendente aceite ao vivo |
 | Lista completa substituída e validada | Implementado e testado localmente |
 | Fotos/documentos com controles reais | Implementado e testado, inclusive negativos |
 | Dados manuais não sobrescritos pelos robôs | Contratos separados e testes implementados |
 | Biblioteca e Scopus abrem PRs e preservam última versão boa | Código implementado; ciclos externos ainda pendentes |
-| Nenhum secret no repositório público | Árvore atual passa; histórico Scopus ainda impede tornar a fonte pública |
+| Nenhum secret ativo no repositório público | Árvore atual passa; credencial Scopus histórica foi revogada e o proprietário aceitou a possível exposição residual da PR nº 1 |
 | Runner Scopus isolado de PRs públicos | Workflow modelo correto; infraestrutura privada ainda pendente |
-| Todo PR tem CI, preview e revisão | Workflow implementado; primeiro PR ao vivo pendente |
+| Todo PR tem CI, preview e revisão | CI e preview isolado do PR nº 2 aprovados; pendem regras obrigatórias e revisão humana |
 | Rollback, rotação e reexecução documentados | Implementado |
 | Dois usuários não técnicos concluem roteiro | Pendente |
 
-Conclusão da auditoria: a entrega não deve ser marcada como concluída antes das pendências externas acima. A ordem segura é: publicar este PR ainda no repositório privado, validar a prévia, revogar/sanear a credencial Scopus histórica, tornar a fonte pública, ativar produção e executar os ciclos humanos/robôs.
+Conclusão da auditoria: a entrega não deve ser marcada como concluída antes das pendências externas acima. A ordem atual é: publicar a versão aprovada com a deploy key exclusiva, testar o CMS ao vivo e então executar os ciclos humanos/robôs.

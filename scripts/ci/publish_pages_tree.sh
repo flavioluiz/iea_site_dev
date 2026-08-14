@@ -5,7 +5,13 @@ SOURCE_DIR="${1:?source directory is required}"
 DESTINATION_SUBDIR="${2:?destination subdirectory is required}"
 COMMIT_MESSAGE="${3:?commit message is required}"
 TARGET_REPOSITORY="${PAGES_TARGET_REPOSITORY:-flavioluiz/iea_site}"
-TOKEN="${PAGES_DEPLOY_TOKEN:?PAGES_DEPLOY_TOKEN is required}"
+DEPLOY_KEY="${PAGES_DEPLOY_KEY:-}"
+TOKEN="${PAGES_DEPLOY_TOKEN:-}"
+
+if [[ -z "${DEPLOY_KEY}" && -z "${TOKEN}" ]]; then
+  printf 'PAGES_DEPLOY_KEY or PAGES_DEPLOY_TOKEN is required.\n' >&2
+  exit 1
+fi
 
 if [[ ! -d "${SOURCE_DIR}" ]]; then
   printf 'Source directory does not exist: %s\n' "${SOURCE_DIR}" >&2
@@ -20,13 +26,30 @@ if [[ "${DESTINATION_SUBDIR}" != "." ]]; then
   exit 1
 fi
 
-AUTH_VALUE="$(printf 'x-access-token:%s' "${TOKEN}" | base64 --wrap=0)"
-printf '::add-mask::%s\n' "${AUTH_VALUE}"
 WORK_DIR="$(mktemp -d)"
 TARGET_DIR="${WORK_DIR}/site"
-REMOTE_URL="https://github.com/${TARGET_REPOSITORY}.git"
+cleanup() {
+  rm -rf -- "${WORK_DIR}"
+}
+trap cleanup EXIT
 
-git -c "http.extraheader=AUTHORIZATION: basic ${AUTH_VALUE}" clone --depth 1 "${REMOTE_URL}" "${TARGET_DIR}"
+if [[ -n "${DEPLOY_KEY}" ]]; then
+  KEY_FILE="${WORK_DIR}/deploy-key"
+  KNOWN_HOSTS_FILE="${WORK_DIR}/known_hosts"
+  umask 077
+  printf '%s\n' "${DEPLOY_KEY}" > "${KEY_FILE}"
+  printf '%s\n' \
+    'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' \
+    > "${KNOWN_HOSTS_FILE}"
+  export GIT_SSH_COMMAND="ssh -i ${KEY_FILE} -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=${KNOWN_HOSTS_FILE}"
+  REMOTE_URL="git@github.com:${TARGET_REPOSITORY}.git"
+  git clone --depth 1 "${REMOTE_URL}" "${TARGET_DIR}"
+else
+  AUTH_VALUE="$(printf 'x-access-token:%s' "${TOKEN}" | base64 --wrap=0)"
+  printf '::add-mask::%s\n' "${AUTH_VALUE}"
+  REMOTE_URL="https://github.com/${TARGET_REPOSITORY}.git"
+  git -c "http.extraheader=AUTHORIZATION: basic ${AUTH_VALUE}" clone --depth 1 "${REMOTE_URL}" "${TARGET_DIR}"
+fi
 
 rsync --archive --delete \
   --exclude '.git/' \
@@ -41,4 +64,8 @@ if git -C "${TARGET_DIR}" diff --cached --quiet; then
   exit 0
 fi
 git -C "${TARGET_DIR}" commit -m "${COMMIT_MESSAGE}"
-git -C "${TARGET_DIR}" -c "http.extraheader=AUTHORIZATION: basic ${AUTH_VALUE}" push origin HEAD:main
+if [[ -n "${DEPLOY_KEY}" ]]; then
+  git -C "${TARGET_DIR}" push origin HEAD:main
+else
+  git -C "${TARGET_DIR}" -c "http.extraheader=AUTHORIZATION: basic ${AUTH_VALUE}" push origin HEAD:main
+fi
