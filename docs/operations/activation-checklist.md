@@ -42,8 +42,9 @@ Detalhes: [Cloudflare OAuth](cloudflare-oauth.md) e [prévias isoladas](github-p
 
 - [ ] Manter `iea_site_dev` público para Open Authoring.
 - [ ] Definir pelo menos dois publicadores/contas de recuperação.
-- [ ] Criar o ruleset de `main`, checks obrigatórios e merge por squash.
-- [ ] Ativar secret scanning e permitir que Actions criem pull requests.
+- [x] Criar o ruleset de `main`, com PR, histórico linear, cinco checks obrigatórios, bloqueio de force-push/exclusão e merge por squash.
+- [ ] Ativar secret scanning e push protection assim que o repositório se tornar público; o recurso não está disponível neste repositório privado no plano atual.
+- [ ] Autorizar explicitamente a opção combinada “Actions criar e aprovar PRs” ou configurar uma credencial/GitHub App restrita apenas às automações confiáveis.
 - [x] Criar o label `bulk-reviewed`.
 - [ ] Confirmar política de fotos, e-mails e campos Scopus publicáveis.
 

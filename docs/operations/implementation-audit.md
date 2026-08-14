@@ -8,7 +8,7 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 |---|---|---|---|
 | 0 — Segurança e governança | `scripts/security_check.py`, backup privado verificado, `main` refeito como commit-raiz, chave removida da árvore atual | Parcial | Revogar a antiga chave Scopus e eliminar a referência retida pelo PR nº 1 antes da abertura pública; MFA, dois mantenedores, política de metadados e ruleset |
 | 1 — Dados/professores | `data/pessoal/professores.json`, schemas, migração, relatório, Content Adapters | Implementado localmente | Revisão institucional final dos 57 ativos e 33 inativos |
-| 2 — CI/proteção editorial | `ci.yml`, validação cruzada, segurança, links, diff semântico, `CODEOWNERS` | Implementado e executado no GitHub | Ativar checks/ruleset, secret scanning e política de revisores no GitHub |
+| 2 — CI/proteção editorial | `ci.yml`, validação cruzada, segurança, links, diff semântico, `CODEOWNERS`, ruleset ativo | Implementado e executado no GitHub | Ativar secret scanning após abertura pública; definir segundo publicador e a credencial restrita para PRs automáticos |
 | 3 — Decap CMS | `/admin/`, coleções pedagógicas, uploads, Open Authoring e workflow editorial | Implementado localmente | Publicar o painel e testar conta externa/editor/publicador após saneamento e visibilidade pública |
 | 4 — Worker OAuth | Worker ao vivo, allowlist, state assinado, PKCE, origem estrita e oito testes | Ativado parcialmente | Testar callback humano permitido/negado, cancelamento, expiração e revogação no painel publicado |
 | 5 — Preview/deploy | Projeto Pages Direct Upload, workflows isolados, environment de prévia e repositório público de saída | Prévia ativada | Gravar o token de produção; ensaiar merge e revert |
@@ -34,6 +34,7 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 - repositório fonte: única branch remota normal em `23b5bec`, commit-raiz sem pai; CI de `main` com cinco jobs aprovada;
 - deploy piloto: gate funcionou e recusou publicar sem `PAGES_DEPLOY_TOKEN`.
 - prévia do PR nº 2: deployment Cloudflare aprovado; rotas principais respondem 200, links passaram e a origem envia `X-Robots-Tag: noindex`.
+- governança: `main` exige PR, histórico linear e cinco checks; aceita somente squash e bloqueia exclusão e force-push.
 
 ## Definição de concluído
 
