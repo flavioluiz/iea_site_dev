@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "categorias": [
+    {
+      "id": "horarios-salas",
+      "nome_pt": "Horários de aulas e salas",
+      "nome_en": "Class schedules and rooms",
+      "descricao_pt": "Horários, alocação de salas e comunicados acadêmicos vigentes.",
+      "descricao_en": "Current schedules, room assignments, and academic notices.",
+      "documentos": []
+    },
+    {
+      "id": "institucionais",
+      "nome_pt": "Documentos institucionais",
+      "nome_en": "Institutional documents",
+      "descricao_pt": "Regulamentos, planos e documentos de referência.",
+      "descricao_en": "Regulations, plans, and reference documents.",
+      "documentos": [
+        {
+          "nome_pt": "ICA 37-356/2024",
+          "nome_en": "ICA 37-356/2024",
+          "descricao_pt": "Documento institucional de referência.",
+          "descricao_en": "Institutional reference document.",
+          "arquivo": "/documents/ICA_37-356_2024-02-16.pdf",
+          "link_externo": "",
+          "data": "2024-02-16"
+        }
+      ]
+    }
+  ]
+}

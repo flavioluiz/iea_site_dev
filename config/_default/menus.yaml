@@ -99,4 +99,9 @@ main:
   - identifier: "contato"
     name: "Contato"
     url: "/contato/"
+    weight: 9
+
+  - identifier: "documentos"
+    name: "Horários e documentos"
+    url: "/documentos/"
     weight: 8

@@ -9,9 +9,9 @@ DEPLOY_ENV_FILE="${PROJECT_DIR}/config/production/deploy_ita_sftp.env"
 
 SFTP_HOST="${SFTP_HOST:-dominios02.ita.br}"
 SFTP_PORT="${SFTP_PORT:-2222}"
-SFTP_USER="${SFTP_USER:-wmpgeam}"
+SFTP_USER="${SFTP_USER:-}"
 SFTP_REMOTE_DIR="${SFTP_REMOTE_DIR:-.}"
-SITE_URL="${SITE_URL:-https://www.pgeam.ita.br}"
+SITE_URL="${SITE_URL:-https://www.aer.ita.br}"
 DEFAULT_LANG_PATH="${DEFAULT_LANG_PATH:-pt}"
 
 DELETE_REMOTE=true
@@ -23,7 +23,7 @@ CHANGED_ONLY=false
 PROTECTION_ENABLED=true
 PROTECTION_NOINDEX=true
 PROTECTION_USER="preview"
-PROTECTION_AUTH_REALM="PG-EAM em revisao interna"
+PROTECTION_AUTH_REALM="IEA/ITA em revisao interna"
 PROTECTION_AUTH_USER_FILE=".htpasswd"
 
 if [[ -f "${DEPLOY_ENV_FILE}" ]]; then
@@ -154,12 +154,12 @@ fi
 
 if command -v rg >/dev/null 2>&1; then
   FOUND_OLD_DOMAIN=0
-  if rg -n --max-count 1 "flavioluiz.github.io/pgeam" "$BUILD_DIR" >/dev/null 2>&1; then
+  if rg -n --max-count 1 "flavioluiz.github.io/iea_site" "$BUILD_DIR" >/dev/null 2>&1; then
     FOUND_OLD_DOMAIN=1
   fi
 else
   FOUND_OLD_DOMAIN=0
-  if grep -R -n -m 1 "flavioluiz.github.io/pgeam" "$BUILD_DIR" >/dev/null 2>&1; then
+  if grep -R -n -m 1 "flavioluiz.github.io/iea_site" "$BUILD_DIR" >/dev/null 2>&1; then
     FOUND_OLD_DOMAIN=1
   fi
 fi
@@ -178,6 +178,11 @@ if [[ "$BUILD_ONLY" == true ]]; then
 fi
 
 require_cmd lftp
+
+if [[ -z "${SFTP_USER}" ]]; then
+  echo "Erro: defina SFTP_USER com a conta institucional do site AER." >&2
+  exit 1
+fi
 
 if [[ -z "${SFTP_PASSWORD:-}" ]]; then
   read -r -s -p "Senha SFTP para ${SFTP_USER}@${SFTP_HOST}:${SFTP_PORT}: " SFTP_PASSWORD

@@ -1,40 +1,35 @@
 {{ define "main" }}
 <div class="max-w-7xl mx-auto px-4 py-8">
-
-  {{/* Page Header */}}
   <div class="mb-12 text-center">
     <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
-    <div class="prose prose-lg mx-auto text-gray-700">
-      {{ .Content }}
-    </div>
+    <div class="prose prose-lg mx-auto text-gray-700">{{ .Content }}</div>
   </div>
 
   {{ $departamentos := .Site.Data.departamentos.departamentos }}
+  {{ $professores := where .Site.Data.pessoal.professores.professores "ativo" true }}
   {{ $lang := .Language.Lang }}
-
-  {{/* Ordered list of department IDs to control display order */}}
   {{ $deptOrder := slice "iea-a" "iea-b" "iea-c" "iea-e" "iea-p" "iea-s" }}
+  {{ $categorias := slice "Professor Titular" "Professor Associado" "Professor Adjunto" "Tecnologista" "Analista em Ciência e Tecnologia" "Instrutor" "Docente Voluntário" }}
 
   {{ range $deptId := $deptOrder }}
-    {{ $deptData := index $departamentos $deptId }}
-    {{ $pessoalData := index $.Site.Data.pessoal $deptId }}
-
-    {{ if and $deptData $pessoalData $pessoalData.membros }}
-      <div class="mb-16">
-
-        {{/* Department Header */}}
+    {{ $deptMatches := where $departamentos "id" $deptId }}
+    {{ $deptData := false }}
+    {{ if $deptMatches }}{{ $deptData = index $deptMatches 0 }}{{ end }}
+    {{ $membrosDepartamento := where $professores "departamento" $deptId }}
+    {{ if and $deptData $membrosDepartamento }}
+      <section class="mb-16" aria-labelledby="departamento-{{ $deptId }}">
         <div class="mb-8 pb-4 border-b-4" style="border-color: {{ $deptData.cor }}">
-          <div class="flex items-center gap-3 mb-2">
+          <div class="flex flex-wrap items-center gap-3 mb-2">
             <span class="text-sm font-bold px-2 py-1 rounded text-white" style="background-color: {{ $deptData.cor }}">
               {{ $deptData.sigla }}
             </span>
-            <h2 class="text-2xl font-bold text-gray-800">
+            <h2 id="departamento-{{ $deptId }}" class="text-2xl font-bold text-gray-800">
               {{ if eq $lang "pt" }}{{ $deptData.nome_pt }}{{ else }}{{ $deptData.nome_en }}{{ end }}
             </h2>
-            {{ if $deptData.chefe }}
-              <span class="text-sm text-gray-500 ml-2">
+            {{ with $deptData.chefe }}
+              <span class="text-sm text-gray-500">
                 {{ if eq $lang "pt" }}Chefe:{{ else }}Head:{{ end }}
-                <span class="font-medium text-gray-700">{{ $deptData.chefe }}</span>
+                <span class="font-medium text-gray-700">{{ . }}</span>
               </span>
             {{ end }}
           </div>
@@ -43,62 +38,33 @@
           </p>
         </div>
 
-        {{/* Group members by categoria */}}
-        {{ $categorias := slice "Professor Titular" "Professor Associado" "Professor Adjunto" "Tecnologista" "Analista em Ciência e Tecnologia" "Instrutor" "Docente Voluntário" }}
-
-        {{ range $cat := $categorias }}
-          {{ $membros := slice }}
-          {{ range $pessoalData.membros }}
-            {{ if eq .categoria $cat }}
-              {{ $membros = $membros | append . }}
-            {{ end }}
-          {{ end }}
-
+        {{ range $categoria := $categorias }}
+          {{ $membros := where $membrosDepartamento "categoria" $categoria }}
           {{ if $membros }}
             <div class="mb-6">
               <h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3 border-b border-gray-100 pb-1">
-                {{ $cat }}
+                {{ $categoria }}
               </h3>
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {{ range $membros }}
-                  {{ $perfil := "" }}
-                  {{ if .perfil }}
-                    {{ $perfil = index $.Site.Data.pessoal.profiles .perfil }}
-                  {{ end }}
-                  {{ $profileRelUrl := "" }}
-                  {{ if .perfil }}
-                    {{ $profileRelUrl = printf "/%s/pessoal/%s/" $lang .perfil }}
-                  {{ end }}
-                  <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200">
-                    {{/* Avatar */}}
-                    <div class="flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-sm"
+                  {{ $profileURL := relLangURL (printf "pessoal/%s/" .id) }}
+                  <article class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200">
+                    <div class="flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-sm flex items-center justify-center text-white font-semibold text-2xl"
                          style="background-color: {{ $deptData.cor }}">
-                      {{ if .perfil }}
-                        {{ if $profileRelUrl }}<a href="{{ $profileRelUrl }}">{{ end }}
-                        <img src="/images/pessoal/{{ .perfil }}.jpg"
-                             alt="{{ .nome }}"
-                             class="w-full h-full object-cover object-top"
-                             onerror="this.parentElement.innerHTML='<span class=\'w-full h-full flex items-center justify-center text-white font-semibold text-base\'></span>'">
-                        {{ if $profileRelUrl }}</a>{{ end }}
-                      {{ else }}
-                        <span class="w-full h-full flex items-center justify-center text-white font-semibold text-2xl">
-                          {{ substr .nome 0 1 }}
-                        </span>
-                      {{ end }}
+                      <a href="{{ $profileURL }}" class="w-full h-full flex items-center justify-center" aria-label="{{ .nome }}">
+                        {{ if .foto }}
+                          <img src="{{ .foto | relURL }}" alt="{{ .nome }}" class="w-full h-full object-cover object-top">
+                        {{ else }}
+                          <span aria-hidden="true">{{ substr .nome 0 1 }}</span>
+                        {{ end }}
+                      </a>
                     </div>
                     <div class="min-w-0 flex-1">
-                      {{ if $profileRelUrl }}
-                        <a href="{{ $profileRelUrl }}" class="font-medium text-gray-900 text-sm leading-tight hover:text-blue-600 transition-colors">{{ .nome }}</a>
-                      {{ else }}
-                        <p class="font-medium text-gray-900 text-sm leading-tight">{{ .nome }}</p>
-                      {{ end }}
-                      {{ if .posto }}
-                        <p class="text-xs text-gray-400">{{ .posto }}</p>
-                      {{ end }}
-                      {{/* Badges */}}
+                      <a href="{{ $profileURL }}" class="font-medium text-gray-900 text-sm leading-tight hover:text-blue-600 transition-colors">{{ .nome }}</a>
+                      {{ with .posto }}<p class="text-xs text-gray-400">{{ . }}</p>{{ end }}
                       <div class="flex flex-wrap gap-1 mt-1">
-                        {{ if .cargo_divisao }}
-                          <span class="text-xs font-medium px-1.5 py-0.5 rounded bg-blue-50 text-blue-700">{{ .cargo_divisao }}</span>
+                        {{ range .cargos }}
+                          <span class="text-xs font-medium px-1.5 py-0.5 rounded bg-blue-50 text-blue-700">{{ . }}</span>
                         {{ end }}
                         {{ if .chefe_departamento }}
                           <span class="text-xs font-medium px-1.5 py-0.5 rounded bg-amber-50 text-amber-700">
@@ -106,40 +72,20 @@
                           </span>
                         {{ end }}
                       </div>
-                      {{/* Links do perfil */}}
-                      {{ if $perfil }}
-                        <div class="flex gap-2 mt-2">
-                          {{ with $perfil.links }}
-                            {{ if .lattes }}
-                              <a href="{{ .lattes }}" target="_blank" rel="noopener"
-                                 class="text-xs text-gray-400 hover:text-red-600 transition-colors">Lattes</a>
-                            {{ end }}
-                            {{ if .scopus }}
-                              <a href="{{ .scopus }}" target="_blank" rel="noopener"
-                                 class="text-xs text-gray-400 hover:text-orange-600 transition-colors">Scopus</a>
-                            {{ end }}
-                            {{ if .orcid }}
-                              <a href="{{ .orcid }}" target="_blank" rel="noopener"
-                                 class="text-xs text-gray-400 hover:text-green-600 transition-colors">ORCID</a>
-                            {{ end }}
-                            {{ if .google_scholar }}
-                              <a href="{{ .google_scholar }}" target="_blank" rel="noopener"
-                                 class="text-xs text-gray-400 hover:text-blue-600 transition-colors">Scholar</a>
-                            {{ end }}
-                          {{ end }}
-                        </div>
-                      {{ end }}
+                      <div class="flex flex-wrap gap-2 mt-2">
+                        {{ with .links.lattes }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-500 hover:text-red-600">Lattes</a>{{ end }}
+                        {{ with .links.scopus }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-500 hover:text-orange-600">Scopus</a>{{ end }}
+                        {{ with .links.orcid }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-500 hover:text-green-600">ORCID</a>{{ end }}
+                      </div>
                     </div>
-                  </div>
+                  </article>
                 {{ end }}
               </div>
             </div>
           {{ end }}
         {{ end }}
-
-      </div>
+      </section>
     {{ end }}
   {{ end }}
-
 </div>
 {{ end }}

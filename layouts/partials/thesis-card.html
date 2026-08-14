@@ -35,7 +35,7 @@
 
   {{/* Title - Links to individual thesis page */}}
   <h3 class="text-lg font-semibold text-gray-900 mb-2 leading-tight">
-    <a href="/{{ $page.Language.Lang }}/teses/{{ $thesis.id }}/"
+    <a href="{{ printf "/teses/%s/" $thesis.id | relLangURL }}"
        class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">
       {{ $thesis.t }}
     </a>

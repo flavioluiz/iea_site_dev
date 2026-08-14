@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "laboratorios"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "laboratorios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "sigla", "nome_pt", "nome_en", "departamento", "tema", "descricao_pt", "descricao_en", "infraestrutura", "infraestrutura_en", "projetos_associados"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "sigla": { "type": "string", "minLength": 1 },
+          "nome_pt": { "type": "string", "minLength": 2 },
+          "nome_en": { "type": "string", "minLength": 2 },
+          "departamento": { "enum": ["", "iea-a", "iea-b", "iea-c", "iea-e", "iea-p", "iea-s"] },
+          "tema": { "enum": ["aeronautica", "espacial", "ambos"] },
+          "descricao_pt": { "type": "string" },
+          "descricao_en": { "type": "string" },
+          "infraestrutura": { "$ref": "#/$defs/strings" },
+          "infraestrutura_en": { "$ref": "#/$defs/strings" },
+          "projetos_associados": { "$ref": "#/$defs/strings" },
+          "responsaveis": { "$ref": "#/$defs/strings" },
+          "imagens": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^/images/laboratorios/[a-z0-9][a-z0-9._-]*\\.(?:jpg|jpeg|png|webp)$"
+            },
+            "uniqueItems": true
+          },
+          "pnipe_url": { "$ref": "#/$defs/url" },
+          "website_url": { "$ref": "#/$defs/url" },
+          "cor": { "type": "string", "pattern": "^(|#[0-9A-Fa-f]{6})$" },
+          "tags": { "$ref": "#/$defs/strings" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "strings": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "url": { "anyOf": [{ "const": "" }, { "type": "string", "format": "uri", "pattern": "^https?://" }] }
+  }
+}

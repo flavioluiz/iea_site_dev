@@ -1,8 +1,0 @@
----
-title: "STATIC AEROELASTIC COMPUTATIONS OF WING CONFIGURATIONS IN TRANSONIC FLOWS AT HIGH REYNOLDS NUMBERS"
-date: 2021-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85124453140"
----

@@ -1,8 +1,0 @@
----
-title: "The influence of spanwise wavelength of gÖrtler vortices in heat transfer"
-date: 2012-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85066290155"
----

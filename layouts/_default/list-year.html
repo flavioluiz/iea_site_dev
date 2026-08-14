@@ -13,17 +13,19 @@
   {{ $yearFilter := .Params.year_filter | default "" }}
 
   {{/* Use IEA faculty publications only */}}
-  {{ $ieaSlugs := .Site.Data.pessoal.iea_profiles.slugs }}
+  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
   {{ $allPublications := slice }}
-  {{ range $profId := $ieaSlugs }}
-  {{ $profData := index $.Site.Data.pessoal.profiles $profId }}
-    {{ $publications := $profData.publicacoes }}
+  {{ range $profData := $professoresAtivos }}
+    {{ $profId := $profData.id }}
+    {{ $generatedAuthor := index $.Site.Data.generated.scopus.autores.autores $profId }}
+    {{ $publications := slice }}
+    {{ if $generatedAuthor }}{{ $publications = $generatedAuthor.publicacoes | default slice }}{{ end }}
     {{ range $publications }}
       {{ if .publication_id }}
         {{ $eid := .publication_id }}
         {{ $eidParts := split $eid "-" }}
         {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
-        {{ $pub := index $.Site.Data.publications.by_eid $eidNumeric }}
+        {{ $pub := index $.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
 
         {{ if $pub }}
           {{/* Simple year matching */}}
@@ -96,7 +98,7 @@
     <div class="text-center py-12">
       <p class="text-xl text-gray-600">Nenhuma publicação encontrada para este ano.</p>
       <p class="text-sm text-gray-500 mt-2">
-        <a href="/{{ .Language.Lang }}/publicacoes/" class="text-blue-600 hover:underline">
+        <a href="{{ "/publicacoes/" | relLangURL }}" class="text-blue-600 hover:underline">
           Ver todas as publicações
         </a>
       </p>

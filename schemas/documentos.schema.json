@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "categorias"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "categorias": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "nome_pt", "nome_en", "descricao_pt", "descricao_en", "documentos"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nome_pt": { "type": "string", "minLength": 2 },
+          "nome_en": { "type": "string", "minLength": 2 },
+          "descricao_pt": { "type": "string" },
+          "descricao_en": { "type": "string" },
+          "documentos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["nome_pt", "nome_en", "descricao_pt", "descricao_en", "arquivo", "link_externo", "data"],
+              "properties": {
+                "nome_pt": { "type": "string", "minLength": 2 },
+                "nome_en": { "type": "string" },
+                "descricao_pt": { "type": "string" },
+                "descricao_en": { "type": "string" },
+                "arquivo": { "type": "string", "pattern": "^(|/documents/[a-zA-Z0-9][a-zA-Z0-9._-]*\\.pdf)$" },
+                "link_externo": { "$ref": "#/$defs/url" },
+                "data": { "type": "string", "format": "date" }
+              },
+              "oneOf": [
+                { "properties": { "arquivo": { "minLength": 1 }, "link_externo": { "const": "" } } },
+                { "properties": { "arquivo": { "const": "" }, "link_externo": { "type": "string", "pattern": "^https?://" } } }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "url": { "anyOf": [{ "const": "" }, { "type": "string", "format": "uri", "pattern": "^https?://" }] }
+  }
+}

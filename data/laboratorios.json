@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "laboratorios": [
+    {
+      "id": "lab-esp",
+      "sigla": "LAB-ESP",
+      "nome_pt": "Laboratório de Estruturas Aeroespaciais",
+      "nome_en": "Aerospace Structures Laboratory",
+      "departamento": "iea-e",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Estruturas Aeroespaciais (LAB-ESP) sedia prioritariamente atividades de pesquisa\nexperimentais e numéricas da área de Mecânica dos Sólidos e Estruturas. A área física consiste em um\nhangar de 800 m² dotado de condições adequadas para o ensaio de estruturas aeronáuticas de médio e\ngrande porte. O laboratório tem como objetivo prover pessoal capacitado e infraestrutura adequada\npara planejar e executar ensaios estruturais e de caracterização de materiais compósitos e metálicos.\n",
+      "descricao_en": "The Aerospace Structures Laboratory (LAB-ESP) primarily hosts experimental and numerical research\nactivities in Solid Mechanics and Structures. The physical area consists of an 800 m² hangar equipped\nwith adequate conditions for testing medium and large aeronautical structures. The laboratory aims to\nprovide qualified personnel and adequate infrastructure for planning and executing structural tests\nand characterization of composite and metallic materials.\n",
+      "infraestrutura": [
+        "Máquinas de ensaio universal",
+        "Sistema de aquisição de dados",
+        "Equipamentos para ensaios estáticos",
+        "Análise experimental de tensões",
+        "Ensaios dinâmicos e de vibração",
+        "Ensaios aeroelásticos",
+        "Manufatura aditiva de compósitos",
+        "Ferramentas numéricas de elementos finitos"
+      ],
+      "infraestrutura_en": [
+        "Universal testing machines",
+        "Data acquisition system",
+        "Static test equipment",
+        "Experimental stress analysis",
+        "Dynamic and vibration testing",
+        "Aeroelastic testing",
+        "Additive manufacturing of composites",
+        "Finite element numerical tools"
+      ],
+      "projetos_associados": [
+        "ROTA 2030 - Ferramentais para Compósitos",
+        "FAPESP M-ERA.NET - Estruturas Compósitas",
+        "FINEP - Plataforma Demonstradora EMBRAER"
+      ],
+      "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1050"
+    },
+    {
+      "id": "lab-din-vib",
+      "sigla": "LDV",
+      "nome_pt": "Laboratório de Dinâmica e Vibrações",
+      "nome_en": "Dynamics and Vibrations Laboratory",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Dinâmica e Vibrações da Divisão de Engenharia Mecânica do ITA foi fundado em 2015.\nNele são realizadas atividades de ensino e pesquisa relacionadas à dinâmica de corpos rígidos e\nflexíveis. No laboratório são ministradas aulas experimentais de Vibrações Mecânicas, além de\npesquisas em análise modal, dinâmica estrutural e sistemas vibratórios.\n",
+      "descricao_en": "The Dynamics and Vibrations Laboratory of the Mechanical Engineering Division at ITA was founded in 2015.\nIt hosts teaching and research activities related to the dynamics of rigid and flexible bodies.\nThe laboratory provides experimental classes in Mechanical Vibrations, as well as research in modal\nanalysis, structural dynamics, and vibratory systems.\n",
+      "infraestrutura": [
+        "Shaker eletrodinâmico 2kN",
+        "Martelo de impacto instrumentado",
+        "Acelerômetros triaxiais Brüel & Kjær",
+        "Sistema de aquisição National Instruments",
+        "Software LabView",
+        "Equipamentos para estruturas inteligentes"
+      ],
+      "infraestrutura_en": [
+        "2kN electrodynamic shaker",
+        "Instrumented impact hammer",
+        "Brüel & Kjær triaxial accelerometers",
+        "National Instruments acquisition system",
+        "LabView software",
+        "Smart structures equipment"
+      ],
+      "projetos_associados": [
+        "Petrobras - Dinâmica de Estruturas",
+        "PLP Brasil - Vibrações Mecânicas"
+      ]
+    },
+    {
+      "id": "lab-sim-ctrl",
+      "sigla": "LSCTR",
+      "nome_pt": "Laboratório de Simulação e Controle de Sistemas Dinâmicos",
+      "nome_en": "Simulation and Control of Dynamic Systems Laboratory",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Sistemas e Controle em Tempo Real busca atender a uma metodologia mecatrônica\nem sua abordagem experimental, explorando a sinergia entre as áreas de controle, computação,\neletrônica e mecânica/aeronáutica. Possui hardware e softwares de simulação para realização de\nexperimentos em tempo real do tipo hardware-in-the-loop e equipamentos específicos para\nexperimentos em mecatrônica e controle de sistemas.\n",
+      "descricao_en": "The Real-Time Systems and Control Laboratory aims to meet a mechatronic methodology in its\nexperimental approach, exploring the synergy between control, computing, electronics, and\nmechanical/aeronautical areas. It has simulation hardware and software for real-time\nhardware-in-the-loop experiments and specific equipment for mechatronics and control systems\nexperiments.\n",
+      "infraestrutura": [
+        "Hardware-in-the-loop systems",
+        "Fly-by-wire test equipment",
+        "UAV control workstations",
+        "Real-time simulation software",
+        "Flight simulators"
+      ],
+      "infraestrutura_en": [
+        "Hardware-in-the-loop systems",
+        "Fly-by-wire test equipment",
+        "UAV control workstations",
+        "Real-time simulation software",
+        "Flight simulators"
+      ],
+      "projetos_associados": [
+        "EMBRAER - Sistemas de Controle",
+        "FINEP - Projeto AME"
+      ]
+    },
+    {
+      "id": "lab-feng",
+      "sigla": "LAB-FENG",
+      "nome_pt": "Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng",
+      "nome_en": "Prof. Kwei Lien Feng Aeronautical Engineering Laboratory",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng reúne as instalações experimentais\ndas áreas de aerodinâmica e aeroacústica, propulsão e sistemas aeronáuticos. Essas instalações\nsão utilizadas para a realização de atividades de ensino e pesquisa, além de trabalhos de\ndesenvolvimento tecnológico com a indústria aeronáutica.\n",
+      "descricao_en": "The Prof. Kwei Lien Feng Aeronautical Engineering Laboratory brings together the experimental\nfacilities of the aerodynamics, aeroacoustics, propulsion, and aeronautical systems areas.\nThese facilities are used for teaching and research activities, as well as technological\ndevelopment work with the aeronautical industry.\n",
+      "infraestrutura": [
+        "Túnel de vento subsônico (1,00 x 1,28m, 80 m/s)",
+        "Banco de ensaio de bocais",
+        "Banco de ensaio de jato livre",
+        "Instrumentação para medição de forças",
+        "Sistemas de visualização de escoamento"
+      ],
+      "infraestrutura_en": [
+        "Subsonic wind tunnel (1.00 x 1.28m, 80 m/s)",
+        "Nozzle test bench",
+        "Free jet test bench",
+        "Force measurement instrumentation",
+        "Flow visualization systems"
+      ],
+      "projetos_associados": [
+        "FAPESP/ITA/EMBRAER - Túnel de Vento",
+        "Boeing - Aerodinâmica"
+      ]
+    },
+    {
+      "id": "lcft",
+      "sigla": "LCFT",
+      "nome_pt": "Laboratório de Computação em Fenômenos de Transporte",
+      "nome_en": "Computational Transport Phenomena Laboratory",
+      "departamento": "iea-c",
+      "tema": "aeronautica",
+      "descricao_pt": "A infraestrutura de informática para suporte à área de Mecânica dos Fluidos e Transferência de\nCalor Computacional é provida pelo Laboratório de Computação em Fenômenos de Transporte (LCFT).\nO laboratório ocupa um prédio de 1000m² contendo salas de pesquisadores e alunos, auditório de\n65 lugares e instalações para professores visitantes. Os recursos permitem o desenvolvimento\nde códigos para aplicação em Mecânica dos Fluidos Computacional.\n",
+      "descricao_en": "The computing infrastructure to support Computational Fluid Mechanics and Heat Transfer is\nprovided by the Computational Transport Phenomena Laboratory (LCFT). The laboratory occupies\na 1000m² building containing researcher and student rooms, a 65-seat auditorium, and facilities\nfor visiting professors. The resources allow the development of codes for application in\nComputational Fluid Mechanics.\n",
+      "infraestrutura": [
+        "Cluster Dell PowerEdge C6230 (560 cores, 20 Tflops)",
+        "Licenças Fluent (ANSYS)",
+        "Licenças Star-CCM+ (Siemens)",
+        "Licenças CFD++ (Metacomp)",
+        "OpenFOAM",
+        "Auditório 65 lugares"
+      ],
+      "infraestrutura_en": [
+        "Dell PowerEdge C6230 cluster (560 cores, 20 Tflops)",
+        "Fluent licenses (ANSYS)",
+        "Star-CCM+ licenses (Siemens)",
+        "CFD++ licenses (Metacomp)",
+        "OpenFOAM",
+        "65-seat auditorium"
+      ],
+      "projetos_associados": [
+        "Petrobras - CFD Industrial",
+        "FAPESP - Mecânica dos Fluidos"
+      ]
+    },
+    {
+      "id": "lcpe",
+      "sigla": "LCPE",
+      "nome_pt": "Laboratório de Combustão, Propulsão e Energia",
+      "nome_en": "Combustion, Propulsion and Energy Laboratory",
+      "departamento": "iea-c",
+      "tema": "aeronautica",
+      "descricao_pt": "Inaugurado em 2008, o Laboratório de Combustão, Propulsão e Energia (LCPE) foi criado com o\nobjetivo de reunir em um ambiente favorável às ações em P,D&I em tópicos relativos a energia\ne mobilidade sustentável. O LCPE atua principalmente em estudos fundamentais e aplicados sobre\nturbinas a gás, motores a pistão, motor foguete e queimadores, além de propulsão eletrificada.\n",
+      "descricao_en": "Inaugurated in 2008, the Combustion, Propulsion and Energy Laboratory (LCPE) was created with\nthe objective of gathering in a favorable environment for R,D&I actions on topics related to\nenergy and sustainable mobility. LCPE works mainly on fundamental and applied studies on gas\nturbines, piston engines, rocket engines, and burners, as well as electrified propulsion.\n",
+      "infraestrutura": [
+        "Bancadas de teste de turbinas a gás",
+        "Bancadas de motores a combustão",
+        "Equipamentos para propulsão elétrica",
+        "Sistemas de aquisição de dados",
+        "Diagnósticos de combustão"
+      ],
+      "infraestrutura_en": [
+        "Gas turbine test benches",
+        "Combustion engine benches",
+        "Electric propulsion equipment",
+        "Data acquisition systems",
+        "Combustion diagnostics"
+      ],
+      "projetos_associados": [
+        "SEFAC - Veículos Elétricos",
+        "ENEVA - Plasma Térmico"
+      ]
+    },
+    {
+      "id": "lab-turbo",
+      "sigla": "LTM",
+      "nome_pt": "Laboratório de Turbomáquinas",
+      "nome_en": "Turbomachinery Laboratory",
+      "departamento": "iea-c",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Turbomáquinas do Departamento de Turbomáquinas possui instalações para ensino\ne pesquisa em turbinas a gás e outros equipamentos de propulsão. O laboratório conta com sala de\naula equipada com 20 computadores em rede e sistemas para controle e aquisição de dados.\n",
+      "descricao_en": "The Turbomachinery Laboratory of the Turbomachinery Department has facilities for teaching and\nresearch in gas turbines and other propulsion equipment. The laboratory has a classroom equipped\nwith 20 networked computers and systems for control and data acquisition.\n",
+      "infraestrutura": [
+        "Bancada de turbinas a gás didática",
+        "20 computadores em rede",
+        "Sistema de aquisição de dados",
+        "Softwares de simulação"
+      ],
+      "infraestrutura_en": [
+        "Didactic gas turbine bench",
+        "20 networked computers",
+        "Data acquisition system",
+        "Simulation software"
+      ],
+      "projetos_associados": [
+        "Estudos de Turbinas a Gás"
+      ]
+    },
+    {
+      "id": "lab-hid",
+      "sigla": "LMH",
+      "nome_pt": "Laboratório de Máquinas Hidráulicas e Cavitação",
+      "nome_en": "Hydraulic Machines and Cavitation Laboratory",
+      "departamento": "iea-c",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Máquinas Hidráulicas possui bancadas de turbinas hidráulicas dos tipos Pelton,\nFrancis, Kaplan e de bomba centrífuga para estudos de cavitação e circuito de estudo de cavitação\nde bomba axial. Possui também instrumentação completa incluindo manômetros, tubos de Pitot e\nsistema informatizado de aquisição baseado em LabView.\n",
+      "descricao_en": "The Hydraulic Machines Laboratory has hydraulic turbine benches of Pelton, Francis, Kaplan types\nand centrifugal pump for cavitation studies and axial pump cavitation study circuit. It also has\ncomplete instrumentation including manometers, Pitot tubes, and a computerized acquisition system\nbased on LabView.\n",
+      "infraestrutura": [
+        "Bancada de turbina Pelton",
+        "Bancada de turbina Francis",
+        "Bancada de turbina Kaplan",
+        "Bomba centrífuga para cavitação",
+        "Freios de Prony",
+        "Estroboscópio",
+        "Sistema LabView"
+      ],
+      "infraestrutura_en": [
+        "Pelton turbine bench",
+        "Francis turbine bench",
+        "Kaplan turbine bench",
+        "Centrifugal pump for cavitation",
+        "Prony brakes",
+        "Stroboscope",
+        "LabView system"
+      ],
+      "projetos_associados": []
+    },
+    {
+      "id": "ccm",
+      "sigla": "CCM",
+      "nome_pt": "Centro de Competência em Manufatura",
+      "nome_en": "Manufacturing Competence Center",
+      "departamento": "iea-e",
+      "tema": "aeronautica",
+      "descricao_pt": "O Centro de Competência em Manufatura do ITA (CCM/ITA) é um ambiente de ensino e pesquisa do\nconceito de Desenvolvimento Integrado de Produtos. Ocupa uma área de 650 m² e foi concebido para\nprover aos alunos a oportunidade de visualizar e compreender o processo integral de desenvolvimento\nde produtos e sistemas. Atua em fresamento 5 eixos, manufatura aditiva metálica, automação\nindustrial, robótica e inspeção.\n",
+      "descricao_en": "The ITA Manufacturing Competence Center (CCM/ITA) is a teaching and research environment for the\nIntegrated Product Development concept. It occupies an area of 650 m² and was designed to provide\nstudents with the opportunity to visualize and understand the integral product and system\ndevelopment process. It works in 5-axis milling, metallic additive manufacturing, industrial\nautomation, robotics, and inspection.\n",
+      "infraestrutura": [
+        "Centros de usinagem CNC 5 eixos",
+        "Robôs industriais KUKA (KR500, KR210)",
+        "Sistemas metrológicos K-SERIES",
+        "Laser Tracker",
+        "iGPS",
+        "Impressora SLM (manufatura aditiva)",
+        "Equipamentos de medição de tensões residuais"
+      ],
+      "infraestrutura_en": [
+        "5-axis CNC machining centers",
+        "KUKA industrial robots (KR500, KR210)",
+        "K-SERIES metrology systems",
+        "Laser Tracker",
+        "iGPS",
+        "SLM printer (additive manufacturing)",
+        "Residual stress measurement equipment"
+      ],
+      "projetos_associados": [
+        "EMBRAPII CCM-ITA",
+        "CPE - Centro de Pesquisa em Engenharia",
+        "Engrena ITA",
+        "Projeto AME - Automação de Montagem"
+      ]
+    },
+    {
+      "id": "lpm-lacam",
+      "sigla": "LPM/LACAM",
+      "nome_pt": "Laboratórios de Processamento e Caracterização de Materiais",
+      "nome_en": "Materials Processing and Characterization Laboratories",
+      "departamento": "iea-e",
+      "tema": "aeronautica",
+      "descricao_pt": "Na área de materiais, existem dois laboratórios multiusuários: os Laboratórios de Processamento\nde Materiais (LPM) e os Laboratórios de Caracterização de Materiais (LACAM). O LPM tem uma\ninfraestrutura praticamente única no Brasil com capacidade de produzir pequenos lingotes por\nprocessos como fusão a arco e fusão por feixe de elétrons, além de processos de conformação\nmecânica.\n",
+      "descricao_en": "In the materials area, there are two multi-user laboratories: the Materials Processing Laboratories\n(LPM) and the Materials Characterization Laboratories (LACAM). The LPM has an infrastructure that\nis practically unique in Brazil with the capacity to produce small ingots by processes such as arc\nmelting and electron beam melting, as well as mechanical forming processes.\n",
+      "infraestrutura": [
+        "Fornos de fusão a arco",
+        "Fornos de fusão por feixe de elétrons",
+        "Equipamentos de conformação mecânica",
+        "Microscópios eletrônicos",
+        "Difratômetros de raios-X",
+        "Equipamentos de análise térmica (DSC, DMA)"
+      ],
+      "infraestrutura_en": [
+        "Arc melting furnaces",
+        "Electron beam melting furnaces",
+        "Mechanical forming equipment",
+        "Electron microscopes",
+        "X-ray diffractometers",
+        "Thermal analysis equipment (DSC, DMA)"
+      ],
+      "projetos_associados": [
+        "FAPESP - Materiais Avançados",
+        "CNPq - Ligas Metálicas"
+      ]
+    },
+    {
+      "id": "leta",
+      "sigla": "LETA",
+      "nome_pt": "Laboratório de Engenharia Térmica Aplicada",
+      "nome_en": "Applied Thermal Engineering Laboratory",
+      "departamento": "iea-c",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Engenharia Térmica Aplicada (LETA) foi formalmente criado em 2022, realizando\natividades de pesquisa e desenvolvimento tecnológico na área de Ciências Térmicas (Termodinâmica,\nMecânica dos Fluidos, Transferência de Calor). Além das atividades voltadas aos projetos\nestratégicos da área, o laboratório desenvolve pesquisa aplicada em parceria com a indústria.\n",
+      "descricao_en": "The Applied Thermal Engineering Laboratory (LETA) was formally established in 2022, conducting\nresearch and technological development activities in the Thermal Sciences area (Thermodynamics,\nFluid Mechanics, Heat Transfer). In addition to activities focused on strategic projects in the\narea, the laboratory develops applied research in partnership with industry.\n",
+      "infraestrutura": [
+        "Bancadas de transferência de calor",
+        "Sistemas de medição térmica",
+        "Câmaras térmicas",
+        "Equipamentos de análise termográfica"
+      ],
+      "infraestrutura_en": [
+        "Heat transfer benches",
+        "Thermal measurement systems",
+        "Thermal chambers",
+        "Thermographic analysis equipment"
+      ],
+      "projetos_associados": []
+    },
+    {
+      "id": "lpp",
+      "sigla": "LPP",
+      "nome_pt": "Laboratório de Plasmas e Processos",
+      "nome_en": "Plasmas and Processes Laboratory",
+      "departamento": "iea-e",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Plasmas e Processos (LPP) do Instituto Tecnológico de Aeronáutica vem se\ndestacando nacional e internacionalmente na realização de trabalhos científicos relacionados\ncom descargas elétricas e suas aplicações tecnológicas, entre as quais podem ser citadas:\nmodificação de fibras de carbono, tratamento de superfícies e deposição de filmes finos.\n",
+      "descricao_en": "The Plasmas and Processes Laboratory (LPP) of the Technological Institute of Aeronautics has\nbeen standing out nationally and internationally in scientific work related to electrical\ndischarges and their technological applications, including: carbon fiber modification, surface\ntreatment, and thin film deposition.\n",
+      "infraestrutura": [
+        "Reatores de plasma",
+        "Sistemas de deposição de filmes",
+        "Equipamentos de tratamento de superfície",
+        "Espectrômetros de massa",
+        "Analisadores de plasma"
+      ],
+      "infraestrutura_en": [
+        "Plasma reactors",
+        "Film deposition systems",
+        "Surface treatment equipment",
+        "Mass spectrometers",
+        "Plasma analyzers"
+      ],
+      "projetos_associados": [
+        "ENEVA - Plasma Térmico"
+      ]
+    },
+    {
+      "id": "cdpa",
+      "sigla": "CDPA",
+      "nome_pt": "Centro de Desenvolvimento de Projetos Aeronáuticos",
+      "nome_en": "Aeronautical Projects Development Center",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Centro de Desenvolvimento de Projetos Aeronáuticos (CDPA) é dedicado ao desenvolvimento de\nprojetos de aeronaves e sistemas aeronáuticos, integrando as diversas competências do ITA em\nprojeto, estruturas, aerodinâmica e sistemas. Atua como interface entre a academia e a indústria\naeronáutica em projetos de P&D.\n",
+      "descricao_en": "The Aeronautical Projects Development Center (CDPA) is dedicated to the development of aircraft\nand aeronautical systems projects, integrating the various ITA competencies in design, structures,\naerodynamics, and systems. It acts as an interface between academia and the aeronautical industry\nin R&D projects.\n",
+      "infraestrutura": [
+        "Estações de trabalho CAD/CAE",
+        "Softwares de projeto aeronáutico",
+        "Simuladores de voo",
+        "Salas de projeto integrado"
+      ],
+      "infraestrutura_en": [
+        "CAD/CAE workstations",
+        "Aeronautical design software",
+        "Flight simulators",
+        "Integrated design rooms"
+      ],
+      "projetos_associados": [
+        "EMBRAER - Projetos Conceituais",
+        "FINEP - CTEDS"
+      ]
+    },
+    {
+      "id": "lnca",
+      "sigla": "LNCA",
+      "nome_pt": "Laboratório de Novos Conceitos Aeronáuticos",
+      "nome_en": "New Aeronautical Concepts Laboratory",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Novos Conceitos Aeronáuticos é um laboratório transversal do ITA, desenvolvido\npara servir como grupo de alto nível de orientação de pesquisas em novos conceitos aeronáuticos.\nO conceito do laboratório é baseado em desafios tecnológicos identificados pela indústria e\nacademia em termos de propulsão aeronáutica, emissões, biocombustíveis e integração de sistemas.\n",
+      "descricao_en": "The New Aeronautical Concepts Laboratory is a cross-cutting laboratory at ITA, developed to serve\nas a high-level guidance group for research on new aeronautical concepts. The laboratory concept\nis based on technological challenges identified by industry and academia in terms of aeronautical\npropulsion, emissions, biofuels, and system integration.\n",
+      "infraestrutura": [
+        "Ferramentas de projeto conceitual",
+        "Software de otimização multidisciplinar",
+        "Sistemas de simulação de missão",
+        "Bancadas de propulsão híbrida"
+      ],
+      "infraestrutura_en": [
+        "Conceptual design tools",
+        "Multidisciplinary optimization software",
+        "Mission simulation systems",
+        "Hybrid propulsion benches"
+      ],
+      "projetos_associados": [
+        "FINEP - Novos Conceitos",
+        "CISB - Aviação Sustentável",
+        "EMBRAER - Estudos Avançados",
+        "Boeing - Pesquisa Colaborativa",
+        "SAAB - Cooperação Internacional"
+      ]
+    },
+    {
+      "id": "lasca",
+      "sigla": "LASCA",
+      "nome_pt": "Laboratório Avançado de Simulação Computacional em Aerodinâmica",
+      "nome_en": "Advanced Computational Simulation Laboratory in Aerodynamics",
+      "departamento": "iea-a",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório Avançado de Simulação Computacional em Aerodinâmica (LASCA) possui atualmente\ntrês clusters especializados em simulação de alto desempenho que juntos somam mais de 900 núcleos\nde processamento distribuídos entre cerca de 20 nós de cálculo. São capazes de executar com alto\ngrau de paralelismo diversos códigos comerciais e acadêmicos.\n",
+      "descricao_en": "The Advanced Computational Simulation Laboratory in Aerodynamics (LASCA) currently has three\nclusters specialized in high-performance simulation that together add up to more than 900\nprocessing cores distributed among about 20 calculation nodes. They are capable of executing\nwith a high degree of parallelism various commercial and academic codes.\n",
+      "infraestrutura": [
+        "3 clusters HPC (900+ cores, 20 nós)",
+        "CFD++ (Metacomp)",
+        "SU2",
+        "Star-CCM+",
+        "Nek5000",
+        "Nektar++",
+        "Powerflow"
+      ],
+      "infraestrutura_en": [
+        "3 HPC clusters (900+ cores, 20 nodes)",
+        "CFD++ (Metacomp)",
+        "SU2",
+        "Star-CCM+",
+        "Nek5000",
+        "Nektar++",
+        "Powerflow"
+      ],
+      "projetos_associados": [
+        "Simulações de Alta Fidelidade",
+        "EMBRAER - CFD Avançado"
+      ]
+    },
+    {
+      "id": "lab-quim",
+      "sigla": "LQT",
+      "nome_pt": "Laboratório de Química Teórica",
+      "nome_en": "Theoretical Chemistry Laboratory",
+      "departamento": "iea-e",
+      "tema": "aeronautica",
+      "descricao_pt": "O Laboratório de Química Teórica possui cluster de computadores, nobreak e códigos computacionais\natualizados necessários para o desenvolvimento de projetos de pesquisa em Química Teórica com\nênfase em Materiais Energéticos (propelentes sólidos e líquidos, explosivos e pirotécnicos) e\nMateriais Cerâmicos e Compósitos (proteção térmica de reentrada).\n",
+      "descricao_en": "The Theoretical Chemistry Laboratory has a computer cluster, UPS, and updated computational codes\nnecessary for the development of research projects in Theoretical Chemistry with emphasis on\nEnergetic Materials (solid and liquid propellants, explosives, and pyrotechnics) and Ceramic\nand Composite Materials (reentry thermal protection).\n",
+      "infraestrutura": [
+        "Cluster computacional dedicado",
+        "Software de química quântica",
+        "Códigos de dinâmica molecular",
+        "Sistemas de backup (nobreak)"
+      ],
+      "infraestrutura_en": [
+        "Dedicated computer cluster",
+        "Quantum chemistry software",
+        "Molecular dynamics codes",
+        "Backup systems (UPS)"
+      ],
+      "projetos_associados": [
+        "Materiais Energéticos",
+        "Proteção Térmica de Reentrada"
+      ]
+    },
+    {
+      "id": "ltf",
+      "sigla": "LTF",
+      "nome_pt": "Laboratório de Tecnologias de Foguetes",
+      "nome_en": "Rocket Technologies Laboratory",
+      "departamento": "",
+      "tema": "espacial",
+      "cor": "#7c3aed",
+      "descricao_pt": "O Laboratório de Tecnologias de Foguetes (LTF) é dedicado ao desenvolvimento e pesquisa em sistemas de propulsão de foguetes, motores-foguete a propelente sólido e híbrido, bancadas de teste de propulsores e tecnologias associadas a veículos lançadores. Apoia projetos de pesquisa e desenvolvimento com ênfase em propulsão espacial e sondagem atmosférica.\n",
+      "descricao_en": "The Rocket Technologies Laboratory (LTF) is dedicated to research and development in rocket propulsion systems, solid and hybrid propellant rocket motors, thruster test benches, and technologies associated with launch vehicles. It supports R&D projects with emphasis on space propulsion and atmospheric sounding.\n",
+      "infraestrutura": [
+        "Bancadas de teste de motores-foguete",
+        "Sistemas de aquisição de dados para propulsão",
+        "Equipamentos para propelentes sólidos e híbridos",
+        "Instrumentação de diagnóstico de chama"
+      ],
+      "infraestrutura_en": [
+        "Rocket motor test benches",
+        "Propulsion data acquisition systems",
+        "Solid and hybrid propellant equipment",
+        "Flame diagnostic instrumentation"
+      ],
+      "tags": [
+        "foguetes",
+        "propulsão espacial",
+        "VLS",
+        "sondagem"
+      ],
+      "website_url": "",
+      "projetos_associados": []
+    },
+    {
+      "id": "cei",
+      "sigla": "CEI",
+      "nome_pt": "Centro Espacial ITA",
+      "nome_en": "ITA Space Center",
+      "departamento": "",
+      "tema": "espacial",
+      "cor": "#0f766e",
+      "descricao_pt": "O Centro Espacial ITA (CEI) é o núcleo de atividades espaciais do Instituto Tecnológico de Aeronáutica. Integra pesquisa, ensino e desenvolvimento tecnológico nas áreas de satélites, veículos lançadores, operações espaciais e sistemas de rastreio. Abriga o programa ITASAT e projetos em parceria com a Força Aérea Brasileira e agências espaciais internacionais.\n",
+      "descricao_en": "The ITA Space Center (CEI) is the hub for space activities at the Technological Institute of Aeronautics. It integrates research, teaching, and technological development in satellites, launch vehicles, space operations, and tracking systems. It houses the ITASAT program and projects in partnership with the Brazilian Air Force and international space agencies.\n",
+      "infraestrutura": [
+        "Sala limpa para integração de satélites",
+        "Sistemas de rastreio e TT&C",
+        "Simuladores de operações espaciais (SOLIS/STK)",
+        "Laboratório de sistemas embarcados espaciais",
+        "Ambiente de testes de subsistemas de satélite"
+      ],
+      "infraestrutura_en": [
+        "Clean room for satellite integration",
+        "Tracking and TT&C systems",
+        "Space operations simulators (SOLIS/STK)",
+        "Space embedded systems laboratory",
+        "Satellite subsystem test environment"
+      ],
+      "tags": [
+        "satélites",
+        "ITASAT",
+        "operações espaciais",
+        "rastreio",
+        "veículos lançadores"
+      ],
+      "website_url": "https://cei.ita.br",
+      "projetos_associados": []
+    },
+    {
+      "id": "conceptio",
+      "sigla": "CONCEPTIO",
+      "nome_pt": "Laboratório de Pesquisa em Concepção de Sistemas Complexos",
+      "nome_en": "Complex Systems Design Research Laboratory",
+      "departamento": "",
+      "tema": "aeronautica",
+      "cor": "#0f172a",
+      "descricao_pt": "O CONCEPTIO é o laboratório de pesquisa do ITA dedicado à concepção de sistemas complexos, com foco em Engenharia de Sistemas, Modelagem e Simulação, Tecnologias de Jogos e Interfaces Naturais. Hospeda a Arena CONCEPT.IO, ambiente físico para desenvolvimento de estratégias de projeto, hackathons, artefatos tangíveis e simulações, com orientação a aplicações de defesa e sistemas aeroespaciais.\n",
+      "descricao_en": "CONCEPTIO is ITA's research laboratory dedicated to complex systems design, focusing on Systems Engineering, Modeling and Simulation, Game Technologies, and Natural Interfaces. It hosts the Arena CONCEPT.IO, a physical facility for design strategies, hackathons, tangible artifacts, and simulations, oriented toward defense and aerospace systems applications.\n",
+      "infraestrutura": [
+        "Arena CONCEPT.IO (ambiente imersivo)",
+        "Ferramentas de modelagem e simulação",
+        "Tecnologias de jogos aplicados a sistemas",
+        "Interfaces naturais e realidade aumentada",
+        "Ambiente para hackathons e design sprints"
+      ],
+      "infraestrutura_en": [
+        "Arena CONCEPT.IO (immersive environment)",
+        "Modeling and simulation tools",
+        "Game technologies for systems design",
+        "Natural interfaces and augmented reality",
+        "Hackathon and design sprint environment"
+      ],
+      "tags": [
+        "engenharia de sistemas",
+        "modelagem",
+        "simulação",
+        "defesa",
+        "concepção"
+      ],
+      "website_url": "https://www.conceptio.ita.br",
+      "projetos_associados": []
+    }
+  ]
+}

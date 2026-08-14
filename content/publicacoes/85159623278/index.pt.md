@@ -1,8 +1,0 @@
----
-title: "STUDY OF THE EFFECTS OF NUMERICAL MODEL ENHANCEMENTS FOR AEROSTRUCTURAL ANALYSIS IN TRANSONIC FLOWS"
-date: 2022-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85159623278"
----

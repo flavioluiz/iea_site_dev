@@ -1,8 +1,0 @@
----
-title: "ACCELERATING TURBULENCE MODEL SIMULATIONS WITH A HIGHEFFICIENCY GPU-OPTIMIZED ALGORITHM"
-date: 2025-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "105012359108"
----

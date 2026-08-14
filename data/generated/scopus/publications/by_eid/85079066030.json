@@ -1,0 +1,64 @@
+{
+  "publication_id": "2-s2.0-85079066030",
+  "eid": "2-s2.0-85079066030",
+  "doi": "10.1016/j.jcp.2019.109112",
+  "pii": "S0021999119308174",
+  "pubmed_id": null,
+  "title": "Spatial eigenanalysis of spectral/hp continuous Galerkin schemes and their stabilisation via DG-mimicking spectral vanishing viscosity for high Reynolds number flows",
+  "year": "2020",
+  "date": "2020-04-01",
+  "type": "article",
+  "subtype": "ar",
+  "journal": {
+    "name": "Journal of Computational Physics",
+    "issn": "00219991",
+    "eissn": "10902716",
+    "volume": "406",
+    "issue": null,
+    "pages": null,
+    "article_number": "109112"
+  },
+  "authors": [
+    {
+      "name": "Moura, Rodrigo C.",
+      "scopus_id": "56660427200",
+      "affiliation": null,
+      "is_eam_professor": true,
+      "eam_professor_id": "rodrigo-costa-moura"
+    },
+    {
+      "name": "Aman, Mansoor",
+      "scopus_id": "57530827200",
+      "affiliation": null,
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Peiró, Joaquim",
+      "scopus_id": "7005874042",
+      "affiliation": null,
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    },
+    {
+      "name": "Sherwin, Spencer J.",
+      "scopus_id": "7006283114",
+      "affiliation": null,
+      "is_eam_professor": false,
+      "eam_professor_id": null
+    }
+  ],
+  "eam_coauthors": [
+    "rodrigo-costa-moura"
+  ],
+  "scopus": {
+    "citations": 34,
+    "references_count": 38,
+    "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85079066030&origin=inward"
+  },
+  "metadata": {
+    "source": "scopus",
+    "last_updated": "2026-05-06T15:53:47.069534",
+    "data_quality_score": 100
+  }
+}

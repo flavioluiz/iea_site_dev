@@ -26,9 +26,6 @@ import sys
 # Add parent directory to path to import get_scopus functions
 sys.path.insert(0, str(Path(__file__).parent))
 
-import pybliometrics
-pybliometrics.init(keys=['e8917d664a72244e7ed90ce9e5ecc082'], inst_tokens=[None])
-
 from get_scopus import get_author_data, get_publications_data
 
 
@@ -95,7 +92,7 @@ class ScopusFetcher:
         time.sleep(wait)
 
     def fetch_professor_data(self, prof_id: str, scopus_id: str, prof_name: str,
-                           max_retries: int = 3, fetch_abstracts: bool = True,
+                           max_retries: int = 3, fetch_abstracts: bool = False,
                            force: bool = False) -> bool:
         """Fetch data for a single professor with retry logic"""
 
@@ -195,7 +192,7 @@ class ScopusFetcher:
 
     def fetch_all(self, matched_file: Path, resume: bool = False,
                  force: bool = False, dry_run: bool = False,
-                 fetch_abstracts: bool = True) -> Dict:
+                 fetch_abstracts: bool = False) -> Dict:
         """Fetch data for all matched professors"""
 
         # Load matched professors
@@ -332,8 +329,8 @@ def main():
                        help='Overwrite existing data files')
     parser.add_argument('--delay', type=float, default=2.0,
                        help='Delay in seconds between requests (default: 2.0)')
-    parser.add_argument('--no-abstracts', action='store_true',
-                       help='Skip fetching abstracts (faster but less data)')
+    parser.add_argument('--include-abstracts', action='store_true',
+                       help='Fetch restricted abstracts for private/local analysis only')
 
     args = parser.parse_args()
 
@@ -359,7 +356,7 @@ def main():
             resume=args.resume,
             force=args.force,
             dry_run=args.dry_run,
-            fetch_abstracts=not args.no_abstracts
+            fetch_abstracts=args.include_abstracts
         )
 
         if results['failed'] > 0:

@@ -1,7 +1,7 @@
 {
-  "name": "pgeam-site",
+  "name": "iea-site",
   "version": "1.0.0",
-  "description": "Site do Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica do ITA",
+  "description": "Site da Divisão de Engenharia Aeronáutica e Aeroespacial do ITA",
   "scripts": {
     "dev": "hugo server -D",
     "build": "hugo --minify",
@@ -10,7 +10,7 @@
   "keywords": [
     "hugo",
     "static-site",
-    "pgeam",
+    "iea",
     "ita",
     "aerospace",
     "engineering"

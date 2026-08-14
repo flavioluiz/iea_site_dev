@@ -1,8 +1,0 @@
----
-title: "UNMANNED AERIAL VEHICLE – HUMAN PERFORMANCE EVALUTION UNDER CRITICAL OPERATIONAL SCENARIO"
-date: 2022-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85159651343"
----

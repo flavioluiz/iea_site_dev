@@ -1,8 +1,0 @@
----
-title: "STATE OF THE ART OF INSPECTION PROCESSES FOR PIPES AND ACCESSORIES IN THE GREEN HYDROGEN INDUSTRY IN BRAZIL"
-date: 2024-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85210515610"
----

@@ -47,7 +47,7 @@
             </div>
             <div class="flex-shrink-0 ml-4">
               {{ if .arquivo }}
-                <a href="{{ printf "/documents/%s" .arquivo | relURL }}"
+                <a href="{{ .arquivo | relURL }}"
                    class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                    download>
                   Download
@@ -58,7 +58,7 @@
               {{ else if .link_externo }}
                 <a href="{{ .link_externo }}"
                    target="_blank"
-                   rel="noopener"
+                   rel="noopener noreferrer"
                    class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                   Link Externo
                   <svg class="w-4 h-4 ml-2" fill="currentColor" viewBox="0 0 20 20">

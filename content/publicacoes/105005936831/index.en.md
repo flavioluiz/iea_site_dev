@@ -1,8 +1,0 @@
----
-title: "AN IMPLICIT/EXPLICIT NUMERICAL METHOD FOR PHASE-CHANGE HEAT TRANSFER BASED ON POROUS MEDIA FORMULATION"
-date: 2025-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "105005936831"
----

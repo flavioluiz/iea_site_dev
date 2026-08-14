@@ -1,6 +1,15 @@
 {{ define "main" }}
 {{ $professorId := .Params.professor_id }}
-{{ $professorData := index .Site.Data.pessoal.profiles $professorId }}
+{{ $professorMatches := where .Site.Data.pessoal.professores.professores "id" $professorId }}
+{{ $professorData := false }}
+{{ if $professorMatches }}{{ $professorData = index $professorMatches 0 }}{{ end }}
+{{ $generatedData := index .Site.Data.generated.scopus.autores.autores $professorId }}
+{{ $metrics := dict }}
+{{ $pubs := slice }}
+{{ if $generatedData }}
+  {{ $metrics = $generatedData.metrics | default dict }}
+  {{ $pubs = $generatedData.publicacoes | default slice }}
+{{ end }}
 
 {{ if not $professorData }}
   <div class="max-w-4xl mx-auto px-4 py-8">
@@ -12,7 +21,6 @@
 {{ else }}
 
 {{/* Pre-calculate counts for summary */}}
-{{ $pubs := $professorData.publicacoes }}
 {{ $pubCount := 0 }}
 {{ if $pubs }}{{ $pubCount = len $pubs }}{{ end }}
 
@@ -21,8 +29,8 @@
 {{ $supervisionCount := 0 }}
 {{ $mestradoCount := 0 }}
 {{ $doutoradoCount := 0 }}
-{{ if .Site.Data.bdita.teses }}
-  {{ $byProfessor := .Site.Data.bdita.teses.by_professor }}
+{{ if .Site.Data.generated.biblioteca.teses }}
+  {{ $byProfessor := .Site.Data.generated.biblioteca.teses.by_professor }}
   {{ $profSupervisions = index $byProfessor $professorId }}
   {{ if $profSupervisions }}
     {{ $asAdvisor := $profSupervisions.as_advisor }}
@@ -38,7 +46,8 @@
 {{ $deptId := .Params.departamento }}
 {{ $deptData := false }}
 {{ if .Site.Data.departamentos }}
-  {{ $deptData = index .Site.Data.departamentos.departamentos $deptId }}
+  {{ $deptMatches := where .Site.Data.departamentos.departamentos "id" $deptId }}
+  {{ if $deptMatches }}{{ $deptData = index $deptMatches 0 }}{{ end }}
 {{ end }}
 {{ $deptColor := "#1e40af" }}
 {{ if $deptData }}{{ $deptColor = $deptData.cor }}{{ end }}
@@ -51,9 +60,9 @@
 
       <!-- Photo Column -->
       <div class="w-full md:w-1/4 flex-shrink-0">
-        {{ $photoPath := printf "/images/pessoal/%s" $professorData.foto }}
-        {{ if (fileExists (printf "static%s" $photoPath)) }}
-          <img src="{{ $photoPath }}"
+        {{ $photoPath := $professorData.foto }}
+        {{ if and $photoPath (fileExists (printf "static%s" $photoPath)) }}
+          <img src="{{ $photoPath | relURL }}"
                alt="{{ $professorData.nome }}"
                class="rounded-lg shadow-lg w-full object-cover object-top aspect-square">
         {{ else }}
@@ -103,7 +112,7 @@
         {{ end }}
 
         <!-- Quick Summary Links -->
-        {{ $tgsByProfHdr := index .Site.Data.bdita.tgs.by_professor $professorId }}
+        {{ $tgsByProfHdr := index .Site.Data.generated.biblioteca.tgs.by_professor $professorId }}
         {{ $tgCountHdr := 0 }}
         {{ if $tgsByProfHdr }}
           {{ $tgCountHdr = add (len ($tgsByProfHdr.as_advisor | default slice)) (len ($tgsByProfHdr.as_coadvisor | default slice)) }}
@@ -209,17 +218,17 @@
         <!-- Metrics Cards -->
         <div class="grid grid-cols-3 gap-4 mb-6">
           <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg shadow p-4 text-center">
-            <div class="text-3xl font-bold text-blue-600">{{ $professorData.metrics.h_index }}</div>
+            <div class="text-3xl font-bold text-blue-600">{{ $metrics.h_index | default 0 }}</div>
             <div class="text-sm text-gray-600 mt-1">{{ i18n "h_index" }}</div>
           </div>
 
           <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg shadow p-4 text-center">
-            <div class="text-3xl font-bold text-green-600">{{ $professorData.metrics.citacoes }}</div>
+            <div class="text-3xl font-bold text-green-600">{{ $metrics.citacoes | default 0 }}</div>
             <div class="text-sm text-gray-600 mt-1">{{ i18n "citations" }}</div>
           </div>
 
           <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg shadow p-4 text-center">
-            <div class="text-3xl font-bold text-purple-600">{{ $professorData.metrics.artigos }}</div>
+            <div class="text-3xl font-bold text-purple-600">{{ $metrics.artigos | default 0 }}</div>
             <div class="text-sm text-gray-600 mt-1">{{ i18n "articles" }}</div>
           </div>
         </div>
@@ -250,7 +259,7 @@
         {{ end }}
 
         <!-- Last Update -->
-        {{ with $professorData.metrics.ultima_atualizacao }}
+        {{ with $metrics.ultima_atualizacao }}
           <div class="mt-4 text-xs text-gray-400">
             {{ i18n "last_update" }}: {{ . }}
           </div>
@@ -387,13 +396,13 @@
       {{/* Combine and sort all supervisions by year (most recent first) */}}
       {{ $allSupervisions := slice }}
       {{ range $asAdvisor }}
-        {{ $thesisData := index $.Site.Data.bdita.teses.by_id . }}
+        {{ $thesisData := index $.Site.Data.generated.biblioteca.teses.by_id . }}
         {{ if $thesisData }}
           {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "advisor" "year" $thesisData.year) }}
         {{ end }}
       {{ end }}
       {{ range $asCoadvisor }}
-        {{ $thesisData := index $.Site.Data.bdita.teses.by_id . }}
+        {{ $thesisData := index $.Site.Data.generated.biblioteca.teses.by_id . }}
         {{ if $thesisData }}
           {{ $allSupervisions = $allSupervisions | append (dict "id" . "data" $thesisData "role" "coadvisor" "year" $thesisData.year) }}
         {{ end }}
@@ -436,7 +445,7 @@
               <div class="supervision-item {{ if ge $idx 10 }}hidden{{ end }}" data-index="{{ $idx }}">
                 <div class="border-l-4 {{ if eq (index (split $thesisData.course " ") 0) "Doutorado" }}border-purple-400{{ else }}border-green-400{{ end }} pl-4 py-2">
                   <div class="flex items-start justify-between gap-2">
-                    <a href="/{{ $.Language.Lang }}/teses/{{ $sup.id }}/"
+                    <a href="{{ printf "/teses/%s/" $sup.id | relLangURL }}"
                        class="text-blue-600 hover:text-blue-800 hover:underline font-medium flex-1">
                       {{ $thesisData.title | truncate 120 }}
                     </a>
@@ -511,7 +520,7 @@
   {{ end }}
 
   {{/* ── TGs Section ── */}}
-  {{ $tgsByProf := index .Site.Data.bdita.tgs.by_professor $professorId }}
+  {{ $tgsByProf := index .Site.Data.generated.biblioteca.tgs.by_professor $professorId }}
   {{ if $tgsByProf }}
     {{ $tgAsAdvisor   := $tgsByProf.as_advisor   | default slice }}
     {{ $tgAsCoadvisor := $tgsByProf.as_coadvisor | default slice }}
@@ -519,13 +528,13 @@
     {{ if gt $totalTgs 0 }}
       {{ $allTgs := slice }}
       {{ range $tgAsAdvisor }}
-        {{ $tgData := index $.Site.Data.bdita.tgs.by_id . }}
+        {{ $tgData := index $.Site.Data.generated.biblioteca.tgs.by_id . }}
         {{ if $tgData }}
           {{ $allTgs = $allTgs | append (dict "id" . "data" $tgData "role" "advisor" "year" ($tgData.year | default "0000")) }}
         {{ end }}
       {{ end }}
       {{ range $tgAsCoadvisor }}
-        {{ $tgData := index $.Site.Data.bdita.tgs.by_id . }}
+        {{ $tgData := index $.Site.Data.generated.biblioteca.tgs.by_id . }}
         {{ if $tgData }}
           {{ $allTgs = $allTgs | append (dict "id" . "data" $tgData "role" "coadvisor" "year" ($tgData.year | default "0000")) }}
         {{ end }}
@@ -547,7 +556,7 @@
               <div class="tg-item {{ if ge $idx 10 }}hidden{{ end }}">
                 <div class="border-l-4 border-sky-400 pl-4 py-2">
                   <div class="flex items-start justify-between gap-2">
-                    <a href="/{{ $.Language.Lang }}/tgs/{{ $tg.id }}/"
+                    <a href="{{ printf "/tgs/%s/" $tg.id | relLangURL }}"
                        class="text-blue-600 hover:text-blue-800 hover:underline font-medium flex-1">
                       {{ $tgData.title | truncate 120 }}
                     </a>

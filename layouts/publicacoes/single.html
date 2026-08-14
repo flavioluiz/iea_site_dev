@@ -11,7 +11,7 @@
 
 {{/* Load publication data from JSON */}}
 {{ $pubFile := printf "publications/by_eid/%s.json" $eid }}
-{{ $pub := index .Site.Data.publications.by_eid $eid }}
+{{ $pub := index .Site.Data.generated.scopus.publications.by_eid $eid }}
 
 {{ if not $pub }}
   <div class="max-w-4xl mx-auto px-4 py-8">
@@ -77,7 +77,7 @@
                     d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
             </svg>
             {{ if .is_eam_professor }}
-              <a href="/{{ $.Language.Lang }}/pessoal/{{ .eam_professor_id }}/"
+              <a href="{{ printf "/pessoal/%s/" .eam_professor_id | relLangURL }}"
                  class="text-blue-700 hover:text-blue-900 font-semibold hover:underline">
                 {{ .name }}
               </a>
@@ -210,14 +210,14 @@
       <p class="text-gray-600 mb-4">{{ i18n "eam_coauthors_description" }}</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {{ range $pub.eam_coauthors }}
-          {{ $profData := index $.Site.Data.pessoal.profiles . }}
+          {{ $profData := partial "get-professor.html" (dict "site" $.Site "id" .) }}
           {{ if $profData }}
-            <a href="/{{ $.Language.Lang }}/pessoal/{{ . }}/"
+            <a href="{{ relLangURL (printf "pessoal/%s/" .) }}"
                class="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg
                       hover:from-blue-100 hover:to-blue-200 transition-all border border-blue-200 group">
-              {{ $photoPath := printf "/images/pessoal/%s" $profData.foto }}
-              {{ if (fileExists (printf "static%s" $photoPath)) }}
-                <img src="{{ $photoPath }}"
+              {{ $photoPath := $profData.foto }}
+              {{ if and $photoPath (fileExists (printf "static%s" $photoPath)) }}
+                <img src="{{ $photoPath | relURL }}"
                      alt="{{ $profData.nome }}"
                      class="w-16 h-16 rounded-full object-cover border-2 border-blue-300 group-hover:border-blue-400">
               {{ else }}

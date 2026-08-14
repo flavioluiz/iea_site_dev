@@ -6,10 +6,10 @@
     <div class="prose prose-lg max-w-none text-gray-700">
       {{ .Content }}
     </div>
-    {{ $scopusMeta := .Site.Data.scopus.fetch_metadata }}
+    {{ $scopusMeta := .Site.Data.generated.scopus.manifest }}
     {{ $scopusLastRun := "" }}
     {{ if $scopusMeta }}
-      {{ $scopusLastRun = or $scopusMeta.last_successful_run $scopusMeta.last_run }}
+      {{ $scopusLastRun = or $scopusMeta.last_complete_run $scopusMeta.generated_at }}
     {{ end }}
     {{ if $scopusLastRun }}
       <div class="mt-4 inline-flex items-center rounded-lg bg-blue-50 px-4 py-2 text-sm text-blue-900 border border-blue-200">
@@ -23,11 +23,13 @@
   </div>
 
   {{/* Aggregate publications from IEA faculty only */}}
-  {{ $ieaSlugs := .Site.Data.pessoal.iea_profiles.slugs }}
+  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
   {{ $allPublications := slice }}
-  {{ range $profId := $ieaSlugs }}
-  {{ $profData := index $.Site.Data.pessoal.profiles $profId }}
-    {{ $publications := $profData.publicacoes }}
+  {{ range $profData := $professoresAtivos }}
+    {{ $profId := $profData.id }}
+    {{ $generatedAuthor := index $.Site.Data.generated.scopus.autores.autores $profId }}
+    {{ $publications := slice }}
+    {{ if $generatedAuthor }}{{ $publications = $generatedAuthor.publicacoes | default slice }}{{ end }}
     {{ range $publications }}
       {{/* Resolve publication reference to full data */}}
       {{ $pubRef := . }}
@@ -39,7 +41,7 @@
         {{/* Extract just the numeric part: 2-s2.0-85210484189 -> 85210484189 */}}
         {{ $eidParts := split $eid "-" }}
         {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
-        {{ $pub = index $.Site.Data.publications.by_eid $eidNumeric }}
+        {{ $pub = index $.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
 
         {{ if $pub }}
           {{/* Filter by year based on page parameters */}}

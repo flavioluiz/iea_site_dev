@@ -24,7 +24,7 @@ outputs:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
   highlight:
     style: monokai
     lineNos: true

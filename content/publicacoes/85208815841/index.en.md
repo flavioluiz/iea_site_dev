@@ -1,8 +1,0 @@
----
-title: "A SYSTEMATIC REVIEW OF HUMAN FACTORS AND AI INFLUENCING OPERATOR PERFORMANCE IN MUM-T ENVIRONMENTS"
-date: 2024-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85208815841"
----

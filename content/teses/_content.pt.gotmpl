@@ -1,0 +1,5 @@
+{{ range $id, $thesis := .Site.Data.generated.biblioteca.teses.by_id }}
+  {{ $params := dict "tese_id" $id "type" "teses" "layout" "single" }}
+  {{ $page := dict "kind" "page" "path" $id "title" $thesis.title "params" $params }}
+  {{ $.AddPage $page }}
+{{ end }}

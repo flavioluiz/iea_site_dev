@@ -1,7 +1,10 @@
 {{ define "main" }}
 {{ $lang := .Language.Lang }}
-{{ $index := .Site.Data.bdita.teses.lista }}
-{{ $stats := .Site.Data.bdita.teses.statistics }}
+{{ $index := .Site.Data.generated.biblioteca.teses.lista }}
+{{ $stats := .Site.Data.generated.biblioteca.teses.statistics }}
+{{ $manifest := .Site.Data.generated.biblioteca.manifest }}
+{{ $lastRun := "" }}
+{{ if $manifest }}{{ $lastRun = or $manifest.last_complete_run $manifest.generated_at }}{{ end }}
 
 <div class="max-w-7xl mx-auto">
 
@@ -23,6 +26,12 @@
         <strong>{{ $stats.mestrado }}</strong> {{ if eq $lang "pt" }}dissertações de mestrado{{ else }}master's dissertations{{ end }}
       </span>
     </div>
+    {{ end }}
+    {{ if $lastRun }}
+    <p class="mt-3 text-xs text-gray-500">
+      {{ if eq $lang "pt" }}Dados da Biblioteca atualizados em{{ else }}Library data last updated on{{ end }}:
+      <time datetime="{{ $lastRun }}">{{ dateFormat "02/01/2006 15:04" $lastRun }}</time>
+    </p>
     {{ end }}
   </div>
 
@@ -73,6 +82,7 @@
   // lista.json already contains only IEA-supervised theses
   const index = JSON.parse({{ $index | jsonify }});
   const lang = "{{ $lang }}";
+  const peopleBase = {{ "/pessoal/" | relLangURL | jsonify }};
 
   const searchEl = document.getElementById("tese-search");
   const typeEl   = document.getElementById("tese-type");
@@ -95,6 +105,12 @@
 
   function normalize(s) {
     return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, character => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    })[character]);
   }
 
   function render() {
@@ -125,10 +141,11 @@
 
     filtered.slice(0, 200).forEach(t => {
       const advisorHtml = (t.ad || []).map((name, i) => {
-        const slug = (t.ap || [])[i];
+        const candidate = String((t.ap || [])[i] || "");
+        const slug = /^[a-z0-9-]+$/.test(candidate) ? candidate : "";
         return slug
-          ? `<a href="/${lang}/pessoal/${slug}/" class="text-blue-700 hover:underline">${name}</a>`
-          : `<span>${name}</span>`;
+          ? `<a href="${peopleBase}${slug}/" class="text-blue-700 hover:underline">${escapeHtml(name)}</a>`
+          : `<span>${escapeHtml(name)}</span>`;
       }).join("; ");
 
       const el = document.createElement("div");
@@ -138,14 +155,14 @@
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2 mb-1">
               ${typeBadge(t.c)}
-              <span class="text-xs text-gray-400">${t.y || ""}</span>
+              <span class="text-xs text-gray-400">${escapeHtml(t.y)}</span>
             </div>
-            <h3 class="text-sm font-semibold text-gray-900 leading-snug mb-1">${t.t || ""}</h3>
-            <p class="text-xs text-gray-500">${t.a || ""}</p>
+            <h3 class="text-sm font-semibold text-gray-900 leading-snug mb-1">${escapeHtml(t.t)}</h3>
+            <p class="text-xs text-gray-500">${escapeHtml(t.a)}</p>
             ${advisorHtml ? `<p class="text-xs text-gray-500 mt-1">${lang === "pt" ? "Orient." : "Adv."}: ${advisorHtml}</p>` : ""}
           </div>
-          <a href="http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=${t.id}"
-             target="_blank" rel="noopener"
+          <a href="http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=${encodeURIComponent(String(t.id || ""))}"
+             target="_blank" rel="noopener noreferrer"
              class="flex-shrink-0 text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1 mt-1">
             BDITA
             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>

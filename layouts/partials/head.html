@@ -3,7 +3,9 @@
 <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 <meta name="keywords" content="pós-graduação, engenharia aeronáutica, engenharia mecânica, ITA, mestrado, doutorado, aeroespacial">
 <meta name="author" content="{{ .Site.Params.organization }}">
-{{ if .Site.Params.temporary_noindex }}
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+{{ if or .Site.Params.temporary_noindex (and (eq .Type "pessoal") (isset .Params "ativo") (not .Params.ativo)) }}
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="googlebot" content="noindex, nofollow, noarchive">
 {{ end }}
@@ -13,7 +15,7 @@
 <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ printf "%s%s" .Site.BaseURL .Site.Params.logo | relURL }}">
+<meta property="og:image" content="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang }}">
 
 <!-- Twitter Card -->
@@ -30,9 +32,9 @@
 {{ end }}
 
 <!-- Favicon -->
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-<link rel="icon" type="image/x-icon" href="{{ .Site.Params.favicon }}">
-<link rel="apple-touch-icon" href="/images/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="{{ "/images/favicon.svg" | relURL }}">
+<link rel="icon" type="image/x-icon" href="{{ .Site.Params.favicon | relURL }}">
+<link rel="apple-touch-icon" href="{{ "/images/favicon.svg" | relURL }}">
 
 <title>{{ .Title }} | {{ .Site.Title }}</title>
 
@@ -425,7 +427,7 @@
   "@type": "EducationalOrganization",
   "name": "{{ .Site.Title }}",
   "url": "{{ .Site.BaseURL }}",
-  "logo": "{{ printf "%s%s" .Site.BaseURL .Site.Params.logo | relURL }}",
+  "logo": "{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}",
   "description": "{{ .Site.Params.description }}",
   "address": {
     "@type": "PostalAddress",

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.aer.ita.br/schemas/generated-biblioteca.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "records"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "tipo", "titulo", "url_fonte"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "tipo": { "enum": ["tese", "dissertacao", "tg"] },
+          "titulo": { "type": "string", "minLength": 1 },
+          "url_fonte": { "type": "string", "format": "uri", "pattern": "^https?://" }
+        }
+      }
+    }
+  }
+}

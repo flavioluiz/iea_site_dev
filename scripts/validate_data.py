@@ -1,0 +1,375 @@
+#!/usr/bin/env python3
+"""Validate editorial data, cross-references, uploads, and bulk changes."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import subprocess
+import sys
+import unicodedata
+from pathlib import Path
+from typing import Any, Iterable
+from urllib.parse import urlparse
+
+import yaml
+from jsonschema import Draft202012Validator, FormatChecker
+from PIL import Image, UnidentifiedImageError
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SAFE_SCHEMES = {"http", "https", "mailto"}
+IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+IMAGE_FORMATS = {"JPEG", "PNG", "WEBP"}
+MAX_IMAGE_BYTES = 2 * 1024 * 1024
+MIN_IMAGE_DIMENSION = 80
+MAX_IMAGE_DIMENSION = 4096
+MAX_DOCUMENT_BYTES = 10 * 1024 * 1024
+EDITORIAL_SCHEMAS = {
+    "data/departamentos.json": "schemas/departamentos.schema.json",
+    "data/laboratorios.json": "schemas/laboratorios.schema.json",
+    "data/projetos.json": "schemas/projetos.schema.json",
+    "data/linhas_pesquisa.json": "schemas/linhas-pesquisa.schema.json",
+    "data/documentos.json": "schemas/documentos.schema.json",
+}
+
+
+class Problems:
+    def __init__(self) -> None:
+        self.items: list[str] = []
+
+    def add(self, message: str) -> None:
+        self.items.append(message)
+
+    def extend(self, messages: Iterable[str]) -> None:
+        self.items.extend(messages)
+
+    def finish(self) -> int:
+        if self.items:
+            print("Validation failed:", file=sys.stderr)
+            for item in self.items:
+                print(f"- {item}", file=sys.stderr)
+            return 1
+        print("Data validation passed.")
+        return 0
+
+
+def load_json(path: Path) -> Any:
+    with path.open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def load_yaml(path: Path) -> Any:
+    with path.open(encoding="utf-8") as handle:
+        return yaml.safe_load(handle)
+
+
+def parse_all_data(problems: Problems) -> None:
+    paths = sorted((ROOT / "data").rglob("*.json")) + sorted((ROOT / "data").rglob("*.yaml"))
+    paths += sorted((ROOT / "config").rglob("*.yaml"))
+    for path in paths:
+        try:
+            load_json(path) if path.suffix == ".json" else load_yaml(path)
+        except Exception as exc:  # noqa: BLE001 - report parser context uniformly
+            problems.add(f"{path.relative_to(ROOT)}: arquivo inválido ({exc})")
+
+
+def validate_editorial_schemas(problems: Problems) -> None:
+    for data_path, schema_path in EDITORIAL_SCHEMAS.items():
+        problems.extend(schema_errors(ROOT / data_path, ROOT / schema_path))
+
+
+def schema_errors(data_path: Path, schema_path: Path) -> list[str]:
+    schema = load_json(schema_path)
+    data = load_json(data_path)
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    errors = []
+    for error in sorted(validator.iter_errors(data), key=lambda item: list(item.absolute_path)):
+        location = "/".join(str(part) for part in error.absolute_path) or "<raiz>"
+        errors.append(f"{data_path.relative_to(ROOT)}:{location}: {error.message}")
+    return errors
+
+
+def iter_strings(value: Any, path: str = "") -> Iterable[tuple[str, str]]:
+    if isinstance(value, str):
+        yield path, value
+    elif isinstance(value, dict):
+        for key, child in value.items():
+            yield from iter_strings(child, f"{path}/{key}")
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            yield from iter_strings(child, f"{path}/{index}")
+
+
+def valid_orcid(value: str) -> bool:
+    match = re.search(r"(?:orcid\.org/)?(\d{4}-\d{4}-\d{4}-\d{3}[\dX])$", value, re.IGNORECASE)
+    if not match:
+        return False
+    compact = match.group(1).replace("-", "").upper()
+    total = 0
+    for character in compact[:15]:
+        total = (total + int(character)) * 2
+    remainder = (12 - (total % 11)) % 11
+    expected = "X" if remainder == 10 else str(remainder)
+    return compact[-1] == expected
+
+
+def validate_professors(problems: Problems) -> tuple[dict[str, dict[str, Any]], set[str]]:
+    canonical_path = ROOT / "data" / "pessoal" / "professores.json"
+    problems.extend(schema_errors(canonical_path, ROOT / "schemas" / "professores.schema.json"))
+    data = load_json(canonical_path)
+    professors = data["professores"]
+    by_id: dict[str, dict[str, Any]] = {}
+    scopus_owners: dict[str, str] = {}
+    department_records = load_json(ROOT / "data" / "departamentos.json")["departamentos"]
+    departments = {item["id"] for item in department_records}
+
+    for index, professor in enumerate(professors):
+        professor_id = professor.get("id", f"<índice-{index}>")
+        if professor_id in by_id:
+            problems.add(f"ID de pessoa duplicado: {professor_id}")
+        by_id[professor_id] = professor
+        if professor.get("ativo") and professor.get("departamento") not in departments:
+            problems.add(f"{professor_id}: pessoa ativa sem departamento válido")
+        if professor.get("ativo") and not professor.get("categoria"):
+            problems.add(f"{professor_id}: pessoa ativa sem categoria")
+
+        for scopus_id in professor.get("scopus_author_ids", []):
+            previous = scopus_owners.get(scopus_id)
+            if previous and previous != professor_id:
+                problems.add(f"Scopus Author ID {scopus_id} usado por {previous} e {professor_id}")
+            scopus_owners[scopus_id] = professor_id
+
+        orcid = professor.get("links", {}).get("orcid", "")
+        if orcid and not valid_orcid(orcid):
+            problems.add(f"{professor_id}: ORCID inválido ({orcid})")
+
+        for location, value in iter_strings(professor):
+            lowered = value.strip().lower()
+            if lowered.startswith(("javascript:", "data:", "vbscript:")):
+                problems.add(f"{professor_id}{location}: protocolo de URL proibido")
+            if "/links/" in location and value:
+                parsed = urlparse(value)
+                if parsed.scheme not in SAFE_SCHEMES:
+                    problems.add(f"{professor_id}{location}: protocolo não permitido")
+
+        photo = professor.get("foto")
+        if photo:
+            validate_image(ROOT / "static" / photo.lstrip("/"), professor_id, problems)
+
+    return by_id, departments
+
+
+def validate_image(path: Path, owner: str, problems: Problems) -> None:
+    relative = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
+    if not path.is_file():
+        problems.add(f"{owner}: imagem referenciada não existe: {relative}")
+        return
+    if path.suffix.lower() not in IMAGE_EXTENSIONS:
+        problems.add(f"{relative}: extensão de imagem proibida")
+    if path.stat().st_size > MAX_IMAGE_BYTES:
+        problems.add(f"{relative}: imagem excede 2 MB")
+    if not re.fullmatch(r"[a-z0-9][a-z0-9._-]*", path.name):
+        problems.add(f"{relative}: nome de imagem deve usar somente minúsculas ASCII, números, ponto, _ e -")
+    try:
+        with Image.open(path) as image:
+            image.verify()
+        with Image.open(path) as image:
+            if image.format not in IMAGE_FORMATS:
+                problems.add(f"{relative}: conteúdo real não é JPEG, PNG ou WebP")
+            width, height = image.size
+            if min(width, height) < MIN_IMAGE_DIMENSION:
+                problems.add(f"{relative}: dimensão mínima é {MIN_IMAGE_DIMENSION}px (atual {width}x{height})")
+            if max(width, height) > MAX_IMAGE_DIMENSION:
+                problems.add(f"{relative}: dimensão máxima é {MAX_IMAGE_DIMENSION}px (atual {width}x{height})")
+    except (UnidentifiedImageError, OSError) as exc:
+        problems.add(f"{relative}: assinatura/conteúdo de imagem inválido ({exc})")
+
+
+def normalized_name(value: str) -> str:
+    decomposed = unicodedata.normalize("NFKD", value)
+    ascii_value = decomposed.encode("ascii", "ignore").decode("ascii")
+    return " ".join(ascii_value.casefold().split())
+
+
+def validate_document(path: Path, owner: str, problems: Problems) -> None:
+    relative = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
+    if not path.is_file():
+        problems.add(f"{owner}: documento referenciado não existe: {relative}")
+        return
+    if path.suffix.lower() != ".pdf":
+        problems.add(f"{relative}: somente PDF é permitido nesta coleção")
+    if path.stat().st_size > MAX_DOCUMENT_BYTES:
+        problems.add(f"{relative}: documento excede 10 MB")
+    try:
+        signature = path.read_bytes()[:5]
+    except OSError as exc:
+        problems.add(f"{relative}: não foi possível ler o documento ({exc})")
+        return
+    if signature != b"%PDF-":
+        problems.add(f"{relative}: conteúdo real não é PDF")
+
+
+def validate_cross_references(
+    professors: dict[str, dict[str, Any]], departments: set[str], problems: Problems
+) -> None:
+    aliases_path = ROOT / "data" / "pessoal" / "aliases_biblioteca.json"
+    problems.extend(schema_errors(aliases_path, ROOT / "schemas" / "aliases-biblioteca.schema.json"))
+    aliases = load_json(aliases_path)["aliases"]
+    alias_names: set[str] = set()
+    for alias in aliases:
+        normalized = " ".join(alias["nome_fonte"].casefold().split())
+        if normalized in alias_names:
+            problems.add(f"Alias da biblioteca duplicado: {alias['nome_fonte']}")
+        alias_names.add(normalized)
+        if alias["professor_id"] not in professors:
+            problems.add(f"Alias aponta para pessoa inexistente: {alias['professor_id']}")
+
+    generated_path = ROOT / "data" / "generated" / "scopus" / "autores.json"
+    problems.extend(schema_errors(generated_path, ROOT / "schemas" / "generated-scopus.schema.json"))
+    generated = load_json(generated_path)["autores"]
+    unknown = set(generated) - set(professors)
+    if unknown:
+        problems.add(f"Scopus contém IDs ausentes do cadastro: {', '.join(sorted(unknown))}")
+    for professor_id, author in generated.items():
+        disallowed_metadata = set(author.get("metadata", {})) - {"link_scopus", "source", "updated_at"}
+        if disallowed_metadata:
+            problems.add(
+                f"Scopus {professor_id}: metadados não aprovados na saída pública: "
+                + ", ".join(sorted(disallowed_metadata))
+            )
+
+    publications_dir = ROOT / "data" / "generated" / "scopus" / "publications" / "by_eid"
+    forbidden_scopus_fields = {"abstract", "authkeywords", "email"}
+    publication_schema = load_json(ROOT / "schemas" / "generated-scopus-publication.schema.json")
+    publication_validator = Draft202012Validator(publication_schema, format_checker=FormatChecker())
+    for publication_path in publications_dir.glob("*.json"):
+        publication = load_json(publication_path)
+        for error in publication_validator.iter_errors(publication):
+            location = "/".join(str(part) for part in error.absolute_path) or "<raiz>"
+            problems.add(f"{publication_path.relative_to(ROOT)}:{location}: {error.message}")
+        present = forbidden_scopus_fields.intersection(publication)
+        if present:
+            problems.add(
+                f"{publication_path.relative_to(ROOT)}: campos Scopus proibidos na saída pública: "
+                + ", ".join(sorted(present))
+            )
+        if publication.get("scopus", {}).get("subject_areas"):
+            problems.add(f"{publication_path.relative_to(ROOT)}: vocabulário controlado Scopus não aprovado")
+        if any(author.get("affiliation") for author in publication.get("authors", [])):
+            problems.add(f"{publication_path.relative_to(ROOT)}: afiliações brutas Scopus não aprovadas")
+
+    for manifest_path in (
+        ROOT / "data" / "generated" / "scopus" / "manifest.json",
+        ROOT / "data" / "generated" / "biblioteca" / "manifest.json",
+    ):
+        problems.extend(schema_errors(manifest_path, ROOT / "schemas" / "generated-manifest.schema.json"))
+    library_catalog = ROOT / "data" / "generated" / "biblioteca" / "catalogo.json"
+    if library_catalog.exists():
+        problems.extend(schema_errors(library_catalog, ROOT / "schemas" / "generated-biblioteca.schema.json"))
+
+    laboratories = load_json(ROOT / "data" / "laboratorios.json").get("laboratorios", [])
+    laboratory_ids: set[str] = set()
+    for laboratory in laboratories:
+        laboratory_id = laboratory.get("id", "<sem-id>")
+        if laboratory_id in laboratory_ids:
+            problems.add(f"Laboratório duplicado: {laboratory_id}")
+        laboratory_ids.add(laboratory_id)
+        department = laboratory.get("departamento")
+        if department and department not in departments:
+            problems.add(f"Laboratório {laboratory_id}: departamento inexistente {department}")
+        for image in laboratory.get("imagens", []):
+            validate_image(ROOT / "static" / image.lstrip("/"), laboratory_id, problems)
+
+    department_records = load_json(ROOT / "data" / "departamentos.json")["departamentos"]
+    for department in department_records:
+        for laboratory_id in department.get("laboratorios", []):
+            if laboratory_id not in laboratory_ids:
+                problems.add(f"Departamento {department['id']}: laboratório inexistente {laboratory_id}")
+
+    for collection_path, collection_key in (
+        ("data/departamentos.json", "departamentos"),
+        ("data/laboratorios.json", "laboratorios"),
+        ("data/projetos.json", "projetos"),
+        ("data/linhas_pesquisa.json", "linhas"),
+    ):
+        identifiers: set[str] = set()
+        for item in load_json(ROOT / collection_path)[collection_key]:
+            identifier = item["id"]
+            if identifier in identifiers:
+                problems.add(f"{collection_path}: ID duplicado: {identifier}")
+            identifiers.add(identifier)
+
+    professor_names = {normalized_name(item["nome"]) for item in professors.values()}
+    for project in load_json(ROOT / "data" / "projetos.json")["projetos"]:
+        department = project.get("departamento")
+        if department and department not in departments:
+            problems.add(f"Projeto {project['id']}: departamento inexistente {department}")
+        for professor_name in project.get("docentes_iea", []):
+            if normalized_name(professor_name) not in professor_names:
+                problems.add(
+                    f"Projeto {project['id']}: pessoa IEA não encontrada no cadastro: {professor_name}"
+                )
+
+    categories = load_json(ROOT / "data" / "documentos.json")["categorias"]
+    category_ids: set[str] = set()
+    for category in categories:
+        if category["id"] in category_ids:
+            problems.add(f"Categoria de documentos duplicada: {category['id']}")
+        category_ids.add(category["id"])
+        for document in category["documentos"]:
+            if document.get("arquivo"):
+                validate_document(ROOT / "static" / document["arquivo"].lstrip("/"), category["id"], problems)
+
+
+def changed_professor_ids(base_ref: str, current: dict[str, dict[str, Any]], problems: Problems) -> set[str]:
+    command = ["git", "show", f"{base_ref}:data/pessoal/professores.json"]
+    result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, check=False)
+    if result.returncode != 0:
+        # The first canonical-data migration legitimately has no base file.
+        # Treat every current record as changed so the bulk-reviewed gate still applies.
+        return set(current)
+    try:
+        base_data = json.loads(result.stdout)
+    except json.JSONDecodeError as exc:
+        problems.add(f"cadastro base inválido em {base_ref}: {exc}")
+        return set()
+    base = {item["id"]: item for item in base_data["professores"]}
+    return {professor_id for professor_id in set(base) | set(current) if base.get(professor_id) != current.get(professor_id)}
+
+
+def enforce_bulk_review(
+    base_ref: str | None,
+    labels: set[str],
+    professors: dict[str, dict[str, Any]],
+    problems: Problems,
+) -> None:
+    if not base_ref:
+        return
+    changed = changed_professor_ids(base_ref, professors, problems)
+    print(f"Professores alterados em relação a {base_ref}: {len(changed)}")
+    if len(changed) > 10 and "bulk-reviewed" not in labels:
+        problems.add(
+            f"mudança em massa altera {len(changed)} pessoas; um mantenedor deve aplicar o label bulk-reviewed"
+        )
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base-ref", help="Git ref used to enforce the bulk-reviewed gate")
+    parser.add_argument("--labels", default="", help="Comma-separated pull request labels")
+    args = parser.parse_args()
+
+    problems = Problems()
+    parse_all_data(problems)
+    validate_editorial_schemas(problems)
+    professors, departments = validate_professors(problems)
+    validate_cross_references(professors, departments, problems)
+    labels = {label.strip() for label in args.labels.split(",") if label.strip()}
+    enforce_bulk_review(args.base_ref, labels, professors, problems)
+    return problems.finish()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

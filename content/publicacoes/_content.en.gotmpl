@@ -1,0 +1,5 @@
+{{ range $id, $publication := .Site.Data.generated.scopus.publications.by_eid }}
+  {{ $params := dict "eid" $id "type" "publicacoes" "layout" "single" }}
+  {{ $page := dict "kind" "page" "path" $id "title" $publication.title "params" $params }}
+  {{ $.AddPage $page }}
+{{ end }}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "linhas"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "linhas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "nome_pt", "nome_en", "tema", "cor", "icon", "descricao_pt", "descricao_en", "keywords", "subject_areas"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "nome_pt": { "type": "string", "minLength": 2 },
+          "nome_en": { "type": "string", "minLength": 2 },
+          "tema": { "enum": ["aeronautica", "espacial", "ambos"] },
+          "cor": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "icon": { "type": "string" },
+          "descricao_pt": { "type": "string" },
+          "descricao_en": { "type": "string" },
+          "keywords": { "$ref": "#/$defs/strings" },
+          "subject_areas": { "$ref": "#/$defs/strings" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "strings": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+  }
+}

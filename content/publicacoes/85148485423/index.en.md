@@ -1,8 +1,0 @@
----
-title: "FLAME PROPAGATION ANALYSIS OF ANHYDROUS AND HYDROUS ETHANOL IN AN OPTICAL SPARK IGNITION ENGINE"
-date: 2022-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85148485423"
----

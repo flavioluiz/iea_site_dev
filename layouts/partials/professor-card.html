@@ -4,12 +4,12 @@
 {{ $profId := $prof.id }}
 
 <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-200">
-  <a href="/{{ $page.Language.Lang }}/pessoal/{{ $profId }}/" class="block">
+  <a href="{{ printf "/pessoal/%s/" $profId | relLangURL }}" class="block">
     {{/* Photo Section */}}
     <div class="relative bg-gradient-to-br from-gray-100 to-gray-200 aspect-square">
-      {{ $photoPath := printf "/images/pessoal/%s" $prof.foto }}
+      {{ $photoPath := $prof.foto }}
       {{ if (fileExists (printf "static%s" $photoPath)) }}
-        <img src="{{ $photoPath }}"
+        <img src="{{ $photoPath | relURL }}"
              alt="{{ $prof.nome }}"
              class="w-full h-full object-cover object-top">
       {{ else }}

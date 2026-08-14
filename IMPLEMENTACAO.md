@@ -1,5 +1,10 @@
 # Plano de Implementação — Site da Divisão de Engenharia Aeronáutica e Aeroespacial (AER/ITA)
 
+> **Nota histórica:** este documento registra a concepção inicial do site e
+> menciona o template PG-EAM que lhe deu origem. Para a arquitetura atual de
+> conteúdo, CMS e publicação, use o [README](README.md) e o
+> [checklist de ativação](docs/operations/activation-checklist.md).
+
 > **Status:** Em andamento
 > **Base:** Fork do site PGEAM (`pgeam_dev`) — Hugo + Tailwind CSS
 > **Repositório:** `aer_dev`

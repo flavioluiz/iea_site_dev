@@ -1,0 +1,30 @@
+{{ $category := .category }}
+{{ $page := .page }}
+<section class="bg-white rounded-lg shadow-md p-6 mb-6" aria-labelledby="document-category-{{ $category.id }}">
+  <h2 id="document-category-{{ $category.id }}" class="text-2xl font-bold mb-2 text-gray-900">
+    {{ if eq $page.Language.Lang "pt" }}{{ $category.nome_pt }}{{ else }}{{ $category.nome_en | default $category.nome_pt }}{{ end }}
+  </h2>
+  <p class="text-gray-600 mb-5">
+    {{ if eq $page.Language.Lang "pt" }}{{ $category.descricao_pt }}{{ else }}{{ $category.descricao_en | default $category.descricao_pt }}{{ end }}
+  </p>
+  {{ if $category.documentos }}
+    <ul class="space-y-3">
+      {{ range $category.documentos }}
+        <li class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-lg border border-gray-200">
+          <div>
+            <h3 class="font-medium text-gray-900">{{ if eq $page.Language.Lang "pt" }}{{ .nome_pt }}{{ else }}{{ .nome_en | default .nome_pt }}{{ end }}</h3>
+            {{ with (cond (eq $page.Language.Lang "pt") .descricao_pt (.descricao_en | default .descricao_pt)) }}<p class="text-sm text-gray-600 mt-1">{{ . }}</p>{{ end }}
+            {{ with .data }}<p class="text-xs text-gray-500 mt-1">{{ time.Format "02/01/2006" . }}</p>{{ end }}
+          </div>
+          {{ if .arquivo }}
+            <a href="{{ .arquivo | relURL }}" class="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 text-center" download>Download</a>
+          {{ else if .link_externo }}
+            <a href="{{ .link_externo }}" class="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 text-center" target="_blank" rel="noopener noreferrer">Abrir</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p class="text-gray-500 italic">{{ if eq $page.Language.Lang "pt" }}Nenhum arquivo publicado nesta categoria.{{ else }}No files published in this category.{{ end }}</p>
+  {{ end }}
+</section>

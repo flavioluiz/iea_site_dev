@@ -1,0 +1,5 @@
+{{ range .Site.Data.pessoal.professores.professores }}
+  {{ $params := dict "professor_id" .id "departamento" .departamento "ativo" .ativo "type" "pessoal" }}
+  {{ $page := dict "kind" "page" "path" .id "title" .nome "params" $params }}
+  {{ $.AddPage $page }}
+{{ end }}

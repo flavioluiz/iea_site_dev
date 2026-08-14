@@ -1,10 +1,6 @@
-import pybliometrics
+from scopus_env import configure_pybliometrics
 
-# inicialização programática (não precisa nem de arquivo de config)
-pybliometrics.init(
-    keys=["e8917d664a72244e7ed90ce9e5ecc082"],       # lista, pode ter mais de uma
-    inst_tokens=[None],              # ou ["SEU_INST_TOKEN"] se tiver
-)
+configure_pybliometrics()
 
 import json
 from pybliometrics.scopus import AuthorRetrieval, AbstractRetrieval

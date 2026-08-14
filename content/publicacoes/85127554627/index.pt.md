@@ -1,8 +1,0 @@
----
-title: "PERFORMANCE ANALYSIS OF A SWIRL INJECTOR WITH POLYURETHANE BINDER AND PARAFFIN AS ADDITIVE"
-date: 2021-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85127554627"
----

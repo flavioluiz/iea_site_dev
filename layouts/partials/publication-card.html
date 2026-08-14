@@ -10,7 +10,7 @@
   {{/* Extract just the numeric part: 2-s2.0-85210484189 -> 85210484189 */}}
   {{ $eidParts := split $eid "-" }}
   {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
-  {{ $pub = index $page.Site.Data.publications.by_eid $eidNumeric }}
+  {{ $pub = index $page.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
 {{ end }}
 
 {{ if not $pub }}
@@ -67,7 +67,7 @@
   <h3 class="text-lg font-semibold text-gray-900 mb-2 leading-tight">
     {{ $eidParts := split $pub.eid "-" }}
     {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
-    <a href="/{{ $page.Language.Lang }}/publicacoes/{{ $eidNumeric }}/"
+    <a href="{{ printf "/publicacoes/%s/" $eidNumeric | relLangURL }}"
        class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">
       {{ $pub.title }}
     </a>
@@ -79,7 +79,7 @@
       {{ range $index, $author := . }}
         {{ if $index }}, {{ end }}
         {{ if $author.is_eam_professor }}
-          <a href="/{{ $page.Language.Lang }}/pessoal/{{ $author.eam_professor_id }}/"
+          <a href="{{ printf "/pessoal/%s/" $author.eam_professor_id | relLangURL }}"
              class="text-blue-600 hover:text-blue-800 hover:underline font-medium">
             {{ $author.name }}
           </a>
@@ -166,7 +166,7 @@
       </svg>
       <strong>{{ i18n "author" }}:</strong>
       {{ if $pubRef.professor_id }}
-        <a href="/{{ $page.Language.Lang }}/pessoal/{{ $pubRef.professor_id }}/"
+        <a href="{{ printf "/pessoal/%s/" $pubRef.professor_id | relLangURL }}"
            class="text-blue-600 hover:text-blue-800 hover:underline">
           {{ . }}
         </a>

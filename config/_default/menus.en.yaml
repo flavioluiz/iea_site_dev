@@ -168,4 +168,9 @@ main:
   - identifier: "contato"
     name: "Contact"
     url: "/contato/"
+    weight: 9
+
+  - identifier: "documentos"
+    name: "Schedules & documents"
+    url: "/documentos/"
     weight: 8

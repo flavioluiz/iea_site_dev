@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["publication_id", "eid", "doi", "pii", "pubmed_id", "title", "year", "date", "type", "subtype", "journal", "authors", "eam_coauthors", "scopus", "metadata"],
+  "properties": {
+    "publication_id": { "type": "string", "pattern": "^2-s2\\.0-[0-9]+$" },
+    "eid": { "type": "string", "pattern": "^2-s2\\.0-[0-9]+$" },
+    "doi": { "$ref": "#/$defs/nullableString" },
+    "pii": { "$ref": "#/$defs/nullableString" },
+    "pubmed_id": { "$ref": "#/$defs/nullableString" },
+    "title": { "type": "string", "minLength": 1 },
+    "year": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "date": { "type": "string" },
+    "type": { "type": "string", "minLength": 1 },
+    "subtype": { "type": "string" },
+    "journal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "issn", "eissn", "volume", "issue", "pages", "article_number"],
+      "properties": {
+        "name": { "$ref": "#/$defs/nullableString" },
+        "issn": { "$ref": "#/$defs/nullableString" },
+        "eissn": { "$ref": "#/$defs/nullableString" },
+        "volume": { "$ref": "#/$defs/nullableString" },
+        "issue": { "$ref": "#/$defs/nullableString" },
+        "pages": { "$ref": "#/$defs/nullableString" },
+        "article_number": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "scopus_id", "affiliation", "is_eam_professor", "eam_professor_id"],
+        "properties": {
+          "name": { "type": "string" },
+          "scopus_id": { "$ref": "#/$defs/nullableString" },
+          "affiliation": { "$ref": "#/$defs/nullableString" },
+          "is_eam_professor": { "type": "boolean" },
+          "eam_professor_id": { "$ref": "#/$defs/nullableString" }
+        }
+      }
+    },
+    "eam_coauthors": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }, "uniqueItems": true },
+    "scopus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["citations", "references_count", "scopus_link"],
+      "properties": {
+        "citations": { "type": "integer", "minimum": 0 },
+        "references_count": { "type": ["integer", "null"], "minimum": 0 },
+        "scopus_link": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "last_updated", "data_quality_score"],
+      "properties": {
+        "source": { "const": "scopus" },
+        "last_updated": { "type": "string" },
+        "data_quality_score": { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    }
+  },
+  "$defs": { "nullableString": { "type": ["string", "null"] } }
+}

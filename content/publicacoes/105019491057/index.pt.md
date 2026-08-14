@@ -1,8 +1,0 @@
----
-title: "SURROGATE MODELING OF HIGHLY FLEXIBLE STRUCTURES AND AERODYNAMICS USING NEURAL NETWORKS"
-date: 2024-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "105019491057"
----

@@ -1,0 +1,4 @@
+{{ $matches := where .site.Data.pessoal.professores.professores "id" .id }}
+{{ $result := false }}
+{{ if $matches }}{{ $result = index $matches 0 }}{{ end }}
+{{ return $result }}

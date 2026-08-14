@@ -5,7 +5,7 @@
       <!-- Logo and title -->
       <div class="flex items-center space-x-2 min-w-0 flex-1">
         <a href="{{ relLangURL "/" }}" class="flex-shrink-0">
-          <img src="{{ printf "%s%s" .Site.BaseURL .Site.Params.logo | relURL }}"
+          <img src="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}"
                alt="{{ .Site.Title }}"
                class="h-10 sm:h-14 md:h-16 lg:h-20 w-auto object-contain">
         </a>

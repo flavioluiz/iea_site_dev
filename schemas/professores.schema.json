@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.aer.ita.br/schemas/professores.schema.json",
+  "title": "Cadastro canônico de pessoal da IEA",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "professores"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "professores": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/professor" }
+    }
+  },
+  "$defs": {
+    "optionalUri": {
+      "anyOf": [
+        { "const": "" },
+        { "type": "string", "format": "uri", "pattern": "^https?://" }
+      ]
+    },
+    "localizedLists": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pt", "en"],
+      "properties": {
+        "pt": { "type": "array", "items": { "type": "string" } },
+        "en": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pt", "en"],
+      "properties": {
+        "pt": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "professor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "nome", "nome_destaque", "ativo", "departamento", "categoria",
+        "posto", "cargos", "chefe_departamento", "foto", "email", "links",
+        "scopus_author_ids", "linhas_pesquisa", "resumo", "formacao_academica",
+        "premios_titulos", "idiomas", "bolsista_cnpq", "fonte", "verificado_em"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "nome": { "type": "string", "minLength": 2 },
+        "nome_destaque": { "type": "string" },
+        "ativo": { "type": "boolean" },
+        "departamento": { "enum": ["", "iea-a", "iea-b", "iea-c", "iea-e", "iea-p", "iea-s"] },
+        "categoria": {
+          "enum": [
+            "", "Professor Titular", "Professor Associado", "Professor Adjunto",
+            "Tecnologista", "Analista em Ciência e Tecnologia", "Instrutor", "Docente Voluntário"
+          ]
+        },
+        "posto": { "type": "string" },
+        "cargos": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "chefe_departamento": { "type": "boolean" },
+        "foto": {
+          "type": "string",
+          "pattern": "^(|/images/pessoal/[a-z0-9][a-z0-9._-]*\\.(?i:jpg|jpeg|png|webp))$"
+        },
+        "email": { "anyOf": [{ "const": "" }, { "type": "string", "format": "email" }] },
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["lattes", "scopus", "orcid", "google_scholar", "researchgate", "web_of_science", "site"],
+          "properties": {
+            "lattes": { "$ref": "#/$defs/optionalUri" },
+            "scopus": { "$ref": "#/$defs/optionalUri" },
+            "orcid": { "$ref": "#/$defs/optionalUri" },
+            "google_scholar": { "$ref": "#/$defs/optionalUri" },
+            "researchgate": { "$ref": "#/$defs/optionalUri" },
+            "web_of_science": { "$ref": "#/$defs/optionalUri" },
+            "site": { "$ref": "#/$defs/optionalUri" }
+          }
+        },
+        "scopus_author_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[0-9]+$" },
+          "uniqueItems": true
+        },
+        "linhas_pesquisa": { "$ref": "#/$defs/localizedLists" },
+        "resumo": { "$ref": "#/$defs/localizedText" },
+        "formacao_academica": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["tipo", "periodo", "instituicao", "titulo", "ano_obtencao"],
+            "properties": {
+              "tipo": { "type": "string" },
+              "periodo": { "type": "string" },
+              "instituicao": { "type": "string" },
+              "titulo": { "type": "string" },
+              "ano_obtencao": { "type": ["integer", "string", "null"] }
+            }
+          }
+        },
+        "premios_titulos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["ano", "titulo"],
+            "properties": {
+              "ano": { "type": ["integer", "string", "null"] },
+              "titulo": { "type": "string" }
+            }
+          }
+        },
+        "idiomas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["idioma", "proficiencia"],
+            "properties": {
+              "idioma": { "type": "string" },
+              "proficiencia": { "type": "string" }
+            }
+          }
+        },
+        "bolsista_cnpq": { "type": "string" },
+        "fonte": { "type": "string", "minLength": 1 },
+        "verificado_em": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

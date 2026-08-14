@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "departamentos"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "departamentos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "sigla", "nome_pt", "nome_en", "descricao_pt", "descricao_en", "chefe", "email", "cor", "icon", "temas", "laboratorios"],
+        "properties": {
+          "id": { "enum": ["iea-a", "iea-b", "iea-c", "iea-e", "iea-p", "iea-s"] },
+          "sigla": { "type": "string", "minLength": 3 },
+          "nome_pt": { "type": "string", "minLength": 2 },
+          "nome_en": { "type": "string", "minLength": 2 },
+          "descricao_pt": { "type": "string" },
+          "descricao_en": { "type": "string" },
+          "chefe": { "type": "string" },
+          "email": { "anyOf": [{ "const": "" }, { "type": "string", "format": "email" }] },
+          "cor": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "icon": { "type": "string" },
+          "temas": { "type": "array", "items": { "enum": ["aeronautica", "espacial"] }, "uniqueItems": true },
+          "laboratorios": { "type": "array", "items": { "$ref": "#/$defs/id" }, "uniqueItems": true }
+        }
+      }
+    }
+  },
+  "$defs": { "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" } }
+}

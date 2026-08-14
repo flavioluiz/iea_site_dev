@@ -12,7 +12,7 @@
 
   {{- range $index, $name := $images }}
   <div class="carousel-slide{{ if eq $index 0 }} active{{ end }}" aria-hidden="{{ if eq $index 0 }}false{{ else }}true{{ end }}">
-    <img src="/images/gallery/{{ $name }}" alt="{{ if eq $.Site.Language.Lang "pt" }}Pesquisa em engenharia aeronáutica e aeroespacial{{ else }}Aeronautical and aerospace engineering research{{ end }}" loading="{{ if eq $index 0 }}eager{{ else }}lazy{{ end }}">
+    <img src="{{ printf "/images/gallery/%s" $name | relURL }}" alt="{{ if eq $.Site.Language.Lang "pt" }}Pesquisa em engenharia aeronáutica e aeroespacial{{ else }}Aeronautical and aerospace engineering research{{ end }}" loading="{{ if eq $index 0 }}eager{{ else }}lazy{{ end }}">
   </div>
   {{- end }}
 
@@ -180,8 +180,8 @@
   </h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
-    {{ range $id, $linha := $linhas }}
-      <a href="{{ printf "/linhas/%s/" $id | relLangURL }}"
+    {{ range $linha := $linhas }}
+      <a href="{{ printf "/linhas/%s/" $linha.id | relLangURL }}"
          class="block bg-white rounded-lg shadow-md p-5 border-l-4 hover:shadow-lg hover:scale-[1.02] transition-all" style="border-color: {{ $linha.cor }}">
         <h3 class="font-semibold text-gray-900 mb-2 text-sm group-hover:text-blue-600">
           {{ if eq $.Site.Language.Lang "pt" }}{{ $linha.nome_pt }}{{ else }}{{ $linha.nome_en }}{{ end }}

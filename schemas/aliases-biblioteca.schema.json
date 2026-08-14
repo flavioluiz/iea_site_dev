@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.aer.ita.br/schemas/aliases-biblioteca.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "aliases"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nome_fonte", "professor_id", "observacao", "verificado_em"],
+        "properties": {
+          "nome_fonte": { "type": "string", "minLength": 2 },
+          "professor_id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+          "observacao": { "type": "string" },
+          "verificado_em": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  }
+}

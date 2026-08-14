@@ -1,8 +1,0 @@
----
-title: "SIMULATION OF VERTICAL SWIRLING FLOWS IN A MODEL FURNACE WITH A HIGH PERFORMANCE NUMERICAL METHOD"
-date: 1998-01-01
-draft: false
-type: publicacoes
-layout: single
-eid: "85124353248"
----

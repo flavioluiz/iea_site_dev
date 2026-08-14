@@ -1,0 +1,13 @@
+{
+  "eid": "2-s2.0-12345678901",
+  "dc:title": "Publicação de teste",
+  "prism:coverDate": "2026-08-01",
+  "prism:doi": "10.0000/example",
+  "prism:publicationName": "Journal of Tests",
+  "subtype": "ar",
+  "citedby-count": "4",
+  "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/12345678901",
+  "author": [
+    {"authname": "Ribeiro, Flávio", "authid": "12345", "afid": [{"$": "60021657"}]}
+  ]
+}

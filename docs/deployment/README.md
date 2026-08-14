@@ -1,28 +1,7 @@
-# Deploy e Desenvolvimento
+# Implantação
 
-Esta seção cobre como rodar o site localmente e publicá-lo.
+- Piloto GitHub Pages: [procedimento atual](../operations/github-pages.md)
+- Login do CMS: [Cloudflare OAuth](../operations/cloudflare-oauth.md)
+- Checklist completo: [ativação](../operations/activation-checklist.md)
 
-## Guias
-
-- [Desenvolvimento Local](local-development.md) - Configurar ambiente de desenvolvimento
-- [GitHub Pages](github-pages.md) - Publicar o site
-
-## Visão Geral
-
-O site usa dois repositórios:
-
-| Repositório | Conteúdo | URL |
-|-------------|----------|-----|
-| **pgeam_dev** | Código fonte Hugo | github.com/flavioluiz/pgeam_dev |
-| **pgeam** | Site estático gerado | github.com/flavioluiz/pgeam |
-
-**URL de Produção**: https://flavioluiz.github.io/pgeam/
-
-## Fluxo de Deploy
-
-```
-pgeam_dev/           pgeam_dev/deploy/        flavioluiz.github.io/pgeam/
-(código fonte)  ──►  (build produção)    ──►  (site público)
-
-hugo build           git push                 GitHub Pages serve
-```
+O script SFTP permanece apenas como opção futura para o host institucional e deve usar `config/production/config-ita-domain.yaml` em environment protegido.
