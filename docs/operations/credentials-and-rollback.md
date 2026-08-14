@@ -17,7 +17,7 @@ Reescrever histórico é destrutivo e não deve ser feito automaticamente por es
 | Secret | Local |
 |---|---|
 | OAuth Client Secret | Cloudflare Worker Secret |
-| Token de deploy do piloto | GitHub environments de Pages |
+| Chave de deploy do piloto | Secret `PAGES_DEPLOY_KEY` no environment `github-pages-production`; chave pública somente em `flavioluiz/iea_site` |
 | Token e Account ID das prévias | environment `cloudflare-pages-preview`; token limitado ao Cloudflare Pages |
 | Chave e institutional token Scopus | repositório privado/ambiente do runner ITA |
 | Token/App do robô Scopus | somente repositório privado |
@@ -26,7 +26,7 @@ Reescrever histórico é destrutivo e não deve ser feito automaticamente por es
 ## Resposta rápida
 
 - OAuth suspeito: revogue secret no GitHub, substitua na Cloudflare e retire usuários da allowlist.
-- Token Pages suspeito: revogue o token fino, crie outro e substitua em `github-pages-production`.
+- Chave Pages suspeita: cadastre outra deploy key em `flavioluiz/iea_site`, substitua `PAGES_DEPLOY_KEY` em `github-pages-production` e remova a chave anterior.
 - Token Cloudflare Pages suspeito: revogue-o, gere outro com o mesmo escopo mínimo e atualize `cloudflare-pages-preview`.
 - Scopus suspeito: pare o runner/workflow privado, revogue a chave e preserve logs sem dados sensíveis.
 - Conteúdo incorreto: reverta o PR na fonte; não edite só o repositório de HTML.

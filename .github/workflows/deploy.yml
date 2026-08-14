@@ -30,6 +30,7 @@ jobs:
         run: hugo --gc --minify --printPathWarnings --environment production --config config/_default/config.yaml,config/production/config.yaml
       - name: Publish only after successful CI
         env:
+          PAGES_DEPLOY_KEY: ${{ secrets.PAGES_DEPLOY_KEY }}
           PAGES_DEPLOY_TOKEN: ${{ secrets.PAGES_DEPLOY_TOKEN }}
           PAGES_TARGET_REPOSITORY: flavioluiz/iea_site
         run: bash scripts/ci/publish_pages_tree.sh public . "Deploy ${{ github.event.workflow_run.head_sha }}"

@@ -4,10 +4,10 @@ O código está publicado em um commit-raiz limpo e passou pela CI. As pendênci
 
 ## 1. Ação urgente de segurança
 
-- [ ] Revogar a antiga chave Scopus que apareceu no histórico e emitir outra somente quando o runner privado estiver pronto.
+- [x] Revogar a antiga chave Scopus que apareceu no histórico; qualquer chave nova permanece somente no runner privado.
 - [x] Copiar as branches antigas para o backup privado `flavioluiz/iea_site_dev_history_private` e conferir os SHAs.
 - [x] Substituir `main` por um único commit-raiz com a árvore validada e remover a branch remota antiga.
-- [ ] Eliminar a referência retida pelo PR nº 1 antes de tornar o repositório público: recriar o repositório no mesmo endereço ou solicitar a purga ao suporte do GitHub.
+- [x] Registrar o aceite explícito do proprietário para a possível exposição residual da PR nº 1, depois da revogação da credencial, e tornar público apenas o repositório saneado.
 - [ ] Avisar colaboradores para recarregar clones após a reescrita.
 - [ ] Ativar autenticação em dois fatores na conta GitHub e na Cloudflare.
 
@@ -17,9 +17,9 @@ Não reutilize a chave antiga e não coloque a nova neste repositório.
 
 - [x] Criar o repositório público `flavioluiz/iea_site` com branch `main`.
 - [x] Em **Settings → Pages**, escolher **Deploy from a branch**, `main` e `/ (root)`.
-- [ ] Criar um token fino limitado a esse repositório, com `Contents: Read and write`.
+- [x] Criar uma deploy key com escrita limitada exclusivamente a `flavioluiz/iea_site`.
 - [x] Criar no repositório fonte o environment `github-pages-production`.
-- [ ] Gravar nele o secret `PAGES_DEPLOY_TOKEN`.
+- [x] Gravar nele o secret `PAGES_DEPLOY_KEY`.
 - [ ] Executar o workflow **Deploy pilot site** e conferir <https://flavioluiz.github.io/iea_site/>.
 
 Detalhes: [GitHub Pages](github-pages.md).
@@ -40,10 +40,10 @@ Detalhes: [Cloudflare OAuth](cloudflare-oauth.md) e [prévias isoladas](github-p
 
 ## 4. Governança do repositório fonte
 
-- [ ] Manter `iea_site_dev` público para Open Authoring.
+- [x] Manter `iea_site_dev` público para Open Authoring.
 - [ ] Definir pelo menos dois publicadores/contas de recuperação.
 - [x] Criar o ruleset de `main`, com PR, histórico linear, cinco checks obrigatórios, bloqueio de force-push/exclusão e merge por squash.
-- [ ] Ativar secret scanning e push protection assim que o repositório se tornar público; o recurso não está disponível neste repositório privado no plano atual.
+- [x] Ativar secret scanning e push protection após tornar o repositório público.
 - [ ] Autorizar explicitamente a opção combinada “Actions criar e aprovar PRs” ou configurar uma credencial/GitHub App restrita apenas às automações confiáveis.
 - [x] Criar o label `bulk-reviewed`.
 - [ ] Confirmar política de fotos, e-mails e campos Scopus publicáveis.
