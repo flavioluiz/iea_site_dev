@@ -35,6 +35,7 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 - deploy piloto: gate funcionou e recusou publicar sem `PAGES_DEPLOY_TOKEN`.
 - prévia do PR nº 2: deployment Cloudflare aprovado; rotas principais respondem 200, links passaram e a origem envia `X-Robots-Tag: noindex`.
 - governança: `main` exige PR, histórico linear e cinco checks; aceita somente squash e bloqueia exclusão e force-push.
+- manutenção da CI: checkout, setup-python e artefatos usam releases oficiais Node 24 fixados por SHA; PR técnico e CI de `main` aprovados sem anotação de runtime obsoleto.
 
 ## Definição de concluído
 
