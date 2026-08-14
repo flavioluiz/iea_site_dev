@@ -1,0 +1,31 @@
+{
+  "num_tese": "000428866",
+  "type": "tese",
+  "title": "Turbulent heat transfer and fluid flow in ducts of gradually varying cross section.",
+  "author": "Edimilson Junqueira Braga",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This works presents numerical predictions for the flow and temperature fields formed by two coaxial streams confined in a duct having a gradually varying cross section segment. The well-known marching-forward method of Patankar-Spalding was used for sweepingthe computational domain. The standard k-e model was applied for handling turbulence. Computations are first performed for laminar cases in order to assess the reliability of the numerical code. Both isothermal and heated flow, in a constant cross section duct, were considered. Results are then presented for developed turbulent pipe flow showing good agreement with experimental values. Computations for coaxial confined turbulent jets are then presented and compared with available experimental data. Non-isothermal results follow showing interesting dissimilarity between turbulent kinetic energy and Nusselt number.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Transferęncia de calor",
+    "Dutos",
+    "Modelos matemáticos",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000428866",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000428866&origem=BDITA"
+}

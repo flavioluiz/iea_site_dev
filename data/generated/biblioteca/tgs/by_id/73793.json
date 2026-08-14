@@ -1,0 +1,30 @@
+{
+  "num_tg": "73793",
+  "type": "tg",
+  "title": "Estimativa de aquecimento aerodinâmico de veículos orbitais e sub-orbitais com ângulo de ataque năo-nulo",
+  "author": "Caio Victor Lima da Silva",
+  "year": "2017",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Humberto Araujo Machado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Veículos espaciais estăo sujeitos a intenso atrito com a atmosfera durante seu procedimento de reentrada, gerando muito calor. Esse calor deve ser impedido de penetrar nos sistemas e cargas da nave de forma a năo prejudicar sua missăo. Tal proteçăo é dada por um escudo térmico que, para ser bem projetado e dimensionado, necessita-se que os engenheiros conheçam as condiçőes a que o veículo é submetido. Para o projeto preliminar, cálculos mais simples fornecem um bom norte para essa previsăo e um modelo simples e rápido de executar pode economizar recursos do projeto ao mesmo tempo que fornece uma boa estimativa para o ciclo inicial do mesmo. O presente estudo tem como objetivo desenvolver e validar um modelo analítico que forneça uma boa estimativa do fluxo de calor na superfície do veículo SARA em pontos específicos da sua trajetória e dentro de um intervalo de ângulos de ataque típico para a reentrada do mesmo, aliado a um custo computacional e temporal baixo como forma de economizar recursos no andamento do projeto. Posteriormente, tal modelo analítico será validado através de dados experimentais e comparado com um modelo numérico comercial mais robusto e complexo para verificar a precisăo das estimativas e avaliar seu desempenho em diversos casos do envelope de voo. Os resultados dos modelos analítico e numérico serăo comparados, justificando-se as diferenças. Ao final, serăo sugeridas ideias de trabalhos futuros para incrementá-lo e aprimorar as consideraçőes iniciais.",
+  "subjects": [
+    "Espaçonaves",
+    "Reentrada",
+    "Dinâmica dos fluidos computacional",
+    "Aquecimento aerodinâmico",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73793",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73793&origem=BDITA"
+}

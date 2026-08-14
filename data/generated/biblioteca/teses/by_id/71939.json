@@ -1,0 +1,34 @@
+{
+  "num_tese": "71939",
+  "type": "tese",
+  "title": "Alívio de carga de rajada em asa flexível instrumentada com transdutores piezelétricos",
+  "author": "Thiago de Souza Siqueira Versiani",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Dentre os fenômenos aeroelásticos que comumente afetam aeronaves flexíveis e muito flexíveis, aqueles causados por rajadas merecem atençăo especial devido ao seu potencial tanto em reduzir a qualidade do voo e conforto de passeio dos passageiros quanto em aumentar cargas estruturais. Com isso, é do interesse de engenheiros de estruturas e controle de voo em desenvolver soluçőes que visam diminuir os efeitos de rajadas em aeronaves. Particularmente, a utilizaçăo de transdutores piezelétricos surge como uma das soluçőes possíveis no projeto de sistemas de alívio de carga de rajadas e supressăo de modos estruturais. Neste trabalho, o alívio de carga rajada em uma asa retangular flexível utilizando transdutores piezelétricos é analisado e testado experimentalmente. O modelo numérico inclui um modelo em elementos finitos da asa, empregando elementos de viga de doze graus de liberdade, assumindo pequenas deformaçőes e negligenciando efeitos de cisalhamento. Os efeitos dos atuadores e sensores piezelétricos săo derivados do princípio variacional eletromecânico para materiais piezelétricos. O modelo aerodinâmico foi baseado em uma aerodinâmica quase-estacionária e aplicado via teoria das faixas. A lei de controle para o alívio de carga de rajada assume um sinal de controle proporcional ao sinal de saída, cujos ganhos foram obtidos pelo método de regulador quadrático linear. Usando um gerador de rajadas, os testes em túnel de vento foram realizados para diferentes velocidades de escoamento e frequęncias de rajada, a fim de se validar o modelo computacional e verificar o desempenho de transdutores piezelétricos. Os resultados mostraram uma atenuaçăo considerável do momento de flexăo na raiz da asa, especialmente utilizando dois atuadores piezelétricos, indicando uma potencial aplicabilidade de transdutores piezelétricos no alívio de carga de rajada.",
+  "subjects": [
+    "Aeroservoelasticidade",
+    "Atuadores piezoelétricos",
+    "Corpos flexíveis",
+    "Regulador linear quadrático",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "07/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71939",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71939&origem=BDITA"
+}

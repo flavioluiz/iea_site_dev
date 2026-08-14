@@ -1,0 +1,31 @@
+{
+  "num_tese": "68896",
+  "type": "tese",
+  "title": "Piezoelectric shunt damping using adaptive resonant circuits",
+  "author": "Jorge Augusto de Bonfim Gripp",
+  "year": "2015",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Piezoelectric shunt damping is a well-known technique to damp mechanical vibrations of a structure. This technique consists in using a piezoelectric transducer to convert mechanical vibration energy into electrical energy, which is partially dissipated in an electrical circuit. Among the circuits proposed over the last decades for the efficient conversion of mechanical vibration energy into electric energy, the resonant circuit was the first one that achieved satisfactory results. Resonant shunts consist of a resistor (R) and a inductor (L) connected in series with a piezoelectric transducer, which already contains an intrinsic capacitance. The resonance frequency of this circuit is tuned to the vibration natural frequency of the mechanical structure, which results on the maximum energy conversion and maximum vibration damping. Unfortunately, this technique presents limitations in real aplications, because small variations in the structure, circuit components, and operational conditions can decouple the electrical and mechanical natural frequencies and radically reduce the performance. In order to damp mechanical vibrations in lightweight structures subject to variabilities, a new piezoelectric shunt damping technique with improved performance and robustness is presented in this work. This thesis describes an adaptive resonant piezoelectric vibration absorber enhanced by a synthetic negative capacitance. The resonant shunt circuit autonomously adapts its inductance value (L) by comparing the phase difference of the vibration velocity and the current flowing through the shunt circuit. Moreover, a synthetic negative capacitance is added to the shunt circuit to enhance the electromechanical coupling in the energy conversion and, as a consequence, improve the vibration damping. Validation of the proposed method is done by bonding the piezoelectric absorber on a metallic shell to attenuate vibrations. The circuitry is implemented using analog components.",
+  "subjects": [
+    "Estruturas inteligentes",
+    "Amortecimento de vibraçăo",
+    "Controle de vibraçăo",
+    "Piezoeletricidade",
+    "Atuadores",
+    "Controle automático",
+    "Engenharia estrutural",
+    "Mecatrônica"
+  ],
+  "defense_date": "21/08/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68896",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68896&origem=BDITA"
+}

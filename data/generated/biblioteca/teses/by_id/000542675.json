@@ -1,0 +1,36 @@
+{
+  "num_tese": "000542675",
+  "type": "tese",
+  "title": "Otimizaçăo de medidas de RCS de mísseis nas bandas C e X via técnica de supressăo ativa de sinais interferentes.",
+  "author": "Marcelo Alexandre Souza Miacci",
+  "year": "2006",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mirabel Cerqueira Rezende",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Inácio Malmonge Martin",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Medidas de Seçăo Reta Radar (RCS) permitem determinar a área efetiva equivalente de um alvo, quando iluminado por uma onda de radar. Em outras palavras, é a razăo entre a energia de uma onda eletromagnética irradiada por um radar, incidente em um alvo, e a energia espalhada pelo mesmo. Esse espalhamento pode ser monoestático, quando as ondas eletromagnéticas refletidas pelo alvo săo medidas na mesma direçăo da fonte emissora (radar), ou biestático, quando as ondas refletidas săo detectadas em outras direçőes. O fenômeno de espalhamento de ondas eletromagnéticas permite obter informaçőes importantes sobre o alvo, tais como sua geometria e suas dimensőes físicas. Este trabalho apresenta o estudo de otimizaçăo de um sistema de medidas de RCS de alvos de geometrias complexas (mísseis), com o desenvolvimento de um circuito discriminador de ruídos interferentes e, também, o estudo de reduçăo da RCS dos alvos complexos pela aplicaçăo de Materiais Absorvedores de Radiaçăo Eletromagnética (MARE). As medidas de RCS foram realizadas em campo fechado, na condiçăo monoestática, utilizando uma câmara anecóica, na faixa de freqüęncias de 5 a 7 GHz (banda C) e de 8 a 12 GHz (banda X) e, também, na condiçăo biestática, em ambiente aberto na banda X. O estudo da reduçăo foi realizado pela aplicaçăo de MARE ŕ base de manta de silicone aditada com negro de fumo, desenvolvida na AMR/CTA. Resultados experimentais obtidos na caracterizaçăo de um setor de míssil nas bandas C e X, em câmara anecóica, mostram a complexidade envolvida na interpretaçăo de diagramas de RCS de alvos complexos. O uso do circuito discriminador de ruídos, projetado e construído neste trabalho, melhora a resoluçăo dos diagramas de RCS, com o aumento da sensibilidade das medidas de RCS em até 26 dB e da gama dinâmica de 25 dB para 50 dB. A aplicaçăo de MARE no míssil promoveu uma reduçăo de RCS de até 98%.",
+  "subjects": [
+    "Seçőes transversais de radar",
+    "Absorvedores (materiais)",
+    "Microondas",
+    "Espalhamento de onda",
+    "Ondas eletromagnéticas",
+    "Mísseis",
+    "Otimizaçăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/12/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542675",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542675&origem=BDITA"
+}

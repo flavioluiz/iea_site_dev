@@ -1,0 +1,451 @@
+backend:
+  name: github
+  repo: flavioluiz/iea_site_dev
+  branch: main
+  base_url: https://iea-decap-oauth.flavioluiz.workers.dev
+  auth_endpoint: /auth
+  site_domain: flavioluiz.github.io
+  open_authoring: true
+  squash_merges: true
+
+publish_mode: editorial_workflow
+locale: pt
+site_url: https://flavioluiz.github.io/iea_site/
+display_url: https://flavioluiz.github.io/iea_site/
+logo_url: https://flavioluiz.github.io/iea_site/images/ita_logo.png
+show_preview_links: true
+search: true
+
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: paginas
+    label: "1. Páginas do site"
+    description: "Textos institucionais. Escolha PT ou EN, altere somente o necessário e confira a prévia antes de salvar."
+    editor:
+      preview: true
+    files:
+      - label: "Página inicial — Português"
+        name: inicio_pt
+        file: content/_index.pt.md
+        fields: &page_fields
+          - { label: "Título", name: title, widget: string, hint: "Título exibido no topo da página." }
+          - { label: "Resumo para buscadores", name: description, widget: text, hint: "Uma frase curta que descreve a página." }
+          - { label: "Texto da página", name: body, widget: markdown, hint: "Use a barra de ferramentas para títulos, listas e links. Não cole HTML ou scripts." }
+      - label: "Home page — English"
+        name: inicio_en
+        file: content/_index.en.md
+        fields: *page_fields
+      - label: "Sobre — Português"
+        name: sobre_pt
+        file: content/sobre/_index.md
+        fields: *page_fields
+      - label: "About — English"
+        name: sobre_en
+        file: content/sobre/_index.en.md
+        fields: *page_fields
+      - label: "Graduação — Português"
+        name: graduacao_pt
+        file: content/graduacao/_index.pt.md
+        fields: *page_fields
+      - label: "Undergraduate — English"
+        name: graduacao_en
+        file: content/graduacao/_index.en.md
+        fields: *page_fields
+      - label: "Departamentos — Português"
+        name: departamentos_pt
+        file: content/departamentos/_index.pt.md
+        fields: *page_fields
+      - label: "Departments — English"
+        name: departamentos_en
+        file: content/departamentos/_index.en.md
+        fields: *page_fields
+      - label: "Disciplinas — Português"
+        name: disciplinas_pt
+        file: content/disciplinas/_index.md
+        fields: *page_fields
+      - label: "Courses — English"
+        name: disciplinas_en
+        file: content/disciplinas/_index.en.md
+        fields: *page_fields
+      - label: "Linhas de pesquisa — Português"
+        name: linhas_pt
+        file: content/linhas/_index.pt.md
+        fields: *page_fields
+      - label: "Research lines — English"
+        name: linhas_en
+        file: content/linhas/_index.en.md
+        fields: *page_fields
+      - label: "Área espacial — Português"
+        name: espaco_pt
+        file: content/espaco/_index.pt.md
+        fields: *page_fields
+      - label: "Space area — English"
+        name: espaco_en
+        file: content/espaco/_index.en.md
+        fields: *page_fields
+      - label: "Pós-graduação — Português"
+        name: posgraduacao_pt
+        file: content/posgraduacao/_index.pt.md
+        fields: *page_fields
+      - label: "Graduate studies — English"
+        name: posgraduacao_en
+        file: content/posgraduacao/_index.en.md
+        fields: *page_fields
+      - label: "Contato — Português"
+        name: contato_pt
+        file: content/contato/_index.pt.md
+        fields: *page_fields
+      - label: "Contact — English"
+        name: contato_en
+        file: content/contato/_index.en.md
+        fields: *page_fields
+      - label: "Documentos e horários — Português"
+        name: documentos_pt
+        file: content/documentos/_index.pt.md
+        fields: *page_fields
+      - label: "Documents and schedules — English"
+        name: documentos_en
+        file: content/documentos/_index.en.md
+        fields: *page_fields
+
+  - name: pessoal
+    label: "2. Pessoas e professores"
+    description: "Cadastro completo da equipe. Abra um nome, altere os campos e envie para revisão. Desative em vez de excluir quem saiu."
+    format: json
+    files:
+      - label: "Cadastro de pessoas"
+        name: professores
+        file: data/pessoal/professores.json
+        fields:
+          - { label: "Versão do formato", name: schema_version, widget: hidden, default: 1 }
+          - label: "Pessoas"
+            label_singular: "Pessoa"
+            name: professores
+            widget: list
+            collapsed: true
+            minimize_collapsed: true
+            summary: "{{fields.nome}} — {{fields.departamento}}"
+            hint: "Procure pelo nome. Para retirar alguém do site, desligue 'Ativo'; não apague o registro."
+            fields:
+              - label: "Identificador técnico"
+                name: id
+                widget: string
+                pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use apenas minúsculas, números e hífens, por exemplo nome-sobrenome."]
+                hint: "Não altere em uma pessoa existente: este código mantém os links estáveis."
+              - { label: "Nome completo", name: nome, widget: string, hint: "Confira a grafia em fonte institucional." }
+              - { label: "Nome curto", name: nome_destaque, widget: string, required: false, hint: "Opcional; como a pessoa deve ser chamada em espaços compactos." }
+              - { label: "Ativo no site", name: ativo, widget: boolean, default: true, hint: "Desligue para ocultar a pessoa sem perder histórico." }
+              - label: "Departamento"
+                name: departamento
+                widget: select
+                options:
+                  - { label: "Sem departamento (somente inativo)", value: "" }
+                  - { label: "IEA-A — Aerodinâmica", value: iea-a }
+                  - { label: "IEA-B — Mecânica do Voo", value: iea-b }
+                  - { label: "IEA-C — Propulsão", value: iea-c }
+                  - { label: "IEA-E — Estruturas", value: iea-e }
+                  - { label: "IEA-P — Projetos", value: iea-p }
+                  - { label: "IEA-S — Sistemas Aeroespaciais", value: iea-s }
+              - label: "Categoria"
+                name: categoria
+                widget: select
+                options: ["", "Professor Titular", "Professor Associado", "Professor Adjunto", "Tecnologista", "Analista em Ciência e Tecnologia", "Instrutor", "Docente Voluntário"]
+              - { label: "Posto", name: posto, widget: string, required: false, hint: "Somente quando aplicável, por exemplo Maj Eng AER." }
+              - { label: "Cargos na Divisão", name: cargos, widget: list, required: false, field: { label: "Cargo", name: cargo, widget: string } }
+              - { label: "Chefe do departamento", name: chefe_departamento, widget: boolean, default: false }
+              - label: "Foto"
+                name: foto
+                widget: image
+                required: false
+                choose_url: false
+                media_folder: /static/images/pessoal
+                public_folder: /images/pessoal
+                allow_multiple: false
+                hint: "JPEG, PNG ou WebP; retrato nítido, entre 80 e 4096 px e no máximo 2 MB. O nome do arquivo deve ser simples."
+                media_library:
+                  config:
+                    multiple: false
+                    max_file_size: 2097152
+              - { label: "E-mail público", name: email, widget: string, required: false, hint: "Preencha somente com autorização para publicação." }
+              - label: "Links acadêmicos"
+                name: links
+                widget: object
+                collapsed: true
+                hint: "Cole a URL completa, começando com https:// (ou http:// para links legados)."
+                fields:
+                  - { label: "Currículo Lattes", name: lattes, widget: string, required: false }
+                  - { label: "Scopus", name: scopus, widget: string, required: false }
+                  - { label: "ORCID", name: orcid, widget: string, required: false }
+                  - { label: "Google Scholar", name: google_scholar, widget: string, required: false }
+                  - { label: "ResearchGate", name: researchgate, widget: string, required: false }
+                  - { label: "Web of Science", name: web_of_science, widget: string, required: false }
+                  - { label: "Site pessoal", name: site, widget: string, required: false }
+              - label: "IDs de autor Scopus"
+                name: scopus_author_ids
+                widget: list
+                required: false
+                collapsed: true
+                hint: "Somente números. Não copie o ID de outra pessoa."
+                field: { label: "ID", name: id, widget: string, pattern: ["^[0-9]+$", "O ID Scopus contém somente números."] }
+              - label: "Linhas de pesquisa"
+                name: linhas_pesquisa
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "Português", name: pt, widget: list, required: false, field: { label: "Linha", name: linha, widget: string } }
+                  - { label: "English", name: en, widget: list, required: false, field: { label: "Research line", name: line, widget: string } }
+              - label: "Resumo profissional"
+                name: resumo
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: "Português", name: pt, widget: text, required: false }
+                  - { label: "English", name: en, widget: text, required: false }
+              - label: "Formação acadêmica"
+                name: formacao_academica
+                widget: list
+                required: false
+                collapsed: true
+                summary: "{{fields.tipo}} — {{fields.instituicao}}"
+                fields:
+                  - { label: "Tipo", name: tipo, widget: string }
+                  - { label: "Período", name: periodo, widget: string, required: false }
+                  - { label: "Instituição", name: instituicao, widget: string, required: false }
+                  - { label: "Título/trabalho", name: titulo, widget: text, required: false }
+                  - { label: "Ano de obtenção", name: ano_obtencao, widget: number, value_type: int, required: false }
+              - label: "Prêmios e títulos"
+                name: premios_titulos
+                widget: list
+                required: false
+                collapsed: true
+                fields:
+                  - { label: "Ano", name: ano, widget: number, value_type: int, required: false }
+                  - { label: "Descrição", name: titulo, widget: string }
+              - label: "Idiomas"
+                name: idiomas
+                widget: list
+                required: false
+                collapsed: true
+                fields:
+                  - { label: "Idioma", name: idioma, widget: string }
+                  - { label: "Proficiência", name: proficiencia, widget: string }
+              - { label: "Bolsa CNPq", name: bolsista_cnpq, widget: string, required: false }
+              - { label: "Fonte usada para conferir", name: fonte, widget: string, hint: "Informe uma página ou documento institucional verificável." }
+              - label: "Data da conferência"
+                name: verificado_em
+                widget: datetime
+                date_format: "DD/MM/YYYY"
+                time_format: false
+                format: "YYYY-MM-DD"
+
+  - name: estrutura
+    label: "3. Estrutura e pesquisa"
+    description: "Departamentos, laboratórios, projetos e linhas de pesquisa. Os campos PT e EN aparecem no mesmo formulário."
+    format: json
+    files:
+      - label: "Departamentos"
+        name: departamentos
+        file: data/departamentos.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Departamentos"
+            name: departamentos
+            widget: list
+            collapsed: true
+            summary: "{{fields.sigla}} — {{fields.nome_pt}}"
+            fields:
+              - { label: "ID", name: id, widget: string, hint: "Não altere em um departamento existente." }
+              - { label: "Sigla", name: sigla, widget: string }
+              - { label: "Nome em português", name: nome_pt, widget: string }
+              - { label: "Name in English", name: nome_en, widget: string }
+              - { label: "Descrição em português", name: descricao_pt, widget: text }
+              - { label: "Description in English", name: descricao_en, widget: text }
+              - { label: "Chefe", name: chefe, widget: string, required: false }
+              - { label: "E-mail", name: email, widget: string, required: false }
+              - { label: "Cor", name: cor, widget: color, allowInput: true }
+              - { label: "Ícone técnico", name: icon, widget: string, required: false }
+              - { label: "Temas", name: temas, widget: select, multiple: true, options: [aeronautica, espacial] }
+              - { label: "IDs dos laboratórios", name: laboratorios, widget: list, required: false, field: { label: "ID", name: id, widget: string } }
+      - label: "Laboratórios"
+        name: laboratorios
+        file: data/laboratorios.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Laboratórios"
+            label_singular: "Laboratório"
+            name: laboratorios
+            widget: list
+            collapsed: true
+            summary: "{{fields.sigla}} — {{fields.nome_pt}}"
+            fields:
+              - { label: "ID", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."] }
+              - { label: "Sigla", name: sigla, widget: string }
+              - { label: "Nome em português", name: nome_pt, widget: string }
+              - { label: "Name in English", name: nome_en, widget: string }
+              - { label: "Departamento", name: departamento, widget: select, required: false, options: ["", iea-a, iea-b, iea-c, iea-e, iea-p, iea-s] }
+              - { label: "Tema", name: tema, widget: select, options: [aeronautica, espacial, ambos] }
+              - { label: "Descrição em português", name: descricao_pt, widget: text }
+              - { label: "Description in English", name: descricao_en, widget: text }
+              - { label: "Infraestrutura em português", name: infraestrutura, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
+              - { label: "Infrastructure in English", name: infraestrutura_en, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
+              - { label: "Projetos associados", name: projetos_associados, widget: list, required: false, field: { label: "Projeto", name: projeto, widget: string } }
+              - { label: "Responsáveis", name: responsaveis, widget: list, required: false, hint: "Informe nomes públicos e conferidos.", field: { label: "Nome", name: responsavel, widget: string } }
+              - label: "Fotos do laboratório"
+                name: imagens
+                widget: list
+                required: false
+                collapsed: true
+                hint: "JPEG, PNG ou WebP; 80–4096 px e no máximo 2 MB por foto."
+                field:
+                  label: "Foto"
+                  name: imagem
+                  widget: image
+                  choose_url: false
+                  media_folder: /static/images/laboratorios
+                  public_folder: /images/laboratorios
+                  allow_multiple: false
+                  media_library:
+                    config:
+                      multiple: false
+                      max_file_size: 2097152
+              - { label: "URL PNIPE", name: pnipe_url, widget: string, required: false }
+              - { label: "Site do laboratório", name: website_url, widget: string, required: false }
+              - { label: "Cor", name: cor, widget: color, required: false, allowInput: true }
+              - { label: "Tags", name: tags, widget: list, required: false, field: { label: "Tag", name: tag, widget: string } }
+      - label: "Projetos"
+        name: projetos
+        file: data/projetos.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Projetos"
+            label_singular: "Projeto"
+            name: projetos
+            widget: list
+            collapsed: true
+            summary: "{{fields.titulo_pt}} — {{fields.status}}"
+            fields:
+              - { label: "ID", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."] }
+              - { label: "Título em português", name: titulo_pt, widget: string }
+              - { label: "Title in English", name: titulo_en, widget: string, required: false }
+              - { label: "Departamento", name: departamento, widget: select, required: false, options: ["", iea-a, iea-b, iea-c, iea-e, iea-p, iea-s] }
+              - { label: "Financiador", name: financiador, widget: string, required: false }
+              - { label: "Valor", name: valor, widget: string, required: false, hint: "Deixe vazio quando não for público." }
+              - { label: "Período", name: periodo, widget: string, required: false }
+              - { label: "Status", name: status, widget: select, options: [em_andamento, concluido, suspenso] }
+              - { label: "Tema", name: tema, widget: select, required: false, options: ["", aeronautica, espacial, ambos] }
+              - { label: "Pessoas da IEA", name: docentes_iea, widget: list, required: false, field: { label: "Nome", name: nome, widget: string } }
+              - { label: "Demais participantes", name: docentes, widget: list, required: false, field: { label: "Nome", name: nome, widget: string } }
+              - { label: "Descrição em português", name: descricao_pt, widget: text, required: false }
+              - { label: "Description in English", name: descricao_en, widget: text, required: false }
+      - label: "Linhas de pesquisa"
+        name: linhas
+        file: data/linhas_pesquisa.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Linhas"
+            label_singular: "Linha de pesquisa"
+            name: linhas
+            widget: list
+            collapsed: true
+            summary: "{{fields.nome_pt}}"
+            fields:
+              - { label: "ID", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."] }
+              - { label: "Nome em português", name: nome_pt, widget: string }
+              - { label: "Name in English", name: nome_en, widget: string }
+              - { label: "Tema", name: tema, widget: select, options: [aeronautica, espacial, ambos] }
+              - { label: "Cor", name: cor, widget: color, allowInput: true }
+              - { label: "Ícone técnico", name: icon, widget: string, required: false }
+              - { label: "Descrição em português", name: descricao_pt, widget: text }
+              - { label: "Description in English", name: descricao_en, widget: text }
+              - { label: "Palavras-chave", name: keywords, widget: list, required: false, field: { label: "Palavra-chave", name: keyword, widget: string } }
+              - { label: "Áreas Scopus", name: subject_areas, widget: list, required: false, field: { label: "Área", name: area, widget: string } }
+
+  - name: documentos
+    label: "4. Documentos, horários e salas"
+    description: "Publique PDFs de horários, salas, regulamentos e comunicados. A categoria 'Horários de aulas e salas' já está pronta."
+    format: json
+    files:
+      - label: "PDFs e documentos"
+        name: catalogo_documentos
+        file: data/documentos.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Categorias"
+            name: categorias
+            widget: list
+            collapsed: true
+            summary: "{{fields.nome_pt}}"
+            fields:
+              - { label: "ID", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."] }
+              - { label: "Nome em português", name: nome_pt, widget: string }
+              - { label: "Name in English", name: nome_en, widget: string }
+              - { label: "Orientação em português", name: descricao_pt, widget: text, required: false }
+              - { label: "Guidance in English", name: descricao_en, widget: text, required: false }
+              - label: "Arquivos"
+                label_singular: "Arquivo"
+                name: documentos
+                widget: list
+                collapsed: true
+                summary: "{{fields.nome_pt}} — {{fields.data}}"
+                hint: "Adicione um PDF ou, alternativamente, um link externo. Confira a data antes de enviar."
+                fields:
+                  - { label: "Nome em português", name: nome_pt, widget: string }
+                  - { label: "Name in English", name: nome_en, widget: string, required: false }
+                  - { label: "Descrição em português", name: descricao_pt, widget: text, required: false }
+                  - { label: "Description in English", name: descricao_en, widget: text, required: false }
+                  - label: "PDF ou arquivo"
+                    name: arquivo
+                    widget: file
+                    required: false
+                    choose_url: false
+                    media_folder: /static/documents
+                    public_folder: /documents
+                    allow_multiple: false
+                    hint: "Use preferencialmente PDF, com nome simples e no máximo 10 MB."
+                    media_library:
+                      config:
+                        multiple: false
+                        max_file_size: 10485760
+                  - { label: "Link externo (alternativa ao arquivo)", name: link_externo, widget: string, required: false }
+                  - label: "Data de referência"
+                    name: data
+                    widget: datetime
+                    date_format: "DD/MM/YYYY"
+                    time_format: false
+                    format: "YYYY-MM-DD"
+
+  - name: biblioteca
+    label: "5. Correspondências da Biblioteca"
+    description: "Área avançada: associe uma variação de nome encontrada na Biblioteca à pessoa correta."
+    format: json
+    files:
+      - label: "Aliases de orientadores"
+        name: aliases
+        file: data/pessoal/aliases_biblioteca.json
+        fields:
+          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
+          - label: "Correspondências"
+            label_singular: "Correspondência"
+            name: aliases
+            widget: list
+            collapsed: true
+            summary: "{{fields.nome_fonte}} → {{fields.professor_id}}"
+            fields:
+              - { label: "Nome como aparece na Biblioteca", name: nome_fonte, widget: string }
+              - label: "Pessoa correta"
+                name: professor_id
+                widget: relation
+                collection: pessoal
+                file: professores
+                search_fields: ["professores.*.nome", "professores.*.id"]
+                display_fields: ["professores.*.nome", "professores.*.id"]
+                value_field: "professores.*.id"
+              - { label: "Observação", name: observacao, widget: string, required: false }
+              - { label: "Data da conferência", name: verificado_em, widget: datetime, date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }

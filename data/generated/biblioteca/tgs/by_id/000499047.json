@@ -1,0 +1,30 @@
+{
+  "num_tg": "000499047",
+  "type": "tg",
+  "title": "Bidimensionalizaçăo de ensaios em túnel de vento de baixa velocidade.",
+  "author": "Giuliana Arruda Pessoa",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta tese está focada no tratamento dos efeitos tridimensionais existentes em ensaios em túnel de vento de baixa velocidade e Reynolds em torno de 3.105. Para tanto, adotou-se a hipótese de que a tridimensionalidade do escoamento sobre o modelo é devida principalmente ŕ açăo da camada limite da parede do túnel e ŕ interaçăo entre modelo e parede. A aplicaçăo dos métodos até entăo desenvolvidos, tais como sopramento ou sucçăo da camada limite na parede através de slots, tem se mostrado uma técnica demasiadamente onerosa. Por esse motivo, este trabalho tenta atacar o problema da tridimensionalidade empregando apenas elementos simples como fences, geradores de vórtices e pequenas placas. Faz parte desta pesquisa, o desenvolvimento e a aplicaçăo de técnicas e aparato experimental adequados ŕ avaliaçăo qualitativa (visualizaçăo com óleo e micro-tufts) e quantitativa (tomadas de pressăo ao longo da corda empregando scanner eletrônico de pressăo, ESP) do escoamento sobre o modelo e a parede do túnel de vento. Foi desenvolvido ainda um programa em MatLab para cálculo numérico da distribuiçăo de pressăo ao longo da corda empregando o método dos painéis para um escoamento de fluido năo viscoso e incompressível. Tal programa teve grande utilidade no preparo da instrumentaçăo e validaçăo dos ensaios de tomada de pressăo. Os resultados mostraram que as hipóteses adotas concordam com o observado na prática e continuam válidas. A utilizaçăo de fences foi estudada a fundo e se mostrou uma técnica muito boa de bidimensionalizaçăo. Tamanha profundidade năo foi dada ao emprego de geradores de vórtice e de pequenas placas, porém teve-se indícios de que tais instrumentos podem ser úteis ŕ reduçăo do efeito tridimensional.",
+  "subjects": [
+    "Ensaios em túneis de vento",
+    "Escoamento bidimensional",
+    "Baixa velocidade",
+    "Número de Reynolds",
+    "Camadas limite",
+    "Distribuiçăo de escoamento",
+    "Aerodinâmica",
+    "Mecânica dos fluidos",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000499047",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000499047&origem=BDITA"
+}

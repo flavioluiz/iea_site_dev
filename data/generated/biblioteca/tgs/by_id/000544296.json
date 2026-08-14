@@ -1,0 +1,26 @@
+{
+  "num_tg": "000544296",
+  "type": "tg",
+  "title": "Otimizaçăo de funçăo multi-objetivo para transbordo aplicado a uma Indústria Aeronáutica.",
+  "author": "Thiago Luís Viana de Santana",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Aguinaldo Prandini Ricieri",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho visa estudar a aplicaçăo de algoritmos de otimizaçăo em problemas de transbordo no mercado aeronáutico. Foram utilizadas variantes do método Simulated Annealing, que se baseia no principio metalúrgico do recozimento de materiais para criar sua matemática otimizadora, visando ŕ obtençăo do mínimo global de uma funçăo-objetivo. O método se caracteriza por percorrer o espaço de estados do problema associando uma probabilidade proporcional ŕ probabilidade condicional de Boltzmann a cada um dos estados e, em algumas situaçőes, aceita soluçőes cujo nível de energia - i.e., valor da funçăo-objetivo - é maior do que o anterior; isto lhe permite năo assumir ótimos locais como soluçăo do problema. Nas variantes do método, cada parâmetro característico - temperatura inicial, agenda de resfriamento e critério de mudança de temperatura - foi adotado de forma que o algoritmo atingisse o ótimo global de forma tăo próxima quanto possível. Para a determinaçăo dos ótimos globais dos modelos matemáticos, bem como para efeito de comparaçăo da qualidade dos programas gerados neste trabalho, foi utilizado o software LINGO®, de conhecida utilidade em problemas de otimizaçăo. Tal software possui programados em seu código algoritmos capazes de atingir o ótimo global dos problemas aos quais é aplicado; todavia, năo é possível sua utilizaçăo em problemas com mais de trinta variáveis sem que se adquira uma licença, o que limita o escopo comparativo do trabalho a problemas que tenham número de variáveis menor ou igual a este valor máximo.",
+  "subjects": [
+    "Otimizaçăo",
+    "Logística (administraçăo)",
+    "Indústria aeronáutica",
+    "Pesquisa operacional",
+    "Recozimento simulado (Matemática)",
+    "Matemática"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544296",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544296&origem=BDITA"
+}

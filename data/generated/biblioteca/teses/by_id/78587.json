@@ -1,0 +1,29 @@
+{
+  "num_tese": "78587",
+  "type": "tese",
+  "title": "The effects of free-stream turbulence on transition in an asymptotic suction boundary layer",
+  "author": "Jan Christan Koorn",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This dissertation presents the results of a numerical investigation of the effects of Free-Stream Turbulence (FST) on transition in an Asymptotic Suction Boundary Layer (ASBL) with Reynolds number Re = 400. Simulations were carried out on a computational box with periodic boundary conditions in the streamwise and spanwise directions, using the open source software Channelflow. A method was developed that introduces isotropic, homogeneous disturbances inside the boundary layer. The disturbances lead to the growth of streaks, and it was found that the disturbance growth is amplified by nonlinear effects, compared to the linear growth mechanism. Two ensembles of 100 simulations were performed for disturbances with a low and a high initial turbulence intensity, and it is demonstrated that there is a large variance in growth rate within the two ensembles. The results of the ensembles show that nonlinear interactions cause the decay of streamwise vortices to halt. They also result in a redistribution of energy from the streaks with the largest spanwise scale to distortion of the mean flow. A spatio-temporal Proper Orthogonal Decomposition was applied to both ensembles to extract coherent structures in space and time. These coherent structures highlight the important aspects of the dynamics of both ensembles.",
+  "subjects": [
+    "Efeitos de turbulęncia",
+    "Camadas limite",
+    "Simulaçăo computadorizada",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "defense_date": "15/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78587",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78587&origem=BDITA"
+}

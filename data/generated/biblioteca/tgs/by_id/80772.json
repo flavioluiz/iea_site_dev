@@ -1,0 +1,33 @@
+{
+  "num_tg": "80772",
+  "type": "tg",
+  "title": "Monocular visual odometry with YOLO-based dynamic object filtering",
+  "author": "Márcio Gholmié Labriola Filho",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Marcos Ricardo Omena de Albuquerque Maximo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Oliveira Françani",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work aims to implement and compare two monocular visual odometry approaches using images from the KITTI dataset: one based solely on keypoint matching, and another enhanced by removing points on moving objects through detection with the YOLO (You Only Look Once) neural network. The KITTI dataset contains image sequences captured by a camera mounted on a moving vehicle, traversing urban, suburban, and highway environments. In both approaches, camera motion is estimated through keypoint detection and matching using the ORB algorithm, followed by essential matrix estimation and recovery of the relative pose between consecutive frames. In the enhanced version, YOLO is employed to detect dynamic objects - such as vehicles and pedestrians - and to remove points located within the regions delimited by their bounding boxes. Additionally, a filtering method was implemented to distinguish between truly moving objects and static ones, such as parked cars. This filter automatically decides when the points of an object should be retained or discarded, thereby reducing unnecessary loss of structural information from the scene. Quantitative evaluation demonstrated that using YOLO without filtering can degrade odometry performance, whereas combining YOLO with the motion filter provides significant improvements in the accuracy of the estimated trajectory.",
+  "subjects": [
+    "Odometria visual",
+    "Visăo por computadores",
+    "Aprendizagem (inteligęncia artificial)",
+    "Redes neurais",
+    "Posiçăo (localizaçăo)",
+    "Mobilidade urbana",
+    "Detecçăo",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80772",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80772&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000555667",
+  "type": "tese",
+  "title": "Desenvolvimento da técnica de tinta sensível a pressăo (PSP) para medidas de campos de pressăo em modelos aerodinâmicos.",
+  "author": "Mauricio Pedrassi",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma técnica óptica de medidas de pressăo conhecida por Tinta Sensível ŕ Pressăo (Pressure Sensitive Paint -PSP) surge na década de 80 para revolucionar as medidas de campo de pressăo. Já muito desenvolvida nos grandes centros de pesquisa do mundo, fornece resultados com boa precisăo e alta resoluçăo espacial, o grande avanço em relaçăo ŕs tomadas de pressăo convencionais. Desde seu surgimento o desenvolvimento da técnica PSP é contínuo, contando com grandes conquistas na formulaçăo das tintas, mas o seu crescimento deve-se principalmente aos avanços tecnológicos em equipamentos como as câmeras CCD e os computadores que permitiram adquirir imagens em grande quantidade e com precisăo, além da facilidade e rapidez no tratamento de dados. O objetivo principal deste trabalho é entender o funcionamento da técnica PSP e aplicá-la desenvolvendo procedimentos experimentais para o Laboratório FENG, complementando suas técnicas de medidas de pressăo. O trabalho foi dividido em duas partes, onde primeiramente trabalhou-se com as calibraçőes a priori avaliando-se o sistema PSP, principalmente o comportamento da tinta. Nesta fase verificaram-se algumas limitaçőes do aparato experimental, como a baixa coleçăo de elétrons pela câmera CCD o que interfere diretamente na incerteza final das medidas, introduzindo um erro mínimo de 0,74% nas medidas de intensidade luminosa. E a dependęncia da tinta PSP ŕ temperatura, o que também influencia em grande parte os resultados das medidas dos campos de pressăo. Numa segunda fase realizaram-se experimentos com um jato de ar inclinado atingindo uma placa plana e os resultados foram comparados aos de tomadas de pressăo convencionais distribuídas ao longo da placa. As maiores variaçőes de pressăo medidas na placa ficaram entre 3000Pa ŕ 5500Pa e forneceram resultados em relaçăo as medidas brutas do sistema PSP com incerteza absoluta na ordem de 1000Pa ( 25%). Quando foi utilizado para comparaçăo das medidas o resultado do sistema PSP suavizado por um filtro mediana, bastante representativo das medidas brutas, as incertezas diminuíram para cerca de aproximadamente 400Pa ( 10%), chegando a um mínimo de 225Pa ( 3%). Um resultado bastante aquém comparado com incertezas absolutas da ordem de 22Pa já obtidas por pesquisadores no exterior. Esses resultados mostraram que ainda há muito a se fazer para obter-se medidas de pressăo precisas com o sistema PSP para fluxos de baixa velocidade. Essa melhora demanda principalmente investimentos no aparato experimental, tornando-o cada vez mais sensível e capaz de medir pequenas variaçőes nas intensidades luminosas decorrentes de pequenas variaçőes de pressăo próximas a pressăo atmosférica. Um resultado importante e que pode ser usado na prática săo os mapas de pressăo fornecidos pela alta resoluçăo espacial do método e que apesar das incertezas envolvidas nas medidas descrevem bem o comportamento do fluxo de ar decorrente do escoamento medido.",
+  "subjects": [
+    "Tintas sensíveis ŕ pressăo",
+    "Medidas de pressăo",
+    "Jatos de ar",
+    "Incerteza de mediçăo",
+    "Revestimento",
+    "Aerodinâmica",
+    "Engenharia química"
+  ],
+  "defense_date": "13/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000555667",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000555667&origem=BDITA"
+}

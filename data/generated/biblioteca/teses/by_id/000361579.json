@@ -1,0 +1,32 @@
+{
+  "num_tese": "000361579",
+  "type": "tese",
+  "title": "Guiagem e controle năo-linear subótimo de veículos lançadores de satélites em malha fechada e em tempo quase real",
+  "author": "Fernando Madeira",
+  "year": "1996",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Atair Rios Neto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho uma nova técnica de programaçăo năo-linear, um método da projeçăo estocástica do gradiente, é aplicada para guiagem e controle năo-linear em tręs dimensőes de veículos lançadores de satélites, utilizando um modelo massa-ponto para o veículo. A validade do procedimento numérico é testada pela resoluçăo de um problema de transferęncia orbital com baixo empuxo. Soluçőes sub-ótimas săo obtidas para a trajetória ascendente do Veículo Lançador de Satélites pela prametrizaçăo da história de controle. Os vínculos săo precisamente satisfeitos e a capacidade de satelizaçăo obtida pelo procedimento é comparável ŕ soluçăo ótima, obtida por procedimentos indiretos. Um procedimento de guiagem e controle em malha fechada é proposto, visando minimizar os efeitos das incertezas e perturbaçőes típicas nas quais está sujeito o veículo durante o vôo. É testada a operaçăo de mudança de objetivo durante o vôo e a utilizaçăo de tempo de queima livre para o último estágio. É mostrada a viabilidade da operaçăo em tempo real pela implementaçăo da técnica de processamento paralelo.",
+  "subjects": [
+    "Mecânica de vôo",
+    "Otimizaçăo de trajetória",
+    "Guiamento (movimento)",
+    "Veículos de lançamento",
+    "Satélites artificiais",
+    "Mecânica (Física)",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "01/03/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000361579",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000361579&origem=BDITA"
+}

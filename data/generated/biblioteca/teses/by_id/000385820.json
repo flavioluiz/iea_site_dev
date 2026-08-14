@@ -1,0 +1,35 @@
+{
+  "num_tese": "000385820",
+  "type": "tese",
+  "title": "Desenvolvimento e aplicaçőes das equaçőes de Riccati em sistemas estruturais.",
+  "author": "Jacek Ricardo Sielawa",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jerzy Tadeusz Sielawa",
+      "professor_slug": null
+    },
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A tese inicia-se com um resumo onde serăo introduzidos conceitos que receberăo adiante tratamento analítico mais aprofundado. Após esta breve introduçăo será relatado o surgimento e a conseqüente evoluçăo histórica das equaçőes de Riccati, até a apresentaçăo de sua forma atual. Definida, classificada e teoricamente desenvolvida, será elucidada a importância da utilizaçăo das equaçőes de Riccati (propriedade estabilizadora e transformaçăo das condiçňes de contorno em condiçőes iniciais). A tese tem como proposta aplicar equaçőes de Riccati em sistemas elásticos (como molas, sistemas torcionais, vigas, cascas, etc.) Sistemas estruturais săo normalmente analisados através de vetores de estado. Por sua vez, vetores de estado săo conectados entre si por matrizes de transferęncia. Serăo analisadas as equaçőes diferenciais que geram as matrizes de transferęncia e a equaçăo diferencial de quarta ordem que \"governa\" o comportamento mecânico da viaga e suas respectivas condiçőes de contorno. Feito isto, será definida a equaçăo diferencial matricial de Riccati, cujo desenvolvimento será conduzido ŕ \"transformada generalizada de Riccati\", poderosa \"ferramenta\" que aplicada ŕs matrizes de transferęncia determina o \"estado\" de um dado sistema estrutural. Finalmente, será apresentado um algoritmo que irá sistematizar a soluçăo de equaçőes matriciais através da transformada generalizada de Riccati, tendo por objetivo sua futura inserçăo computacional.",
+  "subjects": [
+    "Equaçăo de Riccati",
+    "Sistemas elásticos",
+    "Equaçőes diferenciais",
+    "Métodos matriciais",
+    "Análise estrutural",
+    "Estruturas",
+    "Matemática",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000385820",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000385820&origem=BDITA"
+}

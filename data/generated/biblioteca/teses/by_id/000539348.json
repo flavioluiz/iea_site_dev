@@ -1,0 +1,30 @@
+{
+  "num_tese": "000539348",
+  "type": "tese",
+  "title": "Modeling and identification of a fly-by-wire control system.",
+  "author": "Fabio Luciano Demarchi",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates the system identification and modeling techniques applied to a fly-by-wire system for pitch control of a commercial jet aircraft. The objective of the work is to build a model based on system identification techniques and generic modeling of the system, therefore using the \"grey box\" approach. The identification data was obtained from experimental tests performed at Embraer \"Iron Bird\" laboratory. An overview on flight controls systems is presented, focusing on fly-by-wire technology. To provide the theoretical bases for the experimental identification, a review on system identification techniques is presented, together with the preliminary modeling and determination of model structure. It is further presented the identification test laboratory configuration, test procedure and results analysis using the Matlab \"System Identification Toolbox\". The resulting transfer function obtained from system identification process is used to identify the dynamical characteristics of the system's components (hydraulic actuator, servo-valve, electronic control). The linear model identified is therefore analyzed and validated and the non-linearities identified during the analysis are included in the final complete model.",
+  "subjects": [
+    "Identificaçăo de sistemas",
+    "Controle de vôo",
+    "Aeronaves comerciais",
+    "Controle longitudinal",
+    "Controle de pilotagem por fios",
+    "Modelos matemáticos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "24/10/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000539348",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000539348&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "79846",
+  "type": "tese",
+  "title": "Avaliaçăo de hiper-parâmetros de Deep Q-Network aplicada ao controle longitudinal de uma aeronave",
+  "author": "Pedro Henrique Teixeira Freitas",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mário Aparecido Corręa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho busca avaliar a influęncia do ajuste de hiper-parâmetros durante o treinamento de uma DQN, uma abordagem de Aprendizado por Reforço, aplicado ao controle de altitude de um modelo de aeronave. Um modelo linear da aeronave é usado para o treinamento da rede neural. A influęncia de hiper-parâmetros é avaliada em diferentes configuraçőes do problema onde a simulaçăo da aeronave é configurada para iniciar em uma condiçăo trimada em posiçőes aleatórias em torno da altitude objetivo. A avaliaçăo de cada treinamento foi realizada comparando a recompensa obtida em cada sessăo e no domínio do tempo executando um grupo de exemplos. Este trabalho destaca a importância do ajuste de hiper-parâmetros em técnicas de controle baseada em redes neurais bem como a capacidade de controle de uma rede neural quando o modelo de uma aeronave é desconhecido ou muda com o tempo. E conclui apresentando uma metodologia de avaliaçăo de hiper-parâmetros que possa ser replicada e expandida ŕ problemas similares, e indicando os hiper-parâmetros: intervalo entre amostras, tempo de simulaçăo, formato da recompensa, espaço de observaçăo e número de passos ŕ frente como os mais importantes identificados para o problema abordado dentre os avaliados.",
+  "subjects": [
+    "Aeronaves",
+    "Aprendizagem (inteligęncia artificial)",
+    "Controle longitudinal",
+    "Redes neurais",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79846",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79846&origem=BDITA"
+}

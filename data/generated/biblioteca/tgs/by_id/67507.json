@@ -1,0 +1,28 @@
+{
+  "num_tg": "67507",
+  "type": "tg",
+  "title": "Identificaçăo de vibraçőes acústicas de pequenos motores foguetes",
+  "author": "Dante Ricardo Ambrosio",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve como podemos identificar as vibraçőes geradas por campos acústicos, gerados por pequenos motores foguetes na fase de lançamento. O campo acústico incide em todo o corpo do foguete, mas o foco de estudos é em especial na parte superior, onde, em geral, tem-se o payload. Essa atençăo especial deve-se ao fato de que normalmente a carga útil é composta por componentes eletrônicos mais sensíveis a este tipo de vibraçăo.A fonte de ruído acústico no lançamento é o jato de gases que saem da tubeira do motor e é defletido na superfície da base de lançamento para a lateral, na horizontal. E esse ruído acontece devido ao fato que na exaustăo dos gases pela tubeira do motor foguete tem-se um fluxo mássico saindo com uma velocidade bastante elevada, fazendo-se com que haja uma camada de cisalhamento, que faz o ajuste dos gases do jato com o ar da atmosfera. Essa acomadaçăo dos gases é formada um escoamento turbulento e com muitas vorticidades aleatórias, que geram diferenças de pressăo e promovem o ruído sonoro em diversos níveis de intensidade.Essas ondas depois de serm formadas no jato se propagam no ar que envolve o foguete e incidem no corpo do foguete. E na coifa ou ogiva, onde tem-se a carga útil essas ondas fazem a parede vibrar e inserir dentro da cavidade um campo acústico, que pode danificar os componentes sensíveis.Assim, essa pesquisa busca analisar o modelamento dessas vibraçőes que atingem a coifa de acordo com: as condiçőes de operaçőes do motor e de como o jato é defletido na base de lançamento.E havendo um nível de pressăo sonora superior ao máximo exigido nos requisitos do projeto, tem-se algumas soluçőes apresentadas como os ressonadores de Helmoltz e o revestimentos com materiais fono absorvedores. A escolha da melhor soluçăo é uma relaçăo de compromisso, pois envolve a faixa de frequęncia que se deseja retirar um pico de ruído, o peso agregado devivo ao acréscimo de massa.",
+  "subjects": [
+    "Ondas sonoras",
+    "Aeroacústica",
+    "Veículos de lançamento",
+    "Ruído (som)",
+    "Escoamento turbulento",
+    "Camadas de cisalhamento",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67507",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67507&origem=BDITA"
+}

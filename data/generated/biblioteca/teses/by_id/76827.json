@@ -1,0 +1,36 @@
+{
+  "num_tese": "76827",
+  "type": "tese",
+  "title": "Very flexible wing structural analysis considering nonlinear static aeroelastic effects",
+  "author": "Angelo Antonio Verri",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Eduardo Stolf Cesnik",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The wing's aspect ratio is increasing in order to reduce the fuel consumption of the transportation aircraft. The increase in aspect ratio, with the sections of the wing getting thinner and far from the root, also increases the flexibility which demands the use of more advanced methods for the aircraft's development. This thesis proposes a methodology to evaluate the high flexibility effects in the static maneuvers at limit conditions. The Reynolds Average Navier Stokes from CFD++ solver was combined with Nastran® implicit nonlinear solver. The created Fluid-structure Interaction code was integrated by Python in High Performance Computer. With additional blocks of calculation, the resultant multidisciplinary static aeroelastic method is presented. This thesis also investigates the existence of multidisciplinary nonlinear effects in the static structural analyses of stress and buckling which were not captured in the available publications previously to this thesis. A modern aircraft with wing aspect ratio of 12 was used as a reference configuration for the numerical studies. The wing external loads, the wing internal loads, the stresses, and stability of the structural elements were calculated with linear and nonlinear structuralanalyses. The differences found in the results are compared and discussed. The comparisons are aimed to improve the understanding of a modern wing structure in order to create advanced methods for future more flexible wings. Along the thesis, the use and applicability of the high-fidelity analysis is discussed and the multidisciplinary approach is presented as means to capture the chain of nonlinear structural effects.",
+  "subjects": [
+    "Análise estrutural",
+    "Asas",
+    "Estruturas de aeronaves",
+    "Flexibilidade",
+    "Năo-linearidade",
+    "Aeroelasticidade",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/06/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76827",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76827&origem=BDITA"
+}

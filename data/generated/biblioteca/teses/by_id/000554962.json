@@ -1,0 +1,34 @@
+{
+  "num_tese": "000554962",
+  "type": "tese",
+  "title": "Estudo de estabilidade estática de placas de material compósito híbrido (GLARE).",
+  "author": "Romero Maia Soares de Azevedo",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Pazini Brandăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta tese apresenta o estudo da estabilidade estática de placas com uso de novos materiais aeronáuticos, apresentando especificamente o laminado fibra/metal híbrido GLARE, com a aplicaçăo de soluçőes analíticas, modelos de Elementos Finitos e ensaios de laboratório. A análise da estabilidade estática de placas retangulares do material GLARE submetido a carregamento uniaxial é avaliada de tręs formas. Na primeira, faz-se uma análise da carga de flambagem através de soluçőes analíticas, e por se tratar de um laminado com compressăo uniaxial nas bordas simplesmente apoiadas e sem carregamento nas bordas descarregadas livres, aplica-se o método de Lévy. Na segunda săo gerados modelos de Elementos finitos utilizando o NASTRAN para o cálculo da carga de flambagem do laminado. A terceira forma é a análise da carga de flambagem através de ensaios em laboratório com corpos de provas do laminado GLARE. Os resultados das tręs análises descritas săo comparados com os resultados da carga crítica de flambagem de placas de liga de alumínio AA2024T3 e placas de laminado de material compósito de fibra de vidro/Resina Epóxi 7781, calculados através de soluçőes analíticas e modelos de Elementos Finitos no NASTRAN. A segunda análise mostra a rápida convergęncia dos modelos de elementos finitos com um número reduzido de elementos na malha de discretizaçăo. Os resultados obtidos mostram a maior resistęncia ŕ carga de flambagem para o laminado GLARE em comparaçăo com os resultados da placa de liga de alumínio AA2024T3 e placas de laminado de material compósito de fibra de vidro/Resina Epóxi 7781. Esses mesmos resultados podem ser simulados numericamente via Método de Elementos Finitos com diferenças inferiores a 5% com malhas de 1024 elementos.",
+  "subjects": [
+    "Compósitos reforçados por fibras de vidro",
+    "Estabilidade estática",
+    "Laminados",
+    "Placas reforçadas",
+    "Compósitos híbridos",
+    "Análise estrutural",
+    "Modelos matemáticos",
+    "Flambagem",
+    "Ensaios de materiais",
+    "Materiais compósitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "21/09/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000554962",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000554962&origem=BDITA"
+}

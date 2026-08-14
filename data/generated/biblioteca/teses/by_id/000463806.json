@@ -1,0 +1,29 @@
+{
+  "num_tese": "000463806",
+  "type": "tese",
+  "title": "Procedimento de calibraçăo da interface robô-ambiente CAD para programaçăo off-line.",
+  "author": "Fernando Silveira Madani",
+  "year": "2001",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo da programaçăo \"off-line\" para robôs é reconhecidamente um procedimento útil em automaçăo industrial, uma vez que possibilita o desenvolvimento de novos programas e a realizaçăo de testes de configuraçőes no \"workspace\" do robô sem comprometimento do tempo de sua utilizaçăo, realizando-se conseqüentemente, tarefas de baixo custo, e tempo reduzido. A programaçăo off-line necessita que haja a correspondęncia dos dados geométricos entre o modelo \"off-line\" obtido em CAD e o espaço de trabalho do manipulador real. Para que isso ocorra, é preciso fazer a calibraçăo da interface robô-CAD, de maneira a garantir correspondęncia entre software (modelo CAD/programa off-line) e máquina (manipulador/espaço de trabalho). Atualmente esta calibraçăo é feita de maneira \"ad hoc\", năo sistematizada, acarretando uma carga de trabalho adicional para o operador. Como uma soluçăo alternativa a esse problema, é proposto neste trabalho um procedimento para a calibraçăo desta interface, de maneira a validar os resultados obtidos na programaçăo \"off-line\", tornando o procedimento menos dependente da intervençăo do operador. Este procedimento foi elaborado visando a sua utilizaçăo na programaçăo \"off-line\" de robôs em nível de tarefa, cujo objetivo é aumentar o grau de \"inteligęncia\" dos robôs, principalmente em aplicaçőes de montagem. Uma montagem experimental para validaçăo dos resultados foi implementada utilizando o manipulador PUMA® 560 da Unimation e o aplicativo CAD, AutoCAD®. Os resultados obtidos mostraram que o procedimento proposto pode ser usado com sucesso em aplicaçőes industriais.",
+  "subjects": [
+    "Calibraçăo",
+    "Interfaces",
+    "Robótica",
+    "Computer aided design",
+    "Robôs",
+    "Mecatrônica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000463806",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000463806&origem=BDITA"
+}

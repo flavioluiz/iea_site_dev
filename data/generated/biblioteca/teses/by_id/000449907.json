@@ -1,0 +1,28 @@
+{
+  "num_tese": "000449907",
+  "type": "tese",
+  "title": "Método de projeto básico de motores-foguete a propelente líquido para controle de atitude.",
+  "author": "José Alberto Mendes Bernardes",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Mourăo Saboya",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As experięncias que os institutos de pesquisas do Brasil detém com motores-foguete a propelente líquido săo limitadas aos trabalhos acadęmicos e ao desenvolvimento de motores monopropelente e bipropelente de até 115 N de empuxo. Em razăo da necessidade de se desenvolverem motores bipropelente na faixa de 200 a 600 N para os projetos em curso no Brasil, espera-se que este trabalho se torne útil, permitindo a determinaçăo dos parâmetros geométricos e funcionais destes motores, mediante um programa de simulaçăo elaborado em Visual Basic (trade market), denominado WinMotor. Através deste programa podem ser realizadas simulaçőes de operaçăo de um motor, através da variaçăo dos parâmetros iniciais. Como resultado destas simulaçőes, o projetista obtém os parâmetros geométricos e funcionais finais do motor, dentro de uma faixa de eficięncia máxima. Como existem motores bipropelente das mais variadas concepçőes, para a elaboraçăo do programa foi necessário definir os componentes básicos do motor, o algoritmo de cálculo e o par oxidante - combustível. Para o combustível escolheu-se o UDMH e para o oxidante o N2O4. O algoritmo de cálculo como definido é específico para um motor com as seguintes características: câmara de combustăo do tipo cilíndrica, injetor do tipo centrífugo (\"swirl\"), resfriamento interno da parede por meio de filme líquido ou gasoso, pressőes de câmara entre 0,55 a 1,0 MPa e razőes de mistura oxidante - combustível entre 1 e 2,9. A validaçăo teórica do programa foi feita através de testes de coeręncia entre os valores dos parâmetros de entrada com os valores dos parâmetros de saída do programa.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Simulaçăo computadorizada",
+    "Programas de computadores",
+    "Algoritmos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000449907",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000449907&origem=BDITA"
+}

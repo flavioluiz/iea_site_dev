@@ -1,0 +1,28 @@
+{
+  "num_tese": "76030",
+  "type": "tese",
+  "title": "Análise de estabilidade em painéis planos enrijecidos trincados pelo método de Rayleigh-Ritz",
+  "author": "Bruno Nery Souza Bernardino",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de painéis enrijecidos em estruturas de aeronaves é frequente, por isso, estudos para tornar seu funcionamento cada vez mais eficiente e seguro săo de suma importância. Contudo, muitas vezes é inevitável que o manuseio e a utilizaçăo de tais estruturas danifiquem o revestimento. Diante deste cenário, este trabalho propőe-se a estudar a estabilidade estrutural de painéis planos enrijecidos na presença de trincas utilizando o método de Rayleigh-Ritz. Os resultados para a carga de flambagem obtidos por esta metodologia săo confrontados com os extraídos de modelos refinados de elementos finitos de deslocamento, ou com valores presentes na literatura. No modelo de Rayleigh-Ritz, o painel com trinca é dividido em subdomínios, o revestimento é modelado como placa de Kirchhoff, e os reforçadores como vigas de Euler-Bernoulli. Foram adotadas bases hierárquicas polinomiais e trigonométricas para aproximar os deslocamentos de cada subdomínio, e a devida imposiçăo de continuidade é dada pela escolha adequada das funçőes de aproximaçăo. Os resultados obtidos para ambas as bases tenderam para os mesmos valores de cargas de flambagem, tendo a base polinomial apresentado taxas de convergęncia ligeiramente maiores do que a base trigonométrica. Ambas apresentaram convergęncia com uma quantidade de graus de liberdade bem abaixo da necessária nos modelos em elementos finitos de deslocamento.",
+  "subjects": [
+    "Painéis",
+    "Trincas",
+    "Placas reforçadas",
+    "Método de Rayleigh-Ritz",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "26/06/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76030",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76030&origem=BDITA"
+}

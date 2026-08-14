@@ -1,0 +1,27 @@
+{
+  "num_tese": "000194500",
+  "type": "tese",
+  "title": "Projeto mecânico de um telescópio de raios gama a bordo de balăo estratosférico",
+  "author": "Marcio Aurélio de Paiva Souza",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo desse trabalho é o desenvolvimento da parte mecânica de um Telescópio Imageador para observaçăo de raios-x gama emitidos por fontes celestes. Devido ŕ influęncia da atmosfera, as observaçőes a serem executadas deverăo ocorrer a 40 km de altitude em uma gôndola que voará acoplada a um balăo estratosférico, capacitada para apontamento e estabilizaçăo em alvos celestes através dos eixos de elevaçăo e azimute.Visando o desenvolvimento, foi feita uma ampla revisăo bibliográfica levando-se as soluçőes mecânicas e restriçőes do projeto. Com base nesse levantamento foi definida a arquitetura do sistema, resultando num mecanismo de elevaçăo do telescópio; um mecanismo de desacoplamento de movimentos rotacionais; uma roda de reaçăo para o controle de movimentos azimutais e a própria gôndola. O projeto do telescópio foi feito com o auxílio de CAD, e na análise estrutural, utilizou-se técnicas de elementos finitos, sendo NASTRAN o software utilizado. Os componentes utilizados foram validados através da simulaçăo do modelo dinâmico desenvolvido. Foi utilizado para essa simulaçăo, um controle bastante simples tipo P-D, através do qual se conclui que a configuraçăo utilizada é satisfatória para que se atenda ŕs restriçőes do projeto, com um consumo de potęncia bastante razoável e um bom tempo de resposta.",
+  "subjects": [
+    "Telescópios de raios Gama",
+    "Projetos",
+    "Projeto estrutural",
+    "NASTRAN"
+  ],
+  "defense_date": "01/10/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194500",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194500&origem=BDITA"
+}

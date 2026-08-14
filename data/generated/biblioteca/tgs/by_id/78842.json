@@ -1,0 +1,31 @@
+{
+  "num_tg": "78842",
+  "type": "tg",
+  "title": "Quantum algorithm based on the truncated taylor series for solving linearized equations of the relative motion",
+  "author": "Rodrigo Pires Ferreira",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "André Jorge Carvalho Chaves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "abstract": "Quantum Computing is an alternative way to process information. Due to the intrinsic features of Quantum Mechanics, quantum algorithms might perform calculations in fewer steps than their classical counterparts, accelerating the simulation process. We can apply this ''quantum advantage'' to many areas, including Orbital Mechanics, which has problems (e.g., satellite constellation, complete models with disturbing forces) that are computationally hard and expensive to solve. Our objective is to solve the linearized equations of relative motion via a quantum algorithm based on the truncated Taylor Series (TTS algorithm). We also create and apply the DTTS (Dynamic Truncated Taylor Series) algorithm, a new version of TTS which immensely enhances its accuracy. Then, we implement TTS and DTTS algorithms in a quantum simulator and real quantum computer to solve an Orbital Mechanics' relative motion problem. Finally, we compare the results to those obtained via classical numerical methods and discuss the challenges and advantages of the quantum approach.",
+  "subjects": [
+    "Mecânica quântica",
+    "Mecânica orbital",
+    "Computaçăo quântica",
+    "Equaçőes diferenciais",
+    "Mecânica celeste",
+    "Astronomia"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78842",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78842&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "000541401",
+  "type": "tese",
+  "title": "Estudo numérico do processo de injeçăo em um túnel de vento transônico.",
+  "author": "Joăo Batista Pessoa Falcăo Filho",
+  "year": "2006",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Injetores supersônicos săo instalados em túneis de vento transônicos com a finalidade de estender o envelope operacional baseado no número de Reynolds, sem demandar maior potęncia do compressor principal. O objetivo deste trabalho é estudar numericamente o processo de injeçăo do Túnel Transônico Piloto do CTA. A câmara de injeçăo contém cinco bicos injetores localizados no piso e cinco no teto do túnel, os quais operam com número de Mach 1,9, fornecendo quantidade de movimento adicional ŕ corrente principal do circuito do túnel. Tal câmara na verdade é a própria seçăo de transiçăo do túnel, a qual, por sua vez, localiza-se imediatamente antes do difusor. Devido ŕ grande diferença entre as dimensőes dos injetores e da seçăo transversal do túnel, onde os mesmos encontram-se montados, o tratamento tem que ser necessariamente tridimensional. Para tanto foi desenvolvido um código numérico baseado nas equaçőes de Navier-Stokes com média de Reynolds, seguindo-se o princípio do algoritmo diagonal em diferenças finitas, e efeitos de turbulęncia foram previstos por meio do esquema de Spalart e Allmaras. Várias hipóteses simplificadoras foram introduzidas para tornar o problema factível e a integraçăo numérica é realizada dividindo o domínio de cálculo em sub-regiőes. Mesmo assim, devido ao grande número de pontos, foi aplicada uma técnica de malhas seqüenciais para economizar o tempo computacional. O escoamento na regiăo de mistura foi simulado com sucesso e os resultados foram todos consistentes. Com os valores dos parâmetros conhecidos em todo o domínio computacional, foram calculados o coeficiente de perda de carga, o ganho e a eficięncia do processo de injeçăo - parâmetros estes de grande importância na engenharia de túneis de vento. Entre diversos aspectos físicos muito interessantes, destaca-se a formaçăo de domos de choque e expansăo ao longo da direçăo longitudinal no processo de mistura.",
+  "subjects": [
+    "Escoamento de jatos misturados",
+    "Escoamento turbulento",
+    "Túneis de vento transônicos",
+    "Injeçăo",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "21/06/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541401",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541401&origem=BDITA"
+}

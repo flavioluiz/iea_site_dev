@@ -1,0 +1,36 @@
+{
+  "num_tese": "80539",
+  "type": "tese",
+  "title": "A semi-analytical model for stress and stability analyses of composite cylinders accounting for geometrical and loading imperfections effects",
+  "author": "Plínio Ricardo dos Santos",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "abstract": "Cylindrical shell structures have many applications, such as ducts for gas and liquid transportation, poles for transmission and distribution lines, pressure vessels, aircraft fuselages, and rocket bodies. In the aerospace industry, composite cylindrical shells are widely used in the design of lightweight and efficient aerospace launch vehicle (LV) structures. In many applications, due to compressive and pressurization loads, buckling and tensile stress drive the design. The development of accurate methodologies for structural analysis of composite cylindrical shells requires accounting for asymmetric load distribution and geometric and material imperfections related to the manufacturing process. In this work, a semi-analytical model, based on the Ritz method, is proposed to evaluate the stress and critical buckling load of composite cylindrical shells, taking into account initial geometric and loading imperfection effects. The Ritz method is based on the total potential energy, and a series of functions approximates the displacement field. Usually, the approximation functions are chosen in order to satisfy the geometric boundary conditions. The transverse shear is also incorporated in the strain-displacement relations. In the present work, the Fourier trigonometric series in terms of sines and cosines has been used to describe the displacement field. Elastic constraints have been incorporated into the formulation in order to impose different boundary conditions along the loaded edges, allowing the modeling of simply supported and fully clamped boundary conditions. The Fourier series is also employed to incorporate the loading and geometric imperfections signature from real cylinders. A composite carbon/epoxy cylinder was manufactured and tested. Simulations were performed for carbon/epoxy composite cylinders, and the results were compared with numerical predictions obtained using Abaqus Finite Element (FE) commercial software and experimental results. A fairly good agreement between predictions obtained from the proposed semi-analytical model, FE, and experimental results was found.",
+  "subjects": [
+    "Cascas cilíndricas",
+    "Materiais compósitos",
+    "Flambagem",
+    "Ensaios de compressăo",
+    "Metodo de media de Ritz",
+    "Séries de Fourier",
+    "Estruturas",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "04/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80539",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80539&origem=BDITA"
+}

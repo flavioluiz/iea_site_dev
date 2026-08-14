@@ -1,0 +1,33 @@
+{
+  "num_tese": "000147272",
+  "type": "tese",
+  "title": "Técnica de transformada integral generalizada no desenvolvimento simultâneo dos perfis de velocidade e temperatura em escoamento laminar em dutos de geometria simples",
+  "author": "Joăo Batista Campos Silva",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Renato Machado Cotta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A técnica de transformada integral generalizada é utilizada para a obtençăo de soluçőes analíticas do problema de convecçăo forçada em regime laminar, na regiăo de entrada de dutos de geometria simples, tais como canais de placas paralelas e dutos circulares. Nessa regiăo as camadas limites hidrodinâmica e térmica estăo se desenvolvendo simultaneamente. O fluido é considerado como newtoniano e suas propriedades físicas como constantes. Săo utilizadas distribuiçőes de velocidades longitudinais na forma analítica, as quais estăo disponíveis na literatura e foram obtidas por métodos de linearizaçăo da equaçăo de qualidade de movimento na direçăo axial. A partir da distribuiçăo de velocidade axial obtém-se a distribuiçăo de velocidade normal e analisa-se a influęncia desta velocidade sobre os parâmetros de transferęncia de calor: temperatura média de mistura e números de Nusselt local e médio. Analisa-se também a influęncia de dois perfis de velocidades diferentes sobre os resultados. Obtém-se resultados numéricos para a temperatura média de mistura e números de Nusselt local e médio considerando-se a geometria de um canal de placas planas paralelas, resolvendo-se um sistema completo de equaçőes diferenciais ordinárias acopladas, para vários números de Prandtl. Implementam-se também, soluçőes aproximadas para um cálculo mais rápido dos resultados, verificando-se a precisăo de tais soluçőes. Quando possível os resultados săo comparados com resultados existentes na literatura.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Transformaçőes integrais",
+    "Convecçăo forçada",
+    "Escoamento incompressível",
+    "Escoamento laminar",
+    "Fluidos newtonianos",
+    "Número de Prandtl",
+    "Número de Nusselt",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/05/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000147272",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000147272&origem=BDITA"
+}

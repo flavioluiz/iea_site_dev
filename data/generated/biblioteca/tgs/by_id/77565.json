@@ -1,0 +1,25 @@
+{
+  "num_tg": "77565",
+  "type": "tg",
+  "title": "Machine learning applied to communication channels",
+  "author": "Eduardo Dadalto Câmara Gomes",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Manish Sharma",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Error correction code for communication channels is key to enable digital communication systems to work efficiently. The maximum a posteriori (MAP) algorithm finds the most likely information bit transmitted in a coded sequence. It is proven to be the mathemat =ically optimal solution for the problem. However, its implementation cripples the system applicability. This is because the MAP rule introduces a large delay for long code words. In this context, deep neural network (DNN) based decoders are proposed to replicate the MAP's error correction performance but with decreased delay. We conducted experiments for the binary symmetric channel (BSC) and the additive white Gaussian noise (AWGN) channel, which are usual channels. The smart decoders proved to be around 25% faster than the MAP while achieving the same bit-error-rate (BER) performance. Also, we explore machine-learning-based autoencoders as an end-to-end model of communication systems. The classic block-based structure of these systems may be limited. Autoencoders works by reconstructing the input through a neural network. They can extract non-linear complex features from the input space to a latent space with a neural-based encoder. Then, they reconstruct examples from the latent space with a neural-based decoder. Both models are optimized together to improve the reconstruction of the message. The latent space can be seen as the physical layer, where added noise may corrupt the message. The trained autoencoder showed a smaller BER than the linear block code-MAP decoder pair for both channel types. The autoencoders had a longer overall delay due to the larger number of parameters, which could be improved in future work.",
+  "subjects": [
+    "Processamento digital de sinais",
+    "Aprendizagem (inteligęncia artificial)",
+    "Algoritmos",
+    "Telecomunicaçőes",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77565",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77565&origem=BDITA"
+}

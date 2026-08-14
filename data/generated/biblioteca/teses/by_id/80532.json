@@ -1,0 +1,35 @@
+{
+  "num_tese": "80532",
+  "type": "tese",
+  "title": "Numerical analysis of hydrogen combustion in a SR30 micro gas turbine engine using ansys fluent",
+  "author": "Mayara Lopes Salgado",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "This research aimed to study, using Computational Fluid Dynamics (CFD), the hydrogen combustion in diffusive flames system in permanent regime in the combustion chamber of the SR30 Micro Gas Turbine Engine, which has a reverse flow annular combustor configuration. The combustion chamber under study was simulated using the Non-Premixed Combustion model following the Flamelet approach, which uses the Probability Density Function (PDF), configured in the Ansys Fluent software. The study methodology applied was initially to simulate the aviation kerosene (Jet A3) combustion, in stoichiometric concentration, following the design operating conditions obtained through experimental results as a way of validating the system, and then to study the hydrogen combustion in air in the established combustor domain. The numerical simulation applied in this work can be understood as a simulation of multiphase reactive flows since the injection system was characterized as a discrete second phase Discrete Phase Model (DPM). The results presented refer to the simulation of 100% Jet A3 and 100% H2. Since the simulation methodology applied proved to be well-established and, in the case of a complex domain with a large number of mesh elements and a simulation model that requires a high computational cost, although the validation stage indicated the need for refinements to improve the correlation with experimental data, the results obtained point to hydrogen as a technically promising substitute fuel for aviation kerosene in microturbines. The Non-Premixed Combustion model, the k-epsilon turbulence model and the use of the DPM multiphase system proved promising for simulation of reactive flows. The average temperature of the hydrogen exhaust gases was lower than that of kerosene and Jet A3. The pattern factors obtained indicate the formation of hot spots. The H2O concentration at the outlet for burning H2 represented a 156% increase compared to burning Jet A3. The residence times, velocities and temperatures of the Jet A3 and H2 particles showed that the hydrogen particles propagate 2.14 times faster than the Jet A3 particles. The NOx concentration on a dry basis in ppm at the outlet for hydrogen combustion reached values 5.6 times higher than for Jet A3 combustion. These behaviors demonstrate the need to consider the design requirements of H2 combustors.",
+  "subjects": [
+    "Câmaras de combustăo",
+    "Turbinas a gás",
+    "Análise numérica",
+    "Hidrogęnio",
+    "Dinâmica dos fluidos computacional",
+    "Simulaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/07/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80532",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80532&origem=BDITA"
+}

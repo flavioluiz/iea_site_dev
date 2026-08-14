@@ -1,0 +1,30 @@
+{
+  "num_tese": "68849",
+  "type": "tese",
+  "title": "Cálculo de características aerodinâmicas de asas através da equaçăo integral de weissinger e do método de multhopp",
+  "author": "Alejandro Arturo Rios Cruz",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é a apresentaçăo de um método prático para a obtençăo das características aerodinâmicas de asas variando diversas propriedades geométricas. O método apresentado visa ser aplicado em tarefas relacionadas ao projeto de aeronaves utilizando métodos de otimizaçăo multidisciplinar e em investigaçőes onde o fator consumo computacional versus precisăo dos resultados seja fundamental. Para atingir estes objetivos, foi implementada uma metodologia que tem como base de cálculo o modelo da linha sustentadora estendida apresentado por Weissinger. O modelo possibilita o cálculo de asas variando o enflechamento, alongamento, afilamento e torçăo, entre outros parâmetros. Somado a um conjunto de correçőes e o uso de outras metodologias aplicadas em sub-rotinas, o método apresenta-se como uma ferramenta rápida e que fornece bons resultados quando comparada com outras metodologias similares utilizados na atualidade. Neste trabalho, săo apresentadas a fundamentaçăo teórica, análises de convergęncia e resultados comparativos com a teoria e testes experimentais, que em conjunto, demostram as capacidades e aplicabilidades do mesmo.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Asas",
+    "Características aerodinâmicas",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Aerodinâmica",
+    "Sustentaçăo aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/07/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68849",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68849&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "000566973",
+  "type": "tese",
+  "title": "Modelo de planejamento hospitalar eletivo via programaçăo dinâmica aproximada.",
+  "author": "Elmer Dotti",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O propósito desse trabalho é composto por cinco objetivos distintos: (1) modelar o problema de admissăo de pacientes em hospitais eletivos por programaçăo dinâmica aproximada; (2) resolver o modelo formulado utilizando um algoritmo de estimaçăo adaptativa do valor de funçőes côncavas; (3) estabelecer métricas de qualidade para a soluçăo obtida pela soluçăo do modelo; (4) realizar uma análise comparativa entre os resultados obtidos quando modelado por processo markoviano de decisăo e por programaçăo dinâmica aproximada; (5) fazer uma análise de sensibilidade automatizada, para análise de impacto da alteraçăo dos parâmetros do modelo nos resultados, em modelos de programaçăo dinâmica aproximada. A razăo de se controlar o processo de admissăo de pacientes é promover a utilizaçăo mais eficiente dos recursos hospitalares pela diminuiçăo de sua ociosidade ou de sua utilizaçăo excessiva. O problema de planejamento de admissăo de pacientes eletivos como um modelo de programaçăo dinâmica aproximada, apresenta uma diminuiçăo no espaço de estados e açőes reduzindo assim a alta dimensionalidade das instâncias reais do problema, o que determina um custo computacional bastante reduzido quando comparado ŕ soluçăo da modelagem do problema por processo markoviano de decisăo. Os resultados obtidos pela soluçăo da modelagem do problema via programaçăo dinâmica aproximada, para o caso da Rede de Hospitais Sarah de Brasília, demonstraram que foi possível obter uma política de decisăo mais eficiente, com menor tempo de processamento e maior robustez (pela análise de sensibilidade efetuada). Espera-se que ao final da leitura desse trabalho, o leitor conheça como a programaçăo dinâmica aproximada opera, suas principais diferenças em relaçăo aos métodos exatos e a contribuiçăo que estabelece no processo de soluçăo de problemas dinâmicos e estocásticos de alta dimensăo.",
+  "subjects": [
+    "Pesquisa operacional",
+    "Sistemas de administraçăo",
+    "Hospitais",
+    "Programaçăo dinâmica",
+    "Processos estocásticos",
+    "Matemática"
+  ],
+  "defense_date": "29/11/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000566973",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000566973&origem=BDITA"
+}

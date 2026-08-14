@@ -1,0 +1,40 @@
+{
+  "num_tese": "79176",
+  "type": "tese",
+  "title": "Control of surface imperfections on the transition of boundary layers",
+  "author": "Pedro Paulo de Carvalho Brito",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    },
+    {
+      "name": "Ardeshir Hanifi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This thesis presents studies seeking to reduce frictional drag in boundary layers. Three approaches were developed: (i) the specification of manufacturing tolerances for laminar wing designs; (ii) the closed-loop control design to delay the transition; (iii) the development of passive control to reduce turbulent boundary layer drag. Regarding the specification of manufacturing tolerances for laminar wing designs, the work presents a methodology based on the adjunct approach for surfaces subject to undulation-type excrescences. Perturbation amplification was computed using Euler equations, boundary layer and parabolized stability equations (PSE). For specific flight conditions, manufacturing limits that cause the N-factor to vary by up to two units have been specified for airfoil NLF(2)-0415. With regard to active control of the boundary layer for delaying the transition to turbulence, this work presents the experimental implementation of the IFFC control technique for attenuation of Tollmien-Schilichting (TS) waves over a wing section using a plasma actuator. Data acquisitions in the boundary layer region were performed with microphones to investigate the applicability of simpler and cheaper devices in this type of application. An order of magnitude attenuation was achieved in the amplitude of the TS waves. Finally, this work shows a passive control strategy to reduce the friction coefficients in a turbulent boundary layer over a flat plate in an open-circuit wind tunnel. Passive control was performed by applying screens positioned close to the wall (y+ ? 50) to act as an actuator in fluctuations normal to the surface. Experimental results were compared with numerical simulations (LES). Reductions of up to sixty percent in the coefficients of friction were achieved just after the screen region, followed by a recovery of the coefficients of friction values for the turbulent patterns.",
+  "subjects": [
+    "Transiçăo de camada limite",
+    "Reduçăo de arrasto",
+    "Escoamento turbulento",
+    "Manufaturas",
+    "Camada limite laminar",
+    "Camada limite turbulenta",
+    "Equaçőes de Euler-lagrange",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "23/06/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79176",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79176&origem=BDITA"
+}

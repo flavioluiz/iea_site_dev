@@ -1,0 +1,36 @@
+{
+  "num_tese": "79069",
+  "type": "tese",
+  "title": "Estimaçăo de resistęncias térmicas de contato em sistemas embarcados via regularizaçăo por tempos futuros",
+  "author": "Luiz Eduardo Silva Resende",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Humberto Araujo Machado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No âmbito da transferęncia de calor, os problemas inversos tratam da estimaçăo de parâmetros difíceis de serem medidos de forma direta. A utilidade das técnicas inversas é tal que devido a condiçőes severas, a mediçăo direta de uma certa variável se torna inacessível. Geralmente isso se dá por impedimento geométrico, altas pressőes ou altas temperaturas, por exemplo. Especificamente, este trabalho objetiva realizar a estimaçăo inversa em dois problemas, sendo o primeiro a estimaçăo de fluxo térmico e resistęncia térmica de contato entre duas chapas de aço SAE 1020 aquecidas e o segundo a estimaçăo simultânea de tręs resistęncias térmicas em um sistema embarcado formado por 4 componentes e ar ambiente. No primeiro caso, usado como validaçăo para o segundo caso, a equaçăo do calor é resolvida usando o Método dos Volumes Finitos para a discretizaçăo da equaçăo de difusăo e as técnicas Parallel Cyclic Reduction, PCR, e Sucessive Over Relaxation, SOR, para a soluçăo do sistema de equaçőes lineares. Nesse primeiro caso, o setup de estimaçăo inversa é composto pela técnica Regularizaçăo por Tempos Futuros, RTF, e o algoritmo de otimizaçăo Markov Chain Monte Carlo, MCMC. Já no segundo caso, o problema direto é resolvido usando Runge-Kutta de quarta ordem para solucionar o sistema de EDOs. Já nesse caso, o setup de estimaçăo inversa é composto pela técnica RTF. Os resultados săo calculados usando o Método de Otimizaçăo Quadrilateral, MOQ, e também o algoritmo MCMC. O uso de diferentes algoritmos de otimizaçăo é feito para exaurir a capacidade da técnica em realizar estimaçăo multivariada. Por fim, os valores de resistęncia térmica encontrados foram comparados com resultados presentes em literatura. Os resultados deste trabalho consolidam um setup de estimaçăo inversa de baixo custo e atestam a capacidade de estimaçăo multivariada no contexto de problemas térmicos, já que os problemas de instabilidades e correlaçőes inerentes a tais técnicas representam grandes desafios.",
+  "subjects": [
+    "Análise térmica",
+    "Transferęncia de calor",
+    "Problemas inversos",
+    "Resistęncia térmica",
+    "Equaçőes lineares",
+    "Algoritmos",
+    "Método de Monte Carlo",
+    "Física"
+  ],
+  "defense_date": "10/05/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79069",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79069&origem=BDITA"
+}

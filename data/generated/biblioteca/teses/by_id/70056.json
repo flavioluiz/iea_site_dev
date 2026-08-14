@@ -1,0 +1,29 @@
+{
+  "num_tese": "70056",
+  "type": "tese",
+  "title": "Computational fluid mechanics strategy to determine the centrifugal compressor operational characteristic MAP",
+  "author": "Gustavo Bonolo de Campos",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The constant increase of computational power over time allowed the propagation of Computational Fluid Dynamics (CFD). Once restricted to the academic environment, the availability of computational power popularized this tool, which is today essential for the development of several machines. Considering the high cost and time consumption associated with the construction of experimental test facilities, the CFD revolutionized the understanding of the fluid behavior since a validated simulation provides a unique insight into all properties within the domain of interest. However, without proper theoretical background, the application of CFD may be misleading. Therefore, the main concern of this work is establishing a proper methodology for the simulation of a centrifugal compressor. A secondary concern is optimizing time consumption in order to fulfill industrial applications requirements. The present methodology allowed the simulation of an entire compressor operational characteristic map composed by fifty-six different operational conditions. The results were compared with experimental data to assess the method prediction capabilities. Overall, the predictions were in agreement with experimental results, although operational conditions close to choke and surge presented considerable discrepancy. At last, the results allowed a qualitative evaluation of the volute and the porter shroud within the entire compressor operational range, which provided an insight into their operation.",
+  "subjects": [
+    "Compressores centrífugos",
+    "Dinâmica dos fluidos computacional",
+    "Turbocompressores",
+    "Mecânica dos fluidos",
+    "Programas de computadores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "03/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=70056",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=70056&origem=BDITA"
+}

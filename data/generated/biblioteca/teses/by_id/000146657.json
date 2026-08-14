@@ -1,0 +1,30 @@
+{
+  "num_tese": "000146657",
+  "type": "tese",
+  "title": "Cálculo do escoamento turbulento e transferęncia de calor na regiăo de entrada de tubos e entre placas paralelas com duas versőes do modelo K-e para baixos números de Reynolds",
+  "author": "Edson Luiz Zaparoli",
+  "year": "1989",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Euclides Carvalho Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Calcula-se o escoamento turbulento na entrada de tubos e entre placas paralelas com as versőes de Launder-Sharma e Lam-Bremhorst do modelo ';k-épsilon';, válidas paraescoamentos próximos a superfícies sólidas e a baixos números de Reynolds. Resolvem-se numericamente as equaçőes da continuidade, de quantidade de movimento axial, de energia, de k (energia cinética turbulenta) e de ';épsilon'; (taxa de dissipaçăo da energia cinética turbulenta), admitindo as simplificaçăoes da camada limite. A cada passo axial de integraçăo das equaçőes, prvę-se o gradiente de pressăo pelo método de Patankar-Spalding e a cada iteraçăo, realizadas para resolver as equaçőes năo lineares, este gradiente é corrigido por um método proposto, que é baseado na equaçăo exata do gradiente axial da pressăo. Para realizar uma validaçăo do programa decomputador desenvolvido, compararam-se os resultados, primeiro para o escoamento laminar na regiăo de entrada, e depois para o escoamento turbulento desenvolvido. Em seguida obtiveram-se resultados para escoamento turbulentos, com altos valores do número de Reynolds, na regiăo de entrada de tubos e entre placas paralelas; com uma distribuiçăo de k na entrada dos dutos de acordo com os resultados experimentais para a saída da contraçăo, que dirige o escoamento ŕ boca de entrada dos dutos. A concordância entre os resultados teóricos e osexperimentais é muito boa até o ponto onde a velocidade na linha de centro atinge o pico de máximo (overshoot), que corresponde aproximadamente ao encontro das camadas limites. A interaçăo as camadas limites acarreta uma produçăo negativa de turbulęncia (supressăo), que năo é simulada corretamente pelo modelo ';k-épsilon';. Após este ponto de máximo, a discordância entre os resultados é um pouco maior, apesar deainda se prever que a velocidade na linha de centro năo tende monotonicamente laminar. Os resultados teóricos para o perfil de tensăo turbulenta, ';uv BARRA';, tem um desenvolvimento muito semelhante ao de uma camada limite externa até o ponto de encontro das camadas limites e depois se ajustam a variaçăo linear do escoamento desenvolvido; de acordo com a explicaçăo de Bradshaw para o pico da velocidade média na linha de centro. Obtiveram-se, tambem, os resultados para escoamento a menores números de Reynolds, inclusive, segundo os resultados experimentais para o número de Nusselt, com transiçăo laminar-turbulento. Os resultados teóricos para o número ne Nusselt, obtidos com a versăo do modelo ';k-épsilon'; de Launder-Sharma, reproduzem o comportamento dos resultados experimentais, com boa concordância e inclusive com previsăo do mínimo no início da transiçăo. Analisando o desenvolvimento da tensăo ';uv BARRA'; ao longo do tubo, nota-se que o perfil imposto na boca de entrada, tende a diminuir na regiăo onde o número de Nusselt decai, e cresce abruptamente após o mínimo do número de Nusselt. Como neste caso năo havia resultados experimentais da tensăo ';uv BARRA'; para comparaçăo, năo se pode afirmar, que esta versăo do modelo ';k-épsilon'; prevę a transiçăo corretamente neste escoamento. Pelas comparaçőes realizadas, entre resultados teóricos e experimentais, verificou-se que, nos escoamentos analisados, a versăo do modelo ';k-épsilon'; de Launder-Sharma apresentou uma performance melhor que a de Lam-Bremhorst.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Transferęncia de calor",
+    "Escoamento de fluidos",
+    "Placas Paralelas",
+    "Baixo número de Reynolds",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/03/1989",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000146657",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000146657&origem=BDITA"
+}

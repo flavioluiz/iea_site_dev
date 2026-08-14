@@ -1,0 +1,26 @@
+{
+  "num_tg": "80090",
+  "type": "tg",
+  "title": "Modelagem de SARPs (Sistemas de Aeronaves Remotamente Pilotadas) em ambiente de Realidade Virtual",
+  "author": "Phellype Rerison Figueiredo de Freitas",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este projeto teve como objetivo o desenvolvimento de um sistema de monitoramento de drones em tempo real utilizando realidade aumentada, integrando tecnologias como o Geospatial Creator da Google, Unity, e o protocolo MQTT para criar uma soluçăo robusta e intuitiva. O sistema foi projetado para posicionar drones virtuais com base em coordenadas geográficas precisas, utilizando âncoras geoespaciais que permitem a sincronizaçăo do mundo virtual com o físico. Durante o desenvolvimento, um objeto denominado GeospatialController foi implementado para gerenciar a criaçăo e atualizaçăo das âncoras, e outro, chamado MQTT_receiver, foi utilizado para receber dados de localizaçăo em tempo real via protocolo MQTT. Testes foram realizados em uma trajetória simulada entre dois pontos no H8, alojamento do ITA, utilizando um tablet Samsung Galaxy Tab S9, para avaliar a precisăo do sistema, a estabilidade das âncoras e a responsividade ŕs mudanças de posiçăo dos drones. Apesar de o sistema ter demonstrado alta precisăo na representaçăo das posiçőes e fluidez nas transiçőes, foi identificado que o processo de destruiçăo e recriaçăo das âncoras causava pequenas travadas na câmera, indicando que há espaço para otimizaçőes no gerenciamento das âncoras. A integraçăo entre MQTT e Geospatial Creator permitiu a atualizaçăo contínua e confiável das posiçőes, demonstrando o potencial do sistema para aplicaçőes práticas em monitoramento aéreo. Os resultados alcançados refletem a viabilidade de soluçőes baseadas em realidade aumentada para a gestăo do espaço aéreo e oferecem uma base sólida para futuros aprimoramentos e expansőes do sistema.",
+  "subjects": [
+    "Realidade virtual",
+    "Veículos pilotados remotamente",
+    "Aeronave năo-tripulada",
+    "Protocolos de comunicaçăo",
+    "Engenharia aeronáutica",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80090",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80090&origem=BDITA"
+}

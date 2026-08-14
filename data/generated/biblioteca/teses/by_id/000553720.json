@@ -1,0 +1,31 @@
+{
+  "num_tese": "000553720",
+  "type": "tese",
+  "title": "Simplified engine/nacelle heat transfer case analysis via CFD modeling for supporting the preliminary design of nacelle cooling/ventilation system.",
+  "author": "Ricardo Pereira das Neves",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "An aeronautical engine is a complex machine composed of different components operating at different temperatures that in conjunction with the nacelle creates a crowded region with the coupled heat transfer mechanisms to be covered by the nacelle cooling/ventilation system. The final configuration of this system is defined through a demanding refinement of the preliminary design. For this reason the preliminary design is considered the key point and as a rule it can be based on the use of similar design scaling or by the use of numerical approaches. The numerical approaches available are the use of a one-dimensional heat transfer analysis or a complete heat transfer analysis via Computational Fluid Dynamics, or CFD. The short lead time usually available to get the nacelle ready leads the using of a more simplified analysis. Even though this simplified analysis is a lesser laborious activity than a more complete heat transfer analysis, it is still a relatively complicated task. Thus this work aims at presenting a simple methodology for supporting the preliminary design of nacelle cooling/ventilation which is basically relies on confirming if such system is really necessary taking into consideration the temperature distribution in the region between the engine/nacelle and the specified limits. In this case, the proposed methodology presented in this work is concerning to the natural convection analysis in a bidimensional engine/nacelle model by the use of CFD. In view of the fact that there is no specific literature reference available about such methodology or the natural convection analysis in an analogous model configuration or even experimental tests results, it was decided to utilize the studies about natural convection in concentric cylinders in the model validation process and to show the suitability of the proposed methodology, it was directly compared to the natural convection analysis in a simplified tridimensional engine/nacelle model by the use of CFD tool which would be performed by the manufacturer.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Dinâmica dos fluidos computacional",
+    "Sistemas de refrigeraçăo",
+    "Ventilaçăo",
+    "Nacelas",
+    "Motores de aeronaves",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "06/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000553720",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000553720&origem=BDITA"
+}

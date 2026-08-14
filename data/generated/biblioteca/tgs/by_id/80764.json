@@ -1,0 +1,32 @@
+{
+  "num_tg": "80764",
+  "type": "tg",
+  "title": "Desenvolvimento de metodologia para determinaçăo do atraso de igniçăo de propelentes hipergólicos",
+  "author": "Joăo Vitor Lima dos Santos",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Leonardo Henrique Gouvęa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Gustavo Ferroni Pereira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho de graduaçăo tem como objetivo principal desenvolver uma metodologia para a determinaçăo do atraso de igniçăo de propelentes líquidos hipergólicos, baseada no teste de queda de gota, que năo seja dependente do uso de câmeras de alta velocidade. O método tradicional com câmeras apresenta limitaçőes, como o alto custo dos equipamentos importados e a análise das imagens, geralmente manual e sujeita a erros técnicos e de interpretaçăo. A metodologia desenvolvida busca superar essas dificuldades incorporando automatizaçăo no processo, com o uso de componentes eletrônicos de baixo custo e acessíveis nacionalmente, para reduzir a influęncia de erros operacionais. Para isso, foram desenvolvidos sistemas automáticos de formaçăo de gota, detecçăo do contato entre propelentes e identificaçăo da igniçăo, além de um programa para aquisiçăo e tratamento automático dos dados. Cada um dos sistemas propostos foi construído e avaliado quanto ao desempenho em ensaios, nos quais uma câmera de alta velocidade foi utilizada para comparar os resultados obtidos. A metodologia provou ser capaz de identificar de forma consistente e coerente os eventos, com pouco desvio em relaçăo ao vídeo, de forma automática e sem intervençăo ou interpretaçăo do operador, cumprindo o objetivo.",
+  "subjects": [
+    "Motores foguetes",
+    "Propelentes líquidos",
+    "Igniçăo",
+    "Peroxido de Hidrogenio",
+    "Combustăo",
+    "Engenharia química",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80764",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80764&origem=BDITA"
+}

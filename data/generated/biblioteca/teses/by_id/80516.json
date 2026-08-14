@@ -1,0 +1,28 @@
+{
+  "num_tese": "80516",
+  "type": "tese",
+  "title": "Vibration and wave propagation analyses of closed cylindrical shells with holes arranged in helical patterns",
+  "author": "Julia Menezes Camacho Leal",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Thiago de Paula Sales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Tubular structures are widely used on many engineering applications, such as in oil and gas supply lines, aircraft fuselages, submarines, and space vehicles. All of these can be subjected to vibrational loads that can jeopardize structural performance, and potentially lead to damage. To control vibration propagation, periodic structures might be employed, as these enable the formation of bandgaps, which correspond to frequency ranges in which only evanescent waves can exist. Based on this context, the purpose of this work is to evaluate the dynamic behavior of closed cylindrical shells with holes periodically arranged along helices. This characterization is made by determining dispersion curves, which relate wave numbers to frequency. Furthermore, transmissibility functions are also computed for finite structures using the wave-based finite element method (WFEM). In this method, the unit cell of the structure is modeled using the conventional finite element method. Inhere, one uses a quasi-one-dimensional version of the Bloch-Floquet theorem, in order to alleviate computational cost. Due to the consideration of this alternative version of this theorem, some minor but essential modifications are implemented in the WFEM. Model reduction techniques are also applied in the developed framework, involving Craig-Bampton method for reducing the number of internal degrees of freedom, and the local-level characteristic constraint method for reducing the number of degrees of freedom of interfaces between unit cells. The implemented codes are validated by comparing transmissibility curves with results obtained from finite element commercial software. Various dispersion relations and transmissibility results are presented for cylindrical shells with different helical perforations patterns. The influence of the rotation angle between unit cells, associated with helices, and the number of holes in each cell, on the dynamic behavior of the resulting periodic structures is investigated. The provided results help to characterize the dynamic behavior of the considered structure, which can be exploited in structural designs that impart vibration attenuation in practical applications.",
+  "subjects": [
+    "Propagaçăo de ondas",
+    "Cascas cilíndricas",
+    "Vibraçăo",
+    "Método de elementos finitos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "25/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80516",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80516&origem=BDITA"
+}

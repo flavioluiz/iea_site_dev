@@ -1,0 +1,27 @@
+{
+  "num_tg": "69416",
+  "type": "tg",
+  "title": "A model problem for sound radiation by an installed jet",
+  "author": "Petrônio Augusto Santos Nogueira",
+  "year": "2015",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A model for sound generation by a jet in the vicinity of a flat plate, mimicking an exhaust jet installed near an aircraft wing, is presented. An earlier model (Cavalieri et al. J. Sound Vib. 333 (2014) 6516---6531) is further simplified by considering that the sound source is an axially-extended, cylindrical wavepacket concentrated on the jet lipline, and that this source is scattered by the trailing edge of a semi-infinite flat plate; the model is shown to match earlier results and considerably simplifies the analysis. It is used to evaluate how the parameters of the problem influence sound radiation by subsonic jets. We show that the axisymmetric mode of the source is the most acoustically efficient, similarly to what is seen for free jets; but unlike the latter problem, the sound scattered by the trailing edge is only weakly dependent on the details of the wave-packet envelope and on the two-point coherence of the source, the wavepacket phase speed being the salient feature for installed jet noise. We then use the model to evaluate how geometrical parameters of jet-plate configurations modify the radiated sound. The acoustic radiation is particularly sensitive to the jet-plate distance due to the exponential radial decay of near-field disturbances; the relative axial position of jet and trailing edge is shown to play a comparably minor role. Finally, changes in the angle of attack of the plate and in the sweep angle of the trailing edge considerably modify the radiated sound, leading to significant reductions of the acoustic intensity in some directions. The various properties of installed jet noise are further explored by appealing to the wavenumber transform of the tailored Green's function used to compute the scattered field; insight is thus provided on how jet-wing configurations might be designed so as to reduce installation noise. This work will also be submitted to the Journal of Sound and Vibration and presented at the 22nd AIAA/CEAS Aeroacoustics Conference.",
+  "subjects": [
+    "Jatos",
+    "Ondas sonoras",
+    "Ruído (som)",
+    "Ruído aerodinâmico",
+    "Funçőes de Green",
+    "Aeroacústica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=69416",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=69416&origem=BDITA"
+}

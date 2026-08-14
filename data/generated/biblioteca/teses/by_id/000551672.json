@@ -1,0 +1,28 @@
+{
+  "num_tese": "000551672",
+  "type": "tese",
+  "title": "Análise numérica da transferęncia de calor em dissipadores aletados.",
+  "author": "Flávia Milo dos Santos",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em sistemas de resfriamento de componentes eletrônicos um dos meios mais utilizados é o dissipador de calor aletado resfriado a ar, devido ao baixo custo, alta confiabilidade e eficięncia. A diminuiçăo na capacidade de dissipar calor devido ŕ reduçăo na área de troca de calor é uma das restriçőes no processo evolutivo de componentes eletrônicos compactos. Por esta razăo, pesquisas vęm sendo realizadas com a finalidade de melhorar a efetividade dos dissipadores aumentando a transferęncia de calor. O objetivo do presente trabalho é analisar a transferęncia de calor conjugada (conduçăo e convecçăo) em dissipadores aletados com jato de ar impingente turbulento e, desta forma, verificar a influęncia da altura das aletas, do número de Reynolds e da potęncia de bombeamento no desempenho térmico dos dissipadores. Para tanto, duas configuraçőes geométricas, baseadas em trabalhos experimentais, săo usadas: aletas em forma de placas (seçăo transversal retangular) e pinos (seçăo transversal quadrada). As equaçőes do modelo matemático (continuidade, quantidade de movimento, energia e modelo de turbulęncia k-e) săo resolvidas numericamente empregando o método de volumes finitos e uma aproximaçăo segregada para acoplamento pressăo-velocidade. Um estudo de refinamento de malha năo-uniforme (tetraédrica e poliédrica) é empregado para garantir independęncia da malha nos resultados. Para validaçăo do procedimento numérico foram utilizados dados experimentais. Os resultados mostram que os valores numéricos da resistęncia térmica do dissipador diminuem com o aumento da altura das aletas, do número de Reynolds e da potęncia de bombeamento. Isto ocasiona a reduçăo da temperatura média da superfície de aquecimento do dissipador. Entretanto, o aumento excessivo da altura das aletas, da potęncia de bombeamento e do número de Reynolds năo proporciona grandes melhorias no desempenho térmico.",
+  "subjects": [
+    "Análise numérica",
+    "Transferęncia de calor",
+    "Aletas de resfriamento",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "20/03/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551672",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551672&origem=BDITA"
+}

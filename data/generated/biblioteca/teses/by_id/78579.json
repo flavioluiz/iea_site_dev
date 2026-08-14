@@ -1,0 +1,34 @@
+{
+  "num_tese": "78579",
+  "type": "tese",
+  "title": "Spatial textures SAR data for forest mapping and change detection",
+  "author": "Rodrigo Aragăo Santos",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo da Silva Pinho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Renato Machado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os mísseis anti-radiaçăo săo um recurso importante em cenários de combate moderno, por serem armamentos utilizados para desabilitar baterias de defesa anti-aéreas. Este trabalho se propőe a estabelecer uma metodologia de projeto preliminar para sistemas de guiamento terminal de mísseis com autodiretor fixo, aplicando-a ao projeto de um míssil anti-radiaçăo ar-solo com autodiretor radar passivo, e levantar os valores de erros da plataforma inercial e do autodiretor aceitáveis em seu guiamento terminal contra um alvo fixo. O cálculo do autopiloto do míssil foi realizado utilizando a formulaçăo do rastreador linear quadrático (LQT), utilizando a estratégia evolutiva CMA-ES (\\textit{Covariance Matrix Adaptation Evolution Strategy}) para otimizar os pesos do LQT de acordo com as métricas desejadas. Foi utilizada a estratégia de navegaçăo proporcional, utilizando uma estimativa da velocidade angular da linha de visada realizada por um filtro de Kalman estendido. O estudo foi realizado através de simulaçőes Monte Carlo, sendo possível avaliar diferentes combinaçőes de configuraçőes de erros de sensores. Assim, a partir dos resultados obtidos, foi possível avaliar quais combinaçőes de configuraçăo de erros de diferentes modelos de plataforma inercial e de erros do autodiretor cumprem a métrica de distância de passagem desejada. Após a definiçăo destas combinaçőes, discutiu-se o motivo das demais configuraçőes năo permitirem uma estimativa de velocidade angular da linha de visada com precisăo adequada e como seria possível expandir o número de configuraçőes suficientes, segundo a métrica de distância de passagem.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Aprendizagem (inteligęncia artificial)",
+    "Processamento de imagens",
+    "Mapeamento",
+    "Amazônia",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "12/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78579",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78579&origem=BDITA"
+}

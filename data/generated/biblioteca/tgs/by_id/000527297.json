@@ -1,0 +1,32 @@
+{
+  "num_tg": "000527297",
+  "type": "tg",
+  "title": "Identificaçăo de parâmetros e avaliaçăo de QDP.",
+  "author": "Fernando de Araújo Silva",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A necessidade crescente da modelagem completa de uma aeronave, principalmente em condiçőes dinâmicas devido ao desenvolvimento das popularmente chamadas aeronaves FBW (\"Fly-By-Wire\"), vem a chamar a atençăo para os procedimentos de identificaçăo de sistemas. A evoluçăo dessas aeronaves, com o desenvolvimento dessa tecnologia FBW, ocasiona o agravamento de um fenômeno já identificado e observado desde o final da Segunda Guerra denominado PIO (\"Pilot Induced Oscilation\"). Este fenômeno é uma característica intrínseca do sistema que engloba, mais especificamente, o piloto, os comandos de vôo e a aerodinâmica da aeronave. O PIO é um problema que já vem a décadas sendo estudado para a sua fundamental compreensăo e imprescindível prevençăo. Nisso, faz-se necessário um desenvolvimento de métodos e capacidades para a avaliaçăo em solo desse fenômeno nas aeronaves modernas, de forma a reduzir riscos de fatalidades e a garantir a segurança para o bom desempenho das aeronaves dentro da missăo a que se destinam. Para realizar essa tarefa de forma bem sucedida, os passos a serem seguidos devem ser: a modelagem da resposta do aviăo, a identificaçăo de seus parâmetros, a simulaçăo com a inserçăo destes parâmetros no modelo aerodinâmico da aeronave, e o alcance do objetivo final, que é a avaliaçăo da qualidade de pilotagem através de uma avaliaçăo da suscetibilidade a PIO.",
+  "subjects": [
+    "Controle de vôo",
+    "Identificaçăo de parâmetros",
+    "Oscilaçăo induzida pelo piloto",
+    "Manobrabilidade",
+    "Qualidade",
+    "Controle de pilotagem por fios",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527297",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527297&origem=BDITA"
+}

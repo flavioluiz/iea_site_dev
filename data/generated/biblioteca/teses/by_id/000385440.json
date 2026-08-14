@@ -1,0 +1,34 @@
+{
+  "num_tese": "000385440",
+  "type": "tese",
+  "title": "Conduçăo, convecçăo e radiaçăo acopladas em coletores e radiadores solares",
+  "author": "Ezio Castejon Garcia",
+  "year": "1996",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    },
+    {
+      "name": "Sérgio Mourăo Saboya",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata de um modelo computacional para análise de dispositivos trocadores de calor com acoplamento da conduçăo, convecçăo e radiaçăo tendo a energia solar como fonte de calor. O modelo permite analisar tręs situaçőes básicas: Coletor Aquecedor de Fluidos (coleta a energia solar e aquece um determinado fluido por convecçăo forçada), Coletor Espacial (coleta a energia solar e aquece um determinado equipamento, em uso espacial, por conduçăo), Radiador Espacial (resfria um equipamento em uso espacial por conduçăo, dissipando o calor para o espaço por radiaçăo). O dispositivo básico é composto por uma placa com aletas retangulares. Sobre o conjunto placa-aletas é colocado um vidro ou plástico seletivo formando assim dutos retangulares. No estudo do Coletor Aquecedor de Fluidos, tem-se o escoamento laminar nos dutos com perfis térmico e hidrodinâmico desenvolvidos. Os coeficientes de convecçăo săo calculados localmente em toda a parede. A radiaçăo é estudada usando o modelo de duas bandas com análise no espectro solar e infravermelho. O vidro seletor é semitransparente na banda infravermelha e transparente na banda solar. Desta forma obtęm-se um filtro e o \"efeito estufa\" com o aprisionamento de energia térmica. A conduçăo de calor é considerada unidimensional com temperaturas variáveis em toda a parede do duto. A placa é externamente adiabática no Coletor Aquecedor de Fluidos. No Coletor e Radiador Espacial, a placa troca calor externamente com um equipamento e a análise é feita sob vácuo, isto é, sem convecçăo. O vidro troca calor com o meio externo. Para o Radiador Espacial năo é usado o vidro evitando o \"efeito estufa\", pois neste o objetivo năo é aprisionar mas sim, liberar energia. A formulaçăo do acoplamento conduçăo-convecçăo-radiaçăo gera um sistema integro-diferencial năo linear que é resolvido numericamente.",
+  "subjects": [
+    "Trocadores de calor",
+    "Transferęncia de calor",
+    "Energia solar",
+    "Coletores solares",
+    "Termodinâmica",
+    "Métodos computacionais",
+    "Física"
+  ],
+  "defense_date": "01/10/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000385440",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000385440&origem=BDITA"
+}

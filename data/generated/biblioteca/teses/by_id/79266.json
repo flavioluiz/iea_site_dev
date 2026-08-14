@@ -1,0 +1,36 @@
+{
+  "num_tese": "79266",
+  "type": "tese",
+  "title": "Numerical simulation of propellers used in electric aviation",
+  "author": "Gustavo Rocha Alves",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present work presents a preliminary design of propellers based on the modeling from the Theory Screw Vortex System. From a computer program developed in Matlab, the propeller geometry is calculated based on some design requirements (advance speed, rotation, blade chord, radius ratio, number of blades, and characteristics related to blade angles) and its design-point condition is evaluated using the simulation results as performance and operating parameters (efficiency, thrust, thrust coefficient). With the propeller preliminary geometry, it is possible to use an optimization process based on genetic algorithm techniques. The objective of the optimization process is to improve the propeller performance and operating characteristics, based on geometrical changes from its original geometry (chord and blade angle). The results show that the optimization technique work efficiently in the search of numerous possibilities of blade geometrical changes in order to be able to provide better performance data and support for the designer. The use of the technique allows reducing the design time, in addition to being a very suitable tool to support the design process of the blades, with regard to the geometrical changes necessary to obtain a design with better operational performance. The computational program developed to perform propeller design and its optimization, for aeronautical purposes, was built and prepared to carry out an adequate preliminary design of blades for use in electric aviation. With the optimized geometry obtained from the development of this work, the project team will be able to move on to other project phases, such as the calculation of the 3D flow based on Computational Fluid Dynamics (CFD) techniques.",
+  "subjects": [
+    "Turbinas axiais",
+    "Hélices",
+    "Algoritmos genéticos",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Vórtices",
+    "Projeto auxiliado por computador",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "14/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79266",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79266&origem=BDITA"
+}

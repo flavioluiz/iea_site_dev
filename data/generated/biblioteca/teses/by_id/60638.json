@@ -1,0 +1,30 @@
+{
+  "num_tese": "60638",
+  "type": "tese",
+  "title": "Síntese de painel aeronáutico submetido a cargas dinâmicas por meio de cargas estáticas equivalentes",
+  "author": "Hélio Guerrini Filho",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A síntese estrutural sob resposta dinâmica de estruturas modeladas por elementos finitos exige tipicamente um elevado esforço computacional devido ŕs custosas análises de resposta dinâmica necessárias ŕ convergęncia da otimizaçăo. A transformaçăo de carga dinâmica em carga estática equivalente (CEE), permite reduçăo considerável no custo computacional da otimizaçăo, além de simplificar a abordagem do problema. Neste trabalho, painéis aeronáuticos reforçados sob carregamento dinâmico, submetidos a restriçőes de deslocamentos nodais, tensăo de von Mises e flambagem dinâmica, săo otimizados utilizando-se a técnica de CEE. É proposta e apresentada em detalhes uma estratégia própria de determinaçăo de instantes críticos para obtençăo de CEEs, visando tornar a otimizaçăo mais eficiente. As aplicaçőes numéricas mostram que a estratégia da CEE é capaz de lidar eficientemente com a otimizaçăo dos painéis que estăo sujeitos a cargas de alta freqüęncia que tendem a amplificar deslocamentos dinâmicos restringidos, produzindo estruturas que satisfazem as restriçőes de deslocamento e de flambagem impostas. O pacote comercial ABAQUS foi empregado tanto para as análises dinâmicas como para as análises estáticas e de flambagem. Um código foi desenvolvido na linguagem PYTHON, compatível com o programa ABAQUS, que realiza as análises de sensibilidade com relaçăo ŕs variáveis de projeto e onde é implementado um módulo de otimizaçăo seqüencial aproximada (OSA), que torna a otimizaçăo tăo eficiente quanto possível neste ambiente.",
+  "subjects": [
+    "Otimizaçăo de forma",
+    "Análise estrutural dinâmica",
+    "Placas reforçadas",
+    "Flambagem",
+    "Fuselagens",
+    "Engenharia mecânica",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "14/06/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60638",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60638&origem=BDITA"
+}

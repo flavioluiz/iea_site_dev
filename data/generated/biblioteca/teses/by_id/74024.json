@@ -1,0 +1,28 @@
+{
+  "num_tese": "74024",
+  "type": "tese",
+  "title": "A CFD analysis of combined convection-radiation heat transfer in solar compound parabolic concentrators",
+  "author": "Sílvia Rodrigues Cardoso Avelar Almeida",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In the current work, Compound Parabolic Concentrators (CPCs) were extensively studied using CFD tools in order to obtain a numerical model that accurately and reliably represents the heat transfer mechanisms involved in its operation. Several turbulence models of the Ansys Fluent package were tested, while the Discrete Ordinates (DO) model was used to calculate the radiation processes. The validation of the numerical solution was performed comparing the data obtained with experimental results from the literature. Subsequently, a detailed CPC optimization study was carried out, and three collector configurations were evaluated (Full Height and with truncation ratios of 0.5 and 0.75). The transverse tilt angle (?) was varied from 0ş to 55ş for each of the three configurations, and the optimal compromise between efficiency and manufacturing costs was determined. The CPC collector has a broad range of applications, such as: electrical power generation, brackish water desalination, thermal energy generation, independent photovoltaic and thermal hybrid systems (PV/T), water decontamination (SODIS), integrated solar absorption cooling and heating (SACH) systems, among others. In this context, the performance of the collector herein optimized was evaluated in ten Brazilian cities, adopting as boundary conditions, the actual data of each site. The chosen sites are representative of the entire country, since they cover the maximum and minimum ranges of solar incidence of each of the five regions (North, Northeast, Midwest, Southeast and South). Therefore, comparing the simulation data obtained to other experimental and numerical studies in the literature, as well as to non-renewable alternatives currently in use in the market, the possible collector applications were determined for each site. The results showed that the combined use of the DO radiation model and the standard k-? viscous model with enhanced Wall Treatment and Full Buoyancy Effects proved to be the most stable and robust option, being able to reproduce the characteristics of the experimental work adopted as validation case. The temperature contours, stream functions and velocity vector patterns obtained also showed great similarity when compared with particle image velocimetry (PIV) and local temperature measurements extracted from the literature. For the three configurations of the collector investigated in the optimization study, the angle at which the CPC had the best efficiency and reached the highest temperature of the receiver was ? = 25ş. The configuration with the best compromise between efficiency and manufacturing costs was obtained for the collector with truncation ratio of 0.5, transversely tilted by 25ş. Regarding the application of CPC collectors in the renewable energy scenario, the results showed that the collector herein optimized has potential of use all around Brazil in: brackish water desalination, thermal energy generation, independent photovoltaic and thermal hybrid systems (PV/T), water decontamination (SODIS), and in integrated solar absorption cooling and heating (SACH) systems. However, for the SACH systems (four variants studied), the technology used should be evaluated according to the available solar incidence in each site.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Transferęncia de calor",
+    "Energia solar",
+    "Coletores solares",
+    "Física"
+  ],
+  "defense_date": "27/11/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74024",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74024&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "73437",
+  "type": "tese",
+  "title": "Análise de trajetórias espaciais no contexto do modelo de tręs, quatro ou cinco corpos.",
+  "author": "Luiz Arthur Gagg Filho",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem por objetivo principal desenvolver meios para uma análise preliminar de trajetórias espaciais considerando missőes para a Lua e missőes interplanetárias. A determinaçăo das trajetórias é realizada considerando-se modelos de dois, tręs, quatro ou cinco corpos, os quais estăo associados ŕ resoluçăo de um problema de valor de contorno em dois pontos (TPBVP) ou em múltiplos pontos. Para os problemas de transferęncia baseados no modelo de dois corpos, várias aproximaçőes patched-conic săo formuladas tanto para missőes lunares como para missőes interplanetárias. Aproximaçőes patched-conic também săo construídas para o estudo da manobra de swing-by lunar e sua factibilidade em missőes com recaptura do veículo espacial pelo campo gravitacional da Lua, e em missőes interplanetárias. Uma aproximaçăo patched-conic considerando o caso espacial é construída para missőes lunares. Tais aproximaçőes permitem determinar trajetórias que podem ser utilizadas como estimativa inicial nos modelos de tręs, quatro ou cinco corpos. Importantes estudos utilizando esses modelos săo realizados, tais como: a análise do consumo de combustível gasto pelo veículo espacial sob diversas configuraçőes de parâmetros e a determinaçăo do consumo mínimo mediante o Algoritmo Sequencial do Gradiente com Restauraçăo; factibilidade da missăo; efeitos da atraçăo gravitacional do Sol em missőes lunares considerando trajetórias internas de ascensăo direta, trajetórias internas de maior tempo de voo, e trajetórias externas; efeitos da manobras de swing-by tanto em missőes lunares quanto em missőes interplanetárias; e possibilidades de captura balística pela Lua. As manobras de swing-by ocorrem de duas formas: naturalmente, através da dinâmica do problema de tręs, quatro ou cinco corpos; ou, de forma previamente projetada utilizando, inclusive, aproximaçőes patched-conic. Também săo estudadas a simetria entre a viagem de ida e a viagem de retorno de uma missăo Terra-Lua; as geometrias favoráveis para a realizaçăo da transferęncia Terra-Lua com mudança no plano de movimento; e as geometrias favoráveis para a realizaçăo de uma manobra de swing-by lunar no contexto de uma missăo completa Terra-Lua e interplanetária. Um estudo analítico sobre a Integral de Jacobi também é desenvolvido, o qual permite enunciar um TPBVP no contexto do problema de tręs corpos ou quatro corpos com a Integral de Jacobi preestabelecida é com os incrementos de velocidade estimados por expressőes analíticas deduzidas neste trabalho. Como extensăo das missőes lunares considerando os modelos espaciais, as missőes Terra-Terra com uma passagem próxima ŕ Lua săo brevemente introduzidas com resultados que mostram as vantagens de tais manobras.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Problema de muitos corpos",
+    "Manobras assistidas por gravidade",
+    "Trajetórias de espaçonaves",
+    "Controle",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "07/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73437",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73437&origem=BDITA"
+}

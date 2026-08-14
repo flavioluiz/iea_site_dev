@@ -1,0 +1,36 @@
+{
+  "num_tese": "80308",
+  "type": "tese",
+  "title": "Influence of material modeling on simulation accuracy for cold stamped aluminum alloy",
+  "author": "Luiza Emília Vila Nova Mazzoni",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Schwanz de Lima",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The automotive industry has increasingly invested in research on aluminum alloys as an alternative material for structural parts fabrication, aiming to reduce weight and consequently the cars' fuel consumption. However, aluminum alloys present a forming challenge, as they are usually less formable than steel due to the springback effect. In order to meet this challenge and make the aluminum parts fabrication more viable, the use of constitutive models through computer simulation has become essential for new parts design. In sheet metal forming simulations, the plastic deformation behavior is described by the material yield criterion and hardening behavior, with the first being of greatest importance. This study evaluated the influence of constitutive models on the accuracy of numerical simulations in the InspireForm environment for cold stamping of AA 6005C-O aluminum alloy. For deformation analysis the Hill48 and Barlat89 yield models were considered, combined with Isotropic and Yoshida-Uemori hardening models. Numerical simulation results were evaluated and compared with real stamping tests to validate the model accuracy level. The comparisons between the four constitutive models and the experiment show that Barlat89 yield criteria combined with Yoshida-Uemori hardening model provide a more favorable dimensional prediction.",
+  "subjects": [
+    "Fabricaçăo",
+    "Chapas de metal",
+    "Ligas de alumínio",
+    "Estampagem",
+    "Processos de conformaçăo de metais",
+    "Simulaçăo computadorizada",
+    "Metalurgia",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "21/11/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80308",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80308&origem=BDITA"
+}

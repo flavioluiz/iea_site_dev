@@ -1,0 +1,34 @@
+{
+  "num_tese": "80987",
+  "type": "tese",
+  "title": "Suitability of the continuous Galerkin Spectral/Hp element method for solving under-resolved turbulent flows",
+  "author": "Daniel Garcia Ribeiro",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "The computational modeling of fluid-dynamics problems has enabled the discovery of new physical phenomena, the validation of techniques, and the development of new solutions and technologies, among many other things. Even with this broad coverage, there are still many inherent difficulties associated with the employed numerical methods and with the physics of fluids. Furthermore, there are practical issues, such as the computational cost of simulating high-Reynolds-number industrial processes, which might make simulations impossible to run or compromise the accuracy of the results. In this context, this thesis aims to explore the suitability of the implicit Large Eddy Simulation approach for solving turbulent flows, capturing their physical phenomena, and predicting variables of interest. This approach is coupled with the Continuous Galerkin Spectral/hp Element Method and employs the numerical stabilization technique Gradient Jump Penalization. The flows solved here are: the Taylor-Green Vortex, a spatial mixing layer with mixing transition, and a triangular airfoil suitable for missions on Mars. The TGV flow provided information on the effect of numerical discretization on accuracy and on its advantages over standard sub-grid-scale models adopted in another numerical approach often used in the literature. The spatial mixing layer simulations showed the evolution of flow structures, highlighted the mechanisms by which they grow, and captured the phenomenon of mixing transition. The triangular airfoil shows how specific features can challenge the use of high-order methods. Lastly, this thesis demonstrated that the Continuous Galerkin method with the iLES approach is suitable for solving under-resolved turbulent flows.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Métodos espectrais",
+    "Método de Galerkin",
+    "Estudo numérico",
+    "Turbulęncia",
+    "Física"
+  ],
+  "defense_date": "08/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80987",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80987&origem=BDITA"
+}

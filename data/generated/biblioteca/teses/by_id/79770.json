@@ -1,0 +1,30 @@
+{
+  "num_tese": "79770",
+  "type": "tese",
+  "title": "Robust guidance and control for multirotor aerial vehicles in airspaces with numerous flying obstacles",
+  "author": "Jorge Antonio Ricardo Junior",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Multirotor aerial vehicles (MAVs) are expected to be used soon for a variety of applications that demand high safety leveis and typically involve disturbed environments containing multiple obstacles such as buildings and other aircraft. For dependable operations, the MAV control system must provide reliable performance, robustness, and collision avoidance. This thesis investigates the robust guidance and control of underactuated and fully actuated MAVs subject to matched uncertainties/disturbances, operational constraints, and obstacles that can accelerate. It starts by proposing a novel robust outer-loop position guidance for MAVs subject to disturbances/uncertainties, velocity constraints, and accelerated obstacles. This method, based on Velocity Obsta.eles, effectively considers the position and velocity tracking errors produced in the inner control loop, as well as the uncertainties related to the unknown future obstacles' trajectories. ln particular, for fully actuated vehicles, the outer-loop guidance is based on the proposed position guidance and designed to make the MAV reach a desired pose under velocity constraints and accelerated obstacles. The inner-loop control is designed using a proportional-derivative approach combined with a high-order sliding mode disturbance observer to endow the control loop with robustness and smoothness. On the other hand, for underactuated vehicles, a typical inner- loop hierarchical control architecture nesting the attitude control loop inside the position one is adopted. The effectiveness of this scheme relies on a proper control tuning for achieving a suflicient time-scale separation (TSS) between the closed-loop (faster) rotational and (slower) translational dynamics. ln this regard, this thesis proposes a hierarchical control scheme that, by construction, enforces the TSS without losing robustness and using a trial-and-error gains tweak. This is achieved by combining an integral sliding mode attitude control law, which ensures instantaneous tracking of the attitude commands, with a smooth and robust position control one. The guidance is designed to make the vehicle reach a desired position and heading while avoiding collisions and respecting velocity and actuator constraints. This design extends the aforementioned proposed position guidance to also include actuator constraints. The proposed position guidance is experimentally evaluated in a Crazyflie platform, demonstrating viability for real-time implementation and e:ffectiveness in avoiding collisions and satisfying velocity constraints. Moreover, the proposed guidance and control methods for underactuated and fully actuated MAVs are numerically evaluated via simulation, showing satisfactory tracking performance, collision-free guidance, and fulfillment of operational constraints.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle com modos deslizantes",
+    "Controle robusto",
+    "Controle de voo",
+    "Prevençăo",
+    "Colisőes",
+    "Controle"
+  ],
+  "defense_date": "13/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79770",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79770&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000447558",
+  "type": "tese",
+  "title": "Simulaçăo de escoamentos aerodinâmicos utilizando malhas de blocos múltiplos sobrepostos.",
+  "author": "Alexandre Pequeno Antunes",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo implementar a capacidade de realizar simulaçőes numéricas em configuraçőes complexas e tridimensionais através da abordagem Chimera. Neste contexto năo será feita apenas uma discussăo da implementaçăo desta abordagem de malhas de multiblocos sobrepostas, mas também demonstrada a avaliaçăo do código através da comparaçăo com os dados experimentais do VLS obtidos através de ensaios em túnel de vento. A avaliaçăo do código através desta comparaçăo numérico-experimental é fundamental pela própria necessidade de se obter confiança nos resultados numéricos apresentados. Inclusive, neste ponto, é de vital importância se distinguir a diferença entre os possíveis erros oriundos do código e aqueles vindos de um modelo matemático mal aplicado.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Análise numérica",
+    "Equaçăo de Euler-Lagrange",
+    "Equaçăo de Navier-Stokes",
+    "Número de Mach",
+    "Engenharia mecânica",
+    "Computaçăo"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000447558",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000447558&origem=BDITA"
+}

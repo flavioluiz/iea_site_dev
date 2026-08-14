@@ -1,0 +1,32 @@
+{
+  "num_tese": "70001",
+  "type": "tese",
+  "title": "Modelagem de uma aeronave flexível empregando teoria das faixas năo-estacionária",
+  "author": "Rafael Mendes Bertolin",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Com a contínua evoluçăo tecnológica aliada ŕs práticas e diretrizes pregadas pela chamada Engenharia Verde, tais como a menor emissăo de poluentes e o uso energético eficiente e sustentável, materiais como os compósitos estăo sendo cada vez mais empregados pela indústria aeroespacial, sempre buscando melhorar a relaçăo resistęncia/peso. Isto tem possibilitado o desenvolvimento de aeronaves mais leves, com asas mais alongadas e menos espessas e fuselagens mais delgadas, características estas que propiciam uma otimizaçăo aerodinâmica e consequentemente benefícios econômicos. O problema é que estas mesmas características tem conferido aos aviőes modernos uma inerente penalizaçăo da rigidez estrutural, que por sua vez acarreta em um aumento da flexibilidade. O aumento da flexibilidade é acompanhado de uma reduçăo da faixa de frequęncias que separa os modos característicos do movimento de corpo rígido dos modos aeroelásticos, podendo ocorrer assim acoplamentos dinâmicos indesejáveis, de forma que degradaçőes das qualidades de voo, aumento da susceptibilidade a danos estruturais por fadiga, oscilaçőes induzidas pelo piloto e degradaçăo da eficięncia do sistema de controle estăo entre as possíveis consequęncias de tais acoplamentos. Para contornar esse panorama é notória a importância de se ter já nas fases preliminares de projeto de uma aeronave um modelo integrado que leve em consideraçăo tanto os efeitos da dinâmica de corpo rígido como também os efeitos da dinâmica estrutural. Ao longo dos últimos anos, várias formulaçőes matemáticas tęm sido propostas para representar o movimento de uma aeronave flexível. Estas formulaçőes possuem diferentes níveis de complexidade e constituem modelos de diversas ordens. Nesta dissertaçăo a abordagem desenvolvida por Silvestre e Luckner e publicada no artigo intitulado ''Experimental Validation of a Flight Simulation Model for Slightly Flexible Aircraft'' é apresentada e implementada para modelar e simular a dinâmica do voo de uma aeronave flexível. Trata-se de uma formulaçăo unificada, idealizada para aeronaves pouco ou moderadamente flexíveis, deduzida a partir da mecânica Lagrangeana, adotando-se como referencial do corpo o sistema de coordenadas dos eixos médios e representando as deformaçőes estruturais por meio da superposiçăo modal, garantindo assim que o acoplamento entre a dinâmica de corpo rígido e a dinâmica estrutural seja exclusivamente de caráter aerodinâmico. Já o carregamento aerodinâmico incremental devido ŕ vibraçăo é obtido por meio de uma formulaçăo năo-estacionária no domínio do tempo em conjunto com a teoria das faixas. A metodologia é aplicada para um modelo genérico de aviăo da categoria narrow-body, uma aeronave conceitual com flexibilidade variável. Os resultados tanto para voo em manobra como para voo em equilíbrio săo comparados com os resultados disponíveis de um modelo de maior fidelidade.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Projeto de aeronaves",
+    "Aerodinâmica năo-estacionária",
+    "Vibraçăo estrutural",
+    "Estruturas rígidas",
+    "Aeroelasticidade",
+    "Dinâmica de voo",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=70001",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=70001&origem=BDITA"
+}

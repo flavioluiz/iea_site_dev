@@ -1,0 +1,28 @@
+{
+  "num_tg": "80078",
+  "type": "tg",
+  "title": "Metodologia para implementaçăo de sistema de redirecionamento dinâmico no BR-UTM",
+  "author": "André Felipe Pereira Guimarăes",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um Sistema de Gestăo Tráfego Aéreo de Aeronaves Năo Tripuladas tem como um dos principais objetivos a capacidade de gestăo e separaçăo de conflitos entre elementos nesse espaço aéreo. Um serviço que contribui para esse objetivo é o de redirecionamento dinâmico, que inclui a negociaçăo, a priorizaçăo e o rearranjo de volumes operacionais, ou rotas, enquanto uma aeronave năo tripulada está em voo. Este trabalho visa contribuir para o desenvolvimento desse serviço no sistema de Gerenciamento de Tráfego Aéreo Năo Tripulado do Brasil (BR-UTM). A implementaçăo de um sistema de redirecionamento dinâmico no BR-UTM requer uma abordagem robusta e integrada que combine infraestrutura escalável com técnicas avançadas de análise de dados. Este trabalho propőe a criaçăo de um sistema utilizando conceitos do UTM Framework 4 da International Civil Aviation Organization (ICAO) para garantir a segurança e a eficięncia do gerenciamento do espaço aéreo. A metodologia adotada, foca na integraçăo de dados em tempo real, análise preditiva e tomada de decisăo automatizada para ajustar dinamicamente as rotas dos UAS (Unmanned Aircraft Systems), evitando congestionamentos e garantindo conformidade com as regulamentaçőes. O estudo realizado até o momento demonstra que a abordagem proposta é viável e oferece uma base sólida para a continuaçăo do projeto, proporcionando confiança na eficácia do sistema em um ambiente operacional.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Planejamento de trajetória",
+    "Rotas",
+    "Defesa aérea",
+    "Segurança nacional",
+    "Brasil",
+    "Aeronaves teleguiadas",
+    "Tomada de decisőes"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80078",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80078&origem=BDITA"
+}

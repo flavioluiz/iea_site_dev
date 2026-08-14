@@ -1,0 +1,30 @@
+{
+  "num_tg": "72439",
+  "type": "tg",
+  "title": "Application of recursive algorithm to identify and locate divergences in adaptive control problems using interval arithmetic",
+  "author": "Francisco Pedrosa Reis",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Saďd Aoues",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Searching for a tool capable of identifying the existence of divergences in envelopes of operation in feedback systems, we developed a software described in this work. The developed tool can identify the presence of singularities in the gains calculus of an adaptive control law as shown in the report. This work originated from the need for certification of a new control law applied to highly complex systems that have strict security requirements for its operation. Also, it is important to say that the control law that motivated this work was in development, creating the need for high adaptability in the tool for new adaptations in the law. The computational tool presented is based on two main theories, interval arithmetic and recursion. The interval arithmetic is utilized for its capacities to identify the variation of parameters in each region of the operation envelope, but it has the downside of being too conservative when used in larger regions. The recursion is utilized as a correction to that problem, making it possible to divide the operation envelope in smaller regions to the point that the result is precise enough to guarantee the existence of a divergence. In this work, there is the theoretic description behind the method utilized, explaining and giving examples of its positive and negative characteristics to provide the data necessary to recreate the program, identifying the tool's sensitive points that could make the implementation not optimized and that should be dealt with. Also, the tool was applied to a generic second order system to identify the divergence caused by a non-observability condition.",
+  "subjects": [
+    "Controle adaptativo",
+    "Aritmética de intervalos",
+    "Desenvolvimento de software",
+    "Matemática computacional",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72439",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72439&origem=BDITA"
+}

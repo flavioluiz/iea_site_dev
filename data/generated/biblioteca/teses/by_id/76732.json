@@ -1,0 +1,28 @@
+{
+  "num_tese": "76732",
+  "type": "tese",
+  "title": "Laser metal deposition parameter analysis based on morphological, metallurgical and efficiency aspects",
+  "author": "Isabel Beatriz Prestes",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Additive Manufacturing (AM) represents an important technology of the Industry 4.0, especially when applied for metallic components. The Laser Metal Deposition (LMD), one of the main metallic AM techniques, has been widely studied over the past years in order to overcome challenges regarding the final part's quality and process stability and repeatability. The LMD process parameters directly influence the deposited track geometry and microstructure, consequently affecting the final part's properties and its geometric accuracy. This study provides orientations about LMD parameter optimization according to different manufacturing requirements by investigating six LMD parameters: laser power, scanning speed, powder feed rate, working distance and shielding and carrier gas flow rates. Single tracks of AISI 316L steel were deposited onto an AISI 1045 steel substrate by a ROMI DCM 620-5X Hybrid machine. In a first investigation stage, the overall effects of the process parameters on morphological aspects of the deposited tracks were identified by statistical methods. Taguchi's Robust Design methodology was applied in order to indicate which of the parameters' levels leaded to a more robust process, i.e. lower response variance. The influences of the LMD parameters on the analyzed responses' mean values and signal-to-noise ratios were mapped. Working distance, shielding and carrier gas flow rates, which are parameters not often studied in the literature, have shown significant influence in important clad characteristics. Deposited tracks that presented adequate morphology were selected to a second investigation stage, on which metallurgical and efficiency aspects were evaluated. Hardness maps implied the formation of martensite on the heat affected zone and abrupt hardness variations along the tracks' cross sections, indicating the need of stress relief operations when structural integrity is required. Energy dispersive X-ray analyses showed that no significant chemical element variation occurred on the track, but there might be excessive element diffusion into the substrate. Productivity aspects, such as powder catchment efficiency, build rate and energy efficiency were estimated for the selected tracks based on their morphology. At last, trade-offs of the evaluated parameter sets were pointed out, which, in addition to the knowledge of the LMD parameters' influences, serve as guidelines to achieve optimum parameter sets according to different end-user requirements.",
+  "subjects": [
+    "Processos de manufatura",
+    "Deposiçăo de metal a laser",
+    "Identificaçăo de parâmetros",
+    "Componentes estruturais",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "14/02/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76732",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76732&origem=BDITA"
+}

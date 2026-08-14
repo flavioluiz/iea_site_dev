@@ -1,0 +1,33 @@
+{
+  "num_tese": "77783",
+  "type": "tese",
+  "title": "Identificaçăo de modelo aerodinâmico de míssil solo-ar por meio da aplicaçăo de filtro de Kalman estendido",
+  "author": "Giovanni Fiorenza Munaretto",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jacques Waldmann",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho tem por objetivo realizar uma identificaçăo de parâmetros sobre o modelo aerodinâmico de um míssil solo-ar com variaçăo de Mach por meio da aplicaçăo de filtro de Kalman estendido para tręs intervalos de Mach. O processo se constitui em tręs etapas: simulaçăo computacional do lançamento, em que os dados Ground-truth săo gerados; reconstruçăo da trajetória, etapa que se inicia com a determinaçăo da atitude inicial por meio do método TRIAD, com erros máximos de 0,1 ş nos ângulos de Euler, e prossegue com a determinaçăo das componentes de velocidade do míssil representada no sistema do corpo pela integraçăo das equaçőes de navegaçăo inercial com fusăo sensorial utilizando MHP (Multi Hole Probe), cujos erros foram menores do que 3 m/s ; e a identificaçăo do modelo aerodinâmico, realizada após a queima total do propelente, por meio de EKF (Extended Kalman Filter), em que săo apresentados: o projeto de entrada 3-2-1-1 pré-programado, cuja duraçăo é funçăo da frequęncia natural de oscilaçăo do míssil, a qual também é determinada; o modelo aerodinâmico proposto - cujos componentes variam em funçăo de Mach; dados extraídos dos sensores embarcados; e as equaçőes de estado e observaçăo utilizadas para aplicaçăo do EKF. Por fim, avalia-se a consistęncia estatística do filtro de Kalman a partir de uma simulaçăo de Monte Carlo e se verifica a validaçăo dos resultados. A consistęncia estatística do filtro de Kalman utilizado na identificaçăo do modelo aerodinâmico foi verificada com a aplicaçăo dos testes estatísticos NEES (Normalized estimation error squared) e do teste de brancura do resíduo, nos quais mais de 95% das estatísticas computadas se situaram dentro do intervalo cuja probabilidade de falso alarme é 5%. Por fim, avaliou-se o desempenho do filtro a partir de apenas uma única realizaçăo, o qual apresentou uma acurácia próxima ŕ 100% para todos os 22 componentes dos coeficientes aerodinâmicos estimados, com erros menores do que 5% após a convergęncia da estimaçăo nos tręs intervalos de Mach sob análise. A convergęncia da soluçăo foi tăo mais rápida quanto menor o valor de Mach considerado.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Filtros de Kalman",
+    "Características aerodinâmicas",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/03/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77783",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77783&origem=BDITA"
+}

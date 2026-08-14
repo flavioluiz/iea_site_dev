@@ -1,0 +1,35 @@
+{
+  "num_tese": "000380292",
+  "type": "tese",
+  "title": "Dinâmica do movimento de abertura dos painéis solares do satélite CBERS.",
+  "author": "Antonio Claret Palerosi",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    },
+    {
+      "name": "Petrônio Noronha de Souza",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda estudos da dinâmica do movimento de abertura dos painéis solares do satélite Sino-Brasileiro CBERS. Este problema dinâmico pode ser resumido na necessidade de se garantir que haverá energia suficiente para que os painéis abram totalmente e na determinaçăo da velocidade angular dos painéis ao final do movimento de abertura em órbita. A soluçăo do problema consiste na execuçăo de testes de abertura e na elaboraçăo de modelos dinâmicos de simulaçăo. Os resultados dos testes săo utilizados para ajustar os parâmetros de um modelo dinâmico de simulaçăo em laboratório. Admite-se que se o modelo ajustado é capaz de prever precisamente o movimento em laboratório, também será capaz de fazę-lo em órbita após a remoçăo da influęncia do laboratório e atualizaçăo daqueles parâmetros sensíveis ao ambiente espacial. Tem-se assim dois diferentes modelos dinâmicos de simulaçăo: um para o laboratório, de razoável complexidade, e outro para órbita. Inicialmente é apresentada uma descriçăo detalhada do problema e a determinaçăo dos parâmetros de simulaçăo. Uma discussăo entre a formulaçăo Lagrangeana e a utilizaçăo de um programa de análise computacional de mecanismos, o ADAMS (marca registrada), é realizada. A soluçăo do problema usando-se este programa é justificada. A formulaçăo Lagrangeana e a utilizada pelo ADAMS (marca registrada), os modelos dinâmicos de simulaçăo, os resultados de teste e das simulaçőes em laboratório e órbita, assim como o ajuste de parâmetros do modelo de simulaçăo em laboratório com os resultados de teste săo descritos. Excelente aproximaçăo entre os resultados de simulaçăo do modelo de laboratório ajustado e os de teste foi obtida. A importância da inclusăo nos modelos de simulaçăo dinâmica do mecanismo de sincronismo, da interaçăo aerodinâmica dos painéis solares com o ar existente dentro do laboratório de testes e das deformaçőes apresentadas pelos painéis solares săo discutidas.",
+  "subjects": [
+    "Satélites",
+    "Equaçőes de movimento",
+    "Painéis",
+    "Órbitas",
+    "Simulaçăo",
+    "Aerodinâmica",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000380292",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000380292&origem=BDITA"
+}

@@ -1,0 +1,28 @@
+{
+  "num_tg": "80056",
+  "type": "tg",
+  "title": "Simulaçăo numérica do ruído emitido por aerofólios",
+  "author": "Matheus Henrique Rodrigues Lima",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Aerofólios utilizados em pás de rotores e fans frequentemente levam ŕ emissăo de níveis indesejados de ruído. Para números de Reynolds moderados, em regimes transicionais da camada limite, aerofólios apresentam ruído tonal, associado a um mecanismo de realimentaçăo entre instabilidades hidrodinâmicas e ondas acústicas. Neste trabalho de graduaçăo foram realizadas simulaçőes numéricas diretas (direct numerical simulation, DNS) do escoamento compressível bidimensional em torno do perfil aerodinâmico NACA 0012 a números de Reynolds moderados, de forma a modelar o mecanismo de realimentaçăo citado e obter o ruído emitido pelo aerofólio. Para tanto, foi utilizado o solver PyFR, disponível como software livre. As simulaçőes permitiram a análise dos mecanismos envolvidos e a comparaçăo do fenômeno em diferentes regimes.",
+  "subjects": [
+    "Reduçăo de ruído",
+    "Aerofólios",
+    "Número de Reynolds",
+    "Simulaçăo numérica direta",
+    "Dinâmica dos fluidos computacional",
+    "Aeroacústica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80056",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80056&origem=BDITA"
+}

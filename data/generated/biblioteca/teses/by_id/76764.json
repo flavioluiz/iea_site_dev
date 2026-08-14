@@ -1,0 +1,34 @@
+{
+  "num_tese": "76764",
+  "type": "tese",
+  "title": "A novel steady-state performance simulator of combined-cycle power plants",
+  "author": "Gustavo Bonolo de Campos",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The Brazilian electric power matrix is becoming increasingly diversified with the fraction delivered by hydropower reducing each year. Meanwhile, the natural gas fraction is increasing mainly due to the construction of combined-cycles power plants, which combine the gas turbine with the steam cycle to deliver power with high efficiency. The increasing dependency on thermal energy highlights the necessity of developing human resources and tools capable of designing thermodynamic cycles and assessing those already constructed toward improvement. In this regard, the work goal is the development of a code for the simulation of the combined-cycle at steady-state design and off-design conditions. At first, an extensive review of best practices and the fundamentals of modeling the combined cycle is presented. Thereafter, the implementation procedure is described in the following order: proprieties of gas and water/steam, exergy analysis, components, steam turbine, heat exchanger, and solution method. Finally, a case study of a 500 MW combined-cycle power plant is presented. The design case achieved virtually the same performance while the off-design case, with a gas turbine load of 69.33%, resulted in a 1.62% lower efficiency (40.94 against 41.62%). The difference in efficiency is considered acceptable, while pointing out the exact reason for the discrepancy is not possible due to a lack of information of the actual power plant. The exergy efficiency, exergy waste, and exergy waste ratio of each component is presented with the main contributors being the condenser, boilers, and steam turbine. Additionally, it is shown a significant amount of exergy waste is related to throttling and mixing a small amount of hot fluid with a large amount of cold fluid. The relation between the heat exchanger effectiveness, exergy efficiency, and heat exchange surface is also presented. Overall, the present work covers several topics, with the knowledge developed being fundamental for the study of thermodynamic cycles. Besides providing a code for future research on the subject, the work provided the background required to publish an article covering the thermoeconomic optimization of an organic Rankine cycle bottoming a micro gas turbine, highlighting the importance of developing such knowledge.",
+  "subjects": [
+    "Turbinas a gás",
+    "Turbinas a vapor",
+    "Estado estacionário",
+    "Usinas",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "13/02/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76764",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76764&origem=BDITA"
+}

@@ -1,0 +1,37 @@
+{
+  "num_tese": "80343",
+  "type": "tese",
+  "title": "Dinâmica năo-linear do ruído tonal de aerofólios",
+  "author": "Alex Sano",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este estudo combina conceitos de aeroacústica e teoria de sistemas dinâmicos para explorar a relaçăo entre os comportamentos dinâmicos do escoamento e a geraçăo de ruído em perfis aerodinâmicos. A investigaçăo foi conduzida utilizando o perfil aerodinâmico NACA 0012 sob diferentes condiçőes de número de Reynolds e ângulo de ataque, com foco em configuraçőes de Mach 0,3. Foram analisados dois casos principais: um com ângulo de ataque AoA = 3° e outro com AoA = 0°. Para cada configuraçăo, os números de Reynolds variaram entre 3,2 × 103 e 2,7 × 10^4 e entre 8 × 10^4 e 1,2 × 10^5, com incrementos de 200 e 2000, respectivamente. A escolha desses valores visou capturar as transiçőes do escoamento, desde comportamentos periódicos até estados caóticos, permitindo uma análise detalhada dos mecanismos subjacentes ao ruído tonal e tons secundários e ŕs dinâmicas de escoamento. Ao analisar o caso com AoA = 3°, ferramentas como retratos de fase, mapas de bifurcaçăo e densidade espectral de potęncia da pressăo revelaram a transiçăo do escoamento para estados caóticos, evidenciada pelo surgimento de tons secundários no espectro de pressăo acústica, conjuntamente com a transiçăo via o estado de quase-periodicidade. Consequentemente, com o aumento sucessivo de Re, a presença de frequęncias incomensuráveis, que năo possuem relaçăo linear entre si, indicou uma progressăo em direçăo ao caos, seguindo a rota de Ruelle-Takens-Newhouse. Esse mecanismo descreve a transiçăo de sistemas dinâmicos de comportamento periódico para caótico com a introduçăo de tręs frequęncias incomensuráveis. Após a terceira frequęncia, o sistema apresenta comportamento caótico, caracterizado pela transiçăo de atratores quase-periódicos para atratores estranhos e sensibilidade ŕs condiçőes iniciais. Essa abordagem năo apenas evidenciou a relaçăo entre os efeitos dinâmicos e o surgimento do ruído tonal, mas também demonstrou o mecanismo de emergęncia dos tons secundários a partir da evoluçăo do sistema simulado. No caso com ângulo de ataque nulo (AoA = 0°), o estudo revelou a presença de uma quebra de simetria dinâmica no escoamento, caracterizada pela alternância entre regiőes de sucçăo e pressăo ao longo do perfil aerodinâmico. As variaçőes no número de Reynolds apresentaram características semelhantes ŕs do caso com ângulo de ataque năo nulo, mas com ęnfase no comportamento de quebra de simetria do escoamento (mesmo que para um perfil e condiçőes inicias simétricas), indicando uma transiçăo sensível a pequenas alteraçőes nas condiçőes do escoamento. Conforme a metodologia do estudo para AoA = 3?, foram observadas as mesmas transiçőes de estados periódicos, quase-periódico e caótico; contudo, neste caso, foram exploradas as mudanças dinâmicas do escoamento entre estados simétrico periódico, simétrico quase-periódico, assimétrico periódico, assimétrico quase-periódico e caótico. Com base nos resultados obtidos, este estudo fornece uma contribuiçăo para a compreensăo das transiçőes dinâmicas em escoamentos aerodinâmicos e sua relaçăo com a geraçăo de ruído tonal. A análise detalhada das transiçőes periódicas, quase-periódicas e caóticas, bem como da quebra de simetria no escoamento, demonstra a aplicabilidade da teoria de sistemas dinâmicos para modelar fenômenos aeroacústicos complexos.",
+  "subjects": [
+    "Aeroacústica",
+    "Reduçăo de ruído",
+    "Aerofólios",
+    "Número de Reynolds",
+    "Caos",
+    "Escoamento compressível",
+    "Bifurcaçăo (Matemática)",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "16/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80343",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80343&origem=BDITA"
+}

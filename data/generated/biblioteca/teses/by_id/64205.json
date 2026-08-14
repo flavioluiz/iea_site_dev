@@ -1,0 +1,29 @@
+{
+  "num_tese": "64205",
+  "type": "tese",
+  "title": "Desenvolvimento de um atuador torcional usando liga NiTi com efeito de memória de forma",
+  "author": "Marinés Chiquinquirá Carvajal Bravo",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As ligas NiTi săo as mais amplamente utilizadas dentre os materiais com Efeito de Memória de Forma. Uma liga NiTi capaz de deformar 9% da forma original e recuperá-la totalmente tem sido produzida no Instituto Tecnológico de Aeronáutica (ITA). Aproveitando esta característica (a maior recuperaçăo de forma encontrada na literatura aberta) desenvolveu-se um atuador torcional visando o controle de forma de estruturas aeronáuticas. O objetivo deste trabalho é modelar e projetar um atuador torcional e avaliar experimentalmente o deslocamento angular e torque gerados pela recuperaçăo de forma. Desenvolveu-se uma formulaçăo simplificada para o projeto do atuador torcional considerando como variáveis de projeto o comprimento e o diâmetro do atuador, o diâmetro do fio e o ângulo de enrolamento. Săo deduzidas expressőes para o cálculo do comprimento do fio de NiTi, o deslocamento angular e o torque gerado em funçăo dos parâmetros de projeto. Recomendaçőes de projeto do atuador torcional săo elaboradas em funçăo dessas relaçőes. O sistema de aquecimento usado para atingir a temperatura de transformaçăo de fase (88°C, valor correspondente a Af) é baseado em água em ebuliçăo (também poderia ser utilizado efeito Joule). Desenvolveu-se um banco de prova linear para caracterizar a recuperaçăo de forma do material e as forças geradas sob deformaçăo longitudinal. Dois diâmetros de fio de NiTi foram testados no atuador torcional: 1 mm e 2 mm. Os resultados de deslocamento angular foram de 18° para os dois fios usados para uma deformaçăo recuperável por EMF de aproximadamente 3%. Em termos de forças de recuperaçăo, o fio de 1 mm apresenta 250 N na etapa de recuperaçăo, e o fio de 2 mm uma força de 1100 N, aproximadamente quatro vezes maior. Os resultados experimentais săo consistentes com a análise teórica, principalmente considerando as limitaçőes do experimento torcional.",
+  "subjects": [
+    "Atuadores",
+    "Ligas de memória de forma",
+    "Ligas nitinol",
+    "Ligas de titânio",
+    "Engenharia de materiais",
+    "Metalurgia"
+  ],
+  "defense_date": "20/02/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64205",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64205&origem=BDITA"
+}

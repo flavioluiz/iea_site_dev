@@ -1,0 +1,32 @@
+{
+  "num_tg": "80762",
+  "type": "tg",
+  "title": "Estudo de manobras orbitais impulsivas para mitigaçăo de colisőes entre satélites em órbita baixa",
+  "author": "Fernanda Helena Lobato Santos",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Eduardo de Sá Amaral Oliveira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O aumento do número de satélites em órbita baixa da Terra (LEO) tem intensificado os riscos de colisăo, comprometendo a operaçăo segura de ativos espaciais. Este trabalho tem como objetivo analisar e comparar estratégias de manobras orbitais propulsivas aplicadas ŕ mitigaçăo de eventos críticos de conjunçăo, no contexto da Conscięncia Situacional Espacial (SSA) e da Gestăo do Tráfego Espacial (STM). A investigaçăo é baseada em modelagem teórica da probabilidade de colisăo e em simulaçőes computacionais realizadas utilizando abordagem numérica no ambiente Systems Tool Kit (STK), incluindo propagaçăo orbital, planejamento de manobras e avaliaçăo de risco com uso do pacote computacional CAT Tool e utilizando o software GMSPAZIO Satellite Tracking Toolkit (GSTT) Orbit Guard como fonte de cenários de conjunçăo e de elipsoides/covariâncias para parametrizaçăo dos cálvulos. Serăo exploradas diferentes classes de manobras de evasăo, com foco nas estratégias baseadas em mudança de excentricidade, inclinaçăo e ascensăo reta. Os critérios de avaliaçăo incluem a eficácia na reduçăo de risco e o impacto no custo da manobra, medido em ?v. Espera-se, ao final, identificar estratégias sustentáveis e eficientes que possam subsidiar a tomada de decisăo operacional em situaçőes de risco de colisăo com o menor impacto possível na missăo.",
+  "subjects": [
+    "Satélites artificiais",
+    "Detecçăo de colisăo (ambiente virtual)",
+    "Mecânica orbital",
+    "Avaliaçăo de riscos",
+    "Manobras de aeronaves",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80762",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80762&origem=BDITA"
+}

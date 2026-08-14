@@ -1,0 +1,32 @@
+{
+  "num_tese": "000420207",
+  "type": "tese",
+  "title": "Projeto e construçăo de um cabeçote indexador mecatrônico.",
+  "author": "Jorge Ueno",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    },
+    {
+      "name": "Carlos Chien Ching Tu",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, um novo cabeçote indexador mecatrônico foi projetado, construído e testado. Dois motores de passo girando dois sem-fins acionam a mesma engrenagem de indexaçăo. Um dos motores é usado para a indexaçăo propriamente dita, enquanto que o outro é usado para eliminar a folga e travamento. Durante a movimentaçăo, o sem-fim de travamento é liberado e gira sem tocar nos dentes da engrenagem. Desta forma a indexaçăo pode ser feita com um mínimo de atrito. Alta repetibilidade, portanto, foi alcançada em consequęncia direta da eliminaçăo dos efeitos da folga e do atrito năo-linear. A indexaçăo foi calibrada com o Cabeçote Divisor da \"Zeiss\" de alta precisăo (exatidăo de 1 segundo de arco). Foi verificado que os erros experimentais săo periódicos. Portanto, esses erros foram decompostos em suas componentes de Fourier usando FFT. Um algoritmo de correçăo usando esse modelo matemático foi desenvolvido e incorporado ao programa de indexaçăo controlado por microcomputador. A repetibilidade (ou precisăo) foi melhorada em 6 vezes; o desvio padrăo dos erros, baseado em 250 mediçőes, foi reduzido para somente 14.8 segundos.",
+  "subjects": [
+    "Mecatrônica",
+    "Projeto de máquinas",
+    "Engrenagens",
+    "Máquinas-ferramenta",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000420207",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000420207&origem=BDITA"
+}

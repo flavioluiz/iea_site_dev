@@ -1,0 +1,32 @@
+{
+  "num_tese": "81102",
+  "type": "tese",
+  "title": "Flight campaign and system identification of an unmanned aerial vehicle with flexible wing",
+  "author": "Vítor Paixăo Fernandes",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Modern high-efficiency aircraft with elevated aspect ratios exhibit significant coupling between rigid-body and structural modes, requiring system identification techniques capable of capturing these aeroelastic interactions. This work aims to identify the flight dynamics model of the EOLO unmanned aerial vehicle, a slightly flexible 4-meter-wingspan platform, capturing structural flexibility effects using the Waszak and Schmidt flexible aircraft model. The methodology employs the Quad-M-V approach combined with the Output Error Method, using the Theil's Inequality Coefficient (TIC) for validation, and excitation maneuvers including doublets, 3211 multistep inputs, and frequency sweeps. Flight path reconstruction was applied to validate measurements and estimate systematic correction parameters. The platform was instrumented with air data booms, inertial navigation sensors, and distributed accelerometers and strain gauges, and an open-source ArduPilot/Pixhawk acquisition system was integrated alongside the original flight computer. A flight campaign comprising two flights and a total of 34 maneuvers was conducted. Rigid-body model identification achieved excellent convergence for both longitudinal and lateral-directional parameters. Validation demonstrated good predictive capability. Flexible model identification focused on the first symmetric wing bending mode using a quasi-static formulation. This formulation enabled the identification of aerodynamic damping, strain gauge sensitivities, and pitching moment- bending mode coupling. Validation demonstrated excellent reconstruction of strain measurements and good to acceptable reconstruction of wing accelerations. The results demonstrate the application of a validated methodology for aeroelastic identification of slightly flexible UAVs using quasi-static formulations and indicate that low-cost, open-source hardware can achieve data quality suitable for system identification when properly calibrated.",
+  "subjects": [
+    "Estática",
+    "Projeto de aeronaves",
+    "Estruturas de aeronaves",
+    "Corpos flexíveis",
+    "Aeronave năo-tripulada",
+    "Asas flexíveis",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81102",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81102&origem=BDITA"
+}

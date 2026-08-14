@@ -1,0 +1,34 @@
+{
+  "num_tg": "67488",
+  "type": "tg",
+  "title": "Modelagem alternativa para projeto de gerador de gás de MFPL de ciclo aberto",
+  "author": "Antonio Vinicius Diniz Merladet",
+  "year": "2014",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    },
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Robson Henrique dos Santos Hahn",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma sugestăo de modelamento para a geometria de um gerador de gás de motor foguete ŕ propelente líquido com ciclo aberto, contando com verificaçăo temporal para constatar a combustăo e proposta de alteraçőes caso seja necessário. Além do planejamento do contorno da câmara de combustăo, apresenta-se sugestőes de uso para ignitores e injetores e distribuiçăo destes numa placa de injeçăo. Para evitar situaçőes catastróficas na entrada da turbina, sugere-se uma medida alternativa para o interior da câmara. Tem-se ainda o cálculo do fluxo de calor esperado por convecçăo e radiaçăo, detalhados a ponto de poderem ser reproduzidos em outras circunstâncias desejadas. Por fim será realizada a escolha do material para a câmara e definida sua espessura. Para tais eventos será necessário uma grande quantidade de parâmetros de entrada e os mesmos serăo utilizados apenas como uma sugestăo para os cálculos, podendo ser modificados de acordo com o projeto e obtendo-se novos resultados. Portanto o trabalho apresenta uma modelagem completa para o projeto de um gerador de gás, tendo uma concepçăo alternativa partindo do pressuposto de que o mesmo opere de modo semelhante ŕ câmara de combustăo de um MFPL.",
+  "subjects": [
+    "Geradores de gás",
+    "Câmaras de combustăo",
+    "Motores foguetes a propelente líquido",
+    "Turbinas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67488",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67488&origem=BDITA"
+}

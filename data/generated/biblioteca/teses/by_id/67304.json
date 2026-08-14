@@ -1,0 +1,31 @@
+{
+  "num_tese": "67304",
+  "type": "tese",
+  "title": "Otimizaçăo da carga de flambagem de placas laminadas sujeitas a impacto transversal",
+  "author": "Rubens Zolar Gehlen Bohrer",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A aplicaçăo de materiais compósitos em estruturas aeronáuticas extraindo-se sua máxima capacidade de resistir a fenômenos mecânicos năo é tarefa simples. Muito das dificuldades săo oriundas das características năo lineares da formulaçăo das matrizes da relaçăo constituinte do material compósito originadas das relaçőes trigonométricas para determinaçăo dos termos das matrizes de rigidez do material. Tais dificuldades săo notórias em diversas publicaçőes abordando processos de otimizaçăo de materiais compósitos. Contudo, uma abordagem mais simples é passível de ser explorada através dos parâmetros de laminaçăo. A aplicaçăo de tal conceito aliado ŕ utilizaçăo de algoritmo robusto e eficiente, assim como do conceito de bancos de laminados para determinaçăo das regiőes viáveis de projetos permite a otimizaçăo de estruturas aeronáuticas perante os fenômenos de impacto transversal e flambagem linear. No primeiro caso, impacto transversal, é proposto a utilizaçăo de equaçőes fechadas para a soluçăo do problema de impacto transversal de baixa massa. Códigos FORTRAN săo utilizados para realizarem a otimizaçăo para diferentes espessuras de placas laminadas. Apesar de apresentar limitaçőes de utilizaçăo, as equaçőes fechadas demonstram-se como uma boa ferramenta, especialmente, na determinaçăo do número de camadas mínimo para resistir ao fenômeno de impacto. No caso da otimizaçăo da carga de flambagem, códigos FORTRAN săo utilizados aliados ao software ABAQUS para a soluçăo do problema de flambagem linear via soluçăo do problema de autovalor. Um metamodelo linear é utilizado para a estimativa das funçőes objetivo. O processo demonstra-se muito robusto e eficiente na determinaçăo do ótimo global para problemas de flambagem linear de placas laminadas sujeitas a cargas uniaxiais.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Estruturas de aeronaves",
+    "Flambagem",
+    "Análise estrutural",
+    "Otimizaçăo",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/09/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67304",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67304&origem=BDITA"
+}

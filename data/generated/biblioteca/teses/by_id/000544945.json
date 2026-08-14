@@ -1,0 +1,28 @@
+{
+  "num_tese": "000544945",
+  "type": "tese",
+  "title": "Análise do efeito das interpolaçőes sobre a qualidade do fresamento de superfícies complexas.",
+  "author": "Jacson Machado Nunes",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho analisa a influęncia dos métodos de interpolaçăo utilizados em máquinas de usinagem de alta velocidade para usinagem de superfícies complexas. O método tradicional de interpolaçăo linear foi comparado ao método de interpolaçăo circular e polinomial para tręs diferentes tolerâncias CAM. Os resultados foram analisados em termos do comportamento dinâmico da máquina ferramenta, através da aquisiçăo em tempo real da velocidade de avanço efetiva nos eixos x e z, do erro dimensional de contorno, da qualidade superficial e da deflexăo da haste da ferramenta. Para uma mesma condiçăo de corte, observa-se que a interpolaçăo polinomial apresenta um maior ganho no tempo de usinagem e uma pequena melhora no acabamento superficial. A decisăo da escolha do método de interpolaçăo tem que considerar o valor de tolerância programada no software CAM em funçăo do qual avalia-se a reduçăo de tempo de usinagem, o controle dimensional e o acabamento. Ao optar pelo uso da interpolaçăo linear o programador tem que usar tolerância aberta devido ao reduzido tamanho do programa NC e seu conseqüente tempo de processamento. Quando o programador CAM decidir pelo uso da interpolaçăo polinomial a tolerância CAM deve ser a mais apertada possível devido ao maior ajuste da equaçăo da curva polinomial ao perfil da superfície.",
+  "subjects": [
+    "Fresagem (usinagem)",
+    "Superfícies",
+    "Interpolaçăo",
+    "Manufatura auxiliada por computador",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "09/07/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000544945",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000544945&origem=BDITA"
+}

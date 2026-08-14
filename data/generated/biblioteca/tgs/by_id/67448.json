@@ -1,0 +1,33 @@
+{
+  "num_tg": "67448",
+  "type": "tg",
+  "title": "Implementaçăo de um sistema de aumento de estabilidade para uma aeronave rádio controlada com estabilidade relaxada",
+  "author": "Maurício Correia Sales",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joaquim Neto Dias",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Objetivando melhorar as características dinâmicas de uma aeronave rádio controlada, foi projetado e implementado um sistema de aumento de estabilidade em uma aeronave da categoria Micro do Aerodesign ITA, cujo centro de gravidade pode ser alterado com um sistema de deslocamento de massa, o que provocou uma instabilidade proposital no eixo longitudinal no modelo. O projeto contou com uma rotina de simulaçăo programada em Matlab e Simulink, que auxiliaram nos cálculos dos ganhos do sistema de controle do aviăo.",
+  "subjects": [
+    "Características aerodinâmicas",
+    "Aeronave năo-tripulada",
+    "Controlabilidade",
+    "Ensaios em voo",
+    "Estabilidade",
+    "Ensaios de estabilidade em voo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67448",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67448&origem=BDITA"
+}

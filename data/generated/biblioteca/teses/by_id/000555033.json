@@ -1,0 +1,34 @@
+{
+  "num_tese": "000555033",
+  "type": "tese",
+  "title": "Integraçăo de rede de Petri e simulaçăo gráfica para verificaçăo de células robóticas colaborativas.",
+  "author": "Adriano José Cunha de Aguiar",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda o problema da concepçăo de sistemas supervisórios para células robóticas colaborativas flexíveis na indústria aeronáutica. Para esta finalidade, é proposta uma abordagem mista para modelagem e verificaçăo de células robóticas baseada em simulaçăo gráfica de robôs e rede de Petri colorida. Rede de Petri é utilizada para modelar o sistema supervisório que gerencia as atividades dos robôs, a interaçăo com outros elementos e para representar a lógica de programaçăo. Simulaçăo gráfica de robôs é aplicada para ilustrar o comportamento dos robôs em um ambiente 3D indicando, por exemplo, a ocorręncia de colisőes. A flexibilidade da aplicaçăo requer que os robôs trabalhem subordinados ao sistema supervisório, tendo suas trajetórias definidas durante a execuçăo das tarefas e năo previamente programadas em seus controladores. Como conseqüęncia, com o propósito de verificar a célula robótica colaborativa, ambas as ferramentas de simulaçăo devem ser integradas. A motivaçăo deste trabalho é a concepçăo de uma célula de trabalho para a indústria aeronáutica, automatizando os processos de furaçăo e inserçăo de prendedores em partes da fuselagem. A célula é composta de dois robôs que devem trabalhar em cooperaçăo e em colaboraçăo na montagem estrutural de aeronaves.",
+  "subjects": [
+    "Dinâmica de robôs",
+    "Simulaçăo",
+    "Computaçăo gráfica",
+    "Redes de Petri",
+    "Programas supervisores",
+    "Planejamento de tarefas (robótica)",
+    "Linhas de montagem",
+    "Processo de perfuraçăo",
+    "Estruturas de aeronaves",
+    "Indústria aeronáutica",
+    "Computaçăo"
+  ],
+  "defense_date": "11/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000555033",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000555033&origem=BDITA"
+}

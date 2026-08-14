@@ -1,0 +1,32 @@
+{
+  "num_tg": "75210",
+  "type": "tg",
+  "title": "Identificaçăo do modelo aerodinâmico em alto ângulo de ataque e manobra de parafuso para a aeronave A29B",
+  "author": "Matheus Pacheco Guanabara Santiago",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Giordano de Oliveira Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Com o intuito de auxiliar o desenvolvimento do simulador de ensaios em voo do IPEV (Instituto de Pesquisas e Ensaios em Voo) em condiçőes de alto ângulo de ataque e manobras de parafuso, o presente trabalho se propőe a identificar um modelo aerodinâmico da aeronave A-29B Super Tucano. Para tal emprega-se uma abordagem baseada na utilizaçăo de dados de ensaios em voo para estimar parâmetros do modelo aerodinâmico da aeronave via métodos Output-Error e Equation-Error. Primeiramente faz-se uma verificaçăo dos dados de ensaio via Flight Path Reconstruction e posteriormente a estimativa dos parâmetros do modelo aerodinâmico. Os resultados obtidos săo analisados e simulados com uma segunda base de dados de modo a validar o modelo a ser fornecido ao simulador de voo.",
+  "subjects": [
+    "Ensaios em voo",
+    "Derivadas de estabilidade",
+    "Ângulos de ataque",
+    "Identificaçăo de sistemas",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75210",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75210&origem=BDITA"
+}

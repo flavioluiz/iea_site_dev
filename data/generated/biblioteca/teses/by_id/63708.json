@@ -1,0 +1,32 @@
+{
+  "num_tese": "63708",
+  "type": "tese",
+  "title": "Análise experimental e numérica de painéis aeronáuticos de materiais compósitos sob regime de pós-flambagem",
+  "author": "Mariano Andrés Arbelo",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho descreve análises numéricas e experimentais do comportamento estrutural de painéis laminados no regime de pós-flambagem. O objetivo e principal contribuiçăo original deste trabalho é o desenvolvimento de metodologias de análise para o projeto de painéis reforçados de materiais compósitos para aplicaçőes aeronáuticas. Um conjunto de painéis laminados reforçados foi testado estaticamente em compressăo pura e flexăo em sete pontos até a falha catastrófica para caracterizar a influencia da imperfeiçăo na colagem da interface painel-reforçador na delaminaçăo desta interface no regime de pós-flambagem. Uma análise numérica do painel reforçado que considera năo linearidade geométrica e do material foi desenvolvida e validada para os diferentes casos de imperfeiçăo na interface. O modelo de dano é baseado na Mecânica de Dano do Continuo combinado com uma lógica de contato. O modelo foi implementado no software ABAQUS com um procedimento de análise via relaxaçăo dinâmica. Este trabalho também apresenta estudo numérico-experimental detalhado da variaçăo das frequencias naturais e modos de vibraçăo de um painel plano de alumínio sujeito a carregamento compressivo no regime de pré e pós-flambagem. Uma metodologia experimental robusta via caracterizaçăo da matriz de flexibilidade do sistema é proposta e validada. Diversos modelos de elementos finitos com diferentes metodologias de soluçăo foram desenvolvidos e comparados com os resultados experimentais. Năo linearidade geométrica, imperfeiçăo geométrica e efeitos de condiçőes de contorno também săo tratados. Embora o estudo dinâmico no regime da pós-flambagem, seja baseado numa placa de alumínio, a metodologia numérico-experimental desenvolvida e validada é bastante geral e pode ser aplicada da mesma maneira para painéis de materiais compósitos.",
+  "subjects": [
+    "Painéis",
+    "Materiais compósitos",
+    "Laminados",
+    "Flambagem",
+    "Ensaios de materiais",
+    "Método de elementos finitos",
+    "Engenharia de materiais",
+    "Estruturas de aeronaves",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "13/09/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63708",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63708&origem=BDITA"
+}

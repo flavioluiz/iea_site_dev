@@ -1,0 +1,29 @@
+{
+  "num_tese": "67629",
+  "type": "tese",
+  "title": "Ambiente de simulaçăo SIL para sistemas de controle de formaçăo em posiçăo para multicópteros",
+  "author": "Davi Ferreira de Castro",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O controle cooperativo de Veículos Aéreos Năo Tripulados (VANTs) do tipo multicóptero vem sendo recentemente investigado de forma intensa por diversos grupos de pesquisa mundo afora. Com o intuito de tornar eficiente o projeto e a avaliaçăo de sistemas de controle cooperativo, propőe-se neste trabalho um ambiente de simulaçăo Software-In-the-Loop (SIL) para avaliar leis de controle de formaçăo em posiçăo de um time composto por tręs octocópteros. O ambiente é constituído de tręs computadores conectados por uma rede de comunicaçăo Ethernet. Cada computador executa dois softwares: o MATLAB/Simulink e o X-Plane. As leis de controle săo implementadas em Simulink, enquanto a dinâmica e o ambiente de voo săo simulados em X-Plane. Para realizar a cooperaçăo entre os controladores, os computadores trocam dados de posiçăo por meio dos diagramas em Simulink. Para testar o ambiente proposto, adota-se uma lei de controle de formaçăo em posiçăo utilizando a abordagem líder-seguidor. O veículo líder se desloca em linha reta, enquanto os veículos seguidores acompanham a posiçăo do líder, mantendo uma formaçăo triangular. O ambiente é validado através de comparaçőes entre o modelo em X-Plane e o modelo analítico. Os testes revelam que por meio do ambiente proposto é possível avaliar uma lei de controle de formaçăo em posiçăo.",
+  "subjects": [
+    "Simulaçăo computadorizada",
+    "Simulaçăo de voo",
+    "Controle de aeronaves",
+    "Aeronave năo-tripulada",
+    "Engenharia aeronáutica",
+    "Computaçăo"
+  ],
+  "defense_date": "05/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67629",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67629&origem=BDITA"
+}

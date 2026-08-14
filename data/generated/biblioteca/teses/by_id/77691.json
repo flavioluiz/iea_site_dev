@@ -1,0 +1,29 @@
+{
+  "num_tese": "77691",
+  "type": "tese",
+  "title": "Aircraft flight dynamics identification using subscale flight test methodology",
+  "author": "Igor Mayer Soares",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The subscale flight test methodology was developed due to the need to increase knowledge in the early phases of the aeronautical project. Thanks to advances in data acquisition systems, it is increasingly common for innovative or challenging configurations to be tested using their models on a dynamic scale, either in a wind tunnel or in flight, before the construction of the first full-scale prototype. The present work aims to identify the longitudinal mode of a subscale demonstrator of a pre-existing challenging configuration aircraft, namely, the BAe Hawk jet. For this, the subscale methodology was implemented, which consists of: obtaining a reliable aerodynamic model with low computational cost; validate the aerodynamic model developed through wind tunnel tests and; identify the stability derivatives for linear models and at high angles of attack. First, the theoretical background was presented, where similarity criteria were addressed, as well as all subscale work already carried out for the BAe Hawk aircraft. Then, the subscale demonstrator was presented, where it was found that it did not meet the similarity requirements required to represent the aircraft's dynamic and gravitational effects at full scale. The longitudinal model was also developed, as well as the methods of Panels and Vortex Lattice, to obtain the initial estimate of the longitudinal parameters. Subsequently, the test in the Wind Tunnel was described, presenting the 3D printed model and the speed planning to reach the number of Reynolds needed for comparison with the subscale demonstrator. The initial configuration of the flight test was addressed, along with the difficulties to perform the test and data collection. To identify the longitudinal parameters, using the data collected in flight, the 4MV methodology was used, based on: the Output Error Method; in the doublet Maneuver, used to excite the longitudinal mode; the necessary data to be Measured in the flight test; in the Model for longitudinal and quasi stationary dynamics; and in the Validation criteria to ensure the accuracy of the estimated model. Finally, the results of computational analyzes, wind tunnel tests and the identification process were demonstrated, where it was validated that the identified model is capable of reproducing the dynamic behavior of the subscale demonstrator.",
+  "subjects": [
+    "Ensaios em túneis de vento",
+    "Identificaçăo de sistemas",
+    "Dinâmica de voo",
+    "Escalas",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77691",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77691&origem=BDITA"
+}

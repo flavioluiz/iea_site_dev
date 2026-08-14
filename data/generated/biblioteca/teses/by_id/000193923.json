@@ -1,0 +1,29 @@
+{
+  "num_tese": "000193923",
+  "type": "tese",
+  "title": "Soluçăo das equaçőes de Luikov para secagem em meios capilares porosos pela técnica da transformada integral",
+  "author": "Júlio Wilson Ribeiro",
+  "year": "1992",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Renato Machado Cotta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As equaçőes em versőes lineares a năo-lineares de Luikov, para transferęncia simultânea de calor e massa no interior de meios capilares porosos, săo analiticamente tratadas através da técnica de transformada integral generalizada. O problema da distribuiçăo de temperatura e umidade durante a secagem de contato de uma placa úmida porosa é considerado para desenvolvimento da presente metodologia aplicada ao caso linear, enquanto a secagem de uma placa úmida porosa sujeita a troca de calor combinada convecçăo/radiaçăo no contorno é tomada como modelo para estudo do caso năo-linear. Em ambos os casos as propriedades termofísicas săo consideradas constantes. Evita-se completamente a adoçăo de um problema auxiliar acoplado, tendo em vista a possibilidade de ocorręncia de autovalores complexos e, como alternativa, escolhem-se dois problemas de autovalor desacoplados para temperatura e umidade, que săo do tipo Sturm-Liouville convencionais. Para efeito de implementaçăo computacional, para uma dada precisăo requerida, trunca-se a uma ordem finita o sistema diferencial ordinário obtido pela técnica da transformada integral, resolvendo-se analítica ou numericamente este problema de valor inicial através do uso de subrotinas bem estabelecidas de bibliotecas matemáticas disponíveis. Obtém-se um conjunto de resultados de referęncia que é criticamente comparado com soluçőes anteriormente publicadas. Avalia-se também a influęncia dos parâmetros termofísicos no comportamento do fenômeno năo-linear.",
+  "subjects": [
+    "Transformaçőes integrais",
+    "Transferęncia de calor",
+    "Materiais porosos",
+    "Secagem",
+    "Física",
+    "Matemática"
+  ],
+  "defense_date": "01/06/1992",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000193923",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000193923&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000452023",
+  "type": "tese",
+  "title": "Estudos de elementos finitos retangulares e triangulares na mecânica da fratura linear elástica.",
+  "author": "César Demétrio Santos",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O conceito do elemento distorcido tem sido adotado para construçăo de elementos especiais, que săo utilizados no método convencional de elementos finitos, na análise elástica do fator de intensidade de tensăo (FIT) para trincas. O uso desta técnica permite obter tensőes e deformaçőes singulares na ponta da trinca e conduz a razoáveis precisőes. O elemento triangular e quadrilátero distorcido tęm sido empregados junto com vários métodos de cálculo do FIT. Entre esses métodos inclui-se o cálculo da energia de Griffith, integral J, técnica da derivada da rigidez e da extrapolaçăo do deslocamento. Neste trabalho considera-se a geometria de uma chapa retangular com duas trincas simétricas de borda. Para os diversos modelos elaborados os fatores de intensidade de tensăo săo avaliados para diferentes malhas usando vários métodos de cálculo. Finalmente, os resultados săo comparados com dados de literatura para estimativa da precisăo, a fim de prover diretrizes para o melhor método. Para estes casos é observado que o uso dos elementos distorcidos junto com o cálculo do fator K pelos métodos da extensăo virtual da trinca fornecem, ainda, os resultados mais precisos, enquanto que o método de extrapolaçăo do deslocamento, aplicado junto com o elemento triangular distorcido, é de fácil implementaçăo e ainda permanece com razoável precisăo.",
+  "subjects": [
+    "Fatores de intensidade de tensăo",
+    "Análise numérica",
+    "Método de elementos finitos",
+    "Mecânica de fratura",
+    "Fraturas (materiais)",
+    "Propriedades mecânicas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000452023",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000452023&origem=BDITA"
+}

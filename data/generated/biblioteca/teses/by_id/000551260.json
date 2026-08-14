@@ -1,0 +1,31 @@
+{
+  "num_tese": "000551260",
+  "type": "tese",
+  "title": "Análise térmica de jato turbulento incidente sobre camada porosa.",
+  "author": "Cleges Fischer",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho săo estudados jatos impingentes, bidimensionais confinados incidindo sobre uma placa aquecida que pode estar ou năo coberta por uma camada porosa. O problema foi considerado bidimensional e as simulaçőes foram feitas para o escoamento tanto no regime laminar, quanto no regime turbulento. O meio poroso foi considerado rígido, homogęneo e isotrópico. Utilizou-se o conceito da dupla decomposiçăo para a obtençăo das equaçőes macroscópicas que modelam o meio poroso. Estas equaçőes foram discretizadas usando-se o método dos volumes finitos e o acoplamento pressăo-velocidade foi resolvido usando o conhecido método SIMPLE. Foram investigadas, principalmente, a distribuiçăo do Nusselt local na placa de incidęncia e a quantidade de calor retirada da placa, com ou sem a presença do meio poroso. Viu-se que, tanto para o regime laminar quanto para o turbulento, o uso do meio poroso possibilitou amenizar os elevados gradientes de temperatura, distribuir o fluxo de calor ao longo da placa e aumentar a transferęncia de calor.",
+  "subjects": [
+    "Materiais porosos",
+    "Jatos turbulentos",
+    "Análise numérica",
+    "Simulaçăo",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "05/12/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551260",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551260&origem=BDITA"
+}

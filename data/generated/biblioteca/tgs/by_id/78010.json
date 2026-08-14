@@ -1,0 +1,28 @@
+{
+  "num_tg": "78010",
+  "type": "tg",
+  "title": "A control approach to non-powered aircraft flight under the mechanism of dynamic soaring",
+  "author": "Marcus Vinícius Rodrigues de Lima",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Dynamic Soaring consists of piloting an aircraft through an atmospheric vertical wind gradient. It is attracting considerable interest in the past few years due to its possible applications in the future. The main characteristics of this mechanism of flight are the possibility of energy neutral cycles and their repeatability. With this technique, non-powered flight for unmanned aerial vehicles (UAV) is possible and feasible from a theoretical point of view. Discussion about the energy harvesting in different reference frames were made in other studies, concluding that from both point of views a neutral energy cycle is achievable. This paper proposes to investigate the trajectory optimization of a dynamic soaring flight, regarding equations in the airspeed frame, in order to understand their influence in the behavior. First of all, an historical review is made to understand the problematic and what have been studied throughout the years on dynamic soaring in general. The most important conclusions from different authors are restated. Then, a theoretical review sums-up all the background in dynamic soaring theory, with the work in reference frames and control optimization, which will be a basis for our study. Equations of motion are set and described. After, it is studied the solution techniques for an optimum control problem (OCP), and all the basic ideas are developed and explained. Finally, we were able to develop easier OCP problems, in order to understand first from a basic point of view, separating longitudinal and vertical movements. We obtained optimal trajectories for each piece of the cycle and, at the end of this work, we tried to get a full optimal trajectory of an UAV in dynamic soaring flight..",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Dinâmica de voo",
+    "Sistemas dinâmicos",
+    "Identificaçăo de parâmetros",
+    "Mecânica de voo",
+    "Estabilidade de aeronaves",
+    "Controladores",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78010",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78010&origem=BDITA"
+}

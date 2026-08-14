@@ -1,0 +1,29 @@
+{
+  "num_tese": "73379",
+  "type": "tese",
+  "title": "Orthogonal polynomials approach for unsteady aerodynamics and aeroelastic applications",
+  "author": "Clayton Rodrigo Marqui",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The unsteady aerodynamic forces acting on an aeroelastic system can be calculated in the subsonic regime by use of the doublet lattice method, for example, providing a model in frequency domain that needs to be coupled with structural dynamics. Traditionally, to obtain the time domain representation of the aeroelastic system, rational functions approximation are used to represent aerodynamic forces. The most common methods found in the literature to approximate these unsteady generalized forces from the frequency to time domain are the least square (LS), matrix Padé, and minimum state. In this context, this work presents a new method for modeling aeroelastic state-space representation in time domain based on a modification of the Laguerre Polynomials to represent complex quantities. In this approach, the size of the matrices representing the aeroelastic system remains the same as the matrices representing the structural dynamics behavior. It is an important point since classical state space aeroelastic models include lag states increasing the size of the matrices used to represent the system. Also, in this work was implemented a methodology for experimental identification of aerodynamic loads by the use of aeroelastic response and the properties of orthogonal functions (Chebyshev, Legendre). Although the proposed approach is prepared for experimental application, numerical simulations were performed in order to validate the identification methodology. Another important application of the orthogonal polynomials, such that Chebyshev, Legendre, and Laguerre, was performed in order to interpolate unsteady aerodynamic matrices for flutter analysis using the pk method. This proposed methodology is demonstrated considering a benchmark problem. Results show a very expressive computational time reduction.",
+  "subjects": [
+    "Forças aerodinâmicas",
+    "Aeroelasticidade",
+    "Análise de domínio de freqüęncia",
+    "Estruturas de aeronaves",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73379",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73379&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "77900",
+  "type": "tese",
+  "title": "Modelagem e compensaçăo on-line dos erros de flexibilidade de manipuladores industriais para montagem robotizada",
+  "author": "Wesley Rodrigues de Oliveira",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os processos mais modernos de manufatura robotizada tęm ido muito além das convencionais tarefas pick-and-place, requerendo sistemas robóticos cada vez mais precisos. A montagem estrutural robotizada, por exemplo, sobretudo no setor aeronáutico, estabelece tolerâncias de posicionamento que podem ser diretamente confrontadas pela flexibilidade mecânica típica dos robôs seriais mais populares no meio industrial. Diante deste cenário, o objetivo geral deste trabalho é propor uma abordagem de montagem robotizada auxiliada pela modelagem e compensaçăo online dos erros de flexibilidade de manipuladores industriais. Para tanto, discorre-se sobre problemática geral da identificaçăo e da integraçăo dos modelos de elasticidade mais relevantes para a efetivaçăo deste paradigma. Aplicando a técnica de modelagem por juntas virtuais (VJM, do inglęs Virtual Joint Method), realiza-se a proposiçăo de um método de identificaçăo que facilita a obtençăo de modelos elastostáticos, preservando suas propriedades físicas e matemáticas mais relevantes. A partir desta técnica, um modelo de rigidez de um manipulador industrial real é identificado para ser empregado em uma abordagem de compensaçăo online de erros de flexibilidade. Baseado em critérios de avaliaçăo do padrăo EN ISO 9283:1998, a técnica de compensaçăo é verificada experimentalmente, inclusive em uma célula de montagem robotizada de estruturas internas de asas de aeronaves, desenvolvida em um projeto de P&D no Centro de Competęncia em Manufatura (CCM) do Instituto Tecnológico de Aeronáutica (ITA). As avaliaçőes experimentais foram executadas para demonstrar potenciais limitaçőes do método de compensaçăo, evidenciando que o erro absoluto de posicionamento pela compensaçăo completamente baseada em modelo pode alcançar até 0,891 mm com extrapolaçőes do volume inicial de calibraçăo, sugerindo também a potencial e moderada influęncia da variaçăo de temperatura. Năo obstante, os resultados também permitem sugerir a eficácia da abordagem proposta dentro dos limites padrăo de volume de trabalho da ISO, onde avaliaçőes adicionais indicaram que os modelos obtidos por meio da técnica de identificaçăo proposta săo capazes de predizer cerca de 93,7% dos erros de flexibilidade do manipulador que, auxiliado pelo método de compensaçăo proposto, alcançou um erro absoluto de posicionamento menor do que 0,532 mm.",
+  "subjects": [
+    "Robôs",
+    "Robótica",
+    "Processos de manufatura",
+    "Flexibilidade",
+    "Manipuladores",
+    "Montagem",
+    "Computaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "29/07/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77900",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77900&origem=BDITA"
+}

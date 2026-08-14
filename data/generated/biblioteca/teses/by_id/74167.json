@@ -1,0 +1,29 @@
+{
+  "num_tese": "74167",
+  "type": "tese",
+  "title": "Simulaçăo computacional de um motor de combustăo interna do tipo alternativo utilizando etanol",
+  "author": "Daniel da Silva Tonon",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma análise teórica do desempenho de um motor de combustăo interna de 4 cursos, utilizado como propulsor de veículos de passeio comercializados em território nacional. Todos os parâmetros do motor, necessários para a análise computacional, e os dados experimentais obtidos em dinamômetro, foram cedidos por uma montadora presente no Brasil. As simulaçőes computacionais foram realizadas através do software Diesel-RK®, de origem russa, e livre para uso acadęmico. O modelo computacional foi validado pelos dados experimentais disponíveis, sendo que a incerteza média de todas as simulaçőes realizadas, foi de 10,6% para o consumo específico de combustível, e de 11,2% para a vazăo mássica de ar. Na sequęncia do trabalho foram simuladas propostas de modificaçőes no mecanismo original, de forma a analisar a geraçăo de possíveis benefícios. Os resultados obtidos para a variaçăo da razăo diâmetro/curso do motor, năo mostram nenhuma melhora significativa, indicando que os ganhos obtidos por menores perdas fluidodinâmicas e de solicitaçăo inercial, săo anulados por maiores perdas térmicas e mecânicas, no caso de tornar o motor mais superquadrado. Para a análise de utilizaçăo de eixos de cames com maiores duraçőes de abertura, para a válvula de admissăo, também năo obteve-se nenhum tipo de benefício, porém, os resultados das simulaçőes ajudam a entender uma tendęncia mundial, que é a inserçăo de sistemas capazes de controlar a abertura e o fechamento das válvulas, simultaneamente. Por fim, na análise de mudança do ponto de abertura da válvula de admissăo, o modelo mostra a possibilidade de se obter um ganho médio de aproximadamente 10% no torque, e de 2,2% no consumo específico de combustível.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Simulaçăo computadorizada",
+    "Álcool etílico",
+    "Avaliaçăo de desempenho",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "20/02/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74167",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74167&origem=BDITA"
+}

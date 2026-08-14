@@ -1,0 +1,33 @@
+{
+  "num_tg": "80743",
+  "type": "tg",
+  "title": "Route to chaos in a 2D incompressible square cavity flow using a nonlinear reduced order model",
+  "author": "Bruno Henrique Dan Garcia",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A nonlinear reduced-order model (ROM) was constructed for a square cavity in an incompressible and subcritical regime. The ability of the model to approximate the system's results was verified by comparing simulations performed with the reduced model and with the full model, the cavity's Direct Numerical Simulation (DNS). With this good approximation of the system's dynamics, the reduced model was used to study the transition to chaos in the flow. The nonlinear character of the ROM allowed it to capture the transition from a steady regime to a chaotic one for Reynolds numbers above 7000, with a strong connection to the cavity's internal recirculation, which is a low-frequency phenomenon. The model was built using the Galerkin projection method, which projects the Navier-Stokes equations onto a basis of balanced modes obtained through a Balanced Proper Orthogonal Decomposition (BPOD) of the system. The frequency-limited snapshots method was used to discretize the system's gramians in the frequency domain, employing the system's resolvent modes as a basis. Resolvent analyses were conducted for 41 frequencies, with the upper limit set to four times the first Rossiter frequency. The reduced model was tested by comparing its results with the system's DNS for Reynolds numbers 1000 (at which the model was generated) and 3000. With 200 pairs of balanced modes, the ROM reproduces the simulation results well for both Reynolds numbers, showing expected deviations due to the order reduction of the system by a factor close to 200. This ability to reproduce the system's behavior enabled the identification of a Hopf bifurcation, which drives the system from the steady regime to the oscillatory one near Reynolds 5000, and an abrupt transition to a chaotic regime at Reynolds 7000. Both behaviors are associated with low-frequency modes when compared to the cavity's first Rossiter mode.",
+  "subjects": [
+    "Escoamento incompressível",
+    "Năo-linearidade",
+    "Caos",
+    "Cavidades",
+    "Método de Galerkin",
+    "Número de Reynolds",
+    "Bifurcaçăo (Matemática)",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80743",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80743&origem=BDITA"
+}

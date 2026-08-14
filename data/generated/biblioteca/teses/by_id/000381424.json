@@ -1,0 +1,29 @@
+{
+  "num_tese": "000381424",
+  "type": "tese",
+  "title": "Ensaio experimental e análise numérica do escoamento em uma contraçăo.",
+  "author": "Raniere Diniz de Paula",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem por finalidade a análise do escoamento em uma contraçăo tipo \"boca de sino\" dimensionada segundo critérios de projeto de túneis aerodinâmicos e instalada na entrada de um duto de seçăo retangular com razăo de aspecto igual a oito. No aparato experimental, a vazăo foi medida através da varredura de um tubo de Pitot e de um anemômetro de fio quente localizados em uma posiçăo ŕ jusante da contraçăo e também com um rotâmetro. na contraçăo foi medido o diferencial de pressăo entre a entrada e a saída. Os resultados experimentais foram obtidos na faixa de números de Reynolds desde 15.000 atée 67.000. Observou-se uma boa concordância entre as vazőes medidas através da contraçăo e pela varredura do tubo de Pitot para números de Reynolds acima de 30.000. Com o intuito de analisar o escoamento através da contraçăo nesta faixa de número de Reynolds, foram obtidos resultados numéricos utilizando-se uma técnica numérica de elementos finitos (ANSYS-FLOTRAN) utilizando uma malha de 14.796 nós (14.350 elementos) em um domínio considerando a simetria do escoamento. Para calcular a viscosidade turbulenta foi utilizado o modelo k-e padrăo. Comparando-se os resultados para a vazăo, verificou-se uma boa concordância entre os valores experimentais obtidos através da contraçăo e numéricos em toda a faixa de números de Reynolds analisados neste trabalho. Para números de Reynolds acima de 30.000 obteve-se também uma boa concordância entre os resultados numéricos e os obtidos pela varredura do tubo de Pitot.",
+  "subjects": [
+    "Escoamento de fluídos",
+    "Análise numérica",
+    "Número de Reynolds",
+    "Mecânica dos fluídos",
+    "Mecânica (Física)",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000381424",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000381424&origem=BDITA"
+}

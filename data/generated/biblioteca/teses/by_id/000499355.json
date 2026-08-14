@@ -1,0 +1,33 @@
+{
+  "num_tese": "000499355",
+  "type": "tese",
+  "title": "Modelo de elementos finitos para simulaçăo de juntas sobrepostas coladas em compósitos laminados.",
+  "author": "André Jesus",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Na indústria aeronáutica é inevitável o uso de juntas coladas, rebitadas e parafusadas na uniăo de componentes ou partes estruturais. Com o desenvolvimento de novos materiais e novas técnicas de manufatura, as juntas coladas passaram a ser mais utilizadas devido a algumas vantagens sobre as tradicionais juntas rebitadas e parafusadas, tais como: melhor distribuiçăo das tensőes na regiăo de colagem, melhor vedaçăo, melhor acabamento e o mais importante em aplicaçőes aeronáuticas, menor peso. O projeto de juntas coladas é baseado em análise para a determinaçăo das tensőes normais e cisalhantes no adesivo e o campo de deslocamentos ao longo da junta. O objetivo deste trabalho é apresentar uma técnica de elementos finitos para modelagem de juntas coladas aplicável a qualquer tipo de configuraçăo. As juntas săo modeladas utilizando o programa comercial de elementos finitos MSC.Nastran. Nas simulaçőes, os aderentes săo considerados laminados de material ortotrópico, conseqüentemente a utilizaçăo de laminados assimétricos e năo-balanceados săo considerados. A camada de adesivo é modelada de duas maneiras: a primeira técnica assume a camada de adesivo como sendo um modelo constitutivo linear elástico e a segunda técnica assume um modelo constitutivo elasto-plástico, sendo este o modelo constitutivo da maioria dos adesivos poliméricos. Elementos de casca (CQUAD4) săo utilizados para a modelagem dos aderentes e elementos sólidos (CHEXA8) na modelagem da camada de adesivo. Equaçőes de restriçăo (MPC) săo utilizadas para ligaçăo dos aderentes ao adesivo proporcionando a determinaçăo das tensőes de cisalhamento txz e normal sz. A validaçăo do modelo de junta colada tipo sobreposta é investigada pela comparaçăo dos resultados numéricos com outras duas técnicas. Na primeira técnica, ambos os aderentes e adesivo săo discretizados em elementos sólidos do Nastran, resultando num modelo completamente 3D; na segunda técnica é utilizado o programa comercial para análise estrutural de compostos ESAComp 2.2. Os resultados comparados săo as distribuiçőes de tensőes normais, cisalhantes e o campo de deslocamentos ao longo da junta. Os resultados obtidos com o método proposto estăo próximos do modelo 3D para todos os estudos de caso, com vantagem de ser mais simples e numericamente mais eficiente.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Juntas (junçőes)",
+    "Estruturas coladas",
+    "Método de elementos finitos",
+    "Modelagem (processos)",
+    "Simulaçăo",
+    "Estrutura de aeronaves",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000499355",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000499355&origem=BDITA"
+}

@@ -1,0 +1,25 @@
+{
+  "num_tg": "75275",
+  "type": "tg",
+  "title": "Programa de modelagem e cálculo aerodinâmico subsônico e supersônico para aeronaves com configuraçőes arbitrárias",
+  "author": "Marcelo Cândido Leles",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Adson Agrico de Paula",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Desenvolveu-se um programa com interface gráfica em MATLAB que permita ao usuário a concepçăo de uma aeronave com geometria arbitrária de modo rápido e simples com apenas alguns inputs, que propicie o gerenciamento de toda a parte aerodinâmica durante a fase de projeto conceitual de uma aeronave e permita também, em fases mais avançadas do projeto, a previsăo de resultados em túnel de vento para escoamentos tanto subsônico quanto supersônico. O programa conta com um módulo para criaçăo de geometrias de forma intuitiva através de várias ferramentas disponíveis, permitindo uma total parametrizaçăo da aeronave através de Splines e NURBS e posterior geraçăo de malha estruturada no formato LaWGS. Após criaçăo da geometria o programa contém um módulo de pré-processamento onde o usuário poderá definir as condiçőes do escoamento, número de Mach e ângulos de ataque ŕ serem analisados, a altitude de operaçăo e o tipo de aeronave estudada para cálculo do arrasto parasita e por último informaçőes sobre o CG da aeronave para cálculo dos momentos. Após definiçăo da geometria e condiçőes de voo as análises serăo realizadas através do PANAIR, um programa que utiliza método dos painéis de alta ordem para cálculo aerodinâmico. Por último, na fase de pós-processamento, o usuário terá acesso a todos os dados resultantes da análise, como CL,CM,CD0,CDi,CP,polar de arrasto e distribuiçăo de CL na asa, podendo visualizá-los de forma rápida e intuitiva e tirar conclusőes acerca dos mesmos para realizar possíveis alteraçőes no projeto. O programa também conta com toda uma interface para que o usuário possa criar novos projetos, realizar novas análises, salvar seus dados em arquivos *.mat, abri-los e modificá-los a qualquer momento.",
+  "subjects": [
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Escoamento",
+    "Esquemas conceituais",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75275",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75275&origem=BDITA"
+}

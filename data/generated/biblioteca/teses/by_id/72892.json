@@ -1,0 +1,29 @@
+{
+  "num_tese": "72892",
+  "type": "tese",
+  "title": "Determinaçăo da influęncia da folga de topo na eficięncia de uma turbina axial multiestágio utilizada em booster de motor foguete para operaçăo com LOX",
+  "author": "Luiz Henrique Lindquist Whitacker",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Há muitas décadas se reconhece a importância do motor foguete a propelente líquido para as missőes espaciais, estando este tipo de propulsor presente em praticamente todos os veículos lançadores de todas as Naçőes que dominam o ciclo de acesso ao espaço. Historicamente, um dos componentes críticos responsável pelo alto desempenho e pela evoluçăo destes sistemas propulsivos é a turbobomba. Sendo assim, é imprescindível a uma Naçăo que almeja a soberania aeroespacial ter técnicas e procedimentos sólidos de análise de desempenho e de projeto destas máquinas. Dessa forma, realizou-se este trabalho de pesquisa no qual uma turbina axial utilizada em turbobomba do tipo booster foi preliminarmente projetada, desde os requisitos iniciais, passando pelas técnicas 1-D e 3-D de projeto, até a obtençăo da geometria final. A turbina dimensionada possuiu parâmetros geométricos e de desempenho muito próximos com os parâmetros de referęncia, que no caso săo os da turbina do booster de LOX do motor principal do Space Shuttle (do inglęs Space Shuttle Main Engine - SSME), conforme memorando técnico da NASA, sendo que estes serviram de requisitos iniciais para o projeto. Utilizando o software AXIALTM, da empresa CONCEPTS NREC, realizaram-se os cálculos de linha média e, a partir deles, usou-se o programa AxCent, da mesma empresa, para o empilhamento dos perfis na base, meio e topo, obtendo-se a geometria 3-D. Neste mesmo software, geraram-se as diversas malhas para o estudo de dependęncia. A malha escolhida foi utilizada no programa CFX, desenvolvido pela empresa ANSYS, no qual foram executadas as simulaçőes utilizando a técnica de Dinâmica dos Fluidos Computacional (do inglęs: Computational Fluid Dynamics - CFD). Além disso, determinou-se a variaçăo de eficięncia dos dois primeiros estágios em funçăo da variaçăo do ponto de operaçăo para configuraçőes distintas da folga de topo, com resultados muito próximos aos experimentais. O tamanho da folga de topo foi variado ainda na ferramenta 1-D de projeto (3,0%; 5,5% e 8,0% da altura da pá), sendo possível obter geometrias finais para cada configuraçăo. Assim, comprovou-se a eficácia dos procedimentos e técnicas de projeto e análise de desempenho utilizados.",
+  "subjects": [
+    "Turbinas axiais",
+    "Bombas de turbinas",
+    "Dinâmica dos fluidos computacional",
+    "Motores foguetes",
+    "Lâminas de turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/02/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72892",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72892&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000444268",
+  "type": "tese",
+  "title": "Análise numérica da transferęncia de calor bidimensional em um coletor solar de placa plana.",
+  "author": "Juliano Duarte",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, săo investigados os efeitos de conduçăo e convecçăo de calor na seçăo transversal de um coletor solar plano, utilizando as abordagens de transferęncia de calor bidimensional desacoplada e conjugada. Através de um código comercial, baseado no método numérico de elementos finitos, realizou-se uma soluçăo numérica das equaçőes governantes para determinar as trocas de calor no coletor. Com os resultados obtidos pela abordagem conjugada, que considera a conduçăo no sólido e a convecçăo no fluido de forma acoplada em um único domínio, verificou-se que o coeficiente de convecçăo e o número de Nusselt variam localmente, devido a distribuiçăo de temperatura năo uniforme na superfície interna do tubo. Entretanto, os valores médios desses parâmetros apresentaram boa concordância com os valores encontrados na literatura, validando assim a hipótese de coeficiente de convecçăo prescrito e uniforme utilizado pela abordagem desacoplada. Por fim, os resultados numéricos obtidos pela formulaçăo bidimensional desacoplada foram comparados com os da formulaçăo analítica unidimensional normalmente utilizada no projeto de coletores solares. Essa comparaçăo tem como objetivo verificar em que faixa dos parâmetros adimensionais do problema, a formulaçăo unidimensional apresenta as maiores diferenças para a determinaçăo das taxas de calor trocada no coletor. As simulaçőes foram realizadas para regime permanente, convecçăo forçada em escoamento laminar desenvolvido de um fluido Newtoniano e considerando que as propriedades do sólido e do fluido năo variam com a temperatura.",
+  "subjects": [
+    "Análise numérica",
+    "Transferęncia de calor por conduçăo",
+    "Transferęncia de calor por convecçăo",
+    "Coletores solares",
+    "Placas planas",
+    "Método de elementos finitos",
+    "Mecânica (Física)",
+    "Física"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000444268",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000444268&origem=BDITA"
+}

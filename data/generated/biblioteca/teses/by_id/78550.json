@@ -1,0 +1,34 @@
+{
+  "num_tese": "78550",
+  "type": "tese",
+  "title": "Aprimoramento de modelos de aeronaves de asas rotativas",
+  "author": "Mariana Monteiro Pereira",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Simuladores de voo vęm sendo largamente utilizados tanto na aviaçăo civil quanto militar, permitindo aos pilotos treinar manobras complexas, sem arriscar perdas humanas e materiais. Para que o treinamento seja efetivo e năo traga prejuízo ao condicionamento do piloto, deve-se garantir que as respostas do simulador aos comandos executados correspondam adequadamente ao comportamento em voo real da aeronave, que ele se propőe representar. A compatibilidade entre resposta simulada e real é obtida pela implementaçăo de um modelo dinâmico adequado. Apesar de grande avanço ter sido feito para obtençăo de modelos năo lineares, a abordagem linear continua sendo eficiente, principalmente quando năo se tem acesso a determinadas características físicas da aeronave, muitas vezes detidas apenas pelo fabricante. Assim, é possível adotar modelo linear ou năo linear. Para isso, deve-se compreender as vantagens e desvantagens de cada um. Para a obtençăo de modelos lineares, pode-se adotar o processo de identificaçăo de sistemas, que a partir de dados reais de ensaio em voo, permite determinar o conjunto de derivadas de estabilidade e controle que melhor representem a resposta real da aeronave em uma determinada condiçăo de voo. Neste contexto, este trabalho tem por objetivo avaliar o processo de obtençăo de modelos linearizados por meio de técnicas de identificaçăo de sistemas. Considerando as limitaçőes e dificuldades de trabalhar com dados reais, foi utilizado o software FLIGHTLAB para gerar respostas năo lineares, que foram tratadas no processo de identificaçăo como equivalentes aos dados de uma campanha de ensaio. Para tal, primeiro foi implementado o modelo do helicóptero OH-6, disponibilizado na literatura revisada, e suas respostas analisadas por comparaçăo com dados reais. Uma vez identificadas as limitaçőes deste software, para possibilitar a aplicaçăo do procedimento de identificaçăo de sistemas foram simuladas manobras em diversas condiçőes de voo, posteriormente identificadas pelo método do Erro de Saída. Além do modelo linear de 6 GDL, foram avaliados outros tręs modelos similares, sendo eles, um modelo linear com fator de correçăo, um modelo semilinear e um modelo semilinear com fator de correçăo. Os resultados deste trabalho permitiram compreender as limitaçőes do software FLIGHTLAB e do método de identificaçăo por Erro de Saída.",
+  "subjects": [
+    "Helicópteros",
+    "Aeronaves de asas rotativas",
+    "Identificaçăo de sistemas",
+    "Simuladores de voo",
+    "Análise comparativa",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "29/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78550",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78550&origem=BDITA"
+}

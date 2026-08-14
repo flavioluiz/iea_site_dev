@@ -1,0 +1,26 @@
+{
+  "num_tg": "67526",
+  "type": "tg",
+  "title": "Avaliaçăo da influęncia da folga de topo em uma turbina axial projetada para operaçăo em booster de motor foguete a propelente líquido utilizando cálculos de escoamento 1D e 3D",
+  "author": "Luiz Henrique Lindquist Whitacker",
+  "year": "2014",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Tendo em vista a importância das turbobombas no contexto de propulsăo espacial líquida e, mais amplamente, no contexto de aplicaçőes espaciais, realizou-se esse trabalho no qual se obteve a geometria de um estágio de turbina axial para aplicaçăo em booster de motor foguete a propelente líquido, a partir de um conjunto inicial de requisitos e dados publicados pela NASA. Trata-se de uma turbina axial aplicada em motores foguetes de veículos de grande porte, como é o caso da Space Shuttle. O projeto preliminar da turbina axial foi realizado utilizando-se a técnica da linha média com adiçăo de modelamento de perdas internas. Foi utilizado o software comercial AXIAL, desenvolvido pela empresa CONCEPTS NREC, para o dimensionamento da turbina axial. Utilizaram-se as equaçőes de Euler com a adiçăo do modelo de perdas desenvolvido por KACKER, S. C.; OKAPUU, U. (1982). Foi também realizada a análise da influęncia da folga de topo sobre a eficięncia do estágio obtido. Dessa forma, foi obtida a geometria preliminar da turbina axial, de forma a ser possível realizar um estudo mais detalhado através do cálculo do escoamento através do estágio utilizando-se as equaçőes gerais da Mecânica dos Fluidos, calculadas numericamente, ao que se denomina Dinâmica dos Fluidos Computacional (ou do inglęs, Computational Fluid Dynamics - CFD). Foi realizado um trabalho de CAD para a geraçăo da malha no domínio composto de uma passagem do escoamento em um canal de pás de estator e rotor da turbina axial utilizando-se o software AxCent da CONCEPTS NREC. Para o cálculo tridimensional, foi utilizado o software da ANSYS CFX v.15. O escoamento foi calculado utilizando-se as equaçőes de conservaçăo de massa, Navier-Stokes e conservaçăo de energia, com média de Reynolds (Reynolds Averaged Navier-Stokes - RANS) e o modelo de turbulęncia de duas equaçőes desenvolvido por MENTER, F. R. (1994), denominado Shear Stress Transport (SST). A influęncia da variaçăo da folga de topo entre o rotor e a carcaça da turbina axial na eficięncia da turbomáquina foi estudada utilizando-se as duas metodologias: linha média e CFD. Os resultados foram comparados com dados experimentais da NASA, BOYNTON, J. L.; ROHLIK, H. E. (1976), apresentando-se muito próximos, o que demonstra a importância dessas ferramentas numéricas durante o projeto de turbomáquinas.",
+  "subjects": [
+    "Turbinas axiais",
+    "Turbomáquinas",
+    "Voo espacial",
+    "Propulsăo",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67526",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67526&origem=BDITA"
+}

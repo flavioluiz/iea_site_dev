@@ -1,0 +1,28 @@
+{
+  "num_tese": "77824",
+  "type": "tese",
+  "title": "Numerical modeling and analysis of a thermal energy storage system",
+  "author": "Fernando Andrade Rodrigues",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Improvement of thermal energy storage (TES) system technology is paramount for improving the cost-effectiveness of concentrated solar power (CSP) plants. Currently, most CSP plants planned or under construction include TES integration. In the interest of cost reduction, single tank storage systems, where hot and cold temperature fluids are separated by buoyancy forces, have been proposed. Here, a single tank TES system using hot air as heat transfer fluid and a permeable medium as storage material is modelled and its thermal behavior investigated. The TES system is modelled as an axisymmetric ventilated cavity partially filled with a porous medium. For the flow in the porous and clear regions, a turbulent model with forced and natural convection is considered. Heat transfer in porous media utilizes the two-energy equation model or local thermal non-equilibrium assumption. The model was validated with experimental results, already published in literature, for charge, standby and discharge cycles. Then, the thermal dynamic behavior of the TES system was investigated during the charge, standby and discharge cycles with a focus on the effects of Reynolds number, porosity, permeability, thermal conductivity ratio and thermal capacity ratio. The analysis focused on the effects of these properties on the thermal stratification inside the system and their effects on the efficiency of the cycles. First, results for the charging cycle indicated the most efficient charges as the ones with higher porosities and lower permeabilities. Second, the effects of the thermal conductivity were predominant in lower Re number cases while thermal capacity was more influential at higher Re numbers. Third, an investigation of the turbulence fields indicated that lower porosities and permeabilities resulted in higher turbulent kinetic energy values and lower permeabilities increased relative pressure drop. Fourth, results showed that higher porosities resulted in more thermal losses during a standby cycle and increasing permeability led to thermal destratification inside the tank. In addition, a lower thermal conductivity ratio prevented thermal loss during standby and a higher thermal capacity ratio slowed down the dissipation of thermal energy. Finally, during discharge, an increase in Re number raised the efficiency of the system while lowering porosity decreased it. Furthermore, less permeable systems were significantly more efficient during discharge and a lower thermal conductivity provided higher outlet temperatures. Raising the thermal capacity ratio led to more efficient discharges at higher Re numbers while decreasing efficiency significantly at lower mass flow rates.",
+  "subjects": [
+    "Armazenamento de energia",
+    "Energia térmica",
+    "Turbulęncia",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "05/05/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77824",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77824&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "000194531",
+  "type": "tese",
+  "title": "Desenvolvimento e simulaçăo computacional de bombas eletromagnéticas termoelétricas para o controle do escoamento em reatores nucleares espaciais refrigerados a metal líquido",
+  "author": "Eduardo Madeira Borges",
+  "year": "1991",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jerzy Tadeusz Sielawa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Bombas eletromagnéticas termoelétricas (EMTE) podem ser usadas no controle do escoamento nos circuitos primário e secundário de reatores nucleares espaciais, refrigerados a metal líquido. Para se simular o sistema e avaliar o desempenho de bombas EMTE, em estado estacionário, foi desenvolvido um programa computacional, denominado BEMTE, que estuda os principais parâmetros de funcionamento da bomba e determina o ponto de atuaçăo do sistema, para uma dada potęncia de operaçăo do reator. O esquema elaborado utiliza: 1. um modelo para simulaçăo dos conversores termoelétricos da bomba e cálculo da corrente elétrica total gerada; 2. o programa POISSON, acoplado ao BEMTE, que resolve as equaçőes de Maxwell e calcula a distribuiçăo do campo magnético nos canais da bomba; 3. um modelo de cálculo de altura dinâmica da bomba, a partir da interaçăo campo-corrente nos canais, e 4. para o fechamento do problema, um estudo simplificado do trocador de calor e das perdas de pressăo nos circuitos do reator. Os resultados obtidos em cada etapa do programa foram satisfatórios, comparados aos dados experimentais. O programa mostrou-se adequado ao projeto e simulaçăo de bombas eletromagnéticas de corrente contínua.",
+  "subjects": [
+    "Bombas eletromagnéticas",
+    "Reatores espaciais de potęncia",
+    "Reatores refrigerados a metal líquido",
+    "Escoamento de fluidos",
+    "Controle de reatores nucleares",
+    "Programas de computadores",
+    "Engenharia nuclear"
+  ],
+  "defense_date": "01/10/1991",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194531",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194531&origem=BDITA"
+}

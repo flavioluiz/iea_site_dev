@@ -1,0 +1,29 @@
+{
+  "num_tese": "71855",
+  "type": "tese",
+  "title": "Reconstruçăo da distribuiçăo do resultado discente no ENADE a partir de estatísticas descritivas",
+  "author": "Rodrigo Cesar da Silva",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Para avançar o desenvolvimento de um país, é muito importante a tarefa de detectar e incentivar adequadamente os seus melhores alunos de graduaçăo baseando-se na hipótese de que esse grupo de alunos possui maior potencial de protagonizar grandes mudanças, quebrar paradigmas, inovar, empreender, etc. O objetivo deste trabalho é desenvolver um método para estimar a composiçăo da \"elite\" nacional dos alunos de um curso qualquer, por meio dos dados fornecidos pelos relatórios de curso do Exame Nacional de Desempenho de Estudantes ENADE. Para isso, iremos elaborar um método para reconstruir uma base de dados presumidamente desconhecida, a partir de um conjunto de estatísticas descritivas específico e, usando simulaçăo de Monte Carlo, estimar estatisticamente um aspecto peculiar dessa base de dados, servindo-se dos resultados provenientes do procedimento de reconstruçăo. O problema de reconstruir a base dados aqui estudo, é um caso especial do problema finito dos momentos, que é um problema de difícil soluçăo e que possui aplicaçőes práticas diversas. Em nosso método de reconstruçăo, que é baseado na soluçăo de um problema de otimizaçăo por algoritmo genético, năo é necessário fazer nenhuma hipótese sobre a base de dados considerada. Para mostrar uma aplicaçăo prática desse trabalho, utilizaremos o nosso método de estimaçăo baseado em simulaçăo para fazer inferęncia estatística sobre a composiçăo da \"elite\" do curso de engenharia mecânica usando os resultados do ENADE de 2011 e 2014 e, com maior profundidade, avaliaremos o desempenho do Instituto Tecnológico de Aeronáutica.",
+  "subjects": [
+    "Algoritmos genéticos",
+    "Programaçăo năo-linear",
+    "Método de Monte Carlo",
+    "Avaliaçăo de desempenho",
+    "Matemática aplicada",
+    "Administraçăo"
+  ],
+  "defense_date": "29/06/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71855",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71855&origem=BDITA"
+}

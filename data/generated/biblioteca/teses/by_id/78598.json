@@ -1,0 +1,35 @@
+{
+  "num_tese": "78598",
+  "type": "tese",
+  "title": "Gas turbine modeling and control system development for offshore applications",
+  "author": "Tiago Andrei Adamczevski",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Gas turbines have been used from their original designs to the present day in different areas for both military and civilian purposes. Its ability to supply great power using a low installation area makes it important in the offshore industry. The development of a gas turbine simulator requires complex processes due to the non-linear characteristics and also to the restriction of the information about its components. This work presents the development of a gas turbine simulator and its control system, based on basic information from catalogs, manuals, and operational data. The environment chosen for developing the simulator was Simulink and Matlab. The compressor model was build using a methodology for creating the performance map of the compressor based on a Stage-stacking process. The turbine models are based on an approach for multistage turbines proposed by Stodola. The developed control system is composed of temperature protection loops and rotational speed, as well as a loop for power control on the power turbine axis. Control system signals outputs are sent to a fuel control valve. The results obtained after the integration and modeling of components and systems were compared to operational, manual, and literature data. The compressor model created proved to be robust and with great ability to extend functions/tools. The models of the turbines presented divergences in the operating values with relation to the manual. The control system was tested through disturbances in the adopted control loops. The Control system proved to be robust in controlling the fuel flow for several load variation situations. The gas turbine simulator and its developed control system demonstrated good results and can be used as an important tool to identify and simulation of equipment failures. The compressor modeling methodology proved to be effective and capable of being used in other turbine models.",
+  "subjects": [
+    "Turbinas a gás",
+    "Simuladores",
+    "Sistema de controle",
+    "Modelagem (processos)",
+    "Controle robusto",
+    "Turbinas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78598",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78598&origem=BDITA"
+}

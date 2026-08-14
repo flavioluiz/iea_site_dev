@@ -1,0 +1,30 @@
+{
+  "num_tese": "000536334",
+  "type": "tese",
+  "title": "Buckling optimization of arbitrary shape plates under uncertain loads.",
+  "author": "Ana Costa Conrado",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Typically, aircraft wing structural panels are designed against buckling for a very large number of possible loading that may occur during the operation of the aircraft. If the optimization procedure accounts only for a limited number of design loads, the structure may be vulnerable to a specific type of loading that may cause the structure to fail. A novel approach for the optimization of plates with arbitrary shapes under uncertain loads is proposed. The geometry of the plates is defined by a single closed spline or several connected splines. The loading distribution is not considered to be uniform but it is allowed to vary within an admissible set, conferring uncertainty to the applied loads. The admissible load space comprises normal and shear loadings that can be represented through a collection of piecewise linear functions defined along the plate boundary. Therefore, the load distribution on the entire boundary of the plate is characterized by a vector of x and y components at the spline knots. A special procedure is applied to handle the constraint that the loading must be self-equilibrating. A minimax strategy is used to deal with the loading variability such that the resulting optimal design is able to withstand an entire class of linear piecewise loadings along the plate boundary. The refinement of the loading representation may be completely independent of the refinement of finite element mesh. Nevertheless, some degree of relationship is desired to simplify the numerical procedures. The validity of the proposed approach is assessed by applying it to simple cases.",
+  "subjects": [
+    "Análise estrutural",
+    "Placas (membros estruturais)",
+    "Otimizaçăo",
+    "Distribuiçăo de carga",
+    "Método de elementos finitos",
+    "Cargas (forças)",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "18/04/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000536334",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000536334&origem=BDITA"
+}

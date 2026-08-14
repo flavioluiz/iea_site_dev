@@ -1,0 +1,31 @@
+{
+  "num_tese": "000543269",
+  "type": "tese",
+  "title": "Aeroservoelastic analysis of the blade-sailing phenomenon in the helicopter-ship dynamic interface.",
+  "author": "Roberto Luiz da Cunha Barroso Ramos",
+  "year": "2007",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This thesis proposes a Rotary-Wing Aeroservoelasticity approach to the modeling, analysis and control of the blade-sailing phenomenon in the helicopter-ship dynamic interface (DI), based on the identification, response evaluation and control of flow and ship motion induced loads, during the engagement/disengagement flight regimes, in order to establish some principles for the design and safe operation of shipboard rotorcraft systems. The nonlinear aeroelastic analysis revealed that the nonlinearity due to large flapping deflections and to the centrifugal forces is not relevant for normal operating conditions, whereas the nonlinear effects due to the flapping stops in articulated rotors influence significantly the blade-sailing vibrations. These nonlinear effects related to the stops can be tackled with approximate stiffness functions. The nonlinear analysis confirmed that hingeless rotor blade-sailing vibrations are lower than that of the articulated rotor, however, the differences are small for rotors with similar structural/geometric characteristics. The blade-sailing phenomenon in the DI and the flapping response during engagement/disengagement shipboard operations can be analyzed trough an oscillator system with nonlinear stiffness related to the droop and flap stops and time-varying coefficients related to the undisturbed flow velocity and to the parameters of the proposed active proportional-derivative individual blade control (PD-IBC). The aeroelastic analysis also showed that blade sailing is a cooperative phenomenon. Though the mean flow vertical velocity gradient across the rotor be the single most important factor, the combination of horizontal wind velocities, fluctuating flow vertical velocities, gravity and ship motion effects may give rise to excessive flapping vibrations. The proposed active proportional-derivative state feedback individual blade control (PD-IBC) can obtain blade-sailing flapping vibration reduction of 30% for shipboard articulated rotors at moderate wind-over-deck (WOD) conditions/advance ratios, without monitoring the DI environment, and a reduction greater than 40% if combined with shipboard rotor plant modifications, involving an increase of the blade flapwise stiffness and an aerodynamic design of the ship flight deck, considering the current blade pitch input limits of the actuators. Therefore, the implementation of active feedback aeroelastic control methods may be one of the most important measures for blade-sailing mitigation in the DI.",
+  "subjects": [
+    "Helicópteros",
+    "Aeroservoelasticidade",
+    "Lâminas de rotores (turbomáquinas)",
+    "Embarcaçőes",
+    "Porta-aviőes",
+    "Controle automático de vôo",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "02/05/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543269",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543269&origem=BDITA"
+}

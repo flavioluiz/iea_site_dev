@@ -1,0 +1,31 @@
+{
+  "num_tese": "71481",
+  "type": "tese",
+  "title": "Uncertainty propagation of the piezoelectric vibration absorber applied to thin shell structures with arbitrary shape",
+  "author": "Francisco Scinocca",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Piezoelectric shunt damping is a well-known technique used to attenuate mechanical vibrations. The technique consists in using a piezoelectric transducer to convert mechanical vibration energy into electrical energy, which can be dissipated in an electrical circuit. Typically, a resonant circuit formed by a resistance and an inductance is used for that, which is also called RL-shunt circuit. Working analogously to a dynamical vibration absorber, the electrical resonance of the RL-shunt circuit and the inherent capacitance of the piezoelectric transducer can be tuned to a particular natural frequency of the mechanical structure, in order to provide vibration suppression. However, resonant shunts are effective only in narrow frequency bands and their performance drops severely with the mistuning of the electrical and mechanical resonance frequencies. In this way, one of the key challenges to introduce this piezoelectric technology into real applications of industrial interest is to guarantee robustness against the system uncertainties. These uncertainties are introduced by the manufacture process, the raw material of the mechanical structure, variation of the electrical parameters, variation of the piezoelectric capacitance due to temperature, and the piezoelectric patch positioning. In this way, an analysis of the uncertainties propagation, along with a sensitivity analysis must be considered with the objective of identifying main contributors to attenuate the efficiency loss.The present thesis works in these analyses of uncertainties propagation of the piezoelectric shunt damping technique, which is applied to an arbitrary thin shell structure, such as the one found in automotive applications. The mechanical structure was simulated using the finite element method including the piezoelectric material and a model updating is conducted using experimental data. The optimum piezoelectric patch dimension and location were calculated in order to maximize the electromechanical coupling coefficient. Then, a stochastic model of the uncertain parameters is built using the Maximum Entropy Principle and the sources of uncertainty are presented. Additionally, the uncertainty propagation in the mechanical structure with and without the piezoelectric vibration absorber was calculated using the Monte Carlo method. Finally, the proposed probabilistic model is compared to an experimental uncertainty quantification using 400 distinct samples.",
+  "subjects": [
+    "Absorvedores (materiais)",
+    "Materiais piezoelétricos",
+    "Cascas de paredes finas",
+    "Método de Monte Carlo",
+    "Método de elementos finitos",
+    "Amortecimento de vibraçăo",
+    "Engenharia estrutural",
+    "Mecatrônica"
+  ],
+  "defense_date": "07/04/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71481",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71481&origem=BDITA"
+}

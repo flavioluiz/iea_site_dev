@@ -1,0 +1,6 @@
+# Configuração para produção (GitHub Pages)
+baseURL: "https://flavioluiz.github.io/iea_site/"
+buildFuture: true
+enableRobotsTXT: true
+canonifyURLs: true
+relativeURLs: false

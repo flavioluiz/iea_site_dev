@@ -1,0 +1,26 @@
+{
+  "num_tg": "80000",
+  "type": "tg",
+  "title": "Prediction of air traffic in control sectors using machine learning for ATFM analysis",
+  "author": "Victor Hugo de Oliveira Bastos",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "José Maria Parente de Oliveira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The effective prediction of air traffic within Flight Information Regions (FIR) is crucial for managing and optimizing air traffic operations. This research leverages computational and machine learning techniques, along with cloud-based resources, to develop a sophisticated pipeline for predicting the number of aircraft flying over these FIR sections, intended for use in ICEA's ATFM Analysis. By integrating multiple datasets, including flight information, weather data, and radar observations, and refining them to perform well in machine learning models, the study aims to enhance the accuracy and reliability of air traffic predictions. The final algorithm developed predicts aircraft positions with an average error of less than 18 km one hour ahead, which leads to the reliability of the regional aircraft counts. This is evidenced by the comparison with a baseline model based on the average speed of the aircraft, which has an average error 2.9 times greater in regional aircraft counts. Potential improvements and limitations have been identified and discussed so that future implementation can be optimized by the ICEA team.",
+  "subjects": [
+    "Controle de tráfego aéreo",
+    "Aprendizagem (inteligęncia artificial)",
+    "Visăo por computadores",
+    "Espaço aéreo",
+    "Trajetórias de voo",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80000",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80000&origem=BDITA"
+}

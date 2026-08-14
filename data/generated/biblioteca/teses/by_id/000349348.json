@@ -1,0 +1,30 @@
+{
+  "num_tese": "000349348",
+  "type": "tese",
+  "title": "Coupling of a generalized dynamic wake model to elastic restraint rigid blade equations for helicopter rotor aeroelastic analysis in hover",
+  "author": "Manoela da Silva Corręa",
+  "year": "1995",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A estabilidade aeroelastica de rotores de helicopteros e examinada atraves de um modelo de esteira dinamica generalizada acoplado a equacoes de movimento para uma pa rigida com restricoes elasticas. Uma analise simplificada, que produz caracteristicas fundamentais do movimento dinamico, e utilizada para simular o complexo comportamento de uma pa de rotor tipo hingeless. A flexibilidade do sistema de transmissao do passo coletivo e modelada atraves de uma mola em torcao na raiz da pa. Um conjunto de molas restritoras simulam a flexibilidade do cubo e da pa. A pa e rigida, com propriedades de massa e rigidez uniformes. O modelo de escoamento induzido dinamico generalizado, concebido para aplicacao em aeronaves de asas rotativas, esta baseado no potencial de aceleracao para o disco atuador. O fluxo induzido no disco do rotor e expresso em termos de um conjunto completo de harmonicos (atraves de series de Fourier azimutais, sendo capaz de lidar com problemas de controle envolvendo altos harmonicos) e funcoes radiais (polinomios que envolvem funcoes associadas de Legendre de primeira especie, adequados para capturar efeitos aerodinamicos tridimensionais). O escoamento e descrito por um sistema de equacoes diferenciais ordinarias de primeira ordem no dominio do tempo. A distribuicao de pressao no disco do rotor e expressa atraves de um somatorio de carregamentos discretos em cada pa, levando em consideracao o efeito do numero finito de pas e efeitos globais sobre o rotor, simultaneamente. O tratamento atraves do espaco de estados para o escoamento induzido permite uma analise padrao de autovalores para as equacoes dependentes do tempo estabelecidas apos perturbacoes que sao aplicadas em torno do equilibrio da pa e do estado estacionario do escoamento induzido.A analise permite variacao em precone, droop, controle de regidez em torcao e angulo de passo de pa. Resultados numericos para um rotor bipa sao comparados com previsoes teoricas e experimentais de um modelo de pa elastica. Resultados das analises estatica e dinamica mostram como a aerodinâmica nao-estacionaria de estados finitos se comporta na presenca de um modelo simples de pa rigida. Resultados onde a recirculacao esta presente sao melhorados para a soft pitch flexure. Resultados para a stiff pitch flexure mostram precisamente que uma aerodinâmica tridimensional, nao-estacionaria, tratada por meio de estados finitos na presenca de uma pa rigida, oferece melhores correlacoes que um modelo nao-linear de pa elastica combinado com uma aerodinâmica quase-estacionaria, bidimensional fornecida pela teoria da quantidade de movimento/elemento de pa. Resultados de estado estacionario capturam efeitos tridimensionais de perda de ponta e mostram uma boa concordancia com os resultados obtidos pelo modelo de uma pa elastica. Resultados de amortecimento para configuracoes incluindo precone e droop falham quando correlacionados com os demais presentes na literatura porque o modelo estrutural nao considera acoplamentos elasticos em flap, lead-lag e torcao.",
+  "subjects": [
+    "Rotores",
+    "Helicópteros",
+    "Asas rotativas",
+    "Pás de rotores",
+    "Aeroelasticidade",
+    "Aerodinâmica de rotores",
+    "Física"
+  ],
+  "defense_date": "01/12/199",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000349348",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000349348&origem=BDITA"
+}

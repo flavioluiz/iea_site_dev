@@ -1,0 +1,36 @@
+{
+  "num_tese": "000256735",
+  "type": "tese",
+  "title": "Ajuste do modelo dinâmico de sistemas multicorpos flexíveis",
+  "author": "Sérgio Henrique da Silva Carneiro",
+  "year": "1993",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Roberto de França Arruda",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta um método de ajuste de modelos dinâmicos apropriado para aplicaçăo em sistemas estruturais multicorpos amortecidos. O ajuste é feito a partir da identificaçăo dos parâmetros de rigidez e amortecimento das juntas já existentes, utilizando resultados oriundos de um teste modal do sistema. A modelagem teórica é feita via síntese modal. O método escolhido permite a inclusăo de amortecimento nos modelos das subestruturas e das juntas. Desenvolve-se uma extensăo do método para permitir o tratamento de subestruturas com modos de corpo rígido. O método de ajuste baseia-se num problema de mínimos quadrados năo-linear, resolvido pelo método de Gauss-Newton. É feita uma análise de sensibilidade analítica, que fornece uma soluçăo fechada para as derivadas de primeira ordem envolvidas no método. Tręs problemas săo investigados utilizando-se a metodologia desenvolvida: um sistema de parâmetros concentrados, um sistema de vigas bi-apoiadas e um sistema de viga \"livre-livre\". Os dois primeiros envolvem apenas simulaçőes numéricas, enquanto o terceiro e um caso prático, utilizando dados experimentais.",
+  "subjects": [
+    "Análise numérica",
+    "Análise estrutural",
+    "Cálculo estrutural",
+    "Método de elementos finitos",
+    "Vigas (suportes)",
+    "Amortecimento",
+    "Engenharia estrutural",
+    "Engenharia civil"
+  ],
+  "defense_date": "01/12/1993",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000256735",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000256735&origem=BDITA"
+}

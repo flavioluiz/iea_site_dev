@@ -1,0 +1,28 @@
+{
+  "num_tese": "74507",
+  "type": "tese",
+  "title": "Inertial-visual navigation and tracking for unmanned aerial vehicles using the ensemble kalman filter",
+  "author": "Beatriz Arruda Asfora",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Unmanned aerial vehicles (UAVs) present varied and extensive applications, ranging from the defense industry to artistic performances. Particularly, there has been an increasing interest in micro-aerial vehicles for their capability of operating virtually anywhere, often in GPS-denied or dead zones, such as interior of buildings, caves or urban canyons. Visual-inertial navigation poses an interesting alternative approach in those cases, with the advantage of providing rich information on the environment, therefore allowing for increased autonomy with obstacle avoidance, target tracking or mapping. The present work performs an investigation of the ensemble Kalman filter (EnKF) for the visual-aided navigation of multirotor UAVs. Targeted to the highly uncertain and nonlinear systems present in geoscientific applications, the EnKF has only recently been brought to the attention of the signal processing community. However, its ability to deal with a very large number of variables and high volume of data seems to fit well with the natural progression of today's technologies for autonomous vehicles. Its development based on a random-sampling implementation of the Kalman filter scheme provides an easy-to-implement algorithm, which needs yet to be fully explored in this field. The EnKF is here analyzed in three distinct cases. It is first applied to an attitude determination problem using a triad of rate-gyros and monocular camera. Its performance is evaluated both through Monte Carlo simulations and in an experimental setup, validating the mathematical model proposed in this work. In addition, the EnKF is compared through simulations to more traditional algorithms for nonlinear systems, for estimation of the vehicle's position, velocity, attitude as well as sensors' bias, using two cameras and triaxial accelerometers and gyros. The EnKF showed similar accuracy to the extended Kalman filter in most states, and computational burden equivalent to the unscented Kalman filter. The simultaneous navigation and tracking problem is also addressed in this work, by expanding the state to include the position and velocity of a ground target. Simulation results suggest that the scalability and tolerance to uncertainty o problems.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Rastreamento (posiçăo)",
+    "Navegaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/07/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74507",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74507&origem=BDITA"
+}

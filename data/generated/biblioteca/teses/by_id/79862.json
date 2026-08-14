@@ -1,0 +1,31 @@
+{
+  "num_tese": "79862",
+  "type": "tese",
+  "title": "Otimizaçăo de estagiamento e de trajetória de veículos lançadores de satélite",
+  "author": "Guilherme da Silveira",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A inserçăo de uma carga útil em órbita é uma atividade bastante complexa, em grande medida devido ŕs dificuldades e aos altos custos envolvidos no desenvolvimento e operaçăo de veículos lançadores. A tecnologia atual permite que apenas uma pequena fraçăo da massa total de um lançador, usualmente entre 1% e 4%, seja aproveitada como carga útil. Para atingir esse desempenho, é imprescindível que tanto o projeto do veículo quanto cada lançamento sejam realizados de forma a aproveitar ao máximo a energia embarcada no veículo. Durante a fase de projeto, uma das principais atividades que influenciam no desempenho de um veículo lançador corresponde ŕ definiçăo do estagiamento, ou seja, a determinaçăo do número de estágios e da distribuiçăo de massa estrutural e de propelente entre eles. Já durante a fase de operaçăo, a maior influęncia sobre o desempenho do veículo é devida ŕ trajetória percorrida desde o lançamento até o ponto de inserçăo em órbita. Este trabalho investiga os problemas de otimizaçăo de estagiamento e de trajetória de veículos lançadores, dois problemas complexos pertencentes ŕ classe de problemas de controle ótimo. A abordagem utiliza os chamados métodos diretos, onde o problema de controle ótimo original é transformado em um problema de programaçăo năo linear. Duas metodologias para a transformaçăo săo utilizadas e comparadas: transcriçăo pelo método de múltiplos tiros e transcriçăo pelo método de colocaçăo de Hermite-Simpson. Para a resoluçăo do problema de programaçăo năo linear, propőe-se uma extensăo do algoritmo do gradiente conjugado com restauraçăo para minimizaçăo de funçőes. Uma ferramenta computacional para a resoluçăo dos problemas de otimizaçăo de estagiamento e de trajetória de veículos lançadores é implementada e utilizada em casos testes do Veículo Lançador de Microssatélites brasileiro (VLM-1), em problemas com complexidade crescente. Os resultados obtidos mostram boa concordância com aqueles oriundos de ferramenta comercial de otimizaçăo, demonstrando a adequaçăo dos métodos propostos e da implementaçăo computacional do algoritmo de otimizaçăo.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Guiamento (movimento)",
+    "Veículos de lançamento",
+    "Satélites",
+    "Programaçăo năo-linear",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "08/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79862",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79862&origem=BDITA"
+}

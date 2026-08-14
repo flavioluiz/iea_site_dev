@@ -1,0 +1,20 @@
+{
+  "name": "iea-site",
+  "version": "1.0.0",
+  "description": "Site da Divisão de Engenharia Aeronáutica e Aeroespacial do ITA",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify",
+    "clean": "rm -rf public resources"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "iea",
+    "ita",
+    "aerospace",
+    "engineering"
+  ],
+  "author": "ITA",
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tese": "79525",
+  "type": "tese",
+  "title": "High-performance parallelization of a tridimensional CFD CODE developed for compressible flows",
+  "author": "George Patton de Oliveira Silva",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present work deals with the parallel implementation of an implicit CFD solver with the upwind scheme of Roe, developed at the Turbomachine Department of the Aeronautics Institute of Technology (ITA). Firstly, it will be presented the historical evolution of the computer architecture and how it affects the CFD simulations. Secondly, the domain decomposition methods will be evaluated, and the two main classifications will be described in more detail: the graph-based and the space-filling curve based. The results showed that the second method proved to be faster, more efficient, and scalable in parallel. Therefore, an algorithm is proposed where the three-dimensional space is mapped into a Hilbert curve using boolean representations, which allows a decoupling from the sorting algorithm and reduces execution times. Next, the parallel implementation of the CFD solver using the OpenMP standard is described, and two improvements related to the memory access patterns are proposed. The first one, a rearrangement of the data structures to coincide with the loops, following the indexing by columns of Fortran, was well successful. The second one, a reordering of the elements based on a Hilbert curve, has no advantages effects over the structured grid ordering. However, as similar execution times are obtained as the mesh size increases, it may be a fast and efficient solution for reducing execution times with unstructured grids. Finally, the parallel implementation using the MPI standard is described, and the domain overlapping resulted in less cache misses and communication between processes. This way, the execution times obtained were far lower than the OpenMP counterparts, achieving efficiencies as high as 80% for the usual mesh sizes and hardware available at the Turbomachine Department. Consequently, this works has the potential to increase productivity and allow the approach of more advanced geometries and models in the future.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Computaçăo paralela",
+    "Métodos de decomposiçăo",
+    "Arquitetura (computadores)",
+    "Algoritmos",
+    "Escoamento compressível",
+    "Computaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79525",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79525&origem=BDITA"
+}

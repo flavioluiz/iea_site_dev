@@ -1,0 +1,29 @@
+{
+  "num_tese": "78526",
+  "type": "tese",
+  "title": "Guiamento por waypoints para multicopteros usando controladores por modos deslizantes",
+  "author": "Luiz Gustavo Pereira Roéfero",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os veículos aéreos de múltiplos rotores tęm demonstrado grande aplicabilidade na realizaçăo de tarefas urbanas críticas com necessidade de mobilidade aérea. Visando atender aos requisitos de estabilizaçăo desses veículos, vários trabalhos na literatura apresentam foco no desenvolvimento da área de controle de voo. Contudo, existem poucos trabalhos relacionados com o guiamento robusto desses veículos ao longo de uma trajetória previamente conhecida. Portanto, esta dissertaçăo de mestrado lida com o projeto de uma malha de guiamento robusta para dois veículos aéreos de múltiplos rotores: um quadricóptero subatuado e um hexacóptero omnidirecional completamente atuado. O principal objetivo é fazer com que esses veículos visitem uma dada sequęncia de waypoints, a despeito da influęncia de incertezas e distúrbios. Para enfrentar o problema, adota-se uma malha interna de controle de voo estabilizante e previamente conhecida, bem como uma malha externa de guiamento, a qual fornece comandos de posiçăo e atitude para a malha interna previamente mencionada. Primeiramente, realizou-se a modelagem dinâmica dos veículos aéreos considerados. Posteriormente, para o projeto das leis de controle de voo, adota-se uma suposiçăo de separaçăo em escala de tempo entre a dinâmica de rotaçăo e de translaçăo da aeronave subatuada. Depois disso, o projeto da lei de guiamento 'e feito utilizando a metodologia de controle por modos deslizantes integrais de primeira ordem, com múltiplas entradas e adaptaçăo de ganhos de chaveamento. Essa abordagem visa tanto a eliminaçăo da fase de reaching como a atenuaçao do efeito de chattering, além de permitir que o limitante do distúrbio seja desconhecido. Em particular, buscou-se uma lei de adaptaçăo de ganhos de chaveamento que realmente garantisse a existęncia de um modo deslizante integral. As leis de guiamento projetadas foram avaliadas por meio de simulaçăo numérica para ambos os tipos de aeronaves. Além disso, um método de quantificaçăo do efeito do chattering foi utilizado para avaliar os resultados. Por este método foi possível perceber que o controle por modos deslizantes integrais e adaptativos proposto neste trabalho 'e vantajoso em relaçăo a um método específico da literatura, tanto na atenuaçăo do chattering, quanto na garantia da existęncia de modos deslizantes efetivamente integral. Além disso, notou-se que a aplicaçăo de um modo deslizante convencional ŕ malha de guiamento violará a hipótese de separaçăo em escala de tempo feita para o quadricóptero subatuado. Portanto, foi necessária a suavizaçăo do sinal de guiamento.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle de voo",
+    "Guiamento (movimento)",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica",
+    "Controle"
+  ],
+  "defense_date": "24/06/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78526",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78526&origem=BDITA"
+}

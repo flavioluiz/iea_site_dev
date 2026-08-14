@@ -1,0 +1,32 @@
+{
+  "num_tese": "000552535",
+  "type": "tese",
+  "title": "Simulaçăo numérica de escoamento sobre aerofólio usando modelo de turbulęncia de uma equaçăo.",
+  "author": "Marco Antonio Sampaio Ferraz de Souza",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Simulaçőes numéricas foram realizadas utilizando-se um código computacional desenvolvido para resolver o sistema de equaçőes de Navier-Stokes com média de Reynolds que modela o escoamento compressível turbulento em torno de um aerofólio NACA 0012. Foram utilizadas malhas estruturadas tipo O geradas algebricamente e diversos refinamentos puderam ser feitos. O método de volumes finitos foi empregado para discretizar o sistema de equaçőes diferenciais parciais e os esquemas explícitos de MacCormack e Jameson foram implementados. Termos de viscosidade artificial foram adicionados explicitamente através de um modelo năo-linear. O modelo de turbulęncia de uma equaçăo de Spalart e Allmaras foi implementado para resolver o problema de fechamento da turbulęncia. Inicialmente, a formulaçăo de Euler foi usada e resultados para a distribuiçăo de pressăo e coeficientes aerodinâmicos foram obtidos para quatro casos de escoamentos transônicos năo-viscosos sobre o aerofólio. As soluçőes foram comparadas com os resultados de outros métodos numéricos disponíveis na literatura. Em seguida, um dos casos foi utilizado para avaliar a influęncia dos parâmetros numéricos como a viscosidade artificial e o refinamento da malha. Outro caso foi utilizado para comparar os esquemas explícitos de MacCormack e Jameson. Por último, o modelo de turbulęncia de uma equaçăo de Spalart e Allmaras foi utilizado para a formulaçăo de Navier-Stokes e as soluçőes foram comparadas com os dados experimentais de Harris e outros resultados numéricos obtidos com o modelo de turbulęncia algébrico de Baldwin e Lomax.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Método de volume finito",
+    "Modelos de turbulęncia",
+    "Escoamento compressível",
+    "Escoamento transônico",
+    "Equaçőes de camada limite",
+    "Aerofólios",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "08/07/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552535",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552535&origem=BDITA"
+}

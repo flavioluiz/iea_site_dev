@@ -1,0 +1,29 @@
+{
+  "num_tese": "73439",
+  "type": "tese",
+  "title": "Sistema de rastreamento para multicópteros utilizando uma câmera RGB-D estática",
+  "author": "Luiz Manoel Santos Santana",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A estimaçăo de posiçăo, velocidade e ângulo de guinada é, por muitas vezes, requisito para a validaçăo experimental de leis de controle e algoritmos de navegaçăo para veículos aéreos multicópteros. Normalmente os sistemas comerciais utilizados para esse propósito tęm um custo elevado. A presente dissertaçăo tem como objetivo apresentar um problema de estimaçăo de estados para multicópteros usando uma câmera RGB-D estática, fixada sobre a área de voo do multicóptero. Os principais componentes do sistema de estimaçăo de baixo custo proposto săo uma câmera RGB-D (um Kinect V2), um computador master externo ao veículo e um quadricóptero (um AR.Drone 2.0). A câmera RGB-D fornece a distância entre os objetos contidos em seu campo de visăo e a câmera, além de fornecer uma imagem no sistema de cor RGB dos objetos contidos no seu campo de visăo. No computador master, a partir dos dados coletados da câmera RGB-D e utilizando métodos de visăo computacional e processamento de imagens, săo calculados a posiçăo e o ângulo de guinada do multicóptero. Ainda no computador master, é realizada a soluçăo do problema de estimaçăo de posiçăo, velocidade, e ângulo de guinada utilizando o filtro de Kalman. O sistema é avaliado em tręs etapas. 1) teste de consistęncias das medidas do Kinect; 2) teste de estimaçăo em malha aberta; e 3) teste de estimaçăo em malha fechada. Na primeira etapa săo utilizadas marcas coloridas colocadas em posiçőes conhecidas para validar as medidas de posiçăo e ângulo de guinada. A partir das posiçőes dos centróides das duas marcas coloridas, pode-se imediatamente calcular o ângulo de guinada. Conhecendo a posiçăo e o ângulo de guinada, é feita a comparaçăo com a posiçăo e guinada dada pelo sistema. Já no segundo teste, foi utilizado um veículo terrestre de controle remoto para avaliar a estimaçăo de posiçăo, velocidade e do ângulo de guinada. Finalmente, no terceiro teste o multicóptero é comandado para realizar uma trajetória baseada em waypoints onde os estados estimados săo realimentados no seu controle de posiçăo. A partir dos resultados, conclui-se que o sistema desenvolvido é capaz de ser utilizado em experimentos de navegaçăo e controle de posiçăo de multicópteros.",
+  "subjects": [
+    "Estimaçăo de estado",
+    "Rastreamento (posiçăo)",
+    "Câmeras",
+    "Aeronave năo-tripulada",
+    "Visăo por computadores",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73439",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73439&origem=BDITA"
+}

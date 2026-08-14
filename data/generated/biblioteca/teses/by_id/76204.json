@@ -1,0 +1,33 @@
+{
+  "num_tese": "76204",
+  "type": "tese",
+  "title": "Modelagem numérico-computacional de satélites artificiais contendo amortecedores viscoelásticos para controle passivo de vibraçőes",
+  "author": "Lewton Machado Rodrigues",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ijar Milagre da Fonseca",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta Dissertaçăo trata do controle de atitude e vibraçăo de um satélite artificial com painéis solares flexíveis, combinando rodas de reaçăo para o controle de atitude e materiais viscoelásticos para a atenuaçăo de vibraçăo elástica dos painéis. O modelo físico do satélite considerado nesse trabalho é inspirado no satélite brasileiro Amazonia-1. Um modelo de elementos finitos de alta fidelidade das partes flexíveis é desenvolvido. O modelo conta com a presença de amortecedores viscoelásticos em forma de molas que săo usadas para interconectar os painéis. O comportamento viscoelástico é modelado usando um modelo constitutivo baseado em derivadas fracionarias, que é conveniente para simulaçőes no domínio da frequęncia e do tempo. O modelo de elementos finitos é associado ŕs equaçőes do movimento do corpo rígido da parte central do satélite, o que possibilita a determinaçăo do movimento de atitude do satélite em termos dos ângulos de Euler. Simulaçőes numéricas săo feitas considerando tręs condiçőes: mudança de atitude, correçăo de _orbita utilizando propulsores e perturbaçăo do painel por impacto. Em todas as simulaçőes, o controle de atitude é feito por rodas de reaçăo que săo comandadas por um controlador proporcional-integral-derivativo. Após obtençăo dos resultados, verifica-se que os amortecedores viscoelásticos săo efetivos na reduçăo de vibraçăo dos painéis e na minimizaçăo de perturbaçăo na atitude.",
+  "subjects": [
+    "Viscoelasticidade",
+    "Controle de atitude",
+    "Espaçonaves flexíveis",
+    "Vibraçăo aeroelástica",
+    "Controle"
+  ],
+  "defense_date": "15/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76204",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76204&origem=BDITA"
+}

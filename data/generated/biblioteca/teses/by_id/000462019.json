@@ -1,0 +1,32 @@
+{
+  "num_tese": "000462019",
+  "type": "tese",
+  "title": "Análise do escoamento em turbomáquinas radiais.",
+  "author": "Waldir de Oliveira",
+  "year": "2001",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Euclides Carvalho Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, săo discutidos alguns aspectos do escoamento em turbomáquinas radiais, com ęnfase nas análises teórica e experimental de rotores centrífugos. Na análise teórica, utilizando o método das singularidades, săo apresentadas duas formulaçőes para o escoamento potencial e incompressível no interior de rotores centrífugos com pás de largura variável. Na primeira formulaçăo, apropriada para pás de espessura finita, o escoamento no plano físico, para qualquer geometria de rotor de turbomáquina, é mapeado para o plano da grade linear. A soluçăo numérica da equaçăo de Fredholm de segunda espécie, resultante dessa formulaçăo no plano da grade linear, é obtida pelo método dos painéis, através de uma distribuiçăo de vórtices de densidade uniforme em cada painel. Por meio de uma equaçăo de transformaçăo de velocidades, as características do escoamento săo reconduzidas para o plano físico. Na segunda formulaçăo, apropriada para pás infinitamente finas, as características do escoamento săo obtidas no próprio plano da grade radial. A soluçăo numérica da equaçăo de Fredholm de primeira espécie resultante dessa formulaçăo é obtida também pelo método dos painéis, porém com uma distribuiçăo de vórtices de densidade linear em cada painel. Diversas características locais e globais do escoamento săo determinadas para vários formatos de pás. Baseando-se no carregamento da pá, propőe-se um parâmetro adimensional que determina o número ótimo de pás. Na análise experimental, foram construídos cinco rotores centrífugos com diferentes formatos e números de pás. Também, foi construída uma seçăo especial de testes para ensaios de rotores centrífugos sem interferęncia externa irregular no seu escoamento. Para a determinaçăo das características do escoamento, foram utilizados dois sistemas de medidas: um, com uma sonda aerodinâmica localizada na saída do rotor centrífugo e, o outro, com uma célula de carga para a mediçăo da potęncia de eixo desse rotor. A comparaçăo entre os resultados obtidos por esses dois sistemas de medidas mostra algumas características importantes como o fenômeno da recirculaçăo do escoamento no rotor centrífugo. Os resultados numéricos e experimentais săo comparados para uma ampla faixa de vazőes. Diversas análises dos resultados săo apresentadas e alguns comentários săo feitos sobre a validade da aplicaçăo de teorias invíscidas em rotores centrífugos. Conclui-se que o critério baseado no número de Richardson máximo é apropriado para indicar o número ótimo de pás de rotores centrífugos com pás curvadas para trás, por meio do cálculo do escoamento potencial.",
+  "subjects": [
+    "Escoamento potencial",
+    "Pás de rotores",
+    "Compressores centrífugos",
+    "Turbomáquinas",
+    "Escoamento radial",
+    "Método dos painéis (dinâmica dos fluídos)",
+    "Análise numérica",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000462019",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000462019&origem=BDITA"
+}

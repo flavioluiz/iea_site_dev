@@ -1,0 +1,31 @@
+{
+  "num_tg": "63842",
+  "type": "tg",
+  "title": "Desenvolvimento de algoritmo de controle para o Veículo Lançador de Microssatélites (VLM)",
+  "author": "Henrique da Silva Daitx",
+  "year": "2012",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Karl Heinz Kienitz",
+      "professor_slug": null
+    },
+    {
+      "name": "Fausto de Oliveira Ramos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe um modelo dinâmico e um sistema de controle de atitude para o VLM ---Veículo Lançador de Microssatélites. O lançador é modelado como um sistema de equaçőes diferenciais ordinárias năo-lineares. Sob certas premissas simplificadoras, o sistema é linearizado para que técnicas de análise de sistemas lineares possam ser utilizadas. Após, um conjunto de requisitos de performance é definido, e o sistema de controle é projetado. O controlador final utiliza escalonamento de ganhos no tempo, para compensar a variaçăo temporal nos parâmetros físicos do veículo. Simulaçőes digitais de cenários prováveis de utilizaçăo do lançador mostram que o controlador projetado atende aos requisitos estabelecidos.",
+  "subjects": [
+    "Controle de atitude",
+    "Algoritmos",
+    "Veículos de lançamento",
+    "Microssatélites",
+    "VLS (Brasil)",
+    "Controle",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63842",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63842&origem=BDITA"
+}

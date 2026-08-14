@@ -1,0 +1,26 @@
+{
+  "num_tg": "79384",
+  "type": "tg",
+  "title": "Efficient algorithms for solving optimization problems in aerospace trafectories",
+  "author": "Francisco Bruno Dias Ribeiro da Silva",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The technological demands of the aerospace field make it one of the costliest industries in the world. It is then of uttermost importance to optimize every aspect of an aerospace mission, from spaceship hardware design to the mission trajectory. Optimizing the trajectory usually requires setting a finite number of parameters. For some cases, such as the 2-body problem, we can get a closed form solution for the spaceship trajectories. Optimizing the parameters is then a matter of solving some closed-form equations. In other cases, however, an optimizer is needed to find the optimal parameters of a space flight. This work analyses commonly used optimizers in literature for solving problems related to aerospace trajectories. It then applies those optimizers to some test problems and reviews the performance of each one of them by comparing the solution found and the number of evaluations to get such solution. The aim of this work is to set a standard of what are the best optimizers to solve trajectory problems in the aerospace field and the trade-offs between each of them. We found that DE, NSGA-II and GA are the best optimizers for single-objective problems, while NSGA-II and MHACO are the best optimizers for multi-objective problems.",
+  "subjects": [
+    "Otimizaçăo",
+    "Algoritmos",
+    "Trajetórias",
+    "Problema de dois corpos",
+    "Mecânica celeste",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79384",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79384&origem=BDITA"
+}

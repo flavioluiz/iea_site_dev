@@ -1,0 +1,29 @@
+{
+  "num_tese": "000194563",
+  "type": "tese",
+  "title": "Simulaçăo do escoamento na regiăo do flape de reentrada de um túnel de vento transônico",
+  "author": "Nide Geraldo do Couto Ramos Fico Júnior",
+  "year": "1991",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata do modelamento do escoamento na regiăo do flape de reentrada de um túnel transônico. A partir da soluçăo numérica das equaçőesde Navier-Stokes com média de Reynolds e aproximaçăo de camada fina, o fator de perda de carga total no flape, assim como a influęncia do flape no desempenho do difusor de alta velocidade, săo quantificados e analisados. As equaçőes săo implementadas por diferenças finitas utilizando-se o algoritmo implícito de Beam e Warming. O transporte turbulento é levado em conta através de um modelo algébrico de viscosidade de vórtice, de duas camadas, devido a Baldwin e Lomax. A fim de se conseguir uma maior acurácia e robustez do modelo numérico, as condiçőes de contorno săo implementadas, onde apropriado, lançando-se măo do conceito de relaçőes características. Os resultados deste estudo săo, indubitavelmente, de grande importância para os projetistas e analistas de túneis de vento.",
+  "subjects": [
+    "Simulaçăo do escoamento",
+    "Túneis de vento transônicos",
+    "Equaçăo de Navier-Stokes",
+    "Análise numérica",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/06/1991",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194563",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194563&origem=BDITA"
+}

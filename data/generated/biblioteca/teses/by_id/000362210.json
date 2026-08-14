@@ -1,0 +1,32 @@
+{
+  "num_tese": "000362210",
+  "type": "tese",
+  "title": "LINQUAD : novo método para resoluçăo de problemas de controle ótimo com restriçőes terminais no estado",
+  "author": "Marco Antonio Leonel Caetano",
+  "year": "1996",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A otimizaçăo de sistemas dinâmicos via métodos indiretos é bastante complexa e poderá exigir a utilizaçăo de programas computacionais para a soluçăo de problemas de valor de contorno os quais podem năo ser tratáveis analiticamente. Um dos principais problemas é a determinaçăo das variáveis adjuntas para problemas com tempo final fixo e todos os vínculos terminais das variáveis de estado fornecidos. Este trabalho busca a determinaçăo das trajetórias sub-ótimas do estado e das variáveis adjuntas para a classe de funcionais de custo quadrático ou expansíveis por série de Taylor até a segunda ordem, bem como o sinal de controle sub-ótimo. Propőe-se neste trabalho um novo método heurístico (LINQUAD) baseado nas técnicas dos extremais de vizinhança, regulador linear quadrático, regulador linear quadrático gaussiano e método da segunda variaçăo. Os resultados com a utilizaçăo deste novo método servem como estimativas para a soluçăo ótima obtida através do método dos Múltiplos Tiros. O problema principal a ser solucionado é o da reentrada de veículos espaciais na atmosfera terrestre considerando perturbaçőes estocásticas nas variáveis de estado e de medida e um algoritmo é apresentado para a utilizaçăo deste novo método.",
+  "subjects": [
+    "Reentrada atmosférica",
+    "Controle ótimo",
+    "Atmosfera terrestre",
+    "Veículos de reentrada",
+    "Espaçonaves",
+    "Aerodinâmica",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/08/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000362210",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000362210&origem=BDITA"
+}

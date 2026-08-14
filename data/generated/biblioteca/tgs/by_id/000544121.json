@@ -1,0 +1,30 @@
+{
+  "num_tg": "000544121",
+  "type": "tg",
+  "title": "Elaboraçăo de uma metodologia de cálculo de coeficientes e derivadas estáticas aerodinâmicas de aeronaves baseado em método dos painéis.",
+  "author": "Jaques Saraiva Guerra",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    },
+    {
+      "name": "Guilherme Lara Oliveira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A prediçăo de coeficientes e derivadas aerodinâmicas é de suma importância no desenvolvimento de uma aeronave. Entretanto em fases preliminares de projeto, em que há grandes variaçőes das geometrias e características do aviăo, năo é necessário obter tais valores com alta precisăo, mas suficientes, apenas, para extrair conclusőes qualitativamente corretas. Este trabalho, portanto, visa ao desenvolvimento de uma metodologia de prediçăo rápida de coeficientes e derivadas estáticas aerodinâmicas de configuraçőes asa-fuselagem, asa-fuselagem com pilone e nacele e completa de aeronaves quaisquer, baseada em método dos painéis, cujos resultados năo sejam, necessariamente, bastante precisos, mas que atendam ŕs necessidades de uma fase de anteprojeto. A metodologia é feita a partir de simplificaçőes na geometria original da aeronave para configuraçőes com fuselagem cruciforme e demais partes simuladas com placas planas ou superfícies arqueadas. Para tanto, foram desenvolvidas ferramentas de pré-processamento para geraçăo da geometria e modelagem de esteira para o uso do programa VSAERO, assim como uma de pós-processamento para melhor trabalhar com os resultados.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Coeficientes aerodinâmicos",
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Derivadas de estabilidade",
+    "Configuraçőes asa-fuselagem",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544121",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544121&origem=BDITA"
+}

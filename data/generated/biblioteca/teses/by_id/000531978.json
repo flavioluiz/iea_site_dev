@@ -1,0 +1,32 @@
+{
+  "num_tese": "000531978",
+  "type": "tese",
+  "title": "Aplicaçăo de métodos de suavizaçăo para obtençăo de cargas de amerissagem.",
+  "author": "Jean Carlos Domingues Santos",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Normalmente, quando um aviăo é certificado para condiçőes de \"ditching\" segundo o FAR25, ou é feito um teste com modelo em escala ou é usado dados de um outro aviăo similar já certificado para mostrar o atendimento aos requisitos. Ŕs vezes, năo há dado disponível para provar por similaridade e, portanto, o teste com modelo em escala se faz necessário, mas é bem conhecido que um teste de \"ditching\" custa tempo e dinheiro. Entăo, para evitar ou minimizar estes custos, decidiu-se por utilizar um programa de fluido-estrutura (Dytran) para simular um aviăo em condiçőes de \"ditching\". Baseado em experięncia anterior, o primeiro resultado da simulaçăo estava coerente uma vez que o aviăo apresentou o comportamento de levantar o nariz. Porém as aceleraçőes e a distribuiçăo de pressăo năo estavam totalmente usáveis devido a um certo ruído numérico nos resultados. Como os resultados puros no CG - deslocamentos e rotaçőes - estavam consistentes, foi aplicado o método de mínimos quadrados com restriçőes para encontrar as novas velocidades e aceleraçőes suavizadas e, conseqüentemente, as forças e os momentos de contato teóricos no CG. Depois, foi elaborado um procedimento usando técnicas de suavizaçăo para tratar a distribuiçăo de pressăo original para todos os painéis do aviăo de tal forma que os esforços de contato resultantes fossem iguais aos teóricos. Finalmente, com os resultados filtrados, foram obtidos diagramas de esforços mais realísticos para alguns componentes do aviăo (fuselagem, asa e motor) e, assim, eles puderam ser comparados com os seus envelopes de carga final. Desta forma, será possível prever a seqüęncia de eventos, ou seja, qual componente vai quebrar primeiro ou ainda, com análises adicionais, será possível estabelecer a melhor combinaçăo entre velocidade e ângulo de ataque para um procedimento de \"ditching\" mais seguro.",
+  "subjects": [
+    "Amerissagem forçada (aterrissagem)",
+    "Suavizaçăo de dados",
+    "Cargas (forças)",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Métodos dos mínimos quadrados",
+    "Desempenho de aeronaves",
+    "Certificaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000531978",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000531978&origem=BDITA"
+}

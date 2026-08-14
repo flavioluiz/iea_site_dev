@@ -1,0 +1,30 @@
+{
+  "num_tese": "61019",
+  "type": "tese",
+  "title": "Desenvolvimento de um efetuador de furaçăo robotizado para estruturas aeronáuticas",
+  "author": "Carlos Cesar Aparecido Eguti",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A furaçăo orbital é um processo de usinagem com a finalidade de abrir furos através de um duplo movimento circular, acompanhado de um deslocamento linear na direçăo de furaçăo. Uma ferramenta de corte girando em alta velocidade é colocada em movimento numa orbita excęntrica e simultaneamente deslocada contra a superfície do material a ser furado. Esta excentricidade define o diâmetro final do furo, sendo que o efeito de fresar a peça reduz o esforço de furaçăo e acarretando num furo com bom acabamento superficial e isento de rebarbas, em comparaçăo a processos convencionais de furaçăo. Para promover estes movimentos, um dispositivo automático de furaçăo orbital foi projetado e desenvolvido para ser acoplado no punho de um robô manipulador industrial. O processo de desenvolvimento deste dispositivo, seus requisitos, funçőes e módulos funcionais săo apresentados neste trabalho, culminando na construçăo do sistema EFORB ou Efetuador de Furaçăo Orbital Robotizado, sendo seu desenvolvimento e construçăo o tema central desta tese. Os resultados obtidos atestam o funcionamento do dispositivo desenvolvido, atendendo as tolerâncias e requisitos de processo exigidos para aplicaçőes no setor aeroespacial.",
+  "subjects": [
+    "Planejamento de tarefas (robótica)",
+    "Processo de perfuraçăo",
+    "Braços robóticos",
+    "Manipuladores",
+    "Fresagem (usinagem)",
+    "Mecatrônica",
+    "Controle"
+  ],
+  "defense_date": "15/07/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61019",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61019&origem=BDITA"
+}

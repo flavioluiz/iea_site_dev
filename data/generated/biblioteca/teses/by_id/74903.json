@@ -1,0 +1,35 @@
+{
+  "num_tese": "74903",
+  "type": "tese",
+  "title": "Experimental characterization of an antagonistic shape memory alloy wire actuator for airfoil morphing",
+  "author": "Joran Bart Driesen",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osmar de Sousa Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Shape memory alloy (SMA) is a material with a huge potential. The most well-known variant is an alloy of nickel and titanium. It can be used as an actuator due to the shape memory effect. The material can be made into wires that can provide high power density actuation. This makes it an excellent choice for scenarios where space is limited, for example airplane wings. The unique nature of the actuator makes it a great choice for wing morphing. It is a difficult material to work with however, as it possesses hysteresis and its actuation properties are influenced significantly by as little as 0.1 atomic% difference in the nickel content of the alloy. The thermomechanical deformation that the alloy receives also influences its properties. The actuation cycle of the wire is also not stable. It has been shown that different strain rates create different actuation cycles. In his doctorate thesis, Piccirillo proposed and modeled an antagonistic shape memory wire actuator for applications in aeroservoelasticity. The actuator consists out of two SMA wires, connected to a hinge tube under pre-strain. When one of the wires is heated by passing current through it, it contracts, rotating the hinge tube. The rotation can be used for flap actuation. This thesis describes the attempt to construct the actuator, measure its properties and validate the theoretical model. The actuator was constructed, along with a mechanism to measure its properties. Test were performed to obtain the relationship between the temperature, angle, strain, stress, electrical current and resistance. The data was recorded and analyzed. Most of the results match results or models from the literature. The discrepancy between the forces in the two wires was more severe than expected, but several explanations have been given. The temperature data from the real time test was invalid. The cause has not been found. The temperature data form the other test is correct. The phase transformation temperatures measured with the test setup have been validated using Differential Scanning Calorimetry (DSC). It was discovered that the phase transformation temperatures dropped significantly because of the thermomechanical deformation the SMA wire received during the actuation tests. It has been proven that the change in electrical resistance of the SMA wire actuator can be used to indicate the austenite phase transformation starting temperature (As). Suggestions for improvement on the theoretical model of Piccirillo have been made, based upon the experimental results. The author has succeeded in constructing a low cost, simple to use mechanism to characterize shape memory alloy wire. The test setup is better equipped than a DSC machine to test SMA wire actuators, since it can measure the behavior of SMA under stress. The test setup can also be used to identify the relationship between electrical current and actuator angle, to create a control system for the antagonistic SMA wire actuator.",
+  "subjects": [
+    "Ligas de memória de forma",
+    "Atuadores",
+    "Medidas de calor",
+    "Caracterizaçăo",
+    "Aeroservoelasticidade",
+    "Superfícies de controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/08/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74903",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74903&origem=BDITA"
+}

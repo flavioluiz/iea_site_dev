@@ -1,0 +1,35 @@
+{
+  "num_tese": "77698",
+  "type": "tese",
+  "title": "Time series to foresee air inlet filter saturation in an industrial gas turbine",
+  "author": "Ivan da Costa Vieira",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In the energy field, availability is the main factor for power plant units, mainly in high demand periods. In Brazil, the price of electricity depends on sources of energy. Renewable sources, like hydraulic and wind, are always dispatched. However, when they cannot supply the country's demand, thermal power plants are dispatched, and the energy price increases [1]. To maximize thermal power plants' availability in high demand periods it is necessary to use condition-based maintenance concepts. A good strategy is to monitor equipment degradation, increasing the period between maintenance and planning complete interventions, optimizing costs, and not creating unavailability during periods of high demand. The digital transformation and the evolution of artificial intelligence techniques contribute to increasing the reliability of industrial equipment. The state-of-the-art is the idea of vertical integration in Industry 4.0 and data analysis using artificial intelligence approaches, like Artificial Neural Networks (ANN), Genetic Algorithms (GA), and Fuzzy Logic (FL). In neural networks, there are many techniques, as Multi-Layer Perceptron (MLP), a classical solution, although other methods have emerged to improve results in data forecasting, like Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and hybrids models. Artificial Neural Network (ANN) is an already consolidated computational intelligence technique for measuring performance degradation in thermal power plant components; it is a low-cost implementation-modeling tool that delivers effective results. The present study uses time-series forecasts with different approaches, like Autoregressive Integrated Moving Average (ARIMA), MLP, CNN, and Long Short-Term Memory (LSTM) to forecast how differential pressure in the air intake filters influences gas turbine performance and to estimate the inlet air filter saturation. The studies were carried out using real engine data, and the simulations were performed using an in-house computer program specially developed based on the Python programming language. The simulation results showed that the MLP approach presented the lowest error values and the dispersion of error values for the experiments reported in this work. With this tool, it is possible to predict the saturation of the air intake filters. In this way, the operating and maintenance team can accurately forecast air filters' remain useful life.",
+  "subjects": [
+    "Turbinas a gás",
+    "Análise de séries temporais",
+    "Filtros de ar",
+    "Programas de computadores",
+    "Redes neurais",
+    "Geraçăo de energia elétrica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "09/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77698",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77698&origem=BDITA"
+}

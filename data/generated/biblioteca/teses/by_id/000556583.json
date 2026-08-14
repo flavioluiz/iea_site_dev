@@ -1,0 +1,29 @@
+{
+  "num_tese": "000556583",
+  "type": "tese",
+  "title": "Otimizaçăo da carga de flambagem de um painel reforçado submetido a carregamentos incertos.",
+  "author": "Renata Costa Gama",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho propőe-se desenvolver uma metodologia para determinar carregamentos auto-equilibrados equivalentes aos casos de carga aos quais a estrutura está submetida. Com estes carregamentos pode-se realizar análises estáticas ou análises de flambagem. Estes carregamentos auto-equilibrados podem ainda, ser aplicados nos poucos pontos de atuadores de um ensaio estrutural estático ou de fadiga de forma a representar o carregamento real aplicado a estrutura. A aplicaçăo escolhida neste trabalho foi de gerar casos de carga para a otimizaçăo da carga de flambagem de painéis reforçados. Estes carregamentos auto-equilibrados aplicados em painéis reforçados săo descritos por funçőes lineares por partes definidas por pontos de controle de carga. Estes podem ser pontos arbitrários em uma aresta ou, em particular, pontos extremos de um painel reforçado. Uma vez determinados os carregamentos auto-equilibrados, que representam os casos de carga reais, faz-se a otimizaçăo da carga de flambagem com relaçăo ŕs propriedades geométricas do painel reforçado e com relaçăo a todos os casos auto-equilibrados calculados. O método utilizado na otimizaçăo é o minmax que procura maximizar o autovalor em relaçăo ŕs propriedades geométricas e minimizar o mesmo para os casos de carga, determinado assim, as propriedades ótimas e o caso de carregamento crítico. Os resultados da metodologia de determinaçăo de carregamentos auto-equilibrados foram obtidos para um painel plano de arestas retas com dois reforçadores retangulares, que dividem o painel em tręs segmentos. A espessura de cada segmento, a altura e a largura dos reforçadores săo consideradas como variáveis de projeto geométricas. Este painel, localizado entre duas nervuras e duas longarinas consecutivas, está submetido a cinco casos de carregamento reais, que depois de aplicados ŕ metodologia proposta, săo representados por vários carregamentos auto-equilibrados.",
+  "subjects": [
+    "Análise estrutural",
+    "Otimizaçăo",
+    "Flambagem",
+    "Carregamentos incertos",
+    "Placas reforçadas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/02/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000556583",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000556583&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "60891",
+  "type": "tese",
+  "title": "Análise numérica e experimental da esteira próxima de escoamentos ao redor de corpos rombudos",
+  "author": "Eduardo Silveira Molina",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como foco principal os aspectos físicos da camada limite de um corpo rombudo. Os dados experimentais foram obtidos através da técnica de anemometria ŕ Laser e os dados numéricos foram obtidos através de Simulaçăo Numérica Direta (DNS). O modelo é composto de uma semi-elipse seguida de uma base reta, este modelo foi extensivamente estudado pelo Prof. P. Bearman nos anos 60, por esta razăo será aqui chamado de corpo de Bearman. A razăo de esbeltez (AR) é definida por c/h, onde c é a corda do modelo e h é a altura da base. Por se tratar de uma geometria com ponto de separaçăo fixo, torna-se possível o estudo da influęncia da camada limite nos parâmetros médios da esteira. Os experimentos foram realizados entre os números de Reynolds de 600 e 3000 e as razőes de esbeltez estudadas săo AR=3, AR=5 e AR=7. Com o auxílio de simulaçőes DNS, desenvolveu-se uma metodologia para definir o momento exato do desprendimento em funçăo da variaçăo dos parâmetros médios, tais como vazăo instantânea e pressăo na base. Na parte experimental, mostrou-se que o aumento da espessura da camada limite com o aumento da razăo de esbeltez acarreta na diminuiçăo da frequęncia de desprendimento. Em geral, os resultados numéricos e experimental mostraram boa concordância exceto o comprimento de formaçăo dos vórtices.",
+  "subjects": [
+    "Corpos rombudos",
+    "Simulaçăo numérica direta",
+    "Anemometria laser-doppler",
+    "Transiçăo de camada limite",
+    "Distribuiçăo de escoamento",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "11/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60891",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60891&origem=BDITA"
+}

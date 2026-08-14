@@ -1,0 +1,30 @@
+{
+  "num_tg": "000550470",
+  "type": "tg",
+  "title": "Autonomous control for a sailing boat.",
+  "author": "Flávio Luiz Cardoso Ribeiro",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    },
+    {
+      "name": "Yves Bričre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Iboat is a sailing boat developed by students from IUT de Nantes and ISAE (France). The project aims to participate in the Microtransat competition, which goal is to cross the Atlantic Ocean autonomously. Several practical applications are foreseen for autonomous sailing boats, like Ocean observation and monitoring. In this work, first a simplified dynamics model of the boat is presented. This model was used during simulations and the development of the controllers. Several approaches were used to develop a controller to the Iboat. Different sailing strategies were employed using state machines, leading to positive results concerning energy consumption, a critical theme to the success of the mission. Other approach used was Fuzzy Control, showing to be capable of successfully controlling the boat. Finally, aiming to deal with changes in the boat dynamics, an adaptive fuzzy controller is proposed. This controller shows capable of dealing with several failures in the rudder.",
+  "subjects": [
+    "Navegaçăo autônoma",
+    "Barcos",
+    "Controle adaptativo",
+    "Controladores nebulosos",
+    "Embarcaçőes",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550470",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550470&origem=BDITA"
+}

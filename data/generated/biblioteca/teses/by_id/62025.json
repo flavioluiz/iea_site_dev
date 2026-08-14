@@ -1,0 +1,28 @@
+{
+  "num_tese": "62025",
+  "type": "tese",
+  "title": "Projeto algorítimico de controladores robustos",
+  "author": "Aldo Xavier Caetano de Almeida",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho focalizou o desenvolvimento de um ambiente computacional de projeto para o cálculo de controladores robustos multivariáveis lineares. As sistemáticas de projeto implementadas estăo embasadas na teoria H-infinito para projeto de controladores robustos sub-ótimos, na descriçăo do problema através do método multicritérios conhecido como Método das Desigualdades e em dois algoritmos de busca distintos, a saber, o Processo das Fronteiras Móveis e o algoritmo de Busca Harmônica. Na abordagem apresentada neste trabalho, um controlador H-infinito é calculado para garantir a estabilidade robusta de uma determinada planta; funçőes de ponderaçăo săo calculadas para garantir uma formataçăo da malha que atenda características de desempenho escolhidas pelo projetista. Os parâmetros dessas funçőes de ponderaçăo săo calculados iterativamente pelos algoritmos de busca até que uma soluçăo seja obtida. A associaçăo dessas técnicas tem como objetivo propiciar ao projetista uma formulaçăo mais ampla do projeto de controladores multivariáveis e utilizar as facilidades proporcionadas pelo uso de sistemas computacionais para automatizar as rotinas de cálculo necessárias durante a etapa de projeto, cujo elevado grau de complexidade pode se tornar extenuante para o projetista, desviando sua atençăo e tornando o projeto suscetível a erros. Para validar o programa de projeto desenvolvido, um conjunto de problemas significativos foi selecionado e resolvido usando as ferramentas disponibilizadas para o usuário. Por fim, esses resultados foram comparados ŕqueles obtidos na literatura referente a controladores robustos.",
+  "subjects": [
+    "Controladores",
+    "Controle robusto",
+    "Automaçăo",
+    "Ambiente de programaçăo",
+    "Controle"
+  ],
+  "defense_date": "19/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62025",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62025&origem=BDITA"
+}

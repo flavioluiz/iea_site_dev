@@ -1,0 +1,30 @@
+{
+  "num_tese": "68880",
+  "type": "tese",
+  "title": "Um método para estimaçăo da velocidade do vento ao longo da trajetória de uma aeronave",
+  "author": "Guilherme Nakakogue Barufaldi",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Em 2004, a Federaçăo Aeronáutica Internacional (FAI) tornou oficial a classe Microlift, abrindo uma nova fronteira para o voo a vela. Esta classe, composta por planadores ultraleves com limitaçăo superior de carga alar, tem o intuito de incentivar a exploraçăo de fontes fracas de sustentaçăo a baixa altura. Inspirada pela evoluçăo do voo livre, em especial das asas delta de competiçăo, esta classe de planadores ainda possui poucos praticantes e poucas aeronaves disponíveis. Entre os principais entraves ao seu progresso estăo a falta de técnicas de pilotagem para a extraçăo de energia destes fenômenos atmosféricos e a falta de conhecimento da estrutura de velocidades dos mesmos. Com o avanço das tecnologias de controle, os veículos aéreos năo tripulados (VANTs), vem ganhando espaço, tanto em aplicaçőes comerciais quanto no meio acadęmico. O uso destas aeronaves em pesquisa meteorológica também cresceu, mas, devido a certas limitaçőes, especialmente legais, seu uso neste campo ainda é tímido. Entretanto, com a reduçăo do custo e do peso de sensores e componentes eletrônicos, atualmente é possível construir sistemas de aquisiçăo de dados relativamente pequenos, leves e com baixo consumo de energia, o que torna viável a instrumentaçăo de pequenos VANTs elétricos lançados a măo. Estas aeronaves, muito mais acessíveis do ponto de vista econômico, poderiam ser empregadas mais facilmente para investigaçőes meteorológicas de curto alcance, dentre as quais, a pesquisa das estruturas microlift. Este trabalho almeja ser uma introduçăo, no âmbito brasileiro, ŕ utilizaçăo de aeronaves, especialmente as năo tripuladas, para a pesquisa meteorológica voltada ŕ aviaçăo desportiva. Uma metodologia para se estimar a velocidade do vento ao longo da trajetória de uma aeronave é proposta. Usando-se os dados da instrumentaçăo interna de uma aeronave, é possível estimar os ângulos aerodinâmicos e partir destes o vetor velocidade do vento. Uma análise do método é feita, além de um estudo da influęncia dos ruídos de mediçăo na variância da estimaçăo. O método é entăo testado por meio de simulaçőes e os resultados, discutidos. Uma breve história da classe Microlift também é incluída, a fim de se contextualizar o leitor.",
+  "subjects": [
+    "Sustentaçăo aerodinâmica",
+    "Aeronave năo-tripulada",
+    "Estimaçăo",
+    "Medidas de velocidade do vento",
+    "Estabilidade aerodinâmica",
+    "Mecânica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "24/08/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68880",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68880&origem=BDITA"
+}

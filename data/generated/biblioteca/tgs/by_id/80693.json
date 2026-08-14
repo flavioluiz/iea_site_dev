@@ -1,0 +1,34 @@
+{
+  "num_tg": "80693",
+  "type": "tg",
+  "title": "Estudo experimental de ruído de hélices",
+  "author": "Rafaela Myla Couto da Silva",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "abstract": "Foi conduzido um estudo experimental pioneiro no Instituto Tecnológico de Aeronáutica com o objetivo de investigar o ruído gerrado por hélices, analisando sua relaçăo com variaçőes geométricas do rotor e com a velocidade do escoamento em túnel de vento de seçăo fechada ŕ baixa velocidade - até 12 m/s. Oito hélices comerciais da APC Propellers com diferentes diâmetros (9,4.7SF, 10x4.7SF, 11x4.7SF, 12x4.7SF, 13x4.7SF e 14x4.7SF) e diferentes passos (9x3.8SF, 9x4.7SF e 9x6SF) e duas hélices impressas em PLA-CF e em PAHT-CF com impressora 3D (10x7 com perfil Clark-Y) foram ensaiadas, com o mapeamento da fonte feito empregando-se a técnica de beamforming acústico convencional, com o sinal captado por uma antena de 24 microfones disposta no formato angular para identificar características de ruído tonal e de banda larga. A relevância desse estudo se dá na tomada de decisăo em projetos de drones e e-VTOLs tendo em vista o trade-off entre aumento de empuxo e torque e geraçăo de ruído com rotores de diferentes geometrias. Nesse contexto, este trabalho evidencia a importância de se investigar o ruído associado a novas tecnologias emergentes, bem como descreve o aparato experimental desenvolvido para a realizaçăo das mediçőes, destacando suas limitaçőes. Os ensaios realizados abrangem uma faixa de úmero de Reynolds de 5, 6×104 a 1×105, e de Mach entre 0, 1 e 0, 25, dentro de condiçőes de baixo número de Mach e Reynolds, compatíveis com estudos prévios da literatura. Adicionalmente, foi conduzida a caracterizaçăo aerodinâmica das hélices ensaiadas, fundamentando-se na Teoria do Momento dos Elementos de Pá para hélices, com o intuito de correlacionar o desempenho propulsivo aos padrőes de emissăo acústica. Os resultados obtidos oferecem uma base experimental relevante para futuras investigaçőes em acústica de rotores operando em baixas velocidades, mostrando uma tendęncia de aumento de ruído tonal em harmônicos da BPF com o aumento do passo da hélice, para um mesmo diâmetro nominal, bem o aumento do ruído com o aumento do diâmetro, para um mesmo passo de hélice.",
+  "subjects": [
+    "Hélices",
+    "Ruídos",
+    "Aeroacústica",
+    "Processamento digital de sinais",
+    "Aerodinâmica",
+    "Tomada de decisőes",
+    "Número de Reynolds",
+    "Número de Mach",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80693",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80693&origem=BDITA"
+}

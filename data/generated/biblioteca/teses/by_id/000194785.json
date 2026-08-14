@@ -1,0 +1,27 @@
+{
+  "num_tese": "000194785",
+  "type": "tese",
+  "title": "Análise do desempenho de armazenadores térmicos por calor latente de eixo vertical",
+  "author": "Orosimbo Andrade de Almeida Rego",
+  "year": "1991",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Carlos Lineu de Faria Alves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Analisa-se o desempenho de armazenadores térmicos por calor latente com geometria cilíndrica de eixo vertical. O problema é formulado em coordenadas cilíndricas com as equaçőes de conservaçăo de movimento acopladas a equaçăo da energia para se considerar o efeito da convecçăo natural nos processos de fusăo e solidificaçăo. Essas equaçőes săo resolvidas numericamente utilizando-se a técnica dos volumes de controle finitos desenvolvida por Patankar e o modelo proposto por Bonacina para simular o efeito do calor latente de fusăo. Desenvolve-se um programa computacional para resolver os sistemas de equaçőes lineares resultantes da discretizaçăo. Os resultados para o calor armazenado, para o fluxo local de transferęncia de calor e para a taxa global de transferęncia de calor săo apresentados numa forma adimensional para diversos regimes de operaçăo do armazenador e comparados com resultados experimentais. Săo analisadas ainda as influęncias de parâmetros geométricos e de transferęncia de calor no seu comportamento.",
+  "subjects": [
+    "Armazenamento de calor",
+    "Transferęncia de calor",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/06/1991",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194785",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194785&origem=BDITA"
+}

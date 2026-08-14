@@ -1,0 +1,34 @@
+{
+  "num_tese": "76288",
+  "type": "tese",
+  "title": "Stereo vision-based technique to measure in-flight wing displacement of a very flexible aircraft",
+  "author": "Augusto Colasanti Sanches",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The search for flight performance improvements has encouraged the employment of longer, thinner and lighter wings on the design of aircraft. Consequently, aircraft have presented higher levels of structural flexibility, which motivates the characterization of flight effects related to this aviation trend. At the Aeronautics Institute of Technology (Sao Jose dos Campos, Brazil), a very flexible aircraft named X-HALE has been built. X-HALE was designed at the University of Michigan (Ann Arbor, United States of America) to support the validation of flight simulations involving coupling between structural and flight frequencies. In this context, the present work proposes a stereo vision technique to characterize X-HALE's in-flight wing displacement. This characterization may be used to validate flight simulations of very flexible aircraft and to provide feedback for flight control systems. The entire computational procedure of the proposed technique was implemented through the MATLAB platform. Among the performed experiments throughout this work, an experiment involving the image detection of red markers placed on X-HALE's wing demonstrated that the proposed red object detection algorithm worked successfully in frames captured through suitable lighting conditions. Next, laboratory experiments were performed to validate stereo vision displacement measurements. LVDTs were used to validate stereo vision measurements up to 50 mm, and laser measuring tools were used to validate displacements up to 200 mm of markers positioned 65 cm and 1 m away from the cameras. Regarding the further away marker from the cameras, the average percentage differences between the stereo vision and validation measurements were 1.40 \\% involving displacements up to 50 mm, and 1.01 \\% involving displacements up to 200 mm. Stereo vision measurements of markers under movement were also validated successfully through LVDTs measurements. The stereo vision technique was tested in an offline manner providing displacement measurements under a sampling rate of 30 Hz, and in a real-time way under a sampling rate of 10 Hz. The presented results indicate that the stereo vision technique proposed by this work has potential to provide accurate, precise and real-time displacement measurements in suitable lighting conditions.",
+  "subjects": [
+    "Asas flexíveis",
+    "Deslocamento",
+    "Visăo por computadores",
+    "Simulaçăo de voo",
+    "Transformador diferencial linear variável",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "23/07/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76288",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76288&origem=BDITA"
+}

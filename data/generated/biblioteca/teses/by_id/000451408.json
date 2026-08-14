@@ -1,0 +1,42 @@
+{
+  "num_tese": "000451408",
+  "type": "tese",
+  "title": "Estudo numérico da transiçăo entre uma onda de choque oblíqua estabilizada por um diedro e uma onda de detonaçăo oblíqua.",
+  "author": "Carlos Alberto Rocha Pimentel",
+  "year": "2000",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Deshaies",
+      "professor_slug": null
+    },
+    {
+      "name": "Luís Fernando Figueira da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neste trabalho săo apresentados os resultados de um estudo numérico da igniçăo e desenvolvimento da combustăo de uma mistura de hidrogęnio e ar a jusante de uma onda de choque oblíqua estabilizada no bordo de ataque de um diedro. Exista interesse, em particular, em analisar as condiçőes de escoamento que levam a obtençăo de uma onda de detonaçăo oblíqua. Para isto foi usado um código de cálculo que resolve as equaçőes de Euler, dentro de sua versăo năo estacionária e bidimensional para um escoamento reativo. A técnica utilizada é uma técnica de volumes finitos sobre uma malha năo estruturada adaptativa. Este código de cálculo oferece a possibilidade de refinar a malha de cálculo nos lugares onde os gradientes das propriedades do escoamento săo elevados. Este estudo começa por uma pesquisa das condiçőes necessárias ŕ obtençăo de uma onda de detonaçăo oblíqua.Este estudo inicial é baseado na técnica das polares de choque e detonaçăo e, também, na determinaçăo do comprimento de induçăo da cinética química a jusante da onda de choque oblíqua inicial. Em seguida, foi de interesse estudar a estrutura do conjunto da transiçăo onda de choque oblíqua / onda de detonaçăo oblíqua. Foram caracterizados, também, dois tipos de transiçăo, suave e abrupta. Foi colocado em evidęncia o papel da razăo entre o tempo de liberaçăo de calor e o tempo de reaçăo química total sobre o tipo de transiçăo obtido. Foi colocado também em evidęncia que, quando esta razăo tende a zero e o ângulo do diedro se aproxima do máximo permitido para uma onda de detonaçăo oblíqua plana, a regiăo de transiçăo apresenta uma onda de detonaçăo transversal do tipo Chapman-Jouguet similar ŕquela obtida nas experięncias de Viguier e Desbordes. Finalmente, săo apresentados os primeiros resultados do estudo de uma configuraçăo onde o diedro possui um comprimento finito. Neste caso, um conjunto de ondas de expansăo interage com a onda de detonaçăo oblíqua forte inicial. Os resultados numéricos colocam em evidęncia que existem as condiçőes para que o resultado desta interaçăo, a onda de detonaçăo oblíqua obtida, satisfaça ŕs condiçőes de Chapman-Jouguet.",
+  "subjects": [
+    "Combustăo",
+    "Mistura de gases",
+    "Hidrogęnio",
+    "Escoamento",
+    "Detonaçăo",
+    "Ondas",
+    "Análise numérica",
+    "Equaçăo de Euler-Lagrange",
+    "Física",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000451408",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000451408&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "66534",
+  "type": "tese",
+  "title": "Multi-objective multi-disciplinary optimization applied to the conceptual design of airliners for minimal environmental impact",
+  "author": "Paulo Eduardo Cypriano da Silva Magalhăes",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Airplane design consists of putting together several thousand parts to ultimately fulfill a set of requirements defined principally by airlines, manufacturers, and certification authorities. From the traditional perspective of an airline, an interesting airplane is one that is capable of generating the highest revenue with minimum operating cost - a maximum profit airplane. However, the airline industry is constantly broadening its consideration of what constitutes a nice-to-buy airplane. In recent times, not only economics, but also environmental considerations, are taking part in fleet-planning considerations. Following this trend induced by environmentally-aware passengers, and noise and pollution-related charges, airplane conceptual design methodologies are being expanded to incorporate methodologies for preliminary assessment of airplane noise and emissions. During the development of this dissertation, a group of airplane design methodologies was compiled and integrated into a design framework. This design framework was then expanded to incorporate noise and emissions estimation routines. This expanded group is then made into design functions and put through an automated design optimization process. In order to test both the design methodologies and the optimization techniques, two test cases are run: a long range, transcontinental jet and a mid-size regional jet. These test designs are initially single-objectively optimized for direct operating costs, noise and emissions. Then, the airplanes are optimized for pairs of these design objectives. Finally, they are optimized for the three objectives simultaneously. Results and suggestions for future works are presented.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Otimizaçăo",
+    "Algoritmos genéticos",
+    "Reduçăo de custos",
+    "Custos operacionais",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "30/05/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66534",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66534&origem=BDITA"
+}

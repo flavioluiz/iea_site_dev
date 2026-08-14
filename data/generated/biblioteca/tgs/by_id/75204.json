@@ -1,0 +1,25 @@
+{
+  "num_tg": "75204",
+  "type": "tg",
+  "title": "Preliminary structural sizing tool: development and integration to an aircraft multidisciplinary design optimization process",
+  "author": "Gabriel Max de Mendonça Abrantes",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Designing an aircraft is a complex and tricky process. It is a multidisciplinary process where aerodynamics, flight dynamics, structure, propulsion and many other disciplines operate simultaneously. An aircraft designing process starts on the basis of the Top Level Aircraft Requirements (TLARs), which are a set of subjective conditions an aircraft should meet in order to perform a certain mission. In contemporary aircraft designs, a greater attention is given to aerodynamics and flight dynamics optimization, while little attention is given to structural aspects. These aspects are usually left out of the optimization loops typical of the preliminary design stage and considered only during later project phases. Most of that is due to the complexity inherent to the structural sizing process and sometimes due to the computational cost of using finite elements methods. This undergraduate thesis proposes a tool for sizing a preliminary structure of an aircraft. The objective is to establish a set of sizing methodologies capable of calculating fundamental aircraft parameters for the preliminary design phase. The sizing methodologies must be precise and computationally efficient to be implemented in any optimization loop for aircraft design along with other disciplines. Firstly, some motivations and guidelines are presented. They governed the development of the structural sizing tool all the way. After that, the technical aspects are clarified and the assumptions, tools and analytic methods used are detailed. The descriptions are given in a very straightforward way. Specific details about those methods are not given but some references are provided, where one can find detailed information. Finally, some examples of application are presented along with some conclusions. They will show the applicability of the methodologies developed and their benefits to the preliminary design of an aircraft.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Análise estrutural",
+    "Otimizaçăo de projeto multidisciplinar",
+    "Metodologia",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75204",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75204&origem=BDITA"
+}

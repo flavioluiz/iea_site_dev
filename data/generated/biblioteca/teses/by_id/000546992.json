@@ -1,0 +1,30 @@
+{
+  "num_tese": "000546992",
+  "type": "tese",
+  "title": "Comparaçăo dos métodos análise por envoltória de dados e análise por fronteira estocástica em avaliaçăo de eficięncia.",
+  "author": "Robert Buchholtz",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente existem vários métodos para a análise de eficięncia de unidades produtivas, os quais apresentam vantagens e limitaçőes quanto ŕ sua aplicaçăo. Dois desses métodos podem ser encontrados com maior grau de regularidade na literatura: a Análise por Envoltória de Dados (DEA) e a Análise por Fronteira Estocástica (SFA). O DEA estima uma fronteira năo paramétrica linear por partes, constituída pelas unidades eficientes. O SFA trata da análise de fronteira de modo estocástico, o qual supőe que as incertezas seguem alguma distribuiçăo de probabilidade, introduzindo no modelo o termo de erro. O objetivo deste trabalho é desenvolver um estudo comparativo entre o DEA e o SFA, de forma empírica, baseado em uma mesma massa de dados. Para tanto, os métodos de comparaçăo de eficięncia estudados foram confrontados ŕ luz de informaçőes obtidas do segmento aéreo brasileiro entre os anos de 1997 e 2004, utilizando quatro modelos distintos: Cross section aplicado a cada ano, cross section da totalidade de dados de todos os anos, panel data sem a inclusăo de variáveis exógenas e panel data com a inclusăo de variáveis exógenas. Os resultados de eficięncia de cada unidade produtiva em cada um dos modelos foram entăo comparados entre si utilizando o teste de Wilcoxon-Mann-Whitney. Ao fim, foram encontradas indicaçőes de que, quando do uso de uma base de dados com um maior número de amostras e DMUs, a utilizaçăo preferencial de um dos métodos năo parece ser extremamente relevante. Outrossim, a restriçăo do uso desses métodos parece estar mais relacionada com a limitaçăo do formato que a base de dados impőe. Porém, a possibilidade de inclusăo de variáveis exógenas, assim como a inclusăo de um termo que trata do ruído estatístico no método SFA, parece trazer vantagens significativas na maioria das análises, se comparada com o método DEA.",
+  "subjects": [
+    "Análise estatística",
+    "Eficięncia",
+    "Produtividade",
+    "Análise envoltória de dados",
+    "Processos estocásticos",
+    "Pesquisa operacional",
+    "Matemática"
+  ],
+  "defense_date": "11/04/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000546992",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000546992&origem=BDITA"
+}

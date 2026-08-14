@@ -1,0 +1,34 @@
+{
+  "num_tg": "000550383",
+  "type": "tg",
+  "title": "Dinâmica e controle de aeronaves flexíveis com modelagem aerodinâmica pelo método Doublet-Lattice.",
+  "author": "Antônio Bernardo Guimarăes Neto",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "A Engenharia Aeronáutica tem constantemente evoluído em direçăo ao projeto de aeronaves com o emprego de materiais progressivamente mais leves, além da adoçăo de concepçőes estruturais otimizadas e também de sistemas de controle cada vez mais avançados. Em conseqüęncia disso, a relevância dos efeitos da flexibilidade estrutural na dinâmica do vôo das aeronaves modernas tem crescido, uma vez que as freqüęncias dos modos de vibraçăo estrutural e aquelas dos modos naturais dominados pelos graus de liberdade de corpo rígido tornam-se, entăo, mais próximas. Isso significa que o acoplamento entre a dinâmica de corpo rígido e os modos vibracionais deve ser estudado. Este trabalho propőe tal estudo com enfoque no tratamento da aerodinâmica da aeronave flexível em regime năo-estacionário, com a sua modelagem por meio do método doublet-lattice. Dessa forma, o atraso da resposta aerodinâmica ŕs excitaçőes originadas das deformaçőes estruturais é contemplado. O modelo construído permite a simulaçăo de movimentos quaisquer de uma aeronave, simultaneamente ŕ determinaçăo de como a estrutura da mesma se deforma ao longo do tempo. Os resultados obtidos para uma aeronave-exemplo, cujos modos de vibraçăo estrutural săo conhecidos, săo comparados com aqueles oriundos de uma abordagem que faz uso da hipótese de regime quase-estático do escoamento, baseada no método vortex-lattice, mostrando que os efeitos năo-estacionários podem se tornar relevantes em termos do amortecimento de oscilaçőes nas respostas aerodinâmicas, amortecimento esse que é introduzido pelos estados de atraso. Um sistema de controle que compreende um piloto automático de altitude, um nivelador de asas e um laço de aumento de estabilidade é entăo proposto para a aeronave-exemplo, e sua efetividade é testada e comprovada com a submissăo da aeronave a uma tesoura de vento típica, na ausęncia e na presença de tal sistema. A influęncia da consideraçăo, ou năo, dos modos flexíveis pode ser também verificada em todas essas análises, mostrando algumas importantes diferenças de resposta da aeronave flexível em relaçăo ŕ aeronave modelada como rígida.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Corpos flexíveis",
+    "Aerodinâmica năo-estacionária",
+    "Aeroelasticidade",
+    "Modelos matemáticos",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550383",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550383&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "71134",
+  "type": "tese",
+  "title": "Autonomy implementations for a low-cost autonomous surface vehicle using the MOOS-IvP software",
+  "author": "David Issa Mattos",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Douglas Soares dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work describes the implementation of a low-cost Autonomous Surface Vehicle (ASV ) using a behavior-based software, the MOOS-IvP. The platform used is a catamaran boat driven by two direct current motors as the propulsion system. Two different designs were made and both are presented and discussed in this work. In the first design, the ASV is embedded with a processing board with an Arduino mi- crocontroller, a low-cost Inertial Measurement Unit (IMU) with accelerometers, gyroscopes and magnetometers, a GPS receiver and a wireless RF serial modem. The ASV communicates with a Ground Control Station (GCS) sending telemetry data and receiving navigation com- mands for the propulsion motors. The GCS uses the MOOS-IvP software to implement the autonomous navigation procedures and the GPS/Compass/IMU sensor fusion algorithms. In the second design, modifications were made in the ASV embedded hardware. A low- cost microcomputer (Raspberry Pi 2), a WiFi adapter and an USB camera for surveillance were added and the RF serial modem was removed. The main difference between the two approaches is that in the second approach the autonomous navigation procedures and the sensor fusion algorithm run embedded in the ASV. Therefore the ASV is capable of perform- ing a mission even if the communication link with the GCS is lost. Although the ASV does not require a GCS to operate, a GCS was used to deploy the missions and give manual re- mote control over the ASV. The embedded computer runs the software MOOS-IvP to im- plement the autonomous navigation procedures and the GPS/Compass/IMU sensor fusion algorithm. The GCS uses the software MOOS-IvP and receives telemetry data from the ASV and sends control commands. This approach aims for a modular system that allows it to be expanded and modified to meet the custom needs of specialized missions. Simulations were used to demonstrate the viability of missions, tuning and using of the sensor fusion algorithms. In both approaches, experimental results in real conditions are presented and discussed. The experimental and simulation results consist of path following missions in the presence of virtual obstacles.",
+  "subjects": [
+    "Veículos autônomos",
+    "Navegaçăo autônoma",
+    "Fusăo de multisensor",
+    "Motores de corrente contínua",
+    "Sistemas de propulsăo",
+    "Controle",
+    "Computaçăo"
+  ],
+  "defense_date": "22/03/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71134",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71134&origem=BDITA"
+}

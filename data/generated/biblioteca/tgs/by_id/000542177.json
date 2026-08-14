@@ -1,0 +1,32 @@
+{
+  "num_tg": "000542177",
+  "type": "tg",
+  "title": "Aplicaçăo do método vortex lattice para projeto aerodinâmico de mísseis.",
+  "author": "Thomaz Daibert Machado Tavares",
+  "year": "2006",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cesar Augusto Buonomo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esse trabalho iniciou com a tentativa de reproduzir, utilizando o método vortex lattice generalizado, curvas de carregamento aerodinâmico obtidas através de ensaios em túnel de vento para vários números de Mach, subsônicos e supersônicos, de um modelo de míssil. O míssil ensaiado e usado na comparaçăo é do tipo ar-ar de configuraçăo canard-empena. O método vortex lattice se mostrou bastante eficaz para cálculos de asas livres em baixos ângulos de ataque e baixos ângulos de deflexăo do canard, o que năo é suficiente, uma vez que as manobras mais importantes de um míssil ocorrem justamente em altos ângulos e altas deflexőes. Assim sendo, foi necessário introduzir um conjunto de correçőes como: influęncia da fuselagem nas superfícies aerodinâmicas; evoluçăo da esteira de vórtices que parte do conjunto de canares e atinge a empena; năo linearidade das forças nas superfícies aerodinâmicas. Após a introduçăo dessas correçőes, os resultados obtidos se mostraram bastante satisfatórios, reproduzindo as curvas de ensaio em túnel tanto qualitativa quanto quantitativamente. Os erros encontrados săo pequenos o bastante para consideramos a metodologia desenvolvida adequada para ser usada na fase preliminar de um projeto aerodinâmico de um míssil de configuraçăo semelhante.",
+  "subjects": [
+    "Projeto de mísseis",
+    "Coeficientes aerodinâmicos",
+    "Método de malha turbilhonar",
+    "Cargas aerodinâmicas",
+    "Ensaios em túneis de vento",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000542177",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000542177&origem=BDITA"
+}

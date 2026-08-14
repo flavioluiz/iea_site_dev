@@ -1,0 +1,28 @@
+{
+  "num_tg": "78029",
+  "type": "tg",
+  "title": "Reprojeto e otimizaçăo de asa em materiais compósitos para veículo aéreo năo tripulado com aplicaçăo militar",
+  "author": "Jairo da Cunha Bastos Sobrinho",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta uma proposta de reprojeto e otimizaçăo de uma asa em materiais compósitos para uma aeronave remotamente pilotada (VANT) com aplicaçăo militar. O desenvolvimento utiliza como base a asa original da aeronave, considerando sua geometria, rigidez, carregamento e condiçőes de contorno para o reprojeto de uma nova asa com menor peso estrutural. Para tanto um processo de otimizaçăo e projeto assistido por modelos de elementos finitos é desenvolvido e aplicado neste trabalho. Ainda, novas condiçőes de contorno săo impostas como: (i) possibilidade de transporte de combustível na asa para aumentar o raio de operaçăo da aeronave e (ii) possibilidade de transporte de carga paga extra acoplada ŕ estrutura da asa (exemplo: câmeras de vigilância). Inicialmente, um modelo de elementos finitos representativo da asa original é validado utilizando dados experimentais de rigidez estrutural. Este modelo é posteriormente utilizado para extrair os valores de carga de flambagem, frequęncias e modos de vibraçăo, e valores de carga última de falha estática da asa original, para serem utilizados durante o processo de otimizaçăo da nova asa, como condiçőes de contorno a serem satisfeitas. O reprojeto da nova asa envolve uma abordagem inovadora, utilizando painéis sanduiche e combinaçăo de diferentes arquiteturas de materiais compósitos para reduzir o peso e custo de fabricaçăo. O processo de otimizaçăo adotado visa atingir valores equivalente de rigidez, flambagem e carga última de falha da asa reprojetada, se comparada ao modelo original. Como resultado, a nova estrutura apresenta um menor peso e maior capacidade de transporte de carga paga e combustível, requerimentos fundamentais para a implementaçăo da aeronave em missőes de longo alcance, vigilância e defesa de fronteiras e espaço aéreo.",
+  "subjects": [
+    "Otimizaçăo",
+    "Asas",
+    "Projeto estrutural",
+    "Aeronave năo-tripulada",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Flambagem",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78029",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78029&origem=BDITA"
+}

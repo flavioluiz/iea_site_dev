@@ -1,0 +1,30 @@
+{
+  "num_tese": "63076",
+  "type": "tese",
+  "title": "Desenvolvimento de um modelo para validaçăo e refinamento do projeto de controle térmico do ITASAT-1",
+  "author": "Adailton Barros Costa",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Com o objetivo de especificar o Teste experimental de Balanço Térmico (TBT) para a Maquete Térmica, ou Termoestrutural (STM) do ITASAT-1 esse trabalho apresenta o desenvolvimento de um modelo para verificaçăo, validaçăo e refinamento do projeto de controle térmico deste programa de satélite. Os itens abordados săo: aquisiçőes de cargas térmicas preditas pelo do modelo numérico anteriormente concebido (onde, para sua utilizaçăo, é necessária uma seleçăo de casos críticos), a escolha de um circuito elétrico para ligaçăo dos aquecedores, a especificaçăo destes que cobrirăo a superfície do STM, a distribuiçăo de potencia por aquecedor sobre os painéis, a aplicaçőes das cargas orbitais médias e transitórias, e a validaçăo do modelo baseado na comparaçăo das temperaturas previstas para o ambiente laboratorial (de TBT) por simulaçőes com as temperaturas previstas para voo. Para que todas essas tarefas fossem possíveis, o modelo numérico do projeto térmico para voo foi aproveitado em grande parte. Foram excluídos alguns elementos do modelo original cujos itens físicos năo farăo parte do teste, previsto para ser realizado numa câmara de termovácuo, e foram adicionados os aquecedores. Essas modificaçőes năo trouxeram distorçőes significativas quanto ŕ simulaçăo dos casos críticos previstos para voo. Referindo-se ŕ câmara, suas paredes negras e criogęnicas simulam o espaço como sumidouro de calor e foram modeladas considerando-as como um cilindro com medidas internas de Ř1 x 1m e fechadas com duas tampas nas extremidades (topo e fundo). A condiçăo de contorno foi ajustada inicialmente com uma temperatura fixa de 100K. Posteriormente foram introduzidos estudos comparativos para outra câmara com um tamanho de Ř3 x 3m. Uma variaçăo na temperatura foi aplicada numa taxa de resfriamento das paredes de 1,0 e 1,2°C por minuto para diminuiçăo do tempo previsto para o teste. Os resultados com a câmara maior (Ř3 x 3m) ofereceram maior fidelidade ao modelo. Outras mudanças foram inseridas nas análises: nas propriedades termoópticas para oferecer outra opçăo para o teste, e no ajuste de valor para a condutância de contato dos aquecedores que apresentaram pouca diferença em comparaçăo com o valor utilizado na simulaçăo orbital para células solares. Também é apresentada no trabalho, uma sugestăo de disposiçăo física do satélite dentro da câmara e suporte para içamento. Finalmente é apresentado um perfil de teste com tempo de teste previsto para 34,7 horas, e as programaçőes dos aquecedores as quais săo apresentadas no Apęndice 2. Entăo, com todos esses pontos discutidos, foi possível ter uma boa visualizaçăo de previsăo do arranjo para futura simulaçăo experimental e validaçăo do subsistema de controle térmico do projeto ITASAT-1.",
+  "subjects": [
+    "Satélites artificiais",
+    "Análise térmica",
+    "Controle de temperatura",
+    "Projetos experimentais",
+    "Termodinâmica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "25/06/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63076",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63076&origem=BDITA"
+}

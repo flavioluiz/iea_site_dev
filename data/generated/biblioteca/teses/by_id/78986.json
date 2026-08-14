@@ -1,0 +1,30 @@
+{
+  "num_tese": "78986",
+  "type": "tese",
+  "title": "Influęncia das marés terrestres e oceânicas em formaçőes em voo de satélites em torno da terra",
+  "author": "Mateus de Castro Silva",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Com o passar do tempo, vęm sendo abordado cada vez mais as influęncias que potenciais perturbativos possuem sobre a dinâmica relativa dos satélites, o que motivou este trabalho, que apresenta um estudo sobre os efeitos que os potenciais de mares terrestres e oceânicas apresentam em formaçőes em voo de satélite. Para isso, săo considerados apenas os efeitos seculares, uma vez que eles săo os únicos que săo estritamente crescentes com o tempo, sendo explorados as variaçőes dos elementos orbitais dos satélites para órbitas altas (GEO) e baixas (LEO). Após a identificaçăo de que as órbitas baixas săo as mais impactadas pelos efeitos de marés, as perturbaçőes săo propagadas para o sistema de satélites em formaçăo em voo, o qual permite obter os desvios em cross-track. É observado que apenas valores relativamente altos de desvios relativos iniciais das órbitas de líder e seguidor em inclinaçăo, excentricidade e de semi-eixo maior podem causar uma derivada nos movimentos em along-track e cross-track. Finalmente, e apresentado o estudo de mitigaçőes das perturbaçőes de mares, comparando com os resultados de harmônicos zonais de segunda ordem (J2). Verifica-se que as mitigaçőes dos efeitos de harmônicos zonais săo suficientes para minimizar os efeitos de marés. Isso se deve ao fato de que desvios de semi-eixo maior associados ŕ mitigaçăo de rotaçăo de perigeu e de rotaçăo de nodo ascendente, săo da ordem de 10-4 e 10-8 vezes menores para mares terrestres e oceânicas, respectivamente, quando comparados com os desvios associados ao harmônico zonal. Săo obtidas as expressőes para a velocidade a ser aplicada após cada órbita a fim de mitigar os efeitos de precessăo de perigeu causadas pelas perturbaçőes de marés, tornando possível os respectivos valores de impulsos a serem aplicados para correçőes de órbitas. Além disso, e apresentado ainda um estudo de caso, considerando os dados iniciais da formaçăo em voo ITASAT-2, de onde se verifica que um impulso anual da ordem de 10-5 m/s e de 10-7 m/s deveriam ser empregados para mitigar efeitos de rotaçăo de perigeu causada pela mare terrestre e oceânica, respectivamente. Isso exemplifica o baixo impacto das marés no design do sistema propulsivo de satélites. Desta maneira, este trabalho aprofunda o estudo de potenciais seculares de mares, com aplicaçăo em formaçőes em voo de satélite, um assunto que é, até entăo, pouco abordado pelas principais literaturas do segmento espacial.",
+  "subjects": [
+    "Satélites",
+    "Voo em formaçăo",
+    "Maré",
+    "Controle de satélites",
+    "Perturbaçőes singulares",
+    "Estudo de casos",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "08/12/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78986",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78986&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "73370",
+  "type": "tese",
+  "title": "Polynomial chaos-based control design for an aircraft at high angles of attack with uncertain aerodynamics",
+  "author": "Mateus de Freitas Virgílio Pereira",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Manoel Balthazar",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In this work we consider the flight dynamics of fighter aircraft at high angles of attack with uncertain aerodynamic coefficients. Stochastic parametric uncertainty is dealt with by employing spectral decomposition of the random variables by means of the generalized polynomial chaos expansion. The projection of uncertainty onto the orthogonal polynomial basis, prescribed by the Wiener-Askey scheme, provides a deterministic model from which the control laws are designed. We propose optimal linear and nonlinear feedback control strategies for the automatic pilot system to recover the aircraft from stall and provide acceptable dynamic response. Optimality of the proposed control laws is proved by solving the Hamilton-Jacobi-Bellman equation and asymptotic weak stability in probability of the controlled nonlinear system is guaranteed in a deterministic way.",
+  "subjects": [
+    "Controle ótimo",
+    "Controle adaptativo",
+    "Dinâmica de voo",
+    "Ângulos de ataque",
+    "Estabilidade",
+    "Controle"
+  ],
+  "defense_date": "20/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73370",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73370&origem=BDITA"
+}

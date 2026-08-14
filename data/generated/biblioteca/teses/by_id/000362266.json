@@ -1,0 +1,32 @@
+{
+  "num_tese": "000362266",
+  "type": "tese",
+  "title": "Modelamento dinâmico e identificaçăo experimental de uma servo-válvula eletro-hidráulica de controle de pressăo",
+  "author": "Carlos Leal Feitosa",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho focaliza o modelamento teórico via grafos de ligaçőes (bond-graphs) e a identificaçăo experimental do modelo dinâmico de uma servo-válvula eletro-hidráulica de controle de pressăo. A servo-válvula possui dois estágios de controle, onde o primeiro estágio é um sistema com duplo bocal-palheta, controlado por um motor de torque a solenoide e o segundo estágio é um sistema com camisa-carretel comandado pelo primeiro. Um modelo de grafo de ligaçăo multi-pórtico é proposto para se determinar as equaçőes năo lineares do sistema eletro-hidromecânico. O sistema é entăo linearizado para se desenvolver uma funçăo de transferęncia entre a entrada de corrente e a pressăo no pórtico de saída; a manipulaçăo simbólica para a obtençăo da referida funçăo foi realizada através do “software” MATHEMATICA. Uma montagem experimental foi implementada para estudos de validaçăo do modelo dinâmico teórico. Esta montagem consiste na alimentaçăo da servo-válvula com uma fonte de pressăo constante; no pórtico de utilizaçăo foi conectada uma impedância hidráulica para simular a carga no sistema. Um microcomputador PC compatível dotado de conversores AD/DA é utilizado para monitorar a corrente de excitaçăo e a pressăo de saída do sistema, sendo a excitaçăo de corrente gerada via \"software\" SISDIM e a aquisiçăo dos dados de entrada e saída via placa AQDADOS. O \"software\" MATLAB foi utilizado para ajuste das séries temporais de entrada e saída e identificaçăo de um modelo ARX (auto regressivo exógeno) do sistema eletro-hidráulico. A comparaçăo dos valores numéricos dos coeficientes da funçăo de transferęncia experimental com as expressőes algébricas dos coeficientes da funçăo de transferęncia teórica nos fornecerá os parâmetros do sistema hidráulico. Finalmente foi realizada uma análise de sensibilidade do modelo estudado com utilizaçăo do software VISSIM.",
+  "subjects": [
+    "Controle adaptativo",
+    "Válvulas",
+    "Hidráulica",
+    "Controle de aeronaves",
+    "Gráficos de ligaçăo",
+    "Mecatrônica",
+    "Engenharia mecânica",
+    "Controle",
+    "Computaçăo"
+  ],
+  "defense_date": "01/12/199",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000362266",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000362266&origem=BDITA"
+}

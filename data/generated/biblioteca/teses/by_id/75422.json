@@ -1,0 +1,31 @@
+{
+  "num_tese": "75422",
+  "type": "tese",
+  "title": "Flow investigation in a sinusoidal channel with a porous layer",
+  "author": "Leonardo Martins Brondani",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents a numerical investigation of a sinusoidal channel with a porous layer adjacent to the wall using a in-house software of computational fluid dynamics developed in the Laboratório de Fenômenos de Transporte (LCFT). The applications of the study of this geometry can be made in the industrial field by heat exchanger devices as well as in the medical field by modelling circulatory channels. Laminar and turbulent flows were studied. The transport equations were discretised using the control volume method and the algebraic equations were solved using the SIMPLE algorithm. For the turbulent flow, the standard k- model High Reynolds was used. The results showed that, for all the cases, the influence of the Darcy number and the layer thickness are predominant when compared with the influence of the porosity. For turbulent flows, the decrease in the Darcy number increases the amount of turbulent kinetic energy.",
+  "subjects": [
+    "Escoamento através de meio poroso",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Transferęncia de calor",
+    "Dinâmica dos fluidos computacional",
+    "Controle de camadas limite porosas",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "20/12/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75422",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75422&origem=BDITA"
+}

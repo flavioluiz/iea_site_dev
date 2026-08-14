@@ -1,0 +1,31 @@
+{
+  "num_tese": "000567012",
+  "type": "tese",
+  "title": "Modelo dinâmico bond graph para servo posicionador eletrohidráulico utilizado no posicionamento da tubeira de um veículo lançador de satélite.",
+  "author": "Leonardo Pinheiro Loureiro",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho é focado no modelo dinâmico de um servomecanismo hidromecânico com comando elétrico aplicado no sistema de controle de atitude de vôo do veículo lançador de satélite (VLS). No presente sistema, a tubeira é fixada ao corpo do motor por uma interface elástica permitindo movimentos angulares da tubeira em duas direçőes ortogonais. O movimento angular da tubeira é atuado por um servo-posicionador eletro-hidráulico com realimentaçăo mecânica direta entre a saída do pistăo e a eletroválvula bocal-palheta. A válvula bocal-palheta é atuada por um motor linear de relutância variável, controlado por um sinal elétrico enviado pelo computador de bordo de controle de vôo do foguete. Um modelo dinâmico do servo posicionador eletrohidraúlico completo é proposto nesse trabalho. Alguns parâmetros do modelo foram obtidos por processo de identificaçăo em malha fechada no domínio do tempo, usando a abordagem indireta. Os dados para o processo de identificaçăo foram obtidos de montagem experimental, também apresentada nesse trabalho. A validaçăo do modelo é obtida pela comparaçăo com a resposta do sistema real.",
+  "subjects": [
+    "Gráficos de ligaçăo",
+    "Eletrohidrodinâmica",
+    "Controle do vetor de empuxo",
+    "Identificaçăo de parâmetros",
+    "Coeficientes de empuxo de tubeira",
+    "Tubeiras de foguetes",
+    "VLS (Brasil)",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "28/12/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567012",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567012&origem=BDITA"
+}

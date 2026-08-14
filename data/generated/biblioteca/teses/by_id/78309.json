@@ -1,0 +1,29 @@
+{
+  "num_tese": "78309",
+  "type": "tese",
+  "title": "Conceptual design of hypersonic vehicle considering aeroelastic features",
+  "author": "Joăo de Barro Monteiro Cavalcanti",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Hypersonic vehicles have been making the international news in recent years due to their enormous military potential. However, hypersonic flight technology will be responsible in the coming years for several structural changes in the aerospace sector, not necessarily military. Some of them are the possibility of cheaper access to space, mainly for suborbital flights and small satellites. In the meantime, the IEAv has been developing a technological demonstrator for hypersonic flight adopting the design conditions at Mach 7, altitude of 30 km, and zero angle of attack. In order to make this possible, it is essential that all aspects concerning flight dynamics are analyzed, one of them being the influence of aerodynamic loads on the aeroelastic behavior of the aircraft. Given the lack of historical data, as well as the need to develop low-order tools for the analysis of aeroelastic behavior and its influence on flight dynamics within the scope of the IEAv, this work proposes a theoretical-computational methodology that involves the optimization of the wedge-derived waverider geometry until obtaining eigenvalues for flight dynamics considering elastic degrees of freedom. For the geometry optimization, the genetic algorithm of MATLAB® is adopted, with its variables being the aerodynamic efficiency and the volumetric ratio, considering the shock-expansion theory. The dynamic-structural model uses the formulation by orthogonal functions based on the Rayleigh-Ritz method to model the beams in bending and torsion. The modified Newton method is used to obtain stability derivatives in control for aerodynamic modeling. The propulsive model considers a Brayton cycle approximation of the 14-XS vehicle that IEAv technicians, researchers, and scientists have already analyzed for years. The flight mechanics model considers the formulation by mean-axes and the coupling between the rigid-body and elastic modes only in the forces and moments, that is, without inertial coupling and with an oblate, rotating Earth model with correction J2 in gravitation. From this model, equilibrium conditions are calculated, and, finally, the rigid-body modes and how they are modified with the adoption of elastic degrees of freedom are analyzed. Furthermore, the results of flight dynamics show difficulty in the vehicle trim process, the influence of the elastic modes in rigid body dynamics, eigenvalues of the rigid body modes, and elastic degrees of freedom.",
+  "subjects": [
+    "Veículos hipersônicos",
+    "Voo hipersônico",
+    "Dinâmica de voo",
+    "Aeroelasticidade",
+    "Arquitetura (computadores)",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "09/03/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78309",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78309&origem=BDITA"
+}

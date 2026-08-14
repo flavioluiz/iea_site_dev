@@ -1,0 +1,35 @@
+{
+  "num_tg": "000544139",
+  "type": "tg",
+  "title": "Continuous visualization of nearfield acoustic holography: a LabVIEW approach.",
+  "author": "Rafael Santos Iwamura",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jean-Hugh Thomas",
+      "professor_slug": null
+    },
+    {
+      "name": "Jean-Claude Pascal",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The description of the Nearfield Acoustical Holography (NAH) theory, as other radiation problems, has its basis on the solution of the Helmholtz equation, which results in a complex pressure field. This has been the subject of many studies which proposed different approaches of the NAH theory, usually dedicated to stationary events. The main objective of this report is to describe how the theory of NAH in current use may be implemented in a LabVIEW environment, in order to obtain a continuous visualization of the pressure field on the source plane. As a problem that involves computational processing, there are already routines in different softwares developed to work with Stationary or Time-continuous NAH. For the first, processing time is not quite important and the visualization of the holographic images in Matlab, for instance, leads to good results, being unnecessary a further development of another program in LabVIEW. For Time-continuous NAH (TC-NAH), time becomes one of the most important variables, and the continuous visualization of the holographic images now depends on the computational processing time, how the software processes the data, as well as the amount of mathematical and/or logical operations performed while running the routine. Since Matlab is not an efficient program to run TC-NAH, as it requires too much data processing, the idea of using LabVIEW to deal with this problem is proposed. A routine was developed in this software and numerically tested for different conditions. The results indicate that the routine implemented is feasible to be applied in experimental arrangement, requesting only minor changes to adapt the routine to the available acquisition system. The present work is a brief explanation of the NAH theory focused on the development of time-continuous routine, detailed information of the routine and the tests performed. Considerations of how to operate the program and its limitations are also highlighted.",
+  "subjects": [
+    "Holografia acústica",
+    "Técnicas de formaçăo de imagens",
+    "Aeroacústica",
+    "Operaçăo em tempo real",
+    "Rotinas de entrada e saída de dados",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544139",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544139&origem=BDITA"
+}

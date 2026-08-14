@@ -1,0 +1,40 @@
+baseURL: "http://localhost:1313/"
+title: "IEA/ITA"
+languageCode: "pt-br"
+defaultContentLanguage: "pt"
+enableRobotsTXT: true
+enableEmoji: true
+timeout: 60000
+buildFuture: true
+
+# Pagination
+pagination:
+  pagerSize: 12
+
+# Multilingual
+defaultContentLanguageInSubdir: true
+removePathAccents: true
+
+# Output formats
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS"]
+
+# Markup
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    style: monokai
+    lineNos: true
+
+# Minify
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: false
+    css:
+      decimals: -1
+    js:
+      keepVarNames: false

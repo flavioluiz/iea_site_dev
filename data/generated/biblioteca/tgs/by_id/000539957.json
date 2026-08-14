@@ -1,0 +1,26 @@
+{
+  "num_tg": "000539957",
+  "type": "tg",
+  "title": "Numerical model of the PI4 compressor.",
+  "author": "Ichiro Yonaha",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Parallel to the recent development of the computational fluid dynamics, a new opportunity has risen to study the complex flow of the turbomachinery. The target of this study is to define a methodology to apply the techniques of the computational fluid dynamics for the centrifugal compressor cases. The analysed machine was the centrifugal compressor of the RTM 322 engine known as PI4. The work comprise basically two parts: mesh generation and solving. The mesh generation was realized using the mesher ICEM CFD. Hexahedrical meshes have been generated to a single blade model of the compressor. The procedure was done observing the mesh quality and size. It was looked for a balance between the accuracy and computational time. During the CFD calculations, the flow was analyzed using the steady state model. The calculations process had the following steps: definition of the boundary conditions, solver set up, initial condition definition, convergence analysis and result analysis. Finally, some considerations were made with suggestion to following challenges.",
+  "subjects": [
+    "Compressores centrífugos",
+    "Dinâmica dos fluidos computacional",
+    "Turbomáquinas",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000539957",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000539957&origem=BDITA"
+}

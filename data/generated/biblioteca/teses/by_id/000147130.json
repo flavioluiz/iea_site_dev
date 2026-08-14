@@ -1,0 +1,31 @@
+{
+  "num_tese": "000147130",
+  "type": "tese",
+  "title": "Modelo de interferęncia aerodinâmica entre jato e empenagem",
+  "author": "Juan Bautista Villa Wanderley",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho apresenta-se uma metodologia para a estimativa dos efeitos de interferęncia aerodinâmica sobre empenagens devido a jatos turbulentos, subsônicos e aquecidos. Primeiramente emprega-se um método de diferenças finitas para resolver numericamente as equaçőes de Reynolds com as aproximaçőes de camada limite. As equaçőes de reynolds săo resolvidas simultaneamente com a equaçăo diferencial parcial oriundado modelo (K) da energia cinética turbulenta desenvolvido por Prandtl. Desta forma săo calculados o campo de velocidade e de temperatura resultante. Na segunda etapa modela-se o campo de velocidade radial induzido pelo jato através de uma distribuiçăo linear de sumidouros. Esta distribuiçăo é utilizada com o \"Vortex Lattice Method\" no cálculo da interferęncia aerodinâmica sobre uma empenagem horizontal. Finalmente, săo obtidas as curvas de sustentaçăo de uma empenagem horizontal em funçăo das principais variáveis do escoamento do jato.",
+  "subjects": [
+    "Interferęncia aerodinâmica",
+    "Jatos livres",
+    "Montagem de empenagens",
+    "Equaçőes de camada limite",
+    "Camada limite turbulenta",
+    "Transferęncia de calor",
+    "Dinâmica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "01/07/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000147130",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000147130&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "79232",
+  "type": "tese",
+  "title": "Gestăo da prevençăo de acidentes na conduçăo de operaçőes de lançamento no Centro Espacial de Alcântara",
+  "author": "Eduardo de Albuquerque Cavalcanti Filho",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jonas Bianchini Fulindi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O Programa Espacial Brasileiro começou na década de 60 com a inauguraçăo do Centro de Lançamento da Barreira do Inferno e, duas décadas depois, com o Centro de Lançamento de Alcântara. Ambos os centros de lançamentos possuem condiçőes geográficas favoráveis para o lançamento, destacando-se o de Alcântara, por ter maior facilidade em lançamentos equatoriais e estar localizado em uma regiăo de baixa densidade demográfica, o que flexibiliza alguns requisitos relacionados ŕ segurança de voo. No mundo, existem cerca de sessenta centros de lançamentos, mas poucos estăo localizados próximo ŕ linha do equador e com condiçőes facilitadoras de segurança, tais como meteorologia, voo livre de regiőes habitadas e entre outros. Por isso, há uma lacuna para exploraçăo do mercado de lançamentos de foguetes e isso fez com que a Agęncia Espacial Brasileira estimulasse a criaçăo do Centro Espacial de Alcântara (CEA). Com o interesse de empresas por lançar no CEA e o aumento da cadęncia dos lançamentos, ocasionalmente os acidentes e ocorręncias aeroespaciais irăo acontecer. Por esse motivo, é importante que haja um Programa de Gerenciamento da Segurança Aerespacial afim de identificar e controlar os riscos e perigos relacionados com a atividade de lançamento. Os Programas de Gerenciamento de Segurança săo baseados em modelos causais de acidentes, que săo métodos que esquematizam o funcionamento de determinados sistemas para prever o seu comportamento no futuro e, com isso, prevenir os acidentes. Os modelos de análise de risco que săo baseados no modelo causal de cadeia de eventos săo fundamentados em confiabilidade, defendendo que há causas raízes para os acidentes e que estăo relacionadas com falhas. Apesar de já terem resultado em Programas de Prevençăo que fossem eficientes, esses modelos năo săo suficientes para modelarem sistemas organizados e complexos, em que há muitas interaçőes acopladas entre componentes, sendo muitas delas até mesmo desconhecidas. Isso pois, os acidentes nesses casos acontecem năo mais por falhas de confiabilidade apenas, mas principalmente por inconsistęncias entre as relaçőes dos componentes dentro de uma estrutura de controle que rege o seu funcionamento. Essa modelagem de sistemas utilizando estruturas de controle foi nomeada de Systems-Theoretic Accident Model and Processes (STAMP). A partir dela, surge a ferramenta de análise de riscos System Theoretic Process Analysis (STPA), em que é possível vislumbrar vários outros cenários causais de acidentes que os modelos antigos năo conseguiam. Baseado no seu uso, esta dissertaçăo proporá duas ferramentas para a gestăo de prevençăo de acidentes aeroespaciais: os relatos voluntários e os indicadores gerais de segurança. Com o uso dela, será possível encontrar resultados mais eficazes para análise de risco e de design do sistema, que, no caso estudado, é a cronologia de lançamento de foguetes a partir do CLA.",
+  "subjects": [
+    "Prevençăo de acidentes",
+    "Lançamento de espaçonaves",
+    "Centro de Lançamento de Alcântara",
+    "Fatores de segurança",
+    "Avaliaçăo de riscos",
+    "Bases de lançamento",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "04/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79232",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79232&origem=BDITA"
+}

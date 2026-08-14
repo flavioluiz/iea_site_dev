@@ -1,0 +1,34 @@
+{
+  "num_tese": "62013",
+  "type": "tese",
+  "title": "Análise preditiva na detecçăo de falhas no rotor principal com foco na vibraçăo em um helicóptero segundo a filosofia hums",
+  "author": "Rafael de Abreu González",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ariosto Bretanha Jorge",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho posiciona-se no contexto do desenvolvimento tecnológico agregado crescentemente ao mercado de helicópteros pelo HUMS (Health and Usage Monitoring System), cuja filosofia traz, além de reduçăo dos custos de manutençăo, enorme avanço na garantia da aeronavegabilidade continuada, e, consequentemente, no nível de segurança de voo, preservando vidas e material. Suas inovaçőes associadas orbitam em torno de diagnósticos antecipados e de prognósticos de falha apontados em tempo real por algoritmos dedicados, a partir do tratamento de dados coletados por sensores de vibraçăo. Dessa possibilidade de se assegurar, preditivamente, uma extensăo da vida útil de componentes e a substituiçăo destes sempre antes que a falha ocorra, emerge a motivaçăo dessa pesquisa. Seu objetivo é apresentar um modelamento analítico simplificado para a análise do sinal de vibraçăo monitorado na estrutura de uma aeronave qualquer de asas rotativas, em detecçăo a defeitos equivalentes a um desbalanceamento e out-of tracking das pás. Essas săo as degradaçőes mais comuns do rotor principal, maior fonte das excitaçőes periódicas transmitidas ŕ fuselagem, cujas respostas vibratórias sob análise estăo limitadas ŕ frequęncia fundamental de 1 per rev. Essas respostas vibratórias foram simuladas numericamente em ambiente computacional MATLAB(R). O problema direto é apresentado em duas partes: a modelagem do sistema fuselagem-rotor convencionado como isotrópico, seguida da parte que introduz as anisotropias que simulam os defeitos geradores das informaçőes de amplitude e fase das vibraçőes resultantes. Como aplicaçăo do método, soluçőes do sistema năo-linear que governa as equaçőes săo comparadas com resultados experimentais de ensaios em voo em uma aeronave típica com rotor principal tri-pá por meio de simulaçăo, através de medidas em dois pontos da fuselagem definidos em manual pelo fabricante da aeronave.",
+  "subjects": [
+    "Vibraçăo",
+    "Manutençăo preditiva",
+    "Detecçăo de falhas",
+    "Helicópteros",
+    "Aeronaves de asas rotativas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62013",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62013&origem=BDITA"
+}

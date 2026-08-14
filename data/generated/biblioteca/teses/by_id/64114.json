@@ -1,0 +1,32 @@
+{
+  "num_tese": "64114",
+  "type": "tese",
+  "title": "Combustion in porous media with local thermal non-equilibrium and radiation models",
+  "author": "José Eduardo Arruda Coutinho",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents one and two dimensional numerical results for combustion of an air/methane mixture in inert porous media, using both laminar and turbulence models, and radiation. Comparisons with experimental data are reported. The burner used as reference is composed by a preheating section followed by a combustion region. Macroscopic equations for mass, momentum and energy are obtained based on the volume average concept. Distinct energy equations are considered for the solid phase and the flowing gas. The numerical technique employed for discretizing the governing equations was the control volume method with a boundary-fitted non-orthogonal coordinate system. The SIMPLE algorithm was used to relax the entire equation set. Inlet velocity, excess air ratio, porosity and solid thermal conductivity were varied in order to investigate their effect on temperature profiles and flame front position. Results indicate that higher inlet velocities result in higher gas temperatures, pushing the flame front towards the exit of the burner, following a similar trend observed in the experimental data used for comparisons. Burning mixtures close to the stoichiometric conditions also increased temperatures, as expected, and brings the flame front to preheating region, next to inlet. Increasing the thermal conductivity of the preheating section reduced peak temperature in combustion region. The use of porous material with very high thermal conductivity on the combustion region did not affect significantly temperature levels or flame front profiles.",
+  "subjects": [
+    "Química da combustăo",
+    "Combustăo",
+    "Materiais porosos",
+    "Análise numérica",
+    "Simulaçăo",
+    "Escoamento turbulento",
+    "Radiaçăo",
+    "Engenharia mecânica",
+    "Engenharia química"
+  ],
+  "defense_date": "19/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64114",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64114&origem=BDITA"
+}

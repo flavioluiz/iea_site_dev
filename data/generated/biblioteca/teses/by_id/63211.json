@@ -1,0 +1,32 @@
+{
+  "num_tese": "63211",
+  "type": "tese",
+  "title": "Rotas de fuga para evacuaçăo de pessoal em caso de acidente em depósitos de explosivos",
+  "author": "Filipe Rodrigues de Souza Moreira",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem por foco propor uma metodologia para desenvolvimento de rotas de fuga em um depósito de explosivos. O trabalho se desenvolveu tendo por base o arranjo físico uma empresa fictícia, chamada ALFA, a qual possua em seu espaço físico alguns depósitos de material explosivo. Primeiramente foi feito um apanhado de estudos existentes sobre efeitos de fragmentaçăo e de onda de choque, resultantes de uma detonaçăo. Em seguida, a partir da disposiçăo física imaginada para a empresa Alfa, foi criado um plano diretor (um mapa aéreo do local) onde foram identificados os locais de risco pontual, em que alguma detonaçăo poderia ocorrer. Para cada depósito de explosivo imaginado foi criada uma descriçăo de suas dimensőes físicas e das características energéticas e físicas dos materiais que ali estariam estocados. A partir dessas descriçőes foi feito um mapa das regiőes dentro da área física de Alfa que estavam sujeitas a serem alvejadas por fragmentos ou frentes de onda de choque, resultantes das detonaçőes nesses depósitos de explosivo. Uma vez caracterizado o cenário, enfim, foi proposta a utilizaçăo de um algoritmo de busca informada, chamado A* (A-estrela), que fosse capaz de achar a rota entre dois pontos quaisquer do ambiente que tivesse a menor exposiçăo possível aos agentes de risco resultantes de alguma explosăo acidental nesse ambiente. O algoritmo utiliza parâmetros que foram calibrados para que as soluçőes geradas pelo algoritmo apresentassem propriedades prescritas pela teoria. Uma vez calibrado o algoritmo, foram geradas as rotas de fuga otimizadas heuristicamente.",
+  "subjects": [
+    "Explosivos",
+    "Armazenamento",
+    "Explosőes",
+    "Fragmentaçăo",
+    "Simulaçăo",
+    "Rotas de fuga",
+    "Algoritmos",
+    "Inteligęncia artificial",
+    "Computaçăo"
+  ],
+  "defense_date": "16/07/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63211",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63211&origem=BDITA"
+}

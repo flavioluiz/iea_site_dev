@@ -1,0 +1,28 @@
+{
+  "num_tg": "80701",
+  "type": "tg",
+  "title": "Numerical analysis and optimization of wind turbine rotors via actuator line method with vortex-based smearing correction",
+  "author": "Galba Carvalho Carneiro Filho",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Vitor Gabriel Kleine",
+      "professor_slug": "vitor-gabriel-kleine"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The growing demand for energy efficiency and the urgency of mitigating climate change make the study of renewable energy sources essential. Among them, wind energy stands out as one of the most promising for generating clean and affordable electricity. This relevance is even more evident in Brazil, which, with its favorable climatic conditions, has significantly expanded its wind power capacity, contributing to a more sustainable energy matrix. In light of the expansion of wind energy, it is crucial to deepen the understanding of turbine rotors. In the 20th century, three distinct models were proposed: those of Joukowsky (1912-1918), Betz (1919), and Glauert (1932). This work investigates Glauert and Joukowsky rotors under different Computational Fluid Dynamics (CFD) configurations. To this end, analytical and numerical studies were carried out using the Actuator Line Method (ALM), with and without vortex-based tip-loss correction, in order to compare the results. Furthermore, considering constant circulation, the study seeks to optimize the rotor using ALM for this condition. In this context, simulations were conducted with prescribed geometries and with prescribed circulation. The employed methodology simulates the rotor in Nek5000 using ALM without the vortex-based tip-loss correction, providing the velocity and aerodynamic forces on the rotor blade. When the vortex-based tip-loss correction is applied, it provides an additional velocity derived from the circulation, without directly modifying the aerodynamic forces on the blade. By adding these two velocities in post-processing, the velocity corrected by the said correction is obtained. The results show that the vortex-based tip-loss correction did not present improvements compared to the simulation without correction, as it tends to increase the azimuthal interference coefficient ($a'$) in regions near the root and the tip of the blade. For the simulation of the rotor with prescribed circulation, this correction brings the velocity closer to the values predicted by the inviscid Joukowsky rotor theory with singular vortices. Despite this, the approach shows significant potential for application in rotor simulations. However, further investigation of this correction is necessary, since the computational mesh used requires improvements. Due to resource limitations, it was not possible to carry out more refined simulations with the application of the vortex-based tip-loss correction.",
+  "subjects": [
+    "Energia éolica",
+    "Turbinas eólicas",
+    "Pás de rotores",
+    "Vórtices",
+    "Análise numérica",
+    "Atuadores",
+    "Dinâmica de fluido computacional",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80701",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80701&origem=BDITA"
+}

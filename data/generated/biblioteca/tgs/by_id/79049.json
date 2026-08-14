@@ -1,0 +1,33 @@
+{
+  "num_tg": "79049",
+  "type": "tg",
+  "title": "Estudo das matrizes de estabilidade do helicóptero OH-6A em diferentes condiçőes de voo",
+  "author": "Gemerson Silva Krauss Milităo",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Gustavo Moro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Helicópteros săo aeronaves já consolidadas na aviaçăo e tęm como maior virtude a sua diversidade de aplicaçőes. Sua versatilidade é fruto, principalmente, da sua capacidade de realizar voos que outros tipos de aeronaves, como as de asa fixa, năo săo capazes de executar. Em contrapartida, possuem um elevado grau de complexidade que se traduz, por exemplo, na sua alta sensibilidade ŕs perturbaçőes, no acoplamento dos seus comandos e movimentos e das suas năo linearidades. Apesar disso, é necessário que seu comportamento seja compreendido para garantir bons padrőes de qualidade de voo. Outrossim, a reproduçăo do comportamento de uma aeronave em um simulador de voo tem sido uma ferramenta amplamente utilizada pela aviaçăo, com o principal objetivo de treinar pilotos para situaçőes reais de voo. O uso de simulaçăo se mostra benéfico em termos de segurança e econômicos. No que diz respeito tanto ŕ qualidade de voo quanto ŕ simulaçăo, o estudo e a implementaçăo - no caso de simuladores - do comportamento de uma aeronave se dá através do seu modelamento dinâmico e, ainda dentro desse estudo, está inserida a análise de estabilidade. Esta, por sua vez, é dedicada ŕ compreensăo do comportamento de uma aeronave diante de uma mudança em algum dos seus parâmetros de voo estando em uma condiçăo de equilíbrio. Neste contexto, este trabalho objetiva estruturar um método para o estudo da influęncia da condiçăo de voo nas estabilidades estática (a tendęncia inicial de movimento) e dinâmica (o comportamento ao longo do tempo) de um helicóptero com configuraçăo clássica (monorrotor com rotor de cauda), e aplicá-lo para o helicóptero Hughes OH-6A (Cayuse). Esse método é composto por duas etapas. A primeira é a análise de parâmetros isolados, formada por tręs atividades, a saber, tratamento de dados, análise da estabilidade estática e análise da estabilidade dinâmica. A segunda etapa é a análise comparativa da influęncia de cada parâmetro nos modos naturais. A partir dos resultados obtidos, pôde-se concluir que o helicóptero OH-6A apresenta estabilidade estática em ângulo de ataque positiva em condiçőes em que tipicamente deveria ser negativa. E, quanto a sua estabilidade dinâmica, verificou-se forte influęncia da posiçăo do centro de gravidade, alterando o comportamento típico do modo natural período curto em um helicóptero, que é năo oscilatório, tornando-o oscilatório.",
+  "subjects": [
+    "Helicópteros",
+    "Estabilidade de aeronaves",
+    "Simuladores de voo",
+    "Estabilidade estática",
+    "Estabilidade dinâmica",
+    "Análise de estabilidade",
+    "Ensaios em voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79049",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79049&origem=BDITA"
+}

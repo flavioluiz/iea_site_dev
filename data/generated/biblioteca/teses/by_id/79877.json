@@ -1,0 +1,30 @@
+{
+  "num_tese": "79877",
+  "type": "tese",
+  "title": "Estimaçăo de parâmetros de aeronaves flexíveis a partir de dados sintéticos",
+  "author": "Kaique Silveira Viana Costa",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Desde o início da aviaçăo, a indústria tem buscado constantemente aeronaves mais eficientes e adaptáveis. Este trabalho explora a flexibilidade estrutural das aeronaves, uma característica frequentemente vista como uma consequęncia indesejada da otimizaçăo do projeto. Ao buscar maior eficięncia, alongamentos mais altos e materiais mais leves, as aeronaves tendem a se tornar mais flexíveis. Este estudo investiga a dinâmica de voo dessas aeronaves flexíveis, analisando como a flexibilidade afeta o comportamento durante o voo e a estimaçăo de parâmetros. Este trabalho consiste em estudar técnicas de estimaçăo de parâmetros visando o ajuste de modelos de aeronaves flexíveis simplificados, a partir de modelos de simulaçăo de diferentes níveis de fidelidade. E' utilizado o método de identificaçăo erro na saída na metodologia Quad-M (Manobras, Medidas, Modelo e Método) em um modelo de estabilidade e controle longitudinal com ęnfase na dinâmica de período curto. As medidas inseridas na identifica¸çăo săo obtidas de uma simulaçăo năo linear. Duas aeronaves săo utilizadas como modelo, ambas flexíveis, em tręs diferentes níveis de flexibilidade: modelo de corpo rígido e modelo de corpo flexível com um e dois graus de liberdade flexíveis. Ao fim, săo realizadas comparaçőes entre os resultados, avaliando até qual nível de flexibilidade o modelo aproximado apresenta resultados semelhantes com o modelo completo. Também foi estudado como a diferente utilizaçăo de sensores (posicionamento e quantidade), e escolha de manobras afeta os resultados. Os resultados deste trabalho deverá guiar os futuros trabalhos de identificaçăo, que deverăo utilizar dados experimentais de voo das plataformas aeroelásticas do ITA.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Identificaçăo de parâmetros",
+    "Corpos flexíveis",
+    "Mecânica de voo",
+    "Estruturas rígidas",
+    "Dinâmica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79877",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79877&origem=BDITA"
+}

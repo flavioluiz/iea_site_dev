@@ -1,0 +1,29 @@
+{
+  "num_tg": "63838",
+  "type": "tg",
+  "title": "Modelagem aerodinâmica da linha sustentadora de Prandtl năo linear aplicada a asas do tipo parapente",
+  "author": "Nilton Bezerra Marques",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    },
+    {
+      "name": "Hervé Belloc",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste relatório é apresentar uma generalizaçăo da Teoria da Linha Sustentadora de Prandtl de forma que esta possa ser aplicada a asas mais gerais, isto é, asas com diedro e en?echamento, como é o caso de asas do tipo parapente. Tal metodologia é capaz de apresentar resultados comparáveis ao método Vortex Lattice, porém com um custo computacional bem menor. Inicialmente é mostrado o desenvolvimento das equaçőes do problema bem como as consideraçőes feitas. Em seguida, segue-se com a resoluçăo das equaçőes. A resoluçăo das equaçőes é feita inicialmente de forma linear e em seguida uma resoluçăo năo linear é implementada. Na resoluçăo năo linear é utilizada uma viscosidade arti?cial, que facilita a convergęncia da soluçăo. A resoluçăo năo linear visa melhor levar em conta as características aerodinâmicas do per?l da asa em altos ângulos de ataque. Em seguida, é apresentado o programa implementado em MATLAB®, a forma como foi feita a discretizaçăo da asa e como foi modelada a curva cl x ? do per?l. Por ?m, săo apresentados o resultados obtidos com o programa implementado e é feita uma validaçăo do código comparando os resultados obtidos com outros resultados numéricos e com resultados experimentais.",
+  "subjects": [
+    "Asas enflechadas",
+    "Características aerodinâmicas",
+    "Número de Prandtl",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63838",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63838&origem=BDITA"
+}

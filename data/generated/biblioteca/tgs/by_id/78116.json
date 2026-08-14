@@ -1,0 +1,31 @@
+{
+  "num_tg": "78116",
+  "type": "tg",
+  "title": "RANS incompressible simulation of a vortex generator in a closed channel",
+  "author": "Walter Lopes Marinho",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "The use of Vortex Generators for flow control has been widely studied in engineering. In particular, current efforts to increase the efficiency of annual energy production in wind farms have also used this type of device on wind turbine blades to achieve the goal of increasing the energy efficiency of wind turbines. In this sense, the work in question brings an initial study of how to create a methodology that can assist in the study of the influence of Vortex Generators on the flow properties in wind turbines. For this, a methodology based on developing a flow in a closed channel that can simulate the flow in a typical wind blade airfoil is developed. In this case, the DU-97-W-300 study airfoil is used and a curved channel that can closely simulate the pressure coefficient distribution within the channel is developed. A vortex generator is then applied inside the constructed channel and an incompressible RANS simulation is performed using the open source CFD code SU2. The simulation result is then studied using different visualizations that allow quantitative and qualitative results on the influence of these devices on the flow. The Q criterion is applied in order to isolate the generated vortex and verify its region of influence on the flow. The different mechanisms characteristic of the presence of vortex generators, as described in the literature, are observed. Primary vortices, secondary vortices (horseshoe vortex), as well as appearance of upwash and downwash regions in the flow are observed. The influence of the vortex on the velocity profiles and on the pressure distribution and friction coefficient within the channel are observed. These phenomena make it possible to identify the momentum transfer that generates the boundary layer energizing as described in the literature, thus providing a good understanding of the mechanism of vortex generators for a typical wind turbine blade airfoil pressure distribution.",
+  "subjects": [
+    "Geradores de energia eólica",
+    "Vórtices",
+    "Turbinas eólicas",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78116",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78116&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000549380",
+  "type": "tese",
+  "title": "Otimizaçăo da designaçăo dos vôos aos gates nas fases de planejamento e operaçăo do Aeroporto Internacional de Săo Paulo/Guarulhos",
+  "author": "Fabiana Todesco",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Carlos Müller",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O mercado de transporte aéreo apresenta em todo o mundo um contínuo crescimento na demanda de passageiros, provocando o aumento do fluxo de operaçőes dos aeroportos. Para absorver este crescimento e evitar problemas, como congestionamentos e atrasos de vôos, estudos apontam soluçőes de longo e curto prazo aos aeroportos. A expansăo da infra-estrutura aeroportuária é uma das soluçőes de longo prazo, no entanto, de alto investimento e inviável em determinadas situaçőes. Este fato eleva a importância de soluçőes de curto prazo, como a otimizaçăo da utilizaçăo dos recursos disponíveis. Neste contexto, este trabalho se faz pertinente por desenvolver um modelo matemático de otimizaçăo da designaçăo dos vôos aos gates, aplicado ao Aeroporto Internacional de Săo Paulo/Guarulhos (AISP/GRU), um dos principais do país. O modelo matemático foi formulado como um problema de programaçăo linear inteira binário, com a funçăo objetivo de minimizar a distância total caminhada pelos passageiros e o número de passageiros a embarcar e desembarcar em posiçőes remotas. O tempo de processamento computacional para obter uma soluçăo ótima exata, utilizando o software AIMMS versăo 3.7, com o solver CPLEX 10.1, foi muito rápido (em torno de segundos). A soluçăo da designaçăo dos vôos aos gates, realizada manualmente pelos operadores da Empresa Brasileira de Infra-Estrutura Aeroportuária (Infraero) do AISP/GRU, foi considerada no estudo como uma referęncia comparativa para análise de desempenho do modelo matemático proposto. Os indicadores de desempenho foram: distância média caminhada por passageiro e número de passageiros e de vôos alocados em posiçőes remotas. O modelo matemático aplicado na fase de planejamento e posteriormente na fase operacional do AISP/GRU, apresenta um desempenho superior em todos os indicadores em comparaçăo ŕs soluçőes da Infraero. Desta forma, conclui-se que para absorver a demanda crescente por transporte aéreo, o desenvolvimento do modelo matemático pode ser uma das soluçőes de curto prazo, capaz de melhorar a qualidade dos serviços aos passageiros.",
+  "subjects": [
+    "Aeroportos",
+    "Otimizaçăo",
+    "Operaçőes de linhas aéreas",
+    "Pesquisa operacional",
+    "Planejamento de aeroportos",
+    "Programaçăo linear",
+    "Matemática",
+    "Transportes"
+  ],
+  "defense_date": "26/03/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000549380",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000549380&origem=BDITA"
+}

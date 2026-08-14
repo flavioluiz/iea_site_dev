@@ -1,0 +1,28 @@
+{
+  "num_tg": "000539781",
+  "type": "tg",
+  "title": "Análise dinâmica da fuselagem posterior de uma aeronave de asa rotativa.",
+  "author": "Alex Evangelista de Almeida",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um problema que há tempos incomoda aos encarregados de manutençăo da Força Aeronaval da Marinha do Brasil é o enrugamento do cone de cauda dos helicópteros UH-12 (monoturbina) e UH-13 (biturbina). Este problema ocorre principalmente devido a pousos bruscos com as aeronaves, choque acidental ou até mesmo durante o serviço de manutençăo. O reparo de uma avaria característica de enrugamento é feito pelo pessoal de bordo, porém, năo existe um apoio técnico que estabeleça um limite ŕs dimensőes do reparo a ser empregado, de forma a preservar os modos e freqüęncias de vibraçăo do cone de cauda e năo diminuir a sua rigidez estrutural. Este trabalho tem o propósito de mapear a rigidez estrutural e as freqüęncias de vibraçăo da fuselagem posterior destas aeronaves, empregando-se o Método de Elementos Finitos (MEF). Para atingir estes objetivos, foi implementado um modelo da estrutura do cone de cauda (ambas as aeronaves tęm a estrutura da fuselagem posterior idęnticas) utilizando-se o software Nastran. Em seguida, foram simulados dois tipos comuns de avarias na estrutura do modelo, semelhantes ŕs avarias reais. Finalmente, foram analisados os impactos dos reparos estruturais nos modos e freqüęncias de vibraçăo da fuselagem posterior destes helicópteros, bem como, a variaçăo no centro de gravidade e na massa da estrutura. Deseja-se que, através deste estudo, qualquer reparo possa ser previamente analisado e sua influęncia nas características estruturais do cone de cauda seja conhecida. Este trabalho tem a finalidade de servir de apoio técnico ao serviço de reparo feito pelos militares da Divisăo de Manutençăo da Base Aérea Naval de Săo Pedro D'Aldeia (BAENSPA).",
+  "subjects": [
+    "Análise estrutural",
+    "Estrutura de aeronaves",
+    "Manutençăo de aeronaves",
+    "Estruturas rígidas",
+    "Configuraçőes asa-fuselagem-empenagem",
+    "Aeronaves de asas rotativas",
+    "Helicópteros",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000539781",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000539781&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "72269",
+  "type": "tese",
+  "title": "Equaçőes de movimento para o estudo de manobras ótimas com modelos aerodinâmicos globais e método indireto",
+  "author": "Mauricio Andrés Varela Morales Filho",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As equaçőes de movimento ponto-massa tem sido amplamente adotadas para estudar trajetórias ótimas com modelos aerodinâmicos locais. No entanto, algumas manobras ótimas podem precisar de modelos aerodinâmicos que sejam válidos para uma gama mais ampla de condiçőes de voo. Para esse propósito, modelos aerodinâmicos globais săo atraentes mas sua estrutura năo linear pode dificultar muito a obtençăo de trajetórias ótimas por método indireto juntamente com as equaçőes de movimento ponto-massa. Para resolver este impasse sem recorrer ao método direto é proposto um novo conjunto de equaçőes de movimento ponto-massa de aeronaves. Uma vantagem adicional das equaçőes ponto-massa propostas é que elas permitem incluir as componentes da velocidade angular no cálculo das forças aerodinâmicas, o que năo é possível no modelo ponto-massa clássico, e por isso o cálculo das forças aerodinâmicas pode ser feito com maior exatidăo no modelo proposto em relaçăo ao modelo clássico. Outra vantagem é que ela permite uma estimativa qualitativa das deflexőes das superfícies de controle, o que é importante para verificar se a trajetória otimizada é factível do ponto de vista dessas deflexőes. Para exemplificar a utilidade das equaçőes propostas foram otimizadas duas manobras: o pouso com excesso de altitude inicial, e o rolamento de 360°. Finalmente, a verificaçăo da consistęncia entre o modelo proposto e o modelo ponto-massa foi feita após as otimizaçőes.",
+  "subjects": [
+    "Equaçőes de movimento",
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Velocidade angular",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "14/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72269",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72269&origem=BDITA"
+}

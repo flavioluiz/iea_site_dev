@@ -1,0 +1,121 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.12"
+  # PR HTML is hosted on a separate origin so it cannot read the CMS session.
+  SITE_BASE_URL: ${{ github.event_name == 'pull_request' && format('https://pr-{0}.iea-site-previews.pages.dev/', github.event.number) || 'https://flavioluiz.github.io/iea_site/' }}
+
+jobs:
+  validate-data:
+    name: validate-data
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: scripts/requirements-cms.txt
+      - run: python -m pip install --disable-pip-version-check -r scripts/requirements-cms.txt
+      - name: Validate schemas, references and bulk changes
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+          PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+        run: |
+          if [[ -n "${BASE_REF}" ]]; then
+            python scripts/validate_data.py --base-ref "${BASE_REF}" --labels "${PR_LABELS}"
+          else
+            python scripts/validate_data.py
+          fi
+
+  security:
+    name: security
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: |
+            scripts/requirements-cms.txt
+            scripts/requirements-library.txt
+            scripts/requirements-security.txt
+      - run: python -m pip install --disable-pip-version-check -r scripts/requirements-cms.txt -r scripts/requirements-library.txt -r scripts/requirements-security.txt
+      - name: Audit exact Python dependencies
+        run: >-
+          pip-audit --no-deps --disable-pip
+          -r scripts/requirements-cms.txt
+          -r scripts/requirements-library.txt
+          -r scripts/requirements-scopus.txt
+          -r scripts/requirements-security.txt
+      - run: python scripts/security_check.py
+      - name: Test data collectors and security gates
+        run: |
+          python -m unittest discover -s scripts/library/tests -v
+          python -m unittest discover -s scripts/scopus/tests -v
+          python -m unittest discover -s scripts/tests -v
+      - name: Test OAuth Worker
+        working-directory: infra/decap-worker
+        run: |
+          npm ci --ignore-scripts
+          npm test
+
+  hugo-build:
+    name: hugo-build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: bash scripts/ci/install_hugo.sh
+      - name: Build fixed Hugo version
+        run: hugo --gc --minify --printPathWarnings --environment production --baseURL "${SITE_BASE_URL}" --config config/_default/config.yaml,config/production/config.yaml
+      - name: Store safe static preview
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: preview-site
+          path: public/
+          if-no-files-found: error
+          retention-days: 7
+
+  links:
+    name: links
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - run: bash scripts/ci/install_hugo.sh
+      - run: hugo --gc --minify --printPathWarnings --environment production --baseURL "${SITE_BASE_URL}" --config config/_default/config.yaml,config/production/config.yaml
+      - run: python3 scripts/check_links.py --public public --base-url "${SITE_BASE_URL}"
+
+  content-diff:
+    name: content-diff
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Create semantic review report
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [[ -z "${BASE_REF}" || "${BASE_REF}" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_REF="HEAD^"
+          fi
+          python3 scripts/report_content_diff.py --base-ref "${BASE_REF}" --output content-diff.md
+          cat content-diff.md >> "${GITHUB_STEP_SUMMARY}"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: content-diff
+          path: content-diff.md
+          if-no-files-found: error
+          retention-days: 14

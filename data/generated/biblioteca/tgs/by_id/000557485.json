@@ -1,0 +1,32 @@
+{
+  "num_tg": "000557485",
+  "type": "tg",
+  "title": "Shape control of structures using piezoelectric components.",
+  "author": "Caio dos Santos Guimarăes",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Valérie Budinger",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The research detailed in this work regards the theme of structural shape control theme that can be divided into two branches: Active Vibration Control and Static Shape Control. Firstly, on the subject of Active Vibration Control, it was presented a methodology that has been studied at ENSICA for sizing and positioning piezoelectric components as a function of the vibration that was desired to attenuate. For this, new macrofiber composite piezoelectric actuators/sensors were used. Piezoelectric Macrofiber composites (MFC) are becoming more popular in the domain of structural vibration control for their easy conformability and repeatable fabrication process, as well as their durability and efficiency. However little is still known about the theoretical modeling of these piezoelectric components and their implementation in Finite Element Method software such as ANSYS, used in this research. Being designed empirically, one could say that MFCs have been poorly investigated when it comes to understanding their actuation properties as a function of their design parameters and electrical properties. This research therefore commenced by thoroughly studying the modeling of these MFCs in order to find homogenized and well representative property values, such as their Elastic Properties and their Piezoelectric Constants to model it with the Finite Element Software ANSYS. An experimental model of a controlled clamped beam is used to corroborate the numerical results of the model proposed. The actuation and sensing capabilities of these MFC components were then to be compared to normal hard piezoelectric ceramics with results that had already been done in previous works. Regarding the second branch of the general subject of structural shape control, static shape control, the attention was turned back to regular hard piezoelectric ceramics, with the objective of giving an initial study on the viability of using these piezoelectric components for actuation in simple structural problems such as compensation of deformation due to self weight, or thermal expansion. Problems such as these appear when the position and shape of simple structures such as plates and beams are highly important, as is the case of membrane mirror arrays for optical imagining purposes used in space satellites. Furthermore, new propositions for future work in this subject were suggested as a conclusion of the results obtained.",
+  "subjects": [
+    "Análise estrutural",
+    "Controle de forma",
+    "Controle ativo",
+    "Atuadores piezoelétricos",
+    "Sensores",
+    "Materiais compósitos",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000557485",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000557485&origem=BDITA"
+}

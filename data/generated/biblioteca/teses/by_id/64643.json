@@ -1,0 +1,29 @@
+{
+  "num_tese": "64643",
+  "type": "tese",
+  "title": "Modelagem de neutralizadores dinâmicos de vibraçăo aplicados em uma fuselagem sujeita a incertezas dimensionais",
+  "author": "Francisco Keller Klug",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neutralizadores dinâmicos de vibraçăo săo dispositivos do tipo massa, mola e amortecedor que săo comumente aplicados como sistemas passivos de controle de ruído e vibraçőes em aeronaves turbo hélice. Os mesmos săo fixados na fuselagem da aeronave e ao vibrarem em sua frequęncia natural geram uma força de reaçăo que tende a neutralizar o deslocamento da fuselagem no ponto de fixaçăo. Através da escolha dos valores de massa, rigidez e amortecimento dos neutralizadores dinâmicos de vibraçăo, a frequęncia natural dos mesmos é ajustada de modo a coincidir com a frequęncia de passagem de pá da hélice ou suas harmônicas, frequęncias estas onde estăo concentrados os maiores níveis de energia. A modelagem de neutralizadores dinâmicos de vibraçăo aplicados em uma fuselagem pode ser feita incluindo os neutralizadores explicitamente em um modelo de elementos finitos da fuselagem. Entretanto, tal abordagem exige a soluçăo deste modelo a cada nova configuraçăo de neutralizadores dinâmicos de vibraçăo, o que é computacionalmente custoso e inviabiliza a avaliaçăo de uma quantidade elevada de configuraçőes. Para contornar tal problema, no presente trabalho uma técnica baseada em matrizes receptância é aplicada para modelar a inclusăo de neutralizadores dinâmicos de vibraçăo em uma fuselagem. Para aumentar a confiabilidade dos resultados de modelagem de neutralizadores dinâmicos de vibraçăo aplicados em uma fuselagem, um modelo aleatório năo paramétrico é apresentado para incluir o efeito de incertezas presentes nas dimensőes da fuselagem nas análises. A soluçăo de tal modelo tem um custo computacional reduzido quando comparada a modelos paramétricos clássicos, como por exemplo o Método de Monte Carlo. A combinaçăo deste modelo aleatório năo paramétrico com a técnica baseada em matrizes de receptância anteriormente citada é discutida neste trabalho, permitindo a avaliaçăo da variaçăo do desempenho dos neutralizadores dinâmicos de vibraçăo para diferentes amostras de uma fuselagem com incertezas em suas dimensőes.",
+  "subjects": [
+    "Fuselagens",
+    "Absorvedores (materiais)",
+    "Testes de vibraçăo",
+    "Matrizes (Matemática)",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/07/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64643",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64643&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "79257",
+  "type": "tese",
+  "title": "Quantitative analysis of churning in dip-lubricated gearboxes using image-based AI",
+  "author": "Bruno da Silva Cardozo",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As industries transition to sustainability and energy efficiency, improving the performance of power transmission systems becomes critical. In this scenario, the integration of artificial intelligence is important to understand the dynamics of oil flow within a gearbox. This study addresses the need for innovative solutions to improve power transmission systems. It applies computer vision techniques, particularly optical flow methods, with the objective of quantifying oil churning, a key aspect that influences the efficiency of gearboxes. To this end, the research focuses on two main questions. The first addresses the methods needed to visually capture the patterns of oil agitation inside the gearbox, proposing an experimental setup that considers the requirements of capturing the phenomenon visually. The second explores the potential of computer vision techniques to quantify oil stirring levels in a gear transmission system. This study systematically employs background subtractors to isolate oil motion and optical flow methods to estimate the velocity distribution of fluid flow, providing a more detailed analysis of oil distribution during gear operation. The research establishes a multifaceted approach to generating an oil stirring analysis image bank. First, incorporating the adaptation of the gear test bench, including a translucent acrylic gearbox housing, a high-resolution slow-motion camera, and controlled experimentation under various operating conditions. The experiments highlighted the impact and factors such as rotational speeds, oil fill levels, and oil viscosities on oil stirring behaviors. The study uses K-nearest neighbors (KNN) and Mixture of Gaussian (MOG2) algorithms to isolate oil motion and Farneback and Lucas-Kanade optical flow methods to convert subtle differences in oil flow into quantifiable flow vectors. The background subtraction algorithms isolated oil motion from the static background, particularly under high-speed conditions, with KNN performing best under relatively turbulent conditions. The optical flow algorithms proved adequate for detecting minute differences in oil distribution from videography, converting these changes into quantifiable flow vectors and proving particularly effective under variable conditions, with the Farneback algorithm demonstrating outstanding performance during higher turbulence.",
+  "subjects": [
+    "Transmissăo (elementos de máquinas)",
+    "Inteligęncia artificial",
+    "Algoritmos",
+    "Fluxo óptico",
+    "Rotaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79257",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79257&origem=BDITA"
+}

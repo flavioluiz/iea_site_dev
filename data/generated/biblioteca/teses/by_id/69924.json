@@ -1,0 +1,28 @@
+{
+  "num_tese": "69924",
+  "type": "tese",
+  "title": "Identificaçăo em tempo real do modelo aerodinâmico de uma aeronave por meio da aplicaçăo do método de mínimos quadrados ortogonais recursivo",
+  "author": "Joăo Vitor Zanette",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo o desenvolvimento de uma ferramenta para a identificaçăo do modelo aerodinâmico de uma aeronave em tempo real, com vistas ŕ melhoria da eficięncia de campanhas de ensaios em voo relacionadas ŕ aquisiçăo de dados para levantamento e validaçăo de modelos. A ferramenta apresentada neste trabalho, denominada RealSysId, baseia-se no método de mínimos quadrados ortogonais recursivo e foi desenvolvida em ambiente MATLAB 7.8.0 R2009. O método aplicado torna-se vantajoso, pois possibilita avaliar năo somente as estimativas dos parâmetros, mas também a estrutura do modelo aerodinâmico em tempo real. Essa característica permite a avaliaçăo de resultados de modo imediato e, assim, a tomada de decisăo e a coordenaçăo para repetiçăo de manobras podem ser realizadas em tempo real, aumentando a eficięncia da campanha de ensaios em voo. Neste trabalho, uma descriçăo da ferramenta é apresentada e tręs estudos de caso săo discutidos. O primeiro deles apresenta a validaçăo do algoritmo e apresenta uma comparaçăo dos resultados obtidos pelo método dos mínimos quadrados ortogonais clássico e recursivo. O segundo exemplo discute a aplicabilidade e importância do fator de esquecimento no processo de identificaçăo em tempo real quando da avaliaçăo de sistemas variantes no tempo. Por fim, o terceiro estudo de caso apresenta uma análise da carga computacional demandada pela ferramenta para a seleçăo do modelo aerodinâmico de forma recursiva em funçăo da quantidade de regressores candidatos utilizados pelo usuário.",
+  "subjects": [
+    "Identificaçăo de sistemas",
+    "Método dos mínimos quadrados",
+    "Operaçăo em tempo real",
+    "Ensaios em voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69924",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69924&origem=BDITA"
+}

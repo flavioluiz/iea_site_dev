@@ -1,0 +1,36 @@
+{
+  "num_tese": "64113",
+  "type": "tese",
+  "title": "Simulation platform for quadricopter : using matlab/simulink and x-plane",
+  "author": "Helosman Valente de Figueirędo",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The unmanned aerial vehicles (UAVs) has grown in military and civilian areas of application. Several industries (automotive, military, factories, space, etc.) use robots for dangerous and repetitive tasks. This work is dedicated to a special type of aerial platforms which has grown considerably in recent years, the quadricopter. These UAVs that has been highlighted by having ight characteristics and construction only, for example, hovering flight, vertical takeoff and landing, high maneuverability, low speed flight, and simple mechanics. This work proposes a tool for simulation and visualization of an aerial air-type quadricopter robots, using the flight simulator X-Plane 9, Matlab and Simulink. The aircraft under study is the so-called ITA-001, developed by the quadricopter study group the Aeronautical Institute of Technology. Started up by modeling quadricopter ITA-001 in flight simulator X-Plane, then this simulator has been interfaced with Simulink platform to build a computational simulation platform that meets to the requirements of research and educational group study quadricopter ITA.",
+  "subjects": [
+    "Simulaçăo de voo",
+    "Banco de ensaios",
+    "Pilotos automáticos",
+    "Estabilidade de aeronaves",
+    "Simulaçăo computadorizada",
+    "Controladores",
+    "Computaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "17/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64113",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64113&origem=BDITA"
+}

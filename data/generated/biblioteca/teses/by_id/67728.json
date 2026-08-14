@@ -1,0 +1,30 @@
+{
+  "num_tese": "67728",
+  "type": "tese",
+  "title": "Projeto e implementaçăo de um efetuador robótico de lixamento de superfícies planas com controle de força",
+  "author": "Jeferson Anac Vieira",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Manipuladores robóticos săo sistemas constituídos por diversos elos interligados por juntas lineares ou rotacionais que săo usualmente empregados em tarefas que năo demandam contato entre o manipulador e a peça (e.g. pintura, solda e operaçőes pick-and-place). Recentemente, tem-se constatado pesquisas sobre a modernizaçăo e o controle de manipuladores para tarefas em que é requerido um controle de força de contato com o ambiente (e.g. polimento, lixamento e rebarbaçăo). A perspectiva clássica de controle de manipuladores robóticos considera a configuraçăo (i.e. a posiçăo) e as derivadas temporais (i.e. a velocidade e a aceleraçăo) da estrutura mecânica do robô. Nesse trabalho, projeta-se, especifica-se e implementa-se sistema mecânico, sistema de controle, sistema de visăo e sistema sensorial de controle de força e posiçăo para um efetuador robótico de lixamento em superfícies planas por meio de sensores de força e posiçăo dedicados. Por meio de métodos aplicativos de controle e analise em um ambiente de manufatura e processo aeronáutico săo identificados requisitos parâmetros e o meio de mediçăo e controle de padronizaçăo para o processo de lixamento. Foram usados o robô Kuka KR500 e um efetuador de lixamento especificamente projetado e construído para a realizaçăo de vários ensaios experimentais em chapas planas aeronáuticas de dimensőes 500x500 (mm). Os resultados obtidos desses ensaios permitiram concluir performance do lixamento aplicado entre o meio robótico elaborado e o método de manufatura atual. O algoritmo gerado para análise de superfície caracteriza os efeitos de rugosidade linearizados do processo de lixamento, características chave para técnica de padronizaçăo, usando a funçăo textura e orientaçăo dos grăos metálicos tratados como padrăo de análise, assegurando a năo necessidade de inspeçăo visual ou amostral após aplicaçăo.",
+  "subjects": [
+    "Manufatura auxiliada por computador",
+    "Robótica",
+    "Manipuladores",
+    "Automaçăo",
+    "Engenharia mecânica",
+    "Computaçăo",
+    "Controle"
+  ],
+  "defense_date": "19/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67728",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67728&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "61522",
+  "type": "tese",
+  "title": "Análise numérica e teórica de injetores tipo \"swirl\" empregados em motores-foguete a propelente líquido",
+  "author": "Roman Ivanovitch Savonov",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jose Atilio Fritz Fidel Rocco",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta tese apresenta uma investigaçăo detalhada dos injetores centrífugos utilizados para atomizaçăo de propelentes líquidos. Inicialmente foram analisadas e comparadas as teorias aplicadas aos cálculos analíticos das dimensőes do injetor e do escoamento interno, apresentadas por vários pesquisadores. Com base nesta análise, para os cálculos iniciais, foi escolhida a teoria de Abramovich como sendo a mais completa e adequada. Nessa teoria o propelente é considerado um fluido ideal e por este motivo pode ser aplicada no projeto dos injetores que possuem as características geométricas apropriadas. Para os cálculos dos injetores, incluindo os efeitos de viscosidade, a teoria de Abramovich foi modificada. Essa modificaçăo apresentou resultados satisfatórios. A segunda parte do trabalho incluiu a modelagem numérica do escoamento interno do injetor. Nessa parte foi apresentado o procedimento de geraçăo de malha, sendo também discutidos os tipos de modelagem multifásica e modelos de turbulęncia aplicados para simulaçăo do escoamento. A modelagem de escoamento do fluido no interior do injetor tem suas particularidades devido ŕs altas velocidades de rotaçăo. Estas velocidades tęm influęncia no comportamento do fluido que torna complexa a convergęncia da soluçăo numérica; por isso para se obter resultados compatíveis com escoamento real é necessário utilizar modelos de turbulęncia direcionados para este tipo de problema. Na simulaçăo numérica foi aplicado o modelo de turbulęncia ?-?, RNG ?-? e Reynolds stress model. A modelagem foi feita utilizando o software ANSYS CFX. Os resultados desta simulaçăo apresentaram o comportamento detalhado do escoamento do fluido dentro de injetor. Foram determinados os campos de velocidade axial, tangencial e radial, a câmera oca formada pelo ar e distribuiçăo da pressăo total, estática e dinâmica. A validaçăo dos resultados analíticos e numéricos foi feita em comparaçăo com resultados dos testes experimentais. Para realizaçăo dos ensaios foi projetada uma matriz de testes que permitiu fazer a avaliaçăo dos injetores mono e bi-propelentes. Durante os ensaios também foi analisada a influęncia da quantidade de orifícios de entrada do injetor na homogeneidade da distribuiçăo do líquido no spray.",
+  "subjects": [
+    "Injetores",
+    "Propelentes líquidos",
+    "Atomizaçăo",
+    "Motores foguetes a propelente líquido",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Engenharia mecânica",
+    "Engenharia química"
+  ],
+  "defense_date": "11/10/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61522",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61522&origem=BDITA"
+}

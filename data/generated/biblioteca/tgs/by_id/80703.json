@@ -1,0 +1,33 @@
+{
+  "num_tg": "80703",
+  "type": "tg",
+  "title": "Adaptive control strategies for baseline maintenance in multi-satellite SAR formations",
+  "author": "Mateus Silva Borges",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Francesca Scala",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Multi-satellite Synthetic Aperture Radar (SAR) applications benefit significantly frmn distributed concepts, such as satellites formation flying. The trend toward small satellite-based SAR missions enables the use of more efficient thrusters, particularly electric and ion engines, for baseline maintenance. This study focuses on optimizing continuous linear controllers for baseline maintenance in multi-satellite SAR formations. The proposed method addresses the challenges in tuning the parameters of continuous linear controllers, such as the weight matrices in the Linear Quadratic Regulator (LQR) and the control gains in Proportional-Integral- Derivative (PID) controllers, by identifying the optimal combination of optimization algorithms and strategies. This approach facilitates the development of a robust and flexible self-tuning regulator capable of handling various state errors, formation geometries, and system perturbations or uncertainties, resulting in an adaptive control strategy for formation flying dynamics. The results of this analysis can be applied to preliminary mission design, ground segment operations, and onboard implementations, enabling efficient and adaptive online tuning.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Manutençăo",
+    "Satélites",
+    "Voo em formaçăo",
+    "Otimizaçăo",
+    "Controle",
+    "Engenharia eletrônica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80703",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80703&origem=BDITA"
+}

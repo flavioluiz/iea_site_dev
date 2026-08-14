@@ -1,0 +1,27 @@
+{
+  "num_tg": "80077",
+  "type": "tg",
+  "title": "Reinforcement learning applied to humanoid robot running skills",
+  "author": "Rafael Mello Celente",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Marcos Ricardo Omena de Albuquerque Maximo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Agile locomotion of legged robots, particularly bipedal ones, remains a significant challenge in robotics. While model-based approaches have addressed this problem, they often struggle with complex environments and agents due to simplified dynamical constraints. Deep Reinforcement Learning (Deep RL) has emerged as an alternative approach, enabling the learning of effective policies through environmental interaction without prior knowledge of system dynamics. This work presents both a methodology for learning running policies on the Chape humanoid robot and introduces Android Gym, an open-source framework built on IsaacGym for training Deep RL models in robotics. Using these tools, we developed a policy that achieves stable running speeds of up to 0.66 m/s, representing a 120% improvement over previous methods. The policy demonstrates robustness to variations in physical parameters and external perturbations, while the framework provides standardized environment for humanoid robotics research. This work particularly focuses on applications within the RoboCup humanoid competition context, where robots must execute complex locomotion tasks while maintaining stability for ball tracking and team coordination. The methodology and framework presented establish a foundation for developing and deploying learned policies in both simulated and real-world environments.",
+  "subjects": [
+    "Aprendizagem (inteligęncia artificial)",
+    "Robôs humanóides",
+    "Dinâmica de robôs",
+    "Locomoçăo por pernas",
+    "Controle de robôs",
+    "Robótica",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80077",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80077&origem=BDITA"
+}

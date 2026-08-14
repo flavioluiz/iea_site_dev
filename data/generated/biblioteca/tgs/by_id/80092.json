@@ -1,0 +1,33 @@
+{
+  "num_tg": "80092",
+  "type": "tg",
+  "title": "Métodos computacionais de resoluçăo de problemas de controle ótimo aplicados ŕ determinaçăo de trajetórias aeroespaciais",
+  "author": "Rodrigo Araújo Holanda",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Tiara Martini dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luiz Arthur Gagg Filho",
+      "professor_slug": "luiz-arthur-gagg-filho"
+    },
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O objetivo deste estudo é aplicar métodos de controle ótimo para transferir um veículo espacial entre duas órbitas geocęntricas coplanares considerando um sistema propulsivo de potęncia limitada. Primeiramente, săo estabelecidas diferentes formulaçőes para um problema de controle ótimo, bem como as condiçőes necessárias para caracterizar uma soluçăo ótima. Em seguida, săo elencadas as principais características e aplicaçőes de métodos diretos e indiretos de otimizaçăo. Na sequęncia, é descrito o processo de transcriçăo do problema original em um de Programaçăo Năo Linear pelo método da colocaçăo direta com quadraturas de Lagrange. Após a conversăo, o problema resultante é solucionado aplicando métodos de otimizaçăo Sequential Gradient-Restoration Algorithm (SGRA), Sequential Quadratic Programming (SQP) e Interior Points method. Além do problema principal de otimizaçăo de trajetórias, a fim de validar os resultados da rotina computacional desenvolvida em Matlab (MathWorks, Inc., 2020), săo apresentadas soluçőes para o problema de Zermelo, considerando duas versőes, e o problema da curva braquistócrona com uma coordenada final fixa.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Simulaçăo computadorizada",
+    "Computaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80092",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80092&origem=BDITA"
+}

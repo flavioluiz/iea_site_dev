@@ -1,0 +1,36 @@
+{
+  "num_tese": "000407905",
+  "type": "tese",
+  "title": "Abordagem estocástica no processo de admissőes hospitalares.",
+  "author": "Mischel Carmen Neyra Belderrain",
+  "year": "1998",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Renato de Morais",
+      "professor_slug": null
+    },
+    {
+      "name": "Solon Venâncio de Carvalho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata do controle ótimo de um Sistema de Programaçăo de Admissőes Hospitalares. Considera-se dois tipos de pacientes: graves (tipo I) a năo graves (tipo II), cada um deles com sua própria taxa de chegada e serviço. O objetivo deste trabalho é encontrar uma política ótima de controle para o Sistema sw Programaçăo de Admissőes. Isto é, encontra a melhor seqüęncia de decisőes a serem tomadas, nos instantes de decisăo, com respeito aos valores das taxas de chegada e de serviço, baseando-se em observaçőes acerca do número de clientes (pacientes) no sistema, a fim de minimizar o custo médio esperado num horizonte infinito de planejamento. A soluçăo apresentada consiste em enfocar o sistema como um Processo Markoviano de Decisăo a Tempo Contínuo. É apresentado o enfoque \"What-if modelling\" como uma ferramenta para melhorar a comprensăo e prospecçăo do sistema.",
+  "subjects": [
+    "Processos estocásticos",
+    "Controle óptimo",
+    "Hospitais",
+    "Tomada de decisőes",
+    "Processos de Markov",
+    "Controle automático",
+    "Saúde",
+    "Engenharia mecânica",
+    "Controle"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000407905",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000407905&origem=BDITA"
+}

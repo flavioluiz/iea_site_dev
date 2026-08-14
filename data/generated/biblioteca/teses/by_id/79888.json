@@ -1,0 +1,32 @@
+{
+  "num_tese": "79888",
+  "type": "tese",
+  "title": "Characterization and optimization of a novel hypergolic propellant using monoethanolamine, n-butanol, and 90% hydrogen peroxide",
+  "author": "Paull Cristhian Acosta Mendoza",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Gustavo Ferroni Pereira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Satellite attitude-control thrusters design depends on a trade-off between minimum impulse bit and specific impulse (Isp), where pulse maneuvers width rely on a combination of the delay of the hydraulic system (feed tubes and valves) and the ignition delay time (IDT) of the propellant being used. The most well-grounded propellants in this situation are hydrazine derivatives and nitrogen tetroxide. However, their high toxicity makes satellites integrations costly and environmentally hazardous. In order to replace these propellants, studies are focusing on the development of new hypergolic green propellants, the majority of which use hydrogen peroxide in high concentration as an oxidizer. The hypergolic reaction between a n-butanol-monoethanolamine blend and hydrogen peroxide was supported in this study by the use of copper nitrate trihydrate as a catalyst. The central composite design (CCD) method was applied to find an optimized composition fuel using 90% hydrogen peroxide as oxidizer. The optimization had two outcomes, for the IDT (31.5% n-butanol, 60% monoethanolamine (MEA) and 8.5% copper nitrate, resulting in an IDT of 21.5 ms with a standard deviation of ± 1.30 ms and a systematic error of ± 0.4) and for the theoretical Isp (36% n-butanol, 60% MEA and 4% copper nitrate, with 26 ± 0.4 ms of IDT). For the IDT optimization an oxidizer-fuel ratio (O/F) of 4 was chosen, using CEA NASA software, to achieve the maximum theoretical Isp (Isp_th) of 170.64 s and for the Isp_th optimization an O/F of 4.4 was selected for the same purpose, reaching an Isp of 171.58 s. In addition to the optimization, a characterization of the fuel propellant was made in terms of physical properties (density, kinematic viscosity, combustion enthalpy and flash point) and environmental stability (fuel storability, material compatibility and radiation tolerance). To assess the environmental stability and how it affected the fuel propellant composition, the IDT was measured before and after each test. For the IDT-optimized fuel, a density of 0.99237 ± 0.00122 g/cm^3, a kinematic viscosity of 17.4 ± 0.78 mm^2/s, a combustion enthalpy of 25321.33 ± 138.89 J/g and a flash point of 51 °C were obtained at ambient conditions. Finally, after evaluating the results, the IDT-optimized fuel composition showed an increase of its IDT after 90 days of contact with Stainless Steel 304 and the absence of ignition after the contact, for the same time, with Ti-6Al-4V titanium alloy. In line with the results of the study, n-butanol can be used as an additive in catalytically promoted MEA to enhance the specific impulse, IDT, viscosity, and ? Isp of the hypergolic pair. However, further characterization and compatibility tests are necessary to define a suitable solution for in-space applications.",
+  "subjects": [
+    "Propulsăo aeroespacial",
+    "Propelentes",
+    "Propulsores",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "17/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79888",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79888&origem=BDITA"
+}

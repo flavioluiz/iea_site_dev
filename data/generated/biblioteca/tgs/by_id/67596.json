@@ -1,0 +1,25 @@
+{
+  "num_tg": "67596",
+  "type": "tg",
+  "title": "Estimaçăo de atitude de um multicóptero usando o filtro de Kalman estendido multiplicativo sequencial",
+  "author": "Antônio Agripino Nunes Moura",
+  "year": "2014",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho trata da estimaçăo de atitude de um multicóptero usando medidas vetoriais e a versăo contínuo-discreta do filtro de Kalman estendido multiplicativo sequencial. A atitude global do veículo é propagada no tempo através da cinemática de quatérnios, enquanto o filtro de Kalman estendido multiplicativo sequencial estima o erro de atitude em parâmetros de Rodrigues modificados. As motivaçőes principais para o uso deste filtro săo duas. A primeira é a possibilidade de realizar a atualizaçăo do erro de atitude de forma sequencial e usando um número variável de medidas vetoriais sem alterar a dimensăo da equaçăo de medidas. A segunda está na manutençăo da norma unitária do quatérnio de atitude, pois a correçăo da atitude global é realizada através de uma multiplicaçăo de quatérnios unitários.Um modelo de simulaçăo de um quadricóptero foi construído para gerar os movimentos de translaçăo e rotaçăo a partir de uma trajetória de referęncia comandada. O desempenho do estimador foi avaliado em simulaçőes de Monte Carlo usando esse simulador em dois casos. O primeiro com ajuste da covariância das medidas do acelerômetro e o segundo sem ajuste. Esse ajuste foi motivado pela hipótese de que a medida do acelerômetro corresponde ao oposto da aceleraçăo da gravidade, quando na realidade ele mede a força específica sobre o veículo. Assim, enquanto o quadricóptero está sujeito a aceleraçăo, a força específica difere do oposto da aceleraçăo da gravidade e o ajuste é feito para dar um peso menor ŕ medida do acelerômetro. Os resultados mostraram que o ajuste melhora o desempenho médio em manobras com aceleraçăo, mas introduz uma variabilidade de desempenho indesejável e piora a estimaçăo para situaçőes com baixas aceleraçőes.O trabalho sugere ainda componentes de hardware e software para a construçăo de um protótipo de estimador de atitude, além de um experimento para avaliar seu desempenho. Săo incluídos entre os componentes uma câmera de baixo custo e uma biblioteca de software de visăo computacional com o objetivo de usar medidas vetoriais de uma câmera em desenvolvimentos futuros.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Estimaçăo de estado",
+    "Navegaçăo aérea",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67596",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67596&origem=BDITA"
+}

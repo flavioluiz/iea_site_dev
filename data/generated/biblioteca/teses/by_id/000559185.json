@@ -1,0 +1,30 @@
+{
+  "num_tese": "000559185",
+  "type": "tese",
+  "title": "Estudo de métodos de correçăo para regime transônico em análise de estabilidade aeroelástica.",
+  "author": "Ricardo Franco Amaral",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Apesar do recente desenvolvimento em aeroelasticidade computacional e ferramentas em CFD para escoamentos năo-estacionários, a maioria das análises de estabilidade aeroelástica das estruturas de asas no regime transônico que săo realizados em ambiente de engenharia ainda dependem da aplicaçăo de métodos de correçăo para as cargas aerodinâmicas previstas por códigos baseados em teoria aerodinâmica linear. No entanto, há escassez de literatura sobre as capacidades e limitaçőes de cada método, assim como a sua adequaçăo a cada projeto de asa ou fenômeno físico envolvido. Este trabalho apresenta uma extensa revisăo dos aspectos físicos da aerodinâmica năo-estacionária em regime transônico, aeroelasticidade em regime transônico, e é concluído com um estudo sobre tręs métodos diferentes de correçăo: método NLR - utilizaçăo do número de Mach local; SKEM - Método da Expansăo Sucessiva da Funçăo Núcleo; e método Dau-Garner. Como casos de teste, tręs diferentes estruturas de asa: asa PAPA supercrítica; asa AGARD 445.6 enfraquecida; e asa do aviăo YXX. Correlaçăo entre as previsőes teóricas e experimentos indica que os projetos distintos de asa, dominados por diferentes fenômenos físicos, requerem o uso de diferentes métodos para incorporaçăo precisa das características năo-lineares dominantes ŕs ferramentas clássicas de análise aeroelástica.",
+  "subjects": [
+    "Aerodinâmica năo-estacionária",
+    "Aeroelasticidade",
+    "Escoamento transônico",
+    "Asas",
+    "Modelos matemáticos",
+    "Coeficientes aerodinâmicos",
+    "Física"
+  ],
+  "defense_date": "08/06/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000559185",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000559185&origem=BDITA"
+}

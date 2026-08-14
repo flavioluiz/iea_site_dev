@@ -1,0 +1,30 @@
+{
+  "num_tese": "67734",
+  "type": "tese",
+  "title": "Procedimento de avaliaçăo e calibraçăo de manipuladores industriais utilizado para ambiente de simulaçăo off-line",
+  "author": "Thyrso Munhoz Queiroz Gesta de Araújo",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um procedimento de calibraçăo para manipuladores industriais em ambiente virtual com o intuito de determinar os melhores valores de correçăo da cinemática direta para manipuladores industriais de até seis graus de liberdade. Para validaçăo desta metodologia desenvolvida neste trabalho, o manipulador KUKA KR210 L100 2K foi escolhido como robô de estudo tanto para o sistema de simulaçăo off-line quanto para a programaçăo off-line. Para a determinaçăo do valores de correçăo foi desenvolvido um algoritmo de calibraçăo no ambiente Matlab que efetuar seis iteraçőes contendo cada uma, um conjunto de doze valores de correçăo que estăo divididos entre os ângulos \"alpha\" e \"theta\" dos parâmetros de Denavit-Hartenberg. Os dados de entrada para o algoritmo de calibraçăo foram obtidos via Labview pelo controlador do KUKA KR210. Esses dados variam de acordo com a norma ISO 9283, que especifica que para aquisiçăo de dados na calibraçăo, é necessário variar a velocidade do robô em 10%, 50% e 100%, e onde cada trajeto de teste deve possuir trinta ciclos e um caminho contendo cinco pontos. Por último, para definir quais iteraçőes săo ideais para calibraçăo, foi utilizado o método estatístico LSD de Fisher que tem a capacidade de mostrar quais variáveis cartesianas foram calibradas em relaçăo a médias das posiçőes nominais. Os resultados de calibraçăo foram analisados pelo Diagrama de Pareto e pela Lei de Pareto 80/20 que identificaram as iteraçőes mais adequadas que melhor expressam a equivalęncia mecânica e cinemática entre o robô real e o CAD do robô em ambiente off-line.",
+  "subjects": [
+    "Calibraçăo",
+    "Manipuladores",
+    "Otimizaçăo de Pareto",
+    "Cinemática",
+    "Mecânica (Física)",
+    "Controle",
+    "Computaçăo"
+  ],
+  "defense_date": "16/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67734",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67734&origem=BDITA"
+}

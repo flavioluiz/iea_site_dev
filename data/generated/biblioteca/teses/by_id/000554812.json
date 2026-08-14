@@ -1,0 +1,29 @@
+{
+  "num_tese": "000554812",
+  "type": "tese",
+  "title": "A development of a finite element method based on a novel theory of laminated composite beam.",
+  "author": "Mauro Luis Ramalho Sanches",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In the analysis of composite beams (laminate or sandwiches), sometimes it is very important to estimate the effect of the transverse shear (direction z). Many works about this theme were already developed (beam and plate theories, Zig-Zag theories, full three-dimensional approaches), each one with its own advantages and disadvantages (intrinsic inaccuracy, large number of degree of freedom, great computational effort). A point to observe is that those theories, in general, are unable to solve problems involving highly located effects, such as those associated to free-edges, cut-outs and concentrated loads. In those cases the most appropriate strategy is, probably, to adopt a global-local solution where the global response is calculated being used of beam theories and then, in the required regions, a detailed local solution is obtained using three dimensional approaches. The main concern, in a global solution, is to find a theory sufficiently robust and relatively easy of being applied that allows to evaluate the value of this stress, with a certain degree of precision. It should be observed that is practically impossible to obtain any experimental results that sustain a mathematical development, except in particular cases. In this work, aiming the application in a global solution and using a novel theory for laminated composite beam, it was developed a finite element beam model which showed to be very accurate. A cantilever sandwich beam was used to compare the results from two models: the first obtained from the developed beam element (mesh with 10 elements) and the second obtained using a fine two-dimensional FEM mesh (8000 elements), solved by the commercial finite-element code MSC NASTRAN. The differences between the results, at the worst case (on the fixed edge), were less then 10%.",
+  "subjects": [
+    "Materiais compósitos",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Laminados",
+    "Mecânica dos sólidos",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "16/12/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000554812",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000554812&origem=BDITA"
+}

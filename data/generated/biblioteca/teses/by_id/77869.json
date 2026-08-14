@@ -1,0 +1,33 @@
+{
+  "num_tese": "77869",
+  "type": "tese",
+  "title": "A numerical study of residual stress interaction in gear manufacturing chain using the finite element method",
+  "author": "Guilherme Fernandes Guimarăes",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The development of numerical models for predicting manufacturing phenomena steadily grows due to their high potential in contributing to efficient manufacturing chains and optimized designs by reducing the empirical process parameterization and designing the manufacturing's route oriented to component's requirements. The relevance in process simulation increases if mechanical parts are submitted to the combinations between residual stresses and complex loads, which will determine the component's operational performance. In this perspective, shot peening simulation has been under the spotlight because of its kinematics complexity, and due to its contribution to the final stress state and fatigue performance in components such as gears and shafts. Although the developments made in the shot peening simulations, most of the studies have focused on the effect that the process parameters have on the residual stress, neglecting the influence of the manufacturing chain on the stress state. In this scenario, this study has the objective of developing a finite element model of shot peening for the gear manufacturing chain that accounts for the effect of processes' interaction on the stress state. Therefore, the model needs to be representative of the residual stress on a gear and be able to connect and interact with other manufacturing processes, enabling the analysis of prestresses effect on the development of the final residual stress state, configuring the first step on obtaining a digital twin of the manufacturing chain. To achieve this objective, a consistent incremental workflow has been developed, beginning with simplified approaches where parameters from the finite element procedure were studied through axisymmetric models, and moves towards a complete gear's tooth model where process parameters and the interaction effect on the final stress state were analyzed. The results showed that the effect of the process interaction on the final stress state can be assessed numerically, confirming the hypothesis in which this work was developed. It was also demonstrated that applying a grinding process, prior to shot peening will significantly modify the final stress state, possibly affecting the fatigue life of the gear, and therefore, cannot be neglected. With the capability of studying the manufacturing interaction numerically, it is expected that in future works this model can be used to improve the gear design process, by implementing the residual stress interaction concept on the development of a gear designed with the stress state optimized for operation.",
+  "subjects": [
+    "Fabricaçăo",
+    "Método de elementos finitos",
+    "Tensăo residual",
+    "Simulaçăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "07/07/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77869",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77869&origem=BDITA"
+}

@@ -1,0 +1,28 @@
+{
+  "num_tg": "80767",
+  "type": "tg",
+  "title": "Análise de transferęncias Terra-Júpiter com manobra de assistęncia gravitacional em Marte",
+  "author": "Claydson Alfaia Hammed Mendonça",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga trajetórias de transferęncia entre a Terra e Júpiter que empregam uma manobra de assistęncia gravitacional (swing-by ) em Marte, com foco na quantificaçăo da economia de Av na fase de injeçăo a partir de uma órbita de estacionamento em torno da Terra, em comparaçăo com uma transferęncia direta Terra-Júpiter do tipo Hohmann. Adota-se, em uma primeira etapa, um modelo baseado no Problema de Dois Corpos (P2C) e no método das órbitas emendadas, por meio do qual a missăo 'e decomposta em quatro fases dinâmicas: escape geocęntrico, arco heliocęntrico Terra-Marte, aproximaçăo planetocęntrica em Marte e 'orbita heliocęntrica pós-swing-by. A partir desse arcabouço, constroem-se famílias de trajetórias parametrizadas pelo ?v de injeçăo em LEO, impondo-se um periastro heliocęntrico fixo na 'orbita da Terra e variando-se o raio de apoastro da elipse inicial até a vizinhança da 'orbita de Júpiter. Para cada trajetória candidata, modela-se a aproximaçăo em Marte, calcula-se a deflexăo associada 'a 'orbita hiperbólica planetocęntrica e verifica-se se o raio de apoastro da órbita heliocęntrica final é suficiente para interceptar a órbita de Júpiter. Em seguida, as soluçőes selecionadas săo reavaliadas em um modelo de N corpos mais realista, que inclui a gravitaçăo simultânea do Sol, da Terra, de Marte e de Júpiter. Nessas simulaçőes, implementadas com o integrador DOP853 via funçăo solve_ivp, emprega-se um esquema de correçăo diferencial baseado na Matriz de Transiçăo de Estados para ajustar a velocidade de injeçăo e garantir a realizaçăo da manobra de swing-by pretendida na esfera de influęncia marciana. Os resultados mostram que a assistęncia gravitacional em Marte permite reduzir o ?v de injeçăo em LEO em algumas centenas de metros por segundo, chegando a economias da ordem de 9% em relaçăo ao valor requerido por uma transferęncia direta Terra-Júpiter do tipo Hohmann, a depender da altitude de periastro em Marte. Verifica-se ainda que, mesmo para as 'orbitas menos energéticas consideradas, o tempo de voo total permanece inferior aos 998 dias associados 'a transferęncia direta; no caso mais favorável, obtém-se duraçőes da ordem de 620 dias para impulsos de injeçăo próximos a 6,27 km/s. As integraçőes numéricas evidenciam que o modelo analítico baseado no P2C tende a subestimar o ?v de injeçăo devido ao efeito de \"freio gravitacional\" exercido pelos planetas além de suas esferas de influęncia, embora o impulso de correçăo necessário na entrada da esfera de influęncia de Marte se mantenha em torno de 2% do ?v de injeçăo. Conclui-se que a metodologia proposta fornece uma ferramenta consistente para o dimensionamento preliminar de missőes Terra-Marte-Júpiter com assistęncia gravitacional, estabelecendo um mapeamento explícito entre parâmetros simples de projeto, geometria da manobra e desempenho em termos de custo propulsivo e tempo de voo.",
+  "subjects": [
+    "Problema de dois corpos",
+    "Órbita de transferęncia",
+    "Trajetória Terra-Marte",
+    "Júpiter (planeta)",
+    "Elementos orbitais",
+    "Mecânica celeste",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80767",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80767&origem=BDITA"
+}

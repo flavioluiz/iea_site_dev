@@ -1,0 +1,28 @@
+{
+  "num_tese": "62237",
+  "type": "tese",
+  "title": "Simulaçăo numérica em elementos finitos, fabricaçăo e ensaio experimental de um olhal em material compósito",
+  "author": "Giovane Cássio da Fonseca",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho aborda os procedimentos experimentais necessários para o desenvolvimento de uma técnica de fabricaçăo de um olhal em materiais compósitos via moldagem por transferęncia de resina (Resin Transfer Molding - RTM) e a metodologia de análise, utilizando elementos finitos, que permite simular o comportamento deste tipo de componentes estruturais até a falha catastrófica. Os objetivos do trabalho săo: desenvolver uma metodologia de fabricaçăo de um olhal laminado espesso, obter os valores da carga de falha nos ensaios e correlacioná-los com os resultados obtidos no modelo numérico proposto. Na parte experimental, foram fabricados e realizados os ensaios de bearing nos olhais, simulando as condiçőes de contorno e de carregamento para obter a carga de falha do componente. Estabeleceram-se o projeto e fabricaçăo do molde, o projeto e a fabricaçăo dos mecanismos de ensaio, a instrumentaçăo dos corpos de prova (olhais), a metodologia de aquisiçăo de dados e a análise dos resultados obtidos. Na parte numérica, em primeira instância, realizou-se uma análise simplificada do corpo de prova, utilizando elementos finitos, com o intuito de definir uma espessura ideal para um valor de carregamento preestabelecido pelo envelope de cargas da aeronave. Posteriormente foi realizada uma série de análises numéricas, simulando a iniciaçăo e propagaçăo de trincas e, consequentemente, a falha estrutural do componente, no programa de elementos finitos ABAQUS/Explicit, utilizando um modelo de falha baseado na mecânica contínua do dano, com a finalidade de obter resultados que representem os valores experimentais. Os resultados obtidos nos ensaios experimentais demonstram que o modelo numérico representa o comportamento estrutural do olhal quando sujeito ŕs condiçőes de contorno propostas, quando comparado os resultados das curvas de carga versus deformaçăo.",
+  "subjects": [
+    "Moldagem por transferęncia de resina",
+    "Laminados",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "02/02/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62237",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62237&origem=BDITA"
+}

@@ -1,0 +1,12 @@
+name = "iea-decap-oauth"
+main = "src/index.js"
+compatibility_date = "2026-08-14"
+workers_dev = true
+preview_urls = false
+
+[vars]
+# This must exactly match the callback registered in the GitHub OAuth App.
+OAUTH_CALLBACK_URL = "https://iea-decap-oauth.flavioluiz.workers.dev/callback"
+ALLOWED_ORIGINS = "https://flavioluiz.github.io,http://localhost:1313"
+# GitHub logins allowed to enter the CMS. This is intentionally not a secret.
+ALLOWED_GITHUB_USERS = "flavioluiz"

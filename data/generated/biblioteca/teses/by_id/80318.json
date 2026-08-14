@@ -1,0 +1,37 @@
+{
+  "num_tese": "80318",
+  "type": "tese",
+  "title": "Investigation of pressure-swirl injectors sprays interaction in liquid propellant rocket engines",
+  "author": "Maurício Sá Gontijo",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Leila Ribeiro dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Liquid propellant rocket engines make use of injectors to provide the required propellant mass flow rates, atomizing them to increase the fluids surface area and improve the propellants vaporization, mixture, and combustion. One of the most used injector types for this application is the pressure-swirl, which is known to produce a conical spray with low dependence on injection pressure that generates smaller droplets when compared with most of the other injector types. In general, dozens of injectors are installed in a thrust chamber's injection head for sounding rockets and launch vehicles. Therefore, the produced sprays often collide between themselves. These collisions may result in smaller, equal-size, or larger droplets, depending on some parameters such as droplet Weber number, angle of collision, and droplet size ratio. If larger droplets are generated due to coalescence, losses due to unburned propellant and two-phase flow inside the nozzle may become significant. An option would be to increase the combustion chamber size, but friction and heat transfer losses may also become significant, and the engine will get heavier and more expensive. Therefore, this work provided a methodology for designing injection systems to avoid or reduce the chances of coalescence. An injector was designed to be used as a case study, and calculations were made for both water and ethanol. Some simplifications were that the generation of satellite droplets and rotation separation were neglected. In addition, a consideration made is that the algorithm had to analyze the possible collision outcomes for the whole interval of the impact parameter(0 to 1) and a given interval of 0.1 to 4 of the droplet size ratio. The possible resultant mass flow rate distributions in a circular disposition were discussed. Furthermore, commercial injectors contributed to the validation of the presented methodology through experimental testing. By comparing analytical results and experimental data, it was found that the proposed algorithm overestimates reality. However, it is presented to be more accurate for higher injection pressures and it is promising. It was determined that one should use propellants with higher density, lower viscosity, and lower surface tension to mitigate coalescence. Also, higher injection pressures are desirable. These recommendations can be translated into obtaining higher droplet Weber numbers, favoring separation as a collision outcome, and reducing coalescence efficiency.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Injetores",
+    "Câmaras de combustăo",
+    "Injeçăo de combustível",
+    "Centrifugaçăo",
+    "Transferęncia de calor",
+    "Estudo de casos",
+    "Engenharia mecânica",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "16/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80318",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80318&origem=BDITA"
+}

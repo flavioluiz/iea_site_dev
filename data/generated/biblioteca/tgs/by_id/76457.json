@@ -1,0 +1,25 @@
+{
+  "num_tg": "76457",
+  "type": "tg",
+  "title": "Sistema de controle para aproximaçăo em rampa íngreme",
+  "author": "Breno de Oliveira e Silva",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Karl Heinz Kienitz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho propőe-se uma malha de controle longitudinal para aproximaçăo em rampas íngremes, procedimento muito utilizado em aeroportos cujo relevo exige ou mesmo como manobra de atenuaçăo de ruídos, utilizando como variáveis de controle o motor, a deflexăo de profundores e spoilers. Para explorar o conceito aqui proposto, utilizou-se um modelo de aproximaçăo do Airbus A300. A obtençăo de ganhos com base na formulaçăo linear quadrática do problema de rastreio proporciona um controlador capaz de manter a aeronave em rampa de 6,5° mesmo quando submetido a uma rajada de vento discreta do tipo um menos cosseno, com amplitudes de variaçăo de deflexăo de superfícies de controle implementáveis. Trata-se de nova aplicaçăo de controle que usa os spoilers como variável contínua junto com as demais variáveis de controle.",
+  "subjects": [
+    "Defletores",
+    "Controle de aeronaves",
+    "Ruído de aeronaves",
+    "Regulador linear quadrático",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76457",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76457&origem=BDITA"
+}

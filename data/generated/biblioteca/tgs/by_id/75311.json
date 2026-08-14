@@ -1,0 +1,25 @@
+{
+  "num_tg": "75311",
+  "type": "tg",
+  "title": "Problema de otimizaçăo multiobjetivo de rotas aéreas",
+  "author": "Humberto de Araújo Rocha Neto",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho realiza análises de rotas aéreas e propőe otimizaçăo de frota para as operaçőes de algumas companhias aéreas. Para isso, săo levados em consideraçăo parâmetros críticos para a operaçăo da companhia aérea, como custos operacionais, capacidade de aeronaves existentes, demanda de passageiros e distâncias percorridas nas rotas consideradas. O problema descrito no parágrafo anterior é abordado por uma otimizaçăo multiobjetivo usando o algoritmo genético multiobjetivo disponível no MATLAB 2015. Os objetivos que foram considerados săo os custos operacionais e o número de aeronaves e satisfazem a demanda hist'orica de passageiros para cada operaçăo considerada, fornecida pelo Departamento de Transporte dos EUA. Dados históricos săo usados para a estimativa de custos fixos e variáveis de cada tipo de aeronave. A metodologia empregada aqui fornece a alocaçăo ótima de aeronaves para a operaçăo de uma rota analisada. Apesar das suposiçőes simples, o presente trabalho pode ser útil como uma ferramenta de tomada de decisăo pelas companhias aéreas.",
+  "subjects": [
+    "Rotas aéreas",
+    "Otimizaçăo",
+    "Operaçőes de linhas aéreas",
+    "Frotas aéreas",
+    "Transporte"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75311",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75311&origem=BDITA"
+}

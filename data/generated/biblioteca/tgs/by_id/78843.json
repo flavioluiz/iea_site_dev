@@ -1,0 +1,25 @@
+{
+  "num_tg": "78843",
+  "type": "tg",
+  "title": "Adding simulation capability to systemic models",
+  "author": "Rubens Miguel Gomes Aguiar",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In systems engineering, the model-based methodology allows the representation of models at a high level. In this context, models are represented through state machines in order to integrate the different parts of the system. Therefore, the need arises to perform the simulation of state machines in an automated way, to verify the integrity of the created models. Thus, a Python extension was developed for one of the main systems engineering modeling tools, known as Capella, that allows the simulation of statecharts. Therefore, the developed tool was applied in two state machines to exemplify its practical behavior.",
+  "subjects": [
+    "Engenharia de sistemas",
+    "Simulaçăo",
+    "Engenharia de software",
+    "Computaçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78843",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78843&origem=BDITA"
+}

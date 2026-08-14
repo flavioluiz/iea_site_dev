@@ -1,0 +1,31 @@
+{
+  "num_tese": "64202",
+  "type": "tese",
+  "title": "Metodologia híbrida para prognóstico de sistemas integrando análise de séries temporais e raciocínio baseado em casos",
+  "author": "Ícaro Bezerra Viana",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Guilherme Conceiçăo Rocha",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe uma metodologia para o prognóstico de sistemas com base em série temporal de parâmetro indicativo da condiçăo do equipamento. A série temporal é dividida em diferentes cenários candidatos de acordo com a modificaçăo de variáveis exógenas que representam condiçőes ambientais externas ao sistema. A cada cenário válido é associado um modelo de progressăo específico construído em um ciclo iterativo que segue uma abordagem de análise de séries temporais estocásticas do tipo ARIMA (Autoregressive Integrated Moving Average Process). O modelo utilizado para fins de prognóstico é determinado pela combinaçăo de modelo de progressăo do cenário mais atual com o modelo associado ao cenário passado mais similar ao atual. No contexto de prognóstico econômico realiza-se uma comparaçăo com vias a ilustrar equivalęncia entre a classe de modelos ARIMA utilizada com modelo polinomial disponível na literatura, aplicando-se estas metodologias no problema de previsăo do índice Dow Jones. A viabilidade da abordagem proposta, em se tratando de prognóstico de equipamento, é demonstrada através da prediçăo de um índice de degradaçăo para motor de corrente contínua (C.C.), onde os dados simulados săo gerados a partir de um benchmark que representa o sistema de acionamento da máquina (C.C.).",
+  "subjects": [
+    "Motores de corrente contínua",
+    "Inteligęncia artificial",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "28/02/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64202",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64202&origem=BDITA"
+}

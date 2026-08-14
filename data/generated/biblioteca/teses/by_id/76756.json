@@ -1,0 +1,28 @@
+{
+  "num_tese": "76756",
+  "type": "tese",
+  "title": "A new analytical method for transient heat conduction in composite hollow cylinders applied to plug and abandonment of oil wells.",
+  "author": "Gabriel Saavedra de Andrade",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents an analytical approach for transient heat conduction through composite hollow cylinder structures applied to Plug and Abandonment (P&A). The Distributed Transfer Function Method (DTFM) is a mathematical framework able to solve both nonhomogeneous boundary conditions and a nonlinear partial differential equation with spatial-temporal source term, presenting good agreement with Finite Element Method (FEM) and other analytical approaches. A new technology of Thermal Plug and Abandonment (TP&A) devoted for P&A operation is studied in this work, where a heat generator is used to melt the first layer of the well structure. The heat source will be modeled using thermite within the oil well manifold structure, which must be descended to desirable depths along the borehole through a cylindrical container. After an exothermic reaction the temperature fields will be determined by means of DTFM method. A novel adaptative step-wise procedure applied for DTFM allows to solve non-differentiable heat flux, thermal and volumetric heat source profiles which exact quadrature regression are not able to solve. This method provides simple replicability, which can be reproduced for many emerging fields where transient heat conduction is an important parameter to be accounted for. Using experimental data as input in DTFM provides insight that the temperature response overcame the design melting point of the production tube, being capable of melting down the production tubing wall, which is a valuable achievement for oil industries since not removing the production tubing can save a great amount of time, and hence save costs for oil industries.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Cilindros",
+    "Transmissăo multicaminho",
+    "Método de elementos finitos",
+    "Física"
+  ],
+  "defense_date": "02/03/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76756",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76756&origem=BDITA"
+}

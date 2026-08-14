@@ -1,0 +1,28 @@
+{
+  "num_tese": "76573",
+  "type": "tese",
+  "title": "Actuator and sensor placement for closed-loop control of convective instabilities.",
+  "author": "Guilherme Avelino Freire",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates the characterization of the closed-loop control performance aiming at the delay of transition. The focus is on convective wavepackets, typical of the initial stages of transition to turbulence, starting with the linearized Kuramoto-Sivashinsky equation as a model problem representative of the transitional 2D boundary layer; its simplified structure and reduced order provide a manageable framework for the study of fundamental concepts involving the control of linear wavepackets. The characterization is then extended to the 2D Blasius boundary layer and the flow over a backward-facing step. The objective of this study is to explore how the sensor-actuator placement affects the optimal control problem, formulated using linear quadratic gaussian (LQG) regulators. This is carried out by evaluating errors of the optimal estimator at positions where control gains are significant, through a proposed metric, labelled as . Results show, in quantitative manner, why some choices of sensor-actuator placement are more effective than others for flow control: good (respectively bad) closed-loop performance is obtained when estimation errors are low (respectively high) in the regions with significant gains in the full-state-feedback problem. Unsatisfactory performance is further understood as dominant estimation error modes that overlap spatially with control gains, which shows directions for improvement of a given setup by moving sensors or actuators. The proposed metric and analysis explain most trends in closed-loop performance as a function of sensor and actuator position, obtained for the model problem, the 2D Blasius boundary layer and the backward-facing step. The proposed metric is also shown to be a tool to validate reduced-order models for closed-loop control. The spatial characterization of the -metric provides thus a valuable and intuitive method for the problem of sensor-actuator placement, targeting here transition delay but possibly extending to other amplifier-type flows.",
+  "subjects": [
+    "Atuadores",
+    "Controle com realimentaçăo",
+    "Sensores",
+    "Controle linear quadrático gaussiano",
+    "Controle"
+  ],
+  "defense_date": "06/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76573",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76573&origem=BDITA"
+}

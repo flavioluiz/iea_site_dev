@@ -1,0 +1,35 @@
+{
+  "num_tese": "79894",
+  "type": "tese",
+  "title": "Experimental evaluation of artificial scallop ice shapes on airfoil aerodynamics",
+  "author": "Rafael Silva Reghin",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "abstract": "An aircraft flying under specific weather conditions tends to accumulate ice on aerodynamic surfaces which deteriorates aircraft performance and may affect safety. Recent work obtained, via 3D-scanning, high-fidelity characterization of ice shapes generated in the NASA-CRM model swept wing in the NASA IRT icing wind tunnel. These shapes are highly three-dimensional and in order to better understand and isolate the effects of the three-dimensional parameters, various simplified shapes were built and tested in aerodynamic wind tunnels to compare the results with the high-fidelity representation. Even with this geometrical break-down, the aerodynamic phenomena that takes place in the highly-swept wing of the NASA-CRM model are complex. The present work takes a step backwards in the complexity level, evaluating the three-dimensional shapes effect on NACA 23012 airfoil, aiming to separate the effects of the swept angle and of the ice tridimensionality of the NASA-CRM icing tests. To accomplish that, horn ice shapes with different spanwise gaps sizes and orientations to the flow were evaluated over a NACA 23012 airfoil at low-Reynolds-number. The lift, drag and pitching moment were measured for the clean airfoil and for six different ice shapes in order to measure their impact on the aerodynamic performance for each of these geometries when compared with its extruded 2D counterpart and the clean airfoil configuration. The results regarding the different gaps sizes in the ice shapes showed that the increase in the gap widths incrementally improved airfoil performance as its geometry becomes more and more similar to the clean airfoil. However, the flow over each of the studied gap sizes presented very distinct characteristics which ranged from the destruction of the recirculation bubble to the appearance of longitudinal vortices along the chord. On the other hand, the feature orientation seems to have very little impact on the aerodynamic performance of the airfoil, working as a vane for the flow and showing that the wing crossflow would suffer a secondary effect from the ice shapes.",
+  "subjects": [
+    "Aerofólios",
+    "Formaçăo de gelo",
+    "Túneis de vento",
+    "Aerodinâmica",
+    "Escoamento",
+    "Número de Reynolds",
+    "Física"
+  ],
+  "defense_date": "08/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79894",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79894&origem=BDITA"
+}

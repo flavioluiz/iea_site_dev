@@ -1,0 +1,31 @@
+{
+  "num_tese": "80304",
+  "type": "tese",
+  "title": "Modeling and analysis of flexible aircraft roll control with spoilers",
+  "author": "Gustavo Cirelli Santos",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Loss of control effectiveness is an aeroelastic effect caused by wing structural deformation due to control surface deflection. As the wing deforms, its incidence angle and, consequently, its effective angle of attack change in such a way that the lift variation due to control surface deflection can be significantly less than the values expected for a rigid aircraft, and in the worst condition can result in reverse control. Baseline non-linear simulation cases in a generic narrow-body airliner (GNBA) with antisymmetric aileron deflection show that this flexible aircraft does not meet roll control performance requirements, or may even produce adverse rolling moments. This work proposes the addition of spoilers on the aircraft wings to improve roll control effectiveness. Spoilers are commonly used in modern transport aircraft for roll control, they are assembled on the wing upper surface and when deflected upwards they separate the flow (\"spoil\") in a controlled manner, reducing lift and increasing drag. The GNBA lifting surfaces are modeled using the vortex-lattice method (VLM). Spoilers were added to the VLM model and the lift and drag variations due to spoiler deflection were calculated using semi-empirical methodologies. Special attention is made to the assumptions related to how much each VLM spoiler panel deflects and the influence on the wing's spanwise and chordwise lift distribution. Non-linear simulation cases considering the deflection of spoilers, and combination of aileron plus spoilers, indicate that the aeroelastic effect that leads to loss of roll control effectiveness, as present in the antisymmetric aileron case, is still present when spoilers are used. However, some configurations have notably better results, meeting the roll control performance requirements. The wing deformation is shown to be less pronounced when spoilers are deflected. When aileron and spoilers are combined, for the same total rolling moment coefficient, lower values of aileron deflection (and higher spoiler deflection) performed better than higher aileron deflection (and lower spoiler deflection). The combination of aileron and spoilers results in an approximately linear roll control. Future research could investigate the development of a roll control system using spoilers, analyze the handling qualities in the lateral-directional control of the flexible aircraft, and investigate the use of spoilers for other functions, such as load alleviation.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Asas flexíveis",
+    "Ailerons",
+    "Arrasto",
+    "Estabilidade",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "11/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80304",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80304&origem=BDITA"
+}

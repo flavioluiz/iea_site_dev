@@ -1,0 +1,31 @@
+{
+  "num_tg": "000498990",
+  "type": "tg",
+  "title": "Análise e simulaçăo de escoamentos hipersônicos em condiçăo de năo equilíbrio químico.",
+  "author": "Fábio Rodrigues Guzzo",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Marisa Roberto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Problemas de reentrada săo especialmente desafiadores, pois englobam uma faixa muito grande de números de Mach, Reynolds, Damköhler e Knudsen. No entanto, o trabalho se restringiu a simulaçőes de problemas no meio contínuo e năo viscoso. Foram realizadas simulaçőes que englobam um faixa grande de números de Mach, de modo a serem apreciáveis as variaçőes, em algumas regiőes do escoamento, das características físicas e químicas do fluido com a temperatura. Essas variaçőes se tornam apreciáveis a medida que se aumenta velocidade como, por exemplo, variaçăo da energia vibracional das moléculas de oxigęnio e nitrogęnio e, variaçőes das propriedades químicas devido ŕ reaçőes químicas. O interesse do IAE de criar ferramentas para simular condiçőes aerotermodinâmicas de reentrada é auxiliar, entre outros, o projeto SARA (Satélite de Reentrada Atmosférica), plataforma orbital recuperável para a experimentaçăo em ambiente de microgravidade. Mais especificamente, para auxiliar o tratamento correto da vedaçăo térmica. A formulaçăo teórica utilizada foi a de Euler, somada ŕs equaçőes de massa para o caso que contempla a possibilidade de reaçőes químicas. Foram utilizados quatro conjuntos de equaçőes constitutivas, sendo que em todas se supôs gás ideal. No primeiro, foi considerado que a energia interna é diretamente proporcional ŕ temperatura. No segundo, considerou a variaçăo da energia de excitaçăo vibracional das moléculas do ar. No terceiro e na quarto, as propriedades termodinâmicas foram retiradas do programa CHEMKIN, sendo que apenas no quarto considerou reaçőes químicas. Em relaçăo aos métodos numéricos, foram utilizados esquemas de volumes finitos. Para a discretizaçăo espacial, foram usados dois esquemas, um proposto por Liou e outro por Jameson, ambos de segunda ordem de precisăo. Para a discretizaçăo temporal, foi utilizado o esquema explícito de marcha no tempo de Runge-Kutta de cinco estágios no tempo para o operador de dinâmica dos fluidos. Esse esquema também é de segunda ordem de precisăo. Para o operador químico, o algoritmo referente ao processo integraçăo temporal foi o VODE. Foram simuladas tręs configuraçőes diferentes. As duas primeiras foram realizadas basicamente com o intuito de se validar o método numérico implementado. Na terceira configuraçăo, foram realizadas simulaçőes para tręs valores de número de Mach. Para cada número de Mach foram feitas quatro simulaçőes, totalizando doze. Para cada uma, foi alterado basicamente, além do número de Mach, o conjunto de equaçőes constitutivas. A primeira simulaçăo realizada foi em uma cunha, para um número de Mach relativamente baixo. O número de Mach foi escolhido de modo que as propriedades termodinâmicas e químicas do fluido pudessem ser assumidas constantes. A segunda simulaçăo se refere a um projétil sendo lançado em uma mistura reativa composta de hidrogęnio e ar em proporçőes estequiométricas. Na terceira, foi simulada a geometria do SARA. O fluido foi o ar, o qual foi assumido como sendo formado apenas por oxigęnio e nitrogęnio. Além dessas simulaçőes, foi feita uma análise da cinética química das misturas reativas empregadas. Para isso foi utilizado o programa AURORA.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento hipersônico",
+    "Análise numérica",
+    "Reatividade química",
+    "Aerotermodinâmica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000498990",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000498990&origem=BDITA"
+}

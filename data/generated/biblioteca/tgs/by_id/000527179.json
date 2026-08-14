@@ -1,0 +1,36 @@
+{
+  "num_tg": "000527179",
+  "type": "tg",
+  "title": "Projeto de sistema de controle para a decolagem de alvo aéreo manobrável.",
+  "author": "José Renato de Araujo Costa",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro José de Oliveira Neto",
+      "professor_slug": null
+    },
+    {
+      "name": "Guilherme Augusto Vargas Cesar",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os instantes iniciais do vôo de uma aeronave-alvo năo-tripulada com controle automático săo considerados os mais críticos em termos de insucesso da missăo. Dessa forma, um estudo aprofundado das características, limitaçőes e margens de segurança a serem utilizadas nessa fase é de suma importância. O presente estudo tem por objetivos desenvolver um programa em MatLab que simula e otimiza o lançamento autocontrolado de aeronaves năo-tripuladas com o auxílio de rampas e boosters, com o objetivo de minimizar as oscilaçőes provocadas pela variaçăo de configuraçăo e propulsăo, maximizando o ganho de energia pela aeronave, levando-a até a velocidade de início de subida, através de um controle de malha fechada proporcional-integral-derivativo. Considerar as margens admissíveis para variaçăo dos parâmetros na simulaçăo é essencial para năo colocar em risco a segurança do lançamento. Neste trabalho foram consideradas as variaçőes da posiçăo do booster em relaçăo ao CG e do ângulo de montagem do booster, respeitando as margens admissíveis de ventos longitudinais e laterais. Para a determinaçăo dos parâmetros ideais de projeto, foi necessário ponderar, em um Índice de Desempenho, a maximizaçăo da energia ao término do vôo assistido e a minimizaçăo tanto da energia utilizada movimentando o profundor quanto da própria variaçăo do ângulo de atitude. No processo de otimizaçăo desse Índice foram respeitados: os limites mínimos de altura e velocidade após o término da queima do booster; a velocidade de movimentaçăo do profundor e sua deflexăo máxima; a velocidade máxima de rotaçăo da aeronave em torno do eixo lateral; o ângulo de trajetória mínimo e o coeficiente de sustentaçăo máximo. Como resultado, săo fornecidos os valores dos seguintes parâmetros: ganhos de realimentaçăo; posiçăo e ângulo de montagem do booster no aviăo; ângulo de ataque durante a corrida na rampa; deflexăo inicial do profundor e comprimento mínimo de rampa que otimizam o lançamento, respeitando suas respectivas margens admissíveis de variaçăo previstas na formulaçăo do problema.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Dispositivos de lançamento de aeronaves",
+    "Controle de aeronaves",
+    "Aeronave năo-tripulada",
+    "Simulaçăo computadorizada",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527179",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527179&origem=BDITA"
+}

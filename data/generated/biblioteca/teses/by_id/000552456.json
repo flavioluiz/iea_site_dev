@@ -1,0 +1,36 @@
+{
+  "num_tese": "000552456",
+  "type": "tese",
+  "title": "Otimizaçăo e geraçăo de cenários aplicadas ŕ contrataçăo de energia elétrica.",
+  "author": "Joăo Rodolfo Côrtes Pires",
+  "year": "2008",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Paulo Sérgio Franco Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A sustentabilidade de um setor de infra-estrutura no longo prazo depende da capacidade dos seus agentes de atuarem de maneira responsável, controlando a rentabilidade e os riscos associados ŕs suas operaçőes e, ainda, do governo e dos órgăos reguladores, gerando um ambiente estável e competitivo. O presente trabalho faz uma revisăo do setor elétrico brasileiro e de suas características regulatórias, propondo uma modelagem matemática que facilite a tomada de decisőes dos agentes dentro das regras impostas pelo novo modelo setorial. A capacidade de avaliaçăo entre o retorno esperado e o risco incorrido permitirá que as empresas honrem suas obrigaçőes mesmo na ocorręncia dos cenários mais desfavoráveis. No atual modelo do setor elétrico brasileiro, os principais riscos para os agentes săo as variaçőes desua demanda por eletricidade e e a alta volatilidade dos preços no curto prazo ( Preço de Liquidaçăo de Diferença - PLD)A metodologia proposta atua na geraçăo de cenários das variáveis de risco por meio de simulaçőes de Monte Carlo e Quasi-Monte Carlo e do Newave, software de programaçăo estocástica dual utilizado oficialmente pelo setor, para posterior reduçăo e otimizaçăo do retorno esperado com a comercializaçăo de energia. Para a geraçăo dos cenários, utilizou-se uma técnica com abordagem probabilística (Monte Carlo) e uma determinística (Quasi-Monte Carlo), para a avaliaçăo do impacto da mudança dos cenários nas respostas do modelo de otimizaçăo. Para a reduçăo dos cenários, adotaram-se as reduçőes Backward e a Backward-Média, que adotam a técnica de aproximar as séries por meio da soma das probabilidades das séries de menor distância euclideana entre elas. Para controle do risco, utilizou-se a métrica conhecida como CVaR (Conditional Value at Risk), que atua como uma restriçăo linear do problema de otimizaçăo e, portanto, permite que a resposta do problema já considere o valor esperado máximo das perdas aceito na negociaçăo para um dado nível de confiança. Para a modelagem do problema, adotou-se a otimizaçăo sobre árvore de cenários, cujos cenários eram compostos pelos PLDs dos submercados Sudeste/Centro-Oeste e Sul, pelas cargas da distribuidora no Sudeste e dos clientes livres na regiăo Sul e Sudeste. As principais variáveis de decisăo săo as compras de energia pelas distribuidoras no longo prazo, com antecedęncias de tręs e cinco anos (Leilőes A-3 e A-5), e a alocaçăo da energia entre as empresas do grupo para o atendimento da demanda. A combinaçăo das técnicas de simulaçăo, reduçăo de cenários e otimizaçăo demonstrou-se eficiente para indicar a melhor soluçăo de compras nos leilőes de A-3 e A-5, considerando as decisőes que poderăo ser tomadas a posteriori conforme realizaçăo dos cenários. A utilizaçăo conjunta da restriçăo do nível de risco aceito (CVaR) para a carteira possibilitou a análise da variaçăo do retorno esperado em funçăo da alteraçăo dos resultados de cenários extremos. Essa modelagem matemática de simulaçăo e cenários da análise da distribuiçăo de resultados antecipa ao gestor clareza e segurança quanto ŕs decisőes a serem tomadas.",
+  "subjects": [
+    "Otimizaçăo",
+    "Serviços contratados",
+    "Cenários",
+    "Geraçăo de energia elétrica",
+    "Técnicas de administraçăo",
+    "Pesquisa operacional",
+    "Matemática aplicada",
+    "Engenharia elétrica"
+  ],
+  "defense_date": "30/05/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552456",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552456&origem=BDITA"
+}

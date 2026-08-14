@@ -1,0 +1,30 @@
+{
+  "num_tese": "63064",
+  "type": "tese",
+  "title": "Análise numérica do escoamento hipersônico em torno de corpos rombudos utilizando métodos de alta ordem",
+  "author": "Francisco Augusto Aparecido Gomes",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O método WENO (Esquema Ponderada Essencialmente Năo-Oscilatório) é o produto evolutivo de uma sequęncia de estudos adicionais, que começou com o trabalho seminal de Godunov nos últimos anos da década de 50 do século passado. A partir da reconstruçăo clássica de Riemann de Godunov os esquemas de alta resoluçăo passaram pelos esquemas MUSCL (\"Esquema Monotonicamente Centrado para Leis de Conservaçăo\"), o ENO (\"Esquema Essencialmente Năo-Oscilatório\"), chegando finalmente ao estágio do esquema WENO. Esquemas WENO săo esquemas de ordem mais alta precisăo projetados para problemas com soluçőes contínuas por partes contendo descontinuidades. A idéia-chave reside no nível de aproximaçăo, quando um procedimento năo-linear adaptativo é utilizado para escolher automaticamente o estęncil mais suave localmente, evitando assim que descontinuidades surjam no procedimento de interpolaçăo como tanto quanto possível. Seguindo de perto este caminho evolutiva, uma outra característica muito importante está relacionada com a aproximaçăo tăo acurada quanto possível, dos fluxos de Riemann nas junçőes entre as fronteiras das células. Muitas idéias para essa aproximaçăo apareceram ao longo do caminho. Os esquemas de Lax-Friedrichs, Roe, Steger-Warming, AUSM, AUSMPW, HLL, HLLE, estăo todos em uso hoje. Um código computacional baseado em algoritmos de alta ordem e alta resoluçăo, baseado nos algoritmos WENO e MUSCL, chamado HYNE2D, para a simulaçăo de escoamentos viscosos em altas velocidades e com eventualmente soluçőes constantes por partes, foi desenvolvido pelos autores. Muitos dos esquemas mais eficientes para o cálculo do fluxo foram implementadas, e, neste trabalho, uma comparaçăo completa entre Lax-Friedrichs, Roe, AUSM+ e AUSMPW será explorado estritamente para uma formulaçăo em volumes finitos baseada em arestas em malhas năo-estruturadas. Os problemas de validaçăo săo todos os casos teste de aferiçăo normalmente encontrados na literatura.",
+  "subjects": [
+    "Escoamento hipersônico",
+    "Análise numérica",
+    "Método de volumes finitos",
+    "Malhas năo-estruturadas (Matemática)",
+    "Corpos rombudos",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "11/06/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63064",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63064&origem=BDITA"
+}

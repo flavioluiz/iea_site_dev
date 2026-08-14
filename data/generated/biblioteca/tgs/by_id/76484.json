@@ -1,0 +1,25 @@
+{
+  "num_tg": "76484",
+  "type": "tg",
+  "title": "Desenvolvimento de software para tratamento de dados de um sistema de localizaçăo aplicável a foguetes de sondagem",
+  "author": "Gustavo de Souza Lima",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Manish Sharma",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho se destina a explicar o desenvolvimento de um código para tratamento de dados de um sistema de localizaçăo aplicável a foguetes de sondagem. De modo que o sistema físico opere em faixas de frequęncia acima de 5 kHz e que o mesmo seja composto por tręs receptores e um transmissor. Para realizar a a tarefa de obter a trajetória do transmissor inserido no veículo que se deseja localizar, utiliza-se a potęncia com que o sinal chega em cada terminal de recepçăo de modos que esses terminais sejam compostos por ao menos duas antenas diretivas e o transmissor possua uma antena omidirecional. Para obter esses valores de potęncia o sinal que é obtido no tempo discreto é convertido do domínio do tempo para o da frequęncia. Utilizando a diferença entre a potęncia que chega em cada uma das antenas de um terminal é possível obter o ângulo de chegada do sinal transmitido em cada um dos terminais com relaçăo a um referencial arbitrário. Esses dados angulares săo tratados por um filtro de Kalman e em seguida săo traduzidos através de triangulaçăo para informaçőes de posiçăo do veículo no tempo. Como todo o sistema foi testado de maneira computacional foi desenvolvido um gerador de cenário de teste que nada mais é que um gerador de sinal teórico corrompido por um ruído branco de média e variância conhecidas.",
+  "subjects": [
+    "Desenvolvimento de software",
+    "Foguetes-sonda",
+    "Sistemas de localizaçăo de direçăo",
+    "Potęncia",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76484",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76484&origem=BDITA"
+}

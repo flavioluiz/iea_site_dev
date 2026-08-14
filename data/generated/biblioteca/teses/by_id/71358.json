@@ -1,0 +1,32 @@
+{
+  "num_tese": "71358",
+  "type": "tese",
+  "title": "Numerical analysis of swirl effects on turbulent flow in conical diffusers",
+  "author": "Eron Tiago Viana Dauricio",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work analyzed the influence and effects of the addition of swirl to the turbulent flow in conical diffusers in terms of the mean flow quantities. Four diffusers were simulated, all with an area ratio of 7 and with total divergence angles of 16, 24, 40 and 60 degrees. The flows were simulated under swirl-free condition and swirl numbers of 0.2, 0.4, 0.6 and 0.8, with inlet Mach numbers of 0.2, 0.4 and 0.6. To simulate the cases, CFD techniques were employed through the commercial software package ANSYS Fluent 16.1. It was found that for the swirl-free case, all geometries presented a flow with boundary layer separation, while this boundary layer separation was prevented when swirl as added to the flow. For the 16-degree diffuser, a swirl number of 0.2 was enough to prevent boundary layer separation while for the 24- and 40-degree diffusers a swirl number of 0.4 was needed. For the 60-degree diffuser, only swirls from 0.6 and higher were capable of preventing the boundary layer separation. Moreover, for all the cases where boundary layer was prevented, there also occurred vortex breakdown on the flow. This breakdown moves upstream and grow in size as the swirl is increased. The axial and tangential velocity profiles depends on whether there exists vortex breakdown or boundary layer separation in the flow. For the cases where vortex breakdown is present, both axial and tangential velocity components are concentrated in the near-wall region due to the central recirculation zone. Neither the swirl number nor the divergence angle seems to play important roles on the size of this region, although the peak in tangential velocity is more dependent on the swirl number than it is on geometry parameters, especially for the cases of low to moderate swirl. For the cases where there is boundary layer separation, the static pressure continues to rise after the diffuser outlet due to a large scale mixing occurring in the tailpipe, while for the cases where there exists vortex breakdown the static pressure drops across the tailpipe due to the increase in wall friction, increasing the losses. Radial pressure gradients qualitatively follow the patterns of the tangential velocity profiles. Wall shear stresses increase as swirl is increased, and its value have little dependence on the total divergence angle. The size and location of the vortex breakdown have little influence of the inlet Mach number, as well as the tangential velocity profile and radial pressure gradient patterns. The pressure drop across the tailpipe is greater for higher inlet Mach numbers, and an increase in inlet Mach number leads to an increase the wall shear stresses in a greater extent than an increase in the swirl number.",
+  "subjects": [
+    "Difusores",
+    "Partiçăo de vórtices",
+    "Análise numérica",
+    "Ensaios de rotaçăo",
+    "Camada limite turbulenta",
+    "Pressăo estática",
+    "Número de Mach",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "11/04/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71358",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71358&origem=BDITA"
+}

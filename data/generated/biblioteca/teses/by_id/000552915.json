@@ -1,0 +1,34 @@
+{
+  "num_tese": "000552915",
+  "type": "tese",
+  "title": "Avaliaçăo de parâmetros do processo de forjamento a quente em matriz aberta pelo método de elementos finitos.",
+  "author": "Roberto Tibúrcio Canito Frota Júnior",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Eduardo Netto de Souza",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O forjamento a quente em matriz aberta é o processo mais utilizado para fabricaçăo de grandes peças. Este tipo de forjamento envolve vários parâmetros tais como forma geométrica de lingotes e matrizes, largura de matrizes, técnica de forjamento, sequęncia operacional, reduçăo de forjamento, capacidade máxima do equipamento, entre outros. O principal desafio deste processo é produzir peças com boa qualidade, visto que os grandes lingotes, matéria-prima do processo, apresentam vários defeitos e heterogeneidades inerentes ao processo de solidificaçăo, e os produtos finais possuem rigorosos requisitos de qualidade. Com a evoluçăo dos computadores e a aplicaçăo dos métodos numéricos em processos de conformaçăo mecânica, pesquisadores de vários países realizaram, com sucesso, análises do processo de forjamento utilizando o método de elementos finitos. Dentro deste contexto, o objetivo deste trabalho é avaliar parâmetros de processo como geometria de matrizes, sequęncia operacional e técnica de forjamento, utilizando o método de elementos finitos implementado em um código comercial fechado. Para isto, săo realizadas investigaçőes em quatro experimentos aplicando-se a simulaçăo numérica como ferramenta de análise. Os resultados evidenciaram que a simulaçăo numérica é eficiente em avaliar os parâmetros investigados, pois se mostra em concordância com a literatura, coerente quando comparada com casos práticos de uma planta siderúrgica e capaz de fornecer informaçőes importantes para a escolha dos melhores parâmetros do processo.",
+  "subjects": [
+    "Forjamento",
+    "Lingotes",
+    "Processos de conformaçăo de metais",
+    "Análise numérica",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "29/04/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552915",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552915&origem=BDITA"
+}

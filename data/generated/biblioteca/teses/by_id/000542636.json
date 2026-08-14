@@ -1,0 +1,32 @@
+{
+  "num_tese": "000542636",
+  "type": "tese",
+  "title": "Numerical simulations of compressible flows over airfoils.",
+  "author": "Oscar Mauricio Arias Garcia",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A computer code was developed from scratch to simulate the flow over the NACA 0012 airfoil at different Reynolds and Mach numbers. The domain was discretized in a structured-grid context. The equations were numerically solved by a finite-volume technique, using three different time-marching schemes. The Euler flow was initially modeled as well as a Reynolds-averaged Navier Stokes formulation was calculated. The Baldwin and Lomax turbulence model was employed to close the problem. The influence of a number of numerical parameters upon the computational solutions was investigated in the first phase of the work. The inviscid simulations were compared with other numerical results available in the literature. Each modification is thoroughly described and compared to the base-line case. Conclusions were drawn regarding how each of these chances affected the final result. The last Euler simulation was done using the Jameson, MacCormack and the Shu schemes in order to select the most appropriate one of the three to be employed to solve the Reynolds-averaged Navier Stokes equations. The viscous flow simulations started with the incompressible, laminar flow over a flat plate. The implementation of the viscous terms was validated calculating and comparing the results with the known Blasius analytical solution. Finally, the compressible, turbulent viscous flow over the NACA 0012 airfoil was numerically solved. The pressure coefficient distribution along the airfoil chord and the normal force coefficient were compared with experimental data due to Harris.",
+  "subjects": [
+    "Escoamento compressível",
+    "Aerofólios",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Modelos matemáticos",
+    "Turbulęncia",
+    "Método de volume finito",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "31/10/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542636",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542636&origem=BDITA"
+}

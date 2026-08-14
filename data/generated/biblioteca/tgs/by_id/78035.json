@@ -1,0 +1,25 @@
+{
+  "num_tg": "78035",
+  "type": "tg",
+  "title": "Módulo de otimizaçăo estrutural para projeto de aeronaves : ferramenta para dimensionamento de caixăo de asa",
+  "author": "Juliana Cristina Cortez Baraúna",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A concepçăo de uma aeronave conta com análises de diferentes disciplinas e uma importante relaçăo de compromisso entre elas. Esse estudo é feito a fim de encontrar a geometria mais adaptada ŕ missăo sem comprometer ou priorizar algum aspecto especifico para o desenvolvimentodo do projeto. Com a evoluçăo de ferramentas de otimizaçăo e a ajuda de métodos computacionais, esse processo tem se tornado cada vez mais rápido e eficiente, principalmente durante a fase de projeto conceitual. A utilizaçăo de otimizadores é, portanto, comum na indústria aeronáutica e isso se reflete em projetos estudantis como a competiçăo SAE (Society of Automotive Engineers) Brasil AeroDesign. Nesse contexto, a equipe de Aerodesign do ITA busca constantemente aprimorar seus métodos de dimensionamento de aeronaves e ter ferramentas que sejam coerentes em nível de fidelidade para todas as disciplinas envolvidas. Atualmente o grupo conta com análises aerodinâmicas avançadas baseadas na metodologia de malha de vórtices (VLM), bem como estudos de cargas, desempenho, controle, estabilidade, entre outras. Por conta disso, percebeu-se a necessidade de desenvolver um módulo estrutural mais detalhado e preciso. A proposta desse trabalho é criar um módulo de otimizaçăo estrutural que automatize a análise de esforços e o dimensionamento do caixăo da asa de uma aeronave para aplicaçăo em projetos de Aerodesign. Desse modo, foi desenvolvido um código de otimizaçăo com o método SLSQP (Sequential Least Squares Programming) a partir da biblioteca minimize da linguagem python. Como recurso para cálculo de falha foi adaptado um código de elementos finitos baseado em elementos de viga de 12 graus de liberdade. O programa foi validado com estudos de casos do código aberto OpenAeroStruct reconhecido no meio acadęmico e que conta com simulaçőes realizadas no framework OpenMDAO da NASA.",
+  "subjects": [
+    "Projetos de aeronaves",
+    "Otimizaçăo",
+    "Método de elementos finitos",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78035",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78035&origem=BDITA"
+}

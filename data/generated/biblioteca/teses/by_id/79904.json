@@ -1,0 +1,31 @@
+{
+  "num_tese": "79904",
+  "type": "tese",
+  "title": "Propeller slipstream effects on aircraft flight dynamics",
+  "author": "Túlio Campos Menezes",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Recent studies demonstrated that propeller effects, such as the slipstream interaction with lifting surfaces, influence the aeroelastic flight dynamics of very flexible aircraft. Additionally, recent studies conducted at ITA indicated that simplifying assumptions in the slipstream modeling for the ITA X-HALE, a very flexible aircraft platform, might be associated with some differences observed between simulations and flight test data. With that in mind, this work has the objective of investigating the effects of the slipstream on the dynamics, stability and control of the ITA X-HALE. The scope of this work was limited to the rigid body dynamics evaluation, considering the aircraft undeformed geometry. This study was strongly based on the low-cost approach recently developed at ITA for the slipstream-wing interaction in steady flow regime. This approach considers the Blade Element Momentum Theory for the propeller performance calculation. The slipstream model is based on the circulation distribution of the blade associated with analytical methods to obtain the velocities along the slipstream. For the lifting surfaces, the Vortex Lattice Method is used. The interaction between slipstream and lifting surfaces is obtained incorporating the propeller induced velocities on the wing panels. For this work, the slipstream-wing interaction approach aforementioned was extended to calculate the slipstream interaction with the complete aircraft. To do that, the slipstream displacement effect due to the propeller inflow angle was considered, based on a methodology from ESDU (Engineering Sciences Data Unit). The effects of the aircraft motion over the propeller local velocities and local angles were also considered. The X-HALE propeller geometry was obtained from a manual measuring methodology. The propeller performance was obtained and verified against experimental data. A good overall agreement was observed between the numerical and experimental results, indicating that the obtained models for the propeller and slipstream are representative of the X-HALE propeller. Based on the adapted model for the complete aircraft, the results indicating the slipstream effects over the X-HALE dynamics, stability and control are presented and discussed. For that, three scenarios are considered: the first one corresponds to the scenario without slipstream effects; the second and third scenarios consider the slipstream effects, without and with slipstream displacement, respectively. The results indicate that the slipstream increases the longitudinal static stability. In terms of control effectiveness, the slipstream increases the longitudinal control effectiveness and reduces the directional control effectiveness. Regarding the dynamic modes of the aircraft, the results indicate mainly an effect of reduction in the phugoid damping, an increase in the spiral mode time constant and an increase in short-period mode damped frequency.",
+  "subjects": [
+    "Hélices",
+    "Asas flexíveis",
+    "Estabilidade de aeronaves",
+    "Dinâmica de voo",
+    "Controle",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "01/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79904",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79904&origem=BDITA"
+}

@@ -1,0 +1,38 @@
+{
+  "num_tg": "78833",
+  "type": "tg",
+  "title": "Machine learning approaches for road condition monitoring using synthetic aperture radar",
+  "author": "Lucas Germano Rischioni",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Renato Machado",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Arun Babu",
+      "professor_slug": null
+    },
+    {
+      "name": "Stefan Valentin Baumgartner",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Airborne Synthetic Aperture Radar (SAR) has the potential to monitor remotely the road traffic infrastructure on a large scale. Of special interest is the road surface roughness, which is an important road safety parameter. Novel algorithms need to be developed to estimate the road surface roughness and detect the cracks and potholes. Machine learning approaches, such as Artificial Neural Networks (ANN) and Random Forest Regression (RFR), which can perform non-linear regression, can achieve this goal. This work considers fully polarimetric airborne radar datasets captured with DLR (German Aerospace Center) F-SAR radar system. Several machine learning-based approaches were tested on the datasets for accurately estimate road surface roughness assuming a small training dataset. The resulting models were then compared with ground truth surface roughness values and also with semi-empirical surface roughness models studied in previous work.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Rugosidade de superfície",
+    "Aprendizagem (inteligęncia artificial)",
+    "Rodovias",
+    "Rachaduras",
+    "Monitoramento",
+    "Algoritmos",
+    "Redes neurais",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78833",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78833&origem=BDITA"
+}

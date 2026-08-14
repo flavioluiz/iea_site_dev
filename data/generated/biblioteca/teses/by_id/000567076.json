@@ -1,0 +1,31 @@
+{
+  "num_tese": "000567076",
+  "type": "tese",
+  "title": "Estimativa de ruído gerado por turbinas a gás em operaçăo utilizando modelos empíricos.",
+  "author": "Daniel Jonas Dezan",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Modelos para a previsăo de ruído gerado por motores a jato, como turbofan de alta razăo de bypass, săo utilizados neste trabalho. Estes modelos, em conjunto com programas computacionais desenvolvidos no ITA, simulam a geraçăo de ruído em cada componente do motor e, entăo, determinam o ruído total irradiado. Métodos empíricos săo utilizados na determinaçăo do nível de pressăo sonora para cada banda de 1/3 de oitava, em funçăo da direcionalidade da fonte de ruído e da distância do observador até a fonte. A importância da previsăo de ruído gerado por motores aeronáuticos é ressaltada, sobretudo nos critérios que tangem a certificaçăo de aeronaves comerciais. Os componentes principais a serem estudados săo: fan/compressor, câmara de combustăo, turbina e bocal propulsor (jato simples). Resultados para jatos simples săo comparados com dados da literatura e para um motor tipo turbojato novo săo obtidos. A simulaçăo de funcionamento do motor completo, para gerar dados do escoamento para o cálculo do ruído, é comentada. Os dados de propriedades do escoamento e de projeto do motor săo feitos de modo a obterem as informaçőes necessárias a cada modelo de previsăo de ruído. Os modelos utilizados para previsăo de ruído de compressor, de câmara de combustăo, de turbina e de jato simples săo respectivamente NASA TM-195480, SAE ARP-876D, NASA-ANOPP e ESDU Item 98019. Um módulo capaz de calcular o nível de ruído produzido por um motor é incorporado ao programa de simulaçăo numérica de funcionamento de turbinas a gás, sendo capaz de predizer os níveis de ruído em condiçőes de operaçăo fora do ponto de projeto. Espera-se, com isto, obter informaçőes importantes sobre ruído, na fase de projeto do motor e/ou para subsidiar proposiçőes para a sua reduçăo.",
+  "subjects": [
+    "Aeroacústica",
+    "Turbinas a gás",
+    "Ruído aerodinâmico",
+    "Prediçăo de ruído (aeronaves)",
+    "Motores de aeronaves",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "28/01/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567076",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567076&origem=BDITA"
+}

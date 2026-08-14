@@ -1,0 +1,28 @@
+{
+  "num_tese": "74118",
+  "type": "tese",
+  "title": "Estimativa de parâmetros aerodinâmicos longitudinais de uma aeronave de combate em subescala",
+  "author": "Leonardo Murilo Nepomuceno",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo de modelos em escala é uma ferramenta muito útil e vem sendo aplicada desde os primeiros projetos de aeronaves. O uso de modelos dinâmicos que permitem voos iguais a de uma aeronave tripulada, tem ganho mais atençăo da indústria ultimamente. Graças ao desenvolvimento de sistemas de aquisiçăo em voo e eletrônica relacionada. O estudo e as potęnciais contribuiçőes de um modelo dinâmico em voo livre, esta sendo desenvolvido em parceria entre a Universidade de Linköping e o ITA - Instituto Tecnológico de Aeronáutica. Enquanto a instituiçăo sueca construíu, voou e aquisitou dados em voo de uma aeronave de combate em subescala, o ITA processou estes dados e identificou os parâmetros aerodinâmicos da aeronave. A abordagem presente neste trabalho é a identificaçăo de parâmetros por meio do Método de Erro na Saída do modelo longitudinal da aeronave em escala. A aplicaçăo do método de identificaçăo seguiu o processo do M4V, manobra, modelo, método, medida e validaçăo. A aeronave foi excitada em voo por uma entrada doublet no elevon com a intençăo de excitar adequamente o modo de voo. A aplicaçăo da excitaçăo na superfície de comando foi analisada e discutida. A realizaçăo da validaçăo deste modelo utilizou critérios estatísticos e sua incerteza também foi estimada. Por fim, o modelo também foi comparado a uma manobra gravada em voo, que năo fez parte dos dados utilizados na identificaçăo.",
+  "subjects": [
+    "Aeronaves de caça",
+    "Aquisiçăo de dados",
+    "Identificaçăo de parâmetros",
+    "Mecânica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "30/11/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74118",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74118&origem=BDITA"
+}

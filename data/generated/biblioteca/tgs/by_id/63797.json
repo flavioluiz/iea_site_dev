@@ -1,0 +1,25 @@
+{
+  "num_tg": "63797",
+  "type": "tg",
+  "title": "Seleçăo de propulsores elétricos para uso em CubeSats",
+  "author": "Humberto Consolo Holanda",
+  "year": "2012",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "André Luiz Pierre Matei",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho de graduaçăo avalia os possíveis candidatos a propulsor elétrico em CubeSats, propőe o uso de alguns destes e, por fim, apresenta alguns resultados práticos obtidos de experimentos realizados no SPL do MIT com propulsores coloidais a base de EMI-BF4 utilizando uma fonte de voltagem senoidal de alta frequęncia. O principio físico de propulsăo é a lei da açăo e reaçăo em que parte da massa contida na espaçonave é usada para impulsioná-la. Contudo, o uso de propelentes sólido e líquido é limitado pelo baixo impulso específico Isp produzido, relacionado com a quantidade de massa necessária para acelerar a espaçonave. Uma das formas de aumentar essa grandeza é por meio do uso de propulsores elétricos, em que a fonte de energia está separada do propelente a ser acelerado. Dessa forma, os conceitos disponíveis săo: resistojets e arcjets, propulsor iônico, propulsor de efeito Hall, PPT (thruster pulsed plasma), propulsor MPD (magnetoplasmadynamic), FEEP (field emission electric propulsion thruster), propulsores coloidais. Destacam-se como possíveis aplicaçőes em CubeSats as tecnologias do PPT, FEEP e do propulsor coloidal. Dentre esses propulsores, estudou-se mais profundamente o propulsor coloidal ou electrospray. Electrosprays emitindo de gotículas carregadas (droplets) e íons, nominalmente operando em tensăo contínua, tęm sido propostos e estudados como propulsores espaciais. Uma abordagem alternativa seria fazer uso de sinais de tensăo de corrente alternada a frequęncias elevadas (> 1 kHz) para controlar o processo de electrospray. Uma fonte iônica líquida de íons externamente molhada com 1-metil-3-metilimidazólio tetrafluoroborato (EMI-BF4) é caracterizada a diferentes amplitudes de tensăo e frequęncias, usando a técnica de espectrometria de tempo de voo (TOF). A partir dessa caracterizaçăo, as propriedades feixe, como razăo carga-massa, eficięncia e impulso săo estimadas. Estes resultados apresentam várias características que sugerem um comportamento análogo entre o modo AC de alta frequęncia AC e DC. Estas incluem a emissăo de misturas de mais simples de íons BF4- ou EMI + juntamente solvatadas em espécies mais pesadas, além de um impulso estimado da ordem de 1 nN para uma média de uma corrente de ~10 nA para um único emissor. Operaçăo em modo AC pode ser benéfico na reduçăo da complexidade e dimensőes da eletrônica de potęncia para os módulos pequenos de electrospray em aplicaçőes de micro propulsăo, incluindo CubeSats.",
+  "subjects": [
+    "Propulsores",
+    "Frequęncia muito alta",
+    "Propelentes sólidos",
+    "Propelentes líquidos",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63797",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63797&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000539466",
+  "type": "tese",
+  "title": "Choices and pitfalls concerning mixture-of-experts modeling.",
+  "author": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Researchers of different fields often need to learn and represent phenomena through relationships between variables and use them to predict the phenomena behavior under uncertain conditions. However, choosing the \"best\" model in a modeling exercise is always an arduous task, yet because of the various uncertainties associated with the modeling process.A way of obtaining a better prediction than it would be provided by a single model may be by combining a number of different model structures. Each model is adopted at a given observation with a probability that depends on the values of the explanatory variables for that observation. This is the logic under the mixture-of-experts model (MEM).The general MEM framework specifies that a prediction is made up of a series of predictions from separate models, or experts, each of them weighted by a quantity determined by a so called gating function.However, when building a MEM, many important decisions ought to be made, such as determining the number of clusters in to which the global data is to be sectioned and the clustering method to be adopted; the nature of the gating function applied; the criteria employed to elect the experts and the data set selected for performing validation, for example. Depending on how these decisions are made, different mixtures might be formed, providing different results.In the present study, we investigated the way such decisions affect the performance of the MEM, when this technique employs statistical models, applied to regression problems. The problem under analysis consists of estimating the municipal gross domestic product for the Brazilian states of Pará and Maranhăo, as functions of municipal macroeconomic and demographic variables.",
+  "subjects": [
+    "Análise estatística",
+    "Modelos matemáticos",
+    "Análise de aglomerados",
+    "Prediçăo",
+    "Produto interno bruto",
+    "Indicadores socioeconômicos",
+    "Inteligęncia artificial",
+    "Matemática"
+  ],
+  "defense_date": "11/11/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000539466",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000539466&origem=BDITA"
+}

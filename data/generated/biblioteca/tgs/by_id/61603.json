@@ -1,0 +1,31 @@
+{
+  "num_tg": "61603",
+  "type": "tg",
+  "title": "Estudos de CFD de um veículo hipersônico com motor SCRAMJET",
+  "author": "Marco Antônio Barros da Silva Bezerra",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    },
+    {
+      "name": "Maurício Antoniazzi Pinheiro Rosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O investimento em novas tecnologias com objetivo de soberania aeroespacial é um dos focos da Força Aérea Brasileira, controladora do Instituto de Estudos Avançados (IEAv). Um dos projetos em estudo nesse instituto é o Veículo Hipersônico 14-X, veículo que pretende atingir velocidades hipersônicas (Mach maior ou igual a 5,0). Mais precisamente, o ponto de projeto estima vôo balístico em velocidade da ordem de grandeza dez vezes maior que a velocidade do som local. A estrutura do Veículo Hipersônico 14-X, entăo, estará sujeita a diversas ondas de choque ocorretes no intradorso, na entrada da câmara de combustăo e dentro mesma. Para que se tenha uma estimativa dos campos de Mach, pressăo, temperatura, densidade e vazăo do escoamento nas diversas regiőes do veículo (principalmente na câmara de combustăo), é interessante a simulaçăo fluidodinâmica computacional desse corpo nas suas condiçőes de operaçăo. Nesse ponto inicial de estudo Veículo Hipersônico 14-X, mostra-se também útil uma abordagem simplificada das condiçőes de operaçăo, como por exemplo a exclusăo de efeitos viscosos e a suposiçăo de estrutura em formato 2D. Assim, săo considerados apenas os efeitos mais gerais sobre o escoamento, de forma a economizar tempo e permitir o foco do estudo no refinamento da malha e na análise das propriedades aerodinâmicas do escoamento.",
+  "subjects": [
+    "Veículos hipersônicos",
+    "Vôo hipersônico",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Escoamento hipersônico",
+    "Características aerodinâmicas",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61603",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61603&origem=BDITA"
+}

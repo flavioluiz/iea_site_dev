@@ -1,0 +1,28 @@
+{
+  "num_tese": "000240779",
+  "type": "tese",
+  "title": "Uma metodologia de análise aeronáutica com variáveis de estado utilizando técnicas de aerodinâmica computacional",
+  "author": "Luiz Cláudio Oliveira",
+  "year": "1993",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho e proposta uma metodologia para a analiseaeroelastica de superficies sustentadoras bidimensionais utilizando tecnicas de dinamica dos fluidos computacional para o calculo do operador aerodinamico. O escoamento e modelado pelas equacoes de Euler em duas dimensoes, e resolvido utilizando-se um metodo devolumes finitos aplicado em um contexto de malhas nao-estruturadas. A marcha no tempo do sistema de equacoes semi-discretizadas e feita atraves de um metodo explicito do tipo Runge-Kutta hibrido de cinco passos. A malha computacional e obtida utilizando-se um esquema do tipo frente de geracao, com capacidade limitada de suavizacao e refinamento. Para a resolucao dos problemas nao-estacionarios, envolvendo o deslocamento do perfil, e utilizado um algoritmo de malha dinamica para a movimentacao dos pontos interiores ao dominio. O problema de estabilidade aeroelastica e resolvido utilizando-se uma formulacao por variaveis de estado, aplicada ao modelo classico de uma secao tipica. Os termos do operador aerodinamico sao determinados atraves da analise, no dominio da frequencia, da resposta do sistema a um deslocamento impulsivo no dominio do tempo. Sao feitas algumas experimentacoes numericas envolvendo escoamentos transonicos em torno de um perfil NACA 0012. Os resultados apresentam as potencialidades do codigo numerico, ressaltando a sua utilidade na analise das caracteristicas de escoamentos nao-estacionarios. A metodologia de analise aeroelastica e avaliadaem cada uma das suas etapas, demonstrando tambem as suas potencialidades. Por fim, sao discutidos estudos objetivando aimplementacao pratica das tecnicas aqui propostas.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/08/1993",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000240779",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000240779&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "79621",
+  "type": "tese",
+  "title": "High-fidelity simulation of vortex generator vanes immersed in turbulent boundary layer with spectral/hp element methods",
+  "author": "Augusto Henrique Peruchi Zanca",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The main objective tackled in the present thesis was the simulation of a set of vortex generator vanes immersed in a turbulent boundary layer. For this end, a new methodology of creating spatially developing turbulent flows for high fidelity simulations was investigated, through a combination of channel flow and boundary layer simulations. Implicit Large-Eddy simulations, in which artificial numerical stabilization is employed instead of sub-grid models, were conducted using the Nektar++ Spectral Element method solver. Leveraging previous channel flow simulations at Re? = 180, an investigation was made to extend the usability of the proposed methodology to higher Reynolds numbers, up to the target simulation at Re? = 850. These results were then leveraged to conduct the simulation of a spatially developing turbulent boundary layer at these conditions, finally culminating with the introduction of the vortex generator vanes into the simulation domain after verifying the validity of the boundary layer results. In spite of restrictions related to computational cost and simplifications of domain size and vane geometry, the simulations revealed good agreement against existing experimental data.The obtained results reveal insights on the presence of turbulence structures, as well as the trajectory and intensity of the vortices created by the vanes. Additionally, the analyses of Reynolds stresses, integral quantities and wall quantities reveal the effect of the presence of the vortex generators. Overall, the present study reveals a promising simulation framework for future research, and great potential for industry application.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Camada limite turbulenta",
+    "Métodos espectrais",
+    "Vórtices",
+    "Número de Reynolds",
+    "Física"
+  ],
+  "defense_date": "20/02/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79621",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79621&origem=BDITA"
+}

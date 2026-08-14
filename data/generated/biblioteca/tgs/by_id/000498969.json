@@ -1,0 +1,39 @@
+{
+  "num_tg": "000498969",
+  "type": "tg",
+  "title": "Simulaçăo de escoamentos monofásicos em tubeiras axissimétricas de motores-foguete.",
+  "author": "Henrique Lemos de Faria",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    },
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Fausto Ivan Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Dinâmica dos Fluidos Computacional, CFD, se preocupa com o desenvolvimento e aplicaçăo de técnicas de simulaçăo numéricas. Ela é uma ferramenta poderosa para diminuir os custos de desenvolvimento de projeto no qual a aerodinâmica seja determinante. No presente trabalho, uma análise do escoamento interno aerodinâmico numa tubeira de motor-foguete a propelente líquido é proposta. O objetivo é determinar a existęncia de onda choque e as propriedades termodinâmicas para o caso de escoamento sobrexpandido utilizando ferramenta numérica de CFD. Essa ferramenta computacional soluciona problemas de escoamentos axissimétricos usando as equaçőes de Euler. Discretizaçőes espaciais săo implementadas por diferenças centradas mais termos de dissipaçăo artificial e a marcha no tempo é feita com o esquema de fatoraçăo aproximada implícita de Beam e Warming. Para a eficięncia computacional, o código foi desenvolvido assumindo malha de bloco simples. A implementaçăo do código em questăo é para uma tubeira transônica convergente-divergente. Para tanto, usam-se condiçőes de contorno de entrada e saída implementadas com a ajuda das relaçőes características unidimensionais para as equaçőes bidimensionais de Euler. Condiçőes de contorno fracas săo usadas na linha de centro e condiçőes de superfície sólida săo usadas na parede da tubeira.",
+  "subjects": [
+    "Escoamento axissimétrico",
+    "Tubeiras de foguetes",
+    "Motores foguetes a propelente líquido",
+    "Simulaçăo computadorizada",
+    "Aerodinâmica",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Termodinâmica",
+    "Equaçăo de Euler-Lagrange",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000498969",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000498969&origem=BDITA"
+}

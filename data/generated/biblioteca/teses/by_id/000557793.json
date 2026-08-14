@@ -1,0 +1,35 @@
+{
+  "num_tese": "000557793",
+  "type": "tese",
+  "title": "Modelagem dinâmica e análise modal de um manipulador robótico com dois elos flexíveis.",
+  "author": "Clayton Rodrigues Bernardo",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Sistemas manipuladores flexíveis apresentam muitas vantagens sobre os sistemas tradicionais (manipuladores com braço rígido). No entanto, sua utilizaçăo em diversas áreas industriais năo tem sido favorecida devido ŕs dificuldades no controle destes manipuladores flexíveis. Esta tese apresenta um estudo teórico da modelagem e caracterizaçăo de um sistema manipulador com dois elos flexíveis. O produto desta modelagem, obtida através do Maple é usado para simular o sistema manipulador com dois elos flexíveis no software do MATLAB. Os resultados práticos săo obtidos a partir da montagem experimental em conjunto com o software do dSPACE e do MATLAB, estes programas săo utilizados para tratamento dos sinais coletados da planta. Após a obtençăo dos resultados teóricos e experimentais é feita uma análise comparativa năo paramétrica com o objetivo de verificar a precisăo associada ao modelo năo paramétrico obtido na teoria. A modelagem do sistema é baseada no método dos modos assumidos, obtendo-se os dois primeiros modos de vibraçăo para os dois elos flexíveis utilizados no experimento.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Estimaçăo de sistemas",
+    "Braços robóticos",
+    "Manipuladores",
+    "Modelagem (processos)",
+    "Corpos flexíveis",
+    "Vibraçăo",
+    "Análise modal",
+    "Robôs",
+    "Controle automático",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "14/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557793",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557793&origem=BDITA"
+}

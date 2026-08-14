@@ -1,0 +1,36 @@
+{
+  "num_tese": "000147233",
+  "type": "tese",
+  "title": "Soluçăo de problemas de transporte em meios participantes, na geometria plana paralela, para condiçőes de contorno gerais",
+  "author": "Luís Antonio Waack Bambace",
+  "year": "1990",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Renato Machado Cotta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Carajilescov",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neste trabalho aborda-se a soluçăo da equaçăo de transporte radiativo unidimensional em meios participantes na geometria plana paralela. Por meio participante entende-se um meio que tanto emite, como absorve e espalha a radiaçăo eletromagnética. Na geometria plana paralela tem-se duas placas infinitas separadas por uma meio participante. Usou-se o método de Galerkin iterado, para atacar este problema escrito na forma integral, para uma condiçăo de contorno geral onde as fronteiras do sistema tanto podem emitir radiaçăo, como refleti-la especular e/ou difusamente. Com base nos trabalhos que abordaram as propriedades de convergęncia de soluçőes iteradas para equaçőes integrais de Fredholm de segunda espécie, estudou-se também as potencialidades de soluçőes iteradas cujas soluçőes de partida fossem obtidas pelo método dos harmônicos esféricos, em especial para o caso do método mais simples de soluçőa existente, que é o método P1. Como o método P1, năo é capaz de discriminar a refletividade especular da difusa nos contornos, derivou-se a formulaçăo P9 como um método de comparaçăo, com o intuito de se mostrar as tendęncias relativas ao efeito do tipo de refletividade no contorno, na qualidade das soluçőes aproximadas de baixa ordem.",
+  "subjects": [
+    "Transferęncia de calor por radiaçăo",
+    "Transferęncia por radiaçăo",
+    "Condiçőes de contorno",
+    "Método de Galerkin",
+    "Transferęncia de calor",
+    "Programas de computadores",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/03/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000147233",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000147233&origem=BDITA"
+}

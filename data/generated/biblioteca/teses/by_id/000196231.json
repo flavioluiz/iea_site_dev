@@ -1,0 +1,30 @@
+{
+  "num_tese": "000196231",
+  "type": "tese",
+  "title": "Modelamento teórico e experimental para análise vibracional de um manipulador robótico de tręs graus de liberdade (robô IEMP)",
+  "author": "Francisco José Grandinetti",
+  "year": "1992",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo principal deste trabalho é o estudo do comportamento dinâmico de um manipulador robótico de tręs graus de liberdade posicional. O estudo dinâmico focaliza o modelamento teórico e experimental do sistema de acionamento robótico. A tecnica de modelamento por grafos de ligaçăo \"bond-graph\" é caracterizada completamente pela fonte de flexibilidade devido a elasticidade da transmissăo mecânica e da compliância do acionamento com juntas robóticas flexíveis. Gera-se um modelo generalizado que contém as flexibilidades dos acionamentos, conectadas com a dinâmica de multi-corpos rígidos. Concluindo este estudo, um experimento foi montado, no qual inclui tręs graus de liberdade do manipulador robótico com acionamento por servomotores \"brushless\". Um microcomputador PC-AT compatível foi interfaceado com o CAMAC (IEEE-583) para executar as funçőes de excitaçăo do sistema de digitalizaçăo de sinais transduzidos. Um programa de acionamento utiliza conversores programáveis A/D e D/A do padrăo CAMAC foi aplicado no processamento digital dos sinais e estudos de identificaçăo através do modelamento por séries temporais dos processos AR, MA e ARMA.",
+  "subjects": [
+    "Robótica",
+    "Robôs",
+    "Manipuladores",
+    "Controle adaptativo",
+    "Dinâmica",
+    "Cinemática",
+    "Computaçăo"
+  ],
+  "defense_date": "01/06/1992",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000196231",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000196231&origem=BDITA"
+}

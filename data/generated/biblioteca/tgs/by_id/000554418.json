@@ -1,0 +1,30 @@
+{
+  "num_tg": "000554418",
+  "type": "tg",
+  "title": "Simulaçăo numérica da dinâmica de um turboreator com controle e regulaçăo de combustível.",
+  "author": "Otavio Caniçali",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    },
+    {
+      "name": "Bogdan Ponizy",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A globalizaçăo permitiu a abertura dos mercados a nível mundial e traz para as empresas uma a necessidade de aperfeiçoar seus produtos e diversificar seus clientes para permanecerem competitivas no mercado e aumentar o lucro. Neste contexto as empresas devem aumentar os esforços a fim de propor produtos que correspondam mais precisamente ŕs perspectivas dos clientes, para isso é necessário antecipar certos pontos ponderando várias variáveis importantes, como custo e tempo de fabricaçăo, qualidade, impacto ambiental, confiabilidade, etc. Esta necessidade de excelęncia é muito válida para fabricantes de motores de aviőes e helicópteros porque seu produto envolve investimentos financeiros e intelectuais pesados, além de fazer parte de um mercado que movimenta grandes quantidades de dinheiro, tornando as exigęncias mais restritas. Isso faz com que seja necessário se empenhar no processo de aperfeiçoamento contínuo da concepçăo de motores aeronáuticos, sendo portanto necessário conhecer precisamente seu comportamento na maior quantidade de condiçőes operacionais possíveis, seja em regime permanente ou transitório, a fim de localizar pontos que devem ser melhorados e aumentar seu desempenho e/ou rendimento. Para isso é necessário conhecimento das fases de funcionamento do motor, realizar simulaçőes numéricas para regular o consumo de combustível, e impor limites em casos que extrapolam as condiçőes nas quais o motor é capaz de operar com segurança. Estas medidas tornam o uso do motor mais econômico e aumentam sua vida útil sem comprometer sua funcionalidade, tornando-o mais competitivo no mercado. Justificada a necessidade de simulaçăo numérica de um motor, em uma fase pré-projeto, damos início ao trabalho. Os dois temas abordados neste trabalho serăo o estudo de turboreatores no regime permanente, e a análise da simulaçăo numérica de um turbo-eixo no regime transitório com regulaçăo de injeçăo de combustível. Inicialmente serăo implementadas as equaçőes faltantes da dinâmica geral de um turboreator em continuidade a um trabalho já iniciado em código Fortran. O segundo passo será obter os resultados de simulaçőes no regime permanente, forçando , afim de validar o código. Em seguida o trabalho será vinculado ao Matlab e o modelo transitório será feito em simulink com implementaçăo de um controle de injeçăo de combustível. Os limitantes que impőe os valores limites de injeçăo de combustível săo pompagem, temperatura de entrada do gás na turbina do gerador de gás, pressăo de saída do compressor, e extinçăo. Os valores săo calculados a partir das características do motor por métodos mostrados no decorrer do trabalho.",
+  "subjects": [
+    "Motores turbojato",
+    "Injeçăo de combustível",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Sistemas de propulsăo",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554418",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554418&origem=BDITA"
+}

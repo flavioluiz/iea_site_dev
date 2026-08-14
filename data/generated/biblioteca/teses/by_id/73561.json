@@ -1,0 +1,31 @@
+{
+  "num_tese": "73561",
+  "type": "tese",
+  "title": "Distribuiçăo de temperatura e pressăo e análise de tensőes de uma caverna de sal durante o enchimento com CO2.",
+  "author": "Henrique Bessa de Farias",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A comunidade científica que discute climatologia ainda năo chegou a um consenso com relaçăo ao fator antrópico na questăo do aquecimento global, mas há uma série de medidas públicas que incentivam a busca por estratégias que mitiguem a emissăo do gás carbônico na atmosfera, uma vez que ele é apontado como um dos principais suspeitos de provocar o temido efeito estufa, posto que sua concentraçăo tem aumentado bastante nos últimos anos. A Petrobras, como uma das maiores exploradoras de petróleo do mundo, é uma empresa que se preocupa com o desenvolvimento científico acerca das estratégias de controle ao CO2, já que a alta concentraçăo desse gás estaria atrelada ao uso de combustíveis fósseis. Uma das técnicas mais conhecidas e aclamadas nesta luta é o sequestro geológico de carbono, ou seja, devolver o carbono retirado da exploraçăo do petróleo ŕs cavernas que o abrigaram por milhares de anos. Depois de uma revisăo bibliográfica, foi constatado que existe uma vasta literatura acerca do sequestro geológico de carbono, mas todos os trabalhos possuem um enfoque mais geológico ou até mais econômico (como estudos de viabilidade, por exemplo). Inclusive o trabalho que serviu como base para este, desenvolvido pelo Professor Álvaro Maia, membro da Petrobras, é de natureza geológica. Entăo, foi decidido elaborar um trabalho voltado ŕ mecânica dos fluidos, abordando o problema com um outro olhar e entendendo, assim, como se comportam os fenômenos de transporte de massa, de transferęncia de calor e o comportamento estrutural durante o processo de enchimento. Para isso foi utilizado o programa STAR CCM+ na elaboraçăo de todos os modelos numéricos (escoamentos transientes, gás real, turbulentos e com formulaçăo implícita) e utilizadas malhas axissimétricas e uma malha tridimensional para a obtençăo de resultados que transmitissem com fidelidade o que acontecia na realidade. As simulaçőes foram validadas com um trabalho que modelava o enchimento de um cilindro com hidrogęnio, dada a falta de bibliografia com casos mais semelhantes ao estudado. No artigo utilizado para a validaçăo, foi reproduzido o caso em questăo e os resultados de distribuiçăo de pressăo e temperatura ao longo do processo de enchimento do reservatório comparados com o original, a fim de calibrar o programa utilizado. Finalmente, com o modelo devidamente validado, săo discutidos resultados a respeito do enchimento da caverna de sal com CO2, como: a distribuiçăo de temperatura, a distribuiçăo de pressăo, o comportamento da velocidade do fluido, o comportamento da vazăo mássica e um estudo sobre as tensőes e deslocamentos gerados ao final do processo.",
+  "subjects": [
+    "Captura de carbono",
+    "Cavernas",
+    "Mecânica dos fluidos",
+    "Distribuiçăo de temperatura",
+    "Distribuiçăo de pressăo",
+    "Geologia",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "29/08/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73561",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73561&origem=BDITA"
+}

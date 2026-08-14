@@ -1,0 +1,30 @@
+{
+  "num_tese": "64578",
+  "type": "tese",
+  "title": "Gerenciamento de estoques auxiliado por um sistema de prognóstico e monitoramento da saúde de sistemas aeronáuticos",
+  "author": "Leonardo Ramos Rodrigues",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O gerenciamento de estoques é um assunto que desperta muito interesse, tanto na indústria quanto no meio acadęmico. Na literatura é possível encontrar diversos modelos de gerenciamento de estoques. Uma característica comum desses modelos é que a qualidade dos resultados está fortemente ligada ŕ qualidade das estimativas das demandas futuras. O uso das previsőes de RUL (Remaining Useful Life) geradas por um sistema de PHM (Prognostics and Health Monitoring) pode representar uma evoluçăo nas estimativas das demandas futuras, possibilitando uma melhoria no gerenciamento dos estoques. O objetivo desta tese é propor um método para estimar as demandas futuras por peças de reposiçăo de itens năo reparáveis, baseado em informaçőes obtidas de um sistema de PHM. As estimativas de demanda obtidas pelo método proposto foram usadas para determinar os parâmetros de um modelo [R, Q] (ponto de pedido com lote econômico). Foram feitas simulaçőes para comparar o desempenho do método proposto com o método clássico de estimativa de demandas futuras em termos de custos totais médios e nível de serviço atingido. Nas simulaçőes realizadas, o método proposto apresentou melhores resultados que o modelo [R, Q] clássico para todos os níveis de serviço considerados.",
+  "subjects": [
+    "Controle de estoques",
+    "Monitoramento da saúde de sistemas",
+    "Estimaçăo de vida útil restante",
+    "Prognóstico",
+    "Análise de custos",
+    "Administraçăo",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "06/06/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64578",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64578&origem=BDITA"
+}

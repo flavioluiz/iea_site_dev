@@ -1,0 +1,28 @@
+{
+  "num_tese": "71831",
+  "type": "tese",
+  "title": "Análise de um motor de combustăo interna do tipo alternativo para uso aeronáutico",
+  "author": "Diego Roble Viol",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma análise teórica do desempenho de um motor de combustăo interna 2 tempos, utilizado como propulsor da motocicleta Yamaha RD350, para aplicaçăo em aeronaves de pequeno porte. Foram medidos em laboratório os parâmetros geométricos do motor e realizadas simulaçőes computacionais utilizando o software livre acadęmico Diesel-RK®. Os resultados obtidos pelo software foram comparados com os resultados obtidos por meio de ensaios experimentais realizados em dinamômetro nos laboratórios do (IPT). O modelo computacional foi validado pelos resultados obtidos no dinamômetro considerando as condiçőes de pressăo e temperatura atmosféricas de 1 bar e 295 K respectivamente. Em seguida foram simuladas condiçőes atmosféricas de pressăo e temperatura em funçăo da altitude de voo e como esta afeta as curvas de desempenho do motor, torque, potęncia e consumo específico. Os resultados obtidos com o motor em solo mostram que o torque máximo de 43 Nm ocorre a 7000 RPM, a potęncia máxima 39,6 kW é obtida aos 9000 RPM e o menor consumo específico de 0,45 kg/kWh se encontra a 7500 RPM. Em altitude simulada de 5000 m, o valor máximo de torque é de 23,3 Nm a 7000 RPM, potęncia máxima de 21,24 kW a 9000 RPM e o menor consumo específico de 0,48 kg/kWh a 7500 RPM. Há uma queda de 45,9% no valor de torque máximo, 46,4% no valor da potęncia máxima e um aumento de 6,5% no valor mínimo de consumo específico. Verificou-se que há um decréscimo médio de 9,3% nos valores de potęncia e torque para a cada elevaçăo de 1000 m na altitude de operaçăo do motor. Os ensaios e simulaçőes foram realizados utilizando como combustível a gasolina padrăo brasileira, E27, que contém 27% em volume de etanol anidro em sua composiçăo.",
+  "subjects": [
+    "Motores de dois tempos",
+    "Motores de combustăo interna",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71831",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71831&origem=BDITA"
+}

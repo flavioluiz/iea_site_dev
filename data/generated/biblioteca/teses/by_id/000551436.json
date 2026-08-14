@@ -1,0 +1,37 @@
+{
+  "num_tese": "000551436",
+  "type": "tese",
+  "title": "Proposta de metodologia para utilizaçăo de componentes năo qualificados em sistemas microprocessados para aplicaçőes espaciais.",
+  "author": "Tamara Menezes Arruda",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mischel Carmen Neyra Belderrain",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "As memórias săo de fundamental importância no computador de bordo de um satélite, uma vez que săo responsáveis por armazenar as informaçőes necessárias para o funcionamento correto do mesmo, além dos dados coletados pela carga útil do satélite. Este trabalho propőe uma metodologia e aplicaçăo da mesma em um sistema de memória, de tal forma que, através de passos bem definidos, possibilite a utilizaçăo de componentes de memórias năo qualificadas para área espacial, com o grau de confiabilidade especificado. Uma etapa baseada no processo de screening foi utilizada como parte integrante de um programa de confiabilidade conduzido na fase de projeto e desenvolvimento do computador de bordo. Na aplicaçăo, um lote mínimo de memórias SRAMs de categoria industrial projetada sem levar em conta efeitos do ambiente espacial (năo possuindo garantia do fabricante para operar no espaço) foram submetidas a screening.A metodologia utiliza a aplicaçăo da técnica de screening com a finalidade de conhecer as características de confiabilidade desses componentes e a eliminaçăo de componentes defeituosos. Uma outra etapa abordada na metodologia é o aumento da confiabilidade no desenvolvimento do módulo de memórias SRAMs para o computador de bordo, utilizando os componentes que sobreviveram ao screening. Finalmente, é proposta uma etapa de validaçăo do desenvolvimento do aumento da confiabilidade do módulo, utilizando o método de injeçăo de falhas. Os resultados conseguidos através da aplicaçăo da metodologia aos módulos de memória SRAM demonstram que a metodologia proposta pode vir a ser uma eficiente ferramenta de projeto a ser utilizada no desenvolvimento de sistemas espaciais.",
+  "subjects": [
+    "Componentes SRAM",
+    "Blindagem eletromagnética",
+    "Análise de confiabilidade",
+    "Ambientes aeroespaciais",
+    "Memória de acesso aleatório",
+    "Sistemas de computadores embarcados",
+    "Satélites",
+    "Equipamentos de bordo",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "08/04/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551436",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551436&origem=BDITA"
+}

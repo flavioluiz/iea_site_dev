@@ -1,0 +1,32 @@
+{
+  "num_tese": "78201",
+  "type": "tese",
+  "title": "Estudo paramétrico de jatos turbulentos aquecidos em escoamento cruzado",
+  "author": "Kelvin Cristofalo de Morais",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Carlos de Castro Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No setor aeronáutico, é comum que saídas de ar de sistemas operem com ar quente. O projeto destes componentes deve ser realizado minimizando os efeitos térmicos na superfície da aeronave e garantindo perdas de carga aceitáveis para o funcionamento adequado do sistema. Apesar destes componentes serem frequentes, há poucos estudos na literatura que ajudam a embasar o projeto preliminar. Este trabalho consiste no estudo paramétrico de instalaçăo de uma saída de ar quente sobre uma placa plana. A saída de ar consiste em um duto que descarrega ar quente sobre o domínio da placa plana, onde há um escoamento de camada limite externo turbulento. O objetivo do trabalho é entender como alguns parâmetros da instalaçăo modificam a posiçăo da pluma de ar quente formada pela exaustăo do escoamento interno, com foco na temperatura da placa plana. Além disso, entender como a perda de carga do sistema é modificada em funçăo destes parâmetros. O estudo é realizado de maneira numérica, utilizando o método de CFD baseado nas equaçőes médias de Navier-Stokes com média de Reynolds (RANS) para simular a interaçăo entre o escoamento interno e externo conforme eles se misturam ao longo da placa plana. Inicialmente, o modelo CFD é validado através de um estudo de refinamento de malha e de comparaçőes com dados experimentais, comparando o efeito de quatro modelos de turbulęncia na soluçăo numérica. Com o método de simulaçăo numérica validado, o estudo paramétrico é desenvolvido em condiçőes de operaçăo próximas de aplicaçőes aeronáuticas. Săo avaliados os efeitos do formato e alongamento do duto, da posiçăo de instalaçăo do duto na aeronave e do ângulo de alinhamento do duto em relaçăo ao escoamento externo. Os resultados numéricos mostram que o aquecimento da superfície da placa plana é reduzido quando a saída de ar apresenta seçăo transversal quadrada e alongada na direçăo do escoamento externo. Instalaçőes em posiçőes posteriores da aeronave e com maior ângulo de desalinhamento em relaçăo ao escoamento externo também promovem reduçăo no aquecimento da placa plana. Do ponto de vista de perda de carga, é preferível saídas de ar circulares, alongadas na direçăo do escoamento externo, instaladas em posiçőes posteriores e com ângulo de inclinaçăo mais alinhado com o escoamento externo.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Escoamento turbulento",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "10/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78201",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78201&origem=BDITA"
+}

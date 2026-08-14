@@ -1,0 +1,33 @@
+{
+  "num_tese": "73293",
+  "type": "tese",
+  "title": "Real-time gas turbine generic model for performance simulations",
+  "author": "Henrique Gazzetta Júnior",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Industry and universities around the world invest time and money to develop digital computer programs to predict Gas Turbine performance. This work aims to demonstrate a brand new digital model developed with the ability to simulate gas turbine high fidelity performance in real-time. The model herein described run faster than 30ms per point, which is compatible with a High Definition Video refresh rate: 30fps (frames per second). This user-friendly interface model, built in Visual Basic® in modular structure, can be easily configured to simulate almost all the existing aeronautical gas turbine architectures (single, two or three shaft engines mixed or unmixed flows). The real-time capability of the model enables simulations with the pilot in the loop at earlier design phases when their feedback may lead to design changes for improvements or corrections. In this sense were tested: three different types of nonlinear system of equation solvers (Newton-Raphson, Broyden and Inverse-Broyden); two types of Off Design components map format (tabulated and fitted surface equation); and three different starting point for the solver iterative procedure (Predefined estimation, previously converged point and Design Point). The accomplished work has shown to be successfully once the developed computational model complied with the initial requirements: high fidelity performance simulation at Design and Off Design, steady and transient, in less than 30ms, at the same time it is flexible and easy to configure to be representative of most of the engine architectures. The model simulation outputs were all verified against another available performance simulation tool, for engine architectures with single, two and three shafts, and validated against a real engine model used in the industry. In this work, in addition to the gas turbine performance simulation model description, it is shown its run time assessment and the model results validation.",
+  "subjects": [
+    "Sistemas ópticos",
+    "Visăo por computadores",
+    "Sistemas homem-máquina",
+    "Rastreamento (posiçăo)",
+    "Computaçăo"
+  ],
+  "defense_date": "07/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73293",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73293&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tg": "72454",
+  "type": "tg",
+  "title": "Desenvolvimento de um modelo de arrasto aerodinâmico para um hexacóptero",
+  "author": "Fabrício Cândido de Almeida",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "Hexacópteros săo aeronaves de asa rotativa cujo sistema propulsivo é constituído por seis motores. Neste trabalho, o termo hexacóptero refere-se a um grupo de aeronaves ainda mais restrito: aeronaves năo tripuladas, de pequeno porte, com hélices de passo fixo e sem swash-plates. O objetivo deste trabalho é desenvolver um modelo de arrasto aerodinâmico que possa ser implementado na malha de controle de hexacópteros de modo a torná-la mais eficiente, garantindo maior controle e estabilidade do veículo. Neste sentido, é necessário que os inputs do modelo se limitem ŕs informaçőes as quais podem ser obtidas a partir da dinâmica do veículo, tais como atitude (e suas derivadas no tempo), velocidade translacional do veículo e velocidade angular comandada de cada rotor.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Arrasto aerodinâmico",
+    "Controle de aeronaves",
+    "Controle de estabilidade",
+    "Aerodinâmica",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72454",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72454&origem=BDITA"
+}

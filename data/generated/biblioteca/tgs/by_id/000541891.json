@@ -1,0 +1,34 @@
+{
+  "num_tg": "000541891",
+  "type": "tg",
+  "title": "Low-thrust transfers from the earth to libration points orbits with a constrain in the thrust direction.",
+  "author": "Pedro Fernando Almeida Di Donato",
+  "year": "2006",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Josep J. Masdemont",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Due to their unique characteristics, the libration points have been receiving much attention in the last 25 years. Nowadays, the Lagrange relative positions known as point 1 and 2 of the Sun-Earth and Earth-Moon system present the most practical applications for astronomical and lunar related observatories. The study and design of missions related to them is usually based in the Dynamical Systems Theory which allows a alternative approach to the optimum transfer method. The use of invariant manifolds opens great possibilities not only to the design of more efficient transfers, but also to the better general understanding of the problem. By other hand, the increasing weight of payloads has encouraged the search for new propulsion methods, aiming in more efficiency. Between the new ideas, the use of solar electric low thrust thruster has been employed with success and figures as one of the most promising technologies to be widely used in the near future. Considering this, the main objective of this project was the determination and study of transfers from low Earth orbits to others around the libration points by mean of low thrust and using the Dynamic System theory, and, in particular, the stable manifolds associated to the target orbits. The interesting transfers were the ones that start in low eccentricity and low inclination parking orbits. In this project we restrict our study to the halo orbits around the libration points 1 and 2 of the Sun-Earth/Moon system. The thrust magnitude was considered constant from the starting orbit till the link with the manifold. Moreover, its direction was constrained for the one which provides the greater increase in the semi-major axis of the orbit. The study was conducted with a series of increasing complexity models. Starting from the simple circular restricted three body problem. We found several set of parameters that define interesting transfers. The next step was the development of a model for the near Earth perturbation forces that was integrated to the previous model. This new model was used to test the previously found interesting orbits and the impact of the perturbations on them could be determined. The last model used was based in the JPL Ephemerides model, taking into account all the main bodies of the solar system with the near Earth perturbations integrated to it. Applying the previous results to this model, we could precisely determine transfers that could be applied in real missions. A last study was performed involving the use of the optimum transfer theory in order to have a more efficient thrust arc by changing the previously constrained thrust direction.",
+  "subjects": [
+    "Pontos de equilíbrio de Lagrange",
+    "Órbitas de transferęncia",
+    "Baixo empuxo",
+    "Sistemas dinâmicos",
+    "Controle óptimo",
+    "Libraçăo",
+    "Problema de tręs corpos",
+    "Mecânica celeste",
+    "Astronomia"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000541891",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000541891&origem=BDITA"
+}

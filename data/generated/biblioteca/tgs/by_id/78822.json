@@ -1,0 +1,26 @@
+{
+  "num_tg": "78822",
+  "type": "tg",
+  "title": "Integral boundary layer methods for optimization of airfoils and wings using 3D panel method codes",
+  "author": "Pedro de Almeida Secchi",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work seeks to clarify the practical use of potential flow codes corrected for the presence of boundary layers for the optimization of airfoils, wings and complete aircraft configurations. To this end, both a two-dimensional and a three-dimensional methodology of aerodynamic analysis by potential flux corrected for boundary layer are elaborated and implemented based on existing theory and techniques. After testing the generated programs for various operating conditions at low subsonic regime, parameterization methods and optimization of geometries are implemented and tested with the aforementioned analysis tools embedded in their objective function calculations. Additionally, an optimization algorithm based on surrogate models and gradient-free is suggested to address the specific characteristics of the problems addressed here. Finally, both integral boundary layer methodologies and their underlying theory have their relationship to the results obtained dissected in terms of design trends and convergence properties for gradient descent and metaheuristic methods. Two (two- and three-dimensional) viable methodologies for wing optimization and the corresponding software tools are presented as the final product of the work, presenting not only fidelity compatible with optimizations for drag minimization, but also the demonstrated potential of reducing drag by about 10% for wings with geometry and wing loading compatible with general aviation.",
+  "subjects": [
+    "Asas",
+    "Aerofólios",
+    "Camadas limite",
+    "Otimizaçăo",
+    "Projeto de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78822",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78822&origem=BDITA"
+}

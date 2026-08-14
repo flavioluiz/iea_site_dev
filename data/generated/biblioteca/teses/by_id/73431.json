@@ -1,0 +1,34 @@
+{
+  "num_tese": "73431",
+  "type": "tese",
+  "title": "An implicit unstructured finite volume algorithm for 3D compressible flows",
+  "author": "Diogo Ferraz Cavalca",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present work deals with the development and implementation of an algorithm of implicit formulation for fluid flow simulation. The work purpose is to obtain an effective and robust code for steady-state compressible fluid flows using a second-order upwind scheme of Roe for Euler and Navier-Stokes equations. The implementation was performed in a computational fluid dynamics code developed in the turbomachinery department at ITA. The code is three-dimensional, unstructured, based on the finite-volume discretization method, and it was developed using the FORTRAN programming language. The development of the proposed algorithm was divided into two steps: building the linear system and solving the linear system. The construction of the linear system for the implicit scheme was performed applying the backward Euler on the left-hand side of the conservation equation and Newton-type linearization on the right-hand side. The Jacobian matrix, which resulted from the linearization process, was computed analytically from the inviscid and viscous fluxes. In this phase, the implicit \\textit{defect-correction} technique was employed, where the flux integral on the right-hand side is computed based on higher-order of accuracy and the left-hand side the Jacobian is performed based on lower-order. To solve the resulting sparse and large system of linear equations the Gauss-Seidel iterative method was used. Simulations were performed through case studies (supersonic nozzle, transonic airfoil, and laminar flat-plate) in order to demonstrate the capacity of the developed implicit algorithm in typical problems of aerodynamic. From the simulation results, validation and verification were then carried out for the implicit algorithm. In the sequence, convergence analyses comparing the implicit and explicit algorithms were realized showing the significant speed-up of the implicit scheme over the explicit pseudo-time stepping scheme. In all case studies, the implicit algorithm showed to be more efficient, consistent, and with improved numerical stability, mainly in flows with shock wave formation and transonic conditions. Despite the significant improvement in the convergence rate and robustness, limits were found in the stability conditions that are discussed later in the results.",
+  "subjects": [
+    "Simulaçăo do escoamento",
+    "Métodos de Newton",
+    "Dinâmica dos fluidos computacional",
+    "Equaçőes de navier-stokes",
+    "Algoritmos",
+    "Física"
+  ],
+  "defense_date": "04/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73431",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73431&origem=BDITA"
+}

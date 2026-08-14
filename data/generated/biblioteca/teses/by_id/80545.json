@@ -1,0 +1,38 @@
+{
+  "num_tese": "80545",
+  "type": "tese",
+  "title": "Characteization and modelling of milling induced damage in composite laminates",
+  "author": "Sergio Luiz Moni Ribeiro Filho",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The aerospace industry, bound by exacting design mandates, seeks ever-leaner, more economically sustainable aircraft to meet the urgent need for reduced emissions. In this pursuit, carbon fibre-reinforced polymers (CFRPs) are among the most widely adopted, offering bespoke, damage-tolerant structures whose remarkable strength-to-weight ratios come paired with more fuel-efficient aircraft. This work introduces an energy-based formulation for a three-dimensional ply failure model to investigate the milling-induced damage of unidirectional (UD) CFRP, using a VUMAT subroutine. The model incorporates a unique fibre-kink formulation, where kink-band initiation is defined by matrix failure criteria within the localized deformation band. This damage framework integrates a continuum damage mechanics (CDM) with cohesive interface elements to predict both intra/translaminar and interlaminar failure modes. At the ply level, the CDM model accounts for in-plane shear failure, fibre failure (in tension/compression), and matrix cracking (in tension/compression). Machining-induced delamination is evaluated using native cohesive interface elements, whose formulation is based on a bilinear traction-separation law, predicting the initiation and propagation of delaminations. Cutting forces are computed at each increment of time during the simulations and experimentally validated through dry milling tests. A full factorial design (2ł) is established to identify the effects of cutting speed, depth of cut, and tool geometry on the surface roughness, cutting forces and milling-induced damage on the carbon fibres, while a one-way analysis of variance assessed the influence of fibre cutting direction (0ş vs 90ş). Subsurface damage is characterized using high-speed imaging and scanning electron microscopy (SEM). A fairly good correlation between numerical predictions and experimental data in terms of milling force and damage patterns was found. The 4-flute end mill generated higher cutting forces compared to the 7-flute tool, leading to increased surface roughness and subsurface damage. The findings outline the multi-mechanism nature of CFRP milling damage: at lower depths of cut, the damage is relatively uniform and characteristic of a ductile-dominated regime, whereas increased cutting depths promote brittle failure modes such as fibre pull-out, interfacial debonding, and delamination.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Método de elementos finitos",
+    "Fibras de carbono",
+    "Danos",
+    "Fresagem (usinagem)",
+    "Deformaçăo",
+    "Delaminaçăo",
+    "Ensaios de materiais",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "27/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80545",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80545&origem=BDITA"
+}

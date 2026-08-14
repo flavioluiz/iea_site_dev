@@ -1,0 +1,30 @@
+{
+  "num_tese": "66371",
+  "type": "tese",
+  "title": "Modelo de projeto de controle térmico de satélites baseado em experimentos e otimizaçőes - aplicaçăo em satélite estabilizado em tręs eixos",
+  "author": "Douglas Felipe da Silva",
+  "year": "2014",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Foi desenvolvido um modelo para projetos de controle térmico de satélites, onde se busca a acurácia nas prediçőes de temperaturas e demais parâmetros inerentes ao projeto térmico. Tal modelo abrange análises experimentais e processos de otimizaçăo, sendo estes baseados no desenvolvimento de uma nova plataforma. A aplicaçăo do modelo foi realizada em um satélite com controle de atitude estabilizado em tręs eixos e, no caso em estudo, o satélite Amazonia-1 foi tomado como referęncia. Em relaçăo ŕs análises experimentais, a determinaçăo das propriedades efetivas de mantas térmicas compostas por isolantes de múltiplas camadas (MLI) e, também, a determinaçăo da condutância térmica transversal de painéis estruturais compostos do tipo honeycomb foram realizadas. Com base nos resultados do teste do honeycomb, avaliou-se qual modelo analítico melhor se ajusta aos resultados experimentais, assim como qual a melhor estratégia de se modelar um painel deste tipo. Os resultados experimentais serviram como dados de entrada na elaboraçăo do modelo térmico matemático do satélite, modelo este em que a configuraçăo do projeto térmico do satélite foi avaliada e definida. Após a definiçăo do projeto térmico, trabalhou-se na otimizaçăo do mesmo, visando reduzir, ou até mesmo eliminar, o consumo de potęncia elétrica por parte dos aquecedores, sendo que este recurso é extremamente valioso em missőes espaciais. O processo de otimizaçăo foi fundamentado na utilizaçăo do algoritmo M-GEO, integrado com os softwares de análise térmica ThermalDesktopTM, RadCAD e SINDA/FLUINT através da interface de controle estabelecida no aplicativo MS Excel. Nas análises visando ŕ otimizaçăo, a utilizaçăo de aletas como coletores solares foi considerada, assim como a determinaçăo dos melhores revestimentos e áreas para os radiadores. Com base nos resultados obtidos, demonstrou-se que o consumo de potęncia elétrica pode reduzir-se consideravelmente ou, até mesmo, ser eliminado em alguns casos, tendo como ferramenta de trabalho a nova plataforma.",
+  "subjects": [
+    "Satélites artificiais",
+    "Controle de temperatura",
+    "Modelos matemáticos",
+    "Otimizaçăo",
+    "Simulaçăo computadorizada",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "23/05/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66371",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66371&origem=BDITA"
+}

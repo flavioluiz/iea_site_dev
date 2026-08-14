@@ -1,0 +1,32 @@
+{
+  "num_tese": "78234",
+  "type": "tese",
+  "title": "Flight simulation of a flexible aircraft using neural networks for real-time applications",
+  "author": "Breno Soares da Costa Vieira",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Flight simulation is an essential part of the development and operation of any aircraft, not only supporting engineering analyses but also being fundamental for pilot training. In this sense, a practical simulation must be able to represent physical phenomena in a reasonable amount of time. However, as the mathematical and physical models become more complex, this balance between accuracy and cost becomes challenging. Such intricate models can be observed in flexible aircraft, in which the structural and aerodynamic couplings cause simulations to be computationally too expensive. An alternative approach is discussed in this work, replacing the aerodynamic calculations based on the vortex- lattice method for a database that relies on neural networks - a machine learning solution that estimates all relationships between the data by itself. These networks are trained with the aerodynamic data of a generic narrow-body aircraft, considering the rigid-body positions, angles and velocities, as well as the elastic displacements represented by a superposition of modes of vibration obtained with a Rayleigh-Ritz structural analysis. The networks' simple matrix form with reduced dimensions provides much quicker simulations than the vortex- lattice method. The limitations of these techniques are identified as more modes of vibration are included in the reduced-order models. A linearized approach is proposed in order to obtain aerodynamic derivatives with respect to the elastic coordinates that are nonlinear functions of the rigid-body variables. These networks present much faster training times, but fail to account for all nonlinear effects. To rectify this, a second-order term is also included in order to represent major interactions between elastic modes, resulting in a model with the same amount of modes of vibration as the original model and that presents a good balance between training time, accuracy and simulation time. Even though this model is trained for a specific set of eigenvectors, modal projection allows for its use in different mass configurations.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Simuladores de voo",
+    "Vibraçăo estrutural",
+    "Redes neurais",
+    "Mecânica de voo",
+    "Estruturas rígidas",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "21/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78234",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78234&origem=BDITA"
+}

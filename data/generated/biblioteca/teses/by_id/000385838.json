@@ -1,0 +1,31 @@
+{
+  "num_tese": "000385838",
+  "type": "tese",
+  "title": "Estudo da distribuiçăo de temperatura ao longo do corpo da estrutura de um acelerador linear de elétrons.",
+  "author": "Valéria Serrano Faillace Oliveira Leite",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marco Antonio Sala Minucci",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho apresentaremos o estudo da distribuiçăo de temperatura ao longo do corpo da estrutura aceleradora de um acelerador linear de elétrons durante a sua operaçăo. Uma alta potęncia de microondas (8MW) é injetada no interior da estrutura, que está mantido em vácuo, para gerar o campo elétrico que acelera os elétrons. Desta potęncia injetada parte é absorvida pelas paredes internas da estrutura, provocando o aquecimento desta e alterando assim as suas dimensőes. A sintonia entre os elétrons e o campo elétrico gerado pelo sinal de microondas está diretamente ligada ŕs dimensőes da estrutura, logo a temperatura no interior deste deve ter um rígido controle para que as suas dimensőes se mantenham constantes e conseqüentemente sejam evitados os desvios no valor da freqüęncia de oscilaçăo do modo acelerador. Devido a complexidade da geometria da estrutura aceleradora e da grande quantidade de fontes existentes, será utilizado o código numérico \"FLUX 2D\" para a execuçăo do cálculo da distribuiçăo de temperatura no corpo da estrutura aceleradora, sendo que, para obtermos mais confiança no código utilizado, foi feita a verificaçăo de sua aplicabilidade ao nosso problema usando um protótipo da estrutura em escala reduzida. Este estudo da distribuiçăo de temperatura visa obter os dados necessários para que seja possível fazer o cálculo do sistema de refrigeraçăo e controle que deverá manter o interior da estrutura aceleradora numa temperatura constante, definida e uniforme ao longo de todo o seu eixo longitudinal.",
+  "subjects": [
+    "Distribuiçăo de temperatura",
+    "Aceleradores de elétrons",
+    "Aceleradores lineares",
+    "Sistemas de refrigeraçăo",
+    "Transferęncia de calor",
+    "Controle",
+    "Física",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000385838",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000385838&origem=BDITA"
+}

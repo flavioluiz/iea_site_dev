@@ -1,0 +1,25 @@
+{
+  "num_tg": "73799",
+  "type": "tg",
+  "title": "Desenvolvimento de uma ferramenta computacional para análise de resultados de ensaio de bomba do motor L-75",
+  "author": "Lucas de Oliveira Silva",
+  "year": "2017",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Divisăo de Propulsăo Líquida (APE) do Instituto de Aeronáutica e Espaço (IAE), até a data de confecçăoo do presente relatório, tem como principal projeto o motor L-75. Por ser um motor de alto empuxo, seu projeto demanda alta pressurizaçăo na linha de combustível e oxidante, o que demanda uso de turbobombas.Assim, a equipe de turbo bombas da APE se encarrega do projeto, testes e análise de resultados dos componentes da turbo bomba, com auxílio do Laboratório de Propulsăo Líquida(LPL).Um importante requisito para comunicaçăo entre o LPL e a equipe de turbo bombas é uma ferramenta computacional que tome os dados gerados pelo banco de ensaios do LPL e os traduza em curvas de desempenho adequadas 'a análise da equipe. O presente trabalho visa o desenvolvimento dessa ferramenta computacional confiável, observando a necessidade de se alterar facilmente a estrutura desse software, dado que săo esperadas alteraçőes no paradigma dos ensaios no LPL com o melhor conhecimento da equipe acerca do comportamento do corpo de prova. Este relatório mostra a revisăo literária acerca do assunto, a seleçăo de um modelo teórico para comparaçăo, os conceitos e equaçőes de tratamento estatístico utilizados, um breve resumo do software desenvolvido e suas sub-funçőes, alguns resultados obtidos a partir de um ensaio da bomba do motor L-75,e por fim propostas de continuidade do trabalho e, em anexo, um primeiro estudo realizado a partir de análises da equipe da APE acerca dos resultados do software.",
+  "subjects": [
+    "Bombas de turbinas",
+    "Ferramentas de programaçăo",
+    "Desenvolvimento de produtos",
+    "Turbomáquinas",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73799",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73799&origem=BDITA"
+}

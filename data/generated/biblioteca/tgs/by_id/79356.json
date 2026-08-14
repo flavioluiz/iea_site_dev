@@ -1,0 +1,26 @@
+{
+  "num_tg": "79356",
+  "type": "tg",
+  "title": "Análise de comunicaçőes entre satélites para formaçőes em voo",
+  "author": "Pedro Henrique Saliba Pereira Ramalho",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente Trabalho de Graduaçăo tem como objetivo principal realizar um estudo sobre Formaçőes em Voo de Satélites (do inglęs, Spacecraft Formation Flying - SFF), levando em consideraçăo a comunicaçăo entre satélites em órbita. Esse tema tem ganhado cada vez mais importância tanto no contexto espacial brasileiro quanto internacional. Para alcançar esse objetivo, será desenvolvido um módulo utilizando a linguagem MATLAB que combina métodos de comunicaçăo entre satélites com análise orbital. A primeira etapa do projeto consiste no desenvolvimento de um módulo MATLAB capaz de realizar simulaçőes orbitais. Para isso, foi utilizada a API (Interface de Programaçăo de Aplicativos) da ferramenta GMAT (General Mission Analysis Tool). Essa ferramenta é amplamente utilizada para análises e simulaçőes orbitais em missőes espaciais e possui recursos poderosos para modelar e prever o comportamento dos satélites em órbita. Em seguida, foi desenvolvido o modelo de comunicaçăo entre satélites, também utilizando o MATLAB. Esse modelo leva em consideraçăo os parâmetros orbitais e as características físicas do sistema, permitindo estudar a qualidade do enlace de dados entre os satélites envolvidos na missăo. O modelo foi testado utilizando dados orbitais de duas SFFs distintas, incluindo a missăo ITASAT-2 e uma configuraçăo orbital teórica proposta por Che e Zhang (2006), e dados do sistema de comunicaçăo da missăo SPORT. Desse modo, foi possível estudar a degradaçăo de uma SFF na presença de perturbaçőes em órbita, bem como a qualidade de um enlace de dados em funçăo de diversos parâmetros como erros de apontamento, distância entre satélites e a arquitetura do sistema de comunicaçăo empregado.",
+  "subjects": [
+    "Satélites artificiais",
+    "Mecânica orbital",
+    "Transmissăo de sinais",
+    "Satélites de comunicaçăo",
+    "Órbitas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79356",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79356&origem=BDITA"
+}

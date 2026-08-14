@@ -1,0 +1,28 @@
+{
+  "num_tese": "75612",
+  "type": "tese",
+  "title": "Strain gage measurement for real-time deformed shape determination of flexible wing aircraft",
+  "author": "Jéssica Santos Martins",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "High aspect ratio aircraft (AR) are interesting for many applications such as environmental detection and military reconnaissance because of its higher aerodynamic efficiency. However, it results on the increase of flexibility that can lead to flight dynamics instabilities, which makes the control of this type of aircraft a challenge to this day. This instability can be reduced through continuous operation of control systems that need constant monitoring of the aircraft characteristics such as wing deformed shape. This work presents the measurement of strain gage data, in real time, to be supplied for closed-loop control systems. These strain gages were attached to Six-meter-span X-HALE aircraft wing ( ). To reach this goal a Bar prototype was constructed with full bridge strain gages embedded in the composite layers using the same materials and glass fiber layup as the X-HALE wing box and tested to determine the disturbance caused by fabrication process, structural and electrical interference on strain gage measurement accuracy. Based on these results X-HALE wing modules were constructed with full bridge strain gages embedded in the composite layers and tested in order to calculate elasticity and shear modulus of Finite Element Model (FEM), measure strain gage stability over time and correct strain gage response due to thermal load. The results showed that the influence of manufacturing process and electrical magnetic interference tested were negligible on strain gage measurements. A good agreement between simulated and experimental data was obtained when using the calculated elasticity and shear module. For external and internal (embedded) strain gage bridges measurements, stability with time was verified. Strain gages were sensitive to thermal loads, therefore, two correction methods were proposed and compared to original and filtered strain data: i) Functions of Temperature and ii) Dummy Gage. The results of lab and external experiments showed that both corrections were ineffective in reducing thermal drift to values that could be neglected when compared to the expected magnitude of strain measurement during flight maneuvers. Therefore, further studies on thermal correction of strain gage sensors, as well as the use of moving average filter for noise reduction, are recommended.",
+  "subjects": [
+    "Asas flexíveis",
+    "Dinâmica de voo",
+    "Extensômetros",
+    "Deformaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "20/02/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75612",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75612&origem=BDITA"
+}

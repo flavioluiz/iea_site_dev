@@ -1,0 +1,26 @@
+{
+  "num_tg": "67480",
+  "type": "tg",
+  "title": "Integraçăo do simulador de voo institucional com o simulador para a inserçăo de leis de controle",
+  "author": "Adailton Lopes dos Santos Filho",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No âmbito das evoluçőes aeronáutica do último século, a revoluçăo do Fly-by-wire e de todo domínio do Controle contribui para os níveis de segurança e conforto presentes nas aeronaves atuais. Dentro deste modelo, as Leis de Controle de Proteçăo visa garantir que o piloto consiga fazer todas as manobras, mas sem sair de um determinado envelope de voo, onde os limites estruturais e de conforto săo respeitados. Em complemento, a simulaçăo de voos e de calculo computacional também apresentou uma forte evoluçăo no final do século passado. Com base nisso, é possível realizar simulaçőes cada vez mais realistas, visando obter condiçőes próximas das enfrentadas em voo. Dito isto, este trabalho se propőe a realizar a integraçăo entre um simulador de voo, o X-Pane, e um simulador de cálculo computacional que permite a inserçăo de leis de controle, a extensăo Simulink do Matlab, de modo a poder reproduzir, verificar e analisar a aplicaçăo destas leis de proteçăo em determinadas situaçőes de voo.",
+  "subjects": [
+    "Simuladores de voo",
+    "Teoria de controle",
+    "Controle de aeronaves",
+    "Simulaçăo de sistemas em computadores",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67480",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67480&origem=BDITA"
+}

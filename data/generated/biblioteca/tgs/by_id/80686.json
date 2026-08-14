@@ -1,0 +1,33 @@
+{
+  "num_tg": "80686",
+  "type": "tg",
+  "title": "Projeto e análise de controle por modos deslizantes com tolerância a falhas em formaçőes em voo de satélites",
+  "author": "Érick Tenório da Silva",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Luís da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A manutençăo de formaçőes em voo de satélites exige estratégias de controle robustas capazes de lidar com falhas em atuadores e sensores. O Controle por Modos Deslizantes (SMC) apresenta robustez intrínseca a perturbaçőes, mas, sua aplicaçăo para tolerância a falhas em formaçőes orbitais ainda pode ser mais bem explorada. Este Trabalho de Graduaçăo propőe e avalia uma lei de controle SMC tolerante a falhas para a configuraçăo Líder- Seguidor, implementada em uma estrutura modular de simulaçăo desenvolvida em MATLAB e Simulink. O controlador define superfícies de deslizamento baseadas na condiçăo de Lyapunov e incorpora uma funçăo de saturaçăo para atenuar o chattering. A viabilidade do método é avaliada considerando métricas de desempenho como rastreamento da trajetória de referęncia, convergęncia das superfícies de deslizamento mesmo na presença de falhas e eficięncia no gasto de propulsăo (?V ). Os resultados demonstram que o controlador mantém estabilidade e rastreamento precisos após falhas simuladas nos propulsores e no sensor, com consumo total de propulsăo de aproximadamente 14 m/s e erro residual de rastreamento de até 11 cm, indicando robustez e viabilidade energética no cenário simulado para rastreamento de órbitas circulares no referencial năo inercial. Espera-se que os resultados obtidos sirvam como referęncia para futuras investigaçőes aprofundadas em controle orbital tolerante a falhas para formaçőes em voo.",
+  "subjects": [
+    "Engenharia aeroespacial",
+    "Perturbaçőes singulares",
+    "Sensores",
+    "Atuadores",
+    "Controle de satélites",
+    "Controle com modos deslizantes",
+    "Voo em formaçăo",
+    "Satélites"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80686",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80686&origem=BDITA"
+}

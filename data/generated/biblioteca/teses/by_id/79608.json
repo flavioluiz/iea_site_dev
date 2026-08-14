@@ -1,0 +1,30 @@
+{
+  "num_tese": "79608",
+  "type": "tese",
+  "title": "Propriedades dinâmicas do poli(ácido lático) produzido via manufatura aditiva por extrusăo",
+  "author": "Régis Guimarăes Silva",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Kahl Dick Zilnyk",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No processo de Fabricaçăo com Filamento Fundido (FFF) existem inúmeros parâmetros de processos que, quando variados, impactam diretamente nas propriedades mecânicas da estrutura final impressa. Tais impactos, teoricamente, influenciam nas respostas dinâmicas dos sólidos projetados, de forma que se faz necessário analisar os aspectos através de uma análise modal, com intuito de se verificar os modos de vibrar, bem como as respectivas frequęncias naturais. O presente estudo visa entender melhor a influęncia dos parâmetros de processamento nas características vibratórias de amostras fabricadas em poli ácido lático (PLA), e ainda, com auxílio de técnicas de Design of Experiments (DoE) desenvolver um experimento fatorial completo. Adicionalmente, os resultados experimentais encontrados săo comparados com análises teóricas através de Método do Elementos Finitos (MEF) e também com a teoria implementada através de códigos para geraçăo das curvas de funçăo em resposta das frequęncias. Os resultados mostraram que, apesar da variaçăo dos parâmetros de processo, os modos de vibrar permanecem sempre os mesmos, entretanto ocorrem em diferentes faixas de frequęncias. O código desenvolvido neste presente trabalho apresenta excelente capacidade de previsăo das faixas de frequęncia presente nas amostras em suas ressonâncias, bem como săo extremamente precisos no que se diz respeito ao comportamento modal das estruturas.",
+  "subjects": [
+    "Propriedades dinâmicas",
+    "Vibraçăo",
+    "Polímeros",
+    "Método de elementos finitos",
+    "Fabricaçăo",
+    "Engenharia de materiais",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "23/11/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79608",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79608&origem=BDITA"
+}

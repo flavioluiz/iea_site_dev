@@ -1,0 +1,28 @@
+{
+  "num_tese": "74630",
+  "type": "tese",
+  "title": "Estudos sobre sistemas de controle de atitude para a fase suborbital do voo de veículos hipersônicos",
+  "author": "Lucas Galembeck",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho contém uma análise sobre os sistemas de controle de atitude para ensaios ou voos de veículos hipersônicos que podem ser empregados na fase exoatmosférica, ou seja, após a separaçăo do foguete e antes da reentrada atmosférica, para estabilizaçăo e reorientaçăo da atitude do veículo. Inicia-se essa dissertaçăo com uma revisăo de literatura em que săo apresentadas algumas estratégias de controle e todo arcabouço teórico que vai fundamentar o restante do trabalho. Em seguida, é feita a caracterizaçăo dos atuadores e sensores, momento em que os atuadores săo dimensionados e suas características descritas por completo para implementaçăo na simulaçăo. O texto segue com a formulaçăo do problema, apresentaçăo das limitaçőes e hipóteses simplificadoras. Depois, desenvolve-se o sistema de controle propriamente dito, com uma extensa análise da resposta no domínio da frequęncia e do tempo para o LQR e o QFC, além da escolha dos ganhos que melhor se adequam aos sistemas. Em seguida, é feita a apresentaçăo dos resultados, simulaçőes e análises decorrentes, com especial atençăo para a robustez do sistema de controle através de diversas consideraçőes e uma simulaçăo de Monte Carlo. Por fim, é possível concluir o trabalho com um debate objetivo justificando-se os resultados obtidos e apresentaçăo de propostas de trabalhos futuros.",
+  "subjects": [
+    "Controle de atitude",
+    "Veículos hipersônicos",
+    "Regulador linear quadrático",
+    "Método de Monte Carlo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "06/07/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74630",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74630&origem=BDITA"
+}

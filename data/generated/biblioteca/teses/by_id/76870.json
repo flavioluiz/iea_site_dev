@@ -1,0 +1,34 @@
+{
+  "num_tese": "76870",
+  "type": "tese",
+  "title": "Numerical simulation of turbulent non-premixed combustion using a detailed kinetics approach",
+  "author": "Saulo Alfredo Gómez Salcedo",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Simulation of turbulent combustion involves the solution of a coupled system that includes transport equations of mass, momentum, species and energy. The steady flamelets approach allows to reduce the equations number to solve, introducing the concepts of mixture fraction and scalar dissipation rate. Also, chemical kinetics effects are included from the preliminary description of a laminar counterflow flame and introducing a pre-assumed probability density function. GRI-Mech is a well known reaction mechanism used to analyse the combustion between gas natural and air. However, it is not suitable for flames burning at pressures higher than 10 atm and/or with undiluted reactants. For the last operation regime, the ReduceSens mechanism has been proposed recently. The current thesis presents the simulation of two confined simple jet flames using the flamelets approach and these two reaction mechanisms. The first case corresponds to an adiabatic combustion chamber employed in an experiment with natural gas and air. Whereas, the second simulation is based on an experimental combustor which burns methane and oxygen at 20 atm. Velocity, kinetic turbulent energy and turbulent dissipation rate in the inlet boundaries are defined by profiles that correspond to the fully developed flow condition of the reactants streams. Besides, the mesh quality is assessed through the grid convergence index, and the discretization error is included in the results. Methane profiles obtained with different chemistry models are compared with experimental data available for the first simulation. The best agreement was obtained with the model of partial premixed combustion, changing the value of one coefficient of the realizable k-? model. Distribution of temperature, velocity, some species, and other variables for the two simulations are presented. In both cases, the location of the flame front is determined, using the stoichiometric value of the mean mixture fraction. Temperature contours and flame fronts show that thermal load on the wall chamber is reduced, if the oxidizer is injected through the central inlet jet, in chambers working with fuel excess. Recirculation zones are identified through streamlines. Modelling of viscosity and conductivity should be included to describe heat transfer on the walls. For this reason, an external subroutine, or user-defined function, was added to the commercial solver employed. The current thesis is one of the first works that applies ReduceSens in the simulation of a turbulent reactive flow.",
+  "subjects": [
+    "Combustăo turbulenta",
+    "Metano",
+    "Cinética das reaçőes",
+    "Análise numérica",
+    "Físico-Química",
+    "Química"
+  ],
+  "defense_date": "09/06/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76870",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76870&origem=BDITA"
+}

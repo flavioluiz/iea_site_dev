@@ -1,0 +1,28 @@
+{
+  "num_tg": "79996",
+  "type": "tg",
+  "title": "Álgebra diferencial no problema restrito de tręs corpos : análise de pontos de equilíbrio e órbitas periódicas DRO",
+  "author": "Gustavo Diniz Misk",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aplica técnicas de Álgebra Diferencial (Differential Algebra - DA) para aumentar a eficięncia computacional em soluçőes do Problema Circular Restrito de Tręs Corpos (Circular Restricted Three Body Problem - CRTBP), um modelo fundamental da mecânica celeste. Os métodos numéricos tradicionais baseados em Aritmética de Ponto Flutuante (Floating-Point Arithmetic - FPA) enfrentam limitaçőes em sistemas altamente năo lineares, muitas vezes resultando em erros de arredondamento e truncamento, além de năo permitirem variabilidade de parâmetros do sistema durante a geraçăo de soluçőes. Em contrapartida, os métodos DA oferecem uma abordagem alternativa, gerando automaticamente expansőes de polinômios de Taylor de alta ordem em funçăo de parâmetros do sistema, que mantęm a precisăo e reduzem o custo computacional. O estudo utiliza a Divisăo Automática de Domínio (Automatic Domain Splitting - ADS) para ajustar dinamicamente as expansőes polinomiais de Taylor durante a integraçăo numérica. Essa técnica subdivide o domínio computacional quando o erro de truncamento estimado excede um limite predefinido, permitindo a propagaçăo precisa em regiőes de forte năo linearidade. Os métodos DA se mostraram eficazes na análise de pontos de equilíbrio e órbitas periódicas, especialmente na detecçăo de recursos dinâmicos críticos. Os resultados mostram que os métodos baseados em DA reduzem significativamente o tempo de computaçăo em mais de 50% em comparaçăo com as abordagens de FPA, mantendo uma precisăo comparável. Essas técnicas foram aplicadas para calcular as coordenadas e os autovalores dos pontos de Lagrange e para mapear órbitas periódicas no CRTBP. Além disso, a abordagem DA fornece percepçőes mais profundas sobre o comportamento dinâmico do sistema, permitindo uma exploraçăo detalhada de sistemas gravitacionais complexos.",
+  "subjects": [
+    "Problema de tręs corpos",
+    "Cálculo diferencial E Matrizes (Matemática)",
+    "Aritmética de ponto flutuante",
+    "Mecânica orbital",
+    "Equaçăo de Euler-Lagrange",
+    "Órbitas",
+    "Mecânica celeste",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79996",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79996&origem=BDITA"
+}

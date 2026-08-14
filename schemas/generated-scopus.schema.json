@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.aer.ita.br/schemas/generated-scopus.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "autores"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "autores": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["metrics", "publicacoes", "metadata"],
+        "properties": {
+          "metrics": { "type": "object" },
+          "metadata": { "type": "object" },
+          "publicacoes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["publication_id", "author_position", "is_corresponding_author"],
+              "properties": {
+                "publication_id": { "type": "string", "pattern": "^2-s2\\.0-[0-9]+$" },
+                "author_position": { "type": "integer", "minimum": 1 },
+                "is_corresponding_author": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

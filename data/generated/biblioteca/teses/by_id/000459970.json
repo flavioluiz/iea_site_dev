@@ -1,0 +1,29 @@
+{
+  "num_tese": "000459970",
+  "type": "tese",
+  "title": "Modelagem por grafos de ligaçăo de estrutura flexível com atuaçăo hidráulica.",
+  "author": "Euler Gonçalves Barbosa",
+  "year": "2001",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta um sistema de controle de estruturas flexíveis (placas) fazendo uso de um torque desenvolvido por uma planta hidráulica. A estrutura flexível está montada em um mancal hemisférico a gás, construído no ITA para medidas de propriedades de massa, que flutua sobre um colchăo de ar e gira com atrito desprezível, posicionando a placa em uma determinada posiçăo angular. A atuaçăo do torque excita diversos modos de vibraçőes da placa, possibilitando identificar diversos parâmetros dinâmicos das plantas hidráulica e flexível. Por outro lado, a açăo de um controlador analógico ou digital na malha de controle, permite gerar um torque para minimizar as amplitudes máximas dessas vibraçőes, quando a placa estiver oscilando em torno da posiçăo desejada. Seguindo os conceitos da Engenharia Mecatrônica, o modelo completo de todos os sistemas (elétrico, mecânico translacional, mecânico rotacional, hidráulico e flexível) foi obtido pela técnica dos grafos de ligaçăo (Bond Graphs), de forma a ser apresentado em uma linguagem gráfica, unificada. Foram gravados e analisados os dados de ensaios para a identificaçăo do sistema, para posterior validaçăo do modelo analítico escrito no Espaço de Estados. Finalmente, para ressaltar, depois do uso do Princípio de Hamilton para obtençăo das equaçőes do movimento da placa e da aplicaçăo do método dos modos assumidos, as equaçőes obtidas săo apresentadas na linguagem de grafos de ligaçăo, por um modelo inédito de placas flexíveis, útil para projetos de sistemas de controle no Espaço de Estados. Este modelo pode ser utilizado facilmente com softwares recentes, como o \"20_sim\" e \"CAMP/G\".",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Corpos flexíveis",
+    "Gráficos de ligaçăo",
+    "Vibraçăo aeroelástica",
+    "Controle automático",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000459970",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000459970&origem=BDITA"
+}

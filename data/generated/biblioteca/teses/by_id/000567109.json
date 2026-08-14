@@ -1,0 +1,32 @@
+{
+  "num_tese": "000567109",
+  "type": "tese",
+  "title": "Modelagem e análise de vigas multicamadas incluindo efeitos viscoelásticos e piezoelétricos.",
+  "author": "Sandro Rondon Rett",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O projeto de estruturas adaptativas deve contemplar um estudo cuidadoso das características passivas de dissipaçăo de energia, com o intuito de manter o sistema resistente a eventuais falhas nas redes de sensores e atuadores ou do controle como um todo. Além disso, conhecendo-se as regiőes em que o desempenho puramente passivo é ótimo, pode-se minimizar os requisitos de potęncia de controle. O presente trabalho visa analisar o comportamento dinâmico de vigas submetidas a tratamentos dissipativos com camada restritora (PCLD - Passive Constrained Layer Damping), segundo a variaçăo dos parâmetros geométricos das camadas constituintes. A teoria de Timoshenko com acoplamento flexăo-extensăo foi empregada na derivaçăo do modelo matemático do sistema eletromecânico, năo havendo restriçăo quanto ao número, tipo ou propriedades mecânicas das camadas. A forma fraca das equaçőes do movimento e equilíbrio de cargas elétricas foi a base para a construçăo de um algoritmo de obtençăo de uma soluçăo aproximada pelo método de elementos finitos, tendo os deslocamentos axial e transversal do eixo neutro da viga base e as rotaçőes de todas as camadas como graus de liberdade mecânicos e as diferenças de potencial de cada camada piezoelétrica como graus de liberdade elétricos. A implementaçăo computacional do algoritmo de soluçăo foi testada e validada, simulando-se casos publicados na literatura científica. Um modelo viscoelástico, baseado na teoria do módulo complexo (CMA - Complex Modulus Approach), foi utilizado nas simulaçőes pelo método da resposta direta em frequęncia (DFR - Direct Requency Response) e também na obtençăo de modelos modais truncados, via método da energia modal de deformaçăo (IMSE - Iterative Modal Strain Energy) e soluçăo complexa de autovetores (ICE - Iterative Complex Eigensolution). Os resultados obtidos por intermédio tręs métodos foram comparados, comprovando a acurácia das respostas aproximadas, mesmo para sistemas truncados em poucos modos normais. Uma metodologia de análise e projeto de estruturas PCLD por ábacos compostos por curvas de níveis sobrepostas, obtidas com apoio dos métodos interativos, foi proposta e discutida, demonstrando a possibilidade de se monitorar e controlar diversas grandezas dinâmicas, a fim de obter um determinado desempenho do sistema passivo. As conclusőes do trabalho comprovam que o comportamento dinâmico de uma estrutura com tratamento PCLD pode ser năo linear frente ŕ variaçăo dos parâmetros geométricos do tratamento, o que impőe a necessidade de uma metodologia de projeto em que seja possível acompanhar o desempenho global do sistema frente a mudanças locais nas características de seus componentes.",
+  "subjects": [
+    "Vigas de Timoshenko",
+    "Viscoelasticidade",
+    "Resposta em frequęncia",
+    "Modelo de acoplamento",
+    "Método de elementos finitos",
+    "Algoritmos",
+    "Simulaçăo computacional",
+    "Estruturas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "22/03/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567109",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567109&origem=BDITA"
+}

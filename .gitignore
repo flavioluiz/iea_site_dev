@@ -1,0 +1,34 @@
+# Hugo build outputs
+/public/
+/resources/_gen/
+
+# Deploy artifacts and credentials
+/.deploy_ita/
+/.deploy_ita_manifest.sha256
+/deploy/
+/config/production/deploy_ita_sftp.env
+/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm)
+node_modules/
+infra/decap-worker/.dev.vars
+infra/decap-worker/.wrangler/
+.env
+.env.*
+!.env.example
+
+# Hugo lock file
+.hugo_build.lock
+__pycache__/
+*.py[cod]

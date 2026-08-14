@@ -1,0 +1,35 @@
+{
+  "num_tese": "64023",
+  "type": "tese",
+  "title": "Order book modeling and control",
+  "author": "Gabriel Dias Pais",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alexsandro Machado Jacob",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "On 6th May 2010, the stock market experienced in few minutes a large price decline and recovery collectively known as the Flash Crash. A serie of events on financial market before and during the flash crash setted up a high volume of transactions and unbalanced order flow collapsing into a lack of liquidity. The ultimate effect of this event was a challenge to the investor';s confidence in the markets. The financial regulators, responsibles to maintain the integrity of the financial makets, must be ahead of technological advances and be prepared to handle with unbalanced order flow and illiquidity scenarios. This work presents a preliminary and innovative solution for financial regulators to manage unbalanced order flow and to control an Order Book based on assumptions of Control Theory. Empirical simulations showed that in a high frequency world, algorithms could be used to control an Order Book and deal with Automatic Traders and Market Makers regulating the economy of supply and demand by adjusting execution fees. Under a stress scenario, when the Order Book become too unbalanced, the control system may change the fees attempting to induce the market makers to assume the role of counterpart of the Order book. The new orders may tend to balance the order flow and therefore prevent the imminent illiquidity scenario. Case studies show that an Order Book control can be an useful tool to manage unbalanced order flow and to promote market integrity.",
+  "subjects": [
+    "Finanças",
+    "Marketing",
+    "Simulaçăo",
+    "Organizaçăo industrial",
+    "Controle",
+    "Economia",
+    "Administraçăo"
+  ],
+  "defense_date": "05/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64023",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64023&origem=BDITA"
+}

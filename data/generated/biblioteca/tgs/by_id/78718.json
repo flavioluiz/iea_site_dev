@@ -1,0 +1,37 @@
+{
+  "num_tg": "78718",
+  "type": "tg",
+  "title": "Estudo da otimizaçăo do plano de manutençăo de sistemas críticos, sujeito a restriçőes de segurança",
+  "author": "Brunno Campos Martins Barbosa",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Guilherme Conceiçăo Rocha",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    },
+    {
+      "name": "Vitor Henrique Oliveira Bourguignon",
+      "professor_slug": "vitor-gabriel-kleine"
+    }
+  ],
+  "abstract": "Este trabalho de graduaçăo consistiu em propor uma técnica para otimizar o plano de manutençăo de sistema crítico sujeito as restriçőes de segurança, possibilitando, assim, atender aos requisitos de certificaçăo de maneira ótima: o que nesse caso significa minimizar os custos com a manutençăo, sem sacrificar a segurança do sistema. Para esse fim, selecionou-se, em consonância com os interesses do Instituto de Fomento e Coordenaçăo Industrial (IFI), o projeto de uma aeronave de transporte fictícia, porém fidedigna ŕs existentes, de maneira a desenvolver o estudo de caso. No escopo desse projeto, a condiçăo de falha (Failure Condition) escolhida foi o acionamento simétrico năo comandado dos freios de todas as rodas com antiskid do trem de pouso da aeronave, em virtude de ser um evento catastrófico. Ademais, selecionou-se os requisitos de segurança e de manutençăo aplicáveis, os quais săo as condiçőes de contorno do problema. A árvore de falha referente ao estudo de caso foi reduzida aplicando a teoria de cutset, tornando mais didática a programaçăo computacional subsequente. Em seguida, foi construído um código de otimizaçăo em Matlab e uma planilha em Excel para fins de aplicaçăo do Solver no Excel, confrontando os resultados obtidos por ambas as metodologias com a finalidade de validaçăo do código em Matlab. Os resultados obtidos por ambas as metodologias convergiram e foram satisfatórios, visto que otimizaram o tempo entre açőes de manutençăo e, por conseguinte, minimizaram o custo e aumentaram a segurança do sistema, conforme era objetivo desse trabalho; concluindo-se que tal técnica é importante de ser aplicada desde a fase de projeto e que em casos de projeto já desenvolvidos e maduros, é interessante revisar o plano de manutençăo para fins de otimizaçăo se possível for.",
+  "subjects": [
+    "Manutençăo de aeronaves",
+    "Otimizaçăo",
+    "Sistemas de segurança",
+    "Segurança de aeronaves",
+    "Projeto de aeronaves",
+    "Reduçăo de custos",
+    "Estudo de casos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78718",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78718&origem=BDITA"
+}

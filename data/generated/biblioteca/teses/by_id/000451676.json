@@ -1,0 +1,31 @@
+{
+  "num_tese": "000451676",
+  "type": "tese",
+  "title": "Análise numérica do escoamento turbulento e incompressível em difusores radiais.",
+  "author": "Reinaldo Rossetti",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de um difusor radial pode ser uma opçăo quando as limitaçőes geométricas de certos sistemas tornam impossível o uso de um difusor cônico ou plano para a conversăo de energia cinética em pressăo estática. O objetivo deste trabalho foi avaliar o efeito da geometria no desempenho do difusor radial quanto ŕ recuperaçăo de pressăo estática. Neste trabalho simulou-se numericamente o escoamento turbulento e incompressível de ar através do tubo de alimentaçăo axial e do canal radial formado por dois discos concęntricos. O sistema original de equaçőes diferenciais parciais (continuidade, quantidade de movimento e modelo de turbulęncia) é discretizado através da técnica de elementos finitos (método de Petrov-Galerkin). O modelo K-e padrăo é utilizado na modelagem turbulenta. O sistema de equaçőes algébricas resultantes é resolvido por meio de algoritmos interativos, utilizando uma formulaçăo segregada e seqüencial. A simulaçőes numéricas foram feitas para difusores radiais de discos paralelos e também para difusores radiais com pequenos ângulos de abertura no disco frontal. Várias relaçőes de diâmetros e espaçamentos entre os discos foram estudadas, gerando uma faixa de relaçăo de área entre 1 e 10. Os resultados mostram que o difusor radial apresenta uma alta recuperaçăo de pressăo estática que é comparável a difusores cônicos e planos. Pequenos ângulos de abertura no disco frontal produzem um aumento na relaçăo de área do difusor radial e conseqüentemente apresentam uma relaçăo entre tamanho e recuperaçăo de pressăo.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento turbulento",
+    "Escoamento incompressível",
+    "Difusores",
+    "Método de elementos finitos",
+    "Geometria",
+    "Desempenho",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000451676",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000451676&origem=BDITA"
+}

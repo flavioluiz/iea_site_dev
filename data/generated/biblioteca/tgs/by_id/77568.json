@@ -1,0 +1,26 @@
+{
+  "num_tg": "77568",
+  "type": "tg",
+  "title": "Estudo da resoluçăo da equaçăo da advecçăo linear por meio de redes neurais",
+  "author": "Érika Rizzo Aquino",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Vários fenômenos físicos estudados pela engenharia, tais como transferęncia de calor, deformaçőes estruturais e escoamentos aerodinâmicos, podem ser modelados por meio de equaçőes diferenciais parciais (EDPs). Métodos numéricos clássicos para a resoluçăo dessas equaçőes, como diferenças finitas, elementos finitos e volumes finitos, exigem a utilizaçăo de malhas para discretizar o domínio. Entretanto, a criaçăo de malhas para geometrias complexas é difícil, o que prejudica a aplicaçăo desses métodos. Este problema pode ser contornado utilizando-se metodologias que independam da definiçăo de malhas. Um método proposto na literatura é a aplicaçăo de redes neurais a fim de aproximar funçőes que satisfaçam a EDP em um dado domínio e condiçőes de contorno. Contudo, ainda é necessário investigar a eficięncia de tais métodos em comparaçăo com os métodos tradicionais. Neste trabalho, descrevemos um método de treinamento de redes neurais para solucionar EDPs. Além disso, aplicamos este método para EDPs clássicas e variamos parâmetros da rede, como número de neurônios, número de camadas e número de pontos de treinamento, a fim de analisar os impactos na precisăo e no custo computacional. Será utilizado como base o programa de treinamento de redes neurais já em desenvolvimento pelo professor orientador. Em seguida, serăo escolhidas as EDPs e os parâmetros dos casos de teste. Por fim, os resultados dos testes serăo consolidados para verificar as tendęncias de precisăo e do custo computacional do método proposto.",
+  "subjects": [
+    "Equaçőes diferenciais parciais",
+    "Redes neurais",
+    "Equaçőes diferenciais",
+    "Modelos matemáticos",
+    "Matemática",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77568",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77568&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000551364",
+  "type": "tese",
+  "title": "Análise de projeto preliminar de controle térmico do satélite ITASAT.",
+  "author": "Douglas Felipe da Silva",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo desta tese de mestrado é apresentar e analisar os resultados de cargas térmicas e distribuiçăo de temperatura obtidos a partir da simulaçăo numérica do comportamento térmico do satélite ITASAT (satélite universitário) para os casos críticos de vôo. O ITASAT será o primeiro satélite brasileiro de serviços desenvolvido por universidades. O programa está sendo coordenado pelo Instituto Tecnológico de Aeronáutica (ITA) em conjunto com outras universidades do país, com apoio do Instituto Nacional de Pesquisas Espaciais (INPE) e financiado pela Agęncia Espacial Brasileira (AEB). Para cumprir esse objetivo, foi utilizada a ferramenta computacional SINDA (System Improved Numerical Differencing Analyser), um software comercial de análise térmica que possui facilidade para aplicaçőes espaciais. Durante a órbita, o satélite sofrerá a influęncia de cargas térmicas externas (radiaçăo solar, albedo e radiaçăo terrestre), e parâmetros como o tipo de órbita e atitude tem influęncia direta sobre a intensidade dessas cargas. Associando as cargas térmicas externas ŕs dissipaçőes internas dos equipamentos que compőem o satélite, foi possível obter a distribuiçăo de temperatura prevista para vôo. A geometria utilizada partiu de uma proposta inicial do modelo de satélite, a qual estará sujeita a alteraçőes com o desenvolvimento do projeto. Como os equipamentos que irăo compor o ITASAT ainda năo foram definidos, neste trabalho o modelo foi implementado com equipamentos de características térmicas, e de potęncias dissipadas idęnticas aos utilizados no satélite de coleta de dados SCD-1 do INPE, lançado em 1993. Este estudo é parte do projeto de controle térmico do satélite ITASAT, e garantirá que as temperaturas limites aceitáveis, máximas e mínimas, para todos os equipamentos possam ser obedecidas, fornecendo assim informaçőes iniciais para a fase de testes que o modelo de vôo do ITASAT será submetido posteriormente. Os resultados apresentados săo fisicamente coerentes para satélites em baixa órbita (LEO).",
+  "subjects": [
+    "Satélites artificiais",
+    "Análise térmica",
+    "Controle de temperatura",
+    "Modelos matemáticos",
+    "Simuladores espaciais",
+    "Termodinâmica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "18/03/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551364",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551364&origem=BDITA"
+}

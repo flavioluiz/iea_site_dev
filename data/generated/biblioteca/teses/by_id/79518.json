@@ -1,0 +1,35 @@
+{
+  "num_tese": "79518",
+  "type": "tese",
+  "title": "Design methodology for turbopump inducer applied in rocket propulsion",
+  "author": "Igor Carvalho Santos de Oliveira",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The inducer pump is an important component of the liquid propellant rocket engine and its design has a significant impact in global vehicle performance. It consists of an axial inlet part of the main pump in a turbopump assembly. Its geometrical characteristics allow it to operate at high speeds and low inlet pressures under cavitation without loss in performance. The increased speed, in turn, allows a pump diameter reduction maintaining a given power, but reducing size and consequently vehicle inert mass. Despite such relevance, much of the research on the topic and commercial software are proprietary or regulated by International Traffic in Arms Regulations. Thus, the objective of this work is to develop an inducer preliminary design methodology based on previously established methods, validate it against experimental data and test it in a case study. The method combines analytical and numerical approaches. The geometry and speed are determined as a function of the thrust chamber flow rate and pressure as well as propellant tank pressure. To obtain performance predictions a meanline 1D Matlab code was developed and a 3D Computational Fluid Dynamics commercial software was used. Over predicted head coefficient values near 20\\% were obtained by both analytical and computational methods. Predictions within 2\\% were achieved for efficiency with numerical approach and 10\\% for the analytical. As expected, analytical results were obtained with significant reduction of computational cost. The case study demonstrated that the methodology was capable of delivering an inducer design based on engine requirements as well as the determination of a performance operation map. The methodology also provides cavitating performance through both analytical and numerical approaches, however the numerical path was not successful in predicting the head breakdown phenomenon. Nevertheless, the latter provided relevant analysis of the flow structures in non-cavitating regime, which helped understand the global performance behaviour. It was observed that the majority of the total pressure rise occurred in the first quarter of the blade passage while the last quarter introduced significant losses.",
+  "subjects": [
+    "Turbinas",
+    "Bombas de turbinas",
+    "Dinâmica dos fluidos computacional",
+    "Motores foguetes",
+    "Fluxo de cavitaçăo",
+    "Estudo de casos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "13/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79518",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79518&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000565226",
+  "type": "tese",
+  "title": "The algorithmic weak stability boundary in earth-to-moon mission design: dynamical aspects and applicability.",
+  "author": "Priscilla Andressa de Sousa Silva",
+  "year": "2011",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This thesis consists of an extensive study of the Weak Stability Boundary (WSB) concept in low-energy Earth-to-Moon mission design within the mathematical structure provided by the Planar Circular Restricted Three-Body Problem (PCR3BP). By employing the patched three-body approach to approximate the Sun-Earth-Moon-spacecraft system, we examine and characterize the construction of Earth-to-Moon transfer orbits. Then, we focus on the final portion of the transfer trajectories, investigating the WSB algorithmic definition proposed by E. Belbruno. We perform a dynamical characterization of the WSB associated sets generated in the lunar sphere of influence by two implementations of this algorithmic definition, namely, considering the Moon as a punctual mass and as a body with finite radius. In addition, the associated sets are analysed according to relevant criteria established on three-body problem elements in order to clarify their possible applicability in external and internal transfers and to verify the consistency of the algorithmic construction procedure. Finally, we extract the boundary of stability and investigate the structure of the boundary set by characterizing specific stable-unstable transitions. This study identifies various vulnerable aspects of the algorithmic definition concerning the adequate detection of stability regions for ballistic lunar capture, and indicates required corrections to the algorithmic construction.",
+  "subjects": [
+    "Mecânica celeste",
+    "Órbitas de transferęncia",
+    "Funçőes hamiltonianas",
+    "Problema de tręs corpos",
+    "Sistemas Terra-Lua",
+    "Missőes espaciais",
+    "Astronomia",
+    "Astronáutica"
+  ],
+  "defense_date": "10/02/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000565226",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000565226&origem=BDITA"
+}

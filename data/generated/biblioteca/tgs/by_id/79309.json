@@ -1,0 +1,25 @@
+{
+  "num_tg": "79309",
+  "type": "tg",
+  "title": "Evaluation of unsupervised deep domain adaptation performance for UAV power line detection in urban areas",
+  "author": "Gabriel Meisler",
+  "year": "2023",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This study focuses on leveraging unsupervised domain adaptation (UDA) techniques to improve the performance of deep learning models for UAV power line detection tasks. The research examines the effectiveness of UDA in extending binary classification predictions to a target one presenting a domain shift compared to the original training dataset. A feature-based UDA methodology - Domain Adversarial Training - and an instance-based one - KMM - are employed on paired source and target sets of power line images. The obtained results are compared to those achieved for a baseline without any form of transfer learning, aiming to evaluate whether UDA enhances the model's extrapolation ability. This investigation moves towards the development of more robust deep learning models for power line detection, enabling them to reliably handle diverse operational conditions beyond their initial training settings.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Linhas de transmissăo de energia",
+    "Aprendizagem (inteligęncia artificial)",
+    "Detecçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79309",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79309&origem=BDITA"
+}

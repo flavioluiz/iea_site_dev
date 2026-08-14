@@ -1,0 +1,33 @@
+{
+  "num_tese": "79210",
+  "type": "tese",
+  "title": "Evaluation of the open-loop onset point criterion using the SIVOR flight simulator to predict PIO due to rate saturation",
+  "author": "Juliano Augusto de Bonfim Gripp",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Maranhăo Porto Marinho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "To perform maneuvers in a fly-by-wire aircraft, a pilot usually commands the yoke or stick. This command is interpreted by a Flight Control Computer (FCC), which activates actuators of the control surfaces. Actuators and aircraft reaction have limitations, which need to be considered by programmed flight control laws in the FCC. Failure to understand the control limits and the natural aircraft delay can lead to accidents due to Pilot-Induced Oscillations (PIO). Some criteria to identify this phenomenon have already been proposed, with the Open-Loop Onset Point (OLOP) criterion being the most promising. To verify the capabilities and limitations of the OLOP criterion, two versions of flight control laws for roll and yaw (\"p-beta\"), which move aileron and roll spoilers differently, were evaluated in computer simulations and also in tests with pilots in a flight simulator (SIVOR, \"Simulador de Voo com Plataforma Robótica de Movimento\"). As a first method, it was considered a dead zone for roll spoilers, such that roll spoilers deflect only after certain deflection of ailerons. As a second method, it was considered that ailerons and roll spoilers work together whenever required. The choice of the pilot model, the oscillation frequency ranges and the command amplitudes are examples of variables that directly affect the conclusions of the OLOP criterion. Results indicate practical limitations for the application of the OLOP criterion in the design of flight control laws. Alternative methodologies for PIO prediction still taking credit from OLOP are to adapt the pilot model, to filter operating frequency ranges and command amplitudes, and to combine OLOP with another criterion such as actuator saturation time. The steps of this methodology are detailed through a flowchart in this work. Finally, this work highlights the difficulties in applying the OLOP criterion and proposes alternatives for improving the application of the criterion.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Simulaçăo de voo",
+    "Atuadores",
+    "Simulaçăo computadorizada",
+    "Controle"
+  ],
+  "defense_date": "07/08/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79210",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79210&origem=BDITA"
+}

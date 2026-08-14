@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "projetos"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "projetos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "titulo_pt", "titulo_en", "departamento", "financiador", "valor", "periodo", "status", "tema", "docentes_iea", "docentes", "descricao_pt", "descricao_en"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "titulo_pt": { "type": "string", "minLength": 2 },
+          "titulo_en": { "type": "string" },
+          "departamento": { "enum": ["", "iea-a", "iea-b", "iea-c", "iea-e", "iea-p", "iea-s"] },
+          "financiador": { "type": "string" },
+          "valor": { "type": "string" },
+          "periodo": { "type": "string" },
+          "status": { "enum": ["em_andamento", "concluido", "suspenso"] },
+          "tema": { "enum": ["", "aeronautica", "espacial", "ambos"] },
+          "docentes_iea": { "$ref": "#/$defs/strings" },
+          "docentes": { "$ref": "#/$defs/strings" },
+          "descricao_pt": { "type": "string" },
+          "descricao_en": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "strings": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+  }
+}

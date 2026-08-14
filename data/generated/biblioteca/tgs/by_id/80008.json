@@ -1,0 +1,27 @@
+{
+  "num_tg": "80008",
+  "type": "tg",
+  "title": "An optimization model for airline route planning",
+  "author": "Matheus Rodrigues Araújo",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Johnny Cardoso Marques",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Air Traffic Management (ATM) presents significant challenges for aviation, with hundreds of thousands of hours in annual delays, resulting in high industry costs and impacting operational efficiency. Addressing this critical issue requires reliable and adaptable solutions, driven by technological innovations and collaboration between computer science and civil aviation. This research aims to bridge the gap between the ATM domain and researchers by establishing a comprehensive model and framework for route optimization, specifically in fleet assignment. The study maps the state of the art in ATM, defines key parameters and constraints-such as airport restrictions and aircraft-specific needs-and applies operational research techniques within a simulation model to evaluate performance in competitive, dynamic environments. The model considers variables such as flight distance and operational costs, simulating scenarios to maximize the economic efficiency of airlines. This research explores the adaptability of the model and proposes an optimized framework for decision-making under variable conditions, promoting enhanced operational efficiency, safety, and economic gains in the aviation sector.",
+  "subjects": [
+    "Rotas aéreas",
+    "Otimizaçăo",
+    "Tráfego aéreo",
+    "Inovaçőes tecnológicas",
+    "Tomada de decisőes",
+    "Pesquisa operacional",
+    "Transportes"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80008",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80008&origem=BDITA"
+}

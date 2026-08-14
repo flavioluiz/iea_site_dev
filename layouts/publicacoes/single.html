@@ -1,0 +1,268 @@
+{{ define "main" }}
+{{/* Extract EID from URL path - e.g., /pt/publicacoes/85210484189/ */}}
+{{ $urlParts := split .RelPermalink "/" }}
+{{ $eid := "" }}
+{{ range $urlParts }}
+  {{/* Find the numeric EID part */}}
+  {{ if and (ne . "") (ne . "pt") (ne . "en") (ne . "publicacoes") }}
+    {{ $eid = . }}
+  {{ end }}
+{{ end }}
+
+{{/* Load publication data from JSON */}}
+{{ $pubFile := printf "publications/by_eid/%s.json" $eid }}
+{{ $pub := index .Site.Data.generated.scopus.publications.by_eid $eid }}
+
+{{ if not $pub }}
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+      <p class="font-bold">{{ i18n "error" }}</p>
+      <p>{{ i18n "publication_not_found" }}: {{ $eid }}</p>
+    </div>
+  </div>
+{{ else }}
+
+<article class="publication-detail max-w-5xl mx-auto px-4 py-8">
+
+  <!-- Header Section -->
+  <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+
+    <!-- Type Badge and Year -->
+    <div class="flex items-center gap-3 mb-4">
+      <span class="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-bold uppercase">
+        {{ if eq $pub.type "article" }}
+          {{ i18n "article" }}
+        {{ else if eq $pub.type "review" }}
+          {{ i18n "review" }}
+        {{ else if eq $pub.type "conference" }}
+          {{ i18n "conference_paper" }}
+        {{ else if eq $pub.type "book_chapter" }}
+          {{ i18n "book_chapter" }}
+        {{ else }}
+          {{ $pub.type }}
+        {{ end }}
+      </span>
+      <span class="text-gray-600 text-lg font-semibold">{{ $pub.year }}</span>
+
+      {{/* High Impact Badge */}}
+      {{ with $pub.scopus.fwci }}
+        {{ if gt . 1.5 }}
+          <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold"
+                title="Field-Weighted Citation Impact">
+            {{ i18n "high_impact" }} (FWCI: {{ . }})
+          </span>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <!-- Title -->
+    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+      {{ $pub.title }}
+    </h1>
+
+    <!-- Authors Section -->
+    <div class="mb-6">
+      <h2 class="text-sm font-bold text-gray-700 uppercase mb-3">{{ i18n "authors" }}</h2>
+      <div class="flex flex-wrap gap-2">
+        {{ range $pub.authors }}
+          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-lg
+                      {{ if .is_eam_professor }}
+                        bg-blue-100 border border-blue-300
+                      {{ else }}
+                        bg-gray-100 border border-gray-300
+                      {{ end }}">
+            <svg class="w-4 h-4 {{ if .is_eam_professor }}text-blue-600{{ else }}text-gray-600{{ end }}"
+                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+            </svg>
+            {{ if .is_eam_professor }}
+              <a href="{{ printf "/pessoal/%s/" .eam_professor_id | relLangURL }}"
+                 class="text-blue-700 hover:text-blue-900 font-semibold hover:underline">
+                {{ .name }}
+              </a>
+            {{ else }}
+              <span class="text-gray-700">{{ .name }}</span>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Journal Information -->
+    {{ with $pub.journal }}
+      <div class="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+        <h2 class="text-sm font-bold text-gray-700 uppercase mb-2">{{ i18n "publication_info" }}</h2>
+        <p class="text-gray-800">
+          <span class="italic font-medium">{{ .name }}</span>
+          {{ with .volume }}
+            <span>, vol. {{ . }}</span>
+          {{ end }}
+          {{ with .issue }}
+            <span>, no. {{ . }}</span>
+          {{ end }}
+          {{ with .pages }}
+            <span>, pp. {{ . }}</span>
+          {{ end }}
+          {{ with .article_number }}
+            <span>, Article {{ . }}</span>
+          {{ end }}
+        </p>
+        {{ with .issn }}
+          <p class="text-sm text-gray-600 mt-1">ISSN: {{ . }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <!-- Links Section -->
+    <div class="flex flex-wrap gap-3 mb-6">
+      {{/* DOI Link - Primary */}}
+      {{ with $pub.doi }}
+        <a href="https://doi.org/{{ . }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800
+                  text-white rounded-lg font-semibold shadow-md hover:shadow-lg transition-all transform hover:scale-105">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+          </svg>
+          DOI: {{ . }}
+        </a>
+      {{ end }}
+
+      {{/* Scopus Link */}}
+      {{ with $pub.scopus.scopus_link }}
+        <a href="{{ . }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2 bg-orange-100 hover:bg-orange-200 text-orange-700
+                  rounded-lg font-medium border border-orange-300 transition-colors">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10"/>
+          </svg>
+          {{ i18n "view_on_scopus" }}
+        </a>
+      {{ end }}
+    </div>
+
+    <!-- Metrics Row -->
+    <div class="grid grid-cols-2 md:grid-cols-2 gap-4 mb-6 max-w-2xl mx-auto">
+      <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg shadow p-4 text-center border border-green-200">
+        <div class="text-2xl font-bold text-green-700">
+          {{ $pub.scopus.citations | default 0 }}
+        </div>
+        <div class="text-sm text-gray-600 mt-1">{{ i18n "citations" }}</div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg shadow p-4 text-center border border-purple-200">
+        <div class="text-2xl font-bold text-purple-700">
+          {{ len $pub.authors }}
+        </div>
+        <div class="text-sm text-gray-600 mt-1">{{ i18n "authors" }}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Abstract Section -->
+  {{ with $pub.abstract }}
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ i18n "abstract" }}</h2>
+      <p class="text-gray-700 leading-relaxed text-justify">{{ . }}</p>
+    </div>
+  {{ end }}
+
+  <!-- Keywords Section -->
+  {{ with $pub.authkeywords }}
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ i18n "keywords" }}</h2>
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}
+          <span class="inline-block bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium border border-blue-200">
+            {{ . }}
+          </span>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <!-- Subject Areas Section -->
+  {{ with $pub.scopus.subject_areas }}
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ i18n "subject_areas" }}</h2>
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}
+          <span class="inline-block bg-purple-50 text-purple-700 px-4 py-2 rounded-lg text-sm font-medium border border-purple-200">
+            {{ .code }}
+            {{ with .abbrev }}
+              <span class="text-purple-500">({{ . }})</span>
+            {{ end }}
+          </span>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <!-- EAM Co-authors Section -->
+  {{ if gt (len $pub.eam_coauthors) 0 }}
+    <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ i18n "eam_coauthors" }}</h2>
+      <p class="text-gray-600 mb-4">{{ i18n "eam_coauthors_description" }}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {{ range $pub.eam_coauthors }}
+          {{ $profData := partial "get-professor.html" (dict "site" $.Site "id" .) }}
+          {{ if $profData }}
+            <a href="{{ relLangURL (printf "pessoal/%s/" .) }}"
+               class="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg
+                      hover:from-blue-100 hover:to-blue-200 transition-all border border-blue-200 group">
+              {{ $photoPath := $profData.foto }}
+              {{ if and $photoPath (fileExists (printf "static%s" $photoPath)) }}
+                <img src="{{ $photoPath | relURL }}"
+                     alt="{{ $profData.nome }}"
+                     class="w-16 h-16 rounded-full object-cover border-2 border-blue-300 group-hover:border-blue-400">
+              {{ else }}
+                <div class="w-16 h-16 rounded-full bg-blue-600 flex items-center justify-center border-2 border-blue-300 group-hover:border-blue-400">
+                  <span class="text-white text-xl font-bold">
+                    {{ substr $profData.nome_destaque 0 1 }}
+                  </span>
+                </div>
+              {{ end }}
+              <div class="flex-1">
+                <p class="font-semibold text-gray-900 group-hover:text-blue-700">{{ $profData.nome }}</p>
+                <p class="text-sm text-gray-600">{{ i18n "view_profile" }}</p>
+              </div>
+              <svg class="w-5 h-5 text-blue-600 group-hover:translate-x-1 transition-transform"
+                   fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  <!-- Metadata Footer -->
+  <div class="bg-gray-50 rounded-lg p-6 text-sm text-gray-600 border border-gray-200">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <strong>{{ i18n "data_source" }}:</strong> Scopus
+      </div>
+      <div>
+        <strong>{{ i18n "last_update" }}:</strong> {{ $pub.metadata.last_updated | time.Format "2006-01-02" }}
+      </div>
+      <div>
+        <strong>{{ i18n "publication_id" }}:</strong> <code class="bg-gray-200 px-2 py-1 rounded">{{ $pub.eid }}</code>
+      </div>
+      {{ with $pub.pii }}
+        <div>
+          <strong>PII:</strong> {{ . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+</article>
+
+{{ end }}
+{{ end }}

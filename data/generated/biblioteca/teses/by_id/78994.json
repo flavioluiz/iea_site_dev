@@ -1,0 +1,36 @@
+{
+  "num_tese": "78994",
+  "type": "tese",
+  "title": "Modeling and analysis of the flight dynamics of a very flexible transport aircraft",
+  "author": "Guilherme Hiroiti Gomes Miyadaira",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "abstract": "The investigation of the flight dynamics of a very flexible aircraft is commonly found for High Altitude Long Endurance (HALE) airplanes or gliders, but limited results were published for a transport aircraft configuration. This work investigates the flight dynamics of a very flexible Generic Narrow-Body Airliner (GNBA) whose dimensions resemble an intermediate airplane between the Embraer E-Jets and the Boeing 737 or the Airbus A320. The airplane is modeled in the AeroFlex implemented at the Instituto Tecnológico de Aeronáutica (ITA). A geometrically nonlinear strain-based formulation is used to model the aircraft structure represented by beam finite elements. The aerodynamic model is comprised of a quasi-steady Vortex-Lattice Method (VLM) for the lifting surfaces and a semi-empirical method for the fuselage and nacelle loads. A method for the interconnection between the structural and aerodynamic models is proposed, allowing completely independent discretization of these models. Six different levels of flexibility (100%, 50%, 25%, 15%, 10% and 5% of the nominal stiffness) as well as the rigid airplane are analyzed. Equilibrium calculations are performed in straight and level flight. Then, the linearized dynamics are obtained through perturbations around the equilibrium condition. Dynamic stability is analyzed and the effective aerodynamic derivatives obtained with a reduced model are examined to explain the effects of flexibility on the dynamic modes. A discussion of integration methods for stiff systems is presented, followed by time-marching nonlinear simulations of the GNBA subjected to control surface commands. The numerical results are always calculated with both the geometrically linear and the geometrically nonlinear formulations. The results comparison shows that accurate results can be obtained with the geometrically linear formulation mainly due to the so-called apparent torsion effect of a sweptback wing. Aileron reversal is observed in the cases of 10% and 5% of the nominal stiffness. For the most flexible case, the Dutch roll mode showed to be unstable and the complex conjugate poles of the phugoid mode were degenerated into two real poles, one stable and one unstable.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Projeto de aeronaves",
+    "Dinâmica de voo",
+    "Método de elementos finitos",
+    "Mecânica de voo",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78994",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78994&origem=BDITA"
+}

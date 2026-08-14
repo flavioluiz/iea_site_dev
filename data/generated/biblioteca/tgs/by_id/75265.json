@@ -1,0 +1,25 @@
+{
+  "num_tg": "75265",
+  "type": "tg",
+  "title": "Modelamento e projeto térmico de CubeSats: missăo SPORT",
+  "author": "Kauę Felipe Neves",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Pedro Kukulka de Albuquerque",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O contexto atual de missőes espaciais vem mudando e cada vez mais temos satélites de menor tamanho e custo desempenhando funçőes complexas e cięncia de alto nível. É nesse contexto que se insere a missăo SPORT, um CubeSat 6U que fará exploraçăo científica de fenômenos na ionosfera. O projeto é uma parceria entre o Brasil e os EUA, sendo as instituiçőes brasileiras participantes o ITA e o INPE, e as americanas a NASA e algumas universidades. Cabe ao ITA desenvolver a plataforma em que serăo embarcados os experimentos desenvolvidos nas instituiçőes dos EUA, sendo parte do desenvolvimento o estudo do comportamento térmico do satélite em órbita e o projeto de um sistema de controle que garanta a sobrevivęncia do sistema. Com esse contexto em mente, este trabalho descreve a aplicaçăo de uma metodologia de análise térmica para a missăo SPORT. A análise é feita a partir de um modelo mecânico simplificado do satélite utilizando-se o software Thermal Desktop como o gerador da malha térmica e o SINDA como solucionador do problema numérico gerado. Faz parte do trabalho um embasamento teórico básico necessário para o entendimento dos fundamentos matemáticos e científicos da metodologia e também do funcionamento do software empregado. O objetivo é que essa fundamentaçăo teórica possa ser utilizada como ponto de partida para trabalhos futuros. Também săo apresentadas as estratégias mais comuns de controle térmico tanto as passivas como as ativas. Na seçăo de resultados săo apresentados os perfis de temperatura e as cargas térmicas incidentes obtidas. Os resultados da análise demonstraram que é necessária a implementaçăo de algum sistema de controle já que o satélite demonstrou ficar abaixo da temperatura de operaçăo no caso crítico de resfriamento. Em seguida, foram feitas algumas sugestőes de controle para mitigar os problemas identificados na análise preliminar. Por fim, foram feitas algumas sugestőes de melhorias para trabalhos futuros.",
+  "subjects": [
+    "Satélites",
+    "Análise térmica",
+    "Controle de temperatura",
+    "Projeto de satélites",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75265",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75265&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000457038",
+  "type": "tese",
+  "title": "Análise do transporte de calor em regime laminar e turbulento em meio poroso descontínuo.",
+  "author": "Francisco Dias Rocamora Junior",
+  "year": "2001",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é analisado o transporte de calor em meios porosos rígidos, homogęneos e saturados com um fluido incompressível e monofásico, para os regimes de escoamento laminar e turbulento. As equaçőes de transporte de energia macroscópicas para o fluido e para a matriz porosa (sólido), săo obtidas com o auxílio do conceito de dupla decomposiçăo, donde surge o termo de 'dispersăo térmica turbulenta'. A hipótese de Equilíbrio Térmico Local é utilizada para obter um modelo de uma-equaçăo para o meio poroso. Os fluxos térmicos devido ŕ tortuosidade e dispersăo, que aparecem no processo de aplicaçăo das médias temporal e volumétrica, săo representados por um modelo de difusăo proporcional ao gradiente da média intrínseca da temperatura média no tempo. Os tensores de condutividade térmica resultantes desse modelo săo obtidos de dois modos: a) Para as componentes turbulentas, devidas ŕs flutuaçőes temporais da velocidade e temperatura, é utilizado o modelo de difusividade térmica turbulenta onde a viscosidade turbulenta macroscópica é obtida através do modelo k-e macroscópico, e b) Para as componentes de tortuosidade e dispersăo, devidas aos desvios espaciais da velocidade e temperatura, săo utilizados os resultados obtidos para os campos microscópicos de velocidade e temperatura em uma célula unitária com condiçőes de contorno periódicas para o escoamento e um gradiente de temperatura imposto. O modelo macroscópico assim obtido, juntamente com as condiçőes de contorno/interface apropriadas, é entăo utilizado na soluçăo de problemas em meios híbridos, i.e., regiőes compostas por meios sólidos e/ou porosos e/ou meio limpo (apenas fluido) num único domínio de cálculo.",
+  "subjects": [
+    "Materiais porosos",
+    "Transferęncia de calor",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Mecânica dos fluidos",
+    "Análise numérica",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000457038",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000457038&origem=BDITA"
+}

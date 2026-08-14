@@ -1,0 +1,36 @@
+{
+  "num_tg": "77569",
+  "type": "tg",
+  "title": "Classificador de carga mental de trabalho para monitoramento da tripulaçăo em tempo real",
+  "author": "Augusto Tadashi Miyagawa",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Caroline Chanel",
+      "professor_slug": null
+    },
+    {
+      "name": "Patrick Mazoyer",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Entre os inúmeros aspectos que podem influenciar na performance de uma pessoa ao longo de uma atividade, a alta carga mental de trabalho é um dos fatores que impactam diretamente no rendimento. Basicamente, essa carga mensura a interaçăo entre a atividade exigida do indivíduo e a sua capacidade mental de realizaçăo da tarefa. Assim, uma demanda que excede a capacidade mental da pessoa traz um aumento nessa carga de trabalho, o que poderá influenciar na performance da continuaçăo da atividade. Devido a isso, é importante detectar quais fatores estăo relacionados com o aumento dessa carga, assim como discriminar quais deles possuem maior influęncia ou relevância para serem estudados e analisados. O presente trabalho tem como objetivo estudar a criaçăo de um classificador de carga mental de trabalho para o monitoramento em tempo real de uma tripulaçăo. Sendo a condiçăo mental de uma tripulaçăo algo essencial para garantir a segurança e o alto rendimento das tarefas, a criaçăo de um classificador para mensurar a carga mental de trabalho pode auxiliar no monitoramento das condiçőes mentais da pessoa. Durante esse estudo, um dos principais focos é a identificaçăo de parâmetros que influenciam na performance do operador. O experimento de aquisiçăo dos dados foi realizado anteriormente em um projeto da empresa Thales Group. Para a execuçăo dessa coleta, o teste utilizou dois sensores: uma banda torácica para a detecçăo de medidas cardíacas e um eye tracker (ferramenta de seguimento ocular) para a detecçăo dos movimentos dos olhos. A partir disso, foram utilizados métodos de machine learning para a avaliaçăo dos dados, gerando como resultado o classificador de carga mental de trabalho.",
+  "subjects": [
+    "Operaçăo em tempo real",
+    "Aprendizagem (inteligęncia artificial)",
+    "Análise comparativa",
+    "Monitoramento da saúde estrutural",
+    "Fatores psicológicos",
+    "Condiçőes de trabalho",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77569",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77569&origem=BDITA"
+}

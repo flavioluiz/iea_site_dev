@@ -1,0 +1,25 @@
+{
+  "num_tg": "78821",
+  "type": "tg",
+  "title": "Concepçăo de um framework de integraçăo e validaçăo entre as ferramentas de projeto aeronáutico Design Tools e SUAVE",
+  "author": "Nuno Alvares de Paula Monteiro",
+  "year": "2022",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Joăo Antônio Dantas de Jesus Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nos últimos anos, as aeronaves comerciais estăo sendo desenvolvidas com eficięncias e desempenhos cada vez mais surpreendentes, o que significa que esforços de projeto vęm sendo requeridos para garantir a maior desempenho a partir de pequenas mudanças. Muitas ferramentas de projeto conceitual, portanto, surgem neste contexto para garantir que esta primeira fase de concepçăo já incorpore análises mais complexas e produza resultados mais resilientes aos testes das próximas etapas de projeto. Dentre essas ferramentas, tem-se o Design Tools, desenvolvido pelo Departamento de Projetos da Divisăo de Engenharia Aeronáutica e Aeroespacial do ITA, e o SUAVE, desenvolvido pelo Laboratório de Projeto Aeroespacial da Universidade de Stanford, os quais abordam etapas complementares do projeto conceitual de uma aeronave. Esse trabalho, entăo, almejou desenvolver um framework de integraçăo entre essas ferramentas citadas, de modo a obter um instrumento único de modelagem e análise em fase de projeto conceitual que permita adquirir uma aeronave mais otimizada devido ao maior número de informaçőes analisadas no projeto. O framework desenvolvido, portanto, permite a utilizaçăo de uma ferramenta mais complexa (SUAVE) a partir de uma interface mais simples a partir de entradas mínimas do usuário proporcionada pelo Design Tools, ainda obtendo os mesmos resultados que seria possível utilizando o SUAVE diretamente.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Estruturas (processamento de dados)",
+    "Integraçăo de dados",
+    "Modelagem (processos)",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78821",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78821&origem=BDITA"
+}

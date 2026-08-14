@@ -1,0 +1,28 @@
+{
+  "num_tese": "64667",
+  "type": "tese",
+  "title": "Metodologia para o prognóstico de falhas em compressores e turbinas a partir da análise dos parâmetros medidos em operaçăo",
+  "author": "Ronaldo Lucas Alkmin Freire",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga os principais mecanismos de degradaçăo de desempenho e propőe uma metodologia de prognóstico de falhas nos compressores e turbinas de turbinas a gás estacionárias. Esta metodologia analisa a história de desempenho do equipamento, com foco na previsăo dos parâmetros de desempenho no futuro. Assim, é possível otimizar as intervençőes de manutençăo com base na condiçăo real desses componentes. A metodologia utiliza grupos quase adimensionais para corrigir os parâmetros da turbina a gás medidos em campo para uma condiçăo ambiente de referęncia. Após esta correçăo, um conjunto de equaçőes é utilizado para calcular a eficięncia térmica global da turbina a gás, vazăo de ar de admissăo e eficięncias politrópicas de compressores e turbinas. Em seguida, săo calculados os desvios entre o desempenho da turbina a gás em campo e o estimado para a turbina a gás nova e limpa operando na mesma potęncia e condiçăo ambiente. A repetiçăo desse cálculo ao longo da história operacional da turbina a gás permite a obtençăo de curvas que descrevem o comportamento médio dos parâmetros de desempenho no passado e a extrapolaçăo dessas curvas permite estimar os valores que serăo observados no futuro. Um estudo de caso foi desenvolvido para validar a metodologia através de sua aplicaçăo em uma turbina a gás real. O equipamento analisado é do tipo aeroderivado e está instalado em uma plataforma de petróleo localizada na Bacia de Campos no litoral brasileiro. Os resultados mostram que, baseado nas informaçőes dos instrumentos de mediçăo da turbina a gás, é possível identificar e quantificar a açăo de mecanismos de degradaçăo de desempenho nos compressores e turbinas. Na turbina a gás analisada é possível observar que os sais dissolvidos na umidade do ar em atmosfera marítima aceleram a formaçăo de depósitos na turbina a gás, o que resulta na degradaçăo de desempenho. Outro mecanismo de degradaçăo observado é a corrosăo a quente nas turbinas do gerador de gases, fenômeno que ocorre pela reaçăo química desses sais com o enxofre dos combustíveis. Este estudo revelou que o ataque corrosivo na turbina foi mais severo no período em que o equipamento operou com óleo diesel. Por último, a metodologia estimou os valores futuros de degradaçăo média dos parâmetros de desempenho da turbina a gás. A análise dessa informaçăo pela equipe de operaçăo e manutençăo para a definiçăo do momento mais apropriado para a realizaçăo das intervençőes de manutençăo também depende de outras informaçőes que năo fazem parte do escopo deste trabalho.",
+  "subjects": [
+    "Motores de turbinas a gás",
+    "Turbinas",
+    "Avaliaçăo de desempenho",
+    "Análise de falhas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "10/07/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64667",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64667&origem=BDITA"
+}

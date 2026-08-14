@@ -1,0 +1,39 @@
+{
+  "num_tese": "78000",
+  "type": "tese",
+  "title": "Residual stress prediction in thermoplastic composites obtained by the hot stamping process",
+  "author": "Dante Krivtzoff De' Grandis De'Grandis",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    },
+    {
+      "name": "Alessandro Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The transition towards electric vehicles, incorporating significant battery payloads, makes necessary its structure's weight relieving. As a result, the application of composites becomes more attractive, as they possess high specific mechanical properties. To promulgate their application on mass production markets, this research focused on the thermostamping process, enabling the adaptation of pre-existing automotive production lines towards the usage of continuous fibre-reinforced materials while providing good repeatability. Better suited for the draping process due to its higher architectural stability, woven reinforcements were selected with thermoplastic matrices, which are recyclable and exhibit better repairability when compared against thermosets. There is a lack in the literature of a material model that can take all the relevant thermostamping mechanisms into account. Addressing this issue, an algorithm that accounts for both the draping and consolidation mechanisms was engineered. The objective was to accurately predict final part quality, shortening the prototyping phase of the product. First, an orthogonal draping model was applied as per literature practices. Literature coupon level material characterisation data was implemented into the ABAQUS/Explicit VUMAT routine, satisfactorily representing the stamping of dry or wet fabrics: without taking consolidation into account. Then, a novel unidirectional laminas' layup consolidation model was proposed on Matlab for a carbon/PEEK semi-crystalline thermoplastic composite. It was built by combining an Extended Hillier Model, a modified Linear Solid Model and the CLT. It obtains the material's crystallinity, mechanical properties and residual strains development as a function of the part's monotonic cooling history. Good correlation was obtained against data from the literature. Subsequently, a parametric study was developed for common laminates used in the industry, and design guidelines were obtained by the analysis of the resulting consolidation strains and laminate's inherent anisotropy. This model was later implemented and validated on ABAQUS/Explicit. These proposed consolidation and draping models were then merged on a novel VUMAT subroutine representing the thermostamping process. A mosaic model using an adapted form of the CLT represents the woven lamina as two unidirectional laminates. It calculates the representative unidirectional laminates consolidation influences and then obtains the resulting effects on the woven lamina. At that point, the thermostamping of a single dome part was simulated and the influences of the consolidation mechanism on the geometric tolerances, punch force, and the development of the material's mechanical properties were obtained.",
+  "subjects": [
+    "Tensăo residual",
+    "Materiais compósitos",
+    "Termoplásticos",
+    "Consolidaçăo",
+    "Estampagem",
+    "Propriedades mecânicas",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "05/10/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78000",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78000&origem=BDITA"
+}

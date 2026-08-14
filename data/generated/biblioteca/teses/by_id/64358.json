@@ -1,0 +1,36 @@
+{
+  "num_tese": "64358",
+  "type": "tese",
+  "title": "Modelagem, simulaçăo e controle năo linear de aviőes muito flexíveis",
+  "author": "Marcelo Santiago de Sousa",
+  "year": "2013",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "Esta tese trata da modelagem, simulaçăo e controle de voo de aviőes muito flexíveis. A metodologia de modelagem usada foi NFNS (Non Linear Flight Dynamics - Non Linear Structural Dynamics). A metodologia NFNS foi usada para implementar o modelo de um aviăo, que havia sido previamente implementado com a metodologia NFLS (Non Linear Flight Dynamics - Linear Structural Dynamics). Foi realizada uma comparaçăo entre as metodologias NFLS e NFNS com base em resultados de simulaçőes feitas, e com base nas próprias consideraçőes tecidas durante a modelagem. Foram notadas diferenças entre as duas metodologias, particularmente com relaçăo a modelagem aerodinâmica. As causas encontradas para estas diferenças indicam algumas melhorias necessárias na formulaçăo aerodinâmica na metodologia NFNS. Os efeitos de uma grande flexibilidade estrutural na dinâmica de vôo foram verificados, analisados, e explicaçőes físicas para estes efeitos săo propostas. Por fim, leis de controle năo linear com a técnica do regulador integrativo universal săo implementadas. Os resultados obtidos demonstram a eficácia e robustez das leis de controle projetadas.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Corpos flexíveis",
+    "Controle de voo",
+    "Simulaçăo de voo",
+    "Sistemas năo-lineares",
+    "Modelagem (processos)",
+    "Reguladores",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/03/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64358",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64358&origem=BDITA"
+}

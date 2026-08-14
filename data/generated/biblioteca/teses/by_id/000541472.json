@@ -1,0 +1,37 @@
+{
+  "num_tese": "000541472",
+  "type": "tese",
+  "title": "Análise da influęncia da radiaçăo em circuitos eletrônicos.",
+  "author": "Tamara Menezes Arruda",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Os computadores de bordo de satélites devem ser projetados para utilizaçăo em ambiente espacial. Entre as características deste ambiente destaca-se a presença de diferentes tipos de radiaçăo que podem alterar a operaçăo dos componentes do computador de bordo, causando desde falhas temporárias até na perda total do satélite. Neste contexto, este trabalho apresenta uma análise do comportamento de memórias SRAM quando submetidas a radiaçăo ionizante. Com esta finalidade foi desenvolvida uma plataforma composta por um sistema microprocessado que monitora em tempo real a ocorręncia de falhas em memórias. Foram realizados diversos testes nos quais memórias SRAM foram submetidas a diferentes doses de radiaçăo ionizante. As falhas detectadas incluem desde a mudança temporária de bits até a interrupçăo permanente do funcionamento da memória. Tais testes serviram para investigaçăo do comportamento das memórias SRAM quanto ŕ tolerância a ambientes espaciais com diferentes características.",
+  "subjects": [
+    "Radiaçăo ionizante",
+    "Eletrônica digital",
+    "Memória de acesso aleatório",
+    "Análise de falhas",
+    "Circuitos",
+    "Sistemas de computadores embarcados",
+    "Transmissăo por satétites",
+    "Componentes de computadores",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "07/07/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541472",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541472&origem=BDITA"
+}

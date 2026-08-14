@@ -1,0 +1,35 @@
+{
+  "num_tese": "000444766",
+  "type": "tese",
+  "title": "Sistema inteligente para determinaçăo de seqüęncias de montagem otimizadas.",
+  "author": "Luiz Alberto Gentil Mendes",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    },
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o desenvolvimento e implementaçăo de um sistema computacional inteligente usado para gerar seqüęncias de montagem ótimas ou próximas da ótima para produtos industriais. Este é um importante problema a ser estudado, uma vez que o custo de montagem para um produto industrial típico pode representar até 50% do custo total de sua manufatura. O Sistema Inteligente para Montagem Automatizada (SIMA) é um programa computacional que gera seqüęncias de montagem otimizadas, usando duas tácnicas diferentes. A primeira técnica obtém a seqüęncia de montagem ótima, calculando o custo de montagem de todas as seqüęncias possíveis. A segunda técnica usa uma Rede Neural de Hopfield modificada e ŕ medida que a rede interage, a funçăo energia que representa o custo de montagem é minimizada. Resultados de simulaçőes săo apresentados para tręs produtos constituídos de 5, 10 e 15 partes cada um. Embora a rede neural possa ficar presa em um ponto de mínimolocal da funçăo enegia, que nem sempre representa a melhor soluçăo possível para o problema, os resultados das simulaçőes mostram que, uma vez ajustados os parâmetros, a rede neural pesquisará soluçőes ótimas ou próximas das ótimas para a maioria dos casos testados.",
+  "subjects": [
+    "Sistemas especialistas",
+    "Redes neurais",
+    "Linhas de montagem",
+    "Otimizaçăo",
+    "Robótica",
+    "Engenharia de produçăo",
+    "Engenharia mecânica",
+    "Controle"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000444766",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000444766&origem=BDITA"
+}

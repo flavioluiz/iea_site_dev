@@ -1,0 +1,40 @@
+{
+  "num_tese": "80547",
+  "type": "tese",
+  "title": "Parametric study of a cavity flameholder with transverse reacting hydrogen injection applied to a scramjet combustor",
+  "author": "William Veber Moisés da Silva",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    },
+    {
+      "name": "Cornelis Henricus Venner",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Scramjet engines represent a promising technology for hypersonic propulsion and access-to-space systems, yet the challenge of achieving efficient combustion in these engines persists due to the extremely short residence time for fuel injection, mixing, and combustion at high velocities. This work presents a parametric study of a cavity flameholder combined with upstream transverse hydrogen injection in a scramjet combustor using advanced CFD simulations. Simulations involving the RANS approach were performed in Ansys CFX, coupled with the k-? SST turbulence model and the Burning Velocity Model for capturing flow dynamics, turbulence, and combustion processes accurately. In particular, the research deals with the influence exerted by Aspect Ratio (AR) variations on the critical parameters of the cavity: fuel-air mixture and chamber efficiencies, flame stabilization, and pressure recovery. The study investigated six configurations: a baseline case without a cavity and five cavity configurations with AR values of 3.2, 4.0, 4.5, 5.75, and 7.0. Results clearly demonstrate that cavity flameholders significantly enhance combustion performance by generating recirculation zones, stabilizing the flame, and intensifying turbulence, which collectively promote efficient fuel-air mixing, and these favorable effects are further amplified with increasing AR. Case E (AR = 7.0) achieved the highest performance, with a mixing efficiency of 72.3% and a combustion efficiency of 72.5%, demonstrating the advantage of larger cavities in maximizing combustion. However, this configuration exhibited a moderate reduction in pressure recovery to 53.8%, reflecting the trade-offs between improved mixing and aerodynamic efficiency. Conversely, smaller cavities, such as in Case A (AR = 3.2), provided limited mixing improvements, with a mixing efficiency of 55.9%, yet retained higher pressure recovery at 56.7%. Key flow features observed include shear layers, cavity expansion shocks, and counter-rotating vortex pairs (CVPs), which interact with shock waves and boundary layers to enhance fuel distribution and combustion. Larger cavities, such as in Cases D (AR = 5.75) and E, promoted earlier hydrogen consumption and sustained combustion zones. The baseline configuration, lacking a cavity, exhibited the lowest performance metrics, with poor mixing efficiency (51.3%) and delayed combustion, underscoring the importance of cavity-induced structures for efficient scramjet operation.",
+  "subjects": [
+    "Combustăo supersônica",
+    "Ondas de choque",
+    "Hipersônica",
+    "Dinâmica dos fluidos computacional",
+    "Cavidades",
+    "Hidrogęnio",
+    "Cisalhamento",
+    "Física"
+  ],
+  "defense_date": "25/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80547",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80547&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "76290",
+  "type": "tese",
+  "title": "Passive control of trailing edge noise through elasticity and damping mechanisms",
+  "author": "Maurício de Moura Nilton",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "abstract": "The proximity of source and edge can make the acoustic scattering by wings a significant source of aerodynamic sound. Theoretical results have shown that elastic edges lead to reductions of acoustic scattering due to the coupling between acoustic and bending waves. Most of the analysis available in the literature to deal with this problem is limited to structures of isotropic material. Throughout this thesis a numerical two-dimensional model is used to compute the acoustic field scattered by finite elastic plates. In the first part of this work an extension of this method is presented to cover anisotropic composite plates, which are shown to be advantageous, since laminates lead to lower acoustic scattering when compared to structurally equivalent metallic plates. This is due to a lower specific mass, leading to higher coupling between fluid and solid, and thus to more significant elasticity effects, decreasing substantially the radiated sound. This tendency was also observed experimentally in a simplified setup that allowed the isolation of the acoustic field scattered by flexible plates. The comparison between experimental and numerical results revealed that the two-dimensional model can predict satisfactorily the reductions in scattered field by elastic plates observed in the tests. This thesis also investigates the effect of structural damping on the acoustic scattering by flexible plates. Under specific conditions, such as high fluid loading factor and low bending-wave Mach number, the acoustic power scattered by an edge tends to be lower than that which propagates over the plate as bending waves. Results show that structural damping attenuates these waves and may modify the far-field acoustic pressure, mostly by reducing the scattered sound at structural resonances. The final contribution of this manuscript shows how this damping could be implemented in composite plates by means of viscoelastic layers. The complex modulus approach is used to model the behavior of the viscoelastic materials so that each laminate is characterized by a loss factor. A relation between the loss factor and the structural damping coefficient was established. With this relation, it is possible to perform previous calculations to estimate the benefit that the treatment with viscoelastic materials may provide.",
+  "subjects": [
+    "Aeroacústica",
+    "Materiais compósitos",
+    "Amortecimento",
+    "Placas (membros estruturais)",
+    "Viscoelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/08/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76290",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76290&origem=BDITA"
+}

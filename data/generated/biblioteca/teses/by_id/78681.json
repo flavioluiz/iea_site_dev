@@ -1,0 +1,36 @@
+{
+  "num_tese": "78681",
+  "type": "tese",
+  "title": "Development of a turbocharger matching program for internal combustion diesel engines",
+  "author": "Alex Rodrigues da Silva",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The escalation of collection demanded by society and regulatory organizations to increase the energetic efficiency in internal combustion engines, reduce fuel consumption, and drastically drop pollutant emission levels, is taken to technological challenge of unprecedented proportions. A strong pressure is applied to use clean and renewable energy sources in individual and mass transportation ways. An alternative that have been heavily applied in developed countries is the automotive electrification, but there are some mishaps to be considered, such as high development cost, low component production scale, battery recycling and the use of non-renewable and pollutants energy sources for electricity production with the aim to battery charging. For emerging markets and some types of applications such as diesel engines, there is still a good margin for improvement in current technologies such as massive use of turbochargers and light to medium hybridization. This work aims to describe the development of a computational tool to assist the turbocharger matching for internal combustion diesel engines through the engine parameters and estimate ones that are not available for some reason. The first step is the compressor selection looking for an option that can deliver the pressure ratio, air mass flow and efficiency needed to reach the engine air curve target. The next step is to select a turbine that should be able to generate enough power to drive the compressor, also covering friction, thermal and efficiency losses, furthermore, the verification of requirements necessary to choose the right architecture. The developed program proved to be effective in matching compressor and turbine by validating the results and comparing them with real engine data. The developed program offers the possibility of theoretically obtaining the air consumption curve of the internal combustion engine, in order to evaluate which compressor map is the most suitable for the application, without raising the curve in a test bench. This program was developed to assist undergraduate and graduate students in teaching and research activities. Studies cases were conducted to simulate some ordinary engineering situations, such as operational altitude for turbocharges with and without waste gate bypass valve and architecture change from dual to single-stage.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Motores diesel",
+    "Turbocompressores",
+    "Simulaçăo computadorizada",
+    "Eletrificaçăo",
+    "Fontes de energia",
+    "Termodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "10/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78681",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78681&origem=BDITA"
+}

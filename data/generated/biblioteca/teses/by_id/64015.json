@@ -1,0 +1,30 @@
+{
+  "num_tese": "64015",
+  "type": "tese",
+  "title": "Projeto e fabricaçăo por RTM de uma haste de trem de pouso de compósito",
+  "author": "Ana Carolina Silva Cerri",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo de compósitos poliméricos estruturais em diferentes setores da indústria moderna aumentou com o passar dos anos. O crescente uso desses materiais no setor aeronáutico deve-se, principalmente, ao constante desafio que esta indústria possui na obtençăo de componentes que exibam os maiores valores de resistęncia mecânica e rigidez específica entre os materiais disponíveis. O processo de fabricaçăo é uma das etapas mais importantes quando se trata da aplicaçăo de materiais compósitos. Com o desenvolvimento de técnicas de fabricaçăo como o RTM - Resin Transfer Molding - os projetistas estăo tendo oportunidade de substituir peças forjadas em metal por componentes fabricados em compósitos. Este fato abriu as portas para o desenvolvimento de peças mais espessas em compósitos, como peças de trem de pouso. Neste trabalho, projetou-se uma haste aeronáutica. Iniciou-se com a elaboraçăo de um molde e fabricaçăo de corpos de prova com fibra de vidro pelo processo RTM. Ao mesmo tempo, desenvolveu-se um modelo teórico linear da haste e obteve-se o campo de deformaçőes e tensőes para o componente por meio do Método dos Elementos Finitos, utilizando-se o software Hypermesh. Adicionalmente, os corpos de prova fabricados foram inspecionados via ultrassom, para que defeitos como delaminaçőes, porosidades e vazios fossem detectados. Em seguida, foram feitos os ensaios estruturais de traçăo das peças fabricadas para determinar o campo de deformaçőes e tensőes e a carga de falha experimentalmente. Por fim, compararam-se os resultados teóricos e experimentais. A partir do desenvolvimento da haste, pode-se comprovar a viabilidade da fabricaçăo da mesma pelo processo RTM. Além disso, através das inspeçőes por ultrassom, foi possível verificar que năo houve defeitos de fabricaçăo relevantes que pudessem comprometer a integridade estrutural dos corpos de prova. Após os ensaios estruturais, verificou-se que houve pouca dispersăo entre os valores de carga de falha para todos os corpos de prova e obteve-se um valor de carga de falha médio igual a 45,2 kN. Todos os corpos de prova falharam segundo uma combinaçăo de bearing e delaminaçăo. Depois de realizadas as comparaçőes entre campo de tensőes e deformaçőes teórico e experimental, estimou-se um valor de ovalizaçăo dos furos dos corpos de prova igual a 4,8%, que se mostrou compatível com resultados de literatura. Também foi possível avaliar o desvio entre tensăo experimental e teórica na regiăo onde foram colados os extensômetros, obtendo-se um valor igual a 18%, que também se mostrou satisfatório. Além disso, determinou-se, por meio da utilizaçăo dos resultados do modelo de elementos finitos, um valor para a dimensăo característica d0 para o Critério de Tensăo no Ponto de Whitney-Nuismer igual a 1,8 mm, que se mostrou consistente. Com isso, foi oferecida uma contribuiçăo técnica no desenvolvimento de componentes pelo método RTM, que se mostraram adequados a aplicaçőes industriais, especialmente ŕ indústria aeronáutica, onde se requer estruturas de alto desempenho mecânico e baixo peso.",
+  "subjects": [
+    "Materiais compósitos",
+    "Moldagem por transferęncia de resina",
+    "Ensaios de traçăo",
+    "Tensőes",
+    "Método de elementos finitos",
+    "Deformaçăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "04/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64015",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64015&origem=BDITA"
+}

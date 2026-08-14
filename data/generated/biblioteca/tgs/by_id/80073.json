@@ -1,0 +1,29 @@
+{
+  "num_tg": "80073",
+  "type": "tg",
+  "title": "Implementaçăo do método de colocaçăo direta para otimizaçăo de trajetória usando o software MATLAB",
+  "author": "Henrique Silva Simplicio",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "abstract": "Este trabalho apresenta o desenvolvimento de uma biblioteca em MATLAB para soluçăo de problemas de otimizaçăo de trajetória utilizando o método de colocaçăo direta trapezoidal. A biblioteca visa simplificar a resoluçăo deste tipo de problema, permitindo que o usuário concentre-se apenas na modelagem, sem necessidade de implementar a lógica matemática da soluçăo numérica. A implementaçăo é validada através de tręs casos de teste: um problema de movimento unidimensional simples, o problema clássico da braquistócrona e um problema de otimizaçăo de trajetória de subida de uma aeronave eVTOL. Os resultados obtidos săo comparados com soluçőes analíticas, quando disponíveis, e com resultados da literatura utilizando outros softwares de otimizaçăo. O trabalho contribui para a área de controle ótimo ao disponibilizar uma ferramenta que facilita a implementaçăo de soluçőes numéricas para problemas de otimizaçăo de trajetória, sendo particularmente útil para aplicaçőes em engenharia aeroespacial e áreas correlatas.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Aeronaves de decolagem vertical",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80073",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80073&origem=BDITA"
+}

@@ -1,0 +1,37 @@
+{
+  "num_tg": "000527233",
+  "type": "tg",
+  "title": "Aerodynamic analysis of a re-entry capsule.",
+  "author": "Rodrigo Vieira Miranda",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Nide Geraldo do Couto Ramos Fico Júnior",
+      "professor_slug": null
+    },
+    {
+      "name": "Thino Eggers",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Paulo Moraes Júnior",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The objective of the study is to investigate the viscous effects and the influence of the angle attack on the base flow of the reentry capsule SARA. The initial point for the discussion are Navier Stokes calculations considering laminar as well as turbulent boundary layers and Euler simulations. They are performed with the DLR Euler and Navier Stokes code TAU applying unstructured grids.",
+  "subjects": [
+    "Reentrada atmosférica",
+    "Veículos de reentrada",
+    "Camadas limite",
+    "Análise numérica",
+    "Camada limite laminar",
+    "Camada limite turbulenta",
+    "Aerodinâmica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527233",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527233&origem=BDITA"
+}

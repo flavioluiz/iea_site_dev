@@ -1,0 +1,28 @@
+{
+  "num_tese": "76758",
+  "type": "tese",
+  "title": "Aerodynamic modeling of bluff hulls for flight control of small multi-rotor airships",
+  "author": "Jorge Antonio Ricardo Junior",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The resurgence of airships and the emergence of the multi-rotor aerial vehicles (MAVs)in the past fifteen years, have created a need of dynamic models for airships that combines aerodynamic and aerostatic lift. This combination increases the vehicle's efficiency and payload capability. This dissertation addresses the aerodynamic modeling and flight control of multi-rotor airships. A greater focus is given to the aerodynamic modeling that contains a model for the drag, lift and moment coefficients besides a theoretical added-mass formulation. The aerodynamic coefficient model is based on computational fluid dynamics (CFD) simulations for four bluff ellipsoids with aspect ratio of 1, 2, 3 and 4, in the Reynolds number range of 1E3 to 2E6, and angle of attack range from 0 to 20 degrees. The Large Eddy Simulation (LES) turbulence model is used with the sub-grid turbulence model Wall-Adapting Local-Eddy Viscosity (WALE) to solve the fluid field. To reduce computational simulation time, at a first instant, the mesh is gradually refined until the point that it does not influence anymore in the final result (mesh independence). For each aerodynamic coefficient a nonlinear equation structure, valid for all the ellipsoids, is proposed as a parametric model with parameters estimated using the least mean square algorithm applied to the computational fluid dynamics simulations. The proposed equations have a superior performance, in terms of precision and number of terms, when compared to polynomial equations fitted to the same data. The theoretical added-mass equations are integrated with the aerodynamic coefficients model, and one of its terms has to be cancelled to avoid the double account of effects in the aerodynamic modeling. The resultant aerodynamic model is combined with the airship Newton-Euler equations to derive a nonlinear six degrees of freedom dynamic model, written in a matrix form, tha thas a strong coupling between the translation and rotation dynamics. Lastly, this dissertation employes a control law based on super-twisting strategy to the dynamic model. The control law is evaluated by numeric simulations of a disturbed flight and compared with a classical sliding mode control, showing to be an effective approach for this kind of airship.",
+  "subjects": [
+    "Dirigíveis",
+    "Aerodinâmica de rotores",
+    "Controle com modos deslizantes",
+    "Controle de voo",
+    "Controle"
+  ],
+  "defense_date": "06/03/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76758",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76758&origem=BDITA"
+}

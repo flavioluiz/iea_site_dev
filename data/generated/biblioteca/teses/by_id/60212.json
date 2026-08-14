@@ -1,0 +1,29 @@
+{
+  "num_tese": "60212",
+  "type": "tese",
+  "title": "Metodologias de projeto aerodinâmico de pás de turbinas eólicas de alto desempenho",
+  "author": "Santiago Martín Lugones",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O tamanho de turbinas eólicas comerciais tem aumentado consideravelmente nos últimos 25 anos desde aproximadamente uma potęncia de 50KW com rotores de entre 10 e 15 metros de diâmetro até as turbinas comerciais atuais de 5MW de potęncia com diâmetros de mais de 120 metros. Este desenvolvimento requer o uso de ferramentas numéricas que permitam prever os carregamentos aerodinâmicos estacionários e năo estacionários, năo somente nas pás de turbinas, mas também o sistema como um todo, incluindo torre, rotor e sistemas de controle. Neste contexto, este trabalho apresenta um programa computacional baseado na teoria de elemento de pá, a fim de predizer parâmetros geométricos e velocidades relativas ótimos para a obtençăo de máxima potęncia. O método de painéis foi adaptado de forma a incluir os efeitos rotacionais das pás a fim de predizer cargas aerodinâmicas em estado estacionário. A formulaçăo é tridimensional e conta com efeitos de esteira e velocidades angulares. Um estudo de caso para uma pá de turbina eólica de 2MW de potęncia foi utilizado para demonstrar as capacidades do código desenvolvido. Para avaliar as capacidades do código, foram feitas tręs tipos de validaçőes. Primeiro foram comparados resultados da literatura da teoria de elemento de pá e do método de elemento fonte-dipolo, \"Doublet-Source Lattice\", (por separado) com os resultados obtidos pelo código. Uma última validaçăo quantitativa foi feita mediante a comparaçăo com os resultados de um software de fluidodinâmica computacional. O trabalho apresentado năo pretende concorrer com os pacotes comerciais de CFD. O que se pretende é desenvolver uma ferramenta de projeto preliminar de pás de turbinas eólicas que permita obter um projeto ótimo em um tempo relativamente curto. Futuramente se pretende continuar esta investigaçăo aderindo ao código a possibilidade de analisar o comportamento estrutural e aeroelástico de pás de turbina eólica, asas e pás de helicópteros.",
+  "subjects": [
+    "Turbinas eólicas",
+    "Códigos computacionais",
+    "Características aerodinâmicas",
+    "Dinâmica dos fluidos",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "26/04/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60212",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60212&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "66535",
+  "type": "tese",
+  "title": "Utilizaçăo de código aberto de dinâmica de fluidos computacional para estudo de placas de orifício",
+  "author": "Thiago Teixeira Kunz",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta simulaçőes numéricas de escoamento de fluidos através de placas de orifício, elementos primários de mediçăo de vazăo, em comparaçăo aos resultados esperados por normas internacionais. O coeficiente de descarga usado para a determinaçăo da vazăo de um escoamento em uma tubulaçăo foi obtido numericamente através da aplicaçăo do modelo de turbulęncia de baixo Reynolds proposto por Launder-Sharma, resolvido através de um código aberto de Dinâmica de Fluidos Computacional. Diferentes configuraçőes de placa de orifício foram analisadas, tais como: diâmetro do orifício de restriçăo, número de Reynolds, posiçăo de instalaçăo, ângulo de chanfro. A principal abordagem deste trabalho é apresentar uma metodologia para determinaçăo do coeficiente de descarga para a montagem invertida da placa de orifício e apresentar os parâmetros que influenciam na determinaçăo da vazăo nesta condiçăo. Foi observado que os melhores resultados foram obtidos para os maiores diâmetros de placa de orifício, salientando que todos os resultados apresentaram desvios inferiores a 2% em relaçăo ŕ norma ISO-5167 (2003). Na montagem invertida da placa de orifício foi observada uma reduçăo na diferença de pressăo entre as faces da placa de orifício em comparaçăo ŕ montagem correta, resultando em um maior valor necessário para o coeficiente de descarga. De acordo com os resultados deste trabalho a determinaçăo do coeficiente de descarga para a montagem invertida da placa de orifício depende do número de Reynolds, ângulo de chanfro e da dimensăo do orifício de restriçăo. Este trabalho apresenta ainda resultados para a determinaçăo da vazăo em condiçăo de montagem invertida da placa, que podem ser abordados em trabalhos futuros para estimativa do coeficiente de descarga em condiçőes adversas de montagem.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Número de Reynolds",
+    "Análise numérica",
+    "Escoamento turbulento",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "18/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=66535",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=66535&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "74037",
+  "type": "tese",
+  "title": "A design for additive manufacturing method (DFAM) of direct metal lightweight parts",
+  "author": "Marcio Fernando Cruz",
+  "year": "2017",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The additive manufacturing process of metal parts shows a huge potential especially for lightweight parts such as those used in the aerospace industry. However, a challenge at the same order of magnitude is due to its low technology maturity, fragmented technology approaches and lack of methodological design approach for manufacturing. These challenges constraints severely the broad use of metal additive manufacturing in the aerospace industry. In order to overcome some of these problems, this work presents a design for additive manufacturing (DFAM) method of direct metal lightweight parts (end use parts) based on a design process approach in accordance with the constraints of the laser powder bed fusion process (L-PBF) and complementary processes. The proposed DFAM method consists of the following concatenated activities: part function and raw material setting, topology optimization input, setting up of functional surfaces and build-up orientation of the part, 3D modeling procedure, structural verification, prototyping and decision making approach. Thus, in accordance with the requirements of a typical airframe part, it was assessed the raw material characteristics, L-PBF process parameters, heat treatment and surface finishing, in order to investigate mechanical properties and integrity of the processed material following specific technical standards to support the performance of the proposed DFAM method. A titanium airframe part was designed and manufactured to verify the proposed DFAM method using mechanical properties obtained prior from mechanical testing. An optimized part in terms of weight and raw material savings was successfully obtained. The part also met the specification of smoothness and geometric uniformity. Subsequently, effectiveness aspects were investigated and compared with a part designed for traditional technology. It has been demonstrated that design for additive manufacturing method is important to obtain an optimized and realistic direct metal part by L-PBF technology, weight saving 30% or more, with material mechanical properties comparable to wrought material as static as for fatigue resistance. Furthermore, topology optimization provides an important input for the additive manufacturing to obtain a well optimized geometry, whereas a refined design is necessary to get a uniform and suitable geometry to aerospace parts. Design for manufacturing and L-PBF part orientation trials were provided relevant knowledge in optimization support structures, manufacturing time and warping mitigation. However, number of trials and time consuming in the validation tests could be much reduced if there was software that simulates the residual stress and warping trend according to the part orientation during the L-PBF process. In spite of the promising outcome fully described herein, further design trials using other parts are necessary to validate fully the DFAM method, as other combinations of functional requirements and geometrical constraints may pose additional challenges.",
+  "subjects": [
+    "Fabricaçăo",
+    "Ligas de titânio",
+    "Resistęncia ŕ fadiga",
+    "Tratamento de superfícies",
+    "Indústria aeroespacial",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "24/11/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74037",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74037&origem=BDITA"
+}

@@ -1,0 +1,31 @@
+{
+  "num_tese": "000551371",
+  "type": "tese",
+  "title": "Análise numérica das zonas de recirculaçăo do escoamento laminar ŕ jusante de uma expansăo brusca.",
+  "author": "Rosiane Cristina de Lima",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho săo apresentadas simulaçőes bi e tridimensionais de escoamentos em canais com expansăo brusca, usando dinâmica de fluidos computacional (CFD). O objetivo é analisar as zonas de recirculaçăo formadas ŕ jusante da expansăo para escoamentos laminares. As configuraçőes geométricas săo baseadas em trabalhos experimentais com razăo de expansăo (ER) igual a 1,9423 e razăo de aspecto (AR) igual a 36 e com ER=2 e AR=8. Resultados de escoamentos bidimensionais (assumindo hipótese de bidimensionalidade no plano central do canal) e tridimensionais com AR=36 săo apresentados para valores de Reynolds abaixo de 2500. Também săo apresentados resultados tridimensionais com AR=8 para números de Reynolds abaixo de 400. O conjunto de equaçőes diferenciais parciais (continuidade e quantidade de movimento) foi resolvido usando os métodos numéricos de elementos (Petrov-Galerkin compensado) e volumes finitos (upwind de 1Ş e 2Ş ordem) com um algoritmo năo permanente, obtendo soluçőes estáveis permanentes com t?8. Os estudos de malha de volumes finitos mostraram que o elemento quadrilateral uniforme apresenta resultados mais coerentes com os experimentais. Comparando os resultados das simulaçőes bidimensionais e tridimensionais (AR=36) com os experimentais da literatura, os resultados bidimensionais para x1/s apresentam melhor concordância com os experimentais. No entanto, os resultados tridimensionais apresentaram melhor concordância com os resultados experimentais para as outras zonas de recirculaçăo. Portanto, as diferenças encontradas entre os resultados experimentais e numéricos năo săo devidas aos efeitos tridimensionais năo capturados pelo modelo numérico bidimensional. As discordâncias podem estar sendo causadas por fenômenos năo relatados nos trabalhos experimentais.",
+  "subjects": [
+    "Escoamento reverso",
+    "Recirculaçăo de escoamento de fluidos",
+    "Escoamento laminar",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "13/03/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551371",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551371&origem=BDITA"
+}

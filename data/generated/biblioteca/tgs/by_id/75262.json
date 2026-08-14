@@ -1,0 +1,31 @@
+{
+  "num_tg": "75262",
+  "type": "tg",
+  "title": "Estudo computacional e analítico de tubo de calor com efeito de bombeamento por malha metálica",
+  "author": "Alex Alvarez Neto",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Lamartine Nogueira Frutuoso Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O trabalho aqui exposto buscou realizar uma análise teórica de um tubo de calor que opere em uma determinada faixa de temperatura e com um fluxo de calor pré-determinado. O fluido escolhido para o modelamento, tanto matemático quanto computacional, foi a água e por questőes de interaçőes fluido-malha, melhor explicada mais a frente, foi determinado que o material envolvente do tubo e a malha seriam de cobre. O tubo estudado possui geometria reta e suas outras características foram analisadas, a fim de garantir que todos os limites operacionais fossem respeitados, assegurando um bom funcionamento, dentro dos requisitos estabelecidos. Após fixado o modelo teórico do tubo, foi implementado um modelo 2D simples computacional no software CFD ANSYS Fluent.",
+  "subjects": [
+    "Tubos de calor",
+    "Reatores nucleares",
+    "Medidas de temperatura",
+    "Fluxo de calor",
+    "Matemática computacional",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75262",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75262&origem=BDITA"
+}

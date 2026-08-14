@@ -1,0 +1,30 @@
+{
+  "num_tese": "000534784",
+  "type": "tese",
+  "title": "Análise de shimmy de trem-de-pouso principal de aeronaves incluindo efeito de flexibilidade estrutural.",
+  "author": "Rafael Heeren",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, um modelo baseado em uma generalizaçăo de um modelo simplificado é proposto para a análise numérica de shimmy em trens-de-pouso principais de aeronaves. A haste principal é modelada utilizando elementos finitos sólidos. Ela é aproximada por uma viga admitindo que as seçőes transversais săo rígidas. Graus de liberdade de rotaçăo săo introduzidos utilizando equaçőes de restriçăo e o número de graus de liberdade é reduzido utilizando uma condensaçăo de Guyan. O modelo reduzido é validado através da comparaçăo das freqüęncias naturais e as formas modais com o modelo completo. A acurácia do modelo reduzido pode ser controlada pelo número de graus de liberdade mantidos. O side-stay é modelado como uma barra conectada a um ponto arbitrário da haste principal. Equaçőes de restriçăo săo acrescentadas para calcular os deslocamentos na junta em funçăo dos graus de liberdade mantidos. O comportamento do pneu é representado por um modelo straight tangent. As equaçőes de movimento do modelo săo obtidas usando uma abordagem Lagrangeana. Métodos numéricos săo utilizados para estudar a estabilidade do sistema. O modelo proposto foi usado para verificar a influęncia da distância do trail, do pneu e dos parâmetros estruturais no comportamento dinâmico do trem-de-pouso. O modelo proposto mostrou-se versátil, fornecendo bons resultados mesmo com um número reduzido de graus de liberdade.",
+  "subjects": [
+    "Trem de pouso",
+    "Análise estrutural dinâmica",
+    "Vibraçăo estrutural",
+    "Pneus de aeronaves",
+    "Análise numérica",
+    "Graus de liberdade",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000534784",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000534784&origem=BDITA"
+}

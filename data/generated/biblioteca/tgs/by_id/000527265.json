@@ -1,0 +1,29 @@
+{
+  "num_tg": "000527265",
+  "type": "tg",
+  "title": "Aeroelasticidade da seçăo típica com quatro graus de liberdade.",
+  "author": "Marcelo Luiz de Oliveira Portela",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A seçăo típica aeroelástica bidimensional foi um dos primeiros modelos utilizados no cálculo da velocidade de flutter. A partir de tal modelo, Theodorsen desenvolveu uma formulaçăo analítica exata para as cargas aerodinâmicas năo-estacionárias e criou um método para encontrar a velocidade de flutter. Os resultados obtidos foram certificados pela indústria, que há muito tempo utiliza ábacos e tabelas para projetar estruturas iniciais que atendam ao requisito de estabilidade dinâmica. Este trabalho compara o uso destas tabelas com as definiçőes analíticas para um aerofólio sem superfície de controle e posteriormente faz a mesma comparaçăo utilizando um aerofólio dotado de aileron, mostrando que as tabelas devem ser substituídas, pois levam a resultados mais conservativos. Isto pode implicar em estruturas mais pesadas e envelopes de vôo mais restritos. O quarto grau de liberdade é abordado de maneira mais branda, sugerindo uma extensăo do problema aqui analisado.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Cargas aerodinâmicas",
+    "Aerodinâmica năo-estacionária",
+    "Vibraçăo estrutural",
+    "Aeroelasticidade",
+    "Aerofólios",
+    "Ailerons",
+    "Superfícies de controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527265",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527265&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "65071",
+  "type": "tg",
+  "title": "Desenvolvimento de simulador de voo com suporte visual",
+  "author": "Flávio Silveira Fraga",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    },
+    {
+      "name": "Manuel Pérez Cortés",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente quase todos os países possuem linhas de pesquisas no setor aeroespacial, por ser um setor estratégico e vital ŕ manutençăo da soberania. Portanto o desenvolvimento de simuladores relacionados a veículos aéreos ou espaciais apresenta grande destaque neste contexto. A simulaçăo completa permite a recriaçăo de condiçőes análogas ŕquelas as quais um piloto passaria em situaçăo real, de forma que assim é possível analisar e avaliar o seu comportamento, reaçőes e decisőes, ademais de desenvolver e aprimorar sistemas de controle e aeronaves. Este trabalho irá abordar as diferentes etapas da confecçăo de um simulador de voo simplificado de plataforma fixa com interface visual básica, desde a escolha da aeronave a ser modelada, através de busca e pesquisa de informaçőes na literatura acerca do modelo escolhido como coleta de dados de sua geometria e massa até a implementaçăo de pilotos automáticos e interaçăo com interface gráfica e joy-stick, através de um projeto de baixo custo. Após a obtençăo dos dados essenciais iniciar-se-á um procedimento de cálculo das propriedades mássicas e geométricas da aeronave, através do método semiempírico proposto por Roskam. Com ele estimar-se-á os pesos e posiçăo do centro de massa de cada componente da aeronave e também seus momentos de inércia principais. A próxima etapa consistirá no cálculo e estimativa das derivadas de estabilidade e controle para a aeronave partindo das propriedades geométricas disponíveis e também com o auxílio de softwares numéricos. Será desenvolvida a dinâmica completa năo-linear da aeronave através das equaçőes do movimento longitudinal e latero-direcional e esta apoiar-se-á nos parâmetros previamente calculados, nos modelos de atmosfera, de propulsăo e de aerodinâmica adotados. Paralelamente desenvolver-se-á todo o modelo em ambiente Simulink que será importante para a realizaçăo da integraçăo com a interface de apoio visual e mostradores (FlightGear). Serăo projetados sistemas de aumento de estabilidade (SAS) longitudinal e latero-direcional para a aeronave, e comparados os resultados quando submetidos a entradas de controle de forma a mostrar o resultado e a eficácia de suas aplicaçőes. Outrossim implementar-se-ăo pilotos automáticos de controle de velocidade, ângulo de trajetória e altitude, permitindo a realizaçăo de etapas do pouso (descida e arredondamento) aplicando métodos de controle moderno juntamente com um método de busca e seleçăo de ganhos mais robustos respeitando as limitaçőes da aeronave, os quais serăo aplicados para simulaçőes com atmosfera em repouso e também sob rajadas discretas determinísticas e os resultados comparados.",
+  "subjects": [
+    "Simuladores de voo",
+    "Projetos",
+    "Identificaçăo de parâmetros",
+    "Configuraçőes aerodinâmicas",
+    "Pilotos automáticos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65071",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65071&origem=BDITA"
+}

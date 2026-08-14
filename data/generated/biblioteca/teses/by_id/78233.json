@@ -1,0 +1,27 @@
+{
+  "num_tese": "78233",
+  "type": "tese",
+  "title": "Identificaçăo de aeronaves com diferentes níveis de flexibilidade estrutural",
+  "author": "Abraăo Ferreira de Sousa Neto",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A necessidade da diminuiçăo de emissăo de poluentes traz ŕ tona projetos de aeronaves mais flexíveis. A identificaçăo de modelos que representem essas aeronaves é importante para comparaçăo com modelos previamente desenvolvidos nas fases de projeto. O presente trabalho tem como objetivo a identificaçăo paramétrica no domínio do tempo de aeronaves com diferentes níveis de flexibilidade. A identificaçăo é realizada num modelo de estabilidade e controle longitudinal reduzido para a dinâmica de período curto, a partir da metodologia Quad-M (Manobra, Medidas, Modelo e Método). O método de identificaçăo empregado é o método do erro na saída, e săo avaliadas duas aeronaves: um aeromodelo considerando somente corpo rígido, e a uma aeronave flexível modelo com 3 configuraçőes de flexibilidade diferentes. As medidas săo obtidas através de simulaçăo năo-linear de ambas as aeronaves. Comparaçőes entre as identificaçőes de cada configuraçăo flexível da aeronave modelo comprovam a melhoria dos valores paramétricos obtidos com a adiçăo dos efeitos elásticos nos modelos de identificaçăo. Săo analisadas hipóteses sobre os sensores possíveis de serem utilizados, a fim de realizar procedimentos mais próximos de serem repetidos em um ensaio em voo. Compara-se as identificaçőes considerando medidas de deflexăo e acelerômetros como variáveis de observaçăo, e as medidas de aceleraçăo resultam em parâmetros mais próximos do ideal. Futuramente, as análises presentes nesse trabalho podem ser utilizadas para a identificaçăo com ensaios em voo das aeronaves flexíveis năo-tripuladas.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Corpos flexíveis",
+    "Dinâmica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78233",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78233&origem=BDITA"
+}

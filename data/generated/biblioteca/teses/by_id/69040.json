@@ -1,0 +1,29 @@
+{
+  "num_tese": "69040",
+  "type": "tese",
+  "title": "Backstepping controller for attitude control of a quadrotor UAV",
+  "author": "Joana D'arc Dias Costa",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Multirotors Unmanned Aerial Vehicles (UAV), specially quadrotors, have been attracting large interest from the academy and the industry due to factors such as simplified mechanics, low cost, high maneuverability, vertical take-off and landing (VTOL) and wide variety of applications (fire fighting, surveillance, filming etc.). This work deals with the attitude control problem for a quadrotor UAV. In order to solve the problem, a backstepping attitude controller that guarantees the asymptotic stability of the system was designed using quaternion as attitude parametrization. The result was a control law similar to a P-D law with an additional nonlinear term in order to compensate the nonlinear term from the attitude dynamics. Simulations were made to validate the attitude control law achieved as well as experiments with an equipment similar to a quadrotor, but mounted on a three degree of freedom pivot joint that enables only the rotational motion, the Quanser 3D Hover. Additionally, the system was simulated with 6 degrees of freedom (3 translational and 3 rotational) and a P-D controller with constraints on the total thrust and on the inclination angle was used for the position control and to provide the desired attitude for the attitude controller. Propeller dynamics and perturbations acting on the quadrotor were modelled to obtain a more realistic result. Several Monte Carlo simulations were made to assess the mean effect of these random perturbations, and the results were effective for a way point trajectory.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle de atitude",
+    "Funçőes de Liapunov",
+    "Método de Monte Carlo",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "31/08/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=69040",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=69040&origem=BDITA"
+}

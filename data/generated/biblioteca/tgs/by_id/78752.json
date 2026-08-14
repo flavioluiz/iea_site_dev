@@ -1,0 +1,31 @@
+{
+  "num_tg": "78752",
+  "type": "tg",
+  "title": "Estudo da ferramenta SOLIS/STK® para validaçăo de leis de controle dos satélites do Centro Espacial ITA",
+  "author": "Gustavo Azolin",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Kukulka de Albuquerque",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Nesse trabalho de graduaçăo, desenvolveu-se um estudo da ferramenta computacional STK® com o módulo SOLIS® para simulaçăo do satélite SPORT e validaçăo de sua lei de controle. Implementado os componentes e características do satélite SPORT em um cenário no STK®, foi possível reproduzir resultados de simulaçăo do documento referente ao sistema de controle e determinaçăo de atitude (ADCS) do satélite, bem como ou- tras simulaçőes de interesse para a missăo SPORT. Avaliando os resultados dessas simulaçőes e o processo de aprendizado e uso da ferramenta, realizou-se urna comparaçăo crítica do STK® com o módulo SOLIS® em relaçăo a outras ferramentas já utilizadas pelo CEI (Centro Espacial ITA). Esse estudo elucida de que maneiras o CEI pode se beneficiar do STK® e do SOLIS® para missőes atuais e futuras como urna ferramenta versátil para obter uma visăo holística dos sistemas espaciais desenvolvidos em diversos cenários de operaçăo. Faz-se, também, uma sugestăo de uso futuro da ferramenta pelo CEI com base nos resultados e analises obtidos.",
+  "subjects": [
+    "Controle de satélites",
+    "Verificaçăo de programa (computadores)",
+    "Simulaçăo computadorizada",
+    "Simulaçăo de sistemas",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78752",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78752&origem=BDITA"
+}

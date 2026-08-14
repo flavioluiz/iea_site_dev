@@ -1,0 +1,30 @@
+{
+  "num_tese": "79291",
+  "type": "tese",
+  "title": "Análise numérica da influęncia térmica de revestimentos e fluidos de resfriamento em ferramentas de corte usando problemas inversos",
+  "author": "Isabella Evelyn Ribeiro",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo analisar a influęncia térmica do revestimento em uma ferramenta de corte de torneamento e a influęncia da convecçăo. O modelo térmico consiste em uma ferramenta de corte de metal duro com ou sem revestimento, um calço e um porta-ferramentas. Para o revestimento considerou-se um revestimento de 20 µm de Nitreto de Titânio (TiN) e outro de 20µm de Óxido de Alumínio (Al2O3). O modelo está sujeito a diferentes condiçőes de resfriamento, incluindo convecçăo natural, resfriamento por ar comprimido, resfriamento por lubrificaçăo por quantidade mínima (MQL) e resfriamento por água de atomizaçăo (AWL). O modelo térmico está sujeito ŕs condiçőes de contorno de convecçăo nas regiőes expostas ao ambiente e fluxo de calor prescrito na interface ferramenta cavaco. O pacote comercial COMSOL Multiphysics® versăo 6.0 foi utilizado para simular o fenômeno físico da transferęncia de calor desse conjunto. O código numérico em MATLAB estimou os fluxos de calor estudados através da técnica inversa da funçăo especificada. A funçăo especificada busca encontrar um valor de fluxo de calor que minimize a funçăo objetivo. Essa funçăo é definida pelo quadrado da diferença entre a temperatura experimental e a temperatura calculada pelo COMSOL. Após a validaçăo dos resultados obtidos no campo de temperatura, observou-se que os resultados ficaram próximo da análise experimental para as mesmas condiçőes de contorno. As temperaturas nas sondas numéricas nos conjuntos estudados săo discutidas para avaliar o impacto do revestimento e fluido de resfriamento. Para ambos os materiais de revestimento a temperatura máxima na área de contato para o inserto revestido em comparaçăo ao inserto năo revestido foi menor. Para a análise do impacto térmico com a presença do resfriamento por convecçăo forçada apresentou-se um maior fluxo de calor e temperatura máxima na interface ferramenta cavaco em comparaçăo a convecçăo natural.",
+  "subjects": [
+    "Análise térmica",
+    "Fluxo de calor",
+    "Convecçăo natural",
+    "MATLAB",
+    "Modelo numérico",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "11/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79291",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79291&origem=BDITA"
+}

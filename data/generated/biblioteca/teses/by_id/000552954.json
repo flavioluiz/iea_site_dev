@@ -1,0 +1,34 @@
+{
+  "num_tese": "000552954",
+  "type": "tese",
+  "title": "Modelagem e implementaçăo de um dispositivo universal antropomórfico da măo humana para análise de sistemas de acionamento de próteses.",
+  "author": "Fernando Silveira Madani",
+  "year": "2009",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho propőe um dispositivo universal antropomórfico que sirva como base no desenvolvimento de próteses com alto grau de semelhança funcional a măo humana. Para tanto, săo apresentadas a modelagem (modelos cinemático e dinâmico) e as construçőes física e computacional de um dispositivo mecatrônico ativo simplificado. Muitas dúvidas quanto ao tamanho, a aparęncia e a funcionalidade de um modelo protético surgem ao se pensar em projetar algo que irá, de certa forma, substituir um membro humano, dada a importância que ele representa. Pesquisas mostram dificuldades na obtençăo de modelos que atendam aos diversos requisitos que uma prótese deve ter, desde sua funcionalidade ŕ sua estética. Uma das partes que pode definir a concepçăo de uma prótese é seu acionamento. Assim, a implementaçăo deste dispositivo universal permite a análise comparativa de sistemas de acionamento. Neste trabalho săo apresentadas as vantagens e as dificuldades da utilizaçăo de tręs sistemas bastante comuns em acionamentos de produtos mecatrônicos, săo o servomotor DC, o piezo-motor e o SMA (Shape Memory Alloy) ou liga com memória de forma. Foram utilizados os aplicativos de software Inventor® na construçăo do modelo computacional e ADAMS® nas análises cinemática e dinâmica. A aquisiçăo de sinais e os testes de validaçăo foram possíveis por meio dos aplicativos Matlab® e Simulink®.",
+  "subjects": [
+    "Acionamentos elétricos",
+    "Prótese",
+    "Ligas de memória de forma",
+    "Servomotores",
+    "Motores piezoelétricos",
+    "Planejamento de tarefas (robótica)",
+    "Ortopedia",
+    "Bioengenharia",
+    "Mecatrônica",
+    "Medicina",
+    "Controle"
+  ],
+  "defense_date": "20/05/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552954",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552954&origem=BDITA"
+}

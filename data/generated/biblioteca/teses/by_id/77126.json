@@ -1,0 +1,28 @@
+{
+  "num_tese": "77126",
+  "type": "tese",
+  "title": "Finite elements formulations for 2D composite laminates accounting for through-the-thickness effects based on global-local superposition",
+  "author": "André Schwanz de Lima",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work proposes the development of displacement-based finite element formulations to model composite laminates accounting for through-the-thickness and thermal effects. Two-dimensional formulations were developed based on the superposition of layerwise local displacement fields with global displacement fields for both axial and transverse displacements, enabling to recover stresses directly from constitutive relations. Non-homogeneous boundary conditions are considered in the formulations, while the number of degrees of freedom is kept independent of the number of layers. As a result, the elements attend a large variety of applications with a relatively low computational cost, while respecting composite physics. A general description of the proposed formulations, with its fundamental hypotheses and mathematical manipulations, is followed by the assessment of element capabilities. Results were compared with bi-dimensional analytical and highly refined commercial finite element solutions based on plane stress hypothesis. The numerical efficiency of the formulation is attested, as well as its advantages and limitations. An extension for three-dimensional finite elements is outlined and possible future developments for the research are proposed based on the results and conclusions",
+  "subjects": [
+    "Vigas (suportes)",
+    "Estruturas bidimensionais",
+    "Laminados",
+    "Método de elementos finitos",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "28/07/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77126",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77126&origem=BDITA"
+}

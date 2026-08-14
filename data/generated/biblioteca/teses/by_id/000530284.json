@@ -1,0 +1,28 @@
+{
+  "num_tese": "000530284",
+  "type": "tese",
+  "title": "Modelo fenomenológico da emissăo de material articulado em motores diesel de injeçăo direta.",
+  "author": "Celso Argachoy",
+  "year": "2004",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Motores do ciclo Diesel săo extensivamente empregados em aplicaçőes automotivas devido a sua significativa vantagem em relaçăo ao consumo de combustível e a sua confiabilidade. Nos últimos anos, houve um aumento da conscięncia em relaçăo ao meio ambiente nas naçőes industrializadas, que conferiu mais importância ao controle das emissőes. Os poluentes mais críticos săo os óxidos de nitrogęnio e o material particulado, devido a dificuldade em reduzi-los simultaneamente sem comprometer o desempenho dos motores. O principal objetivo deste trabalho é utilizar os conceitos obtidos a partir dos mais modernos métodos experimentais para implementar um novo modelo fenomenológico da emissăo de material particulado que seja flexível, năo seja computacionalmente dispendioso, mas mantenha satisfatória fidelidade com os fenômenos estudados. O modelo é desenvolvido em uma estrutura modular, no ambiente Matlab-Simulink, para ser uma nova ferramenta para pesquisadores investigarem condiçőes de operaçăo que reduzem a emissăo de material particulado. As informaçőes necessárias para o modelo săo: pressăo na câmara de combustăo, vazăo em massa de combustível injetado, velocidade de injeçăo, temperatura média da câmara, taxa de liberaçăo de calor e as características do injetor. Com estas informaçőes o modelo é capaz de descrever as principais características do spray, como seu ângulo, o comprimento do spray líquido e o comprimento de \"Lift-Off\", bem como as temperaturas em algumas regiőes do spray. O modelo também determina o histórico da massa de material particulado na câmara de combustăo e a massa de material particulado que deixa a câmara. Os resultados da aplicaçăo do modelo tanto a um motor monocilíndrico de pesquisa, como a um motor veicular completo, apesar de năo reproduzirem de forma perfeita os valores medidos, mostraram claramente uma razoável conformidade e o grande potencial de expansăo do novo modelo proposto.",
+  "subjects": [
+    "Motores diesel",
+    "Emissăo de partículas",
+    "Câmaras de combustăo",
+    "Injeçăo de combustível",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000530284",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000530284&origem=BDITA"
+}

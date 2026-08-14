@@ -1,0 +1,30 @@
+{
+  "num_tese": "73086",
+  "type": "tese",
+  "title": "Identificaçăo do modelo látero-direcional de um veículo aéreo năo tripulado, VECTOR-P",
+  "author": "Clécio Fischer",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo a obtençăo do modelo de estabilidade e controle aerodinâmico látero-direcional de um Veículo Aéreo năo Tripulado (VANT), por meio da identificaçăo de sistemas aplicada a aeronave VECTOR-P. Os dados de ensaio em voo foram processados utilizando a metodologia M4V. (Manobra, Modelo, Método, Medidas e Validaçăo). Inicialmente, apresentamos a fundamentaçăo teórica do trabalho, abordando os conceitos necessários para a execuçăo de manobras projetadas para a melhorar a performance da identificaçăo dos parâmetros aerodinâmicos. Posteriormente, desenvolvemos o modelo da dinâmica de voo e a sua simplificaçăo para a descriçăo da dinâmica látero-direcional. O trabalho focaliza o método de erro na saída (Output Error Method - OEM), que minimiza uma funçăo custo descrita em termos dos parâmetros aerodinâmicos a serem estimados e da covariância do erro de estimaçăo. O algoritmo utilizado foi o de Levengberg-Marquart, que é uma variaçăo do método de Gauss-Newton. As medidas necessárias para a realizaçăo da identificaçăo dos parâmetros foram obtidas através de ensaios em voo. As entradas aplicadas nas superfícies de controle, para excitar os modos de voo da dinâmica látero-direcional da aeronave, săo avaliados pela Densidade Espectral de Energia do sinal de entrada. Os algoritmos de simulaçăo da dinâmica de voo, e de otimizaçăo de parâmetros foram implementados no MATLAB®. Os parâmetros obtidos no processo de identificaçăo săo validados com novos dados de ensaios em voo, para verificar a capacidade de extrapolaçăo do modelo identificado. Finalmente, apresenta-se uma análise de validaçăo dos parâmetros identificados aplicando-se as técnicas de acurácia estatística dos parâmetros, e análise do resíduo.",
+  "subjects": [
+    "Estimaçăo de sistemas",
+    "Identificaçăo de parâmetros",
+    "Codigo de deteccao de erros",
+    "Controle de aeronaves",
+    "Ensaios em voo",
+    "Aeronave năo-tripulada",
+    "Controle"
+  ],
+  "defense_date": "30/01/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73086",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73086&origem=BDITA"
+}

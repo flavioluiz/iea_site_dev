@@ -1,0 +1,26 @@
+{
+  "num_tg": "80072",
+  "type": "tg",
+  "title": "Projeto de um foguete para estudos de dinâmica e controle",
+  "author": "Henrique Rasia Montenegro",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Guilherme Soares e Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo projetar um foguete de baixo custo para uso acadęmico, capaz de ser utilizado para estudos de dinâmica e controle. O projeto é pensado com uso duplo dentro das atividades do Grupo de Atividades Letivas Experimentais (GALE) e da ITA Rocket Design (ITARD), esta última com objetivo de participar em competiçőes universitárias como a Latin American Space Challenge (LASC), que exige a adequaçăo do projeto a seus regulamentos. O trabalho segue o modelo V de engenharia de sistemas, organizando o desenvolvimento em etapas de definiçăo da missăo, requisitos, e métodos de verificaçăo e validaçăo. A escolha do sistema de controle foi de controle aerodinâmico por canards, após analisar alternativas como estabilizaçăo por giro, controle por empuxo e controle por cauda. Com os objetivos de sistema definidos, os subsistemas foram projetados. Assim, um motor de propelente de açúcar sorbitol e nitrato de potássio foi projetado para suprir as necessidades da missăo, assim como um sistema de paraquedas com ejeçăo pirotécnica com capacidade de recarga para múltiplos lançamentos. Por fim, a estrutura e disposiçăo dos componentes no foguete também foi feita com a modelagem em CAD e escolha de diversos componentes de prateleira. Também foi feita uma proposta inicial para um sistema de controle, com um método de otimizaçăo de trajetória em arfagem para atingir um apogeu preciso, enquanto a guinada e rolamento săo estabilizadas simultaneamente com controladores PID. O trabalho conclui com a implementaçăo de um modelo de dinâmica de voo simplificado para demonstrar uma lei de controle alternativa, mas menos computacionalmente exigente, resultando em bom desempenho, mas com limitaçőes para o uso prático.",
+  "subjects": [
+    "Motores foguetes",
+    "Projetos",
+    "Controle",
+    "Empuxo",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80072",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80072&origem=BDITA"
+}

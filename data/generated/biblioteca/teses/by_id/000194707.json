@@ -1,0 +1,28 @@
+{
+  "num_tese": "000194707",
+  "type": "tese",
+  "title": "Integraçăo numérica direta de problemas de resposta dinâmica",
+  "author": "Antonio Carlos Ponce Alonso",
+  "year": "1992",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Métodos de integraçăo numérica direta săo utilizados na análise dinâmica estrutural para a soluçăo das equaçőes de movimento no domínio do tempo. Estes métodos trabalham diretamente sobre as equaçőes de movimento acopladas, e podem ser descritos basicamente como processos de extrapolaçőes sucessivas passo-a-passo: começando com valores iniciais conhecidos dos vetores de deslocamento e velocidade, soluçoes săo obtidas em incrementos de tempo especificado usando para tanto, um esquema de diferença finita ou um processo de integraçăo numérica. Várias variantes dos métodos existem. Os algoritmos mais amplamente usados săo: o método de Newmark, o método de Wilson O, o método de Houbolt e os métodos de Zienkiewicz. No presente trabalho alguns destes algoritmos săo reexaminados e aplicados a uma estrutura de complexidade moderada. A tese discute a performance e os méritoscomputacionais das diferentes variantes. Conclusőes baseadas na precisăo, estabilidade e eficięncia săo apresentadas.",
+  "subjects": [
+    "Integraçăo numérica",
+    "Método de elementos finitos",
+    "Análise estrutural dinâmica",
+    "Métodos matemáticos",
+    "Matemática"
+  ],
+  "defense_date": "01/07/1992",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194707",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194707&origem=BDITA"
+}

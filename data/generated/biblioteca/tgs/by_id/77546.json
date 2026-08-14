@@ -1,0 +1,25 @@
+{
+  "num_tg": "77546",
+  "type": "tg",
+  "title": "Simulaçăo de reaçőes químicas usando o modelo REAXFF",
+  "author": "Rafael Barreto Mendes",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um dos desafios para o projeto de propelente é a dificuldade em conseguir dados relativos a energias para substâncias que năo săo corriqueiras nesse meio. Assim, o uso de novas substâncias fica restrito a projetos que contam com softwares avançados ou tem orçamento para realizar testes preliminares com todas as substâncias consideradas. Dessa forma, aumentando o custo do projeto e dificultando estudos didáticos. Dessa forma, esse trabalho tem como objetivo criar uma formulaçăo simples para avaliar a energia de ligaçăo de substancias, sem a necessidade de um software específico. Para isso, foi feita a implementaçăo do modelo ReaxFF na plataforma computacional MATLAB para o etano. O resultado obtido pelo modelo apresentou uma boa previsăo da energia de quebra da ligaçăo C-C, dessa forma apresentando-se como uma forma viável de realizar tentes preliminares.",
+  "subjects": [
+    "Química da combustăo",
+    "Propelentes",
+    "Simulaçăo computadorizada",
+    "Físico-Química",
+    "Engenharia química"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77546",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77546&origem=BDITA"
+}

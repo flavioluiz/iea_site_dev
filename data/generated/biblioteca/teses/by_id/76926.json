@@ -1,0 +1,29 @@
+{
+  "num_tese": "76926",
+  "type": "tese",
+  "title": "A 3D progressive failure model for crushing simulations in composite structures",
+  "author": "Sérgio Augusto Capasciutti de Oliveira",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A constitutive damage model is proposed in order to investigate the crushing response of composite laminates using a VUMAT subroutine implemented in the commercial software ABAQUS/Explicit. This damage model predicts five failure modes commonly observed in unidirectional (UD) carbon fibres reinforced composite structures: fibre failure in tension, fibre failure in compression, matrix cracking in tension, matrix cracking in compression and in-plane shear failure. The formulation is based on an energy framework which combines stress-based fracture mechanics and damage mechanics approaches within a unified way, enabling prediction of the five failure modes aforementioned in terms of damage initiation and damage propagation. In this work, an evolution description of the constitutive model is presented, where in a first phase, the existing laboratory model was taken and a new element deletion strategy was implemented to avoid excessive distortions at element level and ensure robustness and stability in the numerical simulations. Also in this phase, was identified the model limitation in performing degradation for the matrix in compression mode. Therefore, the existing model with the element deletion strategy implementation was classified as Model A. In a second phase, considering the element deletion strategy implemented for the Model A, the issue correction from Model A limitation related to the degradation for the matrix under compression stresses and the Puck and Schürmann failure criterion implementation for matrix under tension stresses make the constitutive model to be defined as Model B. Finally, in the third phase, considering the modifications carried out for Models A and B, a new fibre kink formulation is proposed taking into account the stresses degradation on the matrix fracture plane inside the kinking band and this model is classified as Model C. An experimental test campaign is proposed for verification of the numerical models, considering its evolution as Models A, B and C. Before comparing the in-house experiment results, carried out with [0°]16 laminates with chamfers values of 30°, 45° and 60°, with the proposed models simulation results, a first evaluation of the model capability was performed by means of literature experiments results comparison with [(0°/90°)4]s laminates with chamfer values of 20° and 45°. Therefore, final results have shown a fairly good correlation between numerical predictions and experimental results for crushing of UD composite laminates, specially when Model C is verified with the in-house experimental results.",
+  "subjects": [
+    "Danos",
+    "Compósitos fibrosos",
+    "Laminados",
+    "Método de elementos finitos",
+    "Mecânica de fratura",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "29/06/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76926",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76926&origem=BDITA"
+}

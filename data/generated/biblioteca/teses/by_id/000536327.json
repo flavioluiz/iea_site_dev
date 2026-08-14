@@ -1,0 +1,31 @@
+{
+  "num_tese": "000536327",
+  "type": "tese",
+  "title": "Estudo experimental e numérico de painéis sanduíche suportados lateralmente por pinos e sujeitos a grandes deformaçőes.",
+  "author": "Tito Livio Boni",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste estudo săo apresentados modelos em elementos finitos (EF), para a prediçăo do comportamento de painéis sanduíche, simplesmente apoiados e fixados por pinos em duas bordas opostas ou nas suas quatro bordas. Os painéis săo submetidos a cargas distribuidas transversais e estăo sujeitos a grandes deformaçőes. Duas técnicas de modelagem foram abordadas, utilizando-se o pacote comercial de EF Nastran: a) utilizando elementos sólidos equivalentes para o núcleo e elementos de placa para as faces e b) utilizando elementos de placa com tręs camadas de laminados equivalentes. Săo também apresentados os procedimentos experimentais utilizados para a obtençăo das propriedades mecânicas necessárias para a modelagem das faces e nucleo e para a obtençăo da rigidez nos pontos de fixaçăo laterais. Os resultados obtidos com os modelos numéricos foram comparados com resultados experimentais com o objetivo de validar a técnica de modelagem desenvolvida e permitir o uso subsequente do modelo simplificado bi dimensional na previsăo das tensőes globais e das cargas de cisalhamento nos pontos de fixaçăo dos painéis. Os resultados obtidos demonstraram que a metodologia utilizada apresenta uma ótima relaçăo entre precisăo nos resultados e eficięncia computacional associada ŕ versatilidade da análise por elementos finitos, essenciais para aplicaçőes do dia a dia da indústria.",
+  "subjects": [
+    "Estruturas sanduíche",
+    "Análise estrutural",
+    "Análise numérica",
+    "Painéis",
+    "Materiais compósitos",
+    "Propriedades mecânicas",
+    "Ensaios de materiais",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "07/06/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000536327",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000536327&origem=BDITA"
+}

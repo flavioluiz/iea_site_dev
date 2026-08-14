@@ -1,0 +1,30 @@
+{
+  "num_tg": "76448",
+  "type": "tg",
+  "title": "Estudo das condiçőes críticas do escoamento na parte frontal e nas rampas de compressăo do veículo hipersônico 14-X",
+  "author": "William Veber Moisés da Silva",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Valéria Serrano Faillace Oliveira Leite",
+      "professor_slug": "valeria-faillace-leite"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "Veículos aeroespaciais em regime de voo hipersônico estăo submetidos a elevadas cargas térmicas durante o processo de reentrada atmosférica. Os efeitos de compressăo e de fricçăo do gás escoado sobre a superfície do objeto em movimento săo responsáveis pela transformaçăo de parte da energia cinética do escoamento em energia térmica, causando um fenômeno conhecido como aquecimento aerodinâmico. A configuraçăo geométrica do corpo e sua trajetória de entrada, quando combinadas com o tipo de material utilizado, definem o gradiente de temperatura sobre a superfície do veículo, que servirăo de base para o projeto do sistema de proteçăo térmica. O objetivo deste trabalho é, através de uma abordagem analítica do problema, estimar as temperaturas externas ŕs rampas de compressăo da parte frontal do Veículo Hipersônico Aeroespacial 14-X S, que constitui um protótipo brasileiro em desenvolvimento de aeronave hipersônica năo tripulada. Fazendo parte de um projeto estratégico do Comando da Aeronáutica, o 14-X S consiste em um demonstrador tecnológico desenvolvido na Divisăo de Aerotermodinâmica e Hipersônica, do Instituto de Estudos Avançados (IEAv), e foi inicialmente concebido para demonstrar o conceito de um estatorreator a combustăo supersônica (scramjet) em voo atmosférico a 30 km de altitude e com velocidade correspondente a número de Mach 7. Este trabalho apresenta uma breve revisăo bibliográfica acerca do avanço de tecnologias hipersônicas, bem como a fundamentaçăo teórica necessária para o cálculo das cargas térmicas atrás de duas ondas de choque sucessivas, ŕs quais a carenagem da parte frontal do 14-X S estará submetida. As propriedades termodinâmicas săo calculadas através de tręs modelagens distintas para o ar atmosférico: a primeira o considera como um gás caloricamente perfeito e năo-reativo; a segunda, por sua vez, é feita através da modelagem do ar como um gás termicamente perfeito; e, no terceiro caso, considera-se que o escoamento esteja em equilíbrio químico e vibracional. Através de sub-rotinas computacionais desenvolvidas em linguagem MATLAB, tanto a temperatura quanto outras propriedades termodinâmicas săo calculadas para as regiőes de compressăo do escoamento para os tręs casos citados, considerando-se ângulo de ataque nulo em relaçăo ao escoamento livre. Os resultados obtidos indicam - conforme o esperado - que o escoamento através das ondas de choque oblíquas promove um aumento de pressăo, da densidade e da temperatura, bem como uma diminuiçăo do número de Mach. Entretanto, quando se comparam as variaçőes desses parâmetros termodinâmicos para as tręs modelagens distintas, constata-se que elas diferem apenas ligeiramente, sendo maiores para a segunda onda de choque oblíqua devido ao maior ângulo de rampa. Os resultados obtidos, quando somados aos ensaios experimentais realizados no IEAv e ŕs simulaçőes numéricas em CFD (Computational Fluid Dynamics) de trabalhos correlatos, servirăo de base para a definiçăo do material mais apropriado para ser usado como escudo térmico na carenagem do veículo 14-X S, bem como para um estudo mais aprofundado das condiçőes de queima do H2 no estatorreator a combustăo supersônica.",
+  "subjects": [
+    "Aquecimento aerodinâmico",
+    "Ondas de choque",
+    "Hipersônica",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76448",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76448&origem=BDITA"
+}

@@ -1,0 +1,1692 @@
+{
+  "author": {
+    "author_id": 46461159000,
+    "eid": "9-s2.0-46461159000",
+    "nome_indexado": "Cardoso-Ribeiro F.",
+    "nome": "Flávio Luiz",
+    "sobrenome": "Cardoso-Ribeiro",
+    "orcid": "0000-0002-6454-9671",
+    "alias": null,
+    "historical_identifier": null,
+    "h_index": 10,
+    "total_documentos": 31,
+    "total_citacoes": 285,
+    "cited_by_count": 201,
+    "intervalo_publicacao": [
+      2009,
+      2025
+    ],
+    "coauthor_count": 48,
+    "coauthor_link": "http://api.elsevier.com/content/search/author?co-author=46461159000",
+    "link_scopus": "http://api.elsevier.com/content/author/author_id/46461159000",
+    "self_link": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=46461159000&origin=inward",
+    "data_criacao_registro": [
+      2011,
+      8,
+      25
+    ],
+    "classificacao_assuntos": [
+      {
+        "subject_group_id": 2211,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 1912,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2606,
+        "num_documentos": 5
+      },
+      {
+        "subject_group_id": 1712,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2611,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2207,
+        "num_documentos": 17
+      },
+      {
+        "subject_group_id": 2202,
+        "num_documentos": 11
+      },
+      {
+        "subject_group_id": 2209,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2500,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2203,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 1711,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 3102,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 1700,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2604,
+        "num_documentos": 4
+      },
+      {
+        "subject_group_id": 2104,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 1706,
+        "num_documentos": 1
+      },
+      {
+        "subject_group_id": 2208,
+        "num_documentos": 3
+      },
+      {
+        "subject_group_id": 2210,
+        "num_documentos": 8
+      },
+      {
+        "subject_group_id": 2200,
+        "num_documentos": 3
+      },
+      {
+        "subject_group_id": 2102,
+        "num_documentos": 1
+      }
+    ],
+    "afiliacoes_atuais": [
+      {
+        "id": 104107561,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      }
+    ],
+    "afiliacoes_historicas": [
+      {
+        "id": 104107561,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 60102124,
+        "nome": null,
+        "cidade": "Toulouse",
+        "pais": "France"
+      },
+      {
+        "id": 60021657,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 129001556,
+        "nome": null,
+        "cidade": null,
+        "pais": null
+      },
+      {
+        "id": 104107570,
+        "nome": null,
+        "cidade": "Sao Jose dos Campos",
+        "pais": "Brazil"
+      },
+      {
+        "id": 60027245,
+        "nome": null,
+        "cidade": "Toulouse",
+        "pais": "France"
+      }
+    ]
+  },
+  "publications": [
+    {
+      "eid": "2-s2.0-85210484189",
+      "doi": "10.1007/s00498-024-00404-6",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Rotational shallow water equations with viscous damping and boundary control: structure-preserving spatial discretization",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2025",
+      "date": "2025-06-01",
+      "display_date": "June 2025",
+      "journal": "Mathematics of Control Signals and Systems",
+      "aggregation_type": "Journal",
+      "author_count": "4",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Haine, Ghislain;Lefèvre, Laurent;Matignon, Denis",
+      "author_ids": "46461159000;49863324900;58601349000;6602185459",
+      "author_afids": "60021657;60102124;60104653;60102124",
+      "affilname": "Université Grenoble Alpes;Communauté d'universités et établissements de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Saint Martin d'Heres;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;France;Brazil",
+      "issn": "09324194",
+      "eissn": "1435568X",
+      "source_id": "19202",
+      "volume": "37",
+      "issue": "2",
+      "article_number": null,
+      "page_range": "361-394",
+      "cited_by": 0,
+      "abstract": "© The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature 2024.This paper is dedicated to structure-preserving spatial discretization of shallow water dynamics. First, a port-Hamiltonian formulation is provided for the two-dimensional rotational shallow water equations with viscous damping. Both tangential and normal boundary port variables are introduced. Then, the corresponding weak form is derived and a partitioned finite element method is applied to obtain a finite-dimensional continuous-time port-Hamiltonian approximation. Four simulation scenarios are investigated to illustrate the approach and show its effectiveness.",
+      "authkeywords": [
+        "Partitioned finite element method (PFEM)",
+        "Port-Hamiltonian systems (pHs)",
+        "Shallow water equations (SWE)",
+        "Viscous damping"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Signal Processing",
+          "abbrev": "COMP",
+          "name": null
+        },
+        {
+          "code": "Control and Optimization",
+          "abbrev": "MATH",
+          "name": null
+        },
+        {
+          "code": "Applied Mathematics",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 54,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85210484189&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85202295574",
+      "doi": "10.1016/j.compfluid.2024.106407",
+      "pii": "S004579302400238X",
+      "pubmed_id": null,
+      "title": "Port-Hamiltonian formulations for the modeling, simulation and control of fluids",
+      "subtype": "re",
+      "subtype_description": "Review",
+      "year": "2024",
+      "date": "2024-10-30",
+      "display_date": "30 October 2024",
+      "journal": "Computers and Fluids",
+      "aggregation_type": "Journal",
+      "author_count": "5",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Haine, Ghislain;Le Gorrec, Yann;Matignon, Denis;Ramirez, Hector",
+      "author_ids": "46461159000;49863324900;6603503340;6602185459;8978197400",
+      "author_afids": "60021657-60102124;60102124;60029877;60102124;60007087",
+      "affilname": "Communauté d'universités et établissements de Toulouse;Universidad Técnica Federico Santa María;Femto-St - Sciences et Technologies;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Valparaiso;Besancon;Sao Jose dos Campos",
+      "affiliation_country": "France;Chile;France;Brazil",
+      "issn": "00457930",
+      "eissn": null,
+      "source_id": "18160",
+      "volume": "283",
+      "issue": null,
+      "article_number": "106407",
+      "page_range": null,
+      "cited_by": 6,
+      "abstract": "© 2024This paper presents a state of the art on port-Hamiltonian formulations for the modeling and numerical simulation of open fluid systems. This literature review, with the help of more than one hundred classified references, highlights the main features, the positioning with respect to seminal works from the literature on this topic, and the advantages provided by such a framework. A focus is given on the shallow water equations and the incompressible Navier–Stokes equations in 2D, including numerical simulation results. It is also shown how it opens very stimulating and promising research lines towards thermodynamically consistent modeling and structure-preserving numerical methods for the simulation of complex fluid systems in interaction with their environment.",
+      "authkeywords": [
+        "Boundary control",
+        "Energy-based modeling",
+        "Incompressible Navier–Stokes equations",
+        "Port-Hamiltonian systems",
+        "Shallow water equations",
+        "Structure-preserving discretization"
+      ],
+      "subject_areas": [
+        {
+          "code": "Computer Science (all)",
+          "abbrev": "COMP",
+          "name": null
+        },
+        {
+          "code": "Engineering (all)",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 143,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85202295574&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85206079827",
+      "doi": "10.1016/j.ifacol.2024.08.255",
+      "pii": "S2405896324009972",
+      "pubmed_id": null,
+      "title": "Surrogate Modeling of a Lumped-Mass Multibody Structure Using Hamiltonian Neural Networks",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-06-01",
+      "display_date": "1 June 2024",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Santos, Vitor B.;Cardoso-Ribeiro, Flávio Luiz;Brugnoli, Andrea",
+      "author_ids": "59363440800;46461159000;57208907647",
+      "author_afids": "60021657;60021657;60027245",
+      "affilname": "Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;Brazil",
+      "issn": "24058971",
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "58",
+      "issue": "6",
+      "article_number": null,
+      "page_range": "48-53",
+      "cited_by": 2,
+      "abstract": "Copyright © 2024 The Authors.The complexity of highly flexible structures restricts their use in real-time simulations. To address this challenge, we investigate the use of Hamiltonian neural networks (HNNs) as an alternative method for modeling a highly flexible cantilever beam. We derived the reference structural model using a lumped-mass rigid multibody method considering the Hamiltonian formalism and used it to generate a dataset consisting of generalized coordinates and momenta as inputs and their respective time derivatives as outputs. The trained neural networks are used as surrogate models to simulate the cantilever beam under free and forced conditions. Preliminary findings indicate that HNNs create accurate and efficient surrogate models whilst learning conservation laws. For forced-response simulations, our approach requires analytical calculation of external forces, offsetting the computational efficiency gains of our surrogate models. The outcomes of this study give initial perspectives and limitations of the use of surrogate models based on HNNs as a means to efficient simulations of highly flexible structures.",
+      "authkeywords": [
+        "Hamiltonian mechanics",
+        "highly flexible structures",
+        "Neural networks"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 15,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206079827&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85206071376",
+      "doi": "10.1016/j.ifacol.2024.08.268",
+      "pii": "S2405896324010103",
+      "pubmed_id": null,
+      "title": "A port-Hamiltonian model of airplane longitudinal dynamics",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-06-01",
+      "display_date": "1 June 2024",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "de Mattos Fernandes, João Erick;Cardoso-Ribeiro, Flávio Luiz;Morales, Mauricio Andrés Varela",
+      "author_ids": "55053611900;46461159000;57191905807",
+      "author_afids": "60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": "24058971",
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "58",
+      "issue": "6",
+      "article_number": null,
+      "page_range": "125-130",
+      "cited_by": 0,
+      "abstract": "Copyright © 2024 The Authors.This paper contributes to the application of port-Hamiltonian systems (pHs) theory in the context of fixed-wing airplanes, an area challenged by the difficulty of introducing aerodynamics in this framework. Expanding on recent initiatives that applied pHs theory to fixed-wing airplane dynamics - a move that simplified thrust and aerodynamics - our study introduces a comprehensive longitudinal dynamics formulation. This approach not only clarifies these earlier models by aligning more closely with traditional airplane dynamics equations but also integrates physical parameters from an A300 airplane model. By addressing and enhancing the thrust and aerodynamic representations, our formulation achieves a more accurate depiction of airplane dynamics. This work marks a step forward in the ongoing efforts to adapt pHs theory for aerospace engineering, laying the groundwork for more effective modeling and control strategies in this field.",
+      "authkeywords": [
+        "Aerospace",
+        "Flight dynamics",
+        "Port-Hamiltonian systems",
+        "Vehicle dynamic"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 19,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206071376&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85204218216",
+      "doi": "10.2514/6.2024-4561",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Simultaneous Estimation of Engine Deck and Drag Polar Based on Specific Excess Power Measurement",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-01-01",
+      "display_date": "2024",
+      "journal": "AIAA Aviation Forum and Ascend 2024",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Domingos, Fernando A.;Cardoso Ribeiro, Flávio Luiz;de Oliveira Silva, Bruno Giordano",
+      "author_ids": "59331280100;46461159000;55805625500",
+      "author_afids": "60021657;60021657;109904473",
+      "affilname": "Instituto Tecnologico de Aeronautica;IPEV - Instituto de Pesquisas e Ensaios em Voo",
+      "affiliation_city": "Sao Jose dos Campos;Sao Jose dos Campos",
+      "affiliation_country": "Brazil;Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101248580",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2024, American Institute of Aeronautics and Astronautics Inc, AIAA. All rights reserved.Most performance data reduction methods rely on the availability of a flight thrust deck. Nevertheless, for many reasons, such as industrial intellectual property, this information is not always available for the aircraft end user, or has prohibitive costs. For that reason, the ability to estimate an engine flight thrust deck based on flight data may be of special interest for flight test organizations or flight test schools. Thus, the objective of this work is to demonstrate a flight test method that enables the estimation of a reliable engine deck, using limited flight test instrumentation. The proposed method uses the specific excess power to estimate the thrust and drag balance. By combining level flight accelerations at constant altitudes and climb/descents at constant Mach numbers, using different thrust settings, it was possible to estimate the engine thrust for a combination of engine rotation speeds, altitudes, and airspeed. Using the method, it was also possible to estimate the drag polar at different Mach numbers.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Energy Engineering and Power Technology",
+          "abbrev": "ENER",
+          "name": null
+        },
+        {
+          "code": "Nuclear Energy and Engineering",
+          "abbrev": "ENER",
+          "name": null
+        },
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Space and Planetary Science",
+          "abbrev": "EART",
+          "name": null
+        }
+      ],
+      "references_count": 7,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85204218216&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-105019507117",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "COMPARATIVE ANALYSIS OF FLIGHT MANEUVER LOADS BETWEEN FLEXIBLE AND RIGID AIRCRAFT",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-01-01",
+      "display_date": "2024",
+      "journal": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Pinto, Eduardo A.M.;Cardoso-Ribeiro, Flávio L.;Moreira, Fernando J.O.",
+      "author_ids": "60153205300;46461159000;7005323443",
+      "author_afids": "60021657;60021657;60070415",
+      "affilname": "Instituto Tecnologico de Aeronautica;Embraer - Empresa Brasileira de Aeronáutica SA",
+      "affiliation_city": "Sao Jose dos Campos;Sao Jose dos Campos",
+      "affiliation_country": "Brazil;Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101342183",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.The analysis of aircraft loads during flight maneuvers plays a pivotal role in ensuring structural integrity, safety, design of lighter structures and more fuel-efficient vehicles. This study focuses on a comparative analysis of internal load diagrams and flight parameters time histories for a flexible aircraft and its rigid-body counterpart, emphasizing the impact of structural flexibility on flight dynamics and loads during flight maneuvers. The research employs a dynamically-coupled formulation for the flexible model, considering small deformations and inertially coupled equations of motion. The aerodynamic loads are calculated with a quasi-steady VLM model, and the structural dynamics is represented by a linear FEM model. The rigid-body model is obtained by neglecting structural flexibility, setting the number of elastic modes to zero. To calculate the internal loads, the force summation method is employed. Three maneuvers from CS-25 specifications are simulated: the symmetrical unchecked and checked maneuvers, and the roll maneuver. For the unchecked and roll maneuvers, the flexible model exhibits a slightly slower response and reduced wing and horizontal tail loads compared to the rigid model. In the checked maneuver, the flexible model displays nuanced differences in flight dynamics and horizontal tail loads, computing higher absolute TMY values, and higher SLZ and BMX loads at the instant of maximum positive FZTH, while the rigid-body model presented higher absolute values of SLZ and BMX. Regardless of the obtained variations, the study emphasizes the importance of considering structural flexibility in analyzing flight maneuver loads and the need for more precise and efficient methods to address the evolving landscape of aircraft design.",
+      "authkeywords": [
+        "force summation method",
+        "horizontal tail",
+        "inertially coupled equations",
+        "Internal loads",
+        "quasi-steady VLM",
+        "wing"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 22,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019507117&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-105019500323",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "RAYLEIGH-RITZ METHOD WITH MULTIBODY DYNAMICS FOR HIGHLY FLEXIBLE STRUCTURES",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-01-01",
+      "display_date": "2024",
+      "journal": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "da Luz, Leonardo Barros;Cardoso-Ribeiro, Flávio Luiz;Paglione, Pedro",
+      "author_ids": "57220104077;46461159000;23973700300",
+      "author_afids": "60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101342183",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.Flexible structures are increasingly prevalent in the commercial aviation industry, and the use of highly flexible structures is a prominent trend for the future. When analyzing those structures, it is crucial to consider geometric nonlinearities caused by large displacements. This means that the modeling of the structures must incorporate nonlinear structural models, which can lead to a reasonable increase in computational costs. To tackle this challenge, a framework has been developed for static and dynamic analyses of highly flexible structures. It is based on a linear structural model, utilizing the Rayleigh-Ritz method, coupled with multibody dynamics. The geometric nonlinearities are modeled through rigid connections between multiple flexible bodies that form the final structure. Two different approaches have been used for the multibody dynamics. The former considers all degrees of freedom of each body and solves only the kinematics of the constraint to maintain the connections between the bodies, which resulted in an augmented system with Lagrange multipliers that can be used to reconstruct forces and moments of constraint. The latter utilizes only the independent degrees of freedom whilst reconstructing the dependent ones through the equations that define the constraints between the bodies, directly solving the constraints. The results obtained show that proposed framework accurately describes the dynamics of highly flexible structures and can be used to simulate structures with various types of connections, showcasing its versatility for other applications like simulations of morphing structures such as wings with folding wingtips.",
+      "authkeywords": [
+        "High Flexible",
+        "Multibody",
+        "Rayleigh-Ritz method",
+        "Structural dynamics"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 12,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019500323&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-105019491346",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "IDENTIFICATION OF FLEXIBLE AIRCRAFT PARAMETERS WITH VARYING FLEXIBILITY CONFIGURATIONS: INTEGRATING ELASTIC EFFECTS AND SENSOR DATA",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-01-01",
+      "display_date": "2024",
+      "journal": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Neto, Abraão Ferreira de Sousa;Costa, Kaique Silveira Viana;Cardoso-Ribeiro, Flávio Luiz",
+      "author_ids": "60153110000;60153410300;46461159000",
+      "author_afids": "60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101342183",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.The necessity to mitigate pollutant emissions highlights the importance of research into flexible aircraft. Identifying models that accurately represent these aircraft is essential for the validation of early-stage design models and control design. This study focuses on performing a parametric system identification in the time domain for aircraft with varying levels of flexibility. The approach employs a simplified longitudinal stability and control model for short-period dynamics, rooted in the Quad-M methodology (Maneuver, Measurements, Model, and Method). The system identification technique used is the output error method, applied to a flexible model aircraft in three different flexibility configurations. Data were collected through nonlinear simulation of the flexible aircraft. Comparison of identification results across the different flexible configurations indicates an improvement in parametric values by incorporating elastic effects into the identification models. The study also explores the feasibility of various sensors to more closely simulate flight test procedures. Identifications are analyzed by comparing deflection measurements and accelerometers as observational variables, with acceleration measurements providing more accurate parameter estimations. Future work should extend the analysis presented to system identification using flight test data.",
+      "authkeywords": [
+        "flexible aircraft",
+        "identification",
+        "output error method"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 12,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019491346&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-105019491057",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "SURROGATE MODELING OF HIGHLY FLEXIBLE STRUCTURES AND AERODYNAMICS USING NEURAL NETWORKS",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2024",
+      "date": "2024-01-01",
+      "display_date": "2024",
+      "journal": "International Forum on Aeroelasticity and Structural Dynamics Ifasd 2024",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Santos, Vitor B.;Vieira, Breno S.C.;Cardoso-Ribeiro, Flávio L.;Guimarães Neto, Antônio B.",
+      "author_ids": "59363440800;60153181200;46461159000;55996695500",
+      "author_afids": "60021657;60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101342183",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2024 International Forum on Aeroelasticity and Structural Dynamics, IFASD 2024. All rights reserved.The renaissance of neural networks in the scientific community in recent years has brought new perspectives for improving the computational efficiency of traditional modeling techniques. Hamiltonian neural networks leverage the energy-preserving properties of the Hamiltonian formalism to provide surrogate models with increased interpretability compared to conventional feed-forward models. In this study, we employ a lumped-mass multibody method to derive the equations of motion of two highly flexible structures. We perform a model order reduction via modal decomposition while preserving the nonlinearities with the use of exact kinematic relations. After validating full- and reduced-order models, we use them to produce datasets and train the neural networks, which serve as ready-to-use surrogate models. Preliminary findings show that the surrogate models based on neural networks can significantly reduce the time necessary to simulate the free response of the structures. Furthermore, we demonstrate that surrogate models based on Hamiltonian neural networks have energy-preserving capabilities, maintaining accuracy levels even for long simulations. Due to their architecture, when external loads are considered, the surrogate models require the analytical calculation of the generalized forces, jeopardizing the efficiency gains obtained by our approach. We also present initial findings on the use of neural networks for faster aerodynamic models for flexible aircraft, particularly as surrogate models for the vortex-lattice method. By using a neural network as the aerodynamic surrogate model in a specific flexible aircraft simulation framework, the computational costs were reduced by a factor of 100 on average. The outcomes of this study demonstrate that surrogate models based on neural networks can soon become an efficient and reliable alternative for modeling arbitrarily flexible aircraft, provided the current limitations are addressed.",
+      "authkeywords": [
+        "flexible structures",
+        "Hamiltonian mechanics",
+        "neural networks",
+        "surrogate models"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 20,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105019491057&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85144539481",
+      "doi": "10.2514/1.J060960",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Flexible Aircraft Simulation Validation with Flight Test Data",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2023",
+      "date": "2023-01-01",
+      "display_date": "January 2023",
+      "journal": "AIAA Journal",
+      "aggregation_type": "Journal",
+      "author_count": "13",
+      "author_names": "Guimarães Neto, Antônio B.;Barbosa, Guilherme C.;Paulino, Juliano A.;Bertolin, Rafael M.;Nunes, Jéssica S.M.;González, Pedro J.;Cardoso-Ribeiro, Flávio L.;Morales, Maurício A.V.;da Silva, Roberto G.A.;Bussamra, Flávio L.S.;Silvestre, Flávio J.;Moreira, Fernando J.O.;Cesnik, Carlos E.S.",
+      "author_ids": "55996695500;57201395546;57202513674;57189045067;57221816158;55596665900;46461159000;57191905807;35451481500;7801411676;56368533200;7005323443;7003918606",
+      "author_afids": "60021657-129001556;60021657;60021657-129001556;60021657;60021657;60021657;60021657-129001556;60021657-129001556;60021657-129001556;60021657-129001556;60011604-129001358-129001576;60070415-129001576-129000546;60025778",
+      "affilname": "University of Michigan, Ann Arbor;Technische Universität Berlin;Instituto Tecnologico de Aeronautica;Embraer - Empresa Brasileira de Aeronáutica SA;Aerospace Engineering Division;Flight Control and Aeroelasticity;AIAA;Technology Development Department",
+      "affiliation_city": "Ann Arbor;Berlin;Sao Jose dos Campos;Sao Jose dos Campos;;;;",
+      "affiliation_country": "United States;Germany;Brazil;Brazil;;;;",
+      "issn": "00011452",
+      "eissn": "1533385X",
+      "source_id": "29964",
+      "volume": "61",
+      "issue": "1",
+      "article_number": null,
+      "page_range": "285-304",
+      "cited_by": 17,
+      "abstract": "© 2021 by Antônio B. Guimarães Neto, Guilherme C. Barbosa, Juliano A. Paulino, Rafael M. Bertolin, Jéssica S. M. Nunes, Pedro J. González, Flávio L. Cardoso-Ribeiro, Maurício A. V. Morales, Roberto G. A. da Silva, Flávio L. S. Bussamra, Flávio J. Silvestre, Fernando J. O. Moreira, and Carlos E. S. Cesnik. Published by the American Institute of Aeronautics and Astronautics,.The challenges of modeling flexible aircraft include appropriate fidelity capturing and validation with experimental data. In fact, the validation of formulations and models for the flexible flight dynamics is indispensable to ensure that all the important phenomena are correctly captured. With this objective, two high-aspect-ratio flexible aircraft have been flight-tested, and coupled aeroelastic–flight dynamics data have been collected to support model validation. Additional ground vibration and static tests were carried out to fully characterize the structural dynamic properties. Numerical models were built based on a linear structural representation but with geometrically nonlinear aerodynamics. Low Reynolds number effects were included in a simplified way with lookup tables of two-dimensional airfoil data. Wing-tip effects were considered via the vortex-and doublet-lattice methods. Propulsive data were obtained with wind-tunnel tests. This paper describes the numerical models, the two aircraft, and their instrumentation and presents the data collected from the aircraft sensors during flight tests. Numerical and experimental results are compared for angular velocities, accelerations, and strains measured at different points of the aircraft. Despite its limitations and simplifications, the numerical model captures the real aircraft main aeroelastic and flight dynamic behaviors.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 42,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85144539481&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85142167775",
+      "doi": "10.1007/s40430-022-03887-z",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Influence of thrust modulation on a satellite with flexible non-latching booms",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2022",
+      "date": "2022-12-01",
+      "display_date": "December 2022",
+      "journal": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+      "aggregation_type": "Journal",
+      "author_count": "4",
+      "author_names": "Quevedo Mantovani, Lorenzzo;dos Santos, Willer Gomes;Cardoso-Ribeiro, Flávio Luiz;Cardoso dos Santos, Josué",
+      "author_ids": "57402360300;55819853400;46461159000;55970413300",
+      "author_afids": "60021657;60021657;60021657;60021657-60022990",
+      "affilname": "Japan Aerospace Exploration Agency;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Chofu;Sao Jose dos Campos",
+      "affiliation_country": "Japan;Brazil",
+      "issn": "16785878",
+      "eissn": "18063691",
+      "source_id": "71359",
+      "volume": "44",
+      "issue": "12",
+      "article_number": "585",
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© 2022, The Author(s), under exclusive licence to The Brazilian Society of Mechanical Sciences and Engineering.The use of CubeSats is increasing to a wide range of areas in science and technology with some of them requiring an accurate Attitude Determination and Control System (ADCS) and deployable structures such as booms. However, small satellites commonly do not have latching systems to lock their booms, which introduce vibrations and oscillations and might degrade the ADCS performance. Also, some applications propose missions with CubeSats operating in close proximity and coordination, requiring thrusters to perform orbit maneuvers such as the planned ITASAT-2 spacecraft formation flying mission, which will have non-latching booms and a thruster. These thrusters can excite the satellite’s non-latching flexible booms, intensifying their impact on the ADCS. Additionally, on-off thrusters are usually controlled using a Pulse-Width Modulation (PWM), introducing more effects in the system’s dynamic. Hence, motivated by the ITASAT-2 mission, this work aims to understand the impact of a thruster’s PWM parameters in the non-latching flexible booms dynamics. Also, this work presents a framework to obtain the influence of PWM parameters on a satellite, which can be applied to other small spacecraft. The results show that booms’ deformation decreases when the thruster provides a continuous force, compared to a modulated force. Peaks in deformation and rotation were identified near frequencies of the non-latching flexible booms’ system. Further, it was verified that resonances might occur in latched booms at distinct PWM periods. Moreover, the influence of the non-latching mechanism and PWM parameters was observed in the system forming regions of larger deformation.",
+      "authkeywords": [
+        "Flexible multibody",
+        "Non-latching booms",
+        "PWM",
+        "Thruster"
+      ],
+      "subject_areas": [
+        {
+          "code": "Automotive Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Engineering (all)",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Industrial and Manufacturing Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Applied Mathematics",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 31,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142167775&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85138238252",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Work-in-Progress: A Complementary Training Program in Control and Automation Engineering and its Role in Undergraduate/Master's Program Integration",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2022",
+      "date": "2022-08-23",
+      "display_date": "23 August 2022",
+      "journal": "ASEE Annual Conference and Exposition Conference Proceedings",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Kienitz, Karl Heinz;Afonso, Rubens;Oliveira, Wesley;Cardoso-Ribeiro, Flávio Luiz",
+      "author_ids": "6602710857;55489776400;57203954561;46461159000",
+      "author_afids": null,
+      "affilname": null,
+      "affiliation_city": null,
+      "affiliation_country": null,
+      "issn": null,
+      "eissn": "21535965",
+      "source_id": "21100797240",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 0,
+      "abstract": "© American Society for Engineering Education, 2022.Federal grants have been supporting many Brazilian engineering master's students. The availability of these grants is dwindling, so universities on one hand and master's candidates on the other have been looking for alternatives to obtain master's degrees with less grant dependence/support. On the technical university side, this led to the emergence of options to start a master's program in the last semesters of the typical 10-semester undergraduate program. From the university's side and from the student's side it is interesting that such integrated effort is time and resource-efficient. To support this, at Instituto Tecnológico de Aeronáutica (ITA), a new Complementary Training Program (CTP) in Control and Automation Engineering was started in August 2021, serving mainly Mechanical, Electrical, Aeronautical, and Computer Engineering students. The standard goal of CTPs in Brazil is to extend the major undergraduate training in a similar way as a US minor does. Thus, the baseline purpose of the new program is to provide undergraduate students with a complementary education, transversal to engineering courses, which enables them to work as Control and Automation engineers, without the need for training supplementation after graduation. However, by offering a well-designed course choice, this program will also allow for: (a) extending the scope of undergraduate studies, and (b) deepening specific topics that are already part of the undergraduate curriculum. In the scope of the Institute's undergraduate and master's degree integration initiative, this second particularity (item b) may yield anticipated credits for a master's program. Specific features of the program may further benefit students aiming at a master's degree. This paper details the structure of the CTP and the gains expected in terms of incentives for the Institute's Mechanical-Aeronautical Engineering as well as the Electronics and Computer Engineering Master's Programs.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Engineering (all)",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 10,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85138238252&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85122349852",
+      "doi": "10.1016/j.ast.2021.107298",
+      "pii": "S1270963821008087",
+      "pubmed_id": null,
+      "title": "Impact of non-latching booms on a nanosatellite attitude control system",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2022",
+      "date": "2022-01-01",
+      "display_date": "January 2022",
+      "journal": "Aerospace Science and Technology",
+      "aggregation_type": "Journal",
+      "author_count": "4",
+      "author_names": "Quevedo Mantovani, Lorenzzo;Gomes dos Santos, Willer;Cardoso-Ribeiro, Flávio Luiz;Vergueiro Loures da Costa, Luis Eduardo",
+      "author_ids": "57402360300;55819853400;46461159000;57224915546",
+      "author_afids": "60021657;60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": "12709638",
+      "eissn": null,
+      "source_id": "12507",
+      "volume": "120",
+      "issue": null,
+      "article_number": "107298",
+      "page_range": null,
+      "cited_by": 4,
+      "abstract": "© 2021 Elsevier Masson SASThe Scintillation Prediction Observations Research Task (SPORT) nanosatellite is being developed in partnership with the National Aeronautics and Space Administration agency and the Brazilian Space Agency, with its launch planned for 2022. Its goal is to collect data to improve our understanding of plasma bubbles and the condition that lead to their formation, helping to predict and mitigate their interference in navigation and communication systems. Therefore, to reach this goal, the satellite has several scientific instruments to perform in-situ measurements, with five of them positioned on four booms. These booms do not have a latching system to lock their position; instead, torsional springs are employed to keep them in the deployed state, holding them against their mechanism's structure. This configuration of torsional spring and collision may lead to vibration with the potential to degrade the Attitude Determination and Control System performance, impacting the whole mission. Motivated by the lack of literature covering the non-latching booms dynamics in satellites, this work proposes a framework based on multibody dynamics to simulate satellites with such booms. It also presents a practical method to acquire experimental data and identify the parameters of the booms' deployment mechanism. Later, this work applies the proposed framework and investigates the impact of non-latching booms on the satellite control system to verify if SPORT is able to complete the maneuver. Therefore, experiments were conducted to calibrate both spring and collision models. The multibody model of the satellite was developed and later validated using commercial software. The method for capturing booms' data and determining the mechanisms' parameters shows a satisfactory performance near the booms' deployment position. The proposed framework to simulate satellites with non-latching booms is applied to the SPORT satellite. Simulations in closed-loop indicate that the booms' influence on the SPORT's control system is negligible and the satellite meets its requirements.",
+      "authkeywords": [
+        "Collision model",
+        "CubeSat",
+        "Multibody",
+        "Non-latching boom"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 45,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85122349852&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85130737744",
+      "doi": "10.1093/imamci/dnaa038",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "A partitioned finite element method for power-preserving discretization of open systems of conservation laws",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2021",
+      "date": "2021-01-01",
+      "display_date": "2021",
+      "journal": "IMA Journal of Mathematical Control and Information",
+      "aggregation_type": "Journal",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Lefèvre, Laurent",
+      "author_ids": "46461159000;6602185459;58601349000",
+      "author_afids": "60021657;60027245;60104653",
+      "affilname": "Université Grenoble Alpes;Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Saint Martin d'Heres;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;France;Brazil",
+      "issn": "02650754",
+      "eissn": "14716887",
+      "source_id": "23150",
+      "volume": "38",
+      "issue": "2",
+      "article_number": null,
+      "page_range": "493-533",
+      "cited_by": 45,
+      "abstract": "© The Author(s) 2020.This paper presents a structure-preserving spatial discretization method for distributed parameter port- Hamiltonian systems. The class of considered systems are hyperbolic systems of two conservation laws in arbitrary spatial dimension and geometries. For these systems, a partitioned finite element method (PFEM) is derived, based on the integration by parts of one of the two conservation laws written in weak form. The non-linear one-dimensional shallow-water equation (SWE) is first considered as a motivation example. Then, the method is investigated on the example of the non-linear two-dimensional SWE. Complete derivation of the reduced finite-dimensional port-Hamiltonian system (pHs) is provided and numerical experiments are performed. Extensions to curvilinear (polar) coordinate systems, spacevarying coefficients and higher-order pHs (Euler-Bernoulli beam equation) are provided.",
+      "authkeywords": [
+        "geometric spatial discretization",
+        "partitioned finite element method",
+        "port-Hamiltonian systems",
+        "structure-preserving discretization"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Control and Optimization",
+          "abbrev": "MATH",
+          "name": null
+        },
+        {
+          "code": "Applied Mathematics",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 54,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130737744&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85120952903",
+      "doi": "10.1016/j.ifacol.2021.11.073",
+      "pii": "S2405896321020966",
+      "pubmed_id": null,
+      "title": "Dissipative shallow water equations: A port-Hamiltonian formulation",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2021",
+      "date": "2021-01-01",
+      "display_date": "2021",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Lefèvre, Laurent",
+      "author_ids": "46461159000;6602185459;58601349000",
+      "author_afids": "60021657;60027245;60104653",
+      "affilname": "Université Grenoble Alpes;Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Saint Martin d'Heres;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;France;Brazil",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "54",
+      "issue": "19",
+      "article_number": null,
+      "page_range": "167-172",
+      "cited_by": 5,
+      "abstract": "© The Authors. This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0/)The dissipative Shallow Water Equations (DSWEs) are investigated as port-Hamiltonian systems. Dissipation models of different types are considered: either as nonlinear bounded operators, or as linear unbounded operators involving a classical diffusion term in 1D, or the vectorial Laplacian in 2D. In order to recast the dissipative SWE into the framework of pHs with dissipation, a physically meaningful factorization of the vectorial Laplacian is being used, which nicely separates the divergent and the rotational components of the velocity field. Finally, the structure-preserving numerical scheme provided by the Partitioned Finite Element Method (PFEM) is applied to the nonlinear bounded dissipative fluid models. For the linear unbounded cases, a change of variables is highlighted, to transform the DSWEs into a new pHs with a polynomial structure, which proves more suitable for numerics.",
+      "authkeywords": [
+        "Dissipative PDEs",
+        "Partitioned finite element method (PFEM)",
+        "Port-Hamiltonian systems (pHs)",
+        "Shallow water equations (SWE)"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 24,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85120952903&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85100832644",
+      "doi": "10.1093/IMAMCI/DNAA016",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Port-hamiltonian model of two-dimensional shallow water equations in moving containers",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2021",
+      "date": "2021-01-01",
+      "display_date": "2021",
+      "journal": "IMA Journal of Mathematical Control and Information",
+      "aggregation_type": "Journal",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Pommier-Budinger, Valérie",
+      "author_ids": "46461159000;6602185459;19337461900",
+      "author_afids": "60021657;60027245;60027245",
+      "affilname": "Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;Brazil",
+      "issn": "02650754",
+      "eissn": "14716887",
+      "source_id": "23150",
+      "volume": "37",
+      "issue": "4",
+      "article_number": null,
+      "page_range": "1348-1366",
+      "cited_by": 12,
+      "abstract": "© The Author(s) 2020. Published by Oxford University Press on behalf of the Institute of Mathematics and its Applications. All rights reserved.The free surface motion in moving containers is an important physical phenomenon for many engineering applications. One way to model the free surface motion is by employing shallow water equations (SWEs). The port-Hamiltonian systems formulation is a powerful tool that can be used for modeling complex systems in a modular way. In this work, we extend previous work on SWEs using the port-Hamiltonian formulation, by considering the two-dimensional equations under rigid body motions. The resulting equations consist of a mixed-port-Hamiltonian system, with finite and infinite-dimensional energy variables and ports.",
+      "authkeywords": [
+        "Moving containers",
+        "Port-hamiltonian systems",
+        "Shallow water equations",
+        "Sloshing"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Control and Optimization",
+          "abbrev": "MATH",
+          "name": null
+        },
+        {
+          "code": "Applied Mathematics",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 40,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100832644&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85105055633",
+      "doi": "10.1016/j.ifacol.2020.12.1351",
+      "pii": "S2405896320317572",
+      "pubmed_id": null,
+      "title": "Partitioned finite element method for structured discretization with mixed boundary conditions",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2020",
+      "date": "2020-01-01",
+      "display_date": "2020",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Brugnoli, Andrea;Cardoso-Ribeiro, Flávio Luiz;Haine, Ghislain;Kotyczka, Paul",
+      "author_ids": "57208907647;46461159000;49863324900;25031631900",
+      "author_afids": "60027245;60021657;60027245;60019722",
+      "affilname": "Technische Universität München;Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Munich;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "Germany;France;Brazil",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "53",
+      "issue": "2",
+      "article_number": null,
+      "page_range": "7557-7562",
+      "cited_by": 14,
+      "abstract": "Copyright © 2020 The Authors. This is an open access article under the CC BY-NC-ND licenseThe propagation of acoustic waves in a 2D geometrical domain under mixed boundary control is here described by means of the port-Hamiltonian (pH) formalism. A finite element based method is employed to obtain a consistently discretized model. To construct a model with mixed boundary control, two different methodologies are detailed: one employs Lagrange multipliers, the other relies on a virtual domain decomposition to interconnect models with different causalities. The two approaches are assessed numerically, by comparing the Hamiltonian and the state variables norm for progressively refined meshes.",
+      "authkeywords": [
+        "Aeroacoustics",
+        "Mixed boundary control",
+        "Partitioned finite element Method (PFEM)",
+        "Port-Hamiltonian systems (pHs)"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 14,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85105055633&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85082438607",
+      "doi": "10.1109/CDC40024.2019.9030007",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Port-Hamiltonian modeling, discretization and feedback control of a circular water tank",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2019",
+      "date": "2019-12-01",
+      "display_date": "December 2019",
+      "journal": "Proceedings of the IEEE Conference on Decision and Control",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Cardoso-Ribeiro, Flavio Luiz;Brugnoli, Andrea;Matignon, Denis;Lefevre, Laurent",
+      "author_ids": "46461159000;57208907647;6602185459;58601349000",
+      "author_afids": "60021657;60021657;60027245;60108256",
+      "affilname": "Université de Toulouse;Instituto Tecnologico de Aeronautica;Laboratoire de Conception et d'Intégration des Systèmes (LCIS)",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos;Valence",
+      "affiliation_country": "France;Brazil;France",
+      "issn": "07431546",
+      "eissn": "25762370",
+      "source_id": "87424",
+      "volume": "2019-December",
+      "issue": null,
+      "article_number": "9030007",
+      "page_range": "6881-6886",
+      "cited_by": 13,
+      "abstract": "© 2019 IEEE.This work presents the development of the nonlinear 2D Shallow Water Equations (SWE) in polar coordinates as a boundary port controlled Hamiltonian system. A geometric reduction by symmetry is obtained, simplifying the system to one-dimension. The recently developed Partitioned Finite Element Method is applied to semi-discretize the equations, preserving the boundary power-product of both the original 2D and the reduced 1D system. The main advantage of this power-preserving semi-discretization method is that it can be applied using well-established finite element software. In this work, we use FEniCS to solve the variational formulation, including the nonlinearity provided by the non-quadratic Hamiltonian of the SWE. A passive output-feedback controller using damping injection is used to dissipate the water waves.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Modeling and Simulation",
+          "abbrev": "MATH",
+          "name": null
+        },
+        {
+          "code": "Control and Optimization",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 26,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85082438607&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85035769140",
+      "doi": "10.1109/TCST.2017.2771244",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Modeling and control of a rotating flexible spacecraft: A port-hamiltonian approach",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2019",
+      "date": "2019-01-01",
+      "display_date": "January 2019",
+      "journal": "IEEE Transactions on Control Systems Technology",
+      "aggregation_type": "Journal",
+      "author_count": "4",
+      "author_names": "Aoues, Said;Cardoso-Ribeiro, Flavio Luiz;Matignon, Denis;Alazard, Daniel",
+      "author_ids": "55886566700;46461159000;6602185459;55994700700",
+      "author_afids": "60102124-60021657;60102124;60102124-60021657;60102124-60021657",
+      "affilname": "Communauté d'universités et établissements de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;Brazil",
+      "issn": "10636536",
+      "eissn": "1558-0865",
+      "source_id": "17342",
+      "volume": "27",
+      "issue": "1",
+      "article_number": "8118292",
+      "page_range": "355-362",
+      "cited_by": 43,
+      "abstract": "© 1993-2012 IEEE.In this brief, we develop a mathematical model of a flexible spacecraft system composed of a hub and two symmetrical beams using the port-Hamiltonian framework. This class of system has favorable properties, such as passivity for controller synthesis and stability analysis, where the global Hamiltonian plays the role of a Lyapunov function candidate. The spacecraft model is viewed as a power-conserving interconnection between an infinite (beam) and finite (hub) dimensional system. We show that the interconnection result has a port-Hamiltonian structure and is passive. The introduction of a nonlinear feedback term, which takes into account the beam's flexibility, is developed using the control by an interconnection approach. The closed-loop stability is proven; then, through explicitly solving the partial differential equations of the system, asymptotic stability is obtained. Finally, the experimental results are carried out to assess the validity of the proposed design methodology.",
+      "authkeywords": [
+        "Flexible spacecraft",
+        "Lyapunov stability",
+        "mixed port-Hamiltonian systems (PHSs)",
+        "passivity-based control"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Electrical and Electronic Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 21,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85035769140&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85053861970",
+      "doi": "10.23919/ECC.2018.8550415",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "A new look at the uncontrollable linearized quaternion dynamics with implications to LQR design in underactuated systems",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2018",
+      "date": "2018-11-27",
+      "display_date": "27 November 2018",
+      "journal": "2018 European Control Conference Ecc 2018",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Lustosa, Leandro R.;Cardoso-Ribeiro, Flavio;Defay, Francois;Moschetta, Jean Marc",
+      "author_ids": "56382408800;46461159000;24721212900;57203964058",
+      "author_afids": "60102124;60102124;60102124;60102124",
+      "affilname": "Communauté d'universités et établissements de Toulouse",
+      "affiliation_city": "Toulouse",
+      "affiliation_country": "France",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21100894519",
+      "volume": null,
+      "issue": null,
+      "article_number": "8550415",
+      "page_range": "3120-3125",
+      "cited_by": 5,
+      "abstract": "© 2018 European Control Association (EUCA).Quaternion algebra is frequently employed for spacecraft attitude description due to its convenient numerical properties when compared to minimal formulations. In parallel, Linear Quadratic Control (LQR)-based attitude controllers are often applied to underactuated vehicles due to its intuitive tuning process and satisfactory stability robustness properties. However, nonlinear quaternion differential equations of motion linearization yields non-stabilizable systems. Thus, LQR techniques cannot be directly employed since the associated algebraic Riccati equation is ill-posed. The commonplace solution resorts to a reduced quaternion model where only three out of four quaternion coordinates are exploited. The present work shows that such choice exhibits numerically unstable regions that impedes solving the LQR problem for all possible operating points. Additionally, we propose two methods to obtain wellposed LQR problems over all operating points. The first is based on the reduced quaternion model with an appropriate change of coordinates. The second is to append a virtual stabilizing input (VSI) to the nonlinear system to attain controllable linearized systems. The VSI direction should be appropriately chosen to not disturb the controllable modes of the system. Finally, we show that a class of constant angular velocity tracking problems is time-invariant under an appropriate change of variables such that time-invariant LQR techniques are applicable.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Control and Optimization",
+          "abbrev": "MATH",
+          "name": null
+        }
+      ],
+      "references_count": 14,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85053861970&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85060434209",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Applicability of geometrically-linear structural-dynamic models for the flight dynamics of arbitrarily-flexible aircraft",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2018",
+      "date": "2018-01-01",
+      "display_date": "2018",
+      "journal": "31st Congress of the International Council of the Aeronautical Sciences Icas 2018",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Guimarães Neto, Antônio B.;Cardoso-Ribeiro, Flávio L.;Silvestre, Flávio J.",
+      "author_ids": "55996695500;46461159000;56368533200",
+      "author_afids": "60021657;60021657;60021657",
+      "affilname": "Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Sao Jose dos Campos",
+      "affiliation_country": "Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21100896175",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 8,
+      "abstract": "© 31st Congress of the International Council of the Aeronautical Sciences, ICAS 2018. All rights reserved.The assumption of small deformations in the formulation of the flight dynamics of flexible aircraft can be very convenient as it allows the use of a reduced number of modes of vibration to represent the structural dynamics with little loss of accuracy. However, depending on the level of structural flexibility, deformations may become large enough to violate this simplifying assumption, making geometrically-nonlinear formulations necessary. Delimiting the range of validity of small deformations is then indispensable for the flight-mechanics engineer in state-of-the-art aircraft design. In this paper, small- and large-deformation formulations are compared in equilibrium conditions and in time-marching simulations for aircraft with different levels of structural flexibility. The importance of geometrical nonlinearities and the range of validity of small deformations are assessed.",
+      "authkeywords": [
+        "Aeroelasticity",
+        "Flexible aircraft",
+        "Flight dynamics",
+        "Large deformations",
+        "Small deformations"
+      ],
+      "subject_areas": [
+        {
+          "code": "Electrical and Electronic Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Materials Science (all)",
+          "abbrev": "MATE",
+          "name": null
+        },
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 31,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060434209&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85048930706",
+      "doi": "10.1016/j.ifacol.2018.06.031",
+      "pii": "S2405896318303239",
+      "pubmed_id": null,
+      "title": "Disturbance rejection for a rotating flexible spacecraft: a port-Hamiltonian approach",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2018",
+      "date": "2018-01-01",
+      "display_date": "1 January 2018",
+      "journal": null,
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Alazard, Daniel;Aoues, Saïd;Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis",
+      "author_ids": "55994700700;55886566700;46461159000;6602185459",
+      "author_afids": "60102124;120866046;60021657;60102124",
+      "affilname": "Communauté d'universités et établissements de Toulouse;Instituto Tecnologico de Aeronautica;ALTRAN Research",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos;Toulouse",
+      "affiliation_country": "France;Brazil;France",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": null,
+      "volume": "51",
+      "issue": "3",
+      "article_number": null,
+      "page_range": "113-118",
+      "cited_by": 2,
+      "abstract": "© 2018In this paper, the mathematical model of a flexible spacecraft system composed of a hub and two symmetrical beams loaded with tip masses is reconsidered to design a control law for internal disturbance rejection. This model has a port-Hamiltonian structure and is passive. The disturbance rejection is performed by a feedback control law using the angular rates at the two tips of a beam. The closed-loop asymptotic stability of such a collocated / non-collocated control is analyzed through explicitly solving the Partial Differential Equations (PDE) of the system. Finally, the experimental results are carried out to assess the validity of the proposed control methodology.",
+      "authkeywords": [
+        "flexible spacecraft",
+        "Lyapunov stability",
+        "passivity-based control",
+        "Port-Hamiltonian systems"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 19,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048930706&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85048766219",
+      "doi": "10.1016/j.ifacol.2018.06.033",
+      "pii": "S2405896318303252",
+      "pubmed_id": null,
+      "title": "A structure-preserving Partitioned Finite Element Method for the 2D wave equation ⁎",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2018",
+      "date": "2018-01-01",
+      "display_date": "2018",
+      "journal": null,
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Lefèvre, Laurent",
+      "author_ids": "46461159000;6602185459;58601349000",
+      "author_afids": "60021657;60027245;60104653",
+      "affilname": "Université Grenoble Alpes;Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Saint Martin d'Heres;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;France;Brazil",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": null,
+      "volume": "51",
+      "issue": "3",
+      "article_number": null,
+      "page_range": "119-124",
+      "cited_by": 23,
+      "abstract": "© 2018Discretizing open systems of conservation laws while preserving the power-balance at the discrete level can be achieved using a new Partitioned Finite Element Method (PFEM), where an integration by parts is performed only on a subset of the variables in the weak formulation. Moreover, since boundary control and observation appear naturally in this formulation, the method is suitable both for simulation and control of infinite-dimensional port-Hamiltonian systems. The method can be applied using FEM software, and comes along with worked-out test cases on the 2D wave equation in different geometries and coordinate systems.",
+      "authkeywords": [
+        "2D Wave equation",
+        "Distributed Parameter systems",
+        "Finite Element Method",
+        "Geometric Discretization Methods",
+        "Port-Hamiltonian systems"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 17,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048766219&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85010297444",
+      "doi": "10.1016/j.jfluidstructs.2016.12.007",
+      "pii": "S0889974616303577",
+      "pubmed_id": null,
+      "title": "A port-Hamiltonian model of liquid sloshing in moving containers and application to a fluid-structure system",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2017",
+      "date": "2017-02-01",
+      "display_date": "1 February 2017",
+      "journal": "Journal of Fluids and Structures",
+      "aggregation_type": "Journal",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Pommier-Budinger, Valérie",
+      "author_ids": "46461159000;6602185459;19337461900",
+      "author_afids": "60027245;60027245;60027245",
+      "affilname": "Université de Toulouse",
+      "affiliation_city": "Toulouse",
+      "affiliation_country": "France",
+      "issn": "08899746",
+      "eissn": "10958622",
+      "source_id": "12490",
+      "volume": "69",
+      "issue": null,
+      "article_number": null,
+      "page_range": "402-427",
+      "cited_by": 40,
+      "abstract": "© 2016 Elsevier LtdThis work is motivated by an aeronautical issue: the fuel sloshing in the tank coupled with very flexible wings. Vibrations due to these coupled phenomena can lead to problems like reduced passenger comfort and maneuverability, and even unstable behavior. Port-Hamiltonian systems (pHs) provide a unified framework for the description of multi-domain, complex physical systems and a modular approach for the interconnection of subsystems. In this work, pHs models are proposed for the equations of liquid sloshing in moving containers and for the structural equations of beams with piezoelectric actuators. The interconnection ports are used to couple the sloshing dynamics in the moving tank to the motion the beam. This coupling leads to an infinite-dimensional model of the system in the pHs form. A finite-dimensional approximation is obtained by using a geometric pseudo-spectral method that preserves the pHs structure at the discrete level. Experimental tests on a structure made of a beam and a tank were carried out to validate the finite-dimensional model of liquid sloshing in moving containers. Finally, the pHs model proves useful to design an active control law for the reduction of sloshing phenomena.",
+      "authkeywords": [
+        "Active control",
+        "Dynamic coupling",
+        "Interconnection of systems",
+        "Moving container",
+        "Port-Hamiltonian systems",
+        "Shallow-water sloshing"
+      ],
+      "subject_areas": [
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 51,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85010297444&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85048617142",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Validity of the assumption of small deformations in aircraft with different levels of structural flexibility",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2017",
+      "date": "2017-01-01",
+      "display_date": "2017",
+      "journal": "17th International Forum on Aeroelasticity and Structural Dynamics Ifasd 2017",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "6",
+      "author_names": "Antônio, B. Guimarães Neto;Silvestre, Flávio J.;Ribeiro, Flávio L.C.;Bussamra, Flávio L.S.;da Silva, Roberto G.A.;Cesnik, Carlos E.S.",
+      "author_ids": "55996695500;56368533200;46461159000;7801411676;35451481500;7003918606",
+      "author_afids": "60021657;60021657;60021657;60021657;60021657;60025778",
+      "affilname": "University of Michigan, Ann Arbor;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Ann Arbor;Sao Jose dos Campos",
+      "affiliation_country": "United States;Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21100864702",
+      "volume": "2017-June",
+      "issue": null,
+      "article_number": null,
+      "page_range": null,
+      "cited_by": 13,
+      "abstract": "© 2017 International Forum on Aeroelasticity and Structural Dynamics (IFASD). All rights reserved.A simple and self-contained methodology to assess the validity of the assumption of small deformations in linear structural-dynamic models was recently proposed. The advantages of the methodology lie in the fact that it does not depend on the availability of higher-fidelity, nonlinear models: it is rather based on the selection of two different structural nodes where the structural motion is to be one at a time completely constrained, typically, a node near the center of mass and another in the region of maximum structural displacements with respect to mean axes. If the two displacement vectors calculated in each case can be transformed between themselves with linear rigid-body modes of the structure, then it is still in the regime of small deformations. In the present paper, in order to demonstrate the value of this methodology, it is applied to the X-HALE aircraft in its four-, six- and eight-meter-span configurations, and the results obtained with the assumption of small deformations are compared with a higher-fidelity model that comprises large structural deformations.",
+      "authkeywords": [
+        "Aeroelasticity",
+        "Flexible aircraft",
+        "Flight dynamics",
+        "Large deformations",
+        "Small deformations"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 51,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048617142&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85020742154",
+      "doi": "10.1108/AEAT-12-2013-0230",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Mathematical model of one flexible transport category aircraft",
+      "subtype": "ar",
+      "subtype_description": "Article",
+      "year": "2017",
+      "date": "2017-01-01",
+      "display_date": "2017",
+      "journal": "Aircraft Engineering and Aerospace Technology",
+      "aggregation_type": "Journal",
+      "author_count": "5",
+      "author_names": "Sousa, Marcelo Santiago;Paglione, Pedro;Silva, Roberto Gil Annes;Cardoso-Ribeiro, Flavio Luiz;Cunha, Sebastião Simões",
+      "author_ids": "57188743635;23973700300;35451481500;46461159000;58987793700",
+      "author_afids": "60025299;60021657;60021657;60021657;60025299",
+      "affilname": "Instituto Tecnologico de Aeronautica;Universidade Federal de Itajubá",
+      "affiliation_city": "Sao Jose dos Campos;Itajuba",
+      "affiliation_country": "Brazil;Brazil",
+      "issn": "17488842",
+      "eissn": "17584213",
+      "source_id": "12633",
+      "volume": "89",
+      "issue": "3",
+      "article_number": null,
+      "page_range": "384-396",
+      "cited_by": 4,
+      "abstract": "© Emerald Publishing Limited.Purpose: The purpose of this paper is to present a mathematical model of one very flexible transport category airplane whose structural dynamics was modeled with the strain-based formulation. This model can be used for the analysis of couplings between the flight dynamics and structural dynamics. Design/methodology/approach: The model was developed with the use of Hamiltonian mechanics and strain-based formulation. Nonlinear flight dynamics, nonlinear structural dynamics and inertial couplings are considered. Findings: The mathematical model allows the analysis of effects of high structural deformations on airplane flight dynamics. Research limitations/implications: The mathematical model has more than 60 degrees of freedom. The computational burden is too high, if compared to the traditional rigid body flight dynamics simulations. Practical implications: The mathematical model presented in this work allows a detailed analysis of the couplings between flight dynamics and structural dynamics in very flexible airplanes. The better comprehension of these couplings will contribute to the development of flexible airplanes. Originality/value: This work presents the application of nonlinear flight dynamics-nonlinear structural dynamics-strain-based formulation (NFNS-s) methodology to model the flight dynamics of one very flexible transport category airplane. This paper addresses also the way as the analysis of results obtained in nonlinear simulations can be made. Comparisons of the NFNS-s and nonlinear flight dynamics-linear structural dynamics methodologies are presented in this work.",
+      "authkeywords": [
+        "Aeroelasticity",
+        "Flexible aircraft",
+        "Flight dynamics",
+        "Flight mechanics",
+        "Structural dynamics"
+      ],
+      "subject_areas": [
+        {
+          "code": "Aerospace Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 51,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85020742154&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-85010312023",
+      "doi": null,
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Modeling by interconnection and control by damping injection of a fluid-structure system with non-collocated actuators and sensors",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2016",
+      "date": "2016-01-01",
+      "display_date": "2016",
+      "journal": "Proceedings of ISMA 2016 International Conference on Noise and Vibration Engineering and Usd2016 International Conference on Uncertainty in Structural Dynamics",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, F. L.;Matignon, D.;Pommier-Budinger, V.",
+      "author_ids": "46461159000;6602185459;19337461900",
+      "author_afids": "60027245;60027245;60027245",
+      "affilname": "Université de Toulouse",
+      "affiliation_city": "Toulouse",
+      "affiliation_country": "France",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21100809793",
+      "volume": null,
+      "issue": null,
+      "article_number": null,
+      "page_range": "121-135",
+      "cited_by": 2,
+      "abstract": "This work addresses the modeling and control of fluid-structure systems. In the first part, the port-Hamiltonian systems (PHS) formulation is used for modeling fluid-structure interactions. This formulation allows describing fluid dynamics and structural dynamics separately and coupling the subsystems easily through physically relevant interconnection ports, which naturally arise in the PHS models. The modeling method is validated on the experimental set-up available at ISAE. The second part is devoted to the control of sloshing using damping injection, that is a classical passivity-based control method, in order to reduce vibrations in flexible structures. One difficulty of this approach is that collocated (and power conjugated) actuators and sensors are needed. This paper presents a method for dealing with damping injection in mechanical systems with non-collocated inputs/outputs making use of a state observer. Finally, control by damping injection is performed, and the overall method is successfully tested on the experimental device.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Mechanical Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Mechanics of Materials",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Acoustics and Ultrasonics",
+          "abbrev": "PHYS",
+          "name": null
+        }
+      ],
+      "references_count": 20,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85010312023&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-84994408866",
+      "doi": "10.1016/j.ifacol.2016.07.456",
+      "pii": "S2405896316306644",
+      "pubmed_id": null,
+      "title": "Piezoelectric beam with distributed control ports: a power-preserving discretization using weak formulation.",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2016",
+      "date": "2016-01-01",
+      "display_date": "2016",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Pommier-Budinger, Valérie",
+      "author_ids": "46461159000;6602185459;19337461900",
+      "author_afids": "60027245;60027245;60027245",
+      "affilname": "Université de Toulouse",
+      "affiliation_city": "Toulouse",
+      "affiliation_country": "France",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "49",
+      "issue": "8",
+      "article_number": null,
+      "page_range": "290-297",
+      "cited_by": 11,
+      "abstract": "© 2016A model reduction method for infinite-dimensional port-Hamiltonian systems with distributed ports is presented. The method is applied to the Euler-Bernoulli equation with piezoelectric patches. The voltage is considered as an external input of the system. This gives rise to an unbounded input operator. A weak formulation is used to overcome this difficulty. It also allows defining a discretization method which leads to a finite-dimensional port-Hamiltonian system; the energy flow of the original system is preserved. Numerical results are compared to experimental ones to validate the method. Further work should use this model to couple the approximated equations with a more complex system, and to design active control laws.",
+      "authkeywords": [
+        "Model Reduction for Control",
+        "Piezoelectric materials",
+        "Port-Hamiltonian systems"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 18,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84994408866&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-84992488716",
+      "doi": "10.1016/j.ifacol.2015.10.242",
+      "pii": "S2405896315021333",
+      "pubmed_id": null,
+      "title": "Modeling of a fluid-structure coupled system using port-Hamiltonian formulation",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2015",
+      "date": "2015-10-01",
+      "display_date": "1 October 2015",
+      "journal": "IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Cardoso-Ribeiro, Flávio Luiz;Matignon, Denis;Pommier-Budinger, Valérie",
+      "author_ids": "46461159000;6602185459;19337461900",
+      "author_afids": "60027245;60027245;60027245",
+      "affilname": "Université de Toulouse",
+      "affiliation_city": "Toulouse",
+      "affiliation_country": "France",
+      "issn": null,
+      "eissn": "24058963",
+      "source_id": "21100456158",
+      "volume": "28",
+      "issue": "13",
+      "article_number": null,
+      "page_range": "217-222",
+      "cited_by": 9,
+      "abstract": "© 2015 IFAC.The interactions between fluid and structural dynamics are an important subject of study in several engineering applications. In airplanes, for example, these coupled vibrations can lead to structural fatigue, noise and even instability. At ISAE, we have an experimental device that consists of a cantilevered plate with a fluid tank near the free tip. This device is being used for model validation and active control studies. This work uses the port-Hamiltonian systems formulation for modeling this experimental device. Structural dynamics and fluid dynamics are independently modeled as infinite-dimensional systems. The plate is approximated as a beam. Shallow water equations are used for representing the fluid in the moving tank. The global system is coupled and spatial discretization of the infinite-dimensional systems using mixed finite-element method allows to obtain a finite-dimensional system that is still Hamiltonian.",
+      "authkeywords": [
+        "Fluid-structure interactions",
+        "Mixed finite-element",
+        "Port-Hamiltonian systems"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 16,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84992488716&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-84906719031",
+      "doi": "10.1109/AIM.2014.6878081",
+      "pii": null,
+      "pubmed_id": null,
+      "title": "Modeling of a coupled fluid-structure system excited by piezoelectric actuators",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2014",
+      "date": "2014-01-01",
+      "display_date": "2014",
+      "journal": "IEEE ASME International Conference on Advanced Intelligent Mechatronics AIM",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "4",
+      "author_names": "Cardoso-Ribeiro, Flavio Luiz;Pommier-Budinger, Valerie;Schotte, Jean Sebastien;Arzelier, Denis",
+      "author_ids": "46461159000;19337461900;36914328100;6701498271",
+      "author_afids": "60027245-60021657;60027245;60017355;60005830",
+      "affilname": "Université de Toulouse;ONERA Office National d'Etudes et Recherches Aerospatiales;Laboratoire d'Analyse et d'Architecture des Systemes;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Palaiseau;Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;France;France;Brazil",
+      "issn": null,
+      "eissn": null,
+      "source_id": "21101246773",
+      "volume": null,
+      "issue": null,
+      "article_number": "6878081",
+      "page_range": "216-221",
+      "cited_by": 3,
+      "abstract": "Structural vibrations can have severe consequences on airplane design like fatigue, aeroelastic instability and reduced maneuverability. Fuel sloshing inside wing tanks can increase these problems. This work is intended to model a system that consists of a cantilever aluminum plate with a fluid tank near the free tip. Piezoelectric patches are used to excite the system. Three different methodologies were used to obtain a state-space model of the system: analytical (exact) solutions of simplified problems, numerical approximated methods and system identification techniques. Results show good agreement between theory and experiments. © 2014 IEEE.",
+      "authkeywords": null,
+      "subject_areas": [
+        {
+          "code": "Software",
+          "abbrev": "COMP",
+          "name": null
+        },
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        },
+        {
+          "code": "Computer Science Applications",
+          "abbrev": "COMP",
+          "name": null
+        },
+        {
+          "code": "Electrical and Electronic Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 18,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84906719031&origin=inward"
+    },
+    {
+      "eid": "2-s2.0-80051512558",
+      "doi": "10.3182/20090916-3-BR-3001.0026",
+      "pii": "S1474667016318717",
+      "pubmed_id": null,
+      "title": "Design methodologies for the control of an unmanned sailing robot",
+      "subtype": "cp",
+      "subtype_description": "Conference Paper",
+      "year": "2009",
+      "date": "2009-01-01",
+      "display_date": "2009",
+      "journal": "IFAC Proceedings Volumes IFAC Papersonline",
+      "aggregation_type": "Conference Proceeding",
+      "author_count": "3",
+      "author_names": "Briere, Y.;Cardoso Ribeiro, F. L.;Vieira Rosa, M. A.",
+      "author_ids": "6506092186;46461159000;46462093700",
+      "author_afids": "60027245;60021657;60021657",
+      "affilname": "Université de Toulouse;Instituto Tecnologico de Aeronautica",
+      "affiliation_city": "Toulouse;Sao Jose dos Campos",
+      "affiliation_country": "France;Brazil",
+      "issn": "14746670",
+      "eissn": null,
+      "source_id": "21100456158",
+      "volume": "42",
+      "issue": "18",
+      "article_number": null,
+      "page_range": "58-65",
+      "cited_by": 4,
+      "abstract": "The design of a sailing robot controller is addressed. Based on a simulation model, and validated by experiments with a real sailing robot, three controllers are compared: the classical fuzzy controller, the state machine controller and the fuzzy state machine controller. The fuzzy controller shows poor results because the robot is, like any sailboat, subject to dramatic change in its internal state (tacking, jibe, etc.) The \"natural\" approach is to describe the transitions between states as a classical state machine with transitions. We improve the concept with fuzzy transition, obtaining the same results in term of behavior but using effectiveness of fuzzy design to transpose human expertise in fuzzy rules. Although these controllers show good results in a wide range of wind force, we conclude that adaptive control is needed. © 2009 IFAC.",
+      "authkeywords": [
+        "Fuzzy control",
+        "Fuzzy Petri Net",
+        "Microtransat",
+        "Robot",
+        "Sailboat",
+        "State machine"
+      ],
+      "subject_areas": [
+        {
+          "code": "Control and Systems Engineering",
+          "abbrev": "ENGI",
+          "name": null
+        }
+      ],
+      "references_count": 19,
+      "scopus_link": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=80051512558&origin=inward"
+    }
+  ]
+}

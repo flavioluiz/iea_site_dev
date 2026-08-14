@@ -1,0 +1,28 @@
+{
+  "num_tese": "63993",
+  "type": "tese",
+  "title": "Método do elemento de pá năo estacionário aplicado ao projeto de pás de turbinas eólicas",
+  "author": "Cláudio Tavares da Silva",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A pesquisa em energia eólica tem crescido substancialmente nos últimos anos, consideravelmente impulsionada pela busca por fontes de energia limpa e renovável. Devido ao grande crescimento na demanda por essas fontes de energia, e também pelo fato da energia eólica ser uma virtual candidata a ocupar lugar de destaque entre elas, a capacidade de geraçăo de energia das turbinas eólicas atuais tęm aumentado consideravelmente. E por consequęncia também o seu tamanho. Assim sendo, aprimoramentos nos métodos de projeto săo cada vez mais necessários. Os projetos atuais necessitam, portanto levar em consideraçăo os problemas relacionados com a năo estacionariedade do escoamento que passa em torno da pá de uma turbina eólica. Tais efeitos precisam ser levados em conta, sob pena de uma superestimativa dos valores de potęncia de saída e rendimento aerodinâmico das turbinas. A esmagadora maioria dos procedimentos e pacotes computacionais atuais emprega modelos semiempíricos para representar a influęncia da esteira do rotor da turbina, sobre desempenho aerodinâmico de suas pás. Propőe-se um novo modelo matemático para representar essa influęncia. Para isso é empregada a Funçăo de Deficięncia de Sustentaçăo (Lift Deficiency Function - LDF) atribuída a Loewy. O modelo físico de Loewy para definir essa funçăo também é conhecido por Problema da Esteira Recorrente (Returning Wake Problem). O emprego de um modelo analítico reduz a dependęncia de ensaios experimentais para ajuste de parâmetros necessários para calibrar esses modelos semiempíricos. Além disso, a soluçăo analítica é matematicamente mais elegante, computacionalmente viável e suficientemente rápida para fornecer uma funçăo objetivo de otimizaçăo para o projeto aerodinâmico da pá da turbina eólica.",
+  "subjects": [
+    "Turbinas eólicas",
+    "Energia éolica",
+    "Controle ótimo",
+    "Esteiras",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "28/11/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63993",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63993&origem=BDITA"
+}

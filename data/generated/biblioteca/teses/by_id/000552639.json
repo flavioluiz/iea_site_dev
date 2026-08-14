@@ -1,0 +1,36 @@
+{
+  "num_tese": "000552639",
+  "type": "tese",
+  "title": "Análise estrutural de laminados compósitos sujeitos a cargas de impacto.",
+  "author": "Eduardo Henrique de Castro Biase",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem como objetivos; i) instrumentar uma torre de impacto do tipo DTT (Drop Test Tower), ii) desenvolver rotinas e programas para mediçăo dos dados adquiridos nos ensaios experimentais, iii) investigar e analisar experimentalmente e numericamente o comportamento estrutural de laminados compósitos sujeitos a cargas impulsivas de impacto. Ensaios de impacto foram realizados em diferentes níveis de energias utilizando placas laminadas com diferentes lay-ups e espessuras representativas da industria aeroespacial. Os ensaios de impacto foram conduzidos no Laboratório de Estruturas Inteligentes e Materiais Compósitos do ITA utilizando uma torre vertical de impacto em queda livre do tipo DTT (Drop Test Tower), o qual foi implementada e instrumentada no laboratório. Modelos numéricos utilizando elemento sólido tri-dimensional e elementos de placa disponíveis no software comercial ABAQUS/Explicit foram desenvolvidos para prever o comportamento estrutural dos laminados sob a açăo de cargas de impacto. Para isso, quatro modelos constitutivos foram utilizados neste trabalho: (1) modelo de iniciaçăo e progressăo de dano com degradaçăo dependente do tempo utilizando elementos de casca, (2) modelo de iniciaçăo e progressăo de dano com degradaçăo dependente do tempo utilizando elementos sólidos contínuos (3) modelo iniciaçăo e progressăo de dano baseado na Mecânica Contínua do Dano (Continuum Damage Mechanics-CDM) empregando elementos de casca, (4) modelo iniciaçăo e progressăo de dano baseado na Mecânica Contínua do Dano usando-se elementos sólidos contínuos, ambos propostos por Donadon et al., 2008 . Os resultados numéricos obtidos utilizando ambos modelos foram calibrados e validados com base nos resultados experimentais obtidos nesse trabalho.",
+  "subjects": [
+    "Materiais compósitos",
+    "Análise estrutural",
+    "Cargas de impacto",
+    "Método de elementos finitos",
+    "Laminados",
+    "Ensaios de impacto",
+    "Placas (membros estruturais)",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "01/07/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552639",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552639&origem=BDITA"
+}

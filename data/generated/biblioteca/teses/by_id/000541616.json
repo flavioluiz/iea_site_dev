@@ -1,0 +1,28 @@
+{
+  "num_tese": "000541616",
+  "type": "tese",
+  "title": "Estudo comparativo de métodos de análise de desempenho de turbinas axiais.",
+  "author": "Ricardo Hess",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho săo analisadas as metodologias de prediçăo dos coeficientes de perdas de energia mecânica em turbinas axiais a gás, em estágio de turbina axial, no ponto de projeto e fora dele. Estas metodologias de prediçăo foram implementadas em um programa de computador, na linguagem FORTRAN e utilizados para os cálculos de desempenho. Os resultados numéricos foram validados com dados da literatura. Os modelos foram utilizados para a análise de desempenho de uma mesma turbina e os resultados obtidos săo apresentam boa concordância entre si, indicando que, para a turbina utilizada como base dos cálculos, năo é possível indicar qual método é o melhor dos quatro, dadas as tolerâncias, da ordem de 3% em eficięncia, inerentes a tais métodos, mas permite sugerir que o de Kacker & Okapuu seja adotado, por ter sido calibrado com dados de turbinas mais recentes. Para uma segunda fase do projeto e de análise, é sugerida metodologia mais geral, tais como o MCLC (Metodologia das Curvaturas de Linhas de Corrente). Em adiçăo aos resultados obtidos, é conveniente que se utilizem outros métodos, como os de CFD, para melhor se caracterizar o desempenho calculado. Uma representaçăo mais adequada teria como base a determinaçăo do campo de escoamento na turbomáquina através do uso das técnicas de CFD.",
+  "subjects": [
+    "Turbinas axiais",
+    "Prediçăo",
+    "Testes de desempenho",
+    "Análise numérica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "17/04/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541616",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541616&origem=BDITA"
+}

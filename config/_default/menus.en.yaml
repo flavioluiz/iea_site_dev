@@ -1,0 +1,176 @@
+main:
+  - identifier: "home"
+    name: "Home"
+    url: "/"
+    weight: 1
+
+  # Menu "The Division" - Institutional information
+  - identifier: "divisao"
+    name: "The Division"
+    url: "#"
+    weight: 2
+
+  - identifier: "sobre"
+    name: "About"
+    parent: "divisao"
+    url: "/sobre/"
+    weight: 1
+
+  - identifier: "departamentos"
+    name: "Departments"
+    parent: "divisao"
+    url: "/departamentos/"
+    weight: 2
+
+
+  # Faculty - Direct link
+  - identifier: "pessoal"
+    name: "People"
+    url: "/pessoal/"
+    weight: 3
+
+  # Menu "Research" - Scientific production
+  - identifier: "pesquisa"
+    name: "Research"
+    url: "#"
+    weight: 4
+
+  - identifier: "linhas"
+    name: "Research Lines"
+    parent: "pesquisa"
+    url: "/linhas/"
+    weight: 1
+
+  - identifier: "projetos"
+    name: "Projects"
+    parent: "pesquisa"
+    url: "/projetos/"
+    weight: 2
+
+  - identifier: "publicacoes"
+    name: "Publications"
+    parent: "pesquisa"
+    url: "/publicacoes/"
+    weight: 3
+
+  # Laboratories - Direct link
+  - identifier: "laboratorios"
+    name: "Laboratories"
+    url: "/laboratorios/"
+    weight: 5
+
+  # Menu "Undergraduate"
+  - identifier: "graduacao"
+    name: "Undergraduate"
+    url: "#"
+    weight: 6
+
+  - identifier: "cursos"
+    name: "Programs"
+    parent: "graduacao"
+    url: "/graduacao/"
+    weight: 1
+
+  - identifier: "disciplinas"
+    name: "Courses"
+    parent: "graduacao"
+    url: "/disciplinas/"
+    weight: 2
+
+  # Menu "Graduate"
+  - identifier: "posgraduacao"
+    name: "Graduate"
+    url: "/posgraduacao/"
+    weight: 7
+
+  # Category: Stricto Sensu
+  - identifier: "pg-cat-stricto"
+    name: "Academic (Stricto Sensu)"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 10
+    params:
+      category: true
+
+  - identifier: "pgeam"
+    name: "PG-EAM — Aeronautical & Mechanical Eng."
+    parent: "posgraduacao"
+    url: "https://www.ita.br/posgraduacao/pgeam"
+    weight: 11
+
+  - identifier: "pgcte"
+    name: "PG-CTE — Space Sciences & Technologies"
+    parent: "posgraduacao"
+    url: "https://www.cte.ita.br/"
+    weight: 12
+
+  # Separator
+  - identifier: "pg-sep-1"
+    name: ""
+    parent: "posgraduacao"
+    url: "#"
+    weight: 20
+    params:
+      separator: true
+
+  # Category: Professional Master's
+  - identifier: "pg-cat-profissional"
+    name: "Professional Master's"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 21
+    params:
+      category: true
+
+  - identifier: "mppee"
+    name: "MP-PEE — Aeronautical Eng. (Embraer)"
+    parent: "posgraduacao"
+    url: "https://www.embraer.com/corporate-careers/emengenharia/pt/"
+    weight: 22
+
+  # Separator
+  - identifier: "pg-sep-2"
+    name: ""
+    parent: "posgraduacao"
+    url: "#"
+    weight: 30
+    params:
+      separator: true
+
+  # Category: Lato Sensu
+  - identifier: "pg-cat-lato"
+    name: "Specializations (Lato Sensu)"
+    parent: "posgraduacao"
+    url: "#"
+    weight: 31
+    params:
+      category: true
+
+  - identifier: "safety"
+    name: "Aviation Safety & Airworthiness"
+    parent: "posgraduacao"
+    url: "https://www.safety.ita.br/"
+    weight: 32
+
+  - identifier: "cassa"
+    name: "CASSA — Weapon Systems Analysis"
+    parent: "posgraduacao"
+    url: "/posgraduacao/"
+    weight: 33
+
+  - identifier: "ceeaa"
+    name: "CEEAA — Aerial Armament Engineering"
+    parent: "posgraduacao"
+    url: "/posgraduacao/"
+    weight: 34
+
+  # Contact - Direct link
+  - identifier: "contato"
+    name: "Contact"
+    url: "/contato/"
+    weight: 9
+
+  - identifier: "documentos"
+    name: "Schedules & documents"
+    url: "/documentos/"
+    weight: 8

@@ -1,0 +1,28 @@
+{
+  "num_tg": "80038",
+  "type": "tg",
+  "title": "Uma abordagem para a modelagem eficiente de dados coletados por sensores climáticos",
+  "author": "Ayrton da Silva Iseri",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "José Maria Parente de Oliveira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este estudo tem como objetivo elucidar e padronizar o processo de coleta, disponibilizaçăo e armazenamento de dados utilizados por instituiçőes que trabalham com informaçőes climáticas obtidas por sensores aderentes ao padrăo EUMETNET OPERA ODIM. Este modelo de informaçăo, embora amplamente adotado por sensores e instituiçőes ao redor do mundo e eficiente na armazenagem e disponibilizaçăo de medidas individuais, enfrenta desafios quando se trata da busca de informaçőes históricas consolidadas, com ou sem agregaçőes adicionais para descrever os fenômenos climáticos. Dada a dificuldade de armazenamento, a integraçăo, coleta e análise de grandes volumes de dados históricos para gerar informaçőes pertinentes se tornam tarefas impraticáveis. Estas informaçőes podem incluir previsőes em séries temporais, análises de agrupamento e até prediçőes climáticas que poderiam otimizar operaçőes aeronáuticas e aeroespaciais em aeroportos e centros de lançamento. Por isso, este estudo justifica e realiza a modelagem conceitual e lógica de um banco de dados voltado para essa aplicaçăo, oferecendo um primeiro passo em direçăo 'a análise quantitativa de informaçőes, cujo acesso atualmente 'e altamente restrito. Além disso, o trabalho serve como base para futuros debates e melhorias neste campo.",
+  "subjects": [
+    "Aquisiçăo de dados",
+    "Dados meteorológicos",
+    "Banco de dados",
+    "Sistemas de informaçăo",
+    "Armazenamento de dados",
+    "Climatologia",
+    "Sensores",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80038",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80038&origem=BDITA"
+}

@@ -1,0 +1,25 @@
+{
+  "num_tg": "72540",
+  "type": "tg",
+  "title": "Análise visual de instabilidade de combustăo",
+  "author": "Ronaldo Chaves Reis",
+  "year": "2016",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A instabilidade de combustăo é um fenômeno que acompanha os dispositivos de combustăo com alta taxa de liberaçăo de energia, como é o caso dos motores foguetes, principalmente aqueles a propelente líquido - MFPL. A presença das instabilidades afeta seu desempenho, compromete o sistema de refrigeraçăo, facilita a emissăo de gases poluentes como óxidos de Nitrogęnio (NOx) e pode levar ŕ falha catastrófica do motor. Ela geralmente se refere ŕs oscilaçőes de pressăo auto-sustentáveis na câmara de combustăo, resultante do acoplamento entre a acústica do sistema e a liberaçăo de calor instável (Han et al., 2015) . Pelo fato de ser tăo danoso a sistemas que dependem de combustăo, é de extrema necessidade e importância prever quando esse fenômeno irá ocorrer. Além disso, métodos de tentativa-e-erro para corrigir um motor com problemas de instabilidade de combustăo săo custosos e demorados, o que justifica ainda mais a necessidade do entendimento delas durante a fase de projeto. Em trabalhos anteriores do Laboratório de Combustăo, Propulsăo e Energia -- LCPE do ITA (Hernando, 2016), foi desenvolvido um modelo numérico para previsăo dessas ressonância acústica e instabilidade termoacústica em câmaras de combustăo. Nele, o sistema de combustăo é representado pelas Equaçőes de Euler Linearizadas Unidimensional e pela Formulaçăo (n - tau) para a funçăo de transferęncia da chama. No entanto, uma das grandes dificuldades encontrada nesse trabalho foi uma boa previsăo das propriedades físicas da chama como sua altura efetiva, velocidade e taxa de transferęncia de calor, uma vez que aquela năo se mantém uniforme. Portanto, faz-se necessário uma análise visual da instabilidade de combustăo para se obter as características acuradas da chama com o intuito de realimentar precisamente o modelo de previsăo de instabilidade mencionado acima.",
+  "subjects": [
+    "Estabilidade de combustăo",
+    "Previsăo",
+    "Motores foguetes a propelente líquido",
+    "Sistemas de refrigeraçăo",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72540",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72540&origem=BDITA"
+}

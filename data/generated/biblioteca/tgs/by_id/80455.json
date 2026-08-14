@@ -1,0 +1,32 @@
+{
+  "num_tg": "80455",
+  "type": "tg",
+  "title": "Perilune Poincaré Maps as a station-keeping approach for NRHOs",
+  "author": "Caio Jansen Accioly",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ariadna Farrés Basiana",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A Near Rectilinear Halo Orbit (NRHO) in the Earth-Moon system has been selected for the Lunar Gateway mission. The mission's station-keeping strategy, known as the Phase Augmented Crossing Control Maneuver (PACCMAN), employs an iterative differential corrector method to calculate the orbit maintenance maneuvers (OMM) targeting a long-horizon baseline orbit. In this work, the baseline is constructed in a high-fidelity ephemeris-based model using a multi-tier multiple-shooting algorithm considering the expected launch date of the Gateway in 2028. Considering the sensitive dynamics of the perilune region in NRHOs, different linearization techniques are compared and a novel station-keeping strategy is proposed based on the results. The strategy developed leverages the better modeling of linearized Poincar'e maps, waiving the usual differential corrector procedure of the PACCMAN while preserving its optimized parameters. The performances of the two strategies are compared in Monte Carlo simulations incorporating expected navigation errors, and the directions of the computed OMMs are further examined considering dynamical theory. Finally, the analysis executed in the Circular Restricted Three Body Problem (CRTBP) is transitioned to the high-fidelity model to verify the stationkeeping strategy viability in realistic scenarios.",
+  "subjects": [
+    "Problema de tręs corpos",
+    "Sistemas Terra-Lua",
+    "Manutençăo",
+    "Estaçőes",
+    "Algoritmos",
+    "Métodos Monte Carlo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80455",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80455&origem=BDITA"
+}

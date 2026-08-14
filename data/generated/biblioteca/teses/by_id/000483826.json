@@ -1,0 +1,32 @@
+{
+  "num_tese": "000483826",
+  "type": "tese",
+  "title": "An engineering vector-like approach to attitude kinematics and nominal attitude state tracking control.",
+  "author": "Carlo Alessandro Zanetti Pece",
+  "year": "2002",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In dealing with rigid body three-dimensional rotational motion, one is inevitably led to face the fact that rotations are not vector quantities. They may, however, be treated as such when the angle of rotation is (very) small. In this context, i.e. the infinitesimal case analysis, the time derivatives of the rotation variables hold simple (sometimes vector-like) relationships to the components of the angular velocity vector. Conventionally, this distinctive characteristic cannot be associated with general moderate-to-large rotations.In this thesis, it is demonstrated that the kinematical differential relationship between the rotation vector and the angular velocity vector may, in fact, be expressed in terms of a mere time derivative, provided that the angle of rotation is kept within moderate bounds. The key to achieve such simplicity in the kinematical equation (linear attitude kinematics) within moderate angles of rotation is a judicious choice of the basis from which the time derivative is observed. This result is used to advantage within a generalised version of Euler's motion equations to construct a simple control law, which nominally realises both linear attitude tracking and linear angular velocity tracking (nominal linear attitude state tracking), within moderate attitude tracking errors. The analytical work presented here is unique in the sense that it combines attitude kinematics, dynamics and control in such a way that nominal linearity between the attitude state error variables is achieved within moderate attitude tracking errors. For the first time, an attitude control law explicitly enables the nominal closed-loop attitude state error dynamics to be chosen and motivated by useful physical concepts from linear control theory. The text also includes numerical simulations that validate and illustrate the theoretically achieved results.",
+  "subjects": [
+    "Controle de atitude",
+    "Cinemática",
+    "Dinâmica",
+    "Rotaçăo",
+    "Rastreamento (posiçăo)",
+    "Velocidade",
+    "Estruturas rígidas",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000483826",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000483826&origem=BDITA"
+}

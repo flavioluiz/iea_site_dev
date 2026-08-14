@@ -1,0 +1,31 @@
+{
+  "num_tese": "000551292",
+  "type": "tese",
+  "title": "Avaliaçăo de modelos analíticos de reparos colados de compósitos laminados.",
+  "author": "Fernando Luis Zarpelon",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O uso de materiais compósitos em estruturas aeronáuticas pode proporcionar algumas vantagens, tais como reduçăo do peso e conseqüente reduçăo no consumo de combustível, e reduçăo do custo de manutençăo. Estas vantagens estimulam o aumento da utilizaçăo de materiais compósitos e o desenvolvimento de técnicas para repará-los. O dimensionamento e análise dos reparos em estruturas aeronáuticas, visando estimar o comportamento elástico e a resistęncia, săo desejáveis para reduçăo de custo de ensaios e aumentar a segurança destas estruturas. O trabalho a seguir tem como objetivo avaliar um modelo analítico de reparo/junta, onde os aderentes săo modelados como vigas ou placas em flexăo cilíndrica e săo consideradas como laminados ortotrópicos, modelados pela teoria clássica de laminados, e o adesivo é modelado como molas em cisalhamento e em traçăo ou compressăo. Neste modelo as equaçőes de equilíbrio săo baseadas no equilíbrio de forças diferenciais considerando o equilíbrio dos elementos dentro e fora da junta. Os carregamentos podem ser escolhidos de forma arbitrária. Os resultados, carregamento versus deformaçőes (comportamento elástico), serăo comparados com outro modelo analítico onde o adesivo é modelado considerando apenas seu cisalhamento, e com resultados de modelos de elementos finitos computados utilizando o programa MSC.NASTRAN.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Juntas coladas",
+    "Análise estrutural",
+    "Modelos matemáticos",
+    "Manutençăo de aeronaves",
+    "Engenharia estrutural",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "18/06/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551292",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551292&origem=BDITA"
+}

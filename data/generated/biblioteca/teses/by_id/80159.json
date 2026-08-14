@@ -1,0 +1,35 @@
+{
+  "num_tese": "80159",
+  "type": "tese",
+  "title": "High pressure turbine performance improvements applying the TIP desensitization technology at rotor blade TIP",
+  "author": "Ana Adalgiza Garcia Maia",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Gas turbine engines have several applications, the most common being aeronautical and industrial. The continuous research to improve engines has been demonstrated by the intense technological development in recent years. The aim of the present work is to improve the aerothermodynamic design of rotor blades for high-pressure axial turbines, looking to improve their performance. In turbines, the rotor blades are responsible for the largest losses in engine efficiency, this source of losses is the tip clearance. These losses are because the flow leaks out in the tip clearance and does not participate in the energy transfer process, thus reducing the power and the efficiency of the turbine. This study analyses different technologies applied in the rotor blade tip for the single-stage high-pressure turbine. For this purpose, Computational Fluid Dynamics (CFD) based on the finite volume methods with the Reynolds-Averaged Navier-Stokes (RANS) method is used to calculate the fluid flow in the turbine using the commercial program ANSYS CFX v 19.0. The original geometric configuration in the turbine rotor tip, while a flat tip geometry is changed to the geometries: winglet, squealer and squealer-winglet. The results are obtained and show an improvement in the performance of the new configurations compared to the original flat tip configuration. The winglet rotor geometry shows better solutions at 100% and 80% of the design speed. The winglet platform extension at 100% increases the efficiency by 0.32% at 100% N. The squealer rotor tip geometry demonstrates a reduction in pressure loss to the larger cavity depth at high pressure ratios at 100% N and 80% N, improving the efficiency to 1.54% and 1.0%. The squealer-winglet rotor tip geometries improve efficiency overall operating points by combining the full winglet platform extension with the squealer at the larger cavity height for 80% N.",
+  "subjects": [
+    "Turbinas axiais",
+    "Turbinas a gás",
+    "Dinâmica dos fluidos computacional",
+    "Pás de rotores",
+    "Número de Reynolds",
+    "Escoamento de fluidos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/11/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80159",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80159&origem=BDITA"
+}

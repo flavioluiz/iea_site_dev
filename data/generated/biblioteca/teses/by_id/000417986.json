@@ -1,0 +1,30 @@
+{
+  "num_tese": "000417986",
+  "type": "tese",
+  "title": "Dynamic modeling and stability analysis of a liquid rocket engine.",
+  "author": "Avandelino Santana Junior",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The stability of a liquid rocket engine (LRE) has long been extensively studied in foreign space programs, mainly because the combustion chamber, by itself, is a source of unstable process. The next phase of the Brazilian space program requires a reliable engine to fulfill the mission goal. Thus, understanding and predicting the influence of self-oscillating process ia a necessity. The theoretical analysis of system stability, as wel as, the simulation of its operation requires the elaboration of the mathematical model to describe, approximately, the most important phenomena of an actual system. In the present work, the calculation of the model parameters is based on a gesidned LRE, which is able to be part of the second stage of the VLS-2. The combustion chamber, the injector head, he cooling jacket and the pipelines constitute a model that is simulated, and the influence of liquid compressibility effect, on its step and frequency responses, is considered. Afterwards, the stability of the system is analyzed using the Routh-Hurwitz criterion. Undoubtedly, the most interesting task in the study of system stabiblity is the definition of how a given parameter of the system influences on its stability. Here, the stated problem is solved by the construction of a region of stability, using three criteria, Mikhailov, Routh-Hurwitz and Hermite-Biehler, to find out the stability limits. The Hermite-Biehler (Interlacing) Theorem succeds in providing this region when more than one parameter is being analyzed. In the last chapter is introduced a new approach for the study of dynamic characteristics of system, the Kharitonov's Theorem, where a parameter is considered with uncertainties. For LRE this is very important, specially when it is treated in the combustion processes.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Sistemas dinâmicos",
+    "Análise de sistemas",
+    "Estabilidade de combustăo",
+    "Modelos matemáticos",
+    "Engenharia aeroespacial",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000417986",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000417986&origem=BDITA"
+}

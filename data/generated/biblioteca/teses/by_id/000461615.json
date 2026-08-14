@@ -1,0 +1,33 @@
+{
+  "num_tese": "000461615",
+  "type": "tese",
+  "title": "An unstructured grid approach to the solution of axisymmetric launch vehicle flows.",
+  "author": "Daniel Strauss",
+  "year": "2001",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A study of the flowfield around axisymmetric launch vehicles in different flight conditions and configurations is performed in this work. Particularly, the VLS second stage flight configuration is analyzed considering the case with and without a propulsive jet in the vehicle base. Among the different cases considered for this configuration there are inviscid as well as viscous turbulent flows. The study is performed using a finite volume cell centered formulation on unstructured grids. Different spatial discretization schemes are compared, including a centered and an upwind scheme. The upwind scheme is a second-order version of the Liou flux vector splitting scheme and a simple scalar advection test problem is used to assess the influence of different reconstruction and limiting methods in the second-order extension of the scheme. Turbulence effects are accounted for using two one-equation turbulence closure models, namely the Baldwin and Barth and the Spalart and Allmaras models. An agglomeration multigrid algorithm is used to accelerate the convergence to steady state of the numerical solutions. Mesh refinement procedures as well as hybrid and adaptive meshes are discussed.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Métodos de multigrid",
+    "Veículos de lançamento",
+    "Análise numérica",
+    "Configuraçőes aerodinâmicas",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000461615",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000461615&origem=BDITA"
+}

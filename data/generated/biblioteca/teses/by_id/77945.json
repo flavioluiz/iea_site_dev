@@ -1,0 +1,28 @@
+{
+  "num_tese": "77945",
+  "type": "tese",
+  "title": "Desenvolvimento de uma aplicaçăo de machine learning no processo de fresamento com robôs high accuracy",
+  "author": "Ever Grisol de Melo",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Indústria 4.0 representa a transformaçăo da indústria por flexibilidade e agilidade de produtos e processos. A produçăo, associada a entregas rápidas de produtos personalizados e a preços competitivos, demanda de processos automatizados e sensorizados. No entanto, estima-se que menos que 5 % dos robôs industriais (RI) sejam aplicados em processos de usinagem, mesmo com o atual crescente número de instalaçőes nos últimos anos. O Brasil ainda năo aplica 0,5 % de RI em processos de usinagem. A aplicaçăo de RI no processo de fresamento de ligas aeronáuticas torna-se uma soluçăo complementar aos processos tradicionais que utilizam máquinas-ferramenta, principalmente devido ŕ previsăo de crescimento do setor aeroespacial. Outra tendęncia da indústria é a alta demanda pela substituiçăo de materiais leves com alta resistęncia e baixo peso, como os polímeros reforçados por fibra de carbono - CFRP e ligas de Titânio como a Ti-6Al-4V. Sendo assim, fomentar e investir em desenvolvimento de sistemas alternativos para o processo de fresamento de ligas aeronáuticas pode garantir ganhos de produtividade. Esta tese tem por objetivo propor ensaios de usinagem para definir os requisitos dos RI para obtençăo de produtividade. Para atingir os objetivos, investigou-se a performance estática e dinâmica de um RI; a aplicaçăo em processos de fresamento, e o desenvolvimento de um sistema, através da Cięncia de Dados, para aplicaçăo de robôs industriais em operaçőes de fresamento. Os resultados indicam a viabilidade para a aplicaçăo do RI para forças de usinagem F < 1000 N. Além disso, resultados do fresamento de CFRP demonstraram que as principais influęncias săo os parâmetros de corte e geometria da ferramenta de corte. No fresamento trocoidal robótico da liga Ti-6Al-4V apresentou desvio dimensional D = 40 µm. O desenvolvimento da configuraçăo da trajetória e as estratégias de usinagem, junto a aplicaçăo de técnicas de Machine Learning (ML) proporcionaram ganhos na melhoria da trajetória de 16.89 % em relaçăo ŕ trajetória sem aplicaçăo do ML. Esses resultados demonstram o uso promissor da tecnologia de fresamento robótico com a aplicaçăo de ML.",
+  "subjects": [
+    "Fresagem (usinagem)",
+    "Robótica",
+    "Aprendizagem (inteligęncia artificial)",
+    "Indústrias",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "06/07/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77945",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77945&origem=BDITA"
+}

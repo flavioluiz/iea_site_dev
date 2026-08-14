@@ -1,0 +1,30 @@
+{
+  "num_tese": "000554955",
+  "type": "tese",
+  "title": "Elementos finitos híbridos aplicados ŕ análise de estruturas concentradoras de tensăo.",
+  "author": "Wagner Monticeli Ponciano",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O elemento finito híbrido-Trefftz (HTS) tem sido aplicado com sucesso na análise linear e năo-linear em problemas de mecânica estrutural. O HTS é baseado na aproximaçăo de 2 campos independentes: tensőes no domínio do elemento e os deslocamentos no seu contorno. As aproximaçőes para o campo de tensőes, além de satisfazer ŕ condiçăo de equilíbrio local, devem ser obtidas a partir da própria soluçăo da equaçăo diferencial de Navier, ou seja, as funçőes devem satisfazer ŕ restriçăo de Trefftz. Neste trabalho, foi aplicado um elemento tridimensional ŕ análise estrutural dos problemas de concentraçăo de tensőes. A primeira fase deste trabalho considerou apenas problemas elásticos. Os fatores de concentraçăo de tensőes (Kt) e os fatores de intensidade de tensăo (K) foram calculados e comparados com os resultados obtidos em literatura e softwares comerciais. A natureza p-hierárquica do elemento foi totalmente explorada, por isso a discretizaçăo de malha (refinamento h) e o aumento do grau das funçőes de aproximaçăo para tensăo e deslocamento (refinamento p) foram aplicados nos exemplos. Na segunda fase, o estudo foi expandido para análises elastoplásticas e adotado um novo conjunto de aproximaçăo: parâmetros plásticos. Os parâmetros plásticos foram aproximados por funçőes de Dirac. O sistema de equaçőes năo-lineares foi resolvido pelo método de Newton. A matriz Hessiana resultante foi simétrica e esparsa e estas características foram amplamente exploradas.",
+  "subjects": [
+    "Análise estrutural",
+    "Concentraçăo de tensăo",
+    "Método de Trefftz",
+    "Método de elementos de contorno",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "23/11/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000554955",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000554955&origem=BDITA"
+}

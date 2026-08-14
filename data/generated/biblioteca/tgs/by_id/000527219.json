@@ -1,0 +1,27 @@
+{
+  "num_tg": "000527219",
+  "type": "tg",
+  "title": "Simulaçăo de escoamentos aeroespaciais năo estacionários utilizando malhas năo estruturadas.",
+  "author": "Alexandre Noll Marques",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este Trabalho de Graduaçăo apresenta um estudo sobre uma forma adequada de obtençăo de respostas aerodinâmicas năo estacionárias no regime transônico com o uso de uma ferramenta de CFD. A metodologia aqui discutida tem interesse especial na definiçăo do operador aerodinâmico em casos de análises aeroelásticas. Esta ferramenta de CFD resolve escoamentos bidimensionais năo estacionários, modelados por meio de uma formulaçăo de Euler, utilizando um método de volumes finitos em um contexto de malhas năo estruturadas. Toda a formulaçăo teórica e detalhes dos métodos numéricos empregados na integraçăo das equaçőes governantes săo apresentados no trabalho. Em particular, utiliza-se um esquema centrado nas celas, com uma discretizaçăo espacial centrada e com uma discretizaçăo temporal explícita através de esquemas de Runge-Kutta. Termos de dissipaçăo artificial săo explicitamente adicionados ŕ formulaçăo para manter a estabilidade năo linear da metodologia. As malhas computacionais utilizadas nas simulaçőes numéricas realizadas durante toda a pesquisa săo também discutidas, da mesma forma que săo apresentados comentários pertinentes ŕ qualidade e ao refinamento de malha e ao algoritmo de malha dinâmica, aplicável em simulaçőes năo estacionárias. Vários experimentos numéricos săo realizados visando reproduzir dados encontrados na literatura especializada, de modo a validar a ferramenta em questăo para o uso desejado. Todavia, os resultados obtidos diretamente de uma ferramenta de CFD săo respostas no domínio do tempo, năo sendo, portanto, adequados para o uso em análises aeroelásticas mais eficientes, que se dăo no domínio da freqüęncia. Assim sendo, aplica-se uma metodologia de obtençăo de respostas no domínio da freqüęncia de forma eficiente e a um custo computacional aceitável. Para tanto, ao invés de se recorrer a um número elevado de respostas harmônicas de diferentes freqüęncias, usa-se uma análise numérica de Fourier de respostas a excitaçőes impulsivas obtidas no domínio do tempo. Todo o procedimento foi validado através de comparaçőes com dados confiáveis disponíveis na literatura. O presente trabalho é parte de um esforço maior que objetiva o desenvolvimento da capacidade de realizar análises aeroelásticas para configuraçőes aeroespaciais típicas de interesse. A partir de resultados como os aqui expostos, será desenvolvido um trabalho de modelamento do operador aerodinâmico através de polinômios interpoladores no domínio de Laplace, de maneira susceptível ŕs formulaçőes atualmente aplicadas na dinâmica estrutural. Todo esse esforço deve culminar em uma nova metodologia de análise aeroelástica baseada na construçăo eficiente de modelos de ordem reduzida para o operador aerodinâmico a partir de resultados numéricos năo lineares obtidos com uma ferramenta de CFD, o que, portanto, é a motivaçăo maior do presente trabalho.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Método de volume finito",
+    "Escoamento transônico",
+    "Aerodinâmica năo-estacionária",
+    "Análise numérica",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527219",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527219&origem=BDITA"
+}

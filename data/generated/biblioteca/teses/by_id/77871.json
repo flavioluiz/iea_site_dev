@@ -1,0 +1,28 @@
+{
+  "num_tese": "77871",
+  "type": "tese",
+  "title": "A framework for offline data-driven aircraft failure diagnosis.",
+  "author": "Aline Dahleni Kraemer",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Flight safety is a major current priority within the aircraft and aerospace sector. Failure diagnosis techniques have been used to help improving flight safety by assisting aircraft accidents and incidents investigations. It also helps on the automation of flight data analysis, assisting analysts on recommending maintenance actions, new training or operational procedures, or another appropriate action to address the issue. This thesis proposes a framework for aircraft failure diagnosis based on the offline analysis of flight data. The framework combines unsupervised and supervised methods, allowing the use of both real and simulated data, resulting in a proactive approach to flight safety and speeding the learning of failure cases. The influence of both temporal data representation and selection of features/sensors on the failure diagnosis performance is analysed as part of the framework. The framework is evaluated using an aircraft actuating system as the case study. This system was chosen due to its criticality and relevance for the aircraft safety. The framework is comprised by 4 phases: Initial phase, Training phase, Operation phase and Improvement phase. We used the Hierarchical Clustering algorithm in the unsupervised part (Initial phase) and an ensemble of 3 algorithms (k-Nearest Neighbours, Decision Trees and Neural Networks) in the supervised part (last 3 phases of the framework). The performance is evaluated using the Balanced Accuracy score, which is a metric that avoids inflated performance estimates on unbalanced datasets. For the Initial Phase, the best results were around 50% of failure detection. For the supervised phases (the last 3 phases) the Balanced Accuracy results were all above 90%, with 96.6% in the Training phase, 96% in the Operation Phase and 90.4% in the Improvement Phase. Furthermore, we also evaluated how the Initial Phase affects the following phases and the framework's overall performance, by comparing the results with and without it. By removing the Initial Phase, the results from the following phases get worse, the Training Phase results went from 96.6% to 96.1%, for the Operation Phase it went from 96% to 89.6% and for the Improvement Phase it went from 90.4% to 82.7%. This way, the results confirmed that the Initial Phase actually helps improving the framework's performance.",
+  "subjects": [
+    "Segurança do voo",
+    "Análise de falhas",
+    "Aprendizagem (inteligęncia artificial)",
+    "Estruturas (processamento de dados)",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "30/06/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77871",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77871&origem=BDITA"
+}

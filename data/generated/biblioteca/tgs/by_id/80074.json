@@ -1,0 +1,33 @@
+{
+  "num_tg": "80074",
+  "type": "tg",
+  "title": "Reynolds averaged navier-stokes simulation of a supersonic mixing chamber",
+  "author": "Joăo Aguiar Moreira Gomes",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "The present work is a parametric analysis for the influence of the geometry of a cavity in a supersonic mixing chamber, using Reynolds Averaged Navier-Stokes simulations. It is done for providing insight about the flame- holder characteristics provided by the use of different cavity geometries inside a supersonic mixing chamber. The geometry used in the simulations consists of a rectangular duct with symmetry boundary conditions on it's sides, non-viscous wall up and an adiabatic wall on it's lower side, where are also located two injectors and a cavity downstream of the injectors. The cavity's lenght or depth relative to a baseline case of aspect ratio 4 are the dimensions used for the parametric work, with two cases of aspect ratio 3.2 and two others with aspect ratio 4.5 designed. The mesh and the solver's configuration were first adjusted for the baseline case simulation, with air inlet Mach number of 2.9 and sonic injection of fuel. After reliable results were obtained for the first simulation, variations of the mesh used were designed for a grid refinement study using the Grid Convergence Index (GCI) method. The medium refinement mesh was selected and provided a value of GCI = 2.16%. This selected mesh was then modified for all cases of the parametric study, and then the simulations for all cases were executed. Results obtained indicate that the cavity provides has flameholding characteristics, with the interaction of the structures provided by the injection and the ones present in the cavity being essential for the transport of fuel to the inside of the cavity, the shear layer and turbulent mixing inside and around the cavity and the total pressure loss inside the engine. It was also found that the aspect ratio of the cavity is not the only factor that affects the flow, with the cases of same aspect ratio presenting significant difference between each other. One of the cases (AR 3.2-H) showed significant difference to the others due to less interaction of the jet stream from the injectors with the cavity's shear layer. Because of this, this case is also observed to have the lowest pressure loss. For the other cases, a slight tendency of decay in total pressure loss is observed with the increase of aspect ratio. The necessity of further studies comprehending the implementation of combustion models, analysis of the AR 3.2-H case and inclusion of other aspects of the problem's geometry to the parametric analysis was also identified.",
+  "subjects": [
+    "Escoamento de jatos misturados",
+    "Câmaras de escoamento",
+    "Número de Reynolds",
+    "Cavidades",
+    "Análise estatística E Estatística năo-paramétrica",
+    "Número de Mach",
+    "Cisalhamento",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80074",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80074&origem=BDITA"
+}

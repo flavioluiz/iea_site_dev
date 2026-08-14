@@ -1,0 +1,29 @@
+{
+  "num_tese": "000534777",
+  "type": "tese",
+  "title": "Aircraft loads assessment for windmilling sustained engine imbalance condition.",
+  "author": "Hugo Marcelo Nunes",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The failure of an aircraft engine fan blade produces an unbalanced rotor condition. Even after the engine is shutdown, the aerodynamic forces may keep the rotors running during the remainder of the flight. This condition can induce significant vibratory loads throughout the airframe that may damage the airframe structure and critical equipments and also affect the crew's ability to sustain a safe flight. This work intends to present a numerical methodology to assess dynamic vibratory loads in a commercial aircraft under windmilling sustained engine imbalance condition, necessary to demonstrate compliance with the current aeronautical design rules. The problem is treated as linear and is formulated in frequency domain. Direct and modal formulations are described. Particular study is made to build up ways to incorporate damping in the system considering different formulations. Some physical effects present in this problem, such as gyroscopic and aerodynamic loads, are also investigated. In order to assess the dynamic loads, an integrated finite element model of aircraft and engine is necessary. Since the aircraft and engine models are usually developed by different groups, which need to exchange them, condensation techniques are extensively used, and some of these techniques are detailed herein. Methods used to improve the accuracy of results obtained in modal formulation are also discussed. Finally, the proposed methods are applied to a mid size commercial jet and the outcomes are analyzed.",
+  "subjects": [
+    "Cargas vibratórias",
+    "Auto-rotaçăo",
+    "Análise estrutural dinâmica",
+    "Análise numérica",
+    "Pás de rotores",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "20/05/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000534777",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000534777&origem=BDITA"
+}

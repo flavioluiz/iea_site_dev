@@ -1,0 +1,30 @@
+{
+  "num_tese": "71851",
+  "type": "tese",
+  "title": "Aspects of surrogate modeling and optimization process for auxiliary air inlets",
+  "author": "Andre Maurice Halal Lombardi",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Aircraft systems preliminary design require fast definition on architectures, which often leads to sub-optimal designs. During later project phases, improvements might be harder to implement due to constraints imposed by installation of systems and structures. Auxiliary air inlets supply several aircraft systems with external air and their design process is also subject to constraints, mostly in its sizing and positioning. Aside from affecting system operation, these factors also cause impact on aircraft overall performance through air inlet aerodynamic drag, specially considering the large amount of inlets installed in typical aircraft. Simplified methods may fail to predict inlet performance and drag for practical installations. On the other hand, high fidelity models represent costs in time not compatible with those expected from viable optimization processes to be employed in industrial applications during preliminary design phases. This work discusses aspects of design space sampling approaches, surrogate model construction, optimization problem definition and its solution using an evolutionary algorithm applied to auxiliary air inlet design, aiming to define a more streamlined process for use in industry. Performed studies lead to a set of guidelines and attention points one might observe while solving similar problems in practical fluid dynamics applications.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Algoritmos genéticos",
+    "Entradas de ar",
+    "Desempenho de aeronaves",
+    "Sistemas de exaustăo",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "18/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71851",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71851&origem=BDITA"
+}

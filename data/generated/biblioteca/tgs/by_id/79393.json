@@ -1,0 +1,25 @@
+{
+  "num_tg": "79393",
+  "type": "tg",
+  "title": "Ferramenta de projeto conceitual de aeronaves de ataque năo tripuladas",
+  "author": "Diego Rabelo Mendes Gonçalves",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo a criaçăo de uma ferramenta computacional dedicada ao auxílio no processo de concepçăo de aeronaves de combate năo tripuladas, também conhecidas como UCAV (Unmanned Combat Air Vehicles). O desenvolvimento desta ferramenta parte da adaptaçăo do código EADT (Educational Aircraft Design Tool), com modificaçőes nas rotinas de cálculo da fraçăo de massa para estimativa de consumo de combustível, permitindo a consideraçăo de diversos perfis de missăo específicos para aeronaves de combate. Além disso, as funcionalidades relacionadas ao critério de desempenho da aeronave foram aprimoradas para calcular a variaçăo do arrasto sob diferentes cargas externas e as traçőes necessárias em diferentes fases de voo. Para validar as modificaçőes implementadas no código, foi realizado um planejamento de voo utilizando a aeronave F-5 Tiger II, em serviço na Força Aérea Brasileira, em uma missăo típica de emprego. Após a validaçăo, conduziu-se um estudo de caso no projeto conceitual de uma aeronave de ataque năo tripulada, tendo como referęncia a aeronave iraniana Karrar. Os resultados demonstraram que a ferramenta foi capaz de estabelecer um projeto com um MTOW 12,98 % menor que o peso de requisito e pôde proporcionar métricas de peso vazio, peso de combustível e traçăo necessária para o veículo. Por fim, foram apresentadas sugestőes de aprimoramento e possíveis direçőes futuras para este trabalho.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Aeronave năo-tripulada",
+    "Aeronaves de ataque",
+    "Otimizaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79393",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79393&origem=BDITA"
+}

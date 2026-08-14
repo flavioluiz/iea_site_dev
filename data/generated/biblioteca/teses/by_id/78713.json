@@ -1,0 +1,29 @@
+{
+  "num_tese": "78713",
+  "type": "tese",
+  "title": "Early detection of manufacturing defects in uncured pre-impregnated layup using long pulse infrared thermography",
+  "author": "José Jerônimo Rabelo Faria",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The use of composite materials is rapidly increasing in many fields of engineering, mainly due to their high specific stiffness and strength, coupled with enhanced fatigue and corrosion resistance. Despite the numerous advantages, many challenges exist regarding the use of composite materials. One of the unique characteristics of composites is the degree of attention required in the material procurement specification and manufacturing, since material properties are highly dependent on final part quality. The layerwise construction nature of composites make them particularly prone to manufacturing induced defects, such as Foreign Object (FO) inclusions, porosity and ply wrinkling. For this reason, Nondestructive Inspection (NDI) techniques play an important role in composite quality assurance, as they provide means to assess structural integrity without causing damage to the component under analysis. Among the different NDI techniques, active Infrared Thermography (IRT) has received considerable attention by the composite community in the last years, due to its non-contact nature, high inspection rate and easy data interpretation. The present research aimed at determining the capability of IRT as an in-process NDI technique, for early detection of FO inclusions (i.e., prepreg backing film) during the manual layup of carbon-epoxy prepreg fabrics. The capability was assessed by means of a Probability of Detection (POD) campaign performed utilizing inspection results of 125 simulated defects of varying aspect ratio, distributed in five specimens. The Signal-to-Noise (SNR) and aspect ratios were used to estimate the POD curve, achieving a metric of 19.27. The POD campaign was conducted prior to laminate consolidation. Moreover, a novel image processing framework is proposed, named Thermal Frame Fusion (TFF). The framework combines results from the TSR and PCT pre-processing algorithms, to deliver a single high contrast image, equivalent to a SNR map. Higher accuracy in flaw delimitation and planar size measurements was achieved using the TFF.",
+  "subjects": [
+    "Fabricaçăo",
+    "Materiais compósitos",
+    "Termografia",
+    "Formaçăo de imagens no infravermelho",
+    "Ensaios năo-destrutivos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "08/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78713",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78713&origem=BDITA"
+}

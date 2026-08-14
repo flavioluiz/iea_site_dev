@@ -1,0 +1,35 @@
+{
+  "num_tg": "000554582",
+  "type": "tg",
+  "title": "Modelamento aerotérmico de escoamento ao redor de sensores considerando-se os mecanismos de depósito associados.",
+  "author": "Guilherme da Silveira",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    },
+    {
+      "name": "Julien Senter",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O fenômeno de deposiçăo de particulas é um problema freqüente em instalaçőes industriais. Ele é responsável pela perda de eficięncia de instalaçőes ou sistemas devido a sua deterioraçăo progressiva e, ŕs vezes, irremediável. Devido ŕs diversas geometrias das instalaçőes onde esse fenômeno está presente, é de grande utilidade uma ferramenta numérica capaz de simular justamente essa variedade de situaçőes. Este trabalho propőe uma ferramenta de simulaçăo numérica para a previsăo da deposiçăo de partículas sobre superfícies, para escoamentos com geometrias simples. Esta ferramenta está baseada na utilizaçăo de correlaçőes semi-empíricas encontradas na literatura. O código de simulaçăo numérica COMSOL é utilizado para o cálculo dos escoamentos considerados. Os mecanismos de deposiçăo considerados săo a difusăo, browniana e turbulenta, e a termoforese. Săo consideradas tręs distribuiçőes de partículas, cujo diâmetro varia de 10 nm até 30000 nm. A extrapolaçăo dos resultados das correlaçőes fornece uma primeira aproximaçăo do fenômeno de deposiçăo.",
+  "subjects": [
+    "Deposiçăo",
+    "Particulados",
+    "Fuligem",
+    "Prevençăo",
+    "Controle da poluiçăo",
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Simulaçăo computadorizada",
+    "Escoamento",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554582",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554582&origem=BDITA"
+}

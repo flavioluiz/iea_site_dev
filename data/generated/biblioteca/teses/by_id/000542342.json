@@ -1,0 +1,29 @@
+{
+  "num_tese": "000542342",
+  "type": "tese",
+  "title": "Análise computacional de sistemas multicorpos.",
+  "author": "Glauco Oaklonde de Campos Pacheco",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste texto, será apresentada a teoria básica da dinâmica computacional, juntamente com alguns métodos de soluçăo para as equaçőes diferenciais-algébricas de movimento. Neste contexto, uma melhoria de um método de ortogonalizaçăo existente para soluçăo numérica das equaçőes de movimento será apresentada, caracterizando a contribuiçăo científica deste texto. Do ponto de vista aplicado, foi desenvolvido um programa computacional visando ŕ simulaçăo computacional de sistemas multicorpos. O método implementado neste programa permite a simulaçăo de sistemas rígidos holonômicos arbitrários, conectados por juntas de vários tipos, onde esses sistemas rígidos podem conter cadeias fechadas. As únicas exceçőes referem-se a situaçőes de contato e impacto, năo incorporadas no programa desenvolvido. A simulaçăo de sistemas flexíveis năo foi implementada. Contudo, como o programa permite a criaçăo de conjuntos mola-amortecedor lineares e angulares, a representaçăo de barras flexíveis por meio de parâmetros concentrados é simples de ser introduzida. O programa desenvolvido permite ainda ao usuário a inserçăo de funçőes MATLAB, abrindo caminho para a implementaçăo de controladores para os sistemas multicorpos. O programa elaborado foi validado utilizando-se alguns exemplos teste, onde cada exemplo concentra-se num aspecto distinto, como complexidade computacional do método de soluçăo, estudo de cadeias fechadas, bem como a análise de sistemas tridimensionais, onde os resultados obtidos com o programa desenvolvido foram comparados, em termos de acurácia e eficięncia, com aqueles fornecidos pelo programa comercial ADAMS. Foi realizada ainda uma aplicaçăo do programa a um robô com tręs graus de liberdade, controlado pela técnica de torque computado, visando ilustrar a possibilidade de integraçăo do programa desenvolvido com o Matlab. Por fim, cabe ressaltar que o intuito do programa implementado é que este sirva como mais uma ferramenta disponível para a análise computacional na área de robótica do Instituto. Contudo, devido ŕ generalidade do programa, capaz de simular sistemas multicorpos além daqueles comumente encontrados no domínio da robótica, é esperado que este sirva para as inúmeras áreas onde a análise computacional de sistemas multicorpos se faz necessária.",
+  "subjects": [
+    "Simulaçăo computadorizada",
+    "Modelos matemáticos",
+    "Análise estrutural dinâmica",
+    "Robótica",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/09/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000542342",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000542342&origem=BDITA"
+}

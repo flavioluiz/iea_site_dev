@@ -1,0 +1,30 @@
+{
+  "num_tese": "000550992",
+  "type": "tese",
+  "title": "Proposta de um novo método de agrupamento aplicado ŕ segmentaçăo de mercado.",
+  "author": "Camilo Brandăo de Resende",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Segmentaçăo de mercado é um elemento de marketing essencial em países industrializados, visto que, para se produzir e vender um determinado bem, é preciso considerar as necessidades dos consumidores e reconhecer a heterogeneidade presente nessas necessidades. Segmentaçăo de mercado consiste na tarefa de agrupar consumidores, para a qual uma grande variedade de métodos está disponível, sendo que os métodos de geraçăo de agrupamentos estăo dentre os mais utilizados. Uma grande questăo na utilizaçăo dos métodos de geraçăo de agrupamentos é a determinaçăo do número ideal de agrupamentos. A segmentaçăo de mercado e o posicionamento de produto săo diretamente relacionados, uma vez que os compradores e vendedores buscam a acomodaçăo mútua da oferta de produto/serviço que melhor satisfaça os objetivos de preferęncia dos consumidores e retorno das firmas. Existem diferentes modelos na literatura de design de engenharia, marketing e economia para lidar com o problema de posicionamento e design de produtos e linhas de produtos, e essas várias perspectivas de modelagem utilizam termos em comum que algumas vezes săo usados com ambigüidade por diferentes autores. Os objetivos deste trabalho săo estudar modelos de segmentaçăo de mercado e posicionamento de produtos e, também, propor um novo método matemático de geraçăo de agrupamentos. No método proposto, o número de agrupamentos é determinado automaticamente, sem necessitar nenhuma avaliaçăo subjetiva do pesquisador. Como ilustraçăo, aplicou-se o método de segmentaçăo proposto, a partir de utilidades obtidas por análise conjunta, a uma categoria de veículos de passeio a fim de segmentar o mercado e determinar os perfis ótimos de novos produtos. Após a obtençăo dos modelos de preferęncias individuais, os consumidores foram agrupados em funçăo de semelhantes preferęncias e os perfis ótimos de novos produtos foram determinados utilizando tręs diferentes métodos: o método k-médias, o método proposto e o método de segmentaçăo passo a passo. Após a determinaçăo dos perfis ótimos de novos produtos, suas estimativas de fatia de mercado foram obtidas. O método proposto de geraçăo de agrupamentos se mostrou interessante por năo necessitar nenhum critério subjetivo para determinar o número ideal de agrupamentos e também por demandar menos esforço por parte do analista do que outros métodos tradicionais. Outra característica apresentada pelo método foi a tendęncia a privilegiar a homogeneidade interna ao agrupar observaçőes. O método proposto apresenta como ponto fraco o fato de ser um problema de otimizaçăo combinatória, fazendo com que sua resoluçăo usando programaçăo inteira se torne ineficiente e inviável para grandes problemas.",
+  "subjects": [
+    "Análise de aglomerados",
+    "Estudos de mercado",
+    "Produtos",
+    "Programaçăo matemática",
+    "Estudo de casos",
+    "Matemática aplicada",
+    "Economia"
+  ],
+  "defense_date": "24/11/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000550992",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000550992&origem=BDITA"
+}

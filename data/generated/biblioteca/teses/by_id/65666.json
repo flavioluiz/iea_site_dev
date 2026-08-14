@@ -1,0 +1,30 @@
+{
+  "num_tese": "65666",
+  "type": "tese",
+  "title": "Numerical prediction of compression after impact behavior of woven composite laminates",
+  "author": "Pedro Augusto Aparecido Eggert Mendes",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates the numerical prediction of the compression after impact behavior of woven composite laminates. Intralaminar and interlaminar damage prediction of the composites lay-ups are evaluated using a proposed damage model implemented as user defined material on ABAQUS Explicit multipurpose FEM code. The numerical models are developed using finite elements method with two different modeling approaches. The Single Shell Model (SSM) used only shell elements to model the laminates and the delamination effects are neglected. To add the delamination effects on the numerical model the Split Shell Model (SpSM) is developed using a delamination contact-logic to predict the out-of-plane effects using the shell elements to model the sub-laminates. An experimental programme is carried out to validate the proposed damage modeling methodology. The proposed damage model and the modeling methodologies prove to be capable of reproducing experimental results with good accuracy for the impact tests and Compression After Impacts (CAI) tests.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Ensaios de impacto",
+    "Método de elementos finitos",
+    "Compressăo",
+    "Prediçăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "16/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65666",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65666&origem=BDITA"
+}

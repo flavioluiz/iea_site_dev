@@ -1,0 +1,30 @@
+{
+  "num_tese": "74165",
+  "type": "tese",
+  "title": "Detached Eddy simulation in SU2",
+  "author": "Eduardo Silveira Molina",
+  "year": "2018",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The detailed numerical prediction of unsteady turbulent flow phenomena during the early design phase of an aircraft will allow designers to reduce safety factors, and thus optimize aircraft performance. For the physical modeling of unsteady turbulent flows, large eddy simulation is the preferred choice, but it still restricted to low to moderate Reynolds numbers. Thus, for flows at high Reynolds numbers which is predominant in aeronautical industry, hybrid RANS/LES methods based on the detached eddy simulation (DES) approach are a feasible option. This thesis presents the development, implementation and application of delayed detached eddy simulations (DDES) method within the open-source Stanford University Unstructured (SU2) software suite. Beside the different definitions of sub-grid length scales providing a faster RANS-to-LES transition, particular emphasis is placed upon the implementation of low-dissipation convective schemes required to maintain accuracy within the context of performing scale resolving simulations in a second-order, finite volume, unstructured flow solver. This thesis concludes with a suite of test cases across different regimes to demonstrate the DDES capability on both academic and industrial-grade applications.",
+  "subjects": [
+    "Modelos de turbulęncia",
+    "Dinâmica dos fluidos computacional",
+    "Número de Reynolds",
+    "Simulaçăo",
+    "Fatores de segurança",
+    "Desempenho de aeronaves",
+    "Física"
+  ],
+  "defense_date": "31/01/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74165",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74165&origem=BDITA"
+}

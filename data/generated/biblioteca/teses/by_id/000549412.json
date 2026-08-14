@@ -1,0 +1,28 @@
+{
+  "num_tese": "000549412",
+  "type": "tese",
+  "title": "Métodos de análise de falhas e suas aplicaçőes em veículos aéreos năo-tripulados.",
+  "author": "Beatriz Juliana de Oliveira Martins Franco",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta dissertaçăo tem por objetivo o estudo de métodos de análise de falhas e como os mesmos podem ser adaptados para Veículos Aéreos Năo-Tripulados, mais conhecidos pela sigla UAVs (do inglęs, Unmanned Aerial Vehicles). Este estudo foi divido em duas categorias: Métodos de Prevençăo ŕ Falha e Métodos de Tolerância ŕ Falha. Para o estudo de Prevençăo ŕ Falha, o método de análise de árvore de falha (Fault Tree Analysis) para um sistema propulsivo típico de um UAV foi considerado como exemplo a fim de evidenciar condiçőes de falhas ou pontos fracos que podem resultar em perda do sistema. Por sua vez, foi apresentado um formulário FMEA para sistemas do UAV que permitem identificar os modos e causas de falhas, suas conseqüęncias e definir um plano de açőes para melhoria da integridade do sistema. Por último, conduziu-se a análise de criticidade do sistema propulsivo onde os pontos críticos săo realçados e discutidos. Para análise destes métodos e suas aplicaçőes em UAV, a abordagem qualitativa foi escolhida devido ŕ falta de dados sobre MTBF (Mean Time Between Failure) dos componentes do sistema. Entretando, melhorias no estudo de Prevençăo ŕ Falha devem ser considerados em trabalhos futuros para se obter uma base de dados para análise quantitativa. Para o estudo de Tolerância ŕ Falha, considerou-se como estudo de caso um esquema de Detecçăo, Diagnóstico e Acomodaçăo de Falhas em Tempo Real para falhas em sensores, baseado nas características estatísticas do processo de inovaçăo do Filtro de Kalman. As falhas săo consideradas do tipo aditivas que afetam o valor esperado do processo de inovaçăo do Filtro de Kalman. Para a simulaçăo do estudo de caso, usamos um modelo linear da dinâmica longitudinal do UAV Aerosonde obtido a partir da ferramenta AeroSim Blockset via MatLab/Simulink. A lógica e a estrutura apresentada merecem estudos futuros para o seu aperfeiçoamento a fim de cobrir outros tipos de falhas.",
+  "subjects": [
+    "Confiabilidade de aeronaves",
+    "Aeronave năo-tripulada",
+    "Detecçăo de falhas",
+    "Análise de falhas",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/08/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000549412",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000549412&origem=BDITA"
+}

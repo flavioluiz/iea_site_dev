@@ -1,0 +1,28 @@
+{
+  "num_tese": "75363",
+  "type": "tese",
+  "title": "Projeto hidrodinâmico de uma turbina axial de múltiplos estágios usando técnicas de dinâmica de fluídos computacional.",
+  "author": "Vinícius Guimarăes Monteiro",
+  "year": "2018",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Koshun Iha",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O Turbodrill é composto por uma turbina hidráulica axial acoplada com uma broca, cujo objetivo é perfurar camadas rochosas. É uma ferramenta usualmente adotada pela indústria petroquímica para exploraçăo de reservas de óleo e gás. A tecnologia atual perfura as camadas rochosas localizadas nas regiőes de pós sal e sal de forma independente. O motor e broca săo substituídos para cada regiăo rochosa, implicando em elevados gastos operacionais com esse processo. A proposta deste trabalho consiste em desenvolver uma turbina hidráulica axial inovadora com tratamento passivo na carcaça. A inovaçăo consiste em desenvolver um dispositivo capaz de prover elevado nível de torque por estágio para que o turbodrill possa ser capaz de perfurar camadas rochosas nas regiőes de pós sal e sal sequencialmente, eliminando a necessidade de substituiçăo do turbodrill. Para a execuçăo desse trabalho foi necessário adotar ferramentas de projeto e simulaçőes de turbomaquinas denominadas Concepts NREC® e ANSYS CFX 15.0®. O software Axial Concepts NREC® foi adotado para a fase do projeto preliminar da turbina hidráulica axial. Para a fase de projeto detalhado foi adotado o software Axcent Concepts NREC®. As simulaçőes computacionais foram realizadas com o software ANSYS CFX 15.0® adotando as equaçőes de Navier-Stokes com Médias de Reynolds. A viscosidade turbulenta foi modelada adotando o modelo de turbulęncia Shear?Stress Transport.",
+  "subjects": [
+    "Turbinas hidráulicas",
+    "Turbinas axiais",
+    "Processo de perfuraçăo",
+    "Dinâmica dos fluidos computacional",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "26/11/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75363",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75363&origem=BDITA"
+}

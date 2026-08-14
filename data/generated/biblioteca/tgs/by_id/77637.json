@@ -1,0 +1,25 @@
+{
+  "num_tg": "77637",
+  "type": "tg",
+  "title": "Time series forecasting : brief comparison among statistical and complex networks based approaches",
+  "author": "Mateus Sponchiado",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Filipe Rodrigues de Souza Moreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Time series arises naturally in different fields of research as one study the behavior of a variable along time. Due to its importance and broad application, a plethora of methods have been developed to analyze and extract information from it, including foreseeing what future values the time series will assume. Recently, complex networks-based tools have emerged as a new form of time series analysis, as well as forecasting. It is fundamental, so, that this novel forecasting methods are compared in terms of accuracy with its traditional counterparts. In this paper, eight different time series, with and without seasonality and trend, will be studied utilizing classic forecasting models - namely SARIMA and ETS - and the complex networks-based forecasting. The accuracy of each will be compared method using mean absolute error, root mean square of the errors and mean absolute as. The results suggest that for most cases, traditional methods have a better accuracy then complex networks-based approach. This was not the case for financial time series, which the new method showed a 2.17pp lower mean absolute error, on average, against the best traditional model. The author also argues about the simplicity of the complex network-based forecasting as it doesn't require stationarity or heteroskedasticity assumption.",
+  "subjects": [
+    "Redes complexas",
+    "Análise de séries temporais",
+    "Gráficos",
+    "Previsăo",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77637",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77637&origem=BDITA"
+}

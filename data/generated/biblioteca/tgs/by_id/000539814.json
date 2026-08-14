@@ -1,0 +1,28 @@
+{
+  "num_tg": "000539814",
+  "type": "tg",
+  "title": "Avaliaçăo da razăo de bloqueio bi-dimensional utilizando método dos painéis.",
+  "author": "Carlos Diego de Aguiar Nogueira Gomes",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A determinaçăo das características aerodinâmicas de aerofólios é fator primordial para o desenvolvimento do projeto aerodinâmico de aeronaves, e também do projeto como um todo. Tais características săo obtidas através de ensaios em túnel de vento, que precisam ser corrigidas para obter resultados que correspondam ao escoamento sem restriçăo de paredes.Poucas săo as metodologias de correçăo para ensaios de túnel com perfis bidimensionais. Elas baseiam-se no método das imagens (singularidades) e fornecem bons resultados para perfis finos. Entretanto, tais correçőes geram discrepância quando se utiliza perfis de maior espessura e para configuraçőes de alto ângulo de ataque, de modo que a correçăo deva ser feita numericamente.Este é o objetivo deste trabalho. Aqui, foi desenvolvido um código computacional em ambiente MATLAB para avaliar o efeito das paredes do túnel de vento sobre a distribuiçăo de pressăo e sobre os coeficientes aerodinâmicos de um perfil 2-D. A metodologia apresentada é baseada no método dos painéis, que permite representar qualquer geometria, além de permitir que o campo de pressőes do escoamento seja calculado pontualmente.Com posse dos resultados numéricos de ensaio em túnel, e com os resultados equivalentes em escoamento livre obtidos pelo código, é possível mensurar a relaçăo entre o escoamento livre e o escoamento confinado, de forma que se possam corrigir os dados oriundos de ensaios reais em túnel.",
+  "subjects": [
+    "Medidas de fluxo",
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Distribuiçăo de pressăo",
+    "Análise numérica",
+    "Túneis de vento",
+    "Escoamento de fluidos",
+    "Mecânica dos fluidos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000539814",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000539814&origem=BDITA"
+}

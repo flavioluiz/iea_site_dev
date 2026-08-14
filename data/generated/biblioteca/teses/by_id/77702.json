@@ -1,0 +1,28 @@
+{
+  "num_tese": "77702",
+  "type": "tese",
+  "title": "Integration and development of a scada system for a robotic end effector for the asembly of aircraft wings",
+  "author": "Rodrigo Tanure Tricarico",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Despite of the low usage of automation in assembly and manufacturing processes in the aeronautical sector, the high standards requirements of this industry have led companies to increasingly seek solutions to increase the quality of their products. One of the great challenges of the aeronautical sector is wing assembly, which still lacks automated systems to improve a higher quality and more flexible systems. Embraer, in collaboration with the Insituto Tecnológico de Aeronáutica, has developed an automation system for the assembly of semi-wings called AME-ASA, which ranges from forming the skin on the tooling, to sealing the rivets and fillets. One of the subsystems of AME-ASA, REVESTE, is the case study of this work and has the function of externally assembly the wing. This prototype aims to drill, insert, and rivet solid rivets between the shear clip and the skin, components of the structural part of the wing called the wing box. Once the prototype was mechanically commissioned, it was necessary to integrate the subsystems belonging to REVESTE through a data acquisition and supervision system (SCADA) capable to easily adapt to different end-effector perpendicularity algorithms approaches due to its research purpose. To this end, systematic and logical functionalities of REVESTE was mapped in addition to modeling its modes and states in an open-source system engineering software for greater ease of visualization, maintenance and variations of the logics that have been implemented. For the SCADA development, National Instruments LabVIEW™ was used, through the Queued Message Handler architecture. The final verification of the system was done through experiments for each functionality and the integrated system. The results were statistically assessed in the R language. The system satisfied the requirements, reaching a deviation of perpendicularization of less than 0.5 ° in addition to the final characteristics of the rivet being in accordance with aeronautical standards.",
+  "subjects": [
+    "Sistema SCADA",
+    "Controle adaptativo",
+    "Asas",
+    "Integraçăo de sistemas",
+    "Engenharia de sistemas"
+  ],
+  "defense_date": "02/12/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77702",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77702&origem=BDITA"
+}

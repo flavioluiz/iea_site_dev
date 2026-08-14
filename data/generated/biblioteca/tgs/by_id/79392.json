@@ -1,0 +1,27 @@
+{
+  "num_tg": "79392",
+  "type": "tg",
+  "title": "Aplicaçăo de modelos de aprendizado de máquina para previsăo de ruído próprio de aerofólio",
+  "author": "Daniel Francisco Fernandes Alves Caixeta",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Denise Beatriz Teixeira Pinto do Areal Ferrari",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O ruído é um fenômeno de muita relevância para a indústria aeronáutica dado o caráter regulatório acerca do tema e o impacto que causa na sociedade. Um dos diversos tipos de ruído é o gerado por perfis aerodinâmicos. Assim como os demais, é muito conveniente a capacidade de prever o ruído de aerofólio sem a necessidade de realizar inúmeros ensaios. Neste cenário, modelos estatísticos e computacionais podem ser utilizados como preditores. O presente estudo tem como objetivo aplicar modelos de aprendizado de máquina utilizando um dataset aberto da NASA para previsăo do ruído próprio de aerofólio, ou seja, determinar a influęncia das condiçőes de voo e da geometria na geraçăo de ruído do perfil para avaliar a qualidade e a viabilidade da aplicaçăo de IA para tal fim. Além disso, objetiva-se construir um modelo de regressăo linear para servir como ponto de comparaçăo com os demais modelos. Os métodos utilizados após análise exploratória dos dados foram Decision Tree Regressor e Random Forest, que obteve o melhor desempenho, com erro médio absoluto de 1.857 dB. Considera-se que os resultados obtidos confirmam a viabilidade do uso dessas técnicas e inteligęncia artificial no contexto do trabalho e possuem desempenho consideravelmente melhor que a regressăo linear, pois se comportam melhor diante de fenômenos complexos de relaçőes năo-lineares.",
+  "subjects": [
+    "Ruído",
+    "Aerofólios",
+    "Aprendizagem (inteligęncia artificial)",
+    "Regressăo linear",
+    "Aerodinâmica",
+    "Engenharia aeronáutica",
+    "Matemática"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79392",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79392&origem=BDITA"
+}

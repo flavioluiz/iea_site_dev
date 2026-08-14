@@ -1,0 +1,83 @@
+name: Deploy isolated PR preview
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: cloudflare-preview-${{ github.event.workflow_run.pull_requests[0].number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.pull_requests[0].number != null
+    runs-on: ubuntu-24.04
+    environment:
+      name: cloudflare-pages-preview
+      url: https://pr-${{ github.event.workflow_run.pull_requests[0].number }}.iea-site-previews.pages.dev/
+    steps:
+      # This checks out trusted main-branch automation, never code from the PR.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          persist-credentials: false
+      # The untrusted PR was already rendered without secrets by CI. Only static files are downloaded.
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: preview-site
+          path: preview-site
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+      - name: Reject executable Pages controls
+        run: |
+          if find preview-site -type l -print -quit | grep -q .; then
+            echo "Artefato com link simbólico recusado." >&2
+            exit 1
+          fi
+          if find preview-site -type f \( -name '_worker.js' -o -name '_routes.json' \) -print -quit | grep -q .; then
+            echo "Artefato com controle executável do Cloudflare Pages recusado." >&2
+            exit 1
+          fi
+          if find preview-site -type d -name functions -print -quit | grep -q .; then
+            echo "Artefato com Pages Functions recusado." >&2
+            exit 1
+          fi
+          file_count="$(find preview-site -type f | wc -l | tr -d ' ')"
+          if [[ "${file_count}" -gt 20000 ]]; then
+            echo "Artefato excede o limite de 20.000 arquivos do Pages." >&2
+            exit 1
+          fi
+          if find preview-site -type f -size +25M -print -quit | grep -q .; then
+            echo "Artefato contém arquivo maior que 25 MiB." >&2
+            exit 1
+          fi
+      - name: Install the pinned trusted Wrangler
+        working-directory: infra/decap-worker
+        run: npm ci --ignore-scripts
+      - name: Publish on an origin isolated from the CMS
+        working-directory: infra/decap-worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+        run: >-
+          ./node_modules/.bin/wrangler pages deploy ../../preview-site
+          --project-name iea-site-previews
+          --branch "pr-${PR_NUMBER}"
+          --commit-message "Preview PR #${PR_NUMBER}"
+      - name: Tell the editor where to review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+        run: >-
+          gh pr comment "${PR_NUMBER}" --repo "${GITHUB_REPOSITORY}"
+          --body "Prévia isolada pronta: https://pr-${PR_NUMBER}.iea-site-previews.pages.dev/"

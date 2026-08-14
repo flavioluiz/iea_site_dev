@@ -1,0 +1,34 @@
+{
+  "num_tese": "000463820",
+  "type": "tese",
+  "title": "Aeroelastic analysis including servomechanism transfer functions.",
+  "author": "Marcelo Nogueira",
+  "year": "2001",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This study presents an aeroelastic analysis including the servomechanism transfer functions. The aeroelastic (flutter) behavior of the dynamic structure is analyzed when a feedback control is introduced. A structural dynamic model is elaborated together with an aerodynamic model in order to obtain the aeroelastic model. A feedback control model was then implemented in the aeroelastic model to obtain the servomechanism model that is the focus of the analysis. A parametric study was made to analyze the behavior of the aeroelastic model with the feedback control. This parametric study consists in the variation of the parameters (gains of the transfer functions), which compound the feedback control model, and for each variation, a stability analysis (flutter analysis) was made and the results were plotted in the \"v-g-f\" graphs for obtaining the stability boundaries. From these graphs the stability tendencies with the introduction of the control system in the analysis could be determined.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Análise estrutural dinâmica",
+    "Estrutura de aeronaves",
+    "Servomecanismos",
+    "Controle com realimentaçăo",
+    "Funçőes de transferęncia",
+    "Vibraçăo aeroelástica",
+    "Mecânica dos sólidos",
+    "Aerodinâmica",
+    "Engenharia eletrônica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000463820",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000463820&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000373709",
+  "type": "tese",
+  "title": "Modelamento de processos de mudança de fase sólido-líquido bi-dimensionais através da técnica de elementos finitos para regiőes arbitrárias",
+  "author": "Luiz Antonio Diemer Lopes",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho é desenvolvida uma ferramenta computacional para soluçăo de problemas de mudança de fase sólido-líquido através da técnica de elementos finitos. Esta ferramenta permite uma abordagem integral do problema, desde a geraçăo da malha computacional sobre o domínio de cálculo, a montagem da formulaçăo de elementos finitos e soluçăo do sistema algébrico resultante, até o pós-processamento gráfico dos resultados. O programa se propőe a resolver qualquer geometria bidimensional, para qualquer material de mudança de fase, sujeitos a condiçőes iniciais e de contorno (temperatura, fluxo de calor e convecçăo) arbitrárias. O problema de mudança de fase é suposto controlado por conduçăo e é adotada a formulaçăo entálpica da equaçăo da energia. Várias técnicas de ponderaçăo do gradiente de entalpia em relaçăo ŕ temperatura săo implementadas e comparadas. Săo analisadas as influęncias de parâmetros como refinamento da malha e intervalo de tempo na soluçăo transiente sobre a precisăo dos resultados.",
+  "subjects": [
+    "Transformaçőes de fase",
+    "Interfaces líquido-sólido",
+    "Método de elementos finitos",
+    "Códigos computacionais",
+    "Análise numérica",
+    "Condutividade térmica",
+    "Métodos matemáticos",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/01/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000373709",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000373709&origem=BDITA"
+}

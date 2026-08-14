@@ -1,0 +1,28 @@
+{
+  "num_tese": "74522",
+  "type": "tese",
+  "title": "Model-based probability of detection applied to structural health monitoring of rotating machinery",
+  "author": "Everton Spuldaro",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Domingos Alves Rade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This dissertation concerns methods and procedures which are employed to evaluate the reliability of condition monitoring systems of rotating machinery that are based upon tracking dynamic responses. These systems are derived from condition-based maintenance philosophy, which seeks to improve operational safety, maintenance cost effectiveness as well as machinery reliability and availability. As a consequence, reliable early detection of failure is of utmost importance. Since this philosophy relies on inspections to ensure safety operation, it is essential to develop procedures to evaluate the reliability of the monitoring results in the presence of uncontrolled uncertainties and variabilities. Reliability assessment of inspection systems can be performed by constructing probability of detection (POD) curves, which fundamentally quantify, for a specific type of failure, the probability of detection as function of the failure intensity. POD curves have long been used in association with traditional non-destructive evaluation methods, but only recently have been considered in association to modern structural health monitoring procedures, such as those based on measurements of the dynamic responses. Generally, to build POD curves, a large number of in situ experiments are required, such that the reliability assessment tends to be extremely expensive and time-consuming. In order to mitigate these aspects of empirical tests, it has been under research, in the last years, the procedures to estimate POD based on models, i.e. model-based probability of detection (MAPOD), whose principle consists of replacing experimental with simulated data that are provided by theoretical or computational models. In this context, the present research work is devoted to the development of a numerical procedure for the construction of probability of detection curves, which is applied to the monitoring of dynamic responses and to rotor systems. Firstly, strategies for health monitoring of machinery and structures are reviewed through a bibliographic survey. It is observed the small number of research studies devoted to reliability assessment applied to rotating machinery condition monitoring in the specialized literature. Secondly, the theoretical background to obtain probability of detection curves is established. The improvement of effectiveness of probability of detection models through simulations is also discussed. Finite elements for modeling rotating machinery under faulty conditions of interest (unbalance and rotor transverse crack) are elucidated. Deterministic simulations based on such models are performed in order to ascertain the dynamic behavior of the rotors of interest. Finally, by propagating uncertainty through the model, integrating the equations of motion and computing the dynamic responses using Monte Carlo method, the probability of detection curves are obtained. The results are presented and discussed in terms of effectiveness of the methodology in evaluating the reliability of the damage detection procedure under various uncertainty levels.",
+  "subjects": [
+    "Confiabilidade",
+    "Máquinas rotativas",
+    "Monitoramento de saúde estrutural",
+    "Método de Monte Carlo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "22/06/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74522",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74522&origem=BDITA"
+}

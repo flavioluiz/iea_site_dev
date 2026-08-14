@@ -1,0 +1,37 @@
+{
+  "num_tese": "000549333",
+  "type": "tese",
+  "title": "Aerodynamic coefficient prediction using neural networks.",
+  "author": "Mailema Celestino dos Santos",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present work discusses the application of neural networks for the accurate prediction of aerodynamic coefficients of airfoil and wing-body configurations. Meta-models based on neural-network are able to handle non-linear problems with a large amount of variables. In this highlight, an efficient methodology employing neural networks for predicting aerodynamic coefficients of generic aircraft was developed. Basic aerodynamic coefficients are modeled depending on angle of attack, number of Mach, Reynolds number, and the lift coefficient of the configuration. A database is provided for the neural network, which is initially trained to learn an overall non-linear model dependent on a large number of variables. A new set of data, which can be relatively sparse, is then supplied to the network to produce a new model consistent with the previous model and the new data. The new model is able to accurately estimate in the sparse test data points and thus the obtaining of a result for a generic configuration is relatively an easy and quick task. Because of this, the methodology is highly suited to be incorporated into a multi-disciplinary design and optimization framework, which make extensively use of aerodynamic calculation for using in other applications, to evaluate performance and loads, besides other core tasks. A Multilayer Perceptrons (MLP) network was designed and employed for predicting drag polar curves of generic airfoils for a given Mach and Reynolds number variation. Airfoil geometry is modeled by polynomial functions described by twelve variables.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Coeficientes aerodinâmicos",
+    "Redes neurais",
+    "Perceptron multicamada",
+    "Perfis de aerofólio",
+    "Configuraçőes asa-fuselagem",
+    "Inteligęncia artificial",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "04/07/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000549333",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000549333&origem=BDITA"
+}

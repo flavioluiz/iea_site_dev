@@ -1,0 +1,33 @@
+{
+  "num_tese": "80985",
+  "type": "tese",
+  "title": "Benefits of variable camber in multi-point optimization and cruise performance",
+  "author": "Chiara Cotta e Titton",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In an effort to make the aerospace industry more sustainable, numerous research initiatives are being carried out by government organizations and aircraft manufacturers. Among these, morphing wings remain a topic of interest with a relatively high level of technology readiness. The variable camber technology uses existing wing surfaces, such as flaps and ailerons, to adjust the wing's camber across different flight conditions. During their mission profile, aircraft often operate at conditions that differ from their optimal design point, due to factors such as changes in flight altitude caused by air traffic control, wind speed variations, or even different loading scenarios. Therefore, the variable camber technology offers the potential to improve aircraft performance at off-design conditions. For this reason, it has already been used in modern aircraft, including the Airbus A350 and Boeing 787-9. In this study, low-to-medium fidelity aerodynamic models were employed to evaluate the variable camber technology on the Common Research Model (CRM) using two approaches: variable camber as a retrofit and integrated into wing optimization. In multi-point optimizations, the results indicated that variable camber yielded similar benefits in aerodynamic efficiency for both approaches, with Mach lift-to-drag ratio, M L/D, increasing by up to 7.0% at on-design conditions. In addition, variable camber can be used to meet aerodynamic efficiency requirements at different design points, allowing alternative optimization strategies such as reducing the number of design conditions or even using single-point optimization. Furthermore, considering trim effects during CRM wing optimization was crucial, as it allows the optimizer to balance different drag reduction mechanisms, such as trim drag and wave drag, which are equally relevant for wide-body aircraft. Through the analysis of trim effects, it was also possible to evaluate the influence of variable camber across different lift coefficients and center of gravity (CG) positions. In off-design conditions, the variable camber technology improved M L/D by up to 6.0%, depending on the operating point. Using a simplified cruise-phase simulation, these benefits translated into fuel savings of 1.4% and 2.3% for maximum payload and maximum fuel missions, respectively.",
+  "subjects": [
+    "Desempenho de aeronaves",
+    "Aeroelasticidade",
+    "Otimizaçăo",
+    "Asas",
+    "Curvaturas",
+    "Aerodinâmica",
+    "Reduçăo de arrasto",
+    "Velocidade",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "defense_date": "16/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80985",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80985&origem=BDITA"
+}

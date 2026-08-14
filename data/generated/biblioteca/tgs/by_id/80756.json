@@ -1,0 +1,31 @@
+{
+  "num_tg": "80756",
+  "type": "tg",
+  "title": "Metodologia de otimizaçăo para sistemas de comandos de voo em aeronaves de asas rotativas",
+  "author": "Rafael Duarte Rocha",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Gustavo Moro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esse trabalho apresenta o desenvolvimento de uma metodologia de otimizaçăo de parâmetros de controle para asas rotativas. Essa metodologia engloba a leitura dos dados da aeronave, determinaçăo da arquitetura de controle utilizada, escolha das variáveis de projeto utilizadas, uma etapa de otimizaçăo com algoritmo Sequential Quadratic Programming e outra com algoritmo Particle Swarm Optimization além de uma comparaçăo entre as aeronaves ótima e original. O objetivo dessa metodologia é escolher os melhores parâmetros de uma malha de controle que satisfaçam os requisitos de qualidade de voo exigidos nas normas de certificaçăo a fim de evitar retrabalho e auxiliar o projetista a construir uma arquitetura de controle ótima. Os resultados mostraram que após a otimizaçăo a aeronave ótima teve tanto seus modos dinâmicos estabilizados quanto suas qualidades de voo melhoradas consideravelmente em todas as condiçőes de voo consideradas, mostrando assim a eficácia da metodologia de otimizaçăo empregada.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Aeronaves de asas rotativas",
+    "Otimizaçăo",
+    "Controle de voo",
+    "Algoritmos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80756",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80756&origem=BDITA"
+}

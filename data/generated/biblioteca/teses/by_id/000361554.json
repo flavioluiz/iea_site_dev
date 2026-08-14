@@ -1,0 +1,29 @@
+{
+  "num_tese": "000361554",
+  "type": "tese",
+  "title": "Projeto, implementaçăo e teste de controladores convencionais e neurais para o robô ITA-IEMP",
+  "author": "Rodrigo Alvarenga de Rezende",
+  "year": "1995",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda o problema do controle dinâmico de robôs testando e comparando o desempenho de tręs diferentes controladores desenvolvidos para o manipulador robótico da Divisăo de Engenharia Mecânica-Aeronáutica do ITA (Robô ITA-IEMP), a saber: um controlador IJC (Independent Joint Control) tradicional utilizando algoritmo PID, um controlador utilizando a técnica do torque computado e um controlador utilizando redes neurais artificiais. Inicialmente as tręs estratégias foram simuladas em computador utilizando um modelo dinâmico do Robô ITA-IEMP derivado simbolicamente a partir da Formulaçăo de Lagrange-Euler. Uma vez feita a simulaçăo, estas foram implementadas computacionalmente de forma a executarmos o controle em tempo real do manipulador. Săo apresentados os resultados das simulaçőes computacionais e da operaçăo em tempo real do manipulador para cada uma das estratégias desenvolvidas. De forma a integrar as implementaçőes computacionais destas técnicas de controle e também as diferentes rotinas para geraçăo de trajetórias desenvolvidas, foi implementada uma interface gráfica amigável com o auxílio do pacote CXL.",
+  "subjects": [
+    "Robótica",
+    "Controladores",
+    "Redes neurais",
+    "Robôs",
+    "Computaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/12/1995",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000361554",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000361554&origem=BDITA"
+}

@@ -1,0 +1,26 @@
+{
+  "num_tg": "77634",
+  "type": "tg",
+  "title": "Implementaçăo de simulador de dinâmica de voo para otimizaçăo multidisciplinar",
+  "author": "Douglas Vasconcelos Barros",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Tradicionalmente a disciplina de dinâmica de voo năo costuma ser tratada nas fases iniciais do projeto, principalmente quando da utilizaçăo de algoritmos de otimizaçăo multidisciplinar, devido a dificuldades como custo computacional e grau de maturidade da aeronave. Porém, as aeronaves modernas tendem cada vez mais a depender de bons estudos de dinâmica de voo, seja pela maior utilizaçăo de sistemas de controle ativo e aumento de estabilidade, seja pela possibilidade de explorar geometrias năo-convencionais, de modo que a análise tardia da dinâmica de voo pode levar a projetos sub ótimos. Dessa maneira, torna-se a cada dia mais importante adiantar tais estudos e idealmente inseri-los ainda na fase de otimizaçăo multidisciplinar. Neste trabalho, realizou-se o estudo da implementaçăo de um módulo de análise de qualidade de voo através de simulaçăo de dinâmica de voo em ambiente de otimizaçăo multidisciplinar para projeto de aeronaves rádio controladas. A plataforma para este estudo foi a ferramenta de otimizaçăo AeroWiz, desenvolvida pela equipe AeroDesign ITA para a competiçăo universitária SAE AeroDesign Brasil. O módulo implementado utiliza o software Athena Vortex Lattice para obtençăo do banco de dados aerodinâmico através do método dos painéis. Foram estudadas diferentes maneiras de se classificar a qualidade de voo longitudinal de uma aeronave a partir do comportamento em simulaçăo no domínio do tempo, tendo seus resultados e custos computacionais comparados entre si e com a análise modal da dinâmica longitudinal linearizada da aeronave.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Otimizaçăo de Pareto",
+    "Mecânica de voo",
+    "Simulaçăo de voo",
+    "Otimizaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77634",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77634&origem=BDITA"
+}

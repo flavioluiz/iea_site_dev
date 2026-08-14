@@ -1,0 +1,33 @@
+{
+  "num_tg": "61601",
+  "type": "tg",
+  "title": "Structural optimization of a flexible wing : parametric model approach",
+  "author": "Francisco Habib Issa Mattos",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Joseph Morlier",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The following work presents a parametric model approach for the optimization of a flexible wing aiming the improvement of the reduced model developed in parallel to this study. At first, how to create a complex metallic Wing-Box model for single aisle commercial aircrafts is demonstrated, following what big manufactures such as Airbus and Boeing use in theirs products, and developing a full parametric PCL code in Patran. Then, an optimization processes is presented using the Nastran Design Sensitivity and Optimization algorithm, also known as Sol200. The main objective is to optimize the global structure weight respecting all structural criteria and constraints, and using the spars and skin thickness as design variables. After the optimization, the importance of upper and lower skins is minimized and almost all efforts are concentrated on spars, specially the rear spar. It';s also shown that the strain criterion is stronger than the stress one, which considers shear and buckling as the critical design points, although fatigue is also relevant when designing the lower Wing-Box Skin. This computational model allows the determination of all Wing-Box element thickness that give the minimum wing weight, helping the preliminary design task to achieve the optimized structure in the shortest time, enhancing the results by the lowest costs possible. Associating this work with an aerodynamic approach using CFD would make possible to create a variation of the required profile to construct the real wing that, when deformed, would assume its best shape in terms of aerodynamics, still respecting all structural constraints and minimum weight possible. Finally, another important approach consists of doing the exactly same study but with composite materials, since the future of aviation may reside no more in metallic alloys, but in composites.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Estruturas de aeronaves",
+    "Otimizaçăo",
+    "Asas",
+    "Carga alar",
+    "Aerofólios",
+    "NASTRAN",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61601",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61601&origem=BDITA"
+}

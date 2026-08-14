@@ -1,0 +1,30 @@
+{
+  "num_tese": "67710",
+  "type": "tese",
+  "title": "Attitude determination of a multirotor aerial vehicle using camera vector measurements and gyros",
+  "author": "Pedro Filizola Sousa Maia Gonçalves",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The employment of embedded cameras in navigation and guidance of Unmanned Aerial Vehicles (UAV) has attracted the focus of many academic researches. In particular, for the multirotor UAV, the camera is widely employed for applications performed at indoor environments, where are less access to the GNSS signal and higher electromagnetic interference. Nevertheless, in most researches, the images captured by the camera are usually adopted to aid in the linear position/velocity estimation, but not specifically for assisting in the attitude determination process. This dissertation proposes an attitude determination method for multirotor UAVs using pairs of vector measurements taken from one downward facing strapdown camera and angular velocity measurements from gyros. The method consists in three modules. The first detects and identifies landmarks from the captured images. The second module computes the vector measurements related to the direction between the landmarks and the camera. The third module executes the attitude estimation from the vector measurements given by the second module. The employed estimation method consists in a version of the Multiplicative Extended Kalman Filter (MEKF) with sequential update. The proposed method was evaluated via Monte Carlo simulations using Simulink 3D Animation. During the evaluation, the method presented effectiveness and satisfactory results in most of the simulated cases. Finally, future works are suggested for the potential continuation of this research.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Estimaçăo de estado",
+    "Giroscópios",
+    "Câmeras",
+    "Navegaçăo aérea",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "18/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67710",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67710&origem=BDITA"
+}

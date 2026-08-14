@@ -1,0 +1,29 @@
+{
+  "num_tese": "79172",
+  "type": "tese",
+  "title": "Analytical methods for transient heat conduction in composite cylinders applied to plug and abandonment of oil wells",
+  "author": "Gabriel Saavedra de Andrade",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The investigation of engineering applications by the scope of analytical procedures devoted to transient conductive heat transfer is presented in this work. Analytical solutions are usually applied in generalist simpler examples, providing lack of reliability on the application of such methodology. This thesis is devoted to investigate several analytical frameworks on the solution of heat condition problems through composite cylindrical geometries applied to Plug and Abandonment (P&A) of oil wells. For one dimensional transient heat conduction problems, the Distributed Transfer Function Method (DTFM) is applied for to P&A procedures, able to solve nonhomogeneous time-dependent boundary conditions accounting a spatial-temporal source term. Plus, the Separation Of Variables (SOV) mathematical framework can be analyzed one-dimensionally with time-dependent boundary conditions allying the SOV with the Duhamel's theorem. The usual P&A operation is then evaluated in a new technology proposal based on the Thermal Plug and Abandonment (TP&A) to shrink costs of the well abandonment, since usual P&A operations is a costly activity with no return of capital. In TP&A, a heat emitter is used to melt the first layer of the well structure, where cement will be pumped downhole until it reaches the melted section, filling then the entire cross section of the wellbore. The heat source will be modeled using thermite within the oil well manifold structure, which must be allocated to desirable depths along the borehole. After an exothermic reaction, the transient temperature distribution is determined, where the capability of melting the production tubing wall is a valuable achievement for oil industries since not removing the production tubing can save a great amount of time, and hence save costs. In a more complex analysis, the solid/hollow cylinder domain is analyzed in a bidimensional way, in radial and azimuthal coordinates applied to P&A operations. For time-independent boundary conditions, SOV methodology provides a straightforward analysis of the achieved temperature profile, along with the TP&A preposition, since the azimuthal coordinate will ensure a sufficient melted angle where cement will pass through. Firstly, the SOV investigation will be applied to a 2-D polar coordinates sectors, where at the flat surfaces, only homogenous boundary conditions can be prescribed. Then, the domain is closed in a full circular geometry, where periodic boundary conditions is prescribed. When Neumann type time-dependent boundary conditions are prescribed, one must apply the eigenfunctions expansion method along with the Finite Integral Transform (FIT) technique, expanding the radial-azimuthal transient temperature distribution investigation. Lastly, to allow the solution of transient heat condition problems in 2-D polar coordinates when any type of boundary conditions is prescribed, a homogenization process performed before the FIT implementation generalizes the application of the proposed mathematical framework. All methodologies correctness is verified by numerical procedures provided by commercial software, ensuring the reliability of the analytical method presented in this work.",
+  "subjects": [
+    "Transferęncia de calor por conduçăo",
+    "Métodos analíticos",
+    "Cilindros",
+    "Reduçăo de custos",
+    "Poços de petróleo",
+    "Física"
+  ],
+  "defense_date": "30/06/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79172",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79172&origem=BDITA"
+}

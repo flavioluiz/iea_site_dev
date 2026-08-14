@@ -1,0 +1,29 @@
+{
+  "num_tese": "000105779",
+  "type": "tese",
+  "title": "Cálculo do escoamento potencial transônico tridimensional através de um algoritmo implícito de fatorizaçăo aproximada",
+  "author": "Bento Silva de Mattos",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um algoritmo implícito eficiente de fatorizaçăo aproximada, concebido para resolver a equaçőes conservativa do potencial completo, foi empregado para cálculo do escoamento transônico em torno de configuraçőes do tipo asa-fuselagem. O algoritmo usa ponderadamente as características da densidade do escoamento ŕ montante (\"upwind bias\"), também conhecido como esquema de densidade artificial, para estabilidade em regiőes de escoamento supersônico. Um gerador de malha algébrico foi desenvolvido para fornecer malhas do tipo O-H para o código aerodinâmico. O gerador permite controle de suavizaçăo dos pontos interiores da malha e ajuste do posicionamento da esteira. Uma transformaçăo numérica é usada para estabelecer uma malha de diferenças-finitas que se conforma ao corpo. Resultados de escoamentos para asas montadas entre paredes e com uma das fronteiras laterais em escoamento uniforme săo comparados com outros resultados independentes.",
+  "subjects": [
+    "Escoamento transônico",
+    "Análise numérica",
+    "Escoamento bidimensional",
+    "Escoamento tridimensional",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/03/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000105779",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000105779&origem=BDITA"
+}

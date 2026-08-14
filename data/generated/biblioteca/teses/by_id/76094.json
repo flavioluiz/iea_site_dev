@@ -1,0 +1,29 @@
+{
+  "num_tese": "76094",
+  "type": "tese",
+  "title": "The aeroelastic behavior of laminated composite panels undergoing progressive damage in supersonic flow",
+  "author": "Douglas Quintanilha Tsunematsu",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This thesis presents a nonlinear finite element model for predicting the aeroelastic behavior of composite panels undergoing intralaminar and translaminar progressive damage in supersonic flow. The classical plate theory in conjunction with the von Kármán nonlinear strains is used for structural modeling and the linear piston theory is used to model the aerodynamic loads. Progressive damage is modeled by a smeared cracking formulation in which stress-based, continuum damage mechanics and fracture mechanics approaches are combined. No modal reduction is performed and an iterative form of the Newmark method is used for the numerical direct integration in time of the nonlinear equations. Simulations considering different lay-ups are conducted, in which the influence of progressive damage on the aeroelastic behavior of the panels is investigated, and damage extent and failure mechanisms are assessed. The results show that the flutter-induced damage in composite panels is matrix-dominated and concentrated near the point of maximum amplitude and the trailing edge. Moreover, damage gives rise to changes in the aeroelastic behavior of the structure that manifest themselves in the form of higher amplitudes and velocities, and new orbits in the phase space.",
+  "subjects": [
+    "Painéis",
+    "Vibraçăo aeroelástica",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "26/06/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76094",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76094&origem=BDITA"
+}

@@ -1,0 +1,28 @@
+{
+  "num_tg": "80759",
+  "type": "tg",
+  "title": "Mediçăo de ruído interno para determinaçăo de parâmetros operacionais em aviőes comerciais",
+  "author": "Enzo Bittencourt",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga o desempenho de diferentes arquiteturas de redes neurais na previsăo de variáveis operacionais de aeronaves, com ęnfase na análise dos erros ao longo de distintos regimes de voo. Para isso, săo utilizados dados reais provenientes de aeronaves comerciais, abrangendo fases como subida, cruzeiro, aproximaçăo e pouso. O estudo emprega métricas estatísticas amplamente reconhecidas - MAE, RMSE e variância - a fim de quantificar a precisăo das previsőes e identificar padrőes de comportamento associados ŕs condiçőes operacionais. Os resultados evidenciam que năo existe uma única arquitetura que apresente desempenho superior em todos os cenários. Observa-se que determinadas redes se adaptam melhor a fases de voo mais estáveis, enquanto outras demonstram maior eficięncia em trechos com maior variabilidade dinâmica. Além disso, verifica-se que os erros tendem a aumentar significativamente nas fases de decolagem e pouso, refletindo a maior complexidade aerodinâmica e operacional desses regimes. O estudo contribui para a compreensăo das limitaçőes e potencialidades das redes neurais aplicadas ŕ modelagem de sistemas aeronáuticos, destacando a importância da escolha criteriosa de arquiteturas, métricas e intervalos de análise para aplicaçőes de previsăo em tempo real e monitoramento de segurança.",
+  "subjects": [
+    "Compartimentos de aeronaves",
+    "Ruído de aeronaves",
+    "Aeroacústica",
+    "Redes neurais",
+    "Medidas de velocidade",
+    "Instrumentos de mediçăo",
+    "Aeronaves comerciais",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80759",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80759&origem=BDITA"
+}

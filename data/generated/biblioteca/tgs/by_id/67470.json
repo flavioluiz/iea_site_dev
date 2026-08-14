@@ -1,0 +1,26 @@
+{
+  "num_tg": "67470",
+  "type": "tg",
+  "title": "Algoritmo para projeto e análise de rotor, por elemento de pá e quantidade de movimento",
+  "author": "Ricardo Cavalcanti de Carvalho Sansolo",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, foi utilizada uma combinaçăo das teorias de Elemento de Pá e da Quantidade de Movimento, associadas ao cálculo estrutural, para projetar pás otimizadas na condiçăo de voo pairado (hover). A validaçăo do código foi feita com base na comparaçăo com resultados experimentais de helicópteros da Força Aérea Britânica. Por fim, foi feita uma otimizaçăo com a plataforma de desenvolvimento modeFrontier, que é desenvolvida e comercializada pela empresa ESTECO. O algoritmo genético de otimizaçăo NSGA II, embutido no modeFrontier, foi utilizado no projeto de novas pás para o helicóptero Robinson R22, bem como o teto emhover OGE foi determinado.",
+  "subjects": [
+    "Pás de rotores",
+    "Equaçőes de movimento",
+    "Voo pairado",
+    "Aerodinâmica de rotores",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67470",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67470&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tg": "000527115",
+  "type": "tg",
+  "title": "Estudo aerodinâmico de bordos de fuga de perfis transônicos.",
+  "author": "Thiago Donato Bernini",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Frederico Castro Simőes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho aborda um estudo de perfis supercríticos, buscando otimizá-los basicamente em termos de minimizaçăo de arrasto apenas modificando a geometria do bordo de fuga. Como exemplo de modificaçőes estudadas se enquadram a abertura e fechamento dos bordos de fuga, a divergęncia da curva do intradorso no bordo de fuga, a defasagem do extradorso em relaçăo ao intradorso no bordo de fuga, o uso de um Splitter Plate e também uma cavidade para a validaçăo da metodologia. A fim de se captar bem as nuances da variaçăo de arrasto com estas modificaçőes geométricas, săo utilizadas ferramentas de CFD aptas a estes propósitos. Utilizou-se o software CFD++ para simular o escoamento e processar os resultados requeridos de CD e CM, baseado no modelo de turbulęncia RANS com implementaçăo de K-e realizável. Outro software utilizado para tal estudo de perfis é o ICEMCFD que se trata de um gerador de malhas capaz de adaptar malhas estruturadas (QUAD) em geometrias 2D. Săo adotadas malhas estruturadas do tipo H, que săo mais apropriadas para a captura de efeitos de estagnaçăo e ondas de choque devido ao seu refinamento mais homogęneo.",
+  "subjects": [
+    "Geometria",
+    "Bordo de fuga",
+    "Perfis de asa",
+    "Aerodinâmica",
+    "Superfícies de controle",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento transônico",
+    "Coeficientes aerodinâmicos",
+    "Otimizaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527115",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527115&origem=BDITA"
+}

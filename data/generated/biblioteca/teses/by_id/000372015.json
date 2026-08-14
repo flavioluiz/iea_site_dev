@@ -1,0 +1,35 @@
+{
+  "num_tese": "000372015",
+  "type": "tese",
+  "title": "Simulaçăo numérica de grandes escalas de escoamentos turbulentos através de uma formulaçăo compressível para baixos números de Mach",
+  "author": "Roberto Francisco Bobenrieth Miserda",
+  "year": "1996",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    },
+    {
+      "name": "Aristeu da Silveira Neto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os objetivos do presente trabalho săo: (i) Propor um modelo compressível para o campo de grandes escalas de escoamentos turbulentos com baixos números de Mach; (ii) Desenvolver um código numérico que permita resolver este modelo compressível; (iii) Otimizar este código de forma a se utilizar eficientemente plataformas com capacidade de processamento vetorial e paralelo; (iv) Validar esta metodologia comparando os resultados numéricos obtidos com resultados experimentais disponíveis na bibliografia, sobre caso teste clássico: expansăo brusca; (v) Aplicar esta metodologia na simulaçăo computacional do efeito solo sobre as estruturas coerentes turbulentas presentes na esteira de corpos rombudos bidimensionais e tridimensionais, para avaliar seu potencial no tratamento deste tipo de problemas. Inicialmente, é proposto o modelo compressível simplificado e específico para as condiçőes de parede adiabática e baixo número de Mach. A continuaçăo, apresenta-se o modelo de turbulęncia submalha utilizado para modelar os tensores e vetores submalha utilizados neste modelo compressível simplificado, e em seguida, apresenta-se o método numérico utilizado para resolver numericamente este modelo. Posteriormente apresenta-se a validaçăo desta metodologia comparando-se com resultados experimentais para o caso da expansăo brusca e, finalmente, săo apresentados resultados preliminares para os corpos rombudos bidimensionais e tridimensionais propostos.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Turbulęncia",
+    "Simulaçăo computadorizada",
+    "Análise numérica",
+    "Aerodinâmica",
+    "Número de Mach",
+    "Mecânica",
+    "Física"
+  ],
+  "defense_date": "01/12/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000372015",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000372015&origem=BDITA"
+}

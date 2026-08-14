@@ -1,0 +1,29 @@
+{
+  "num_tese": "68631",
+  "type": "tese",
+  "title": "Avaliaçăo do desempenho de uma turbina eólica de 250kW através do uso da dinâmica dos fluidos computacional",
+  "author": "Renan Corio Mazi",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem o objetivo de avaliar o desempenho aerodinâmico de uma turbina eólica utilizando as técnicas de dinâmica dos fluidos computacional. Inicialmente, a pá ótima de um gerador eólico de 250kW foi desenvolvido com base na aplicaçăo da Teoria do Elemento de Pá de Glauert, levando em consideraçăo os efeitos de perdas de ponta de pá e rotaçăo da esteira. As características da pá ótima foram definidas através da velocidade do vento e razăo de velocidades na ponta da pá. O código utilizado também considera o efeito do ângulo de passo (pitch) e torçăo geométrica. A avaliaçăo numérica de dinâmica dos fluidos computacional (CFD) foi desenvolvida através do software comercial ANSYS Fluent® v.14.5. Os métodos utilizados para a discretizaçăo do domínio computacional e as técnicas de processamento, tais como condiçőes de contorno, modelos de turbulęncia e critérios de convergęncia, estăo descritos nesta dissertaçăo. A análise do desempenho do rotor para várias condiçőes de ângulo de passo, rotaçăo e velocidade do vento médio serăo devidamente apresentadas. Vários resultados săo apresentados e analisados, incluindo a potęncia líquida extraída pelo rotor, eficięncia aerodinâmica da pá, desenvolvimento da esteira do rotor, camada limite, gradiente de pressăo, entre outros.",
+  "subjects": [
+    "Turbinas eólicas",
+    "Dinâmica dos fluidos computacional",
+    "Pás de rotores",
+    "Energia éolica",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "03/07/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68631",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68631&origem=BDITA"
+}

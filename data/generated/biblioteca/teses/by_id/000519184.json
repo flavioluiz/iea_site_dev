@@ -1,0 +1,36 @@
+{
+  "num_tese": "000519184",
+  "type": "tese",
+  "title": "Controle ativo de vibraçăo estrutural usando algoritmo híbrido: HFuRLS.",
+  "author": "Ivando Severino Diniz",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fernando José de Oliveira Moreira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma técnica de modelagem, identificaçăo e implementaçăo experimental de controle ativo de vibraçăo estrutural utilizando o algoritmo híbrido Feedforward IIR: HFuRLS. O controle híbrido constitui-se de um algoritmo Feedforward IIR e Feedback FIR adaptativo desenvolvido a partir do algoritmo mínimos quadrado recursivo (RLS). O aparato experimental compreende uma viga de alumínio e uma placa de material compósito, com condiçőes de contorno engastadas. As fontes de vibraçăo primárias e secundárias săo constituídas por dispositivos piezelétricos. Dois acelerômetros foram utilizados para medidas de sinais de referęncias e de erro. O controle em tempo real é implementado com um processador digital de sinais modelo ADSP 21160. Os algoritmos de controle foram desenvolvidos em linguagem C/C++ e Assembler. Nos testes para análise de desempenho dos algoritmos, foram utilizados sinais do tipo varredura em freqüęncia (chirps periódico) e sinais aleatórios de banda larga, entre outros. A efetividade do controle ativo proposto é avaliada comparando-se os resultados com e sem controle ativo de vibraçăo aplicado ŕ viga e placa de material compósito.",
+  "subjects": [
+    "Controle ativo",
+    "Vibraçăo estrutural",
+    "Algoritmos",
+    "Controle com realimentaçăo",
+    "Processamento digital de sinais",
+    "Materiais compósitos",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000519184",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000519184&origem=BDITA"
+}

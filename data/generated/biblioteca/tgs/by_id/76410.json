@@ -1,0 +1,31 @@
+{
+  "num_tg": "76410",
+  "type": "tg",
+  "title": "Projeto de câmara de combustăo de motor foguete ŕ propulsăo líquida de 25kN pressurizado por tanque",
+  "author": "Arthur Durigan Bahdur",
+  "year": "2019",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Leonardo Bartholomeu do Nascimento",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe-se a realizar o projeto preliminar da câmara de combustăo de um motor foguete com propulsăo líquida de 25 kilonewtons de empuxo e pressurizado por sistema de tanque de gás a alta pressăo. O objetivo principal deste projeto é analisar as capacidades esperadas para o motor com as configuraçőes adotadas e mostrar que para o momento atual do programa espacial brasileiro a conformaçăo com tanque de pressurizaçăo é a melhor soluçăo para o estágio superior do Veículo Lançador de Microsatélites (VLM). Para os cálculos do projeto foram utilizadas principalmente literaturas russas que contém complexas modelagens, empíricas e teóricas sobre motores foguete a propelente líquido (MFPL). Devida ŕ complexidade da teoria utilizada pelos russos, o presente trabalho contém uma profunda análise das principais literaturas, fazendo com que este possa ser utilizado como fonte de estudo de MFPL. Foram feitas algumas consideraçőes novas para o IAE, principalmente no projeto dos injetores, onde é proposto um esquema utilizando injetores monopropelentes em uma conformaçăo simétrica, já utilizada em motores russos. O trabalho possui também uma análise preliminar da estabilidade de combustăo, prevendo quais săo as frequęncias naturais de vibraçăo tangencial, radial e longitudinal da câmara desconsiderando efeitos de năo-linearidade. O principal desafio do projeto foi modelar um sistema de refrigeraçăo que fosse compatível com as características do motor. Entretanto, os esforços tomandos e as hipóteses adotadas mostram que o projeto é viável e, além disso, tem capacidades de melhora de desempenho esperado, o que deve ser confirmado por testes de queima em banco. Ainda, os Apęndices contęm demonstraçőes do autor de fórmulas de cálculos da distribuiçăo dos injetores, modelamento ideal do spray, comprimento do filme líquido e calor radiativo nas paredes da câmara, além de análise dos modelos russos de troca de calor na camada limite, efeito do convergente nas frequęncias de vibraçăo, algumas especificaçőes dos materiais utilizados no projeto e combinaçőes de propelentes líquidos que agregaram para o estado da arte dos MFPL. Finalmente, o projeto tem a capacidade de se tornar o primeiro MFPL brasileiro a ser utilizado no VLM.",
+  "subjects": [
+    "Sistemas de propulsăo",
+    "Câmaras de combustăo",
+    "Motores foguetes a propelente líquido",
+    "Pressurizaçăo",
+    "VLS (Brasil)",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76410",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76410&origem=BDITA"
+}

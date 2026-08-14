@@ -1,0 +1,30 @@
+{
+  "num_tese": "79897",
+  "type": "tese",
+  "title": "Análise das năo-linearidades de atuadores e sensores em uma formaçăo em voo de satélites",
+  "author": "Rodrigo Dantas Dias",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Formaçăo em voo de satélites envolve a aplicaçăo em uma missăo espacial de mais de um satélite, de maneira que seus estados estăo acoplados entre si através de uma lei de controle em comum. A implementaçăo ocorre principalmente utilizando veículos de dimensőes reduzidas, como por exemplo os CubeSats. Essa abordagem tem como benefícios o aumento da confiabilidade e redundância do sistema como um todo, reduçăo dos custos de lançamento e manutençăo, ampliaçăo da área de cobertura e maior flexibilidade. Entretanto, essa aplicaçăo traz consigo um aumento da complexidade da missăo e certos desafios, como navegaçăo relativa de alta precisăo, comunicaçăo distribuída, conceito de formaçăo estável e sincronizaçăo de atitude. Grande parte dos trabalhos da literatura considera os satélites de uma formaçăo em voo como sendo apenas um ponto de massa, desconsiderando a geometria dos veículos e a modelagem dos seus atuadores e sensores. Tais simplificaçőes reduzem a fidelidade dos modelos, podendo introduzir incertezas significativas no projeto e na análise da missăo. Sendo assim, nesse trabalho é investigado como as năo-linearidades de atuadores e sensores podem interferir tanto no movimento orbital quanto no movimento de atitude dos satélites em formaçăo. Para isso, um simulador em arquitetura modular foi desenvolvido contendo modelos dos diferentes componentes de satélites utilizados, usando como referęncia valores reais. Com relaçăo aos atuadores, as análises mostraram que considerar sua modelagem completa afetou tanto o movimento orbital quanto o movimento de atitude dos satélites, gerando atrasos no tempo de aquisiçăo de órbita e de manobra e, além disso, as năo-linearidades introduzidas nos modelos também afetaram a formaçăo de maneira similar. Para os sensores, por sua vez, as năo-linearidades consideradas nesse trabalho praticamente năo afetaram os movimentos dos satélites, devido aos valores baixos que săo fornecidos pelas suas especificaçőes. Por fim, o simulador desenvolvido em estrutura modular forneceu uma interface eficiente onde as modelagens podem ser alteradas de maneira rápida e com fácil visualizaçăo da arquitetura do sistema, e que considerar a modelagem dos componentes dos satélites nas fases iniciais de projeto pode melhorar a previsăo do real movimento que os veículos realizarăo.",
+  "subjects": [
+    "Satélites",
+    "Voo em formaçăo",
+    "Controle de satélites",
+    "Năo-linearidade",
+    "Atuadores",
+    "Sensores",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "12/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79897",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79897&origem=BDITA"
+}

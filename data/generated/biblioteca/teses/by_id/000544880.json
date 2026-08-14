@@ -1,0 +1,32 @@
+{
+  "num_tese": "000544880",
+  "type": "tese",
+  "title": "Simulaçăo numérica do transporte de fumaça em compartimento de carga de aeronaves.",
+  "author": "Ramon Papa",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma simulaçăo numérica da propagaçăo de fumaça no interior do compartimento de carga dianteiro de uma aeronave Boeing 707 (B707) utilizando a técnica de CFD. As equaçőes de conservaçăo da Energia, da Massa, da Quantidade de Movimento e Concentraçăo de Espécies (fuligem, CO e CO2) săo resolvidas numericamente considerando as espécies como Escalares Passivos. A turbulęncia é tratada com base na hipótese de viscosidade turbulenta empregando-se o modelo k - e. Realizável. Para validar o procedimento do modelo proposto, săo comparados os resultados numéricos utilizando o código Fluent e os experimentais fornecidos pelo FAA e também os resultados de simulaçăo em CFD obtidos a partir de um código desenvolvido em parceria entre o FAA e a empresa Sandia National Laboratories. Um estudo de refinamento de malha é também apresentado com o intuito de garantir uma soluçăo de compromisso entre qualidade dos resultados numéricos e o tempo computacional gasto. O modelo aqui apresentado tem potencial para ser utilizado no processo de certificaçăo de aeronaves, diminuindo o número de ensaios típicos de fumaça exigidos pelos órgăos certificadores.",
+  "subjects": [
+    "Simulaçăo computadorizada",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Fumaça",
+    "Compartimentos de aeronaves",
+    "Transporte de carga",
+    "Mecânica dos fluidos",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/08/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000544880",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000544880&origem=BDITA"
+}

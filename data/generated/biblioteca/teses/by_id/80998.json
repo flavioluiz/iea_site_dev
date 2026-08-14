@@ -1,0 +1,36 @@
+{
+  "num_tese": "80998",
+  "type": "tese",
+  "title": "Wing-propeller aeroelasticity using finite element method",
+  "author": "Ítalo Bruno de Oliveira Ximenes",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "abstract": "The search for environmentally sustainable energy sources is currently driving technological innovation across various economic sectors, and in aviation, electrification, and hybridization are emerging as more sustainable and promising alternatives for the future. These trends could lead to a new generation of propeller-driven aircraft, optimized for electric or hybrid propulsion, featuring unconventional propeller configurations with more propellers installed along the entire wing or even on the fuselage, enabled by the electrical transmission of energy throughout the aircraft. Consequently, Whirl Flutter, an aeroelastic instability specific to propeller-driven aircraft, becomes a major technical challenge for these configurations. This study develops a computational tool dedicated to evaluate whether a wing configuration with multiple engines is prone to this instability. A finite element-based approach was employed to enable practical modeling and integration of both the wing and the propulsive assemblies (propeller and power plant). For the assemblies, the classical structural idealization described by Taylor and Browne (1938) and Reed and Bland (1961) was used. It considers that the equivalent inertia of the propellers were connected to the aircraft structure through a pair of orthogonal torsional springs, which allowed for the derivation of mass, stiffness, damping, and gyroscopic effect matrices for each assembly, subsequently integrated with the respective wing matrices obtained from beam elements of different formulations. The aerodynamic force on the propellers was modeled using Blade Element Theory, with the lift components of each blade element integrated following the methodology described by Houlbolt and Reed (1962), resulting in global lateral force coefficients for the propellers. For the wings, Strip Theory was applied, integrating the lift forces from each strip into the beam elements used in the structural model, producing aerodynamic stiffness and damping matrices specific to each element. After implementing the methodology in MATLAB, cases from the literature were reproduced for validation, demonstrating agreement with state-of-the-art approaches in the field, and the methodology was then applied to analyze a specific case involving a wing with multiple engines.",
+  "subjects": [
+    "Hélices",
+    "Asas",
+    "Método de elementos finitos",
+    "Estabilidade de aeronaves",
+    "Vibraçăo aeroelástica",
+    "Aeroelasticidade",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80998",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80998&origem=BDITA"
+}

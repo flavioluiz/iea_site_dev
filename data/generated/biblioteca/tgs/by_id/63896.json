@@ -1,0 +1,35 @@
+{
+  "num_tg": "63896",
+  "type": "tg",
+  "title": "Projeto de um sistema de determinaçăo de atitude de baixo custo para o satélite ITASAT-1",
+  "author": "Levi Maia Araújo",
+  "year": "2012",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcos Antonio Botelho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "\"Desenvolvimento de satélites é uma área sensível no Brasil e de interesse do Ministério da Defesa. Em especial, o projeto do satélite universitário ITASAT-1 tem a missăo de capacitar massa crítica nessa área, desenvolvendo, lançando e operando um pequeno satélite numa órbita terrestre baixa. O propósito deste trabalho é projetar um Sistema de Determinaçăo de Atitude de baixo custo para operar no satélite. Inicialmente, estabelece-se um tratamento rigoroso da cinemática e dinâmica de atitude nas várias parametrizaçőes, discute-se o modelo da dinâmica do satélite utilizado para simulaçăo e propőe-se uma formulaçăo do Filtro Estendido de Kalman para uso no computador de bordo, e finalmente as simulaçőes săo feitas de modo a validar o sistema. Em seguida, os resultados săo discutidos com base nos requistos do ITASAT-1. Por fim, săo dadas algumas sugestőes de trabalhos futuros de forma a complementar o algoritmo desenvolvido.\"",
+  "subjects": [
+    "Sistemas dinâmicos",
+    "Satélites artificiais",
+    "Controle de atitude de satélites",
+    "Filtros de Kalman",
+    "Radiaçăo solar",
+    "Teoria de filtragem",
+    "Controle",
+    "Matemática",
+    "Engenharia aeronáutica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63896",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63896&origem=BDITA"
+}

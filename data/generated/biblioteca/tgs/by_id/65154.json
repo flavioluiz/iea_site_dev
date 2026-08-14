@@ -1,0 +1,25 @@
+{
+  "num_tg": "65154",
+  "type": "tg",
+  "title": "Caracterizaçăo da distância crítica de fadiga",
+  "author": "Diego Siebra de Brito",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Teoria das Distâncias Críticas (TDC) é atualmente um grupo de metodologias utilizado na investigaçăo de fratura, especialmente em componentes que apresentem concentradores de tensăo, como entalhes e fissuras. Os métodos incluídos nesse grupo utilizam um parâmetro de comprimento, característico de cada material, comumente chamado de distância crítica. Embora a TDC já tenha aplicaçăo verificada em um grande número de problemas práticos, pouco se conhece sobre o embasamento físico da mesma, em particular sobre o significado físico da distância crítica. O principal objetivo desse trabalho é a aplicaçăo de um dos métodos da TDC, mais especificamente o Método do Ponto, na estimativa dos valores de tenacidade ŕ fratura ( ) de materiais convencionais de engenharia. Esse valor de pode ser estimado a partir de resultados experimentais (carga de ruptura) de duas amostras entalhadas do material, desde que esses entalhes sejam diferentes. Essa etapa do projeto incluiu a comparaçăo entre os resultados obtidos através de simulaçőes por elementos finitos e aqueles presentes na bibliografia. Além disso, o procedimento reverso, ou seja, o cálculo da carga de ruptura a partir do valor de tenacidade ŕ fratura também é realizado e utilizado na validaçăo do Método do Ponto. O objetivo complementar se refere ŕs oscilaçőes existentes na determinaçăo numérica da distância crítica (L). Para esse fim, foi realizado um estudo da sensibilidade dos valores de distância crítica, calculados através da metodologia implementada anteriormente, em relaçăo ŕs variaçőes de rigidez nas imediaçőes de um elemento concentrador de tensăo. Nesse estudo, a propriedade alterada foi o módulo de elasticidade. Os valores de distância crítica foram calculados para algumas configuraçőes diferentes e comparados com aqueles obtidos no caso de propriedades uniformes.",
+  "subjects": [
+    "Fadiga (materiais)",
+    "Mecânica de fratura",
+    "Concentraçăo de tensăo",
+    "Rupturas",
+    "Engenharia de materiais"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65154",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65154&origem=BDITA"
+}

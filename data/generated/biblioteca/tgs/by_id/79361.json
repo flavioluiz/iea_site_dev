@@ -1,0 +1,29 @@
+{
+  "num_tg": "79361",
+  "type": "tg",
+  "title": "Study about the aerodynamic effect of winglets on wind turbines",
+  "author": "Lucas Figueiro Medef",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Vitor Gabriel Kleine",
+      "professor_slug": "vitor-gabriel-kleine"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The growing need for energy, driven by economic development, has led to an increase in demand for renewable energy sources. In this context, wind energy stands out due to its abundance and production potential. Wind turbines play a fundamental role in converting the kinetic energy of the wind into electricity, so improving these turbines is extremely important in order to maximize efficiency and energy generation capacity. The development of new calculation techniques and aerodynamic corrections for wind turbines is therefore becoming increasingly important. These advances include the improvement of mathematical models and algorithms that optimize the performance of these turbines. In this work, we will use the Actuator Line Method (ALM) to perform this function. In order to develop the system, aerodynamic simulations are vital for designing, testing and developing wind turbines. Through these simulations, it is possible to analyze the behavior of the air flow and the aerodynamic performance of the turbines. Several Computational Fluid Dynamics (CFD) programs perform this function, and the Nek5000 software is used for this purpose. Finally, studies into the addition of winglets to wind turbines are generating new possibilities for increasing the efficiency of these systems. There is no consensus on how to add these aerodynamic surfaces, but the increase in turbine power that their addition promotes is undeniable. This concludes the importance of continuous research and development in wind energy, with an emphasis on innovation, in order to increase the potential of this renewable energy source.",
+  "subjects": [
+    "Turbinas eólicas",
+    "Aerodinâmica",
+    "Dinâmica dos fluidos computacional",
+    "Coeficientes aerodinâmicos",
+    "Sistemas elétricos de potęncia",
+    "Asas",
+    "Modelos matemáticos",
+    "Algoritmos",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79361",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79361&origem=BDITA"
+}

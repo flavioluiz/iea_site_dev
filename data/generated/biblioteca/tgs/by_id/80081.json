@@ -1,0 +1,26 @@
+{
+  "num_tg": "80081",
+  "type": "tg",
+  "title": "Criaçăo de cenários 3D baseados em aerofotogrametria por drones para a utilizaçăo em ambientes de simulaçăo",
+  "author": "Guilherme Diaconiuc",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda a aplicaçăo de técnicas de aerofotogrametria e Gaussian Splatting para a geraçăo de modelos 3D realistas e de alta qualidade de ambientes urbanos, utilizando imagens capturadas por drones. Para isso, foi utilizado o drone DJI Mini 4K, que capturou imagens aéreas em alta resoluçăo, posteriormente processadas para a criaçăo de um ambiente virtual tridimensional. O algoritmo de Gaussian Splatting, conhecido por sua capacidade de produzir superfícies suaves e detalhadas, foi aplicado para renderizar os dados coletados em modelos visuais precisos. Os resultados mostraram um alto grau de precisăo na representaçăo de objetos estáticos, especialmente nas áreas com maior sobreposiçăo de imagens. Contudo, foram identificadas limitaçőes, como a dificuldade em modelar objetos em movimento, como veículos, devido ŕs características intrínsecas da técnica. Outros desafios incluíram restriçőes regulatórias de altura de voo, consumo elevado de bateria durante a filmagem em alta resoluçăo e desempenho comprometido em condiçőes climáticas adversas ou baixa luminosidade. Embora os modelos gerados tenham sido satisfatórios, o estudo evidenciou a necessidade de avanços futuros, como a integraçăo de dados em tempo real, a otimizaçăo da sobreposiçăo de imagens para áreas periféricas e a utilizaçăo de sensores infravermelhos em cenários dinâmicos. Essas melhorias podem ampliar significativamente a aplicabilidade das técnicas de modelagem 3D em operaçőes logísticas e planejamento urbano. Os resultados ressaltam o potencial da aerofotogrametria com drones e do \\ Gaussian Splatting para criar ambientes virtuais imersivos e precisos, ao mesmo tempo que apontam direçőes para inovaçőes futuras.",
+  "subjects": [
+    "Renderizaçăo (computaçăo gráfica)",
+    "Visăo tridimensional",
+    "Aerofotogrametria",
+    "Planejamento urbano",
+    "Aeronaves teleguiadas",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80081",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80081&origem=BDITA"
+}

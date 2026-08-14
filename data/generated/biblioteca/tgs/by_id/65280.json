@@ -1,0 +1,30 @@
+{
+  "num_tg": "65280",
+  "type": "tg",
+  "title": "Development of a tool for nonlinear dynamics calculation",
+  "author": "Luiz Ricardo Martins de Sousa",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Joseph Morlier",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The Harmonic Balance Method (HBM) is a way very useful for calculating the response from a nonlinear vibration system. It';s possible to obtain a high degree of accuracy even if few harmonics are used to approximate the required solution. In addition, it';s natural to extend the concepts of that method for evaluating solutions of multi-degree of freedom (MDOF) systems, since a matrix approach is implemented in that model, what becomes the method easier to be dealt with. In that context, the generated solution from this method can be treated to perform a parametric modal identification of a vibration system. Another topic to be studied in that work is how the Hilbert Transform (HT) can be used to analyze the modal identification and to realize if the system has a linear behavior or not. On that field, two methods, introduced by the article (1) will be investigated. The first one is the ';Freevib'; method, which analyzes the response through the time and is capable of identify the modal parameters of a single-degree of freedom (SDOF) system free of external excitations. The second is the ';Forcevib'; method, which does the same thing of the previous one, but with an external excitation. In the conclusion, new techniques of identification and some ideas for future projects are arisen in order to try to broaden those researches for a MDOF system.",
+  "subjects": [
+    "Vibraçăo",
+    "Sistemas năo-lineares",
+    "Dinâmica",
+    "Espaço de Hilbert",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65280",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65280&origem=BDITA"
+}

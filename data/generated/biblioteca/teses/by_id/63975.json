@@ -1,0 +1,31 @@
+{
+  "num_tese": "63975",
+  "type": "tese",
+  "title": "Estimaçăo de derivadas de estabilidade de uma aeronave năo-tripulada através do método de mínimos quadrados ortogonais",
+  "author": "Joaquim Neto Dias",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho tem como objetivo a aplicaçăo de técnicas recentes de estimaçăo de parâmetros aerodinâmicos de uma aeronave năo-tripulada utilizando dados reais obtidos com ensaios em voo. O modelo aerodinâmico completo da aeronave foi identificado pelo método dos dois passos. Inicialmente, foram empregadas técnicas de reconstruçăo de trajetórias para calibraçăo dos sensores da aeronave, utilizando-se o método de erro na saída e o estimador de máxima verossimilhança. Na segunda etapa do método, as derivadas de estabilidade e controle foram estimadas pelo método dos mínimos quadrados ortogonais parciais, em que os regressores candidatos săo ordenados com base em sua capacidade de reduzir a variância do resíduo. Por ser do tipo \"equation error\", este método tem a vantagem de ser năo-iterativo, quando aplicado a um modelo linear nos parâmetros. Entretanto, é sensível a erros nas variáveis independentes, o que torna essencial a etapa anterior de reconstruçăo dos estados da aeronave. Esta metodologia foi inicialmente aplicada a um modelo de simulaçăo de uma aeronave, para entăo ser utilizada com dados reais obtidos em ensaios em voo. A capacidade preditiva do modelo aerodinâmico identificado foi confirmada pela validaçăo com um segundo conjunto de dados.",
+  "subjects": [
+    "Identificaçăo de parâmetros",
+    "Estimaçăo de sistemas",
+    "Derivadas de estabilidade",
+    "Aeronave năo-tripulada",
+    "Método dos mínimos quadrados",
+    "Ensaios em voo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "29/11/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63975",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63975&origem=BDITA"
+}

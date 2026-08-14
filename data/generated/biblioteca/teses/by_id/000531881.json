@@ -1,0 +1,32 @@
+{
+  "num_tese": "000531881",
+  "type": "tese",
+  "title": "Procedimentos para o projeto de superfícies de controle do tipo fowler flap.",
+  "author": "Gustavo Limongi Araújo",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Superfícies de controle do tipo flape săo utilizadas nos bordos de ataque e de fuga durante algumas fases do vôo como decolagem, pouso e aproximaçăo para aumento de sustentaçăo da aeronave em baixa velocidade. Este trabalho envolve o estudo do mecanismo de atuaçăo de superfícies de controle do tipo flape para avaliar a influęncia da presença de folgas, tolerâncias dos componentes, desalinhamento dos trilhos e rigidez do painel, no desempenho do sistema durante seu funcionamento, ainda na fase de projeto. O objetivo é desenvolver um método eficiente e preciso para estudos de trade-off entre a força exercida pelos atuadores e o desalinhamento, folga e flexibilidade do sistema. As forças de inércia envolvidas nestes sistemas podem ser consideradas desprezíveis; portanto, o movimento apresenta-se como quase-estático. Um modelo analítico aproximado foi desenvolvido considerando-se o sistema estático em cada incremento de tempo para se determinar a relaçăo entre a força exercida pelos atuadores e o desalinhamento de um dos trilhos. O método dos coeficientes de influęncia de rigidez é utilizado para se determinar a matriz de rigidez do painel. A força exercida pelos atuadores é obtida analiticamente utilizando o método da condensaçăo estática e comparada com os resultados obtidos pela utilizaçăo do MSC.Nastran®. A força exercida pelos atuadores é também obtida através da utilizaçăo do software de análise de multicorpos LMS.DADS®. O software de análise de tolerância 3DCS® (3-Dimensional Control System) baseado no CATIA V5® é utilizado para simular várias montagens do flape de maneira a computar numericamente os efeitos das variaçőes dimensionais nos requisitos de funcionamento do mecanismo.",
+  "subjects": [
+    "Flapes (superfícies de controle)",
+    "Mecanismos",
+    "Atuadores",
+    "Tolerâncias (mecânica)",
+    "Sustentaçăo aerodinâmica",
+    "Superfícies de controle",
+    "Estrutura de aeronaves",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000531881",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000531881&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tg": "000527226",
+  "type": "tg",
+  "title": "Simulaçăo do processo de evaporaçăo e reaçăo em câmara de combustăo a propelente líquido.",
+  "author": "André Batista Menezes",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    },
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho consta no refinamento do modelo feito no Trabalho de Graduaçăo realizado pelo aluno Guilherme da Motta Assis de Lacerda. Naquela ocasiăo foi realizada uma simulaçăo da câmara de combustăo com 1, 2 e 3 estágios em que o querosene injetado através dos bicos injetores queimavam totalmente no primeiro estágio e a partir do mesmo o que se constatava era a presença de produtos de combustăo. Como uma forma de melhoramento do modelo, neste trabalho será realizado um estudo da queima do querosene e consumo de oxigęnio em vários estágios, ou seja, a queima năo se dará somente no 1ş estágio. Com isso, o modelo da câmara de combustăo irá se aproximar mais da realidade. A partir do número de Stokes será definida a quantidade de gotas de querosene e oxigęnio que iram queimar no 1ş, 2ş e 3ş estágio. Com isso, será obtido a proporçăo de querosene queimada nos respectivos estágios. Em seguida será realizada um simulaçăo com a utilizaçăo do programa de computador CHEMKIN 3.7. A partir de uma certa entrada de dados será simulado a combustăo do querosene nos estágios da câmara de combustăo individualmente. Desta forma será possível estudar a evoluçăo das reaçőes químicas e da temperatura ao longo da câmara.",
+  "subjects": [
+    "Câmaras de combustăo",
+    "Propelentes líquidos para foguetes",
+    "Sistemas de propulsăo",
+    "Lei de Stokes",
+    "Simulaçăo computadorizada",
+    "Misturas (processo)",
+    "Evaporaçăo",
+    "Combustăo",
+    "Dinâmica dos fluidos",
+    "Reaçőes químicas",
+    "Engenharia aeroespacial",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527226",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527226&origem=BDITA"
+}

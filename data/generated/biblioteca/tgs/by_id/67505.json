@@ -1,0 +1,27 @@
+{
+  "num_tg": "67505",
+  "type": "tg",
+  "title": "Employment of the lattice boltzmann method in aerodynamics of ground vehicles",
+  "author": "Bernardo Vianna de Melo Jacintho",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Computational Fluid Dynamics - CFD - represents a vast area of numerical analysis in the field of fluid mechanics. Headway in the field of CFD simulations is strongly dependent on the development of computer-related technologies and on the advancement of the understanding and solving ordinary and partial equations. Since direct numerical solving of complex flows in real-like conditions requires an overwhelming amount of computational power success in solving such problems, it is very much dependent on the physical models applied. An alternative approach to these CFD simulations was invented in the late 1980s with the lattice gas methods. These methods allowed density distribution to move on a discrete lattice and local collisions conserved mass and momentum. Because the N-S equations are only continuous forms of the mass and momentum conservation statements and method that locally conserves mass and momentum will obey some kind of continuity, it was shown that the lattice gas methods could be used to simulate fluid dynamics. This is the Lattice Boltzmann Method - LBM, which has been extraordinarily successful for many applications including turbulence, multi-component and multi-phase flows. CFD is useful in a wide variety of applications and it is used wherever there is a fluid. In the industry, researches are made in no matter which sector: transportation, oil and gas, food, etc. These applications are, however, limited by the fluid dynamic and its response in acoustics and thermodynamics. This report deals with an application in car aerodynamics.",
+  "subjects": [
+    "Equaçăo de transporte de Boltzmann",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Mecânica dos fluidos",
+    "Aerodinâmica",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67505",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67505&origem=BDITA"
+}

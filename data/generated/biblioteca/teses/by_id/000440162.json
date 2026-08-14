@@ -1,0 +1,27 @@
+{
+  "num_tese": "000440162",
+  "type": "tese",
+  "title": "Análise de desempenho de turbinas a gás em regime permanente.",
+  "author": "Cleverson Bringhenti",
+  "year": "1999",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma turbina a Gás é um motor complexo, compreendendo um grande número de componentes, cada qual com suas características próprias de desempenho. Logo, o desempenho do motor completo depende das características de desempenho de cada um dos componentes. Em funcionamento, por exemplo, o motor opera com grandes variaçőes das condiçőes ambientes e de vôo. É necessário, portanto, explorar o seu funcionamento em todas as partes significativas do envelope de vôo da aeronave. O custo de ensaio para tal é muito alto. Pode acontecer, também, que o motor năo seja capaz de funcionar em certas condiçőes escolhidas. Por isso, a simulaçăo de uma Turbina a Gás é muito importante, desde o início do projeto da Turbina. Este trabalho trata da simulaçăo numérica do funcionamento e desempenho de uma Turbina a Gás. A técnica utilizada foi a de decomposiçăo do motor em blocos cujas características de funcionamento săo modeladas a partir de suas características opercaionais. Componentes importantes, como Compressor, Câmara de Combustăo, Turbina, Bocal Propulsor, tem seu desempenho obtido com o auxílio de curvas levantadas experimentalmente (mapas). Com isso, o desempenho calculado do motor pode se aproximar bastante do seu desmpenho medido. Como é a partir de blocos que é montado o motor, o programa desenvolvido é capaz de simular uma variedade de tipos de Turbinas a Gás que engloba quase todas as atualmente utilizadas. O programa desenvolvido é bastante amigável do ponto de vista de utilizaçăo por outros usuários, destacando-se a montagem do arquivo de dados de entrada. Resultados obtidos com o programa săo comparados com dados disponíveis na literatura.",
+  "subjects": [
+    "Turbinas a gás",
+    "Análise numérica",
+    "Desempenho mecânico",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1999",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000440162",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000440162&origem=BDITA"
+}

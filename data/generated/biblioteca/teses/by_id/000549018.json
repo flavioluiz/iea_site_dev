@@ -1,0 +1,35 @@
+{
+  "num_tese": "000549018",
+  "type": "tese",
+  "title": "Análise da distribuiçăo de temperatura em ossos durante uma cirurgia ortopédica realizada com o auxílio de uma serra mecatrônica.",
+  "author": "Thaisa Talarico Hyppolito",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho é uma continuidade das pesquisas na área de mecatrônica aplicada ŕ medicina do ITA, e tem como objetivo modelar numericamente a distribuiçăo de temperaturas em ossos, durante a cirurgia de osteotomia de tíbia, realizada com o auxílio de uma serra mecatrônica ortopédica. Durante o processo cirúrgico a temperatura do osso deve ser controlada para evitar sua necrose térmica devido ŕ alta temperatura, principalmente se a cirurgia for realizada com recursos de automaçăo. Para se modelar a distribuiçăo de temperatura durante o corte, é necessário conhecer o fluxo de calor gerado devido ao atrito durante o tempo de corte. Para tanto, devem ser conhecidos alguns parâmetros operacionais do equipamento robótico da qual a serra é parte componente, quais sejam, velocidade de avanço da serra, velocidade semi-rotativa das lâminas, e o tempo total de corte, e algumas propriedades físicas do osso: condutividade térmica, densidade, difusividade térmica e tensăo de cisalhamento. A partir desses parâmetros, este trabalho apresenta a modelagem do fluxo de calor serra/osso durante o corte do osso. Posteriormente, o fluxo de calor calculado é utilizado como condiçăo de contorno para resolver a equaçăo diferencial da temperatura dada pela equaçăo da conduçăo de calor, que é avaliada, de forma qualitativa, bidimensionalmente e em regime transitório. Finalmente, conhecendo-se o valor da temperatura ao longo do osso durante o corte, é possível manter esse valor nos limites aceitáveis, por meio do monitoramento das variáveis do procedimento cirúrgico, evitando-se conseqüentemente, a necrose térmica do osso.",
+  "subjects": [
+    "Controle automático",
+    "Fluxo de calor",
+    "Ossos",
+    "Modelos matemáticos",
+    "Identificaçăo de parâmetros",
+    "Planejamento de tarefas (robótica)",
+    "Aparelhos e instrumentos cirúrgicos",
+    "Ortopedia",
+    "Bioengenharia",
+    "Mecatrônica",
+    "Medicina",
+    "Controle"
+  ],
+  "defense_date": "03/12/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000549018",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000549018&origem=BDITA"
+}

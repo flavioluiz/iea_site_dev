@@ -1,0 +1,29 @@
+{
+  "num_tese": "62029",
+  "type": "tese",
+  "title": "Proposta de método para planejamento experimental de ensaio de queda livre de trem de pouso através da obtençăo do comportamento dinâmico",
+  "author": "José Renato de Carvalho",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ricardo Sutério",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Ensaios de queda livre em trens de pouso săo mandatórios tanto na fase de desenvolvimento, quanto na fase de qualificaçăo e certificaçăo do produto. Este trabalho propőe um método para avaliar projetos de trens de pouso do tipo balacim com relaçăo ao comportamento dinâmico obtido nos ensaios de queda livre. Através de pesquisas junto a diferentes equipes de engenharia e estudos de literaturas especializadas foi possível elaborar um processo para avaliar projetos de trem de pouso. O desenvolvimento do trabalho consistiu basicamente em tręs etapas: Primeiramente foi construído um modelo multicorpos de um trem de pouso do tipo balacim. Em seguida foram determinadas as curvas de força do gás e a de restriçăo hidráulica do amortecedor, a qual representa a resistęncia hidráulica de um orifício variável. Estas curvas foram implementadas no modelo capacitando-o a reagir com o comportamento dinâmico adequado durante as simulaçőes. A curva resultante da soma das forças do gás e hidráulica obtida em cada queda simulada equivale ao comportamento de força a ser reproduzido pelo protótipo durante os ensaios de queda livre, estabelecendo uma referęncia a ser alcançada pelo trem de pouso. Por ultimo, foram realizadas simulaçőes de quedas e foi aplicada a metodologia do projeto fatorial 2k para varrer todas as possíveis condiçőes de testes. As cargas resultantes de cada queda foram registradas e o tratamento dos dados possibilitou identificar uma seqüęncia de testes para ajustar o protótipo (através do orifício hidráulico) de maneira a reproduzir a curva predita pelo modelo. Assim foi realizado um planejamento do ensaio reduzindo a quantidade de quedas em cerca de 80% com relaçăo ao ensaio convencional. Portando, a proposta do método apresentado para avaliar o protótipo consiste realizar a seqüęncia de quedas obtida pela aplicaçăo do projeto fatorial 2k e ajustar o protótipo para reproduzir a curva de força resultante em cada queda.",
+  "subjects": [
+    "Trem de pouso",
+    "Queda livre",
+    "Projeto fatorial",
+    "Ensaios mecânicos",
+    "Projetos experimentais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62029",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62029&origem=BDITA"
+}

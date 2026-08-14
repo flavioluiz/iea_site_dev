@@ -1,0 +1,30 @@
+{
+  "num_tese": "79678",
+  "type": "tese",
+  "title": "Assessment of pair stiffness variation on the gear noise behavior of lightweight designs",
+  "author": "Guilherme José dos Santos",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The increasing pressure exerted by society and governments for the adoption of electric vehicles is rapidly accelerating technological advancements in this area. Beyond focusing on increasing battery life and optimizing vehicle architecture with the inclusion of lighter components, one critical element deserves special attention: transmission noise. The inherent characteristics of electric motors, including high rotational speeds and elevated torque levels, contribute to an environment where noise generation becomes a significant challenge. The removal of the internal combustion engine, which previously masked the transmission noise, allows it to be perceived by the user. In light of this, efforts are being made to adapt gear design to the new electrification requirements. These initiatives primarily aim to mitigate the source of noise excitation and its subsequent propagation. A third, more recent approach in gearing focuses on making transmission noise less bothersome. This doctoral research, supported by this third approach, hypothesizes that variable contact stiffness, obtained through controlled modifications to the gear body, can result in a reduction in noise tonality. The objective is a method for designing gears optimized for tonality using controlled dimension lightening holes. A simulation approach is employed to investigate the effect of different lightening hole geometries on the stiffness of the gear pair. The results indicate that the gear mesh stiffness is a function of the lightening hole geometry, highlighting the possibility of controlling the mesh excitation through the gear body geometry. Assessments of the lightening hole effects are used to develop a method for estimating mesh excitation for different lightweight designs. Finally, with the aid of a neural network, the method is integrated into an optimization algorithm that evaluates various combinations of lightweight designs to propose the combination that offers the most significant reduction in tonality. The selected design shows a 12% reduction in the amplitude of transmission error in the frequency domain, which relates to a reduction in the tonality of the gear mesh noise.",
+  "subjects": [
+    "Engrenagens",
+    "Ruído",
+    "Projetos",
+    "Motores elétricos",
+    "Alta velocidade",
+    "Rotaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/01/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79678",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79678&origem=BDITA"
+}

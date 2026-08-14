@@ -1,0 +1,28 @@
+{
+  "num_tese": "000194420",
+  "type": "tese",
+  "title": "Análise e síntese de placas sanduíche reforçadas",
+  "author": "Kennedy Diniz do Nascimento",
+  "year": "1990",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Rizzi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Análise e síntese de placas sanduíche reforçadas sujeitas a restriçőes de frequęncia, flambagem global e estática săo considerados. O problemade análise é formulado usando o método das faixas finitas associado ŕ teoria de pequenas deflexőes para placas ortotrópicas. Elementos de viga compativeis com as faixas finitas, nos quais o efeito do cisalhamento transvesal é levado em consideraçăo, săo também considerados. O elemento de faixa desenvolvido permite o completo desacopiamento das matrizes para os hamônicos m x n. O problema de otimizaçăo é formulado utilizando a estratégia de programaçăo sequencial convexa, em conjunto com o método das direçőes viáveis modificado, como otimizador. O espaço de projeto inclui simultaneamente variáveis de dimensionamento e de configuraçăo. A otimizaçăo acha a placa reforçada de menor peso com restriçőes nas diferentes respostas da análise, incluindo o critério de falha de Tsai-Wu sobre as tensőes. Resultados numéricos săo apresentados e comparaçőes com outros trabalhos săo feitas sempre que possível. Pode-se verificar a obtençăo de bons resultados tanto nos problemas de análise como nos de otimizaçăo.",
+  "subjects": [
+    "Placas (membros estruturais)",
+    "Estruturas sanduíche",
+    "Análise estrutural",
+    "Engenharia estrutural",
+    "Engenharia civil"
+  ],
+  "defense_date": "01/10/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000194420",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000194420&origem=BDITA"
+}

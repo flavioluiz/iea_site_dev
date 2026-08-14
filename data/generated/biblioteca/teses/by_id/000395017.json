@@ -1,0 +1,30 @@
+{
+  "num_tese": "000395017",
+  "type": "tese",
+  "title": "Aplicaçăo do método multigrid na soluçăo numérica de problemas 2-D simples de mecânica dos fluidos e transferęncia de calor.",
+  "author": "José Antonio Rabi",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Foi aplicada a técnica de multigrid na implementaçăo de dois programas computacionais visando a soluçăo numérica de problemas em regime permanente de escoamentos laminares com geometrias simples e de um problema simples de transferęncia de calor em que o campo de velocidade é conhecido e constante, todos bidimensionais em coordenadas cartesianas. Os programas empregaram malhas computacionais estruturadas e ortogonais, estando os mesmos generalizados ao uso de malhas năo-uniformes. As equaçőes algébricas foram obtidas segundo uma formulaçăo em volumes finitos, com as variáveis armazenadas no centro dos volumes elementares segundo um arranjo localizado e foram utilizados esquemas de interpolaçăo distintos para cada classe de problema. O sistema de equaçőes resultante foi relaxado através dos algoritmos Gauss-Seidel e TDMA - TriDiagonal Matrix Algorithm. O acoplamento pressăo-velocidade foi feito segundo o método SIMPLE - Semi-Implicit Method for Pressure-Linked Equations. O algoritmo multigrid foi implementado na formulaçăo correction storage em ambos os programas. A técnica foi demonstrada para alguns problemas bench-mark, com os resultados apresentando uma aceleraçăo significativa do processo de convergęncia da soluçăo numérica multigrid em relaçăo ŕs soluçőes em malha única, especialmente nas situaçőes em que foram empregadas malhas bastante refinadas e foi exigida elevada precisăo.",
+  "subjects": [
+    "Escoamento laminar",
+    "Análise numérica",
+    "Métodos de multigrid",
+    "Transferęncia de calor",
+    "Programas de computadores",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000395017",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000395017&origem=BDITA"
+}

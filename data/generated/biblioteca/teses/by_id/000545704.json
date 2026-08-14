@@ -1,0 +1,34 @@
+{
+  "num_tese": "000545704",
+  "type": "tese",
+  "title": "Proposta de método para a estimativa da probabilidade de atendimento de requisitos funcionais de um produto.",
+  "author": "José Roberto de Paula",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Henrique de Sousa Damiani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christian Giorgio Roberto Taranti",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe um método para se estimar a probabilidade de atendimento de requisitos funcionais definidos para produtos complexos, tendo em vista a incerteza presente no desenvolvimento de projetos com relaçăo ŕ implementaçăo dos requisitos funcionais ao produto-final. Diante disso, o modelo proposto estabelece uma estimativa da probabilidade de atendimento dos requisitos funcionais de um produto, proporcionando aos desenvolvedores meios para adotarem açőes que possam atenuar os efeitos que o năo-atendimento desses requisitos gera sobre o produto e a seus \"stakeholders\", na medida em que expőe os componentes da estrutura do produto que afetam a realizaçăo de suas funçőes/subfunçőes. Para tanto, o método emprega conceitos e técnicas de Engenharia de Sistemas e de Confiabilidade, em que as interaçőes funcionais observadas no Diagrama Bloco de Fluxo Funcional do produto săo traduzidas para uma configuraçăo de Diagramas Blocos de Confiabilidade, segundo as convençőes definidas pelo modelo proposto. A partir da configuraçăo do Diagrama de Blocos de Confiabilidade, aloca-se a cada um de seus blocos o valor da confiabilidade resultante da açăo do(s) componente(s) que executa(m) cada funçăo/subfunçăo e, empregando-se os métodos de Avaliaçăo da Confiabilidade, calcula-se o valor que representa a probabilidade de atendimento do requisito funcional analisado. O método é demonstrado por meio de um estudo de caso, utilizando-se um subsistema de um míssil. Os resultados obtidos atestam que o modelo é viável e sua aplicaçăo concorre para o objetivo proposto, qual seja o de estimar a probabilidade de atendimento de requisitos funcionais, quando se considera as especificidades de cada caso.",
+  "subjects": [
+    "Desenvolvimento de produtos",
+    "Especificaçőes funcionais de projeto",
+    "Confiabilidade",
+    "Requisitos",
+    "Diagramas de blocos",
+    "Engenharia de sistemas"
+  ],
+  "defense_date": "31/03/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000545704",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000545704&origem=BDITA"
+}

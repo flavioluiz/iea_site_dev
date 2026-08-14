@@ -1,0 +1,29 @@
+{
+  "num_tese": "73414",
+  "type": "tese",
+  "title": "Efeitos da taxa de deformaçăo na tenacidade a fratura intralaminar de laminados compósitos sujeitos a carga de compressăo",
+  "author": "Bruno Martins Leite",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta um estudo experimental e numérico focado na caracterizaçăo do comportamento mecânico de um material compósito de tecido de carbono/epóxi, mais especificamente sobre a tenacidade 'a fratura intralaminar, o qual foi ensaiado em compressăo sob a altas taxas de deformaçăo. Um novo método de reduçăo dos dados baseados na avaliaçăo numérica da taxa de energia de deformaçăo liberada, usando o método da integral-J, foi proposto para determinar o fator de intensidade de tensăo para compósitos. Simulaçőes com corpos de provas propostos, do tipo Single Edge Notch Bending (SENB) e Double Edge Notch (DEN), com formatos năo padronizados, foram realizados usando um modelo constitutivo de dano implementado no software ABAQUS, definido pelo usuário (VUMAT). Este modelo combina mecânica da fratura e mecânica do dano de uma maneira unificada permitindo prever iniciaçăo e progressăo de dano. As configuraçőes propostas foram comparadas e as vantagens e desvantagens de cada configuraçăo numérica simulada neste trabalho săo apresentadas, assim como as conclusőes. As simulaçőes permitiram a definiçăo da melhor configuraçăo do corpo de prova para os ensaios de tenacidade a fratura intralaminar, o qual foi testado em regime quasi-estático e dinâmico. O novo método de reduçăo dos dados leva em conta o aspecto da geometria ser finita e os efeitos de anisotropia do material. Os ensaios quasi-estáticos foram realizados a uma velocidade de 0,4 mm/min usando um equipamento universal de testes, enquanto os experimentos dinâmicos foram realizados a taxas de deformaçăo de 560 s?1, 690 s?1, 770 s?1, usando uma versăo adaptada da Split Hopkinson Pressure Bar (SHPB), disponível no Laboratório de Estruturas Aeroespaciais no ITA. Uma câmera de alta velocidade foi usada para monitorar a propagaçăo da trinca e encontrar o tempo de início da carga de falha. Os resultados experimentais indicaram que a tenacidade 'a fratura intralaminar dos compósitos laminados tiveram diferenças significativas com a taxa de deformaçăo. Foi utilizado também um Microscópio Eletrônico de Varredura para analisar a superfície de fratura a fim de se verificar os possíveis mecanismos de dano e suas características. Devido a ausęncia de informaçőes disponíveis na literatura, os resultados mostram a relevância da compreensăo do comportamento dinâmico dos materiais compósitos, e săo de interesse da comunidade científica acadęmica e militar. O conteúdo 'e importante, por exemplo, para o desenvolvimento de estruturas que estăo sujeitas a impactos de pássaros, granizos e outros objetos.",
+  "subjects": [
+    "Resistęncia ŕ fratura",
+    "Materiais compósitos",
+    "Laminados",
+    "Deformaçăo",
+    "Mecânica de fratura",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "03/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73414",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73414&origem=BDITA"
+}

@@ -1,0 +1,69 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto">
+
+  <div class="mb-10">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    {{ if .Content }}
+      <div class="prose prose-lg max-w-none text-gray-700">{{ .Content }}</div>
+    {{ end }}
+  </div>
+
+  {{ $linhas := .Site.Data.linhas_pesquisa.linhas }}
+  {{ $idx    := .Site.Data.linhas.index }}
+  {{ $tgsMap := .Site.Data.linhas.tgs }}
+  {{ $tesesMap := .Site.Data.linhas.teses }}
+  {{ $lang   := .Language.Lang }}
+
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+    {{ range $id, $l := $linhas }}
+      {{ $stats := index $idx $l.id }}
+      {{ $npubs := 0 }}
+      {{ if $stats }}{{ $npubs = $stats.total_publicacoes }}{{ end }}
+
+      {{ $ntgs := 0 }}
+      {{ if $tgsMap }}{{ $ntgs = len (index $tgsMap $l.id | default slice) }}{{ end }}
+
+      {{ $nteses := 0 }}
+      {{ if $tesesMap }}{{ $nteses = len (index $tesesMap $l.id | default slice) }}{{ end }}
+
+      <a href="{{ printf "/linhas/%s/" $l.id | relLangURL }}"
+         class="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 hover:border-gray-200">
+        <div class="h-2" style="background-color: {{ $l.cor }};"></div>
+        <div class="p-6">
+          <h3 class="text-lg font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors leading-snug">
+            {{ if eq $lang "en" }}{{ $l.nome_en }}{{ else }}{{ $l.nome_pt }}{{ end }}
+          </h3>
+          <p class="text-sm text-gray-600 leading-relaxed mb-4">
+            {{ if eq $lang "en" }}{{ $l.descricao_en }}{{ else }}{{ $l.descricao_pt }}{{ end }}
+          </p>
+          <div class="flex flex-wrap items-center gap-3 text-xs text-gray-500">
+            <span class="inline-flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+              </svg>
+              {{ $npubs }} {{ if eq $lang "en" }}pubs{{ else }}pubs{{ end }}
+            </span>
+            {{ if gt $ntgs 0 }}
+            <span class="inline-flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              {{ $ntgs }} TGs
+            </span>
+            {{ end }}
+            {{ if gt $nteses 0 }}
+            <span class="inline-flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+              </svg>
+              {{ $nteses }} {{ if eq $lang "en" }}theses{{ else }}teses/diss.{{ end }}
+            </span>
+            {{ end }}
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

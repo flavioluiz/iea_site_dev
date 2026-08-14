@@ -1,0 +1,30 @@
+{
+  "num_tese": "73482",
+  "type": "tese",
+  "title": "Towards the application of piezoresistive tactile sensors for monitoring the sheet metal pressing",
+  "author": "José Jerônimo Rabelo Faria",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Sheet metal stamping has evolved very little since its inception, despite being one of the most widely employed manufacturing processes. The development of deep drawing tools is still strongly based on a trial-and-error approach, and the adjustment phases involve manual and non-reproducible procedures, accounted for up to 30% of the total tool development cost. Bearing this in mind, the present study aimed to develop and test a novel gap monitoring sensor, based on the piezoresistive technology, to assist the die spotting process, by substituting current manual measurement procedures. The study started with a fundamental evaluation of a commercial piezoresistive tactile sensor (FlexiForce®), with the goal of assessing its metrological performance under loading conditions representative to the sheet metal stamping process. Results revealed that presumably identical sensors render statistically different outputs during identical loading conditions, which indicates the need for individual calibration. Additionally, due to the high hysteresis behavior, it has been shown that the overall accuracy can be enhanced if two separate transfer functions are determined, one for loading and the other for unloading conditions. The measurement of small gaps was attained by coupling the FlexiForce® sensor with a so-called Feeler Gauge Element (FGE), essentially composed of a polymer elastomer. Two commercial elastomer blends were studied for the fabrication of the FGE: polychloroprene and silicone. The elastomers were evaluated through a series of compressive tests with the goal of studying primarily the compression set and stress softening behavior of the materials, key characteristics for sensor performance. Both elastomers presented a significantly high stress softening effect, despite good compression set performance. Accurate measurements were obtained with the novel gap sensor featuring the polychloroprene FGE under calibration experiments and tests on an eccentric press. However, the sensor presented significant temporal instability. Sensor accuracy and repeatability were: 3.32% and 5.51% of the full measurement span (0.282mm), with an expended uncertainty of approximately ±0.043mm. Regardless of the limitations encountered with the current configuration, results prove the concept of operation of the gap sensor, and pave the way to the development of new, noninvasive, sensing systems applied to sheet metal stamping.",
+  "subjects": [
+    "Fabricaçăo",
+    "Chapas de metal",
+    "Sensores piezoresistivos",
+    "Processos de conformaçăo de metais",
+    "Elastômeros",
+    "Ensaios de compressăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "05/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73482",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73482&origem=BDITA"
+}

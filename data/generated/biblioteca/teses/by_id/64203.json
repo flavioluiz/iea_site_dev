@@ -1,0 +1,35 @@
+{
+  "num_tese": "64203",
+  "type": "tese",
+  "title": "Controle preditivo para sistemas com degradaçăo de atuadores : uma abordagem utilizando modelos híbridos",
+  "author": "Joăo Paulo Vieira",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Kawakami Harrop Galvăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A exigęncia de continuidade operacional em processos críticos mesmo sob a açăo de falhas de atuadores requer sistemas de controle que sejam capazes de manter o sistema em funcionamento, mesmo com desempenho afetado, até uma possível intervençăo de manutençăo. Neste contexto, o controle preditivo se mostra uma estratégia apropriada para mitigaçăo dos efeitos de falhas, por permitir o tratamento explícito de restriçőes de entrada e saída do sistema. Este trabalho apresenta uma abordagem de controle preditivo para acomodaçăo de falhas que resultem em uma perda de efetividade dos atuadores. Para esse propósito, assume-se que o atuador esteja sujeito a efeitos de degradaçăo que progridam com taxa proporcional ao esforço de controle. Por simplicidade, considera-se que a perda de efetividade ocorra de forma abrupta quando a degradaçăo atinge um limiar intermediário entre a condiçăo nominal de operaçăo e a perda total do atuador. Sob essas condiçőes, a dinâmica do sistema pode ser representada por um modelo de sistema h´?brido utilizando a representaçăo MLD (Mixed Logical Dynamical). Como resultado, a lei de controle preditivo envolve a soluçăo de um problema de programaçăo mista inteira a ser resolvido a cada instante de amostragem. A abordagem proposta é ilustrada por meio de simulaçőes numéricas.",
+  "subjects": [
+    "Controle preditivo",
+    "Atuadores",
+    "Degradaçăo",
+    "Controle com restriçőes",
+    "Tolerância a falhas",
+    "Modelos matemáticos",
+    "Controle"
+  ],
+  "defense_date": "01/03/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64203",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64203&origem=BDITA"
+}

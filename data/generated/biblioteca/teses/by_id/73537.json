@@ -1,0 +1,29 @@
+{
+  "num_tese": "73537",
+  "type": "tese",
+  "title": "Dynamics modeling and attitude control of a robotic manipulator spacecraft",
+  "author": "Luciano Mateus Unfried",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ijar Milagre da Fonseca",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work deals with the mathematical modelling of a robotic manipulator like spacecraft in space environment. This modelling is achieved making use of the Lagrangian Mechanics associated with the Lagrange Multipliers, which return the components of the reaction forces acting at the joints of the robotic system. For terrestrial systems, where the base is fixed, the reactions can be disconsidered, depending on the system. However, for the case of an in-orbit vehicle of the type free-flyer and microgravity environment, the reactions are important in the solution of the system of equations, because these forces are transferred to the robotic platform and because of this, the robotic platform moves. For this reason, the reactions are included in this work. The equations of motion are computationally simulated by using the Matlab/Simulink® software package. The control technique used is the PID (Proportional - Integral - Derivative) aiming the stabilization of the system during the operations of the manipulator. The methodology of compensating the effect of the reaction forces in the attitude dynamics is known as Reaction - Null control. The results confirm the impact or effect of the reaction forces on the attitude motion and the efficiency of the PID technique to compensate these effects, at the stabilization of the system.",
+  "subjects": [
+    "Controle de atitude",
+    "Multiplicadores de Lagrange",
+    "Modelagem (processos)",
+    "Braços robóticos E Manipuladores",
+    "Sistemas aeroespaciais",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "04/08/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73537",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73537&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tese": "80609",
+  "type": "tese",
+  "title": "Finishing strategy oriented for the manufacturing of gears through laser powder bed fusion",
+  "author": "Guilherme Fernandes Guimarăes",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The transition toward Industry 4.0 presents numerous challenges within the manufacturing landscape, particularly in the domains of resource efficiency and flexibility. Within this context, Laser Powder Bed Fusion (L-PBF) has emerged as a key enabling technology, offering potential solutions to these challenges. It provides extensive design freedom and operational flexibility, thereby enabling the industry to innovate in business models and products. However, the construction principle of L-PBF results in heterogeneous distributions of residual stresses, which may be detrimental to the fatigue performance of components, especially those subjected to cyclic loading, such as gears. Although the L-PBF technique is an emerging research topic, there is still a gap in how to design finishing processes specifically for L-PBF. In particular, the residual stress heterogeneity is not comprehensively addressed in the literature. Therefore, the primary objective of this thesis is to develop a simulation-driven method for designing a finishing chain oriented to mitigate the residual stress heterogeneity introduced during the L-PBF process. To achieve this objective, a novel framework is developed, combining finite element modeling of manufacturing processes specifically designed to capture the evolution of residual stress across different stages of a manufacturing chain. The simulation models were then verified by comparing simulated and measured residual stresses obtained from simplified samples. By simulating different manufacturing routes, the study reveals that the selected manufacturing route has a significant influence on residual stress development, with certain process sequences either amplifying or mitigating heterogeneity. These findings were then applied to L-PBF-manufactured gears, where residual stress heterogeneity presents challenges for both processability and operation. By submitting the L-PBF gears to the proposed optimized manufacturing route, an effective reduction in the residual stress heterogeneity was observed. Overall, the framework developed in this research offers a systematic approach to integrating multiple post-processing steps within an L-PBF manufacturing route. While directly addressing the challenges faced by the gear industry, the framework is also broadly applicable to other components. By advancing the understanding of residual stress evolution throughout the L-PBF process chain, this work addresses a key gap in the current literature and supports further development in designing finishing strategies for L-PBF-based manufacturing.",
+  "subjects": [
+    "Engrenagens",
+    "Processamento de materiais a laser",
+    "Tensăo residual",
+    "Processos de manufatura",
+    "Fadiga (materiais)",
+    "Método de elementos finitos",
+    "Simulaçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "18/08/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80609",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80609&origem=BDITA"
+}

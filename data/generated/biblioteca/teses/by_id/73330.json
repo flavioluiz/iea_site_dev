@@ -1,0 +1,28 @@
+{
+  "num_tese": "73330",
+  "type": "tese",
+  "title": "System safety assessment based on system theory process analysis and model checking",
+  "author": "Alheri Longji Dakwat",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The current pace of technological growth is characterized by systems that perform intricate protocols and processes. Consequently, the management of safety has equally evolved with complex causes of accidents that are often beyond the comprehension of human response. The sad reality is that accidents in such environment occur when systems are operating as they were designed to operate. The hazard analysis tool such as Systems Theory Process Analysis (STPA) has emerged as an approach to improving safety of modern complex systems in concert with other hazard analysis tools. However, the effectiveness of STPA is a debatable issue in the industry. Hence it still requires a concise guiding principle in its application. Accordingly, this work proposes a possible method of combining of STPA and a model checking tool such as UPPAAL on a case application with the view to improve the effectiveness of STPA. A practical case application of a design driven embedded system such a flight simulator mounted on an industrial robotic arm was chosen as it offers a rich field of analysis for this work. To achieve this, the work looks at approaches to safety driven design based on STAMP/STPA and model checking using UPPAAL. Thereafter, an interplay of these methods is analyzed based on existing works. The dissertation will discuss the proposed method and its application to the case study. The relationship established between STPA and model checking using UPPAAL based on this method was encouraging and is expected to contribute to the efficient assessment of design driven products.",
+  "subjects": [
+    "Sistema de controle",
+    "Projeto de sistema de controle",
+    "Segurança de aeronaves",
+    "Gerenciamento de riscos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "22/06/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73330",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73330&origem=BDITA"
+}

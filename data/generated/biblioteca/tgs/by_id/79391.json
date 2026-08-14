@@ -1,0 +1,31 @@
+{
+  "num_tg": "79391",
+  "type": "tg",
+  "title": "Projeto conceitual estrutural de um casulo fotográfico para ensaios em voo",
+  "author": "Bruna Fernandes Vertemati",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Rafael Marques Lins",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Gustavo Henrique de Mendonça Ferreira Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho visa aprimorar a estrutura de um casulo fotográfico acoplado ŕ aeronave A-29B Super Tucano, utilizada nos ensaios em voo no IPEV, por meio da análise estrutural em um âmbito de projeto conceitual. Realizado em etapas interligadas, o projeto envolveu modelagem tridimensional inicial no 3DExperience e adaptaçăo do modelo para análise estrutural detalhada no software FEMAP, considerando fixaçőes nos olhais e aplicando análise de elementos finitos. A avaliaçăo das cargas em voo abrangeu o peso suportado em diferentes condiçőes de fator de carga e a força de arrasto. A substituiçăo eficaz do material para Alumínio 2024-T3 na casca mitigou aumentos nas tensőes. Análises das deformaçőes nas vigas contribuíram para a otimizaçăo do design, e a análise modal indicou prevençăo efetiva de acoplamento e flutter no casulo modificado. Conclusivamente, as análises integradas no FEMAP sustentaram um dimensionamento otimizado do casulo, atendendo a requisitos de projeto, mas ressaltando a necessidade de um estudo aprofundado dos custos relacionados ŕ mudança de material para futuras consideraçőes de aprimoramento.",
+  "subjects": [
+    "Aeronaves",
+    "Método de elementos finitos",
+    "Ensaios em voo",
+    "Mecânica de fratura",
+    "Cargas (forças)",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79391",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79391&origem=BDITA"
+}

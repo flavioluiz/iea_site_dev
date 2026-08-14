@@ -1,0 +1,25 @@
+{
+  "num_tg": "77976",
+  "type": "tg",
+  "title": "O efeito de retardo devido a sobrecargas na propagaçăo de trinca por fadiga",
+  "author": "Rodrigo Mendes Cordeiro",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta um estudo experimental com foco na caracterizaçăo da propagaçăo de trinca por fadiga, considerando a interaçăo de sobrecargas e o efeito de retardo. Para tanto, uma matriz de ensaios experimentais foi definida utilizando como base corpos de prova feitos de uma liga de alumínio 2524-T3 com trinca central, carregados em Modo I. O alumínio 2524-T3 foi empregado por ser um material promissor para aplicaçăo em estruturas aeronáuticas, devido ŕ menor taxa de propagaçăo de trincas por fadiga, quando comparado com outras ligas de alumínio, tradicionalmente empregadas na indústria aeronáutica, como 2024-T3, entre outras. Uma revisăo do estado da arte foi conduzida para identificar os principais modelos de propagaçăo de trinca e aqueles relacionados ŕ inclusăo de efeitos de retardo devido ŕ sobrecarga e plasticidade na ponta da trinca. Foram assim adotados para este trabalho os modelos de Walker e Forman para caracterizaçăo das curvas de propagaçăo e os modelos de Willenborg e Wheeler para quantificar o efeito de retardo e interaçăo de sobrecargas na vida em fadiga. Uma matriz de ensaios foi definida e executada com o objetivo de quantificar os parâmetros de ajuste dos modelos propostos: (i) ensaios de traçăo para caracterizar as propriedades mecânicas do material e a curva de tensăo versus deformaçăo no regime elastoplástico; (ii) ensaios de carregamento cíclico e amplitude constante para duas razőes de carregamento, de maneira a obter os coeficientes dos modelos de propagaçăo adotados; (iii) ensaio de carregamento cíclico com amplitude decrescente para caracterizaçăo do fator intensificador de tensăo de threshold, visando a expansăo dos modelos de propagaçăo e retardo estudados; (iv) ensaios de carregamento cíclico com amplitude constante, com uma única sobrecarga, para caracterizar o coeficiente do modelo de retardo de Wheeler; (v) ensaios com múltiplas sobrecargas para avaliar o efeito de interaçăo entre os campos de deformaçăo plástica, na propagaçăo de trincas por fadiga, e verificar os modelos de propagaçăo e retardo estudados neste trabalho. Após a análise de correlaçăo dos modelos com os resultados experimentais, foi possível observar um ajuste adequado das curvas de propagaçăo, considerando a interaçăo de sobrecargas, quando o modelo de retardo de Wheeler é acoplado a qualquer um dos modelos de propagaçăo estudados neste trabalho.",
+  "subjects": [
+    "Propagaçăo de trincas",
+    "Plasticidade",
+    "Desaceleraçăo",
+    "Estruturas de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77976",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77976&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tese": "72791",
+  "type": "tese",
+  "title": "Design, trimming, stabilization and flight testing of tethered aerostats",
+  "author": "Bruno Avena de Azevedo",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Raul Azinheira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work addresses the field of tethered air vehicles, with emphasis on the design of tethered aerostats and their height keeping performance, stability and flight testing. The criterion of Expected Performance, which combines the tethered air vehicle capability of height keeping with statistical wind investigation, is proposed. Then we propose a methodology for the selection of the confluence point position for appropriately choosing an aerostat longitudinal static behavior. In the sequence, the work presents the dynamic model and investigates the characterization of a tethered aerostat with different trimming configurations. The model is further develop to propose a covariance method for first assessment of aerostat oscillations originated by atmospheric turbulence. In the sequence a stability augmentation system with actuated fins is incorporated using a linear quadratic regulator. The benefits of the control to namely, reducing altitude, are assessed and the rudder control alone is found to be the best way to keep the aerostat with low height perturbations. With the developed knowledge an oblate spheroid aerostat configuration is selected to further investigation in a flight test campaign and a simplified theoretical model based on reentry lenticular bodies is proposed as a means of reducing the spectrum of configurations to be tested. The static and dynamic behavior were assessed in a flight test campaign in Săo José dos Campos airport, where an automobile was used for towing the aerostat at the desired wind speeds, totalizing 275 runs. It has been concluded that the selected aerostat, if properly trimmed, is a compromise solution between height keeping performance and compactness when compared to the spherical and the streamlined, suitable for a wide range of applications where size, installation space, number of operators and lifting gas consumption are key factors of decision.",
+  "subjects": [
+    "Dirigíveis",
+    "Projeto de aeronaves",
+    "Estabilidade aerodinâmica",
+    "Regulador linear quadrático",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/12/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72791",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72791&origem=BDITA"
+}

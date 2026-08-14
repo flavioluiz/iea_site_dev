@@ -1,0 +1,25 @@
+{
+  "num_tg": "76407",
+  "type": "tg",
+  "title": "Busca de soluçăo ótima para formaçăo de helicópteros de ataque contra posiçăo defendida por artilharia antiaérea de cano",
+  "author": "Gieser Augusto Rauber Duarte",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No mundo moderno e altamente competitivo do início do século XXI nos deparamos com a prática generalizada de buscar a otimizaçăo de processos, produtos e formas de gerenciamento em praticamente todas as atividades humanas. O mesmo ocorre no campo da tática militar. Neste trabalho procuramos estudar o relevante problema tático de uma formaçăo de aeronaves de ataque buscando neutralizar um objetivo defendido por artilharia antiaérea de cano. Através da simplificaçăo do problema e adoçăo de alguns pressupostos baseados em consideraçőes físicas e de experięncia em combate é feita a modelagem do mesmo propiciando que seja tratado através de métodos matemáticos e computacionais. Em virtude da natureza do problema, o método de busca escolhido para procurar uma soluçăo ótima é o uso de meta-heurísticas, sendo utilizadas quatro delas (Particle Swarm, Black Hole, Tabu Search e Simulated Annealing). O problema é inicialmente modelado em Matlab®, depois também em C++, de forma que possa ser colocado em forma de funçăo objetivo em arquivo executável. Todos os cálculos com o uso de meta-heurísticas săo realizados no framework LOF-MH (desenvolvido no IEAv), utilizando o arquivo executável. Em virtude do tempo necessário ŕ computaçăo restringiu-se o estudo a apenas uma configuraçăo de sistema defensivo, com quatro baterias antiaéreas e em formato de quadrado. A formaçăo de aeronaves de ataque ficou fixa em quatro aeronaves, e foram estudados dois tipos possíveis de formaçőes de voo: formaturas abertas, com as aeronaves podendo posicionar-se em qualquer posiçăo, e formaturas fechadas, onde havia restriçőes quanto ŕs posiçőes relativas entre as aeronaves. Os resultados obtidos săo analisados pormenorizadamente, com ęnfase nos aspectos causal e prático. Por fim, cita-se o melhor resultado obtido entre as formaçőes abertas (ataque em trajetórias próximas aos eixos coordenados), formaçőes fechadas (linha de frente em formaçăo compacta) e săo discutidos os pressupostos que apoiam as soluçőes obtidas, sugerindo-se melhorias para estudos futuros.",
+  "subjects": [
+    "Otimizaçăo",
+    "Defesa aérea",
+    "Helicópteros",
+    "Controle de voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76407",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76407&origem=BDITA"
+}

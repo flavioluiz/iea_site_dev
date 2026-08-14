@@ -1,0 +1,31 @@
+{
+  "num_tese": "81079",
+  "type": "tese",
+  "title": "Early failure detection of gear contact fatigue through machine learning techniques",
+  "author": "Rodrigo Metzger da Silva",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "In the pursuit of efficient maintenance strategies, Condition-Based Maintenance (CBM) has become a key approach, leveraging real-time data and proactive actions to reduce downtime and improve operational reliability. This study focuses on the early detection of gear contact fatigue failure-a critical issue in rotating machinery-by analysing vibrational signals that reflect the progressive removal of material from gear tooth surfaces. The early stages of contact fatigue are particularly difficult to detect due to the subtle changes they produce in the vibration profile. While recent studies have explored the application of machine learning (ML) to gear fault detection, most have concentrated on advanced or simulated damage, often overlooking the incipient phases where early intervention would be most beneficial. This research is based on the hypothesis that ML techniques, when combined with appropriate signal preprocessing and feature extraction, can identify the initial stages of gear contact fatigue. The methodology involves the assessment of different preprocessing filters, particularly Time Synchronous Averaging (TSA) and residual signals (RES), and the extraction of statistical features from vibration data collected at four sensor positions. A feature selection process is employed to identify the most relevant indicators, and three ML models are trained and tested to classify damage levels based on the vibrational patterns. Artificial Neural Networks (ANN), Support Vector Machine (SVM) and k-Nearest Neighbours (kNN) are accessed. The study also evaluates the sensitivity of each model to specific levels of gear damage, including early-stage degradation. Results indicate that RES consistently enhances damage-related content with minimal additional steps compared with TSA. SVM and ANN deliver the best performance, 99.9% and 99.6% accuracy respectively, and reliably identify incipient damage at 4% flank area removal, whereas performance degrades near 2%, reflecting the intrinsic difficulty at very low degradation. The consolidated workflow, compasing acquisition, RES preprocessing, four-feature subset and SVM/ANN, was further assessed for operational impact: relative to conventional testing, it can shorten testing by 80% while enabling continuous monitoring without manual intervention. Overall, the results demonstrate that a lean, physically interpretable pipeline combining vibration analysis and ML supports robust early identification of gear contact fatigue and strengthens CBM in industrial applications.",
+  "subjects": [
+    "Engrenagens",
+    "Detecçăo",
+    "Análise de falhas",
+    "Inteligęncia artificial",
+    "Redes neurais",
+    "Fadiga (materiais)",
+    "Vibraçăo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81079",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81079&origem=BDITA"
+}

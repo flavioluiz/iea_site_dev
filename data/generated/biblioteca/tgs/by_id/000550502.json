@@ -1,0 +1,35 @@
+{
+  "num_tg": "000550502",
+  "type": "tg",
+  "title": "Identificaçăo de parâmetros usando algoritmos genéticos.",
+  "author": "Guilherme Soares e Silva",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alan Fonseca Uehara",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem como objetivo comparar o resultado obtido usando métodos diferentes de otimizaçăo ao identificar as derivadas de estabilidade e controle longitudinais do curto período que compőem o modelo aerodinâmico de uma aeronave de asa fixa, a partir de dados de ensaios reais fornecidos pelo Grupo Especial de Ensaios em Vôo (GEEV). Para tanto, será utilizado o método de identificaçăo conhecido por output-error, que basicamente compara a saída medida do sistema real com a saída estimada do modelo matemático. Para a minimizaçăo da funçăo custo será utilizado o algoritmo genético e um método clássico de segunda ordem, com a intençăo de analisar pontos benéficos ou năo da utilizaçăo da busca heurística.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Ensaios em vôo",
+    "Identificaçăo de parâmetros",
+    "Derivadas de estabilidade",
+    "Controle longitudinal",
+    "Características aerodinâmicas",
+    "Modelos matemáticos",
+    "Algoritmos genéticos",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550502",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550502&origem=BDITA"
+}

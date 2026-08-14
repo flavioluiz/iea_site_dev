@@ -1,0 +1,35 @@
+{
+  "num_tese": "61438",
+  "type": "tese",
+  "title": "Modelagem e simulaçăo de microacelerômetro capacitivo",
+  "author": "Janderson Rocha Rodrigues",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Carlos Fernando Rondina Mateus",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta a modelagem e simulaçăo de um microacelerômetro capacitivo de silício produzido pela técnica de fabricaçăo em substrato. O princípio de funcionamento do dispositivo é apresentado, assim como, suas características geométricas oriundas do processo de microfabricaçăo. Utilizou-se a descriçăo generalizada para identificar e subdividir os elementos físicos do dispositivo em termos de suas funcionalidades. Por meio dessa metodologia identificou-se o elemento sensor elástico, o elemento sensor capacitivo e o condicionamento de sinal. As modelagens analíticas estática e dinâmica dos elementos sensores săo apresentadas e os modelos obtidos săo simulados usando o programa Matlab/Simulink®. A validade de cada modelo é discutida e os resultados obtidos săo relacionados ŕs principais especificaçőes do dispositivo. O modelo geométrico tridimensional do microacelerômetro é simulado numericamente usando o programa COMSOL Multiphysics®. Os resultados obtidos numericamente săo comparados com os analíticos e mostram uma excelente concordância, validando os modelos analíticos. .",
+  "subjects": [
+    "Acelerômetros",
+    "Sistemas microeletromecânicos",
+    "Dispositivos eletromecânicos",
+    "Modelos matemáticos",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "29/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61438",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61438&origem=BDITA"
+}

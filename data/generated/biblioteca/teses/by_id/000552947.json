@@ -1,0 +1,31 @@
+{
+  "num_tese": "000552947",
+  "type": "tese",
+  "title": "Um estudo sobre o método da mistura de gaussianas para formaçăo de grupos de dados.",
+  "author": "Ernée Kozyreff Filho",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente texto discorre sobre o método da mistura de gaussianas aplicado ŕ formaçăo de agrupamentos (clusters) de observaçőes a partir de um conjunto maior de dados. Trata-se de um problema sem soluçăo analítica e, assim, utiliza-se o algoritmo EM (Expectation Maximization) para encontrar soluçőes por meio de dois procedimentos: inicializaçőes aleatórias e pré-estimativas via métodos hierárquicos de formaçăo de clusters. Conclui-se que a segunda opçăo é robusta quando se utiliza o método de Ward, enquanto que a primeira também propicia bons resultados, mas que săo raros dentre muitas soluçőes ruins ou pontos de singularidade. Apresenta-se também um exemplo dos métodos estudados com dados reais de empresas brasileiras para ilustrar e complementar o trabalho.",
+  "subjects": [
+    "Processos gaussianos",
+    "Análise de aglomerados",
+    "Análise estatística",
+    "Algoritmo esperança-maximizaçăo",
+    "Processos estocásticos",
+    "Métodos estatísticos",
+    "Pesquisa operacional",
+    "Matemática"
+  ],
+  "defense_date": "17/07/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000552947",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000552947&origem=BDITA"
+}

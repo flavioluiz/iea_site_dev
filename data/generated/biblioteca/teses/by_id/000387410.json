@@ -1,0 +1,32 @@
+{
+  "num_tese": "000387410",
+  "type": "tese",
+  "title": "Estudo numérico do comportamento de cascas axisimétricas sujeitas ŕ açăo de fluido incompressível e viscoso.",
+  "author": "Almério Dutra Agrassar",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma análise matemática da interaçăo entre um fluido incompressível e viscoso e o elemento estrutural presente em sua interface é procedida. Para isso, o trabalho fundamentou-se nas equaçőes clássicas de teoria de cascas para a análise estrutural e nas equaçőes de continuidade e de Navier-Stokes para o estudo do fluido. As variáveis no domínio decorrem tanto quando se considera o escoamento em regime permanente como a resposta transiente. No escoamento em regime os termos inerciais estăo associados aos coeficientes convectivos, enquanto que na resposta transiente os termos convectivos năo aparecem. Uma breve abordagem do problema em regime é descrita de modo a justificar a dificultade quando esta situaçăo é encontrada. Na condiçăo transiente um acoplamento das respectivas componentes do sistema casca-fluido é realizado. O elemento estrutural considerado é a casca axisimétrica de curvatura meridional variável enquanto que o domínio fluido é discretizado através de elementos quadrilaterais de oito pontos nodais. O problema é descrito matematicamente por um sistema de equaçőes diferenciais lineares, onde, por convenięncia, está representado através de coordenadas cilíndricas. Um procedimento numérico é utilizado, onde o método de elementos finitos é aplicado para se encontrar a soluçăo. Uma boa concordância é encontrada em termos quantitativos para o escoamento em regime permanente sujeito a um baixo gradiente de pressăo. Poucas iteraçőes conduzem aos resultados analíticos. Com relaçăo ŕ resposta transiente, em termos de freqüęncia, pode também ser verificado boa concordância quando se procede o refinamento da malha de elementos finitos. É considerada a influęncia da viscocidade no comportamento dinâmico da casca. Em todas variáveis pertencentes ao regime transiente é observada a presença do amortecimento ao longo do tempo.",
+  "subjects": [
+    "Cascas (formas estruturais)",
+    "Análise estrutural",
+    "Análise numérica",
+    "Equaçőes diferenciais lineares",
+    "Escoamento incompressível",
+    "Escoamento viscoso",
+    "Mecânica dos fluidos",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000387410",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000387410&origem=BDITA"
+}

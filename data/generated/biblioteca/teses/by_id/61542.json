@@ -1,0 +1,29 @@
+{
+  "num_tese": "61542",
+  "type": "tese",
+  "title": "3D numerical investigation of mixture formation and combustion in a DISI engine at part-load under stratified operation",
+  "author": "Gustavo de Queiroz Hindi",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates through numerical simulation, the operation of a big bore direct fuel injection spark ignition engine, at part load under stratified operation. It evaluates fuel-air mixture preparation and combustion process with the adoption of detailed chemical kinetics mechanisms for both Isooctane and Ethanol, and applying adaptive mesh refinement to capture the turbulent flame brush. The investigation is split in 3 main parts. In the first part, with Isooctane as fuel, the impact of in-cylinder turbulence level induced by squish has shown that the attempt to isolate the squish ratio, maintaining the bowl shape, for the evaluated cases have led to a scenario not more appropriate for flame initiation and propagation for 2 of the 3 geometries. But the observations made during this initial stage have led to the proposal of a fourth geometry to improve the mixture formation and combustion process. As it was seen the combustion process was about 11.5 deg faster with the new piston bowl proposed. In the second part, still with Isooctane and maintaining the new proposed piston, evaluates the influence of two types of hollow cone fuel injectors, an inwardly and an outwardly opening types, where maintain fixed spark timing, the end of injection is varied and compared among the two cases, while targeting for the same gross IMEP output. The main results are that the outwardly opening injector case resulted in better fuel-air mixture preparation, even with a late end of injection. This led to higher combustion efficiency and lower unburned hydrocarbon, CO and soot emissions, while increasing NOx emissions. The 10-90% MFB burn duration is higher for the outwardly opening injector case. In the last part the outwardly opening spray injector from the previous part, but using Ethanol as fuel has shown that to attain the same IMEP level the injected fuel mass is increased with Ethanol, and with its higher latent heat of vaporization, the time required to have an ignitable fuel-air mixture more than doubled that for the Isooctane case. Another important effect of these is the excessive increase of THC emissions. The overall combustion duration was faster for the Ethanol, mainly as the last part of the combustion was almost twice as fast as for the Isooctane case. It may be a consequence of a more homogeneous fuel-air mixture cloud as the fuel has more time to diffuse as the EOI is more advanced. The in-cylinder charge cooling effect of Ethanol led to a reduction in the in-cylinder temperature, leading to a reduction in NOx formation. CO emissions was also lowered, which is maybe attributed to either the reduced chemical dissociation with the lower temperatures, or reduced fuel rich regions. The reduced fuel rich regions also explain the reason for lower soot emissions.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Motores de igniçăo por centelha",
+    "Escoamento estratificado",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "20/12/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=61542",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=61542&origem=BDITA"
+}

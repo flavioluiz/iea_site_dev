@@ -1,0 +1,34 @@
+{
+  "num_tese": "000359182",
+  "type": "tese",
+  "title": "Ajuste de modelos dinâmicos via algoritmo de detecçăo de falhas estruturais",
+  "author": "Ricardo Nosé Cersosimo",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Hugo Borelli Resende",
+      "professor_slug": null
+    },
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, o método de detecçăo de falhas estruturais proposto por Lim e Kashangaki é modificado de forma a ser utilizado como um método de ajuste de modelos, usando os vetores modais e freqüęncias naturais obtidos de uma análise modal experimental para determinar a lozalizaçăo e a magnitude de erros de modelagem. Estes erros săo localizados computando-se as distâncias euclidianas entre as formas modais medidas e suas projeçőes nos subespaços definidos pelo modelo analítico da estrutura e as frequęncias naturais experimentais. Mudanças na rigidez dos elementos podem, entăo, serem localizadas e quantificadas. Dentre as modificaçőes efetuadas estăo a matriz de massa, que no presente trabalho é suposta correta, e a reduçăo do modelo analítico. É sugerido também a normalizaçăo das linhas da matriz de detecçăo de erros para facilitar suas localizaçőes e o desacoplamento das submatrizes de rigidez dos elementos (criando para cada elemento mais de uma submatriz de rigidez, considerando-se separadamente os termos de rigidez torcional, axial, de flexăo transversal e lateral), permitindo a correspondęncia entre os fatores de correçăo calculados e os parâmetros físicos do modelo a serem modificados em situaçőes onde os elementos finitos possuem rigidez em mais de uma direçăo. O comportamento do método é avaliado através da realizaçăo de duas simulaçőes numéricas e um experimento.",
+  "subjects": [
+    "Estruturas",
+    "Método de elementos finitos",
+    "Análise numérica",
+    "Análise estrutural",
+    "Engenharia aeronáutica",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "01/10/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000359182",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000359182&origem=BDITA"
+}

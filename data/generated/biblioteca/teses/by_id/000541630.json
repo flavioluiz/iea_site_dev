@@ -1,0 +1,29 @@
+{
+  "num_tese": "000541630",
+  "type": "tese",
+  "title": "Modelagem de vigas sanduíche em flexăo e compressăo.",
+  "author": "Cristina Lima Malheiros",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A utilizaçăo de estruturas do tipo sanduíche tem despertado grande interesse e já está bastante difundida em diversos segmentos industriais, principalmente na indústria aeroespacial, militar, naval e civil devido ŕ sua capacidade de combinar alta rigidez ŕ flexăo e baixo peso, resultando numa estrutura altamente eficiente. Portanto, a determinaçăo confiável das propriedades mecânicas de painéis sanduíche é de extrema importância no desenvolvimento do projeto de aplicaçăo do mesmo. Neste trabalho foram elaborados modelos de vigas sanduíche em elementos finitos, utilizando-se o programa comercial de elementos finitos Nastran ®, para a prediçăo do módulo de rigidez ŕ flexăo da estrutura (D) e o módulo de cisalhamento do núcleo (G), representando as condiçőes a que estariam sujeitas em ensaios de flexăo de 3 e 4 pontos de acordo com o descrito na norma ASTM C 393-00 Standard Test Method for Flexural Properties of Sandwich Constructions. As faces de carbono epóxi foram representadas por elementos de placa laminada (CQUAD4) e para o núcleo de espuma PVC foram utilizados elementos sólidos (CHEXA). Os resultados mostraram-se muito dispersos, indicando que o procedimento sugerido pela norma pode ser muito sensível a erros experimentais e năo linearidades nas curvas carga × deslocamento. Foram ainda analisados modelos de vigas sanduíche em que os mesmos encontravam-se em condiçőes de contorno e carregamento năo simétricas em relaçăo ao plano médio, neste tipo de configuraçăo o efeito de enrijecimento por tensăo é muito forte e os resultados indicaram que uma análise linear neste caso năo é aplicável.",
+  "subjects": [
+    "Vigas",
+    "Estruturas sanduíche",
+    "Análise estrutural",
+    "Modelos matemáticos",
+    "Método de elementos finitos",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "07/07/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000541630",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000541630&origem=BDITA"
+}

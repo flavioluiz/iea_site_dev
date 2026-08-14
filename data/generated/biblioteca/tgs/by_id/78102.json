@@ -1,0 +1,25 @@
+{
+  "num_tg": "78102",
+  "type": "tg",
+  "title": "Exploraçăo da diversidade de soluçőes do problema de Lambert estendido e metodologias de obtençăo de soluçőes",
+  "author": "Leonardo Domingos e Luna Silva",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho busca explorar a diversidade de soluçőes para o problema de tręs corpos e ver o quăo rica é a soluçăo do problema de Lambert estendido e como isso afeta o projeto de missőes espaciais. Essa análise se mostra importante para a escolha da trajetória que melhor reduz o custo de ser executada, que está diretamente ligado ŕ, entre outros aspectos, mudança do vetor de velocidade e, dessa maneira, a análise de diferentes velocidades iniciais pode fornecer um contexto maior para a tomada de decisăo sobre qual trajetória utilizar. Neste trabalho discute-se a utilizaçăo de uma metodologia exploratória, testando diversos valores de chute inicial para a obtençăo da soluçăo final e avaliando os resultados obtidos e, em seguida, é feita a análise de famílias de soluçőes através da continuaçăo em relaçăo ao tempo de vôo. O algoritmo utilizado para a soluçăo do problema de Lambert foi o Método de Shooting Simples e foram desenvolvidos computacionalmente através da linguagem FORTRAN97. A análise de diferentes soluçőes permitiu entender o comportamento da bacia de soluçőes utilizadas e, através da alteraçăo do fator de correçăo do método, foi possível reduzir em 25% a dispersăo da mesma, além disso, foi proposto também a inserçăo de uma nova condiçăo de parada relacionada ao tempo de execuçăo, que permitiu reduzir em 20% o tempo total de execuçăo de uma análise exploratória. Já na continuaçăo, foram exibidas duas metodologias distintas que servem para diferentes propósitos, uma delas possui 51,7% a menos de tempo computacional enquanto, também, encontra 14,3% de soluçőes a menos que a outra, mas que de toda forma fornecem soluçőes dentro dos 4 quadrantes para um mesmo problema de Lambert considerando o ponto de origem e ponto de chegada fixos. Dessa maneira, para que se busque a melhor soluçăo dentro de uma janela de requisitos, o trabalho permitiu ressaltar a relevância do estudo de soluçőes próximas ŕ inicialmente prevista e como que esse estudo pode ser feito.",
+  "subjects": [
+    "Problema de tręs corpos",
+    "Modelos matemáticos",
+    "Trajetórias",
+    "Mecânica celeste",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78102",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78102&origem=BDITA"
+}

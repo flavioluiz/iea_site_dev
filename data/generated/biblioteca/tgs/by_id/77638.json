@@ -1,0 +1,30 @@
+{
+  "num_tg": "77638",
+  "type": "tg",
+  "title": "Desenvolvimento de modelo, ajuste de ganhos e software-in-the-loop para testes de piloto automático para uma aeronave remotamente pilotada",
+  "author": "Lucas Garcia de Sampaio Lobianco",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcelo Knörich Zuffo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Parte fundamental de uma Aeronave Remotamente Pilotada (RPA,Remotely Piloted Aircraft) é o conjunto formado por seus pilotos automáticos, visto o funcionamento intrinsecamente autônomo desse tipo de aeronave. A fim de reduzir custos e riscos associados a possíveis falhas no teste dessas malhas de controle em hardware, é interessante desenvolver um método que permita a verificaçăo preliminar em software. Este Trabalho de Graduaçăo propőe um modelo híbrido para a obtençăo das derivadas aerodinâmicas de estabilidade e controle de uma aeronave remotamente pilotada, a partir do método de vórtice lattice implementado pelo software AVL (Athena Vortex Lattice) e da Teoria de elemento de pá empregada pelo simulador de voo X-Plane. Com isso, é possível estabelecer o modelo matemático năo-linear da aeronave e linearizá-lo em torno de uma posiçăo de equilíbrio. Em seguida, săo determinadas leis para aumento de estabilidade de controle longitudinal e látero-direcional (SAS, Stability Augmentation System) e projetados pilotos automáticos de altitude hold, pitch attitude, speed hold, roll angle hold e yaw angle hold, com o uso de técnicas modernas de controle. Para validaçăo do modelo năo-linear dos sistemas projetados, é adotada uma simulaçăo software-in-the-loop a partir da integraçăo entre os controles em SIMULINK© e o simulador de voo X-Plane. Ŕ esse sistema também integra-se o algoritmo Waypoint Follower, do SIMULINK©, para a realizaçăo de uma missăo que permita conferir confiabilidade aos pilotos automáticos desenvolvidos.",
+  "subjects": [
+    "Veículos pilotados remotamente",
+    "Simulaçăo em software in-the-loop",
+    "Pilotos automáticos",
+    "Simulaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77638",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77638&origem=BDITA"
+}

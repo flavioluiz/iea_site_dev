@@ -1,0 +1,25 @@
+{
+  "num_tg": "80076",
+  "type": "tg",
+  "title": "O uso de balőes estratosféricos para o lançamento de microssatélites",
+  "author": "Juan Marco de Jesus Libonatti",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Inﻕcio Malmonge Martin",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo projetar um sistema em formato CubeSat capaz de ser lanﺕcado por meio de balﺀes meteorolﮩgicos, integrado ﻓ um payload demonstrativo, e posteriormente retornar a solo para ser recuperado, registrando e transmitindo dados de telemetria e da carga paga ao longo desse percurso. E' um objetivo secundﻕrio tambﻠm projetar uma plataforma modular capaz de cumprir os requisitos do projeto submetido 'a chamada CNPq 19/2022. Foi desenvolvido ao longo deste trabalho uma plataforma preliminar em formato 1U, denominada CurieSat V2, que possuia comunicaﻝﻙo via rﻕdio na modulaﻝﻙo LoRa em faixa frequﻡncia de 900 ﻓ 928 MHz e com um computador de bordo baseado no ESP-32, contendo sensores GNSS, de pressﻙo e inerciais. Essa plataforma foi lanﺕcada em 29 de Abril de 2024, a partir da torre da ACA e conseguiu cumprir a sua missﻙo de registrar a curva de radiaﻝﻙo ionizante em altitude, apesar de sofrer uma falha devido 'as baixas temperaturas atingidas pela bateria durante o retorno ao solo. Paralelamente ﻕ esse projeto, foi desenvolvido e integrado o projeto eletronico uma plataforma modular em formato 2U denominada Casimiro, com divisoes claras entre os diferentes subsistemas, e capaz executar diver- sas missﺀes simultaneamente dentro dos critﻠrios propostos pela chamada CNPq 19/2022, representando uma melhoria em relaﻝﻙo ﻓ plataforma preliminar, especialmente ao incluir um sistema de aquecimento ativo das baterias visando evitar o desligamento das baterias devido 'as baixas temperaturas como ocorreu no lanﺕcamento da outra plataforma.",
+  "subjects": [
+    "Microssatﻠlites",
+    "Satﻠlites artificiais",
+    "Veﻥculos de lanﻝamento",
+    "Projetos",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80076",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80076&origem=BDITA"
+}

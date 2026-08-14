@@ -1,0 +1,32 @@
+{
+  "num_tese": "000543290",
+  "type": "tese",
+  "title": "Modelo de fronteira esférica ajustado: alocando input via DEA paramétrico.",
+  "author": "Éric Cézzane Cólen Guedes",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Existem vários trabalhos na literatura de pesquisa operacional sobre a distribuiçăo de inputs e outputs. Da mesma forma, existem muitos trabalhos teóricos e práticos sobre Análise de Envoltória de Dados (Data Envelopment Analysis - DEA). No entanto, poucos săo os que realizam a distribuiçăo de inputs e outputs limitados utilizando DEA ou que empregam o DEA paramétrico. O objetivo deste trabalho é apresentar um modelo DEA paramétrico, chamado de Modelo de Fronteira Esférica Ajustado (MFEAj), que realiza a distribuiçăo de um novo input contínuo para um conjunto de unidades tomadoras de decisăo, considerando os seus inputs e outputs. O modelo busca, após a inclusăo do novo input, tornar todas as DMU's DEA eficientes, considerando o retorno de escala constante e arbitrando que a fronteira de eficięncia DEA é esférica. Exemplos numéricos mostraram que o MFEAj apresentou melhores resultados que outros modelos da literatura. Além disso, o MFEAj apresentou uma desejável propriedade, chamada de propriedade de redistribuiçăo coerente, que năo foi observada em outros modelos. Após a definiçăo dessa propriedade, apresenta-se um teorema demonstrando que, de fato, o MFEAj pode assegurá-la. Esta propriedade viabilizou o estudo de limites de ruídos nos dados de input e output de todas as unidades envolvidas. Também é apresentado resumidamente o Modelo de Fronteira Hiperbólica Ajustado, um aperfeiçoamento do Modelo de Fronteira Hiperbólica, que faz a distribuiçăo de uma quantidade limitada de um output e torna também todas as DMU's eficientes.",
+  "subjects": [
+    "Análise envoltória de dados",
+    "Escolhas ótimas",
+    "Recursos",
+    "Produtos",
+    "Sistemas de administraçăo",
+    "Tomada de decisőes",
+    "Programaçăo matemática",
+    "Pesquisa operacional",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "04/05/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543290",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543290&origem=BDITA"
+}

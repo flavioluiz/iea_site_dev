@@ -1,0 +1,26 @@
+{
+  "num_tg": "67574",
+  "type": "tg",
+  "title": "Estudos aerodinâmicos para caracterizaçăo de ambiente térmico em veículos espaciais e suborbitais",
+  "author": "Ruan Ramon Penha dos Passos Pereira",
+  "year": "2014",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O sistema de proteçăo térmica de um veículo espacial deve ser dimensionado para suportar todos os esforços ao qual é submetido, sendo uma das etapas mais críticas aquela referente ŕ reentrada. Nesta fase, o aquecimento aerodinâmico representa um fenômeno dominante no problema, tendo em vista a formaçăo de uma onda de choque destacada forte próxima ao nariz e o consequente efeito de elevaçăo da temperatura do escoamento em suas proximidades. Em termos práticos, a estrutura deve ser projetada de forma a garantir a integridade dos componentes internos do veículo, como equipamentos eletrônicos e módulos de experimentaçăo, por exemplo. Assim, na fase de projeto é de determinante importância o cálculo da temperatura e das taxas de transferęncia de calor ŕs quais o veículo é submetido ao longo de sua missăo. Dentro deste contexto, o presente trabalho lidou com a determinaçăo do fluxo de calor ao longo do veículo espacial SARA (acrônimo de Satélite de Reentrada Atmosférica) suborbital para diferentes fases de voo, especificamente os primeiros 50 segundos de tempo de sua trajetória ascendente. Para tanto, utilizou-se uma formulaçăo numérica contida em um programa de simulaçăo validado para problemas típicos de reentrada atmosférica. Este código é denominado LeMANS (\"Le\" Michigan Aerothermodynamics Navier-Stokes Solver), e resolve as equaçőes de Navier-Stokes com média de Reynolds sem modelamento de turbulęncia, incluindo efeitos de năo-equilíbrio químico e/ou termodinâmico típicos de tais escoamentos. Destaca-se que, nos escoamentos de interesse do presente trabalho, existe a possibilidade de ocorręncia de reaçőes químicas de dissociaçăo que, devido ŕ sua natureza endotérmica, podem interferir na distribuiçăo de temperatura em torno do veículo e, assim, impactar os resultados de taxas de transferęncia de calor obtidas.O presente trabalho deu continuidade a estudos anteriores que năo levaram em consideraçăo os possíveis efeitos de năo equilíbrio químico. O objetivo aqui foi avaliar os efeitos da inclusăo de reaçőes químicas nos parâmetros relevantes para o projeto da proteçăo térmica do SARA. Os resultados obtidos apresentaram boa concordância com aqueles advindos de métodos de engenharia, que tęm sido utilizados no IAE ao longo dos anos. Porém, nos casos analisados no presente trabalho, a inclusăo dos efeitos de năo equilíbrio químico e termodinâmico năo resultou em modificaçőes significativas na temperatura de parede ou no fluxo de calor na parede do SARA.",
+  "subjects": [
+    "Proteçăo térmica",
+    "Transferęncia de calor",
+    "Escoamento hipersônico",
+    "Aerotermodinâmica",
+    "Engenharia aeroespacial",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67574",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67574&origem=BDITA"
+}

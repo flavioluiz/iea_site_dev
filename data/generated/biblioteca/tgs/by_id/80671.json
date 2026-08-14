@@ -1,0 +1,27 @@
+{
+  "num_tg": "80671",
+  "type": "tg",
+  "title": "Análise de risco de projetos espaciais utilizando Redes Bayesianas",
+  "author": "Thyago Leal Silva",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Moacyr Machado Cardoso Junior",
+      "professor_slug": "moacyr-machado-cardoso-junior"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este estudo avaliou o risco operacional na fase de pr'e-lanﻝamento de veﻥculos orbitais brasileiros por meio de uma Rede Bayesiana (RB) construﻥda e parametrizada a partir de julgamentos estruturados de especialistas. Partiu-se da lacuna de modelos probabilﻥsticos adaptados ao contexto nacional (CLA/CLBI) e buscou-se um artefato transparente para apoiar decisﺀes go/hold/scrub. A metodologia combinou duas elicitaﻝﺀes: a primeira consolidou a estrutura causal com um painel multidisciplinar (n=10), resultando em uma topologia enxuta com papel central de gestﻙo de riscos/seguranﺕca organizacional (F1), mediadores pressao de cronograma (F2) e testes/qualidade (F8), e vias t'ecnicas imediatas abastecimento (F4) e GSE/infra (F7). A segunda elicitaﺕcao coletou probabilidades \"em dia normal\" e \"apenas um fator presente\" para parametrizar a RB via Noisy-OR com leak, gerando tres instancias (LOW/MEAN/HIGH) a partir de quantis/m'edia ponderados por confianﺕca. Os resultados indicaram, para o cen'ario basal sem estressores (C1), que a probabilidade de ocorrencia de Evento Adverso (EA) foi de 5, 16 e 20% (LOW, MEAN e HIGH). Sob condicﺕao cr'?tica com todos os fatores ativos (C5), P (EA) elevou-se para 38,5, 49,6 e 52,6%. A ativaﺕcao apenas de F1+F2 (C2) j'a deslocou o risco para 28,3% (MEAN), evidenciando o efeito organizacional. Em cen'ario de mitigaﻝﻙo a partir de C5, \"zerar\" erro humano (F5) proporcionou a maior reducﺕao (-18,0 p.p., MEAN), seguido por \"zerar\" abastecimento (F4) (-14,1 p.p.) e GSE (F7) (-14,8 p.p.), ranqueando intervenﻝﺀes de curto prazo. As relaﺕcoes esperadas de monotonicidade e a ordenaﻝﻙo dos cen'arios mantiveram-se entre LOW/MEAN/HIGH, sugerindo robustez qualitativa apesar da amplitude intervalar. Conclui-se que a RB proposta explica e quantifica, de forma audit'avel, cadeias causais dominantes do pr'e- lanﺕcamento no contexto brasileiro e oferece suporte objetivo 'a priorizaﺕcao de mitigadores. Implicacﺕoes pr'aticas incluem fortalecer a governanﺕca de seguranﺕca (F1), proteger o programa de verificaﺕcao (F8) e adotar medidas de fatores humanos em operaﻝﺀes energizadas (F5), utilizando a rede HIGH para crit'erios conservadores e a MEAN para planejamento interno.",
+  "subjects": [
+    "Redes bayesianas",
+    "Veﻥculos de lanﻝamento",
+    "Gerenciamento de riscos",
+    "Avaliaﻝﻙo de riscos",
+    "Probabilidade",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80671",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80671&origem=BDITA"
+}

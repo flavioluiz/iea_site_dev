@@ -1,0 +1,29 @@
+{
+  "num_tese": "64121",
+  "type": "tese",
+  "title": "Análise do espectro de emissăo para monitoramento de processamento de materiais a laser",
+  "author": "Marco Antônio Reis de Faria",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Nicolau André Silveira Rodrigues",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No processamento de materiais a laser que envolve ablaçăo, como em solda, furaçăo, corte texturizaçăo e estruturaçăo de superfície, é produzida uma forte emissăo luminosa devido ŕ emissăo de átomos e íons da pluma. O espectro da radiaçăo emitida depende da natureza e composiçăo do material removido, dos parâmetros do laser e dos parâmetros de processo. Neste trabalho realizamos um estudo paramétrico em que as características da emissăo dos espectros săo monitorados em funçăo do comprimento de onda do laser, duraçăo de pulso, densidade de potencia, densidade de energia e taxa de repetiçăo. As análises dos espectros, além das informaçőes sobre a constituiçăo da amostra, pode dar informaçőes sobre as variaçőes dos parâmetros de processo, permitindo, em princípio, uma realimentaçăo para um sistema automático de monitoramento em um processo industrial, por exemplo. Usamos dois lasers neste trabalho: um laser de CO2 de 25W (comprimento de onda de 10 ?m) operando em regime contínuo, com feixe chaveado de modo a se gerar pulsos de 1 ms a 500 ms, e um laser de Nd-YAG (comprimento de onda de 355 nm) operando em regime de Q-switching, com pulsos de duraçăo de 25 ns. Os materiais estudados foram alumina, vidro Borosilicato (BK7), Poli(cloreto de Vinila) (PVC), alumínio e aço inoxidável. Os espectros de emissăo foram obtidos usando um espectrômetro Ocean Optics HR-4000 e dos espectros obtivemos: os comprimentos de onda de linhas individuais, o valor de pico de cada linha e o sinal integrado (integral de todo espectro sobre o intervalo do comprimento de onda). O comprimento de onda correspondente a cada linha foi comparado com os fornecidos na base de dados das linhas atômicas do NIST, de modo a identificar as espécies e transiçőes, e a razăo entre os picos foi usada para avaliar a temperatura do plasma, quando possível. O valor da amplitude das linhas e o sinal integrado foram traçados contra energia por pulso, taxa de repetiçăo, profundidade do furo e a posiçăo do foco. Para cada gráfico foi ajustado uma funçăo linear, polinomial de segundo grau, exponencial ou potencial e foi considerado como um \"bom ajuste\" os coeficientes de correlaçăo iguais ou maiores que 95% (critério de 2?). Năo foram encontrados bons ajustes para alumina, PVC e vidro BK7, enquanto que para o alumínio, cobre e aço inox foram encontrados bons ajustes. Como conclusőes gerais para estes tręs últimos materiais, a correlaçăo entre os valores de intensidade de linha e intensidade integrada com os parâmetros de processos permitem monitorar e controlar o processo.",
+  "subjects": [
+    "Ablaçăo",
+    "Emissăo de espectro",
+    "Espectroscopia a laser",
+    "Ensaios de materiais",
+    "Controle de processos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "12/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64121",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64121&origem=BDITA"
+}

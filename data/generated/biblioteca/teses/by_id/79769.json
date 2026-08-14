@@ -1,0 +1,32 @@
+{
+  "num_tese": "79769",
+  "type": "tese",
+  "title": "Sliding-mode observers with prescribed convergence time applied to the localization problem for multirotor aerial vehicles",
+  "author": "Joăo Filipe Renó Peixoto de Azevedo Silva",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "ln recent studies, established three-dimensional localization methods from the aerospace field have been re- examined for use in multirotor aerial vehicles (MAVs). However, many of these methods rely on stochastic estimators that are asymptotically stable in a stochastic sense and exhibit high sensitivity to disturbances and model uncertalnties. This thesis explores and evaluates novel approaches to the localization problem for MAVs by employing multivariable robust observers based on sliding-mode techniques. The super-twisting algorithm (STA) is considered the starting point for its recognized performance when used to design differentiators. ln particular, a modification of the STA is proposed by replacing one of its terIIIS with a certain time-varying function that allows the upper bound of the settling time of the resulting algorithm to be a directly adjustable parameter. This modified algorithm is introduced along with a parameter-tuning method that ensures a robust state convergence in a prescribed time interval. Furthermore, this thesis also evaluates existing prescribed-time arbitrary-order differentiators and proposes a behavior-shifting strategy to ensure that these algorithms retain their stability in the infinite time domain. This strategy allows the application of these differentiators to inter- esting problems such as prescribed-time stable disturbance and state estimation. The proposed algorithms are numerically evaluated and show to yield the predicted properties, even in the presence of bounded disturbances and uncertainties. The effectiveness of the algorithma is also experimentally assessed in five different applications: an attitude deterrnination problem, in which the three-dimensional attitude and angular velocity of an MAV are accurately estimated nnder strict settling-time restrictions using only the vector measurements provided by an accelerometer and a magnetometer; a disturbance-observer-based attitude control problem, which is developed from a prescribed-time arbitrary-order differentiator; a two-stage estimation algorithm that altemates between estimating landmark locations in the flight acenaria and the MAV position, attitude, and linear and angular velocities; a disturbance-observer-based pose control problem for a fixed-wing MAV, which providas a control law that is robust to the added fixed-wing aerodynamic effects; and a collision avoidance problem ba.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle com modos deslizantes",
+    "Controle robusto",
+    "Aerodinâmica de rotores",
+    "Algoritmos",
+    "Previsăo",
+    "Colisőes",
+    "Simulaçăo computadorizada",
+    "Controle"
+  ],
+  "defense_date": "11/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79769",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79769&origem=BDITA"
+}

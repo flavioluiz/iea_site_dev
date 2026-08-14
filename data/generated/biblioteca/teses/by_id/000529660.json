@@ -1,0 +1,33 @@
+{
+  "num_tese": "000529660",
+  "type": "tese",
+  "title": "Efeitos da seqüęncia de carregamento na propagaçăo de trincas em estruturas aeronáuticas comerciais.",
+  "author": "Eduardo Cypreste Ebner",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Henrique da Silva Carneiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma revisăo sobre vários modelos de propagaçăo de trincas com seqüenciamento de carga, tendo como foco principal aqueles que se encontram implementados em dois pacotes de software, o Crack 2000 e o Nasgro 4.0, sendo este último de larga utilizaçăo na indústria aeronáutica para a análise de propagaçăo de trincas. Os modelos em questăo săo: Wheeler, Modified Willenborg, Generalized Modified Willenborg, Constant Closure e o Strip Yield. Săo estudados resultados publicados na literatura e também resultados obtidos em ensaios de laboratório realizados neste trabalho. Os resultados de ensaio encontrados na literatura săo baseados em vários espectros, que tęm o objetivo de ressaltar os efeitos do seqüenciamento de carregamento. Nos ensaios realizados neste trabalho, o objetivo é investigar os efeitos de um espectro real de operaçăo de uma aeronave comercial em componentes estruturais feitos de uma liga de alumínio aeronáutico. Este espectro é baseado na metodologia MiniTWIST, que é uma distribuiçăo de carregamentos baseada nas tensőes de raiz de asa encontradas no histórico de serviço de várias aeronaves comerciais. No final deste trabalho é apresentada uma avaliaçăo dos modelos de retardo aplicados e também uma proposta de calibraçăo dos parâmetros principais destes modelos para a utilizaçăo em componentes estruturais aeronáuticos sujeitos a espectros de carregamento variáveis encontrados em aeronaves comerciais.",
+  "subjects": [
+    "Análise estrutural",
+    "Estrutura de aeronaves",
+    "Propagaçăo de trincas",
+    "Distribuiçăo de carga",
+    "Cargas (forças)",
+    "Ligas de alumínio",
+    "Tolerâncias (mecânica)",
+    "Análise de tensăo",
+    "Aeronaves comerciais",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000529660",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000529660&origem=BDITA"
+}

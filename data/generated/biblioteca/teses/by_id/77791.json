@@ -1,0 +1,37 @@
+{
+  "num_tese": "77791",
+  "type": "tese",
+  "title": "A nonlinear aerothermoelastic model for slender composite beam-like flexible wings with embedded shape memory alloys",
+  "author": "Gefferson Cleuber Silva",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    },
+    {
+      "name": "Alessandro Guimarăes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The present doctoral thesis reports the development of an aerothermoelastic tool that accounts for nonlinearities of multi-physical sources. This is performed in order to investigate the behaviour of high-aspect-ratio beam-like wings made of a hybrid smart material. In this context, hybrid materials consist of laminated composite materials additionally reinforced with embedded shape memory alloy wires. As main contributions, the proposed model couples geometrical, material, and aerodynamic nonlinearities to the thermal heating dynamics of SMA wires undergoing the Joule's effect. For this, nonlinearities of geometrical nature were taken into account via a FE model of beams experiencing large deformations and formulated within a Total Lagrangian kinematic framework. Additionally, material nonlinearities were incorporated into the model by means of a semi-empirical micromechanical model that computes the homogenised mechanical properties of hybrid laminates based on the elastic characteristics of each constituent. This procedure was still accompanied by a thermoelastic model of SMAs exhibiting the isostrain shape memory effect and by a constitutive model that encompasses material couplings due to anisotropy. To complement, nonlinear aerodynamic effects were introduced by an unsteady strip theory method described in the time-domain, along with a nonlinear quasi-steady stall model followed by the assumption of follower aerodynamic forces. Numerical and empirical experiments were carried out to investigate and validate either parts of or the complete model proposed here. First, static and dynamic benchmarks of nonlinear beams were solved as an attempt to validate the geometrical nonlinearities considered herein. After that, numerical-experimental comparisons were conducted by using isotropic and composite wings with a ballast attached to their free tips in order to verify many aspects of the nonlinear fluid-structural interactions proposed. At last, a set of aerothermoelastic cases were simulated at different envelope points by assuming various layups and SMA temperatures with the objective to tailor and analyse the aeroelastic response of hybrid wings. These simulations were shown to lead to a considerable reduction in both flutter oscillations and divergence amplitudes as the SMAs temperature increases. These results have also indicated compelling evidences on the performance and applicability of embedded SMA wires for aeroelastic and shape control of high-aspect-ratio smart wings, enabling the use of the most suitable wing stiffness to each flight condition.",
+  "subjects": [
+    "Estruturas inteligentes",
+    "Método de elementos finitos",
+    "Aeroelasticidade",
+    "Ligas de memória de forma",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "29/03/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77791",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77791&origem=BDITA"
+}

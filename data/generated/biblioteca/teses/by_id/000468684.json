@@ -1,0 +1,30 @@
+{
+  "num_tese": "000468684",
+  "type": "tese",
+  "title": "On the detection of outliers in data envelopment analysis methodology.",
+  "author": "André Luiz Chiossi Forni",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A Análise de Envoltória de Dados (DEA) é uma metodologia baseada em programaçăo linear que se destina ŕ avaliaçăo da eficięncia relativa das DMU's e ŕ estimaçăo de fronteiras de produçăo. DMU's săo entidades gerenciais ou produtivas que transformam fatores de produçăo em produtos. DEA é um método năo-paramétrico porque năo é necessário que se imponha uma forma ao processo produtivo. Além disso, ele permite que se trabalhe num complexo contexto com múltiplos fatores e múltiplos produtos. Por outro lado, DEA é um método determinístico e, portanto, năo consegue acomodar ruídos de natureza aleatória nos dados. Como a eficięncia relativa das DMU's está relacionada com sua distância até a fronteira de produçăo estimada, um aspecto crítico é garantir que esta fronteira năo seja gerada por pontos contaminados por erros. Pontos atípicos (\"outliers\") dessa natureza podem afetar severamente a estimativa de eficięncia de outras DMU's e săo chamados de pontos influentes. Nesta dissertaçăo, medidas de eficięncia tradicionais săo analisadas e tręs métodos para a detecçăo e tratamento de pontos influentes baseados nessas medidas săo apresentados e analisados. Além disso, săo desenvolvidas variaçőes desses métodos. A investigaçăo de medidas de eficięncia recentemente propostas também é enfocada, assim como seu uso potencial para a identificaçăo de \"outliers\". Os métodos supracitados para detecçăo de \"outliers\" e avaliaçăo de influęncia săo aplicados a um problema que usa dados reais. Os resultados numéricos produzidos por esses métodos săo comparados e analisados. Os pontos influentes săo postos em evidęncia.",
+  "subjects": [
+    "Pesquisa operacional",
+    "Otimizaçăo",
+    "Métodos matemáticos",
+    "Programaçăo linear",
+    "Controle de processos",
+    "Matemática estatística",
+    "Matemática"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000468684",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000468684&origem=BDITA"
+}

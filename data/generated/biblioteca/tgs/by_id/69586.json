@@ -1,0 +1,27 @@
+{
+  "num_tg": "69586",
+  "type": "tg",
+  "title": "Projeto conceitual de uma asa com controle aeroelástico ativo.",
+  "author": "Felipe Rodrigo Evangelista Matilde",
+  "year": "2015",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Pazini Brandăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho abordou o estudo e o projeto conceitual de uma semiasa aeroelástica com controle ativo para os túneis aerodinâmicos do ITA/ IAE. Partindo de uma modelagem estrutural analítica de uma viga engastada, o movimento geral da asa foi descrito via superposiçăo dos modos de vibraçăo. As energias cinética e potencial foram computadas para deduçăo das equaçőes de movimento através do método de Lagrange. Foi utilizado o modelo aerodinâmico quase-estacionário para modelar a dependęncia entre a geometria variável e as forças aerodinâmicas. A partir das dimensőes dos túneis aerodinâmicos dos dois Institutos, algumas asas foram propostas, todas retangulares, sem enflechamento e com perfis finos e simétricos. Parâmetros como o alongamento da asa, posiçăo do eixo flexível e geometria da viga estrutural foram estudados. Considerando as velocidades de operaçăo dos túneis, tręs asas foram pré-selecionadas para estudos mais apurados. O controle da semiasa foi feito através de um aileron modelado como corpo rígido. O sistema em malha fechada possuiu uma lei de controle proporcional derivativa em relaçăo ao deslocamento. Um estudo dos ganhos foi realizado, demonstrando o controle ter sido capaz de aumentar a rigidez efetiva da asa e, com isso, ter aumentado a velocidade de flutter.",
+  "subjects": [
+    "Asas flexíveis",
+    "Vibraçăo aeroelástica",
+    "Controle ativo",
+    "Túneis de vento",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=69586",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=69586&origem=BDITA"
+}

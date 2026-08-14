@@ -1,0 +1,29 @@
+{
+  "num_tese": "72797",
+  "type": "tese",
+  "title": "Modelagem da integraçăo das tecnologias RFID e manufatura aditiva no gerenciamento de estoques : uma aplicaçăo aeronáutica",
+  "author": "Samuel Bloch da Silva",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Ribeiro Correia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O problema básico em qualquer cadeia produtiva está relacionado com o produzir e estocar produtos e/ou insumos nas quantidades certas sem que isto configure excessos ou faltas. De maneira geral os métodos tradicionais de gerenciamento de estoques estăo limitados as sistemáticas e tecnologias convencionais de controle e fabricaçăo. Apesar dos esforços dispensados na evoluçăo dos modelos, que tratam dessa problemática nos últimos anos, ainda existem oportunidades tecnológicas ŕ serem exploradas. No que se refere as tecnologias RFID e Manufatura Aditiva é possível encontrar na literatura aplicaçőes isoladas das mesmas em tópicos relacionados aos estoques. Especificamente no que tange ao gerenciamento de estoques, a tecnologia RFID é a mais citada em funçăo das vantagens sistęmicas e operacionais sobre o Código de Barras. Já a Manufatura Aditiva é mais referenciada como sendo a evoluçăo sobre os sistemas tradicionais de fabricaçăo. Por outro lado, a maior parte das aplicaçőes reportadas nos trabalhos acadęmicos năo abordam diretamente os benefícios oriundos da integraçăo destas tecnologias sobre os estoques aeronáuticos. Neste sentido o objetivo da tese foi propor um modelo que integrasse as tecnologias de Identificaçăo por Rádio Frequęncia (RFID) e Manufatura Aditiva, de forma a otimizar o gerenciamento de estoque de um componente aeronáutico no âmbito da produçăo. Delimitando o modelo de integraçăo para um componente experimental, um ensaio foi desenvolvido de maneira a validar o objetivo estabelecido. Entre os vários resultados apontados destaca-se o fato de que, enquanto o componente gerenciado pelo modelo tradicional tem uma taxa de reposiçăo de 1,25 itens/dia/equipamento, o novo processo disponibiliza 2 itens/dia/equipamento. Isto significa que, em nível de simulaçăo, o modelo de reposiçăo proposto é 1,6 vezes mais rápido do que o modelo tradicional, representando uma reduçăo de 14% no valor médio dos estoques. Por outro lado, o custo unitário do componente experimental é 170% mais caro do que o componente convencional. Năo obstante ao custo unitário, o modelo proposto apresenta evoluçăo potencial em relaçăo ao método tradicional de gerenciamento de estoques, ainda que limitado a um componente experimental.",
+  "subjects": [
+    "Identificaçăo por radiofrequęncia",
+    "Controle de estoques",
+    "Manufaturas",
+    "Administraçăo da cadeia de suprimentos",
+    "Indústria aeronáutica",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "15/12/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72797",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72797&origem=BDITA"
+}

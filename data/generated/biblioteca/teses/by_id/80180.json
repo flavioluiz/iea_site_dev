@@ -1,0 +1,30 @@
+{
+  "num_tese": "80180",
+  "type": "tese",
+  "title": "Dynamics and control of spacecraft formation flying applied to space-based solar power missions",
+  "author": "Thais Cardoso Franco",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Space-Based Solar Power (SBSP) missions offer promising potential for providing clean, renewable electricity and enabling distribution to resource-limited regions on Earth. The main advantage of the concept of collecting solar energy in space and transmitting it to any location on Earth via microwaves is the ability to capture energy 24 hours a day, regardless of seasonality, reducing the need for expensive energy storage solutions. However, such an approach is only feasible regarding energy capture for sizeable solar panel areas exposed to the Sun. Extensive structures are costly and unfeasible to place in orbit using current space launchers, and articulated photovoltaic surfaces increase mission complexity and risk of failure. Meanwhile, recent studies are investigating the feasibility of using geostationary satellites for SPSP. However, these present disadvantages may make the mission unviable, such as high construction and launch costs, data transmission delays due to the considerable distance with the Earth, and susceptibility to radiation interference. As a solution, this work explores the concept of continuous coverage SBSP using sets of formations flying with a variable number of satellites and at different orbital altitudes within Walker-type constellations, obtaining the best solution and commitment to the mission. Despite many benefits, the use of formation flying is challenging in ensuring the desired attitude, the relative dynamics between the satellites, and the correct orbital movement due to the existence of orbital perturbations, so an in-depth study of control techniques is proposed for the correct performance of the mission using a Linear-Quadratic Regulator, Adaptive Linear-Quadratic Regulator, State-Dependent Riccati Equation, and Lyapunov. As a result, the work contributes with new perspectives of dynamics and formation control in formation flying, as well as mitigates the main issues related to the project viability for the development of SBSP, proposing designs that optimize energy capture, the transmission of energy to Earth and consumption of propellant.",
+  "subjects": [
+    "Energia solar",
+    "Missőes espaciais",
+    "Voo em formaçăo",
+    "Controle adaptativo",
+    "Controle de voo",
+    "Satélites",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "20/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80180",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80180&origem=BDITA"
+}

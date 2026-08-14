@@ -1,0 +1,25 @@
+{
+  "num_tg": "77636",
+  "type": "tg",
+  "title": "Utilizaçăo de técnicas de Machine Learning para a simulaçăo de aeronaves",
+  "author": "Oscar Shen",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O setor aeronáutico frequentemente trabalha com fenômenos cujas modelagens físicas săo complicadas, envolvendo um grande número de graus de liberdade e năo linearidades de difícil previsăo. É o caso de fenômenos aeroelásticos e aerodinâmicos, em particular quando envolvem alto ângulo de ataque ou estruturas muito flexíveis. Modelar esses fenômenos é fundamental para fazer previsőes precisas do comportamento das aeronaves. Métodos de Identificaçăo de Sistemas, desenvolvidos a partir meados do século XX, permitem a obtençăo de modelos a partir de dados experimentais ou resultados de simulaçăo. Nos últimos anos, com a melhoria das capacidades computacionais e da disponibilidade de dados, foi possível aplicar técnicas e obter modelos mais elaborados. Esse trabalho comparou as capacidades dos modelos lineares tradicionalmente usados (ARX e OE) com os modelos năo lineares (NARX com uso de Sigmoidnet e, posteriormente, Redes Neurais) na modelagem de sistemas dinâmicos năo lineares. Os fenômenos escolhidos foram: o pęndulo rígido e o movimento longitudinal de uma aeronave rígida. Os resultados mostraram que os modelos feitos com Redes Neurais obtiveram os melhores desempenhos para representar os fenômenos năo lineares. Análises paramétricas foram feitas, visando encontrar a relaçăo ideal entre a quantidade de informaçăo fornecida (número de neurônios na camada de entrada) e a complexidade do modelo (número de neurônios na camada intermediária). Por fim, vale ressaltar que os desempenhos dos modelos foram limitados pela qualidade dos dados disponíveis para o treinamento, possuindo grande influęncia nos resultados.",
+  "subjects": [
+    "Aprendizagem (inteligęncia artificial)",
+    "Identificaçăo de sistemas",
+    "Simulaçăo",
+    "Corpos flexíveis",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77636",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77636&origem=BDITA"
+}

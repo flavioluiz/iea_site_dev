@@ -1,0 +1,29 @@
+{
+  "num_tese": "000449939",
+  "type": "tese",
+  "title": "Controle robusto de um manipulador robótico.",
+  "author": "Emerson de Góes",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alberto Adade Filho",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho versa sobre o projeto de um controlador linear robusto multiváriavel para um manipulador robótico com a finalidade de proporcionar precisăo e rapidez no posicionamento da extremidade do manipulador. O manipulador robótico de tręs graus de liberdade com acionamento direto nas juntas (direct drive), objeto de estudo deste trabalho, tem seu modelo dinâmico baseado nas características mecânicas do robô ITA-IEMP; para este sistema ficam evidentes no desempenho efeitos de incertezas devido a variaçőes de massa na estremidade do robô (manipulaçăo de objetos e troca de ferramentas), e movimento em altas velocidades no espaço de trabalho. Os controladores robustos para este sistema foram desenvolvidos utilizando-se teoria de otimizaçăo H\"infinito\" e a abordagem da m-síntese. Săo realizados testes de desempenho e estabilidade no domínio do tempo com a planta submetida aos controladores convencionais (assim denominados os controladores via açăo PID e via método do torque computado) e aos controladores lineares robustos multivariáveis com o intuito de confrontar estas técnicas quando usadas para o posicionamento de manipuladores robóticos sob incertezas. Os estudos de simulaçăo realizados para verificar o desempenho do sistema com os controladores projetados foram auxiliados pelo desenvolvimento de um simulador geral da dinâmica de manipuladores robóticos de elos rígidos seriais (para ambiente SIMULINK do MATLAB), que incorpora a modelagem de adiçăo de massa ŕ extremidade de um manipulador. Este simulador deu início a criaçăo de uma biblioteca de robótica para ambiente SIMULINK.",
+  "subjects": [
+    "Controladores",
+    "Controle robusto",
+    "Manipuladores",
+    "Robôs",
+    "Robótica",
+    "Controle"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000449939",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000449939&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "80702",
+  "type": "tg",
+  "title": "Educational orbit simulation with generative AI agentic workflow and virtual reality visualisation",
+  "author": "Eduardo Moura Zindani",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Lucas Oliveira Barbacovi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "abstract": "Traditional educational methods often struggle to convey complex, spatial, and dynamic concepts such as those found in orbital mechanics. The recent convergence of consumer-grade Mixed Reality (MR) and sophisticated Generative AI agents presents an opportunity to create a new paradigm for intuitive and experiential learning interfaces. This paper details the design, development, and demonstration of an interactive educational platform for exploring the principles of orbital mechanics. The system's primary objective is to bridge the gap between abstract physical laws and intuitive comprehension by enabling users to learn through embodied interaction. The methodology is centered on a modular architecture that integrates two core components: (1) a generative agent \"brain,\" powered by Large Language Models, which interprets natural language commands and acts as an expert educational guide; and (2) a real-time simulation and immersive mixed reality visualization \"world,\" built in the Unity engine for the Meta Quest 3, which renders physically accurate orbital trajectories in a three-dimensional space where users experience orbital mechanics from within. The platform facilitates a seamless multimodal interaction loop where a user's voice commands are captured, processed by the agent to alter simulation parameters, and reflected in the immersive VR visualization with conversational auditory feedback. This work delivers a functional prototype that demonstrates a novel approach to science education, transforming abstract data into a manipulable, conversational experience to foster exploratory and deeply engaging learning. The platform is released as open-source software to enable community validation, adaptation, and extension for diverse educational contexts.",
+  "subjects": [
+    "Realidade virtual",
+    "Interfaces",
+    "Mecânica orbital",
+    "Inteligęncia artificial",
+    "Simulaçăo",
+    "Computaçăo",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80702",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80702&origem=BDITA"
+}

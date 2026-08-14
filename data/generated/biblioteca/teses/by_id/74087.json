@@ -1,0 +1,27 @@
+{
+  "num_tese": "74087",
+  "type": "tese",
+  "title": "Análise de rotores com mancais hidrodinâmicos considerando desalinhamento",
+  "author": "Vinícius Yoshida de Melo",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho considera-se a análise dinâmica de rotores suportados por mancais hidrodinâmicos de comportamento năo-linear. O método de elementos finitos é utilizado para a modelagem do rotor e as forças hidrodinâmicas săo modeladas como forças de sustentaçăo resultante da pressăo do filme de óleo nos mancais, sendo dependentes da movimentaçăo transversal dinâmica do eixo dentro do mancal. O modelo é integrado pelo método de Newmark e programado em ambiente MatLab. Desalinhamentos que podem ser causados por erros de manufatura, ou montagem errada, săo investigados considerando acoplamentos rígidos, e modelados como forças e momentos. O modelo é validado através de comparaçăo com resposta analítica e pela demonstraçăo dos fenômenos causados pelos mancais hidrodinâmicos. A análise foi realizada em dois casos, um com rotor simétrico, evidenciando uma relaçăo de aparecimento de comportamento năo linear com o desalinhamento, e outro com rotor equivalente a um rotor de aerogerador real, simulando operaçăo com defeito de desalinhamento. As análises săo realizadas por representaçăo de órbitas, mapa de Poincaré, diagrama de bifurcaçăo, espectros de frequęncia e relaçăo de harmônicos. Săo obtidas relaçőes do desalinhamento com os modos de vibrar e comportamento năo linear.",
+  "subjects": [
+    "Dinâmica de rotores",
+    "Mancais",
+    "Método de elementos finitos",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "21/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74087",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74087&origem=BDITA"
+}

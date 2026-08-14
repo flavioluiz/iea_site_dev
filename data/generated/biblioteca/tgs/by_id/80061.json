@@ -1,0 +1,26 @@
+{
+  "num_tg": "80061",
+  "type": "tg",
+  "title": "Integraçăo de simulador de enxame de drones em um simulador de mundo utilizando o protocolo MQTT",
+  "author": "Eduardo Soares e Silva Britto",
+  "year": "2024",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um sistema de simulaçăo distribuída para enxames de drones, com foco em aplicaçőes militares. O sistema integra a lógica e a transmissăo dos dados dos drones em um arquivo Python Notebook, que se comunica com um servidor central utilizando o protocolo MQTT (Message Queuing Telemetry Transport). A motivaçăo para este estudo reside na crescente importância dos enxames de drones para missőes críticas, onde a coordenaçăo eficiente e a resposta rápida săo essenciais. A metodologia envolve a implementaçăo de uma arquitetura distribuída que permite a comunicaçăo e a coordenaçăo entre múltiplos drones de forma eficiente, além de também possibilitar interaçăo com outras entidades do ambiente simulado. Os resultados demonstram a viabilidade do sistema proposto, destacando melhorias na escalabilidade e na capacidade de resposta em cenários simulados. Este trabalho contribui para a área de simulaçăo distribuída, oferecendo uma soluçăo robusta e escalável para a gestăo de enxames de drones em operaçőes militares.",
+  "subjects": [
+    "Veículos năo-tripulados",
+    "Simulaçăo",
+    "Protocolos de comunicaçăo",
+    "Operaçőes militares",
+    "Veículos pilotados remotamente",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80061",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80061&origem=BDITA"
+}

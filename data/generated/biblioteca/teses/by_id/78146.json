@@ -1,0 +1,29 @@
+{
+  "num_tese": "78146",
+  "type": "tese",
+  "title": "Aerodynamic shape optimization of airfoils using adaptive grids and adjoint method",
+  "author": "Humberto Luiz Harry Diniz Lemos",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work examines aerodynamic shape optimization together with adaptive unstructured meshes considering the two-dimensional Euler equations. The adaptive process uses the Euler solution and adjoint variables to estimate the error in outputs of interest and to compute adaptive indicators that drive the local refinement of the mesh in order to improve the accuracy of the solution of the Euler equations. A framework that contains modules to solve the Euler and adjoint equations, parametrizes airfoils using NURBS cruves and deforms the interior domain of the mesh to conform to airfoil geometry changes was implemented. We investigate two test cases considering the NACA 0012 airfoil at transonic flows with four design strategies, two of which include adaptive grids, to check the benefits of using adaptive grids in aerodynamic shape optimization, both in terms of the final design (objective function) and total optimization time. The results show that the objective function (drag coefficient) of the optimized airfoil using adaptive grid was 22.3% lower than the airfoil optimized using a coarse grid, and 3.5% lower than the airfoil optimized with a uniform refined mesh, including a reduction of 4.1% in optimization time.",
+  "subjects": [
+    "Projetos de aeronaves",
+    "Aerofólios",
+    "Dinâmica dos fluidos computacional",
+    "Equaçőes de Euler-lagrange",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "09/12/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78146",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78146&origem=BDITA"
+}

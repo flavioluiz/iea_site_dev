@@ -1,0 +1,30 @@
+{
+  "num_tese": "79677",
+  "type": "tese",
+  "title": "Medium-fidelity tools for the subsonic optimization of airfoils and wings",
+  "author": "Pedro de Almeida Secchi",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work aims to explore the options of physics-based approaches and surrogate modelling trained over mediumfidelity tools for the optimization of airfoils and wings in the subsonic regime. It uses as its basis an integral boundary layer formulation coupled to panel methods. A methodology for the calculation of the aerodynamic coefficients of single-element airfoils is initially proposed using these formulations, and has its use in optimization exercised for Natural Laminar Flow airfoils. Once observed the challenges and peculiarities of such exercises, two lines of work are explored. The first is to three-dimensionalize the aforementioned methodology for the calculation of aerodynamic coefficients of finite wings, exercised through the Vortex Lattice Method (VLM). Revisions of the method are proposed to allow for reductions in its run time for aerodynamic optimizations by assuming some previously neglected thin airfoil theory assumptions. The second is to substitute the employed tools by a surrogate model based on regression through neural networks trained with their results, coupled to generative design tools. The exposed optimization methodologies are thus contrasted so as to map the advantages and disadvantages of data-driven approaches in contrast to more traditional techniques.",
+  "subjects": [
+    "Asas",
+    "Aerofólios",
+    "Camadas limite",
+    "Otimizaçăo",
+    "Projeto de aeronaves",
+    "Redes neurais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "13/03/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79677",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79677&origem=BDITA"
+}

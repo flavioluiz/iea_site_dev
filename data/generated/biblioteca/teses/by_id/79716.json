@@ -1,0 +1,30 @@
+{
+  "num_tese": "79716",
+  "type": "tese",
+  "title": "Investigation of the effects of spark plug energy discharge rate and electrode gap on flame propagation in a single cylinder engine",
+  "author": "Fernanda Pinheiro Martins",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The understanding of combustion events is a fundamental contributor to optimized designs of combustion chambers. Factors such as the flame propagation of a given fuel, the geometric configuration of the combustion chamber and the positioning of the spark plug, and the injector will drive the performance a given engine will delivery. Within this scope, misfires and knock propensity are situations where the spark plug plays a significant role. Not optimized designs and or spark plug wearing can jeopardize reliable and stable combustion events leading to poor emission performance, high fuel consumption and potential damages due to the occurrence of knocking events. The objective of this research is to analyze the effects of different spark plug in engine-like conditions by applying computational fluid dynamics analysis. The tuning of the numerical models was conducted based on experimental tests performed in a spark ignition single cylinder AVL optical research engine using two different fuel deliveries methods: Port fuel injection (PFI) and Direct Fuel Injection (DI), and two distinct fuels, E96W4 and E100. Thermodynamic data was simultaneously acquired and correlated with the UV-visible digital images, which were collected in a cycle resolved basis. Forthwith image acquisition, the commercial software ImageJ was adopted, and post processing routines consisted of image segmentation and algorithms techniques were adopted. The results provided flame propagation characteristics utilized to determine flame growth rate and speed. The commercial software STAR-CD was utilized for the 3D computational fluid dynamics (CFD) model mimicking the SI optical engine was built and validated for the same operational parameters as those used in the tests. The models applied consist of 3-Zones Extended Coherent Flame (ECFM-3Z) and Imposed Stretch Spark Ignition Model (ISSIM), respectively for the combustion and the spark plug modeling. Afterwards, the tuned model was used to study a set of cases intended to evaluate how different spark plug discharge energy and electrode gaps influence the flame propagation in engine-like conditions. The results indicated a remarkable influence of the water content in E96W4 in initial flame growth across multiple spark plug configurations, where distinct levels of instabilities were observed for the initial flame kernel growth. Numerical results obtained for E96W4 and E100 were post processed for flame propagation speed and Heywood Circularity Factor indicating that the electrode gap and the discharge energy of the spark plug have considerable influence in the initial flame kernel propagation for both fuels, impacting the flame propagation and stability. Also, initial stages of combustion are highly affected by spark plug energy and electrode gap, shedding light into degraded engine performance when wearing is observed. This research leveraged the understanding and application of E96W4 and E100 in numerical models providing correlation with experimental data. This research leveraged the understanding and application of E96W4 and E100 in numerical models providing correlation with experimental data. It was shown that appropriate tuning in commercial numerical codes can provide accurate qualitative and quantitative results to ethanol-based fuels flame propagation, as well as their thermodynamic characteristics in low load and low-speed conditions.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Injeçăo de combustível",
+    "Dinâmica dos fluidos computacional",
+    "Sistemas de igniçăo",
+    "Álcool etílico",
+    "Análise numérica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "07/03/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79716",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79716&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "63017",
+  "type": "tese",
+  "title": "Prognóstico de sistemas aeronáuticos utilizando o algoritmo SVM treinado com dados de voo e registros de manutençăo",
+  "author": "Renato de Pádua Moreira",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Manutençăo năo planejada de sistemas aeronáuticos é geralmente associada com altos custos. Parte desses custos poderia ser evitada com a adoçăo de programas de prognóstico de sistemas. O objetivo desses programas é avaliar o estado atual de saúde de um componente baseado nos dados disponíveis (como dados de voo e de manutençăo) e estimar o desempenho futuro do componente. Diversos algoritmos podem ser utilizados para esse propósito. Este trabalho propőe um método baseado em um algoritmo de classificaçăo Support Vector Machine (SVM), que classifica um componente aeronáutico entre SAUDÁVEL e DEGRADADO. O algoritmo SVM de classificaçăo consiste em uma máquina de aprendizado supervisionado, treinada a partir de dados de voo e registros de manutençăo. Depois de treinado, o classificador SVM é aplicado a qualquer novo voo. Do resultado das classificaçőes, um índice de degradaçăo é gerado, de tal forma que seja fácil identificar o estado de saúde do item aeronáutico. Como estudo de caso, o método é aplicado para estimar falhas de válvulas de sangria pneumática de motores. Dados reais de voo (quatro parâmetros relacionados ao sistema de sangria) e registros de manutençăo (datas das substituiçőes do componente) foram usados para gerar os conjuntos de dados de treinamento e generalizaçăo. Os resultados mostram ser possível identificar quando o componente está próximo de falhar e deve ser substituído. Uma vantagem do método proposto é năo requerer conhecimento sobre os modos de falha do componente.",
+  "subjects": [
+    "Classificaçăo de padrőes",
+    "Técnicas de previsăo",
+    "Máquinas de vetores-suporte",
+    "Sistemas aeroespaciais",
+    "Prognóstico",
+    "Inteligęncia artificial",
+    "Computaçăo"
+  ],
+  "defense_date": "17/04/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63017",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63017&origem=BDITA"
+}

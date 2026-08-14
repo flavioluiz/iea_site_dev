@@ -1,0 +1,28 @@
+{
+  "num_tg": "78108",
+  "type": "tg",
+  "title": "Aprendizado de máquina năo supervisionado baseados em análise fundamentalista de empresas brasileiras",
+  "author": "Fernando Fiorini",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo André Lima de Castro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Com a crescente entrada de novos investidores no mundo dos investimentos, torna-se cada vez mais necessária a difusăo do conhecimento sobre o mercado mobiliário. Dentre as diferentes maneiras de escolher quais săo as melhores oportunidades do mercado acionário brasileiro, a análise fundamentalista é uma das técnicas mais tradicionais e que historicamente costuma trazer melhores resultados ao investidor. Dito isso, é de extrema importância entender os conceitos e indicadores básicos, assim como a atual divisăo setorial da bolsa de valores. Logo, o presente trabalho busca desenvolver um web scraper em Python para obter dados fundamentalistas de aproximadamente 400 empresas brasileiras via raspagem de dados e a posterior aplicaçăo de métodos de aprendizado de máquina năo supervisionado (Análise de Componentes Principais e Métodos de Clusterizaçăo). Uma vez desenvolvida, a ferramenta proposta permite que o investidor tenha liberdade para personalizar o escopo da análise de acordo com suas necessidades e preferęncias.",
+  "subjects": [
+    "Aprendizagem (inteligęncia artificial)",
+    "Mineraçăo de dados",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78108",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78108&origem=BDITA"
+}

@@ -1,0 +1,24 @@
+{
+  "num_tg": "78101",
+  "type": "tg",
+  "title": "Development of distributed controller strategies applicable to small-scale aircraft on low-cost avionics",
+  "author": "Guilherme de Azevedo Holanda Cabral Cavalcanti Lima",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Scale aircraft have become more professional due to the development of more sophisticated aircraft sensors and components. The use of drones to investigate concepts of new systems and new control methodologies has been a topic studied for many years but generally limited due to the cost. Because of that, new avionics platform concepts are available and under development. Among them, it has become popular platforms like PixHawk, Raspberry Pi, or Arduino. These platforms allow the development of control or monitoring algorithms in MATLAB/Simulink software, which facilitate the creation of new technologies. The work aimed to implement control algorithms in Simulink that could be imported directly to platforms like PixHawk for flight testing. For testing, basic control loops were created to increase system stability, and the case of a reduction of the vertical stabilizer was also studied. Finally, a flight test was carried out to assess the performance of the system in flight.",
+  "subjects": [
+    "Aviônica",
+    "Controle de aeronaves",
+    "Engenharia eletrônica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78101",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78101&origem=BDITA"
+}

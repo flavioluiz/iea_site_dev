@@ -1,0 +1,37 @@
+name: Expire closed PR preview
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  delete:
+    runs-on: ubuntu-24.04
+    environment: cloudflare-pages-preview
+    steps:
+      # Safe use of pull_request_target: trusted main code only; PR code is never checked out or executed.
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Install the pinned trusted Wrangler
+        working-directory: infra/decap-worker
+        run: npm ci --ignore-scripts
+      - name: Replace the branch alias with a harmless expiry page
+        working-directory: infra/decap-worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: >-
+          ./node_modules/.bin/wrangler pages deploy ../pages-preview-expired
+          --project-name iea-site-previews
+          --branch "pr-${PR_NUMBER}"
+          --commit-message "Expire preview PR #${PR_NUMBER}"

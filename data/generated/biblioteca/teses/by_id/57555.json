@@ -1,0 +1,30 @@
+{
+  "num_tese": "57555",
+  "type": "tese",
+  "title": "Modelagem 3D de fluxo integrado ao SIG na elaboraçăo de um plano de monitoramento de águas subterrâneas na Bacia do Rio Pararangaba",
+  "author": "Mariana Affonseca Bressan",
+  "year": "2007",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Íria Fernandes Vendrame",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O abastecimento das cidades demanda um crescente aumento da explotaçăo das águas subterrâneas associadas aos setores agrícola, industrial, comercial e residencial. O desenvolvimento é acompanhado pelo aumento potencial do risco de acidentes que possam vir a contaminar este bem mineral, a água. O presente estudo visou elaborar uma metodologia para a locaçăo de poços de monitoramento, como um dos requisitos para a elaboraçăo de um plano de monitoramento aplicado ŕs águas subterrâneas da regiăo leste de Săo José dos Campos. A abordagem do estudo visou utilizar a maior diversidade de informaçőes para caracterizar o meio físico a ser monitorado. Para isso, foram coletados e gerados dados hidrogeológicos, análises químicas da água, uso e ocupaçăo do solo e o modelo 3D de fluxo subterrâneo e de caminhamento de partículas (Visual MODFLOW-PRO 4.2). No processo de seleçăo dos locais para a instalaçăo dos poços de monitoramento foi aplicada a metodologia desenvolvida neste trabalho, a qual fez uso de duas metodologias: análise da vulnerabilidade (DRASTIC) do sistema aqüífero e análises com base no Processo Hierárquico Analítico (AHP). A integraçăo dos dados foi realizada em um banco de dados geográfico implementado no Sistema de Informaçăo Geográfica (SIG). Neste banco, armazenaram-se e processaram-se as informaçőes hidrogeológicas (geologia, propriedades hidráulicas do sistema aqüífero e análise química das águas subterrâneas), informaçőes de superfície (topografia, feiçőes urbanas) e fotografias aéreas. Os produtos gerados pelo modelo matemático de fluxo subterrâneo também foram integrados ao banco de dados geográfico. Os resultados deste trabalho demonstram que a metodologia aplicada possibilitou a definiçăo dos locais para a instalaçăo dos poços de monitoramento com base em múltiplos critérios técnicos. O plano de monitoramento da bacia de estudo realizado sobre um SIG com dados do modelo tridimensional possibilitou um completo entendimento do sistema físico a ser monitorado.",
+  "subjects": [
+    "Água subterrânea",
+    "Bacias hidrográficas",
+    "Sistemas de informaçăo geográfica",
+    "Modelos matemáticos",
+    "Análise numérica",
+    "Recursos hídricos",
+    "Hidrologia"
+  ],
+  "defense_date": "28/02/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=57555",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=57555&origem=BDITA"
+}

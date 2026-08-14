@@ -1,0 +1,31 @@
+{
+  "num_tese": "000385465",
+  "type": "tese",
+  "title": "Análise estrutural dinâmica do acoplamento entre veículos lançadores e satélites.",
+  "author": "Valter Antonio Silva",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Pazini Brandăo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A interaçăo entre o Veículo Lançador de Satélites, VLS, e um micro-satélite embarcado é estudada. Procura-se determinar o envelope de aceleraçőes que este micro-satélite irá suportar desde a igniçăo do lançador até a injeçăo final em órbita. O problema é estudado segundo a técnica de condensaçăo e aproximaçăo modal. Utiliza-se a base de Craig e Bampton para descrever o comportamento dinâmico de subestruturas de um veículo lançador de satélites. O interesse do trabalho está na determinaçăo do envelope de aceleraçőes que a base da Carga Útil embarcada no veículo lançador está sujeita desde a fase de lançamento, vôo atmosférico e injeçăo em órbita. Adota-se como resposta para a interaçăo dinâmica entre o veículo lançador e a Carga Útil duas soluçőes que se superpőem: uma parte estática representando o movimento de conjunto como corpo rígido e uma parte dinâmica representando o movemento elástico relativo entre o veículo lançador e a Carga Útil. Como Carga Útil é proposto um modelo estrutural de um micro-satélite. Esse modelo servirá como referęncia para análises dinâmicas de quaisquer outros satélites que venham a ser lançados pelo veículo em pauta. Obtém-se como resultado final uma reduçăo considerável da análise do problema quando comparado a uma análise completa através da técnica de elementos finitos em instantes específicos de vôo. Essa reduçăo é particularmente evidenciada quando busca-se determinar a dinâmica de qualquer outro satélite através da similaridade com o satélite de referęncia proposto. Nesse caso somente operaçőes matriciais simples e rápidas serăo necessárias, evitando-se um novo estudo particular completo.",
+  "subjects": [
+    "VLS (Brasil)",
+    "Análise estrutural dinâmica",
+    "Carga útil",
+    "Veículos de lançamento",
+    "Satélites",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000385465",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000385465&origem=BDITA"
+}

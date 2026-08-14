@@ -1,0 +1,35 @@
+{
+  "num_tese": "72603",
+  "type": "tese",
+  "title": "Stationary self-alignment and calibration techiques for strapdow a inertial navigation systems",
+  "author": "Felipe Oliveira e Silva",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elder Moreira Hemerly",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Waldemar de Castro Leite Filho",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esta tese investiga o problema do auto-alinhamento e calibraçăo estacionários (AACE) para sistemas de navegaçăo inercial solidários (SNIS). Inicialmente, uma análise de erros é apresentada para formulaçőes de alinhamento grosseiro tradicionais. Expressőes analíticas para os erros de normalidade, ortogonalidade, alinhamento e em ângulos de Euler săo derivadas, permitindo-nos comparar as formulaçőes em termos de autonomia, exatidăo e rapidez. Tanto incertezas nos sensores inerciais, quanto nas informaçőes de latitude e gravidade săo consideradas na análise. Como contribuiçăo deste estudo, propőe-se um método melhorado de alinhamento grosseiro, capaz de eliminar erros de ortonormalidade e de produzir erros de alinhamento e em ângulos de Euler independentes do tempo. Na sequęncia, é apresentado um estudo acerca do vetor de estados ideal para filtros de Kalman aplicados ao AACE. Algoritmos de estimaçăo săo derivados, permitindo-nos investigar o acoplamento dinâmico existente entre as variáveis de estado. Como contribuiçăo deste estudo, demonstra-se que o erro em velocidade vertical é essencial para a estimaçăo da maioria das variáveis. Os erros em posiçăo, por outro lado, só afetam os vieses dos sensores inerciais. Como consequęncia, verifica-se que um filtro de Kalman com 12 variáveis de estado é a escolha ótima para fins de AACE, a despeito do tradicional modelo de erros de Bar-Itzhack e Berman. Na sequęncia, săo investigadas as propriedades de observabilidade do AACE. Com exceçăo dos erros em velocidade, verifica-se que todas as variáveis de estado do filtro săo individualmente năo-observáveis. A estimabilidade do AACE também é investigada, permitindo-nos concluir que a reduçăo da ordem do filtro năo deve ser pautada na falta de observabilidade do AACE. Como contribuiçăo deste estudo, demonstra-se que os erros em posiçăo săo as únicas variáveis de estado năo-estimáveis no AACE e, portanto, as únicas passíveis de eliminaçăo. Por fim, é apresentado um estudo acerca do vetor de mediçőes ideal para filtros de Kalman aplicados ao AACE. Duas estratégias de mediçăo săo investigadas: a estratégia tradicional, que usa mediçőes de velocidade, e uma nova estratégia, que utiliza, adicionalmente, mediçőes da velocidade angular da Terra e da gravidade local. Decompondo-se, via fatorizaçăo de Cholesky, a matriz de observabilidade do AACE, demonstra-se, analiticamente, que a nova estratégia é capaz de acelerar a estimaçăo das variáveis de estado, sendo, portanto, considerada superior. Resultados de simulaçăo e experimentais confirmam a veracidade das conclusőes supracitadas.",
+  "subjects": [
+    "Navegaçăo inercial",
+    "Sistemas aeroespaciais",
+    "Guiamento (movimento)",
+    "Algoritmos",
+    "Filtros de Kalman",
+    "Sistema de posicionamento global",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/10/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=72603",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=72603&origem=BDITA"
+}

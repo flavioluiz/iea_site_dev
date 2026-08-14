@@ -1,0 +1,186 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+{{ $index := .Site.Data.generated.biblioteca.tgs.lista }}
+{{ $stats := .Site.Data.generated.biblioteca.tgs.statistics }}
+{{ $manifest := .Site.Data.generated.biblioteca.manifest }}
+{{ $lastRun := "" }}
+{{ if $manifest }}{{ $lastRun = or $manifest.last_complete_run $manifest.generated_at }}{{ end }}
+
+<div class="max-w-7xl mx-auto">
+
+  {{/* Header */}}
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-3">{{ .Title }}</h1>
+    {{ if $stats }}
+    <div class="flex flex-wrap gap-4 text-sm text-gray-600">
+      <span class="inline-flex items-center gap-1.5">
+        <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <strong>{{ $stats.total }}</strong> {{ if eq $lang "pt" }}trabalhos{{ else }}works{{ end }}
+      </span>
+      {{ range $curso, $n := $stats.by_curso }}
+      <span class="inline-flex items-center gap-1.5 text-gray-500">
+        <strong>{{ $n }}</strong> {{ $curso }}
+      </span>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ if $lastRun }}
+    <p class="mt-3 text-xs text-gray-500">
+      {{ if eq $lang "pt" }}Dados da Biblioteca atualizados em{{ else }}Library data last updated on{{ end }}:
+      <time datetime="{{ $lastRun }}">{{ dateFormat "02/01/2006 15:04" $lastRun }}</time>
+    </p>
+    {{ end }}
+  </div>
+
+  {{/* Filters */}}
+  <div class="bg-white rounded-xl border border-gray-200 p-4 mb-6 shadow-sm">
+    <div class="flex flex-wrap gap-3">
+      <div class="flex-1 min-w-48">
+        <input id="tg-search" type="search"
+          placeholder="{{ if eq $lang `pt` }}Buscar por título, autor ou orientador…{{ else }}Search by title, author or advisor…{{ end }}"
+          class="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+      <select id="tg-curso" class="px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
+        <option value="">{{ if eq $lang "pt" }}Todos os cursos{{ else }}All programs{{ end }}</option>
+        <option value="Engenharia Aeronáutica">Eng. Aeronáutica</option>
+        <option value="Engenharia Aeroespacial">Eng. Aeroespacial</option>
+      </select>
+      <select id="tg-year" class="px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
+        <option value="">{{ if eq $lang "pt" }}Todos os anos{{ else }}All years{{ end }}</option>
+        {{ if $stats }}
+          {{ $years := slice }}
+          {{ range $y, $_ := $stats.by_year }}{{ $years = $years | append $y }}{{ end }}
+          {{ range sort $years "value" "desc" }}
+            <option value="{{ . }}">{{ . }}</option>
+          {{ end }}
+        {{ end }}
+      </select>
+      <select id="tg-sort" class="px-3 py-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white">
+        <option value="year-desc">{{ if eq $lang "pt" }}Mais recentes{{ else }}Most recent{{ end }}</option>
+        <option value="year-asc">{{ if eq $lang "pt" }}Mais antigos{{ else }}Oldest first{{ end }}</option>
+        <option value="title-asc">{{ if eq $lang "pt" }}Título (A–Z){{ else }}Title (A–Z){{ end }}</option>
+        <option value="author-asc">{{ if eq $lang "pt" }}Autor (A–Z){{ else }}Author (A–Z){{ end }}</option>
+      </select>
+      <label class="flex items-center gap-2 text-sm text-gray-600 cursor-pointer select-none">
+        <input id="tg-iea" type="checkbox" class="rounded text-blue-600">
+        {{ if eq $lang "pt" }}Orientados por prof. da divisão{{ else }}Supervised by division faculty{{ end }}
+      </label>
+    </div>
+    <div id="tg-count" class="mt-2 text-xs text-gray-400"></div>
+  </div>
+
+  {{/* Results */}}
+  <div id="tg-list" class="space-y-3"></div>
+  <div id="tg-empty" class="hidden text-center py-16 text-gray-400">
+    <svg class="w-12 h-12 mx-auto mb-3 opacity-40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+    <p>{{ if eq $lang "pt" }}Nenhum resultado encontrado.{{ else }}No results found.{{ end }}</p>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  const index = JSON.parse({{ $index | jsonify }});
+  const lang = "{{ $lang }}";
+  const peopleBase = {{ "/pessoal/" | relLangURL | jsonify }};
+
+  const searchEl = document.getElementById("tg-search");
+  const cursoEl  = document.getElementById("tg-curso");
+  const yearEl   = document.getElementById("tg-year");
+  const sortEl   = document.getElementById("tg-sort");
+  const ieaEl    = document.getElementById("tg-iea");
+  const listEl   = document.getElementById("tg-list");
+  const emptyEl  = document.getElementById("tg-empty");
+  const countEl  = document.getElementById("tg-count");
+
+  function normalize(s) {
+    return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? "").replace(/[&<>"']/g, character => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    })[character]);
+  }
+
+  function cursoBadge(cu) {
+    const short = cu.includes("Aeroespacial") ? "Aeroespacial" : "Aeronáutica";
+    const cls = cu.includes("Aeroespacial") ? "bg-indigo-100 text-indigo-800" : "bg-sky-100 text-sky-800";
+    return `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${cls}">${short}</span>`;
+  }
+
+  function render() {
+    const q          = normalize(searchEl.value);
+    const filterCurso = cursoEl.value;
+    const filterYear  = yearEl.value;
+    const filterIea   = ieaEl.checked;
+    const sortBy      = sortEl.value;
+
+    const filtered = index.filter(t => {
+      if (filterCurso && t.cu !== filterCurso) return false;
+      if (filterYear && t.y !== filterYear) return false;
+      if (filterIea && (!t.ap || t.ap.length === 0)) return false;
+      if (q) {
+        const hay = normalize([t.t, t.a, ...(t.ad || [])].join(" "));
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    filtered.sort((a, b) => {
+      if (sortBy === "year-asc")   return (a.y || "").localeCompare(b.y || "");
+      if (sortBy === "title-asc")  return (a.t || "").localeCompare(b.t || "", lang);
+      if (sortBy === "author-asc") return (a.a || "").localeCompare(b.a || "", lang);
+      return (b.y || "").localeCompare(a.y || "");
+    });
+
+    listEl.innerHTML = "";
+    emptyEl.classList.toggle("hidden", filtered.length > 0);
+
+    filtered.slice(0, 200).forEach(t => {
+      const advisorHtml = (t.ad || []).map((name, i) => {
+        const candidate = String((t.ap || [])[i] || "");
+        const slug = /^[a-z0-9-]+$/.test(candidate) ? candidate : "";
+        return slug
+          ? `<a href="${peopleBase}${slug}/" class="text-blue-700 hover:underline">${escapeHtml(name)}</a>`
+          : `<span>${escapeHtml(name)}</span>`;
+      }).join("; ");
+
+      const el = document.createElement("div");
+      el.className = "bg-white rounded-lg border border-gray-200 p-4 hover:border-blue-300 hover:shadow-sm transition-all";
+      el.innerHTML = `
+        <div class="flex items-start justify-between gap-3">
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-1">
+              ${cursoBadge(t.cu || "")}
+              <span class="text-xs text-gray-400">${escapeHtml(t.y)}</span>
+            </div>
+            <h3 class="text-sm font-semibold text-gray-900 leading-snug mb-1">${escapeHtml(t.t)}</h3>
+            <p class="text-xs text-gray-500">${escapeHtml(t.a)}</p>
+            ${advisorHtml ? `<p class="text-xs text-gray-500 mt-1">${lang === "pt" ? "Orient." : "Adv."}: ${advisorHtml}</p>` : ""}
+          </div>
+          <a href="http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=${encodeURIComponent(String(t.id || ""))}"
+             target="_blank" rel="noopener noreferrer"
+             class="flex-shrink-0 text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1 mt-1">
+            BDITA
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+        </div>`;
+      listEl.appendChild(el);
+    });
+
+    const total = filtered.length;
+    const extra = total > 200 ? ` (${lang === "pt" ? "mostrando" : "showing"} 200)` : "";
+    countEl.textContent = `${total} ${lang === "pt" ? "resultado(s)" : "result(s)"}${extra}`;
+  }
+
+  searchEl.addEventListener("input", render);
+  cursoEl.addEventListener("change", render);
+  yearEl.addEventListener("change", render);
+  sortEl.addEventListener("change", render);
+  ieaEl.addEventListener("change", render);
+
+  render();
+})();
+</script>
+{{ end }}

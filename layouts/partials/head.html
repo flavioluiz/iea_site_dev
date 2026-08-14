@@ -1,0 +1,441 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+<meta name="keywords" content="pós-graduação, engenharia aeronáutica, engenharia mecânica, ITA, mestrado, doutorado, aeroespacial">
+<meta name="author" content="{{ .Site.Params.organization }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+{{ if or .Site.Params.temporary_noindex (and (eq .Type "pessoal") (isset .Params "ativo") (not .Params.ativo)) }}
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+{{ end }}
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}">
+<meta property="og:locale" content="{{ .Site.Language.Lang }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
+<meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Alternate languages -->
+{{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+{{ end }}
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="{{ "/images/favicon.svg" | relURL }}">
+<link rel="icon" type="image/x-icon" href="{{ .Site.Params.favicon | relURL }}">
+<link rel="apple-touch-icon" href="{{ "/images/favicon.svg" | relURL }}">
+
+<title>{{ .Title }} | {{ .Site.Title }}</title>
+
+<!-- Tailwind CSS CDN (for development) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'ita-blue': '#003366',
+          'eam1': '#1e40af',
+          'eam2': '#dc2626',
+          'eam3': '#059669',
+        }
+      }
+    }
+  }
+</script>
+
+<!-- Custom styles -->
+<style>
+  .nav-link {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+    color: #374151;
+    transition: color 0.2s;
+    border-radius: 0.375rem;
+    margin: 0 0.125rem;
+  }
+
+  .nav-link:hover {
+    color: #2563eb;
+    background-color: #eff6ff;
+  }
+
+  .nav-link.active {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+  }
+
+  /* Dropdown styles with improved usability */
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-menu {
+    margin-top: 0;
+    padding-top: 0.75rem;
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  /* Add invisible bridge between button and menu */
+  .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -0.75rem;
+    left: 0;
+    right: 0;
+    height: 0.75rem;
+    background: transparent;
+  }
+
+  /* Desktop hover behavior */
+  @media (min-width: 1024px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+  /* Ensure dropdown items have proper hover area */
+  .dropdown-menu li a {
+    display: block;
+    white-space: nowrap;
+  }
+
+  /* Mobile menu styles */
+  @media (max-width: 1023px) {
+    #main-nav {
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      background-color: white;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      margin-top: 0.5rem;
+      padding: 0.75rem;
+    }
+
+    #main-nav ul {
+      flex-direction: column;
+    }
+
+    .nav-link {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 0.75rem;
+      margin: 0.125rem 0;
+    }
+
+    .dropdown-menu {
+      position: static !important;
+      width: 100% !important;
+      box-shadow: none !important;
+      border-left: 3px solid #2563eb !important;
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      padding-left: 0.75rem;
+      background-color: #f9fafb;
+    }
+  }
+
+  /* Prose styles for markdown content */
+  .prose {
+    color: #374151;
+    line-height: 1.75;
+  }
+
+  .prose h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #111827;
+  }
+
+  .prose h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #111827;
+  }
+
+  .prose h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: #111827;
+  }
+
+  .prose h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #111827;
+  }
+
+  .prose p {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+  }
+
+  .prose ul, .prose ol {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.625rem;
+  }
+
+  .prose ul {
+    list-style-type: disc;
+  }
+
+  .prose ol {
+    list-style-type: decimal;
+  }
+
+  .prose li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .prose li > p {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .prose strong {
+    font-weight: 600;
+    color: #111827;
+  }
+
+  .prose a {
+    color: #2563eb;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .prose a:hover {
+    color: #1d4ed8;
+  }
+
+  /* Ensure buttons are not affected by prose link styles */
+  .prose a.bg-blue-600,
+  .prose a.bg-green-600,
+  .prose a.bg-red-600,
+  .prose a.inline-flex {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
+  .prose blockquote {
+    font-style: italic;
+    border-left: 4px solid #e5e7eb;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #6b7280;
+  }
+
+  .prose code {
+    color: #111827;
+    background-color: #f3f4f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  .prose pre {
+    background-color: #1f2937;
+    color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  .prose pre code {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+  }
+
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+
+  .prose th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+  }
+
+  .prose td {
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+  }
+
+  .prose hr {
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+    margin: 2rem 0;
+  }
+
+  .prose-lg {
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  .prose-lg h1 {
+    font-size: 2.5rem;
+  }
+
+  .prose-lg h2 {
+    font-size: 2rem;
+  }
+
+  .prose-lg h3 {
+    font-size: 1.75rem;
+  }
+
+  .prose-lg h4 {
+    font-size: 1.5rem;
+  }
+
+  /* Ensure images maintain aspect ratio */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Header responsive improvements */
+  header img {
+    object-fit: contain;
+    max-width: 100%;
+  }
+
+  /* Hero Carousel */
+  .hero-carousel {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  @media (min-width: 768px) {
+    .hero-carousel {
+      height: 70vh;
+    }
+  }
+
+  .hero-carousel .carousel-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .hero-carousel .carousel-slide.active {
+    opacity: 1;
+  }
+
+  .hero-carousel .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: none;
+  }
+
+  .hero-carousel .carousel-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(30, 58, 138, 0.7) 0%,
+      rgba(30, 64, 175, 0.6) 50%,
+      rgba(30, 58, 138, 0.8) 100%
+    );
+  }
+
+  .hero-carousel .carousel-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    z-index: 10;
+  }
+
+  .hero-carousel .carousel-dots {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+    z-index: 20;
+  }
+
+  .hero-carousel .carousel-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    padding: 0;
+  }
+
+  .hero-carousel .carousel-dot:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .hero-carousel .carousel-dot.active {
+    background: white;
+    transform: scale(1.2);
+  }
+</style>
+
+<!-- JSON-LD structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}",
+  "description": "{{ .Site.Params.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ .Site.Params.address.street }}",
+    "addressLocality": "{{ .Site.Params.address.city }}",
+    "addressRegion": "{{ .Site.Params.address.state }}",
+    "postalCode": "{{ .Site.Params.address.zip }}",
+    "addressCountry": "{{ .Site.Params.address.country }}"
+  }
+}
+</script>

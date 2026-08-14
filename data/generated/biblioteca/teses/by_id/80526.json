@@ -1,0 +1,36 @@
+{
+  "num_tese": "80526",
+  "type": "tese",
+  "title": "Sistema de estabilidade variável para modelo de simulaçăo de helicóptero",
+  "author": "Luis Gustavo Moro",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A utilizaçăo de modelos de aeronaves para a demonstraçăo dos diferentes comportamentos dinâmicos é de grande importância no Curso de Ensaios em Voo. Assim, modelos que representem com fidelidade o comportamento das aeronaves săo uma busca constante realizada pelo Instituto de Pesquisas e Ensaios em Voo. De tal modo, com o objetivo de demonstrar as possíveis respostas de dinâmica de voo de um helicóptero, o modelo semi-linear utilizado por esse Instituto foi aprimorado. Isso incluiu a consideraçăo de diferentes condiçőes estabilizadas em velocidade translacional nos eixos x e y da aeronave, visando a representaçăo de năo linearidades verificadas em voo. Entretanto, esse modelo apresenta estabilidade dinâmica bastante degradada conforme a norma ADS-33E-PRF. Portanto, um sistema de aumento de estabilidade foi implementado, pelo uso de técnicas de controle robusto, de forma a contrapor as dificuldades do projeto em considerar uma grande quantidade de condiçőes presentes no modelo. Ao final, verificou-se uma melhora nas qualidades de voo, entretanto com resultado restrito, devido a adequar-se somente ŕ condiçăo de estabilidade da aeronave, sendo essa uma das características influentes nas qualidades de voo da aeronave. Uma avaliaçăo qualitativa do efeito nas qualidades de voo pela aplicaçăo de controladores foi realizada pela execuçăo de tarefas operacionais representativas da missăo da aeronave no Simulador de Ensaios em Voo. Adicionalmente, como forma de possibilitar que o processo de análise se torne mais determinístico e automatizado, foi proposta a utilizaçăo do fator Perf2, fator que considera a carga de trabalho da movimentaçăo dos comandos de voo executados pelo piloto e o desempenho alcançado na execuçăo da tarefa operacional conjuntamente, como meio de avaliaçăo complementar ŕquela prevista pela norma que utiliza a avaliaçăo pela escala Cooper-Harper. O emprego desse fator reduziu em 60% as inconsistęncias apresentadas em comparaçăo a essa análise realizada somente pela movimentaçăo de comandos de voo.",
+  "subjects": [
+    "Helicópteros",
+    "Estabilidade de aeronaves",
+    "Simuladores de voo",
+    "Dinâmica de voo",
+    "Características de voo",
+    "Aerodinâmica",
+    "Controle robusto",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "28/05/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80526",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80526&origem=BDITA"
+}

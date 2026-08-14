@@ -1,0 +1,29 @@
+{
+  "num_tese": "000333453",
+  "type": "tese",
+  "title": "Simulaçăo de vigas flexíveis contendo atuadores piezoelétricos",
+  "author": "Alfredo Rocha de Faria",
+  "year": "1995",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esse trabalho pretende prover as bases para a simulaçăo e projeto de sistemas ativos para supressăo de vibraçőes de estruturas flexíveis utilizando sensores e atuadores piezoelétricos. Uma abordagem por elementos finitos é utilizada para modelagem da resposta estática e dinâmica de vigas de Euler-Bernoulli que sofrem movimentos de corpo rígido e deformaçőes elásticas. A viga pode conter sensores/atuadores piezoelétricos ligados a ela e estar sujeita a carregamentos mecânicos e/ou elétricos. A formulaçăo é derivada de um princípio variacional que inclui a energia potencial total da estrutura e a energia potencial elétrica do material piezoelétrico, envolvendo variáveis mecânicas e elétricas. Um código computacional foi desenvolvido para verificar a formulaçăo proposta usando o algoritmo de Wilson-';teta'; para integraçăo das equaçőes de movimento. O software foi utilizado para modelar uma viga flexível com amortecimento ativo induzido por atuadores piezoelétricos. Excelente concordância com resultados da literatura foi obtida para o caso usado como teste. Uma estratégia simples de controle (PD) foi implementada para amortecer ativamente a vibraçăo da viga devido ŕ rotaçăo do cubo. O sistema amorteceu com sucesso a vibraçăo tanto de rotaçăo prescrita como de torque aplicado.",
+  "subjects": [
+    "Vigas (suportes)",
+    "Piezoeletricidade",
+    "Atuadores",
+    "Estruturas",
+    "Engenharia civil",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "01/05/1995",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000333453",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000333453&origem=BDITA"
+}

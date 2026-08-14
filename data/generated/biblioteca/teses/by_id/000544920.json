@@ -1,0 +1,30 @@
+{
+  "num_tese": "000544920",
+  "type": "tese",
+  "title": "Estudo dos efeitos da traçăo diagonal em viga reforçada e de alma plana introduzindo consideraçőes específicas no método NACA-TN-2661.",
+  "author": "Vagnaldo Teles de Carvalho",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Rizzi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Nesta tese, săo analisados os efeitos da traçăo diagonal em vigas reforçadas e de alma plana. Modifica-se o processo analítico de obtençăo do ângulo de traçăo diagonal originalmente proposto na Ref. 1 (aqui denominado Método NACA-TN-2661 ou Método 1). O processo modificado (aqui denominado Método 5) inclui no cálculo do ângulo de traçăo diagonal consideraçőes que năo foram abordadas no Método 1: a) Contribuiçăo da tensăo de cisalhamento atuante em um elemento com inclinaçăo na alma; b) Contribuiçăo do efeito da flexăo secundária sobre a mesa. Além das consideraçőes acima citadas, a determinaçăo do ângulo é feita aplicando-se o princípio da energia potencial total mínima diretamente sobre o sistema em campo de traçăo diagonal parcial. A aplicaçăo do Método 5 conduz a resultados diferentes para os valores do ângulo de traçăo diagonal calculados com o Método 1 e, conseqüentemente, modifica a distribuiçăo de tensőes entre os componentes da viga: alma, reforçadores e mesas. Com o Método 1 obtém-se, em alguns casos, valores de tensőes superiores ŕqueles obtidos com o Método 5 (e.g. tensőes nos reforçadores), mas inferiores em outras situaçőes (e.g. tensőes nas mesas em compressăo e na alma). Portanto, durante o dimensionamento e análise de uma viga de alma plana reforçada sob campo de traçăo diagonal, é necessário avaliar em detalhes, ŕ luz das constataçőes desta tese, os resultados obtidos com o Método NACA-TN-2661. Recomenda-se a elaboraçăo de ensaios em laboratório visando a validaçăo ou a re-alimentaçăo das evidęncias teóricas deste trabalho.",
+  "subjects": [
+    "Análise estrutural",
+    "Resistęncia ŕ traçăo",
+    "Vigas (suportes)",
+    "Envergadura da asa",
+    "Flexăo",
+    "Tensăo de cisalhamento",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "12/09/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000544920",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000544920&origem=BDITA"
+}

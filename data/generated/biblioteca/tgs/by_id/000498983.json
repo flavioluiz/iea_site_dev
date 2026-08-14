@@ -1,0 +1,33 @@
+{
+  "num_tg": "000498983",
+  "type": "tg",
+  "title": "Aplicaçăo e comparaçăo de critérios modernos de qualidades de pilotagem.",
+  "author": "Rafael de Abreu Gonzalez",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "As qualidades de vôo e de pilotagem de uma aeronave săo propriedades imprescindíveis, pois garantem o conforto e a precisăo com que esta responde aos requisitos de comando do piloto durante a execuçăo de uma tarefa específica. Já o PIO (\"pilot induced oscillations\") é uma condiçăo dinâmica caracterizada por uma resposta do sistema de controle piloto-aeronave de oscilaçăo sustentada ou perigosamente divergente. Ao longo dos anos, na tentativa de se estabelecer um método prático e eficiente de se garantir a segurança e a qualidades de vôo e de pilotagem longitudinal de aeronaves, desenvolveu-se uma série de critérios de avaliaçăo de qualidades de vôo e da suscetibilidade ao PIO. Estes critérios consistem em uma combinaçăo de especificaçőes de parâmetros relacionados ŕs qualidades de vôo, principalmente da resposta de período curto. Estas especificaçőes podem rapidamente ser confrontadas com os dados de resposta da aeronave de forma simples e prática por meio de gráficos, diagramas e tabelas. Desta forma, este estudo se propőe a apresentar uma descriçăo objetiva de cada um dos quatro critérios mais valorizados pela indústria aeronáutica, e fundamentalmente permitir a comparaçăo entre os resultados apresentados por cada um deles a respeito das qualidades de vôo e de pilotagem de algumas aeronaves. Estes critérios săo: o Critério C*; o Critério Gibson; o Critério de Largura de Faixa (\"Bandwidth\") e o Critério de Abordagem Clássica. Já as aeronaves abordadas săo: F4 \"Phantom\"; Treinador a Jato; Boeing 747 e A4 \"Skyhawk\". Antes de serem submetidas a cada critério, as respostas de cada uma das aeronaves foram geradas por simulaçăo através do programa Matlab6.0, a qual adotou como entrada um sinal de teste degrau unitário. Cada resultado foi analisado e discutido ao nível dos parâmetros relevantes, e apesar da maioria destes resultados para uma mesma aeronave terem se mostrado coerentes, ocorreram algumas atribuiçőes contraditórias que enriqueceram as discussőes. Por tudo entăo que foi discutido, comprovou-se a praticidade e a eficácia desses critérios abordados apresentado-se a melhor maneira de interpretar seus resultados e obter proveito de suas combinaçőes, visando o aprimoramento das análises de qualidades de vôo e de pilotagem.",
+  "subjects": [
+    "Controle de vôo",
+    "Manobrabilidade",
+    "Qualidade",
+    "Controle de aeronaves",
+    "Estabilidade de aeronaves",
+    "Oscilaçăo induzida pelo piloto",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000498983",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000498983&origem=BDITA"
+}

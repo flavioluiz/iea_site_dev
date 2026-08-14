@@ -1,0 +1,36 @@
+{
+  "num_tg": "000544114",
+  "type": "tg",
+  "title": "4D trajectories prediction for ATM applications using the base of aircraft data (BADA).",
+  "author": "José Rui Simons Godoy",
+  "year": "2007",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Gerhard Hütting",
+      "professor_slug": null
+    },
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Tilo Gerhold",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The current ATC (Air Traffic Control) scenario seems to be reaching its operational limits, putting the Air Traffic Management (ATM) system under increasing pressure. Researches over the last decades focused on different methods to increase the overall capacity of the air transportation system, primarily on improving the system (ground based and aircraft based) within the constraints of its current structure. Changes to the air traffic system involve a careful evaluation of these methods, which should be carried out through experimentations, being modeling and simulation essential to validate and achieve the changes. Several current experiments in ATM involve the use of long term prediction of aircraft trajectories as a way of ensuring efficient and conflict free flights from gate to gate. An efficient ATM system requires then planning of traffic flows that rely on accurate estimation of aircraft performances. An aircraft performance model is the core of trajectory computation and therefore plays a central role in the development and evaluation of the future ATM systems. The Base of Aircraft Data (BADA) is a kinetic APM database developed and maintained by EUROCONTROL Experimental Centre (EEC). It is intended for trajectory simulation and prediction in ATM research, and since its inception, BADA has become the industry standard for aircraft performance modeling in Europe. This work presents an analysis on the use of BADA performance model, its applicability and limitations, and also documents a procedure of how to utilize its performance data for the future development of a simulation tool.",
+  "subjects": [
+    "Desempenho de aeronaves",
+    "Banco de dados",
+    "Análise de trajetórias",
+    "Prediçăo",
+    "Mecânica de vôo",
+    "Controle de tráfego aéreo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000544114",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000544114&origem=BDITA"
+}

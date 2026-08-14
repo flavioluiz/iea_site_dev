@@ -1,0 +1,29 @@
+{
+  "num_tese": "000551017",
+  "type": "tese",
+  "title": "Análise dinâmica de tubo conduzindo fluido.",
+  "author": "Tadeu Joelmo Granato",
+  "year": "2008",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Carlos Menezes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Inicialmente, é apresentada no Capítulo 1 uma exposiçăo bibliográfica sobre o tema e conceitos gerais da Dinâmica Estrutural. Os métodos aplicados neste trabalho săo revisados e um resumo da teoria de cascas finas cilíndricas é apresentado.. No Capítulo 2, utilizando a teoria de viga de Euler-Bernoulli considerando o Principio de Hamilton, as equaçőes de movimento săo obtidas através das equaçőes de Lagrange, que descreve o movimento em um plano transversal. Para esse fim aplica-se o Método dos Elementos Finitos, onde o elemento de viga possui dois pontos nodais e tręs graus de liberdade em cada nó, dois deslocamentos e uma rotaçăo. Como resultado, cada elemento produz 6 equaçőes diferenciais. As matrizes de massa, giroscópica, e rigidez, săo obtidas pela integraçăo das equaçőes das energias, e pelas diferenciaçőes envolvidas nas equaçőes de Lagrange; No Capítulo 3 é apresentado o mesmo procedimento utilizado no Capítulo 2, porém, utilizando-se uma formulaçăo que considera elementos de cascas cilíndricas circulares. Finalmente, no Capítulo 4 é apresentada uma formulaçăo onde o escoamento estável de um fluido é descrito pela teoria clássica do escoamento potencial, e o movimento da casca pela teoria de cascas finas de Sanders. As equaçőes do movimento para casca e fluido săo resolvidas através do Método dos Elementos Finitos. Com as matrizes obtidas, um código computacional escrito em Matlab efetua a montagem das matrizes globais do tubo e simula a resposta do tubo de acordo com as dimensőes estabelecidas, o material, a velocidade do fluido, pré tensăo e pressăo hidrostática. Para se obter a resposta no domínio do tempo, o procedimento de integraçăo de Newmark foi adotado. Este programa computacional foi testado e comparado com sucesso com casos relatados pela literatura. Os resultados obtidos com a variaçăo da velocidade do fluido mostram uma auto-excitaçăo nas proximidades da velocidade critica.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Dinâmica dos fluidos",
+    "Tubos de paredes finas",
+    "Cascas cilíndricas",
+    "Método de elementos finitos",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "08/12/2008",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000551017",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000551017&origem=BDITA"
+}

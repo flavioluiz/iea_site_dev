@@ -1,0 +1,28 @@
+{
+  "num_tese": "76621",
+  "type": "tese",
+  "title": "Closed-loop subspace identification of an Unmanned Aerial System (UAS) with flexible wings",
+  "author": "Raphaela Carvalho Machado",
+  "year": "2019",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This Thesis presents the closed-loop system identification in time domain of an Unmanned Aerial System (UAS) with flexible wings. The experimental platform, named EOLO, is a small aircraft whose wings were purposely manufactured to provide structural flexibility. From synthetic and experimental input-output data, it were obtained discrete state-space models for the system dynamics applying Subspace Identification Methods (SIM). The subspace methods are based on algebra tools, e.g., Singular Value Decomposition (SVD) and orthogonal and oblique projections to solve the Least-Squares (LS) problem to determine the system matrices. Therefore, this Thesis is intended to apply the subspace methods to estimate the system matrices from informations about its dynamics contained in the experimental data. Preliminary results, from synthetic closed-loop data, showed the ability of SIM methods to identify the longitudinal and lateral-directional flight dynamics, giving representative models. Additionally, it were performed the open and closed-loop system identification using experimental data. However, the gathered data were not much rich in frequencies such that it was not possible to obtain a representative model for the frequencies range of interest. In this sense, it is important to note that such result is not a limitation of the method but a matter of persistently exciting condition to input signals",
+  "subjects": [
+    "Identificaçăo de sistemas",
+    "Asas flexíveis",
+    "Controle com realimentaçăo",
+    "Dinâmica de voo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/11/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76621",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76621&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "64008",
+  "type": "tese",
+  "title": "Simulaçăo numérica de motores de combustăo interna : um estudo sobre injeçăo direta de etanol",
+  "author": "Fernanda Pinheiro Martins",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda a utilizaçăo de uma geometria representativa de um motor mono cilíndrico, com injeçăo direta de etanol hidratado e igniçăo assistida por centelha. A partir da utilizaçăo de um código comercial de Dinâmica dos Fluidos Computacional, a malha móvel é criada e as equaçőes governantes săo resolvidas. O escopo do trabalho inclui a caracterizaçăo do escoamento de ar durante a compressăo e a formaçăo de mistura estratificada. É analisado o efeito da geometria da câmara na formaçăo da mesma e sua distribuiçăo ao longo da câmara de combustăo. É analisada a influęncia de parâmetros como: pressăo do combustível injetado, início da injeçăo e massa de combustível injetada. O objetivo final é a obtençăo da concentraçăo de combustível ao longo do cilindro, durante o desenvolvimento do jato e o movimento do pistăo, além da formaçăo de filme nas paredes da câmara. Tais resultados săo de extrema importância para a avaliaçăo de estratégias de injeçăo que tornem possível a partida a frio de veículos em baixas temperaturas sem a aplicaçăo de sistemas auxiliares. Os resultados, como já eram previstos, mostraram que a pressăo e o início da injeçăo de combustível săo parâmetros que influenciam diretamente a evaporaçăo de combustível, assim como a quantidade de filme formado, principalmente no pistăo.",
+  "subjects": [
+    "Motores de combustăo interna",
+    "Álcool",
+    "Álcool etílico",
+    "Motores",
+    "Dinâmica dos fluidos computacional",
+    "Tecnologias",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "18/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64008",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64008&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tese": "000543538",
+  "type": "tese",
+  "title": "Análise plástica limite por elementos finitos e programaçăo matemática.",
+  "author": "Denilson José Ribeiro Sodré",
+  "year": "2007",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    },
+    {
+      "name": "Eliseu Lucena Neto",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Avaliam-se dois elementos finitos triangulares de tręs nós para o teorema estático da análise limite considerando o material de Mohr-Coulomb sob estado plano de deformaçăo. Um elemento, denominado Local Equilibrium Triangle (LET), satisfaz as equaçőes de equilíbrio no sentido diferencial e o outro, denominado Global Equilibrium Triangle (GET), satisfaz o equilíbrio no sentido integral de acordo com o princípio dos deslocamentos virtuais. As equaçőes de equilíbrio e as inequaçőes do critério de escoamento, expressas em termos das tensőes nodais, săo tratadas como restriçőes de um problema de otimizaçăo cuja funçăo objetivo é definida pelo carregamento. Em ambos elementos o campo de tensăo năo viola o critério de escoamento. A programaçăo năo linear resultante é resolvida pelo DOT e a linear, decorrente da linearizaçăo local da superfície de escoamento, pelo XpressMP. Os modelos de elementos finitos săo avaliados com relaçăo a ordem de convergęncia, acurácia, custo computacional e simplicidade de uso, considerando-se efeitos da discretizaçăo (seleçăo do domínio, distorçăo do elemento, arranjo e refinamento da malha), aproximaçăo da superfície de escoamento, parâmetros de resistęncia e técnica de programaçăo matemática empregada. Estimativas numéricas da carga limite inferior săo executadas em problemas geotécnicos de expansăo de cilindro sob pressăo interna, capacidade de carga de fundaçőes superficiais, pressăo lateral em estruturas de contençăo e colapso plástico de taludes.",
+  "subjects": [
+    "Teoria da plasticidade",
+    "Método de elementos finitos",
+    "Otimizaçăo",
+    "Programaçăo năo-linear",
+    "Estruturas",
+    "Mecânica dos solos",
+    "Geotecnia",
+    "Engenharia geotécnica",
+    "Engenharia civil"
+  ],
+  "defense_date": "19/01/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543538",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543538&origem=BDITA"
+}

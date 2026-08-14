@@ -1,0 +1,29 @@
+{
+  "num_tese": "68716",
+  "type": "tese",
+  "title": "Sistema de monitoramento de vida em fadiga de aeronaves para flexibilizar o planejamento de operaçăo e manutençăo",
+  "author": "Danilo de Camargo Branco",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A metodologia de Análise de Tolerância ao Dano (DTA - Damage Tolerance Analysis), que usa o Plano de Acompanhamento de Carregamentos (FSMP - Force Structural Management Plan), é usualmente empregada na prediçăo da vida em fadiga de aeronaves de caça. Este plano se baseia num \"mix\" de missőes pré-determinado no projeto da aeronave, o que induz os esquadrőes a seguirem este \"mix\" o qual influencia na eficięncia da utilizaçăo da frota. Desvios do \"mix\" de missőes impactam nos intervalos de inspeçőes e custos de manutençőes. Neste trabalho é proposto um sistema de monitoramento de vida em fadiga capaz de incorporar cada missăo, individualmente, na análise de vida em fadiga de uma aeronave específica, adequando a manutençăo a um perfil mais realista do seu uso. Este monitoramento individual é baseado na metodologia de Monitoramento Individual de Aeronaves (IAT - Individual Aircraft Tracking). Este sistema de monitoramento foi implementado em um software computacional e foi testado para aeronaves de caça F-5E da FAB. Corpos de prova que simulam pontos críticos desta aeronave foram ensaiados para fadiga e os resultados destes ensaios foram comparados aos resultados gerados por esse software. Este sistema de monitoramento mostrou-se capaz de determinar, de forma conservadora e aproximada, o comprimento de trinca após cada missăo, sem considerar o \"mix\" de missőes previsto. Isto torna possível flexibilizar as operaçőes sem prejudicar o planejamento de inspeçőes e manutençőes.",
+  "subjects": [
+    "Propagaçăo de trincas",
+    "Vida em fadiga",
+    "Manutençăo de aeronaves",
+    "Tolerâncias (mecânica)",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "03/07/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68716",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68716&origem=BDITA"
+}

@@ -1,0 +1,26 @@
+{
+  "num_tese": "000141864",
+  "type": "tese",
+  "title": "Estabilizaçăo da temperatura de dispositivos eletrônicos utilizando material de mudança de fase",
+  "author": "Paulo Gilberto de Paula Toro",
+  "year": "1988",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Carlos Lineu de Faria Alves",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho estuda-se o controle da temperatura de dispositivos eletrônicos, dispostos em placas horizontais, utilizando o método de calor latente, em conjunto com a técnica de controle passivo, usando um material de mudanca de fase, n-eicosana, no estado sólido-líquido, como capacitor térmico. O problema no material de mudanca de fase é formulado, supondo que o processo de transferęncia de calor seja controlado unicamente por conduçăo. A equaçăo de energia é escrita na forma entálpica, evitando a năo linearidade causada pela movimentaçăo da fronteira. A equaçăo é válida para as regiőes: sólida, de mudança de fase e líquida. A soluçăo do problema é obtida por método numérico, utilizando a técnica de volume de controle, aplicada ŕ equaçăo da energia na forma entálpica. Os coeficientes da equaçăo săo funçőes tanto da posiçăo quanto da temperatura, de forma que o método de soluçăo é itewrativo. O problema do material de mudança de fase é acoplado a um balanço de energia no fluido de transporte, onde o sistema de coordenadas do fluido acompanha o mesmo, existindo portanto uma relaçăo entre as coordenadas espacial e temporal. O problema é adimensionalizado e os resultados săo analisados através dos seguites parâmetros: efetividade, NTU, temperatura da parede superior, fluxo de calor na parede inferior, temperatura da parede inferior, temperatura do fluido, massa solidificada, massa liquefeita em mudança de fase liquefeita. A simulaçăo numérica com variaçăo da potęncia dissipada dos dispositivos eletrônicos, é estudada tanto para regime de escoamento laminar no fluido quanto para regime turbulanto. Além disso, paralelamente, é apresentado uma análise, onde é discutido qual fluido de transporte é mais adequado.",
+  "subjects": [
+    "Transferęncia de calor",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/05/1988",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000141864",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000141864&origem=BDITA"
+}

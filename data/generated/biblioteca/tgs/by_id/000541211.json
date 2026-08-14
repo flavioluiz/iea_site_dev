@@ -1,0 +1,32 @@
+{
+  "num_tg": "000541211",
+  "type": "tg",
+  "title": "Estimativa de momentos de inércia de aeronaves.",
+  "author": "Sérgio Murillo Pamplona Novaes",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mauro Hirdes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem por objetivo a elaboraçăo de um aplicativo para o cálculo dos momentos de inércia de massa de uma aeronave, durante a fase de anteprojeto. Nesta fase, ainda năo se tem informaçőes muito precisas sobre a forma da aeronave em desenvolvimento, entretanto, algumas informaçőes săo primordiais para o correto dimensionamento da mesma. A necessidade de se saber os valores dos momentos de inércia de massa da aeronave surge pelo fato destes valores influenciarem diretamente as cargas atuantes na aeronave em todas as fases de vôo. O dimensionamento da aeronave é feito baseado nestas cargas, de modo que a aeronave resista a estes esforços mantendo um mínimo de segurança durante as fases de vôo que realizar. O método de estimativa de momentos de inércia utilizado pela EMBRAER consiste em dividir os principais componentes estruturais da aeronave (Fuselagem, Asa e Empenagens) em baias, que săo obtidas dividindo estas partes principais em partes menores, baseando-se em critérios estruturais e de cálculo. Para cada baia, săo conhecidos a massa, a posiçăo do CG da baia e os momentos de inércia, e entăo é possível saber a massa, a posiçăo do CG e os momentos de inércia de cada componente. A entrada de dados do aplicativo consiste, primeiramente em assumir a mesma divisăo em baias, tal como a que foi usada para a estimativa real. Em seguida, a geometria real da baia é entăo simplificada, assumindo-se hipóteses que sejam coerentes com a finalidade de aplicaçăo do modelo, como descrito anteriormente. O método de trabalho foi feito comparando os resultados reais obtidos pelo método de cálculo existente na EMBRAER com os fornecidos pelo modelo. A este processo de comparaçăo foi dado o nome de calibraçăo. Uma aeronave EMBRAER já certificada foi escolhida para se fazer a calibraçăo do modelo e tirar as conclusőes que serăo apresentadas neste trabalho.",
+  "subjects": [
+    "Componentes estruturais",
+    "Partes de aeronaves",
+    "Momentos de inércia",
+    "Peso (massa)",
+    "Cálculo estrutural",
+    "Cargas (forças)",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000541211",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000541211&origem=BDITA"
+}

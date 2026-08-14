@@ -1,0 +1,28 @@
+{
+  "num_tese": "000559296",
+  "type": "tese",
+  "title": "Estudo do princípio da superposiçăo através da aplicaçăo da integral de Duhamel com base em respostas indiciais obtidas com ferramentas de CFD",
+  "author": "Grace Rodrigues de Lima",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta um estudo do princípio da superposiçăo através da aplicaçăo da Integral de Duhamel para a obtençăo da resposta a uma excitaçăo harmônica do ângulo de ataque. Como entrada para a Integral de Duhamel foram utilizadas respostas indiciais obtidas com a utilizaçăo de uma ferramenta de CFD desenvolvida pelo IAE/CTA. As respostas indiciais foram obtidas a partir de excitaçőes em degrau de baixa amplitude no ângulo de ataque de um perfil NACA0012 em escoamento com número de Mach igual a 0.3. O estudo mostrou que mesmo que a ferramenta de CFD seja capaz de gerar uma resposta indicial é importante a validaçăo dessa resposta indicial como uma resposta de boa qualidade para a utilizaçăo de sua derivada na Integral de Duhamel. Os resultados obtidos com a Integral de Duhamel utilizando uma boa resposta indicial como entrada foram comparados com uma simulaçăo direta de um movimento harmônico realizada com a mesma ferramenta de CFD. A comparaçăo demonstrou que os resultados foram bastante satisfatórios.",
+  "subjects": [
+    "Aerodinâmica năo-estacionária",
+    "Vibraçăo estrutural",
+    "Resposta transitória",
+    "Dinâmica dos fluidos computacional",
+    "Física"
+  ],
+  "defense_date": "26/08/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000559296",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000559296&origem=BDITA"
+}

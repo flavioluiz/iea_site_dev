@@ -1,0 +1,31 @@
+{
+  "num_tg": "000541900",
+  "type": "tg",
+  "title": "Analysis of robotic lunar lander architecture and design options.",
+  "author": "Alexandre Herkenhoff Gama",
+  "year": "2006",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Donizeti de Andrade",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Geilson Loureiro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work deals with the analysis of robotic lunar lander architecture. NASA has a purpose of sending an unmanned lander to the moon, which would be the second mission of the Robotic Lunar Exploration Program - called RLEP 2 in this study. The analysis presented is precisely motivated by these plans and one of its main goals it to assess commonality options for the mission. The objective of commonality in any project is to reduce cost, but it brings the drawback of a non-optimized product. A historical perspective of robotic landers - particularly Surveyor, Luna, Viking, Mars Pathfinder and Mars Exploration Rovers - is presented in order to investigate design options for the RLEP 2. An analysis of the transportation architecture is shown, as well as a study of the architecture possibilities. The main lander subsystems are modeled: propulsion subsystem, attitude determination and control subsystem, communications subsystem, power subsystem and thermal subsystem. Using these models, it's possible to generate a point design for each lander class. To create a common design, the requirements of each subsystem are compared to the specification of existing components. Then, it's possible to evaluate the system performance and the impact of commonality on the design.",
+  "subjects": [
+    "Projeto de espaçonaves",
+    "Módulos de pouso lunar",
+    "Transporte espacial",
+    "Propulsăo de espaçonaves",
+    "Engenharia aeroespacial",
+    "Engenharia de sistemas"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000541900",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000541900&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "72437",
+  "type": "tg",
+  "title": "Determinaçăo de modelo de traçăo da aeronave A-29B super tucano em regimes năo previstos pela carta da hélice",
+  "author": "Diego Serra Azul Albuquerque",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Guilherme Soares e Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alan Fonseca Uehara",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O emprego de simuladores de voo tem como objetivo fomentar o treinamento de pilotos, reduzindo os custos de treinamentos. Desta forma, para assegurar sua empregabilidade, faz-se necessário que os mais diversos cenários de operaçăo da aeronave sejam implementados nos simuladores, garantindo que estes sejam ferramentas mais completas e que representem de forma fidedigna o voo real. Este trabalho tem por finalidade determinar um modelo de traçăo da aeronave A-29B Super Tucano (EMB-314) em regimes năo previstos pela carta de desempenho da hélice para posterior implementaçăo de subsistema propulsivo no simulador de voo em desenvolvimento no Instituto de Pesquisas e Ensaios em Voo da Força Aérea Brasileira. Com o intuito de incentivar futuras pesquisas, apresentar-se-á, ao longo deste trabalho, uma descriçăo detalhada dos métodos numérico computacionais, do estudo estatístico para tratamento de dados e dos procedimentos de ensaios em voo adotados. Outrossim, serăo estudadas as características da aeronave, sobretudo no que concerne ŕ carta de desempenho da hélice Hartzell pentapá modelo HC-B5MA-2/M9128NSK e do motor turboélice Pratt & Whitney PT6A-68C que a equipam, analisando-se a viabilidade da implementaçăo de um modelo para complementaçăo da carta do fabricante. Uma vez consolidados os resultados experimentais, comparar-se-á estes com os valores esperados, possibilitando verificar e validar o modelo de traçăo implementado. Por fim, será realizada uma análise geral acerca das premissas e da metodologia adotadas.",
+  "subjects": [
+    "Ensaios em voo",
+    "Sistemas de propulsăo",
+    "Ensaios de traçăo",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72437",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72437&origem=BDITA"
+}

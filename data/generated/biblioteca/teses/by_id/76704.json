@@ -1,0 +1,34 @@
+{
+  "num_tese": "76704",
+  "type": "tese",
+  "title": "Método para avaliaçăo de sistema supervisório de célula robótica colaborativa para indústria aeronáutica",
+  "author": "Gustavo de Melo Carvalho",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rodrigo Pastl Pontes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho tem por objetivo propor um método para a avaliaçăo do sistema supervisório de uma célula colaborativa de manufatura aeronáutica. Este método visa avaliar a segurança do sistema e sua aderęncia a especificaçăo por meio da aplicaçăo de técnicas de model checking, model-based testing e comissionamento virtual. Para ilustrar a aplicaçăo e avaliar o método proposto, utilizou-se como exemplo um sistema de selagem automática de estruturas aeronáuticas desenvolvido no Centro de Competęncia em Manufatura (CCM) do ITA. O método proposto inicia-se com o levantamento dos requisitos do sistema, suas funcionalidades e os equipamentos que compőem a célula robótica. Em seguida, elabora- se um modelo a eventos discretos da célula robótica colaborativa, utilizando autômatos temporizados como linguagem e a plataforma UPPAAL como ferramenta de modelagem. Aplica-se entăo a técnica de verificaçăo model checking para confrontar o modelo elaborado com a especificaçăo do sistema. Na sequęncia, implementa-se o sistema supervisório a partir de seu modelo já validado. O mesmo modelo é usado para geraçăo de casos de teste, por meio da ferramenta CONTEA. Em paralelo, elabora-se um modelo virtual da célula robótica. Finalmente, realiza-se o comissionamento virtual do sistema supervisório por meio da integraçăo do modelo virtual da célula robótica com a implementaçăo do sistema supervisório e da aplicaçăo dos casos de teste gerados pela CONTEA. Os resultados obtidos com a aplicaçăo do método proposto ŕ célula robótica de selagem desenvolvida no CCM indicam que o sistema supervisório está apto a ser integrado com os equipamentos físicos da célula robótica e testado por meio da interaçăo com operadores humanos.",
+  "subjects": [
+    "Autômatos celulares",
+    "Manufaturas",
+    "Robótica",
+    "Estruturas de aeronaves",
+    "Indústria aeronáutica",
+    "Computaçăo"
+  ],
+  "defense_date": "09/12/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76704",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76704&origem=BDITA"
+}

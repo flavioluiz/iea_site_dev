@@ -1,0 +1,31 @@
+{
+  "num_tg": "77599",
+  "type": "tg",
+  "title": "Constelaçőes de pequenos satélites para monitoramento da fronteira terrestre brasileira",
+  "author": "Mateus de Castro Silva",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Liana Dias Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta a aplicaçăo da metodologia do uso de constelaçőes de satélites para o problema do monitoramento da fronteira terrestre brasileira, buscando entender como as figuras de mérito de tempo de revisita e de percentual de tempo de acesso săo alterados com as variaçőes dos parâmetros desse tipo de sistema. Para isso, foram utilizados dois softwares de forma a realizar simulaçőes convenientes e otimizá-las, sendo eles o MATLAB® e o STK®, permitindo que fosse possível a obtençăo dos valores numéricos de interesse nesse estudo. Buscou-se, portanto, a obtençăo das melhores soluçőes compromisso para o estudo do monitoramento da fronteira terrestre brasileira. Neste contexto, foram considerados o uso de dois tipos principais de padrőes de constelaçőes dentre os mais abordados pela literatura, sendo eles o Walker e o Polar (ou Street of Coverage). Foram identificadas duas principais soluçőes para cada caso, sendo elas as configuraçőes 25ş:6/3/0 e 25ş:8/4/0 para o uso de Walker e 10/5/0 e 12/4/0 para a Polar, onde a altitude encontrada é de 800 km e o argumento do nodo ascendente é arbitrário. Os tempos de revisita encontrados foram todos inferiores a 2 horas, enquanto que os percentuais de tempo de acesso foram todos superiores a 5%, mas inferiores a 15% do tempo de simulaçăo.",
+  "subjects": [
+    "Microssatélites",
+    "Monitoramento",
+    "Constelaçőes",
+    "Satélites",
+    "Fronteiras",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77599",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77599&origem=BDITA"
+}

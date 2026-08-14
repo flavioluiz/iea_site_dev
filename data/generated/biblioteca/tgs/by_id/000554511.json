@@ -1,0 +1,30 @@
+{
+  "num_tg": "000554511",
+  "type": "tg",
+  "title": "Análise dinâmica de estrutura aeronáutica utilizando subestruturaçăo.",
+  "author": "Ednardo Dantas de Oliveira",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda a utilizaçăo do método de subestruturaçăo dinâmica conhecido por síntese modal de componentes aplicado a um modelo de elementos finitos. Este método consiste em dividir o modelo global em partes chamadas de subestruturas para, entăo, analisá-las separadamente e, por fim, obter estimativas dos modos de vibraçăo do modelo completo sem a necessidade de sua análise direta. Inicialmente, para uma melhor compreensăo a respeito do método de subestruturaçăo dinâmica construiu-se um modelo em Matlab que determinava as freqüęncias naturais de vibraçăo de uma viga engastada em sua extremidade esquerda utilizando duas subestruturas. Em seguida, utilizando o software de análise estrutural MSC/Nastran estudou-se um modelo em elementos finitos de uma asa representada por seu caixăo central, flap e aileron. Essas tręs partes foram justamente as subestruturas escolhidas. Primeiramente, compararam-se os resultados das frequęncias naturais de vibraçăo da asa utilizando o modelo completo sem usar subestruturaçăo e o modelo usando subestruturaçăo. Em sequęncia, estudou-se o comportamento dessas mesmas frequęncias ao se alterarem, separadamente, as massas do flap e aileron e também a rigidez dos elementos de conexăo do flap e do aileron com o caixăo central. Por fim, analisou-se a condiçăo de fixaçăo entre a asa e a fuselagem.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Subestruturas",
+    "Subconjuntos",
+    "Nastran",
+    "Estruturas de aeronaves",
+    "Vigas tipo caixăo",
+    "Aerofólios",
+    "Vibraçăo",
+    "Engenharia aeronáutica",
+    "Engenharia estrutural"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554511",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554511&origem=BDITA"
+}

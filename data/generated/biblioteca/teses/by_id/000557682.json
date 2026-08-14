@@ -1,0 +1,34 @@
+{
+  "num_tese": "000557682",
+  "type": "tese",
+  "title": "Estudo numérico de cavitaçăo em bomba ejetora.",
+  "author": "Jeferson Brambatti Granjeiro",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Simulaçőes săo realizadas utilizando a dinâmica de fluidos computacional (DFC) para prever o desempenho e características de escoamento em uma bomba ejetora anular. A simulaçăo numérica do escoamento no interior da bomba ejetora anular é realizada utilizando o código FLUENT 6.3.26. No presente estudo, o método de volumes finitos é utilizado para resolver um escoamento tridimensional, em regime permanente e incompressível modelado pelas seguintes equaçőes matemáticas: continuidade, momentum e modelo de turbulęncia . Uma boa concordância foi obtida na comparaçăo entre os resultados numéricos e experimentais disponíveis. Entăo, os resultados numéricos săo utilizados para analisar as seguintes dependęncias: razăo de altura manométrica versus razăo de vazăo volumétrica e a eficięncia global versus razăo de vazăo volumétrica. Os perfis de velocidade e pressăo estática também săo usados para estudar o processo de mistura entre as duas correntes na câmara de mistura da bomba ejetora. A boa concordância com os resultados experimentais e a compreensăo do escoamento de água obtidos nesta análise numérica mostram que uma abordagem adequada do DFC pode ser utilizada para melhorar o desempenho da bomba ejetora.",
+  "subjects": [
+    "Fluxo de cavitaçăo",
+    "Análise numérica",
+    "Dinâmica dos fluidos computacional",
+    "Simulaçăo",
+    "Escoamento turbulento",
+    "Método de volume finito",
+    "Modelo de turbulęncia k-epsilon",
+    "Bombas de jato",
+    "Ejetores",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "02/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557682",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557682&origem=BDITA"
+}

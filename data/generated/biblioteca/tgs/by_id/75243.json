@@ -1,0 +1,31 @@
+{
+  "num_tg": "75243",
+  "type": "tg",
+  "title": "Análise de sensibilidade de parâmetros geométricos de pontas de asa em coeficientes aerodinâmicos",
+  "author": "Victor Maurício Mattos de Andrade",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Alexandro Olímpio",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O objetivo deste trabalho é analisar quais săo os efeitos nos coeficientes de sustentaçăo e arrasto de se acrescentar pontas (como winglets) com características diversas em uma asa de uma aeronave numa dada condiçăo de voo. Atualmente, muitas aeronaves utilizam tais pontas principalmente em prol de reduzir o arrasto. Estudou-se as dependęncias das forças aerodinâmicas, focando no arrasto induzido. O arrasto induzido se origina devido a vórtices que induzem velocidades para baixo na montante do escoamento, mudando a direçăo da sustentaçăo. A intensidade dos vórtices é maior nas pontas das asas, indicando que pontas adicionais em asas podem alterar o comportamento dos vórtices. Estudou-se efeitos multidisciplinares de uma ponta, como também se investigou como parâmetros geométricos básicos dela influem no comportamento aerodinâmico da aeronave como um todo. Introduziu-se o conceito de eficięncia aerodinâmica da ponta, que quantifica quanto da envergadura da ponta contribui para o ganho em arrasto induzido. Para investigar o quanto uma ponta é sensível aerodinamicamente a parâmetros geométricos básicos, utilizou-se o software AVL, que aplica a metodologia Vortex Lattice para cálculo de coeficientes aerodinâmicos. Realizou-se um estudo de convergęncia de resultados de saída do AVL de acordo com a malha geométrica de entrada. Partindo de uma geometria base de asa e ponta, variaram-se alguns parâmetros da ponta, um de cada vez, para analisar a sensibilidade de cada um em relaçăo ŕ contribuiçăo aerodinâmica da ponta. Posteriormente, variou-se mais de um parâmetro simultaneamente e constatou-se efeito cruzado na sensibilidade. Embora o AVL năo considere viscosidade, compararam-se resultados de túnel de vento com os obtidos pelo AVL, a fim de encontrar alguma maneira de se calcular, utilizando recursos do AVL, a parcela invíscida do coeficiente quadrático de uma polar de arrasto de uma aeronave com winglet, tendo como base a mesma parcela de uma aeronave sem ponta. Conclui-se que winglets podem sim trazer ganhos aerodinâmicos, mas deve-se analisar como outras áreas do projeto săo afetadas. Também conclui-se que cada parâmetro geométrico tem seu papel, que podem ser ressaltados ou amenizados devido a efeitos cruzados.",
+  "subjects": [
+    "Álulas",
+    "Vortices de ponta de asa",
+    "Reduçăo de arrasto",
+    "Análise de sensibilidade",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75243",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75243&origem=BDITA"
+}

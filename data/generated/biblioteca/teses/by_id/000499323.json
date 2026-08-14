@@ -1,0 +1,37 @@
+{
+  "num_tese": "000499323",
+  "type": "tese",
+  "title": "Previsăo de séries temporais usando modelos de composiçăo de especialistas locais.",
+  "author": "Brício de Melo",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    },
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda a técnica de Composiçăo de Especialistas Locais (CEL), que pode ser vista como uma técnica que realiza análise exploratória de dados e modelagem matemática simultaneamente. A técnica CEL pode ser aplicada para resolver problemas de previsăo de séries temporais e reconhecimento de padrőes. Dado um conjunto de pontos de dados de treinamento formados pelos pares (x, y) (x = entrada, y = saída), a idéia básica é a seguinte: 1) Primeiramente, considerando apenas a parte da entrada do conjunto de treinamento (x), uma rede neural de Kohonen é usada para dividir os dados em agrupamentos năo-sobrepostos de pontos, 2) Várias técnicas de modelagens săo entăo usadas para construir modelos concorrentes para cada agrupamento e considerando apenas os pares (x,y) daquele agrupamento, 3) O melhor modelo para cada agrupamento é selecionado e denominado de Modelo de Especialista Local. A Saída de todos os Modelos de Especialistas Locais săo linearmente combinados pela Rede Supervisora que considera: 1) A distância dos pontos de dados x ao centro do agrupamento de dados usados para gerar o Modelo de cada Especialista Local, 2) A abrangęncia da regiăo do espaço de entrada tomado por cada agrupamento de pontos de dados de treinamento. As seguintes técnicas de modelagem săo utilizadas neste trabalho: Redes Neurais Artificiais (RNA), Análises de Regressăo Múltipla (ARM) e Cópia Carbono (CC). Para comparaçăo, o desempenho destas técnicas de modelagem săo também avaliados quando usadas para construir modelos para todo o conjunto de dados de treinamento, isto é, sem usar qualquer técnica de agrupamento. Neste caso, os modelos săo denominados de Modelos de Especialistas Globais. A técnica CEL é testada em experimentos computacionais usando as seguintes séries temporais que estăo publicamente disponíveis na Internet: 1) A \"Laser Data\", assim chamada uma série temporal gerada num experimento de laboratório de física e usada em 1991 na Competiçăo e Análises de Prediçăo de Séries Temporais do Instituto Santa Fé, 2) Séries temporais de preços mensais e diários do açúcar (contrato 14) na Câmara de Comércio de Nova York (do inglęs, New York Board Trade - NYBOT)",
+  "subjects": [
+    "Redes neurais",
+    "Modelos matemáticos",
+    "Análise de séries temporais",
+    "Previsăo",
+    "Reconhecimento de padrőes",
+    "Inteligęncia artificial",
+    "Matemática aplicada",
+    "Análise estatística",
+    "Matemática estatística",
+    "Matemática"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000499323",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000499323&origem=BDITA"
+}

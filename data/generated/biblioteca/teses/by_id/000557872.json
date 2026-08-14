@@ -1,0 +1,31 @@
+{
+  "num_tese": "000557872",
+  "type": "tese",
+  "title": "Análise de confiabilidade da CPU do satélite universitário ITASAT e proposta de melhoria.",
+  "author": "Edson Vinci",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta tese apresenta uma análise do computador de bordo para o satélite universitário ITASAT, propondo redundância interna de hardware nos itens críticos e comparando índices de confiabilidade entre a utilizaçăo de componentes de aplicaçăo espacial e componentes COTS - Commercial off-the-shelf. O ITASAT consiste num projeto de desenvolvimento de um satélite tecnológico de pequeno porte pela parceria entre o Instituto Tecnológico de Aeronáutica - ITA, o Instituto Nacional de Pesquisas Espaciais - INPE e a Agęncia Espacial Brasileira - AEB. Após uma breve explanaçăo sobre os subsistemas que compőem um satélite genérico, as principais características funcionais e requisitos preliminares para o projeto do hardware do computador de bordo do satélite universitário ITASAT săo apresentadas. Em seguida, definido o sistema computacional do segmento espacial do ITASAT como ACDH - Attitude, Control and Data Handling, é organizado o computador de bordo em módulos. O módulo denominado de CPU é analisado com componentes de aplicaçăo espacial e sua confiabilidade de hardware calculada para uma vida útil de dois anos de missăo, seguindo a norma militar MIL-HDBK-217F com suporte da ferramenta computacional Relex Reliability Studio 2008. Năo atingindo o nível especificado de confiabilidade, aplicou-se redundância cold standby ao módulo da CPU, o que o tornou um módulo tolerante a falhas. Esta técnica de redundância exigiu duas unidades adicionais, de gerenciamento de redundância e de chaveamento. Baseando-se nesta configuraçăo redundante, é abordado um conjunto de mecanismos de verificaçăo e projetos, conjuntamente denominados de FDIR - Failure Detection, Isolation and Recovery, que tęm como objetivo proteger a integridade do módulo da CPU, evitando a perda de suas partes ou totalidade, na presença de uma falha simples, de forma a assegurar o desempenho da missăo durante sua vida útil. Novamente, foi calculada a confiabilidade do módulo da CPU com redundância cold standby e os resultados obtidos mostraram um acréscimo do nível de confiabilidade suficiente para atender a esse requisito. Por fim, foram substituídos os componentes de aplicaçăo espacial por componentes COTS e recalculada a confiabilidade para o módulo da CPU. Os resultados obtidos com as configuraçőes estudadas para o módulo da CPU mostraram que a aplicaçăo de tolerância a falhas eleva o índice de confiabilidade e a combinaçăo da utilizaçăo de componentes de aplicaçăo espacial e componentes COTS garante, em algumas configuraçőes, a superaçăo do índice de confiabilidade de hardware especificado.",
+  "subjects": [
+    "Satélites artificiais",
+    "Sistemas de computadores embarcados",
+    "Análise de confiabilidade",
+    "Hardware",
+    "Redundância",
+    "Tolerância a falhas",
+    "Engenharia eletrônica",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "18/06/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557872",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557872&origem=BDITA"
+}

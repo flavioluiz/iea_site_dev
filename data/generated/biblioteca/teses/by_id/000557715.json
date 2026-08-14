@@ -1,0 +1,31 @@
+{
+  "num_tese": "000557715",
+  "type": "tese",
+  "title": "Análise estática de estabilidade năo-linear de viga sanduíche pelo método de elementos finitos.",
+  "author": "Carlos Enrique Yomayusa Agredo",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho encontra-se dividido em tręs principais análises. Estas foram avaliadas via método de elementos finitos para obter uma prediçăo do comportamento de uma viga sanduíche. Estas vigas săo constituídas em materiais compostos de faces laminadas em carbono-epóxi e núcleo de espuma rígida de polímero e foram analisadas, mediante simulaçăo com elementos C3D8R hexaédricos tridimensionais. A primeira análise foi realizada com o objetivo de determinar o comportamento estático detalhado do campo de tensőes presentes nas faces, núcleo, assim como na interface núcleo-laminado. A segunda análise tem como objetivo descrever o comportamento da flambagem estática năo-linear da viga sanduíche. A terceira análise tem o objetivo de estudar a flambagem da viga submetida a cargas estáticas axiais em conjunto com cargas dinâmicas de variaçăo senoidal. Ao final apresenta-se uma comparaçăo dos resultados das análises lineares e năo-lineares. As análises numéricas mostram os efeitos das excitaçőes dinâmicas quando associadas ŕs cargas de compressăo axial com o fim de compreender as possíveis falhas das estruturas sanduíche. Todas as análises presentes neste trabalho foram avaliadas para uma viga sanduíche engastada em uma extremidade e livre na outra. As simulaçőes numéricas foram realizadas usando o programa comercial ABAQUS CAE 6.5-1. Năo-linearidades geométricas foram consideradas nos modelos de elementos finitos de flambagem dinâmica.",
+  "subjects": [
+    "Análise estrutural dinâmica",
+    "Estruturas sanduíche",
+    "Vigas",
+    "Método de elementos finitos",
+    "Análise de tensăo",
+    "Flambagem",
+    "Placas (membros estruturais)",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "22/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557715",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557715&origem=BDITA"
+}

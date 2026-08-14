@@ -1,0 +1,28 @@
+{
+  "num_tese": "74014",
+  "type": "tese",
+  "title": "Dynamic modeling and control of quadcopters with tilting rotors",
+  "author": "Henrique Bezerra Diógenes",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work is concerned with dynamic modeling and flight control design of Micro Aerial Vehicles (MAV) with one-degree-of-freedom tilting rotors. The first concept contains four rotors that can be commanded in a way that their rotational axes are able to assume two alternative inclinations: perpendicular to the vehicle's equator or inwards tilted by the same angle. The study shows, analytically and by simulation, that it is possible to increase the quadrotor capability to reject external torque perturbations by combining the rotors inclination with a proper center of mass placement. This occurs due to an increase in the maximum vehicle's control torque, that can be achieved with small tilt angles. The second concept consists of an MAV with rotors that can be commanded to tilt frontward and backward, continuously. The longitudinal translational motion is controlled by the rotor inclination angle, while the lateral translation as well as the attitude motion are stabilized by differential thrust. A commanded trajectory is then generated so as to make the vehicle follow a waypoint-based path with a desired speed and with its longitudinal axis pointing toward the next waypoint of the sequence. The results show that this second vehicle can be effectively controlled to stay almost aligned with the horizontal plane during the whole trajectory. To model both vehicles' dynamics, this work adopts the Newton-Euler approach, considering its motion in six degrees of freedom and accounting for a first-order dynamics in the tilting mechanism. The flight control system is designed based on the time-scale separation between the attitude and position dynamics, being the first the fastest one. In this case, the attitude and position control laws are designed separately using feedback linearization combined with proportional and derivative actions and control saturation. Alternatively, a Discrete-time Quasi-Sliding-Mode controller is designed to deal with the attitude dynamics. An extensive simulation study is carried out to assess the dynamics behavior of the two MAV strategies on different flight conditions.",
+  "subjects": [
+    "Micro veiculos aéreos",
+    "Controle de voo",
+    "Dinâmica de rotores",
+    "Atitude (inclinaçăo)",
+    "Controle"
+  ],
+  "defense_date": "14/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74014",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74014&origem=BDITA"
+}

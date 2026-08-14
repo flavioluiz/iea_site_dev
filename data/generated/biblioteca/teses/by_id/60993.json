@@ -1,0 +1,32 @@
+{
+  "num_tese": "60993",
+  "type": "tese",
+  "title": "Estudo dos efeitos de dose total ionizante (TID) de radiaçăo gama num regulador de tensăo de topologia Buck",
+  "author": "Dirceu Adriano de Souza",
+  "year": "2011",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Componentes eletrônicos, quando empregados em veículos espaciais, estăo sujeitos a condiçőes ambientais adversas, dentre elas a contínua exposiçăo ŕ radiaçăo ionizante proveniente dos ciclos solares e de origem cósmica. Os componentes genuinamente fabricados para esta finalidade săo aqueles que possuem a propriedade de resistęncia a dose acumulada total de radiaçăo ionizante (radiation-hardness), e săo denominados rad-hard. Entretanto, uma regulamentaçăo do governo americano dificulta a aquisiçăo deste tipo de componente. Dessa forma, a alternativa encontrada pela comunidade espacial é a utilizaçăo de componentes de mesma funcionalidade, porém de fácil aquisiçăo no mercado, os chamados componentes de prateleira ou COTS (Commercial-Off-The Shelf Devices for Space Applications). Para a garantia de sua durabilidade no tempo previsto para a missăo espacial o componente COTS a ser empregado deve ser qualificado quanto ŕ sua resposta e tolerância ŕ dose de radiaçăo ionizante acumulada no ambiente espacial. Com o observado aumento na utilizaçăo desses dispositivos, a importância de testes baseados em solo para os efeitos da dose total ionizante (TID) a fim de qualificar tais dispositivos para vôo, tęm se tornado importante para a garantia da qualidade do sistema onde será empregado. As novas formas utilizando tecnologias de dimensőes cada vez mais reduzidas, nas quais esses dispositivos săo utilizados também realça a necessidade de testes específicos de aplicaçăo a fim de assegurar sua operaçăo com característica e a capacidade de atender os requisitos operacionais para atingir os objetivos da missăo. Esta qualificaçăo é realizada em testes laboratoriais em solo empregando fontes de radiaçăo ionizante. No presente trabalho é apresentada a qualificaçăo de um conversor DC-DC da série LM2596 de reguladores de tensăo, quanto ŕ sua tolerância aos efeitos acumulados de dose de radiaçăo ionizante, conhecido na literatura internacional por TID (total ionizing dose). Os reguladores de tensăo desta série săo circuitos integrados monolíticos que fornecem todas as funçőes ativas para um regulador chaveado (Buck) step-down capaz de suprir uma corrente de carga de até 3A com excelente regulaçăo de carga e de linha. O trabalho caracteriza-se por submeter o componente ŕ exposiçăo ŕ radiaçăo ionizante proveniente de uma fonte de 60Co. Os experimentos permitiram verificar o desempenho do regulador através de sua tensăo de saída para cargas contínuas e cargas variadas. Aliado ŕ literatura e publicaçőes diversas os trabalhos consistiram na análise experimental e simulada do componente, permitindo avaliar os efeitos da radiaçăo sobre os principais parâmetros nos blocos funcionais do dispositivo.",
+  "subjects": [
+    "Efeitos da radiaçăo",
+    "Dispositivos elétricos",
+    "Radiaçăo ionizante",
+    "Raios gama",
+    "Componentes eletrônicos de espaçonaves",
+    "Ensaios de materiais",
+    "Propriedades mecânicas",
+    "Engenharia de materiais",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "12/08/2011",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=60993",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=60993&origem=BDITA"
+}

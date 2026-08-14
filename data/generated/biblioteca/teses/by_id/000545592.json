@@ -1,0 +1,31 @@
+{
+  "num_tese": "000545592",
+  "type": "tese",
+  "title": "Pós-flambagem de vigas caixăo co-curadas.",
+  "author": "Clóvis Augusto Eça Ferreira",
+  "year": "2007",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma caixa para flexo-torçăo, equipada com múltiplas longarinas - sem reforçadores ou nervuras - é um conceito propício ŕ tecnologia de compósitos. A integraçăo de almas e revestimentos possibilita um único ciclo de cura em processos ŕ base de pré-impregnados, ou com impregnaçăo dentro do molde. Essa idéia pode ser aproveitada em asas e empenagens, aplicaçőes que, para o peso ótimo, tipicamente atingem a instabilidade local abaixo da carga-limite. É aceitável que os longos painéis dessa caixa flambem, desde que năo ocorram falhas no laminado e, acima de tudo, a estrutura mantenha-se rígida o suficiente para a funçăo pretendida. Na presente investigaçăo, uma caixa com longarinas auxiliares tem sua rigidez comparada ŕ de outras soluçőes propostas para uma viga engastada. Para se estimar a relaçăo entre carga e deslocamento na pós-flambagem, foram desenvolvidos modelos refinados com um pacote comercial de elementos finitos (MSC/NASTRAN), habilitado ŕ análise năo-linear geométrica (SOL106). Baseado nos modelos, comprovou-se, numericamente, que a configuraçăo dos reforços determina a rigidez tangente do conjunto. A adiçăo de longarinas internas mostrou-se tăo eficaz quanto um dispendioso arranjo de reforçadores e nervuras, tomado como referęncia. Em outra proposta, com reforçadores longos, sem nervuras, ocorreu o colapso prematuro da caixa, evocando os cilindros de Koiter. O comportamento observado em caixas retas, prismáticas e pesadas repetiu-se, com poucas ressalvas, para caixas cônicas, oblíquas e mais leves. A técnica de simulaçăo foi validada através de um ensaio estático: uma caixa representativa foi submetida a um carregamento de flexo-torçăo, consideravelmente superior ŕ carga de flambagem inicial. A partir de deslocamentos medidos durante o ensaio, traçou-se a curva de carga-rigidez, que foi comparada ŕ curva prevista. Apesar de consideráveis desvios introduzidos pelas condiçőes de apoio, os resultados experimentais confirmaram a representatividade dos modelos.",
+  "subjects": [
+    "Materiais compósitos",
+    "Flambagem",
+    "Análise numérica",
+    "Năo-linearidade",
+    "Vigas tipo caixăo",
+    "Agentes de cura (materiais)",
+    "Perfis de aerofólio",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "16/08/2007",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000545592",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000545592&origem=BDITA"
+}

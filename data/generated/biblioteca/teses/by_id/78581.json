@@ -1,0 +1,36 @@
+{
+  "num_tese": "78581",
+  "type": "tese",
+  "title": "Low-cost approach for propeller-wing interaction under steady flow regime",
+  "author": "Luis Felipe de Moraes Andrade",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Patrícia Capistrano Teixeira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The use of propeller propulsion for applications ranging from civil transport to long endurance unmanned vehicles is coming back into focus. As a consequence of the advance in the researches involving propellers and their aerodynamic effects on the aircraft, the present work aims to discuss the fundamental propeller theories and propose a low-cost computational approach to evaluate the propeller performance, the slipstream, and the aerodynamic interaction with the wing. With the necessary background, a steady-state approach capable of efficiently evaluating the propeller resultant loads and induced velocities is proposed. Two methodologies were incorporated into the Blade Element Momentum Theory to obtain the induced velocities components: one based on the vortex theory with interference factors; and a second one using the circulation distribution of the blade. The propeller performance was obtained for each of the mentioned approaches. The velocities profiles evaluated in the propeller plane were used to obtain the velocities in the slipstream with analytical methods. An additional analysis indicated that the combination of the two methodologies is capable of generating more satisfactory results, leading to a hybrid model that is used to obtain the other results. The slipstream axial velocity increase, its contraction and the induced tangential velocity component were taken into account. These velocities were superimposed on the external flow, altering the local flow velocities in the slipstream. An azimuthal analysis was also incorporated in the model, making it able to evaluate the influence of the propeller angles of attack and sideslip. The loads on the propeller hub could then be calculated. A verification study of the current model was carried out, together with a parametric analysis, comparing all the results with those coming from a methodology based on the Lifting Line (LL) theory to model the blade associated with the Viscous Vortex Particle Method (VVPM) to model the propeller wake. A code based on the Vortex Lattice Method (VLM) was adapted to incorporate the velocities induced by the propeller on the wing panels. The calculated steady-state wing lift coefficient and root bending moment were then compared with those obtained from an implementation of the Unsteady Vortex Lattice Method (UVLM). Using the VLM, the effect of the wing upwash on the propeller plane is taken into account and the propeller-wing interaction is evaluated. Parametric analyses were performed for the isolated propeller and the propeller-wing interaction. It could be observed that the full azimuthal analysis can predict with satisfactory accuracy the propeller aerodynamic performance. The velocities profiles obtained with the implemented hybrid model, corrected by the wing upwash, showed to be representative of those calculated via the VVPM/LL. The wing lift coefficient spanwise distributions in the propeller-wing interaction parametric analyses were also close to those obtained with the higher-fidelity model (UVLM-VVPM/LL).",
+  "subjects": [
+    "Hélices",
+    "Asas flexíveis",
+    "Vórtices",
+    "Ensaios estáticos",
+    "Estruturas de aeronaves",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78581",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78581&origem=BDITA"
+}

@@ -1,0 +1,33 @@
+{
+  "num_tese": "76974",
+  "type": "tese",
+  "title": "Integrated optimization of air transportation systems (Aircraft and Network)",
+  "author": "José Alexandre Tavares Guerreiro Fregnani",
+  "year": "2020",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The determination of optimal aerial transport networks and their associated flight frequencies is crucial for the strategic planning of airlines, as well as for carrying out market research, and for aircraft and crew rostering. In addition, optimum airplane types for the selected networks are crucial to improve revenue and to provide reduced operating costs. The present research proposes an innovative Multidisciplinary Design Optimization (MDO) framework with the objective to optimize a highly detailed airplane design simultaneously with the associated airline network, for a given area of operations and associated demand, in a multiobjective-multivariable problem. In this framework, the aircraft design and network computation modules are executed independently in sequenced blocks and wrapped into a genetic algorithm in the optimization process. Two sets of objective functions were studied, according to the optimization scope: airline operations optimization (considering Network Profit and Network Direct Operational Cost as objective functions) and airline/aircraft manufacturer optimization (considering Network Profit and manufacturer's Cash Flow Net Present Value as objective functions). In the aircraft design module, several design parameters are used to represent the airplane in finest detail with accurate aerodynamic, stability and control, and propulsion characteristics, necessary for the mission analysis of each route segment considered in the analysis network. The accurate calculation of a realistic mission operational profile was performed thanks to the application of an Artificial Neural Network for aerodynamic coefficient estimation and a robust generic turbofan propulsion model. In the network computation module, disciplines related to network optimization, mission performance and airline economics are integrated. The network optimization module is performed in a sub-optimization framework using an elaborated gravitational demand model to predict passenger flows between city-pairs. Under this scope, four types of simulation scenarios, considering major Brazilian airports, were evaluated in order to apply the above described methodology: determination of the optimum aircraft design in a given five airports network, determination of the optimum five airports network for a given aircraft design, simultaneous optimization of aircraft design and network (five and ten airports) and simultaneous optimization of a fleet of three aircraft and a network of twenty airports. Results demonstrated significant financial advantages for airlines on using the mentioned objective functions instead of the conventional minimization of the Direct Operational Costs approach.",
+  "subjects": [
+    "Otimizaçăo de projeto multidisciplinar",
+    "Transporte aéreo",
+    "Projeto de aeronaves",
+    "Algoritmos genéticos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/07/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76974",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76974&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "75618",
+  "type": "tese",
+  "title": "Performance assessment of machine tools based on structural stiffness",
+  "author": "Tedni de Abreu Goulart",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Jefferson de Oliveira Gomes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Ronnie Rodrigo Rego",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The current trends of the global industry have demanded parts with more complex geometrical shapes which also demand more accurate machine tools. However, many error sources can influence the machine's accuracy; among those, the static and dynamic loads are defined as the most relevant. These loads act on the machine's structure causing deflections which directly affect its behavior. The objective of this study is to understand how the accuracy of a machine tool is influenced by its structural stiffness behavior. To achieve this objective, two investigations were proposed. In the first investigation each translational machine axis' structural stiffness was mapped, in its entire work volume. This first investigation used a finite element model to map the directional stiffness of the axes. In the second investigation the stiffness map was correlated with machined parts. To achieve this correlation, experimental tests were performed by machining parts in different points of the machine's work volume. All this investigation procedure was executed in a ROMI DCM 620 5X five-axis machining center. The machine's axes presented significant difference in its structural stiffness level. Also, the axes presented different variation rates in its structural stiffness level according to the moving direction. With the results, a mathematical model was established for the structural stiffness along the X and Y axes at any point of the machine's work volume. The factors that cause the structural differences were discussed analyzing the machine's structure. The second investigation resulted in parts with different geometrical accuracy depending on the axes moving direction. The correlation between these parts and the stiffness map performed by the first investigation also was discussed. Due to the process loads, the regions in the machine's work volume with lower stiffness level provide pieces with lower geometrical accuracy. Understanding the structural stiffness distribution and its influence on the geometrical accuracy of the machined part enables increasing the machine's performance. Higher accuracy and increased productivity are direct consequences of enhanced machine performance.",
+  "subjects": [
+    "Máquinas-ferramenta",
+    "Usinagem",
+    "Eixos (elementos de máquinas)",
+    "Precisăo",
+    "Método de elementos finitos",
+    "Cargas estáticas",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/02/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75618",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75618&origem=BDITA"
+}

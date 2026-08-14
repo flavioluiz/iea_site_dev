@@ -1,0 +1,30 @@
+{
+  "num_tese": "74262",
+  "type": "tese",
+  "title": "Analysis of energy consumption on industrial robots for automotive industry",
+  "author": "Raphael Rustici Garcia",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work analyses the energy consumption of industrial robots, with the purpose of identifying the most influencing parameters and variables, and proposing best practices with focus on energy efficiency. The analysis approach is composed of three experiments that test different values of programming parameters and variables, such as joint speed, acceleration, robot payload. The first experiment focuses on energy consumption of robots at standstill. The second one considers the robot moving along different paths. Finally, the third one analyses the influence of the friction variation due to load, speed and temperature on the energy consumption. Results show that at standstill, it is important to reduce dwell time, select an energy efficient position and reduce the timer for turning off the servomotors. While moving, it is important to select the maximum continuous termination for intermediate points and avoid low speeds. Regarding friction variation, results show that at high motor speed, low temperatures increase energy consumption. The list of best practices compiled from the experiments results is a practical contribution of this work that is directly applicable to industrial plants. To complete the analysis the best practices developed were validated in a real environment of an automotive industry where we proved the benefits of the best practices application with significant energy consumption reduction.",
+  "subjects": [
+    "Robôs",
+    "Consumo de energia",
+    "Servomotores",
+    "Programaçăo de robôs",
+    "Indústria automobilística",
+    "Robótica",
+    "Computaçăo"
+  ],
+  "defense_date": "16/02/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74262",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74262&origem=BDITA"
+}

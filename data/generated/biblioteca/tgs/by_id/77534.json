@@ -1,0 +1,32 @@
+{
+  "num_tg": "77534",
+  "type": "tg",
+  "title": "Simulaçăo do efeito solo para uma aeronave convencional em condiçăo de pouso",
+  "author": "Rennan Assis Matos",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Fernando Gouveia de Moraes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho analisa computacionalmente as consequęncias do efeito solo na variaçăo dos coeficientes de sustentaçăo, de arrasto e de momento de arfagem da aeronave T-27. Além disso, considera-se que a aeronave está em configuraçăo de aterrissagem e está alinhada com o vento. O objetivo dessas análises é a futura implementaçăo do efeito no simulador do Instituto de Pesquisas e Ensaios em Voo (IPEV). Săo verificadas as vantagens e as desvantagens de dois software (AVL e Tornado) para que um deles realize as simulaçőes computacionais. Ambos consideram um escoamento potencial, irrotacional, sem viscosidade e modelam as superfícies sustentadoras com o método vortex lattice. O estudo se inicia com as análises comparativas entre os dados experimentais e computacionais dos tręs coeficientes aerodinâmicos para uma asa reta simples. Isso vai indicar as limitaçőes do software no cálculo das influęncias do efeito solo. Além disso, também há a comparaçăo dos dados experimentais de um modelo em escala 1:6 do T-27 fora do efeito solo com os dos resultados numéricos obtidos do programa. Deste modo, é possível validar qual dos modelos implementados do T-27 săo mais representativos. Os resultados computacionais finais da variaçăo dos coeficientes aerodinâmicos do T-27 dentro do efeito solo săo mostrados graficamente em funçăo da altura ao solo e do ângulo de ataque.",
+  "subjects": [
+    "Efeito solo (aerodinâmica)",
+    "Método de malha turbilhonar",
+    "Desempenho de aeronaves",
+    "Pistas (de pouso e decolagem)",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77534",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77534&origem=BDITA"
+}

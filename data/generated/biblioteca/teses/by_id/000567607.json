@@ -1,0 +1,32 @@
+{
+  "num_tese": "000567607",
+  "type": "tese",
+  "title": "Escoamento de jato turbulento incidente sobre camada porosa com năo-equilíbrio térmico.",
+  "author": "Felipe Tannús Dórea",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é simulado numericamente o escoamento de um jato incidente em placa coberta com uma camada porosa. As equaçőes macroscópicas para a conservaçăo de massa e quantidade de movimento săo obtidas baseadas no conceito de media volumétrica. Dois modelos macroscópicos săo empregados para avaliar a transferęncia de calor, denominados: Modelo de uma equaçăo de energia, baseado na consideraçăo de Equilíbrio Térmico Local (LTE), e o modelo de duas equaçőes de energia, em que săo empregadas duas equaçőes de energia, uma para o fluido e outra para a matriz porosa e é considerada a transferęncia de calor entre as fases também chamada de hipótese de Năo Equilíbrio Térmico Local (LTNE). A técnica numérica empregada para a discretizaçăo das equaçőes governantes foi o método de volume de controle com um sistema de coordenadas năo ortogonal. O algoritmo SIMPLE foi utilizado para o acoplamento pressăo-velocidade. Parâmetros como porosidade, espessura da camada porosa, permeabilidade do material e razăo de condutividade térmica săo variados com o intuito de avaliar seus efeitos no escoamento e transferęncia de calor. Os resultados indicam que para baixas porosidades, baixas permeabilidades, finas espessuras de camada porosa e altas razőes de condutividade térmica, diferentes distribuiçőes no número de Nusselt local na parede săo calculados dependendo do modelo de energia aplicado. O uso do modelo de Năo Equilíbrio Térmico local (LNTE) indica que é vantajoso utilizar uma camada porosa com alta condutividade térmica e alta porosidade junto ŕ placa aquecida.",
+  "subjects": [
+    "Escoamento através de meios porosos",
+    "Jatos incidentes",
+    "Escoamento confinado",
+    "Permeabilidade",
+    "Transferęncia de calor",
+    "Materiais porosos",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "02/08/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000567607",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000567607&origem=BDITA"
+}

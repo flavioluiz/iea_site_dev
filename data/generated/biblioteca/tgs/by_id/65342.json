@@ -1,0 +1,35 @@
+{
+  "num_tg": "65342",
+  "type": "tg",
+  "title": "Algorithms for a MEMs based inertial navigation system",
+  "author": "Rian Koja",
+  "year": "2013",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Josiel Urbaninho de Arruda",
+      "professor_slug": null
+    },
+    {
+      "name": "Takashi Yoneyama",
+      "professor_slug": null
+    },
+    {
+      "name": "Alexis Guinamard",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The Navigation Algorithm is the core of any Inertial Navigation System (INS) constructed upon digital electronics. Almost as important are the initial, parallel and auxiliary calibration routines. For most applications, different data than position and attitude is required by the user, such as the movements Heave, Surge and Sway for water vehicles. In this work, the main navigation and self-calibration algorithm embedded on Microelectromechanical systems (MEM)s bases INS devices by SBG Systems is improved by the inclusion of continuous calibration capabilities of auxiliary sensors'; parameters. Also, new routines for magnetometers calibration and a new Heave estimator based on accelerometric data are developed.",
+  "subjects": [
+    "Navegaçăo inercial",
+    "Sistemas inerciais",
+    "Algoritmos",
+    "Sensores inerciais",
+    "Calibraçăo",
+    "Engenharia eletrônica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65342",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65342&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tese": "000466257",
+  "type": "tese",
+  "title": "Identificaçăo paramétrica de derivada de estabilidade e controle longitudinais da aeronave Xavante AT-26: uma aplicaçăo do método de verossimilhança.",
+  "author": "Luiz Jéther de Holandino Vasconcelos",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esta tese examina a identificaçăo paramétrica das derivadas de estabilidade e controle da dinâmica longitudinal de uma aeronave, com a aplicaçăo prática do método de \"Maximum Likelihood Estimation\" (MLE) e um algoritmo de otimizaçăo por Gauss-Newton. A dinâmica longitudinal foi representada por um modelo linear derivado das leis de Newton, obtendo as equaçőes de estado. As equaçőes de saída foram obtidas do modelamento dos sensores usados para mediçăo das grandezas físicas relevantes. O algoritmo e o programa em MATLAB desenvolvidos foram aplicados aos dados práticos obtidos com um vôo na aeronave AT-26 FAB 4516. A aeronave estava equipada com uma instrumentaçăo para mediçăo e gravaçăo dos parâmetros necessários para a identificaçăo paramétrica em questăo. Os resultados obtidos foram analisados neste trabalho, e demonstraram a validade prática do método para obtençăo das derivadas de estabilidade e controle longitudinal de uma aeronave. O resultado demonstrou ajustamento adequado entre as observaçőes e o modelo identificado.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Identificaçăo de parâmetros",
+    "Derivadas de estabilidade",
+    "Estabilidade dinâmica",
+    "Controle longitudinal",
+    "Algoritmos",
+    "Ensaios em vôo",
+    "Aeronave Xavante",
+    "Desempenho de aeronaves",
+    "Controle automático de vôo",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "2001",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000466257",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000466257&origem=BDITA"
+}

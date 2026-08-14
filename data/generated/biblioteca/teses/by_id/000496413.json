@@ -1,0 +1,33 @@
+{
+  "num_tese": "000496413",
+  "type": "tese",
+  "title": "Quantitative methods for management decisions in flight test campaigns for aeronautical certification.",
+  "author": "Edmar Thomaz da Silva",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Aircraft development process is characterized by high complexity and ever-decreasing lead times throughout for shortening time-to-market as an outcome.Development delays experienced in single systems, systems integration and the occurrence of design oscillations (design non compliances identified during flight tests that demand re-design and new test campaign) represent the main threats for the aeronautical industry to accomplish the market and certifying boards schedules. It is usual that the precedent phases to flight tests experience some delays, but the dead line for the certification phase remains unchanged. Consequently, the flight tests campaign is compressed in terms of time length for avoiding the delays in the certification schedule. Planning and managing activities in this highly dynamic scenario are very difficult tasks. The choice of the correct approach is ultimately related to cost, time, quality and safety optimization.A tool that provides the flight-test managers with the possibility to simulate campaign scenarios is extremely welcome. This tool has to take into account the inherent characteristics of the flight-test, which are concomitant, asynchronous, parallel and non deterministic. Besides, this tool has to have a graphical, user-friendly interface, in order to make possible a visual modeling technique of the concurrent activities of the tests campaign. It has been searched and found that a previous analysis based in Operation Research followed by the implementation of models based in Colored Petri Net (CPN) and Stochastic Petri Net (SPN) allow for modeling the necessary characteristics mentioned above.This work describes a method based on Petri Nets theory for modeling the problem of flight tests process management for the aircraft certification. Essentially, there is a set of processes, which share a common pool of resources such as prototypes, flight test instrumentation and systems availability. Every process, by its turn, has a subset of processes (test points) that characterizes a hierarchical net.The simulation tool is therefore, an adaptation of the general Petri Net theory for flight test campaign planning and management. This work shows the necessary steps to render the adaptation possible. The designed planning tool has been used in a demonstration environment that represents the basic problems of a real certification flight test program as a case study. Comparing the conditions with and without the tool, it is possible to conclude that the risk of severe mistakes caused by faulty assumptions for time, cost value and safety can be reduced significantly, since a great number of \"what if\" scenarios can be checked.",
+  "subjects": [
+    "Controle de processos",
+    "Desenvolvimento de produtos",
+    "Aeronaves",
+    "Ensaios em vôo",
+    "Regulamentaçăo aeronáutica",
+    "Certificaçăo",
+    "Redes de Petri",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica",
+    "Administraçăo"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000496413",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000496413&origem=BDITA"
+}

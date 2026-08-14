@@ -1,0 +1,35 @@
+{
+  "num_tese": "78262",
+  "type": "tese",
+  "title": "Estudo numérico do escoamento sobre placa plana inclinada via método de elementos espectrais/HP",
+  "author": "Yukari Watanabe Guerreiro Martins",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Vinicius Malatesta",
+      "professor_slug": "vinicius-malatesta"
+    }
+  ],
+  "abstract": "O presente estudo tem como principal objetivo analisar o escoamento de uma placa plana inclinada simulada com o método dos elementos espectrais/hp utilizando Galerkin contínuo (GC) incompressível a número de Reynolds moderado. Uma estabilizaçăo numérica recentemente aprimorada é empregada, na qual o salto (isto é, a variaçăo descontínua) das derivadas da soluçăo na interface entre os elementos é penalizada. As simulaçőes săo bidimensionais, apesar dos Reynolds estudados serem típicos de esteiras transicionais e turbulentas, e foram comparadas com trabalhos prévios encontrados na literatura para validaçăo dos resultados encontrados. Comparaçőes entre os escoamentos de placas com bordas quadradas e com bordas arredondadas também foram feitas com intuito de verificar a precisăo do método. Observaçőes e investigaçőes com relaçăo a esteira de vórtices foram conduzidas para melhor entender algumas questőes relacionadas ŕ física do problema.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Métodos espectrais",
+    "Escoamento",
+    "Placas planas",
+    "Estudo numérico",
+    "Método de Galerkin",
+    "Física"
+  ],
+  "defense_date": "07/02/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78262",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78262&origem=BDITA"
+}

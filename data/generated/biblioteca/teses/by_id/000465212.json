@@ -1,0 +1,30 @@
+{
+  "num_tese": "000465212",
+  "type": "tese",
+  "title": "Escoamento turbulento em um canal parcialmente preenchido com material poroso.",
+  "author": "Renato Alves da Silva",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga o tratamento numérico da interface entre uma regiăo porosa e uma regiăo limpa, levando em consideraçăo a influęncia do coeficiente de salto da tensăo cisalhante para a equaçăo da quantidade de movimento, para um escoamento de fluido monofásico em regime permanente, no qual a regiăo porosa é modelada como sendo homogęnea e isotrópica. As equaçőes que governam o escoamento săo discretizadas pelo método de volumes finitos e o sistema de equaçőes algébricas é resolvido pelo método SIP [Strongly Implicity Procedure], sendo que para o acoplamento pressăo-velocidade é utilizado o método SIMPLE. Inicialmente é analisado o escoamento laminar e, posteriormente o escoamento turbulento em canais parcialmente preenchido com um material poroso e, com um obstáculo poroso, utilizando para o caso turbulento o modelo k - e de Alto-Reynolds. Os resultados para o escoamento laminar em um canal parcialmente preenchido com material poroso sem a presença do termo năo-linear de Forchheimer ou com a presença corroboram os resultados analíticos encontrados na literatura. Observa-se, ainda que, os resultados para escoamento em um canal parcialmente preenchido e com um obstáculo poroso, tanto laminar quanto turbulento, representaram satisfatoriamente os fenômenos físicos. A partir desses fatos conclui-se que a implementaçăo numérica foi realizada de forma correta, sendo possível representar de forma adequada os efeitos do coeficiente, b , na vazăo mássica global.",
+  "subjects": [
+    "Dinâmica dos fluidos",
+    "Análise numérica",
+    "Materiais porosos",
+    "Escoamento turbulento",
+    "Escoamento laminar",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000465212",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000465212&origem=BDITA"
+}

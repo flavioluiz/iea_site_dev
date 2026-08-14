@@ -1,0 +1,32 @@
+{
+  "num_tg": "61725",
+  "type": "tg",
+  "title": "Determinaçăo das coordenadas do centro de gravidade de uma aeronave e das incertezas de medidas associadas",
+  "author": "Bruno Barcellos Polido",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fábio Henrique Lameiras Pinto",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho aborda a determinaçăo prática das tręs coordenadas do Centro de Gravidade de uma aeronave com suas incertezas através do desenvolvimento de um novo método experimental. Tal método consiste basicamente numa complementaçăo da prática de pesagem que é realizada atualmente, que é pesar a aeronave através de sua suspensăo nivelada sobre tręs pontos de apoio, o que já permite calcular as coordenadas lateral e longitudinal do Centro de Gravidade. A complementaçăo é, além de realizar essa pesagem tradicional, pesar novamente a aeronave só que desnivelada, tornando assim possível determinar a terceira coordenada, que é a altura. Primeiro desenvolveu-se o método teoricamente, o que é simples. Em seguida testou-se o método num corpo de escala reduzida, já utilizando células de carga, tal como em aeronaves, e os resultados foram bastante satisfatórios. Por fim aplicou-se o método na aeronave Fennec AS-550, obtendo-se resultados insatisfatórios, pois as incertezas foram muito altas devido a vários fatores de ordem prática da pesagem. Com estes resultados, foi possível analisar e sugerir melhoras na execuçăo da pesagem para assim o método ser aplicado e viável.",
+  "subjects": [
+    "Aeronaves",
+    "Pesagem",
+    "Centro de gravidade",
+    "Coordenadas",
+    "Incerteza de mediçăo",
+    "Derivadas de estabilidade",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61725",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61725&origem=BDITA"
+}

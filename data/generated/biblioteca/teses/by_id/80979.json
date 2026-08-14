@@ -1,0 +1,36 @@
+{
+  "num_tese": "80979",
+  "type": "tese",
+  "title": "A framework based on machine learning algorithms for industrial and aircraft gas turbine fault diagnosis",
+  "author": "Alexandre Mendonça Krul",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jesuino Takachi Tomita",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This dissertation presents the development of a data-driven framework for fault diagnosis in industrial and aircraft gas turbines using machine learning algorithms within the scope of condition-based maintenance (CBM). The research aimed to propose and evaluate computational methods capable of identifying, classifying, and quantifying gas turbine faults without relying on detailed physical models. For industrial turbines, synthetic datasets were generated through thermodynamic simulations introducing single, double, and triple component degradations. Supervised learning algorithms, particularly Multilayer Perceptron (MLP) and Support Vector Machines (SVM), were trained for fault detection and isolation. For aircraft propulsion systems, diagnostics were performed using NASA's ProDiMES platform, which simulates flight conditions, gradual and abrupt degradations, and both component and sensor faults. In both cases, measurements were preprocessed by computing deviations relative to baseline healthy models, normalized, and denoised. For the industrial gas turbine case, the MLP achieved 82.6% correct classification rate (CCR) and the SVM reached 76.8%, while a neural regression model achieved a determination coefficient (R˛) of 0.991, with low mean absolute and root mean square errors (MAE = 0.085 and RMSE = 0.14). For aircraft applications, three diagnostic models were implemented: MLP and SVM with snapshot data and MLP with time-windowed data. The snapshot-based MLP achieved the best overall performance, with 69.9% CCR, 65.2% true positive rate (TPR), 96.7% true negative rate (TNR), and an average detection latency of 3.2 flight cycles, surpassing benchmark results from literature. The findings demonstrate that data-driven approaches can accurately and efficiently detect, classify, and quantify faults in gas turbines, representing a powerful alternative to traditional model-based diagnostic methods. These results confirm the potential of artificial intelligence to enhance gas turbine health monitoring systems, enabling predictive maintenance strategies that reduce operational costs and improve safety and availability in both industrial and aerospace propulsion domains.",
+  "subjects": [
+    "Turbinas a gás",
+    "Análise de falhas",
+    "Aprendizagem (inteligęncia artificial)",
+    "Algoritmos",
+    "Monitoramento",
+    "Simuladores",
+    "Programas de computadores",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "12/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80979",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80979&origem=BDITA"
+}

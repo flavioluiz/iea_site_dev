@@ -1,0 +1,32 @@
+{
+  "num_tese": "000543197",
+  "type": "tese",
+  "title": "Identificaçăo e controle de uma turbina a gás com tecnologia nacional.",
+  "author": "Mairum Médici",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    },
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho tem como objetivo apresentar um sistema de automaçăo, controle, aquisiçăo e identificaçăo do modelo laboratorial de uma turbina a gás. Referido sistema de controle foi montado utilizando-se de componentes disponíveis no mercado tais como sensores, atuadores, controladores, softwares, etc. Merece destaque o desenvolvimento de software que instalado no CLP (Controlador Lógico Programável) controla, entre outras funçőes, a açăo de válvulas proporcionais de controle de vazăo garantindo as condiçőes necessárias para o correto funcionamento da turbina. Agregado ao sistema funcional, um sistema laboratorial de aquisiçăo e processamento de dados baseado em Labview foi implementado para a identificaçăo dinâmica da máquina, com a finalidade de se obter a funçăo de transferęncia do sistema que possibilitasse, a posteriori, a simulaçăo e a otimizaçăo de estratégias de controle avançadas. A turbina a gás, năo convencional e composta de turbo-compressores automotivos, turbina aeronáutica de jatos militares, etc., tinha potęncia estimada de 50kW e encontrava-se em desenvolvimento experimental por uma equipe de pesquisa sediada nas dependęncias do CTA-ITA.",
+  "subjects": [
+    "Turbinas a gás",
+    "Identificaçăo de parâmetros",
+    "Controle automático",
+    "Engenharia mecânica",
+    "Controle"
+  ],
+  "defense_date": "21/12/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543197",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543197&origem=BDITA"
+}

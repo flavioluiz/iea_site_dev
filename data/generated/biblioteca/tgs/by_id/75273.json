@@ -1,0 +1,30 @@
+{
+  "num_tg": "75273",
+  "type": "tg",
+  "title": "Implementaçăo do filter error method para a indentificaçăo de sistemas aeronáuticos",
+  "author": "Guilherme Gonzaga de Souza",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Guilherme Soares e Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Bruno Giordano de Oliveira Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O Filter Error Method năo-linear foi umplementado para a estimaçăo de parâmetros em sistemas dinâmicos de aeronaves em regimes com turbulęncia. O algorítimo foi baseado na literatura, e considera em sua rotina tanto os ruídos de medida quanto de processo. O estimador de máxima verossimilhança é utilizado para otimizaçăo dos parâmetros. A matriz de ruído de processo é estimada juntamente com os parâmetros do sistema, através do método de Gauss-Newton, e a matriz de covariância dos erros é calculada explicitamente. O código faz uso do filtro de Kalman para a correçăo dos estados e cálculos das sensibilidades das saídas do modelo em relaçăo aos parâmetros. Algumas consideraçőes quanto a convergęncia săo tomadas: reduçăo de parâmetro, método heurístico de correçăo de ruído de processo e restriçăo da matriz de ruído de mediçăo. Săo feitas ainda simulaçőes comparando o método proposto como Output Error Method, com e sem ruído de processo, e testes de validaçăo do algorítimo.",
+  "subjects": [
+    "Teoria de filtragem",
+    "Ruído aerodinâmico",
+    "Identificaçăo de parâmetros",
+    "Sistemas năo-lineares",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75273",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75273&origem=BDITA"
+}

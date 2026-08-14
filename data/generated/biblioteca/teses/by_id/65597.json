@@ -1,0 +1,30 @@
+{
+  "num_tese": "65597",
+  "type": "tese",
+  "title": "Aeroelastic studies using system identification techniques",
+  "author": "Joăo Henrique Albino de Azevedo",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work is concerned with studying techniques which would allow the identification of a multiple degree of freedom aeroelastic system from a single computational fluid dynamics (CFD) unsteady simulation. This data is, then, used to generate the root locus for aeroelastic stability analysis of the dynamic system. The system being considered in the present work is a NACA 0012 airfoil-based typical section in the transonic regime. The CFD calculations are based on the Euler equations and the code uses a finite volume formulation for general unstructured grids. A centered spatial discretization with added artificial dissipation is used, and an explicit Runge-Kutta time marching method is employed. Unsteady calculations are performed for several types of excitation on the plunge and pitch degrees of freedom of the dynamic system. These inputs are mostly based on step and orthogonal Walsh functions. System identification techniques are used to allow the splitting of the aerodynamic coeficient time histories into the contributions of each individual mode to the corresponding aerodynamic transfer functions. Such transfer functions are, then, represented by rational polynomials and used in an aeroelastic stability analysis in the frequency domain. The work compares the results provided for each case and attempts to contribute with guidelines for such analyses.",
+  "subjects": [
+    "Aeroelasticidade",
+    "Dinâmica dos fluidos computacional",
+    "Escoamento turbulento",
+    "Aerodinâmica",
+    "Mecânica dos solos",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "13/12/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65597",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65597&origem=BDITA"
+}

@@ -1,0 +1,188 @@
+{{ define "main" }}
+{{ $lang := .Language.Lang }}
+{{ $labs := .Site.Data.laboratorios.laboratorios }}
+
+{{/* The 7 featured labs in display order */}}
+{{ $featured := slice "lab-feng" "lcpe" "ltf" "lnca" "lab-esp" "lasca" "cei" "conceptio" }}
+
+{{/* Visual config per lab: gradient colors and icon path */}}
+{{ $visuals := dict
+  "lab-feng" (dict "from" "#1e40af" "to" "#3b82f6" "icon" "wind")
+  "lcpe"     (dict "from" "#b45309" "to" "#f59e0b" "icon" "flame")
+  "ltf"      (dict "from" "#7c3aed" "to" "#a78bfa" "icon" "rocket")
+  "lnca"     (dict "from" "#065f46" "to" "#34d399" "icon" "lightbulb")
+  "lab-esp"  (dict "from" "#9f1239" "to" "#f43f5e" "icon" "cube")
+  "lasca"    (dict "from" "#0369a1" "to" "#38bdf8" "icon" "chip")
+  "cei"      (dict "from" "#0f766e" "to" "#2dd4bf" "icon" "satellite")
+  "conceptio" (dict "from" "#0f172a" "to" "#334155" "icon" "puzzle")
+}}
+
+<div class="max-w-7xl mx-auto">
+
+  {{/* Page header */}}
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">
+      {{ if eq $lang "en" }}Laboratories & Research Centers{{ else }}Laboratórios e Centros de Pesquisa{{ end }}
+    </h1>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+      {{ if eq $lang "en" }}
+        State-of-the-art facilities for experimental, computational, and systems research in aeronautical and aerospace engineering.
+      {{ else }}
+        Infraestrutura de ponta para pesquisa experimental, computacional e de sistemas em engenharia aeronáutica e aeroespacial.
+      {{ end }}
+    </p>
+  </div>
+
+  {{/* Lab cards grid */}}
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    {{ range $featured }}
+      {{ $id := . }}
+      {{ $labMatches := where $labs "id" $id }}
+      {{ $lab := false }}
+      {{ if $labMatches }}{{ $lab = index $labMatches 0 }}{{ end }}
+      {{ if $lab }}
+      {{ $v := index $visuals $id }}
+      {{ $from := $v.from }}
+      {{ $to   := $v.to }}
+      {{ $icon := $v.icon }}
+      {{ $nome := $lab.nome_pt }}
+      {{ $desc := $lab.descricao_pt | plainify }}
+      {{ $infra := $lab.infraestrutura }}
+      {{ if eq $lang "en" }}
+        {{ $nome = $lab.nome_en | default $lab.nome_pt }}
+        {{ $desc = ($lab.descricao_en | default $lab.descricao_pt) | plainify }}
+        {{ $infra = $lab.infraestrutura_en | default $lab.infraestrutura }}
+      {{ end }}
+
+      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+
+        {{/* Visual header — uploaded photo or gradient fallback */}}
+        {{ with $lab.imagens }}
+        <div class="relative h-48 overflow-hidden bg-gray-100">
+          <img src="{{ index . 0 | relURL }}" alt="{{ $nome }}" class="w-full h-full object-cover">
+          <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent px-4 py-3">
+            <span class="text-white font-bold tracking-wider">{{ $lab.sigla }}</span>
+          </div>
+        </div>
+        {{ else }}
+        <div class="relative h-48 flex items-center justify-center overflow-hidden"
+             style="background: linear-gradient(135deg, {{ $from }}, {{ $to }});">
+
+          {{/* Background pattern */}}
+          <svg class="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="350" cy="-30" r="180" fill="white"/>
+            <circle cx="50" cy="220" r="120" fill="white"/>
+          </svg>
+
+          {{/* Icon */}}
+          <div class="relative z-10 flex flex-col items-center gap-3">
+            {{ if eq $icon "wind" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2"/>
+            </svg>
+            {{ else if eq $icon "flame" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
+            </svg>
+            {{ else if eq $icon "rocket" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.82m5.84-2.56a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.82m2.56-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/>
+            </svg>
+            {{ else if eq $icon "lightbulb" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m1.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+            {{ else if eq $icon "cube" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"/>
+            </svg>
+            {{ else if eq $icon "chip" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 3H7a2 2 0 00-2 2v2M9 3h6M9 3v2m6-2h2a2 2 0 012 2v2m0 0V7m0 2v8m0 0v2a2 2 0 01-2 2h-2m0 0H9m6 0v-2M9 21H7a2 2 0 01-2-2v-2m0 0V9M5 9H3m2 0v6m14-6h2m-2 0v6M9 21v-2m6 2v-2M9 7h6v10H9V7z"/>
+            </svg>
+            {{ else if eq $icon "satellite" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/>
+            </svg>
+            {{ else if eq $icon "puzzle" }}
+            <svg class="w-16 h-16 text-white opacity-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+            </svg>
+            {{ end }}
+            {{/* Sigla badge */}}
+            <span class="text-white font-bold text-lg tracking-wider opacity-80">{{ $lab.sigla }}</span>
+          </div>
+
+        </div>
+        {{ end }}
+
+        {{/* Card body */}}
+        <div class="flex flex-col flex-1 p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">
+            {{ $nome }}
+          </h2>
+
+          <p class="text-sm text-gray-600 leading-relaxed mb-4 flex-1">
+            {{ $desc | truncate 280 "…" }}
+          </p>
+
+          {{ with $lab.responsaveis }}
+          <div class="mb-4 text-sm text-gray-600">
+            <span class="font-semibold text-gray-700">{{ if eq $lang "en" }}Contacts{{ else }}Responsáveis{{ end }}:</span>
+            {{ delimit . ", " }}
+          </div>
+          {{ end }}
+
+          {{/* Infrastructure tags */}}
+          {{ if $infra }}
+          <div class="mb-5">
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
+              {{ if eq $lang "en" }}Key capabilities{{ else }}Capacidades{{ end }}
+            </h3>
+            <div class="flex flex-wrap gap-1.5">
+              {{ range first 5 $infra }}
+              <span class="inline-block px-2 py-0.5 rounded-md text-xs text-white font-medium"
+                    style="background-color: {{ $from }}cc;">
+                {{ . | truncate 40 "" }}
+              </span>
+              {{ end }}
+              {{ if gt (len $infra) 5 }}
+              <span class="inline-block px-2 py-0.5 rounded-md text-xs text-gray-500 bg-gray-100 font-medium">
+                +{{ sub (len $infra) 5 }} {{ if eq $lang "en" }}more{{ else }}mais{{ end }}
+              </span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          {{/* Footer: website link and PNIPE */}}
+          <div class="flex flex-wrap gap-3 pt-4 border-t border-gray-100">
+            {{ with $lab.website_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 text-sm font-medium text-white px-3 py-1.5 rounded-lg transition-opacity hover:opacity-90"
+               style="background-color: {{ $from }};">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+              {{ if eq $lang "en" }}Website{{ else }}Site{{ end }}
+            </a>
+            {{ end }}
+            {{ with $lab.pnipe_url }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-600 border border-gray-200 px-3 py-1.5 rounded-lg hover:bg-gray-50 transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+              </svg>
+              PNIPE
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

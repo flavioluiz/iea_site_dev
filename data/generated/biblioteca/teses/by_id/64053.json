@@ -1,0 +1,30 @@
+{
+  "num_tese": "64053",
+  "type": "tese",
+  "title": "Nonlinear adaptive control system for payload extraction operations",
+  "author": "Gustavo Oliveira Violato",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work covers the development of a nonlinear, adaptive control system for payload extraction operations. Load extractions are a critical type of maneuver which could make the longitudinal flight dynamics unstable. The online adaptation control strategy seems adequate for the problem, since it can deal with the drift in the plant parameters caused by the movement of the load inside the aircraft. The effects of a continuously varying C.G. position on the longitudinal flight dynamics are modeled in detail. The controller proposed consists on applying the technique of nonlinear inversion coupled with a model reference adaptive controller to deal with the unmodeled/unknown dynamics. The dynamic system considered for the control problem consists of the modeled aircraft dynamics augmented by the unknown parameters - whose dynamics are controlled by the chosen adaptation laws. The demonstration of stability for the complete system is done via Lyapunov';s stability theorem for nonlinear dynamic systems. A suitable Lyapunov Function Candidate used for such a demonstration is proposed in this work. Simulation results are presented and discussed based on the theory and on comparison with other control methods performance when applied to the same problem.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Sistemas năo-lineares",
+    "Controle adaptativo",
+    "Alijamento de cargas",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/12/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64053",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64053&origem=BDITA"
+}

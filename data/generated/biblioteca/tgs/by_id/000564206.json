@@ -1,0 +1,29 @@
+{
+  "num_tg": "000564206",
+  "type": "tg",
+  "title": "Development of feedforward control laws for gust load alleviation for the motor glider stemme S6.",
+  "author": "André Rosalen",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The present work is about a feedforward controller system for gust load alleviation due to atmosphere phenomena. This project is part of a bigger project called \"LAPAZ\" being developed at TU Berlin. The main goal is developing the required improved systems on the main virtual ones, as they are 2 points steady, quasi-steady and unsteady aerodynamics, structural dynamics, wind angle of attack determination, carbon probe boom's movement equations, realizing and testing the feedforward controller system. All the packages have been modeled, implemented in Simulink from MATLAB and tested accordingly; the results were analyzed and commented, showing accordance to what has been obtained at the references and results used as comparison from the bibliography. The feedforward controller design shows a good approximation on calculating the necessary deflections of the DLC flaps, as well as the elevator, regarding disturbances generated for the cruise flight segment of Stemme S6.",
+  "subjects": [
+    "Cargas aerodinâmicas",
+    "Atenuadores de rajadas",
+    "Cargas de rajada",
+    "Controladores",
+    "Modelos matemáticos",
+    "Teoria de controle",
+    "Controle automático",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000564206",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000564206&origem=BDITA"
+}

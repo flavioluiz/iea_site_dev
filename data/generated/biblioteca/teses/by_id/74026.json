@@ -1,0 +1,28 @@
+{
+  "num_tese": "74026",
+  "type": "tese",
+  "title": "Development of a computer program for calculating the performance of a helicopter with turboshaft engine installed",
+  "author": "Victor Okwudirichi Okoro",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The current work deals with the creation of a computer program for calculating the performance of helicopters equipped with turboshaft engines. The main attractiveness of the helicopter is its vertical take-off and landing, vertical flight, as well as its hover capabilities. These features have cemented its presence and use in urban transport, search and rescue missions, air ambulance, and close air support missions amongst other applications. In order for the rotors to generate the thrust and lift required, power must be provided by an engine. Both piston and gas turbine engines have been employed in helicopters. However, this dissertation will be restricted to the study and analysis of the performance of helicopters that employ turboshaft gas turbine engines. Helicopter performance involves comparing the power required to the power available for a variety of flight tasks and over a range of flight conditions. The result of this comparison can be interpreted into quantities such as maximum take-off weight, climb rate, hover ceiling, and range, which define the operational capabilities of the helicopter. For the purpose of this work, the Airbus Helicopter AS365 N2 Dauphin 2 which is equipped with 2 Turbomeca Arriel 1C2 engines was chosen. The power available was obtained by using the GasTurb12® software, which is capable of simulating gas turbine engine performance at both design and off-design operating conditions. The power required was obtained by creating an algorithm based on the momentum theory on MATLAB®. Subsequently, corrections were made for ground effect. Finally, an easy-to-use graphical user interface was designed using the GUIDE suite in MATLAB® to create an application capable of providing the operators with information such as hover ceiling in and out of ground effect, range at the economic cruise speed, and a graphical representation of the power curves against altitude for the aforementioned helicopter, in addition to the Airbus Helicopter EC135 T2+. The results obtained both by the initial simulations and the application were validated by comparing them with data provided by the manufacturer. The errors observed in the results were within acceptable limits, with a few exceeding 5% at higher temperatures and lower altitudes. The application developed using the methodology was used for the performance simulation of 2 different helicopters.",
+  "subjects": [
+    "Helicópteros",
+    "Motores de turbinas a gás",
+    "Avaliaçăo de desempenho",
+    "Aerodinâmica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "11/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74026",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74026&origem=BDITA"
+}

@@ -1,0 +1,34 @@
+{
+  "num_tg": "79396",
+  "type": "tg",
+  "title": "Implementaçăo de pedal de controle ativo de força no simulador de ensaios em voo do IPEV",
+  "author": "Marcello Augusto Borges Vasques",
+  "year": "2023",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luis Gustavo Moro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este documento descreve o Trabalho de Graduaçăo realizado no Instituto de Pesquisas e Ensaios em Voo (IPEV), focado em melhorar a imersăo de seu Simulador de Ensaios em Voo. O projeto consistiu na criaçăo e implementaçăo de um sistema de feedback de força ativo nos pedais de controle direcional do simulador. O objetivo era desenvolver uma plataforma de simulaçăo realista, replicando as forças experimentadas por pilotos em voo real, especialmente em manobras de controle direcional. Essa iniciativa visava năo apenas aprimorar a qualidade técnica dos simuladores, mas também oferecer um treinamento eficaz para pilotos, com um retorno tátil preciso nos comandos de pedal, preparando-os para diversos cenários de voo. Tomou-se como ponto de partida para o projeto uma análise detalhada das forças aerodinâmicas que influenciam o controle direcional em aeronaves, com foco especial nos modelos encontrados nos hangares do IPEV e que săo utilizados pelo Instituto para a realizaçăo de suas simulaçőes de Ensaios em Voo. Esta análise fundamentou o desenvolvimento de um modelo matemático considerando o ganho de força promovido pelos atuadores dos pedais que convertem o momento das forças aerodinâmicas em resistęncia aos comandos do piloto. Os atuadores em questăo săo componentes cruciais, pois săo eles que convertem as intençőes do piloto em movimentos mecânicos do leme de direçăo e, dessa forma, geram a força correspondente que o piloto sente em resposta. Para a funcionalidade desejada do sistema, foi essencial a integraçăo do software de simulaçăo de voo com o hardware dos pedais, usando MATLAB e Simulink para sincronizar com o processamento dos dados da aeronave. Essa conexăo permite aplicar modelos matemáticos aos dados do simulador e regular a relaçăo de força por deslocamento dos pedais. A etapa final, o ajuste dos ganhos do modelo no Simulink, foi crucial. Isso assegurou que a força de feedback dos pedais corresponderia ŕs experięncias reais de voo, mantendo flexibilidade para diferentes cenários e tipos de aeronaves.",
+  "subjects": [
+    "Ensaios em voo",
+    "Simuladores de voo",
+    "Controle direcional",
+    "Aerodinâmica",
+    "Controle de aeronaves",
+    "Modelos matemáticos",
+    "Atuadores",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=79396",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=79396&origem=BDITA"
+}

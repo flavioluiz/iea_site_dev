@@ -1,0 +1,36 @@
+{
+  "num_tese": "79665",
+  "type": "tese",
+  "title": "Gradient-based buckling optimization of composite plates combining a semi-analytical model and lamination parameters",
+  "author": "Rafael Pereira da Silva",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Saullo Giovani Pereira Castro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This work proposes an optimization model for composite plates submitted to buckling loads. The proposed methodology combines Rayleigh-Ritz formulation, Lamination Parameters and Gradient-Based Optimization. Three study cases are used to prove the accuracy and efficiency of the proposed methodology. The first one is a mathematical verification of the Ritz formulation against a commercial finite element software. The objective of this verification is to demonstrate the implementation produces the correct results. Second study provides optimization for four panels with different thicknesses varying the ratio of biaxial loads. The objective of the optimization is to find the pair of Lamination Parameters that maximize the buckling load of each panel under each load ratio. Then, Lamination Parameters is converted into a discrete stacking sequence, demonstrating the differences between continuous and discrete results. During this study case, the gradient based optimization method for a single panel was established. The third study case proposes a framework for optimizing a simplified wing panel. The framework is a two steps procedure, one step that optimizes panels individually and another step that feeds back to a global FEM model that redistribute loads to the panels. The objective of this study case is to make use of the Rayleigh Ritz formulation and the gradient optimization to solve a complex engineering problem. The last two studies presented results close to the literature, making the methods presented in this work as an alternative to existent methods. Moreover, an open-source Python based library called Composipy has been developed, so it can provide engineers a user-friendly way of performing composite optimization for plates under buckling loads.",
+  "subjects": [
+    "Flambagem",
+    "Materiais compósitos",
+    "Placas (membros estruturais)",
+    "Otimizaçăo",
+    "Laminaçăo",
+    "Método de Rayleigh-Ritz",
+    "Estudo de casos",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "20/02/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79665",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79665&origem=BDITA"
+}

@@ -1,0 +1,33 @@
+{
+  "num_tese": "76039",
+  "type": "tese",
+  "title": "Quasi-static translaminar fracture behavior of additively manufactured continuous carbon fiber reinforced thermoplastic",
+  "author": "Weiller Manzarotto Lamin",
+  "year": "2019",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "3D printing is a trending technology that arises in the 80's, opening the opportunities for new concepts of materials and manufacturing. Recently, fiber composites materials become commercially available in 3D printing, as for instance continuous carbon fiber with a thermoplastic matrix. The goal of this research is to investigate the translaminar fracture behavior of a 3D printed continuous carbon-nylon fiber composite, utilizing linear elastic fracture mechanics hypothesis, determining the required properties of opening mode translaminar fracture toughness (KIc) and energy release rate (GIc) of the proposed material. This investigation was conducted by experimental tests and numerical modeling (finite elements). The specimen type chosen is the double edge notched (DEN) with stack sequence configuration of unidirectional (only laminas with fibers at 90° from the load direction) and cross-ply (laminas with fibers at 0° and 90° from the load direction), both symmetrical. The specimens utilized in this study were obtained of manufactured plates by FFF technique (Fused Filament Fabrication). The plates were cut over the edges with a carbon fiber composites cutter machine and the final crack was produced with a razor blade. Non-Destructive Tests (NDT) and observation of the crack tip was done by the stereoscope. The tensile tests were performed in order to provide the load per displacement curve and the obtained data were post-processed. KIc and GIc were calculated through ASTM STP 410 standard equations, linear elastic finite element data and strain calculation with the video gage data by Digital Image Correlation (DIC). Fractographic analyses were also executed, in view of a better perception of the failure mechanisms. As a result, KIc and GIc values are presented for unidirectional/cross-ply laminates and for laminas at 0° and 90° of fiber angle from the applied load. These stacking and ply orientations are common since they are symmetrical and specially orthotropic laminates, not available in the present literature for 3D printed carbon-nylon fiber. This work also presents the material behavior on a microscope scale through fractography. With these results, applications in damage models can be performed with the material here proposed.",
+  "subjects": [
+    "Termoplásticos reforçados com fibra de carbono",
+    "Resistęncia ŕ fratura",
+    "Materiais compósitos",
+    "Impressăo tridimensional",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "24/06/2019",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76039",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76039&origem=BDITA"
+}

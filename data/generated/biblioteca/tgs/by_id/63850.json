@@ -1,0 +1,33 @@
+{
+  "num_tg": "63850",
+  "type": "tg",
+  "title": "Estudo de confiabilidade para reparáveis eletrônicos da frota do F-5",
+  "author": "Igor Pires de Melo Braga",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Armando Zeferino Milioni",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcelo de Araújo Fahrat",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Esse artigo apresenta o conceito de confiabilidade através do trabalho realizado com os caças F-5 do Comando da Aeronáutica (COMAER) no (Parque de Material Aeronáutico de Săo Paulo) PAMASP. O PAMASP é o local onde aeronaves como F-5 e o C-105 Amazonas săo mantidos. No programa do F-5, a FAB terceirizou os serviços de manutençăo de 28 itens aviônicos da aenonave com uma empresa privada. Uma das cláusulas do Contrato de Suporte Logístico, CLS, versa sobre a confiabilidade dos itens acima de um nível mínimo, ou seja, acima de um certo Mean Time Between Failure-MTBF. Esse trabalho tem a preocupaçăo de encontrar os MTBF';s de campo dos itens, ou seja, procurar nos dados de manutençăo das aeronaves as horas de operaçăo destes, contabilizando o número de falhas que ocorreram num determinado período de tempo. Assim, é possivel de se calcularem os parâmetros de confiabilidade para os itens. As açőes corretivas estăo de acordo com o esperado, se os MTBF';s estăo de acordo com os mínimos estabelecidos. De outra forma, a empresa contratada precisa garantir os mínimos, ou reestabelecę-los. A forma mais fácil de achar valores de MTBF foi usando o software da Reliasoft. Sendo o cálculo simples, foi usada uma versăo demo do software gratuitamente fornecida para o autor numa palestra da empresa. Com os parâmetros que determinam a curva de Weibull para cada item (part numbers), podem-se prever freqűencia e caracterísiticas das falhas, ajudando a definir açőes de manutençăo mais eficientes.",
+  "subjects": [
+    "Manutençăo de aeronaves",
+    "Serviços contratados",
+    "Confiabilidade",
+    "Detecçăo de falhas",
+    "Reconhecimento de padrőes",
+    "Aviônica",
+    "Engenharia aeronáutica",
+    "Engenharia eletrônica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63850",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63850&origem=BDITA"
+}

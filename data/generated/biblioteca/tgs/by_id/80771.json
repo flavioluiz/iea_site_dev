@@ -1,0 +1,34 @@
+{
+  "num_tg": "80771",
+  "type": "tg",
+  "title": "Exploitation of sublook tomography for the retrieval of 3-D point clouds in urban environments with high-resolution spaceborne SAR data",
+  "author": "Luísa Dallmann",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Renato Machado",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pau Prats",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Sublook SAR Tomography (SBT) is a recent technique that exploits the wide bandwidth of the signal transmitted by Synthetic Aperture Radar (SAR) to retrieve the vertical reflectivity profile of semitransparent media. In urban environments, although volumetric scattering generally does not occur, layover effects are frequent due to the geometric complexity of structures. Conventional tomographic approaches for resolving layover typically require multiple SAR acquisitions with diverse baselines. In contrast, SBT can extract this information using only two images, significantly reducing the amount of data required. This work investigates the application of SBT for layover mitigation in urban areas using real spaceborne data. To this end, the performance of SBT is evaluated using TerraSAR-X data over a region of Las Vegas, comparing two inversion methods: a classical spectral estimator (Fourier beamforming) and the SL1MMER algorithm, based on compressive sensing and suitable for sparse profile reconstruction. The implementation of SL1MMER enabled the estimation of heights, the recovery of multiple scatterers, and the identification and separation of targets in height. The comparison between SBT and conventional tomography also allowed assessing the limitations imposed by the reduced vertical resolution inherent to the SBT method. Practical constraints were discussed as well, along with its application potential and prospects for improvement.",
+  "subjects": [
+    "Radar de abertura sintética",
+    "Tomografia",
+    "Processamento de imagens",
+    "Processamento de dados",
+    "Órbitas",
+    "Mobilidade urbana",
+    "Algoritmos",
+    "Engenharia eletrônica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80771",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80771&origem=BDITA"
+}

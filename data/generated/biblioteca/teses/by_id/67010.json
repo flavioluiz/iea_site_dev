@@ -1,0 +1,31 @@
+{
+  "num_tese": "67010",
+  "type": "tese",
+  "title": "Single-point transition modeling using the laminar kinetic energy concept",
+  "author": "Icaro Augusto Accordi",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work investigates transition to turbulence using laminar kinetic energy modeling based in single-point RANS approach. The transport equations are discretized using the cell centered control-volume method and the system of algebraic equations is relaxed using SIMPLE algorithm. A modified version of the most known laminar kinetic energy model is proposed and compared with the original version and with an experimental correlation transition model. The numerical results show that the laminar kinetic energy approach has reasonable experimental correlation. The modified version presents improvements in prediction of skin friction coefficient in pressure gradients flows. Laminar kinetic energy model showed weakness when dealing with detached induced transition. Probably the cause of that is the lack of physical modeling of this phenomenon. Laminar kinetic energy modeling is in continuous evolution and is a good alternative to deal with engineering simulation that needs a good prediction of wall shear stress in transitional flows.",
+  "subjects": [
+    "Estado de transiçăo",
+    "Escoamento laminar",
+    "Escoamento turbulento",
+    "Simulaçăo computadorizada",
+    "Dinâmica dos fluidos computacional",
+    "Coeficiente de atrito",
+    "Energia cinética",
+    "Física"
+  ],
+  "defense_date": "29/06/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67010",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67010&origem=BDITA"
+}

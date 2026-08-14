@@ -1,0 +1,34 @@
+{
+  "num_tese": "000419772",
+  "type": "tese",
+  "title": "Controle de um sistema com apęndices flexíveis usando redes neurais.",
+  "author": "Wilson Rios Neto",
+  "year": "1998",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    },
+    {
+      "name": "Cairo Lúcio Nascimento Júnior",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O trabalho apresenta a implementaçăo de redes neurais para controle de estruturas flexíveis unconstrained, com o intuito de realizar o controle ativo das vibraçőes induzidas pelo controle de posiçăo. Os estudos experimentais estăo sendo realizados no laboratório de dinâmica ITA-IEMP, utilizando uma estrutura multicorpo composta por dois apęndices flexíveis engastados a um cubo central, acionado por um motor DC. A aquisiçăo de dados é realizada através de dois acelerômetros piezoelétricos localizados nas extremidades dos apęndices, dois extensômetros colocados ao longo dos apęndices em pontos conhecidos, um sinal tacométrico e um potenciômetro para medir a posiçăo angular do cubo. A estrutura de controle adaptativo inverso utilizada foi a Feedback-Error-Learning. Esta abordagem utiliza a saída de um controlador feedback (previamente sintonizado e com parâmetros fixados) para adaptar uma rede neural linear que atua como um controlador feedforward. Mostramos que, sob certas condiçőes, a rede neural converge para o modelo dinâmico inverso atrasado da planta e gradualmente passa a exercer a maior parte da açăo de controle.",
+  "subjects": [
+    "Controle automático",
+    "Corpos flexíveis",
+    "Redes neurais",
+    "Análise estrutural",
+    "Controle adaptativo",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "1998",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000419772",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000419772&origem=BDITA"
+}

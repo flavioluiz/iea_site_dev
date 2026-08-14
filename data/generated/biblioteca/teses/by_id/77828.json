@@ -1,0 +1,28 @@
+{
+  "num_tese": "77828",
+  "type": "tese",
+  "title": "Modelagem elétrica e térmica por homogeneizaçăo numérica da conversăo de compósitos fibra de carbono/resina termorrígida em compósitos de carbono reforçado com fibras de carbono",
+  "author": "Joăo Paula Santos Pires",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Claudio Pardini",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Na indústria aeroespacial, em razăo de rígidas demandas mecânicas e térmicas, a utilizaçăo de materiais termoestruturais, dentre os quais se destacam os compósitos de carbono reforçado com fibras de carbono (CRFC), tem sido amplamente consolidada. Uma das possibilidades de processamento desses compósitos é o uso de matrizes termorrígidas, nas quais se verifica, mediante tratamento térmico, a conversăo do material isolante (resina termorrígida) em condutor (carbono vítreo). Durante a manufatura desses compósitos, a carbonizaçăo resulta em evoluçőes na microestrutura e na morfologia, ocasionando mudanças em seu comportamento termoelétrico. No presente trabalho, o método da homogeneizaçăo numérica foi implementado a partir da teoria de cossenos diretores com o objetivo de investigar e avaliar as mudanças nas propriedades elétricas e térmicas de compósitos de fibras de carbono/resina furfurílica quando convertidos em compósitos CRFC. As modelagens matemáticas foram realizadas ao longo de perfis de carbonizaçăo de 200 a 1000 °C, e as propriedades da fibra de carbono e da matriz termorrígida foram estimadas com base na literatura de referęncia. Dois tipos de compósitos CRFC foram avaliados, unidirecional e bidirecional, e o conceito de cossenos diretores foi utilizado para a avaliaçăo termoelétrica em qualquer direçăo de análise. De modo a avaliar a anisotropia inerente aos compósitos de CRFC, tensores de condutividade elétrica/térmica foram utilizados como ferramenta para a resoluçăo tridimensional do problema. O aumento da condutividade elétrica em funçăo da temperatura é o que representa efetivamente a dinâmica da conversăo da resina furfurílica em carbono vítreo. A condutividade térmica, que diminui para temperaturas de tratamento térmico progressivamente mais elevadas, também representa a dinâmica do processo de pirólise dos compósitos CRFC. Os resultados numéricos obtidos via homogeneizaçăo numérica para os compósitos do presente trabalho mostraram concordância com dados da literatura de referęncia, certificando os modelos teóricos de avaliaçăo.",
+  "subjects": [
+    "Materiais compósitos",
+    "Fibras de carbono",
+    "Homogeneidade",
+    "Análise numérica",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "12/05/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77828",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77828&origem=BDITA"
+}

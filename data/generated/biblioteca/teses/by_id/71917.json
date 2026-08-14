@@ -1,0 +1,30 @@
+{
+  "num_tese": "71917",
+  "type": "tese",
+  "title": "Laminar and turbulent free convection in composite geometries using the thermal non-equilibrium model",
+  "author": "Caio Beraldo Masciarelli",
+  "year": "2016",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents the analysis about natural convection in two composite geometries, a square cavity and a concentric annulus, both being two-dimensional horizontal, isothermally heated at the left side or at the inner cylinder, cooled from the opposing one or at the outer cylinder, insulated from the other faces, using the laminar and standard turbulent regime flow models, and both the one-energy equation and two-energy equation models, namely, Thermal Equilibrium Model and Thermal Non-Equilibrium Model. The composite geometries are equally divided and formed by three distinct regions, namely, clear, porous and solid region. Such structure can be used as a passive thermal control device to modulate heat transfer and has great industrial applicability. The transport equations are discretized using the control-volume method aided by the double decomposition idea. The system of algebraic equations is relaxed via the SIMPLE algorithm. The wall treatment applied is the high Reynolds standard turbulent model. It was found that the fluid begins to permeate the porous medium for values of Rayleigh number greater than 106 for the square cavity and 104 for the annulus. Nusselt number values show that for the range of Rayleigh analysed there are no significant variation between the laminar/turbulent and both the energy equation models solutions, although there is a significant difference between the one and two-energy equation models results when the flow gets more intense and/or the porous material becomes more permeable. For instance, the difference between both the energy models on the Nusselt number for a Rayleigh number of 1012 is 3.84%. When comparing the effects of Rayleigh number, Darcy number, porosity and thermal conductivy ratio between the solid and fluid phases on the Nusselt number, results indicate that the solid phase properties have a greater influence in enhancing the overall heat transferred through the geometry.",
+  "subjects": [
+    "Convecçăo natural",
+    "Transferęncia de calor",
+    "Escoamento através de meio poroso",
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "01/07/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71917",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71917&origem=BDITA"
+}

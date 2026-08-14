@@ -1,0 +1,29 @@
+{
+  "num_tese": "63018",
+  "type": "tese",
+  "title": "Projeto preliminar e análises dinâmicas da estrutura do satélite ITASAT-1",
+  "author": "Eli de Souza Junior",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Airton Nabarrete",
+      "professor_slug": "airton-nabarrete"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta análises dinâmicas da estrutura preliminar do satélite universitário ITASAT-1. O satélite foi concebido como uma plataforma multimissăo para aplicaçőes científicas. A plataforma tem forma cúbica e o flange adaptador tem formato cilíndrico. O projeto do satélite prevę massa máxima de 100 kg e a mesma foi considerada nas análises numéricas de forma a atender requisitos de rigidez e de resistęncia mecânica. O satélite possui painéis solares fixos em todas as faces externas e a arquitetura mecânica interna consiste de um cilindro que liga o painel da base inferior ŕ plataforma central. O veículo lançador escolhido como referęncia para os cálculos foi o PSLV da Índia. O manual do lançador traz uma série de requisitos a serem cumpridos pela estrutura do satélite e o requisito de frequęncias naturais mínimas foi o maior desafio da fase preliminar. Como năo há experimento, foi adotado um fator de amortecimento modal mínimo. As análises estruturais foram executadas pelo método dos elementos finitos, mais especificamente, análise modal, resposta senoidal em frequęncia e resposta aleatória. Para as análises estăo descritos os carregamentos utilizados e após a obtençăo dos resultados destas, foi possível verificar o projeto preliminar da estrutura e definir as mudanças necessárias para se cumprir os requisitos do lançador. Especificamente, como resultados alcançados neste trabalho temos as frequęncias naturais do conjunto e as aceleraçőes dos principais equipamentos embarcados como funçăo da frequęncia de excitaçăo. Para avaliar os resultados, foi proposta uma especificaçăo de ambiente preliminar, entretanto observamos que as respostas obtidas violaram especificaçőes propostas. Portanto, uma análise de sensibilidade foi realizada e um aumento no valor do fator de amortecimento modal foi necessário para poder atender as especificaçőes.",
+  "subjects": [
+    "Análise modal",
+    "Análise estrutural dinâmica",
+    "Satélites artificiais",
+    "Método de elementos finitos",
+    "Engenharia estrutural",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "26/05/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63018",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63018&origem=BDITA"
+}

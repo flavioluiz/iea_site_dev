@@ -1,0 +1,36 @@
+{
+  "num_tese": "67698",
+  "type": "tese",
+  "title": "Desenvolvimento de ferramenta computacional para avaliar o desempenho de turbinas a gás com resfriamento",
+  "author": "Janaina Ferreira da Silva",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cleverson Bringhenti",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Márcio Teixeira de Mendonça",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O desempenho de turbinas a gás pode ser melhorado através do aumento da temperatura do escoamento na entrada da turbina. Porém, há uma temperatura máxima na qual o material pode operar sem que ocorram danos e comprometimento da vida útil do mesmo. Acima desta temperatura limite, torna-se necessário fazer o resfriamento do material. O resfriamento das pás e discos da turbina é feito através do ar extraído do compressor. O fluido refrigerante é ejetado no escoamento principal (circuito aberto) após passar pelo interior da pá e trocar calor com a superfície da mesma. A ejeçăo é feita através de fendas no bordo de fuga, furos no topo da pá e/ou através de diversos furos ao longo da superfície da pá. Após o fluido refrigerante ser misturado com o escoamento principal, ocorre uma diminuiçăo da temperatura do gás e, consequentemente, uma reduçăo da potęncia/empuxo do motor. A quantidade de fluido refrigerante necessária para o resfriamento está diretamente relacionada ao limite de temperatura do material, ŕ técnica de resfriamento utilizada e aos requisitos de operaçăo do motor e tem efeito direto nos parâmetros de desempenho do motor. Um programa computacional, denominado CTurb, foi desenvolvido para auxiliar na escolha da técnica de resfriamento, na estimativa da quantidade de fluido refrigerante a ser extraída e na análise de desempenho de motores com turbinas resfriadas. Os métodos de Young e Wilcock e Horlock, Watson e Jones foram implementados para a estimativa da vazăo do ar de resfriamento e para o cálculo das perdas associadas ao resfriamento. A análise do efeito do resfriamento no desempenho do motor foi feita através da implementaçăo do CTurb no programa de cálculo de ciclo GTAnalysis. Os resultados obtidos apresentaram boa concordância com resultados disponíveis na literatura aberta e demonstraram a importância de considerar o resfriamento nas estimativas de desempenho de ciclos com resfriamento da turbina.",
+  "subjects": [
+    "Turbinas a gás",
+    "Pás de rotores",
+    "Refrigerantes do motor",
+    "Resfriamento",
+    "Desempenho",
+    "Simulaçăo computadorizada",
+    "Motores de turbinas a gás",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67698",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67698&origem=BDITA"
+}

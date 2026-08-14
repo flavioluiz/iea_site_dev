@@ -1,0 +1,30 @@
+{
+  "num_tg": "73881",
+  "type": "tg",
+  "title": "Posicionamento de tarefas paralelas considerando tráfego de memória.",
+  "author": "Matteus Bueno Caprecci",
+  "year": "2017",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Fábio Carneiro Mokarzel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jairo Panetta",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O Paralelismo de Tarefas vem recentemente ganhando cada vez mais atençăo. Isso ocorre, pois, esse paradigma de paralelismo apresenta potencialmente diversas vantagens, principalmente no contexto de paralelismo em sistemas de memória compartilhada ou com arquitetura NUMA (Acesso Năo-uniforme a Memória). Como exemplo do aumento da atençăo sobre o Paralelismo de Tarefas, diretivas que implementam paralelismo de tarefas foram incorporadas ao Padrăo OpenMP recentemente e continuam sendo desenvolvidas por diversos grupos de pesquisa ao redor do mundo. Entre as possíveis vantagens do paralelismo de tarefas destacam-se a maior facilidade na expressăo de paralelismo, maior simplicidade na implementaçăo de computaçăo organizada por fluxo de dados, maior facilidade para se trabalhar em sistemas com arquitetura heterogęnea (e.g. CPU + GPU) e o potencial de se obter maior desempenho, em relaçăo por exemplo a tradicional abordagem Fork-Join. No presente trabalho iremos explorar algumas dessas potencialidades. Para tanto aplicaremos o modelo de programaçăo OmpSs, utilizando paralelismo de tarefas, no problema de paralelizaçăo do Crivo de Erastotenes. Foram implementadas algumas variaçőes do crivo que fazem uso de computaçăo organizada por fluxo de dados e otimizaçőes para viabilizar o re-uso de cache. Avaliou-se a performance de cada uma dessas implementaçőes em termos de complexidade de desenvolvimento e performance. Finalmente a eficięncia do Scheduler do Runtime do OmpSs (Nanox) para o problema proposto foi analisada assim como as limitaçőes e oportunidades desse tipo de paralelismo.",
+  "subjects": [
+    "Processamento em paralelo (computadores)",
+    "Programaçăo paralela",
+    "Arquitetura (computadores)",
+    "Análise de fluxo de dados",
+    "Computaçăo"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=73881",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=73881&origem=BDITA"
+}

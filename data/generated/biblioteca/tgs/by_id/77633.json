@@ -1,0 +1,25 @@
+{
+  "num_tg": "77633",
+  "type": "tg",
+  "title": "Resolvent analysis of a boundary layer flow over a flat plate",
+  "author": "Rafael Felipe Terres Queiroz",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work sets out to use the resolvent formulation to study and understand the linear stability in an incompressible flow, where we assume the system is forced by the non-linear terms in the Navier-Stokes equations. We have developed a comprehensive approach, where we start by laying the foundations of the problem, with some basic governing equations and operators derived from the Navier-Stokes system of equations, highlighting the key considerations for solving a linear stability problem. Then we developed a step-by-step, sort of building-up the tools to approach the final problem. This complete problem consists of a Blasius boundary layer base-flow with one homogeneous and two inhomogeneous directions, where the boundary layer thickness varies along the streamwise component x. We have used Chebyshev discretization for the wall-normal direction y and Fourier in the streamwise direction x. The problem was homogeneous in the spanwise direction z with an wavenumber ?. Two methodologies were used to analyze the stability with the resolvent formulation, i) the more widespread matrix inversion approach, followed by a Singular Value Decomposition and ii) the Arnoldi iteration method, consisting in an eigenvalue algorithm to calculate the optimal gains and forcings / responses of the system. Overall, we found all the results to be very meaningful in a physical sense and in agreement with the literature.",
+  "subjects": [
+    "Escoamento incompressível",
+    "Análise de estabilidade",
+    "Equaçőes de navier-stokes",
+    "Placas planas",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77633",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77633&origem=BDITA"
+}

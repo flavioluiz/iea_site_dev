@@ -1,0 +1,27 @@
+{
+  "num_tg": "78001",
+  "type": "tg",
+  "title": "Modelo aeroestrutural de baixo custo computacional para otimizaçăo de aeronaves",
+  "author": "Filipe Moreira Brandăo Guedes de Brito",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ney Rafael Sęcco",
+      "professor_slug": "ney-rafael-secco"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo do trabalho é avaliar diferentes estratégias de acoplamento de modelos aerodinâmicos e estruturais para aplicaçăo em otimizaçőes de baixo custo computacional que podem ser empregadas em fases iniciais de projeto de aeronaves. Tal acoplamento se dá por meio de transferęncias de deslocamentos do modelo estrutural para o modelo aerodinâmico e de transferęncias de cargas do modelo aerodinâmico para o modelo estrutural. Os diferentes meios de acoplamento serăo avaliados com base em sua precisăo numérica e custo computacional. Para esse trabalho, o modelo estrutural será baseado em elementos finitos de viga de doze graus de liberdade, enquanto que o modelo aerodinâmico vai ser apoiar na teoria da linha sustentadora generalizada, o qual permite o estudo de enflechamento e diedro. Espera-se que, ao final do trabalho, tenha-se um modelo de acoplamento definido e implementado em um código de otimizaçăo aeroestrutural.",
+  "subjects": [
+    "Projetos de aeronaves",
+    "Otimizaçăo",
+    "Modelo estrutural",
+    "Estruturas de aeronaves",
+    "Acoplamento",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78001",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78001&origem=BDITA"
+}

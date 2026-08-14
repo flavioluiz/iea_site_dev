@@ -1,0 +1,27 @@
+{
+  "num_tg": "78825",
+  "type": "tg",
+  "title": "Study of multiple-stage trajectories from the SL1 to SL4 points using solar sails",
+  "author": "Ana Letícia de Lima dos Santos",
+  "year": "2022",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents a study on the use of a solar sail as the propulsion system for transfer trajectories of a spacecraft under the influence of the Sun and the Earth. The starting point is the artificial equilibrium point SL1, and the objective is to reach SL4 in the lowest possible time and final velocity. The solar sail is considered a perfectly reflecting surface that converts the solar radiation pressure into a force that propels the spacecraft, and the ratio between the acceleration due to the solar pressure and the gravitational acceleration is an efficiency called lightness number, which is represented by $\\beta$. Besides this parameter, two are important: the orientation angles, ? and ?, which are, respectively, the sail's pitch and clock angle. The spacecraft dynamic is analyzed from the perspective of the Restricted Three-Body Problem model, adding the acceleration due to the propulsion system. To find the possible trajectories, shooting methods were used. They allowed the study of how a different number of stages would affect the final point of the trajectory, and at what speed the spacecraft would arrive. With a better understanding of it, it was possible to analyze which criteria should be prioritized while calculating low cost transfer solutions.",
+  "subjects": [
+    "Problema de tręs corpos",
+    "Velas Solares",
+    "Órbitas",
+    "Sistemas de propulsăo",
+    "Mecânica celeste",
+    "Astronomia",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78825",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78825&origem=BDITA"
+}

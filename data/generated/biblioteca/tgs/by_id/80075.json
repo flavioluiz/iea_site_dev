@@ -1,0 +1,25 @@
+{
+  "num_tg": "80075",
+  "type": "tg",
+  "title": "Modelos de ordem reduzida para escoamentos turbulentos em dutos",
+  "author": "Joăo Artur Arminger Raabe",
+  "year": "2024",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma metodologia para o desenvolvimento de modelos de ordem reduzida (ROMs) para a simulaçăo computacional de escoamentos turbulentos confinados a dutos circulares é proposta. Primeiramente, o operador resolvente do sistema de equaçőes de Navier-Stokes linearizado em coordenadas polares é obtido. Entăo, é realizada a Decomposiçăo em Valores Singulares (SVD) deste operador, o que fornece as respostas mais amplificadas do sistema, bem como suas respectivas amplificaçőes. Estas respostas e amplificaçőes săo entăo utilizadas para a construçăo do Gramiano de controlabilidade, que é também decomposto em valores singulares, o que produz uma série de modos de controlabilidade. Estes modos de controlabilidade săo entăo utilizados como uma base ortonormal sobre a qual as equaçőes de Navier-Stokes podem ser projetadas segundo uma projeçăo de Galerkin, transformando o sistema de equaçőes diferenciais parciais em um sistema de equaçőes diferenciais ordinárias, o qual pode ser resolvido numericamente por ferramentas como o MATLAB com custo computacional desprezível, produzindo uma aproximaçăo da dinâmica real. Os resultados de tais simulaçőes săo pós-processados em MATLAB, construindo-se gráficos dos perfis de velocidade do escoamento. Estes resultados săo validados com base em DNSs realizadas com o programa Openpipeflow.",
+  "subjects": [
+    "Escoamento turbulento",
+    "Dutos",
+    "Turbulęncia",
+    "Equaçőes de navier-stokes",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80075",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80075&origem=BDITA"
+}

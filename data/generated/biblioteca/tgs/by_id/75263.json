@@ -1,0 +1,25 @@
+{
+  "num_tg": "75263",
+  "type": "tg",
+  "title": "Otimizaçăo de constelaçăo de satélites através de algoritmo genético para a maximizaçăo da área de cobertura",
+  "author": "Alexander Keniti Minagawa",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Pedro Kukulka de Albuquerque",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma metodologia para maximizar a área coberta por uma constelaçăo de satélites, a otimizaçăo é feita através de um algoritmo genético. A constelaçăo de satélites é um conjunto de satélites que orbitam um determinado corpo celeste, no caso mais comum a Terra, com uma determinada finalidade, sendo que no caso deste trabalho será a cobertura de uma certa área. Porém ao se lançar os satélites no espaço deve-se saber quais săo os elementos orbitais de cada um para que assim seja possível fixar a sua trajetória, logo as combinaçőes possíveis săo infinitas. Com base neste problema será utilizado um algoritmo que encontrará a melhor combinaçăo de maneira a maximizar a área de cobertura estudada. O algoritmo é chamado de genético pois sua lógica é baseada na teoria da evoluçăo.",
+  "subjects": [
+    "Satélites",
+    "Algoritmos genéticos",
+    "Otimizaçăo",
+    "Observaçăo por satélites",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75263",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75263&origem=BDITA"
+}

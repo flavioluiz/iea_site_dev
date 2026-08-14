@@ -1,0 +1,33 @@
+{
+  "num_tg": "80705",
+  "type": "tg",
+  "title": "Plugin for analysis and monitoring of simulation in the Arena Concept.IO",
+  "author": "Marcus Gabriel de Almeida Nunes",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Lucas Oliveira Barbacovi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "abstract": "This work aims to develop a plugin for the Arena Concept.IO simulation platform, designed to integrate monitoring, metrics analysis, and machine learning within a Systems Engineering environment. The system was developed to collect and process data transmitted during simulations, recording them in structured files through a logging module, which allows for the assessment of mission performance and the identification of operational patterns based on predefined metrics. The collected information served as the basis for training a supervised model using the k-Nearest Neighbors algorithm, capable of classifying missions into success, partial failure or total failure categories. The results indicate that the model can recognize recurring behaviors and infer mission effectiveness, validating the use of machine learning as a support tool for the automated analysis of simulations. The plugin also incorporates an interactive dashboard that enables the visualization of simulated entities and their evolution over time. In light of these findings, the feasibility of integrating simulation and machine learning is confirmed, highlighting the potential of the proposed approach to support requirements verification and validation as well as the performance analysis of complex systems. The plugin can also be employed for failure studies and the optimization of operational strategies, serving as a foundation for future expansions in more complex and multidomain scenarios.",
+  "subjects": [
+    "Veículos pilotados remotamente",
+    "Engenharia de sistemas",
+    "Sistemas complexos",
+    "Simulaçăo computadorizada",
+    "Monitoramento",
+    "Aprendizagem (inteligęncia artificial)",
+    "Computaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80705",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80705&origem=BDITA"
+}

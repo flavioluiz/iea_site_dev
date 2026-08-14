@@ -1,0 +1,33 @@
+{
+  "num_tg": "000539885",
+  "type": "tg",
+  "title": "Metodologia para identificaçăo de derivadas de estabilidade em tempo real via filtro de Kalman.",
+  "author": "Luís Gustavo de Oliveira Rodrigues",
+  "year": "2005",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Elder Moreira Hemerly",
+      "professor_slug": null
+    },
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho busca desenvolver uma metodologia para a identificaçăo dos parâmetros aeronáuticos (derivadas de estabilidade), em tempo real, do movimento longitudinal de período curto de uma aeronave. Essa metodologia tem seu desenvolvimento inteiramente voltado para a aplicaçăo em ensaios em vôo e está adaptada ao ambiente da seçăo de telemetria da Divisăo de Ensaios em Vôo do CTA (CTA/IAE/AEV/AEV-T), onde a utilizaçăo do produto final deste trabalho poderá ser implantada. As equaçőes do movimento longitudinal de uma aeronave săo apresentadas ao leitor para uma introduçăo mais gradual do assunto. Discorre-se ainda sobre os métodos Output Error e Filter Error, com a intençăo de justificar-se a escolha do último para os objetivos almejados. Alguns resultados e exemplos săo apresentados na extensăo de todo o trabalho, fruto de um grande esforço em ilustrar os passos que se tomam em cada etapa da pesquisa. Para tal, o uso do software MATLAB® na confecçăo e otimizaçăo do programa em que se aplica a metodologia desenvolvida foi imprescindível e certamente motivador. Os resultados foram gerados a partir de dados simulados para a aeronave AT-26 XAVANTE e possibilitaram um aprofundamento sensível na questăo da identificaçăo em tempo real.",
+  "subjects": [
+    "Controle de aeronaves",
+    "Filtros de Kalman",
+    "Identificaçăo de parâmetros",
+    "Derivadas de estabilidade",
+    "Controle longitudinal",
+    "Operaçăo em tempo real",
+    "Ensaios em vôo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000539885",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000539885&origem=BDITA"
+}

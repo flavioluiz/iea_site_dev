@@ -1,0 +1,29 @@
+{
+  "num_tese": "76755",
+  "type": "tese",
+  "title": "Development of a detailed numerical model of the Fe2O3-2Al thermite reaction as a contribution to a new technology for plug and abandonment of wells",
+  "author": "Kesiany Máxima de Souza",
+  "year": "2020",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A thermite reaction is a self-propagating highly exothermic reaction that requires low energy consumption and can react in oxygen-free environments. These properties have allowed thermite to be applied, traditionally, in the welding process, material synthesis, pyrotechnic, and initiator technologies. In the last few years, thermite has gained attention in challenging environments such as the oil and gas field, where it can be an innovative technology for the plug and abandonment process of wells. However, to make this a viable application, a lot of research still needs to be done. As the physicochemical mechanisms that govern a thermite reaction are not yet completely understood due to the complexity of obtaining experimental data on such a fast reaction with high temperatures, numerical studies are the key to predict its behavior. This challenge induced the present study in modeling the common hematite-aluminum thermite reaction to predict the temperature levels and to model the burning velocities at different configurations. Therefore, the equations of species and energy conservation were solved by applying a finite difference method, considering some assumptions such as no species transport and a one-step mechanism. The Arrhenius equation was adopted to model the kinetics rate, and also some phase changes where considered, besides the temperature dependence of the thermochemical properties whenever there was data. Due to the lack of experimental data, the kinetics parameters were initially calibrated to match the few burning velocity data found in the literature. The simulations have shown that, for this thermite system, the peak temperature expected behind the reaction wave is the fusion temperature of alumina, which is one of the reaction products. Then, the effects of the Arrhenius parameters were investigated and it has shown that an increase of the activation energy decreases the burning velocity, while an increase of the pre-exponential factor shows the opposite effect. Aluminum-rich and alumina-diluted mixtures also have shown opposite effects on velocity: while the addition of aluminum increases the burning velocity, the dilution decreases it. Moreover, the dilution of the thermite mixture makes it more difficult to ignite, and it can even prevent the self-sustained process. Finally, two well abandonment scenarios with the application of thermite were investigated. In the first one, where thermite is applied to melt the well-casing and form a final plug against the formation, the simulations have shown that the thermite reaction diffuses enough heat to induce high temperatures at the casing and reach the fusion range of the material, although it was not observed a completed fusion. In the second scenario, where thermite is applied with the single purpose of melting the production tube, the simulations have shown that the analyzed thermite reaction shall be enough to induce high temperatures and completely melt the tubbing material.",
+  "subjects": [
+    "Reaçőes químicas",
+    "Oxidaçăo",
+    "Alumínio",
+    "Abandono",
+    "Físico-Química",
+    "Engenharia química"
+  ],
+  "defense_date": "05/03/2020",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=76755",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=76755&origem=BDITA"
+}

@@ -1,0 +1,25 @@
+{
+  "num_tg": "77641",
+  "type": "tg",
+  "title": "Estudo da transiçăo de estados ŕ partir das derivas de estabilidade e controle para uma aeronave de asas rotativas",
+  "author": "Erlano Guimarăes Cordeiro",
+  "year": "2020",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Ronaldo Vieira Cruz",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho apresenta uma análise dos efeitos da variaçăo de condiçăo de voo para a estabilidade dinâmica de uma aeronave de asas rotativas. Para isso, foram utilizados os dados das derivadas de estabilidade do helicóptero BO-105C, variando os parâmetros de velocidade a frente, razăo de subida, altitude, peso e posiçăo do centro de gravidade. Foi utilizado o modelo de dinâmica de voo linearizado com seis graus de liberdade, considerando as dinâmicas longitudinais e látero-direcionais desacopladas. Inicialmente é feita uma análise do comportamento das derivadas de estabilidade e sua influęncia para a estabilidade estática da aeronave. Em seguida, a partir dos valores de amortecimento e frequęncia natural e do Lugar Geométrico das Raízes (LGR) dos polos dos modos dinâmicos fugóide, período curto, dutch roll, rolamento e espiral, foi feita a análise do comportamento de cada modo mediante a variaçăo de condiçăo de voo, podendo por fim determinar as condiçőes mais críticas para o voo.",
+  "subjects": [
+    "Helicópteros",
+    "Estabilidade",
+    "Dinâmica de voo",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77641",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77641&origem=BDITA"
+}

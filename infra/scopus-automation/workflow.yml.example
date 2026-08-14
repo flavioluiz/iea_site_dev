@@ -1,0 +1,110 @@
+name: Scopus monthly update
+
+on:
+  schedule:
+    - cron: "23 5 7 * *"
+  workflow_dispatch:
+    inputs:
+      professor:
+        description: "ID canônico opcional para teste parcial"
+        required: false
+      dry_run:
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scopus-private-runner
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.SCOPUS_AUTOMATION_ENABLED == 'true' }}
+    # Este arquivo pertence ao repositório PRIVADO iea_data_automation.
+    # O label deve existir apenas no runner isolado dentro da rede do ITA.
+    runs-on: [self-hosted, ita-scopus]
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Create disposable workspace
+        run: |
+          staging="$(mktemp -d)"
+          echo "STAGING_DIR=${staging}" >> "${GITHUB_ENV}"
+          git clone --depth 1 https://github.com/flavioluiz/iea_site_dev.git "${staging}/site"
+          python3 -m venv "${staging}/venv"
+          "${staging}/venv/bin/pip" install --disable-pip-version-check -r scripts/requirements-scopus.txt -r "${staging}/site/scripts/requirements-cms.txt"
+      - name: Fetch through institutional network
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
+          SCOPUS_INST_TOKEN: ${{ secrets.SCOPUS_INST_TOKEN }}
+          REQUESTED_PROFESSOR: ${{ inputs.professor }}
+        run: |
+          professor_args=()
+          full_args=(--full)
+          if [[ -n "${REQUESTED_PROFESSOR}" ]]; then
+            professor_args=(--professor "${REQUESTED_PROFESSOR}")
+            full_args=()
+          fi
+          "${STAGING_DIR}/venv/bin/python" scripts/scopus/fetch.py --site-root "${STAGING_DIR}/site" --output "${STAGING_DIR}/raw" --resume "${professor_args[@]}"
+          "${STAGING_DIR}/venv/bin/python" scripts/scopus/normalize.py --site-root "${STAGING_DIR}/site" --input "${STAGING_DIR}/raw" --output "${STAGING_DIR}/generated" --previous "${STAGING_DIR}/site/data/generated/scopus" --report "${STAGING_DIR}/report.md" "${full_args[@]}"
+      - name: Validate candidate without publishing raw responses
+        run: |
+          rsync --archive --delete "${STAGING_DIR}/generated/" "${STAGING_DIR}/site/data/generated/scopus/"
+          "${STAGING_DIR}/venv/bin/python" "${STAGING_DIR}/site/scripts/validate_data.py"
+          if find "${STAGING_DIR}/site/data/generated/scopus" -type f -exec grep -li '"abstract"\|"authkeywords"' {} + | grep -q .; then
+            echo "Restricted Scopus fields reached the public tree." >&2
+            exit 1
+          fi
+          cat "${STAGING_DIR}/report.md" >> "${GITHUB_STEP_SUMMARY}"
+      - name: Open PR with minimum-scope bot token
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        env:
+          GH_TOKEN: ${{ secrets.SITE_BOT_TOKEN }}
+        working-directory: ${{ env.STAGING_DIR }}/site
+        run: |
+          if git diff --quiet -- data/generated/scopus; then exit 0; fi
+          branch="bot/scopus-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          git config user.name "iea-scopus-bot"
+          git config user.email "iea-scopus-bot@users.noreply.github.com"
+          git checkout -b "${branch}"
+          git add data/generated/scopus
+          git commit -m "data: atualizar métricas Scopus"
+          token_auth="$(printf 'x-access-token:%s' "${GH_TOKEN}" | base64 --wrap=0)"
+          echo "::add-mask::${token_auth}"
+          git -c "http.extraheader=AUTHORIZATION: basic ${token_auth}" push origin "${branch}"
+          gh pr create --repo flavioluiz/iea_site_dev --base main --head "${branch}" --title "data: atualização Scopus" --body-file "${STAGING_DIR}/report.md"
+      - name: Close a previous operational alert after recovery
+        if: ${{ success() }}
+        env:
+          GH_TOKEN: ${{ secrets.SITE_BOT_TOKEN }}
+          SITE_REPOSITORY: flavioluiz/iea_site_dev
+        run: |
+          issue="$(gh issue list --repo "${SITE_REPOSITORY}" --state open --search 'Pipeline Scopus in:title' --json number --jq '.[0].number // empty')"
+          if [[ -n "${issue}" ]]; then
+            gh issue close "${issue}" --repo "${SITE_REPOSITORY}" --comment "Pipeline Scopus recuperado; a última versão boa permaneceu protegida."
+          fi
+      - name: Open or update one operational alert
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ secrets.SITE_BOT_TOKEN }}
+          SITE_REPOSITORY: flavioluiz/iea_site_dev
+          PRIVATE_RUN_ID: ${{ github.run_id }}
+        run: |
+          issue="$(gh issue list --repo "${SITE_REPOSITORY}" --state open --search 'Pipeline Scopus in:title' --json number --jq '.[0].number // empty')"
+          if [[ -n "${issue}" ]]; then
+            gh issue comment "${issue}" --repo "${SITE_REPOSITORY}" --body "Nova falha preservou a última versão boa. Consulte a execução privada ID ${PRIVATE_RUN_ID}."
+          else
+            gh issue create --repo "${SITE_REPOSITORY}" --title "Operação: falha no Pipeline Scopus" --body "A coleta falhou e nenhum dado publicado foi substituído. Consulte a execução privada ID ${PRIVATE_RUN_ID}."
+          fi
+      - name: Remove private staging
+        if: ${{ always() }}
+        run: |
+          case "${STAGING_DIR:-}" in
+            "") echo "No private staging directory was created." ;;
+            "${RUNNER_TEMP}"/*) rm -rf -- "${STAGING_DIR}" ;;
+            *) echo "Refusing to remove an unexpected staging path." >&2; exit 1 ;;
+          esac

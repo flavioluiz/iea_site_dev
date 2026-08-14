@@ -1,0 +1,30 @@
+{
+  "num_tg": "72537",
+  "type": "tg",
+  "title": "Cubesat hazard analysis using STPA",
+  "author": "Leandro Scopel Campagnaro",
+  "year": "2016",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luís Eduardo Vergueiro Loures da Costa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Jonas Bianchini Fulindi",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "It has been noticed in the latest years the growing number of occurences of accidents unrelated to component flaws, but due to the system-level safety. The traditional tools are not appropriate for these problems, since they focus in component-level failure models, ignoring many relations that can only be noticed by analyzing the ensemble. The STAMP (System-Theoretics Accident Model and Processes) is a new way to view the accidents, originating the STPA (System-Theoretic Process Analysis), a tool that was created due to the demand methods in safety engineering more apts to deal with complex problems and modern systems. In this work the application of STPA is done for the cubesat SPORT (The Scintillation Prediction Observations Research Task) deployment from the ISS and its ground communication. To better contextualize the STPA application, detailed presentations of the cubesat and of its mission are given, followed by the description of the procedure to be performed by the astronauts aboard the ISS. The STPA has been integraly executed, with the accidents and hazards definitions, the creation of the control structure, the generation of the unsafe control actions and the causal scenarios, and the construction of the high-level requirements and the constraints intending to enforce the control actions and the system's safety. Some interesting scenarios were highlighted and commented to evidence the main advantages found in STPA, mainly regarding the wide scope of causal scenarios and the method's strength.",
+  "subjects": [
+    "Satélites",
+    "Sistemas de segurança",
+    "Prevençăo de acidentes",
+    "Avaliaçăo de riscos",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72537",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72537&origem=BDITA"
+}

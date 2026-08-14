@@ -1,0 +1,217 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto">
+  {{/* Page header */}}
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg max-w-none text-gray-700">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Load projects data - only active projects */}}
+  {{ $allProjects := .Site.Data.projetos.projetos }}
+  {{ $projects := slice }}
+  {{ range $id, $proj := $allProjects }}
+    {{ if eq $proj.status "em_andamento" }}
+      {{ $projects = $projects | append $proj }}
+    {{ end }}
+  {{ end }}
+  {{ $areas := dict }}
+  {{ if .Site.Data.areas }}{{ $areas = .Site.Data.areas.areas }}{{ end }}
+
+  {{/* Calculate statistics */}}
+  {{ $projectCount := len $projects }}
+  {{ $totalFunding := 0.0 }}
+  {{ $funders := slice }}
+  {{ range $projects }}
+    {{ if .valor }}{{ $totalFunding = add $totalFunding .valor }}{{ end }}
+    {{ if .financiador }}{{ $funders = $funders | append .financiador }}{{ end }}
+  {{ end }}
+  {{ $funders = uniq $funders | sort }}
+
+  {{/* Format total funding */}}
+  {{ $totalFormatado := "" }}
+  {{ if ge $totalFunding 1000000 }}
+    {{ $milhoes := div $totalFunding 1000000.0 }}
+    {{ if eq .Language.Lang "pt" }}
+      {{ $totalFormatado = printf "R$ %.1f milhões" $milhoes }}
+    {{ else }}
+      {{ $totalFormatado = printf "R$ %.1f million" $milhoes }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Statistics Cards */}}
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg shadow p-6 text-center">
+      <div class="text-4xl font-bold text-blue-600">{{ $projectCount }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ i18n "active_projects" }}</div>
+    </div>
+    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg shadow p-6 text-center">
+      <div class="text-2xl font-bold text-green-600">{{ $totalFormatado }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ i18n "total_funding" }}</div>
+    </div>
+    <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg shadow p-6 text-center">
+      <div class="text-4xl font-bold text-purple-600">{{ len $funders }}</div>
+      <div class="text-sm text-gray-600 mt-1">{{ i18n "funding_agency" }}</div>
+    </div>
+  </div>
+
+  {{/* Filter controls */}}
+  <div class="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
+    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+      <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+      </svg>
+      {{ i18n "filter_publications" }}
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {{/* Search input */}}
+      <div>
+        <label for="project-search" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "search_projects" }}
+        </label>
+        <input type="text" id="project-search"
+               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+               placeholder="{{ i18n "search_projects" }}">
+      </div>
+
+      {{/* Area filter */}}
+      <div>
+        <label for="project-area-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "concentration_area" }}
+        </label>
+        <select id="project-area-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ i18n "all_areas" }}</option>
+          {{ range $areaId, $area := $areas }}
+            <option value="{{ $areaId }}">{{ $area.codigo }} - {{ if eq $.Language.Lang "en" }}{{ $area.nome_en }}{{ else }}{{ $area.nome_pt }}{{ end }}</option>
+          {{ end }}
+        </select>
+      </div>
+
+      {{/* Funder filter */}}
+      <div>
+        <label for="project-funder-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "funding_agency" }}
+        </label>
+        <select id="project-funder-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ i18n "all_funders" }}</option>
+          {{ range $funders }}
+            <option value="{{ . | lower }}">{{ . }}</option>
+          {{ end }}
+        </select>
+      </div>
+    </div>
+
+    {{/* Clear filters button */}}
+    <div class="mt-4">
+      <button id="clear-project-filters"
+              class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors font-medium text-sm">
+        {{ i18n "clear_filters" }}
+      </button>
+    </div>
+  </div>
+
+  {{/* Results counter */}}
+  <div class="mb-4">
+    <p class="text-gray-600">
+      <span id="project-results-count" class="font-bold text-gray-900">{{ $projectCount }}</span>
+      {{ i18n "projects_found" }}
+    </p>
+  </div>
+
+  {{/* Projects Grid */}}
+  <div id="projects-container" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    {{ range $projects }}
+      {{ partial "project-card.html" (dict "project" . "page" $) }}
+    {{ end }}
+  </div>
+
+  {{/* No results message */}}
+  <div id="no-project-results" class="hidden text-center py-12">
+    <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <p class="text-xl text-gray-600">{{ i18n "no_projects_found" }}</p>
+    <p class="text-sm text-gray-500 mt-2">{{ i18n "try_different_filters" }}</p>
+  </div>
+</div>
+
+{{/* JavaScript for project card expansion and filtering */}}
+<script>
+// Toggle project card expansion
+function toggleProjectCard(button) {
+  const card = button.closest('.project-card');
+  const preview = card.querySelector('.project-preview');
+  const details = card.querySelector('.project-details');
+  const expandIcon = card.querySelector('.expand-icon');
+
+  const isExpanded = !details.classList.contains('hidden');
+
+  if (isExpanded) {
+    // Collapse
+    details.classList.add('hidden');
+    preview.classList.remove('hidden');
+    if (expandIcon) expandIcon.classList.remove('rotate-180');
+  } else {
+    // Expand
+    details.classList.remove('hidden');
+    preview.classList.add('hidden');
+    if (expandIcon) expandIcon.classList.add('rotate-180');
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('project-search');
+  const areaFilter = document.getElementById('project-area-filter');
+  const funderFilter = document.getElementById('project-funder-filter');
+  const clearBtn = document.getElementById('clear-project-filters');
+  const resultsCount = document.getElementById('project-results-count');
+  const noResults = document.getElementById('no-project-results');
+  const container = document.getElementById('projects-container');
+  const cards = document.querySelectorAll('.project-card');
+
+  function filterProjects() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedArea = areaFilter.value;
+    const selectedFunder = funderFilter.value;
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const title = card.dataset.title || '';
+      const area = card.dataset.area || '';
+      const funder = card.dataset.funder || '';
+
+      const matchesSearch = !searchTerm || title.includes(searchTerm);
+      const matchesArea = !selectedArea || area === selectedArea;
+      const matchesFunder = !selectedFunder || funder.includes(selectedFunder);
+
+      if (matchesSearch && matchesArea && matchesFunder) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    resultsCount.textContent = visibleCount;
+    noResults.classList.toggle('hidden', visibleCount > 0);
+    container.classList.toggle('hidden', visibleCount === 0);
+  }
+
+  function clearFilters() {
+    searchInput.value = '';
+    areaFilter.value = '';
+    funderFilter.value = '';
+    filterProjects();
+  }
+
+  searchInput.addEventListener('input', filterProjects);
+  areaFilter.addEventListener('change', filterProjects);
+  funderFilter.addEventListener('change', filterProjects);
+  clearBtn.addEventListener('click', clearFilters);
+});
+</script>
+{{ end }}

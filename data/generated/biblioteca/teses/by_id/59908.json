@@ -1,0 +1,31 @@
+{
+  "num_tese": "59908",
+  "type": "tese",
+  "title": "Determination of stall and choke limits of a transonic axial flow compressor using the straemline curvature method",
+  "author": "Josué Sanches Figueiredo",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The necessity for high performance axial compressors for various applications is shown. The basic theory associated with the study of these machines is presented. A method for calculating the properties of the flow along the compressor is presented. Depending on the design requirements the number of stages is selected and an appropriate shape of the channel studied. Then the compressor blading is made, row-by-row, from the calculation of the flow using a non-viscous flow associated with a loss model that allows, from the known flow at the leading edge, calculate the flow at the trailing edge. The calculations are made on streamlines initially positioned by the criterion of the same area and then repositioned according to the flow calculation in each row until the streamlines do not change their position anymore. Then the boundary-layer on hub and casing walls is evaluated, calculating the blockage coefficients, initially arbitrated. An iterative procedure is done until the blockage coefficients no longer vary. At the end, there are all the dimensions of the compressor and the properties of the flow on the streamlines at the leading and trailing edges of each row. With the geometry fixed and varying the inlet mass flow the maximum mass flow that would result in choke and the minimum one that would result in stall, or even surge, of the compressor can be determined. The computer program was written aiming at being used in a design optimization research.",
+  "subjects": [
+    "Turbinas a gás",
+    "Turbocompressores",
+    "Desempenho",
+    "Coeficientes de escoamento",
+    "Turbomáquinas",
+    "Mecânica dos fluidos",
+    "Engenharia mecânica",
+    "Absorvedores de radiaçăo"
+  ],
+  "defense_date": "27/10/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=59908",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=59908&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tese": "67732",
+  "type": "tese",
+  "title": "Proposta de um método para aplicaçăo de comissionamento virtual em linha de produçăo automatizada",
+  "author": "Tales Gustavo Vieira",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O sistema de controle é um componente essencial no ciclo de desenvolvimento de sistemas de automaçăo industrial, sendo a verificaçăo do programa uma etapa essencial. A detecçăo de erros ainda na fase de projeto é muito importante, pois o custo de correçăo na fase final de desenvolvimento ou após a implementaçăo do sistema é significativamente mais elevado do que nas fases iniciais do projeto. As células de Manufatura atuais săo constituídas de dispositivos mecatrônicos de toda ordem como robôs e sistemas de movimentaçăo controlados por um sistema de controle, usualmente controladores lógicos programáveis (CLP). A maioria das empresas depende de mais de um fornecedor para desenvolvimento de seus projetos e a concepçăo de uma célula de produçăo. A falta de todos os componentes restringe os testes do sistema de controle para a etapa final do projeto. Os testes para verificaçăo e a validaçăo de uma célula é o comissionamento, é nessa fase onde é feito os últimos ajustes do programa de controle da sequęncia. Uma alternativa para a validaçăo do sistema de controle é o comissionamento virtual, onde é possível desenvolver e testar o programa responsável pelo controle de linhas na fase do planejamento, e assim diminuir o tempo de execuçăo do projeto. O comissionamento virtual exige a integraçăo de diferentes tecnologias, a exemplo da programaçăo de CLP (Controlador Lógico Programável), comunicaçăo de dispositivos com o protocolo OPC (OLE for Process Control), a simulaçăo de uma linha de produçăo, além do projeto de dispositivos e ferramentas que podem ser elaborados por meio de aplicativos CAD (Computer Aided Design). O comissionamento virtual pode avaliar o funcionamento completo de uma linha de montagem, tanto simulando processos em ambiente digital, quanto testando equipamentos e ferramentas reais, integrados num sistema que compartilha os sinais dos sensores e atuadores com a simulaçăo no computador de forma a apresentar os requisitos das tecnologias envolvidas. Nesse cenário este trabalho apresenta uma proposta de um método para aplicaçăo de comissionamento virtual em linhas de produçăo automatizadas, ou seja, um passo a passo de simulaçăo utilizando o comissionamento virtual (CV) para a antecipaçăo das etapas dos testes do programa supervisório, com aplicaçăo simultânea entre o sistema de controle e os componentes dos modelos computacionais. Para isto, inicialmente, será apresentada uma revisăo da literatura sobre temas relativos ŕ comissionamento virtual, na sequęncia a proposiçăo do método e sua aplicaçăo. E, finalmente, as conclusőes sobre o trabalho.",
+  "subjects": [
+    "Dinâmica de robôs",
+    "Simulaçăo de eventos discretos",
+    "Controle de produçăo",
+    "Robótica",
+    "Automaçăo",
+    "Computaçăo",
+    "Controle"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67732",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67732&origem=BDITA"
+}

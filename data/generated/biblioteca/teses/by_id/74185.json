@@ -1,0 +1,30 @@
+{
+  "num_tese": "74185",
+  "type": "tese",
+  "title": "Proposta de melhoria do desempenho de motores de igniçăo por centelha usando modelo computacional",
+  "author": "Fábio Jairo Dias",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Ezio Castejon Garcia",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta um estudo teórico do desempenho de um motor de combustăo interna 4 tempos, utilizado como propulsor de alguns veículos atualmente produzidos no Brasil. Os valores experimentais foram cedidos pela montadora responsável, onde foram obtidos por meio de ensaios em dinamômetros de bancada. Os valores experimentais foram inseridos no software livre acadęmico Diesel-RK®. Os resultados obtidos pelo software foram comparados com os obtidos por meio de ensaios experimentais. O modelo computacional foi validado comparando estes resultados obtidos no dinamômetro considerando as condiçőes de pressăo e temperatura atmosféricas de 1 bar e 300 K, respectivamente. O modelo ajustado apresentou uma diferença de 13 % e 14 % para consumo específico e vazăo mássica de ar respectivamente, para toda a faixa de rotaçăo e carga estudada, em relaçăo aos valores experimentais. Após o ajuste do modelo foram simuladas condiçőes propostas para melhorar o desempenho do motor sendo: a) Variaçăo do formato da câmara de combustăo de subquadrado até quadrado; b) modificaçăo do diâmetro da válvula de admissăo onde foram analisados valores menores e maiores em relaçăo ao diâmetro original; c) Uma vez com o melhor diâmetro estabelecido, foi feito o ajuste do melhor ponto de abertura da válvula de admissăo visando maior torque sem ultrapassar o limite de octanagem estabelecido para esse trabalho. Os resultados obtidos para a variaçăo da câmara de combustăo mostrou que năo apresenta benefícios variando o formato da câmara; já os resultados para a variaçăo do diâmetro da válvula de admissăo, mostrou que em altas rotaçőes e altas cargas o maior diâmetro se mostra mais eficiente. E com ponto de abertura já ajustado o modelo apresentou um ganho de 2% no rendimento final do motor. Os ensaios e simulaçőes foram realizados utilizando como combustível a gasolina padrăo brasileira, E27, que contém 27% em volume de etanol anidro em sua composiçăo.",
+  "subjects": [
+    "Motores de igniçăo por centelha",
+    "Motores de quatro tempos",
+    "Simulaçăo computadorizada",
+    "Motores de combustăo interna",
+    "Avaliaçăo de desempenho",
+    "Engenharia aeronáutica",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "19/02/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74185",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74185&origem=BDITA"
+}

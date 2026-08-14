@@ -1,0 +1,35 @@
+{
+  "num_tese": "67648",
+  "type": "tese",
+  "title": "Flight dynamics of flexible aircraft using general body axes : a theoretical and computational study",
+  "author": "Antônio Bernardo Guimarăes Neto",
+  "year": "2014",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Neglecting the structural dynamic effects on the flight dynamics of modern aircraft may be inadequate. Dynamic coupling between the rigid-body and the elastic degrees of freedom can occur when the design favors strength over stiffness and the frequency separation between the classical flight dynamic modes and the aeroelastic modes becomes small enough. Degraded flying and ride qualities and increased susceptibility to fatigue damage and pilot-induced oscillations are among the possible consequences of the dynamic coupling. The design of control systems is also highly affected. The initial models for the flight dynamics of flexible aircraft considered only quasi-static aeroelastic effects on the aerodynamic coefficients of the rigid aircraft. The dynamically-coupled formulations, on the other hand, have often neglected the inertial coupling between the rigid-body and the elastic degrees of freedom. Indeed, most authors have used linearized mean-axis constraints in deriving simplified equations of motion that remain only aerodynamically coupled. To analyze the accuracy of the inertially-decoupled formulation in the context of small deformations, a formulation that takes into account all the coupled dynamics and allows an arbitrary choice of the body-axis system is developed in this thesis. The availability of a finite-element model of the aircraft structure, together with lumped mass properties, is required. In the equations of motion, the inertial coupling terms are linearized with respect to the elastic displacements around an equilibrium condition determined with the full nonlinear dynamics. Appropriate modes of vibration are then used as shape functions in the calculation of the dynamic deformation of the structure. The generalized aerodynamic forces are treated as the superposition of the rigid-body contributions and the incremental ones due to elastic deformation. The latter are modeled by the doublet-lattice method, aerodynamically corrected to take into account major transonic and viscous effects. Rational-function approximations are part of the process that allows the representation of the frequency-domain aerodynamics in the time domain, leading to an augmented state-space system that considers the aerodynamic lag phenomenon. The formulation is implemented and tested in the flight simulation of a generic narrow-body airliner (GNBA) model, developed for the purpose of these studies. Results are presented that show that the different body axes lead practically to the same overall motion of the aircraft with respect to an inertial reference frame. The benefits and the limitations in using each different axis system and in considering or not the dynamic and the inertial couplings are analyzed.",
+  "subjects": [
+    "Estruturas de aeronaves",
+    "Método de elementos finitos",
+    "Mecânica de voo",
+    "Aerodinâmica",
+    "Aeroelasticidade",
+    "Engenharia aeronáutica",
+    "Física"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67648",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67648&origem=BDITA"
+}

@@ -1,0 +1,30 @@
+{
+  "num_tg": "000527130",
+  "type": "tg",
+  "title": "Metodologia para análise de estabilidade e controle de uma aeronave por meio de simulaçăo baseada em requisito.",
+  "author": "Tomaz Schmidt Cavalcante",
+  "year": "2004",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Leonardo Cavanha Almeida",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "No projeto de uma aeronave com auxílio de simulaçăo, a verificaçăo de cumprimento dos requisitos de projeto é feita simulando-se diversas condiçőes da aeronave, entre os casos críticos identificados pelo projetista. Este trabalho propőe uma metodologia para confecçăo de uma ferramenta que visa dinamizar esse processo, tendo-se em vista que o projeto de uma aeronave de maior porte é realizado em ciclos - que se tornam mais complexos e numerosos com o advento de aeronaves dotadas de sistemas de controle em malha fechada. Dado um modelo dinâmico de uma aeronave, a metodologia proposta constitui-se em uma discretizaçăo de pontos em uma malha construída sobre um espaço de interesse onde o projetista define a análise que deve ser realizada, ou introduz novas análises através da criaçăo de rotinas. As análises podem ter fins diversos de acordo com a necessidade, podendo-se estender desde a verificaçăo da estabilidade básica da aeronave a análises de qualidades de vôo.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Simulaçăo",
+    "Estabilidade de aeronaves",
+    "Controle de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000527130",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000527130&origem=BDITA"
+}

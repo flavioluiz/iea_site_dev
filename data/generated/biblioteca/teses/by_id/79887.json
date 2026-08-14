@@ -1,0 +1,30 @@
+{
+  "num_tese": "79887",
+  "type": "tese",
+  "title": "The influence of flame propagation speed on the diluted combustion of ethanol and its mixtures in a spark ignition optical engine",
+  "author": "Maycon Ferreira Silva",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The high demand for clean energy and the need to reduce fossil fuel consumption due to climate concerns have spurred political and environmental movements around the world to prioritize alternative energy sources. Ethanol has become an important liquid fuel used as an additive or substitute and in hybrid technologies (electricity and combustion). The main advantages of ethanol include its lower emissions, high octane rating and lower production costs compared to gasoline. To improve fuel efficiency and reduce pollutant emissions, especially nitrogen oxides (NOX), dilution techniques such as lean burn or exhaust gas recirculation (EGR) are used in internal combustion engines. This work reports on experimental tests conducted on a research engine with optical access to investigate the influence of flame propagation speed (FPS) on engine performance, combustion stability and emissions for hydrated ethanol (5% water by volume, E95W05) in dilute combustion with air and a CO2-N2 mixture simulating EGR. In addition, the results for isooctane and 95RON gasoline, both with 10% ethanol (ISO90E10 and G90E10), are presented. Isooctane, a pure gasoline-like fuel, is useful for future simulations, while the 95RON experiments help to understand the effects of volatile compounds. The 10% ethanol blend is significant as it reflects the blends used in some countries and illustrates the formation of aldehydes and formaldehydes. The results show that the FPS for ethanol decreases significantly with dilution compared to the other fuels, as ethanol evaporates and mixes with the air before ignition. Nevertheless, dilution generally benefits the indicated mean effective pressure (IMEP) until the FPS drops to 20 m/s and combustion ends 45 degrees after top dead center (TDC). Increasing dilution increases turbulence, leading to wrinkling in the flame front and cycle variability. A correlation was observed between the Heywood Circularity Factor (HCF) and the CovIMEP. Overall, dilution reduced CO and THC emissions. For fuels with 10% ethanol, acetaldehyde and formaldehyde levels either decreased or changed only minimally with increasing dilution, with ethanol showing a significant reduction compared to undiluted conditions. Exhaust gas recirculation (EGR) effectively reduced NOX emissions, and combining this reduction with higher IMEP can be achieved through strategies to increase FPS. In this study, the conditions and effects of FPS at dilute combustion are clarified by integrating image processing, thermodynamic parameters and exhaust gas analysis.",
+  "subjects": [
+    "Motores de igniçăo por centelha",
+    "Motores de combustăo interna",
+    "Motores bi-combustível",
+    "Combustíveis alternativos",
+    "Sistemas de exaustăo",
+    "Propagaçăo de chama",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "11/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79887",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79887&origem=BDITA"
+}

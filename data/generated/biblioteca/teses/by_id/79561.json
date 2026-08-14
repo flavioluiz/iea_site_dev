@@ -1,0 +1,35 @@
+{
+  "num_tese": "79561",
+  "type": "tese",
+  "title": "Obtençăo dos parâmetros da equaçăo de estado de Jones-Wilkins-Lee (JWL) por meio de mecanismos de cinética química para processos de detonaçăo",
+  "author": "Hermano Kehrle Miranda",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Cristiane Aparecida Martins",
+      "professor_slug": "cristiane-aparecida-martins"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rene Francisco Boschi Gonçalves",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho estuda a extraçăo de parâmetros da equaçăo de estado de Jones-Wilkins-Lee (JWL) de curvas de Hugoniot reativas geradas através de mecanismos de cinética química, de forma que usuários de simulaçőes de dinâmica explícita possam utilizar os parâmetros extraídos como dado de entrada de um material que originalmente foi concebido para representar explosivos de fase condensada e, com isso, simular os efeitos de uma detonaçăo gasosa. Essa abordagem facilita, dentre outros, a investigaçăo de danos estruturais causados por explosőes gasosas em aplicaçőes de elementos finitos. O primeiro passo dado foi a busca por um método verificado experimentalmente que pudesse ser utilizado para extrair os parâmetros JWL de explosivos em fase condensada. O método de ELEK et al. foi selecionado. Posteriormente, foi realizada uma investigaçăo sobre os métodos existentes para a criaçăo de curvas de Hugoniot reativas utilizando mecanismo cinéticos como dado de entrada. Foi escolhido o método de BROWNE et al.. Em seguida, foi criado um processo para adaptar os dois métodos mencionados, de forma que os parâmetros JWL pudessem ser extraídos de curvas de Hugoniot reativas de tręs misturas estequiométricas: H2 + O2, H2 + ar atmosférico e JET-A + ar atmosférico. Mais adiante foi realizada com os parâmetros gerados, em um ambiente de dinâmica explícita, a simulaçăo de uma detonaçăo gasosa de iniciaçăo direta em um shock tube de Shyue. Seus resultados foram testados por meio da comparaçăo dos perfis de pressăo, densidade e velocidade gerados pela simulaçăo numérica com os mesmos perfis produzidos pela soluçăo exata fornecida pela hipótese generalizada de Riemann para escoamentos energéticos. Por fim, eles foram confrontados com os resultados de uma simulaçăo fluidodinâmica, que utilizou diretamente os mecanismos cinéticos usados para geraçăo das curvas de Hugoniot como dado de entrada para investigar os fenômenos de combustăo. Os resultados obtidos da rotina desenvolvida para extrair os parâmetros JWL de explosivos em fase condensada baseada no método ELEK et al. tiveram boa concordância com os valores apresentados pelos autores em seu artigo. As curvas de Hugoniot reativas para H2 + O2, H2 + ar atmosférico e JET-A + ar atmosférico produzidas por mecanismos cinéticos mostraram que, dentro das premissas adotadas no escopo deste trabalho, a mistura JET-A + ar atmosférico tem as melhores características de detonaçăo, se comparada com as outras duas. A otimizaçăo realizada para extrair os parâmetros das curvas de Hugoniot produziu bons ajustes para as curvas isentrópicas obtidas analiticamente, e a relaçăo de magnitude dos parâmetros entre si foi consistente com aqueles típicos de explosivos em fase condensada. Os perfis de pressăo, densidade, velocidade e energia específica foram semelhantes aos da soluçăo exata. Os resultados da simulaçăo em ambiente de dinâmica explícita utilizando os parâmetros gerados foram similares aos obtidos pela simulaçăo fluidodinâmica.",
+  "subjects": [
+    "Termodinâmica",
+    "Mecânica dos fluidos",
+    "Reaçőes cinéticas",
+    "Detonaçăo",
+    "Combustăo",
+    "Cinética",
+    "Química"
+  ],
+  "defense_date": "14/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79561",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79561&origem=BDITA"
+}

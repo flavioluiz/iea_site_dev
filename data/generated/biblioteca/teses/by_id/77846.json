@@ -1,0 +1,30 @@
+{
+  "num_tese": "77846",
+  "type": "tese",
+  "title": "A semi-analytical model for shear buckling analysis of stiffened composite panel with debonding defect",
+  "author": "Douglas Conrado da Silva",
+  "year": "2021",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The constant need of the aerospace industry to design lighter and more resistant structures, has been increasing the use of stiffened laminate structures, as is the case of stiffened composite panels. However, as in any structural element, the connection between the panel and the stiffener may be subject to some type of defect, such as the debonding of adhesive joint of stiffener and the structure itself. The present study deals with the development of a semi-analytical model for the buckling analysis of a stiffened laminated panel with debonding defect, subjected to in-plane shear load. The model was developed by the Rayleigh-Ritz method combined with the principle of total stationary potential energy and using a domain discretization technique ensuring the continuity C1. Each domain had the displacement approximated by a set of polynomial hierarchical functions. The model was verified through finite element analysis and experimental tests that made possible to study the influence of the defect size on the panel stability.",
+  "subjects": [
+    "Placas reforçadas",
+    "Flambagem",
+    "Cisalhamento",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Análise estrutural",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "22/06/2021",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=77846",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=77846&origem=BDITA"
+}

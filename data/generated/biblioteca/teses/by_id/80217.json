@@ -1,0 +1,33 @@
+{
+  "num_tese": "80217",
+  "type": "tese",
+  "title": "Projeto de sistema de controle robusto para atenuaçăo de resposta aeroelástica empregando acelerômetros e girômetros",
+  "author": "Pedro Henrique Granero Chiarelli",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Antônio Bernardo Guimarăes Neto",
+      "professor_slug": "antonio-b-guimaraes-neto"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A exigęncia contínua do aumento de desempenho das aeronaves tem resultado historicamente em características que causam o aumento da flexibilidade estrutural e consequentemente os efeitos adversos da aeroelasticidade. Com as estruturas mais flexíveis, os modos dinâmicos aeroelásticos tendem a se aproximar em frequęncia dos modos dinâmicos de corpo rígido, levando a acoplamentos modais que podem causar uma degradaçăo das qualidades de voo das aeronaves. Considerando uma aeronave com alto alongamento e flexibilidade moderada, este trabalho apresenta o desenvolvimento de um sistema de controle robusto para atenuaçăo da resposta aeroelástica a partir da utilizaçăo dos controles e sensores disponíveis na aeronave real. Uma metodologia para o preparo do modelo matemático por meio de técnicas como escalonamento, control e sensor blending e residualizaçăo é apresentada. Com o objetivo de criar uma lei de controle aeroelástica eficiente, robusta e de baixa complexidade, a técnica de lugar das raízes foi escolhida. Por meio dela foi possível avaliar os efeitos aerosservoelásticos presentes em cada uma das realimentaçőes. As melhores combinaçőes de entradas e saídas para o controle de cada um dos modos foram determinadas por meio da interpretaçăo dos vetores singulares. As leis de controle foram projetadas com o objetivo de desacoplar os modos aeroelásticos dos modos de corpo rígido e aumentar as características de razăo de amortecimento de modos aeroelásticos pouco amortecidos, com a menor interferęncia possível nas características dos modos de corpo rígido. O trabalho destaca a importância de se levar em consideraçăo a inclusăo da dinâmica dos atuadores, retardo computacional, efeitos da taxa de aquisiçăo e dinâmica dos sensores desde o início do projeto das leis de controle. Avaliaçőes no domínio da frequęncia e no domínio do tempo foram feitas para comprovar a qualidade e a robustez do controlador projetado. Ao final, o sistema de controle desacoplou a frequęncia dos modos dinâmicos aeroelásticos próximos aos modos de corpo rígido e aumentou a razăo de amortecimento dos modos aeroelásticos pouco amortecidos, além de cumprir com os requisitos de robustez propostos.",
+  "subjects": [
+    "Corpos flexíveis",
+    "Controle robusto",
+    "Aeroelasticidade",
+    "Atuadores",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "05/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80217",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80217&origem=BDITA"
+}

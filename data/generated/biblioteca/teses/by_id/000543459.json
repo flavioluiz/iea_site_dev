@@ -1,0 +1,34 @@
+{
+  "num_tese": "000543459",
+  "type": "tese",
+  "title": "Simulaçăo de turbinas a gás utilizando modelagem por meio de grafos de ligaçăo e identificaçăo linear e năo-linear.",
+  "author": "Daniel Pozzani",
+  "year": "2005",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joăo Roberto Barbosa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "A importância do estudo da dinâmica em máquinas térmicas é conhecer o modo como irá reagir ŕs diferentes circunstâncias de operaçăo, como partida, aceleraçăo e desaceleraçăo, e em transitórios. A observaçăo de suas características dinâmicas permite avaliar situaçőes indesejadas e a necessidade de ajustes. Para modelar uma turbina a gás é necessária a análise de vários domínios físicos, uma vez que os sistemas que compőem uma turbina a gás envolvem várias áreas da engenharia. A turbina a gás é composta basicamente de sistemas termofluido-mecânicos acoplados a sistemas elétricos. Nesse tipo de modelagem, que envolve sistemas elétricos e mecânicos, uma linguagem unificada como a de grafos de ligaçăo pode ser aplicada, pois possui vantagens inerentes. Este trabalho contém tręs objetivos principais: o primeiro é apresentar o princípio de funcionamento de uma turbina a gás e suas características construtivas. É apresentada também a metodologia envolvida em grafos de ligaçăo para o estudo de sistemas dinâmicos, muito consistente e necessária ao entendimento deste trabalho; segundo, uma vez escolhidas as variáveis de interesse, é apresentada uma metodologia para modelagem de turbinas a gás através de grafos de ligaçăo através de um modelo. Săo abordados também os procedimentos para se modelar cada parte do motor, e posterior simulaçăo do sistema em ambiente computacional apropriado; terceiro, apresentar uma técnica de identificaçăo para turbinas e um modelo matemático que mostre as características dinâmicas de um sistema físico real ou simulado. Os resultados demonstram similaridades entre as dinâmicas, permitindo a análise da dinâmica da turbina a gás, validando a modelagem utilizando grafos de ligaçăo e de identificaçăo.",
+  "subjects": [
+    "Turbinas a gás",
+    "Gráficos de ligaçăo",
+    "Modelos matemáticos",
+    "Identificaçăo de parâmetros",
+    "Simulaçăo computadorizada",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "28/11/2005",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543459",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543459&origem=BDITA"
+}

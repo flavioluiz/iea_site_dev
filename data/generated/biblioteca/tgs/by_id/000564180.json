@@ -1,0 +1,28 @@
+{
+  "num_tg": "000564180",
+  "type": "tg",
+  "title": "Projeto integrado de aeronaves - modulo de alocaçăo de aeronaves e otimizaçăo de rotas.",
+  "author": "Bruno Costa Pontes",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é desenvolvido um módulo de alocaçăo de aeronaves e otimizaçăo de rotas. O objetivo é, em trabalhos futuros, a inserçăo deste módulo em uma plataforma integrada, em que o projeto das aeronaves é desenvolvido conjuntamente ŕ malha de rotas. Através dessa abordagem sistemática busca-se a otimizaçăo do sistema de transporte como um todo. Uma discussăo sobre as possibilidades de reduçăo de custo através dessa abordagem sistemática é realizada. O problema modelado é da classe dos problemas de roteamento de veículos de capacidade limitada e com entregas fracionadas e consiste em uma rede de cidades com demandas de carga que săo supridas por aeronaves heterogęneas de capacidade limitada e cuja demanda pode ser fracionada. Este problema é do tipo NP-difícil. Foram estudadas algumas estratégias de soluçăo e acabou-se optando por algoritmos genéticos. O módulo foi desenvolvido em plataforma Matlab e para o teste e a validaçăo do código foram utilizados exemplos disponíveis na literatura.",
+  "subjects": [
+    "Otimizaçăo",
+    "Transporte aéreo",
+    "Algoritmos genéticos",
+    "Integraçăo de sistemas",
+    "Projeto de aeronaves",
+    "Rotas aéreas",
+    "Matemática aplicada",
+    "Administraçăo de transportes"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000564180",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000564180&origem=BDITA"
+}

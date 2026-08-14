@@ -1,0 +1,36 @@
+{
+  "num_tese": "81051",
+  "type": "tese",
+  "title": "A novel approach to runway overrun risk assessment using FRAM and flight data monitoring",
+  "author": "Christianne Reiser",
+  "year": "2025",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Moacyr Machado Cardoso Junior",
+      "professor_slug": "moacyr-machado-cardoso-junior"
+    }
+  ],
+  "abstract": "The current thesis presents FRAM-FDM, a novel quantitative methodology that integrates the Functional Resonance Analysis Method (FRAM) with Flight Data Monitoring (FDM) to assess and manage the operational risk of Runway Overruns (ROs) during landing. FRAM offers a systemic framework for modeling the variability of everyday performance in complex socio-technical systems, while FDM enables the quantification of these variabilities using real-world flight data. Runway overruns are among the most frequent aviation accidents, typically resulting from a combination of precursors such as unstable approaches, long touchdowns, and improper use of deceleration devices. The proposed FRAM-FDM approach captures the dynamic behavior of flight crews during approach and landing, quantifying key performance variabilities. These are then aggregated through statistical modeling: linear regression for risk assessment via Monte Carlo simulation, logistic regression to identify the most influential contributors to risk, and additional linear regressions to simulate operational scenarios using metadata in the FRAM Model Visualiser. The methodology is applied to a case study involving 110 landings, including one overrun, demonstrating its capability to simulate emergent behaviors and assess risk in realistic operational contexts. By adopting a Safety-II perspective, FRAM-FDM shifts the focus from failure analysis to understanding how systems operate successfully under variable conditions. It introduces new metrics for evaluating pilot performance and leverages metadata-driven simulation to explore and manage operational risk. This work contributes a holistic, data-driven framework for aviation safety, with practical applications in risk identification.",
+  "subjects": [
+    "Monitoramento de dados de voo",
+    "Segurança do voo",
+    "Avaliaçăo de riscos",
+    "Decolagem",
+    "Controle de aeronaves",
+    "Mecânica de voo",
+    "Método de Monte Carlo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "25/11/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81051",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81051&origem=BDITA"
+}

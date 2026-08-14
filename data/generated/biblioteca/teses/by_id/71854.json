@@ -1,0 +1,34 @@
+{
+  "num_tese": "71854",
+  "type": "tese",
+  "title": "A method to improve the use Of 6-DOF robots as machine tools",
+  "author": "Luís Fernando Ferreira Furtado",
+  "year": "2016",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Emilia Villani",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Since the original use of robots in the automotive industry for pick and place tasks, new technologies have been developed, in order to adapt robots to different manufacturing processes. Among them, the use of robots as machine tools is a technological trend that demands further development. Industrial robots with 6 DOF (Degrees Of Freedom) in a serial kinematic chain have larger workspace and more flexibility, when compared with CNC machines. Nevertheless, robots' stiffness is lower than that of CNC machine. As a consequence, vibration problems are expected, which can have a direct impact on the quality of the machined workpiece. This work proposes a method to evaluate and customize the use of a COTS (commercial off-the-shelf) robot equipped with a spindle for a machining process. It aims at improving the process based on the measurement of the workpiece quality and explores the fact that the accuracy and rigidity of industrial robots with serial kinematic chains behave in an anisotropic way, according to the robot pose and the cutting force direction. The method is composed of a set of four experiments and is applied to the evaluation of a robot when cut aluminium workpieces. The results allow the identification of the relevant factors that affect the surface quality of the workpiece.",
+  "subjects": [
+    "Programaçăo de robôs",
+    "Planejamento de tarefas (robótica)",
+    "Fresagem (usinagem)",
+    "Sistemas homem-máquina",
+    "Robótica",
+    "Computaçăo"
+  ],
+  "defense_date": "21/06/2016",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=71854",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=71854&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tese": "79200",
+  "type": "tese",
+  "title": "Strategies for energy efficiency in humanoid robot walking",
+  "author": "Caroline Cristine Duarte da Silva",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Marcos Ricardo Omena de Albuquerque Maximo",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In this thesis, we develop energy reduction methods for walking humanoid robots. Researches show that despite their similarity to humans, humanoids behave very differently from us. This fact is mainly due to the difficulty in controlling robotic joints. For this era son, humanoid walking is much more disadvantageous from an energy point of view, i.e., it is costly, making the battery not last for a long time. In this thesis, we apply human gait characteristics to reduce the energy expenditure of walking of low-cost humanoid robots, particularly in a purchased robot and a robot that we manufacture. Our contribution is to implement the height variation of the center of mass during gait with foot oscillation around the ankle during gait phase changes. This robotic foot is curved with a geometric shape that favors rolling motion on the ground. For the control, we extend the Preview Control of Zero-Moment Point technique for the planning of the center of mass, and we adapt the 3D Linear Inverted Pendulum Model (3D-LIPM) so that our system is linear time-varying. Finally, the inverse kinematics gives us the angles of the joints. To estimate the energy, we will use a realistic simulator. In the simulator, the fully actuated robot stays in balance in a three-dimensional environment with gravity while walking in any direction.",
+  "subjects": [
+    "Robôs humanóides",
+    "Locomoçăo por pernas",
+    "Consumo de energia",
+    "Economia de consumo",
+    "Controle adaptativo",
+    "Robótica",
+    "Controle",
+    "Computaçăo"
+  ],
+  "defense_date": "14/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79200",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79200&origem=BDITA"
+}

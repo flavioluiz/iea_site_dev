@@ -1,0 +1,233 @@
+{{/* Project Card Partial - Expandable card for research projects */}}
+{{ $project := .project }}
+{{ $page := .page | default $ }}
+{{ $lang := $page.Language.Lang }}
+
+{{/* Area color — use neutral if no areas data */}}
+{{ $areaColor := "#1e40af" }}
+{{ $areaCodigo := "" }}
+{{ if .page.Site.Data.areas }}
+  {{ $areaData := index .page.Site.Data.areas.areas $project.area }}
+  {{ if $areaData }}
+    {{ $areaColor = $areaData.cor }}
+    {{ $areaCodigo = $areaData.codigo }}
+  {{ end }}
+{{ end }}
+
+{{/* Get localized content */}}
+{{ $titulo := $project.titulo_pt }}
+{{ $descricao := $project.descricao_pt }}
+{{ if eq $lang "en" }}
+  {{ $titulo = $project.titulo_en | default $project.titulo_pt }}
+  {{ $descricao = $project.descricao_en | default $project.descricao_pt }}
+{{ end }}
+
+{{/* Format funding value */}}
+{{ $valorFormatado := "" }}
+{{ $valorExato := "" }}
+{{ if $project.valor }}
+  {{/* Exact value formatted */}}
+  {{ $valorExato = printf "R$ %s" (lang.FormatNumber 2 $project.valor) }}
+
+  {{/* Abbreviated value */}}
+  {{ if ge $project.valor 1000000 }}
+    {{ $milhoes := div $project.valor 1000000.0 }}
+    {{ if eq $lang "pt" }}
+      {{ $valorFormatado = printf "R$ %.1f milhões" $milhoes }}
+    {{ else }}
+      {{ $valorFormatado = printf "R$ %.1f million" $milhoes }}
+    {{ end }}
+  {{ else if ge $project.valor 1000 }}
+    {{ $mil := div $project.valor 1000.0 }}
+    {{ if eq $lang "pt" }}
+      {{ $valorFormatado = printf "R$ %.0f mil" $mil }}
+    {{ else }}
+      {{ $valorFormatado = printf "R$ %.0fk" $mil }}
+    {{ end }}
+  {{ else }}
+    {{ $valorFormatado = printf "R$ %.2f" $project.valor }}
+  {{ end }}
+{{ end }}
+
+{{/* Truncate description for preview */}}
+{{ $descPreview := $descricao | plainify | truncate 120 "..." }}
+
+<article class="project-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300"
+         data-project-id="{{ $project.id }}"
+         data-area="{{ $project.area }}"
+         data-funder="{{ $project.financiador | lower }}"
+         data-title="{{ $titulo | lower }}"
+         data-status="{{ $project.status }}">
+
+  {{/* Card with colored top border */}}
+  <div class="border-t-4" style="border-color: {{ $areaColor }};">
+    <div class="p-6">
+      {{/* Header: Status and Area */}}
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          {{/* Status Badge */}}
+          {{ if eq $project.status "em_andamento" }}
+          <span class="inline-flex items-center gap-1 px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">
+            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+            {{ i18n "status_ongoing" }}
+          </span>
+          {{ else }}
+          <span class="inline-flex items-center gap-1 px-2 py-1 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold">
+            <span class="w-2 h-2 bg-gray-400 rounded-full"></span>
+            {{ i18n "status_completed" }}
+          </span>
+          {{ end }}
+
+          {{/* Area Badge */}}
+          <span class="inline-block px-2 py-1 rounded-full text-xs font-medium text-white"
+                style="background-color: {{ $areaColor }};">
+            {{ $areaCodigo }}
+          </span>
+        </div>
+
+        {{/* Period */}}
+        <span class="text-sm text-gray-500 font-medium">{{ $project.periodo }}</span>
+      </div>
+
+      {{/* Title */}}
+      <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">
+        {{ $titulo }}
+      </h3>
+
+      {{/* Funder and Value - Always visible */}}
+      <div class="flex flex-wrap items-center gap-4 mb-4">
+        {{/* Funder */}}
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+          </svg>
+          <span class="text-sm font-medium text-gray-700">{{ $project.financiador }}</span>
+        </div>
+
+        {{/* Funding Value */}}
+        {{ if $valorFormatado }}
+        <div class="flex items-center gap-2">
+          <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <span class="text-sm font-semibold" style="color: {{ $areaColor }};">{{ $valorFormatado }}</span>
+        </div>
+        {{ end }}
+      </div>
+
+      {{/* Collapsed Preview */}}
+      <div class="project-preview">
+        {{ if $project.docentes_iea }}
+        <div class="flex flex-wrap gap-1 mb-3">
+          {{ range $project.docentes_iea }}
+          <span class="inline-block px-2 py-0.5 bg-blue-50 text-blue-700 text-xs rounded-full border border-blue-100">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+        <p class="text-sm text-gray-600 leading-relaxed">
+          {{ $descPreview }}
+        </p>
+
+        {{/* Expand Button */}}
+        <button class="project-expand-btn mt-3 flex items-center gap-1 text-sm font-medium transition-colors"
+                style="color: {{ $areaColor }};"
+                onclick="toggleProjectCard(this)">
+          <span class="btn-text">{{ i18n "view_details" }}</span>
+          <svg class="w-4 h-4 transform transition-transform duration-200 expand-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+      </div>
+
+      {{/* Expanded Content (hidden by default) */}}
+      <div class="project-details hidden mt-4 pt-4 border-t border-gray-100">
+        {{/* Full Description */}}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">{{ i18n "project_description" }}</h4>
+          <p class="text-sm text-gray-600 leading-relaxed whitespace-pre-line">{{ $descricao | plainify }}</p>
+        </div>
+
+        {{/* Detailed Info */}}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          {{/* Period */}}
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gray-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <div>
+              <p class="text-xs font-semibold text-gray-500 uppercase">{{ i18n "project_period" }}</p>
+              <p class="text-sm text-gray-700">{{ $project.periodo }}</p>
+            </div>
+          </div>
+
+          {{/* Exact Funding Value */}}
+          {{ if $valorExato }}
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gray-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            <div>
+              <p class="text-xs font-semibold text-gray-500 uppercase">{{ i18n "funding_value" }}</p>
+              <p class="text-sm font-semibold" style="color: {{ $areaColor }};">{{ $valorExato }}</p>
+            </div>
+          </div>
+          {{ end }}
+
+          {{/* Funder */}}
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gray-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+            </svg>
+            <div>
+              <p class="text-xs font-semibold text-gray-500 uppercase">{{ i18n "funding_agency" }}</p>
+              <p class="text-sm text-gray-700">{{ $project.financiador }}</p>
+            </div>
+          </div>
+
+          {{/* Status */}}
+          <div class="flex items-start gap-3">
+            <svg class="w-5 h-5 text-gray-400 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <div>
+              <p class="text-xs font-semibold text-gray-500 uppercase">{{ i18n "project_status" }}</p>
+              <p class="text-sm text-gray-700">
+                {{ if eq $project.status "em_andamento" }}
+                  {{ i18n "status_ongoing" }}
+                {{ else }}
+                  {{ i18n "status_completed" }}
+                {{ end }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {{/* IEA Faculty */}}
+        {{ if $project.docentes_iea }}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">
+            {{ if eq $lang "pt" }}Docentes IEA{{ else }}IEA Faculty{{ end }}
+          </h4>
+          <div class="flex flex-wrap gap-2">
+            {{ range $project.docentes_iea }}
+            <span class="inline-block px-2 py-1 bg-blue-50 text-blue-800 text-xs rounded-full font-medium border border-blue-100">
+              {{ . }}
+            </span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{/* Collapse Button */}}
+        <button class="project-collapse-btn mt-2 flex items-center gap-1 text-sm font-medium transition-colors"
+                style="color: {{ $areaColor }};"
+                onclick="toggleProjectCard(this)">
+          <span>{{ i18n "hide_details" }}</span>
+          <svg class="w-4 h-4 transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,28 @@
+{
+  "num_tese": "000022678",
+  "type": "tese",
+  "title": "Modelo aerodinâmico do escoamento plano sobre corpos rombudos",
+  "author": "Roberto da Mota Girardi",
+  "year": "1990",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Paulo Afonso de Oliveira Soviero",
+      "professor_slug": "paulo-afonso-soviero"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho é feito um estudo do escoamento incompressível sobre corpos rombudos planos, através de modelos simples que descrevem os parâmetros importantes deste escoamento. Com base na equaçăo da conservaçăo da energia é desenvolvido um modelo para o escoamento médio na regiăo de formaçăo. O acoplamento deste modelo com a teoria da linha de corrente livre permite a determinaçăo teórica dos coeficientes médios de arrasto e pressăo na base de alguns corpos rombustos. Para generalizar os resultados acima, foi desenvolvido um método numérico para a soluçăo do modelo da linha de corrente livre. Analisando-se o escoamento sobre um corpo rombudo com placa divisória (\"splitter plate\"), mostra-se a importancia do comprimento da regiăo de formaçăo na determinaçăo teórica dos coeficientes médios de arrasto e pressăo na base. Observa-se também, que o comprimento acima pode modelar, de uma forma indireta, a influęncia da forma da base dos obstáculos (parte do corpo imersa na esteira). Uma análise paramétrica dos dados experimentais de diversos corpos rombudos planos resultou em um novo número adimensional que descreve a similaridade entre as esteiras. Este parâmetro adimensional é utilizado na formulaçăo de um método empírico para a correçăo de resultados experimentais, de modo a retirar os efeitos causados pela interferęncia das paredes de um túnel. Com a teoria da avenida de vórtices de von Karman (\"Karman vortex street\") e com o critério de estabilidade de Kronauer, determinam-se os parâmetros que caracterizam a esteira de diversos corpos rombudos, verificando-se boa concordância entre teoria e experięncia.",
+  "subjects": [
+    "Corpos rombudos",
+    "Escoamento incompressível",
+    "Análise numérica",
+    "Aerodinâmica",
+    "Física"
+  ],
+  "defense_date": "01/01/1990",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000022678",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000022678&origem=BDITA"
+}

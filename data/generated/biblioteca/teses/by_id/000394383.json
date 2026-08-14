@@ -1,0 +1,32 @@
+{
+  "num_tese": "000394383",
+  "type": "tese",
+  "title": "Análise numérica de escoamentos em grades lineares de perfis para vários regimes de velocidade.",
+  "author": "Edson Basso",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Márcio José do Prado Schmidt",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho consiste na simulaçăo de escoamentos em grades lineares de perfis. Săo simuladas grades bidimensionais, em regimes subsônicos, transônicos e supersônicos. As equaçőes de Euler e Navier-Stokes săo empregadas, respectivamente, para simulaçőes năo-viscosas e viscosas sem incluir os efeitos de turbulęncia. O método de diferenças finitas é utilizado. Malhas computacionais tipo \"H\" foram geradas baseadas em geradores algébricos e elípticos. O algoritmo computacional utilizado baseia-se no modelo implícito de fatoraçăo aproximada de Beam & Warming. As variáveis dependentes originais do modelo citado săo subistituídas por pressăo, componentes de velocidade e temperatura, também chamadas variáveis primitivas. Estas variáveis relacionam-se com o vetor de variáveis conservadas através de uma matriz jacobiana. Um modelo de dissipaçăo artificial năo-linear é empregado para proporcionar estabilidade numérica. Nas simulaçőes viscosas, a aproximaçăo pelo modelo de camada fina é utilizada. Empregam-se condiçőes de contorno năo-reflexivas nas fronteiras computacionais de entrada e saída do escoamento com base em equaçőes características. Condiçőes de contorno periódicas implícitas săo utilizadas. Resultados săo apresentados para a formaçăo de um banco de dados e para comparaçőes com dados disponíveis na literatura para uma análise do presente algoritmo de cálculo.",
+  "subjects": [
+    "Escoamento em cascata",
+    "Simulaçăo do escoamento",
+    "Análise numérica",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000394383",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000394383&origem=BDITA"
+}

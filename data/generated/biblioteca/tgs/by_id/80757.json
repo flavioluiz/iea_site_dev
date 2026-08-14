@@ -1,0 +1,34 @@
+{
+  "num_tg": "80757",
+  "type": "tg",
+  "title": "Estimaçăo do fluxo de calor na superfície externa de veículos espaciais de reentrada na atmosfera",
+  "author": "Vinícius Bonavides de Castro Campos",
+  "year": "2025",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Rodrigo Gustavo Dourado da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho teve como objetivo desenvolver e implementar metodologias numéricas para a estimativa do fluxo de calor na superfície externa de veículos espaciais de reentrada na atmosfera (VERA), a partir de mediçőes internas de temperatura. Para isso, foi resolvido o Problema Inverso de Conduçăo de Calor (IHCP), considerando diferentes níveis de complexidade física e numérica, incluindo propriedades térmicas variáveis, efeitos de radiaçăo e ablaçăo. Foram desenvolvidos e validados algoritmos baseados no Método de Atualizaçăo de Gauss (GUA), bem como no uso de técnicas de regularizaçăo para estabilizaçăo das soluçőes, com destaque para a Regularizaçăo de Tikhonov e para a utilizaçăo de temperaturas em tempos futuros, como no Método da Funçăo Especificada Sequencial (SFSM). As metodologias propostas foram aplicadas a casos teóricos, simulados e experimentais, abrangendo diferentes condiçőes de contorno e materiais. Os resultados mostraram boa concordância entre os fluxos de calor estimados e os fluxos teóricos, com precisăo satisfatória mesmo em presença de ruídos experimentais. Observou-se também que o GUA apresentou boa robustez para problemas năo-lineares e com ablaçăo, embora algumas discrepâncias em relaçăo ao COMSOL ainda demandem investigaçăo mais detalhada. Conclui-se que as metodologias desenvolvidas mostraram-se promissoras para aplicaçăo em estudos térmicos de VERA, contribuindo para a análise e para o projeto de Sistemas de Proteçăo Térmica (SPT) mais eficientes e seguros.",
+  "subjects": [
+    "Equilibrio termodinâmico",
+    "Espaçonaves",
+    "Proteçăo térmica",
+    "Reentrada atmosférica",
+    "Fluxo de calor",
+    "Ablaçăo",
+    "Equaçăo de Gauss",
+    "Física",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80757",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80757&origem=BDITA"
+}

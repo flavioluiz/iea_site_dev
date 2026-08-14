@@ -1,0 +1,28 @@
+{
+  "num_tese": "000333485",
+  "type": "tese",
+  "title": "Modelagem e simulaçăo de motores foguete a propelente líquido pressurizados a gás",
+  "author": "José Miraglia",
+  "year": "1994",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Nivaldo Hinckel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente no Brasil temos uma escassa experiencia em motores foguete a propelente liquido, devido a isto e conveniente o estabelecimento de modelos matematicos basicos, que possibilitem a compreensao, dimensionamento e motivacao para o desenvolvimento desses propulsores. A robustez operacional, a relativa simplicidade mecanica e a diversidade de uso, levou a considerarmos neste trabalho os sistemas propulsivos baseados nos motores foguete monopropelente e bipropelente liquidos pressurizados a gas. A partirdos principios de conservacao da massa, energia e quantidade de movimento foram desenvolvidos modelos matematicos, considerando-se exclusivamente a variacao temporal das variaveis envolvidas, dos seguintes elementos basicos dos sistemas propulsivos citados. * Reservatorios de propelente isobarico e nao isobarico, pressurizados a gas. * Tubulacoes e acessorios (valvulas, placa de orificio, placa injetora) * Camara de combustao ideal, tubular ideal e tubular com efeito do transporte de massa. * Bocal supersonico (tubeira) ideal. Convem ressaltar que as camaras de combustao com efeito do transporte de massa visam uma melhor aproximacao as camaras reais. Para cada modelo de sistema propulsivo foi dimensionado um sistema propulsivo. O motor foguete monopropelente baseia-se nos micropropulsores cataliticos a hidrazina de 100 N de empuxo projetados pelo INPE/IAE. Os motores bipropelentes dimensionados sao uma proposta viavel pra motores de bancada que desenvolvem 10000 N de empuxo e que utilizem com propelentes os pares etanol - oxigenio e querosene (RP-1) - oxigenio. Os sistemas propulsivos foram simulados numericamente utilizando-se o metodo Runge-Kutta de quarta ordem, para isto foram desenvolvidos programas computacionais utilizando-se a linguagem Pascal devido a principalmente ser esta uma linguagem didatica e de alto nivel. Os resultados dessas simulacoes sao apresentados na forma grafica, mas seguintes relacoes: - Empuxo X Tempo. - Vazao de Propelente X Tempo. - Pressao na Camara de Combustao X Tempo. - Raio da Gota de Propelente X Tempo. Estes resultados sao apresentados na forma de curvas com perfis caracteristicos desses sistemas propulsivos. Os modelos desenvolvidos e as tecnicas utilizadas mostraram-se muito eficientese robustas o suficiente para serem utilizadas como ferramentas de projeto de engenharia.",
+  "subjects": [
+    "Motores foguetes a propelente líquido",
+    "Sistemas de propulsăo",
+    "Propelentes líquidos para foguetes",
+    "Engenharia química",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "01/12/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000333485",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000333485&origem=BDITA"
+}

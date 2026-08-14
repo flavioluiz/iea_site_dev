@@ -1,0 +1,32 @@
+{
+  "num_tese": "000534594",
+  "type": "tese",
+  "title": "O método dos elementos finitos aplicado ao estudo de juntas rigidamente fixadas por parafusos.",
+  "author": "Paulo Henrique Lourenço",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A fixaçăo de estruturas e equipamentos aeronáuticos por meio de juntas aparafusadas é amplamente utilizada e requer bastante cuidado de projeto. Quanto ŕ carga de trabalho, existem dois tipos de juntas aparafusadas: juntas de cisalhamento e juntas de traçăo. O escopo deste trabalho restringe-se somente ao estudo do segundo tipo de junta, onde os parafusos săo predominantemente tracionados em sua condiçăo de trabalho. Uma junta aparafusada tem a funçăo de resistir aos carregamentos de operaçăo e manter o aperto do parafuso por toda sua vida em serviço. Para isso, é necessário um adequado dimensionamento dos parafusos. A determinaçăo da pré-carga de aperto é a base do cálculo da maioria dos conceitos de cálculo deste tipo de uniăo. Uma das principais incertezas no dimensionamento de uma junta fixada por parafusos é a determinaçăo do coeficiente de rigidez dos componentes sob compressăo nesta uniăo (com placas e arruelas). Através dos coeficientes de rigidez dos componentes de uma junta é possível entender a sua distribuiçăo de carga, resistęncia, vida em fadiga, etc. Baseado na importância deste tipo de aplicaçăo na engenharia aeronáutica, o presente trabalho tem como objetivo: 1. apresentar um critério de cálculo para juntas aparafusadas em aplicaçőes aeronáuticas; 2. revisar as principais referęncias usadas no cálculo e dimensionamento de juntas rigidamente fixadas por parafusos; e 3. propor o método dos elementos fininitos (MEF) de modo a determinar a rigidez dos componentes de uma junta aparafusada, que pode ser muito útil para juntas com graus de complexidade geométrica. Para o estudo da rigidez de juntas, relizado neste trabalho, utiliza-se do método da energia considerando a montagem de uma junta aparafusada como um sistema conservativo. Os coeficientes de rigidez de placas e parafuso săo calculados com base na energia de deformaçăo de cada um destes componentes para uma dada carga no parafuso. Em primeira análise, o MEF é proposto no estudo das variaçőes geométricas das placas (espessura e largura). Os resultados obtidos săo comparados ŕs teorias de cálculo de rigidez convencionais. Com esta comparaçăo é possivel avaliar a aplicaçăo do método de cálculo proposto com as principais referęncias convencionais. O segundo estudo utiliza o MEF em uma aplicaçăo de junta aparafusada năo convencional. Nesta junçăo, as placas săo de alumínio, e o parafuso é feito de aço. Entre a cabeça e a porca do parafuso apresenta-se uma bucha de uma liga de cobre e berílio. Esta bucha trabalha junto com as placas em compressăo pela carga de aperto, e a sua presença causa incertezas no uso dos métodos de cálculos convencionais de rigidez. Neste estudo, é possível comparar o método com resultados de equaçőes embasadas em experimentos neste tipo de montagem. Como último estudo, avalia-se a rigidez de tręs configuraçőes de juntas, diferentes em relaçăo ŕs cabeças de parafuso. Esta avaliaçăo usa apenas os recursos numéricos como exemplo de aplicaçăo do método apresentado, que tem como proposta investigar os efeitos dos diferentes tipos de cabeças de parafusos na rigidez das placas sob compressăo.",
+  "subjects": [
+    "Juntas parafusadas",
+    "Análise estrutural",
+    "Método de elementos finitos",
+    "Parafusos",
+    "Juntas (junçőes)",
+    "Placas (membros estruturais)",
+    "Estrutura de geometria variável",
+    "Ensaios de compressăo",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000534594",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000534594&origem=BDITA"
+}

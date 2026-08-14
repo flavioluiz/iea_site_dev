@@ -1,0 +1,31 @@
+{
+  "num_tese": "79858",
+  "type": "tese",
+  "title": "Progressive intralaminar damage in woven composite materials under mixed-mode fracture",
+  "author": "Felipe Ruivo Fuga",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Civil aviation industry has adopted strict requirements in the design of structural components, aiming to achieve lower emission levels with economically viable aircraft from the point of view of manufacturing and operation. For this task, composite materials have been commonly adopted as potential materials allowing the design of damage tolerant tailored structures with high stiffness and strength with low weight. Therefore, a deep understanding of fracture and fatigue in composites is a topic of interest for the modern aviation industry. Damage in composites is often classified as intralaminar and interlaminar. Interlaminar damage occurs at the matrix interface between layers, and benefits from a robust methodology for damage tolerance evaluation using both analytical and numerical approaches. However, for the intralaminar case, different failure mechanisms are associated resulting in analytical and numerical frameworks that are not yet completely explored. Furthermore, the introduction of mixed-mode loading on intralaminar damage requires a combination of different failure characteristics which are dependent on the reinforcement material architecture. This thesis explores the quasi-static mixed-mode loading fracture of woven composite materials and aims to provide a methodology for damage tolerance analysis, regarding the intralaminar damage. A Modified Arcan Fixture is proposed for fracture characterization, as a standard testing practice for mixed-mode is not existent. Through strain monitoring using the digital image correlation technique, an analytical fracture initiation criterion was proposed for mixed-mode fracture. A finite element numerical model was implemented, with the objective of using material properties only as input data. For the modelling strategy implemented, the model displays a good correlation to the observed failure mechanisms, with an over prediction of the maximum load capacity under some mixed-mode conditions. The finite element model formulation was extended to handle cyclic load cases assuming a Paris Law for crack propagation rate, in accordance to experimental data on the scientific literature.",
+  "subjects": [
+    "Materiais compósitos",
+    "Fraturas (materiais)",
+    "Danos",
+    "Método de elementos finitos",
+    "Estruturas de aeronaves",
+    "Análise numérica",
+    "Engenharia de materiais",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79858",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79858&origem=BDITA"
+}

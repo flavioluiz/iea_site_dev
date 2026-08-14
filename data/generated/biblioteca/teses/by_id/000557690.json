@@ -1,0 +1,32 @@
+{
+  "num_tese": "000557690",
+  "type": "tese",
+  "title": "Extensăo do método da colocaçăo na otimizaçăo de trajetórias de aeronaves.",
+  "author": "Maurício Andrés Varela Morales",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aplica o Método Indireto da Colocaçăo para resolver numericamente Problemas de Valor de Contorno resultantes da aplicaçăo da teoria controle ótimo ao problema de otimizaçăo de trajetórias de aeronaves. Uma extensăo da implementaçăo do método foi desenvolvida para incluir condiçőes de contorno interiores, que surgem quando restriçőes săo atingidas ao longo da trajetória, resultando num Problema de Valor de Contorno em Múltiplos Pontos (PVCMP). Quatro estudos de caso foram resolvidos numericamente para testar o método em questăo e analisar as suas vantagens e limitaçőes. Dois desses estudos de caso possuem documentados na literatura a soluçăo numérica pelo Método Indireto dos Múltiplos Tiros, que é um dos métodos mais difundidos para resolver problemas de controle ótimo com restriçőes. Assim, também foi possível comparar as soluçőes de ambos os métodos e constatar na prática as vantagens e desvantagens de um em relaçăo ao outro.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Controle ótimo",
+    "Controle com restriçőes",
+    "Princípio de Pontryagin",
+    "Análise numérica",
+    "Problemas de valores no contorno",
+    "Desempenho de aeronaves",
+    "Mecânica de vôo",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "23/12/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557690",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557690&origem=BDITA"
+}

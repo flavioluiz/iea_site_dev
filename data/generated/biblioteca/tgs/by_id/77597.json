@@ -1,0 +1,30 @@
+{
+  "num_tg": "77597",
+  "type": "tg",
+  "title": "Modelo de impacto de corpo cilíndrico com a água",
+  "author": "Gabriel de Oliveira Castellőes",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Luís Eduardo Vergueiro Loures da Costa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Guimarăes da Silva",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta uma metodologia para a determinaçăo da dinâmica de impacto de um corpo cilíndrico com a água, bem como a obtençăo da curva de máxima (des)aceleraçăo sofrida pelo referido corpo. Esta metodologia utiliza modelos matemáticos de ordem reduzida e incorpora em sua formulaçăo as incertezas associadas ŕ cada um dos parâmetros de projeto. É prioritária a realizaçăo deste estudo em fase de projeto desde que, durante a reentrada atmosférica, o veículo desacelera tanto devido a resistęncia com o ar (força de arrasto) como também devido ao impacto do corpo com o solo (ou água). A velocidade terminal do veículo pode ser demasiadamente elevada, sendo grande a probabilidade de se danificar os componentes internos da carga útil. Assim, conhecendo-se o valor máximo da força de impacto que os componentes dentro do veículo podem sofrer, pode-se determinar a velocidade terminal desejada e, na sequęncia, calcular o tamanho ideal do paraquedas de recuperaçăo, de forma a ser possível cumprir os requisitos adotados para o sistema de recuperaçăo. A principal contribuiçăo deste trabalho foi a derivaçăo de uma funçăo algébrica que permite a estimativa da força de impacto de um corpo na água em funçăo da velocidade de impacto, massa e diâmetro do corpo.",
+  "subjects": [
+    "Impacto",
+    "Água",
+    "Veículos de reentrada",
+    "Reentrada atmosférica",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77597",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77597&origem=BDITA"
+}

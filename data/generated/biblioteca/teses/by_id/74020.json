@@ -1,0 +1,28 @@
+{
+  "num_tese": "74020",
+  "type": "tese",
+  "title": "Flight effects on turbulent-jet wavepackets",
+  "author": "Luiz Fernando Mourăo Soares",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "An investigation is carried out to evaluate how an external uniform stream affects large-scale coherent structures in turbulent jets. The presence of this uniform stream outside the jet represents the effect of forward flight on the velocity field. Coherent turbulent structures are modelled as wavepackets, and the flight effect is studied using the parabolized stability equations (PSE). Measurements of mean base flows with flight effect, obtained at TsAGI, are described, along with the adopted simplification process used to maintain fit-to-model consistency. A formulation to evaluate the mean flow field of an assumed jet embedded by an outer coaxial stream is also used to extrapolate measured mean flow velocity profiles from static to flight conditions, in the case when there are no base flows of high fidelity. These velocity fields were then input in a PSE model, based on the same code of Sasaki et al. (2017), in order to retrieve the wavepacket signatures of axial velocity fluctuations. Overall results are in good agreement with experimental measurements, for both measured and extrapolated mean flows. There is an observed increase in wavepacket wavelengths and phase velocities (with respect to the nozzle). Also, axial amplification rates are determined and show stabilization in the near-nozzle region, which is confirmed by experimental power spectral densities on the jet centerline. This tendency holds as the free-stream velocity increases.",
+  "subjects": [
+    "Jatos turbulentos",
+    "Velocidade de fluxo",
+    "Escoamento coaxial",
+    "Ondas",
+    "Física"
+  ],
+  "defense_date": "13/12/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74020",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74020&origem=BDITA"
+}

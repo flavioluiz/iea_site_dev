@@ -1,0 +1,31 @@
+{
+  "num_tese": "64435",
+  "type": "tese",
+  "title": "Sistema de controle robusto de estrutura fixa para proteçăo de envelope de voo de aeronaves ultraleves",
+  "author": "Rodrigo Arnaut de Santana",
+  "year": "2013",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A aviaçăo ultraleve e experimental săo segmentos da aviaçăo geral que conquistam cada vez mais espaço no mercado mundial. Os motivos mais influentes para esse crescimento săo o baixo custo de aquisiçăo e operacional da aeronave, a pequena burocracia envolvida para obtençăo das licenças de piloto e o pequeno número de horas necessárias para o voo de cheque. Justamente pelo treinamento ainda năo ser tăo rigoroso como costuma ser nas outras áreas da aviaçăo, muitos pilotos acabam cometendo erros fatais que poderiam ser evitados de alguma forma. A perda de controle, mais especificamente o estol, é o caso que representa o maior índice de fatalidades no ramo aeronáutico. A proposta deste trabalho é projetar um controlador capaz de proteger o aviăo contra o estol, limitando seus máximos ângulos de atitude longitudinal, lateral e velocidade mínima. Primeiramente, a aeronave é analisada em malha aberta para verificar a necessidade de sistemas de aumento de estabilidade segundo critérios de qualidade de voo. Os ganhos dos controladores săo definidos através de requisitos de estabilidade e desempenho como também suas respectivas barreiras de robustez. Para estabilidade robusta, serăo consideradas as variaçőes paramétricas da planta e também o primeiro modo flexível da aeronave. Para desempenho robusto, a barreira das baixas frequęncias será definida pelo vento.",
+  "subjects": [
+    "Controle automático de voo",
+    "Controle robusto",
+    "Aeronaves ultraleves",
+    "Estabilidade de aeronaves",
+    "Envelopes de voo",
+    "Proteçăo",
+    "Controle",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "28/05/2013",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=64435",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=64435&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tg": "000550527",
+  "type": "tg",
+  "title": "Projeto conceitual de um simulador de aeronaves.",
+  "author": "Joăo Vitor Zanette",
+  "year": "2008",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Alexandre Luiz Reder Furtado",
+      "professor_slug": null
+    },
+    {
+      "name": "Pedro Paglione",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Apresenta-se nesse trabalho o desenvolvimento de um modelo completo que seja capaz de simular o comportamento de uma aeronave submetida a diferentes condiçőes de operaçăo. A partir dessa modelagem, apresentam-se as ferramentas do ambiente MATLAB/Simulink úteis no desenvolvimento de um simulador, utilizando-se o ambiente Flight Gear como cenário virtual na interface com o operador. O trabalho busca apresentar de maneira didática o desenvolvimento do simulador, detalhando a construçăo de cada elemento. Propőe-se também o desenvolvimento de um sistema de controle de vôo com ferramentas de aumento de estabilidade e sistemas de auto piloto. Apresenta-se, ainda, a aplicaçăo de uma metodologia de identificaçăo paramétrica para a caracterizaçăo da dinâmica longitudinal da aeronave, utilizando os dados levantados com auxílio do simulador desenvolvido. Por fim, destaca-se o projeto de um amortecedor em arfagem baseando-se nos resultados obtidos por meio da identificaçăo de parâmetros efetuada.",
+  "subjects": [
+    "Projetos",
+    "Simuladores de vôo",
+    "Modelos matemáticos",
+    "Estabilidade de aeronaves",
+    "Pilotos automáticos",
+    "Identificaçăo de parâmetros",
+    "Controle longitudinal",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000550527",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000550527&origem=BDITA"
+}

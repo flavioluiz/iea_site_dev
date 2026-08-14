@@ -1,0 +1,34 @@
+{
+  "num_tese": "79853",
+  "type": "tese",
+  "title": "Flight maneuver loads of a flexible aircraft",
+  "author": "Eduardo Augusto de Melo Pinto",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Fernando José de Oliveira Moreira",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This study focuses on a comparative analysis of internal load diagrams and flight parameters time histories for a flexible aircraft and its rigid-body counterpart, emphasizing the impact of structural flexibility on flight dynamics and loads during flight maneuvers. The research employs a dynamically-coupled formulation for the flexible model, considering small structural displacements and inertially coupled equations of motion. The aerodynamic loads are calculated with a quasi-steady Vortex Lattice model, and the structural dynamics is represented by a linear finite element model. The rigid-body model is obtained by neglecting structural flexibility, setting the number of elastic modes to zero. To calculate the internal loads, the force summation method is employed. Three maneuvers from CS-25 specifications are simulated: the symmetrical unchecked and checked maneuvers, and the roll maneuver. For the unchecked maneuver, the flexible model exhibits a slightly slower response and reduced wing and horizontal tail loads compared to the rigid model. In the checked maneuver, the flexible model displays nuanced differences in flight dynamics, because the elevator displacement profile is characterized by a sinusoidal input with a frequency matching the short period mode, which significantly differs from the frequency of the first aeroelastic mode. The highest absolute values of horizontal tail loads occur at the instant of maximum negative horizontal tail aerodynamic force (FZHT), with the rigid-body model yielding higher absolute values than the flexible formulation. However, the loads at the instant of maximum positive FZHT are greater for the flexible model. The roll maneuver reveals a slower response and steady roll rate in the flexible model due to structural displacements and aileron control effectiveness. Consequently, the wing internal loads of flexible model is smaller. Detailed comparisons of pertinent parameters, along with wing and horizontal tail internal loads, for all maneuvers, highlight differences in aerodynamic, inertial, and propulsive contributions. Regardless of the obtained variations, the study emphasizes the importance of considering structural flexibility in analyzing flight maneuver loads and the need for more precise and efficient methods to address the evolving landscape of aircraft design. The framework developed may be employed to calculate any flight and ground condition loads if some upgrades are performed, e.g., the implementation of an unsteady aerodynamic model to calculate turbulence encounter loads, and control laws to design a load alleviation system.",
+  "subjects": [
+    "Asas flexíveis",
+    "Estabilidade estrutural",
+    "Dinâmica de voo",
+    "Aerodinâmica",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "12/06/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79853",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79853&origem=BDITA"
+}

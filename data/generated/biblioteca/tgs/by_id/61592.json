@@ -1,0 +1,28 @@
+{
+  "num_tg": "61592",
+  "type": "tg",
+  "title": "Structural optimization of a flexible wing : reduced model approach",
+  "author": "Erick Assis Lima",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This project is about sizing an Aluminum wingbox throughout analytical formulas, from a wing of a commercial narrow-body airliner. It is based on structural criteria for a cruise load case applying the major forces in the wing. A friendly interface in MATLAB has been developed in order to quickly get first results for an optimization process and to be a worthy start for a numerical optimization with structural tools as well, since great results are straight related with well-estimated inputs. Then, the second part of this work is the construction of a response surface (Surface Model) of a wingbox versus a NACA airfoil from sampled NACA parameter, which mean that this device can directly calculate the wingbox thickness from the parameters that defines the airfoil. The response surface replaces a task that is taking to long time, so it is useful as a first approach to the final wing thickness results. For that purpose, the Design of Experiments analyze the impact of each variable in the outputs and then, the reduced model is completed through an iterative work using a Surrogate Optimization process.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Estruturas de aeronaves",
+    "Otimizaçăo",
+    "Asas",
+    "Carga alar",
+    "Aerofólios",
+    "Aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61592",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61592&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "74511",
+  "type": "tese",
+  "title": "Aircraft structural inspections definition considering probabilistic analysis of failures based on variability of crack growth parameters and probability of detection",
+  "author": "Mateus Cunha Cavecci Zequi de Oliveira",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mariano Andrés Arbelo",
+      "professor_slug": "mariano-andres-arbelo"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work proposes a methodology to calculate the risk/reliability of structural components and to determine inspections plans based on a probabilistic approach accounting the variability of crack growth parameters and inspections methods' probability of detection. An optimization process selects the inspection plan with the lowest cost attending the specified structural reliability requirements (maximum Cumulative Probability of Failure (CPOF) or its inverse, minimum Reliability (R); and maximum Single Flight Probability of Failure (SFPOF)). A review is presented exposing the basic concepts that fundaments this work and current probabilistic methodologies applied to aircraft structures are indicated. Each input variability modelling is discussed based on available data in literature. Monte Carlo method with Latin Hypercube Sampling is used for the probabilistic crack growth calculation. In order to reduce the number of runs to achieve a desired confidence level, Beta distribution is considered to construct a confidence band given a specified confidence level for any number (N) of Monte Carlo simulations. modeFrontier® Multi-Objective Genetic Algorithm II (MOGA II) is used for the optimization process. An example of application is presented for a typical aircraft shear joint where the results of traditional deterministic methodology are compared with the ones from the proposed methodology along with further explored ideas. The results shows potential for cost reduction along with reliability increase. Customized inspection plans for different operator may also be generated. Finally, a test validation plan for the proposed methodology is briefly outlined for future works along with a list of some aspects and ideas to be further explored.",
+  "subjects": [
+    "Tolerância a danos",
+    "Confiabilidade estrutural",
+    "Avaliaçăo de riscos",
+    "Método de Monte Carlo",
+    "Engenharia estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "04/07/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74511",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74511&origem=BDITA"
+}

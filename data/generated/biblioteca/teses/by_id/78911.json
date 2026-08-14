@@ -1,0 +1,30 @@
+{
+  "num_tese": "78911",
+  "type": "tese",
+  "title": "Formulation and implementation of an elastoplastic damage model for ductile materials based on peridynamic theory",
+  "author": "Átila Lupim Cruz",
+  "year": "2021",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The Peridynamic Theory is a reformulation of the continuum mechanics developed in recent years able to solve complex elastoplastic dynamics problems. This method has, among other advantages, a natural capacity to simulate the initiation and growth of cracks in solid materials without the aid of numerical procedures commonly employed in the conventional finite element formulation. This capacity is due to the peridynamic constitutive relations being based on partial integral equations rather than differential ones, where these equations keep being definite even with a geometrical discontinuity. Also, these constitutive relations are dependent on some constants calibrated by the physical and geometrical properties obtained from the simulated problem, which are called in this work as the peridynamic material parameters. These parameters could be calculated by the approach given in the open literature, but they are also reevaluated in this research to optimize the computational costs and to improve the precision of a given numerical analysis. Within this peridynamic context, two elastoplastic damage models are proposed in this research to be used with the Peridynamic Theory, where one model accounts for the quasi-static damage process and the other accounts for the fatigue-induced damage process. Both proposed damage models combine the Von Mises plasticity-based theory with a continuum damage mechanics approach, which enables the damage predictions to be done within an energy-based framework. These proposed damage models incorporate a mixed-mode propagation criterion to account for the effect of both axial and shear stresses in the simulation, which allows the prediction of the quasi-static damage and the fatigue-induced damage in ductile materials under multiaxial loading without knowing a priori the mode mixity ratio. To verify the accuracy of the proposed methodology, the damage formulations presented here are implemented in an in-house Fortran code developed along with this research. The results obtained by this code are compared with the analytical solution and the experimental results obtained from the open literature when possible, and conclusions are drawn.",
+  "subjects": [
+    "Danos",
+    "Fadiga térmica",
+    "Elastoplasticidade",
+    "Fraturas (materiais)",
+    "Método de elementos finitos",
+    "Análise numérica",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "01/11/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78911",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78911&origem=BDITA"
+}

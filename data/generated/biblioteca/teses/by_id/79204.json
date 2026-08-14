@@ -1,0 +1,34 @@
+{
+  "num_tese": "79204",
+  "type": "tese",
+  "title": "Experimental and numerical study of transitional flows in wavy cylinders",
+  "author": "Paulo Henrique Ferreira",
+  "year": "2023",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Costa Moura",
+      "professor_slug": "rodrigo-costa-moura"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Tiago Barbosa de Araújo",
+      "professor_slug": "tiago-barbosa-de-araujo"
+    }
+  ],
+  "abstract": "This work aims to propose and study a novel method of passive flow control in circular cylinders through a distinct wavy geometry modification, named wavy leading-edge cylinder. This modification is expected to be able to break spanwise coherence in vortex formation, reduce mean drag, and lift fluctuations. This investigation of wavy cylinders is inspired by some previous studies with airfoils, specifically wavy leading-edge airfoils, which in turn are based on a bio-inspired modification mimicking the so-called tubercles found in Humpback whale flippers, which have shown really promising results. Different tools are employed, such as numerical simulation using Nektar++ and wind tunnel experiments, to gain a broader and deeper understanding of the flow phenomena involved. Numerical results for a single Reynolds number of 3,900 demonstrate an unexpected increase in mean drag, contradicting the prevailing findings in the literature on typical wavy cylinders, even though the current one is a novel geometry modification. Nevertheless, this initial analysis provided valuable insights into the underlying phenomenology. Conversely, experimental results reveal a drag reduction in 3 out of 4 wavy models across a range of Reynolds numbers from 39,000 to 200,000 in the subcritical regime. Despite the contrasting findings, the trend of higher drag at lower Reynolds numbers suggests a Reynolds number effect. Furthermore, oil visualization confirms that the same topology persists in both conditions, with streamwise vortices acting on each side of each peak along with the formation of a three-dimensional laminar separation bubble in the valleys in certain cases. The pressure distribution imposed by the wavy geometry causes surface streamlines to deviate from the valleys toward the peaks. This, in turn, affects the position and shape of the separation line and generates vorticity that interacts with the near wake. At Reynolds number 3,900, this leads to a shortened wake formation region length and increased turbulent kinetic energy. Based on these results, we anticipate an opposite effect on the wake at higher Reynolds numbers, depending on the chosen waviness parameters. The effectiveness of this relationship is tied to the ratio $A/\\lambda$ (waviness amplitude divided by its wavelength). These findings highlight the intricate nature of this flow and underscore the significant potential for employing this flow control mechanism. Moreover, to the extent possible, the knowledge acquired so far can be applied to understanding the effects of undulation in both typical wavy cylinders and airfoils.",
+  "subjects": [
+    "Mecânica dos fluidos",
+    "Controle de escoamento",
+    "Cilindros circulares",
+    "Vórtices",
+    "Estudo numérico",
+    "Física"
+  ],
+  "defense_date": "13/07/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79204",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79204&origem=BDITA"
+}

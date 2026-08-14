@@ -1,0 +1,30 @@
+{
+  "num_tg": "77601",
+  "type": "tg",
+  "title": "Otimizaçăo de parâmetros em transferęncias Terra-Marte com swing-by propulsado por Vęnus",
+  "author": "Francisco Matheus Moreira de Castro",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Antônio Fernando Bertachini de Almeida Prado",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta possíveis aplicaçőes para metodologias de modelamento e simulaçăo numérica de transferęncias interplanetárias com swing by propulsado com abertura para aplicaçăo de algoritmos de otimizaçăo de parâmetros em funçăo da necessidade de estudo ou definiçăo de estados do sistema que representem custos mínimos sobre algum ponto de vista como, por exemplo, custo medido em termos de variaçăo de velocidade, tempo de voo ou proximidade com determinados pontos estratégicos desejados. Os astros celestes de interesse neste trabalho săo Terra, Vęnus, Marte e Sol onde se objetiva estudar como o posicionamento relativo do sistema, a análise da evoluçăo da dinâmica associada ao problema de N corpos com esses astros, as velocidades aplicadas e pontos de aplicaçăo de impulsos durante trajetórias de transferęncia influenciam no custo total da viagem medido em variaçőes de velocidade da espaçonave durante a transferęncia. A utilizaçăo de algoritmos de otimizaçăo de parâmetros visa determinar o conjunto de valores para os quais o sistema apresenta custos associados suficientemente interessantes e justificáveis para uma missăo de dupla finalidade como, por exemplo, obtençăo de dados durante uma transferęncia interplanetária. Apesar de resultados preliminares possam ser obtidos a partir de análise de dois corpos, este trabalho propőe uma abordagem de tręs corpos com abertura para consideraçăo de mais corpos no sistema simulado. Um dos principais objetivos é verificar como a aplicaçăo de um impulso durante a manobra de swing by por Vęnus pode reduzir o custo total da transferęncia principalmente caso seja aplicado em pontos diferentes do periapsis da trajetória.",
+  "subjects": [
+    "Otimizaçăo",
+    "Algoritmos",
+    "Órbita de transferęncia",
+    "Mecânica celeste",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77601",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77601&origem=BDITA"
+}

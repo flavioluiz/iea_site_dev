@@ -1,0 +1,31 @@
+{
+  "num_tese": "68335",
+  "type": "tese",
+  "title": "Elementos finitos mistos-híbridos para análises estáticas e dinâmicas de estruturas",
+  "author": "Felipe Rodrigo Cardoso",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho é apresentado o desenvolvimento de elementos finitos mistos-híbridos de tensăo bidimensionais e tridimensionais aplicados a análises estáticas e modais, considerando-se materiais isotrópicos elásticos lineares. Destaca-se a criaçăo de um novo elemento misto-híbrido tridimensional de tensăo para análise modal descrito como um hexaedro serendipiano composto por vinte nós. A formulaçăo é baseada na aproximaçăo simultânea e independente dos campos de tensăo e deslocamento no volume de um elemento, bem como de deslocamento na fronteira do mesmo. Estas aproximaçőes năo satisfazem as equaçőes de equilíbrio, deslocamento-deformaçăo e constitutivas a priori. Polinômios de Legendre săo utilizados para a composiçăo das aproximaçőes, formando uma base completa. A característica ortogonal destas funçőes promove a geraçăo de sistemas altamente esparsos. Os modelos estruturais săo discretizados por elementos quadrilaterais ou hexaédricos, sendo refinados quanto ao aumento do número de elementos (refinamento h) ou do grau das funçőes de aproximaçăo (refinamento p). Testes estáticos e modais encontrados na literatura e em programas comerciais de elementos finitos săo implementados com elementos mistos-híbridos de tensăo para a comprovaçăo da acuracidade destes elementos.",
+  "subjects": [
+    "Análise modal",
+    "Estática",
+    "Estruturas bidimensionais",
+    "Estruturas tridimensionais",
+    "Método de elementos finitos",
+    "Fatores de intensidade de tensăo",
+    "Engenharia aeronáutica",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "04/05/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68335",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68335&origem=BDITA"
+}

@@ -1,0 +1,36 @@
+{
+  "num_tese": "75421",
+  "type": "tese",
+  "title": "Station-keeping control design for Earth-Moon L1 libration point halo orbits",
+  "author": "Thiago César Lousada Marsola",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Manoel Balthazar",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "In this work, we consider the dynamics of the Circular Restricted Three-Body Problem for the Earth-Moon system. Taking into account the L1 equilibrium point in this dynamics, it is constructed a family of periodic orbits in the vicinity of this libration point, called halo orbits. The construction is built using an analytical approach as a first guess with a numerical method in addition, in order to correct the linear approximation procedure. Withal the stability of this libration point trajectories analyzed and proven to be unstable, a spacecraft moving near this point must use some correction maneuver to remain close to the nominal orbit. We proposed a station-keeping strategy applicable to those trajectories using optimal linear and nonlinear feedback control laws. The proposed nonlinear control law was synthesized through the solution of an Riccati equation.",
+  "subjects": [
+    "Pontos de equilíbrio de Lagrange",
+    "Problema de tręs corpos",
+    "Mecânica celeste",
+    "Sistemas Terra-Lua",
+    "Órbitas",
+    "Sistemas dinâmicos",
+    "Controle ótimo",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "07/12/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=75421",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=75421&origem=BDITA"
+}

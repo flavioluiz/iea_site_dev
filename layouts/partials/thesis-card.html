@@ -1,0 +1,82 @@
+{{/* Thesis Card Partial - Displays thesis info from lightweight index */}}
+{{ $thesis := .thesis }}
+{{ $page := .page | default $ }}
+
+{{/* Extract advisor professor IDs for filtering */}}
+{{ $advisorIds := "" }}
+{{ range $thesis.ap }}
+  {{ $advisorIds = printf "%s|%s" $advisorIds . }}
+{{ end }}
+
+<article class="thesis-card bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-200"
+         data-year="{{ $thesis.y }}"
+         data-course="{{ $thesis.c }}"
+         data-area="{{ $thesis.ar }}"
+         data-advisors="{{ $advisorIds }}"
+         data-title="{{ $thesis.t | lower }}"
+         data-author="{{ $thesis.a | lower }}"
+         data-keywords="{{ delimit $thesis.kw "|" | lower }}">
+
+  {{/* Header: Course Badge and Year */}}
+  <div class="flex items-center justify-between mb-3">
+    <div class="flex items-center gap-2">
+      {{ if eq $thesis.c "D" }}
+        <span class="inline-block bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-xs font-semibold uppercase">
+          {{ i18n "phd" }}
+        </span>
+      {{ else }}
+        <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-semibold uppercase">
+          {{ i18n "master" }}
+        </span>
+      {{ end }}
+      <span class="text-gray-500 text-sm font-medium">{{ $thesis.y }}</span>
+    </div>
+  </div>
+
+  {{/* Title - Links to individual thesis page */}}
+  <h3 class="text-lg font-semibold text-gray-900 mb-2 leading-tight">
+    <a href="{{ printf "/teses/%s/" $thesis.id | relLangURL }}"
+       class="text-blue-600 hover:text-blue-800 hover:underline transition-colors">
+      {{ $thesis.t }}
+    </a>
+  </h3>
+
+  {{/* Author */}}
+  <p class="text-sm text-gray-600 mb-2">
+    <span class="font-medium">{{ $thesis.a }}</span>
+  </p>
+
+  {{/* Advisors */}}
+  {{ with $thesis.ad }}
+    <p class="text-sm text-gray-500 mb-3">
+      <span class="font-semibold">{{ i18n "advisor" }}:</span>
+      {{ range $idx, $advisor := . }}
+        {{ if $idx }}, {{ end }}
+        {{ $advisor }}
+      {{ end }}
+    </p>
+  {{ end }}
+
+  {{/* Area */}}
+  {{ with $thesis.ar }}
+    <p class="text-xs text-gray-400">
+      {{ . }}
+    </p>
+  {{ end }}
+
+  {{/* Keywords (collapsed by default) */}}
+  {{ if gt (len $thesis.kw) 0 }}
+    <div class="mt-3 pt-3 border-t border-gray-100">
+      <div class="flex flex-wrap gap-1">
+        {{ range first 3 $thesis.kw }}
+          <span class="inline-block bg-gray-100 text-gray-600 px-2 py-0.5 rounded text-xs">
+            {{ . }}
+          </span>
+        {{ end }}
+        {{ if gt (len $thesis.kw) 3 }}
+          <span class="text-xs text-gray-400">+{{ sub (len $thesis.kw) 3 }}</span>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</article>

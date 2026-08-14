@@ -1,0 +1,30 @@
+{
+  "num_tese": "73419",
+  "type": "tese",
+  "title": "Buckling optimization of variable stiffness composite structures using lamination parameters",
+  "author": "Hugo Borges de Quadros",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "José Antônio Hernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The use of fiber-reinforced composites in aerospace structures has increased significantly over the past decades. The development of new technologies regarding manufacturing of composite parts, such as the Automated Fiber Placement (AFP), allows the unique opportunity to design laminates with continuously varying fiber orientation angles, yielding spatially varying stiffness properties. These laminates, called variable stiffness composites, represent a system with a larger design space in which the stiffness can be locally tailored in order to achieved efficient structural designs. The optimization problem of such structures represents a complex task since the problem consists of obtaining an optimal lay-up configuration at every point in the structure while fiber continuity is assured. In this work, a buckling optimization of variable stiffness composites is presented based on a Lagrange parameterization approach that allows a drastic reduction of design variables as the smoothness of the solution is inherently guaranteed. The parametrization allows the definitions of the design variables independently of the mesh density of a finite element model. The maximization of the buckling load is performed by defining lamination parameters as design variables. This methodology removes the difficulties related with discrete design variables and provides a convex design space in order to find a global optimum solution. The design process is based on sequential quadratic programming and consists in two steps: the determination of an optimum lamination parameters which results in the maximization of buckling performance; and the retrieving of a lay-up configuration from an optimum lamination parameters based solution. The approach also allows the control of design space by defining control nodes and limits for spatial variation of design variables. The proposed parameterization is applied to thin panels and different boundary conditions and geometry are considered for evaluation. In addition, the increasing in buckling performance mechanisms are evaluated based on pre-buckling analysis in order to present the in-plane load redistribution for the design of variable stiffness laminates.",
+  "subjects": [
+    "Análise estrutural",
+    "Laminados",
+    "Flambagem",
+    "Otimizaçăo",
+    "Materiais compósitos",
+    "Método de elementos finitos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "07/07/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73419",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73419&origem=BDITA"
+}

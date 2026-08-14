@@ -1,0 +1,34 @@
+{
+  "num_tg": "80776",
+  "type": "tg",
+  "title": "Proposta de cálculo de probabilidade de impacto em operaçőes de lançamento de foguetes",
+  "author": "Nathan Tavares da Silva",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Moacyr Machado Cardoso Junior",
+      "professor_slug": "moacyr-machado-cardoso-junior"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Lucas Edgar Monteiro Gerke",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho propőe uma metodologia para o cálculo da probabilidade de impacto de foguetes em embarcaçőes marítimas durante operaçőes no Centro de Lançamento da Barreira do Inferno (CLBI). Motivada pela necessidade de segurança operacional e pelo desafio de monitorar embarcaçőes em tempo real, a metodologia utiliza exclusivamente dados históricos de densidade de tráfego marítimo. O método integra duas modelagens principais: 1) a dispersăo estatística do foguete, adotando a simplificaçăo circular (baseada na prática do IAE e no software TDA) em vez da distribuiçăo bivariada elíptica completa e 2) a presença de embarcaçőes, utilizando dados da plataforma Global Marine Traffic Density Service (GMTDS). O GMTDS discretiza o oceano em células de 1 km^2, e a presença de navios em cada célula é modelada como um Processo de Poisson, usando a densidade temporal média (?) como taxa. A metodologia foi aplicada a um caso de estudo (Operaçăo Potiguar), analisando dados de 2013 a 2023. Os resultados identificaram uma clara tendęncia de aumento da probabilidade ao longo dos anos e um padrăo sazonal definido, com pico em outubro. A principal contribuiçăo é a geraçăo de mapas de calor que identificam zonas geoespaciais de maior risco, correspondentes a rotas de navegaçăo conhecidas, como Recife-Fernando de Noronha, permitindo a otimizaçăo de rotas de patrulha e o planejamento de trajetória.",
+  "subjects": [
+    "Planejamento de missăo",
+    "Lançamento",
+    "Prediçăo de impacto",
+    "Teoria das probabilidades",
+    "Embarcaçőes",
+    "Segurança operacional",
+    "Planejamento de trajetória",
+    "Centro de Lançamento da Barreira do Inferno",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80776",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80776&origem=BDITA"
+}

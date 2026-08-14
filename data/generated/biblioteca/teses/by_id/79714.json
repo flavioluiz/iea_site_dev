@@ -1,0 +1,38 @@
+{
+  "num_tese": "79714",
+  "type": "tese",
+  "title": "Development and application of an enhanced GPU based method for simulation and inverse analysis in autogenous welding",
+  "author": "Ernandes José Gonçalves do Nascimento",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luiz Eduardo dos Santos Paes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The recent advancements in engineering design and manufacturing techniques have led to a high demand for determining material properties and process parameters under severe working conditions. However, the application of direct experimentation methods for measuring such variables is often geometrically impractical, laborious, expensive, and may yield poor results in high-temperature setups. As an effective solution to this gap, the combination of inverse problem techniques and numerical methods offers many advantages, such as easy variable probing, reduced costs, lower personnel risks, decreased production of material waste, simplified experimental apparatus and higher versatility. Although the field of inverse computational heat transfer has received considerable advancements in the past sixty years, there is still plenty of room for enhancements regarding novel inverse methods as well as code and hardware optimization. Hence, the present thesis was aimed at integrating advanced parallelization techniques, high-performance computing, and a novel optimization inverse method. A comprehensive review of welding processes revealed the recent surge in research and application of LASER Beam Welding (LBW), showcasing its vast potential and high added value for scientific and industrial systems. The estimation of important process parameters, along with the efficient simulation of manufacturing activities, allows not only the identification of possible inefficiencies and undesired final mechanical characteristics but also significant enhancements to the design of experiments. Therefore, in the present research, the solution to inverse problems is improved by developing Radial Basis Function (RBF) interpolation-based algorithms to optimize the estimation of function parameters through a regularized least squares scheme. Furthermore, the Compute Unified Device Architecture (CUDA®) platform by Nvidia™ is integrated with the Finite Volume Method (FVM) for a highly parallelized computational solution of the direct model. The developed numerical tool achieved speed-ups ranging from 75.6 to 1351.2 times faster than top-rated commercial codes. In fact, an investigation revealed that the proposed GPU-based solutions also required, on average, 83.24 times less electrical energy compared to the commercial codes. The inverse estimations were conducted using noiseless data from a simulated experiment, data with variable standard deviation uncertainty, and experimental data. The individual estimation errors for the simulated experiment remained consistently below 1.3 % across all the estimations. The estimations performed with experimental data resulted in adjustments of 8.49% and 4.90% in the previous regression-based directly measured parameters, leading to a reduction of 0.84% in the associated estimation error. The research outcomes suggest that the proposed combination of tools for optimum inverse analysis is robust, demonstrating a high success rate in estimating function parameters and excellent computational efficiency by delivering fast, less power-consuming and cost-effective solutions.",
+  "subjects": [
+    "Análise térmica",
+    "Soldagem a laser",
+    "Transferęncia de calor",
+    "Solda autógena",
+    "Modelo numérico",
+    "Interpolaçăo",
+    "Algoritmos",
+    "Coprocessadores",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "03/04/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79714",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79714&origem=BDITA"
+}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000515333",
+  "type": "tese",
+  "title": "Dinâmica e controle de vibraçőes de uma viga tipo Euler-Bernoulli bi-apoiada.",
+  "author": "Severino Pinto dos Santos",
+  "year": "2003",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta a modelagem, identificaçăo e controle ativo de vibraçőes de uma viga flexível do tipo Euler-Bernoulli Bi-apoiada. As técnicas adotadas săo as equaçőes generalizadas de Lagrange para a obtençăo da equaçăo do movimento e modos assumidos para discretizar a referida equaçăo. Para validaçăo dos resultados usou-se uma viga de alumínio na qual foram colados duas pastilhas PZT, sendo uma pastilha para excitar a viga e a outra, em conjunto com um acelerômetro e computador, destinado ao controle em tempo real das vibraçőes, usando o ambiente Matlab.",
+  "subjects": [
+    "Controle ativo",
+    "Amortecimento de vibraçăo",
+    "Controle por computadores",
+    "Vigas",
+    "Estruturas",
+    "Corpos flexíveis",
+    "Análise numérica",
+    "Controle",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515333",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515333&origem=BDITA"
+}

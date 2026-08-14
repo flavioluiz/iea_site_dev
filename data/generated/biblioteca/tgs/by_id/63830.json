@@ -1,0 +1,32 @@
+{
+  "num_tg": "63830",
+  "type": "tg",
+  "title": "Otimizaçăo aero-estrutural na fase de projeto de uma aeronave",
+  "author": "Pedro Langenegger Videiro",
+  "year": "2012",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    }
+  ],
+  "abstract": "O presente estudo se dedica ao desenvolvimento de uma ferramenta para estimar desempenho de asas de aeronave ainda durante a sua fase de projeto conceitual. O objetivo é fornecer a partir da geometria da asa e de alguns parâmetros de projeto o desempenho da asa e integrá-lo a um processo de otimizaçăo. O desempenho é estimado pela análise aerodinâmica e estrutural da asa. Para tal, um módulo analítico é desenvolvido para determinar a massa da asa, através do dimensionamento de sua estrutura. As forças aerodinâmicas săo obtidas com o auxílio do software BLWF, software CFD de potencial completo com correçăo de camada limite.",
+  "subjects": [
+    "Asas",
+    "Aeronaves",
+    "Projetos",
+    "Otimizaçăo",
+    "Desempenho",
+    "Análise estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=63830",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=63830&origem=BDITA"
+}

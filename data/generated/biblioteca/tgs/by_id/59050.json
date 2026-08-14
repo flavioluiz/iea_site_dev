@@ -1,0 +1,31 @@
+{
+  "num_tg": "59050",
+  "type": "tg",
+  "title": "Ferramenta de otimizaçăo da trajetória da aeronave em regiőes montanhosas",
+  "author": "Bruno Masayoshi Matsumoto",
+  "year": "2010",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Mailema Celestino dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Em determinados aeroportos o procedimento de decolagem requer a execuçăo de algumas curvas com o objetivo de livrar obstáculos, como, por exemplo, uma montanha próxima ao aeroporto. A determinaçăo da trajetória correta é importante para maximizar o peso de decolagem e consequentemente a carga paga da aeronave. Este TG apresenta um método computacional que auxilia a determinaçăo dessa trajetória, com base em um banco de dados digital do relevo. Para isso foi desenvolvido um programa em Fortran que gera uma visualizaçăo do relevo da regiăo, de forma a facilitar a determinaçăo dos melhores caminhos a serem seguidos no procedimento de decolagem, ou seja, aqueles que exigem os menores gradientes de subida. Isso é feito traçando-se a trajetória e verificando quais obstáculos devem ser considerados, respeitando os requisitos de decolagem em curva.",
+  "subjects": [
+    "Otimizaçăo de trajetória",
+    "Métodos computacionais",
+    "Planejamento de trajetória",
+    "Corrida de decolagem",
+    "Desempenho de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=59050",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=59050&origem=BDITA"
+}

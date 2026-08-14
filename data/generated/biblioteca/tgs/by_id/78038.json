@@ -1,0 +1,28 @@
+{
+  "num_tg": "78038",
+  "type": "tg",
+  "title": "Use of solar sails for transfer trajectories between equilibrium points in the restricted three-body problem",
+  "author": "Gustavo de Souza Medeiros",
+  "year": "2021",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Maisa de Oliveira Terra",
+      "professor_slug": "maisa-de-oliveira-terra"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents a study on the influence of solar sails on the trajectories of a spacecraft under the influence of two massive bodies: the Sun and the Earth. The solar sail is modeled by a perfectly reflecting surface, that converts the solar radiation pressure in a force to the spacecraft based on an efficiency, given by the lightness number ?, and the sail orientation in relation to the Sun. The spacecraft dynamics arise from the movement equations of the special restricted three-body model. The trajectories are obtained from an algorithm based on the shooting method, that converts the two-point boundary value problem into an initial conditions one. The solution's sensibility to the algorithm's initial guess is explored, as well as its applications in a real scenario of a transfer between artificial equilibrium points in the Earth-Sun system. The trajectories found are analyzed and compared to equivalent solutions without solar sails.",
+  "subjects": [
+    "Fontes alternativas de energia",
+    "Problema de tręs corpos",
+    "Mecânica celeste",
+    "Sistemas dinâmicos",
+    "Radiaçăo solar",
+    "Análise numérica",
+    "Sistema solar",
+    "Física"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78038",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78038&origem=BDITA"
+}

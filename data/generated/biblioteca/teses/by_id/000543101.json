@@ -1,0 +1,34 @@
+{
+  "num_tese": "000543101",
+  "type": "tese",
+  "title": "Simulaçăo numérica do escoamento turbulento em bomba ejetora.",
+  "author": "Glauber Cruz",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As bombas ejetoras săo dispositivos apropriados para aspirar e bombear um fluido que pode ser líquido, gás ou vapor ou uma mistura bifásica. Tais dispositivos săo caracterizados pela troca da energia cinética de uma corrente de fluido primária com a uma corrente de fluido secundária em uma câmara de mistura. Devido ŕ simplicidade na estrutura, na ausęncia de partes móveis e na convenięncia da manutençăo, bombas ejetoras tęm sido usadas extensivamente em muitos campos da Engenharia para várias finalidades. Bombas ejetoras săo usadas principalmente em atividades como: bombeamento ou sucçăo de fluidos, dragas, bombeamento de produtos químicos, transporte de partículas sólidas grandes ou até mesmos produtos alimentícios. Uma bomba ejetora é geometricamente simples consistindo de 4 componentes principais: um bocal, câmara de sucçăo, garganta misturadora e difusor. Nesta dissertaçăo, a ferramenta de Dinâmica dos Fluidos Computacional (DFC) foi utilizada para calcular o escoamento tridimensional no interior de uma bomba ejetora com dados geométricos e de desempenho disponíveis na literatura com o objetivo principal de avaliar a qualidade dos resultados obtidos. Para tanto as equaçőes de conservaçăo da massa, 2Ş Lei de Newton, conservaçăo de energia e para o modelo de turbulęncia k- foram resolvidas utilizando o método de volumes finitos com um algoritmo segregado para o acoplamento dos campos de velocidade e pressăo. Para obtençăo da soluçăo foi utilizado o código comercial Fluent versăo 6.3.17. Os resultados numéricos obtidos para eficięncia da bomba ejetora foram comparados com resultados experimentais e com os de uma formulaçăo unidimensional onde os coeficientes de perda por atrito foram medidos experimentalmente nas seçőes da bomba ejetora ensaiada experimentalmente e simulada numericamente. Os resultados apresentaram boa concordância em toda a faixa disponível de resultados experimentais. A ferramenta de CFD também permitiu analisar os campos de velocidade e a distribuiçăo de pressăo nos componentes da bomba ejetora (bocal, garganta misturadora e difusor).",
+  "subjects": [
+    "Bombas de jato",
+    "Escoamento turbulento",
+    "Análise numérica",
+    "Simulaçăo",
+    "Eficięncia",
+    "Ejetores",
+    "Dinâmica dos fluidos computacional",
+    "Método de volume finito",
+    "Modelo de turbulęncia k-epsilon",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "17/10/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000543101",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000543101&origem=BDITA"
+}

@@ -1,0 +1,28 @@
+{
+  "num_tese": "000266326",
+  "type": "tese",
+  "title": "Análise do escoamento em máquinas de fluxo axiais",
+  "author": "Nelson Manzanares Filho",
+  "year": "1994",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Euclides Carvalho Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "No presente trabalho, sao discutidos certos aspectos doescoamento em maquinas de fluxo axiais, com enfase no problema dedimensionamento. Na primeira parte, e feita uma analise simplificadados parametros otimos de funcionamento de um estagio rotor-estator. Introduz-se os conceitos de \"potenciais de perdas\" hidraulicas e pordifusao, cuja minimizacao indica tendencias de se obter faixasperdas hidraulicas e de pressao, respectivamente. Verifica-se que aminimizacao do potencial de perdas hidraulicas nem sempre conduz aestagios efetivos na producao de pressao estatica, o que nao ocorrecom a minimizacao do potencial de perdas por difusao. Essa ultima,alem disso, possibilita uma reproducao analítica dos Diagramas deCordier em boa concordancia com dados nominais de bombas eventiladores bem projetados. Na segunda parte, apresenta-se umametodologia para analise do escoamento em grades lineares de perfisaerodinamicos. Com base no metodo dos paineis, desenvolve-se umatecnica numerica efetiva para analise do escoamento potencial. A tecnica e aferida para se obter bons resultados com numeromoderado de paineis. Em seguida, ela e aplicada sistematicamente nocaso de grades de perfis da serie NACA 65, para as quais estaodisponiveis dados experimentais confiaveis. Em funcao disso, ehproposta uma correlacao empirica, permitindo definir um ajuste nadistribuicao de pressoes (conforme Gostelow) e no angulo de deflexaodo escoamento, com resultados mais realistas que os potenciais(segundo a condicao de Kutta). Finalmente, a metodologia e aplicada em casos de projeto de rotores de maquinas de fluxo axiais, visandoatender ao criterio de coeficiente de pressao minimo prescrito sobreas pas.",
+  "subjects": [
+    "Escoamento axial",
+    "Escoamento potencial",
+    "Método dos painéis (dinâmica dos fluidos)",
+    "Engenharia mecânica",
+    "Física"
+  ],
+  "defense_date": "01/04/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000266326",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000266326&origem=BDITA"
+}

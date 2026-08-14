@@ -1,0 +1,32 @@
+{
+  "num_tese": "80536",
+  "type": "tese",
+  "title": "Prescribed-time super-twisting sliding mode observer for cooperative navigation of multiple multirotor aerial vehicles",
+  "author": "Paula Reis da Silva",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Several applications using multicopter aerial vehicles (MAVs) are emerging in the past few years, mostly due to their small size and versatility. The opportunities they offer to organizations for operational improvements with reduced costs are of great value and, depending on its purpose, joint effort using multiple MAVs can assure even more benefits to their business. Cooperative navigation system arises in this context to guarantee better estimation qualities for the entire team, by allowing measured and estimated data to be shared between all MAVs. However, methods for this problem usually depend on stochastic estimators that are asymptotically stable in a stochastic sense but are highly susceptible to disturbances and model uncertainties. Thus, considering an indoor environment with fiducial markers as landmarks, this dissertation focuses on the development of a cooperative navigation and mapping solution for multicopters by adopting a robust observer approach based on sliding-mode techniques. The MAVs' navigation systems rely solely on two on-board sensors: an inertial accelerometer and a camera equipped with a fiducial marker detection algorithm. To estimate the state variables (position, attitude, and linear and angular velocities), a robust nonlinear observer based on a Prescribed-Time Super-Twisting Sliding Mode Algorithm is employed. This observer ensures finite-time convergence of the estimation errors while maintaining robustness to disturbances and model uncertainties. To address its sensitivity to measurement noise, an adaptive sensor fusion strategy is applied, combining redundant noisy observations from different MAVs to produce cleaner inputs for the observer. The cooperative framework also performs distributed SLAM by sharing landmark detections among agents. The proposed method is evaluated through Monte Carlo simulations in multiple cooperative scenarios.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Controle com modos deslizantes",
+    "Fusăo de multisensor",
+    "Localizaçăo e mapeamento simultâneos",
+    "Algoritmos",
+    "Método de Monte Carlo",
+    "Estabilidade",
+    "Engenharia aeronáutica",
+    "Controle"
+  ],
+  "defense_date": "27/06/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80536",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80536&origem=BDITA"
+}

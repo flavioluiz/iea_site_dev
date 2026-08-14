@@ -1,0 +1,27 @@
+{
+  "num_tg": "67459",
+  "type": "tg",
+  "title": "Estudo de constelaçőes de satélites para sistemas de coleta de dados.",
+  "author": "Eduardo Rodrigues Silva Filho",
+  "year": "2014",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Sandro da Silva Fernandes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Uma constelaçăo é um conjunto de satélites distribuídos no espaço, trabalhando em cooperaçăo para atingir um objetivo em comum. Esses sistemas possibilitam cobertura de grandes áreas com reduzidos tempos de revisita, mas tęm custo elevado, mesmo para os padrőes espaciais. Esse custo é justificável, geralmente, quando se trata de problemas com requisitos cobertura muito restritivos, que só podem ser atingidos dessa forma. O problema de coleta de dado para monitoramento ambiental é um problema no qual é vantajoso empregar constelaçőes de satélite. Neste trabalho é estudado o problema da coleta de dados utilizando-se constelaçőes Walker Delta e, a partir desse estudo, é desenvolvida uma ferramenta computacional de avaliaçăo rápida de desempenho de constelaçőes, implementada com o software científico de computaçăo numérica Scilab. Ao final é apresentado um estudo de caso que exemplifica o uso da ferramenta.",
+  "subjects": [
+    "Constelaçőes",
+    "Satélites",
+    "Mecânica orbital",
+    "Missőes espaciais",
+    "Aquisiçăo de dados",
+    "Sistemas aeroespaciais",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=67459",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=67459&origem=BDITA"
+}

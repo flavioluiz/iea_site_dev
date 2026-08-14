@@ -1,0 +1,5 @@
+{{ range where .Site.Data.generated.biblioteca.tgs.lista "iea" true }}
+  {{ $params := dict "tg_id" .id "type" "tgs" "layout" "single" }}
+  {{ $page := dict "kind" "page" "path" .id "title" .t "params" $params }}
+  {{ $.AddPage $page }}
+{{ end }}

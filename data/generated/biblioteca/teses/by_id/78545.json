@@ -1,0 +1,32 @@
+{
+  "num_tese": "78545",
+  "type": "tese",
+  "title": "The volumetric thermal capacitance method for nonlinear heat transfer in processes at high-temperatures",
+  "author": "Arthur Mendonça de Azevedo",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Recently, there was an increase in the study of phase change materials mainly due to thermal storage studies or modeling of manufacturing processes. Usually, these problems, which have a moving boundary, are solved with the enthalpy formulation. The enthalpy change indicates the amount of energy released and absorbed, which characterizes the phase change. However, the incorrect solution of the mathematical model can change the expected results of the simulations of experiments. Furthermore, treating the thermophysical properties, considered constants or variables, also affects these results. This dissertation presents a new methodology to address the unsteady enthalpy term in the heat diffusion equation. First, the Volumetric Thermal Capacitance method is developed to solve the nonlinear heat diffusion equation with the enthalpy function. The alternative method applies the integration by parts rule to divide the enthalpy term into three components. This approach allows nonlinear thermal properties without simplifications or generalized considerations. Thus, the heat diffusion equation had numerical formulation for three different approaches: the proposed, the simplified, and the enthalpy formulation model. Thus, with the help of the Graphics Processing Unit (GPU), the author implemented and executed the CUDA-C (Compute Unified Device Architecture) in-house parallel code to solve the proposed and simplified model. The main objective was to compare these two models for different cases of heat conduction. Moreover, this work differentiates the behavior of the proposed model with the constant and nonlinear thermophysical properties approaches. Simulated and lab-controlled experiments validated the proposed methodology. The results highlighted the differences between the models for cases with intense heat flux and demonstrated the importance of using the nonlinear approach. In addition, this work found that the two models present good results in cases with smooth heat flux. Then, the proposed methodology was demonstrated to be faster, cheaper, and more efficient in simulating the LASER beam welding (LBW) and replicating the experimental results of the nonlinear heat conduction test.",
+  "subjects": [
+    "Análise térmica",
+    "Soldagem a laser",
+    "Transferęncia de calor",
+    "Entalpia",
+    "Modelo numérico",
+    "Propriedades termofísicas",
+    "Coprocessadores",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "19/07/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78545",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78545&origem=BDITA"
+}

@@ -1,0 +1,28 @@
+{
+  "num_tese": "000558251",
+  "type": "tese",
+  "title": "Aplicaçőes da transformada de wavelet na análise acústica de vozes alteradas.",
+  "author": "Davi Carnieto",
+  "year": "2010",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Osamu Saotome",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A análise acústica da voz tem sido estudada em diversas áreas e com uma diversidade muito grande de técnicas. Cada um dos métodos possui pontos fortes e fracos na análise do sinal da voz, conseguindo assim extrair as características do sinal vocal. Na análise acústica convencional, baseada na transformada de Fourier, os softwares disponíveis apresentam de forma robusta a frequęncia fundamental, porém outras medidas importantes como o jitter e o shimmer săo apresentadas apenas como um valor total de perturbaçăo do sinal global. Este trabalho tem como objetivo a utilizaçăo da Transformada de Wavelet Discreta como ferramenta para análise do sinal e entăo extraçăo de características da voz, considerando sinais com diferentes graus de periodicidade. Este trabalho apresentará além da busca da frequęncia fundamental, as perturbaçőes do jitter e shimmer ao longo do sinal da mesma. Isto é importante para que a avaliaçăo da voz possa ser feita observando o exato instante em que as perturbaçőes ocorrem de modo que auxilie no entendimento da dinâmica de uma possível disfonia.",
+  "subjects": [
+    "Processamento de sinais acústicos",
+    "Reconhecimento de voz",
+    "Análise de ondas localizadas",
+    "Telecomunicaçőes",
+    "Engenharia eletrônica"
+  ],
+  "defense_date": "13/08/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000558251",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000558251&origem=BDITA"
+}

@@ -1,0 +1,107 @@
+<nav id="main-nav" class="border-t border-gray-200 py-3 hidden lg:block">
+  <ul class="flex flex-col lg:flex-row lg:flex-wrap gap-1">
+    {{ $currentPage := . }}
+    {{ $site := .Site }}
+    {{ range .Site.Menus.main }}
+      <li class="relative {{ if .HasChildren }}dropdown{{ end }}">
+        {{ if and (eq .URL "#") .HasChildren }}
+          <span class="nav-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} block lg:inline-block cursor-pointer">
+            {{ .Name }}
+            <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+            </svg>
+          </span>
+        {{ else }}
+          <a href="{{ .URL | relLangURL }}"
+             class="nav-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} block lg:inline-block">
+            {{ .Name }}
+            {{ if .HasChildren }}
+              <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            {{ end }}
+          </a>
+        {{ end }}
+
+        {{ if .HasChildren }}
+          <ul class="dropdown-menu hidden lg:absolute relative lg:left-0 lg:top-full w-full lg:w-64 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
+            {{ range .Children }}
+              {{ if .Params.separator }}
+                <li><hr class="my-1 border-gray-200"></li>
+              {{ else if .Params.category }}
+                <li class="px-4 pt-2 pb-1">
+                  <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ .Name }}</span>
+                </li>
+              {{ else }}
+                <li>
+                  <a href="{{ .URL | relLangURL }}"
+                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600 transition-colors">
+                    {{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+            {{ end }}
+          </ul>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+
+<script>
+// Mobile menu toggle
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mainNav = document.getElementById('main-nav');
+
+  if (mobileMenuButton && mainNav) {
+    mobileMenuButton.addEventListener('click', function() {
+      mainNav.classList.toggle('hidden');
+    });
+  }
+
+  // Dropdown functionality
+  const dropdowns = document.querySelectorAll('.dropdown');
+
+  dropdowns.forEach(dropdown => {
+    const link = dropdown.querySelector('.nav-link');
+    const menu = dropdown.querySelector('.dropdown-menu');
+
+    if (!link || !menu) return;
+
+    // Desktop hover behavior (lg and up)
+    if (window.innerWidth >= 1024) {
+      dropdown.addEventListener('mouseenter', function() {
+        menu.classList.remove('hidden');
+      });
+
+      dropdown.addEventListener('mouseleave', function() {
+        menu.classList.add('hidden');
+      });
+    }
+
+    // Mobile click behavior
+    link.addEventListener('click', function(e) {
+      if (window.innerWidth < 1024) {
+        e.preventDefault();
+        menu.classList.toggle('hidden');
+      }
+    });
+  });
+
+  // Handle window resize
+  window.addEventListener('resize', function() {
+    const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+
+    if (window.innerWidth >= 1024) {
+      // Desktop: show nav, hide all dropdowns
+      mainNav.classList.remove('hidden');
+      dropdownMenus.forEach(menu => menu.classList.add('hidden'));
+    } else {
+      // Mobile: hide nav by default
+      mainNav.classList.add('hidden');
+      dropdownMenus.forEach(menu => menu.classList.add('hidden'));
+    }
+  });
+});
+</script>

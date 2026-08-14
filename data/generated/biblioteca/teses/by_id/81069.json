@@ -1,0 +1,31 @@
+{
+  "num_tese": "81069",
+  "type": "tese",
+  "title": "Análise estatística dos parâmetros do tratamento T8 na dureza da liga AA6351",
+  "author": "Guilherme José Antonio",
+  "year": "2025",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "André da Silva Antunes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga os efeitos dos parâmetros do tratamento T8 - tempo de solubilizaçăo (tsol), Reduçăo de área (RA), Temperatura de Envelhecimento (Tenv) e tempo de envelhecimento (tenv) sobre a dureza Vickers da liga de alumínio AA6351. Para isso, foi conduzido um planejamento fatorial completo 2? com uma replicaçăo, utilizando tempos de envelhecimento artificial de 0 h, 1 h, 5 h e 10 h, seguido de Análise estatística hierárquica para identificaçăo dos efeitos significativos. A análise estatística identificou que o intervalo de envelhecimento entre 1 h e 5 h foi o mais representativo para caracterizar a evoluçăo da dureza monotônica antes do pico de envelhecimento, cuja equaçăo é: HV=?31,53+1,22?tsol+3,34?RA+0,72?Tenv+2,665?tenv?0,265?(tsol×tenv)?0,0196?(RA×Tenv); com R2 de 0,91. A análise das derivadas parciais do modelo mostraram como cada variável afeta individualmente a dureza Vickers, o efeito da reduçăo de área (RA) diminui com o aumento da temperatura de envelhecimento (Tenv), devido a fenômenos como recuperaçăo e recristalizaçăo, que reduzem o encruamento, ?HV/?RA=3,336?0,0196?Tenv. De forma semelhante, o impacto de Tenv sobre HV é menor quanto maior a deformaçăo aplicada, evidenciando o equilíbrio entre nucleaçăo de precipitados e reduçăo do encruamento, ?HV/?Tenv=0,72?0,0196?RA. Os resultados confirmam que a Análise estatística associada ao tratamento termomecânico é eficaz para interpretar o comportamento de endurecimento da liga AA6351 antes do pico de envelhecimento.",
+  "subjects": [
+    "Ligas de alumínio",
+    "Tratamento térmico",
+    "Dureza",
+    "Deformaçăo",
+    "Projeto fatorial",
+    "Análise estatística",
+    "Metalurgia",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "03/12/2025",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=81069",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=81069&origem=BDITA"
+}

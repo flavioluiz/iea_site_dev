@@ -1,0 +1,28 @@
+{
+  "num_tese": "67721",
+  "type": "tese",
+  "title": "Longitudinal stability analysis and control of an airbreathing hypersonic vehicle",
+  "author": "Giannino Ponchio Camillo",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Fabio Andrade de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work presents the open-loop stability analysis and an active control strategy for an airbreathing hypersonic vehicle. The 14-XB, a bidimensional flow airframe derived from the Brazilian 14-X Aerospace Hypersonic Vehicle, is adopted as study platform. In order to perform such analyses, a simulation mathematical model of the airframe longitudinal forces and moments is obtained using perfect gas equations, after considering the relevance of the real gas hypotheses for the expected Mach number range and verifying that the simpler formulation is sufficient. An all-moving horizontal tail is designed in order to enable the aircraft trimming. The horizontal tail design considered simple constraints based on static analysis, and the same gas equations as those used for the airframe study. In order to analyze the aircraft';s dynamic behavior, a Six-Degree-of-Freedom set of equations of motion considering a spherical, rotating Earth is presented in detail, and the necessary conditions to have adequate longitudinal trimming in this scenario are discussed. The open-loop stability of the 14-XB with the designed horizontal tail is assessed through eigenvalue analysis and numerical flight simulations with the horizontal tail fixed at a trim position. Having observed that the aircraft presents unstable long-term natural modes, an active control strategy is suggested in order to stabilize the vehicle and track a desired flight path angle, assuming that thrust is constant and the control surface is an all-moving horizontal tail. The suggested control structure presents pitch stability augmentation system and flight path angle compensator. Optimal gains are calculated using linear quadratic design, along with a gain-scheduling strategy based on simultaneous control design, and the resulting controller presents proper results.",
+  "subjects": [
+    "Voo hipersônico",
+    "Estabilidade longitudinal",
+    "Modelos matemáticos",
+    "Estabilidade de aeronaves",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "15/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67721",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67721&origem=BDITA"
+}

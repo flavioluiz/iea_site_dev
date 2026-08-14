@@ -1,0 +1,30 @@
+{
+  "num_tg": "78033",
+  "type": "tg",
+  "title": "Detecçăo de instabilidades na camada limite de placa plana",
+  "author": "Eduardo de Albuquerque Cavalcanti Filho",
+  "year": "2021",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "André Valdetaro Gomes Cavalieri",
+      "professor_slug": "andre-v-g-cavalieri"
+    }
+  ],
+  "abstract": "A economia de combustível é e sempre foi uma busca incessante para a aviaçăo, consequentemente para a Força Aérea Brasileira. Por isso, diversas săo as áreas em que se busca desenvolver soluçőes alternativas de projetos para mitigar os efeitos do desperdício energético de uma aeronave, sejam eles por aumento de eficięncia dos motores, ou eficięncia aerodinâmica. Pensando no quesito aerodinâmico, um dos principais fenômenos que provocam o aumento de gasto de combustível é o arrasto por fricçăo, que tem sua relevância principalmente no voo em cruzeiro. Essa parcela do arrasto se desenvolve uma vez que o fluido possui uma viscosidade intrínseca que faz com que as moléculas próximas ŕ parede deslizem em camada paralelas, formando um perfil de velocidade com condiçăo de contorno nula na parede. Este perfil é conhecido como camada limite e esta pode se desenvolver como laminar ou turbulenta, tendo cada uma sua respectiva tensăo de cisalhamento. Essa tensăo de cisalhamento depende diretamente do gradiente de velocidades, que no regime turbulento apresenta uma parcela maior que o regime laminar. Por esse motivo, estudar através de ensaios experimentais em túnel de vento como um regime laminar progride para o turbulento através das ondas de instabilidades conhecidas como ondas de Tollmien-Schlichting é essencial para entender como aumentar a autonomia das aeronaves.",
+  "subjects": [
+    "Transiçăo de camada limite",
+    "Ondas Tollmien-Schlichting",
+    "Placas planas",
+    "Mecânica dos fluidos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=78033",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=78033&origem=BDITA"
+}

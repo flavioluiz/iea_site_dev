@@ -1,0 +1,36 @@
+{
+  "num_tese": "63439",
+  "type": "tese",
+  "title": "Efeitos de curvatura e pressurizaçăo em cascas laminadas sujeitas a impacto",
+  "author": "Nara Oliveira Yokoyama",
+  "year": "2012",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Maurício Vicente Donadon",
+      "professor_slug": "mauricio-v-donadon"
+    },
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho foi realizado um estudo numérico e experimental da resistęncia ao impacto de laminados compósitos carbono/epóxi quando sujeitos aos efeitos da curvatura e pressăo interna simultaneamente. Este projeto pode ser dividido em tręs partes principais: (i) Desenvolvimento de modelos numéricos que permitam prever o comportamento de cascas laminadas internamente pressurizadas sujeitas a cargas de impacto; (ii) Projeto, fabricaçăo e integraçăo de um câmara de pressurizaçăo ŕ torre de impacto em queda-livre disponível no Laboratório de Estruturas Aeroespaciais do ITA; e (iii) os ensaios de impacto com diferentes curvaturas e níveis de pressurizaçăo interna para validaçăo dos modelos numéricos. Os modelos numéricos foram desenvolvidos utilizando o ABAQUS 6.10-1 no modo \"Dynamic Explicit\" sendo considerada a degradaçăo do material e seus modos de falha através do uso de modelos constitutivos de dano. O carregamento de impacto no corpo de prova (CDP) foi aplicado utilizando uma torre de impacto em queda livre instrumentada e existente no Laboratório de Estruturas Aeroespaciais do ITA. A partir dos resultados experimentais os modelos numéricos foram validados. Com base nos resultados encontrados ficou clara a importância de se considerar modos de falha como delaminaçăo e a pressurizaçăo interna para uma representaçăo numérica qualitativa de estruturas aeronáuticas de material compósito sujeitas a carregamentos de impacto.",
+  "subjects": [
+    "Materiais compósitos",
+    "Laminados",
+    "Fibras de carbono",
+    "Propriedades mecânicas",
+    "Ensaios de impacto",
+    "Análise numérica",
+    "Curvaturas",
+    "Pressurizaçăo",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "03/08/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63439",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63439&origem=BDITA"
+}

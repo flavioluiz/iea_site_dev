@@ -1,0 +1,39 @@
+{
+  "num_tese": "000532633",
+  "type": "tese",
+  "title": "Simulation of a cross flow three-pass serrate plate fin evaporator.",
+  "author": "Raul René Valle Agostini",
+  "year": "2004",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Cláudia Regina de Andrade",
+      "professor_slug": "claudia-regina-andrade"
+    }
+  ],
+  "abstract": "In this dissertation, a mathematical model was presented to simulate the steady state performance of a cross flow three-pass serrated plate fin compact evaporator. The refrigerant flows in three passes and the air flows in a single pass. The principle of the model was to divide the evaporator into 3 zones corresponding to each of the three refrigerant flow passes and to divide the third zone (the last zone before the refrigerant leaves the evaporator) into two sub zones - the two-phase sub zone and the single phase vapor sub zone. The fluid properties in a given zone are considered to be constant and uniform in that zone. The energy conservation equations were solved in each zone. Each zone's air flow outlet properties were the airflow inlet properties for the next zone while each zone's refrigerant outlet properties were the refrigerant inlet properties for the next zone. The results were compared to experimental data.",
+  "subjects": [
+    "Evaporadores",
+    "Fluxo cruzado",
+    "Modelos matemáticos",
+    "Fases de vapor",
+    "Máquinas de refrigeraçăo",
+    "Escoamento estacionário",
+    "Evaporaçăo",
+    "Trocadores de calor",
+    "Dinâmica dos fluidos",
+    "Física",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2004",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000532633",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000532633&origem=BDITA"
+}

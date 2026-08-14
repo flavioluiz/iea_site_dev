@@ -1,0 +1,35 @@
+{
+  "num_tese": "000469554",
+  "type": "tese",
+  "title": "Influęncia dos métodos de avaliaçăo da capacidade térmica efetiva nos resultados da simulaçăo de sistema ablativo por sublimaçăo.",
+  "author": "Marcos Venicius Campos Ferreira",
+  "year": "2002",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Edson Luiz Zaparoli",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho analisa-se o comportamento transiente de um modelo unidimensional de ablaçăo por sublimaçăo na sua superfície. Este estudo trata de uma proteçăo térmica com Teflon, que tem propriedades que săo funçőes da temperatura e está sujeita a um fluxo de calor constante. Emprega-se a consideraçăo de que o material sublimado é substituído por um material fictício e a equaçăo da conduçăo para a entalpia, com um \"calor específico efetivo\" que considera o calor latente. O cálculo do \"calor específico efetivo\" é feito a partir da variaçăo da entalpia com a temperatura através de um esquema implícito. Sendo a condutividade térmica funçăo da temperatura, com um alto valor para a fase fictícia, garante-se que năo ocorra gradiente de temperatura neste meio para que o fluxo de calor aplicado no contorno original seja conduzido até a localizaçăo da fronteira de fases. A influęncia do método de cálculo da capacidade térmica efetiva é avaliada comparando-se os perfis de temperatura. Estes resultados săo decorrentes das simulaçőes numéricas para refinamento da malha, curva da condutividade térmica e intervalo de troca de fase (2DT) nas tręs metodologias que săo: propriedades como funçăo da temperatura do nó com uso do Método de Diferenças Finitas, propriedades como funçăo da temperatura variando linearmente no elemento com uso do Método de Elementos Finitos de Galerkin e propriedades como funçăo da temperatura local no elemento através do Método de Elementos Finitos de Galerkin com integraçăo numérica pela regra de Simpson. Um procedimento implícito no tempo é adotado de maneira a resolver-se um sistema de equaçőes algébricas através do TDMA (algoritmo de Thomas) a cada passo de tempo. Através da análise desenvolvida neste trabalho identifica-se a forma de implementaçăo que mais aproxima-se dos resultados disponíveis na literatura.",
+  "subjects": [
+    "Proteçăo térmica",
+    "Ablaçăo",
+    "Sublimaçăo",
+    "Análise numérica",
+    "Teoria das diferenças finitas",
+    "Método de elementos finitos",
+    "Método de Galerkin",
+    "Integraçăo numérica",
+    "Equaçőes algébricas lineares",
+    "Algoritmos",
+    "Transformaçőes de fase",
+    "Física"
+  ],
+  "defense_date": "2002",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000469554",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000469554&origem=BDITA"
+}

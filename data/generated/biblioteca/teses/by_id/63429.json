@@ -1,0 +1,28 @@
+{
+  "num_tese": "63429",
+  "type": "tese",
+  "title": "Fabricaçăo de peças por meio da fundiçăo de precisăo utilizando-se modelos gerados pelo processo FDM de manufatura aditiva",
+  "author": "Wilson do Amaral Neto",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Anderson Vicente Borille",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Neste trabalho, o modelo de composiçăo integrada de especialistas locais (CIEL), proposto por Scarpel (2006) para geraçăo de modelos de previsăo, é explorado para a metamodelagem de tręs funçőes determinísticas bivariadas (funçőes Bohachevsky, Ackley e composiçăo de senoides), visando auxiliar o processo de otimizaçăo. A ideia básica é construir uma superfície de resposta utilizando um metamodelo composto por especialistas simples (funçőes lineares). Na construçăo dos metamodelos CIEL, variou-se de 2 até 5 o número de agrupamentos da composiçăo de especialistas e foram utilizados diferentes números de amostras (50 e 150). O desempenho dos metamodelos CIEL foi comparado com o de metamodelos gerados a partir de 21 amostras pelo Processo Estocástico Gaussiano (GaSP), técnica muito utilizada e recomendada na literatura sobre otimizaçăo baseada em metamodelagem. O metamodelo CIEL apresentou bom desempenho para indicar a regiăo de ótimo das funçőes, exceto no caso da funçăo composiçăo de senoides com base em 50 amostras, em que se obteve desempenho apenas regular. Apesar disso, os metamodelos CIEL, de forma geral, năo foram adequados ŕ representaçăo das funçőes. No caso da funçăo Bohachevsky, o modelo GaSP se mostrou claramente superior, Quanto ŕ funçăo Ackley, os resultados obtidos com o GaSP e com o CIEL foram semelhantes. Em especial, ressalta-se o potencial do metamodelo CIEL em situaçőes análogas ŕ da funçăo composiçăo de senoides, que possui superfície bem ondulada, com diversos ótimos locais. Apesar de esta funçăo possuir forma complexa e de difícil representaçăo, o desempenho do metamodelo CIEL com 150 amostras foi nitidamente melhor que o GaSP, ao indicar o ótimo.",
+  "subjects": [
+    "Prototipagem rápida",
+    "Fundiçăo",
+    "Processos de manufatura",
+    "Engenharia de fundiçăo",
+    "Metalurgia"
+  ],
+  "defense_date": "25/07/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=63429",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=63429&origem=BDITA"
+}

@@ -1,0 +1,27 @@
+{
+  "num_tese": "65933",
+  "type": "tese",
+  "title": "Incorporaçăo da incerteza nos mapas perceptuais obtidos via MDS",
+  "author": "Moacyr Machado Cardoso Junior",
+  "year": "2014",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Os mapas perceptuais obtidos via escalonamento multidimensional representam uma poderosa ferramenta estatística para análise de dados multivariados. Săo aplicados em várias áreas do conhecimento humano por permitir ao pesquisador comprovar ou validar um modelo idealizado do comportamento humano frente a julgamentos subjetivos obtidos utilizando escalas ordinais. Sua utilizaçăo nas cięncias sociais, marcadamente psicologia, sociologia, política e na percepçăo de riscos săo destacadas pois estas cięncias tomam por base a subjetividade do julgamento humano. Neste contexto, essa tese tem por objetivo incorporar a incerteza do posicionamento dos objetos após o escalonamento multidimensional, para que o modelo conceitual imposto possa ser testado levando em conta a variabilidade inerente a um grupo de julgadores. O modelo proposto parte da premissa de que as funçőes de distribuiçăo de probabilidade năo săo conhecidas para as coordenadas dos objetos no mapa perceptual e que os julgadores e os objetos estudados săo estatisticamente independentes entre si. A ferramenta explora uma característica do escalonamento multidimensional, que é a representaçăo gráfica do conjunto de dados em baixa dimensăo, e além disso, a análise dos diferentes objetos representados no mapa perceptual é realizada ŕ luz da inferęncia estatística. O modelo para geraçăo do mapa perceptual de 3-vias, denominado \\textbf{MDSvarext}, é obtido em 3 fases: i) Reduçăo de dimensăo e geraçăo de agrupamentos; ii) Alinhamento das configuraçőes, e iii) Obtençăo das regiőes de confiança. Como resultado verifica-se que a incorporaçăo da geraçăo de agrupamentos, utilizando o método \\textbf{K-médias} ao \\textbf{MDSvarext}, mostra-se viável pois permite produzir agrupamentos que reduzem a variabilidade e consequentemente as regiőes de confiança nos mapas gerados, além da obtençăo de mais de um mapa. Finalmente com a reduçăo da variabilidade torna-se possível a representaçăo das regiőes de confiança que mostram visualmente nos mapas gerados quais objetos diferem estatisticamente entre si.",
+  "subjects": [
+    "Análise estatística multivariada",
+    "Reconhecimento de padrőes",
+    "Estatística",
+    "Matemática"
+  ],
+  "defense_date": "13/03/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=65933",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=65933&origem=BDITA"
+}

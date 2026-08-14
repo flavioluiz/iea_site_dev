@@ -1,0 +1,29 @@
+{
+  "num_tg": "61790",
+  "type": "tg",
+  "title": "Intelligent mode shape recognition : an application to turbine blades",
+  "author": "Mauricio Maués Bergh",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz de Silva Bussamra",
+      "professor_slug": "flavio-luiz-da-s-bussamra"
+    },
+    {
+      "name": "Joseph Morlier",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Modal analysis is a process whereby one can describe a structure in terms of its natural characteristics which are the frequency, damping and mode shapes - its dynamic properties. The comparison of dynamic properties predicted by finite element (FE) modelling with its experimental measurements is then an essential step in the model validation process for structural dynamics. A reliable FE model can represent the mode shape pattern before any experiment and make the design more trustworthy. The most widely used method for comparison between the FE modelling and experimental data is the modal assurance criterion (MAC). In this work, two new ways for comparing the dynamic properties of two structures were developed: a Fourier Description-based method, used for differentiating nodal lines; a new modal assurance criterion, using mode shape processed images. The final process is proposed for the specific case of studying the mode shapes of turbine blades. The processes were developed with the purpose of being effectively used for fail detection.",
+  "subjects": [
+    "Lâminas de turbinas",
+    "Resposta modal",
+    "Reconhecimento de padrőes",
+    "Método de elementos finitos",
+    "Engenharia mecânica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61790",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61790&origem=BDITA"
+}

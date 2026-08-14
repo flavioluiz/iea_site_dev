@@ -1,0 +1,64 @@
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <div class="container mx-auto px-2 sm:px-4 max-w-7xl">
+    <!-- Top bar with logo, title, hamburger, and language selector -->
+    <div class="flex justify-between items-center py-2 sm:py-3 gap-2 sm:gap-4">
+      <!-- Logo and title -->
+      <div class="flex items-center space-x-2 min-w-0 flex-1">
+        <a href="{{ relLangURL "/" }}" class="flex-shrink-0">
+          <img src="{{ printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" .Site.Params.logo) }}"
+               alt="{{ .Site.Title }}"
+               class="h-10 sm:h-14 md:h-16 lg:h-20 w-auto object-contain">
+        </a>
+        <div class="min-w-0 hidden sm:block">
+          <h1 class="text-xs sm:text-sm md:text-base lg:text-xl font-bold text-gray-900 leading-tight">
+            {{ if eq .Site.Language.Lang "pt" }}
+              {{ .Site.Params.division_full_name_pt }}
+            {{ else }}
+              {{ .Site.Params.division_full_name_en }}
+            {{ end }}
+          </h1>
+          <p class="text-xs sm:text-sm text-gray-600 truncate hidden md:block">{{ .Site.Params.organization }}</p>
+        </div>
+      </div>
+
+      <!-- Right side: Hamburger and Language switcher -->
+      <div class="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+        <!-- Hamburger button (mobile only) -->
+        <button id="mobile-menu-button"
+                class="lg:hidden p-1.5 sm:p-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
+                aria-label="Toggle menu">
+          <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+
+        <!-- Language switcher -->
+        <div class="flex items-center space-x-1 flex-shrink-0">
+        {{ if .IsTranslated }}
+          {{ range .Translations }}
+            <a href="{{ .Permalink }}"
+               class="text-xs uppercase font-medium px-1.5 py-1 sm:px-2 sm:py-1.5 border border-gray-300 rounded hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900">
+              {{ if eq .Language.Lang "pt" }}PT{{ else if eq .Language.Lang "en" }}EN{{ else }}{{ upper .Language.Lang }}{{ end }}
+            </a>
+          {{ end }}
+        {{ else }}
+          {{ range .Site.Languages }}
+            {{ if not (eq .Lang $.Site.Language.Lang) }}
+              <a href="{{ relLangURL "/" }}"
+                 class="text-xs uppercase font-medium px-1.5 py-1 sm:px-2 sm:py-1.5 border border-gray-300 rounded hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900">
+                {{ if eq .Lang "pt" }}PT{{ else if eq .Lang "en" }}EN{{ else }}{{ upper .Lang }}{{ end }}
+              </a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <span class="text-xs uppercase font-medium px-1.5 py-1 sm:px-2 sm:py-1.5 border-2 border-blue-600 rounded bg-blue-50 text-blue-600">
+          {{ if eq .Site.Language.Lang "pt" }}PT{{ else if eq .Site.Language.Lang "en" }}EN{{ else }}{{ upper .Site.Language.Lang }}{{ end }}
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    {{ partial "nav.html" . }}
+  </div>
+</header>

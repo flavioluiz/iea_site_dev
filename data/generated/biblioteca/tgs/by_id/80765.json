@@ -1,0 +1,28 @@
+{
+  "num_tg": "80765",
+  "type": "tg",
+  "title": "Arquitetura automatizada para extraçăo e modelagem bayesiana de risco em ocorręncias aeronáuticas",
+  "author": "José Gonçalves de Araújo Júnior",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Moacyr Machado Cardoso Junior",
+      "professor_slug": "moacyr-machado-cardoso-junior"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta uma metodologia para análise quantitativa de risco em acidentes aeronáuticos por meio de Redes Bayesianas calibradas a partir de uma base robusta de relatórios finais simplificados do Centro de Investigaçăo e Prevençăo de Acidentes Aeronáuticos (CENIPA). Parte-se da limitaçăo de análises apenas descritivas ou de frequęncia, que năo captam de forma adequada como múltiplos fatores contribuem conjuntamente para a ocorręncia de um acidente. Foram processados cerca de mil relatórios em sete etapas: coleta automatizada, extraçăo híbrida de informaçőes (combinaçăo de parsing estruturado e mineraçăo textual semiautomática), validaçőes em múltiplos níveis que resultaram em completude de aproximadamente 96,5%, consolidaçăo em base analítica, aprendizado de estrutura causal com diferentes algoritmos e bootstrap, validaçăo especializada com um expert em aviaçăo e calibraçăo paramétrica por máxima verossimilhança com suavizaçăo de Laplace, utilizando o pacote bnlearn. A rede bayesiana final contém vinte e quatro nós organizados em tręs níveis: quinze fatores contribuintes (humanos, materiais, ambientais, de infraestrutura e organizacionais), seis tipos de ocorręncia (LOC-I, LOCG, RE, CFIT, MAC, WSTRW) e tręs desfechos (classificaçăo como acidente, danos ŕ aeronave e severidade do evento), ligados por 129 arcos direcionados. A calibraçăo marginal apresentou desvios inferiores a 2%, e a validaçăo cruzada com retençăo aleatória de 20% dos casos resultou em acurácia entre 75%-85%. As análises de sensibilidade e a validaçăo especializada indicam boa coeręncia com o conhecimento operacional. O modelo resultante oferece uma ferramenta prática para análise prospectiva e retrospectiva de risco, apoiando a priorizaçăo de açőes preventivas por instituiçőes como ANAC, CENIPA e operadores aéreos.",
+  "subjects": [
+    "Redes bayesianas",
+    "Acidentes de aeronaves",
+    "Técnicas de previsăo",
+    "Aprendizado de máquina",
+    "Prevençăo de acidentes",
+    "Avaliaçăo de riscos",
+    "Calibraçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80765",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80765&origem=BDITA"
+}

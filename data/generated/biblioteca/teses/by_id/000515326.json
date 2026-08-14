@@ -1,0 +1,40 @@
+{
+  "num_tese": "000515326",
+  "type": "tese",
+  "title": "Desenvolvimento de um método numérico em malhas năo-estruturadas híbridas para escoamentos turbulentos em baixo número de Mach: aplicaçăo em chama propagando-se livremente e esteiras inertes e reativas.",
+  "author": "Wladimyr Mattos da Costa Dourado",
+  "year": "2003",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    },
+    {
+      "name": "Pascal Bruel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "As complexidades das configuraçőes, da geometria e da topologia dos escoamentos encontrados em sistemas tais como câmaras de combustăo de turbo-máquinas requerem métodos numéricos eficientes para modelar os escoamentos turbulentos reativos existentes. Este trabalho de modelagem numérica está relacionado com o desenvolvimento de ferramentas numéricas eficientes necessárias ao estudo dos escoamentos turbulentos reativos nessas aplicaçőes. Na primeira parte desta tese, após relembrar os elementos de base que permitem a descriçăo de um escoamento turbulento reativo prée-misturado, săo apresentadas as diversas etapas que presidem a elaboraçăo do programa computacional. Inicialmente, introduz-se a técnica de compressibilidade artificial, que consiste em modificar as equaçőes governantes acrescentando termos năo-estacionários no pseudo-tempo, destinados a introduzir uma velocidade do som finita no domínio de cálculo. Em seguida é exposta a discretizaçăo por volumes finitos das equaçőes governantes em malhas năo-estruturadas bidimensionais híbridas, que contęm elementos triangulares e/ou quadriláteros. A adiçăo de termos de dissipaçăo artificial bem com o uso de um método do tipo Runge-Kutta para integrar os termos temporais no pseudo-tempo das equaçőes governantes, que completam o método, săo comentados em seguir. O programa de cálculo, desenvolvido na linguagem C++, foi validado considerando-se o problema de uma chama plana turbulenta, propagando-se livremente em uma turbulęncia \"congelada\". Este fenômeno foi modelado com um termo de produçăo química médio do tipo flamelet, no qual um corte representando extinçăo foi introduzido com a finalidade de selecionar uma só velocidade possível de propagaçăo. Os resultados obtidos para uma chama lenta (0,5 m/s) ou rápida (10 m/s) foram comparados com aqueles obtidos na literatura. A precisăo dos resultados é bastante satisfatória e os gradientes elevados de pressăo estática, característicos do termo fonte empregado, săo capturados corretamente, tanto no que se refere a sua intensidade quanto ŕ sua localizaçăo, dentro da frente de chama média. Uma análise de sensibilidade e precisăo da malha foi igualmente conduzida, assim como um estudo das características de convergęncia em funçăo do valor do coeficiente de compressibilidade artificial. Tendo sido validado, o programa de cálculo foi, em seguida, utilizado com a finalidade de estudar esteiras inertes ou reativas encontradas ŕ jusante de um obstáculo de seçăo transversal triangular, colocado no meio de um escoamento turbulento em um canal. Um modelo de turbulęncia do tipo k-e, acoplado a dois tipos de leis de parede foi utilizado. O desprendimento turbilhonar, típico dos escoamentos de esteiras inertes considerados, foi previsto corretamente com, em particular, uma freqüęncia de Strouhal de desprendimento com boa concordância com os resultados experimentais disponíveis. As esteiras reativas foram calculadas com um modelo de flamelet, onde os transportes turbulentos da variável de avanço da combustăo foram calculados por aproximaçăo do tipo gradiente. Tręs formas do termo de produçăo química médio, existentes na literatura, foram utilizados. Aparentemente, a estrutura da esteira reativa prevista é fortemente dependente da formulaçăo adotada para o termo fonte médio. Embora os resultados obtidos sejam comparados ŕqueles apresentados por outro autores, em uma configuraçăo de escoamento similar, a comparaçăo com resultados experimentais mostra que é necessário uma melhoria na modelagem física de forma a prever este tipo de escoamento reativo de maneira satisfatória.",
+  "subjects": [
+    "Dinâmica dos fluidos computacional",
+    "Análise numérica",
+    "Método de volume finito",
+    "Modelo de turbulęncia k-epsilon",
+    "Malhas năo-estruturadas (Matemática)",
+    "Escoamento incompressível",
+    "Escoamento turbulento",
+    "Escoamento reativo",
+    "Propagaçăo de chama",
+    "Combustăo",
+    "Esteiras turbulentas",
+    "Mecânica dos fluidos",
+    "Física"
+  ],
+  "defense_date": "2003",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000515326",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000515326&origem=BDITA"
+}

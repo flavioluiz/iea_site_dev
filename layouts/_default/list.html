@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="mb-8">
+  <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+  {{ if .Content }}
+    <div class="prose prose-lg max-w-none mb-8">
+      {{ .Content }}
+    </div>
+  {{ end }}
+</div>
+
+{{ if .Pages }}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range .Pages }}
+      <article class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+        <div class="p-6">
+          <h2 class="text-xl font-semibold text-gray-900 mb-2">
+            <a href="{{ .Permalink }}" class="hover:text-blue-600">
+              {{ .Title }}
+            </a>
+          </h2>
+          {{ if .Description }}
+            <p class="text-gray-600 text-sm mb-4">{{ .Description }}</p>
+          {{ end }}
+          {{ if .Summary }}
+            <p class="text-gray-700 mb-4">{{ .Summary }}</p>
+          {{ end }}
+          <a href="{{ .Permalink }}" class="text-blue-600 hover:text-blue-800 font-medium text-sm">
+            {{ i18n "read_more" }} →
+          </a>
+        </div>
+        {{ if .Date }}
+          <div class="px-6 py-3 bg-gray-50 border-t border-gray-200">
+            <p class="text-xs text-gray-500">
+              {{ .Date.Format "02 de January de 2006" }}
+            </p>
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
+{{ end }}

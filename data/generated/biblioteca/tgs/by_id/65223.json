@@ -1,0 +1,29 @@
+{
+  "num_tg": "65223",
+  "type": "tg",
+  "title": "Simulaçăo e controle da manobra de precessăo de um veículo espacial",
+  "author": "André Peregrino de Moura Cavalcante",
+  "year": "2013",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Waldemar de Castro Leite Filho",
+      "professor_slug": null
+    },
+    {
+      "name": "Flávio José Silvestre",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O objetivo deste trabalho é simular a manobra de precessăo realizada pelo veículo lançador utilizado no experimento SHEFEX II (um experimento de reentrada do DLR). Esta manobra foi controlada por um sistema de controle năo-linear cujos atuadores săo bocais de jato de gás frio. Após a queima do primeiro estágio, o veículo lançador (e a carga paga) tem uma velocidade angular ao longo do eixo longitudinal. Os atuadores do sistema de controle geram forças radiais (pulsos) que induzem um movimento de precessăo do eixo longitudinal. O sistema de controle utiliza este movimento de precessăo para mudar a atitude deste eixo antes da igniçăo do segundo estágio. O sistema de controle gera comandos de pulso para os atuadores a fim de produzir tręs diferentes açőes. A primeira açăo é de frear o movimento do eixo longitudinal e eliminar o ângulo do cone do espaço quando a atitude atual estiver próxima da desejada (alvo). Isto é feito por um pulso em uma direçăo oposta ŕ da velocidade do eixo. A segunda açăo é de acelerar na direçăo do alvo, aumentando, consequentemente, o ângulo do cone do espaço. Esta segunda açăo é feita por um pulso na direçăo do alvo. A última possibilidade é de corrigir a direçăo da velocidade do eixo quando o eixo está se afastando do alvo, o que é feito por um pulso em uma direçăo perpendicular entre a posiçăo atual e o alvo. Dos resultados, o sistema de controle implementado foi capaz de realizar a manobra de precessăo, visto que a atitude final do eixo longitudinal tornou-se igual ŕ desejada. Durante a manobra, nota-se que o eixo longitudinal năo vai diretamente em direçăo ao alvo. Parece que, para algumas situaçőes, o sistema de controle năo é capaz de corrigir a direçăo da velocidade do eixo de forma imediata. Ao final da manobra, quando a atitude do eixo longitudinal é quase igual ŕ desejada, o eixo descreve um ciclo limite próximo ao alvo enquanto o sistema de controle atua de forma a eliminar este movimento residual (açăo de frenagem). Em algumas situaçőes, este ciclo limite possui grandes amplitudes. Para os próximo estudos, sugere-se a inclusăo das dinâmicas dos atuadores e dos sensores, bem como dos desalinhamentos dos sensores.",
+  "subjects": [
+    "Veículos de lançamento",
+    "Controladores",
+    "Sistemas de controle năo-linear",
+    "Simulaçăo",
+    "Controle"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=65223",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=65223&origem=BDITA"
+}

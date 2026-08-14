@@ -1,0 +1,27 @@
+{
+  "num_tg": "000499119",
+  "type": "tg",
+  "title": "Desenvolvimento de um modelo computacional para cálculo da velocidade de flutter de asas com tręs graus de liberdade.",
+  "author": "André Fonseca Ventura",
+  "year": "2003",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Maher Nasr Bismarck-Nasr",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho de graduaçăo discorre a respeito do fenômeno aeroelástico do flutter. Este fenômeno consiste na instabilidade dinâmica de uma estrutura flexível imersa em um escoamento de ar, conforme definido por Bisplinghoff et al. (1955). Com a nova realidade dos vôos transônicos e supersônicos, as análises aeroelásticas tornaram-se parte integral das fases de projeto e teste das aeronaves modernas, sendo que muitos dos problemas encontrados ainda estăo a espera de soluçăo. Assim, na tentativa de evitar tais problemas, métodos mais precisos e robustos de análise aeroelástica vem sendo desenvolvidos ao longo do tempo. O objetivo principal do trabalho é o desenvolvimento de um modelo computacional de baixo custo que nos permita estimar, através das teorias aeroelásticas clássicas e cargas aerodinâmicas tabeladas, a velocidade crítica de flutter em asas com tręs graus de liberdade, sendo eles a flexăo, a torçăo e a rotaçăo da superfície de controle sobre o hingeline. Por fim, uma investigaçăo crítica dos resultados obtidos através do modelo computacional resultou num detalhando estudo do comportamento do flutter em asas com tręs graus de liberdade, e, consequentemente, na comprovaçăo da efetividade do modelo e das teorias clássicas da aeroelasticidade no cálculo das velocidades críticas de flutter nestas estruturas.",
+  "subjects": [
+    "Vibraçăo aeroelástica",
+    "Métodos computacionais",
+    "Aeroelasticidade",
+    "Velocidade",
+    "Asas",
+    "Estabilidade aerodinâmica",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000499119",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000499119&origem=BDITA"
+}

@@ -1,0 +1,35 @@
+{
+  "num_tg": "80719",
+  "type": "tg",
+  "title": "Modeling of a VTOL airline for urban transport in the city of Săo Paulo",
+  "author": "Verônica Rodrighero",
+  "year": "2025",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Lucas Oliveira Barbacovi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Christopher Shneider Cerqueira",
+      "professor_slug": "christopher-shneider-cerqueira"
+    }
+  ],
+  "abstract": "This work presents the operational modeling of an urban air mobility company based on VTOL aircraft, with a focus on eVTOLs, within the context of Săo Paulo. The proposal addresses the need for innovative and sustainable short-range transportation solutions in large metropolitan areas, particularly in response to traffic congestion and inefficiencies in ground mobility. The adopted methodology is grounded in a flexible parametric model capable of simulating various operational scenarios based on input variables such as daily passenger volume, aircraft capacity, operational time windows, and cost structure. The analysis includes the definition of optimized urban routes, fleet sizing, calculation of economic metrics (such as revenue, cost, and daily profit), and evaluation of fleet utilization rates. The model was implemented in Python and calibrated using real market data, taking inspiration from the operational structure of Revo, a Brazilian urban helicopter operator, and projections from Eve Air Mobility regarding electric-powered eVTOLs. Simulation results indicate that this type of operation can be both technically feasible and economically sustainable, provided it is supported by adequate vertiport infrastructure, integration with urban air traffic management systems, and public policies promoting sustainable air mobility.",
+  "subjects": [
+    "Aeronaves de decolagem vertical",
+    "Operaçőes de linhas aéreas",
+    "Mobilidade urbana",
+    "Săo Paulo (cidade)",
+    "Custos operacionais",
+    "Modelagem (processos)",
+    "Simulaçăo",
+    "Transporte aéreo",
+    "Engenharia aeroespacial",
+    "Transportes"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=80719",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=80719&origem=BDITA"
+}

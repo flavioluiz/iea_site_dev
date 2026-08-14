@@ -1,0 +1,30 @@
+{
+  "num_tg": "75278",
+  "type": "tg",
+  "title": "Determinaçăo de coeficientes aerodinâmicos usando redes neurais e adaptive neuro-fuzzy inference system (ANFIS)",
+  "author": "Rodrigo Gomes de Amorim Fernandes",
+  "year": "2018",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Piterson Lisboa",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Maurício Andrés Varela Morales",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O trabalho propőe-se a desenvolver uma metodologia em linguagem MatLab® capaz de estimar de forma confiável e rápida os coeficientes aerodinâmicos da aeronave EMB-312 TUCANO para um simulador de voo com dados dispersos. As abordagens principais para a resoluçăo do problema foram obtidas utilizando Redes Neurais e Adaptive Neuro-Fuzzy Inference System (ANFIS). Os dados de treinamento para as redes săo derivados de ensaios em túnel de vento e os coeficientes săo modelados como funçőes adimensionais de características do escoamento, pressăo dinâmica, e das deflexőes superfícies de controle da aeronave. Esse estudo tem o intuito de diminuir a quantidade de pontos tomados em uma campanha de ensaio em túnel, diminuindo os custos operacionais para desenvolvimento de um modelo aerodinâmico preciso. Entăo, é feita uma análise comparativa entre os métodos de regressăo mais comuns e as duas abordagens principais envolvendo redes (ANN e ANFIS), avaliando a reduçăo da quantidade de dados em funçăo do erro final. Os modelos baseados em redes apresentaram um excelente comportamento mesmo com a reduçăo significativa do conjunto de treino, satisfazendo os critérios de representatividade.",
+  "subjects": [
+    "Coeficientes aerodinâmicos",
+    "Prediçăo",
+    "Redes neurais",
+    "Simulaçăo de voo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75278",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75278&origem=BDITA"
+}

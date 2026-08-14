@@ -1,0 +1,30 @@
+{
+  "num_tese": "000545395",
+  "type": "tese",
+  "title": "Otimizaçăo da carga de flambagem de placas de material composto sujeitas a carregamentos mecânicos e térmicos incertos.",
+  "author": "Reinaldo Pinto Dias Junior",
+  "year": "2006",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Alfredo Rocha de Faria",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um estudo de otimizaçăo para a carga de flambagem em placas de materiais compostos sob combinaçőes de carregamentos incertos é apresentada nesse trabalho. No presente estudo, ao contrário da otimizaçăo tradicional de flambagem, os casos de carregamentos aplicados năo săo fixos, as combinaçőes de carregamentos săo assumidas como incertas e săo incorporadas como variáveis de projeto na formulaçăo do problema de otimizaçăo. Utilizando-se a estratégia minimax mostra-se que para finalidades de otimizaçăo com funçőes-objetivo convexas, como por exemplo, a carga de flambagem, é suficiente considerar apenas as cargas que definem os vértices do conjunto de carregamentos aplicáveis. Săo consideradas placas retangulares de espessura variável sujeitas a carregamentos mecânicos arbitrários, compressőes normais e de cisalhamento, definidos nas extremidades das placas, que operam em uma escala de temperatura dada, gerando tensőes residuais térmicas. Observa-se que as placas podem ser altamente sensíveis aos carregamentos térmicos. Supőe-se que a distribuiçăo de carregamento mecânico é arbitrariamente linear por partes e que a temperatura de operaçăo está dentro da escala especificada, sendo as combinaçőes de carregamentos auto-equilibrantes. A consideraçăo de um grau de incerteza nos carregamentos mecânicos fornece projetos ótimos que săo insensíveis a perturbaçőes e/ou casualidades nos carregamentos aplicados. Os resultados para casos simples de placas demonstram a eficácia da estratégia proposta e o risco de utilizar projetos de estruturas em material composto sensíveis ŕs variaçőes nos carregamentos térmicos e mecânicos.",
+  "subjects": [
+    "Análise estrutural",
+    "Flambagem",
+    "Otimizaçăo",
+    "Placas (membros estruturais)",
+    "Materiais compósitos",
+    "Carregamentos incertos",
+    "Engenharia de materiais"
+  ],
+  "defense_date": "20/12/2006",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000545395",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000545395&origem=BDITA"
+}

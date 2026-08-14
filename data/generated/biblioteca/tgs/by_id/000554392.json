@@ -1,0 +1,34 @@
+{
+  "num_tg": "000554392",
+  "type": "tg",
+  "title": "Projeto e modelagem aeroelástica de uma asa para testes de flutter em túnel de vento subsônico.",
+  "author": "Joăo Otávio Falcăo Arantes Filho",
+  "year": "2009",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Adolfo Gomes Marto",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "O presente trabalho tem como objetivo o estudo, projeto e análise aeroelástica, no espaço de estados, de uma asa flexível, de grande alongamento, em cuja ponta havia um corpo esbelto. O dimensionamento da asa, os métodos construtivos, materiais e perfil aerodinâmico utilizados, e suas características dinâmicas e estruturais săo idealizadas, e parametricamente estudadas, visando ŕ aplicaçăo do modelo em ensaios de flutter em túneis de vento subsônicos. Os resultados teóricos e experimentais săo comparados e a modelagem realizada pôde ser validada, de forma a complementar o estudo. O modelo teórico estrutural, linear, no qual se consideram que todas as cargas atuam apenas na longarina, de alumínio, foi projetado utilizando o método de elementos finitos, através do NASTRAN for Windows, software de análise estrutural. Fez-se necessário a integraçăo deste a um código de análise aeroelástica, utilizando uma modelagem aerodinâmica simplificada, confeccionado em ambiente MATLAB, posteriormente validado pelo software ZAERO. O primeiro fornece os dados estruturais da asa e suas características dinâmicas naturais, imprescindíveis para confecçăo do código no espaço de estados. O último analisa as características de flutter (velocidade, frequęncias e modos naturais de vibraçăo) e ciclo limite da asa confeccionada, para determinada condiçăo do escoamento. Estes dois ambientes integrados viabilizam a análise paramétrica e dimensionamento do modelo.",
+  "subjects": [
+    "Projeto de aeronaves",
+    "Asas flexíveis",
+    "Aeroelasticidade",
+    "Vibraçăo aeroelástica",
+    "Ensaios em túneis de vento",
+    "Escoamento subsônico",
+    "Coeficientes aerodinâmicos",
+    "Cálculo estrutural",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=000554392",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=000554392&origem=BDITA"
+}

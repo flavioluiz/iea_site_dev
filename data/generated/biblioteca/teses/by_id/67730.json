@@ -1,0 +1,29 @@
+{
+  "num_tese": "67730",
+  "type": "tese",
+  "title": "Projeto e implementaçăo de um sistema de visăo robótica para manipulaçăo e alinhamento de grandes estruturas por meio de um manipulador robótico",
+  "author": "Leandro Augusto di Sanzo Guilherme",
+  "year": "2014",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho apresenta o desenvolvimento de um sistema de mediçăo baseado em visăo computacional, que consiga se comunicar com um manipulador robótico e, por meio das medidas realizadas, possa orientar o robô manipulador de forma a posicionar um objeto de geometria qualquer em uma posiçăo alvo. Para tanto foram utilizadas câmeras industriais e dois tipos de análise no mesmo sistema. A primeira se baseia em uma análise metrológica individual de cada câmera, tendo por base sua calibraçăo e análise de alvos conhecidos, fixos aos objetos que se deseja posicionar, assim como a identificaçăo de algumas características do objeto. A segunda análise se baseia no trabalho em conjunto de, pelo menos, duas câmeras, que geram uma análise, em visăo estéreo, do ambiente de trabalha do manipulador robótico. Para verificaçăo e testes dos procedimentos propostos foi utilizado um robô manipulador industrial antropomorfo de seis graus de liberdade, sistemas de metrologia externos, tais como Laser Radar e iGPS e chapas retas e curvas. Os resultados obtidos foram analisados e considerados como adequados para atender os requisitos de uma montagem de equipamentos de grande porte. Os resultados obtidos pela implementaçăo aqui proposta mostram que um sistema de visăo pode ter precisăo e exatidăo inferior a 1 mm para volumes entre 125 e 300 mł. E que é possível usar a informaçăo desse tipo de sistema para orientar e movimentar um manipulador robótico antropomórfico por meio de protocolos de uso industrial.",
+  "subjects": [
+    "Robótica",
+    "Manipuladores",
+    "Robôs",
+    "Visăo por computadores",
+    "Simulaçăo computadorizada",
+    "Computaçăo"
+  ],
+  "defense_date": "17/12/2014",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=67730",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=67730&origem=BDITA"
+}

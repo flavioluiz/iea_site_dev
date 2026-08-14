@@ -1,0 +1,29 @@
+{
+  "num_tese": "73211",
+  "type": "tese",
+  "title": "A visual-inertial navigation method for stable aerial platforms.",
+  "author": "Raphael Ballet",
+  "year": "2017",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "There is a growing interest in using unmanned aerial vehicles (UAV) for indoor or urban environments. Examples of applications include surveillance, logistics, inspection, to cite a few. A key component to enable UAV perform such applications is the navigation system. For outdoor environments, it relies mostly in the GPS, although the GPS signals are not available in urban or indoor environments. The present work proposes a visual-inertial navigation method suitable for stable aerial platforms (e.g., aerostats and blimps) that stays almost aligned with the local horizontal in GPS-denied environments. Such kind of platforms are alternatives to rotorcrafts (i.e., conventional helicopters and multirotor vehicles) as they present better stability, higher flight duration, and higher payload capacity. The main problem of this dissertation is to estimate the vehicle's three-dimensional position and velocity, its heading, and sensor biases using accelerometers, rate-gyros, and landmarks vector measurements obtained from a monocular camera system and an ultrasonic sensor. To deal with the problem, it adopts the cubature Kalman filter. In the filter formulation, the estimate prediction relies on the kinematics equations together with the inertial sensors, whereas the measurement update is based on the landmark vector measurements. The filter is evaluated via extensive Monte Carlo simulations and real flight data. Moreover, it compared the accuracy, precision, and computational burden of the proposed method with two traditional approximations to the Kalman filter for aerial navigation, namely the extended Kalman filter and the unscented Kalman filter. The results show that the method is effective for the navigation of an stable aerial platform even using low-cost sensors. The cubature Kalman filter presented higher accuracy and precision compared to the other filters, although presented higher computational burden with regard to the extended Kalman filter.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Sensores inerciais",
+    "Navegaçăo aérea",
+    "Estimaçăo de estado",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "27/03/2017",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=73211",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=73211&origem=BDITA"
+}

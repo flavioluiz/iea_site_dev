@@ -1,0 +1,35 @@
+{
+  "num_tese": "78674",
+  "type": "tese",
+  "title": "Integrated aircraft and airline network design optimization considering airspace constraints",
+  "author": "Alejandro Arturo Rios Cruz",
+  "year": "2022",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Bento Silva de Mattos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Alexandre Tavares Guerreiro Fregnani",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Even when significant advances have been made in multidisciplinary optimization with the inclusion of new disciplines, there is a tendency to focus significant efforts on solving the aero-structural problem. In this context, other operational aspects are considered more simplistically. Such is the case of the mission profile selected for evaluating the operational and economic performance, which is commonly introduced in the format of a predefined mission. Although such a mission is stipulated considering the stakeholders' requirements, this procedure may lead to disregarding relevant information about mission constraints. The main objective of this research is to evaluate the impact of including real airspace constraints in the optimization process of the aircraft and the transport network simultaneously. For this purpose, a multidisciplinary approach divided into three main tasks is proposed: The first one is related to identifying airspace constraints and takes advantage of the large amount of flight path data provided by the Automatic Dependent Surveillance System (ADS-B), made available by global tracking services such as FlightRadar24. Six months of flight data were extracted for connections between the main European airports considered in this work. Machine learning methods were applied to the database to detect the most important clusters for a given origin-destination pair. The resultant space limits of the cluster were used as the boundaries that define the restricted airspace. The second task corresponds to the aircraft design modules, where different degrees of fidelity and disciplines were applied in a process that aims to conduct the initial sizing and evaluate compliance with the requirements established by the regulatory authorities. Finally, the third task concerns network optimization, which is carried out through a Linear Programming algorithm that uses the passenger flow demand (provided by the Airbus database), the operational cost and the aircraft passenger capacity and range as inputs to solve the transportation system problem. The proposed approach embeds the network optimization into the aircraft optimization framework and solves the system-of-systems problem using a genetic algorithm. The results showed that the inclusion of the airspace constraints provides a more realistic scenario whose impacts are reflected in the reduction of the maximum profit that can be achieved by an airline. The results also have a considerable impact on the assessment of CO2 emissions.",
+  "subjects": [
+    "Otimizaçăo de projeto multidisciplinar",
+    "Transporte aéreo",
+    "Projeto de aeronaves",
+    "Aprendizagem (inteligęncia artificial)",
+    "Algoritmos genéticos",
+    "Programaçăo linear",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "08/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78674",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78674&origem=BDITA"
+}

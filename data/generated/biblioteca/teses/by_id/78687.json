@@ -1,0 +1,31 @@
+{
+  "num_tese": "78687",
+  "type": "tese",
+  "title": "Estudo da hibridizaçăo de uma aeronave turboélice para voo regional",
+  "author": "Márcio Augusto Silveira Buratti",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Izabela Batista Henriques",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "De acordo com o Instituto de Energia e Meio Ambiente (IEMA), no Brasil, o setor aéreo dentro da área de transportes é responsável por 5% emissőes dos gases do efeito estufa. Com intuito de reduzir estes números, estudos tęm apontado como soluçăo a utilizaçăo de fontes alternativas de propulsăo. Neste contexto, o presente trabalho analisou a oportunidade de utilizar um vetor turboélice híbrido elétrico em um voo regional de curta distância. A aeronave ATR-72, e a rota Rio de Janeiro a Săo Paulo serviram como base do estudo devido ŕ notoriedade da aeronave e da rota na aviaçăo brasileira regional. Foi definida a missăo a ser executada e as regulamentaçőes seguidas pelo voo, e para realizar os cálculos foram coletadas as variáveis do vetor escolhido. Partindo dos padrőes estabelecidos na aeronave convencional, uma aeronave híbrida elétrica com sistema em paralelo foi definida. Para chegar aos valores explícitos nos resultados foram utilizados métodos analíticos, solucionados através do software EES, os cálculos basearam-se nas equaçőes de Breguet, aliadas ao método de fraçăo de peso, utilizado no desenvolvimento preliminar de aeronaves. O sistema de baterias foi dimensionado usando como referęncia uma bateria disponível no mercado, mas também baterias com energias específicas que estarăo disponíveis até 2030 e baterias hipotéticas que ainda săo alvos de estudos. Foram realizados cinco estudos de casos, e os que apresentaram os melhores resultados foram os modelos utilizando ambos os motores com funcionamento em conjunto ao longo de toda a missăo, variando a potęncia de cada fonte de acordo com o grau de hibridizaçăo, e o modelo com a turbina gás dimensionada para cruzeiro, com o motor elétrico suprindo a diferença de potęncia necessária para a decolagem e subida. Os casos foram analisados variando o grau de hibridizaçăo de 0 a 1 e a energia específica da bateria em 276,1, 400, 700, 1000, 1500 e 2000 Wh/kg. O efeito da variaçăo do grau de hibridizaçăo e da energia específica em relaçăo ao consumo, peso final da aeronave e custos de insumos energéticos foram estudados, e assim concluiu-se que no caso com funcionamento dos motores em conjunto durante toda a missăo, graus de hibridizaçăo mais altos geram uma reduçăo no consumo de combustível chegando a 49% para energia específica de 1500 Wh/kg e uma reduçăo nas emissőes de 43% com a mesma energia específica, porém, a aeronave ainda sofre com um acréscimo no peso final em mais de 10%. No outro caso a aeronave aumenta sua eficięncia com reduçăo no consumo total de combustível de até 2% com EE de 2000 Wh/kg e reduz até 3 % as emissőes de CO2 para mesma energia específica, porém com um aumento do peso final da aeronave sem notoriedade, chegando a um peso máximo de decolagem com combustível e baterias de 22300 kg.",
+  "subjects": [
+    "Conversăo de energia",
+    "Propulsăo híbrida",
+    "Desempenho de aeronaves",
+    "Veículos elétricos ou Motores elétricos",
+    "Sistemas de propulsăo",
+    "Métodos analíticos",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "05/08/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78687",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78687&origem=BDITA"
+}

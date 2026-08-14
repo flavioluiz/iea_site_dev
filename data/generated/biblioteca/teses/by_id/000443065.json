@@ -1,0 +1,29 @@
+{
+  "num_tese": "000443065",
+  "type": "tese",
+  "title": "Soluçăo numérica de escoamentos bidimensionais năo-isotérmicos usando o método multigrid.",
+  "author": "Maximilian Serguei Mesquita",
+  "year": "2000",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcelo José Santos de Lemos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho investiga a eficięncia do método multigrid quando usado na obtençăo de campos de velocidade e temperatura bidimensionais laminares em domínios retangulares. A análise numérica é baseada no esquema de discretizaçăo em volumes finitos aplicado a malhas estruturadas ortogonais regulares. O desempenho do algoritmo multigrid correction storage (CS) é analisado para diferentes números de Reynolds na entrada (Rein) e para um número distinto de malhas. Até quatro malhas computacionais foram usadas para ambos os ciclos V e W. Soluçőes para os campos de temperatura e velocidade obtidos simultaneamente e năo-simultaneamente foram investigados. As vantagens do uso de mais de uma malha computacional săo discutidas. Para as soluçőes simultâneas os resultados indicam um aumento do esforço computacional com o incremento do número de Reynold Rein. O número ótimo de relaxaçőes intermadiárias para os ciclos V e W é discutido.",
+  "subjects": [
+    "Análise numérica",
+    "Escoamento bidimensional",
+    "Métodos de multigrid",
+    "Mecânica dos fluidos",
+    "Transferęncia de calor",
+    "Física"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000443065",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000443065&origem=BDITA"
+}

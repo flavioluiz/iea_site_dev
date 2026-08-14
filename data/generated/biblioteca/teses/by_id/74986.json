@@ -1,0 +1,28 @@
+{
+  "num_tese": "74986",
+  "type": "tese",
+  "title": "Adaptive control of a quadcopter under actuator failures",
+  "author": "Matheus Kleming de Castro Cunha",
+  "year": "2018",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "The multirotor aerial vehicles (MAV) control problem has been widely studied in the recent years. Despite the attention the MAVs have received in applications, such as transportation, surveillance and agriculture, they are still not fully autonomous for commercial flights, and one of the reasons is the safety of the flight. Adaptive controllers can be applied to MAVs under actuators failures as a way to cope with an acceptable degradation in the system performance. The present work is concerned with the design of a model reference adaptive control (MRAC) using a single hidden layer (SHL) neural network (NN) for the attitude control of a quadrotor aerial vehicle subject to a propeller abrupt failure, and a classical MRAC was designed for the altitude control loop, designed to work together with a baseline Linear Quadratic Regulator (LQR). Besides, the motion in x-y plane is controlled by a PD control topology. A Hardware-in the-Loop (HIL) simulation scheme is adopted to evaluate the method. The HIL simulation consists in implementing the translation dynamics of the vehicle numerically and its attitude dynamics in the Quanser 3 DOF Hover bench experiment. In this work, the mechanical failure on the experiment, such as a loss of blade's parts, is considered to be a sudden decrease on the voltage applied to a rotor. It is shown that the proposed scheme can increase the system robustness to an abrupt fault in the MAV propeller.",
+  "subjects": [
+    "Controle adaptativo",
+    "Redes neurais",
+    "Aeronave năo-tripulada",
+    "Simulaçăo em hardware in-the-loop",
+    "Controle"
+  ],
+  "defense_date": "24/07/2018",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=74986",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=74986&origem=BDITA"
+}

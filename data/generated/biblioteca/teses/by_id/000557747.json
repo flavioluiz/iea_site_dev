@@ -1,0 +1,38 @@
+{
+  "num_tese": "000557747",
+  "type": "tese",
+  "title": "Determinaçăo da carga térmica na parede da câmara de empuxo de propulsores bipropelente usando método inverso.",
+  "author": "Heitor Patire Júnior",
+  "year": "2010",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Pedro Teixeira Lacava",
+      "professor_slug": "pedro-teixeira-lacava"
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "José Nivaldo Hinckel",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Propulsores de baixo empuxo possuem a proteçăo térmica da superfície interna da parede provida pela reduçăo da carga térmica dos gases quentes por meio de um filme líquido de combustível injetado, paralelo e junto ŕ parede. A carga térmica transferida para a parede pode ser determinada conhecendo o coeficiente de transferęncia de calor por convecçăo na camada limite. Ambos, o perfil de temperatura do filme de combustível e o perfil do coeficiente de transferęncia de calor, săo difíceis de serem quantificados e possuem grandes incertezas na determinaçăo por meio teórico ou experimental. Determinar o comportamento de ambos os perfis térmicos é muito importante para o projeto e para a escolha do melhor material a ser usado na parede do propulsor. Este trabalho apresenta a técnica do problema inverso usada na determinaçăo dos perfis do filme de combustível e do coeficiente de transferęncia de calor para a parede de um propulsor de 200N de empuxo, onde através de um perfil de temperatura da superfície externa da parede do propulsor como dado de entrada, os perfis térmicos desejados podem ser determinados. Um algoritmo híbrido composto por GEO4 (Otimizaçăo Extrema Generalizada), baseado na técnica da evoluçăo natural somado a um EE (Estratégias Evolutivas) que incluem a auto-adaptaçăo como principal característica, será usado como um algoritmo de otimizaçăo associado a um programa de simulaçăo térmica. Casos simulados para a condiçăo de regime permanente e transiente serăo estudados usando o Inconel 600 e o Nióbio como materiais de parede. Os resultados obtidos mostram que a técnica do problema inverso apresenta-se como uma boa ferramenta para a soluçăo do problema proposto. Além disso, possibilita o estudo das temperaturas da parede em várias condiçőes de transientes térmicos para simular em que condiçőes a temperatura limite da parede é alcançada, contribuindo para a segurança nos projetos de propulsores.",
+  "subjects": [
+    "Análise térmica",
+    "Propulsores",
+    "Baixo empuxo",
+    "Filmes líquidos",
+    "Injeçăo de combustível",
+    "Problemas inversos",
+    "Otimizaçăo",
+    "Propulsăo",
+    "Termodinâmica",
+    "Física"
+  ],
+  "defense_date": "27/05/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000557747",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000557747&origem=BDITA"
+}

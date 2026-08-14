@@ -1,0 +1,30 @@
+{
+  "num_tese": "000554820",
+  "type": "tese",
+  "title": "Estudo e simulaçăo numérica do escoamento no interior de um injetor centrífugo cônico.",
+  "author": "Julio Román Ronceros Rivas",
+  "year": "2009",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Amilcar Porto Pimenta",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O propósito desta tese é compreender os aspectos relacionados ŕ simulaçăo numérica aplicada ao estudo do comportamento do escoamento interno em um injetor centrífugo cônico, desenvolvendo-se para a validaçăo da mesma, um modelo matemático elaborado a partir de referęncias encontradas na literatura, obtendo com ajuda de hipóteses simplificadoras, uma soluçăo em forma fechada dos principais parâmetros nominais de desempenho do injetor, tais como coeficiente de descarga e ângulo de cone de pulverizaçăo. Na simulaçăo numérica foi empregado o código comercial de CFD Fluent 6.3.26, onde as equaçőes governantes săo discretizadas mediante volumes de controle finitos em estado permanente. A correçăo de pressőes é empregada utilizando o algoritmo SIMPLE (Semi-Implicit Method for Pressure-Linked Equations), a localizaçăo da interface entre os fluidos (líquido-gas) é resolvida mediante o modelo VOF (Volume of fluid), os fenômenos físicos que estăo presentes na situaçăo que se deseja estudar, săo modelados com uma formulaçăo viscosa que permite a simulaçăo do escoamento em forma laminar e turbulenta, onde os termos de transporte turbulentos săo realizados com o modelo k-epsilon standard. Devido ŕ geometria complexa do injetor, o domínio computacional foi modelado com malhas năo estruturadas em tręs dimensőes, isto permitirá uma informaçăo mais detalhada do escoamento, e dos parâmetros de desempenho do injetor, sendo a validaçăo da ferramenta de análise computacional de muita importância para aperfeiçoar e reduzir os custos de projeto de injetores antes da fase de testes a quente, garantindo a melhora de estabilidade de queima na câmara de combustăo.",
+  "subjects": [
+    "Escoamento bifásico",
+    "Injetores",
+    "Análise numérica",
+    "Simulaçăo",
+    "Dinâmica dos fluidos computacional",
+    "Modelos matemáticos",
+    "Física"
+  ],
+  "defense_date": "25/09/2009",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000554820",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000554820&origem=BDITA"
+}

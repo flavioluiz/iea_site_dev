@@ -1,0 +1,296 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto">
+  {{/* Page header */}}
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg max-w-none text-gray-700">
+      {{ .Content }}
+    </div>
+    {{ $scopusMeta := .Site.Data.generated.scopus.manifest }}
+    {{ $scopusLastRun := "" }}
+    {{ if $scopusMeta }}
+      {{ $scopusLastRun = or $scopusMeta.last_complete_run $scopusMeta.generated_at }}
+    {{ end }}
+    {{ if $scopusLastRun }}
+      <div class="mt-4 inline-flex items-center rounded-lg bg-blue-50 px-4 py-2 text-sm text-blue-900 border border-blue-200">
+        {{ if eq .Language.Lang "pt" }}
+          Dados do Scopus atualizados em: <strong class="ml-1">{{ dateFormat "02/01/2006 15:04" $scopusLastRun }}</strong>
+        {{ else }}
+          Scopus data last updated on: <strong class="ml-1">{{ dateFormat "January 2, 2006 15:04" $scopusLastRun }}</strong>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  {{/* Aggregate publications from IEA faculty only */}}
+  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
+  {{ $allPublications := slice }}
+  {{ range $profData := $professoresAtivos }}
+    {{ $profId := $profData.id }}
+    {{ $generatedAuthor := index $.Site.Data.generated.scopus.autores.autores $profId }}
+    {{ $publications := slice }}
+    {{ if $generatedAuthor }}{{ $publications = $generatedAuthor.publicacoes | default slice }}{{ end }}
+    {{ range $publications }}
+      {{/* Resolve publication reference to full data */}}
+      {{ $pubRef := . }}
+      {{ $pub := $pubRef }}
+
+      {{ if $pubRef.publication_id }}
+        {{/* New format: resolve publication_id to full data */}}
+        {{ $eid := $pubRef.publication_id }}
+        {{/* Extract just the numeric part: 2-s2.0-85210484189 -> 85210484189 */}}
+        {{ $eidParts := split $eid "-" }}
+        {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
+        {{ $pub = index $.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
+
+        {{ if $pub }}
+          {{/* Add professor info to publication for display */}}
+          {{ $pubWithProf := merge $pubRef (dict
+            "professor_id" $profId
+            "professor_name" $profData.nome) }}
+          {{ $allPublications = $allPublications | append $pubWithProf }}
+        {{ end }}
+      {{ else }}
+        {{/* Old format: embedded data (backward compatibility) */}}
+        {{ $pubWithProf := merge $pub (dict
+          "professor_id" $profId
+          "professor_name" $profData.nome) }}
+        {{ $allPublications = $allPublications | append $pubWithProf }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Build list of resolved publications with full data for sorting/filtering */}}
+  {{ $resolvedPublications := slice }}
+  {{ range $allPublications }}
+    {{ $pubRef := . }}
+    {{ $pub := $pubRef }}
+
+    {{ if $pubRef.publication_id }}
+      {{ $eid := $pubRef.publication_id }}
+      {{ $eidParts := split $eid "-" }}
+      {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
+      {{ $pub = index $.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
+    {{ end }}
+
+    {{ if $pub }}
+      {{ $resolvedPub := merge $pubRef (dict "year" $pub.year "type" $pub.type) }}
+      {{ $resolvedPublications = $resolvedPublications | append $resolvedPub }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Sort by year (most recent first) */}}
+  {{ $resolvedPublications = sort $resolvedPublications "year" "desc" }}
+
+  {{/* Get unique years and authors for filters */}}
+  {{ $years := slice }}
+  {{ $authors := slice }}
+  {{ range $resolvedPublications }}
+    {{ if .year }}
+      {{ $years = $years | append .year }}
+    {{ end }}
+    {{ if .professor_name }}
+      {{ $authors = $authors | append .professor_name }}
+    {{ end }}
+  {{ end }}
+  {{ $years = uniq $years }}
+  {{ $years = sort $years }}
+  {{ if gt (len $years) 0 }}
+    {{ $yearsReversed := slice }}
+    {{ range seq (sub (len $years) 1) -1 0 }}
+      {{ $yearsReversed = $yearsReversed | append (index $years .) }}
+    {{ end }}
+    {{ $years = $yearsReversed }}
+  {{ end }}
+  {{ $authors = sort (uniq $authors) }}
+
+  {{/* Load subject areas data */}}
+  {{ $subjectAreas := .Site.Data.subject_areas }}
+
+  {{/* Filter controls */}}
+  <div class="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
+    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+      <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+      </svg>
+      {{ i18n "filter_publications" }}
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      {{/* Search input */}}
+      <div>
+        <label for="search-input" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "search_publications" }}
+        </label>
+        <input type="text" id="search-input"
+               class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+               placeholder="{{ i18n "search_placeholder" }}">
+      </div>
+
+      {{/* Year filter */}}
+      <div>
+        <label for="year-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "year" }}
+        </label>
+        <select id="year-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ i18n "all_years" }}</option>
+          <option value="2026" selected>2026</option>
+          {{ range $years }}
+            {{ if ne . "2026" }}
+              <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          {{ end }}
+        </select>
+      </div>
+
+
+      {{/* Author filter */}}
+      <div>
+        <label for="author-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ i18n "author" }}
+        </label>
+        <select id="author-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ i18n "all_authors" }}</option>
+          {{ range $authors }}
+            <option value="{{ . }}">{{ . }}</option>
+          {{ end }}
+        </select>
+      </div>
+
+      {{/* Subject Area filter */}}
+      <div>
+        <label for="area-filter" class="block text-sm font-semibold text-gray-700 mb-2">
+          {{ if eq .Language.Lang "pt" }}Área{{ else }}Area{{ end }}
+        </label>
+        <select id="area-filter"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{{ if eq .Language.Lang "pt" }}Todas as áreas{{ else }}All areas{{ end }}</option>
+          {{ if $subjectAreas }}
+            {{ range $subjectAreas.top_areas }}
+              <option value="{{ .name }}">{{ .name }} ({{ .count }})</option>
+            {{ end }}
+          {{ end }}
+        </select>
+      </div>
+    </div>
+
+    {{/* Clear filters button */}}
+    <div class="mt-4">
+      <button id="clear-filters"
+              class="px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors font-medium text-sm">
+        {{ i18n "clear_filters" }}
+      </button>
+    </div>
+  </div>
+
+  {{/* Results counter */}}
+  <div class="mb-4">
+    <p class="text-gray-600">
+      <span id="results-count" class="font-bold text-gray-900">{{ len $resolvedPublications }}</span>
+      {{ i18n "publications_found" }}
+    </p>
+  </div>
+
+  {{/* Publications list */}}
+  <div id="publications-container" class="space-y-4">
+    {{ range $resolvedPublications }}
+      {{ partial "publication-card.html" (dict "pub" . "page" $) }}
+    {{ end }}
+  </div>
+
+  {{/* No results message */}}
+  <div id="no-results" class="hidden text-center py-12">
+    <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <p class="text-xl text-gray-600">{{ i18n "no_publications_found" }}</p>
+    <p class="text-sm text-gray-500 mt-2">{{ i18n "try_different_filters" }}</p>
+  </div>
+
+  {{ if $scopusLastRun }}
+    <div class="mt-8 pt-4 border-t border-gray-200 text-sm text-gray-500">
+      {{ if eq .Language.Lang "pt" }}
+        Dados do Scopus atualizados em: {{ dateFormat "02/01/2006 15:04" $scopusLastRun }}
+      {{ else }}
+        Scopus data last updated on: {{ dateFormat "January 2, 2006 15:04" $scopusLastRun }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+{{/* JavaScript for filtering */}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-input');
+  const yearFilter = document.getElementById('year-filter');
+  const authorFilter = document.getElementById('author-filter');
+  const areaFilter = document.getElementById('area-filter');
+  const clearButton = document.getElementById('clear-filters');
+  const resultsCount = document.getElementById('results-count');
+  const container = document.getElementById('publications-container');
+  const noResults = document.getElementById('no-results');
+  const cards = container.querySelectorAll('.publication-card');
+
+  // Set default year filter to 2026
+  yearFilter.value = '2026';
+
+  function filterPublications() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const yearValue = yearFilter.value;
+    const authorValue = authorFilter.value;
+    const areaValue = areaFilter.value;
+
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const title = card.dataset.title.toLowerCase();
+      const authors = card.dataset.authors.toLowerCase();
+      const year = card.dataset.year;
+      const professor = card.dataset.professor;
+      const areas = card.dataset.areas || '';
+
+      const matchesSearch = !searchTerm || title.includes(searchTerm) || authors.includes(searchTerm);
+      const matchesYear = !yearValue || year === yearValue;
+      const matchesAuthor = !authorValue || professor === authorValue;
+      const matchesArea = !areaValue || areas.includes(areaValue);
+
+      if (matchesSearch && matchesYear && matchesAuthor && matchesArea) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    resultsCount.textContent = visibleCount;
+
+    if (visibleCount === 0) {
+      container.classList.add('hidden');
+      noResults.classList.remove('hidden');
+    } else {
+      container.classList.remove('hidden');
+      noResults.classList.add('hidden');
+    }
+  }
+
+  function clearFilters() {
+    searchInput.value = '';
+    yearFilter.value = '2026'; // Keep 2026 as default
+    authorFilter.value = '';
+    areaFilter.value = '';
+    filterPublications();
+  }
+
+  searchInput.addEventListener('input', filterPublications);
+  yearFilter.addEventListener('change', filterPublications);
+  authorFilter.addEventListener('change', filterPublications);
+  areaFilter.addEventListener('change', filterPublications);
+  clearButton.addEventListener('click', clearFilters);
+
+  // Apply initial filter on load
+  filterPublications();
+});
+</script>
+{{ end }}

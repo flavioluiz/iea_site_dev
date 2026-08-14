@@ -1,0 +1,35 @@
+{
+  "num_tese": "79892",
+  "type": "tese",
+  "title": "Thermal performance enhancement in rectangular cavities with phase change materials through fin aspect ratio design: : a constuctal design approach",
+  "author": "Rafael Adriano Alves Camargon Gonçalves",
+  "year": "2024",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Guilherme Borges Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "The increasing power density of electronic devices necessitates advanced thermal management systems to ensure reliable operation. Phase Change Materials (PCMs) offer promising solutions due to their high latent heat storage capacity. This study investigates the impact of fin geometry, specifically the aspect ratio, on the melting process within a PCM-filled rectangular cavity designed for thermal management applications. The 40mm x 120mm cavity is filled with lauric acid PCM and subjected to a temperature gradient across two vertical walls. A custom-developed computational model utilizing the Finite Volume Method, implemented in C++/CUDA for GPU acceleration, simulates the melting process. The model incorporates the energy equation, laminar Navier-Stokes equations with phase change source terms, and the Boussinesq approximation. Following the Constructal Design approach, a full factorial design explores the effects of varying fin area occupancy (?) and aspect ratio (AR) for two studies: two fins symmetrically placed on the hot wall (? = 0.100, 0.050, 0.025) and the previous configuration with a third fin placed on the cold wall centroid (? = 0.1500, 0.0750, 0.0375). Each study has its factorial analysis about fin AR, which generally varies between 0.067 and 15.000, depending on the study and ?. Key findings reveal that highly intrusive fins on the hot wall significantly enhance the liquid fraction of the PCM. The optimal fin AR did not directly correlate with maximizing latent heat storage and Stemod. Still, the optimal two-fin configuration resulted in a 120.4% increase of ? compared to the no-fin case at t = 1200 s. The best-case scenario with three fins still resulted in a substantial 115% increase in ? compared to the no-fin case at t = 1200 s. This research provides valuable insights into optimizing fin geometry for PCM-based thermal management systems, highlighting the complex interplay between fin AR, ?, and their impact on the melting process.",
+  "subjects": [
+    "Armazenamento de calor",
+    "Transferęncia de calor",
+    "Aletas",
+    "Termodinâmica",
+    "Programas de computadores",
+    "Mudança de fase",
+    "Física"
+  ],
+  "defense_date": "02/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79892",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79892&origem=BDITA"
+}

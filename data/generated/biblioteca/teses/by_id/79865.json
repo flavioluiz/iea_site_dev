@@ -1,0 +1,30 @@
+{
+  "num_tese": "79865",
+  "type": "tese",
+  "title": "Preliminary study of low-aspect ratio wings in ground effect using panel methods",
+  "author": "Jorge Andres Pińero Delgadillo",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto Gil Annes da Silva",
+      "professor_slug": "roberto-gil-annes-da-silva"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "This work aims to evaluate various wings while in ground effect, using the open-source aerodynamics tool VSPAero/OpenVSP as a solver and geometry generator respectively. The aerodynamic analysis used is panel methods, through VSPAero with ground effect simulations to evaluating different height-to-chord ratios (h/c). The aim is to understand the range of geometric properties of wings relevant to ground effect operation investigated with potential flow solvers. A program routine coded in AngelScript/C++ is developed to iterate the different cases under investigation. First, a literature review of fluid dynamic potential methods used for ground effect studies is conducted. This revealed the capability of the method within a certain interval of (h/c) for this type of operation and found various works developed in this range for low values of angle of attack (?) and explicit cases. Four different wings with different aspect ratio are analyzed and compared with experimental data using root mean squared error (RMSE). Subsequently, geometry properties such as the dihedral angle ?, sweep angle ?, aspect ratio ?, torsion angle ? and tapper ratio ? are evaluated independently using the aforementioned aerodynamic solver for different (h/c) versus (?). The results are shown using the aerodynamic coefficients CL, CD, CM and L/D, which are then discussed.",
+  "subjects": [
+    "Aerodinâmica",
+    "Asas",
+    "Efeito solo (aerodinâmica)",
+    "Aeronaves",
+    "Varreduras",
+    "Dinâmica dos fluidos",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "14/07/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79865",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79865&origem=BDITA"
+}

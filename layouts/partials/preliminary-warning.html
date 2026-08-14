@@ -1,0 +1,13 @@
+{{- $notice := .Site.Params.preliminary_notice -}}
+{{- if $notice.enabled -}}
+<section class="bg-amber-100 border-y border-amber-300 text-amber-900" role="alert" aria-live="polite">
+  <div class="container mx-auto max-w-7xl px-4 py-3">
+    <p class="text-xs sm:text-sm font-bold uppercase tracking-wide">
+      {{ if eq .Site.Language.Lang "pt" }}Aviso Importante{{ else }}Important Notice{{ end }}
+    </p>
+    <p class="text-sm sm:text-base">
+      {{ if eq .Site.Language.Lang "pt" }}{{ $notice.message_pt }}{{ else }}{{ $notice.message_en }}{{ end }}
+    </p>
+  </div>
+</section>
+{{- end -}}

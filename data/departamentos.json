@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "departamentos": [
+    {
+      "id": "iea-a",
+      "sigla": "IEA-A",
+      "nome_pt": "Aerodinâmica",
+      "nome_en": "Aerodynamics",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em aerodinâmica, mecânica dos fluidos computacional e experimental, aeroelasticidade e aeroacústica.",
+      "descricao_en": "Responsible for courses and research in aerodynamics, computational and experimental fluid mechanics, aeroelasticity, and aeroacoustics.",
+      "chefe": "Tiago Barbosa de Araujo",
+      "email": "",
+      "cor": "#1e40af",
+      "icon": "wind",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "lab-feng",
+        "lasca",
+        "lcft",
+        "lab-din-vib"
+      ]
+    },
+    {
+      "id": "iea-b",
+      "sigla": "IEA-B",
+      "nome_pt": "Mecânica do Voo",
+      "nome_en": "Flight Mechanics",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em mecânica e controle de voo, dinâmica de aeronaves e veículos espaciais, estabilidade e controle.",
+      "descricao_en": "Responsible for courses and research in flight mechanics and control, aircraft and spacecraft dynamics, stability and control.",
+      "chefe": "Antonio Bernardo Guimarães Neto",
+      "email": "",
+      "cor": "#7c3aed",
+      "icon": "adjustments",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "lab-sim-ctrl"
+      ]
+    },
+    {
+      "id": "iea-c",
+      "sigla": "IEA-C",
+      "nome_pt": "Propulsão",
+      "nome_en": "Propulsion",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em propulsão aeronáutica e espacial, combustão, turbinas a gás, motor-foguete e sistemas de energia.",
+      "descricao_en": "Responsible for courses and research in aeronautical and space propulsion, combustion, gas turbines, rocket motors, and energy systems.",
+      "chefe": "Pedro Teixeira Lacava",
+      "email": "",
+      "cor": "#dc2626",
+      "icon": "fire",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "lcpe",
+        "lab-turbo",
+        "lnca",
+        "lab-quim"
+      ]
+    },
+    {
+      "id": "iea-e",
+      "sigla": "IEA-E",
+      "nome_pt": "Estruturas",
+      "nome_en": "Structures",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em estruturas aeronáuticas e aeroespaciais, materiais compósitos, mecânica dos sólidos e otimização estrutural.",
+      "descricao_en": "Responsible for courses and research in aeronautical and aerospace structures, composite materials, solid mechanics, and structural optimization.",
+      "chefe": "Flávio Luiz de Silva Bussamra",
+      "email": "",
+      "cor": "#16a34a",
+      "icon": "cube",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "lab-esp",
+        "lpm-lacam",
+        "ccm"
+      ]
+    },
+    {
+      "id": "iea-p",
+      "sigla": "IEA-P",
+      "nome_pt": "Projetos",
+      "nome_en": "Projects",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em projeto integrado de aeronaves e espaçonaves, otimização multidisciplinar (MDO) e novos conceitos aeronáuticos.",
+      "descricao_en": "Responsible for courses and research in integrated aircraft and spacecraft design, multidisciplinary design optimization (MDO), and new aeronautical concepts.",
+      "chefe": "Ney Rafael Sêcco",
+      "email": "",
+      "cor": "#0891b2",
+      "icon": "pencil",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "cdpa",
+        "lnca"
+      ]
+    },
+    {
+      "id": "iea-s",
+      "sigla": "IEA-S",
+      "nome_pt": "Sistemas Aeroespaciais",
+      "nome_en": "Aerospace Systems",
+      "descricao_pt": "Responsável pelas disciplinas e pesquisas em sistemas de aeronaves e espaçonaves, aviónica, guiagem, navegação e controle (GNC), satélites e CubeSats.",
+      "descricao_en": "Responsible for courses and research in aircraft and spacecraft systems, avionics, guidance, navigation and control (GNC), satellites, and CubeSats.",
+      "chefe": "Luis Eduardo Vergueiro Loures da Costa",
+      "email": "",
+      "cor": "#4f46e5",
+      "icon": "satellite",
+      "temas": [
+        "aeronautica",
+        "espacial"
+      ],
+      "laboratorios": [
+        "lab-sim-ctrl",
+        "leta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "professores": [
+    {
+      "id": "nome-sobrenome",
+      "nome": "Nome completo",
+      "nome_destaque": "Nome curto",
+      "ativo": true,
+      "departamento": "iea-a",
+      "categoria": "Professor Adjunto",
+      "posto": "",
+      "cargos": [],
+      "chefe_departamento": false,
+      "foto": "/images/pessoal/nome-sobrenome.jpg",
+      "email": "",
+      "links": {
+        "lattes": "",
+        "scopus": "",
+        "orcid": "",
+        "google_scholar": "",
+        "researchgate": "",
+        "web_of_science": "",
+        "site": ""
+      },
+      "scopus_author_ids": [],
+      "linhas_pesquisa": { "pt": [], "en": [] },
+      "resumo": { "pt": "", "en": "" },
+      "formacao_academica": [],
+      "premios_titulos": [],
+      "idiomas": [],
+      "bolsista_cnpq": "",
+      "fonte": "Página ou documento institucional usado na conferência",
+      "verificado_em": "2026-08-14"
+    }
+  ]
+}

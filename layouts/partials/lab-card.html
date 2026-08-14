@@ -1,0 +1,144 @@
+{{/* Lab Card Partial - Expandable card for laboratories */}}
+{{ $lab := .lab }}
+{{ $page := .page | default $ }}
+{{ $lang := $page.Language.Lang }}
+
+{{/* Get area info for color */}}
+{{ $areaData := index .page.Site.Data.areas.areas $lab.area }}
+{{ $areaColor := "#6b7280" }}
+{{ $areaCodigo := "" }}
+{{ if $areaData }}
+  {{ $areaColor = $areaData.cor }}
+  {{ $areaCodigo = $areaData.codigo }}
+{{ end }}
+
+{{/* Get localized content */}}
+{{ $nome := $lab.nome_pt }}
+{{ $descricao := $lab.descricao_pt }}
+{{ $infra := $lab.infraestrutura }}
+{{ if eq $lang "en" }}
+  {{ $nome = $lab.nome_en | default $lab.nome_pt }}
+  {{ $descricao = $lab.descricao_en | default $lab.descricao_pt }}
+  {{ $infra = $lab.infraestrutura_en | default $lab.infraestrutura }}
+{{ end }}
+
+{{/* Truncate description for preview */}}
+{{ $descPreview := $descricao | plainify | truncate 150 "..." }}
+
+<article class="lab-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300"
+         data-lab-id="{{ $lab.id }}"
+         data-area="{{ $lab.area }}"
+         data-name="{{ $nome | lower }}"
+         data-sigla="{{ $lab.sigla | lower }}">
+
+  {{/* Card Header with colored accent */}}
+  <div class="flex">
+    {{/* Left accent bar with area color */}}
+    <div class="w-2 flex-shrink-0" style="background-color: {{ $areaColor }};"></div>
+
+    <div class="flex-1 p-6">
+      {{/* Header: Sigla placeholder and title */}}
+      <div class="flex items-start gap-4">
+        {{/* Sigla Placeholder */}}
+        <div class="flex-shrink-0 w-16 h-16 rounded-lg flex items-center justify-center text-white font-bold text-sm"
+             style="background: linear-gradient(135deg, {{ $areaColor }}, {{ $areaColor }}dd);">
+          {{ $lab.sigla }}
+        </div>
+
+        <div class="flex-1 min-w-0">
+          {{/* Lab Name */}}
+          <h3 class="text-lg font-bold text-gray-900 mb-1 leading-tight">
+            {{ $nome }}
+          </h3>
+
+          {{/* Area Badge */}}
+          <span class="inline-block px-2 py-0.5 rounded-full text-xs font-medium text-white"
+                style="background-color: {{ $areaColor }};">
+            {{ $areaCodigo }}
+          </span>
+        </div>
+      </div>
+
+      {{/* Collapsed Preview */}}
+      <div class="lab-preview mt-4">
+        <p class="text-sm text-gray-600 leading-relaxed">
+          {{ $descPreview }}
+        </p>
+
+        {{/* Expand Button */}}
+        <button class="lab-expand-btn mt-3 flex items-center gap-1 text-sm font-medium transition-colors"
+                style="color: {{ $areaColor }};"
+                onclick="toggleLabCard(this)">
+          <span class="btn-text">{{ i18n "view_details" }}</span>
+          <svg class="w-4 h-4 transform transition-transform duration-200 expand-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+      </div>
+
+      {{/* Expanded Content (hidden by default) */}}
+      <div class="lab-details hidden mt-4 pt-4 border-t border-gray-100">
+        {{/* Full Description */}}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">{{ i18n "lab_description" }}</h4>
+          <p class="text-sm text-gray-600 leading-relaxed whitespace-pre-line">{{ $descricao | plainify }}</p>
+        </div>
+
+        {{/* Infrastructure List */}}
+        {{ with $infra }}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">{{ i18n "lab_infrastructure" }}</h4>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-1">
+            {{ range . }}
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <svg class="w-4 h-4 flex-shrink-0 mt-0.5" style="color: {{ $areaColor }};" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              <span>{{ . }}</span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{/* Associated Projects */}}
+        {{ with $lab.projetos_associados }}
+        <div class="mb-4">
+          <h4 class="text-sm font-semibold text-gray-700 mb-2">{{ i18n "associated_projects" }}</h4>
+          <div class="flex flex-wrap gap-2">
+            {{ range . }}
+            <span class="inline-block bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs">
+              {{ . }}
+            </span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{/* PNIPE Link */}}
+        {{ with $lab.pnipe_url }}
+        <div class="mt-4 pt-3 border-t border-gray-100">
+          <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 text-sm font-medium hover:underline"
+             style="color: {{ $areaColor }};">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+            {{ i18n "view_on_pnipe" }}
+          </a>
+        </div>
+        {{ end }}
+
+        {{/* Collapse Button */}}
+        <button class="lab-collapse-btn mt-4 flex items-center gap-1 text-sm font-medium transition-colors"
+                style="color: {{ $areaColor }};"
+                onclick="toggleLabCard(this)">
+          <span>{{ i18n "hide_details" }}</span>
+          <svg class="w-4 h-4 transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</article>

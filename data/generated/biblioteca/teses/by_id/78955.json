@@ -1,0 +1,30 @@
+{
+  "num_tese": "78955",
+  "type": "tese",
+  "title": "Estudo do efeito de forças eletromagnéticas em uma formaçăo em voo de satélites em torno da terra",
+  "author": "Felipe de Castro Silva",
+  "year": "2022",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Willer Gomes dos Santos",
+      "professor_slug": "willer-gomes-dos-santos"
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Missőes espaciais de formaçăo em voo de satélites que se utilizam de tecnologias năo propulsivas para sua manutençăo vem sendo cada vez mais exploradas, na medida que năo necessitam de uso de propelente e, consequentemente, aumentam a capacidade de se levar maior carga útil nas missőes ao espaço. Neste contexto, este trabalho apresenta um estudo da aplicaçăo de forças de Lorentz para formaçőes em voo de satélites em torno da Terra, aproveitando o efeito combinado do campo magnético terrestre com o campo magnético gerado por uma bobina magnética posicionada no veículo líder da formaçăo. Apesar de diversos estudos terem sido realizados considerando o efeito do campo magnético terrestre e de campo gerado pelo líder, estes năo foram abordados em conjunto, limitando a atuaçăo das estratégias a determinadas altitudes, sejam elas altas ou baixas. Ainda, é pouco visto na literatura o estudo de viabilidade, já que a maioria dos trabalhos da maior enfoque nos conceitos teóricos, muitas vezes propondo condiçőes de operaçăo fora da realidade possível para as tecnologias atuais. Essa análise de viabilidade e ponto abordado neste trabalho, sendo obtido o intervalo de valores para as variáveis de interesse que garantem uma maior factibilidade da formaçăo. Como resultado dos estudos realizados neste trabalho, obteve-se que o modelo utilizado permite obter formaçőes de até cinco veículos seguidores, a depender da geometria de posicionamento da bobina magnética do veículo líder. Foi possível obter também o intervalo de valores de variáveis nos quais a formaçăo apresenta maior possibilidade de ser aplicada em uma missăo real, tendo sido obtido valores de altitude de órbita média, entre 5_103 e 1,75_104 km, valores de momento de dipolo da bobina do veículo líder entre 8_10??5 e 1_10??4 T.m3, velocidades angulares acima de 4.000 rpm, e relaçőes carga-massa de módulo entre 2_10??5 e 5_10??4 C/kg. Os valores de posiçăo de equilíbrio năo atingiram valores superiores a 20 m, o que faz com que o modelo de formaçăo proposto seja mais indicado em missőes de pequenas distâncias relativas e para satélites de pequenas dimensőes, como alguns tipos de CubeSats. Por fim, foi possível realizar duas simulaçőes de sistemas de formaçăo em voo e realizar a manutençăo da posiçăo de veículos seguidores com dois diferentes métodos de controle, linear quadrático e preditivo, com seus resultados sendo comparados entre eles.",
+  "subjects": [
+    "Satélites artificiais",
+    "Campos magnéticos",
+    "Transformaçőes de Lorentz",
+    "Bobinas",
+    "Propriedades magnéticas",
+    "Engenharia de sistemas",
+    "Engenharia aeroespacial"
+  ],
+  "defense_date": "29/11/2022",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=78955",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=78955&origem=BDITA"
+}

@@ -1,0 +1,29 @@
+{
+  "num_tese": "80305",
+  "type": "tese",
+  "title": "Modelagem térmica do processo de aquecimento por induçăo com transformaçăo de fase",
+  "author": "Raffael de Carvalho Gonçalves",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "A consideraçăo do calor latente associado ŕs transformaçőes microestruturais influencia a precisăo de simulaçőes térmicas em processos industriais de alta complexidade. O trabalho desenvolve uma simulaçăo acoplada térmica e microestrutural que inclui análises das transformaçőes microestrutura.is durante o aquecimento em um processo de tęmpera por induçăo de um cilindro de laminaçăo. Embora essas transformaçőes năo alterem o estado físico do material, que permanece sólido ao longo de todo o processo, elas envolvem a realocaçăo de energia na forma de calor latente que impacta significativamente os resultados térmicos. Os resultados demonstram que a negligęncia desse fator em simulaçőes simplificadas pode gerar diferenças de temperatura superiores a 10 şC, comprometendo a precisăo das análises e1 potencialmente 1 a qualidade do produto final. O estudo destaca que a consideraçăo desse efeito em simulaçőes térmicas permite uma melhor previsăo de fenômenos térmicos e mecânicos, oferecendo subsídios para a otimizaçăo de processos industriais e o desenvolvimento de materiais mais confiáveis.",
+  "subjects": [
+    "Análise térmica",
+    "Transferęncia de calor",
+    "Aquecimento por induçăo",
+    "Mudança de fase",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "10/10/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80305",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80305&origem=BDITA"
+}

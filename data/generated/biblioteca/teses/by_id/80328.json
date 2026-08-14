@@ -1,0 +1,34 @@
+{
+  "num_tese": "80328",
+  "type": "tese",
+  "title": "Development of adaptive mesh refinement models for multi-scale phenomena simulation",
+  "author": "Gabriel Nunes",
+  "year": "2024",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Elisan dos Santos Magalhăes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Guilherme Borges Ribeiro",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Adaptive Mesh Refinement (AMR) is a technique that enhances computational efficiency and accuracy in solving multi-physics problems modeled by partial differential equations (PDEs) by dynamically adjusting the mesh resolution in regions of interest. The importance of AMR lies in its ability to focus computational resources on critical areas, such as shock fronts, turbulent eddies, or phase boundaries, thereby reducing the overall computational burden while maintaining high accuracy in simulations. This dissertation explores two primary approaches to AMR: (1) the deformation of an originally structured and rectangular mesh, which adapts to the evolving solution by adjusting the positions of mesh nodes, and (2) the refinement of a rectangular mesh by creating new cells in the geometric space, which increases the resolution in regions requiring finer detail. Custom in-house codes were developed to perform these analyses, ensuring tailored solutions for specific simulation needs. The analyses were conducted on problems modeled using the Finite Volume Method (FVM), focusing on transport phenomena such as heat conduction and fluid dynamics. The results demonstrate the effectiveness of the AMR techniques in capturing complex physical behaviors with improved accuracy and computational efficiency. A unique methodology was devised for mesh deformation around manifolds (curves or surfaces) using minimum distance calculations to these features, enabling parameter exploration and ensuring a highly parallelizable approach. For the hierarchical refinement, I initially implemented a quadtree-based data structure to efficiently manage nodes and developed an algorithm designed to test and assess accuracy improvements in regions with abrupt changes in thermodynamic properties. Subsequently, a new data structure was proposed, storing information in arrays to simplify operations, reduce computational costs, and identify potential for parallelization. Although some operations remain dependent on neighborhood interactions and cannot be fully parallelized, the 3D mesh algorithm demonstrates significant gains in efficiency compared to the quadtree-based method.",
+  "subjects": [
+    "Malhas adaptativas",
+    "Fluxo de calor",
+    "Método de volumes finitos",
+    "Transferęncia de calor",
+    "Programas de computadores",
+    "Física"
+  ],
+  "defense_date": "10/12/2024",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=80328",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=80328&origem=BDITA"
+}

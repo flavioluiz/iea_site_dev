@@ -1,0 +1,32 @@
+{
+  "num_tese": "000457418",
+  "type": "tese",
+  "title": "Modelagem de sistema ativo de abertura de painéis solares.",
+  "author": "Daniel Gomes Pinto Júnior",
+  "year": "2001",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho trata da modelagem de sistemas ativos de abertura de painéis solares. Utilizou-se a plataforma do satélite CBERS como base para as simulaçőes. O processo de modelagem foi integralmente feito no software de simulaçăo de sistemas mecânicos ADAMS®, versőes 9.1 e 10.0. Atualmente, o sistema de abertura dos painéis solares do satélite CBERS é passivo, podendo ser comprometida a segurança de componentes da asa do satélite, devido ao impacto produzido no instante do travamento na posiçăo aberta. Este trabalho procurou fornecer informaçőes básicas a respeito de alguns dispositivos que poderiam ser utilizados para a realizaçăo do controle ativo da abertura. Procurou-se neste trabalho, limitar-se a fornecer valores de torques necessários a um motor elétrico, de forma que este possa ser selecionado e dimensionado. Durante este processo, foram considerados várias configuraçőes e cenários de operaçăo do sistema, tais como o uso ou năo de redutores de velocidade, motores redundantes, e alguns casos críticos em que o valor do atrito nos mancais dos painéis fosse duas vezes maior do que o esperado. Propőe-se uma alternativa de uso de um motor, de forma que o torque exigido deste fosse o menor possível, dentro dos limites de tempo e velocidade final de abertura. Neste trabalho, estudou-se também o efeito da flexibilidade dos cabos de aço do mecanismo de sincronismo no movimento de abertura dos painéis.",
+  "subjects": [
+    "Abertura de engrenagens",
+    "Painéis",
+    "Coletores solares",
+    "Engrenagens",
+    "Células solares",
+    "Satélites artificiais",
+    "Mecanismos",
+    "Sincronismo",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "2000",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000457418",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000457418&origem=BDITA"
+}

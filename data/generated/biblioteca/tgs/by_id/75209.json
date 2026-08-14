@@ -1,0 +1,30 @@
+{
+  "num_tg": "75209",
+  "type": "tg",
+  "title": "Análise de detecçăo e isolaçăo de falhas aplicadas a um sistema de navegaçăo e controle para veículos lançadores",
+  "author": "Tibor Thiesen Dumont Pitrez",
+  "year": "2018",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Pedro Kukulka de Albuquerque",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Joana D'arc Dias Costa",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este Trabalho de Graduaçăo (TG) apresenta um algoritmo de detecçăo, isolaçăo e recuperaçăo de falhas (FDIR) para um conjunto de girômetros de um sistema de navegaçăo e controle, que no contexto deste trabalho foi o SISNAC. Para este estudo se considerou principalmente os casos de sistemas de girômetros com 4 e 5 sensores. O caso de redundância mínima (de 4 girômetros) é, a priori, o caso que se aplica ao SISNAC. Porém, o caso de 5 sensores traz vantagens importantes em comparaçăo ao caso de redundância mínima, o que torna seu estudo justificável. Neste trabalho săo elucidados alguns conceitos de FDIR e como estes conceitos se aplicam no caso estudado. A parte da análise teórica do TG pode ser dividida em seis pontos: O primeiro trata de um estudo geral do sistema do ponto de vista de Gerenciamento de Falhas. O segundo, é o estudo da configuraçăo geométrica do arranjo de sensores girométricos. No terceiro ponto descreve-se o processo de simulaçăo de dados e falhas dos sensores, além da filtragem dos dados fornecidos pelos girômetros. O quarto ponto consiste na elaboraçăo do algoritmo de detecçăo de falhas para o sistema de girômetros. O quinto ponto consiste no algoritmo de isolaçăo do componente que causou a falha, que foi feito com sucesso total para o caso de 5 sensores e sucesso parcial para o caso de 4 sensores (a isolaçăo plena com 4 sensores é impossível). O último ponto apresenta o algoritmo de recuperaçăo usado após a isolaçăo de um sensor defeituoso. O algoritmo FDIR completo é implementado em um ambiente de simulaçăo computacional. Os resultados obtidos por meio das simulaçőes foram positivos no geral. Para o caso de 5 sensores, o sistema FDIR consegue cumprir todas as etapas (detecçăo, isolaçăo e recuperaçăo) com sucesso. Para o caso de 4 sensores, a isolaçăo só pode ser feita em alguns casos especiais. Os principais conhecimentos utilizados na elaboraçăo deste trabalho foram: Conceitos de Gerenciamento de Falhas, FDIR, Confiabilidade, Álgebra Linear, Variáveis Aleatórias, Estatística, Sensores Inerciais, Especificaçőes de Sensores, Modelo de Sensores, Transformada de Fourier, Filtro de Mediana, Filtro de Média Móvel Ponderada, Programaçăo e Cálculo Computacional.",
+  "subjects": [
+    "Sistema de navegaçăo",
+    "Isolamento de falhas",
+    "Detecçăo",
+    "Giroscópios",
+    "Engenharia aeroespacial"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=75209",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=75209&origem=BDITA"
+}

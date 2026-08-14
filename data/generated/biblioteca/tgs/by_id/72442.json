@@ -1,0 +1,32 @@
+{
+  "num_tg": "72442",
+  "type": "tg",
+  "title": "Computer vision based automatic landing system for a multirotor micro aerial vehicle",
+  "author": "Rafael Leonardo de Sena e Vasconcelos",
+  "year": "2016",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Davi Antônio dos Santos",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Felipe Leonardo Lôbo Medeiros",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "This undergraduation work deals with the guiding problem for landing of multirotors micro aerial vehicles by computer vision-based state estimation. In order to solve the problem, we propose an estimation algorithm of position, speed and yaw based on discrete continuously approach of the extended Kalman Filter (EKF), using low-cost components, such as a gyro-stabilized platform two-axis containing a camera pointed downward, inertial sensors and an ultrasonic sensor. For the estimation problem of navigation, the inertial sensors are used in the EKF prediction equations, while the measurements of image processing and ultrasonic sensor are applied in the update stage of the estimation algorithm. The control of the vehicle's trajectory will take place in outer loop, applying a saturated linear controller by setting specific constraints on both the magnitude of the thrust vector and the inclination of the rotor plane. The method is evaluated by computer simulations, which demonstrate its effectiveness and accuracy. Furthermore, it is proposed in this paper to compare different types of format for the helipad markings on the ground, aiming to the optimization of image processing and therefore lowering the computational load of the algorithm.",
+  "subjects": [
+    "Aeronave năo-tripulada",
+    "Filtros de Kalman",
+    "Estimaçăo de estado",
+    "Sensores inerciais",
+    "Navegaçăo aérea",
+    "Simulaçăo computadorizada",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=72442",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=72442&origem=BDITA"
+}

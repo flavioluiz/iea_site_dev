@@ -1,0 +1,108 @@
+{{ define "main" }}
+<div class="max-w-7xl mx-auto">
+  {{/* Page header */}}
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ .Title }}</h1>
+    <div class="prose prose-lg max-w-none text-gray-700">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Simple year filtering based on page params */}}
+  {{ $targetYear := .Params.year | default "" }}
+  {{ $yearFilter := .Params.year_filter | default "" }}
+
+  {{/* Use IEA faculty publications only */}}
+  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
+  {{ $allPublications := slice }}
+  {{ range $profData := $professoresAtivos }}
+    {{ $profId := $profData.id }}
+    {{ $generatedAuthor := index $.Site.Data.generated.scopus.autores.autores $profId }}
+    {{ $publications := slice }}
+    {{ if $generatedAuthor }}{{ $publications = $generatedAuthor.publicacoes | default slice }}{{ end }}
+    {{ range $publications }}
+      {{ if .publication_id }}
+        {{ $eid := .publication_id }}
+        {{ $eidParts := split $eid "-" }}
+        {{ $eidNumeric := index $eidParts (sub (len $eidParts) 1) }}
+        {{ $pub := index $.Site.Data.generated.scopus.publications.by_eid $eidNumeric }}
+
+        {{ if $pub }}
+          {{/* Simple year matching */}}
+          {{ $include := true }}
+          {{ if $targetYear }}
+            {{ if ne $pub.year $targetYear }}
+              {{ $include = false }}
+            {{ end }}
+          {{ end }}
+
+          {{ if $include }}
+            {{ $allPublications = $allPublications | append $pub }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Sort publications */}}
+  {{ $sortedPublications := sort $allPublications "year" "desc" }}
+
+  {{/* Filter controls simplified */}}
+  <div class="bg-white rounded-lg shadow-md p-6 mb-8 border border-gray-200">
+    <h2 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+      <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+      </svg>
+      Navegação Rápida
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-2">Ano</label>
+        <select onchange="window.location.href=this.value"
+                class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="/{{ .Language.Lang }}/publicacoes/todos/">Todos os anos</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/ultimos-5-anos/">Últimos 5 anos</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2025/">2025</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2024/">2024</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2023/">2023</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2022/">2022</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2021/">2021</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2020/">2020</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2019/">2019</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2018/">2018</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2017/">2017</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/2016/">2016</option>
+          <option value="/{{ .Language.Lang }}/publicacoes/" {{ if eq $targetYear "2026" }}selected{{ end }}>2026 (Atual)</option>
+        </select>
+      </div>
+
+      <div class="col-span-3">
+        <p class="text-sm text-gray-600 mt-8">
+          Mostrando <strong>{{ len $sortedPublications }}</strong> publicações
+          {{ if $targetYear }}do ano {{ $targetYear }}{{ end }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {{/* Publications list */}}
+  <div class="space-y-4">
+    {{ range $sortedPublications }}
+      {{ partial "publication-card.html" (dict "pub" . "page" $) }}
+    {{ end }}
+  </div>
+
+  {{/* No publications message */}}
+  {{ if eq (len $sortedPublications) 0 }}
+    <div class="text-center py-12">
+      <p class="text-xl text-gray-600">Nenhuma publicação encontrada para este ano.</p>
+      <p class="text-sm text-gray-500 mt-2">
+        <a href="{{ "/publicacoes/" | relLangURL }}" class="text-blue-600 hover:underline">
+          Ver todas as publicações
+        </a>
+      </p>
+    </div>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,32 @@
+{
+  "num_tese": "000266666",
+  "type": "tese",
+  "title": "Um método de diferenças finitas para simulaçăo de escoamentos em qualquer regime de velocidade",
+  "author": "Rodrigo Jereissati Martins",
+  "year": "1994",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Joăo Luiz Filgueiras de Azevedo",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Um medoto de diferencas finitas para simulacao deescoamentos independente do regime de velocidade considerada ehapresentado. O algoritmo proposto utiliza um esquema implicito defatoracao aproximada em forma delta tipicamente desenvolvido paraescoamentos compressiveis. A habilidade de tratar escoamentos emqualquer numero de Mach e obtida atraves de uma escolha apropriadadas variaveis dependentes, chamadas variaveis primitivas, a saber,pressao, componentes cartesianas de velocidade e temperatura. As equacoes governantes sao escritas em forma de lei de conservacaopara um sistema de coordenadas curvilineas generalizadas esimultaneamente resolvidas por um processo implicito de marcha notempo com linearizacao local por via de matrizes jacobianas. Operadores de diferencas centradas sao empregados para as derivadasespaciais e estabilidade numerica e assegurada pela escolha de ummodelo de dissipacao artificial. O esquema numerico resultante ehsimilar ao algoritmo tradicional de Beam & Warming, com excessao deuma nova matriz jacobiana relacionando variaveis conservadas eprimitivas. O metodo e aplicado a uma grande variedade de testes,incluindo escoamentos internos e externos, e velocidades que variamdo regime incompressivel ao supersonico. Todos os casos analisadosmostram concordancia muito boa com os dados disponiveis daliteratura. A eficiencia computacional do algoritmo proposto etambem avaliada e revela-se tao boa quanto a do de Beam & Warming. Apesar de terem sido considerados apenas escoamentos nao viscosos,ou seja, escoamentos governados pelas equacoes de Euler, nao haqualquer dificuldade conceitual na extensao do presente algoritmopara as equacoes de Navier-Stokes.",
+  "subjects": [
+    "Escoamento",
+    "Dinâmica dos fluidos computacional",
+    "Método de elementos finitos",
+    "Simulaçăo do escoamento",
+    "Equaçăo de Navier-Stokes",
+    "Número de Mach",
+    "Mecânica dos fluidos",
+    "Equaçăo de Euler-Lagrange",
+    "Física"
+  ],
+  "defense_date": "01/03/1994",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000266666",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000266666&origem=BDITA"
+}

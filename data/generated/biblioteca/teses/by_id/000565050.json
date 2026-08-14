@@ -1,0 +1,32 @@
+{
+  "num_tese": "000565050",
+  "type": "tese",
+  "title": "Projeto aeronáutico ótimo simultâneo sob carregamentos incertos.",
+  "author": "Ana Paula Carvalho da Silva Ferreira",
+  "year": "2010",
+  "course": "Doutorado",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Sérgio Frascino Müller de Almeida",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Esse trabalho apresenta um procedimento de projeto para obtençăo de estruturas típicas em aplicaçőes aeronáuticas otimizadas satisfazendo simultaneamente dois critérios: carga de flambagem máxima e freqüęncia fundamental máxima. As estruturas projetadas estăo sujeitas a carregamentos incertos ou năo uniformes. Para a representaçăo do carregamento năo uniforme utiliza-se uma metodologia de extraçăo de carregamentos auto-equilibrados a partir dos carregamentos físicos que atuam na estrutura. O carregamento auto-equilibrado é definido usando alguns pontos de controle de carga localizados nos contornos da estrutura. O carregamento auto-equilibrado é descrito usando funçőes lineares por parte. A abordagem matemática do projeto envolve a soluçăo de problemas de otimizaçăo \"minimax\" em dois níveis e simultâneos. Utiliza-se a estratégia minimax com o intuito de se obter o melhor projeto para a pior condiçăo de carregamento. O processo de otimizaçăo envolve também o método de Powell e um loop externo de otimizaçăo de massa. O loop externo de otimizaçăo de massa torna possível ajustar a massa da estrutura de acordo com especificaçőes de projeto e margens de segurança adotadas. As variáveis de projeto da otimizaçăo săo propriedades geométricas de estruturas e/ou ângulos de orientaçăo das camadas (em estruturas de material compósito). No entanto, em otimizaçőes que utilizam ângulos de orientaçăo das camadas, é necessário utilizar parâmetros de laminaçăo com o intuito de manter a convexidade do problema. Uma nova definiçăo dos parâmetros de laminaçăo foi adotada para aumentar a aplicabilidade do procedimento.",
+  "subjects": [
+    "Projeto estrutural",
+    "Otimizaçăo",
+    "Carregamentos incertos",
+    "Flambagem",
+    "Estruturas de aeronaves",
+    "Materiais compósitos",
+    "Modelos matemáticos",
+    "Engenharia de materiais",
+    "Engenharia estrutural"
+  ],
+  "defense_date": "15/09/2010",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000565050",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000565050&origem=BDITA"
+}

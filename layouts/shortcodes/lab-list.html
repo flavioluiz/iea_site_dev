@@ -1,0 +1,54 @@
+{{/*
+  Shortcode to list laboratories by area
+  Usage: {{< lab-list area="eam1" >}}
+  Optional: {{< lab-list area="eam1" compact="true" >}}
+*/}}
+
+{{ $area := .Get "area" }}
+{{ $compact := .Get "compact" | default "false" }}
+{{ $labs := .Site.Data.laboratorios.laboratorios }}
+{{ $areaData := index .Site.Data.areas.areas $area }}
+
+{{ $filteredLabs := slice }}
+{{ range $id, $lab := $labs }}
+  {{ if eq $lab.area $area }}
+    {{ $filteredLabs = $filteredLabs | append $lab }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $filteredLabs) 0 }}
+<div class="lab-list-shortcode my-6">
+  {{ if eq $compact "true" }}
+    {{/* Compact list view */}}
+    <ul class="space-y-2">
+      {{ range $filteredLabs }}
+        {{ $nome := .nome_pt }}
+        {{ if eq $.Page.Language.Lang "en" }}
+          {{ $nome = .nome_en | default .nome_pt }}
+        {{ end }}
+        <li class="flex items-center gap-3">
+          <span class="inline-flex items-center justify-center w-12 h-8 rounded text-white text-xs font-bold"
+                style="background-color: {{ $areaData.cor }};">
+            {{ .sigla }}
+          </span>
+          <span class="text-gray-700">{{ $nome }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    {{/* Full card view */}}
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      {{ range $filteredLabs }}
+        {{ partial "lab-card.html" (dict "lab" . "page" $.Page) }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+{{/* Include JS if using full cards */}}
+{{ if ne $compact "true" }}
+<script src="{{ "js/lab-expand.js" | relURL }}"></script>
+{{ end }}
+{{ else }}
+<p class="text-gray-500 italic">{{ i18n "no_labs_found" }}</p>
+{{ end }}

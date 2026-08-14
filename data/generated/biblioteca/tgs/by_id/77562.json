@@ -1,0 +1,30 @@
+{
+  "num_tg": "77562",
+  "type": "tg",
+  "title": "Date Driven Semi-Analytical Approach to Runway Capacity",
+  "author": "Felipe Teixeira da Silva",
+  "year": "2020",
+  "curso": "Engenharia Aeroespacial",
+  "advisors": [
+    {
+      "name": "Rodrigo Arnaldo Scarpel",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Olivier Chauvet",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Air traffic demand has doubled every 20 years and it's expected to continue growing in the upcoming future despite some drawback such as COVID-19. On the other hand, the current airport infrastructure is almost saturated. Several important hubs, such as London Heathrow, operates near its maximum capacity to handle the ever-increasing demand. Although airport capacity is much broader than runway capacity, the overall capacity of the system is determined by its weakest link. Hence the importance of runway capacity. This work takes a different approach vis-a-vis classical capacity estimation. At present, Airbus does not incorporate airport runway capacity in its Global Market Forecast, which is used for defining Airbus product strategy. To fulfill Airbus objectives, this work provides a reliable data driven model capable of assessing runway airport capacity for any airport of interest with single or parallel runways provided the usual fleet mix is known. This work is largely based on the model devised by Pr. Odoni (MIT, U.S.A.). We enhance his model by considering real data gathered from OAG and Flightradar24 data sets, such as fleet mix per hour, real minimum distance applied. It innovates by applying a bagging method over the fleet mix to address capacity variability and delivery a more precise estimation. Moreover, our solution is scalable, using flight recordings and operational data, the model estimates runway capacity for a large set of airports automatically. To address model's response sensibility to inputs, we use the analytical model to train a random forest regression. As a result, our model gives a more robust estimation of capacity to different fleet mix and a classifies how features are impacting airport's capacity.",
+  "subjects": [
+    "Pistas (de pouso e decolagem)",
+    "Capacidade aeroportuária",
+    "Tráfego aéreo",
+    "Infraestrutura (transporte)",
+    "Transporte"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=77562",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=77562&origem=BDITA"
+}

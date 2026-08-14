@@ -1,0 +1,34 @@
+{
+  "num_tese": "79558",
+  "type": "tese",
+  "title": "3D printed bimaterial honeycomb structures : design proposition, asymptotic homogenization and proprieties testing",
+  "author": "Ariangelo Hauer Dias Filho",
+  "year": "2023",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Rafael Thiago Luiz Ferreira",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Andrew Colin Gleadall",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Additive manufacturing enables fabrication of multi-material advanced structures, allowing tailoring of equivalent mechanical properties for custom applications. Honeycomb structures, recognized for their high strength-to-weight ratios, are employed in various engineering fields. This study is focused on experimental and numerical prediction of mechanical properties of bimaterial honeycombs, as 3D printed with fused filament fabrication (FFF). The materials employed are filaments of PET thermoplastic and PET-CF (PET matrix reinforced by short carbon fibers). Studied experimental specimens consist of hexagonal periodic unit cells, with walls of two distinct materials (thickness-wise), thus a heterogeneous microstructure. The challenges of printing such structures are considered. Fullcontrol G-code generator is employed to ensure consistent 3D printing, a crucial factor for maintaining integrity of the bimaterial distribution. Specimens of distinct volume fractions of composite material are tested in compression, in order to obtain experimental equivalent material properties. Numerical modelling for equivalent properties is based on asymptotic homogenization (AH). It connects microscale features to macroscale mechanical behavior thorugh a unit cell of microstructure. Response surfaces of equivalent properties are proposed for variable composite material usage. Results show that predicted mechanical proprieties are similar between experimental and numerical data. Furthermore, certain honeycomb configurations were able to save reinforced (expensive) material while keeping mechanical properties. This confirms potential of AH in capturing the mechanical behavior of studied bimaterial honeycombs. The design potential of such structures is highlighted, for advanced engineering applications that require specific mechanical properties, using the developed workframe.",
+  "subjects": [
+    "Impressăo tridimensional",
+    "Materiais compósitos",
+    "Termoplásticos reforçados com fibra de carbono",
+    "Propriedades mecânicas",
+    "Engenharia de materiais",
+    "Engenharia mecânica"
+  ],
+  "defense_date": "07/12/2023",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=79558",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=79558&origem=BDITA"
+}

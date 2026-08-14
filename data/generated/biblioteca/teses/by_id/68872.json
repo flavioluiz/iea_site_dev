@@ -1,0 +1,32 @@
+{
+  "num_tese": "68872",
+  "type": "tese",
+  "title": "Método para avaliaçăo da modularidade no processo de desenvolvimento de produtos mecatrônicos",
+  "author": "Bruno Leonardo Giublin",
+  "year": "2015",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Luís Gonzaga Trabasso",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O conceito de projeto modular năo é novo e tem sido usado no contexto do processo de desenvolvimento integrado de produto como uma diretriz DFM (Design for Manufacturing). Por meio dele, podem-se racionalizar recursos, evitar a obsolescęncia precoce do produto e apresentar, para o mercado, uma aparente variedade do produto, mantendo-se um estrito controle sobre a variedade de seus processos de manufatura. Năo obstante, definir a fronteira de um módulo na estrutura de um produto năo é uma tarefa trivial. Acerca de tal cenário, este trabalho propőe um método de análise do grau de modularidade de produtos mecatrônicos. Por meio da compilaçăo dos requisitos de projeto, em matrizes, avaliaçăo das interaçőes entre os componentes e a determinaçăo dos pesos dessas interaçőes, a modularidade do produto é avaliada e o resultado pode ser usado na definiçăo da estrutura do produto. Uma célula robótica - desenvolvida no ITA/CCM - foi escolhida como bancada de testes para aplicaçăo e análise do método, particularmente um efetuador (end effector) robótico. O método é constituído por atividades as quais facilitam sua implementaçăo e entendimento, assim, a cada atividade executada, os resultados preliminares indicam as melhores opçőes de projeto do ponto de vista de modularidade. A aplicaçăo do método proposto resultou em um projeto modular adequado, traduzido por um efetuador robótico inovador e reconfigurável. A estrutura modular também foi indutora de um processo de fabricaçăo do efetuador mais ágil e com uma quantidade irrelevante de retrabalho.",
+  "subjects": [
+    "Equipamentos de controle",
+    "Modelagem (processos)",
+    "Desenvolvimento de produtos",
+    "Manufaturas",
+    "Fabricaçăo",
+    "Robótica",
+    "Mecatrônica",
+    "Administraçăo de produçăo",
+    "Administraçăo"
+  ],
+  "defense_date": "24/08/2015",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=68872",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=68872&origem=BDITA"
+}

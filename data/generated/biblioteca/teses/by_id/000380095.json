@@ -1,0 +1,31 @@
+{
+  "num_tese": "000380095",
+  "type": "tese",
+  "title": "Interferęncia das paredes de um túnel de vento no escoamento sobre modelos tridimensionais utilizando o método dos painéis.",
+  "author": "Breno Moura Castro",
+  "year": "1997",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Roberto da Mota Girardi",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "O presente trabalho estabelece uma nova metodologia para correçăo da interferęncia das paredes de um túnel de vento sobre modelos tridimensionais, utilizando o método dos painéis. O problema de se corrigir os resultados obtidos em túneis aerodinâmicos tem preocupado os operadores desde o início desta atividade, após o aparecimento dos primeiros túneis de vento. As teorias atuais baseiam-se no método das singularidades e fornecem bons resultados no caso de corpos esbeltos simples (teoria do perfil fino), mas, para o caso de configuraçőes mais complexas, com espessura relativa maior, estes resultados obtidos em túnel aerodinâmico é a interferęncia causada pelo suporte do modelo (mastro). Para avaliar esta interferęncia devem ser feitos ensaios adicionais, acrescentando mastros imagem e deslocando a posiçăo dos mastros, o que acarreta em custos mais altos para se obterem as informaçőes necessárias ao desenvolvimento do projeto associado ao modelo que está sendo ensaiado. No presente trabalho foi desenvolvido um código computacional, baseado no método dos painéis, para uma geometria complexa (por exemplo, um aviăo completo), instalada no interior de um túnel de vento e, ainda, considerando-se a presença de um mastro. A idéia é rodar o código levando-se em conta todos os elementos mencionados acima e, em seguida, rodar novamente o código considerando-se somente a geometria complexa. Com os dois conjuntos de resultados numéricos pode-se avaliar a interferęncia das paredes do túnel e do mastro. A grande vantagem deste método com relaçăo ao aplicado atualmente é a possibilidade de se promover a correçăo dos resultados em cada ponto da superfície do modelo.",
+  "subjects": [
+    "Túneis de vento",
+    "Escoamento",
+    "Interferęncia aerodinâmica",
+    "Aerodinâmica",
+    "Análise numérica",
+    "Método dos painéis (dinâmica dos fluídos)",
+    "Física",
+    "Engenharia aeronáutica"
+  ],
+  "defense_date": "1997",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000380095",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000380095&origem=BDITA"
+}

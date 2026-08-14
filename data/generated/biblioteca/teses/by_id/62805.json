@@ -1,0 +1,34 @@
+{
+  "num_tese": "62805",
+  "type": "tese",
+  "title": "Proposta de melhoria no processo de alocaçăo de serviços submarinos a navios baseada na estruturaçăo de problemas : um estudo de caso na Petrobras",
+  "author": "Paloma Ribeiro dos Santos",
+  "year": "2012",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Mischel Carmen Neyra Belderrain",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho aborda o tema de alocaçăo de tarefas através de um estudo de caso na Petrobras, onde os recursos săo navios, e as tarefas săo serviços submarinos. O menor tempo de atendimento aos serviços é o fator determinante para a alocaçăo dos serviços aos navios. O problema de alocaçăo de tarefas apesar de ser um problema clássico da Pesquisa Operacional pode, em alguns casos, năo se apresentar totalmente estruturado para os tomadores de decisăo. Nestes casos é recomendável a estruturaçăo do problema antes da aplicaçăo de um modelo matemático. Este trabalho tem como objetivo propor uma metodologia que possibilite a escolha de um navio para executar cada serviço no menor tempo possível, considerando os requisitos dos serviços e situaçăo dos navios. A metodologia proposta é realizada em tręs fases. Na primeira fase é realizada a estruturaçăo do problema através de mapas cognitivos. A segunda fase corresponde ao tratamento dos dados adquiridos na primeira fase. A última fase consiste na proposta de soluçăo para o problema. Foi desenvolvido um programa computacional para auxiliar na escolha dos navios que executarăo cada serviço. A estruturaçăo do problema, através do mapa cognitivo, tornou possível o levantamento das informaçőes relevantes consideradas na fase de soluçăo do problema. Os resultados obtidos com o programa computacional permitem observar uma melhora na alocaçăo dos navios, ao conseguir um tempo menor do que o tempo que é atualmente obtido com o processo utilizado na empresa. O programa traz mais eficięncia de tempo em que os serviços săo executados, e consequentemente, reduçăo no custo da logística dos navios.",
+  "subjects": [
+    "Embarcaçőes",
+    "Engenharia subaquática",
+    "Pesquisa operacional",
+    "Soluçăo de problemas",
+    "Esquemas conceituais",
+    "Metodologia",
+    "Tomada de decisőes",
+    "Planejamento de tarefas (robótica)",
+    "Reduçăo de custos",
+    "Estudo de casos",
+    "Engenharia de produçăo"
+  ],
+  "defense_date": "13/04/2012",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=62805",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=62805&origem=BDITA"
+}

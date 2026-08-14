@@ -1,0 +1,31 @@
+{
+  "num_tese": "000362241",
+  "type": "tese",
+  "title": "Modelo transiente do circuito aerodinâmico de túnel de vento transônico",
+  "author": "Joăo Batista Pessoa Falcăo Filho",
+  "year": "1996",
+  "course": "Mestrado Acadęmico",
+  "area": "",
+  "program": "Engenharia Aeronáutica e Mecânica",
+  "advisors": [
+    {
+      "name": "Marcos Aurélio Ortega",
+      "professor_slug": null
+    },
+    {
+      "name": "Luiz Carlos Sandoval Góes",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Este trabalho descreve um modelo matemático, baseado na técnica de parâmetros concentrados, para resolver as equaçőes básicas da continuidade, da energia e da quantidade de movimento, e sua aplicaçăo no circuito aerodinâmico de um túnel de vento transônico, movido por um compressor principal e com eventual uso adicional de injeçăo, em regime transiente. As variáveis do sistema de equaçőes săo a densidade, a energia interna e o fluxo de massa. O modelo é construído de maneira que permite implementar os principais sistemas de controle da pressăo de estagnaçăo, temperatura de estagnaçăo e número de Mach relativos ŕs condiçőes na seçăo de testes e o sistema de injeçăo. Esses sistemas săo discretizados a partir do método de diferenças finitas para acoplamento com o modelo aplicado ao circuito aerodinâmico do túnel. O modelo é utilizado na investigaçăo dos fenômenos transientes, como comportamento do túnel ŕs solicitaçőes dos controles e sua estabilidade de operaçăo. O modelo foi testado para o túnel AWT (“Altitud Wind Tunnel” da NASA, Lewis), com o objetivo de validaçăo do modelo desenvolvido no presente trabalho. Finalmente, foi feita análise do túnel transônico do CTA (TTCTA) com seus principais sistemas de controle implementados, inclusive o uso da injeçăo.",
+  "subjects": [
+    "Aerodinâmica",
+    "Túneis de vento transônicos",
+    "Túneis de vento",
+    "Física"
+  ],
+  "defense_date": "01/08/1996",
+  "detail_url": "http://www.bdita.bibl.ita.br/tesesdigitais/lista_resumo.php?num_tese=000362241",
+  "pdf_url": "http://www.bdita.bibl.ita.br/tesesdigitais/verifica_session.php?num_tese=000362241&origem=BDITA"
+}

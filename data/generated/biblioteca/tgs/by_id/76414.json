@@ -1,0 +1,30 @@
+{
+  "num_tg": "76414",
+  "type": "tg",
+  "title": "Caracterizaçăo das velocidades do KC-130H para simulaçăo do abastecimento em voo de aeronaves",
+  "author": "Philippe de Carvalho Martins",
+  "year": "2019",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "André Fernando de Castro da Silva",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [
+    {
+      "name": "Luís Fernando Gouveia de Moraes",
+      "professor_slug": null
+    }
+  ],
+  "abstract": "Este trabalho apresenta um método de se determinar as velocidades de upwash e downwash na esteira de uma aeronave durante o abastecimento de outra em voo. Basicamente, săo utilizados os conceitos de voo em formaçăo, adicionando-se aos fenômenos pertinentes a esse tipo de voo os efeitos provocados pelos vórtices emitidos pelas hélices de um motor turboélice. Tal abordagem tem caráter incipiente e visa prover meios computacionais de se prever o comportamento de aeronaves na esteira de aviőes turboélice com missăo de abastecimento. Ao longo de todo este trabalho, desenvolveu-se entăo, para este fim, uma rotina em MATLAB® correspondente ŕ implementaçăo do método aqui trabalhado: VFM ou Vortex Filament Method. Tal método consiste da geraçăo de uma geometria inicial da malha de filamentos tanto para a esteira da asa quanto para a esteira do motor. Os filamentos de cada esteira possuem circulaçőes ditadas pela teoria da linha sustentadora de Prandtl (PLLM ou Prandtl Lifting Line Model) para os filamentos da esteira da asa, (ANDERSON, 2010) ou (SCHLICHTING; TRUCKENBRODT, 1979), e pela teoria de hélices (ou propellers) de Theodorsen para os filamentos da esteira dos motores Theodorsen. Após a geraçăo da malha de filamentos de vórtices com suas respectivas circulaçőes, a posiçăo final dos filamentos da esteira é determinada após um processo iterativo. A metodologia é entăo validada utilizando-se a aeronave Lancair Propjet, cujos resultados também estăo apresentados em (MCKENZIE, 2017) e, em seguida, aplicada para determinaçăo das velocidades de upwash/downwash na esteira do Hércules. Nessa parte, faz-se uma análise de duas diferentes posiçőes de estudo do helicóptero Caracal (EC 725) em ambos os lados da asa do cargueiro. Segundo as velocidades de upwash/downwash observadas em cada posiçăo, foi possível, por exemplo, determinar qual o melhor lado para se efetuar o abastecimento segundo o arrasto gerado na aeronave abastecida. Claramente, a análise feita segundo essas diferentes posiçőes do Caracal servem como exemplos ilustrativos da aplicaçăo da rotina, permitindo que os engenheiros de ensaios em voo da campanha văo para os ensaios com uma previsăo do que se pode esperar. Além disso, faz-se uma breve análise do comportamento do vetor velocidade em cada posiçăo de abastecimento aqui estudada. Conclui-se nessa parte que a velocidade varia muito pouco ao longo do tempo e que o valor médio assumido como constante no tempo para cada componente representa bem a situaçăo de voo a ser simulada, economizando muito os recursos computacionais durante uma simulaçăo, objetivo procurado desde o início da elaboraçăo deste trabalho. Na seçăo de conclusăo, săo sugeridas melhoras no método implementado como um todo, bem como aspectos que podem orientar trabalhos futuros.",
+  "subjects": [
+    "Reabastecimento em voo",
+    "Esteiras",
+    "Vórtices",
+    "Filamentos",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=76414",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=76414&origem=BDITA"
+}

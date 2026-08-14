@@ -1,0 +1,35 @@
+{
+  "num_tg": "61658",
+  "type": "tg",
+  "title": "Software para otimizaçăo de rota em funçăo da distribuiçăo espacial de ventos",
+  "author": "Carlos Eduardo de Aguiar Nogueira Gomes",
+  "year": "2011",
+  "curso": "Engenharia Aeronáutica",
+  "advisors": [
+    {
+      "name": "Flávio Luiz Cardoso Ribeiro",
+      "professor_slug": "flavio-luiz-c-ribeiro"
+    },
+    {
+      "name": "Mailema Celestino dos Santos",
+      "professor_slug": null
+    },
+    {
+      "name": "Roberval Antonio Mesquiari",
+      "professor_slug": null
+    }
+  ],
+  "co_advisors": [],
+  "abstract": "Atualmente existe um grande esforço de fabricantes e companhias aéreas em reduzir os custos operacionais das aeronaves comerciais. Visando esse objetivo, săo utilizados métodos de otimizaçăo de perfil de voo, determinando altitudes e velocidades ótimas baseadas em um caminho de cruzeiro pré-determinado. O objetivo deste trabalho é desenvolver um método de determinaçăo de rota ótima levando em conta a distribuiçăo do vento no espaço, de forma a encontrar um caminho ótimo de voo para uma determinada altitude e determinada velocidade. O resultado desse trabalho é um software, desenvolvido na linguagem de programaçăo FORTRAN 77, que determina o menor caminho (em termos de air distance) entre dois pontos determinados e também a air distance do caminho direto entre esses dois pontos, baseando-se em um arquivo de entrada contendo os dados de vento em diversos locais e altitudes. Com os resultados obtidos pelo software, é possível analisar a influęncia dos ventos e se é importante que seja levada em conta a distribuiçăo dos ventos na determinaçăo de uma rota ao se realizarem os planos de voo.",
+  "subjects": [
+    "Rotas aéreas",
+    "Otimizaçăo",
+    "Análise de custos",
+    "Desempenho de aeronaves",
+    "Desenvolvimento de software",
+    "Computaçăo",
+    "Engenharia aeronáutica"
+  ],
+  "detail_url": "http://www.bdita.bibl.ita.br/TGsDigitais/lista_resumo.php?num_tg=61658",
+  "pdf_url": "http://www.bdita.bibl.ita.br/TGsDigitais/verifica_session.php?num_tg=61658&origem=BDITA"
+}
