@@ -80,6 +80,20 @@
         <!-- Name -->
         <h1 class="text-4xl font-bold text-gray-900 mb-2">{{ $professorData.nome }}</h1>
 
+        {{ if or $professorData.categoria $professorData.posto $professorData.cargos }}
+          <div class="mb-4 text-gray-600">
+            {{ if or $professorData.categoria $professorData.posto }}
+              <p class="font-medium">
+                {{ with $professorData.posto }}{{ . }}{{ if $professorData.categoria }} · {{ end }}{{ end }}
+                {{ with $professorData.categoria }}{{ . }}{{ end }}
+              </p>
+            {{ end }}
+            {{ with $professorData.cargos }}
+              <p class="text-sm mt-1">{{ delimit . " · " }}</p>
+            {{ end }}
+          </div>
+        {{ end }}
+
         <!-- Departamento Badge -->
         {{ if $deptData }}
           <div class="mb-4">
@@ -153,6 +167,16 @@
 
         <!-- Links Row -->
         <div class="flex flex-wrap gap-3 mb-6">
+          {{ with $professorData.email }}
+            <a href="mailto:{{ . }}"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 rounded-lg text-sm font-medium text-slate-700 transition-colors">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8V6a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+              </svg>
+              E-mail
+            </a>
+          {{ end }}
+
           {{ with $professorData.links.lattes }}
             <a href="{{ . }}"
                target="_blank"
@@ -162,6 +186,15 @@
                 <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
               </svg>
               Lattes
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.orcid }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-lime-100 hover:bg-lime-200 rounded-lg text-sm font-medium text-lime-800 transition-colors">
+              ORCID
             </a>
           {{ end }}
 
@@ -198,6 +231,15 @@
                 <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/>
               </svg>
               ResearchGate
+            </a>
+          {{ end }}
+
+          {{ with $professorData.links.web_of_science }}
+            <a href="{{ . }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="inline-flex items-center gap-2 px-4 py-2 bg-teal-100 hover:bg-teal-200 rounded-lg text-sm font-medium text-teal-800 transition-colors">
+              Web of Science
             </a>
           {{ end }}
 
@@ -267,6 +309,53 @@
       </div>
     </div>
   </div>
+
+  {{ if or $professorData.formacao_academica $professorData.premios_titulos $professorData.idiomas }}
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+      {{ with $professorData.formacao_academica }}
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">{{ if eq $.Language.Lang "pt" }}Formação acadêmica{{ else }}Academic background{{ end }}</h2>
+          <ul class="space-y-4">
+            {{ range . }}
+              <li class="border-l-4 pl-3" style="border-color: {{ $deptColor }};">
+                <p class="font-semibold text-gray-800">{{ .tipo }}</p>
+                {{ with .instituicao }}<p class="text-sm text-gray-600">{{ . }}</p>{{ end }}
+                {{ with .titulo }}<p class="text-sm text-gray-600 mt-1">{{ . }}</p>{{ end }}
+                {{ if or .periodo .ano_obtencao }}
+                  <p class="text-xs text-gray-500 mt-1">{{ with .periodo }}{{ . }}{{ end }}{{ if and .periodo .ano_obtencao }} · {{ end }}{{ with .ano_obtencao }}{{ . }}{{ end }}</p>
+                {{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+
+      {{ with $professorData.premios_titulos }}
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">{{ if eq $.Language.Lang "pt" }}Prêmios e títulos{{ else }}Awards and honors{{ end }}</h2>
+          <ul class="space-y-3">
+            {{ range . }}
+              <li class="text-sm text-gray-700">{{ with .ano }}<span class="font-semibold">{{ . }} — </span>{{ end }}{{ .titulo }}</li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+
+      {{ with $professorData.idiomas }}
+        <section class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-xl font-bold text-gray-900 mb-4">{{ if eq $.Language.Lang "pt" }}Idiomas{{ else }}Languages{{ end }}</h2>
+          <ul class="space-y-3">
+            {{ range . }}
+              <li>
+                <p class="font-semibold text-gray-800">{{ .idioma }}</p>
+                {{ with .proficiencia }}<p class="text-sm text-gray-600">{{ . }}</p>{{ end }}
+              </li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+    </div>
+  {{ end }}
 
   <!-- Publications Section -->
   {{ if $pubs }}

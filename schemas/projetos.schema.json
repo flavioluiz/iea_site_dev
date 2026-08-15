@@ -17,7 +17,12 @@
           "titulo_en": { "type": "string" },
           "departamento": { "enum": ["", "iea-a", "iea-b", "iea-c", "iea-e", "iea-p", "iea-s"] },
           "financiador": { "type": "string" },
-          "valor": { "type": "string" },
+          "valor": {
+            "anyOf": [
+              { "const": "" },
+              { "type": "number", "minimum": 0 }
+            ]
+          },
           "periodo": { "type": "string" },
           "status": { "enum": ["em_andamento", "concluido", "suspenso"] },
           "tema": { "enum": ["", "aeronautica", "espacial", "ambos"] },

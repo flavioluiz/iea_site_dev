@@ -27,6 +27,7 @@
       {{ if $tesesMap }}{{ $nteses = len (index $tesesMap $l.id | default slice) }}{{ end }}
 
       <a href="{{ printf "/linhas/%s/" $l.id | relLangURL }}"
+         data-research-line-id="{{ $l.id }}"
          class="group block bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 overflow-hidden border border-gray-100 hover:border-gray-200">
         <div class="h-2" style="background-color: {{ $l.cor }};"></div>
         <div class="p-6">
