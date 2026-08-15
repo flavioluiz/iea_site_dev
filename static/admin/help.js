@@ -111,6 +111,19 @@
       return;
     }
 
+    if (/^#\/workflow\/?$/.test(window.location.hash)) {
+      const strong = document.createElement("strong");
+      const mapLink = document.createElement("a");
+      strong.textContent = "Antes de publicar";
+      mapLink.href = "./mapa-visual.html";
+      mapLink.textContent = "Ver a situação no mapa do site";
+      mapLink.style.cssText = "display:inline-block;margin-top:8px;color:#173b73;font-weight:750";
+      contextualNotice.append(strong, document.createElement("br"));
+      contextualNotice.append("Uma proposta em Pronto ainda pode estar sincronizando ou executando testes. Trocar de estado não corrige esse processo; aguarde o indicador “Pode publicar” no mapa.", document.createElement("br"), mapLink);
+      contextualNotice.style.display = "block";
+      return;
+    }
+
     const collectionMatch = window.location.hash.match(/^#\/collections\/(pessoal|laboratorios)\/?$/);
     if (collectionMatch) {
       const isPeople = collectionMatch[1] === "pessoal";
@@ -147,7 +160,7 @@
         <dt><strong>Publicar</strong></dt><dd style="margin:0">Disponível a mantenedores. Mescla a proposta e inicia a atualização do site.</dd>
       </dl>
       <div style="margin-top:18px;padding:12px 14px;background:#fff7df;border-left:4px solid #d69b16;border-radius:6px">
-        Se <strong>Publicar</strong> der erro, aguarde os testes e a prévia terminarem e tente novamente. Trocar entre Rascunho e Pronto não corrige a proposta.
+        Se <strong>Publicar</strong> der erro, abra o Mapa do site. Use Publicar apenas quando aparecer <strong>Pode publicar</strong>. Trocar entre Rascunho, Revisão e Pronto não atualiza a proposta nem corrige testes.
       </div>
       <p style="margin:18px 0 0"><strong>Editor externo:</strong> usa Rascunho e Em revisão; um mantenedor publica. <strong>Mantenedor:</strong> também vê Pronto e Publicar.</p>
       <p style="margin:14px 0 0"><a href="./#/workflow" style="display:inline-block;padding:9px 12px;border-radius:8px;background:#176b46;color:white;font-weight:750;text-decoration:none">Abrir Rascunhos e revisão</a></p>

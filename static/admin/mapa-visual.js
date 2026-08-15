@@ -39,6 +39,15 @@
     "decap-cms/pending_review": { label: "Em revisão", className: "review" },
     "decap-cms/pending_publish": { label: "Pronto para publicar", className: "ready" }
   };
+  const requiredChecks = ["validate-data", "security", "hugo-build", "links", "content-diff"];
+  const readinessStatuses = {
+    behind: { label: "Atualizando com o site", className: "checking", detail: "A proposta ficou atrás de uma publicação mais recente. A atualização automática vai sincronizá-la e repetir os testes." },
+    checking: { label: "Testes em andamento", className: "checking", detail: "Aguarde os cinco testes terminarem antes de usar Publicar." },
+    failed: { label: "Teste com erro", className: "failed", detail: "Abra Rascunhos e revisão para ver qual teste precisa de correção." },
+    conflict: { label: "Conflito precisa de ajuda", className: "failed", detail: "Duas alterações atingiram o mesmo conteúdo; um mantenedor técnico precisa conciliá-las." },
+    ready: { label: "Pode publicar", className: "publishable", detail: "A proposta está sincronizada e todos os testes obrigatórios passaram." },
+    unknown: { label: "Situação sendo consultada", className: "checking", detail: "O GitHub ainda não informou se esta proposta está pronta. Aguarde um pouco e recarregue." }
+  };
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, character => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
@@ -70,7 +79,14 @@
       const detail = entry.partial
         ? "Os detalhes não puderam ser carregados agora; a proposta continua preservada no fluxo."
         : title && title !== menuLabel ? `${title} · Dentro de: ${location}` : `Dentro de: ${location}`;
-      return `<article class="pending-card"><div class="badges"><span class="badge workflow-badge ${statusMeta.className}">${statusMeta.label}</span><span class="badge origin-markdown">📝 Ainda não publicada</span></div><h3>${escapeHtml(menuLabel)}</h3><p>${escapeHtml(detail)}</p><div class="actions"><a class="button primary small" href="./#/workflow">Abrir em Rascunhos e revisão</a></div></article>`;
+      const readiness = entry.status === "decap-cms/pending_publish"
+        ? (readinessStatuses[entry.readiness] || readinessStatuses.unknown)
+        : null;
+      const readinessBadge = readiness
+        ? `<span class="badge readiness-badge ${readiness.className}">${readiness.label}</span>`
+        : "";
+      const readinessDetail = readiness ? `<p class="readiness-detail">${escapeHtml(readiness.detail)}</p>` : "";
+      return `<article class="pending-card"><div class="badges"><span class="badge workflow-badge ${statusMeta.className}">${statusMeta.label}</span>${readinessBadge}<span class="badge origin-markdown">📝 Ainda não publicada</span></div><h3>${escapeHtml(menuLabel)}</h3><p>${escapeHtml(detail)}</p>${readinessDetail}<div class="actions"><a class="button primary small" href="./#/workflow">Abrir em Rascunhos e revisão</a></div></article>`;
     }).join("");
   };
 
@@ -78,6 +94,28 @@
     const compact = String(content || "").replace(/\n/g, "");
     const bytes = Uint8Array.from(window.atob(compact), character => character.charCodeAt(0));
     return new TextDecoder().decode(bytes);
+  };
+
+  const loadReadiness = async pullRequest => {
+    const detailUrl = `https://api.github.com/repos/flavioluiz/iea_site_dev/pulls/${encodeURIComponent(pullRequest.number)}`;
+    const checksUrl = `https://api.github.com/repos/flavioluiz/iea_site_dev/commits/${encodeURIComponent(pullRequest.head.sha)}/check-runs?per_page=100`;
+    try {
+      const [detailResponse, checksResponse] = await Promise.all([
+        fetch(detailUrl, { referrerPolicy: "no-referrer" }),
+        fetch(checksUrl, { referrerPolicy: "no-referrer", headers: { Accept: "application/vnd.github+json" } })
+      ]);
+      if (!detailResponse.ok || !checksResponse.ok) throw new Error("GitHub indisponível");
+      const [detail, checksPayload] = await Promise.all([detailResponse.json(), checksResponse.json()]);
+      if (detail.mergeable_state === "behind") return "behind";
+      if (detail.mergeable_state === "dirty") return "conflict";
+      const checks = new Map((checksPayload.check_runs || []).map(check => [check.name, check]));
+      const required = requiredChecks.map(name => checks.get(name));
+      if (required.some(check => check && check.status === "completed" && !["success", "neutral", "skipped"].includes(check.conclusion))) return "failed";
+      if (required.some(check => !check || check.status !== "completed")) return "checking";
+      return "ready";
+    } catch (error) {
+      return "unknown";
+    }
   };
 
   const loadPendingEntry = async pullRequest => {
@@ -94,17 +132,21 @@
     }
     const contentUrl = `https://api.github.com/repos/${repositoryParts.map(encodeURIComponent).join("/")}/contents/data/paginas/${encodeURIComponent(identifier)}.json?ref=${encodeURIComponent(sha)}`;
     const statusLabel = pullRequest.labels.find(label => workflowStatuses[label.name]);
+    const readinessPromise = statusLabel.name === "decap-cms/pending_publish"
+      ? loadReadiness(pullRequest)
+      : Promise.resolve(null);
     try {
       const response = await fetch(contentUrl, { referrerPolicy: "no-referrer" });
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const payload = await response.json();
       const data = JSON.parse(decodeContent(payload.content));
-      return { id: identifier, data, status: statusLabel.name, partial: false };
+      return { id: identifier, data, status: statusLabel.name, readiness: await readinessPromise, partial: false };
     } catch (error) {
       return {
         id: identifier,
         data: { rotulo: { pt: identifier, en: identifier }, pagina: {}, parent: "root" },
         status: statusLabel.name,
+        readiness: await readinessPromise,
         partial: true
       };
     }

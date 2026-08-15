@@ -80,6 +80,9 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn('href="./index.html">← Voltar ao editor', page)
         self.assertIn("https://api.github.com/repos/flavioluiz/iea_site_dev/pulls", script)
         self.assertIn("decap-cms/pending_publish", script)
+        self.assertIn("check-runs?per_page=100", script)
+        self.assertIn("Pode publicar", script)
+        self.assertIn("Atualizando com o site", script)
         self.assertIn("#/workflow", page)
         self.assertIn("Rascunhos e revisão", help_script)
         self.assertIn("Abrir tudo", page)
@@ -124,6 +127,7 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("Somente testar", page)
         self.assertIn("actions/workflows/update-library.yml/runs", script)
         self.assertIn("Nada foi enviado ao site", script)
+        self.assertIn("GitHub bloqueou a abertura da proposta", script)
 
 
 if __name__ == "__main__":

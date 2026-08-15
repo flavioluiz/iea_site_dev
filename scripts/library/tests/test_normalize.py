@@ -100,6 +100,79 @@ class LibraryNormalizeTests(unittest.TestCase):
             self.assertFalse(list(output.glob("*_raw.json")))
             self.assertTrue((output / "catalogo.json").is_file())
 
+    def test_routine_update_adds_new_entries_without_rewriting_existing_records(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            previous = root / "previous"
+            output = root / "candidate"
+            input_dir = root / "input"
+            input_dir.mkdir()
+            write_json(previous / "manifest.json", {
+                "counts": {
+                    "teses_dissertacoes": 1, "trabalhos_graduacao": 1,
+                    "teses_dissertacoes_iea": 0, "trabalhos_graduacao_iea": 0,
+                },
+                "records": 2,
+            })
+            old_thesis = {
+                "num_tese": "1", "type": "tese", "title": "Grafia antiga",
+                "author": "Pessoa", "year": "2025", "course": "Doutorado",
+                "advisors": [{"name": "Docente externo", "professor_slug": None}],
+                "co_advisors": [],
+            }
+            old_tg = {
+                "num_tg": "2", "type": "tg", "title": "TG preservado",
+                "author": "Pessoa", "year": "2025", "curso": "Engenharia Aeronáutica",
+                "advisors": [{"name": "Docente externo", "professor_slug": None}],
+                "co_advisors": [],
+            }
+            write_json(previous / "teses" / "by_id" / "1.json", old_thesis)
+            write_json(previous / "tgs" / "by_id" / "2.json", old_tg)
+            write_json(previous / "teses" / "lista.json", [])
+            write_json(previous / "teses" / "index.json", [])
+            write_json(previous / "teses" / "by_professor.json", {})
+            write_json(previous / "teses" / "statistics.json", {
+                "total": 0, "mestrado": 0, "doutorado": 0, "by_year": {},
+                "generated_at": "2025-01-01T00:00:00Z",
+            })
+            write_json(previous / "tgs" / "lista.json", [{
+                "id": "2", "t": "TG preservado", "a": "Pessoa", "y": "2025",
+                "cu": "Engenharia Aeronáutica", "ad": ["Docente externo"], "ap": [], "iea": False,
+            }])
+            write_json(previous / "tgs" / "index.json", [])
+            write_json(previous / "tgs" / "by_professor.json", {})
+            write_json(previous / "tgs" / "statistics.json", {
+                "total": 1, "by_curso": {"Engenharia Aeronáutica": 1}, "by_year": {"2025": 1},
+                "generated_at": "2025-01-01T00:00:00Z",
+            })
+            old_thesis_bytes = (previous / "teses" / "by_id" / "1.json").read_bytes()
+            old_tg_bytes = (previous / "tgs" / "by_id" / "2.json").read_bytes()
+            write_json(input_dir / "teses_raw.json", {"teses": [
+                {**old_thesis, "title": "Grafia corrigida", "advisors": ["Docente externo"]},
+                {
+                    "num_tese": "3", "title": "Tese nova", "author": "Nova pessoa", "year": "2026",
+                    "course": "Mestrado Acadêmico", "advisors": ["Christopher Shneider Cerqueira"],
+                    "co_advisors": [],
+                },
+            ]})
+            write_json(input_dir / "tgs_raw.json", {"tgs": [
+                {**old_tg, "title": "TG corrigido na fonte", "advisors": ["Docente externo"]},
+            ]})
+            report = root / "report.md"
+            argv = [
+                "normalize.py", "--input", str(input_dir), "--output", str(output),
+                "--previous", str(previous), "--report", str(report),
+            ]
+            with patch.object(sys, "argv", argv):
+                self.assertEqual(MODULE.main(), 0)
+            self.assertEqual((output / "teses" / "by_id" / "1.json").read_bytes(), old_thesis_bytes)
+            self.assertEqual((output / "tgs" / "by_id" / "2.json").read_bytes(), old_tg_bytes)
+            self.assertEqual(MODULE.load(output / "teses" / "by_id" / "3.json")["title"], "Tese nova")
+            self.assertEqual(MODULE.load(output / "manifest.json")["counts"]["teses_dissertacoes"], 2)
+            self.assertEqual(MODULE.load(output / "manifest.json")["counts"]["teses_dissertacoes_iea"], 1)
+            self.assertIn("Teses/dissertações: +1 / ~1 / -0", report.read_text(encoding="utf-8"))
+            self.assertIn("Alterações de metadados existentes preservadas para revisão separada: 2", report.read_text(encoding="utf-8"))
+
     def test_refuses_to_write_over_last_good_tree(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
