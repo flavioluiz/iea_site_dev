@@ -29,6 +29,21 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("window.self !== window.top", guard)
         self.assertIn("window.stop()", guard)
 
+    def test_intro_is_removed_when_decap_is_ready(self) -> None:
+        index = (ROOT / "static/admin/index.html").read_text(encoding="utf-8")
+        shell = (ROOT / "static/admin/admin-shell.js").read_text(encoding="utf-8")
+
+        self.assertIn('id="cms-loading"', index)
+        self.assertIn('src="./admin-shell.js"', index)
+        self.assertIn('getElementById("nc-root")', shell)
+        self.assertIn("loading.hidden = true", shell)
+        self.assertIn('classList.add("cms-ready")', shell)
+
+    def test_admin_does_not_offer_raw_json_editing(self) -> None:
+        help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+        self.assertNotIn("Editar JSON completo", help_script)
+        self.assertNotIn("/edit/main/data/", help_script)
+
 
 if __name__ == "__main__":
     unittest.main()

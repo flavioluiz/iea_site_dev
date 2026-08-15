@@ -80,6 +80,8 @@ jobs:
       - run: bash scripts/ci/install_hugo.sh
       - name: Build fixed Hugo version
         run: hugo --gc --minify --printPathWarnings --environment production --baseURL "${SITE_BASE_URL}" --config config/_default/config.yaml,config/production/config.yaml
+      - name: Check that CMS records reached the generated pages
+        run: python3 scripts/check_cms_rendering.py --public public
       - name: Store safe static preview
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:

@@ -28,24 +28,28 @@ collections:
   - name: paginas
     label: "1. Páginas do site"
     description: "Textos institucionais. Escolha PT ou EN, altere somente o necessário e confira a prévia antes de salvar."
+    publish: false
     editor:
       preview: true
     files:
       - label: "Página inicial — Português"
         name: inicio_pt
         file: content/_index.pt.md
-        fields: &page_fields
-          - { label: "Título", name: title, widget: string, hint: "Título exibido no topo da página." }
-          - { label: "Resumo para buscadores", name: description, widget: text, hint: "Uma frase curta que descreve a página." }
-          - { label: "Texto da página", name: body, widget: markdown, hint: "Use a barra de ferramentas para títulos, listas e links. Não cole HTML ou scripts." }
+        fields: &home_page_fields
+          - { label: "Título principal", name: title, widget: string, hint: "Aparece no grande destaque no topo da página inicial." }
+          - { label: "Texto de destaque", name: description, widget: text, hint: "Aparece logo abaixo do título principal e também resume a página para buscadores." }
+          - { label: "Bloco de notícias e avisos", name: body, widget: markdown, hint: "Aparece abaixo do carrossel. Use este campo para notícias, avisos, listas e links; não cole HTML ou scripts." }
       - label: "Home page — English"
         name: inicio_en
         file: content/_index.en.md
-        fields: *page_fields
+        fields: *home_page_fields
       - label: "Sobre — Português"
         name: sobre_pt
         file: content/sobre/_index.md
-        fields: *page_fields
+        fields: &page_fields
+          - { label: "Título", name: title, widget: string, hint: "Título exibido no topo da página." }
+          - { label: "Resumo para buscadores", name: description, widget: text, hint: "Uma frase curta usada por buscadores e ao compartilhar o link." }
+          - { label: "Texto da página", name: body, widget: markdown, hint: "Aparece antes das seções automáticas desta página. Use a barra de ferramentas para títulos, listas e links; não cole HTML ou scripts." }
       - label: "About — English"
         name: sobre_en
         file: content/sobre/_index.en.md
@@ -118,6 +122,7 @@ collections:
   - name: pessoal
     label: "2. Pessoas e professores"
     description: "Cadastro completo da equipe. Abra um nome, altere os campos e envie para revisão. Desative em vez de excluir quem saiu."
+    publish: false
     format: json
     files:
       - label: "Cadastro de pessoas"
@@ -187,12 +192,12 @@ collections:
                   - { label: "ResearchGate", name: researchgate, widget: string, required: false }
                   - { label: "Web of Science", name: web_of_science, widget: string, required: false }
                   - { label: "Site pessoal", name: site, widget: string, required: false }
-              - label: "IDs de autor Scopus"
+              - label: "IDs de autor Scopus — avançado"
                 name: scopus_author_ids
                 widget: list
                 required: false
                 collapsed: true
-                hint: "Somente números. Não copie o ID de outra pessoa."
+                hint: "Controla a atualização automática de publicações e métricas; não aparece como texto no perfil. Somente números. Não copie o ID de outra pessoa."
                 field: { label: "ID", name: id, widget: string, pattern: ["^[0-9]+$", "O ID Scopus contém somente números."] }
               - label: "Linhas de pesquisa"
                 name: linhas_pesquisa
@@ -237,17 +242,19 @@ collections:
                   - { label: "Idioma", name: idioma, widget: string }
                   - { label: "Proficiência", name: proficiencia, widget: string }
               - { label: "Bolsa CNPq", name: bolsista_cnpq, widget: string, required: false }
-              - { label: "Fonte usada para conferir", name: fonte, widget: string, hint: "Informe uma página ou documento institucional verificável." }
+              - { label: "Fonte usada para conferir — controle interno", name: fonte, widget: string, hint: "Não aparece no site. Informe uma página ou documento institucional verificável para a revisão." }
               - label: "Data da conferência"
                 name: verificado_em
                 widget: datetime
                 date_format: "DD/MM/YYYY"
                 time_format: false
                 format: "YYYY-MM-DD"
+                hint: "Controle interno da revisão; não aparece no site."
 
   - name: estrutura
     label: "3. Estrutura e pesquisa"
     description: "Departamentos, laboratórios, projetos e linhas de pesquisa. Os campos PT e EN aparecem no mesmo formulário."
+    publish: false
     format: json
     files:
       - label: "Departamentos"
@@ -270,9 +277,7 @@ collections:
               - { label: "Chefe", name: chefe, widget: string, required: false }
               - { label: "E-mail", name: email, widget: string, required: false }
               - { label: "Cor", name: cor, widget: color, allowInput: true }
-              - { label: "Ícone técnico", name: icon, widget: string, required: false }
               - { label: "Temas", name: temas, widget: select, multiple: true, options: [aeronautica, espacial] }
-              - { label: "IDs dos laboratórios", name: laboratorios, widget: list, required: false, field: { label: "ID", name: id, widget: string } }
       - label: "Laboratórios"
         name: laboratorios
         file: data/laboratorios.json
@@ -297,12 +302,13 @@ collections:
               - { label: "Infrastructure in English", name: infraestrutura_en, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
               - { label: "Projetos associados", name: projetos_associados, widget: list, required: false, field: { label: "Projeto", name: projeto, widget: string } }
               - { label: "Responsáveis", name: responsaveis, widget: list, required: false, hint: "Informe nomes públicos e conferidos.", field: { label: "Nome", name: responsavel, widget: string } }
-              - label: "Fotos do laboratório"
+              - label: "Foto do laboratório"
                 name: imagens
                 widget: list
                 required: false
+                max: 1
                 collapsed: true
-                hint: "JPEG, PNG ou WebP; 80–4096 px e no máximo 2 MB por foto."
+                hint: "Foto de capa: JPEG, PNG ou WebP; 80–4096 px e no máximo 2 MB."
                 field:
                   label: "Foto"
                   name: imagem
@@ -336,9 +342,9 @@ collections:
               - { label: "Title in English", name: titulo_en, widget: string, required: false }
               - { label: "Departamento", name: departamento, widget: select, required: false, options: ["", iea-a, iea-b, iea-c, iea-e, iea-p, iea-s] }
               - { label: "Financiador", name: financiador, widget: string, required: false }
-              - { label: "Valor", name: valor, widget: string, required: false, hint: "Deixe vazio quando não for público." }
+              - { label: "Valor em reais", name: valor, widget: number, value_type: float, min: 0, required: false, hint: "Digite somente o número, sem R$ nem pontos de milhar. Deixe vazio quando não for público." }
               - { label: "Período", name: periodo, widget: string, required: false }
-              - { label: "Status", name: status, widget: select, options: [em_andamento, concluido, suspenso] }
+              - { label: "Status", name: status, widget: select, options: [em_andamento, concluido, suspenso], hint: "Somente projetos 'em_andamento' aparecem na página de projetos ativos." }
               - { label: "Tema", name: tema, widget: select, required: false, options: ["", aeronautica, espacial, ambos] }
               - { label: "Pessoas da IEA", name: docentes_iea, widget: list, required: false, field: { label: "Nome", name: nome, widget: string } }
               - { label: "Demais participantes", name: docentes, widget: list, required: false, field: { label: "Nome", name: nome, widget: string } }
@@ -361,15 +367,15 @@ collections:
               - { label: "Name in English", name: nome_en, widget: string }
               - { label: "Tema", name: tema, widget: select, options: [aeronautica, espacial, ambos] }
               - { label: "Cor", name: cor, widget: color, allowInput: true }
-              - { label: "Ícone técnico", name: icon, widget: string, required: false }
               - { label: "Descrição em português", name: descricao_pt, widget: text }
               - { label: "Description in English", name: descricao_en, widget: text }
-              - { label: "Palavras-chave", name: keywords, widget: list, required: false, field: { label: "Palavra-chave", name: keyword, widget: string } }
-              - { label: "Áreas Scopus", name: subject_areas, widget: list, required: false, field: { label: "Área", name: area, widget: string } }
+              - { label: "Palavras-chave — avançado", name: keywords, widget: list, required: false, hint: "Usadas para classificar automaticamente publicações; não aparecem como texto nesta página.", field: { label: "Palavra-chave", name: keyword, widget: string } }
+              - { label: "Áreas Scopus — avançado", name: subject_areas, widget: list, required: false, hint: "Usadas para classificar automaticamente publicações; não aparecem como texto nesta página.", field: { label: "Área", name: area, widget: string } }
 
   - name: documentos
     label: "4. Documentos, horários e salas"
     description: "Publique PDFs de horários, salas, regulamentos e comunicados. A categoria 'Horários de aulas e salas' já está pronta."
+    publish: false
     format: json
     files:
       - label: "PDFs e documentos"
@@ -424,6 +430,7 @@ collections:
   - name: biblioteca
     label: "5. Correspondências da Biblioteca"
     description: "Área avançada: associe uma variação de nome encontrada na Biblioteca à pessoa correta."
+    publish: false
     format: json
     files:
       - label: "Aliases de orientadores"

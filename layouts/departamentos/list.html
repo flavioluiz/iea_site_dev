@@ -9,11 +9,14 @@
   </div>
 
   {{ $departamentos := .Site.Data.departamentos.departamentos }}
+  {{ $laboratorios := .Site.Data.laboratorios.laboratorios }}
   {{ $lang := .Language.Lang }}
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
     {{ range $dept := $departamentos }}
-      <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden border border-gray-200">
+      {{ $deptLabs := where $laboratorios "departamento" $dept.id }}
+      <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden border border-gray-200"
+           data-department-id="{{ $dept.id }}">
         {{/* Color bar */}}
         <div class="h-2" style="background-color: {{ $dept.cor }}"></div>
 
@@ -39,9 +42,25 @@
             </p>
           {{ end }}
 
-          {{ if $dept.laboratorios }}
+          {{ with $dept.email }}
+            <p class="text-sm mb-4">
+              <a href="mailto:{{ . }}" class="text-blue-700 hover:underline">{{ . }}</a>
+            </p>
+          {{ end }}
+
+          {{ with $dept.temas }}
+            <div class="flex flex-wrap gap-1.5 mb-4">
+              {{ range . }}
+                <span class="inline-block px-2 py-0.5 rounded-full text-xs bg-gray-100 text-gray-600">
+                  {{ if eq . "espacial" }}{{ if eq $lang "pt" }}Espacial{{ else }}Space{{ end }}{{ else }}{{ if eq $lang "pt" }}Aeronáutica{{ else }}Aeronautics{{ end }}{{ end }}
+                </span>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          {{ if $deptLabs }}
             <p class="text-xs text-gray-400">
-              {{ len $dept.laboratorios }}
+              {{ len $deptLabs }}
               {{ if eq $lang "pt" }}laboratório(s){{ else }}lab(s){{ end }}
             </p>
           {{ end }}
