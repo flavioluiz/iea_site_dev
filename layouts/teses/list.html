@@ -33,6 +33,7 @@
       <time datetime="{{ $lastRun }}">{{ dateFormat "02/01/2006 15:04" $lastRun }}</time>
     </p>
     {{ end }}
+    {{ with .Content }}<div class="prose prose-lg max-w-none mt-5">{{ . }}</div>{{ end }}
   </div>
 
   {{/* Filters */}}

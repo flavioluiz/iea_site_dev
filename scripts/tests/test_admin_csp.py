@@ -60,7 +60,8 @@ class AdminCspTests(unittest.TestCase):
         guide = (ROOT / "static/admin/paginas-especiais.html").read_text(encoding="utf-8")
         help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
 
-        self.assertIn("Páginas especiais e automáticas", guide)
+        self.assertIn("Como as páginas são montadas", guide)
+        self.assertIn("Markdown completo", guide)
         self.assertIn("Solicitar alteração maior", guide)
         self.assertNotIn("<script", guide)
         self.assertIn("./paginas-especiais.html", help_script)
@@ -74,6 +75,16 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("script-src 'self'", page)
         self.assertNotIn("unsafe-eval", page)
         self.assertIn("../pt/mapa-site.json", script)
+        self.assertIn("Abrir tudo", page)
+        self.assertIn("Markdown completo", page)
+        self.assertIn("originMeta", script)
+        self.assertIn("Ajustar no menu", script)
+        self.assertIn("./mapa-visual.html", help_script)
+
+    def test_technical_page_list_redirects_to_visual_map(self) -> None:
+        help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+        self.assertIn("redirectTechnicalMenuList", help_script)
+        self.assertIn("advancedMenuView", help_script)
         self.assertIn("./mapa-visual.html", help_script)
 
 

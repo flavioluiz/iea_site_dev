@@ -3,6 +3,7 @@
 ## Para editar conteúdo
 
 - [CMS para pessoas sem conhecimento técnico](content-management/decap.md)
+- [Arquitetura editorial das páginas](content-management/page-architecture.md)
 - [Edição JSON em massa](content-management/bulk-json.md)
 - [Modelo de cadastro](modelos/professores.exemplo.json)
 

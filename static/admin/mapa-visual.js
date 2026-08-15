@@ -1,17 +1,31 @@
 (() => {
-  const typeMeta = {
-    grupo: { icon: "📁", label: "Seção do menu", help: "Abre as opções abaixo" },
-    pagina_editavel: { icon: "📄", label: "Página comum", help: "Texto editável neste formulário" },
-    pagina_estrutural: { icon: "🧩", label: "Página automática", help: "Montada por dados ou template" },
-    link_externo: { icon: "🔗", label: "Link externo", help: "Leva para outro site" },
-    categoria: { icon: "🏷️", label: "Título de categoria", help: "Organiza opções dentro do submenu" },
-    separador: { icon: "", label: "Separador", help: "Espaço visual no submenu" },
+  const roleMeta = {
+    grupo: { icon: "📁", label: "Seção do menu", help: "Organiza os itens abaixo" },
+    pagina_editavel: { icon: "📄", label: "Página no menu", help: "Página criada no painel" },
+    pagina_estrutural: { icon: "📄", label: "Página no menu", help: "Página existente do site" },
+    link_externo: { icon: "🔗", label: "Link externo", help: "Abre outro site" },
+    categoria: { icon: "🏷️", label: "Título de categoria", help: "Organiza o submenu" },
+    separador: { icon: "", label: "Separador", help: "Espaço visual" },
     raiz: { icon: "", label: "Raiz técnica", help: "" }
+  };
+  const originMeta = {
+    markdown: { icon: "📝", label: "Markdown completo", action: "Editar página em Markdown" },
+    markdown_lista: { icon: "📝", label: "Markdown + páginas filhas", action: "Editar texto em Markdown" },
+    markdown_secao: { icon: "📝", label: "Seção de página Markdown", action: "Editar página em Markdown" },
+    dados_markdown: { icon: "🗂", label: "Markdown + dados estruturados", action: "Editar texto em Markdown" },
+    template_markdown: { icon: "🧱", label: "Template especial + Markdown", action: "Editar textos" },
+    importada: { icon: "⚙️", label: "Markdown + dados importados", action: "Editar introdução" },
+    menu: { icon: "📁", label: "Somente menu", action: "" },
+    externo: { icon: "🔗", label: "Destino externo", action: "" },
+    organizacao: { icon: "🏷️", label: "Organização do menu", action: "" },
+    desconhecida: { icon: "🧩", label: "Template ou dados", action: "Editar conteúdo" }
   };
 
   const tree = document.getElementById("map-tree");
   const status = document.getElementById("map-status");
   const hiddenToggle = document.getElementById("show-hidden");
+  const expandAll = document.getElementById("expand-all");
+  const collapseAll = document.getElementById("collapse-all");
   const languageButtons = [...document.querySelectorAll("[data-language]")];
   let nodes = [];
   let language = "pt";
@@ -32,42 +46,89 @@
     return new URL(`../${language}/${target.replace(/^\//, "")}`, window.location.href).href;
   };
 
-  const editUrl = node => `./#/edit/paginas/${encodeURIComponent(node.id)}`;
+  const editMenuUrl = node => `./?advanced=1#/edit/paginas/${encodeURIComponent(node.id)}`;
+  const adminRoute = route => route ? `./${route}` : "";
   const visibilityLabel = node => {
     if (!node.visivel.pt && !node.visivel.en) return "Fora dos dois menus";
     if (node.visivel.pt && node.visivel.en) return "Visível em PT e EN";
     return node.visivel.pt ? "Visível somente em PT" : "Visível somente em EN";
   };
-
-  const nodeContent = (node, child = false) => {
-    const meta = typeMeta[node.tipo] || typeMeta.pagina_estrutural;
-    const view = localizedUrl(node);
-    const hidden = !node.visivel[language];
-    const heading = child ? "h3" : "h2";
-    return `<div class="node-title-row"><span class="icon" aria-hidden="true">${meta.icon}</span><div class="node-title"><${heading}>${escapeHtml(node.rotulo[language] || "Sem nome")}</${heading}><p class="kind">${meta.help}</p></div></div>
-      <div class="badges"><span class="badge type-badge">${meta.label}</span>${node.protegido ? '<span class="badge locked">🔒 Não excluir</span>' : ""}${hidden ? `<span class="badge hidden">${visibilityLabel(node)}</span>` : ""}</div>
-      <div class="node-actions"><a class="button small" href="${editUrl(node)}">Editar</a>${view ? `<a class="button small" href="${escapeHtml(view)}" target="_blank" rel="noopener noreferrer">Ver página</a>` : ""}</div>`;
+  const originKey = node => {
+    if (node.edicao && node.edicao.origem) return node.edicao.origem;
+    if (node.tipo === "grupo") return "menu";
+    if (node.tipo === "link_externo") return "externo";
+    if (["categoria", "separador"].includes(node.tipo)) return "organizacao";
+    if (node.tipo === "pagina_editavel") return "markdown";
+    return "desconhecida";
+  };
+  const contentEditor = node => {
+    const configured = node.edicao && node.edicao.editor;
+    if (configured) return configured[language] || configured.pt || configured.en || "";
+    return node.tipo === "pagina_editavel" ? `#/edit/paginas/${encodeURIComponent(node.id)}` : "";
   };
 
-  const renderChild = node => {
-    if (node.tipo === "separador") return '<div class="child type-separador" aria-label="Separador visual"></div>';
+  const summary = (node, childCount, depth) => {
+    const role = roleMeta[node.tipo] || roleMeta.pagina_estrutural;
+    const origin = originMeta[originKey(node)] || originMeta.desconhecida;
+    const titleTag = depth === 0 ? "h2" : "h3";
+    const location = childCount
+      ? `${childCount} ${childCount === 1 ? "item dentro" : "itens dentro"}`
+      : role.help;
+    const hidden = !node.visivel[language];
+    return `<div class="node-summary"><span class="node-icon" aria-hidden="true">${role.icon}</span><div class="node-heading"><${titleTag}>${escapeHtml(node.rotulo[language] || "Sem nome")}</${titleTag}><p class="location">${escapeHtml(location)}</p></div><div class="badges"><span class="badge origin-${escapeHtml(originKey(node))}">${origin.icon} ${origin.label}</span><span class="badge role">${role.label}</span>${node.protegido ? '<span class="badge locked">🔒 Protegido</span>' : ""}${hidden ? `<span class="badge hidden">${visibilityLabel(node)}</span>` : ""}</div></div>`;
+  };
+
+  const body = node => {
+    const origin = originMeta[originKey(node)] || originMeta.desconhecida;
+    const editor = contentEditor(node);
+    const dataEditor = node.edicao && node.edicao.dados_editor;
+    const dataLabel = node.edicao && node.edicao.dados_label
+      ? node.edicao.dados_label[language] || node.edicao.dados_label.pt
+      : "Editar dados";
+    const detail = node.edicao && node.edicao.detalhe
+      ? node.edicao.detalhe[language] || node.edicao.detalhe.pt
+      : origin.label;
+    const view = localizedUrl(node);
+    const contentAction = editor
+      ? `<a class="button primary small" href="${adminRoute(editor)}">${escapeHtml(origin.action || "Editar conteúdo")}</a>`
+      : "";
+    const dataAction = dataEditor
+      ? `<a class="button small" href="${adminRoute(dataEditor)}">${escapeHtml(dataLabel)}</a>`
+      : "";
+    const menuAction = node.tipo !== "separador"
+      ? `<a class="button small" href="${editMenuUrl(node)}">Ajustar no menu</a>`
+      : "";
+    const viewAction = view
+      ? `<a class="button small" href="${escapeHtml(view)}" target="_blank" rel="noopener noreferrer">Ver página</a>`
+      : "";
+    return `<div class="node-body"><p class="detail">${escapeHtml(detail)}</p><div class="node-actions">${contentAction}${dataAction}${menuAction}${viewAction}</div></div>`;
+  };
+
+  const renderNode = (node, childrenByParent, depth = 0) => {
+    if (node.tipo === "separador") return '<div class="separator" aria-label="Separador visual"></div>';
+    const children = childrenByParent.get(node.id) || [];
     const hiddenClass = node.visivel[language] ? "" : " hidden-node";
-    return `<article class="child type-${node.tipo}${hiddenClass}" title="Identificador técnico: ${escapeHtml(node.id)}">${nodeContent(node, true)}</article>`;
+    const classes = `node origin-${originKey(node)}${hiddenClass}`;
+    const header = summary(node, children.length, depth);
+    const contents = `${body(node)}${children.length ? `<div class="children">${children.map(child => renderNode(child, childrenByParent, depth + 1)).join("")}</div>` : ""}`;
+    if (children.length) return `<details class="branch ${classes}" data-node-id="${escapeHtml(node.id)}"><summary>${header}</summary>${contents}</details>`;
+    return `<article class="leaf ${classes}" data-node-id="${escapeHtml(node.id)}">${header}${contents}</article>`;
   };
 
   const render = () => {
     const showHidden = hiddenToggle.checked;
     const visible = node => showHidden || node.visivel[language];
     const ordered = [...nodes].sort((a, b) => a.ordem - b.ordem || a.id.localeCompare(b.id));
-    const topLevel = ordered.filter(node => node.parent === "root" && visible(node));
-
-    tree.innerHTML = topLevel.map(node => {
-      const children = ordered.filter(child => child.parent === node.id && visible(child));
-      const hiddenClass = node.visivel[language] ? "" : " hidden-node";
-      return `<article class="branch type-${node.tipo}${children.length ? " has-children" : ""}${hiddenClass}" title="Identificador técnico: ${escapeHtml(node.id)}"><div class="node-main">${nodeContent(node)}</div>${children.length ? `<div class="children">${children.map(renderChild).join("")}</div>` : ""}</article>`;
-    }).join("");
-
-    status.textContent = `${topLevel.length} itens na barra principal · idioma ${language === "pt" ? "Português" : "English"}${showHidden ? " · incluindo itens ocultos" : ""}`;
+    const shown = ordered.filter(visible);
+    const childrenByParent = new Map();
+    shown.forEach(node => {
+      if (!childrenByParent.has(node.parent)) childrenByParent.set(node.parent, []);
+      childrenByParent.get(node.parent).push(node);
+    });
+    const topLevel = childrenByParent.get("root") || [];
+    tree.innerHTML = topLevel.map(node => renderNode(node, childrenByParent)).join("");
+    const pageCount = shown.filter(node => !["grupo", "categoria", "separador", "link_externo"].includes(node.tipo)).length;
+    status.textContent = `${topLevel.length} itens na barra principal · ${pageCount} páginas ou destinos · idioma ${language === "pt" ? "Português" : "English"}${showHidden ? " · incluindo itens ocultos" : ""}`;
     if (!topLevel.length) tree.innerHTML = '<p class="empty">Nenhum item encontrado para este idioma.</p>';
   };
 
@@ -77,6 +138,8 @@
     render();
   }));
   hiddenToggle.addEventListener("change", render);
+  expandAll.addEventListener("click", () => document.querySelectorAll("#map-tree details").forEach(item => { item.open = true; }));
+  collapseAll.addEventListener("click", () => document.querySelectorAll("#map-tree details").forEach(item => { item.open = false; }));
 
   fetch(new URL("../pt/mapa-site.json", window.location.href), { credentials: "same-origin" })
     .then(response => {
@@ -88,7 +151,7 @@
       render();
     })
     .catch(error => {
-      status.textContent = "Não foi possível carregar o mapa. Recarregue a página ou use a Lista avançada.";
+      status.textContent = "Não foi possível carregar o mapa. Recarregue a página ou use a Lista técnica avançada.";
       tree.innerHTML = `<p class="empty">Falha ao carregar a estrutura (${escapeHtml(error.message)}).</p>`;
     });
 })();

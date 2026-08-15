@@ -68,10 +68,19 @@ def main() -> int:
         map_path = public / lang / "mapa-site.json"
         if not map_path.is_file():
             raise SystemExit(f"Mapa visual não foi gerado: {map_path}")
-        map_ids = {node["id"] for node in json.loads(map_path.read_text(encoding="utf-8"))["nodes"]}
+        map_payload = json.loads(map_path.read_text(encoding="utf-8"))
+        if map_payload.get("version") != 2:
+            raise SystemExit(f"{map_path}: versão inesperada do mapa visual")
+        map_ids = {node["id"] for node in map_payload["nodes"]}
         expected_map_ids = {node["id"] for node in site_nodes}
         if map_ids != expected_map_ids:
             raise SystemExit(f"{map_path}: itens diferentes da fonte editorial")
+        for node in map_payload["nodes"]:
+            if node["tipo"] not in {"pagina_editavel", "pagina_estrutural"}:
+                continue
+            editor = node.get("edicao", {})
+            if not editor.get("origem") or not all(editor.get("editor", {}).get(code) for code in ("pt", "en")):
+                raise SystemExit(f"{map_path}: página {node['id']} sem origem/editor no mapa")
         checked += len(map_ids)
 
         home = public / lang / "index.html"

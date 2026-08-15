@@ -47,12 +47,13 @@ class CmsRenderContractTests(unittest.TestCase):
 
         map_output = (ROOT / "layouts/index.mapasite.json").read_text(encoding="utf-8")
         hugo_config = (ROOT / "config/_default/config.yaml").read_text(encoding="utf-8")
-        self.assertIn('dict "version" 1 "nodes" $nodes', map_output)
+        self.assertIn('dict "version" 2 "nodes" $nodes', map_output)
+        self.assertIn('"edicao" $edicao', map_output)
         self.assertIn('home: ["HTML", "RSS", "JSON", "MAPASITE"]', hugo_config)
 
     def test_every_structural_markdown_page_renders_title_and_body(self) -> None:
         content_files = [entry["file"] for entry in self.collections["paginas_estruturais"]["files"]]
-        self.assertEqual(16, len(content_files))
+        self.assertEqual(28, len(content_files))
 
         for filename in content_files:
             content_path = Path(filename)
@@ -67,6 +68,20 @@ class CmsRenderContractTests(unittest.TestCase):
             with self.subTest(entry=filename, template=str(template_path.relative_to(ROOT))):
                 self.assertIn(".Title", template)
                 self.assertIn(".Content", template)
+
+    def test_postgraduate_page_is_full_markdown_with_default_layout(self) -> None:
+        markdown_pages = self.collections["paginas_estruturais"]["files"]
+        postgraduate = next(item for item in markdown_pages if item["name"] == "posgraduacao_pt")
+        body = next(field for field in postgraduate["fields"] if field["name"] == "body")
+        self.assertEqual("Conteúdo completo da página", body["label"])
+        self.assertFalse((ROOT / "layouts/posgraduacao/list.html").exists())
+
+        editors = yaml.safe_load((ROOT / "data/admin/paginas_edicao.yaml").read_text(encoding="utf-8"))
+        self.assertEqual("markdown", editors["pg-cursos"]["origem"])
+        self.assertEqual(
+            "#/edit/paginas_estruturais/posgraduacao_pt",
+            editors["pg-cursos"]["editor"]["pt"],
+        )
 
     def test_page_descriptions_are_used_as_metadata(self) -> None:
         head = (ROOT / "layouts/partials/head.html").read_text(encoding="utf-8")

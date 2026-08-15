@@ -1,0 +1,141 @@
+# Como cada destino do menu e montado e onde seu conteudo deve ser editado.
+# Este arquivo alimenta somente o mapa visual do painel; nao contem credenciais.
+home:
+  origem: template_markdown
+  editor: {pt: "#/edit/paginas_estruturais/inicio_pt", en: "#/edit/paginas_estruturais/inicio_en"}
+  detalhe:
+    pt: "O texto e editável em Markdown, mas destaques e cartões seguem um template especial."
+    en: "The text is editable in Markdown, while highlights and cards use a special template."
+
+sobre:
+  origem: markdown
+  editor: {pt: "#/edit/paginas/sobre", en: "#/edit/paginas/sobre"}
+  detalhe:
+    pt: "Título e conteúdo completos são editáveis no mesmo formulário."
+    en: "The full title and content are editable in the same form."
+
+contato:
+  origem: markdown
+  editor: {pt: "#/edit/paginas/contato", en: "#/edit/paginas/contato"}
+  detalhe:
+    pt: "Título e conteúdo completos são editáveis no mesmo formulário."
+    en: "The full title and content are editable in the same form."
+
+departamentos:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/departamentos_pt", en: "#/edit/paginas_estruturais/departamentos_en"}
+  dados_editor: "#/edit/estrutura/departamentos"
+  dados_label: {pt: "Editar departamentos", en: "Edit departments"}
+  detalhe:
+    pt: "A introdução é Markdown; os cartões vêm do cadastro de departamentos."
+    en: "The introduction is Markdown; department records generate the cards."
+
+pessoal:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/pessoal_pt", en: "#/edit/paginas_estruturais/pessoal_en"}
+  dados_editor: "#/collections/pessoal"
+  dados_label: {pt: "Editar pessoas", en: "Edit people"}
+  detalhe:
+    pt: "A introdução é Markdown; perfis e filtros vêm das fichas de pessoas."
+    en: "The introduction is Markdown; profiles and filters come from people records."
+
+linhas:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/linhas_pt", en: "#/edit/paginas_estruturais/linhas_en"}
+  dados_editor: "#/edit/estrutura/linhas"
+  dados_label: {pt: "Editar linhas", en: "Edit research lines"}
+  detalhe:
+    pt: "A introdução é Markdown; a lista é gerada pelas fichas de linhas de pesquisa."
+    en: "The introduction is Markdown; research-line records generate the list."
+
+projetos:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/projetos_pt", en: "#/edit/paginas_estruturais/projetos_en"}
+  dados_editor: "#/edit/estrutura/projetos"
+  dados_label: {pt: "Editar projetos", en: "Edit projects"}
+  detalhe:
+    pt: "A introdução é Markdown; os cartões vêm do cadastro de projetos."
+    en: "The introduction is Markdown; project records generate the cards."
+
+publicacoes:
+  origem: importada
+  editor: {pt: "#/edit/paginas_estruturais/publicacoes_pt", en: "#/edit/paginas_estruturais/publicacoes_en"}
+  detalhe:
+    pt: "A introdução é Markdown; a lista de publicações é importada do Scopus."
+    en: "The introduction is Markdown; the publication list is imported from Scopus."
+
+espaco:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/espaco_pt", en: "#/edit/paginas_estruturais/espaco_en"}
+  dados_editor: "#/collections/estrutura"
+  dados_label: {pt: "Ver cadastros de pesquisa", en: "View research records"}
+  detalhe:
+    pt: "O texto é Markdown; linhas, laboratórios e projetos são combinados por um template."
+    en: "The text is Markdown; a template combines research lines, laboratories, and projects."
+
+laboratorios:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/laboratorios_pt", en: "#/edit/paginas_estruturais/laboratorios_en"}
+  dados_editor: "#/collections/laboratorios"
+  dados_label: {pt: "Editar laboratórios", en: "Edit laboratories"}
+  detalhe:
+    pt: "Título e introdução são Markdown; a listagem vem das fichas de laboratórios."
+    en: "The title and introduction are Markdown; laboratory records generate the listing."
+
+cursos-grad:
+  origem: markdown
+  editor: {pt: "#/edit/paginas_estruturais/graduacao_pt", en: "#/edit/paginas_estruturais/graduacao_en"}
+  detalhe:
+    pt: "Página inteira em Markdown, sem template próprio."
+    en: "Full Markdown page with no custom template."
+
+disciplinas:
+  origem: markdown_lista
+  editor: {pt: "#/edit/paginas_estruturais/disciplinas_pt", en: "#/edit/paginas_estruturais/disciplinas_en"}
+  detalhe:
+    pt: "O texto principal é Markdown; páginas de disciplinas aparecem automaticamente abaixo."
+    en: "The main text is Markdown; course pages are listed automatically below it."
+
+tgs:
+  origem: importada
+  editor: {pt: "#/edit/paginas_estruturais/tgs_pt", en: "#/edit/paginas_estruturais/tgs_en"}
+  detalhe:
+    pt: "Título e introdução são Markdown; a lista de trabalhos vem da Biblioteca."
+    en: "The title and introduction are Markdown; the thesis list comes from the Library."
+
+pg-cursos:
+  origem: markdown
+  editor: {pt: "#/edit/paginas_estruturais/posgraduacao_pt", en: "#/edit/paginas_estruturais/posgraduacao_en"}
+  detalhe:
+    pt: "Página inteira em Markdown, sem template próprio."
+    en: "Full Markdown page with no custom template."
+
+teses:
+  origem: importada
+  editor: {pt: "#/edit/paginas_estruturais/teses_pt", en: "#/edit/paginas_estruturais/teses_en"}
+  detalhe:
+    pt: "Título e introdução são Markdown; dissertações e teses vêm da Biblioteca."
+    en: "The title and introduction are Markdown; dissertations and theses come from the Library."
+
+documentos:
+  origem: dados_markdown
+  editor: {pt: "#/edit/paginas_estruturais/documentos_pt", en: "#/edit/paginas_estruturais/documentos_en"}
+  dados_editor: "#/edit/documentos/catalogo_documentos"
+  dados_label: {pt: "Editar arquivos e categorias", en: "Edit files and categories"}
+  detalhe:
+    pt: "A introdução é Markdown; PDFs e links vêm do catálogo de documentos."
+    en: "The introduction is Markdown; PDFs and links come from the document catalog."
+
+cassa:
+  origem: markdown_secao
+  editor: {pt: "#/edit/paginas_estruturais/posgraduacao_pt", en: "#/edit/paginas_estruturais/posgraduacao_en"}
+  detalhe:
+    pt: "Este atalho aponta para uma seção da página Markdown de Pós-Graduação."
+    en: "This shortcut points to a section of the Graduate Studies Markdown page."
+
+ceeaa:
+  origem: markdown_secao
+  editor: {pt: "#/edit/paginas_estruturais/posgraduacao_pt", en: "#/edit/paginas_estruturais/posgraduacao_en"}
+  detalhe:
+    pt: "Este atalho aponta para uma seção da página Markdown de Pós-Graduação."
+    en: "This shortcut points to a section of the Graduate Studies Markdown page."
