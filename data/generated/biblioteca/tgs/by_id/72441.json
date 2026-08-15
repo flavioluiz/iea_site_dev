@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "O IPEV está implementando um Simulador de Voo com o intuito de complementar a formaçăo dos alunos do CEV e de testar manobras antes do voo real. Para simular uma aeronave săo necessários modelos que descrevam seu desempenho em diversos pontos do envelope de voo. Dados de desempenho utilizados no desenvolvimento desses modelos săo obtidos via ensaios em voo. A aeronave Northrop F5-FM, cujo sistema propulsivo consiste de dois motores turbojato GE J85-21, será inserida no Simulador de Voo. Neste trabalho foram utilizados dados de ensaios em voo para se obter um modelo para o desempenho no regime transitório dos motores. O desempenho do motor no regime estacionário é conhecido por meio das cartas do motor e a polar de arrasto da aeronave foi previamente obtida. Uma parte desses dados foi selecionada para modelar o desempenho do motor como um sistema equivalente de baixa ordem (LOES) via método de estimaçăo de parâmetros, utilizando a polar de arrasto da aeronave. A outra parte desses dados foi selecionada para validar o modelo proposto. Posteriormente, o modelo será implementado no software do Simulador de Voo do IPEV.",

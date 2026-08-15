@@ -14,11 +14,11 @@
   "co_advisors": [
     {
       "name": "Renato Rebouças de Medeiros",
-      "professor_slug": null
+      "professor_slug": "renato-reboucas-medeiros"
     },
     {
       "name": "Sergio Salzedas Vilela",
-      "professor_slug": null
+      "professor_slug": "sergio-salzedas-vilela"
     }
   ],
   "abstract": "Este estudo analisa a otimizaçăo de propriedades de massa em modelos estruturais de foguetes, focando na representaçăo dinâmica do módulo dianteiro do segundo estágio do VSB-30, utilizado na Operaçăo Santa Branca. O trabalho busca reduzir as discrepâncias observadas entre os resultados experimentais de ensaios de vibraçăo e as respostas simuladas do modelo original. Para isso1 foraID. realizadas modificaçőes na distribuiçăo de massa, integrando scripts em Python ao software Abaqus para aplicar técnicas de otimizaçăo. Após ajustes nas propriedades de massa, aplicou-se um processo de otimizaçăo verificado por um modelo de teste, destacando-se a importância da reduçăo de variáveis de projeto e de wna definiçăo eficiente de restriçőes para maior precisăo. Em seguida, análises modais guiaram alteraçőes nas condiçőes de contorno do modelo, como a modelagem de adaptadores e conexőes com parafusos para aproximar as condiçőes de contorno ŕs dos ensaios. As simulaçőes de vibraçăo realizadas - com excitaçőes aleatórias e de varredura senoidal - indicaram que o modelo final apresentou comportamento dinâmico mais próximo dos dados experimentais, com reduçăo nos erros relativos das frequęncias de pico de aproximadamente 25% para 3%. Os resultados comprovam a eficácia dos procedimentos em melhorar a representaçăo dinâmica do módulo, contribuindo para futuras análises estruturais de foguetes pelo IAE.",

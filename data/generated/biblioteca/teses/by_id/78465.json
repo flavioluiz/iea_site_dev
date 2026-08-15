@@ -4,7 +4,7 @@
   "title": "Joint-mode dispersion-diffusion analysis techniques for spectral/hp methods",
   "author": "Lucas Dantas Fernandes",
   "year": "2022",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "André Fernando de Castro da Silva",
-      "professor_slug": null
+      "professor_slug": "andre-fernando-c-silva"
     }
   ],
   "abstract": "In recent years, spectral element methods (SEMs) have gained lots of attention from the computational fluid dynamics (CFD) community due to their capability in implicit large-eddy simulation (iLES). Still, accuracy and stability are the two properties that must have a complete understanding to set up these methods properly for industrial use. These properties have been studied a lot by Fourier (von Neumann) analysis since they are the most popular for wave-propagation problems, and different dispersion-diffusion analyses have been developed so far. However, current diffusion curves do not provide a good correlation with the energy spectrum of turbulence simulations, even though there are promising analyses. Therefore, the present study seeks to improve one of these approaches: the non-modal analysis. In its approach, all the multiple diffusion curves from the temporal eigenanalysis account for the resulting diffusion. So, the present study related every mode from the multiple curves, and could unveil an energy transfer mechanism that happens in spectral/hp methods. Finally, this new knowledge made possible to come up with a novel dispersion-diffusion analysis (joint-mode analysis), which was tested in two different, but representative, methods: the continuous and discontinuous Galerkin methods.",

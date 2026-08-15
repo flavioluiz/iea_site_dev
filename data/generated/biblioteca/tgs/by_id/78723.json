@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "abstract": "Neste trabalho foi desenvolvido um controlador de voo que utiliza duas variáveis de controle: uma relacionadas ao hamiltoniado e outra relacionada ao lagrangiano de uma aeronave em voo longitudinal e considerada como ponto de massa em um campo potencial. As leis de controle foram desenvolvidas conforme o conceito do Total Energy Control System (TECS), uma abordagem de controle desenvolvida nos anos 70 como alternativa para superar algumas limitaçőes dos controladores de voo convencionais. Foram implementadas malhas para os modos CAS e ALTITUDE SELECT e implementadas em MATLAB para um modelo de dinâmica longitudinal do Airbus A300. Esta abordagem de controle vai de encontro ŕ arquitetura dos controladores de voo convencionais por usar uma malha MIMO- multiple input and multiple output-, com realimentaçăo das variáveis de energia para ambos profundor (piloto automático) e manetes (autothrottle). Os resultados consistem nas análises das respostas, em malha fechada, a degraus de velocidade e de altitude.",

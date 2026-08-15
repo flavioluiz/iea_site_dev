@@ -8,13 +8,13 @@
   "advisors": [
     {
       "name": "Leonardo Henrique Gouvęa",
-      "professor_slug": null
+      "professor_slug": "leonardo-henrique-gouvea"
     }
   ],
   "co_advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "abstract": "Um dos principais requisitos de projeto de motores foguete é o empuxo que deve ser gerado durante a missăo. Logo, ser capaz de controlar esse parâmetro é uma maneira de maximizar a eficięncia do motor, e a maneira mais simples de fazer isso durante o voo é por meio do controle da vazăo de propelente. Para contribuir com a pesquisa nessa área, este trabalho apresenta o projeto de um motor foguete monopropelente a ar dotado de um sistema simples de controle de vazăo de propelente para modulaçăo do empuxo. A escolha do tipo de motor e do propelente foi feita visando diminuir os custos e a complexidade do projeto, para possibilitar a realizaçăo de testes junto ao LTF (Laboratório de Tecnologias de Foguetes). Após obtençăo dos parâmetros termodinâmicos e geométricos iniciais, foi feito o desenho em CAD (Computer Aided Design) do motor, e ele foi impresso em plástico ABS. Foi feito um P&ID (Piping and Instrumentation Diagram) que serviu de base para construçăo da bancada de testes com materiais disponíveis no LTF. O sistema de controle de vazăo projetado é composto por uma válvula agulha acoplada a um motor de passo, um sensor de empuxo e um sistema de processamento e aquisiçăo de dados. A caracterizaçăo do atuador e a calibraçăo do sensor de empuxo foram feitas previamente aos ensaios. O ensaio do motor em malha aberta mostrou que ele atende aos requisitos de 1 N de empuxo e 5 bar de pressăo de câmara. O ensaio em malha fechada mostrou que sistema de controle conseguiu estabilizar o empuxo no valor rastreado, mesmo após a introduçăo de perturbaçőes na linha de alimentaçăo, com um tempo de acomodaçăo mínimo de 0,88 s, para uma faixa de ±3%, a partir da situaçăo de motor desligado.",

@@ -8,13 +8,13 @@
   "advisors": [
     {
       "name": "Ronaldo Vieira Cruz",
-      "professor_slug": null
+      "professor_slug": "ronaldo-vieira-cruz"
     }
   ],
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "O Instituto de Pesquisas e Ensaios em Voo (IPEV) é uma organizaçăo militar da Força Aérea Brasileira (FAB) que tem dentre suas atribuiçőes a formaçăo de pessoal especializado em ensaios em voo. A Unidade conta com um simulador de voo para prover treinamento e adaptaçăo de suas equipagens ŕs atividades de avaliaçăo das qualidades de voo de uma aeronave. A arquitetura da simulaçăo é toda desenvolvida no MATLAB® e o X-Plane 11® garante os efeitos visuais. Nesse projeto, propôs-se um modelo representativo do EMB-314 (A-29B), aplicável ao simulador de voo do IPEV. Na formulaçăo foram elencadas as equaçőes de estado da mecânica do voo e proposta uma modelagem de forças aerodinâmicas baseada em derivadas de estabilidade e de controle. A estimaçăo dessas derivadas com o programa estimacao.m foi o objetivo primal deste trabalho. Este software aplica métodos de programaçăo năo linear e de otimizaçăo para estimaçăo de modelos lineares ou năo-lineares de sistemas diversos. No caso, usou-se o método do erro de saída, com base no princípio da máxima verossimilhança, e o algoritmo de otimizaçăo de Gauss-Newton irrestrito. Para verificar a correspondęncia das medidas aferidas em voo ao modelo cinemático foi feita a reconstruçăo da trajetória de voo. Como resultado do trabalho, estimaram-se dois conjuntos de derivadas, pertinentes ŕs configuraçőes com flapes recolhidos e estendidos. Observou-se elevada compatibilidade entre as saídas simuladas e as medidas reais, o que indica boa representatividade do modelo. Para validar as estimativas foi analisada a correlaçăo entre as séries de dados medidos e simulados, usando o coeficiente de desigualdade de Theil, e verificado o atendimento de alguns critérios da Federal Aviation Administration (FAA) para o desenvolvimento de simuladores de voo. Na validaçăo notaram-se algumas divergęncias no comportamento em rolamento do modelo, divergęncias estas que podem ter surgido dadas as limitaçőes do modelo em capturar a influęncia do torque do motor. No simulador, o aviăo implementado se comportou satisfatoriamente dentro do envelope de voo real do A-29B. De toda forma, para conferir mais fidedignidade ŕ simulaçăo, săo necessários ajustes ao comportamento de rolamento.",

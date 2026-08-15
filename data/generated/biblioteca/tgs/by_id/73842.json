@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "Visando dar suporte ao desenvolvimento do simulador de ensaios em voo do IPEV (Instituto de Pesquisas e Ensaios em Voo), o presente trabalho se propőe a identificar um modelo aeordinâmico da aeronave A-29B Super Tucano. Para tal săo utilizadas duas abordagens. A primeira, puramente computacional, com a implementaçăo de um modelo vortex-lattice năo-estacionário (intentando sobretudo o cálculo e análise de derivadas de estabilidade dinâmicas, como, C_mq e C_map) e, a segunda, utilizando dados de ensaios em voo para estimar parâmetros do modelo aerodinâmico da aeronave via método iterativo Output-Error. Na segunda abordagem duas modelagens săo implementadas, uma completamente linear e outra năo-linear, com o modelo aerodinâmico de dois pontos. Os resultados obtidos săo analisados e comparados de modo a validar o modelo a ser fornecido ao simulador de voo.",

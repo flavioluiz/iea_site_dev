@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "Neste trabalho, desenvolveu-se um modelo computacional de baixo custo computacional em MATLAB, que descreva a esteira de vórtices gerada por uma aeronave T-27 Tucano, com vistas ŕ futura integraçăo do modelo no Simulador de Estabilidade Variável do Instituto de Pesquisas e Ensaios em Voo (IPEV) e nos simuladores de treinamento da Academia da Força Aérea (AFA) afim de se melhorar a fidedignidade da simulaçăo de voos em formatura e contribuir para o aprimoramento das técnicas de treinamento e segurança operacional. Os algoritmos foram desenvolvidos para serem matematicamente eficientes e fisicamente consistentes, sendo capazes de descrever completamente o campo de velocidades gerado pelo T-27 em qualquer ponto do espaço, ŕ partir de teorias clássicas aerodinâmicas de escoamentos incompressíveis com ajustes viscosos de perda de energia, levando em consideraçăo o efeito do escoamento de todos os componentes da aeronave, como asa, empenagens, sistema propulsivo e fuselagem. O modelo também é capaz de incluir um número arbitrário de aeronaves simulada no espaço, a fim de se compreender tanto a influęncia de um T-27 sobre o outro em um voo de formatura, como também a interaçăo conjunta da esteira gerada pelas várias aeronaves da formatura. Além da descriçăo do campo de velocidades e da análise de voos em formaçăo, este estudo investigou a evoluçăo temporal do escoamento a jusante do T-27. Foram realizadas simulaçőes năo estacionárias, considerando tanto a folha de vórtices gerada pela aeronave quanto um conjunto de filamentos vorticais.",

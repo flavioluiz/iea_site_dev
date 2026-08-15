@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "abstract": "O trabalho propőe-se a desenvolver uma metodologia em linguagem MatLab® capaz de estimar de forma confiável e rápida os coeficientes aerodinâmicos da aeronave EMB-312 TUCANO para um simulador de voo com dados dispersos. As abordagens principais para a resoluçăo do problema foram obtidas utilizando Redes Neurais e Adaptive Neuro-Fuzzy Inference System (ANFIS). Os dados de treinamento para as redes săo derivados de ensaios em túnel de vento e os coeficientes săo modelados como funçőes adimensionais de características do escoamento, pressăo dinâmica, e das deflexőes superfícies de controle da aeronave. Esse estudo tem o intuito de diminuir a quantidade de pontos tomados em uma campanha de ensaio em túnel, diminuindo os custos operacionais para desenvolvimento de um modelo aerodinâmico preciso. Entăo, é feita uma análise comparativa entre os métodos de regressăo mais comuns e as duas abordagens principais envolvendo redes (ANN e ANFIS), avaliando a reduçăo da quantidade de dados em funçăo do erro final. Os modelos baseados em redes apresentaram um excelente comportamento mesmo com a reduçăo significativa do conjunto de treino, satisfazendo os critérios de representatividade.",

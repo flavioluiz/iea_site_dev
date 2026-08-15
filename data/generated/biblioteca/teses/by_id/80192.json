@@ -4,7 +4,7 @@
   "title": "Identificaçăo de modelo aerodinâmico em condiçăo de alto ângulo de ataque utilizando dados de ensaios em voo de uma aeronave de ataque leve",
   "author": "José Aires da Costa Neto",
   "year": "2024",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "abstract": "Este trabalho tem como objetivo o desenvolvimento de um modelo aerodinâmico, a partir de dados obtidos em ensaios em voo, capaz de representar a dinâmica longitudinal em condiçőes de alto ângulo de ataque da aeronave A-29B da Força Aérea Brasileira a ser implementado no simulador de Ensaios em Voo em desenvolvimento no Instituto de Pesquisa e Ensaios em Voo. Foi utilizada a metodologia de dois passos, segunda a qual primeiramente é realizada a verificaçăo da compatibilidade dos dados obtidos nos ensaios em voo e na sequęncia a estimaçăo dos parâmetros do modelo aerodinâmico propriamente dito. A estrutura do modelo aerodinâmico utilizado é uma adaptaçăo do modelo clássico em que os coeficientes aerodinâmicos săo escritos como funçăo de variáveis influentes. A adaptaçăo consiste na incorporaçăo do modelo de separaçăo de escoamento de Kirchhoff ao modelo clássico. O método utilizado na estimaçăo de parâmetros, tanto da reconstruçăo da trajetória, quanto do modelo aerodinâmico, foi o método do erro na saída associado ao estimador de máxima verossimilhança. A manobra de ensaio em voo utilizada no processo foi uma adaptaçăo da manobra de estol clássica, o estol quase-estacionário. A adaptaçăo da manobra clássica, denominada de estol dinâmico, consistiu na execuçăo de um doublet longitudinal e um doublet direcional na fase de aproximaçăo ao estol da manobra clássica. Essa adaptaçăo permitiu que a mesma manobra fosse utilizada na reconstruçăo da trajetória e na estimaçăo dos parâmetros do modelo aerodinâmico. O modelo estimado apresentou capacidade preditiva satisfatória da dinâmica longitudinal da aeronave A-29B.",

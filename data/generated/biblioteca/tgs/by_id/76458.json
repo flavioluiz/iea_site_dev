@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Pedro Kukulka de Albuquerque",
-      "professor_slug": null
+      "professor_slug": "pedro-kukulka-albuquerque"
     }
   ],
   "abstract": "Esse trabalho derivou de uma necessidade de projeto da missăo SPORT, cujos requisitos de apontamento do satélite năo eram satisfeitos quando havia ruído excessivo na determinaçăo de atitude. Em geral, esse problema é abordado por meio da implementaçăo de um filtro de sinal; nesse trabalho, se investiga se o uso de um controlador mais robusto, com base em lógica fuzzy como soluçăo alternativa ŕ implementaçăo do filtro. O controlador desenvolvido, denominado PID-Fuzzy, é comparado em vários modelos físicos com a implementaçăo PID realizada conforme a Teoria Clássica de controle, sendo esses modelos desenvolvidos pelo autor ou baseados no projeto SPORT. Para os modelos simplificados, o desempenho e a robustez do controlador PID-Fuzzy foram superiores ao controlador PID de referęncia; no entanto, a soluçăo ao problema proposto inicialmente năo foi atingida.",

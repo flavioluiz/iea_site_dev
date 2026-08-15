@@ -8,13 +8,13 @@
   "advisors": [
     {
       "name": "Luís Eduardo Vergueiro Loures da Costa",
-      "professor_slug": null
+      "professor_slug": "luis-eduardo-loures-costa"
     }
   ],
   "co_advisors": [
     {
       "name": "Carlos Alberto de Paiva Carvalho",
-      "professor_slug": null
+      "professor_slug": "carlos-alberto-carvalho"
     }
   ],
   "abstract": "O objetivo desse trabalho é desenvolver uma simulaçăo monte carlo para um míssil ar-ar guiado a laser com a finalidade de determinar os requisitos dos principais subsistemas do míssil sem inviabilizar a construçăo do mesmo e ao mesmo tempo garantir uma confiabilidade razoável (elevada kill probability), levando-se em consideraçăo erros e ruídos oriundos das leituras de sensores e erros na execuçăo de atuadores e na propulsăo do míssil. Foi utilizado como base para o desenvolvimento da simulaçăo o trabalho de graduaçăo [1] desta maneira foram implementadas algumas das sugestőes sugeridas pelo trabalho citado. A simulaçăo levou em consideraçăo a inserçăo de erros do tipo run-to-run e in-run nos seguintes subsistemas, aerodinâmica, propulsăo, navegaçăo, autodiretor, atuador e detecçăo da posiçăo e velocidade do alvo. Além disso foi estudado os casos em que há limitaçőes de leitura de dados como posiçăo e velocidade de tracking do alvo pelo audiretor e da distância de saturaçăo do audiretor, tais limitaçőes modelam o que ocorre num voo real.",

@@ -4,7 +4,7 @@
   "title": "Determination of the regression rate in a hybrid rocket motor by internal helmholtz frequency measurements",
   "author": "Isabel Pacheco Brasil de Matos",
   "year": "2023",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Leonardo Henrique Gouvęa",
-      "professor_slug": null
+      "professor_slug": "leonardo-henrique-gouvea"
     }
   ],
   "abstract": "Low thrust values obtained with a hybrid rocket motor (HRM) are a consequence of the difficulty in quickly mixing the fuel and oxidizer, which is characterized by a low regression rate of the fuel grain. Therefore, the measurement of this parameter is of great importance in studies that aim solutions for this deficiency in HRM. Historically, there is a lack of direct regression rate measurements for validation of theoretical models. In practice most mass-burning rates were determined by the net burned mass divided by the test duration, that yields an spatial and temporal average rate. However, this method does not capture the instantaneous fuel regression behaviour. A method to get closer results to instantaneous regression rate values is by acquiring the Helmholtz resonance frequency of the combustion chamber, establishing that the behaviour of the rocket engine chamber is equal to a Helmholtz resonator. This method results in time and space average regression rate values for smaller time intervals during the test. Using an existing laboratory scale test bench with high-density polyethylene (HDPE) and gaseous oxygen (GOX), the objective of this work is to use pressure sensors to obtain the Helmholtz frequency mode of the combustion chamber, in order to calculate the time and space average regression rate of the fuel grain. The average regression rate was also obtained with the fuel-mass loss method, that measured the average regression rate using the propellant mass and port diameter size before and after each motor firing. Finally, it was used an empirical correlation to calculate the regression rate using these different methods, knowing the fuel regression rate in HRM is dependent on the oxidizer mass flux through the port. These measurements were compared in a series of tests, determining the feasibility and accuracy of the regression rate measured by the Helmholtz frequency.",

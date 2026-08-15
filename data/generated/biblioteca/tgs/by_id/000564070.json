@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Daniel Ferreira Vieira de Mattos",
-      "professor_slug": null
+      "professor_slug": "daniel-vieira-mattos"
     }
   ],
   "abstract": "A Análise de Tolerância ao Dano (Damage Tolerant Anaylsis - DTA) de uma aeronave determina as condiçőes de manutençăo e inspeçăo de maneira a garantir a integridade estrutural da frota. Esta análise mapeia os pontos críticos das estruturas primárias da aeronave considerando os resultados dos ensaios originais de fadiga, a experięncia da manutençăo e a comparaçăo com outros projetos. Este tipo de análise é baseado em métodos determinísticos, utilizando de consideraçőes conservativas, quando necessário, para corrigir o erro proveniente do desvio padrăo. Para tornar esta análise mais realística pode-se adicionar variáveis probabilísticas com a execuçăo de uma análise de risco. Para a realizaçăo da análise de risco alguns fatores devem ser acrescentados ŕs conclusőes obtidas no DTA, tornando a análise mais realística possível. Além dos dados provenientes diretamente do DTA deve-se obter dados que representem características do material e geometria da estrutura, dados que representem a operaçăo da aeronave e dados sobre os métodos de inspeçăo utilizados e as características de reparo realizados na estrutura. Assim é conseguido que a manutençăo das aeronaves deixe de ser baseada apenas em dados determinísticos (conclusőes do DTA) e passe a ser auxiliada por dados probabilísticos.",

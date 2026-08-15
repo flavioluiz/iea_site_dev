@@ -4,7 +4,7 @@
   "title": "Comparing exact and meta-heuristic methods for solving the satellite task scheduling problem",
   "author": "Isabela Peixoto",
   "year": "2024",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Maria de Fátima Mattiello-Francisco",
-      "professor_slug": null
+      "professor_slug": "maria-fatima-francisco"
     }
   ],
   "abstract": "The ever-increasing number of satellites orbiting Earth pushes the need to automate processes on the ground segment or onboard the spacecraft. The autonomous Satellite Task Scheduling Problem (STSP) has played an important role in the space sector in recent decades. Meta-heuristic approaches are the most popular solving methods in the literature due to their reduced computing time. Nevertheless, such algorithms cannot prove the optimality of the solutions found. On the other hand, exact methods can always find the optimal solution, if it exists, at the cost of an exponentially growing time. However, state-of-the-art commercial solvers, through the implementation of assorted techniques, are nowadays able to find high-quality solutions within a reasonable time for various real-world problems. The present work investigates, through numerical simulations, the advantages and limitations of a modern commercial solver and meta-heuristic algorithms for solving the STSP under different scenarios. Results show that the commercial solver can solve small instances to optimality faster than the investigated meta-heuristic algorithms. However, it may take an infeasibly long time to solve large instances. Thus, it is an attractive solution for ground-based applications, where more time and computer power are usually available, although not very suitable for space-based applications, where having a rapid response is often preferred over having the best response possible. For such applications, the meta-heuristic approaches seem more appropriate. They show little variation in computing times due to data instance size increases, and can often provide near-optimal solutions. The analysis conducted in the present study may help on the management of satellite tasks in future Brazilian space missions.",

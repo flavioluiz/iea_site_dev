@@ -4,7 +4,7 @@
   "title": "Alternative method to calculate regression rate in hybrid rocket motors by analysis of helmholtz frequency",
   "author": "Rodrigo de Melo Silveira",
   "year": "2023",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Leonardo Henrique Gouvęa",
-      "professor_slug": null
+      "professor_slug": "leonardo-henrique-gouvea"
     }
   ],
   "abstract": "Hybrid rocket motors (HRM) represents a promising alternative for aerospace systems due its stop-start-restart capabilities, low cost, and high safety by using inert and stable fuel grains. Despite these advantages, hybrid propulsion has its application limited due to its lower regression rate, which is caused by the intrinsic difficulty to mix fuel and oxidant at its diffusion flame combustion. Studies in the literature focus on different solutions to overcome this limitation, providing efficiency improvements that need to be quantified by an appropriate measurement procedure for the regression rate of the fuel. A typical approach includes installation of measuring sensors inside the chamber, which sometimes can be impeditive to be replicated on flight HRM. Concerning the strategy for measuring regression rate, a space-time averaged approach has been successfully used for this purpose, but it can lead to large errors, especially for long-duration firings or configurations with large spatial variations in the burn profile. In this context, this study proposes a methodology applied to measurements made outside of the combustion chamber, capable of estimating the instantaneous regression rate along the burn time, based on the principle that a combustion chamber is related to a Helmholtz resonator and as burn progresses, unfilled volume inside chamber is inversely proportional to the associated Helmholtz frequency analysed by the amplitude spectrum, at the frequency domain, of the parameters measured outside of the chamber. A total of 13 hot tests were conducted on an existing laboratory scale test bench with high-density polyethylene (HDPE) and gaseous oxygen (GOX) with the purpose of identifying the instantaneous regression rates, and a total of 4 tests were successfully conducted with measurement of environment pressure and flame plume area oscillations during hot tests. Even with a reduced number of hot tests, the application of the proposed method was enough to generate 25 data points to estimate empirical parameters \"a\" and \"n\", related to the regression rate, which would require more than 20 hot tests using traditional methods of space-time average regression rate. The results obtained were consistent with the time-averaged estimative methods proposed on the literature of hybrid rocket motors as well as with other studies in the with HDPE as a fuel for hybrid rocket motors, highlighting the behavior of a decrease in regression rate as burn progresses.",

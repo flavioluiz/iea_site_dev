@@ -8,7 +8,7 @@
   "advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "co_advisors": [
@@ -22,7 +22,7 @@
     },
     {
       "name": "Ronaldo Vieira Cruz",
-      "professor_slug": null
+      "professor_slug": "ronaldo-vieira-cruz"
     }
   ],
   "abstract": "Este trabalho apresenta a concepçăo de sistemas de aumento de estabilidade e controle (SCAS - Stability and Control Augmentation System), suas implementaçőes e teste em simulador de voo para um modelo linear de corpo rígido com 6 graus de liberdade de uma aeronave de asas rotativas. Esses sistemas tęm o objetivo de simular diferentes características de estabilidade e qualidade de voo (QDV). Inicialmente, a estrutura do controlador é proposta descentralizada e proporcional, utilizando realimentaçăo estática de saída similar ao proposto em [Hoh 2003]. Para a síntese dos controladores foram usados os métodos de posicionamento sequencial de polos no lugar geométrico das raízes (LGR) e regulador linear quadrático (LQR) na forma apresentada em [Stevens e Lewis 2013]. Inicialmente foram feitas uma revisăo teórica sobre a dinâmica de voo e estabilidade de aeronaves de asas rotativas e uma análise do modelo linear utilizado. Para obtençăo das qualidades de voo desejadas, foi utilizado o posicionamento dos polos no LGR, utilizando os requisitos de amortecimento e frequęncia dos modos oscilatórios do modelo conforme estabelecido pela norma ADS-33E-PRF. Após a obtençăo do sistema de controle foi realizada a avaliaçăo de qualidade de voo no Simulador de Ensaios em Voo do Instituto de Pesquisas e Ensaios em Voo (IPEV) por dois pilotos experientes. Além do sistema inicialmente proposto, foram avaliadas outras estruturas de controle propostas pela norma ADS e encontradas na literatura, como: ACAH (Attitude Control Attitude Hold), o uso de filtro washout, de mixer e de compensadores. Também foram analisados o uso de atuadores e a síntese por desigualdades Matriciais Lineares (LMI's) para obtençăo de controladores de estado e de saída.",

@@ -1,14 +1,14 @@
 {
   "source": "biblioteca-digital-ita",
-  "generated_at": "2026-05-14T17:17:22Z",
-  "status": "migrated",
-  "records": 2810,
-  "pipeline_version": "legacy-migration-v1",
-  "last_complete_run": "2026-05-14T17:17:22Z",
+  "generated_at": "2026-08-15T23:05:46Z",
+  "status": "ok",
+  "records": 2814,
+  "pipeline_version": "1178a4e6b10c2ddd021e47a9c5effcfd8cf72cbd",
+  "last_complete_run": "2026-08-15T23:05:46Z",
   "counts": {
-    "teses_dissertacoes": 1896,
+    "teses_dissertacoes": 1900,
     "trabalhos_graduacao": 914,
-    "teses_dissertacoes_iea": 351,
-    "trabalhos_graduacao_iea": 271
+    "teses_dissertacoes_iea": 366,
+    "trabalhos_graduacao_iea": 387
   }
 }

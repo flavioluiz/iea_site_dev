@@ -4,7 +4,7 @@
   "title": "Otimizaçăo de trajetória de subida de EVTOL utilizando o método de colocaçăo direta",
   "author": "Andrei Luswarghi Souza Costa",
   "year": "2023",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "abstract": "Os avanços tecnológicos recentes permitiram o desenvolvimento de veículos elétricos multirrotores, capazes de decolagem e pouso verticais, com especial atençăo ao seu uso no setor de mobilidade urbana. Para concretizar essa nova tecnologia, no entanto, é necessário estudar cuidadosamente a otimizaçăo de funcionamento desses veículos, a fim de cumprir metas relacionadas ŕ eficięncia energética, ŕ segurança, ao conforto e ŕ operaçăo em ambientes urbaos, conduzindo adequadamente o desenvolvimento de novas legislaçőes e viabilizando economicamente todo esse novo mercado. Neste trabalho, foi avaliada a otimizaçăo de uma das fases mais críticas da trajetória de eVTOLs, a saber, a subida e o início da fase de cruzeiro, em termos de consumo energético, aplicando-se diferentes restriçőes pava avaliaçăo de seu impacto no valor da funçăo objetivo. A avaliaçăo foi realizada no plano vertical, com um modelamento de massa pontual de uma aeronave com rotores alinhados aos eixos horizontal e vertical da fuselagem. Foi utilizado o software PSOPT para implementaçăo de um método de colocaçăo direta, com discretizaçăo trapezoidal. Os resultados obtidos mostram que alívios nas restriçőes referentes ŕ traçăo em ambos os eixos tęm pouco impacto no consumo final, enquanto restriçőes de tempo mínimo de manobra e velocidade final tęm impacto significativo.",

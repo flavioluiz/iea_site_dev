@@ -14,7 +14,7 @@
   "co_advisors": [
     {
       "name": "Daniel Ferreira Vieira de Mattos",
-      "professor_slug": null
+      "professor_slug": "daniel-vieira-mattos"
     }
   ],
   "abstract": "O presente estudo se dedica ao desenvolvimento de uma ferramenta de análise de risco estrutural. Leva-se em conta o fato de que a maioria dos parâmetros envolvidos no processo de fadiga tem uma variaçăo, e considera-se năo o seu valor determinístico, mas a distribuiçăo probabilística de cada uma delas, e tem-se a finalidade de avaliar a confiabilidade do intervalo de inspeçăo, de maneira a fornecer uma ampla gama de opçőes para decisőes quanto ŕ inspeçăo, reposiçăo, reparo e retirada de serviço da frota. Os parâmetros necessários ao desenvolvimento dessa ferramenta săo baseados no programa de inspeçăo e na análise de tolerância ao dano das aeronaves. A partir dos dados disponíveis, é necessária a determinaçăo da curva de distribuiçăo de cada um desses parâmetros para a posterior análise de risco. Esse estudo considera que essas curvas săo conhecidas, e a partir delas determina o risco associado a um intervalo de inspeçăo.",

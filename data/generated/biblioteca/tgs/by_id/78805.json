@@ -8,13 +8,13 @@
   "advisors": [
     {
       "name": "Maurício Andrés Varela Morales",
-      "professor_slug": null
+      "professor_slug": "mauricio-andres-morales"
     }
   ],
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "Em um mundo cada vez mais digitalizado e com crescente preocupaçăo ambiental e com a segurança, torna-se cada vez mais premente a necessidade do uso de simuladores de voo para o treinamento de tripulaçőes, em substituiçăo ao treinamento convencional em aeronaves. Para tanto, é necessário que tais simuladores representem a Mecânica do Voo da referida aeronave com alta fidedignidade. Tendo em vista este cenário, o presente trabalho consistiu obter as derivadas de estabilidade e controle da aeronave T-27 Tucano (EMB-312), com o intuito de implementar um modelo de alta fidelidade em simuladores de voo destinados a instruçăo avançada de pilotos e ao treinamento de Pilotos e Engenheiros de Prova. Para tal, utilizaram-se ferramentas e técnicas de Identificaçăo de Sistemas aplicadas a dados oriundos de Ensaios em Voo em combinaçăo com dados de ensaios em túnel de vento. Para lidar eficazmente com os dados de diferentes fontes, foi proposto um modelo Delta, no qual se obtęm inicialmente os coeficientes de forças e momentos a partir da interpolaçăo dos dados de túnel de vento, aplicando-se em seguida pequenas correçőes nas derivadas em relaçăo aos ângulos de ataque e derrapagem, e acrescentando os efeitos dinâmicos (oriundos da diferente incidęncia aerodinâmica em partes da aeronave decorrentes dos movimentos de rotaçăo) e propulsivos (oriundos da variaçăo na pressăo dinâmica sobre partes da aeronave em decorręncia do sopro da hélice). Foi utilizado, entăo, o método de erro na saída, com algoritmo de minimizaçăo de Gauss-Newton, para se estimar as derivadas dinâmicas e propulsivas e as correçőes (deltas) nas derivadas estáticas do referido modelo. Visando, ainda, minimizar o impacto do erro dos sensores sobre a qualidade dos resultados obtidos, foram propostos modelos para esses erros, realizando-se sua estimaçăo previamente ŕ estimaçăo das derivadas de interesse. Os erros do sistema anemométrico foram estimados separadamente para cada condiçăo de voo, enquanto os erros do sistema inercial foram estimados para cada voo. Foi, ainda, proposto um modelo para variaçăo das inércias em rotaçăo ocasionada pela mudança das tripulaçőes e consumo de combustível. O presente trabalho permitiu a obtençăo de um modelo combinado baseado em ensaios de túnel de vento e dados de ensaio em voo. Foi possível verificar que a simulaçăo apresentou nível elevado de fidelidade ŕs saídas medidas em voo, com erros maiores em manobras com movimento predominante de guinada, indicando a necessidade de um maior refinamento do modelo ou a coleta de novos dados de ensaio nessas condiçőes.",

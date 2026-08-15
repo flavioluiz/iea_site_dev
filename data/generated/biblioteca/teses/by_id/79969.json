@@ -4,7 +4,7 @@
   "title": "Identificaçăo do sistema de comando de voo reversível de uma aeronave de asa fixa",
   "author": "Matheus Pacheco Guanabara Santiago",
   "year": "2024",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Bruno Giordano de Oliveira Silva",
-      "professor_slug": null
+      "professor_slug": "bruno-giordano-silva"
     }
   ],
   "abstract": "As metodologias de identificaçăo de sistemas săo amplamente empregadas no meio aeronáutico para a estimativa dos modelos dos sistemas aerodinâmico, propulsivo e de controle de voo. Tais modelos podem ser implementados em simuladores para propiciar treinamento aos tripulantes. Nesse trabalho, o foco está na modelagem dos controles de voo da aeronave T-27M Tucano para implementaçăo nos simuladores da AFA e do IPEV. A arquitetura do modelo proposto é baseada em uma compreensăo física da mecânica do sistema de controle para cada eixo, assim como na teoria aerodinâmica dos hinge moments de cada superfície de controle. Uma campanha de ensaios em voo foi planejada e executada para obtençăo dos dados necessários ŕ identificaçăo. Foram ensaiadas oito condiçőes de velocidade, altitude e configuraçăo de flapes e trem de pouso, assim como realizados testes em solo com o motor cortado. Além disso, um voo de acrobacias foi realizado para validaçăo do modelo em um ambiente operacional. Primeiramente empregou-se os dados de solo para estimar os parâmetros equivalentes da cadeia de comando por meio do método Equation Error. Em seguida, utilizando as mediçőes em cada condiçăo de voo, fez-se uso da metodologia Stepwise Regression para escolha dos regressos prevalentes em cada eixo de controle e posterior estimativa dos coeficientes aerodinâmicos. A validaçăo de cada modelo local foi realizada utilizando uma gama extra de manobras. Concluiu-se que as modelagens locais obtidas conseguem representar satisfatoriamente o comportamento real das forças nos comandos de voo. A principal limitaçăo do modelo ocorre nos inputs repentinos, situaçăo na qual a modelagem prevę overshoots, mas rapidamente retorna para valores de força representativos dos ensaios. Por fim, buscou-se um modelo geral de interpolaçăo baseado na pressăo dinâmica e em offsets de configuraçăo para computar os efeitos dos flapes e trem de pouso. O modelo geral foi validado com os dados do voo acrobático, sendo capaz de representar o comportamento dos controles de voo de forma satisfatória.",

@@ -4,7 +4,7 @@
   "title": "Applying MDO to classical conceptual aircraft design methodologies",
   "author": "Luiz Fernando Tibério Fernandez",
   "year": "2019",
-  "course": "Mestrado Acadęmico",
+  "course": "Mestrado Acadêmico",
   "area": "",
   "program": "Engenharia Aeronáutica e Mecânica",
   "advisors": [
@@ -16,7 +16,7 @@
   "co_advisors": [
     {
       "name": "Adson Agrico de Paula",
-      "professor_slug": null
+      "professor_slug": "adson-agrico-paula"
     }
   ],
   "abstract": "This work starts with a review of the existing aircraft design methodologies and the wide range of modern computational optimization and simulation tools to suggest a new initial aircraft design technique characterized by the insertion of these computational techniques in the original sequence proposed by the aircraft design book authors. We propose the replacement of the so--called initial sizing via constraint analysis, design phase when the wing area, aircraft thrust and initial weight estimation are calculated, for a nonlinear optimization loop, allowing not only the design of an optimized aircraft design since its beginning, but also replacing the need for similar aircraft historical data with low-order simulations, which makes its application interesting for non-conventional aircraft and allows the insertion of operational requirements not commonly addressed at this stage, such as effective perceived noise levels and direct operating costs. In this work, aspects of the implementation, selection of design variables, constraints, and the impact of different objective functions are discussed. In conclusion, we performed a test case comparing the application of the proposed methodology with the traditional one in the design of an aircraft with a set of requirements similar to those of Boeing 757, and for this case we obtained an aircraft fairly close to the real B757 in terms of W/S and T/W, further on this test allowed us to conclude that the use of MDO also made it possible to retain knowledge earlier in the design, calculating parameters that in the classical design cycle would only be known in later steps.",
