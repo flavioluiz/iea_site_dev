@@ -1,9 +1,7 @@
 {{ define "main" }}
 {{ $lang := .Language.Lang }}
 {{ $labs := .Site.Data.laboratorios.laboratorios }}
-
-{{/* The 7 featured labs in display order */}}
-{{ $featured := slice "lab-feng" "lcpe" "ltf" "lnca" "lab-esp" "lasca" "cei" "conceptio" }}
+{{ $departamentos := .Site.Data.departamentos.departamentos }}
 
 {{/* Visual config per lab: gradient colors and icon path */}}
 {{ $visuals := dict
@@ -35,16 +33,28 @@
 
   {{/* Lab cards grid */}}
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-    {{ range $featured }}
-      {{ $id := . }}
-      {{ $labMatches := where $labs "id" $id }}
-      {{ $lab := false }}
-      {{ if $labMatches }}{{ $lab = index $labMatches 0 }}{{ end }}
-      {{ if $lab }}
+    {{ range $lab := $labs }}
+      {{ $id := $lab.id }}
       {{ $v := index $visuals $id }}
-      {{ $from := $v.from }}
-      {{ $to   := $v.to }}
-      {{ $icon := $v.icon }}
+      {{ $deptMatches := where $departamentos "id" $lab.departamento }}
+      {{ $deptData := false }}
+      {{ if $deptMatches }}{{ $deptData = index $deptMatches 0 }}{{ end }}
+      {{ $from := "#1e40af" }}
+      {{ $to := "#3b82f6" }}
+      {{ $icon := "puzzle" }}
+      {{ if $deptData }}
+        {{ $from = $deptData.cor | default $from }}
+        {{ $to = $deptData.cor | default $to }}
+      {{ end }}
+      {{ if $v }}
+        {{ $from = $v.from }}
+        {{ $to = $v.to }}
+        {{ $icon = $v.icon }}
+      {{ end }}
+      {{ with $lab.cor }}
+        {{ $from = . }}
+        {{ $to = . }}
+      {{ end }}
       {{ $nome := $lab.nome_pt }}
       {{ $desc := $lab.descricao_pt | plainify }}
       {{ $infra := $lab.infraestrutura }}
@@ -54,7 +64,8 @@
         {{ $infra = $lab.infraestrutura_en | default $lab.infraestrutura }}
       {{ end }}
 
-      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col">
+      <div class="group bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col"
+           data-lab-id="{{ $lab.id }}">
 
         {{/* Visual header — uploaded photo or gradient fallback */}}
         {{ with $lab.imagens }}
@@ -123,6 +134,17 @@
             {{ $nome }}
           </h2>
 
+          <div class="flex flex-wrap gap-2 mb-3">
+            {{ if $deptData }}
+              <span class="inline-block px-2 py-0.5 rounded-full text-xs font-semibold text-white" style="background-color: {{ $deptData.cor }};">
+                {{ $deptData.sigla }}
+              </span>
+            {{ end }}
+            <span class="inline-block px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600">
+              {{ if eq $lab.tema "espacial" }}{{ if eq $lang "en" }}Space{{ else }}Espacial{{ end }}{{ else if eq $lab.tema "ambos" }}{{ if eq $lang "en" }}Aeronautics and space{{ else }}Aeronáutica e espacial{{ end }}{{ else }}{{ if eq $lang "en" }}Aeronautics{{ else }}Aeronáutica{{ end }}{{ end }}
+            </span>
+          </div>
+
           <p class="text-sm text-gray-600 leading-relaxed mb-4 flex-1">
             {{ $desc | truncate 280 "…" }}
           </p>
@@ -131,6 +153,19 @@
           <div class="mb-4 text-sm text-gray-600">
             <span class="font-semibold text-gray-700">{{ if eq $lang "en" }}Contacts{{ else }}Responsáveis{{ end }}:</span>
             {{ delimit . ", " }}
+          </div>
+          {{ end }}
+
+          {{ with $lab.projetos_associados }}
+          <div class="mb-4 text-sm text-gray-600">
+            <span class="font-semibold text-gray-700">{{ if eq $lang "en" }}Associated projects{{ else }}Projetos associados{{ end }}:</span>
+            {{ delimit . "; " }}
+          </div>
+          {{ end }}
+
+          {{ with $lab.tags }}
+          <div class="flex flex-wrap gap-1.5 mb-4">
+            {{ range . }}<span class="inline-block px-2 py-0.5 rounded-md text-xs bg-gray-100 text-gray-600">{{ . }}</span>{{ end }}
           </div>
           {{ end }}
 
@@ -180,7 +215,6 @@
           </div>
         </div>
       </div>
-      {{ end }}
     {{ end }}
   </div>
 

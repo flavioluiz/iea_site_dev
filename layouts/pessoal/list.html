@@ -48,7 +48,8 @@
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {{ range $membros }}
                   {{ $profileURL := relLangURL (printf "pessoal/%s/" .id) }}
-                  <article class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200">
+                  <article class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 hover:bg-white hover:shadow-sm transition-all border border-transparent hover:border-gray-200"
+                           data-person-id="{{ .id }}">
                     <div class="flex-shrink-0 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-sm flex items-center justify-center text-white font-semibold text-2xl"
                          style="background-color: {{ $deptData.cor }}">
                       <a href="{{ $profileURL }}" class="w-full h-full flex items-center justify-center" aria-label="{{ .nome }}">

@@ -9,14 +9,21 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-eval' https://unpkg.com; style-src 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https://avatars.githubusercontent.com https://github.com; connect-src 'self' https://api.github.com https://github.com https://unpkg.com https://*.workers.dev; frame-src https://github.com https://*.workers.dev; font-src data: https://fonts.gstatic.com; object-src 'none'; base-uri 'self'; form-action https://github.com">
     <title>Editor de conteúdo — IEA/ITA</title>
     <style>
-      body { margin: 0; font-family: system-ui, sans-serif; color: #172033; background: #f5f7fb; }
+      html, body { margin: 0; min-height: 100%; }
+      body { font-family: system-ui, sans-serif; color: #172033; background: #f5f7fb; }
       .loading { max-width: 680px; margin: 10vh auto; padding: 2rem; background: white; border-radius: 1rem; box-shadow: 0 8px 30px #17203318; }
       .loading h1 { color: #173b73; }
       .loading li { margin: .6rem 0; }
+      .loading[hidden] { display: none; }
+      body.cms-ready { background: white; }
+      #nc-root { min-height: 100vh; }
+      @media (max-width: 720px) {
+        .loading { margin: 1rem; padding: 1.25rem; }
+      }
     </style>
   </head>
   <body>
-    <div class="loading">
+    <div id="cms-loading" class="loading" role="status" aria-live="polite">
       <h1>Editor do site IEA/ITA</h1>
       <p>Você não precisa conhecer Git nem editar código.</p>
       <ol>
@@ -27,6 +34,7 @@
       </ol>
       <p>Carregando o painel…</p>
     </div>
+    <script src="./admin-shell.js"></script>
     <script src="./frame-guard.js"></script>
     <script src="https://unpkg.com/decap-cms@3.15.1/dist/decap-cms.js"
             integrity="sha384-in6eHztHveqQ7uMZ1fDaKlDmacQLFuLH2wWrFTiymyuS8zQ5bixwL8U3AeRi8h/L"
