@@ -1,0 +1,62 @@
+{
+  "id": "mauricio-v-donadon",
+  "nome": "Maurício Vicente Donadon",
+  "nome_destaque": "Donadon",
+  "ativo": true,
+  "departamento": "iea-e",
+  "categoria": "Professor Associado",
+  "posto": "",
+  "cargos": [],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/mauricio-v-donadon.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/1493239952726031",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57211220634",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": "http://www.lnca.ita.br/"
+  },
+  "scopus_author_ids": [
+    "57211220634"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Estruturas aeroespaciais",
+      "Materiais compósitos",
+      "Aeroelasticidade",
+      "Materiais multifuncionais"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Mauricio Vicente Donadon possui graduação em Engenharia Mecânica pela Universidade do Estado de Santa Catarina (1997), mestrado em Engenharia Aeronáutica e Mecânica pelo Instituto Tecnológico de Aeronáutica (2000), doutorado e pos-doutorado em Engenharia Aeroespacial - Imperial College London - University of London (2005). Tem experiência na área de Engenharia Aeroespacial, com ênfase em Projeto de Estruturas Aeroespaciais, atuando principalmente nos seguintes temas: materiais compósitos, estruturas inteligentes, elementos finitos, impacto, fabricacao de compositos, woven fabrics, aeroelasticidade e morphing wing design. Atualmente é Professor Associado e Pró-Reitor de Pesquisa e Relacionamento Institucional do Instituto Tecnológico de Aeronáutica e atua na área de projeto aeronáutico, estruturas e sistemas aeroespaciais.",
+    "en": "Mauricio Vicente Donadon possui graduação em Engenharia Mecânica pela Universidade do Estado de Santa Catarina (1997), mestrado em Engenharia Aeronáutica e Mecânica pelo Instituto Tecnológico de Aeronáutica (2000), doutorado e pos-doutorado em Engenharia Aeroespacial - Imperial College London - University of London (2005). Tem experiência na área de Engenharia Aeroespacial, com ênfase em Projeto de Estruturas Aeroespaciais, atuando principalmente nos seguintes temas: materiais compósitos, estruturas inteligentes, elementos finitos, impacto, fabricacao de compositos, woven fabrics, aeroelasticidade e morphing wing design. Atualmente é Professor Associado e Pró-Reitor de Pesquisa e Relacionamento Institucional do Instituto Tecnológico de Aeronáutica e atua na área de projeto aeronáutico, estruturas e sistemas aeroespaciais."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2002 - 2005",
+      "instituicao": "Engenharia Aeroespacial",
+      "titulo": "The Impact Behaviour of Composite Structures Manufactured using Resin Infusion under Flexible Tooling (RIFT) Process, Ano de obtenção: 2005",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2015,
+      "titulo": "Premio Weiss de Excelência em Docência, CASD/ITA."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "Sim - Nível A",
+  "fonte": "data/pessoal/iea-e.yaml",
+  "verificado_em": "2026-08-14"
+}

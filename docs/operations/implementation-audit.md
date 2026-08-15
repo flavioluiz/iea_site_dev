@@ -7,7 +7,7 @@ Estado conferido em 14/08/2026. “Implementado localmente” significa que o c�
 | Fase | Evidência principal | Estado comprovado | Pendência externa ou de aceite |
 |---|---|---|---|
 | 0 — Segurança e governança | `scripts/security_check.py`, backup privado verificado, `main` refeito como commit-raiz, credencial Scopus revogada, fonte pública com aceite do risco residual | Ativado | MFA, dois mantenedores e política de metadados |
-| 1 — Dados/professores | `data/pessoal/professores.json`, schemas, migração, relatório, Content Adapters | Implementado localmente | Revisão institucional final dos 57 ativos e 33 inativos |
+| 1 — Dados/professores | fichas em `data/pessoal/professores/`, schemas, migração, relatório, Content Adapters | Implementado localmente | Revisão institucional final dos 57 ativos e 33 inativos |
 | 2 — CI/proteção editorial | `ci.yml`, validação cruzada, segurança, links, diff semântico, `CODEOWNERS`, ruleset, secret scanning e push protection ativos | Implementado e executado no GitHub | Definir segundo publicador e a credencial restrita para PRs automáticos |
 | 3 — Decap CMS | `/admin/`, coleções pedagógicas, uploads, Open Authoring e workflow editorial; fonte pública | Implementado localmente | Publicar o painel e testar conta externa/editor/publicador |
 | 4 — Worker OAuth | Worker ao vivo, allowlist, state assinado, PKCE, origem estrita e oito testes | Ativado parcialmente | Testar callback humano permitido/negado, cancelamento, expiração e revogação no painel publicado |

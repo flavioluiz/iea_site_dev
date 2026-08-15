@@ -122,7 +122,7 @@ def canonical_record(
     professor_id = (member or {}).get("id") or profile["id"]
     raw_photo = profile.get("foto") or ""
     photo_file = root / "static" / "images" / "pessoal" / Path(raw_photo).name
-    photo = f"/images/pessoal/{photo_file.name}" if raw_photo and photo_file.is_file() else ""
+    photo = f"images/pessoal/{photo_file.name}" if raw_photo and photo_file.is_file() else ""
     scopus_author_id = (profile.get("scopus_ids") or {}).get("author_id")
 
     cargos: list[str] = []
@@ -236,10 +236,7 @@ def migrate(root: Path) -> None:
         if professor_id not in active_ids
     ]
 
-    canonical = {
-        "schema_version": 1,
-        "professores": active_records + inactive_records,
-    }
+    canonical_records = active_records + inactive_records
     generated = {
         "schema_version": 1,
         "autores": {
@@ -261,7 +258,14 @@ def migrate(root: Path) -> None:
         "last_complete_run": f"{max(update_dates)}T00:00:00Z" if update_dates else None,
     }
 
-    write_json(root / "data" / "pessoal" / "professores.json", canonical)
+    people_dir = root / "data" / "pessoal" / "professores"
+    people_dir.mkdir(parents=True, exist_ok=True)
+    expected_names = {f"{record['id']}.json" for record in canonical_records}
+    for stale in people_dir.glob("*.json"):
+        if stale.name not in expected_names:
+            stale.unlink()
+    for record in canonical_records:
+        write_json(people_dir / f"{record['id']}.json", record)
     write_json(root / "data" / "generated" / "scopus" / "autores.json", generated)
     write_json(root / "data" / "generated" / "scopus" / "manifest.json", manifest)
     report = render_report(active_records, inactive_records, members, profiles, notices)

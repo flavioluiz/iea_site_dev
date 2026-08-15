@@ -5,7 +5,7 @@ Para editores sem conhecimento técnico, use o [painel Decap CMS](decap.md). Ele
 | Conteúdo | Fonte canônica |
 |---|---|
 | Páginas institucionais | `content/` |
-| Pessoas e professores | `data/pessoal/professores.json` |
+| Pessoas e professores | uma ficha por pessoa em `data/pessoal/professores/` |
 | Departamentos, laboratórios, projetos e linhas | arquivos JSON em `data/` |
 | Horários, salas e documentos | `data/documentos.json` + `static/documents/` |
 | Fotos de pessoas | `static/images/pessoal/` |
@@ -14,5 +14,5 @@ Para editores sem conhecimento técnico, use o [painel Decap CMS](decap.md). Ele
 Publicações, teses e TGs em `data/generated/` não aparecem no CMS: são derivados dos pipelines e não devem ser editados manualmente.
 
 - [Guia passo a passo do CMS](decap.md)
-- [Edição JSON em massa](bulk-json.md)
+- [Importação JSON em lote](bulk-json.md)
 - [Relatório da migração de professores](migration-report.md)

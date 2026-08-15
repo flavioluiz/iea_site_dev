@@ -9,7 +9,9 @@ Endereço do piloto: <https://flavioluiz.github.io/iea_site/admin/>.
 3. Abra o painel, clique em **Entrar com GitHub** e autorize o aplicativo IEA CMS.
 4. Se aparecer “conta não autorizada”, envie ao mantenedor o nome exibido no seu perfil GitHub; não envie senha nem código de autenticação.
 
-A autorização dá acesso ao formulário, não permissão para publicar. Cada mudança é enviada para revisão e só um publicador incorpora o pull request.
+Contas externas autorizadas podem preencher formulários e enviar para revisão, mas não publicam. Contas mantenedoras do repositório também veem os estados **Pronto** e o comando **Publicar**.
+
+Os estados não fazem a mesma coisa: **Rascunho** ainda está sendo preparado; **Em revisão** pede conferência; **Pronto** indica revisão concluída; **Ver pré-visualização** apenas abre o site de teste; somente **Publicar** mescla a proposta e inicia a atualização do site.
 
 ## Fazer uma atualização básica
 
@@ -17,15 +19,18 @@ A autorização dá acesso ao formulário, não permissão para publicar. Cada m
 2. Abra o registro pelo nome.
 3. Altere apenas os campos necessários; leia as dicas abaixo de cada campo.
 4. Clique em **Salvar** e escreva um resumo curto, por exemplo “Atualizar sala da disciplina X”.
-5. Confira a prévia indicada no pull request.
-6. Mova para **Pronto para revisão**. O mantenedor recebe o pedido e pode aprovar ou solicitar correção.
+5. Mude para **Em revisão**.
+6. Confira a prévia indicada no pull request. O mantenedor pode pedir correção ou marcar como **Pronto** e publicar.
+
+Se **Publicar** der erro, aguarde os testes e a prévia terminarem e tente novamente. Trocar o estado para Rascunho e de volta para Pronto não corrige a proposta.
 
 ## Trocar ou adicionar foto
 
 1. Entre em **2. Pessoas e professores** e abra a pessoa.
-2. No campo **Foto**, escolha JPEG, PNG ou WebP de até 2 MB.
-3. Use retrato institucional autorizado, entre 80 e 4096 pixels, e nome simples como `nome-sobrenome.jpg`.
-4. Salve e confira corte, orientação e legenda na prévia.
+2. Use **Filtrar por** para situação, departamento ou categoria. Em **Visualizar como**, escolha cartões para ver as fotos na lista.
+3. No campo **Foto**, escolha JPEG, PNG ou WebP de até 2 MB.
+4. Use retrato institucional autorizado, entre 80 e 4096 pixels, e nome simples como `nome-sobrenome.jpg`.
+5. Salve e confira corte, orientação e legenda na prévia.
 
 Arquivos disfarçados de imagem, formatos inesperados e dimensões fora do limite são bloqueados automaticamente.
 
@@ -53,3 +58,5 @@ O servidor confere a assinatura real do PDF; mudar a extensão de outro arquivo 
 - Campos PT e EN devem ser revisados juntos quando existirem.
 
 O próprio painel contém um guia resumido em `/admin/guia.html`.
+
+Para vários registros de uma só vez, um mantenedor usa o [importador JSON em lote](bulk-json.md), que mostra uma prévia e bloqueia sobrescritas até a confirmação.

@@ -27,14 +27,14 @@ O colaborador externo deve, sem terminal:
 
 O editor pede uma correção; o usuário a faz no mesmo fluxo. O publicador confere checks, diff semântico e preview antes do merge.
 
-## Sessão 2 — JSON completo e mensagens de erro
+## Sessão 2 — importação JSON em lote e mensagens de erro
 
-O segundo usuário deve, pelo editor web do GitHub:
+O segundo usuário, acompanhado por um mantenedor, deve:
 
-1. abrir `data/pessoal/professores.json` e baixar uma cópia de segurança;
-2. introduzir deliberadamente um campo desconhecido em um registro de teste;
-3. observar o check falhar e localizar o caminho exato do erro;
-4. corrigir o JSON e alterar somente um campo autorizado;
+1. preparar um lote descartável com registros de teste;
+2. executar o importador sem `--apply` e explicar a prévia de novos/atualizados;
+3. introduzir deliberadamente um campo desconhecido e observar a recusa com o caminho exato;
+4. corrigir o JSON e confirmar a importação numa branch;
 5. ler o relatório semântico e explicar quem foi alterado;
 6. confirmar que uma mudança em mais de dez pessoas exige `bulk-reviewed`;
 7. enviar o PR e conferir a prévia.

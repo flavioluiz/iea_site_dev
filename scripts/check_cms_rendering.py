@@ -7,6 +7,8 @@ import argparse
 import json
 from pathlib import Path
 
+from people_data import load_professors
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -46,7 +48,7 @@ def main() -> int:
     lines = [item["id"] for item in load_records("linhas_pesquisa.json", "linhas")]
     people = [
         item["id"]
-        for item in load_records("pessoal/professores.json", "professores")
+        for item in load_professors(ROOT)
         if item["ativo"]
     ]
     projects = [

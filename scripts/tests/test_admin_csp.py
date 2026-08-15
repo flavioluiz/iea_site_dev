@@ -44,6 +44,13 @@ class AdminCspTests(unittest.TestCase):
         self.assertNotIn("Editar JSON completo", help_script)
         self.assertNotIn("/edit/main/data/", help_script)
 
+    def test_admin_explains_statuses_and_account_roles(self) -> None:
+        help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+        self.assertIn("Entenda o fluxo", help_script)
+        self.assertIn("Editor externo", help_script)
+        self.assertIn("Mantenedor", help_script)
+        self.assertIn("Só <strong>Publicar</strong> altera o site no ar", help_script)
+
     def test_admin_logo_uses_the_current_site_origin(self) -> None:
         config = (ROOT / "static/admin/config.yml").read_text(encoding="utf-8")
         self.assertIn("logo_url: ../images/ita_logo.png", config)

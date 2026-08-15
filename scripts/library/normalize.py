@@ -15,6 +15,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from people_data import load_professors
+
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_PREVIOUS = ROOT / "data" / "generated" / "biblioteca"
@@ -107,7 +110,7 @@ def diff_ids(current: list[dict[str, Any]], previous: list[dict[str, Any]], kind
 
 
 def active_professor_ids() -> set[str]:
-    professors = load(ROOT / "data" / "pessoal" / "professores.json")["professores"]
+    professors = load_professors(ROOT)
     return {item["id"] for item in professors if item["ativo"]}
 
 
@@ -127,7 +130,7 @@ def prior_advisor_map(previous: Path) -> dict[str, str]:
 
 
 def curated_advisor_map() -> dict[str, str]:
-    professors = load(ROOT / "data" / "pessoal" / "professores.json")["professores"]
+    professors = load_professors(ROOT)
     mapping = {normalized_name(item["nome"]): item["id"] for item in professors if item["ativo"]}
     aliases = load(ROOT / "data" / "pessoal" / "aliases_biblioteca.json")["aliases"]
     mapping.update({normalized_name(item["nome_fonte"]): item["professor_id"] for item in aliases})

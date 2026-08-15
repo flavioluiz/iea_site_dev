@@ -8,7 +8,7 @@
     {{/* Photo Section */}}
     <div class="relative bg-gradient-to-br from-gray-100 to-gray-200 aspect-square">
       {{ $photoPath := $prof.foto }}
-      {{ if (fileExists (printf "static%s" $photoPath)) }}
+      {{ if (fileExists (printf "static/%s" (strings.TrimPrefix "/" $photoPath))) }}
         <img src="{{ $photoPath | relURL }}"
              alt="{{ $prof.nome }}"
              class="w-full h-full object-cover object-top">

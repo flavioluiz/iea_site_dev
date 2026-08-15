@@ -1,0 +1,62 @@
+{
+  "id": "flavio-luiz-c-ribeiro",
+  "nome": "Flávio Luiz Cardoso Ribeiro",
+  "nome_destaque": "Cardoso-Ribeiro",
+  "ativo": true,
+  "departamento": "iea-b",
+  "categoria": "Professor Associado",
+  "posto": "",
+  "cargos": [
+    "Vice-Chefe da Divisão"
+  ],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/flavio-luiz-c-ribeiro.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/8718918697253341",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=46461159000",
+    "orcid": "https://orcid.org/0000-0002-6454-9671",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": "http://flavioluiz.github.io/"
+  },
+  "scopus_author_ids": [
+    "46461159000"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Modelagem, simulação e controle de sistemas dinâmicos",
+      "Dinâmica do voo"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Possui graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica (2008), mestrado em Engenharia Aeronautica pelo Instituto Tecnológico de Aeronáutica (2011) e doutorado em Automatique - Université de Toulouse (2016). Atualmente é professor adjunto do Instituto Tecnológico de Aeronáutica. Tem experiência na área de Engenharia Aeroespacial, com ênfase em Engenharia Aeroespacial, atuando principalmente nos seguintes temas: aeroelasticidade, dinâmica de voo, estabilidade dinâmica e aeronaves flexíveis.",
+    "en": "Possui graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica (2008), mestrado em Engenharia Aeronautica pelo Instituto Tecnológico de Aeronáutica (2011) e doutorado em Automatique - Université de Toulouse (2016). Atualmente é professor adjunto do Instituto Tecnológico de Aeronáutica. Tem experiência na área de Engenharia Aeroespacial, com ênfase em Engenharia Aeroespacial, atuando principalmente nos seguintes temas: aeroelasticidade, dinâmica de voo, estabilidade dinâmica e aeronaves flexíveis."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2013 - 2016",
+      "instituicao": "Automatique",
+      "titulo": "Port-Hamiltonian modeling and control of a fluid-structure system:  Application to sloshing phenomena in a moving container coupled to a flexible structure, Ano de obtenção: 2016",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2013,
+      "titulo": "Professor homenageado, formandos de Eng. Aeronáutica, ITA."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "Sim - Nível C",
+  "fonte": "data/pessoal/iea-b.yaml",
+  "verificado_em": "2026-08-14"
+}

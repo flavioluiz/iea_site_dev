@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import subprocess
 import sys
 import unicodedata
 from pathlib import Path
@@ -16,6 +15,8 @@ from urllib.parse import urlparse
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 from PIL import Image, UnidentifiedImageError
+
+from people_data import load_professors, load_professors_at_ref
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -116,10 +117,14 @@ def valid_orcid(value: str) -> bool:
 
 
 def validate_professors(problems: Problems) -> tuple[dict[str, dict[str, Any]], set[str]]:
-    canonical_path = ROOT / "data" / "pessoal" / "professores.json"
-    problems.extend(schema_errors(canonical_path, ROOT / "schemas" / "professores.schema.json"))
-    data = load_json(canonical_path)
-    professors = data["professores"]
+    canonical_dir = ROOT / "data" / "pessoal" / "professores"
+    professors = load_professors(ROOT)
+    schema = load_json(ROOT / "schemas" / "professores.schema.json")
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    wrapped = {"schema_version": 1, "professores": professors}
+    for error in sorted(validator.iter_errors(wrapped), key=lambda item: list(item.absolute_path)):
+        location = "/".join(str(part) for part in error.absolute_path) or "<raiz>"
+        problems.add(f"data/pessoal/professores/:{location}: {error.message}")
     by_id: dict[str, dict[str, Any]] = {}
     scopus_owners: dict[str, str] = {}
     department_records = load_json(ROOT / "data" / "departamentos.json")["departamentos"]
@@ -127,6 +132,9 @@ def validate_professors(problems: Problems) -> tuple[dict[str, dict[str, Any]], 
 
     for index, professor in enumerate(professors):
         professor_id = professor.get("id", f"<índice-{index}>")
+        expected_path = canonical_dir / f"{professor_id}.json"
+        if not expected_path.is_file():
+            problems.add(f"{professor_id}: o nome do arquivo deve ser {professor_id}.json")
         if professor_id in by_id:
             problems.add(f"ID de pessoa duplicado: {professor_id}")
         by_id[professor_id] = professor
@@ -324,18 +332,16 @@ def validate_cross_references(
 
 
 def changed_professor_ids(base_ref: str, current: dict[str, dict[str, Any]], problems: Problems) -> set[str]:
-    command = ["git", "show", f"{base_ref}:data/pessoal/professores.json"]
-    result = subprocess.run(command, cwd=ROOT, capture_output=True, text=True, check=False)
-    if result.returncode != 0:
-        # The first canonical-data migration legitimately has no base file.
-        # Treat every current record as changed so the bulk-reviewed gate still applies.
-        return set(current)
     try:
-        base_data = json.loads(result.stdout)
+        base_records = load_professors_at_ref(ROOT, base_ref)
     except json.JSONDecodeError as exc:
         problems.add(f"cadastro base inválido em {base_ref}: {exc}")
         return set()
-    base = {item["id"]: item for item in base_data["professores"]}
+    if base_records is None:
+        # The first canonical-data migration legitimately has no base file.
+        # Treat every current record as changed so the bulk-reviewed gate still applies.
+        return set(current)
+    base = {item["id"]: item for item in base_records}
     return {professor_id for professor_id in set(base) | set(current) if base.get(professor_id) != current.get(professor_id)}
 
 

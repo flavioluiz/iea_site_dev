@@ -1,0 +1,60 @@
+{
+  "id": "rodrigo-costa-moura",
+  "nome": "Rodrigo Costa Moura",
+  "nome_destaque": "Rodrigo",
+  "ativo": true,
+  "departamento": "iea-a",
+  "categoria": "Docente Voluntário",
+  "posto": "",
+  "cargos": [],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/rodrigo-costa-moura.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4328700P5",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=56660427200",
+    "orcid": "https://orcid.org/0000-0002-8565-6468",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": ""
+  },
+  "scopus_author_ids": [
+    "56660427200"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Métodos de elementos espectrais para CFD",
+      "Simulação de transição e turbulência"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Engenheiro Aeronáutico (2010), mestre em Engenharia Aeronáutica e Mecânica (2012), ambos pelo ITA, e PhD em Engenharia Aeronáutica pelo Imperial College London (2017). Oficial engenheiro da Força Aérea, atua como professor e pesquisador no departamento de Aerodinâmica da divisão de Engenharia Aeronáutica e Aeroespacial do ITA. Áreas de interesse: dinâmica dos fluidos compressível e incompressível; escoamentos turbulentos e modelagem numérica; dinâmica dos fluidos computacional (CFD); métodos de elementos espectrais (Galerkin contínuo ou descontínuo) para CFD de alta ordem; simulações de alta fidelidade de escoamentos transicionais e turbulentos, em particular via LES implícito / DNS sub-resolvido.",
+    "en": "Engenheiro Aeronáutico (2010), mestre em Engenharia Aeronáutica e Mecânica (2012), ambos pelo ITA, e PhD em Engenharia Aeronáutica pelo Imperial College London (2017). Oficial engenheiro da Força Aérea, atua como professor e pesquisador no departamento de Aerodinâmica da divisão de Engenharia Aeronáutica e Aeroespacial do ITA. Áreas de interesse: dinâmica dos fluidos compressível e incompressível; escoamentos turbulentos e modelagem numérica; dinâmica dos fluidos computacional (CFD); métodos de elementos espectrais (Galerkin contínuo ou descontínuo) para CFD de alta ordem; simulações de alta fidelidade de escoamentos transicionais e turbulentos, em particular via LES implícito / DNS sub-resolvido."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2013 - 2017",
+      "instituicao": "Engenharia Aeronáutica",
+      "titulo": "On the use of spectral element methods for under-resolved simulations of transitional and turbulent flows, Ano de obtenção: 2017",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2016,
+      "titulo": "Aerospace Speakers Travel Grant Award, Royal Aeronautical Society."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Português",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "",
+  "fonte": "data/pessoal/iea-a.yaml",
+  "verificado_em": "2026-08-14"
+}

@@ -9,16 +9,21 @@
 </head>
 <body>
   <h1>Guia rápido do editor</h1>
-  <div class="box"><strong>Nada é publicado imediatamente.</strong> Ao terminar, você envia a mudança para revisão. Isso cria ou atualiza uma proposta no GitHub. Um mantenedor confere a prévia e publica.</div>
+  <div class="box"><strong>Somente o comando Publicar altera o site no ar.</strong> Salvar e mudar o estado organizam a proposta, mas não publicam.</div>
+  <p>Se o painel continuar mostrando uma versão anterior da interface, feche todas as abas do editor e abra novamente; se necessário, use a recarga completa do navegador.</p>
   <h2>Rascunho, revisão e publicação</h2>
-  <ul><li><strong>Salvar</strong> guarda um rascunho.</li><li><strong>Enviar para revisão</strong> avisa que a proposta está pronta para ser conferida. Dependendo da permissão da conta, o pull request pode já ter sido criado no primeiro salvamento.</li><li><strong>Publicar</strong> não é feito neste painel: o mantenedor aprova o pull request no GitHub depois dos testes.</li></ul>
+  <ul><li><strong>Salvar</strong> guarda a alteração na proposta; não publica.</li><li><strong>Rascunho</strong> significa que o trabalho ainda está sendo preparado.</li><li><strong>Em revisão</strong> avisa que outra pessoa já pode conferir.</li><li><strong>Pronto</strong> significa que a revisão terminou; ainda não está no ar.</li><li><strong>Ver pré-visualização</strong> abre o site de teste e não muda o estado.</li><li><strong>Publicar</strong> mescla a proposta e inicia a atualização do site.</li></ul>
+  <p><strong>Editor externo:</strong> vê Rascunho e Em revisão; um mantenedor publica. <strong>Mantenedor:</strong> também vê Pronto e Publicar. Essa diferença vem da permissão da conta GitHub.</p>
+  <p>Se Publicar der erro, aguarde os testes e a prévia terminarem e tente novamente. Trocar entre Rascunho e Pronto não corrige a proposta; pelo comportamento observado no teste anterior, os testes provavelmente terminaram durante essa troca.</p>
   <p>Você pode enviar várias propostas sem esperar a anterior. Cada página ou cadastro alterado aparece como uma proposta separada.</p>
   <h2>Alterar texto ou dado</h2>
-  <ol><li>Escolha a área numerada no menu.</li><li>Abra o item pelo nome.</li><li>Altere somente os campos necessários.</li><li>Clique em <strong>Salvar</strong> e escreva um resumo curto.</li><li>Mova a alteração para <strong>Pronto para revisão</strong>.</li></ol>
+  <ol><li>Escolha a área numerada no menu.</li><li>Abra o item pelo nome.</li><li>Altere somente os campos necessários.</li><li>Clique em <strong>Salvar</strong> e escreva um resumo curto.</li><li>Mude o estado para <strong>Em revisão</strong>.</li></ol>
   <h2>Trocar foto</h2>
-  <ol><li>Abra <strong>2. Pessoas e professores</strong>.</li><li>Localize a pessoa e abra o registro.</li><li>No campo Foto, envie JPEG, PNG ou WebP de até 2 MB.</li><li>Use arquivo com nome simples, como <code>nome-sobrenome.jpg</code>.</li></ol>
+  <ol><li>Abra <strong>2. Pessoas e professores</strong>.</li><li>Use <strong>Filtrar por</strong> para situação/departamento/categoria ou <strong>Agrupar por</strong>. Em <strong>Visualizar como</strong>, escolha cartões para ver as fotos.</li><li>Localize a pessoa e abra o registro.</li><li>No campo Foto, envie JPEG, PNG ou WebP de até 2 MB.</li><li>Use arquivo com nome simples, como <code>nome-sobrenome.jpg</code>.</li></ol>
   <h2>Publicar horário, sala ou PDF</h2>
   <ol><li>Abra <strong>4. Documentos, horários e salas</strong>.</li><li>Abra a categoria <strong>Horários de aulas e salas</strong>.</li><li>Adicione um arquivo, informe nomes PT/EN e a data de referência.</li><li>Envie PDF de até 10 MB e remova versões vencidas somente após conferir.</li></ol>
+  <h2>Importar vários registros de uma vez</h2>
+  <p>Lotes JSON são uma operação avançada de mantenedor. O importador aceita pessoas, departamentos, laboratórios, projetos, linhas de pesquisa e documentos, mostra uma prévia e bloqueia sobrescritas até a confirmação. Entregue o arquivo JSON ao mantenedor; não use um atalho global de edição.</p>
   <h2>Em caso de dúvida</h2>
   <p>Salve como rascunho e descreva a dúvida no resumo. Não altere IDs técnicos de registros existentes e nunca cole senhas, tokens ou chaves de API.</p>
 </body>

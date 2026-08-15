@@ -1,0 +1,62 @@
+{
+  "id": "vinicius-malatesta",
+  "nome": "Vinicius Malatesta",
+  "nome_destaque": "Vinicius",
+  "ativo": true,
+  "departamento": "iea-a",
+  "categoria": "Professor Adjunto",
+  "posto": "",
+  "cargos": [],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/vinicius-malatesta.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/5897195986590102",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=55789261500",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": ""
+  },
+  "scopus_author_ids": [
+    "55789261500"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Aerodinâmica e CFD",
+      "Transição e turbulência",
+      "Transferência de calor",
+      "Métodos de alta-ordem"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Professor do Instituto Tecnológico de Aeronáutica (ITA) - Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) - Departamento de Aerodinâmica (IEAA-ITA). De Agosto de 2022 à Setembro de 2025 foi Coordenador do Curso de Engenharia Aeronáutica do ITA. Durante 2014 à 2018 foi Professor da Universidade Federal de Santa Catarina (UFSC)  - Engenharia Aeroespacial - Subárea: Aerodinâmica. Possui graduação em Licenciatura Plena em Física pela Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP-2007), graduação em Bacharelado em Física pela Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP-2008), mestrado em Engenharia Mecânica - Escola de Engenharia de São Carlos (EESC) - Universidade de São Paulo (USP-2010), e doutorado em Ciências da Computação e Matemática Computacional - Instituto de Ciências Matemáticas e de Computação (ICMC) - (USP-2014), com período sanduíche pela Brown University - School of Engineering (EUA) (2012-2013). Tem experiência na área de Engenharia Aeroespacial, com ênfase em mecânica dos fluidos, aerodinâmica, instabilidade hidrodinâmica, transição/turbulência, transferência de calor, simulação numérica direta e análise numérica.",
+    "en": "Professor do Instituto Tecnológico de Aeronáutica (ITA) - Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) - Departamento de Aerodinâmica (IEAA-ITA). De Agosto de 2022 à Setembro de 2025 foi Coordenador do Curso de Engenharia Aeronáutica do ITA. Durante 2014 à 2018 foi Professor da Universidade Federal de Santa Catarina (UFSC)  - Engenharia Aeroespacial - Subárea: Aerodinâmica. Possui graduação em Licenciatura Plena em Física pela Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP-2007), graduação em Bacharelado em Física pela Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP-2008), mestrado em Engenharia Mecânica - Escola de Engenharia de São Carlos (EESC) - Universidade de São Paulo (USP-2010), e doutorado em Ciências da Computação e Matemática Computacional - Instituto de Ciências Matemáticas e de Computação (ICMC) - (USP-2014), com período sanduíche pela Brown University - School of Engineering (EUA) (2012-2013). Tem experiência na área de Engenharia Aeroespacial, com ênfase em mecânica dos fluidos, aerodinâmica, instabilidade hidrodinâmica, transição/turbulência, transferência de calor, simulação numérica direta e análise numérica."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2010 - 2014",
+      "instituicao": "Ciências da Computação e Matemática Computacional",
+      "titulo": "Simulação Numérica Direta de Escoamentos sobre Superfícies Côncavas com Transferência de Calor O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2020,
+      "titulo": "Láurea Professor Lacaz Netto, Instituto Tecnológico de Aeronáutica."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "",
+  "fonte": "data/pessoal/iea-a.yaml",
+  "verificado_em": "2026-08-14"
+}

@@ -6,7 +6,7 @@
   </div>
 
   {{ $departamentos := .Site.Data.departamentos.departamentos }}
-  {{ $professores := where .Site.Data.pessoal.professores.professores "ativo" true }}
+  {{ $professores := where (partial "get-professors.html" (dict "site" .Site)) "ativo" true }}
   {{ $lang := .Language.Lang }}
   {{ $deptOrder := slice "iea-a" "iea-b" "iea-c" "iea-e" "iea-p" "iea-s" }}
   {{ $categorias := slice "Professor Titular" "Professor Associado" "Professor Adjunto" "Tecnologista" "Analista em Ciência e Tecnologia" "Instrutor" "Docente Voluntário" }}

@@ -1,0 +1,60 @@
+{
+  "id": "ney-rafael-secco",
+  "nome": "Ney Rafael Sêcco",
+  "nome_destaque": "Ney",
+  "ativo": true,
+  "departamento": "iea-p",
+  "categoria": "Instrutor",
+  "posto": "Maj Eng AER",
+  "cargos": [],
+  "chefe_departamento": true,
+  "foto": "images/pessoal/ney-rafael-secco.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/6108448543229589",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=55595457400",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": ""
+  },
+  "scopus_author_ids": [
+    "55595457400"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Projeto de aeronaves",
+      "Otimização de projeto multidisciplinar"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Major Engenheiro da Força Aérea Brasileira. Possui Graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica  ITA - São José dos Campos - SP (2011), Mestrado pelo Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica do ITA e Doutorado em Engenharia Aeroespacial pela University of Michigan (EUA). Atualmente exerce a função de Instrutor na Divisão de Engenharia Aeronáutica do ITA.",
+    "en": "Major Engenheiro da Força Aérea Brasileira. Possui Graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica  ITA - São José dos Campos - SP (2011), Mestrado pelo Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica do ITA e Doutorado em Engenharia Aeroespacial pela University of Michigan (EUA). Atualmente exerce a função de Instrutor na Divisão de Engenharia Aeronáutica do ITA."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2014 - 2018",
+      "instituicao": "Engenharia Aeroespacial",
+      "titulo": "Component-Based Aerodynamic Shape Optimization Using Overset Meshes, Ano de obtenção: 2018",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2012,
+      "titulo": "Segundo Melhor Projeto de Aeronave - SAE Aerodesign EAST (EUA), SAE International."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Português",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "",
+  "fonte": "data/pessoal/iea-p.yaml",
+  "verificado_em": "2026-08-14"
+}
