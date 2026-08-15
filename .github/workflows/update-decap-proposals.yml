@@ -11,6 +11,7 @@ permissions:
   actions: write
   contents: write
   pull-requests: write
+  statuses: write
 
 concurrency:
   group: update-ready-decap-proposals
@@ -22,7 +23,7 @@ jobs:
       github.event_name != 'pull_request_target' ||
       github.event.label.name == 'decap-cms/pending_publish'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       # Security: this pull_request_target workflow never checks out or executes PR code.
       - name: Atualizar propostas prontas que ficaram atrás do site
@@ -31,6 +32,8 @@ jobs:
           REPOSITORY: ${{ github.repository }}
         shell: bash
         run: |
+          status_queue="${RUNNER_TEMP}/decap-status-queue.tsv"
+          : > "${status_queue}"
           proposals="$(gh pr list --repo "${REPOSITORY}" --state open --limit 100 \
             --json number,headRefName,labels \
             --jq '.[] | select(.headRefName | startswith("cms/")) | select(any(.labels[]; .name == "decap-cms/pending_publish")) | [.number, .headRefName] | @tsv')"
@@ -60,9 +63,10 @@ jobs:
               done
             fi
             if [[ "${state}" == "BEHIND" ]]; then
-              if gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" >/dev/null; then
+              if new_sha="$(gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" --jq '.sha')"; then
                 if gh workflow run ci.yml --repo "${REPOSITORY}" --ref "${branch}"; then
                   echo "- Proposta #${number} (${branch}) atualizada; os testes foram iniciados novamente." >> "${GITHUB_STEP_SUMMARY}"
+                  printf '%s\t%s\t%s\n' "${number}" "${branch}" "${new_sha}" >> "${status_queue}"
                 else
                   echo "::warning title=Testes não iniciados na proposta #${number}::A branch foi sincronizada, mas a CI precisa ser iniciada manualmente."
                 fi
@@ -75,3 +79,41 @@ jobs:
               echo "- Proposta #${number} (${branch}) já está sincronizada; estado ${state}." >> "${GITHUB_STEP_SUMMARY}"
             fi
           done <<< "${proposals}"
+
+          while IFS=$'\t' read -r number branch tested_sha; do
+            [[ -n "${number}" ]] || continue
+            run_id=""
+            for attempt in $(seq 1 18); do
+              runs="$(gh run list --repo "${REPOSITORY}" --workflow ci.yml --branch "${branch}" \
+                --event workflow_dispatch --limit 10 --json databaseId,headSha)"
+              run_id="$(jq -r --arg sha "${tested_sha}" '[.[] | select(.headSha == $sha)][0].databaseId // empty' <<<"${runs}")"
+              [[ -n "${run_id}" ]] && break
+              sleep 5
+            done
+            if [[ -z "${run_id}" ]]; then
+              echo "::warning title=CI não localizada para a proposta #${number}::A branch foi atualizada, mas os resultados não puderam ser registrados."
+              continue
+            fi
+
+            run_details=""
+            for attempt in $(seq 1 90); do
+              run_details="$(gh run view "${run_id}" --repo "${REPOSITORY}" --json status,conclusion,jobs,url)"
+              [[ "$(jq -r '.status' <<<"${run_details}")" == "completed" ]] && break
+              sleep 5
+            done
+            run_url="$(jq -r '.url' <<<"${run_details}")"
+            for context in validate-data security hugo-build links content-diff; do
+              conclusion="$(jq -r --arg name "${context}" '[.jobs[] | select(.name == $name)][0].conclusion // "missing"' <<<"${run_details}")"
+              if [[ "${conclusion}" == "success" ]]; then
+                check_state="success"
+                description="Teste concluído com sucesso pela CI segura"
+              else
+                check_state="failure"
+                description="Teste não passou na CI segura (${conclusion})"
+              fi
+              gh api --method POST "repos/${REPOSITORY}/statuses/${tested_sha}" \
+                -f state="${check_state}" -f context="${context}" \
+                -f description="${description}" -f target_url="${run_url}" >/dev/null
+            done
+            echo "- Resultados da CI registrados no commit da proposta #${number}." >> "${GITHUB_STEP_SUMMARY}"
+          done < "${status_queue}"
