@@ -1,5 +1,7 @@
 {{- $nodes := slice -}}
+{{- $editors := .Site.Data.admin.paginas_edicao -}}
 {{- range .Site.Data.paginas -}}
+  {{- $edicao := index $editors .id | default dict -}}
   {{- $nodes = $nodes | append (dict
     "id" .id
     "tipo" .tipo
@@ -10,6 +12,7 @@
     "rotulo" .rotulo
     "url" .url
     "pagina" (dict "slug" .pagina.slug "publicada" .pagina.publicada)
+    "edicao" $edicao
   ) -}}
 {{- end -}}
-{{- dict "version" 1 "nodes" $nodes | jsonify -}}
+{{- dict "version" 2 "nodes" $nodes | jsonify -}}

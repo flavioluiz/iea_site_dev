@@ -1,4 +1,15 @@
 (() => {
+  const advancedMenuView = new URLSearchParams(window.location.search).get("advanced") === "1";
+  const redirectTechnicalMenuList = () => {
+    if (!advancedMenuView && /^#\/collections\/paginas\/?$/.test(window.location.hash)) {
+      window.location.replace("./mapa-visual.html");
+      return true;
+    }
+    return false;
+  };
+  if (redirectTechnicalMenuList()) return;
+  window.addEventListener("hashchange", redirectTechnicalMenuList);
+
   const dialog = document.createElement("dialog");
   dialog.setAttribute("aria-labelledby", "workflow-help-title");
   dialog.style.cssText = "max-width:680px;width:calc(100% - 32px);border:0;border-radius:14px;padding:0;box-shadow:0 18px 60px #17203355;color:#172033;font:16px/1.5 system-ui";
@@ -33,7 +44,7 @@
   const bar = document.createElement("nav");
   bar.setAttribute("aria-label", "Ajuda do editor");
   bar.style.cssText = "position:fixed;right:16px;bottom:16px;z-index:99999;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:8px;max-width:calc(100% - 32px);font:600 14px system-ui";
-  bar.innerHTML = '<a href="./mapa-visual.html" target="_blank" rel="noopener noreferrer" style="border:0;background:#176b46;color:white;padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px #17203333;font:inherit;text-decoration:none">Ver mapa visual</a><a href="./paginas-especiais.html" target="_blank" rel="noopener noreferrer" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Páginas especiais</a><button type="button" style="border:0;background:#173b73;color:white;padding:10px 14px;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px #17203333;font:inherit">Entenda o fluxo</button>';
+  bar.innerHTML = '<a href="./mapa-visual.html" style="border:0;background:#176b46;color:white;padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px #17203333;font:inherit;text-decoration:none">Mapa do site</a><a href="./paginas-especiais.html" target="_blank" rel="noopener noreferrer" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Como as páginas são montadas</a><button type="button" style="border:0;background:#173b73;color:white;padding:10px 14px;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px #17203333;font:inherit">Entenda o fluxo</button>';
   bar.querySelector("button").addEventListener("click", () => dialog.showModal());
   document.body.appendChild(bar);
 })();

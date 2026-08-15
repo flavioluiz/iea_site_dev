@@ -66,6 +66,14 @@ PROTECTED_SITE_NODE_TYPES = {
     "cassa": "pagina_estrutural",
     "ceeaa": "pagina_estrutural",
 }
+PAGE_EDITOR_ORIGINS = {
+    "markdown",
+    "markdown_lista",
+    "markdown_secao",
+    "dados_markdown",
+    "template_markdown",
+    "importada",
+}
 
 
 class Problems:
@@ -154,6 +162,34 @@ def validate_site_map(problems: Problems) -> None:
             problems.add(
                 f"Mapa do site: {node_id} deve manter o tipo {expected_type}"
             )
+
+    editor_map = load_yaml(ROOT / "data" / "admin" / "paginas_edicao.yaml")
+    if not isinstance(editor_map, dict):
+        problems.add("Mapa do site: classificação editorial deve ser um objeto")
+        editor_map = {}
+    page_node_types = {"pagina_editavel", "pagina_estrutural"}
+    for node_id, node in by_id.items():
+        if node.get("tipo") not in page_node_types:
+            continue
+        editor = editor_map.get(node_id)
+        if not isinstance(editor, dict):
+            problems.add(f"Mapa do site: página {node_id} não possui origem editorial")
+            continue
+        if editor.get("origem") not in PAGE_EDITOR_ORIGINS:
+            problems.add(f"Mapa do site: origem editorial inválida em {node_id}")
+        routes = editor.get("editor")
+        if not isinstance(routes, dict) or any(
+            not isinstance(routes.get(language), str) or not routes[language].startswith("#/edit/")
+            for language in ("pt", "en")
+        ):
+            problems.add(f"Mapa do site: {node_id} deve ter editor PT e EN")
+    for node_id, editor in editor_map.items():
+        if node_id not in by_id:
+            problems.add(f"Mapa do site: classificação editorial aponta para item ausente: {node_id}")
+        if isinstance(editor, dict):
+            data_route = editor.get("dados_editor")
+            if data_route and not re.match(r"^#/(?:edit|collections)/[a-z0-9_/-]+$", data_route):
+                problems.add(f"Mapa do site: editor de dados inválido em {node_id}")
 
     root = by_id.get("root")
     if root and (root.get("parent") != "" or any(root.get("visivel", {}).values())):
