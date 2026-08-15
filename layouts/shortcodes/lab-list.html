@@ -6,7 +6,7 @@
 
 {{ $area := .Get "area" }}
 {{ $compact := .Get "compact" | default "false" }}
-{{ $labs := .Site.Data.laboratorios.laboratorios }}
+{{ $labs := partial "get-laboratories.html" (dict "site" .Site) }}
 {{ $areaData := index .Site.Data.areas.areas $area }}
 
 {{ $filteredLabs := slice }}

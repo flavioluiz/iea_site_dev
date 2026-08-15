@@ -1,0 +1,34 @@
+{
+  "id": "cei",
+  "sigla": "CEI",
+  "nome_pt": "Centro Espacial ITA",
+  "nome_en": "ITA Space Center",
+  "departamento": "",
+  "tema": "espacial",
+  "cor": "#0f766e",
+  "descricao_pt": "O Centro Espacial ITA (CEI) é o núcleo de atividades espaciais do Instituto Tecnológico de Aeronáutica. Integra pesquisa, ensino e desenvolvimento tecnológico nas áreas de satélites, veículos lançadores, operações espaciais e sistemas de rastreio. Abriga o programa ITASAT e projetos em parceria com a Força Aérea Brasileira e agências espaciais internacionais.\n",
+  "descricao_en": "The ITA Space Center (CEI) is the hub for space activities at the Technological Institute of Aeronautics. It integrates research, teaching, and technological development in satellites, launch vehicles, space operations, and tracking systems. It houses the ITASAT program and projects in partnership with the Brazilian Air Force and international space agencies.\n",
+  "infraestrutura": [
+    "Sala limpa para integração de satélites",
+    "Sistemas de rastreio e TT&C",
+    "Simuladores de operações espaciais (SOLIS/STK)",
+    "Laboratório de sistemas embarcados espaciais",
+    "Ambiente de testes de subsistemas de satélite"
+  ],
+  "infraestrutura_en": [
+    "Clean room for satellite integration",
+    "Tracking and TT&C systems",
+    "Space operations simulators (SOLIS/STK)",
+    "Space embedded systems laboratory",
+    "Satellite subsystem test environment"
+  ],
+  "tags": [
+    "satélites",
+    "ITASAT",
+    "operações espaciais",
+    "rastreio",
+    "veículos lançadores"
+  ],
+  "website_url": "https://cei.ita.br",
+  "projetos_associados": []
+}

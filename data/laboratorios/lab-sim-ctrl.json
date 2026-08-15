@@ -1,0 +1,28 @@
+{
+  "id": "lab-sim-ctrl",
+  "sigla": "LSCTR",
+  "nome_pt": "Laboratório de Simulação e Controle de Sistemas Dinâmicos",
+  "nome_en": "Simulation and Control of Dynamic Systems Laboratory",
+  "departamento": "iea-a",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório de Sistemas e Controle em Tempo Real busca atender a uma metodologia mecatrônica\nem sua abordagem experimental, explorando a sinergia entre as áreas de controle, computação,\neletrônica e mecânica/aeronáutica. Possui hardware e softwares de simulação para realização de\nexperimentos em tempo real do tipo hardware-in-the-loop e equipamentos específicos para\nexperimentos em mecatrônica e controle de sistemas.\n",
+  "descricao_en": "The Real-Time Systems and Control Laboratory aims to meet a mechatronic methodology in its\nexperimental approach, exploring the synergy between control, computing, electronics, and\nmechanical/aeronautical areas. It has simulation hardware and software for real-time\nhardware-in-the-loop experiments and specific equipment for mechatronics and control systems\nexperiments.\n",
+  "infraestrutura": [
+    "Hardware-in-the-loop systems",
+    "Fly-by-wire test equipment",
+    "UAV control workstations",
+    "Real-time simulation software",
+    "Flight simulators"
+  ],
+  "infraestrutura_en": [
+    "Hardware-in-the-loop systems",
+    "Fly-by-wire test equipment",
+    "UAV control workstations",
+    "Real-time simulation software",
+    "Flight simulators"
+  ],
+  "projetos_associados": [
+    "EMBRAER - Sistemas de Controle",
+    "FINEP - Projeto AME"
+  ]
+}

@@ -26,100 +26,161 @@ slug:
 
 collections:
   - name: paginas
-    label: "1. Páginas do site"
-    description: "Textos institucionais. Escolha PT ou EN, altere somente o necessário e confira a prévia antes de salvar."
+    label: "1. Mapa do site e páginas"
+    label_singular: "Item do mapa"
+    description: "A visão editorial da estrutura do site. Agrupe por seção para enxergar o menu. Páginas editáveis podem ser criadas e excluídas; itens protegidos podem ser renomeados, movidos ou ocultados, mas não apagados."
+    folder: data/paginas
+    create: true
+    delete: true
+    format: json
+    extension: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    summary: "{{parent}} › {{rotulo.pt}} — {{tipo}}"
+    sortable_fields: [ordem, rotulo.pt, tipo, id]
+    view_filters:
+      - { label: "Páginas editáveis", field: tipo, pattern: "^pagina_editavel$" }
+      - { label: "Páginas automáticas", field: tipo, pattern: "^pagina_estrutural$" }
+      - { label: "Grupos do menu", field: tipo, pattern: "^(raiz|grupo)$" }
+      - { label: "Visíveis em português", field: visivel.pt, pattern: true }
+      - { label: "Fora do menu em português", field: visivel.pt, pattern: false }
+    view_groups:
+      - { label: "Seção do menu", field: parent }
+      - { label: "Tipo de item", field: tipo }
+    editor:
+      preview: true
+    fields:
+      - label: "Identificador técnico"
+        name: id
+        widget: string
+        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas, números e hífens."]
+        hint: "Definido ao criar. Não altere depois: ele mantém as relações do menu estáveis."
+      - label: "Tipo de item"
+        name: tipo
+        widget: select
+        default: pagina_editavel
+        options:
+          - { label: "Página editável", value: pagina_editavel }
+          - { label: "Grupo do menu", value: grupo }
+          - { label: "Link externo", value: link_externo }
+          - { label: "Página automática/protegida", value: pagina_estrutural }
+          - { label: "Título de categoria", value: categoria }
+          - { label: "Separador visual", value: separador }
+          - { label: "Raiz técnica", value: raiz }
+        hint: "Para uma página textual nova, mantenha Página editável. Os demais tipos são usados principalmente por mantenedores."
+      - { label: "Item protegido", name: protegido, widget: hidden, default: false }
+      - label: "Local no menu"
+        name: parent
+        widget: relation
+        collection: paginas
+        value_field: id
+        search_fields: [rotulo.pt, rotulo.en, id]
+        display_fields: [rotulo.pt, rotulo.en]
+        options_length: 100
+        filters:
+          - field: tipo
+            values: [raiz, grupo]
+        default: root
+        required: false
+        hint: "Escolha Menu principal para aparecer diretamente na barra, ou uma seção como A Divisão ou Pesquisa. Mover aqui não muda o endereço da página."
+      - { label: "Ordem dentro da seção", name: ordem, widget: number, value_type: int, min: 0, max: 10000, default: 100, hint: "Números menores aparecem primeiro. Use intervalos de 10 para facilitar ajustes futuros." }
+      - label: "Aparece no menu"
+        name: visivel
+        widget: object
+        collapsed: false
+        fields:
+          - { label: "Português", name: pt, widget: boolean, default: true }
+          - { label: "English", name: en, widget: boolean, default: true }
+      - label: "Nome exibido no menu"
+        name: rotulo
+        widget: object
+        collapsed: false
+        fields:
+          - { label: "Português", name: pt, widget: string, required: false }
+          - { label: "English", name: en, widget: string, required: false }
+      - label: "Destino existente ou externo"
+        name: url
+        widget: object
+        collapsed: true
+        hint: "Use apenas para página automática ou link externo. Em Página editável, deixe vazio: o endereço abaixo será usado automaticamente."
+        fields:
+          - { label: "Português", name: pt, widget: string, required: false }
+          - { label: "English", name: en, widget: string, required: false }
+      - label: "Conteúdo da página editável"
+        name: pagina
+        widget: object
+        collapsed: false
+        hint: "Preencha este bloco somente quando o tipo for Página editável. Páginas automáticas têm um editor específico no guia Páginas especiais."
+        fields:
+          - label: "Endereço permanente"
+            name: slug
+            widget: string
+            required: false
+            pattern: ["^$|^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas, números e hífens."]
+            hint: "Exemplo: historia-da-divisao cria /historia-da-divisao/. Não altere após publicar sem orientação do mantenedor."
+          - { label: "Página publicada", name: publicada, widget: boolean, default: true, hint: "Desligue para retirar a página do site sem apagar o conteúdo." }
+          - label: "Título da página"
+            name: titulo
+            widget: object
+            collapsed: false
+            fields:
+              - { label: "Português", name: pt, widget: string, required: false }
+              - { label: "English", name: en, widget: string, required: false }
+          - label: "Resumo para buscadores"
+            name: descricao
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Português", name: pt, widget: text, required: false }
+              - { label: "English", name: en, widget: text, required: false }
+          - label: "Texto da página"
+            name: conteudo
+            widget: object
+            collapsed: false
+            fields:
+              - { label: "Português", name: pt, widget: markdown, required: false }
+              - { label: "English", name: en, widget: markdown, required: false }
+
+  - name: paginas_estruturais
+    label: "2. Textos de páginas automáticas"
+    description: "Textos introdutórios de páginas montadas por templates e dados. O guia Páginas especiais explica o que é automático e como pedir mudanças maiores de HTML/layout."
     editor:
       preview: true
     files:
-      - label: "Página inicial — Português"
+      - label: "Início — Português (template especial)"
         name: inicio_pt
         file: content/_index.pt.md
         fields: &home_page_fields
-          - { label: "Título principal", name: title, widget: string, hint: "Aparece no grande destaque no topo da página inicial." }
-          - { label: "Texto de destaque", name: description, widget: text, hint: "Aparece logo abaixo do título principal e também resume a página para buscadores." }
-          - { label: "Bloco de notícias e avisos", name: body, widget: markdown, hint: "Aparece abaixo do carrossel. Use este campo para notícias, avisos, listas e links; não cole HTML ou scripts." }
-      - label: "Home page — English"
+          - { label: "Título principal", name: title, widget: string, hint: "Aparece no destaque da Home. O restante da estrutura visual é um template especial." }
+          - { label: "Texto de destaque", name: description, widget: text, hint: "Aparece abaixo do título e resume a página para buscadores." }
+          - { label: "Texto abaixo dos destaques", name: body, widget: markdown, hint: "Não cria nem reorganiza os cartões automáticos. Para isso, consulte Páginas especiais." }
+      - label: "Home — English (special template)"
         name: inicio_en
         file: content/_index.en.md
         fields: *home_page_fields
-      - label: "Sobre — Português"
-        name: sobre_pt
-        file: content/sobre/_index.md
-        fields: &page_fields
-          - { label: "Título", name: title, widget: string, hint: "Título exibido no topo da página." }
-          - { label: "Resumo para buscadores", name: description, widget: text, hint: "Uma frase curta usada por buscadores e ao compartilhar o link." }
-          - { label: "Texto da página", name: body, widget: markdown, hint: "Aparece antes das seções automáticas desta página. Use a barra de ferramentas para títulos, listas e links; não cole HTML ou scripts." }
-      - label: "About — English"
-        name: sobre_en
-        file: content/sobre/_index.en.md
-        fields: *page_fields
       - label: "Graduação — Português"
         name: graduacao_pt
         file: content/graduacao/_index.pt.md
-        fields: *page_fields
-      - label: "Undergraduate — English"
-        name: graduacao_en
-        file: content/graduacao/_index.en.md
-        fields: *page_fields
-      - label: "Departamentos — Português"
-        name: departamentos_pt
-        file: content/departamentos/_index.pt.md
-        fields: *page_fields
-      - label: "Departments — English"
-        name: departamentos_en
-        file: content/departamentos/_index.en.md
-        fields: *page_fields
-      - label: "Disciplinas — Português"
-        name: disciplinas_pt
-        file: content/disciplinas/_index.md
-        fields: *page_fields
-      - label: "Courses — English"
-        name: disciplinas_en
-        file: content/disciplinas/_index.en.md
-        fields: *page_fields
-      - label: "Linhas de pesquisa — Português"
-        name: linhas_pt
-        file: content/linhas/_index.pt.md
-        fields: *page_fields
-      - label: "Research lines — English"
-        name: linhas_en
-        file: content/linhas/_index.en.md
-        fields: *page_fields
-      - label: "Área espacial — Português"
-        name: espaco_pt
-        file: content/espaco/_index.pt.md
-        fields: *page_fields
-      - label: "Space area — English"
-        name: espaco_en
-        file: content/espaco/_index.en.md
-        fields: *page_fields
-      - label: "Pós-graduação — Português"
-        name: posgraduacao_pt
-        file: content/posgraduacao/_index.pt.md
-        fields: *page_fields
-      - label: "Graduate studies — English"
-        name: posgraduacao_en
-        file: content/posgraduacao/_index.en.md
-        fields: *page_fields
-      - label: "Contato — Português"
-        name: contato_pt
-        file: content/contato/_index.pt.md
-        fields: *page_fields
-      - label: "Contact — English"
-        name: contato_en
-        file: content/contato/_index.en.md
-        fields: *page_fields
-      - label: "Documentos e horários — Português"
-        name: documentos_pt
-        file: content/documentos/_index.pt.md
-        fields: *page_fields
-      - label: "Documents and schedules — English"
-        name: documentos_en
-        file: content/documentos/_index.en.md
-        fields: *page_fields
+        fields: &page_fields
+          - { label: "Título", name: title, widget: string }
+          - { label: "Resumo para buscadores", name: description, widget: text }
+          - { label: "Texto introdutório", name: body, widget: markdown, hint: "Aparece antes das seções automáticas. Para mudar cartões, filtros ou layout, consulte Páginas especiais." }
+      - { label: "Undergraduate — English", name: graduacao_en, file: content/graduacao/_index.en.md, fields: *page_fields }
+      - { label: "Departamentos — Português", name: departamentos_pt, file: content/departamentos/_index.pt.md, fields: *page_fields }
+      - { label: "Departments — English", name: departamentos_en, file: content/departamentos/_index.en.md, fields: *page_fields }
+      - { label: "Disciplinas — Português", name: disciplinas_pt, file: content/disciplinas/_index.md, fields: *page_fields }
+      - { label: "Courses — English", name: disciplinas_en, file: content/disciplinas/_index.en.md, fields: *page_fields }
+      - { label: "Linhas de pesquisa — Português", name: linhas_pt, file: content/linhas/_index.pt.md, fields: *page_fields }
+      - { label: "Research lines — English", name: linhas_en, file: content/linhas/_index.en.md, fields: *page_fields }
+      - { label: "Área Espacial — Português (template especial)", name: espaco_pt, file: content/espaco/_index.pt.md, fields: *page_fields }
+      - { label: "Space Program — English (special template)", name: espaco_en, file: content/espaco/_index.en.md, fields: *page_fields }
+      - { label: "Pós-graduação — Português", name: posgraduacao_pt, file: content/posgraduacao/_index.pt.md, fields: *page_fields }
+      - { label: "Graduate studies — English", name: posgraduacao_en, file: content/posgraduacao/_index.en.md, fields: *page_fields }
+      - { label: "Documentos e horários — Português", name: documentos_pt, file: content/documentos/_index.pt.md, fields: *page_fields }
+      - { label: "Documents and schedules — English", name: documentos_en, file: content/documentos/_index.en.md, fields: *page_fields }
 
   - name: pessoal
-    label: "2. Pessoas e professores"
+    label: "3. Pessoas e professores"
     label_singular: "Pessoa"
     description: "Uma ficha por pessoa. Use Filtrar por ou Agrupar por; em Visualizar como, escolha cartões para ver as fotos. Desative em vez de excluir quem saiu."
     folder: data/pessoal/professores
@@ -262,9 +323,71 @@ collections:
                 format: "YYYY-MM-DD"
                 hint: "Controle interno da revisão; não aparece no site."
 
+  - name: laboratorios
+    label: "4. Laboratórios"
+    label_singular: "Laboratório"
+    description: "Uma ficha por laboratório. Edite somente o laboratório desejado: os demais permanecem intactos. Use os filtros para localizar por departamento ou tema."
+    folder: data/laboratorios
+    create: true
+    format: json
+    extension: json
+    identifier_field: nome_pt
+    slug: "{{fields.id}}"
+    summary: "{{sigla}} — {{nome_pt}} — {{departamento}}"
+    sortable_fields: [nome_pt, sigla, departamento, tema]
+    view_filters:
+      - { label: "Departamento IEA-A", field: departamento, pattern: "^iea-a$" }
+      - { label: "Departamento IEA-B", field: departamento, pattern: "^iea-b$" }
+      - { label: "Departamento IEA-C", field: departamento, pattern: "^iea-c$" }
+      - { label: "Departamento IEA-E", field: departamento, pattern: "^iea-e$" }
+      - { label: "Departamento IEA-P", field: departamento, pattern: "^iea-p$" }
+      - { label: "Departamento IEA-S", field: departamento, pattern: "^iea-s$" }
+      - { label: "Tema aeronáutico", field: tema, pattern: "^aeronautica$" }
+      - { label: "Tema espacial", field: tema, pattern: "^espacial$" }
+      - { label: "Ambos os temas", field: tema, pattern: "^ambos$" }
+    view_groups:
+      - { label: "Departamento", field: departamento }
+      - { label: "Tema", field: tema }
+    fields:
+      - { label: "Identificador técnico", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."], hint: "Não altere em um laboratório existente." }
+      - { label: "Sigla", name: sigla, widget: string }
+      - { label: "Nome em português", name: nome_pt, widget: string }
+      - { label: "Name in English", name: nome_en, widget: string }
+      - { label: "Departamento", name: departamento, widget: select, required: false, options: ["", iea-a, iea-b, iea-c, iea-e, iea-p, iea-s] }
+      - { label: "Tema", name: tema, widget: select, options: [aeronautica, espacial, ambos] }
+      - { label: "Descrição em português", name: descricao_pt, widget: text }
+      - { label: "Description in English", name: descricao_en, widget: text }
+      - { label: "Infraestrutura em português", name: infraestrutura, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
+      - { label: "Infrastructure in English", name: infraestrutura_en, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
+      - { label: "Projetos associados", name: projetos_associados, widget: list, required: false, field: { label: "Projeto", name: projeto, widget: string } }
+      - { label: "Responsáveis", name: responsaveis, widget: list, required: false, hint: "Informe nomes públicos e conferidos.", field: { label: "Nome", name: responsavel, widget: string } }
+      - label: "Foto do laboratório"
+        name: imagens
+        widget: list
+        required: false
+        max: 1
+        collapsed: true
+        hint: "Foto de capa: JPEG, PNG ou WebP; 80–4096 px e no máximo 2 MB."
+        field:
+          label: "Foto"
+          name: imagem
+          widget: image
+          choose_url: false
+          media_folder: /static/images/laboratorios
+          public_folder: images/laboratorios
+          allow_multiple: false
+          media_library:
+            config:
+              multiple: false
+              max_file_size: 2097152
+      - { label: "URL PNIPE", name: pnipe_url, widget: string, required: false }
+      - { label: "Site do laboratório", name: website_url, widget: string, required: false }
+      - { label: "Cor", name: cor, widget: color, required: false, allowInput: true }
+      - { label: "Tags", name: tags, widget: list, required: false, field: { label: "Tag", name: tag, widget: string } }
+
   - name: estrutura
-    label: "3. Estrutura e pesquisa"
-    description: "Departamentos, laboratórios, projetos e linhas de pesquisa. Os campos PT e EN aparecem no mesmo formulário."
+    label: "5. Estrutura e pesquisa"
+    description: "Departamentos, projetos e linhas de pesquisa. Os campos PT e EN aparecem no mesmo formulário."
     format: json
     files:
       - label: "Departamentos"
@@ -288,53 +411,6 @@ collections:
               - { label: "E-mail", name: email, widget: string, required: false }
               - { label: "Cor", name: cor, widget: color, allowInput: true }
               - { label: "Temas", name: temas, widget: select, multiple: true, options: [aeronautica, espacial] }
-      - label: "Laboratórios"
-        name: laboratorios
-        file: data/laboratorios.json
-        fields:
-          - { label: "Versão", name: schema_version, widget: hidden, default: 1 }
-          - label: "Laboratórios"
-            label_singular: "Laboratório"
-            name: laboratorios
-            widget: list
-            collapsed: true
-            summary: "{{fields.sigla}} — {{fields.nome_pt}}"
-            fields:
-              - { label: "ID", name: id, widget: string, pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas e hífens."] }
-              - { label: "Sigla", name: sigla, widget: string }
-              - { label: "Nome em português", name: nome_pt, widget: string }
-              - { label: "Name in English", name: nome_en, widget: string }
-              - { label: "Departamento", name: departamento, widget: select, required: false, options: ["", iea-a, iea-b, iea-c, iea-e, iea-p, iea-s] }
-              - { label: "Tema", name: tema, widget: select, options: [aeronautica, espacial, ambos] }
-              - { label: "Descrição em português", name: descricao_pt, widget: text }
-              - { label: "Description in English", name: descricao_en, widget: text }
-              - { label: "Infraestrutura em português", name: infraestrutura, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
-              - { label: "Infrastructure in English", name: infraestrutura_en, widget: list, required: false, field: { label: "Item", name: item, widget: string } }
-              - { label: "Projetos associados", name: projetos_associados, widget: list, required: false, field: { label: "Projeto", name: projeto, widget: string } }
-              - { label: "Responsáveis", name: responsaveis, widget: list, required: false, hint: "Informe nomes públicos e conferidos.", field: { label: "Nome", name: responsavel, widget: string } }
-              - label: "Foto do laboratório"
-                name: imagens
-                widget: list
-                required: false
-                max: 1
-                collapsed: true
-                hint: "Foto de capa: JPEG, PNG ou WebP; 80–4096 px e no máximo 2 MB."
-                field:
-                  label: "Foto"
-                  name: imagem
-                  widget: image
-                  choose_url: false
-                  media_folder: /static/images/laboratorios
-                  public_folder: /images/laboratorios
-                  allow_multiple: false
-                  media_library:
-                    config:
-                      multiple: false
-                      max_file_size: 2097152
-              - { label: "URL PNIPE", name: pnipe_url, widget: string, required: false }
-              - { label: "Site do laboratório", name: website_url, widget: string, required: false }
-              - { label: "Cor", name: cor, widget: color, required: false, allowInput: true }
-              - { label: "Tags", name: tags, widget: list, required: false, field: { label: "Tag", name: tag, widget: string } }
       - label: "Projetos"
         name: projetos
         file: data/projetos.json
@@ -383,7 +459,7 @@ collections:
               - { label: "Áreas Scopus — avançado", name: subject_areas, widget: list, required: false, hint: "Usadas para classificar automaticamente publicações; não aparecem como texto nesta página.", field: { label: "Área", name: area, widget: string } }
 
   - name: documentos
-    label: "4. Documentos, horários e salas"
+    label: "6. Documentos, horários e salas"
     description: "Publique PDFs de horários, salas, regulamentos e comunicados. A categoria 'Horários de aulas e salas' já está pronta."
     format: json
     files:
@@ -437,7 +513,7 @@ collections:
                     format: "YYYY-MM-DD"
 
   - name: biblioteca
-    label: "5. Correspondências da Biblioteca"
+    label: "7. Correspondências da Biblioteca"
     description: "Área avançada: associe uma variação de nome encontrada na Biblioteca à pessoa correta."
     format: json
     files:

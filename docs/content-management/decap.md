@@ -24,9 +24,23 @@ Os estados não fazem a mesma coisa: **Rascunho** ainda está sendo preparado; *
 
 Se **Publicar** der erro, aguarde os testes e a prévia terminarem e tente novamente. Trocar o estado para Rascunho e de volta para Pronto não corrige a proposta.
 
+## Organizar páginas e o menu
+
+Em **1. Mapa do site e páginas**, use **Agrupar por → Seção do menu** para ver a estrutura. Um editor pode:
+
+- renomear o rótulo exibido em português e inglês;
+- mudar a ordem numérica;
+- mover um item para outra seção;
+- ocultar um item em um dos idiomas;
+- criar, editar ou excluir páginas textuais comuns.
+
+Itens automáticos e grupos essenciais são protegidos: podem ser renomeados, movidos ou ocultados, mas a validação bloqueia sua exclusão. O campo **Endereço permanente** de uma página textual deve ser definido na criação e mantido depois de publicado.
+
+Home, Pessoas, Laboratórios e outras páginas automáticas combinam dados com templates. Use o atalho **Páginas especiais** no rodapé do painel para abrir o editor correto, ver a página pronta ou solicitar uma mudança maior de HTML/Hugo sem precisar conhecer o arquivo técnico.
+
 ## Trocar ou adicionar foto
 
-1. Entre em **2. Pessoas e professores** e abra a pessoa.
+1. Entre em **3. Pessoas e professores** e abra a pessoa.
 2. Use **Filtrar por** para situação, departamento ou categoria. Em **Visualizar como**, escolha cartões para ver as fotos na lista.
 3. No campo **Foto**, escolha JPEG, PNG ou WebP de até 2 MB.
 4. Use retrato institucional autorizado, entre 80 e 4096 pixels, e nome simples como `nome-sobrenome.jpg`.
@@ -36,7 +50,7 @@ Arquivos disfarçados de imagem, formatos inesperados e dimensões fora do limit
 
 ## Publicar horário, salas ou outro PDF
 
-1. Entre em **4. Documentos, horários e salas**.
+1. Entre em **6. Documentos, horários e salas**.
 2. Abra **Horários de aulas e salas** e clique para adicionar um arquivo.
 3. Preencha nome em português, nome em inglês quando houver e data de referência.
 4. Envie PDF de até 10 MB, com nome simples. Se o documento já estiver em outro site institucional, use o campo de link externo em vez do upload.

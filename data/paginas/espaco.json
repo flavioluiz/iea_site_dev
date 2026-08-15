@@ -1,0 +1,26 @@
+{
+  "id": "espaco",
+  "tipo": "pagina_estrutural",
+  "protegido": true,
+  "parent": "pesquisa",
+  "ordem": 40,
+  "visivel": {
+    "pt": false,
+    "en": false
+  },
+  "rotulo": {
+    "pt": "Área Espacial",
+    "en": "Space Program"
+  },
+  "url": {
+    "pt": "/espaco/",
+    "en": "/espaco/"
+  },
+  "pagina": {
+    "slug": "",
+    "publicada": false,
+    "titulo": { "pt": "", "en": "" },
+    "descricao": { "pt": "", "en": "" },
+    "conteudo": { "pt": "", "en": "" }
+  }
+}

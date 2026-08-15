@@ -1,0 +1,28 @@
+{
+  "id": "lab-feng",
+  "sigla": "LAB-FENG",
+  "nome_pt": "Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng",
+  "nome_en": "Prof. Kwei Lien Feng Aeronautical Engineering Laboratory",
+  "departamento": "iea-a",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório de Engenharia Aeronáutica Prof. Kwei Lien Feng reúne as instalações experimentais\ndas áreas de aerodinâmica e aeroacústica, propulsão e sistemas aeronáuticos. Essas instalações\nsão utilizadas para a realização de atividades de ensino e pesquisa, além de trabalhos de\ndesenvolvimento tecnológico com a indústria aeronáutica.\n",
+  "descricao_en": "The Prof. Kwei Lien Feng Aeronautical Engineering Laboratory brings together the experimental\nfacilities of the aerodynamics, aeroacoustics, propulsion, and aeronautical systems areas.\nThese facilities are used for teaching and research activities, as well as technological\ndevelopment work with the aeronautical industry.\n",
+  "infraestrutura": [
+    "Túnel de vento subsônico (1,00 x 1,28m, 80 m/s)",
+    "Banco de ensaio de bocais",
+    "Banco de ensaio de jato livre",
+    "Instrumentação para medição de forças",
+    "Sistemas de visualização de escoamento"
+  ],
+  "infraestrutura_en": [
+    "Subsonic wind tunnel (1.00 x 1.28m, 80 m/s)",
+    "Nozzle test bench",
+    "Free jet test bench",
+    "Force measurement instrumentation",
+    "Flow visualization systems"
+  ],
+  "projetos_associados": [
+    "FAPESP/ITA/EMBRAER - Túnel de Vento",
+    "Boeing - Aerodinâmica"
+  ]
+}

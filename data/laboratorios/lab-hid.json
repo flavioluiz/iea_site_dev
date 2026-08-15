@@ -1,0 +1,29 @@
+{
+  "id": "lab-hid",
+  "sigla": "LMH",
+  "nome_pt": "Laboratório de Máquinas Hidráulicas e Cavitação",
+  "nome_en": "Hydraulic Machines and Cavitation Laboratory",
+  "departamento": "iea-c",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório de Máquinas Hidráulicas possui bancadas de turbinas hidráulicas dos tipos Pelton,\nFrancis, Kaplan e de bomba centrífuga para estudos de cavitação e circuito de estudo de cavitação\nde bomba axial. Possui também instrumentação completa incluindo manômetros, tubos de Pitot e\nsistema informatizado de aquisição baseado em LabView.\n",
+  "descricao_en": "The Hydraulic Machines Laboratory has hydraulic turbine benches of Pelton, Francis, Kaplan types\nand centrifugal pump for cavitation studies and axial pump cavitation study circuit. It also has\ncomplete instrumentation including manometers, Pitot tubes, and a computerized acquisition system\nbased on LabView.\n",
+  "infraestrutura": [
+    "Bancada de turbina Pelton",
+    "Bancada de turbina Francis",
+    "Bancada de turbina Kaplan",
+    "Bomba centrífuga para cavitação",
+    "Freios de Prony",
+    "Estroboscópio",
+    "Sistema LabView"
+  ],
+  "infraestrutura_en": [
+    "Pelton turbine bench",
+    "Francis turbine bench",
+    "Kaplan turbine bench",
+    "Centrifugal pump for cavitation",
+    "Prony brakes",
+    "Stroboscope",
+    "LabView system"
+  ],
+  "projetos_associados": []
+}

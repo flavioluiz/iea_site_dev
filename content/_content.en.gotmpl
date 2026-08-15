@@ -1,0 +1,8 @@
+{{ range .Site.Data.paginas }}
+  {{ if and (eq .tipo "pagina_editavel") .pagina.publicada }}
+    {{ $params := dict "description" .pagina.descricao.en "site_page_id" .id "type" "paginas" }}
+    {{ $content := dict "mediaType" "text/markdown" "value" .pagina.conteudo.en }}
+    {{ $page := dict "content" $content "kind" "page" "path" .pagina.slug "title" .pagina.titulo.en "params" $params }}
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}

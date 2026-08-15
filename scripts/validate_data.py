@@ -17,6 +17,7 @@ from jsonschema import Draft202012Validator, FormatChecker
 from PIL import Image, UnidentifiedImageError
 
 from people_data import load_professors, load_professors_at_ref
+from laboratory_data import load_laboratories, load_laboratories_at_ref
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,10 +30,41 @@ MAX_IMAGE_DIMENSION = 4096
 MAX_DOCUMENT_BYTES = 10 * 1024 * 1024
 EDITORIAL_SCHEMAS = {
     "data/departamentos.json": "schemas/departamentos.schema.json",
-    "data/laboratorios.json": "schemas/laboratorios.schema.json",
     "data/projetos.json": "schemas/projetos.schema.json",
     "data/linhas_pesquisa.json": "schemas/linhas-pesquisa.schema.json",
     "data/documentos.json": "schemas/documentos.schema.json",
+}
+PROTECTED_SITE_NODE_TYPES = {
+    "root": "raiz",
+    "home": "pagina_estrutural",
+    "divisao": "grupo",
+    "departamentos": "pagina_estrutural",
+    "pessoal": "pagina_estrutural",
+    "pesquisa": "grupo",
+    "linhas": "pagina_estrutural",
+    "projetos": "pagina_estrutural",
+    "publicacoes": "pagina_estrutural",
+    "espaco": "pagina_estrutural",
+    "laboratorios": "pagina_estrutural",
+    "graduacao": "grupo",
+    "cursos-grad": "pagina_estrutural",
+    "disciplinas": "pagina_estrutural",
+    "tgs": "pagina_estrutural",
+    "posgraduacao": "grupo",
+    "pg-cursos": "pagina_estrutural",
+    "teses": "pagina_estrutural",
+    "documentos": "pagina_estrutural",
+    "pg-cat-stricto": "categoria",
+    "pgeam": "link_externo",
+    "pgcte": "link_externo",
+    "pg-sep-1": "separador",
+    "pg-cat-profissional": "categoria",
+    "mppee": "link_externo",
+    "pg-sep-2": "separador",
+    "pg-cat-lato": "categoria",
+    "safety": "link_externo",
+    "cassa": "pagina_estrutural",
+    "ceeaa": "pagina_estrutural",
 }
 
 
@@ -79,6 +111,99 @@ def parse_all_data(problems: Problems) -> None:
 def validate_editorial_schemas(problems: Problems) -> None:
     for data_path, schema_path in EDITORIAL_SCHEMAS.items():
         problems.extend(schema_errors(ROOT / data_path, ROOT / schema_path))
+
+
+def validate_site_map(problems: Problems) -> None:
+    folder = ROOT / "data" / "paginas"
+    schema = load_json(ROOT / "schemas" / "pagina-site.schema.json")
+    validator = Draft202012Validator(schema, format_checker=FormatChecker())
+    by_id: dict[str, dict[str, Any]] = {}
+    slugs: dict[str, str] = {}
+
+    for path in sorted(folder.glob("*.json")):
+        node = load_json(path)
+        for error in sorted(validator.iter_errors(node), key=lambda item: list(item.absolute_path)):
+            location = "/".join(str(part) for part in error.absolute_path) or "<raiz>"
+            problems.add(f"{path.relative_to(ROOT)}:{location}: {error.message}")
+        node_id = node.get("id")
+        if not isinstance(node_id, str):
+            continue
+        if path.name != f"{node_id}.json":
+            problems.add(f"{path.relative_to(ROOT)}: o arquivo deve se chamar {node_id}.json")
+        if node_id in by_id:
+            problems.add(f"Mapa do site: ID duplicado: {node_id}")
+        by_id[node_id] = node
+
+        if node.get("tipo") == "pagina_editavel":
+            slug = node.get("pagina", {}).get("slug")
+            if isinstance(slug, str) and slug:
+                if slug in slugs:
+                    problems.add(
+                        f"Mapa do site: endereço /{slug}/ usado por {slugs[slug]} e {node_id}"
+                    )
+                slugs[slug] = node_id
+
+    for node_id, expected_type in PROTECTED_SITE_NODE_TYPES.items():
+        node = by_id.get(node_id)
+        if node is None:
+            problems.add(f"Mapa do site: item protegido ausente: {node_id}")
+            continue
+        if node.get("protegido") is not True:
+            problems.add(f"Mapa do site: {node_id} deve permanecer protegido")
+        if node.get("tipo") != expected_type:
+            problems.add(
+                f"Mapa do site: {node_id} deve manter o tipo {expected_type}"
+            )
+
+    root = by_id.get("root")
+    if root and (root.get("parent") != "" or any(root.get("visivel", {}).values())):
+        problems.add("Mapa do site: a raiz técnica não pode aparecer no menu nem ter pai")
+
+    for node_id, node in by_id.items():
+        node_type = node.get("tipo")
+        parent_id = node.get("parent")
+        if node_type != "raiz":
+            parent = by_id.get(parent_id)
+            if parent is None:
+                problems.add(f"Mapa do site: {node_id} aponta para seção inexistente: {parent_id}")
+            elif parent.get("tipo") not in {"raiz", "grupo"}:
+                problems.add(
+                    f"Mapa do site: {node_id} só pode ficar no menu principal ou dentro de um grupo"
+                )
+
+        visibility = node.get("visivel", {})
+        labels = node.get("rotulo", {})
+        urls = node.get("url", {})
+        for language in ("pt", "en"):
+            label = labels.get(language, "")
+            url = urls.get(language, "")
+            if visibility.get(language) and node_type != "separador" and not label.strip():
+                problems.add(f"Mapa do site: {node_id} está visível em {language} sem nome")
+            if node_type in {"pagina_estrutural", "grupo"} and url != "#" and not url.startswith("/"):
+                problems.add(
+                    f"Mapa do site: destino {language} de {node_id} deve começar com / ou ser #"
+                )
+            if node_type == "link_externo" and urlparse(url).scheme not in {"http", "https"}:
+                problems.add(f"Mapa do site: link externo {language} inválido em {node_id}")
+            if node_type == "pagina_editavel" and url:
+                problems.add(
+                    f"Mapa do site: {node_id} é editável; seu endereço vem do campo slug, não de url"
+                )
+            if node_type in {"categoria", "separador"} and url not in {"", "#"}:
+                problems.add(f"Mapa do site: {node_id} é visual e não pode apontar para uma página")
+
+        seen: set[str] = set()
+        cursor = node
+        while cursor.get("tipo") != "raiz":
+            cursor_id = cursor.get("id")
+            if cursor_id in seen:
+                problems.add(f"Mapa do site: ciclo de seções envolvendo {node_id}")
+                break
+            seen.add(cursor_id)
+            next_node = by_id.get(cursor.get("parent"))
+            if next_node is None:
+                break
+            cursor = next_node
 
 
 def schema_errors(data_path: Path, schema_path: Path) -> list[str]:
@@ -277,10 +402,22 @@ def validate_cross_references(
     if library_catalog.exists():
         problems.extend(schema_errors(library_catalog, ROOT / "schemas" / "generated-biblioteca.schema.json"))
 
-    laboratories = load_json(ROOT / "data" / "laboratorios.json").get("laboratorios", [])
+    laboratories = load_laboratories(ROOT)
+    laboratory_schema = load_json(ROOT / "schemas" / "laboratorios.schema.json")
+    laboratory_validator = Draft202012Validator(laboratory_schema, format_checker=FormatChecker())
+    wrapped_laboratories = {"schema_version": 1, "laboratorios": laboratories}
+    for error in sorted(
+        laboratory_validator.iter_errors(wrapped_laboratories),
+        key=lambda item: list(item.absolute_path),
+    ):
+        location = "/".join(str(part) for part in error.absolute_path) or "<raiz>"
+        problems.add(f"data/laboratorios/:{location}: {error.message}")
     laboratory_ids: set[str] = set()
     for laboratory in laboratories:
         laboratory_id = laboratory.get("id", "<sem-id>")
+        expected_path = ROOT / "data" / "laboratorios" / f"{laboratory_id}.json"
+        if not expected_path.is_file():
+            problems.add(f"{laboratory_id}: o nome do arquivo deve ser {laboratory_id}.json")
         if laboratory_id in laboratory_ids:
             problems.add(f"Laboratório duplicado: {laboratory_id}")
         laboratory_ids.add(laboratory_id)
@@ -298,7 +435,6 @@ def validate_cross_references(
 
     for collection_path, collection_key in (
         ("data/departamentos.json", "departamentos"),
-        ("data/laboratorios.json", "laboratorios"),
         ("data/projetos.json", "projetos"),
         ("data/linhas_pesquisa.json", "linhas"),
     ):
@@ -361,6 +497,32 @@ def enforce_bulk_review(
         )
 
 
+def enforce_laboratory_bulk_review(
+    base_ref: str | None,
+    labels: set[str],
+    current: list[dict[str, Any]],
+    problems: Problems,
+) -> None:
+    if not base_ref:
+        return
+    base_records = load_laboratories_at_ref(ROOT, base_ref)
+    if base_records is None:
+        return
+    base = {item["id"]: item for item in base_records}
+    current_by_id = {item["id"]: item for item in current}
+    changed = {
+        item_id
+        for item_id in set(base) | set(current_by_id)
+        if base.get(item_id) != current_by_id.get(item_id)
+    }
+    print(f"Laboratórios alterados em relação a {base_ref}: {len(changed)}")
+    if len(changed) > 5 and "bulk-reviewed" not in labels:
+        problems.add(
+            f"mudança em massa altera {len(changed)} laboratórios; "
+            "um mantenedor deve aplicar o label bulk-reviewed"
+        )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base-ref", help="Git ref used to enforce the bulk-reviewed gate")
@@ -370,10 +532,12 @@ def main() -> int:
     problems = Problems()
     parse_all_data(problems)
     validate_editorial_schemas(problems)
+    validate_site_map(problems)
     professors, departments = validate_professors(problems)
     validate_cross_references(professors, departments, problems)
     labels = {label.strip() for label in args.labels.split(",") if label.strip()}
     enforce_bulk_review(args.base_ref, labels, professors, problems)
+    enforce_laboratory_bulk_review(args.base_ref, labels, load_laboratories(ROOT), problems)
     return problems.finish()
 
 

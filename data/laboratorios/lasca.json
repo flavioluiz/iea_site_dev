@@ -1,0 +1,32 @@
+{
+  "id": "lasca",
+  "sigla": "LASCA",
+  "nome_pt": "Laboratório Avançado de Simulação Computacional em Aerodinâmica",
+  "nome_en": "Advanced Computational Simulation Laboratory in Aerodynamics",
+  "departamento": "iea-a",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório Avançado de Simulação Computacional em Aerodinâmica (LASCA) possui atualmente\ntrês clusters especializados em simulação de alto desempenho que juntos somam mais de 900 núcleos\nde processamento distribuídos entre cerca de 20 nós de cálculo. São capazes de executar com alto\ngrau de paralelismo diversos códigos comerciais e acadêmicos.\n",
+  "descricao_en": "The Advanced Computational Simulation Laboratory in Aerodynamics (LASCA) currently has three\nclusters specialized in high-performance simulation that together add up to more than 900\nprocessing cores distributed among about 20 calculation nodes. They are capable of executing\nwith a high degree of parallelism various commercial and academic codes.\n",
+  "infraestrutura": [
+    "3 clusters HPC (900+ cores, 20 nós)",
+    "CFD++ (Metacomp)",
+    "SU2",
+    "Star-CCM+",
+    "Nek5000",
+    "Nektar++",
+    "Powerflow"
+  ],
+  "infraestrutura_en": [
+    "3 HPC clusters (900+ cores, 20 nodes)",
+    "CFD++ (Metacomp)",
+    "SU2",
+    "Star-CCM+",
+    "Nek5000",
+    "Nektar++",
+    "Powerflow"
+  ],
+  "projetos_associados": [
+    "Simulações de Alta Fidelidade",
+    "EMBRAER - CFD Avançado"
+  ]
+}

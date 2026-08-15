@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from people_data import load_professors, load_professors_at_ref
+from laboratory_data import load_laboratories, load_laboratories_at_ref
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -42,6 +43,16 @@ def changed_generated_files(base_ref: str) -> list[str]:
     return sorted(path for path in result.stdout.splitlines() if path)
 
 
+def laboratory_diff(base_ref: str) -> tuple[list[str], list[str], list[str]]:
+    base_records = load_laboratories_at_ref(ROOT, base_ref) or []
+    before = indexed(base_records)
+    after = indexed(load_laboratories(ROOT))
+    added = sorted(set(after) - set(before))
+    removed = sorted(set(before) - set(after))
+    changed = sorted(key for key in set(before) & set(after) if before[key] != after[key])
+    return added, removed, changed
+
+
 def render(base_ref: str) -> str:
     base_data = data_at_ref(base_ref)
     before = indexed(base_data) if base_data else {}
@@ -52,6 +63,7 @@ def render(base_ref: str) -> str:
     deactivated = sorted(
         key for key in changed if before[key].get("ativo") and not after[key].get("ativo")
     )
+    labs_added, labs_removed, labs_changed = laboratory_diff(base_ref)
 
     lines = [
         "# Relatório semântico de conteúdo",
@@ -65,6 +77,9 @@ def render(base_ref: str) -> str:
         f"- Pessoas removidas do cadastro: {len(removed)}",
         f"- Pessoas alteradas: {len(changed)}",
         f"- Pessoas desativadas: {len(deactivated)}",
+        f"- Laboratórios adicionados: {len(labs_added)}",
+        f"- Laboratórios removidos: {len(labs_removed)}",
+        f"- Laboratórios alterados: {len(labs_changed)}",
         "",
         "## Adicionadas",
         "",
@@ -82,6 +97,16 @@ def render(base_ref: str) -> str:
         lines.append(f"- `{key}` — {after[key]['nome']}: {fields}")
     if not changed:
         lines.append("- Nenhuma.")
+
+    lines.extend(["", "## Laboratórios", ""])
+    for label, identifiers in (
+        ("Adicionado", labs_added),
+        ("Removido", labs_removed),
+        ("Alterado", labs_changed),
+    ):
+        lines.extend(f"- {label}: `{identifier}`" for identifier in identifiers)
+    if not (labs_added or labs_removed or labs_changed):
+        lines.append("- Nenhuma alteração semântica.")
 
     generated = json.loads(
         (ROOT / "data" / "generated" / "scopus" / "autores.json").read_text(encoding="utf-8")

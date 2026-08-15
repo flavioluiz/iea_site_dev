@@ -1,0 +1,26 @@
+{
+  "id": "lab-quim",
+  "sigla": "LQT",
+  "nome_pt": "Laboratório de Química Teórica",
+  "nome_en": "Theoretical Chemistry Laboratory",
+  "departamento": "iea-e",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório de Química Teórica possui cluster de computadores, nobreak e códigos computacionais\natualizados necessários para o desenvolvimento de projetos de pesquisa em Química Teórica com\nênfase em Materiais Energéticos (propelentes sólidos e líquidos, explosivos e pirotécnicos) e\nMateriais Cerâmicos e Compósitos (proteção térmica de reentrada).\n",
+  "descricao_en": "The Theoretical Chemistry Laboratory has a computer cluster, UPS, and updated computational codes\nnecessary for the development of research projects in Theoretical Chemistry with emphasis on\nEnergetic Materials (solid and liquid propellants, explosives, and pyrotechnics) and Ceramic\nand Composite Materials (reentry thermal protection).\n",
+  "infraestrutura": [
+    "Cluster computacional dedicado",
+    "Software de química quântica",
+    "Códigos de dinâmica molecular",
+    "Sistemas de backup (nobreak)"
+  ],
+  "infraestrutura_en": [
+    "Dedicated computer cluster",
+    "Quantum chemistry software",
+    "Molecular dynamics codes",
+    "Backup systems (UPS)"
+  ],
+  "projetos_associados": [
+    "Materiais Energéticos",
+    "Proteção Térmica de Reentrada"
+  ]
+}

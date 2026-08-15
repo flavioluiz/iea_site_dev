@@ -1,0 +1,36 @@
+{
+  "id": "lab-esp",
+  "sigla": "LAB-ESP",
+  "nome_pt": "Laboratório de Estruturas Aeroespaciais",
+  "nome_en": "Aerospace Structures Laboratory",
+  "departamento": "iea-e",
+  "tema": "aeronautica",
+  "descricao_pt": "O Laboratório de Estruturas Aeroespaciais (LAB-ESP) sedia prioritariamente atividades de pesquisa\nexperimentais e numéricas da área de Mecânica dos Sólidos e Estruturas. A área física consiste em um\nhangar de 800 m² dotado de condições adequadas para o ensaio de estruturas aeronáuticas de médio e\ngrande porte. O laboratório tem como objetivo prover pessoal capacitado e infraestrutura adequada\npara planejar e executar ensaios estruturais e de caracterização de materiais compósitos e metálicos.\n",
+  "descricao_en": "The Aerospace Structures Laboratory (LAB-ESP) primarily hosts experimental and numerical research\nactivities in Solid Mechanics and Structures. The physical area consists of an 800 m² hangar equipped\nwith adequate conditions for testing medium and large aeronautical structures. The laboratory aims to\nprovide qualified personnel and adequate infrastructure for planning and executing structural tests\nand characterization of composite and metallic materials.\n",
+  "infraestrutura": [
+    "Máquinas de ensaio universal",
+    "Sistema de aquisição de dados",
+    "Equipamentos para ensaios estáticos",
+    "Análise experimental de tensões",
+    "Ensaios dinâmicos e de vibração",
+    "Ensaios aeroelásticos",
+    "Manufatura aditiva de compósitos",
+    "Ferramentas numéricas de elementos finitos"
+  ],
+  "infraestrutura_en": [
+    "Universal testing machines",
+    "Data acquisition system",
+    "Static test equipment",
+    "Experimental stress analysis",
+    "Dynamic and vibration testing",
+    "Aeroelastic testing",
+    "Additive manufacturing of composites",
+    "Finite element numerical tools"
+  ],
+  "projetos_associados": [
+    "ROTA 2030 - Ferramentais para Compósitos",
+    "FAPESP M-ERA.NET - Estruturas Compósitas",
+    "FINEP - Plataforma Demonstradora EMBRAER"
+  ],
+  "pnipe_url": "https://pnipe.mcti.gov.br/laboratory/1050"
+}

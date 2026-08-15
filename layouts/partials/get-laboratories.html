@@ -1,0 +1,5 @@
+{{- $laboratories := slice -}}
+{{- range $filename, $laboratory := .site.Data.laboratorios -}}
+  {{- $laboratories = $laboratories | append $laboratory -}}
+{{- end -}}
+{{- return $laboratories -}}

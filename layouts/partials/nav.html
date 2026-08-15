@@ -1,21 +1,58 @@
 <nav id="main-nav" class="border-t border-gray-200 py-3 hidden lg:block">
   <ul class="flex flex-col lg:flex-row lg:flex-wrap gap-1">
-    {{ $currentPage := . }}
-    {{ $site := .Site }}
-    {{ range .Site.Menus.main }}
-      <li class="relative {{ if .HasChildren }}dropdown{{ end }}">
-        {{ if and (eq .URL "#") .HasChildren }}
-          <span class="nav-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} block lg:inline-block cursor-pointer">
-            {{ .Name }}
+    {{ $currentURL := .RelPermalink }}
+    {{ $language := .Site.Language.Lang }}
+    {{ $nodes := slice }}
+    {{ range .Site.Data.paginas }}
+      {{ if index .visivel $language }}
+        {{ $url := index .url $language }}
+        {{ if eq .tipo "pagina_editavel" }}
+          {{ $url = printf "/%s/" .pagina.slug }}
+        {{ end }}
+        {{ $nodes = $nodes | append (dict
+          "id" .id
+          "tipo" .tipo
+          "parent" .parent
+          "ordem" .ordem
+          "label" (index .rotulo $language)
+          "url" $url
+        ) }}
+      {{ end }}
+    {{ end }}
+    {{ $nodes = sort $nodes "ordem" "asc" }}
+
+    {{ range where $nodes "parent" "root" }}
+      {{ $item := . }}
+      {{ $children := sort (where $nodes "parent" $item.id) "ordem" "asc" }}
+      {{ $hasChildren := gt (len $children) 0 }}
+      {{ $external := or (strings.HasPrefix $item.url "https://") (strings.HasPrefix $item.url "http://") }}
+      {{ $href := $item.url }}
+      {{ if and (not $external) (ne $href "#") }}
+        {{ $href = $href | relLangURL }}
+      {{ end }}
+      {{ $active := eq $currentURL $href }}
+      {{ range $children }}
+        {{ $childExternal := or (strings.HasPrefix .url "https://") (strings.HasPrefix .url "http://") }}
+        {{ $childHref := .url }}
+        {{ if and (not $childExternal) (ne $childHref "#") }}
+          {{ $childHref = $childHref | relLangURL }}
+        {{ end }}
+        {{ if eq $currentURL $childHref }}{{ $active = true }}{{ end }}
+      {{ end }}
+
+      <li class="relative {{ if $hasChildren }}dropdown{{ end }}" data-site-page-id="{{ $item.id }}">
+        {{ if and (eq $item.url "#") $hasChildren }}
+          <span class="nav-link {{ if $active }}active{{ end }} block lg:inline-block cursor-pointer">
+            {{ $item.label }}
             <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
             </svg>
           </span>
         {{ else }}
-          <a href="{{ .URL | relLangURL }}"
-             class="nav-link {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }} block lg:inline-block">
-            {{ .Name }}
-            {{ if .HasChildren }}
+          <a href="{{ $href }}"
+             class="nav-link {{ if $active }}active{{ end }} block lg:inline-block">
+            {{ $item.label }}
+            {{ if $hasChildren }}
               <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
               </svg>
@@ -23,20 +60,25 @@
           </a>
         {{ end }}
 
-        {{ if .HasChildren }}
+        {{ if $hasChildren }}
           <ul class="dropdown-menu hidden lg:absolute relative lg:left-0 lg:top-full w-full lg:w-64 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
-            {{ range .Children }}
-              {{ if .Params.separator }}
+            {{ range $children }}
+              {{ if eq .tipo "separador" }}
                 <li><hr class="my-1 border-gray-200"></li>
-              {{ else if .Params.category }}
+              {{ else if eq .tipo "categoria" }}
                 <li class="px-4 pt-2 pb-1">
-                  <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ .Name }}</span>
+                  <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ .label }}</span>
                 </li>
               {{ else }}
+                {{ $childExternal := or (strings.HasPrefix .url "https://") (strings.HasPrefix .url "http://") }}
+                {{ $childHref := .url }}
+                {{ if and (not $childExternal) (ne $childHref "#") }}
+                  {{ $childHref = $childHref | relLangURL }}
+                {{ end }}
                 <li>
-                  <a href="{{ .URL | relLangURL }}"
+                  <a href="{{ $childHref }}"
                      class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                    {{ .Name }}
+                    {{ .label }}
                   </a>
                 </li>
               {{ end }}

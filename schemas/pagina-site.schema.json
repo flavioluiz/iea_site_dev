@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "tipo", "protegido", "parent", "ordem", "visivel", "rotulo", "url", "pagina"],
+  "properties": {
+    "id": { "$ref": "#/$defs/id" },
+    "tipo": {
+      "enum": ["raiz", "grupo", "pagina_estrutural", "pagina_editavel", "link_externo", "categoria", "separador"]
+    },
+    "protegido": { "type": "boolean" },
+    "parent": { "anyOf": [{ "const": "" }, { "$ref": "#/$defs/id" }] },
+    "ordem": { "type": "integer", "minimum": 0, "maximum": 10000 },
+    "visivel": { "$ref": "#/$defs/localizedBoolean" },
+    "rotulo": { "$ref": "#/$defs/localizedString" },
+    "url": { "$ref": "#/$defs/localizedString" },
+    "pagina": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "publicada", "titulo", "descricao", "conteudo"],
+      "properties": {
+        "slug": { "anyOf": [{ "const": "" }, { "$ref": "#/$defs/id" }] },
+        "publicada": { "type": "boolean" },
+        "titulo": { "$ref": "#/$defs/localizedString" },
+        "descricao": { "$ref": "#/$defs/localizedString" },
+        "conteudo": { "$ref": "#/$defs/localizedString" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "tipo": { "const": "pagina_editavel" } } },
+      "then": {
+        "properties": {
+          "pagina": {
+            "properties": {
+              "slug": { "$ref": "#/$defs/id" },
+              "titulo": { "$ref": "#/$defs/localizedNonEmptyString" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "tipo": { "const": "raiz" } } },
+      "then": { "properties": { "parent": { "const": "" } } },
+      "else": { "properties": { "parent": { "$ref": "#/$defs/id" } } }
+    }
+  ],
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "localizedString": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pt", "en"],
+      "properties": { "pt": { "type": "string" }, "en": { "type": "string" } }
+    },
+    "localizedNonEmptyString": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pt", "en"],
+      "properties": { "pt": { "type": "string", "minLength": 1 }, "en": { "type": "string", "minLength": 1 } }
+    },
+    "localizedBoolean": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pt", "en"],
+      "properties": { "pt": { "type": "boolean" }, "en": { "type": "boolean" } }
+    }
+  }
+}
