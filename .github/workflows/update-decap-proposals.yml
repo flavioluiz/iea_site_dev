@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -43,6 +44,12 @@ jobs:
             details="$(gh pr view "${number}" --repo "${REPOSITORY}" --json mergeStateStatus,headRefOid)"
             state="$(jq -r '.mergeStateStatus' <<<"${details}")"
             head_sha="$(jq -r '.headRefOid' <<<"${details}")"
+            unsafe_paths="$(gh pr view "${number}" --repo "${REPOSITORY}" --json files \
+              --jq '.files[].path | select((startswith("content/") or startswith("data/") or startswith("static/images/") or startswith("static/documents/")) | not)')"
+            if [[ -n "${unsafe_paths}" ]]; then
+              echo "::warning title=Proposta #${number} fora do escopo editorial::A sincronização automática não executará testes desta branch; confira os arquivos no GitHub."
+              continue
+            fi
             if [[ "${state}" == "UNKNOWN" ]]; then
               for attempt in 1 2 3 4; do
                 sleep 3
@@ -54,7 +61,11 @@ jobs:
             fi
             if [[ "${state}" == "BEHIND" ]]; then
               if gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" >/dev/null; then
-                echo "- Proposta #${number} (${branch}) atualizada; os testes serão executados novamente." >> "${GITHUB_STEP_SUMMARY}"
+                if gh workflow run ci.yml --repo "${REPOSITORY}" --ref "${branch}"; then
+                  echo "- Proposta #${number} (${branch}) atualizada; os testes foram iniciados novamente." >> "${GITHUB_STEP_SUMMARY}"
+                else
+                  echo "::warning title=Testes não iniciados na proposta #${number}::A branch foi sincronizada, mas a CI precisa ser iniciada manualmente."
+                fi
               else
                 echo "::warning title=Não foi possível atualizar a proposta #${number}::Abra a proposta e verifique se há um conflito com main."
               fi

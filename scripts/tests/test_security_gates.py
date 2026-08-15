@@ -33,6 +33,9 @@ class SecurityGateTests(unittest.TestCase):
         self.assertIn('startswith("cms/")', workflow)
         self.assertIn('decap-cms/pending_publish', workflow)
         self.assertIn('pulls/${number}/update-branch', workflow)
+        self.assertIn("actions: write", workflow)
+        self.assertIn("gh workflow run ci.yml", workflow)
+        self.assertIn('startswith("content/")', workflow)
 
     def test_html_disguised_as_jpg_is_rejected_by_content_signature(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
