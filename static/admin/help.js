@@ -74,7 +74,20 @@
       const strong = document.createElement("strong");
       strong.textContent = createKind === "submenu" ? "Novo submenu" : "Nova página";
       contextualNotice.append(strong, document.createElement("br"));
-      contextualNotice.append(`Será criado dentro de “${createLabel}”. O mapa aplicará automaticamente esse local e o tipo correto quando você salvar.`);
+      contextualNotice.append(`Será criado dentro de “${createLabel}”. Ao salvar, ficará em Rascunhos e revisão; só entrará na árvore publicada depois de Publicar.`);
+      contextualNotice.style.display = "block";
+      return;
+    }
+
+    if (validCreateContext && /^#\/edit\/paginas\//.test(window.location.hash)) {
+      const strong = document.createElement("strong");
+      const workflowLink = document.createElement("a");
+      strong.textContent = "Página salva como proposta";
+      workflowLink.href = "./#/workflow";
+      workflowLink.textContent = "Abrir Rascunhos e revisão";
+      workflowLink.style.cssText = "display:inline-block;margin-top:8px;color:#173b73;font-weight:750";
+      contextualNotice.append(strong, document.createElement("br"));
+      contextualNotice.append("Ela ainda não aparece na árvore publicada. Use o fluxo para continuar editando, mudar o estado ou publicar.", document.createElement("br"), workflowLink);
       contextualNotice.style.display = "block";
       return;
     }
@@ -137,6 +150,7 @@
         Se <strong>Publicar</strong> der erro, aguarde os testes e a prévia terminarem e tente novamente. Trocar entre Rascunho e Pronto não corrige a proposta.
       </div>
       <p style="margin:18px 0 0"><strong>Editor externo:</strong> usa Rascunho e Em revisão; um mantenedor publica. <strong>Mantenedor:</strong> também vê Pronto e Publicar.</p>
+      <p style="margin:14px 0 0"><a href="./#/workflow" style="display:inline-block;padding:9px 12px;border-radius:8px;background:#176b46;color:white;font-weight:750;text-decoration:none">Abrir Rascunhos e revisão</a></p>
       <p style="margin:14px 0 0"><a href="./guia.html" target="_blank" rel="noopener noreferrer" style="color:#173b73;font-weight:700">Abrir o guia completo</a></p>
     </div>`;
   dialog.addEventListener("click", event => {
@@ -147,7 +161,7 @@
   const bar = document.createElement("nav");
   bar.setAttribute("aria-label", "Ajuda do editor");
   bar.style.cssText = "position:fixed;right:16px;bottom:16px;z-index:99999;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:8px;max-width:calc(100% - 32px);font:600 14px system-ui";
-  bar.innerHTML = '<a href="./mapa-visual.html" style="border:0;background:#176b46;color:white;padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px #17203333;font:inherit;text-decoration:none">Mapa do site</a><a href="./fontes-dados.html" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Fontes de dados</a><a href="./paginas-especiais.html" target="_blank" rel="noopener noreferrer" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Como as páginas são montadas</a><button type="button" style="border:0;background:#173b73;color:white;padding:10px 14px;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px #17203333;font:inherit">Entenda o fluxo</button>';
+  bar.innerHTML = '<a href="./#/workflow" style="border:0;background:#9a5b13;color:white;padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px #17203333;font:inherit;text-decoration:none">Rascunhos e revisão</a><a href="./mapa-visual.html" style="border:0;background:#176b46;color:white;padding:10px 14px;border-radius:8px;box-shadow:0 2px 8px #17203333;font:inherit;text-decoration:none">Mapa do site</a><a href="./fontes-dados.html" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Fontes de dados</a><a href="./paginas-especiais.html" target="_blank" rel="noopener noreferrer" style="border:1px solid #173b73;background:white;color:#173b73;padding:9px 13px;border-radius:8px;box-shadow:0 2px 8px #17203322;font:inherit;text-decoration:none">Como as páginas são montadas</a><button type="button" style="border:0;background:#173b73;color:white;padding:10px 14px;border-radius:8px;cursor:pointer;box-shadow:0 2px 8px #17203333;font:inherit">Entenda o fluxo</button>';
   bar.querySelector("button").addEventListener("click", () => dialog.showModal());
   document.body.appendChild(bar);
   const placeContextualNotice = () => {
