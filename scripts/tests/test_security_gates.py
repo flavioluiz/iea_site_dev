@@ -38,6 +38,7 @@ class SecurityGateTests(unittest.TestCase):
         self.assertIn("gh workflow run ci.yml", workflow)
         self.assertIn('statuses/${tested_sha}', workflow)
         self.assertIn("for context in validate-data security hugo-build links content-diff", workflow)
+        self.assertIn('"${new_sha}" != "${head_sha}"', workflow)
         self.assertIn('startswith("content/")', workflow)
 
     def test_html_disguised_as_jpg_is_rejected_by_content_signature(self) -> None:
