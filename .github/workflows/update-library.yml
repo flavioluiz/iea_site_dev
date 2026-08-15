@@ -1,4 +1,4 @@
-name: Update Library data
+name: Atualizar dados da Biblioteca
 
 on:
   schedule:
@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Coletar e validar sem abrir pull request"
+        description: "Somente testar — não altera o site nem abre proposta"
         type: boolean
         default: true
       type:
-        description: "Conjunto a atualizar"
+        description: "Conjunto de dados"
         type: choice
         options: [all, teses, tgs]
         default: all
@@ -47,40 +47,44 @@ jobs:
             scripts/requirements-library.txt
       - run: python -m pip install --disable-pip-version-check -r scripts/requirements-cms.txt -r scripts/requirements-library.txt
       - run: python -m unittest discover -s scripts/library/tests -v
-      - name: Fetch into disposable staging
+      - name: Coletar dados em área temporária
         run: python scripts/library/fetch.py --output "${RUNNER_TEMP}/library-raw" --type "${UPDATE_TYPE}"
-      - name: Normalize and enforce last-good thresholds
+      - name: Normalizar e proteger a última versão boa
         run: >-
           python scripts/library/normalize.py
           --input "${RUNNER_TEMP}/library-raw"
           --output "${RUNNER_TEMP}/library-generated"
           --previous data/generated/biblioteca
           --report "${RUNNER_TEMP}/library-report.md"
-      - name: Preserve report
+      - name: Guardar relatório para conferência
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: library-report
           path: ${{ runner.temp }}/library-report.md
           retention-days: 30
-      - name: Stop after safe dry run
+      - name: Encerrar após o teste (nenhuma publicação)
         if: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
-        run: cat "${RUNNER_TEMP}/library-report.md" >> "${GITHUB_STEP_SUMMARY}"
-      - name: Promote staging and validate
+        run: |
+          echo "## Teste concluído — nenhuma alteração foi enviada ao site" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Para atualizar, execute novamente e desmarque **Somente testar**." >> "${GITHUB_STEP_SUMMARY}"
+          cat "${RUNNER_TEMP}/library-report.md" >> "${GITHUB_STEP_SUMMARY}"
+      - name: Preparar dados para a proposta
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         run: |
           rsync --archive --delete "${RUNNER_TEMP}/library-generated/" data/generated/biblioteca/
           python scripts/validate_data.py
           cat "${RUNNER_TEMP}/library-report.md" >> "${GITHUB_STEP_SUMMARY}"
-      - name: Open auditable pull request
+      - name: Abrir proposta de atualização
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if git diff --quiet -- data/generated/biblioteca; then
-            echo "Nenhuma mudança substantiva."
+            echo "## Site já está atualizado" >> "${GITHUB_STEP_SUMMARY}"
+            echo "Nenhuma mudança substantiva foi encontrada; nenhuma proposta foi aberta." >> "${GITHUB_STEP_SUMMARY}"
             exit 0
           fi
-          branch="bot/biblioteca-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          branch="bot/biblioteca-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           gh auth setup-git
           git config user.name "iea-library-bot"
           git config user.email "iea-library-bot@users.noreply.github.com"
@@ -88,10 +92,20 @@ jobs:
           git add data/generated/biblioteca
           git commit -m "data: atualizar metadados da Biblioteca"
           git push origin "${branch}"
-          gh pr create --base main --head "${branch}" --title "data: atualização da Biblioteca" --body-file "${RUNNER_TEMP}/library-report.md"
-          gh workflow run ci.yml --ref "${branch}"
+          pr_error="${RUNNER_TEMP}/library-pr-error.txt"
+          if ! pr_url="$(gh pr create --base main --head "${branch}" --title "data: atualização da Biblioteca" --body-file "${RUNNER_TEMP}/library-report.md" 2>"${pr_error}")"; then
+            cat "${pr_error}" >&2
+            if grep -qi "not permitted to create.*pull request" "${pr_error}"; then
+              echo "## Dados conferidos; o GitHub bloqueou a criação da proposta" >> "${GITHUB_STEP_SUMMARY}"
+              echo "Nenhum dado publicado foi alterado. Um administrador deve habilitar **Allow GitHub Actions to create and approve pull requests** em Settings → Actions → General e então executar novamente." >> "${GITHUB_STEP_SUMMARY}"
+              echo "::error title=Permissão para abrir proposta desativada::Habilite 'Allow GitHub Actions to create and approve pull requests' em Settings → Actions → General. A última versão publicada foi preservada."
+            fi
+            exit 1
+          fi
+          echo "## Proposta aberta — o site ainda não foi alterado" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Confira os testes e mescle a proposta para iniciar a publicação: ${pr_url}" >> "${GITHUB_STEP_SUMMARY}"
       - name: Close a previous operational alert after recovery
-        if: ${{ success() }}
+        if: ${{ success() && !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -116,5 +130,5 @@ jobs:
           if [[ -n "${issue}" ]]; then
             gh issue comment "${issue}" --repo "${REPOSITORY}" --body "Nova falha preservou a última versão boa: ${RUN_URL}"
           else
-            gh issue create --repo "${REPOSITORY}" --title "Operação: falha no Pipeline Biblioteca" --body "A coleta falhou e nenhum dado publicado foi substituído. Execução: ${RUN_URL}"
+            gh issue create --repo "${REPOSITORY}" --title "Operação: falha no Pipeline Biblioteca" --body "O pipeline não conseguiu concluir. Nenhum dado publicado foi substituído. Execução: ${RUN_URL}"
           fi

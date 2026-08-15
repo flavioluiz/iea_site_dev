@@ -27,13 +27,152 @@
   const technicalToggle = document.getElementById("show-technical");
   const expandAll = document.getElementById("expand-all");
   const collapseAll = document.getElementById("collapse-all");
+  const pendingStatus = document.getElementById("pending-status");
+  const pendingList = document.getElementById("pending-list");
   const languageButtons = [...document.querySelectorAll("[data-language]")];
   let nodes = [];
+  let pendingEntries = [];
   let language = "pt";
+
+  const workflowStatuses = {
+    "decap-cms/draft": { label: "Rascunho", className: "draft" },
+    "decap-cms/pending_review": { label: "Em revisão", className: "review" },
+    "decap-cms/pending_publish": { label: "Pronto para publicar", className: "ready" }
+  };
+  const requiredChecks = ["validate-data", "security", "hugo-build", "links", "content-diff"];
+  const readinessStatuses = {
+    behind: { label: "Atualizando com o site", className: "checking", detail: "A proposta ficou atrás de uma publicação mais recente. A atualização automática vai sincronizá-la e repetir os testes." },
+    checking: { label: "Testes em andamento", className: "checking", detail: "Aguarde os cinco testes terminarem antes de usar Publicar." },
+    failed: { label: "Teste com erro", className: "failed", detail: "Abra Rascunhos e revisão para ver qual teste precisa de correção." },
+    conflict: { label: "Conflito precisa de ajuda", className: "failed", detail: "Duas alterações atingiram o mesmo conteúdo; um mantenedor técnico precisa conciliá-las." },
+    ready: { label: "Pode publicar", className: "publishable", detail: "A proposta está sincronizada e todos os testes obrigatórios passaram." },
+    unknown: { label: "Situação sendo consultada", className: "checking", detail: "O GitHub ainda não informou se esta proposta está pronta. Aguarde um pouco e recarregue." }
+  };
 
   const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, character => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
   })[character]);
+
+  const localizedValue = value => {
+    if (!value || typeof value !== "object") return "";
+    return value[language] || value.pt || value.en || "";
+  };
+
+  const parentLabel = parent => {
+    if (parent === "root") return language === "pt" ? "Menu principal" : "Main menu";
+    const parentNode = nodes.find(node => node.id === parent);
+    return parentNode ? localizedValue(parentNode.rotulo) : parent;
+  };
+
+  const renderPending = () => {
+    if (!pendingEntries.length) {
+      pendingStatus.textContent = "Nenhuma página do mapa está aguardando publicação.";
+      pendingList.innerHTML = '<p class="pending-empty">A árvore abaixo representa tudo o que já foi publicado.</p>';
+      return;
+    }
+    pendingStatus.textContent = `${pendingEntries.length} ${pendingEntries.length === 1 ? "página ainda não aparece" : "páginas ainda não aparecem"} na árvore publicada abaixo.`;
+    pendingList.innerHTML = pendingEntries.map(entry => {
+      const menuLabel = localizedValue(entry.data.rotulo) || entry.id;
+      const title = localizedValue(entry.data.pagina && entry.data.pagina.titulo);
+      const statusMeta = workflowStatuses[entry.status] || workflowStatuses["decap-cms/draft"];
+      const location = entry.partial ? "" : parentLabel(entry.data.parent || "root");
+      const detail = entry.partial
+        ? "Os detalhes não puderam ser carregados agora; a proposta continua preservada no fluxo."
+        : title && title !== menuLabel ? `${title} · Dentro de: ${location}` : `Dentro de: ${location}`;
+      const readiness = entry.status === "decap-cms/pending_publish"
+        ? (readinessStatuses[entry.readiness] || readinessStatuses.unknown)
+        : null;
+      const readinessBadge = readiness
+        ? `<span class="badge readiness-badge ${readiness.className}">${readiness.label}</span>`
+        : "";
+      const readinessDetail = readiness ? `<p class="readiness-detail">${escapeHtml(readiness.detail)}</p>` : "";
+      return `<article class="pending-card"><div class="badges"><span class="badge workflow-badge ${statusMeta.className}">${statusMeta.label}</span>${readinessBadge}<span class="badge origin-markdown">📝 Ainda não publicada</span></div><h3>${escapeHtml(menuLabel)}</h3><p>${escapeHtml(detail)}</p>${readinessDetail}<div class="actions"><a class="button primary small" href="./#/workflow">Abrir em Rascunhos e revisão</a></div></article>`;
+    }).join("");
+  };
+
+  const decodeContent = content => {
+    const compact = String(content || "").replace(/\n/g, "");
+    const bytes = Uint8Array.from(window.atob(compact), character => character.charCodeAt(0));
+    return new TextDecoder().decode(bytes);
+  };
+
+  const loadReadiness = async pullRequest => {
+    const detailUrl = `https://api.github.com/repos/flavioluiz/iea_site_dev/pulls/${encodeURIComponent(pullRequest.number)}`;
+    const checksUrl = `https://api.github.com/repos/flavioluiz/iea_site_dev/commits/${encodeURIComponent(pullRequest.head.sha)}/check-runs?per_page=100`;
+    try {
+      const [detailResponse, checksResponse] = await Promise.all([
+        fetch(detailUrl, { referrerPolicy: "no-referrer" }),
+        fetch(checksUrl, { referrerPolicy: "no-referrer", headers: { Accept: "application/vnd.github+json" } })
+      ]);
+      if (!detailResponse.ok || !checksResponse.ok) throw new Error("GitHub indisponível");
+      const [detail, checksPayload] = await Promise.all([detailResponse.json(), checksResponse.json()]);
+      if (detail.mergeable_state === "behind") return "behind";
+      if (detail.mergeable_state === "dirty") return "conflict";
+      const checks = new Map((checksPayload.check_runs || []).map(check => [check.name, check]));
+      const required = requiredChecks.map(name => checks.get(name));
+      if (required.some(check => check && check.status === "completed" && !["success", "neutral", "skipped"].includes(check.conclusion))) return "failed";
+      if (required.some(check => !check || check.status !== "completed")) return "checking";
+      return "ready";
+    } catch (error) {
+      return "unknown";
+    }
+  };
+
+  const loadPendingEntry = async pullRequest => {
+    const branchPrefix = "cms/paginas/";
+    const identifier = pullRequest.head.ref.slice(branchPrefix.length);
+    const repository = pullRequest.head.repo && pullRequest.head.repo.full_name;
+    const sha = pullRequest.head.sha || "";
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(identifier) || !/^[0-9a-f]{40}$/.test(sha)) {
+      throw new Error("Identificação de proposta inválida");
+    }
+    const repositoryParts = String(repository || "").split("/");
+    if (repositoryParts.length !== 2 || repositoryParts.some(part => !/^[A-Za-z0-9_.-]+$/.test(part))) {
+      throw new Error("Repositório de proposta inválido");
+    }
+    const contentUrl = `https://api.github.com/repos/${repositoryParts.map(encodeURIComponent).join("/")}/contents/data/paginas/${encodeURIComponent(identifier)}.json?ref=${encodeURIComponent(sha)}`;
+    const statusLabel = pullRequest.labels.find(label => workflowStatuses[label.name]);
+    const readinessPromise = statusLabel.name === "decap-cms/pending_publish"
+      ? loadReadiness(pullRequest)
+      : Promise.resolve(null);
+    try {
+      const response = await fetch(contentUrl, { referrerPolicy: "no-referrer" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      const data = JSON.parse(decodeContent(payload.content));
+      return { id: identifier, data, status: statusLabel.name, readiness: await readinessPromise, partial: false };
+    } catch (error) {
+      return {
+        id: identifier,
+        data: { rotulo: { pt: identifier, en: identifier }, pagina: {}, parent: "root" },
+        status: statusLabel.name,
+        readiness: await readinessPromise,
+        partial: true
+      };
+    }
+  };
+
+  const loadPending = async () => {
+    try {
+      const response = await fetch("https://api.github.com/repos/flavioluiz/iea_site_dev/pulls?state=open&per_page=100", { referrerPolicy: "no-referrer" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const pullRequests = await response.json();
+      const editorialPages = pullRequests.filter(pullRequest => {
+        const branch = pullRequest.head && pullRequest.head.ref || "";
+        const labels = Array.isArray(pullRequest.labels) ? pullRequest.labels : [];
+        return branch.startsWith("cms/paginas/") && labels.some(label => workflowStatuses[label.name]);
+      });
+      const results = await Promise.allSettled(editorialPages.map(loadPendingEntry));
+      pendingEntries = results.filter(result => result.status === "fulfilled").map(result => result.value);
+      renderPending();
+      if (results.some(result => result.status === "rejected")) {
+        pendingStatus.textContent += " Algumas propostas não puderam ser detalhadas; abra Rascunhos e revisão para ver todas.";
+      }
+    } catch (error) {
+      pendingStatus.textContent = "Não foi possível consultar as pendências agora. Elas continuam disponíveis em Rascunhos e revisão.";
+      pendingList.innerHTML = '<p class="pending-empty">A árvore publicada continua disponível abaixo.</p>';
+    }
+  };
 
   const localizedUrl = node => {
     if (node.tipo === "pagina_editavel") {
@@ -171,6 +310,7 @@
     language = button.dataset.language;
     languageButtons.forEach(item => item.setAttribute("aria-pressed", String(item === button)));
     render();
+    renderPending();
   }));
   hiddenToggle.addEventListener("change", render);
   technicalToggle.addEventListener("change", () => {
@@ -187,11 +327,14 @@
     .then(payload => {
       nodes = payload.nodes.filter(node => node.tipo !== "raiz");
       render();
+      renderPending();
     })
     .catch(error => {
       status.textContent = "Não foi possível carregar o mapa. Recarregue a página; os formulários individuais continuam preservados.";
       tree.innerHTML = `<p class="empty">Falha ao carregar a estrutura (${escapeHtml(error.message)}).</p>`;
     });
+
+  loadPending();
 
   technicalToggle.checked = new URLSearchParams(window.location.search).get("details") === "1";
   document.body.classList.toggle("show-technical", technicalToggle.checked);

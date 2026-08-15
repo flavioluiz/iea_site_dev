@@ -32,6 +32,59 @@
     if (target) target.textContent = value;
   };
 
+  const formatRunDate = value => {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "data não registrada";
+    return new Intl.DateTimeFormat("pt-BR", {
+      dateStyle: "short", timeStyle: "short", timeZone: "America/Sao_Paulo"
+    }).format(date);
+  };
+
+  const loadLatestLibraryRun = async () => {
+    const box = document.querySelector("[data-library-run]");
+    const result = box.querySelector('[data-field="run-status"]');
+    const link = box.querySelector('[data-field="run-link"]');
+    try {
+      const runsResponse = await fetch("https://api.github.com/repos/flavioluiz/iea_site_dev/actions/workflows/update-library.yml/runs?event=workflow_dispatch&per_page=1", { referrerPolicy: "no-referrer" });
+      if (!runsResponse.ok) throw new Error(`HTTP ${runsResponse.status}`);
+      const runsPayload = await runsResponse.json();
+      const run = runsPayload.workflow_runs && runsPayload.workflow_runs[0];
+      if (!run) {
+        result.textContent = "Nenhuma execução manual encontrada.";
+        return;
+      }
+      link.href = run.html_url;
+      link.hidden = false;
+      if (run.status !== "completed") {
+        result.textContent = `Em andamento desde ${formatRunDate(run.created_at)}. Aguarde a conclusão antes de executar novamente.`;
+        return;
+      }
+      const jobsResponse = await fetch(`https://api.github.com/repos/flavioluiz/iea_site_dev/actions/runs/${encodeURIComponent(run.id)}/jobs?per_page=20`, { referrerPolicy: "no-referrer" });
+      if (!jobsResponse.ok) throw new Error(`HTTP ${jobsResponse.status}`);
+      const jobsPayload = await jobsResponse.json();
+      const steps = (jobsPayload.jobs || []).flatMap(job => job.steps || []);
+      const dryRunStep = steps.find(step => ["Stop after safe dry run", "Encerrar após o teste (nenhuma publicação)"].includes(step.name));
+      const failedStep = steps.find(step => step.conclusion === "failure");
+      if (run.conclusion === "success" && dryRunStep && dryRunStep.conclusion === "success") {
+        box.classList.add("test");
+        result.textContent = `Teste concluído em ${formatRunDate(run.updated_at)}. Nada foi enviado ao site. Para atualizar, execute novamente e desmarque “Somente testar”.`;
+        return;
+      }
+      if (run.conclusion === "success") {
+        box.classList.add("complete");
+        result.textContent = `Execução completa concluída em ${formatRunDate(run.updated_at)}. Se houve mudanças, confira a proposta da Biblioteca antes de mesclar.`;
+        return;
+      }
+      if (failedStep && failedStep.name === "Abrir proposta de atualização") {
+        result.textContent = `Os dados foram coletados e conferidos em ${formatRunDate(run.updated_at)}, mas o GitHub bloqueou a abertura da proposta. Nada foi alterado no site; um administrador precisa habilitar a permissão indicada nos detalhes da execução.`;
+        return;
+      }
+      result.textContent = `A execução de ${formatRunDate(run.updated_at)} terminou com erro. Abra os detalhes; a última versão boa do site foi preservada.`;
+    } catch (error) {
+      result.textContent = "Não foi possível consultar a última execução agora. Use o botão abaixo para abrir o histórico no GitHub.";
+    }
+  };
+
   fetch(new URL("../pt/fontes-dados.json", window.location.href), { credentials: "same-origin" })
     .then(response => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -62,4 +115,6 @@
     .catch(error => {
       status.textContent = `Não foi possível ler os manifests (${error.message}). A última versão publicada dos bancos continua preservada.`;
     });
+
+  loadLatestLibraryRun();
 })();

@@ -10,6 +10,7 @@ from PIL import Image
 
 
 SCRIPTS = Path(__file__).resolve().parents[1]
+ROOT = SCRIPTS.parent
 
 
 def load_module(name: str, path: Path):
@@ -25,6 +26,14 @@ LINKS = load_module("check_links_test", SCRIPTS / "check_links.py")
 
 
 class SecurityGateTests(unittest.TestCase):
+    def test_decap_update_workflow_never_executes_pull_request_code(self) -> None:
+        workflow = (ROOT / ".github" / "workflows" / "update-decap-proposals.yml").read_text(encoding="utf-8")
+        self.assertIn("pull_request_target:", workflow)
+        self.assertNotIn("actions/checkout", workflow)
+        self.assertIn('startswith("cms/")', workflow)
+        self.assertIn('decap-cms/pending_publish', workflow)
+        self.assertIn('pulls/${number}/update-branch', workflow)
+
     def test_html_disguised_as_jpg_is_rejected_by_content_signature(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

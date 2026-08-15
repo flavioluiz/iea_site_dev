@@ -75,6 +75,16 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("script-src 'self'", page)
         self.assertNotIn("unsafe-eval", page)
         self.assertIn("../pt/mapa-site.json", script)
+        self.assertIn("connect-src 'self' https://api.github.com", page)
+        self.assertIn("pending-panel", page)
+        self.assertIn('href="./index.html">← Voltar ao editor', page)
+        self.assertIn("https://api.github.com/repos/flavioluiz/iea_site_dev/pulls", script)
+        self.assertIn("decap-cms/pending_publish", script)
+        self.assertIn("check-runs?per_page=100", script)
+        self.assertIn("Pode publicar", script)
+        self.assertIn("Atualizando com o site", script)
+        self.assertIn("#/workflow", page)
+        self.assertIn("Rascunhos e revisão", help_script)
         self.assertIn("Abrir tudo", page)
         self.assertIn("Markdown completo", page)
         self.assertIn("originMeta", script)
@@ -113,6 +123,11 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn(".Site.Data.generated.scopus.manifest", output)
         self.assertIn(".Site.Data.generated.biblioteca.manifest", output)
         self.assertIn("FONTESDADOS", config)
+        self.assertIn("connect-src 'self' https://api.github.com", page)
+        self.assertIn("Somente testar", page)
+        self.assertIn("actions/workflows/update-library.yml/runs", script)
+        self.assertIn("Nada foi enviado ao site", script)
+        self.assertIn("GitHub bloqueou a abertura da proposta", script)
 
 
 if __name__ == "__main__":
