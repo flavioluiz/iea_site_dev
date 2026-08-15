@@ -1,0 +1,17 @@
+{{- $nodes := .nodes -}}
+{{- $parent := .parent -}}
+{{- $currentURL := .currentURL -}}
+{{- $active := false -}}
+{{- range where $nodes "parent" $parent -}}
+  {{- $href := .url -}}
+  {{- $external := or (strings.HasPrefix $href "https://") (strings.HasPrefix $href "http://") -}}
+  {{- if and (not $external) (ne $href "#") -}}
+    {{- $href = $href | relLangURL -}}
+  {{- end -}}
+  {{- if eq $currentURL $href -}}
+    {{- $active = true -}}
+  {{- else if partial "nav-active.html" (dict "nodes" $nodes "parent" .id "currentURL" $currentURL) -}}
+    {{- $active = true -}}
+  {{- end -}}
+{{- end -}}
+{{- return $active -}}

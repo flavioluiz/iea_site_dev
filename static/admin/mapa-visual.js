@@ -24,6 +24,7 @@
   const tree = document.getElementById("map-tree");
   const status = document.getElementById("map-status");
   const hiddenToggle = document.getElementById("show-hidden");
+  const technicalToggle = document.getElementById("show-technical");
   const expandAll = document.getElementById("expand-all");
   const collapseAll = document.getElementById("collapse-all");
   const languageButtons = [...document.querySelectorAll("[data-language]")];
@@ -46,7 +47,15 @@
     return new URL(`../${language}/${target.replace(/^\//, "")}`, window.location.href).href;
   };
 
-  const editMenuUrl = node => `./?advanced=1#/edit/paginas/${encodeURIComponent(node.id)}`;
+  const editMenuUrl = node => `./${node.protegido ? "?protected=1" : ""}#/edit/paginas/${encodeURIComponent(node.id)}`;
+  const createUrl = (parent, kind, label) => {
+    const params = new URLSearchParams({ create_parent: parent, create_kind: kind, create_label: label });
+    return `./?${params.toString()}#/collections/paginas/new`;
+  };
+  const removeUrl = node => {
+    const params = new URLSearchParams({ intent: "remove", label: node.rotulo[language] || node.id });
+    return `./?${params.toString()}#/edit/paginas/${encodeURIComponent(node.id)}`;
+  };
   const adminRoute = route => route ? `./${route}` : "";
   const visibilityLabel = node => {
     if (!node.visivel.pt && !node.visivel.en) return "Fora dos dois menus";
@@ -71,14 +80,20 @@
     const role = roleMeta[node.tipo] || roleMeta.pagina_estrutural;
     const origin = originMeta[originKey(node)] || originMeta.desconhecida;
     const titleTag = depth === 0 ? "h2" : "h3";
-    const location = childCount
+    const editorialRole = node.edicao && node.edicao.papel
+      ? node.edicao.papel[language] || node.edicao.papel.pt || node.edicao.papel.en
+      : "";
+    const location = editorialRole || (childCount
       ? `${childCount} ${childCount === 1 ? "item dentro" : "itens dentro"}`
-      : role.help;
+      : role.help);
     const hidden = !node.visivel[language];
-    return `<div class="node-summary"><span class="node-icon" aria-hidden="true">${role.icon}</span><div class="node-heading"><${titleTag}>${escapeHtml(node.rotulo[language] || "Sem nome")}</${titleTag}><p class="location">${escapeHtml(location)}</p></div><div class="badges"><span class="badge origin-${escapeHtml(originKey(node))}">${origin.icon} ${origin.label}</span><span class="badge role">${role.label}</span>${node.protegido ? '<span class="badge locked">🔒 Protegido</span>' : ""}${hidden ? `<span class="badge hidden">${visibilityLabel(node)}</span>` : ""}</div></div>`;
+    const mainPage = node.edicao && node.edicao.principal
+      ? '<span class="badge main-page">Página principal da seção</span>'
+      : "";
+    return `<div class="node-summary"><span class="node-icon" aria-hidden="true">${role.icon}</span><div class="node-heading"><${titleTag}>${escapeHtml(node.rotulo[language] || "Sem nome")}</${titleTag}><p class="location">${escapeHtml(location)}</p></div><div class="badges">${mainPage}<span class="badge origin-${escapeHtml(originKey(node))}">${origin.icon} ${origin.label}</span><span class="badge role">${role.label}</span>${node.protegido ? '<span class="badge locked">🔒 Protegido</span>' : ""}${hidden ? `<span class="badge hidden">${visibilityLabel(node)}</span>` : ""}</div></div>`;
   };
 
-  const body = node => {
+  const body = (node, childCount) => {
     const origin = originMeta[originKey(node)] || originMeta.desconhecida;
     const editor = contentEditor(node);
     const dataEditor = node.edicao && node.edicao.dados_editor;
@@ -101,16 +116,31 @@
     const viewAction = view
       ? `<a class="button small" href="${escapeHtml(view)}" target="_blank" rel="noopener noreferrer">Ver página</a>`
       : "";
-    return `<div class="node-body"><p class="detail">${escapeHtml(detail)}</p><div class="node-actions">${contentAction}${dataAction}${menuAction}${viewAction}</div></div>`;
+    const sourceAction = node.edicao && node.edicao.fonte
+      ? `<a class="button small" href="./fontes-dados.html#${encodeURIComponent(node.edicao.fonte)}">Dados e atualização</a>`
+      : "";
+    const label = node.rotulo[language] || node.id;
+    const addActions = node.tipo === "grupo"
+      ? `<div class="structure-actions"><span>Adicionar dentro desta seção:</span><a class="button small add" href="${createUrl(node.id, "page", label)}">＋ Página</a><a class="button small add" href="${createUrl(node.id, "submenu", label)}">＋ Submenu</a></div>`
+      : "";
+    const removeAction = !node.protegido && childCount === 0
+      ? `<a class="button small danger" href="${removeUrl(node)}">Remover…</a>`
+      : "";
+    const removeHint = !node.protegido && childCount > 0
+      ? '<span class="remove-hint">Para remover esta seção, mova ou remova primeiro os itens dentro dela.</span>'
+      : "";
+    const technical = `<dl class="technical-details"><div><dt>Código</dt><dd>${escapeHtml(node.id)}</dd></div><div><dt>Dentro de</dt><dd>${escapeHtml(node.parent)}</dd></div><div><dt>Ordem</dt><dd>${escapeHtml(node.ordem)}</dd></div><div><dt>Tipo</dt><dd>${escapeHtml(node.tipo)}</dd></div></dl>`;
+    return `<div class="node-body"><p class="detail">${escapeHtml(detail)}</p><div class="node-actions">${contentAction}${dataAction}${menuAction}${viewAction}${sourceAction}${removeAction}</div>${addActions}${removeHint}${technical}</div>`;
   };
 
-  const renderNode = (node, childrenByParent, depth = 0) => {
+  const renderNode = (node, childrenByParent, allChildrenByParent, depth = 0) => {
     if (node.tipo === "separador") return '<div class="separator" aria-label="Separador visual"></div>';
     const children = childrenByParent.get(node.id) || [];
+    const allChildren = allChildrenByParent.get(node.id) || [];
     const hiddenClass = node.visivel[language] ? "" : " hidden-node";
     const classes = `node origin-${originKey(node)}${hiddenClass}`;
     const header = summary(node, children.length, depth);
-    const contents = `${body(node)}${children.length ? `<div class="children">${children.map(child => renderNode(child, childrenByParent, depth + 1)).join("")}</div>` : ""}`;
+    const contents = `${body(node, allChildren.length)}${children.length ? `<div class="children">${children.map(child => renderNode(child, childrenByParent, allChildrenByParent, depth + 1)).join("")}</div>` : ""}`;
     if (children.length) return `<details class="branch ${classes}" data-node-id="${escapeHtml(node.id)}"><summary>${header}</summary>${contents}</details>`;
     return `<article class="leaf ${classes}" data-node-id="${escapeHtml(node.id)}">${header}${contents}</article>`;
   };
@@ -121,12 +151,17 @@
     const ordered = [...nodes].sort((a, b) => a.ordem - b.ordem || a.id.localeCompare(b.id));
     const shown = ordered.filter(visible);
     const childrenByParent = new Map();
+    const allChildrenByParent = new Map();
+    ordered.forEach(node => {
+      if (!allChildrenByParent.has(node.parent)) allChildrenByParent.set(node.parent, []);
+      allChildrenByParent.get(node.parent).push(node);
+    });
     shown.forEach(node => {
       if (!childrenByParent.has(node.parent)) childrenByParent.set(node.parent, []);
       childrenByParent.get(node.parent).push(node);
     });
     const topLevel = childrenByParent.get("root") || [];
-    tree.innerHTML = topLevel.map(node => renderNode(node, childrenByParent)).join("");
+    tree.innerHTML = topLevel.map(node => renderNode(node, childrenByParent, allChildrenByParent)).join("");
     const pageCount = shown.filter(node => !["grupo", "categoria", "separador", "link_externo"].includes(node.tipo)).length;
     status.textContent = `${topLevel.length} itens na barra principal · ${pageCount} páginas ou destinos · idioma ${language === "pt" ? "Português" : "English"}${showHidden ? " · incluindo itens ocultos" : ""}`;
     if (!topLevel.length) tree.innerHTML = '<p class="empty">Nenhum item encontrado para este idioma.</p>';
@@ -138,6 +173,9 @@
     render();
   }));
   hiddenToggle.addEventListener("change", render);
+  technicalToggle.addEventListener("change", () => {
+    document.body.classList.toggle("show-technical", technicalToggle.checked);
+  });
   expandAll.addEventListener("click", () => document.querySelectorAll("#map-tree details").forEach(item => { item.open = true; }));
   collapseAll.addEventListener("click", () => document.querySelectorAll("#map-tree details").forEach(item => { item.open = false; }));
 
@@ -151,7 +189,10 @@
       render();
     })
     .catch(error => {
-      status.textContent = "Não foi possível carregar o mapa. Recarregue a página ou use a Lista técnica avançada.";
+      status.textContent = "Não foi possível carregar o mapa. Recarregue a página; os formulários individuais continuam preservados.";
       tree.innerHTML = `<p class="empty">Falha ao carregar a estrutura (${escapeHtml(error.message)}).</p>`;
     });
+
+  technicalToggle.checked = new URLSearchParams(window.location.search).get("details") === "1";
+  document.body.classList.toggle("show-technical", technicalToggle.checked);
 })();

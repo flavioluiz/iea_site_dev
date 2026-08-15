@@ -84,8 +84,35 @@ class AdminCspTests(unittest.TestCase):
     def test_technical_page_list_redirects_to_visual_map(self) -> None:
         help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
         self.assertIn("redirectTechnicalMenuList", help_script)
-        self.assertIn("advancedMenuView", help_script)
+        self.assertNotIn("advancedMenuView", help_script)
+        self.assertNotIn("advanced=1", help_script)
         self.assertIn("./mapa-visual.html", help_script)
+
+    def test_visual_tree_has_contextual_create_and_remove_actions(self) -> None:
+        page = (ROOT / "static/admin/mapa-visual.html").read_text(encoding="utf-8")
+        map_script = (ROOT / "static/admin/mapa-visual.js").read_text(encoding="utf-8")
+        help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+
+        self.assertIn("create_parent=root", page)
+        self.assertIn("create_kind=submenu", page)
+        self.assertIn("Adicionar dentro desta seção", map_script)
+        self.assertIn("Remover…", map_script)
+        self.assertIn('name: "preSave"', help_script)
+        self.assertIn('.set("parent", createParent)', help_script)
+        self.assertIn('.set("tipo", createKind', help_script)
+
+    def test_data_sources_dashboard_reads_generated_manifests(self) -> None:
+        page = (ROOT / "static/admin/fontes-dados.html").read_text(encoding="utf-8")
+        script = (ROOT / "static/admin/fontes-dados.js").read_text(encoding="utf-8")
+        output = (ROOT / "layouts/index.fontesdados.json").read_text(encoding="utf-8")
+        config = (ROOT / "config/_default/config.yaml").read_text(encoding="utf-8")
+
+        self.assertIn("Fontes de dados e atualizações", page)
+        self.assertIn("../pt/fontes-dados.json", script)
+        self.assertIn("last_complete_run", script)
+        self.assertIn(".Site.Data.generated.scopus.manifest", output)
+        self.assertIn(".Site.Data.generated.biblioteca.manifest", output)
+        self.assertIn("FONTESDADOS", config)
 
 
 if __name__ == "__main__":

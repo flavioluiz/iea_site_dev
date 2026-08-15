@@ -42,6 +42,8 @@ O botão principal de cada item abre diretamente seu Markdown ou cadastro. **Aju
 - ocultar um item em um dos idiomas;
 - criar, editar ou excluir páginas textuais comuns.
 
+A coleção **Mapa do site** abre sempre a árvore visual; a listagem técnica plana não faz parte da interface. Crie páginas e submenus nos botões da seção desejada, e use **Ajustar no menu** para renomear, mover, ordenar ou ocultar. O painel **Fontes de dados** lê os manifests publicados e mostra a última carga de Scopus e Biblioteca, além do procedimento de atualização.
+
 Itens automáticos e grupos essenciais são protegidos: podem ser renomeados, movidos ou ocultados, mas a validação bloqueia sua exclusão. O campo **Endereço permanente** de uma página textual deve ser definido na criação e mantido depois de publicado.
 
 Pós-Graduação e Graduação são páginas Markdown completas e não usam template próprio. Home usa template especial; Pessoas, Laboratórios e páginas semelhantes combinam Markdown com dados. Use o atalho **Como as páginas são montadas** para comparar os formatos ou solicitar uma mudança maior de HTML/Hugo sem precisar conhecer o arquivo técnico.

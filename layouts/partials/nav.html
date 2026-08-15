@@ -1,149 +1,84 @@
 <nav id="main-nav" class="border-t border-gray-200 py-3 hidden lg:block">
+  {{ $currentURL := .RelPermalink }}
+  {{ $language := .Site.Language.Lang }}
+  {{ $nodes := slice }}
+  {{ range .Site.Data.paginas }}
+    {{ if index .visivel $language }}
+      {{ $url := index .url $language }}
+      {{ if eq .tipo "pagina_editavel" }}
+        {{ $url = printf "/%s/" .pagina.slug }}
+      {{ end }}
+      {{ $nodes = $nodes | append (dict
+        "id" .id
+        "tipo" .tipo
+        "parent" .parent
+        "ordem" .ordem
+        "label" (index .rotulo $language)
+        "url" $url
+      ) }}
+    {{ end }}
+  {{ end }}
+
   <ul class="flex flex-col lg:flex-row lg:flex-wrap gap-1">
-    {{ $currentURL := .RelPermalink }}
-    {{ $language := .Site.Language.Lang }}
-    {{ $nodes := slice }}
-    {{ range .Site.Data.paginas }}
-      {{ if index .visivel $language }}
-        {{ $url := index .url $language }}
-        {{ if eq .tipo "pagina_editavel" }}
-          {{ $url = printf "/%s/" .pagina.slug }}
-        {{ end }}
-        {{ $nodes = $nodes | append (dict
-          "id" .id
-          "tipo" .tipo
-          "parent" .parent
-          "ordem" .ordem
-          "label" (index .rotulo $language)
-          "url" $url
-        ) }}
-      {{ end }}
-    {{ end }}
-    {{ $nodes = sort $nodes "ordem" "asc" }}
-
-    {{ range where $nodes "parent" "root" }}
-      {{ $item := . }}
-      {{ $children := sort (where $nodes "parent" $item.id) "ordem" "asc" }}
-      {{ $hasChildren := gt (len $children) 0 }}
-      {{ $external := or (strings.HasPrefix $item.url "https://") (strings.HasPrefix $item.url "http://") }}
-      {{ $href := $item.url }}
-      {{ if and (not $external) (ne $href "#") }}
-        {{ $href = $href | relLangURL }}
-      {{ end }}
-      {{ $active := eq $currentURL $href }}
-      {{ range $children }}
-        {{ $childExternal := or (strings.HasPrefix .url "https://") (strings.HasPrefix .url "http://") }}
-        {{ $childHref := .url }}
-        {{ if and (not $childExternal) (ne $childHref "#") }}
-          {{ $childHref = $childHref | relLangURL }}
-        {{ end }}
-        {{ if eq $currentURL $childHref }}{{ $active = true }}{{ end }}
-      {{ end }}
-
-      <li class="relative {{ if $hasChildren }}dropdown{{ end }}" data-site-page-id="{{ $item.id }}">
-        {{ if and (eq $item.url "#") $hasChildren }}
-          <span class="nav-link {{ if $active }}active{{ end }} block lg:inline-block cursor-pointer">
-            {{ $item.label }}
-            <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-            </svg>
-          </span>
-        {{ else }}
-          <a href="{{ $href }}"
-             class="nav-link {{ if $active }}active{{ end }} block lg:inline-block">
-            {{ $item.label }}
-            {{ if $hasChildren }}
-              <svg class="inline w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-              </svg>
-            {{ end }}
-          </a>
-        {{ end }}
-
-        {{ if $hasChildren }}
-          <ul class="dropdown-menu hidden lg:absolute relative lg:left-0 lg:top-full w-full lg:w-64 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
-            {{ range $children }}
-              {{ if eq .tipo "separador" }}
-                <li><hr class="my-1 border-gray-200"></li>
-              {{ else if eq .tipo "categoria" }}
-                <li class="px-4 pt-2 pb-1">
-                  <span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ .label }}</span>
-                </li>
-              {{ else }}
-                {{ $childExternal := or (strings.HasPrefix .url "https://") (strings.HasPrefix .url "http://") }}
-                {{ $childHref := .url }}
-                {{ if and (not $childExternal) (ne $childHref "#") }}
-                  {{ $childHref = $childHref | relLangURL }}
-                {{ end }}
-                <li>
-                  <a href="{{ $childHref }}"
-                     class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-600 transition-colors">
-                    {{ .label }}
-                  </a>
-                </li>
-              {{ end }}
-            {{ end }}
-          </ul>
-        {{ end }}
-      </li>
-    {{ end }}
+    {{ partial "nav-tree.html" (dict "nodes" $nodes "parent" "root" "depth" 0 "currentURL" $currentURL) }}
   </ul>
 </nav>
 
 <script>
-// Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
   const mobileMenuButton = document.getElementById('mobile-menu-button');
   const mainNav = document.getElementById('main-nav');
 
-  if (mobileMenuButton && mainNav) {
+  if (!mainNav) return;
+
+  if (mobileMenuButton) {
     mobileMenuButton.addEventListener('click', function() {
       mainNav.classList.toggle('hidden');
     });
   }
 
-  // Dropdown functionality
+  const directChild = (element, selector) => Array.from(element.children).find(child => child.matches(selector));
   const dropdowns = document.querySelectorAll('.dropdown');
 
   dropdowns.forEach(dropdown => {
-    const link = dropdown.querySelector('.nav-link');
-    const menu = dropdown.querySelector('.dropdown-menu');
-
+    const link = directChild(dropdown, '.nav-link');
+    const menu = directChild(dropdown, '.dropdown-menu');
     if (!link || !menu) return;
 
-    // Desktop hover behavior (lg and up)
-    if (window.innerWidth >= 1024) {
-      dropdown.addEventListener('mouseenter', function() {
-        menu.classList.remove('hidden');
-      });
+    const setOpen = open => {
+      menu.classList.toggle('hidden', !open);
+      link.setAttribute('aria-expanded', String(open));
+    };
 
-      dropdown.addEventListener('mouseleave', function() {
-        menu.classList.add('hidden');
-      });
-    }
-
-    // Mobile click behavior
-    link.addEventListener('click', function(e) {
+    dropdown.addEventListener('mouseenter', function() {
+      if (window.innerWidth >= 1024) setOpen(true);
+    });
+    dropdown.addEventListener('mouseleave', function() {
+      if (window.innerWidth >= 1024) setOpen(false);
+    });
+    link.addEventListener('click', function(event) {
       if (window.innerWidth < 1024) {
-        e.preventDefault();
-        menu.classList.toggle('hidden');
+        event.preventDefault();
+        setOpen(!menu.classList.contains('hidden'));
+      }
+    });
+    link.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        setOpen(!menu.classList.contains('hidden'));
       }
     });
   });
 
-  // Handle window resize
   window.addEventListener('resize', function() {
     const dropdownMenus = document.querySelectorAll('.dropdown-menu');
-
     if (window.innerWidth >= 1024) {
-      // Desktop: show nav, hide all dropdowns
       mainNav.classList.remove('hidden');
-      dropdownMenus.forEach(menu => menu.classList.add('hidden'));
     } else {
-      // Mobile: hide nav by default
       mainNav.classList.add('hidden');
-      dropdownMenus.forEach(menu => menu.classList.add('hidden'));
     }
+    dropdownMenus.forEach(menu => menu.classList.add('hidden'));
+    document.querySelectorAll('.dropdown > .nav-link').forEach(link => link.setAttribute('aria-expanded', 'false'));
   });
 });
 </script>

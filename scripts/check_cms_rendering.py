@@ -79,6 +79,8 @@ def main() -> int:
             if node["tipo"] not in {"pagina_editavel", "pagina_estrutural"}:
                 continue
             editor = node.get("edicao", {})
+            if node["tipo"] == "pagina_editavel" and not editor:
+                continue
             if not editor.get("origem") or not all(editor.get("editor", {}).get(code) for code in ("pt", "en")):
                 raise SystemExit(f"{map_path}: página {node['id']} sem origem/editor no mapa")
         checked += len(map_ids)

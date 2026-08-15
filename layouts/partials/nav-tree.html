@@ -1,0 +1,43 @@
+{{- $nodes := .nodes -}}
+{{- $parent := .parent -}}
+{{- $depth := .depth -}}
+{{- $currentURL := .currentURL -}}
+{{- $items := sort (where $nodes "parent" $parent) "ordem" "asc" -}}
+{{- range $items -}}
+  {{- $item := . -}}
+  {{- if eq $item.tipo "separador" -}}
+    <li><hr class="my-1 border-gray-200"></li>
+  {{- else if eq $item.tipo "categoria" -}}
+    <li class="px-4 pt-2 pb-1"><span class="text-xs font-semibold uppercase tracking-wider text-gray-400">{{ $item.label }}</span></li>
+  {{- else -}}
+    {{- $children := sort (where $nodes "parent" $item.id) "ordem" "asc" -}}
+    {{- $hasChildren := gt (len $children) 0 -}}
+    {{- $external := or (strings.HasPrefix $item.url "https://") (strings.HasPrefix $item.url "http://") -}}
+    {{- $href := $item.url -}}
+    {{- if and (not $external) (ne $href "#") -}}
+      {{- $href = $href | relLangURL -}}
+    {{- end -}}
+    {{- $active := eq $currentURL $href -}}
+    {{- if and (not $active) $hasChildren -}}
+      {{- $active = partial "nav-active.html" (dict "nodes" $nodes "parent" $item.id "currentURL" $currentURL) -}}
+    {{- end -}}
+    <li class="relative {{ if $hasChildren }}dropdown{{ end }} {{ if gt $depth 0 }}nested-dropdown{{ end }}" data-site-page-id="{{ $item.id }}">
+      {{- if and (eq $item.url "#") $hasChildren -}}
+        <span class="nav-link {{ if $active }}active{{ end }} block lg:inline-block cursor-pointer" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">
+          {{ $item.label }}
+          <svg class="inline w-4 h-4 ml-1 {{ if gt $depth 0 }}lg:-rotate-90{{ end }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </span>
+      {{- else -}}
+        <a href="{{ $href }}" class="nav-link {{ if $active }}active{{ end }} block lg:inline-block" {{ if $hasChildren }}aria-haspopup="true" aria-expanded="false"{{ end }}>
+          {{ $item.label }}
+          {{- if $hasChildren -}}<svg class="inline w-4 h-4 ml-1 {{ if gt $depth 0 }}lg:-rotate-90{{ end }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>{{- end -}}
+        </a>
+      {{- end -}}
+      {{- if $hasChildren -}}
+        <ul class="dropdown-menu {{ if gt $depth 0 }}nested-menu{{ end }} hidden lg:absolute relative {{ if gt $depth 0 }}lg:left-full lg:top-0{{ else }}lg:left-0 lg:top-full{{ end }} w-full lg:w-64 bg-white lg:shadow-lg lg:rounded-md lg:border border-gray-200 lg:z-50">
+          {{ partial "nav-tree.html" (dict "nodes" $nodes "parent" $item.id "depth" (add $depth 1) "currentURL" $currentURL) }}
+        </ul>
+      {{- end -}}
+    </li>
+  {{- end -}}
+{{- end -}}
