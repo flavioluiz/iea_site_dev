@@ -63,8 +63,16 @@ jobs:
               done
             fi
             if [[ "${state}" == "BEHIND" ]]; then
-              if new_sha="$(gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" --jq '.sha')"; then
-                if gh workflow run ci.yml --repo "${REPOSITORY}" --ref "${branch}"; then
+              if gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" >/dev/null; then
+                new_sha=""
+                for attempt in $(seq 1 18); do
+                  new_sha="$(gh pr view "${number}" --repo "${REPOSITORY}" --json headRefOid --jq '.headRefOid')"
+                  [[ -n "${new_sha}" && "${new_sha}" != "${head_sha}" ]] && break
+                  sleep 2
+                done
+                if [[ -z "${new_sha}" || "${new_sha}" == "${head_sha}" ]]; then
+                  echo "::warning title=Sincronização ainda não confirmada na proposta #${number}::O GitHub aceitou a atualização, mas não informou o novo commit a tempo."
+                elif gh workflow run ci.yml --repo "${REPOSITORY}" --ref "${branch}"; then
                   echo "- Proposta #${number} (${branch}) atualizada; os testes foram iniciados novamente." >> "${GITHUB_STEP_SUMMARY}"
                   printf '%s\t%s\t%s\n' "${number}" "${branch}" "${new_sha}" >> "${status_queue}"
                 else
