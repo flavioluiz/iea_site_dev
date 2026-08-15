@@ -26,15 +26,15 @@ Se **Publicar** der erro, aguarde os testes e a prévia terminarem e tente novam
 
 ## Organizar páginas e o menu
 
-Comece pelo botão **Ver mapa visual**, fixado no rodapé do painel. A tela mostra cada item da barra principal como um bloco e recua as opções que pertencem a um submenu. Os símbolos significam:
+Comece pelo botão **Mapa do site**, fixado no rodapé do painel. A árvore abre e fecha as seções e mostra duas informações diferentes: a função do item no menu e a origem do conteúdo. As etiquetas de conteúdo significam:
 
-- **📁 Seção do menu**: abre uma lista, como A Divisão ou Pesquisa;
-- **📄 Página comum**: possui título e texto editáveis no próprio formulário;
-- **🧩 Página automática**: é montada por dados ou template, como Pessoas e Laboratórios;
-- **🔗 Link externo**: leva a outro site;
-- **🏷️ Título de categoria** e **separador**: apenas organizam um submenu.
+- **📝 Markdown completo**: o conteúdo principal está em um único editor, como Graduação e Pós-Graduação;
+- **📝 Markdown + páginas filhas**: o texto é Markdown e uma lista padrão aparece abaixo;
+- **🗂 Markdown + dados estruturados**: o texto introdutório é Markdown e as fichas geram listas ou cartões;
+- **🧱 Template especial + Markdown**: o texto é editável, mas a composição visual depende de código;
+- **⚙️ Markdown + dados importados**: a introdução é editável, mas os registros vêm de uma integração.
 
-O botão **Editar** de cada bloco abre diretamente o formulário correto. A opção **1. Páginas e menu do site** continua disponível como lista avançada. Um editor pode:
+O botão principal de cada item abre diretamente seu Markdown ou cadastro. **Ajustar no menu** abre a ficha técnica, usada somente para:
 
 - renomear o rótulo exibido em português e inglês;
 - mudar a ordem numérica;
@@ -44,7 +44,7 @@ O botão **Editar** de cada bloco abre diretamente o formulário correto. A opç
 
 Itens automáticos e grupos essenciais são protegidos: podem ser renomeados, movidos ou ocultados, mas a validação bloqueia sua exclusão. O campo **Endereço permanente** de uma página textual deve ser definido na criação e mantido depois de publicado.
 
-Home, Pessoas, Laboratórios e outras páginas automáticas combinam dados com templates. Use o atalho **Páginas especiais** no rodapé do painel para abrir o editor correto, ver a página pronta ou solicitar uma mudança maior de HTML/Hugo sem precisar conhecer o arquivo técnico.
+Pós-Graduação e Graduação são páginas Markdown completas e não usam template próprio. Home usa template especial; Pessoas, Laboratórios e páginas semelhantes combinam Markdown com dados. Use o atalho **Como as páginas são montadas** para comparar os formatos ou solicitar uma mudança maior de HTML/Hugo sem precisar conhecer o arquivo técnico.
 
 ## Trocar ou adicionar foto
 
@@ -80,5 +80,7 @@ O servidor confere a assinatura real do PDF; mudar a extensão de outro arquivo 
 - Campos PT e EN devem ser revisados juntos quando existirem.
 
 O próprio painel contém um guia resumido em `/admin/guia.html`.
+
+A classificação e a política para reduzir templates fixos estão documentadas em [Arquitetura editorial das páginas](page-architecture.md).
 
 Para vários registros de uma só vez, um mantenedor usa o [importador JSON em lote](bulk-json.md), que mostra uma prévia e bloqueia sobrescritas até a confirmação.

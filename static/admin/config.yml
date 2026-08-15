@@ -26,9 +26,9 @@ slug:
 
 collections:
   - name: paginas
-    label: "1. Páginas e menu do site"
-    label_singular: "Página ou item do menu"
-    description: "Comece pelo botão Mapa visual no rodapé. Ele mostra a navegação como uma árvore e leva ao formulário correto. A lista desta tela é a visão avançada."
+    label: "1. Mapa do site"
+    label_singular: "Item técnico do menu"
+    description: "Esta coleção abre o Mapa visual automaticamente. A lista técnica serve apenas para ajustar nome, posição e visibilidade no menu; o texto da página possui um botão próprio no mapa."
     folder: data/paginas
     create: true
     delete: true
@@ -40,7 +40,7 @@ collections:
     sortable_fields: [ordem, rotulo.pt, tipo, id]
     view_filters:
       - { label: "📄 Páginas comuns — texto editável aqui", field: tipo, pattern: "^pagina_editavel$" }
-      - { label: "🧩 Páginas automáticas — dados ou template", field: tipo, pattern: "^pagina_estrutural$" }
+      - { label: "📄 Páginas existentes — conteúdo em outro editor", field: tipo, pattern: "^pagina_estrutural$" }
       - { label: "📁 Seções que abrem um submenu", field: tipo, pattern: "^grupo$" }
       - { label: "Visíveis em português", field: visivel.pt, pattern: true }
       - { label: "Fora do menu em português", field: visivel.pt, pattern: false }
@@ -50,19 +50,19 @@ collections:
     editor:
       preview: true
     fields:
-      - label: "O que este item representa?"
+      - label: "Função técnica deste item no menu"
         name: tipo
         widget: select
         default: pagina_editavel
         options:
           - { label: "📄 Página comum — título e texto editáveis aqui", value: pagina_editavel }
           - { label: "📁 Seção do menu — abre uma lista de páginas", value: grupo }
-          - { label: "🧩 Página automática — montada por dados/template", value: pagina_estrutural }
+          - { label: "📄 Página existente — conteúdo em outro editor", value: pagina_estrutural }
           - { label: "🔗 Link externo — abre outro site", value: link_externo }
           - { label: "🏷️ Título de categoria — apenas organiza o submenu", value: categoria }
           - { label: "— Separador — apenas espaço visual", value: separador }
           - { label: "⚙️ Raiz técnica — não usar", value: raiz }
-        hint: "Ao criar conteúdo textual, escolha 📄 Página comum. Em um item existente, não troque o tipo; use o Mapa visual para entender sua função."
+        hint: "Ao criar uma página, escolha Página comum. Em item existente, não troque esta função; volte ao Mapa visual para editar o conteúdo no lugar correto."
       - { label: "Item protegido", name: protegido, widget: hidden, default: false }
       - label: "Onde este item fica?"
         name: parent
@@ -142,42 +142,63 @@ collections:
         hint: "Preencha ao criar e não altere depois. Exemplo: historia-da-divisao. Este código mantém os vínculos do menu."
 
   - name: paginas_estruturais
-    label: "2. Textos de páginas automáticas"
-    description: "Textos introdutórios de páginas montadas por templates e dados. O guia Páginas especiais explica o que é automático e como pedir mudanças maiores de HTML/layout."
+    label: "2. Textos em Markdown"
+    description: "Edite aqui páginas Markdown completas e introduções de páginas que também exibem dados. O Mapa visual identifica claramente cada caso e abre diretamente o formulário correto."
     editor:
       preview: true
     files:
-      - label: "Início — Português (template especial)"
+      - label: "Graduação — Português — Markdown completo"
+        name: graduacao_pt
+        file: content/graduacao/_index.pt.md
+        fields: &markdown_page_fields
+          - { label: "Título", name: title, widget: string }
+          - { label: "Resumo para buscadores", name: description, widget: text }
+          - { label: "Conteúdo completo da página", name: body, widget: markdown, hint: "Todo o conteúdo principal desta página está neste campo Markdown." }
+      - { label: "Undergraduate — English — full Markdown", name: graduacao_en, file: content/graduacao/_index.en.md, fields: *markdown_page_fields }
+      - { label: "Pós-Graduação — Português — Markdown completo", name: posgraduacao_pt, file: content/posgraduacao/_index.pt.md, fields: *markdown_page_fields }
+      - { label: "Graduate Studies — English — full Markdown", name: posgraduacao_en, file: content/posgraduacao/_index.en.md, fields: *markdown_page_fields }
+
+      - label: "Disciplinas — Português — Markdown + páginas filhas"
+        name: disciplinas_pt
+        file: content/disciplinas/_index.md
+        fields: &hybrid_page_fields
+          - { label: "Título", name: title, widget: string }
+          - { label: "Resumo para buscadores", name: description, widget: text }
+          - { label: "Tipo interno", name: type, widget: hidden, required: false }
+          - { label: "Layout interno", name: layout, widget: hidden, required: false }
+          - { label: "Ano interno", name: year, widget: hidden, required: false }
+          - { label: "Texto em Markdown", name: body, widget: markdown, required: false, hint: "Este texto aparece antes das fichas, listas ou dados montados automaticamente." }
+      - { label: "Courses — English — Markdown + child pages", name: disciplinas_en, file: content/disciplinas/_index.en.md, fields: *hybrid_page_fields }
+
+      - { label: "Departamentos — introdução em Markdown", name: departamentos_pt, file: content/departamentos/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Departments — Markdown introduction", name: departamentos_en, file: content/departamentos/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Linhas de pesquisa — introdução em Markdown", name: linhas_pt, file: content/linhas/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Research lines — Markdown introduction", name: linhas_en, file: content/linhas/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Área Espacial — texto em Markdown + dados", name: espaco_pt, file: content/espaco/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Space Program — Markdown + data", name: espaco_en, file: content/espaco/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Documentos e horários — introdução em Markdown", name: documentos_pt, file: content/documentos/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Documents and schedules — Markdown introduction", name: documentos_en, file: content/documentos/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Pessoas — introdução em Markdown", name: pessoal_pt, file: content/pessoal/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "People — Markdown introduction", name: pessoal_en, file: content/pessoal/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Laboratórios — introdução em Markdown", name: laboratorios_pt, file: content/laboratorios/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Laboratories — Markdown introduction", name: laboratorios_en, file: content/laboratorios/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Projetos — introdução em Markdown", name: projetos_pt, file: content/projetos/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Projects — Markdown introduction", name: projetos_en, file: content/projetos/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Publicações — introdução em Markdown", name: publicacoes_pt, file: content/publicacoes/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Publications — Markdown introduction", name: publicacoes_en, file: content/publicacoes/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Dissertações e teses — introdução em Markdown", name: teses_pt, file: content/teses/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Dissertations and theses — Markdown introduction", name: teses_en, file: content/teses/_index.en.md, fields: *hybrid_page_fields }
+      - { label: "Trabalhos de Graduação — introdução em Markdown", name: tgs_pt, file: content/tgs/_index.pt.md, fields: *hybrid_page_fields }
+      - { label: "Undergraduate theses — Markdown introduction", name: tgs_en, file: content/tgs/_index.en.md, fields: *hybrid_page_fields }
+
+      - label: "Início — Português — template especial + Markdown"
         name: inicio_pt
         file: content/_index.pt.md
         fields: &home_page_fields
-          - { label: "Título principal", name: title, widget: string, hint: "Aparece no destaque da Home. O restante da estrutura visual é um template especial." }
+          - { label: "Título principal", name: title, widget: string, hint: "Aparece no destaque da Home. O restante da composição visual usa um template especial." }
           - { label: "Texto de destaque", name: description, widget: text, hint: "Aparece abaixo do título e resume a página para buscadores." }
-          - { label: "Texto abaixo dos destaques", name: body, widget: markdown, hint: "Não cria nem reorganiza os cartões automáticos. Para isso, consulte Páginas especiais." }
-      - label: "Home — English (special template)"
-        name: inicio_en
-        file: content/_index.en.md
-        fields: *home_page_fields
-      - label: "Graduação — Português"
-        name: graduacao_pt
-        file: content/graduacao/_index.pt.md
-        fields: &page_fields
-          - { label: "Título", name: title, widget: string }
-          - { label: "Resumo para buscadores", name: description, widget: text }
-          - { label: "Texto introdutório", name: body, widget: markdown, hint: "Aparece antes das seções automáticas. Para mudar cartões, filtros ou layout, consulte Páginas especiais." }
-      - { label: "Undergraduate — English", name: graduacao_en, file: content/graduacao/_index.en.md, fields: *page_fields }
-      - { label: "Departamentos — Português", name: departamentos_pt, file: content/departamentos/_index.pt.md, fields: *page_fields }
-      - { label: "Departments — English", name: departamentos_en, file: content/departamentos/_index.en.md, fields: *page_fields }
-      - { label: "Disciplinas — Português", name: disciplinas_pt, file: content/disciplinas/_index.md, fields: *page_fields }
-      - { label: "Courses — English", name: disciplinas_en, file: content/disciplinas/_index.en.md, fields: *page_fields }
-      - { label: "Linhas de pesquisa — Português", name: linhas_pt, file: content/linhas/_index.pt.md, fields: *page_fields }
-      - { label: "Research lines — English", name: linhas_en, file: content/linhas/_index.en.md, fields: *page_fields }
-      - { label: "Área Espacial — Português (template especial)", name: espaco_pt, file: content/espaco/_index.pt.md, fields: *page_fields }
-      - { label: "Space Program — English (special template)", name: espaco_en, file: content/espaco/_index.en.md, fields: *page_fields }
-      - { label: "Pós-graduação — Português", name: posgraduacao_pt, file: content/posgraduacao/_index.pt.md, fields: *page_fields }
-      - { label: "Graduate studies — English", name: posgraduacao_en, file: content/posgraduacao/_index.en.md, fields: *page_fields }
-      - { label: "Documentos e horários — Português", name: documentos_pt, file: content/documentos/_index.pt.md, fields: *page_fields }
-      - { label: "Documents and schedules — English", name: documentos_en, file: content/documentos/_index.en.md, fields: *page_fields }
+          - { label: "Texto Markdown abaixo dos destaques", name: body, widget: markdown, hint: "Este campo não cria nem reorganiza os cartões do template." }
+      - { label: "Home — English — special template + Markdown", name: inicio_en, file: content/_index.en.md, fields: *home_page_fields }
 
   - name: pessoal
     label: "3. Pessoas e professores"
