@@ -9,4 +9,4 @@ preview_urls = false
 OAUTH_CALLBACK_URL = "https://iea-decap-oauth.flavioluiz.workers.dev/callback"
 ALLOWED_ORIGINS = "https://flavioluiz.github.io,http://localhost:1313"
 # GitHub logins allowed to enter the CMS. This is intentionally not a secret.
-ALLOWED_GITHUB_USERS = "flavioluiz"
+ALLOWED_GITHUB_USERS = "flavioluiz,luizribeiro"
