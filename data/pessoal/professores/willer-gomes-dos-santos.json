@@ -1,0 +1,61 @@
+{
+  "id": "willer-gomes-dos-santos",
+  "nome": "Willer Gomes dos Santos",
+  "nome_destaque": "Willer",
+  "ativo": true,
+  "departamento": "iea-s",
+  "categoria": "Professor Adjunto",
+  "posto": "",
+  "cargos": [],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/willer-gomes-dos-santos.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/3095429508961900",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=55819853400",
+    "orcid": "https://orcid.org/0000-0003-2676-6162",
+    "google_scholar": "",
+    "researchgate": "",
+    "web_of_science": "",
+    "site": ""
+  },
+  "scopus_author_ids": [
+    "55819853400"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "Astrodinâmica",
+      "Controle de veículos aeroespaciais",
+      "Sistemas aeroespaciais"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Professor e pesquisador do Departamento de Sistemas Espaciais do Instituto Tecnológico de Aeronáutica (ITA). Membro do Centro Espacial ITA (CEI) e coordenador do grupo de pesquisa E2MoC. Possui pós-doutorado (2023) em controle de espaçonaves pela NASA Goddard Space Flight Center e doutorado (2015) em Engenharia Espacial, com ênfase em Mecânica Espacial e Controle, pelo Instituto Nacional de Pesquisas Espaciais (INPE), incluindo um período de doutorado sanduíche no Centro Aeroespacial Alemão (DLR). É mestre (2011) em Engenharia Espacial pelo INPE, na mesma área de concentração, e graduado em Engenharia de Controle e Automação (2008) pela Universidade Cruzeiro do Sul. Suas principais linhas de pesquisa incluem astrodinâmica, sistemas de guiamento, navegação e controle de veículos espaciais, além de engenharia de sistemas espaciais. Possui experiência profissional como engenheiro espacial, tendo atuado por três anos no Centro de Projeto Integrado de Missões Espaciais (CPRIME) do INPE, além de atuar como professor visitante por um ano na The Catholic University of America (CUA), nos Estados Unidos.",
+    "en": "Professor e pesquisador do Departamento de Sistemas Espaciais do Instituto Tecnológico de Aeronáutica (ITA). Membro do Centro Espacial ITA (CEI) e coordenador do grupo de pesquisa E2MoC. Possui pós-doutorado (2023) em controle de espaçonaves pela NASA Goddard Space Flight Center e doutorado (2015) em Engenharia Espacial, com ênfase em Mecânica Espacial e Controle, pelo Instituto Nacional de Pesquisas Espaciais (INPE), incluindo um período de doutorado sanduíche no Centro Aeroespacial Alemão (DLR). É mestre (2011) em Engenharia Espacial pelo INPE, na mesma área de concentração, e graduado em Engenharia de Controle e Automação (2008) pela Universidade Cruzeiro do Sul. Suas principais linhas de pesquisa incluem astrodinâmica, sistemas de guiamento, navegação e controle de veículos espaciais, além de engenharia de sistemas espaciais. Possui experiência profissional como engenheiro espacial, tendo atuado por três anos no Centro de Projeto Integrado de Missões Espaciais (CPRIME) do INPE, além de atuar como professor visitante por um ano na The Catholic University of America (CUA), nos Estados Unidos."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2011 - 2015",
+      "instituicao": "Engenharia e Tecnologia Espaciais",
+      "titulo": "Discrete Multiobjective Optimization Applied to the Spacecraft Actuators Command Problem and Tested in a Hardware-in-the-loop Rendezvous Simulator O Portal Brasileiro de Publicações e Dados Científicos em Acesso Aberto (Oasisbr) é uma iniciativa do Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict) que reúne a produção científica e os dados de pesquisa em acesso aberto, publicados em revistas científicas, repositórios digitais de publicações científicas, repositórios digitais de dados de pesquisa e bibliotecas digitais de teses e dissertações",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2017,
+      "titulo": "Mérito recebido pelos resultados relevantes obtidos no Programa de Capacitação Institucional (PCI), Instituto Nacional de Pesquisas Espaciais (INPE)."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Bem, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "",
+  "fonte": "data/pessoal/iea-s.yaml",
+  "verificado_em": "2026-08-14"
+}

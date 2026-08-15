@@ -9,29 +9,22 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from people_data import load_professors, load_professors_at_ref
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def current_data() -> dict[str, Any]:
-    return json.loads((ROOT / "data" / "pessoal" / "professores.json").read_text(encoding="utf-8"))
+def current_data() -> list[dict[str, Any]]:
+    return load_professors(ROOT)
 
 
-def data_at_ref(ref: str) -> dict[str, Any] | None:
-    result = subprocess.run(
-        ["git", "show", f"{ref}:data/pessoal/professores.json"],
-        cwd=ROOT,
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    if result.returncode != 0:
-        return None
-    return json.loads(result.stdout)
+def data_at_ref(ref: str) -> list[dict[str, Any]] | None:
+    return load_professors_at_ref(ROOT, ref)
 
 
-def indexed(data: dict[str, Any]) -> dict[str, dict[str, Any]]:
-    return {item["id"]: item for item in data["professores"]}
+def indexed(data: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    return {item["id"]: item for item in data}
 
 
 def changed_fields(before: dict[str, Any], after: dict[str, Any]) -> list[str]:
@@ -69,7 +62,7 @@ def render(base_ref: str) -> str:
         "## Resumo",
         "",
         f"- Pessoas adicionadas: {len(added)}",
-        f"- Pessoas removidas do arquivo: {len(removed)}",
+        f"- Pessoas removidas do cadastro: {len(removed)}",
         f"- Pessoas alteradas: {len(changed)}",
         f"- Pessoas desativadas: {len(deactivated)}",
         "",
@@ -79,7 +72,7 @@ def render(base_ref: str) -> str:
     lines.extend(f"- `{key}` — {after[key]['nome']}" for key in added)
     if not added:
         lines.append("- Nenhuma.")
-    lines.extend(["", "## Removidas do arquivo", ""])
+    lines.extend(["", "## Removidas do cadastro", ""])
     lines.extend(f"- `{key}` — {before[key]['nome']}" for key in removed)
     if not removed:
         lines.append("- Nenhuma.")

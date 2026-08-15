@@ -22,6 +22,7 @@ REQUEST_ERROR = requests.RequestException if requests is not None else RuntimeEr
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scopus_env import scopus_headers  # noqa: E402
+from people_data import load_professors  # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -80,7 +81,7 @@ def fetch_publications(value: requests.Session, author_ids: list[str]) -> list[d
 
 
 def selected_professors(requested: list[str], site_root: Path = ROOT) -> list[dict[str, Any]]:
-    records = json.loads((site_root / "data" / "pessoal" / "professores.json").read_text(encoding="utf-8"))["professores"]
+    records = load_professors(site_root)
     selected = [item for item in records if item["ativo"] and item["scopus_author_ids"]]
     if requested:
         known = {item["id"] for item in selected}

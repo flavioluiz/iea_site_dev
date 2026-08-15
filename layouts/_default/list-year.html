@@ -13,7 +13,7 @@
   {{ $yearFilter := .Params.year_filter | default "" }}
 
   {{/* Use IEA faculty publications only */}}
-  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
+  {{ $professoresAtivos := where (partial "get-professors.html" (dict "site" .Site)) "ativo" true }}
   {{ $allPublications := slice }}
   {{ range $profData := $professoresAtivos }}
     {{ $profId := $profData.id }}

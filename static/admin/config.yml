@@ -28,7 +28,6 @@ collections:
   - name: paginas
     label: "1. Páginas do site"
     description: "Textos institucionais. Escolha PT ou EN, altere somente o necessário e confira a prévia antes de salvar."
-    publish: false
     editor:
       preview: true
     files:
@@ -121,24 +120,36 @@ collections:
 
   - name: pessoal
     label: "2. Pessoas e professores"
-    description: "Cadastro completo da equipe. Abra um nome, altere os campos e envie para revisão. Desative em vez de excluir quem saiu."
-    publish: false
+    label_singular: "Pessoa"
+    description: "Uma ficha por pessoa. Use Filtrar por ou Agrupar por; em Visualizar como, escolha cartões para ver as fotos. Desative em vez de excluir quem saiu."
+    folder: data/pessoal/professores
+    create: true
     format: json
-    files:
-      - label: "Cadastro de pessoas"
-        name: professores
-        file: data/pessoal/professores.json
-        fields:
-          - { label: "Versão do formato", name: schema_version, widget: hidden, default: 1 }
-          - label: "Pessoas"
-            label_singular: "Pessoa"
-            name: professores
-            widget: list
-            collapsed: true
-            minimize_collapsed: true
-            summary: "{{fields.nome}} — {{fields.departamento}}"
-            hint: "Procure pelo nome. Para retirar alguém do site, desligue 'Ativo'; não apague o registro."
-            fields:
+    extension: json
+    identifier_field: nome
+    slug: "{{fields.id}}"
+    summary: "{{nome}} — {{departamento}} — {{categoria}}"
+    sortable_fields: [nome, departamento, categoria, ativo]
+    view_filters:
+      - { label: "Somente pessoas ativas", field: ativo, pattern: true }
+      - { label: "Somente pessoas inativas", field: ativo, pattern: false }
+      - { label: "Departamento IEA-A", field: departamento, pattern: "^iea-a$" }
+      - { label: "Departamento IEA-B", field: departamento, pattern: "^iea-b$" }
+      - { label: "Departamento IEA-C", field: departamento, pattern: "^iea-c$" }
+      - { label: "Departamento IEA-E", field: departamento, pattern: "^iea-e$" }
+      - { label: "Departamento IEA-P", field: departamento, pattern: "^iea-p$" }
+      - { label: "Departamento IEA-S", field: departamento, pattern: "^iea-s$" }
+      - { label: "Professor titular", field: categoria, pattern: "^Professor Titular$" }
+      - { label: "Professor associado", field: categoria, pattern: "^Professor Associado$" }
+      - { label: "Professor adjunto", field: categoria, pattern: "^Professor Adjunto$" }
+      - { label: "Tecnologista", field: categoria, pattern: "^Tecnologista$" }
+      - { label: "Analista em C&T", field: categoria, pattern: "^Analista em Ciência e Tecnologia$" }
+      - { label: "Instrutor", field: categoria, pattern: "^Instrutor$" }
+      - { label: "Docente voluntário", field: categoria, pattern: "^Docente Voluntário$" }
+    view_groups:
+      - { label: "Departamento", field: departamento }
+      - { label: "Categoria", field: categoria }
+    fields:
               - label: "Identificador técnico"
                 name: id
                 widget: string
@@ -171,7 +182,7 @@ collections:
                 required: false
                 choose_url: false
                 media_folder: /static/images/pessoal
-                public_folder: /images/pessoal
+                public_folder: images/pessoal
                 allow_multiple: false
                 hint: "JPEG, PNG ou WebP; retrato nítido, entre 80 e 4096 px e no máximo 2 MB. O nome do arquivo deve ser simples."
                 media_library:
@@ -254,7 +265,6 @@ collections:
   - name: estrutura
     label: "3. Estrutura e pesquisa"
     description: "Departamentos, laboratórios, projetos e linhas de pesquisa. Os campos PT e EN aparecem no mesmo formulário."
-    publish: false
     format: json
     files:
       - label: "Departamentos"
@@ -375,7 +385,6 @@ collections:
   - name: documentos
     label: "4. Documentos, horários e salas"
     description: "Publique PDFs de horários, salas, regulamentos e comunicados. A categoria 'Horários de aulas e salas' já está pronta."
-    publish: false
     format: json
     files:
       - label: "PDFs e documentos"
@@ -430,7 +439,6 @@ collections:
   - name: biblioteca
     label: "5. Correspondências da Biblioteca"
     description: "Área avançada: associe uma variação de nome encontrada na Biblioteca à pessoa correta."
-    publish: false
     format: json
     files:
       - label: "Aliases de orientadores"

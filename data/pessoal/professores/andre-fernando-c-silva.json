@@ -1,0 +1,61 @@
+{
+  "id": "andre-fernando-c-silva",
+  "nome": "André Fernando de Castro da Silva",
+  "nome_destaque": "André Fernando",
+  "ativo": true,
+  "departamento": "iea-a",
+  "categoria": "Instrutor",
+  "posto": "Maj Eng AER",
+  "cargos": [],
+  "chefe_departamento": false,
+  "foto": "images/pessoal/andre-fernando-c-silva.jpg",
+  "email": "",
+  "links": {
+    "lattes": "http://lattes.cnpq.br/1875030810675092",
+    "scopus": "https://www.scopus.com/authid/detail.uri?authorId=57201349267",
+    "orcid": "",
+    "google_scholar": "https://scholar.google.com/citations?user=K9sgE_sAAAAJ&hl=pt-BR",
+    "researchgate": "",
+    "web_of_science": "http://www.researcherid.com/rid/I-3707-2014",
+    "site": ""
+  },
+  "scopus_author_ids": [
+    "57201349267"
+  ],
+  "linhas_pesquisa": {
+    "pt": [
+      "CFD",
+      "Controle e estimação de escoamentos",
+      "Modelagem de ordem reduzida"
+    ],
+    "en": []
+  },
+  "resumo": {
+    "pt": "Possui graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica (2010), mestrado em Engenharia Aeronáutica e Mecânica, área de Aerodinâmica, Propulsão e Energia pelo Instituto Tecnológico de Aeronáutica (2012), mestrado em Engenharia Mecânica pelo California Institute of Technology (2016) e doutorado em Engenharia Mecânica pelo California Institute of Technology (2018). \nOficial engenheiro da Força Aérea Brasileira, atua como instrutor e pesquisador no departamento de Aerodinâmica da Divisão de Engenharia Aeronáutica e Aeroespacial do ITA. Áreas de interesse: mecânica dos fluidos compressível e incompressível; estimação e controle de escoamentos; análise modal; dinâmica dos fluidos computacional (CFD); métodos de elementos espectrais (Galerkin contínuo ou descontínuo) para CFD de alta ordem.",
+    "en": "Possui graduação em Engenharia Aeronáutica pelo Instituto Tecnológico de Aeronáutica (2010), mestrado em Engenharia Aeronáutica e Mecânica, área de Aerodinâmica, Propulsão e Energia pelo Instituto Tecnológico de Aeronáutica (2012), mestrado em Engenharia Mecânica pelo California Institute of Technology (2016) e doutorado em Engenharia Mecânica pelo California Institute of Technology (2018). \nOficial engenheiro da Força Aérea Brasileira, atua como instrutor e pesquisador no departamento de Aerodinâmica da Divisão de Engenharia Aeronáutica e Aeroespacial do ITA. Áreas de interesse: mecânica dos fluidos compressível e incompressível; estimação e controle de escoamentos; análise modal; dinâmica dos fluidos computacional (CFD); métodos de elementos espectrais (Galerkin contínuo ou descontínuo) para CFD de alta ordem."
+  },
+  "formacao_academica": [
+    {
+      "tipo": "Doutorado",
+      "periodo": "2014 - 2018",
+      "instituicao": "Mechanical Engineering",
+      "titulo": "An EnKF-based Flow State Estimator for Aerodynamic Problems, Ano de obtenção: 2018",
+      "ano_obtencao": null
+    }
+  ],
+  "premios_titulos": [
+    {
+      "ano": 2024,
+      "titulo": "Prêmio Weis - Destaque no Ensino, Departamento Acadêmico do Centro Acadêmico Santos Dumont."
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Inglês",
+      "proficiencia": "Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Bem."
+    }
+  ],
+  "bolsista_cnpq": "Não",
+  "fonte": "data/pessoal/iea-a.yaml",
+  "verificado_em": "2026-08-14"
+}

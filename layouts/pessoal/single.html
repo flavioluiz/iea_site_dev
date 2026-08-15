@@ -1,8 +1,6 @@
 {{ define "main" }}
 {{ $professorId := .Params.professor_id }}
-{{ $professorMatches := where .Site.Data.pessoal.professores.professores "id" $professorId }}
-{{ $professorData := false }}
-{{ if $professorMatches }}{{ $professorData = index $professorMatches 0 }}{{ end }}
+{{ $professorData := index .Site.Data.pessoal.professores $professorId }}
 {{ $generatedData := index .Site.Data.generated.scopus.autores.autores $professorId }}
 {{ $metrics := dict }}
 {{ $pubs := slice }}
@@ -61,7 +59,7 @@
       <!-- Photo Column -->
       <div class="w-full md:w-1/4 flex-shrink-0">
         {{ $photoPath := $professorData.foto }}
-        {{ if and $photoPath (fileExists (printf "static%s" $photoPath)) }}
+        {{ if and $photoPath (fileExists (printf "static/%s" (strings.TrimPrefix "/" $photoPath))) }}
           <img src="{{ $photoPath | relURL }}"
                alt="{{ $professorData.nome }}"
                class="rounded-lg shadow-lg w-full object-cover object-top aspect-square">

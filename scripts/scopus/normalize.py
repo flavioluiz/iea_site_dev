@@ -16,7 +16,9 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from report import render_report, semantic
+from people_data import load_professors
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -246,7 +248,7 @@ def main() -> int:
     if not staged_files:
         print("No complete Scopus staging files found.", file=sys.stderr)
         return 1
-    professors = {item["id"]: item for item in load(ROOT / "data" / "pessoal" / "professores.json")["professores"] if item["ativo"] and item["scopus_author_ids"]}
+    professors = {item["id"]: item for item in load_professors(ROOT) if item["ativo"] and item["scopus_author_ids"]}
     staged = {load(path)["professor_id"]: load(path) for path in staged_files}
     unknown = set(staged) - set(professors)
     missing = set(professors) - set(staged)

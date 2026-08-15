@@ -1,0 +1,5 @@
+{{ $result := slice }}
+{{ range .site.Data.pessoal.professores }}
+  {{ $result = $result | append . }}
+{{ end }}
+{{ return $result }}

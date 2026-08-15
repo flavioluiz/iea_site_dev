@@ -1,21 +1,42 @@
-# Edição JSON em massa e uso de IA
+# Importação JSON em lote
 
-Use este caminho somente quando muitos registros precisarem mudar. Edições comuns devem ser feitas pelo formulário do CMS.
+Use este caminho somente quando muitos registros precisarem mudar. Edições comuns devem ser feitas pelos formulários do CMS.
 
-1. Abra `data/pessoal/professores.json` no GitHub e escolha **Edit this file**.
-2. Copie antes o [modelo mínimo](../modelos/professores.exemplo.json).
-3. Se usar IA, peça para preservar todos os campos, IDs e pessoas que não devem mudar; não forneça dados restritos.
-4. Confira o diff do GitHub e envie para uma branch/pull request, nunca diretamente para `main`.
-5. Leia o artefato **content-diff**: ele lista pessoas adicionadas, removidas, desativadas e campos alterados.
-6. Mudanças em mais de 10 pessoas ficam bloqueadas até um mantenedor aplicar o label `bulk-reviewed` após conferência.
+O importador aceita as coleções `pessoas`, `departamentos`, `laboratorios`, `projetos`, `linhas` e `documentos`. O arquivo de entrada pode ser uma lista JSON ou o objeto coletivo já usado pela coleção, por exemplo `{ "professores": [...] }`.
 
-Erros de campo, ID, URL, ORCID, departamento ou referência aparecem com o caminho exato no check `validate-data`. Corrija o JSON; não peça para ignorar o check.
+## Conferir sem gravar
 
-Prompt útil para uma IA:
+```sh
+uv run --with-requirements scripts/requirements-cms.txt \
+  python scripts/import_content_batch.py pessoas lote-pessoas.json
+```
+
+O relatório informa quantos registros são novos, atualizados ou idênticos. Sem `--apply`, nenhum arquivo é alterado.
+
+## Confirmar a importação
+
+Para criar apenas IDs novos:
+
+```sh
+uv run --with-requirements scripts/requirements-cms.txt \
+  python scripts/import_content_batch.py pessoas lote-pessoas.json --apply
+```
+
+Se o relatório mostrar atualizações intencionais, confira cada ID e confirme explicitamente:
+
+```sh
+uv run --with-requirements scripts/requirements-cms.txt \
+  python scripts/import_content_batch.py pessoas lote-pessoas.json --update-existing --apply
+```
+
+Troque `pessoas` pelo nome da outra coleção quando necessário. O importador preserva registros ausentes do lote, bloqueia IDs duplicados, valida o conjunto completo e nunca remove registros implicitamente. Pessoas são expandidas em fichas individuais para continuarem pesquisáveis e filtráveis no painel.
+
+Depois da importação, confira o diff, crie uma branch/pull request e leia o artefato **content-diff**. Mudanças em mais de dez pessoas ficam bloqueadas até um mantenedor aplicar o label `bulk-reviewed` após conferência.
+
+Se usar IA para preparar o lote, não forneça dados restritos e use esta instrução:
 
 ```text
-Atualize somente os campos explicitamente informados neste JSON.
-Preserve schema_version, IDs, todos os registros não mencionados e todos os
-campos desconhecidos para você. Não invente traduções, links, datas ou IDs.
-Devolva JSON válido, sem Markdown e sem comentários.
+Atualize somente os registros e campos explicitamente informados.
+Preserve os IDs e todos os campos desconhecidos para você. Não invente
+traduções, links, datas ou IDs. Devolva JSON válido, sem Markdown e sem comentários.
 ```

@@ -23,7 +23,7 @@
   </div>
 
   {{/* Aggregate publications from IEA faculty only */}}
-  {{ $professoresAtivos := where .Site.Data.pessoal.professores.professores "ativo" true }}
+  {{ $professoresAtivos := where (partial "get-professors.html" (dict "site" .Site)) "ativo" true }}
   {{ $allPublications := slice }}
   {{ range $profData := $professoresAtivos }}
     {{ $profId := $profData.id }}

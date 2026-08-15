@@ -122,7 +122,7 @@
             <a href="{{ relLangURL (printf "pessoal/%s/" .) }}"
                class="flex items-center gap-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
               {{ $photoPath := $profData.foto }}
-              {{ if and $photoPath (fileExists (printf "static%s" $photoPath)) }}
+              {{ if and $photoPath (fileExists (printf "static/%s" (strings.TrimPrefix "/" $photoPath))) }}
                 <img src="{{ $photoPath | relURL }}" alt="{{ $profData.nome }}"
                      class="w-10 h-10 rounded-full object-cover object-top flex-shrink-0">
               {{ else }}

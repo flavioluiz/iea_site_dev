@@ -38,16 +38,24 @@ class CmsRenderContractTests(unittest.TestCase):
         head = (ROOT / "layouts/partials/head.html").read_text(encoding="utf-8")
         self.assertIn(".Description", head)
 
-    def test_editor_never_merges_content_directly(self) -> None:
-        collection_blocks = re.findall(
-            r"^  - name: (\S+)\n(.*?)(?=^  - name: |\Z)",
-            self.config,
-            re.MULTILINE | re.DOTALL,
-        )
-        self.assertEqual(5, len(collection_blocks))
-        for name, block in collection_blocks:
-            with self.subTest(collection=name):
-                self.assertRegex(block, r"(?m)^    publish: false$")
+    def test_external_editors_review_and_maintainers_may_publish(self) -> None:
+        self.assertIn("open_authoring: true", self.config)
+        self.assertIn("publish_mode: editorial_workflow", self.config)
+        self.assertNotIn("publish: false", self.config)
+
+    def test_people_are_individual_filterable_entries(self) -> None:
+        people_block = self.config.split("  - name: pessoal", 1)[1].split(
+            "  - name: estrutura", 1
+        )[0]
+        self.assertIn("folder: data/pessoal/professores", people_block)
+        self.assertIn('label: "Somente pessoas ativas"', people_block)
+        self.assertIn('{ label: "Departamento", field: departamento }', people_block)
+        self.assertIn('{ label: "Categoria", field: categoria }', people_block)
+        self.assertIn("public_folder: images/pessoal", people_block)
+        self.assertNotIn("file: data/pessoal/professores.json", people_block)
+
+        people = sorted((ROOT / "data/pessoal/professores").glob("*.json"))
+        self.assertEqual(90, len(people))
 
     def test_laboratories_are_not_selected_by_a_manual_allowlist(self) -> None:
         template = (ROOT / "layouts/laboratorios/list.html").read_text(encoding="utf-8")

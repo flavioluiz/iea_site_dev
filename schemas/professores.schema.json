@@ -63,7 +63,7 @@
         "chefe_departamento": { "type": "boolean" },
         "foto": {
           "type": "string",
-          "pattern": "^(|/images/pessoal/[a-z0-9][a-z0-9._-]*\\.(?i:jpg|jpeg|png|webp))$"
+          "pattern": "^(|images/pessoal/[a-z0-9][a-z0-9._-]*\\.(?i:jpg|jpeg|png|webp))$"
         },
         "email": { "anyOf": [{ "const": "" }, { "type": "string", "format": "email" }] },
         "links": {
