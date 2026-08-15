@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $lang := .Language.Lang }}
-{{ $labs := .Site.Data.laboratorios.laboratorios }}
+{{ $labs := partial "get-laboratories.html" (dict "site" .Site) }}
 {{ $departamentos := .Site.Data.departamentos.departamentos }}
 
 {{/* Visual config per lab: gradient colors and icon path */}}

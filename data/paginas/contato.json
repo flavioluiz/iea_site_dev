@@ -1,0 +1,35 @@
+{
+  "id": "contato",
+  "tipo": "pagina_editavel",
+  "protegido": false,
+  "parent": "root",
+  "ordem": 90,
+  "visivel": {
+    "pt": true,
+    "en": true
+  },
+  "rotulo": {
+    "pt": "Contato",
+    "en": "Contact"
+  },
+  "url": {
+    "pt": "",
+    "en": ""
+  },
+  "pagina": {
+    "slug": "contato",
+    "publicada": true,
+    "titulo": {
+      "pt": "Contato",
+      "en": "Contact"
+    },
+    "descricao": {
+      "pt": "Entre em contato com a Divisão de Engenharia Aeronáutica e Aeroespacial do ITA",
+      "en": "Contact the Division of Aeronautical and Aerospace Engineering at ITA"
+    },
+    "conteudo": {
+      "pt": "\n## Chefia da Divisão\n\n**Chefe:** A definir\n**E-mail:** aer@ita.br\n\n---\n\n## Secretaria\n\nPara dúvidas sobre a divisão, laboratórios, infraestrutura e atividades acadêmicas:\n\n**E-mail:** aer@ita.br\n\n---\n\n## Endereço\n\nInstituto Tecnológico de Aeronáutica\nDivisão de Engenharia Aeronáutica e Aeroespacial\nPraça Marechal Eduardo Gomes, 50\nVila das Acácias\nSão José dos Campos - SP\nCEP: 12228-900\nBrasil\n\n## Localização\n\nO ITA está localizado no campus do Departamento de Ciência e Tecnologia Aeroespacial (DCTA), em São José dos Campos, SP.\n\n[Ver no Google Maps](https://maps.google.com/?q=Instituto+Tecnologico+de+Aeronautica)\n\n## Links Úteis\n\n- [Site do ITA](http://www.ita.br)\n- [Pós-Graduação ITA](http://www.ita.br/posgrad)\n- [DCTA](http://www.dcta.mil.br/)\n- [AEB - Agência Espacial Brasileira](http://www.aeb.gov.br/)\n- [INPE](http://www.inpe.br/)\n",
+      "en": "\n## Division Head\n\n**Head:** To be defined\n**Email:** aer@ita.br\n\n---\n\n## Secretariat\n\nFor questions about the division, laboratories, infrastructure, and academic activities:\n\n**Email:** aer@ita.br\n\n---\n\n## Address\n\nInstituto Tecnológico de Aeronáutica\nDivision of Aeronautical and Aerospace Engineering\nPraça Marechal Eduardo Gomes, 50\nVila das Acácias\nSão José dos Campos - SP\nCEP: 12228-900\nBrazil\n\n## Location\n\nITA is located on the campus of the Aerospace Science and Technology Department (DCTA), in São José dos Campos, SP.\n\n[View on Google Maps](https://maps.google.com/?q=Instituto+Tecnologico+de+Aeronautica)\n\n## Useful Links\n\n- [ITA Website](http://www.ita.br)\n- [Graduate School](http://www.ita.br/posgrad)\n- [DCTA](http://www.dcta.mil.br/)\n- [AEB - Brazilian Space Agency](http://www.aeb.gov.br/)\n- [INPE](http://www.inpe.br/)\n"
+    }
+  }
+}

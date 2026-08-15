@@ -1,0 +1,34 @@
+{
+  "id": "ccm",
+  "sigla": "CCM",
+  "nome_pt": "Centro de Competência em Manufatura",
+  "nome_en": "Manufacturing Competence Center",
+  "departamento": "iea-e",
+  "tema": "aeronautica",
+  "descricao_pt": "O Centro de Competência em Manufatura do ITA (CCM/ITA) é um ambiente de ensino e pesquisa do\nconceito de Desenvolvimento Integrado de Produtos. Ocupa uma área de 650 m² e foi concebido para\nprover aos alunos a oportunidade de visualizar e compreender o processo integral de desenvolvimento\nde produtos e sistemas. Atua em fresamento 5 eixos, manufatura aditiva metálica, automação\nindustrial, robótica e inspeção.\n",
+  "descricao_en": "The ITA Manufacturing Competence Center (CCM/ITA) is a teaching and research environment for the\nIntegrated Product Development concept. It occupies an area of 650 m² and was designed to provide\nstudents with the opportunity to visualize and understand the integral product and system\ndevelopment process. It works in 5-axis milling, metallic additive manufacturing, industrial\nautomation, robotics, and inspection.\n",
+  "infraestrutura": [
+    "Centros de usinagem CNC 5 eixos",
+    "Robôs industriais KUKA (KR500, KR210)",
+    "Sistemas metrológicos K-SERIES",
+    "Laser Tracker",
+    "iGPS",
+    "Impressora SLM (manufatura aditiva)",
+    "Equipamentos de medição de tensões residuais"
+  ],
+  "infraestrutura_en": [
+    "5-axis CNC machining centers",
+    "KUKA industrial robots (KR500, KR210)",
+    "K-SERIES metrology systems",
+    "Laser Tracker",
+    "iGPS",
+    "SLM printer (additive manufacturing)",
+    "Residual stress measurement equipment"
+  ],
+  "projetos_associados": [
+    "EMBRAPII CCM-ITA",
+    "CPE - Centro de Pesquisa em Engenharia",
+    "Engrena ITA",
+    "Projeto AME - Automação de Montagem"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lcft",
+  "sigla": "LCFT",
+  "nome_pt": "Laboratório de Computação em Fenômenos de Transporte",
+  "nome_en": "Computational Transport Phenomena Laboratory",
+  "departamento": "iea-c",
+  "tema": "aeronautica",
+  "descricao_pt": "A infraestrutura de informática para suporte à área de Mecânica dos Fluidos e Transferência de\nCalor Computacional é provida pelo Laboratório de Computação em Fenômenos de Transporte (LCFT).\nO laboratório ocupa um prédio de 1000m² contendo salas de pesquisadores e alunos, auditório de\n65 lugares e instalações para professores visitantes. Os recursos permitem o desenvolvimento\nde códigos para aplicação em Mecânica dos Fluidos Computacional.\n",
+  "descricao_en": "The computing infrastructure to support Computational Fluid Mechanics and Heat Transfer is\nprovided by the Computational Transport Phenomena Laboratory (LCFT). The laboratory occupies\na 1000m² building containing researcher and student rooms, a 65-seat auditorium, and facilities\nfor visiting professors. The resources allow the development of codes for application in\nComputational Fluid Mechanics.\n",
+  "infraestrutura": [
+    "Cluster Dell PowerEdge C6230 (560 cores, 20 Tflops)",
+    "Licenças Fluent (ANSYS)",
+    "Licenças Star-CCM+ (Siemens)",
+    "Licenças CFD++ (Metacomp)",
+    "OpenFOAM",
+    "Auditório 65 lugares"
+  ],
+  "infraestrutura_en": [
+    "Dell PowerEdge C6230 cluster (560 cores, 20 Tflops)",
+    "Fluent licenses (ANSYS)",
+    "Star-CCM+ licenses (Siemens)",
+    "CFD++ licenses (Metacomp)",
+    "OpenFOAM",
+    "65-seat auditorium"
+  ],
+  "projetos_associados": [
+    "Petrobras - CFD Industrial",
+    "FAPESP - Mecânica dos Fluidos"
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'self'; form-action https://github.com">
+  <title>Páginas especiais — Editor IEA/ITA</title>
+  <style>
+    :root{color-scheme:light;--blue:#173b73;--ink:#172033;--muted:#5b6678;--line:#dce3ee;--soft:#f4f7fb;--warn:#fff7df}
+    *{box-sizing:border-box}body{margin:0;background:var(--soft);color:var(--ink);font:16px/1.55 system-ui,-apple-system,sans-serif}
+    main{max-width:1100px;margin:0 auto;padding:32px 20px 64px}h1,h2,h3{color:var(--blue);line-height:1.2}h1{margin:.25rem 0 .5rem;font-size:clamp(2rem,4vw,3rem)}h2{margin:2.2rem 0 1rem}
+    .lead{max-width:800px;color:var(--muted);font-size:1.1rem}.notice{margin:24px 0;padding:16px 18px;border-left:5px solid #d69b16;background:var(--warn);border-radius:8px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:20px;box-shadow:0 4px 18px #1720330c}.card h3{margin:0 0 8px}.card p{margin:8px 0;color:var(--muted)}
+    .tag{display:inline-block;margin:0 0 8px;padding:3px 8px;border-radius:999px;background:#e7eef9;color:var(--blue);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+    .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.button{display:inline-block;padding:8px 11px;border:1px solid var(--blue);border-radius:7px;color:var(--blue);font-weight:700;text-decoration:none}.button.primary{background:var(--blue);color:white}.button:hover{filter:brightness(.94)}
+    .code-change{background:white;border:1px solid var(--line);border-radius:12px;padding:22px}.back{color:var(--blue);font-weight:700;text-decoration:none}.small{font-size:.9rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="./">← Voltar ao editor</a>
+  <h1>Páginas especiais e automáticas</h1>
+  <p class="lead">Estas páginas combinam texto editorial, dados estruturados e um template visual. Use o botão indicado para alterações básicas. Uma mudança de cartões, filtros, HTML ou layout precisa de uma solicitação ao mantenedor.</p>
+  <div class="notice"><strong>Regra prática:</strong> altere o conteúdo pelo painel; peça ajuda quando a mudança for na forma como a página é montada. A prévia mostrará exatamente o que será publicado.</div>
+
+  <h2>Entrada e estrutura acadêmica</h2>
+  <div class="grid">
+    <section class="card"><span class="tag">Template especial</span><h3>Início / Home</h3><p>O título, o resumo e o texto são editáveis. Destaques, cartões e a composição visual são montados pelo template.</p><div class="actions"><a class="button primary" href="./#/edit/paginas_estruturais/inicio_pt">Editar texto PT</a><a class="button" href="../pt/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Automática</span><h3>Pessoas</h3><p>A página e os perfis são montados pelas fichas de pessoas. Filtros e layout pertencem ao template.</p><div class="actions"><a class="button primary" href="./#/collections/pessoal">Editar pessoas</a><a class="button" href="../pt/pessoal/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Dados + texto</span><h3>Departamentos</h3><p>Edite nomes e descrições nos dados; o texto introdutório fica no editor de páginas automáticas.</p><div class="actions"><a class="button primary" href="./#/edit/estrutura/departamentos">Editar dados</a><a class="button" href="./#/edit/paginas_estruturais/departamentos_pt">Editar introdução</a><a class="button" href="../pt/departamentos/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Fichas individuais</span><h3>Laboratórios</h3><p>Cada laboratório tem uma ficha própria; alterar uma ficha não remove os outros laboratórios.</p><div class="actions"><a class="button primary" href="./#/collections/laboratorios">Editar laboratórios</a><a class="button" href="../pt/laboratorios/">Ver página</a></div></section>
+  </div>
+
+  <h2>Ensino e pesquisa</h2>
+  <div class="grid">
+    <section class="card"><span class="tag">Dados + texto</span><h3>Linhas de pesquisa</h3><p>As fichas definem as linhas; a página organiza e apresenta esse cadastro automaticamente.</p><div class="actions"><a class="button primary" href="./#/edit/estrutura/linhas">Editar dados</a><a class="button" href="./#/edit/paginas_estruturais/linhas_pt">Editar introdução</a><a class="button" href="../pt/linhas/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Dados estruturados</span><h3>Projetos</h3><p>Os cartões são gerados a partir do cadastro de projetos e do respectivo estado.</p><div class="actions"><a class="button primary" href="./#/edit/estrutura/projetos">Editar projetos</a><a class="button" href="../pt/projetos/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Integração automática</span><h3>Publicações</h3><p>Os registros vêm do processo de atualização Scopus. Não há edição manual de cada publicação no painel.</p><div class="actions"><a class="button" href="../pt/publicacoes/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Template especial</span><h3>Área Espacial</h3><p>O texto introdutório é editável; linhas, laboratórios, projetos e parceiros são combinados por um template próprio.</p><div class="actions"><a class="button primary" href="./#/edit/paginas_estruturais/espaco_pt">Editar texto</a><a class="button" href="../pt/espaco/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Template especial</span><h3>Graduação e disciplinas</h3><p>Textos introdutórios são editáveis; programas, disciplinas e cartões podem depender de conteúdo ou template específico.</p><div class="actions"><a class="button primary" href="./#/edit/paginas_estruturais/graduacao_pt">Editar Graduação</a><a class="button" href="./#/edit/paginas_estruturais/disciplinas_pt">Editar Disciplinas</a><a class="button" href="../pt/graduacao/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Template especial</span><h3>Pós-Graduação</h3><p>Edite a introdução; os atalhos do menu são organizados no Mapa do site.</p><div class="actions"><a class="button primary" href="./#/edit/paginas_estruturais/posgraduacao_pt">Editar introdução</a><a class="button" href="../pt/posgraduacao/">Ver página</a></div></section>
+    <section class="card"><span class="tag">Automática</span><h3>TGs e teses</h3><p>As listas são geradas a partir das bases institucionais preparadas pelo processo de atualização.</p><div class="actions"><a class="button" href="../pt/tgs/">Ver TGs</a><a class="button" href="../pt/teses/">Ver teses</a></div></section>
+    <section class="card"><span class="tag">Dados + arquivos</span><h3>Horários e documentos</h3><p>Inclua PDFs e links no catálogo; a página organiza as categorias automaticamente.</p><div class="actions"><a class="button primary" href="./#/edit/documentos/catalogo_documentos">Editar documentos</a><a class="button" href="../pt/documentos/">Ver página</a></div></section>
+  </div>
+
+  <h2>Quando a mudança exige HTML, Hugo ou outro código</h2>
+  <section class="code-change">
+    <p>Exemplos: criar um tipo novo de cartão, mudar a posição de blocos da Home, alterar filtros, redesenhar uma página automática ou integrar outra fonte de dados.</p>
+    <ol><li>Abra uma solicitação descrevendo a página.</li><li>Explique o resultado desejado e, se possível, anexe uma referência visual.</li><li>O mantenedor prepara a alteração de código e envia uma prévia para aprovação antes de publicar.</li></ol>
+    <div class="actions"><a class="button primary" target="_blank" rel="noopener noreferrer" href="https://github.com/flavioluiz/iea_site_dev/issues/new?title=Altera%C3%A7%C3%A3o%20maior%20em%20p%C3%A1gina%20especial&amp;body=P%C3%A1gina%3A%0A%0AAltera%C3%A7%C3%A3o%20desejada%3A%0A%0ARefer%C3%AAncia%20visual%20ou%20exemplo%3A%0A">Solicitar alteração maior</a></div>
+    <p class="small">Não é necessário saber qual arquivo HTML ou template deve ser alterado.</p>
+  </section>
+</main>
+</body>
+</html>

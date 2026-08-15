@@ -44,7 +44,7 @@
   {{ end }}
 
   {{/* Laboratórios espaciais */}}
-  {{ $labs := .Site.Data.laboratorios.laboratorios }}
+  {{ $labs := partial "get-laboratories.html" (dict "site" .Site) }}
   {{ $labsEspaciais := slice }}
   {{ range $lab := $labs }}
     {{ if or (eq $lab.tema "espacial") (eq $lab.tema "ambos") }}

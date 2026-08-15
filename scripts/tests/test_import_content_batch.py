@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from import_content_batch import (  # noqa: E402
     COLLECTIONS,
+    current_payload,
     merged_records,
     normalize_records,
     records_from_payload,
@@ -43,6 +44,13 @@ class ImportContentBatchTests(unittest.TestCase):
         ]
         payload = {"schema_version": 1, "professores": records}
         self.assertEqual([], validate_payload(COLLECTIONS["pessoas"], payload))
+
+    def test_current_laboratory_directory_satisfies_collective_schema(self) -> None:
+        header, records = current_payload(COLLECTIONS["laboratorios"])
+        self.assertEqual(19, len(records))
+        payload = dict(header)
+        payload["laboratorios"] = records
+        self.assertEqual([], validate_payload(COLLECTIONS["laboratorios"], payload))
 
 
 if __name__ == "__main__":

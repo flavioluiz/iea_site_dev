@@ -15,6 +15,7 @@ from typing import Any
 from jsonschema import Draft202012Validator, FormatChecker
 
 from people_data import load_professors
+from laboratory_data import load_laboratories
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,7 +33,7 @@ class Collection:
 COLLECTIONS = {
     "pessoas": Collection("professores", "data/pessoal/professores", "schemas/professores.schema.json", True),
     "departamentos": Collection("departamentos", "data/departamentos.json", "schemas/departamentos.schema.json"),
-    "laboratorios": Collection("laboratorios", "data/laboratorios.json", "schemas/laboratorios.schema.json"),
+    "laboratorios": Collection("laboratorios", "data/laboratorios", "schemas/laboratorios.schema.json", True),
     "projetos": Collection("projetos", "data/projetos.json", "schemas/projetos.schema.json"),
     "linhas": Collection("linhas", "data/linhas_pesquisa.json", "schemas/linhas-pesquisa.schema.json"),
     "documentos": Collection("categorias", "data/documentos.json", "schemas/documentos.schema.json"),
@@ -65,7 +66,8 @@ def normalize_records(kind: str, records: list[dict[str, Any]]) -> list[dict[str
 
 def current_payload(collection: Collection) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     if collection.individual_files:
-        return {"schema_version": 1}, load_professors(ROOT)
+        records = load_professors(ROOT) if collection.key == "professores" else load_laboratories(ROOT)
+        return {"schema_version": 1}, records
     payload = json.loads((ROOT / collection.path).read_text(encoding="utf-8"))
     return payload, payload[collection.key]
 

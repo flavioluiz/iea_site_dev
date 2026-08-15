@@ -74,8 +74,6 @@ aer_dev/
 │   └── _default/
 │       ├── config.yaml          # Título "AER/ITA", URL, idiomas
 │       ├── languages.yaml       # pt (primário) + en
-│       ├── menus.yaml           # Menu pt
-│       ├── menus.en.yaml        # Menu en
 │       └── params.yaml          # Chefe da divisão, contatos, logos
 ├── content/
 │   ├── sobre/                   # A divisão
@@ -92,8 +90,9 @@ aer_dev/
 │   ├── graduacao/               # Disciplinas e cursos
 │   └── contato/
 ├── data/
+│   ├── paginas/                 # Mapa do site PT/EN e páginas textuais comuns
+│   ├── laboratorios/            # Uma ficha JSON por laboratório
 │   ├── departamentos.yaml       # Lista e info dos departamentos
-│   ├── laboratorios.yaml        # Infra detalhada de cada lab
 │   ├── projetos.yaml            # Projetos com financiadores, período
 │   ├── linhas_pesquisa.yaml     # Linhas (aeronáutica / espacial)
 │   ├── pessoal/

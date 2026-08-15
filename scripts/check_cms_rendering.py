@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 
 from people_data import load_professors
+from laboratory_data import load_laboratories
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,7 +45,7 @@ def main() -> int:
     public = args.public.resolve()
 
     departments = [item["id"] for item in load_records("departamentos.json", "departamentos")]
-    laboratories = [item["id"] for item in load_records("laboratorios.json", "laboratorios")]
+    laboratories = [item["id"] for item in load_laboratories(ROOT)]
     lines = [item["id"] for item in load_records("linhas_pesquisa.json", "linhas")]
     people = [
         item["id"]
@@ -57,11 +58,21 @@ def main() -> int:
         if item["status"] == "em_andamento"
     ]
     document_categories = [item["id"] for item in load_records("documentos.json", "categorias")]
+    site_nodes = [
+        json.loads(path.read_text(encoding="utf-8"))
+        for path in sorted((ROOT / "data" / "paginas").glob("*.json"))
+    ]
 
     checked = 0
     for lang in ("pt", "en"):
         home = public / lang / "index.html"
         checked += assert_markers(home, "data-cms-content", ["page-body"])
+        menu_items = [
+            node["id"]
+            for node in site_nodes
+            if node["parent"] == "root" and node["visivel"][lang]
+        ]
+        checked += assert_markers(home, "data-site-page-id", menu_items)
         checked += assert_markers(
             public / lang / "departamentos/index.html", "data-department-id", departments
         )
@@ -82,6 +93,16 @@ def main() -> int:
             "id",
             [f"document-category-{item}" for item in document_categories],
         )
+        for node in site_nodes:
+            if node["tipo"] != "pagina_editavel" or not node["pagina"]["publicada"]:
+                continue
+            page = public / lang / node["pagina"]["slug"] / "index.html"
+            if not page.is_file():
+                raise SystemExit(f"Página do Mapa do site não foi gerada: {page}")
+            html = page.read_text(encoding="utf-8")
+            if node["pagina"]["titulo"][lang] not in html:
+                raise SystemExit(f"{page}: título do Mapa do site não aparece no HTML")
+            checked += 1
 
     print(f"CMS → HTML: {checked} marcadores conferidos em português e inglês.")
     return 0

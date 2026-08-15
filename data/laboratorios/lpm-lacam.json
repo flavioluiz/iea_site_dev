@@ -1,0 +1,30 @@
+{
+  "id": "lpm-lacam",
+  "sigla": "LPM/LACAM",
+  "nome_pt": "Laboratórios de Processamento e Caracterização de Materiais",
+  "nome_en": "Materials Processing and Characterization Laboratories",
+  "departamento": "iea-e",
+  "tema": "aeronautica",
+  "descricao_pt": "Na área de materiais, existem dois laboratórios multiusuários: os Laboratórios de Processamento\nde Materiais (LPM) e os Laboratórios de Caracterização de Materiais (LACAM). O LPM tem uma\ninfraestrutura praticamente única no Brasil com capacidade de produzir pequenos lingotes por\nprocessos como fusão a arco e fusão por feixe de elétrons, além de processos de conformação\nmecânica.\n",
+  "descricao_en": "In the materials area, there are two multi-user laboratories: the Materials Processing Laboratories\n(LPM) and the Materials Characterization Laboratories (LACAM). The LPM has an infrastructure that\nis practically unique in Brazil with the capacity to produce small ingots by processes such as arc\nmelting and electron beam melting, as well as mechanical forming processes.\n",
+  "infraestrutura": [
+    "Fornos de fusão a arco",
+    "Fornos de fusão por feixe de elétrons",
+    "Equipamentos de conformação mecânica",
+    "Microscópios eletrônicos",
+    "Difratômetros de raios-X",
+    "Equipamentos de análise térmica (DSC, DMA)"
+  ],
+  "infraestrutura_en": [
+    "Arc melting furnaces",
+    "Electron beam melting furnaces",
+    "Mechanical forming equipment",
+    "Electron microscopes",
+    "X-ray diffractometers",
+    "Thermal analysis equipment (DSC, DMA)"
+  ],
+  "projetos_associados": [
+    "FAPESP - Materiais Avançados",
+    "CNPq - Ligas Metálicas"
+  ]
+}

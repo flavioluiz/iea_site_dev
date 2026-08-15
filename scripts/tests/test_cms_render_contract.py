@@ -1,8 +1,10 @@
 from __future__ import annotations
 
-import re
+import json
 import unittest
 from pathlib import Path
+
+import yaml
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -12,13 +14,39 @@ class CmsRenderContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.config = (ROOT / "static/admin/config.yml").read_text(encoding="utf-8")
+        cls.collections = {
+            item["name"]: item
+            for item in yaml.safe_load(cls.config)["collections"]
+        }
 
-    def test_every_editable_markdown_page_renders_title_and_body(self) -> None:
-        pages_block = self.config.split("  - name: paginas", 1)[1].split(
-            "  - name: pessoal", 1
-        )[0]
-        content_files = re.findall(r"^\s+file: (content/\S+)$", pages_block, re.MULTILINE)
-        self.assertEqual(20, len(content_files))
+    def test_site_map_owns_generic_pages_and_navigation(self) -> None:
+        site_map = self.collections["paginas"]
+        self.assertEqual("data/paginas", site_map["folder"])
+        self.assertTrue(site_map["create"])
+        self.assertTrue(site_map["delete"])
+        self.assertEqual("paginas", site_map["fields"][3]["collection"])
+
+        nodes = [json.loads(path.read_text(encoding="utf-8")) for path in (ROOT / "data/paginas").glob("*.json")]
+        by_id = {node["id"]: node for node in nodes}
+        self.assertGreaterEqual(len(nodes), 30)
+        self.assertEqual("pagina_editavel", by_id["sobre"]["tipo"])
+        self.assertEqual("divisao", by_id["sobre"]["parent"])
+        self.assertEqual("pagina_editavel", by_id["contato"]["tipo"])
+
+        for language in ("pt", "en"):
+            adapter = (ROOT / f"content/_content.{language}.gotmpl").read_text(encoding="utf-8")
+            self.assertIn('eq .tipo "pagina_editavel"', adapter)
+            self.assertIn(f".pagina.conteudo.{language}", adapter)
+            self.assertIn("$.AddPage", adapter)
+
+        nav = (ROOT / "layouts/partials/nav.html").read_text(encoding="utf-8")
+        self.assertIn(".Site.Data.paginas", nav)
+        self.assertNotIn(".Site.Menus.main", nav)
+        self.assertIn('where $nodes "parent" "root"', nav)
+
+    def test_every_structural_markdown_page_renders_title_and_body(self) -> None:
+        content_files = [entry["file"] for entry in self.collections["paginas_estruturais"]["files"]]
+        self.assertEqual(16, len(content_files))
 
         for filename in content_files:
             content_path = Path(filename)
@@ -45,7 +73,7 @@ class CmsRenderContractTests(unittest.TestCase):
 
     def test_people_are_individual_filterable_entries(self) -> None:
         people_block = self.config.split("  - name: pessoal", 1)[1].split(
-            "  - name: estrutura", 1
+            "  - name: laboratorios", 1
         )[0]
         self.assertIn("folder: data/pessoal/professores", people_block)
         self.assertIn('label: "Somente pessoas ativas"', people_block)
@@ -56,6 +84,19 @@ class CmsRenderContractTests(unittest.TestCase):
 
         people = sorted((ROOT / "data/pessoal/professores").glob("*.json"))
         self.assertEqual(90, len(people))
+
+    def test_laboratories_are_individual_filterable_entries(self) -> None:
+        laboratories = self.collections["laboratorios"]
+        self.assertEqual("data/laboratorios", laboratories["folder"])
+        self.assertTrue(laboratories["create"])
+        self.assertIn("departamento", [group["field"] for group in laboratories["view_groups"]])
+        self.assertIn("tema", [group["field"] for group in laboratories["view_groups"]])
+        self.assertNotIn("data/laboratorios.json", self.config)
+
+        laboratory_files = sorted((ROOT / "data/laboratorios").glob("*.json"))
+        self.assertEqual(19, len(laboratory_files))
+        for path in laboratory_files:
+            self.assertEqual(path.stem, json.loads(path.read_text(encoding="utf-8"))["id"])
 
     def test_laboratories_are_not_selected_by_a_manual_allowlist(self) -> None:
         template = (ROOT / "layouts/laboratorios/list.html").read_text(encoding="utf-8")
