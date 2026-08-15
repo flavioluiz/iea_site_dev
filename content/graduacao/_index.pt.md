@@ -1,6 +1,7 @@
 ---
-title: "Graduação"
-description: "Cursos de graduação em Engenharia Aeronáutica e Engenharia Aeroespacial — IEA/ITA"
+title: Graduação
+description: Cursos de graduação em Engenharia Aeronáutica e Engenharia
+  Aeroespacial — IEA/ITA
 ---
 
 A Divisão de Engenharia Aeronáutica e Aeroespacial (IEA) do ITA é responsável por dois cursos de graduação em engenharia de 5 anos, reconhecidos internacionalmente pela excelência em formação técnico-científica.
@@ -19,7 +20,7 @@ Formação centrada no projeto e desenvolvimento de aeronaves e sistemas aeroná
 ### Engenharia Aeroespacial
 Formação abrangente para o projeto e operação de sistemas espaciais complexos: satélites, foguetes, veículos lançadores e sondas. Criado em 2010, é o único curso de Engenharia Aeroespacial das Forças Armadas brasileiras.
 
-**Coordenador:** Maísa de Oliveira Terra
+**Coordenador:** Luiz Arthur Gagg
 
 [Ver currículo completo →](/graduacao/aeroespacial/)
 
