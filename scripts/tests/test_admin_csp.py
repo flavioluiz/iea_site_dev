@@ -44,6 +44,11 @@ class AdminCspTests(unittest.TestCase):
         self.assertNotIn("Editar JSON completo", help_script)
         self.assertNotIn("/edit/main/data/", help_script)
 
+    def test_admin_logo_uses_the_current_site_origin(self) -> None:
+        config = (ROOT / "static/admin/config.yml").read_text(encoding="utf-8")
+        self.assertIn("logo_url: ../images/ita_logo.png", config)
+        self.assertNotIn("logo_url: https://", config)
+
 
 if __name__ == "__main__":
     unittest.main()
