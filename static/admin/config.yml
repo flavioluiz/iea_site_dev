@@ -26,9 +26,9 @@ slug:
 
 collections:
   - name: paginas
-    label: "1. Mapa do site e páginas"
-    label_singular: "Item do mapa"
-    description: "A visão editorial da estrutura do site. Agrupe por seção para enxergar o menu. Páginas editáveis podem ser criadas e excluídas; itens protegidos podem ser renomeados, movidos ou ocultados, mas não apagados."
+    label: "1. Páginas e menu do site"
+    label_singular: "Página ou item do menu"
+    description: "Comece pelo botão Mapa visual no rodapé. Ele mostra a navegação como uma árvore e leva ao formulário correto. A lista desta tela é a visão avançada."
     folder: data/paginas
     create: true
     delete: true
@@ -36,40 +36,35 @@ collections:
     extension: json
     identifier_field: id
     slug: "{{fields.id}}"
-    summary: "{{parent}} › {{rotulo.pt}} — {{tipo}}"
+    summary: "{{rotulo.pt}} — dentro de: {{parent}}"
     sortable_fields: [ordem, rotulo.pt, tipo, id]
     view_filters:
-      - { label: "Páginas editáveis", field: tipo, pattern: "^pagina_editavel$" }
-      - { label: "Páginas automáticas", field: tipo, pattern: "^pagina_estrutural$" }
-      - { label: "Grupos do menu", field: tipo, pattern: "^(raiz|grupo)$" }
+      - { label: "📄 Páginas comuns — texto editável aqui", field: tipo, pattern: "^pagina_editavel$" }
+      - { label: "🧩 Páginas automáticas — dados ou template", field: tipo, pattern: "^pagina_estrutural$" }
+      - { label: "📁 Seções que abrem um submenu", field: tipo, pattern: "^grupo$" }
       - { label: "Visíveis em português", field: visivel.pt, pattern: true }
       - { label: "Fora do menu em português", field: visivel.pt, pattern: false }
     view_groups:
-      - { label: "Seção do menu", field: parent }
-      - { label: "Tipo de item", field: tipo }
+      - { label: "Onde fica no menu", field: parent }
+      - { label: "O que o item representa", field: tipo }
     editor:
       preview: true
     fields:
-      - label: "Identificador técnico"
-        name: id
-        widget: string
-        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas, números e hífens."]
-        hint: "Definido ao criar. Não altere depois: ele mantém as relações do menu estáveis."
-      - label: "Tipo de item"
+      - label: "O que este item representa?"
         name: tipo
         widget: select
         default: pagina_editavel
         options:
-          - { label: "Página editável", value: pagina_editavel }
-          - { label: "Grupo do menu", value: grupo }
-          - { label: "Link externo", value: link_externo }
-          - { label: "Página automática/protegida", value: pagina_estrutural }
-          - { label: "Título de categoria", value: categoria }
-          - { label: "Separador visual", value: separador }
-          - { label: "Raiz técnica", value: raiz }
-        hint: "Para uma página textual nova, mantenha Página editável. Os demais tipos são usados principalmente por mantenedores."
+          - { label: "📄 Página comum — título e texto editáveis aqui", value: pagina_editavel }
+          - { label: "📁 Seção do menu — abre uma lista de páginas", value: grupo }
+          - { label: "🧩 Página automática — montada por dados/template", value: pagina_estrutural }
+          - { label: "🔗 Link externo — abre outro site", value: link_externo }
+          - { label: "🏷️ Título de categoria — apenas organiza o submenu", value: categoria }
+          - { label: "— Separador — apenas espaço visual", value: separador }
+          - { label: "⚙️ Raiz técnica — não usar", value: raiz }
+        hint: "Ao criar conteúdo textual, escolha 📄 Página comum. Em um item existente, não troque o tipo; use o Mapa visual para entender sua função."
       - { label: "Item protegido", name: protegido, widget: hidden, default: false }
-      - label: "Local no menu"
+      - label: "Onde este item fica?"
         name: parent
         widget: relation
         collection: paginas
@@ -82,9 +77,9 @@ collections:
             values: [raiz, grupo]
         default: root
         required: false
-        hint: "Escolha Menu principal para aparecer diretamente na barra, ou uma seção como A Divisão ou Pesquisa. Mover aqui não muda o endereço da página."
-      - { label: "Ordem dentro da seção", name: ordem, widget: number, value_type: int, min: 0, max: 10000, default: 100, hint: "Números menores aparecem primeiro. Use intervalos de 10 para facilitar ajustes futuros." }
-      - label: "Aparece no menu"
+        hint: "Menu principal cria um bloco na barra superior. Escolher A Divisão, Pesquisa etc. coloca o item recuado dentro daquela seção."
+      - { label: "Posição dentro dessa seção", name: ordem, widget: number, value_type: int, min: 0, max: 10000, default: 100, hint: "Números menores aparecem antes. Exemplo: 10, 20, 30." }
+      - label: "Mostrar no menu"
         name: visivel
         widget: object
         collapsed: false
@@ -98,7 +93,7 @@ collections:
         fields:
           - { label: "Português", name: pt, widget: string, required: false }
           - { label: "English", name: en, widget: string, required: false }
-      - label: "Destino existente ou externo"
+      - label: "Endereço de página automática ou link — avançado"
         name: url
         widget: object
         collapsed: true
@@ -106,11 +101,11 @@ collections:
         fields:
           - { label: "Português", name: pt, widget: string, required: false }
           - { label: "English", name: en, widget: string, required: false }
-      - label: "Conteúdo da página editável"
+      - label: "📄 Título e texto da página comum"
         name: pagina
         widget: object
-        collapsed: false
-        hint: "Preencha este bloco somente quando o tipo for Página editável. Páginas automáticas têm um editor específico no guia Páginas especiais."
+        collapsed: true
+        hint: "Abra somente em itens marcados como 📄 Página comum. Para uma página 🧩 automática, use Páginas especiais."
         fields:
           - label: "Endereço permanente"
             name: slug
@@ -140,6 +135,11 @@ collections:
             fields:
               - { label: "Português", name: pt, widget: markdown, required: false }
               - { label: "English", name: en, widget: markdown, required: false }
+      - label: "Código interno — avançado"
+        name: id
+        widget: string
+        pattern: ["^[a-z0-9]+(?:-[a-z0-9]+)*$", "Use minúsculas, números e hífens."]
+        hint: "Preencha ao criar e não altere depois. Exemplo: historia-da-divisao. Este código mantém os vínculos do menu."
 
   - name: paginas_estruturais
     label: "2. Textos de páginas automáticas"

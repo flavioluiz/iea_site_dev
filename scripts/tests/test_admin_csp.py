@@ -65,6 +65,17 @@ class AdminCspTests(unittest.TestCase):
         self.assertNotIn("<script", guide)
         self.assertIn("./paginas-especiais.html", help_script)
 
+    def test_visual_site_map_is_safe_and_linked_from_admin(self) -> None:
+        page = (ROOT / "static/admin/mapa-visual.html").read_text(encoding="utf-8")
+        script = (ROOT / "static/admin/mapa-visual.js").read_text(encoding="utf-8")
+        help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+
+        self.assertIn("Mapa visual do site", page)
+        self.assertIn("script-src 'self'", page)
+        self.assertNotIn("unsafe-eval", page)
+        self.assertIn("../pt/mapa-site.json", script)
+        self.assertIn("./mapa-visual.html", help_script)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -16,8 +16,19 @@ defaultContentLanguageInSubdir: true
 removePathAccents: true
 
 # Output formats
+mediaTypes:
+  application/vnd.iea.map+json:
+    suffixes: [json]
+
+outputFormats:
+  MAPASITE:
+    mediaType: application/vnd.iea.map+json
+    baseName: mapa-site
+    isPlainText: true
+    notAlternative: true
+
 outputs:
-  home: ["HTML", "RSS", "JSON"]
+  home: ["HTML", "RSS", "JSON", "MAPASITE"]
   section: ["HTML", "RSS"]
 
 # Markup

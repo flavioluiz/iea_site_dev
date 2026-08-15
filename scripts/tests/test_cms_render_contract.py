@@ -24,7 +24,8 @@ class CmsRenderContractTests(unittest.TestCase):
         self.assertEqual("data/paginas", site_map["folder"])
         self.assertTrue(site_map["create"])
         self.assertTrue(site_map["delete"])
-        self.assertEqual("paginas", site_map["fields"][3]["collection"])
+        parent_field = next(field for field in site_map["fields"] if field["name"] == "parent")
+        self.assertEqual("paginas", parent_field["collection"])
 
         nodes = [json.loads(path.read_text(encoding="utf-8")) for path in (ROOT / "data/paginas").glob("*.json")]
         by_id = {node["id"]: node for node in nodes}
@@ -43,6 +44,11 @@ class CmsRenderContractTests(unittest.TestCase):
         self.assertIn(".Site.Data.paginas", nav)
         self.assertNotIn(".Site.Menus.main", nav)
         self.assertIn('where $nodes "parent" "root"', nav)
+
+        map_output = (ROOT / "layouts/index.mapasite.json").read_text(encoding="utf-8")
+        hugo_config = (ROOT / "config/_default/config.yaml").read_text(encoding="utf-8")
+        self.assertIn('dict "version" 1 "nodes" $nodes', map_output)
+        self.assertIn('home: ["HTML", "RSS", "JSON", "MAPASITE"]', hugo_config)
 
     def test_every_structural_markdown_page_renders_title_and_body(self) -> None:
         content_files = [entry["file"] for entry in self.collections["paginas_estruturais"]["files"]]
