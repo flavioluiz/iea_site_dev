@@ -1,0 +1,66 @@
+name: Atualizar propostas prontas do editor
+
+on:
+  push:
+    branches: [main]
+  pull_request_target:
+    types: [labeled, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-ready-decap-proposals
+  cancel-in-progress: false
+
+jobs:
+  update-ready-proposals:
+    if: >-
+      github.event_name != 'pull_request_target' ||
+      github.event.label.name == 'decap-cms/pending_publish'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      # Security: this pull_request_target workflow never checks out or executes PR code.
+      - name: Atualizar propostas prontas que ficaram atrás do site
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          proposals="$(gh pr list --repo "${REPOSITORY}" --state open --limit 100 \
+            --json number,headRefName,labels \
+            --jq '.[] | select(.headRefName | startswith("cms/")) | select(any(.labels[]; .name == "decap-cms/pending_publish")) | [.number, .headRefName] | @tsv')"
+          if [[ -z "${proposals}" ]]; then
+            echo "Nenhuma proposta pronta do editor precisa ser verificada." >> "${GITHUB_STEP_SUMMARY}"
+            exit 0
+          fi
+
+          while IFS=$'\t' read -r number branch; do
+            [[ -n "${number}" ]] || continue
+            details="$(gh pr view "${number}" --repo "${REPOSITORY}" --json mergeStateStatus,headRefOid)"
+            state="$(jq -r '.mergeStateStatus' <<<"${details}")"
+            head_sha="$(jq -r '.headRefOid' <<<"${details}")"
+            if [[ "${state}" == "UNKNOWN" ]]; then
+              for attempt in 1 2 3 4; do
+                sleep 3
+                details="$(gh pr view "${number}" --repo "${REPOSITORY}" --json mergeStateStatus,headRefOid)"
+                state="$(jq -r '.mergeStateStatus' <<<"${details}")"
+                head_sha="$(jq -r '.headRefOid' <<<"${details}")"
+                [[ "${state}" != "UNKNOWN" ]] && break
+              done
+            fi
+            if [[ "${state}" == "BEHIND" ]]; then
+              if gh api --method PUT "repos/${REPOSITORY}/pulls/${number}/update-branch" -f expected_head_sha="${head_sha}" >/dev/null; then
+                echo "- Proposta #${number} (${branch}) atualizada; os testes serão executados novamente." >> "${GITHUB_STEP_SUMMARY}"
+              else
+                echo "::warning title=Não foi possível atualizar a proposta #${number}::Abra a proposta e verifique se há um conflito com main."
+              fi
+            elif [[ "${state}" == "DIRTY" ]]; then
+              echo "::warning title=Conflito na proposta #${number}::A proposta ${branch} precisa de ajuda técnica antes da publicação."
+            else
+              echo "- Proposta #${number} (${branch}) já está sincronizada; estado ${state}." >> "${GITHUB_STEP_SUMMARY}"
+            fi
+          done <<< "${proposals}"

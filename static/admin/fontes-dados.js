@@ -64,6 +64,7 @@
       const jobsPayload = await jobsResponse.json();
       const steps = (jobsPayload.jobs || []).flatMap(job => job.steps || []);
       const dryRunStep = steps.find(step => ["Stop after safe dry run", "Encerrar após o teste (nenhuma publicação)"].includes(step.name));
+      const failedStep = steps.find(step => step.conclusion === "failure");
       if (run.conclusion === "success" && dryRunStep && dryRunStep.conclusion === "success") {
         box.classList.add("test");
         result.textContent = `Teste concluído em ${formatRunDate(run.updated_at)}. Nada foi enviado ao site. Para atualizar, execute novamente e desmarque “Somente testar”.`;
@@ -72,6 +73,10 @@
       if (run.conclusion === "success") {
         box.classList.add("complete");
         result.textContent = `Execução completa concluída em ${formatRunDate(run.updated_at)}. Se houve mudanças, confira a proposta da Biblioteca antes de mesclar.`;
+        return;
+      }
+      if (failedStep && failedStep.name === "Abrir proposta de atualização") {
+        result.textContent = `Os dados foram coletados e conferidos em ${formatRunDate(run.updated_at)}, mas o GitHub bloqueou a abertura da proposta. Nada foi alterado no site; um administrador precisa habilitar a permissão indicada nos detalhes da execução.`;
         return;
       }
       result.textContent = `A execução de ${formatRunDate(run.updated_at)} terminou com erro. Abra os detalhes; a última versão boa do site foi preservada.`;

@@ -84,7 +84,7 @@ jobs:
             echo "Nenhuma mudança substantiva foi encontrada; nenhuma proposta foi aberta." >> "${GITHUB_STEP_SUMMARY}"
             exit 0
           fi
-          branch="bot/biblioteca-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}"
+          branch="bot/biblioteca-$(date -u +%Y-%m-%d)-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           gh auth setup-git
           git config user.name "iea-library-bot"
           git config user.email "iea-library-bot@users.noreply.github.com"
@@ -92,12 +92,20 @@ jobs:
           git add data/generated/biblioteca
           git commit -m "data: atualizar metadados da Biblioteca"
           git push origin "${branch}"
-          pr_url="$(gh pr create --base main --head "${branch}" --title "data: atualização da Biblioteca" --body-file "${RUNNER_TEMP}/library-report.md")"
+          pr_error="${RUNNER_TEMP}/library-pr-error.txt"
+          if ! pr_url="$(gh pr create --base main --head "${branch}" --title "data: atualização da Biblioteca" --body-file "${RUNNER_TEMP}/library-report.md" 2>"${pr_error}")"; then
+            cat "${pr_error}" >&2
+            if grep -qi "not permitted to create.*pull request" "${pr_error}"; then
+              echo "## Dados conferidos; o GitHub bloqueou a criação da proposta" >> "${GITHUB_STEP_SUMMARY}"
+              echo "Nenhum dado publicado foi alterado. Um administrador deve habilitar **Allow GitHub Actions to create and approve pull requests** em Settings → Actions → General e então executar novamente." >> "${GITHUB_STEP_SUMMARY}"
+              echo "::error title=Permissão para abrir proposta desativada::Habilite 'Allow GitHub Actions to create and approve pull requests' em Settings → Actions → General. A última versão publicada foi preservada."
+            fi
+            exit 1
+          fi
           echo "## Proposta aberta — o site ainda não foi alterado" >> "${GITHUB_STEP_SUMMARY}"
           echo "Confira os testes e mescle a proposta para iniciar a publicação: ${pr_url}" >> "${GITHUB_STEP_SUMMARY}"
-          gh workflow run ci.yml --ref "${branch}"
       - name: Close a previous operational alert after recovery
-        if: ${{ success() }}
+        if: ${{ success() && !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
         env:
           GH_TOKEN: ${{ github.token }}
           REPOSITORY: ${{ github.repository }}
@@ -122,5 +130,5 @@ jobs:
           if [[ -n "${issue}" ]]; then
             gh issue comment "${issue}" --repo "${REPOSITORY}" --body "Nova falha preservou a última versão boa: ${RUN_URL}"
           else
-            gh issue create --repo "${REPOSITORY}" --title "Operação: falha no Pipeline Biblioteca" --body "A coleta falhou e nenhum dado publicado foi substituído. Execução: ${RUN_URL}"
+            gh issue create --repo "${REPOSITORY}" --title "Operação: falha no Pipeline Biblioteca" --body "O pipeline não conseguiu concluir. Nenhum dado publicado foi substituído. Execução: ${RUN_URL}"
           fi
