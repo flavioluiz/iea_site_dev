@@ -65,6 +65,15 @@ def main() -> int:
 
     checked = 0
     for lang in ("pt", "en"):
+        map_path = public / lang / "mapa-site.json"
+        if not map_path.is_file():
+            raise SystemExit(f"Mapa visual não foi gerado: {map_path}")
+        map_ids = {node["id"] for node in json.loads(map_path.read_text(encoding="utf-8"))["nodes"]}
+        expected_map_ids = {node["id"] for node in site_nodes}
+        if map_ids != expected_map_ids:
+            raise SystemExit(f"{map_path}: itens diferentes da fonte editorial")
+        checked += len(map_ids)
+
         home = public / lang / "index.html"
         checked += assert_markers(home, "data-cms-content", ["page-body"])
         menu_items = [

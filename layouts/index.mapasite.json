@@ -1,0 +1,15 @@
+{{- $nodes := slice -}}
+{{- range .Site.Data.paginas -}}
+  {{- $nodes = $nodes | append (dict
+    "id" .id
+    "tipo" .tipo
+    "protegido" .protegido
+    "parent" .parent
+    "ordem" .ordem
+    "visivel" .visivel
+    "rotulo" .rotulo
+    "url" .url
+    "pagina" (dict "slug" .pagina.slug "publicada" .pagina.publicada)
+  ) -}}
+{{- end -}}
+{{- dict "version" 1 "nodes" $nodes | jsonify -}}

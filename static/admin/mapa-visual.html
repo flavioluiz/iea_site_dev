@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'self'">
+  <title>Mapa visual do site — Editor IEA/ITA</title>
+  <style>
+    :root{color-scheme:light;--blue:#173b73;--ink:#172033;--muted:#5b6678;--line:#d9e1ec;--soft:#f3f6fa;--green:#176b46;--purple:#6741a5;--orange:#9a5b13}
+    *{box-sizing:border-box}body{margin:0;background:var(--soft);color:var(--ink);font:16px/1.45 system-ui,-apple-system,sans-serif}button,a{font:inherit}
+    main{max-width:1240px;margin:0 auto;padding:28px 20px 64px}h1,h2,h3,p{margin-top:0}h1{margin-bottom:8px;color:var(--blue);font-size:clamp(2rem,4vw,3rem);line-height:1.1}.lead{max-width:850px;color:var(--muted);font-size:1.08rem}.topbar,.controls,.actions,.legend{display:flex;align-items:center;flex-wrap:wrap;gap:9px}.topbar{justify-content:space-between;margin-bottom:24px}.button{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:9px 12px;border:1px solid var(--blue);border-radius:8px;background:white;color:var(--blue);font-weight:750;text-decoration:none;cursor:pointer}.button.primary{background:var(--blue);color:white}.button.small{padding:6px 9px;font-size:.86rem}.button[aria-pressed=true]{background:var(--blue);color:white}
+    .explain{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.explain article{padding:16px;background:white;border:1px solid var(--line);border-radius:12px}.explain strong{display:block;margin-bottom:4px;color:var(--blue)}.explain p{margin:0;color:var(--muted);font-size:.92rem}
+    .toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding:14px 16px;margin-bottom:18px;background:white;border:1px solid var(--line);border-radius:12px}.switch{display:flex;align-items:center;gap:8px;color:var(--muted);font-weight:650}.switch input{width:18px;height:18px}.status{color:var(--muted)}
+    .legend{margin:0 0 18px}.legend span,.badge{display:inline-flex;align-items:center;gap:5px;padding:4px 8px;border-radius:999px;background:white;border:1px solid var(--line);font-size:.78rem;font-weight:700}.legend .common,.type-pagina_editavel .type-badge{color:var(--green);border-color:#a8d5c1}.legend .automatic,.type-pagina_estrutural .type-badge{color:var(--purple);border-color:#c8b5e6}.legend .group,.type-grupo .type-badge{color:var(--blue);border-color:#a9bddb}.legend .external,.type-link_externo .type-badge{color:var(--orange);border-color:#e3c397}
+    .root{padding:16px 18px;margin-bottom:14px;background:var(--blue);color:white;border-radius:12px;font-weight:800}.tree{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}.branch{background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 4px 18px #1720330b}.branch.hidden-node{opacity:.68;border-style:dashed}.node-main{padding:16px}.branch.has-children>.node-main{background:#edf3fb;border-bottom:1px solid var(--line)}.node-title-row{display:flex;align-items:flex-start;gap:10px}.icon{font-size:1.35rem;line-height:1.2}.node-title{flex:1;min-width:0}.node-title h2,.node-title h3{margin:0 0 3px;overflow-wrap:anywhere;color:var(--ink)}.node-title h2{font-size:1.08rem}.node-title h3{font-size:.98rem}.kind{margin:0;color:var(--muted);font-size:.82rem}.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.badge.locked{background:#f3f4f6;color:#596273}.badge.hidden{background:#fff5df;color:#865915;border-color:#e7c987}.node-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.children{position:relative;padding:10px 10px 12px 25px}.children::before{content:"";position:absolute;left:14px;top:0;bottom:16px;border-left:2px solid #c7d3e2}.child{position:relative;margin:7px 0;padding:11px;background:#fff;border:1px solid var(--line);border-radius:9px}.child::before{content:"";position:absolute;left:-12px;top:21px;width:11px;border-top:2px solid #c7d3e2}.child.hidden-node{opacity:.62;border-style:dashed}.child .node-actions{margin-top:9px}.child.type-categoria{background:#f5f2fa}.child.type-separador{min-height:0;padding:0;margin:12px 0;border:0;border-top:2px dashed #cdd5e0;border-radius:0}.empty{padding:32px;text-align:center;background:white;border:1px solid var(--line);border-radius:12px;color:var(--muted)}
+    @media(max-width:940px){.tree{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){main{padding:20px 12px 48px}.tree,.explain{grid-template-columns:1fr}.toolbar{align-items:flex-start}.controls{width:100%}.controls .button{flex:1}.topbar{align-items:flex-start}.branch{border-radius:11px}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="topbar"><a class="button" href="./">← Voltar ao editor</a><div class="actions"><a class="button" href="./#/collections/paginas">Lista avançada</a><a class="button primary" href="./#/collections/paginas/new">＋ Criar página</a></div></div>
+  <h1>Mapa visual do site</h1>
+  <p class="lead">Cada bloco grande é um item da barra principal. Os blocos recuados são as opções que aparecem quando uma seção é aberta. Clique em <strong>Editar</strong> no próprio item que deseja alterar.</p>
+
+  <section class="explain" aria-label="Como entender o mapa">
+    <article><strong>📁 Seção do menu</strong><p>É uma “pasta” que abre um submenu, como A Divisão ou Pesquisa. Ela organiza páginas, mas normalmente não tem texto próprio.</p></article>
+    <article><strong>📄 Página comum</strong><p>Tem título e texto editáveis no próprio formulário. Pode ser criada, movida ou excluída.</p></article>
+    <article><strong>🧩 Página automática</strong><p>É montada por dados ou por um template, como Pessoas e Laboratórios. Aqui você altera o nome e a posição; o conteúdo possui editor específico.</p></article>
+  </section>
+
+  <section class="toolbar" aria-label="Controles do mapa">
+    <div class="controls"><button class="button" type="button" data-language="pt" aria-pressed="true">Português</button><button class="button" type="button" data-language="en" aria-pressed="false">English</button></div>
+    <label class="switch"><input id="show-hidden" type="checkbox"> Mostrar itens fora do menu</label>
+  </section>
+  <div class="legend" aria-label="Legenda"><span class="group">📁 Seção</span><span class="common">📄 Página comum</span><span class="automatic">🧩 Página automática</span><span class="external">🔗 Link externo</span></div>
+  <div class="root">Barra principal do site</div>
+  <p id="map-status" class="status" role="status">Carregando a estrutura…</p>
+  <section id="map-tree" class="tree" aria-live="polite"></section>
+</main>
+<script src="./mapa-visual.js?v=1"></script>
+</body>
+</html>

@@ -26,7 +26,15 @@ Se **Publicar** der erro, aguarde os testes e a prévia terminarem e tente novam
 
 ## Organizar páginas e o menu
 
-Em **1. Mapa do site e páginas**, use **Agrupar por → Seção do menu** para ver a estrutura. Um editor pode:
+Comece pelo botão **Ver mapa visual**, fixado no rodapé do painel. A tela mostra cada item da barra principal como um bloco e recua as opções que pertencem a um submenu. Os símbolos significam:
+
+- **📁 Seção do menu**: abre uma lista, como A Divisão ou Pesquisa;
+- **📄 Página comum**: possui título e texto editáveis no próprio formulário;
+- **🧩 Página automática**: é montada por dados ou template, como Pessoas e Laboratórios;
+- **🔗 Link externo**: leva a outro site;
+- **🏷️ Título de categoria** e **separador**: apenas organizam um submenu.
+
+O botão **Editar** de cada bloco abre diretamente o formulário correto. A opção **1. Páginas e menu do site** continua disponível como lista avançada. Um editor pode:
 
 - renomear o rótulo exibido em português e inglês;
 - mudar a ordem numérica;
