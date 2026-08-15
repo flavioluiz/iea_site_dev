@@ -172,6 +172,8 @@ def validate_site_map(problems: Problems) -> None:
         if node.get("tipo") not in page_node_types:
             continue
         editor = editor_map.get(node_id)
+        if node.get("tipo") == "pagina_editavel" and editor is None:
+            continue
         if not isinstance(editor, dict):
             problems.add(f"Mapa do site: página {node_id} não possui origem editorial")
             continue

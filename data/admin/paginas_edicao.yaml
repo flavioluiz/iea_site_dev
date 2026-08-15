@@ -59,6 +59,7 @@ projetos:
 
 publicacoes:
   origem: importada
+  fonte: scopus
   editor: {pt: "#/edit/paginas_estruturais/publicacoes_pt", en: "#/edit/paginas_estruturais/publicacoes_en"}
   detalhe:
     pt: "A introdução é Markdown; a lista de publicações é importada do Scopus."
@@ -84,6 +85,10 @@ laboratorios:
 
 cursos-grad:
   origem: markdown
+  principal: true
+  papel:
+    pt: "Página principal da seção Graduação (no menu: Cursos)."
+    en: "Main Undergraduate page (menu label: Programs)."
   editor: {pt: "#/edit/paginas_estruturais/graduacao_pt", en: "#/edit/paginas_estruturais/graduacao_en"}
   detalhe:
     pt: "Página inteira em Markdown, sem template próprio."
@@ -98,6 +103,7 @@ disciplinas:
 
 tgs:
   origem: importada
+  fonte: biblioteca
   editor: {pt: "#/edit/paginas_estruturais/tgs_pt", en: "#/edit/paginas_estruturais/tgs_en"}
   detalhe:
     pt: "Título e introdução são Markdown; a lista de trabalhos vem da Biblioteca."
@@ -105,6 +111,10 @@ tgs:
 
 pg-cursos:
   origem: markdown
+  principal: true
+  papel:
+    pt: "Página principal da seção Pós-Graduação (no menu: Cursos)."
+    en: "Main Graduate Studies page (menu label: Programs)."
   editor: {pt: "#/edit/paginas_estruturais/posgraduacao_pt", en: "#/edit/paginas_estruturais/posgraduacao_en"}
   detalhe:
     pt: "Página inteira em Markdown, sem template próprio."
@@ -112,6 +122,7 @@ pg-cursos:
 
 teses:
   origem: importada
+  fonte: biblioteca
   editor: {pt: "#/edit/paginas_estruturais/teses_pt", en: "#/edit/paginas_estruturais/teses_en"}
   detalhe:
     pt: "Título e introdução são Markdown; dissertações e teses vêm da Biblioteca."

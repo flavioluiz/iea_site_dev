@@ -41,15 +41,25 @@ class CmsRenderContractTests(unittest.TestCase):
             self.assertIn("$.AddPage", adapter)
 
         nav = (ROOT / "layouts/partials/nav.html").read_text(encoding="utf-8")
+        nav_tree = (ROOT / "layouts/partials/nav-tree.html").read_text(encoding="utf-8")
+        nav_active = (ROOT / "layouts/partials/nav-active.html").read_text(encoding="utf-8")
         self.assertIn(".Site.Data.paginas", nav)
         self.assertNotIn(".Site.Menus.main", nav)
-        self.assertIn('where $nodes "parent" "root"', nav)
+        self.assertIn('"parent" "root"', nav)
+        self.assertIn('where $nodes "parent" $parent', nav_tree)
+        self.assertIn('partial "nav-tree.html"', nav_tree)
+        self.assertIn('partial "nav-active.html"', nav_tree)
+        self.assertIn("return $active", nav_active)
 
         map_output = (ROOT / "layouts/index.mapasite.json").read_text(encoding="utf-8")
+        validation = (ROOT / "scripts/validate_data.py").read_text(encoding="utf-8")
+        rendering_check = (ROOT / "scripts/check_cms_rendering.py").read_text(encoding="utf-8")
         hugo_config = (ROOT / "config/_default/config.yaml").read_text(encoding="utf-8")
         self.assertIn('dict "version" 2 "nodes" $nodes', map_output)
         self.assertIn('"edicao" $edicao', map_output)
-        self.assertIn('home: ["HTML", "RSS", "JSON", "MAPASITE"]', hugo_config)
+        self.assertIn('node.get("tipo") == "pagina_editavel" and editor is None', validation)
+        self.assertIn('node["tipo"] == "pagina_editavel" and not editor', rendering_check)
+        self.assertIn('home: ["HTML", "RSS", "JSON", "MAPASITE", "FONTESDADOS"]', hugo_config)
 
     def test_every_structural_markdown_page_renders_title_and_body(self) -> None:
         content_files = [entry["file"] for entry in self.collections["paginas_estruturais"]["files"]]
@@ -78,6 +88,8 @@ class CmsRenderContractTests(unittest.TestCase):
 
         editors = yaml.safe_load((ROOT / "data/admin/paginas_edicao.yaml").read_text(encoding="utf-8"))
         self.assertEqual("markdown", editors["pg-cursos"]["origem"])
+        self.assertTrue(editors["pg-cursos"]["principal"])
+        self.assertIn("Página principal da seção Pós-Graduação", editors["pg-cursos"]["papel"]["pt"])
         self.assertEqual(
             "#/edit/paginas_estruturais/posgraduacao_pt",
             editors["pg-cursos"]["editor"]["pt"],
@@ -97,6 +109,7 @@ class CmsRenderContractTests(unittest.TestCase):
             "  - name: laboratorios", 1
         )[0]
         self.assertIn("folder: data/pessoal/professores", people_block)
+        self.assertIn("delete: true", people_block)
         self.assertIn('label: "Somente pessoas ativas"', people_block)
         self.assertIn('{ label: "Departamento", field: departamento }', people_block)
         self.assertIn('{ label: "Categoria", field: categoria }', people_block)
@@ -110,6 +123,7 @@ class CmsRenderContractTests(unittest.TestCase):
         laboratories = self.collections["laboratorios"]
         self.assertEqual("data/laboratorios", laboratories["folder"])
         self.assertTrue(laboratories["create"])
+        self.assertTrue(laboratories["delete"])
         self.assertIn("departamento", [group["field"] for group in laboratories["view_groups"]])
         self.assertIn("tema", [group["field"] for group in laboratories["view_groups"]])
         self.assertNotIn("data/laboratorios.json", self.config)

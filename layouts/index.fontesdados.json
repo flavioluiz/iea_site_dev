@@ -1,0 +1,9 @@
+{{- $scopus := .Site.Data.generated.scopus.manifest | default dict -}}
+{{- $biblioteca := .Site.Data.generated.biblioteca.manifest | default dict -}}
+{{- dict
+  "version" 1
+  "sources" (slice
+    (dict "id" "scopus" "manifest" $scopus)
+    (dict "id" "biblioteca" "manifest" $biblioteca)
+  )
+  | jsonify -}}

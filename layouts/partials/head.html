@@ -101,8 +101,20 @@
 
   /* Desktop hover behavior */
   @media (min-width: 1024px) {
-    .dropdown:hover .dropdown-menu {
+    .dropdown:hover > .dropdown-menu {
       display: block;
+    }
+
+    .nested-menu {
+      padding-top: 0;
+    }
+
+    .nested-menu::before {
+      top: 0;
+      left: -0.75rem;
+      right: auto;
+      width: 0.75rem;
+      height: 100%;
     }
   }
 

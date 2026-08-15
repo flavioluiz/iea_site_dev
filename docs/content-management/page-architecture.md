@@ -7,6 +7,8 @@ O painel distingue duas coisas que antes apareciam misturadas:
 
 Uma seção do menu pode conter uma página Markdown. É o caso de **Pós-Graduação**: `posgraduacao` organiza o submenu, enquanto o item `pg-cursos` abre o conteúdo completo de `content/posgraduacao/_index.pt.md`. Essa página usa o layout padrão do Hugo; não é automática nem possui template próprio.
 
+O menu é renderizado recursivamente a partir de `data/paginas/`. Portanto, submenus criados dentro de outras seções aparecem tanto na árvore administrativa quanto na navegação pública, sem limite fixo de dois níveis no template.
+
 ## Resultado da auditoria
 
 | Formato editorial | Páginas | Decisão |

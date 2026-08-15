@@ -28,7 +28,7 @@ collections:
   - name: paginas
     label: "1. Mapa do site"
     label_singular: "Item técnico do menu"
-    description: "Esta coleção abre o Mapa visual automaticamente. A lista técnica serve apenas para ajustar nome, posição e visibilidade no menu; o texto da página possui um botão próprio no mapa."
+    description: "Esta coleção sempre abre a árvore visual. Crie páginas e submenus nos botões da própria árvore; os formulários individuais servem para nome, posição e visibilidade."
     folder: data/paginas
     create: true
     delete: true
@@ -206,6 +206,7 @@ collections:
     description: "Uma ficha por pessoa. Use Filtrar por ou Agrupar por; em Visualizar como, escolha cartões para ver as fotos. Desative em vez de excluir quem saiu."
     folder: data/pessoal/professores
     create: true
+    delete: true
     format: json
     extension: json
     identifier_field: nome
@@ -347,9 +348,10 @@ collections:
   - name: laboratorios
     label: "4. Laboratórios"
     label_singular: "Laboratório"
-    description: "Uma ficha por laboratório. Edite somente o laboratório desejado: os demais permanecem intactos. Use os filtros para localizar por departamento ou tema."
+    description: "Uma ficha por laboratório. Para remover, abra somente a ficha desejada e use Excluir; os demais permanecem intactos. Use os filtros para localizar por departamento ou tema."
     folder: data/laboratorios
     create: true
+    delete: true
     format: json
     extension: json
     identifier_field: nome_pt

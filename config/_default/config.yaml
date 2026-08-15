@@ -19,6 +19,8 @@ removePathAccents: true
 mediaTypes:
   application/vnd.iea.map+json:
     suffixes: [json]
+  application/vnd.iea.sources+json:
+    suffixes: [json]
 
 outputFormats:
   MAPASITE:
@@ -26,9 +28,14 @@ outputFormats:
     baseName: mapa-site
     isPlainText: true
     notAlternative: true
+  FONTESDADOS:
+    mediaType: application/vnd.iea.sources+json
+    baseName: fontes-dados
+    isPlainText: true
+    notAlternative: true
 
 outputs:
-  home: ["HTML", "RSS", "JSON", "MAPASITE"]
+  home: ["HTML", "RSS", "JSON", "MAPASITE", "FONTESDADOS"]
   section: ["HTML", "RSS"]
 
 # Markup
