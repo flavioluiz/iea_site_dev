@@ -71,6 +71,7 @@ class AdminCspTests(unittest.TestCase):
         help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
 
         self.assertIn("Como as páginas são montadas", guide)
+        self.assertIn('href="./#/collections/paginas_estruturais">← Voltar ao editor', guide)
         self.assertIn("Markdown completo", guide)
         self.assertIn("Solicitar alteração maior", guide)
         self.assertNotIn("<script", guide)
@@ -87,7 +88,7 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("../pt/mapa-site.json", script)
         self.assertIn("connect-src 'self' https://api.github.com", page)
         self.assertIn("pending-panel", page)
-        self.assertIn('href="./index.html">← Voltar ao editor', page)
+        self.assertIn('href="./#/collections/paginas_estruturais">← Voltar ao editor', page)
         self.assertIn("https://api.github.com/repos/flavioluiz/iea_site_dev/pulls", script)
         self.assertIn("decap-cms/pending_publish", script)
         self.assertIn("check-runs?per_page=100", script)
