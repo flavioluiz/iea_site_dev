@@ -46,10 +46,20 @@ class AdminCspTests(unittest.TestCase):
 
     def test_admin_explains_statuses_and_account_roles(self) -> None:
         help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
+        index = (ROOT / "static/admin/index.html").read_text(encoding="utf-8")
+        publication_status = (ROOT / "static/admin/publication-status.js").read_text(encoding="utf-8")
         self.assertIn("Entenda o fluxo", help_script)
         self.assertIn("Editor externo", help_script)
         self.assertIn("Mantenedor", help_script)
         self.assertIn("Só <strong>Publicar</strong> altera o site no ar", help_script)
+        self.assertIn('src="./publication-status.js', index)
+        self.assertIn('name: "prePublish"', publication_status)
+        self.assertIn('name: "postPublish"', publication_status)
+        self.assertIn("Alteração aceita — preparando o site", publication_status)
+        self.assertIn("Publicação em andamento", publication_status)
+        self.assertIn("Publicação concluída", publication_status)
+        self.assertIn("actions/workflows/deploy.yml/runs", publication_status)
+        self.assertIn("window.localStorage", publication_status)
 
     def test_admin_logo_uses_the_current_site_origin(self) -> None:
         config = (ROOT / "static/admin/config.yml").read_text(encoding="utf-8")
@@ -90,6 +100,7 @@ class AdminCspTests(unittest.TestCase):
         self.assertIn("originMeta", script)
         self.assertIn("Ajustar no menu", script)
         self.assertIn("./mapa-visual.html", help_script)
+        self.assertIn("./publication-status.js", page)
 
     def test_technical_page_list_redirects_to_visual_map(self) -> None:
         help_script = (ROOT / "static/admin/help.js").read_text(encoding="utf-8")
