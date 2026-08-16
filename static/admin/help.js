@@ -157,7 +157,7 @@
         <dt><strong>Em revisão</strong></dt><dd style="margin:0">Está pronto para outra pessoa conferir.</dd>
         <dt><strong>Pronto</strong></dt><dd style="margin:0">A revisão terminou; ainda não está no ar.</dd>
         <dt><strong>Ver prévia</strong></dt><dd style="margin:0">Abre o site de teste; não muda o estado.</dd>
-        <dt><strong>Publicar</strong></dt><dd style="margin:0">Disponível a mantenedores. Mescla a proposta e inicia a atualização do site.</dd>
+        <dt><strong>Publicar</strong></dt><dd style="margin:0">Disponível a mantenedores. Mescla a proposta e inicia a atualização do site. Um aviso permanece na tela até confirmar que o site está no ar.</dd>
       </dl>
       <div style="margin-top:18px;padding:12px 14px;background:#fff7df;border-left:4px solid #d69b16;border-radius:6px">
         Se <strong>Publicar</strong> der erro, abra o Mapa do site. Use Publicar apenas quando aparecer <strong>Pode publicar</strong>. Trocar entre Rascunho, Revisão e Pronto não atualiza a proposta nem corrige testes.
